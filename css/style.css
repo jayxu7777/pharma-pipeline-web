@@ -234,6 +234,7 @@ main.content {
 .tabulator .tabulator-header .tabulator-arrow { border-bottom-color: var(--navy-300); border-top-color: var(--navy-300); }
 .tabulator .tabulator-row { background: var(--surface); border-bottom: 1px solid var(--border); }
 .tabulator .tabulator-row.tabulator-row-even { background: #FBFCFD; }
+.tabulator .tabulator-row { cursor: pointer; }
 .tabulator .tabulator-row:hover { background: #EEF3FA; }
 .tabulator .tabulator-cell { padding: 8px 12px; border-right: none; }
 .tabulator .tabulator-footer { background: var(--bg); border-top: 1px solid var(--border); color: var(--text-muted); }
