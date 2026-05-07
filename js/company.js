@@ -1,4 +1,4 @@
-// Pharma Pipeline — company detail page
+// Pharma Pipeline — company detail page (md-flat-table style)
 
 const params = new URLSearchParams(location.search);
 const slug = (params.get('ticker') || '').toLowerCase().trim();
@@ -14,18 +14,50 @@ function esc(s) {
 function phaseClass(p) {
   if (!p) return 'p0';
   const s = String(p).toUpperCase();
-  if (s.includes('3') || s.includes('III') || s.includes('NDA') || s.includes('BLA') || s.includes('PIVOTAL') || s.includes('REGISTRATIONAL')) return 'p3';
-  if (s.includes('2') || s.includes('II')) return 'p2';
-  if (s.includes('1') || s.includes('I')) return 'p1';
+  if (/PHASE\s*3|PHASE\s*III|^P3|NDA|BLA|MAA|PIVOTAL|REGISTRATIONAL|APPROVED/.test(s)) return 'p3';
+  if (/PHASE\s*2\/3|PHASE\s*II\/III|2B\/3/.test(s)) return 'p3';
+  if (/PHASE\s*2|PHASE\s*II|^P2/.test(s)) return 'p2';
+  if (/PHASE\s*1\/2|PHASE\s*I\/II/.test(s)) return 'p2';
+  if (/PHASE\s*1|PHASE\s*I|^P1/.test(s)) return 'p1';
   return 'p0';
 }
 
-function nctLinks(nct) {
-  if (!nct) return '';
+function normalizePhaseBucket(p) {
+  // Mirror build_web.py normalization for header-line counts.
+  if (!p) return '';
+  const s = String(p).toUpperCase();
+  if (/PHASE\s*3|PHASE\s*III|^P3|NDA|BLA|MAA|PIVOTAL|REGISTRATIONAL|APPROVED|FILED/.test(s)) return 'P3';
+  if (/PHASE\s*2\/3|PHASE\s*II\/III|2B\/3/.test(s)) return 'P3';
+  if (/PHASE\s*2|PHASE\s*II|^P2/.test(s)) return 'P2';
+  if (/PHASE\s*1\/2|PHASE\s*I\/II/.test(s)) return 'P2';
+  if (/PHASE\s*1|PHASE\s*I|^P1/.test(s)) return 'P1';
+  return '';
+}
+
+function countPhases(pipeline) {
+  let assets = 0, p1 = 0, p2 = 0, p3 = 0;
+  for (const a of (pipeline || [])) {
+    let active = false;
+    for (const ind of (a.indications || [])) {
+      const ph = normalizePhaseBucket(ind.highest_phase);
+      if (ph === 'P3') { p3++; active = true; }
+      else if (ph === 'P2') { p2++; active = true; }
+      else if (ph === 'P1') { p1++; active = true; }
+    }
+    if (active) assets++;
+  }
+  return { assets, p3, p2, p1 };
+}
+
+function nctCell(nct) {
+  if (nct == null || nct === '') return '<span class="status">—</span>';
   if (Array.isArray(nct)) {
     if (!nct.length) return '<span class="status">No NCT</span>';
-    return nct.map(id => `<a class="nct" href="https://clinicaltrials.gov/study/${esc(id)}" target="_blank" rel="noopener">${esc(id)}</a>`).join(', ');
+    return nct.map(id =>
+      `<a class="nct" href="https://clinicaltrials.gov/study/${esc(id)}" target="_blank" rel="noopener">${esc(id)}</a>`
+    ).join('<br>');
   }
+  // string fallback (e.g. "Not on public registry")
   return `<span class="status">${esc(nct)}</span>`;
 }
 
@@ -34,90 +66,94 @@ function sourceLinks(sources) {
   const out = [];
   for (const [k, v] of Object.entries(sources)) {
     if (!v) continue;
-    if (typeof v === 'object') {
-      if (v.error) {
-        out.push(`<span title="${esc(v.error)}">${k}: <em style="color:var(--warn)">unavailable</em></span>`);
+    if (typeof v !== 'object') continue;
+    if (v.error) {
+      out.push(`<span title="${esc(v.error)}">${esc(k)}: <em style="color:var(--warn)">unavailable</em></span>`);
+    } else {
+      const url = v.primary_url || v.pipeline_page || v.filing_url || v.url || null;
+      if (url) {
+        out.push(`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(k)}</a>`);
       } else {
-        const url = v.primary_url || v.pipeline_page || v.filing_url || v.url || null;
-        if (url) {
-          out.push(`<a href="${esc(url)}" target="_blank" rel="noopener">${k}</a>`);
-        } else {
-          out.push(`<span>${k}</span>`);
-        }
+        out.push(`<span>${esc(k)}</span>`);
       }
     }
   }
   return out.join(' · ');
 }
 
-function renderPipeline(pipeline) {
-  if (!pipeline || !pipeline.length) return null;
+function renderPipelineFlat(pipeline) {
+  // md-style flat table: Asset | Target | Indication | Highest phase | Key NCT | Status
+  // Asset and Target use rowspan for multi-indication assets.
+  if (!pipeline || !pipeline.length) return '';
+
   let html = `<table class="pipeline">
     <thead>
       <tr>
         <th style="width:18%">Asset</th>
-        <th style="width:22%">Indication</th>
-        <th style="width:8%">Phase</th>
-        <th style="width:18%">Trial</th>
-        <th style="width:14%">NCT</th>
-        <th style="width:10%">Status</th>
-        <th>Sponsor</th>
+        <th style="width:14%">Target</th>
+        <th style="width:28%">Indication</th>
+        <th style="width:9%">Highest phase</th>
+        <th style="width:14%">Key NCT</th>
+        <th style="width:17%">Status</th>
       </tr>
     </thead>
     <tbody>`;
+
   for (const asset of pipeline) {
     const inds = asset.indications || [];
-    const colspan = 7;
-    const akaTxt = (asset.aka && asset.aka.length) ? ` (${asset.aka.join(', ')})` : '';
-    html += `<tr class="asset-row"><td colspan="${colspan}">
-      ${esc(asset.asset || 'Unnamed asset')}${esc(akaTxt)}
-      ${asset.modality ? `<span class="modality">${esc(asset.modality)}${asset.target ? ' · ' + esc(asset.target) : ''}${asset.license_origin ? ' · ' + esc(asset.license_origin) : ''}</span>` : ''}
-    </td></tr>`;
+    const akaTxt = (asset.aka && asset.aka.length) ? ` <span class="aka">(${asset.aka.map(esc).join(', ')})</span>` : '';
+    const modalityLine = asset.modality
+      ? `<div class="modality">${esc(asset.modality)}${asset.license_origin ? ' · ' + esc(asset.license_origin) : ''}</div>`
+      : '';
+
     if (!inds.length) {
-      html += `<tr><td></td><td colspan="${colspan - 1}" class="status">No indications listed</td></tr>`;
+      html += `<tr class="asset-flat">
+        <td><strong>${esc(asset.asset || 'Unnamed')}</strong>${akaTxt}${modalityLine}</td>
+        <td>${esc(asset.target || '')}</td>
+        <td colspan="4" class="status">No indications listed</td>
+      </tr>`;
       continue;
     }
-    for (const ind of inds) {
+
+    const span = inds.length;
+    inds.forEach((ind, i) => {
+      html += `<tr class="asset-flat">`;
+      if (i === 0) {
+        html += `<td rowspan="${span}"><strong>${esc(asset.asset || 'Unnamed')}</strong>${akaTxt}${modalityLine}</td>`;
+        html += `<td rowspan="${span}">${esc(asset.target || '')}</td>`;
+      }
       const ph = ind.highest_phase || '';
       const cls = phaseClass(ph);
       const milestones = (ind.key_milestones && ind.key_milestones.length)
-        ? `<ul class="milestones">${ind.key_milestones.map(m => `<li>${esc(m)}</li>`).join('')}</ul>`
+        ? `<details class="ms"><summary>milestones (${ind.key_milestones.length})</summary><ul class="milestones">${ind.key_milestones.map(m => `<li>${esc(m)}</li>`).join('')}</ul></details>`
         : '';
-      html += `<tr>
-        <td></td>
-        <td>${esc(ind.indication || '')}${milestones}</td>
+      const trialName = ind.trial_name ? `<div class="trial-name">${esc(ind.trial_name)}</div>` : '';
+      html += `<td>${esc(ind.indication || '')}${trialName}${milestones}</td>
         <td><span class="pill ${cls}">${esc(ph || '—')}</span></td>
-        <td>${esc(ind.trial_name || '')}${ind.trial_design ? `<div class="status">${esc(ind.trial_design)}</div>` : ''}</td>
-        <td>${nctLinks(ind.nct_ids)}</td>
+        <td>${nctCell(ind.nct_ids)}</td>
         <td><span class="status">${esc(ind.trial_status || '')}</span></td>
-        <td>${esc(ind.lead_sponsor || '')}</td>
       </tr>`;
-    }
+    });
   }
   html += '</tbody></table>';
   return html;
 }
 
-function renderCommercial(cp) {
-  if (!cp) return null;
+function commercialOneLiner(cp) {
+  if (!cp) return '';
   const lines = cp.lines || cp.products || [];
-  if (!lines.length) return null;
-  let html = `<table class="pipeline"><thead><tr>
-    <th style="width:25%">Product</th>
-    <th style="width:20%">Modality</th>
-    <th style="width:30%">Regulatory status</th>
-    <th>Indication</th>
-  </tr></thead><tbody>`;
-  for (const line of lines) {
-    html += `<tr>
-      <td><strong>${esc(line.name || '')}</strong></td>
-      <td>${esc(line.modality || '')}</td>
-      <td>${esc(line.regulatory_status || '')}</td>
-      <td>${esc(line.indication || '')}</td>
-    </tr>`;
-  }
-  html += '</tbody></table>';
-  return html;
+  if (!lines.length) return '';
+  const parts = lines.map(l => {
+    const name = l.name || '';
+    const ind = l.indication ? ` — ${l.indication}` : '';
+    return `${name}${ind}`;
+  });
+  return `<div class="oneliner"><strong>Commercial:</strong> ${esc(parts.join(' · '))}</div>`;
+}
+
+function blockersOneLiner(blockers) {
+  if (!blockers || !blockers.length) return '';
+  return `<div class="oneliner"><strong>Blockers:</strong> ${esc(blockers.join(' · '))}</div>`;
 }
 
 function renderExcluded(items, title) {
@@ -143,12 +179,13 @@ async function init() {
     return;
   }
 
-  document.title = `${company.ticker || slug.toUpperCase()} — ${company.issuer_name || ''} · Pharma Pipeline`;
+  document.title = `${(company.ticker || slug).toUpperCase()} — ${company.issuer_name || ''} · Pharma Pipeline`;
 
+  const counts = countPhases(company.pipeline);
+  const pipelineHtml = renderPipelineFlat(company.pipeline);
   const sourcesHtml = sourceLinks(company.sources);
-  const pipelineHtml = renderPipeline(company.pipeline);
-  const commercialHtml = renderCommercial(company.commercial_product);
 
+  // Header
   let html = `
     <div class="detail-header">
       <h1>${esc(company.issuer_name || '')}</h1>
@@ -159,36 +196,39 @@ async function init() {
         snapshot ${esc(company.snapshot_date || '')}
       </div>
       ${sourcesHtml ? `<div class="sources">Sources: ${sourcesHtml}</div>` : ''}
+      <div class="counts-line">
+        <em>${counts.assets} active asset${counts.assets === 1 ? '' : 's'}
+        — ${counts.p3} P3 / ${counts.p2} P2 / ${counts.p1} P1</em>
+      </div>
     </div>
   `;
 
-  html += `<div class="section">
-    <h2>Active P1/P2/P3 Pipeline</h2>
-    ${pipelineHtml || `<div class="no-pipeline">${esc(company.no_active_clinical_pipeline_reason || 'No active P1/P2/P3 pipeline reported.')}</div>`}
-  </div>`;
-
-  if (commercialHtml) {
-    html += `<div class="section">
-      <h2>Commercial Products</h2>
-      ${commercialHtml}
-    </div>`;
+  // Pipeline body — flat md-style table or italic narrative for empty
+  if (pipelineHtml) {
+    html += `<div class="section">${pipelineHtml}</div>`;
+  } else {
+    const reason = company.no_active_clinical_pipeline_reason
+      || 'No active P1/P2/P3 pipeline reported.';
+    html += `<div class="section"><p class="narrative"><em>${esc(reason)}</em></p></div>`;
   }
 
+  // One-liner extras (commercial / blockers) — md style
+  const extras = [
+    commercialOneLiner(company.commercial_product),
+    blockersOneLiner(company.blockers),
+  ].filter(Boolean).join('');
+  if (extras) {
+    html += `<div class="section extras">${extras}</div>`;
+  }
+
+  // Excluded — kept collapsible (not in md but useful for the web)
   const exHtml = [
     renderExcluded(company.excluded_preclinical, 'Excluded — preclinical / IND-pending'),
     renderExcluded(company.excluded_legacy_terminated, 'Excluded — terminated / withdrawn'),
     renderExcluded(company.excluded_partner_owned, 'Excluded — partner-owned'),
   ].filter(Boolean).join('');
   if (exHtml) {
-    html += `<div class="section"><h2>Excluded</h2>${exHtml}</div>`;
-  }
-
-  if (company.blockers && company.blockers.length) {
-    html += `<div class="section"><h2>Data caveats</h2>
-      <ul style="margin:0;padding-left:18px;color:var(--text-muted);font-size:13px">
-        ${company.blockers.map(b => `<li>${esc(b)}</li>`).join('')}
-      </ul>
-    </div>`;
+    html += `<div class="section">${exHtml}</div>`;
   }
 
   root.innerHTML = html;

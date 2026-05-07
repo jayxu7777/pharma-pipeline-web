@@ -21,7 +21,7 @@ let rows = [];
 let activeFilters = {
   q: '',
   kinds: new Set(),
-  hasPipeline: false,
+  hasPipeline: true,   // default ON: hide the 625 companies with no active pipeline
   phase: '',
   exchanges: new Set(),
   areas: new Set(),
@@ -137,8 +137,9 @@ async function init() {
     applyFilters();
   });
   document.getElementById('reset-btn').addEventListener('click', () => {
-    activeFilters = { q: '', kinds: new Set(), hasPipeline: false, phase: '', exchanges: new Set(), areas: new Set() };
+    activeFilters = { q: '', kinds: new Set(), hasPipeline: true, phase: '', exchanges: new Set(), areas: new Set() };
     document.querySelectorAll('input[type=checkbox]').forEach(c => c.checked = false);
+    document.getElementById('f-has-pipeline').checked = true;
     document.getElementById('q').value = '';
     document.getElementById('f-phase').value = '';
     applyFilters();
@@ -194,7 +195,8 @@ async function init() {
     ],
   });
 
-  document.getElementById('result-count').textContent = `${fmt(rows.length)} companies`;
+  // Apply the default filter (hasPipeline=true) once the table is built.
+  table.on('tableBuilt', () => applyFilters());
 }
 
 init().catch(err => {

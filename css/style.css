@@ -309,11 +309,12 @@ main.content {
   padding-bottom: 8px;
 }
 
-/* Pipeline detail table */
+/* Pipeline detail table — md-flat style */
 table.pipeline {
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
+  table-layout: fixed;
 }
 table.pipeline thead {
   position: sticky;
@@ -330,23 +331,44 @@ table.pipeline thead th {
   letter-spacing: 0.4px;
   font-weight: 500;
   border-right: 1px solid var(--navy-700);
+  word-wrap: break-word;
 }
 table.pipeline tbody td {
   padding: 10px 12px;
   border-bottom: 1px solid var(--border);
   vertical-align: top;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
 }
-table.pipeline tbody tr.asset-row td {
-  background: #F1F5FA;
-  font-weight: 600;
+table.pipeline tbody tr.asset-flat td:first-child,
+table.pipeline tbody tr.asset-flat td:nth-child(2) {
+  background: #F6F9FC;
+  border-right: 1px solid var(--border);
+}
+table.pipeline tbody tr.asset-flat td:first-child strong {
   color: var(--navy-900);
-  border-top: 2px solid var(--navy-300);
 }
-table.pipeline tbody tr.asset-row td .modality {
-  font-weight: 400;
+table.pipeline tbody tr.asset-flat .aka {
   color: var(--text-muted);
+  font-weight: 400;
   font-size: 12px;
-  margin-left: 8px;
+}
+table.pipeline tbody tr.asset-flat .modality {
+  color: var(--text-muted);
+  font-weight: 400;
+  font-size: 11px;
+  margin-top: 2px;
+}
+table.pipeline .trial-name {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+table.pipeline details.ms { margin-top: 4px; }
+table.pipeline details.ms summary {
+  cursor: pointer;
+  font-size: 11px;
+  color: var(--navy-700);
 }
 table.pipeline .nct {
   font-family: 'JetBrains Mono', monospace;
@@ -382,6 +404,33 @@ details.collapsible ul { margin: 6px 0 0 18px; padding: 0; color: var(--text-mut
   font-style: italic;
   padding: 20px;
   text-align: center;
+}
+
+.detail-header .counts-line {
+  margin-top: 10px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+.detail-header .counts-line em {
+  font-style: italic;
+}
+
+.section .narrative {
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 8px 4px;
+}
+
+.section.extras .oneliner {
+  font-size: 13px;
+  margin: 4px 0;
+  color: var(--text);
+}
+.section.extras .oneliner strong {
+  color: var(--navy-900);
+  margin-right: 6px;
 }
 
 /* Footer */
