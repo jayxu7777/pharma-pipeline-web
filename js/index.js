@@ -153,18 +153,6 @@ async function init() {
     paginationSize: 50,
     paginationSizeSelector: [25, 50, 100, 200],
     height: '70vh',
-    rowClick: (e, row) => {
-      // Ignore clicks that landed on a real <a> (so the existing ticker
-      // link / sources link / etc. behave normally — including middle/cmd-click).
-      if (e.target.closest('a')) return;
-      const slug = row.getData().slug;
-      // Cmd / Ctrl / middle-click → open in new tab
-      if (e.metaKey || e.ctrlKey) {
-        window.open(`company.html?ticker=${encodeURIComponent(slug)}`, '_blank');
-      } else {
-        location.href = `company.html?ticker=${encodeURIComponent(slug)}`;
-      }
-    },
     initialSort: [
       { column: 'p3', dir: 'desc' },
       { column: 'p2', dir: 'desc' },
@@ -205,6 +193,17 @@ async function init() {
         formatter: (cell) => pill(cell.getValue(), 'p1'),
       },
     ],
+  });
+
+  // Tabulator 5.x: row click as an event subscription (config option is ignored).
+  table.on('rowClick', (e, row) => {
+    if (e.target.closest('a')) return; // let real links behave normally
+    const slug = row.getData().slug;
+    if (e.metaKey || e.ctrlKey) {
+      window.open(`company.html?ticker=${encodeURIComponent(slug)}`, '_blank');
+    } else {
+      location.href = `company.html?ticker=${encodeURIComponent(slug)}`;
+    }
   });
 
   // Apply the default filter (hasPipeline=true) once the table is built.
