@@ -1,0 +1,84 @@
+{
+  "issuer_name": "Oculis Holding AG",
+  "ticker": "OCS",
+  "exchange": "Nasdaq",
+  "cik": "0001953530",
+  "region": "Switzerland (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F instead of 10-K"},
+    "website": {"url": "http://oculis.com/pipeline", "note": "JS-rendered SPA; programmatic extraction returned only template code; relied on ctgov + public disclosures"},
+    "ctgov": {"file": "data/ocs_ctgov_compact.json", "trial_count": 10}
+  },
+  "pipeline": [
+    {
+      "asset": "OCS-01",
+      "aka": ["dexamethasone cyclodextrin nanoparticle ophthalmic suspension 1.5%", "DexNP"],
+      "modality": "Ophthalmic suspension (cyclodextrin nanoparticle topical dexamethasone)",
+      "target": "Glucocorticoid receptor (anti-inflammatory)",
+      "license_origin": "Internal (Oculis OPTIREACH platform)",
+      "indications": [
+        {
+          "indication": "Diabetic macular edema (DME)",
+          "highest_phase": "Phase 3",
+          "trial_name": "DIAMOND-1 / DIAMOND-2",
+          "trial_design": "Two pivotal Phase 3 randomized, double-masked, vehicle-controlled studies of OCS-01 eye drops vs vehicle",
+          "nct_ids": ["NCT05066997", "NCT06172257"],
+          "trial_status": "Both pivotal studies completed primary completion April 2026; data readout supporting NDA preparation",
+          "lead_sponsor": "Oculis",
+          "key_milestones": ["DIAMOND-2 primary completion 2026-04-02", "DIAMOND-1 primary completion 2026-04-10"]
+        }
+      ]
+    },
+    {
+      "asset": "Licaminlimab",
+      "aka": ["OCS-02"],
+      "modality": "Topical anti-TNF-alpha monoclonal antibody fragment (single-domain) ophthalmic solution",
+      "target": "TNF-alpha",
+      "license_origin": "Internal (in-licensed/acquired anti-TNF antibody fragment)",
+      "indications": [
+        {
+          "indication": "Dry eye disease (DED)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "RELIEF (pivotal program)",
+          "trial_design": "Phase 2/3 randomized, vehicle-controlled efficacy and safety study with artificial tear run-in; biomarker-stratified DED population",
+          "nct_ids": ["NCT07548632"],
+          "trial_status": "Recruiting (started 2026-04-16)",
+          "lead_sponsor": "Oculis",
+          "key_milestones": ["Primary completion expected 2026-12"]
+        }
+      ]
+    },
+    {
+      "asset": "OCS-05",
+      "aka": ["BOL-303259-X"],
+      "modality": "Small molecule neuroprotectant (IV)",
+      "target": "Neuroprotection (collapsin response mediator protein-2 / CRMP-2 modulator)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute optic neuritis (neuroprotection)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ACUITY",
+          "trial_design": "Phase 2 randomized, double-masked, placebo-controlled, with standard-of-care IV corticosteroid in acute optic neuritis",
+          "nct_ids": ["NCT04762017"],
+          "trial_status": "Completed (primary completion 2024-09-16); Phase 3 planning ongoing",
+          "lead_sponsor": "Oculis",
+          "key_milestones": ["Phase 2 topline reported; planning pivotal Phase 3 in optic neuritis / broader neuro-ophthalmology"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["OCS-03 / OCS-04 and earlier discovery programs"],
+  "excluded_legacy_terminated": [
+    "NCT06128369 — OCS-01 post-cataract inflammation/pain Phase 3, Terminated 2024-05",
+    "NCT05147233 / NCT04130802 — earlier OCS-01 cataract program, Completed (program de-prioritized in favor of DME)",
+    "NCT05343156 — earlier OCS-01 DME Phase 2, Completed (superseded by DIAMOND program)",
+    "NCT05896670 — licaminlimab DED Phase 2, Completed (superseded by NCT07548632)"
+  ],
+  "excluded_partner_owned": [
+    "NCT05608837 — OCS-01 in uveitic / post-surgical macular edema, Phase 2, Active not recruiting; investigator-sponsored (Quan Dong Nguyen / GORC), Oculis listed only as collaborator"
+  ],
+  "summary_counts": {"assets": 3, "phase3": 1, "phase2_3": 1, "phase2": 1, "phase1_or_1_2": 0, "indications_total": 3}
+}

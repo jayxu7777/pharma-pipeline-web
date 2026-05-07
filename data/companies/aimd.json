@@ -1,0 +1,73 @@
+{
+  "issuer_name": "Ainos, Inc.",
+  "ticker": "AIMD",
+  "exchange": "Nasdaq",
+  "cik": "0001014763",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-013579", "filed": "2026-03-30", "doc": "form10-k.htm"},
+    "website": {"url": "https://www.ainos.com", "fetched": "2026-05-06", "note": "no formal corporate pipeline page; details from 10-K"},
+    "ctgov": {"file": "data/aimd_ctgov_compact.json", "n_studies": 7, "note": "All US ctgov entries are legacy Amarillo Biosciences trials — completed or terminated; current Taiwan studies not on US registry"}
+  },
+  "pipeline": [
+    {
+      "asset": "VELDONA (low-dose oral interferon alpha lozenge)",
+      "aka": ["Veldona", "low-dose oral IFN-alpha"],
+      "modality": "Low-dose oral cytokine (interferon-alpha lozenge)",
+      "target": "Type I interferon receptor (mucosal immune modulation)",
+      "license_origin": "Internal (legacy Amarillo Biosciences)",
+      "indications": [
+        {
+          "indication": "Oral warts in HIV-seropositive patients",
+          "highest_phase": "Phase 2",
+          "trial_name": "VELDONA Taiwan oral warts study",
+          "trial_design": "Clinical study advancing in Taiwan, subject to enrollment progress; FDA orphan drug designation granted",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Advancing in Taiwan (10-K, 2026-03-30); enrollment progress dependent",
+          "lead_sponsor": "Ainos, Inc.",
+          "key_milestones": ["FDA orphan drug designation"]
+        },
+        {
+          "indication": "Sjögren's syndrome",
+          "highest_phase": "Phase 2",
+          "trial_name": "VELDONA Taiwan Sjögren's study",
+          "trial_design": "Clinical study advancing in Taiwan, subject to enrollment progress",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Advancing in Taiwan (10-K, 2026-03-30); enrollment progress dependent",
+          "lead_sponsor": "Ainos, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Feline chronic gingivostomatitis (FCGS) — veterinary",
+          "highest_phase": "Phase 2 (veterinary)",
+          "trial_name": "VELDONA FCGS Taiwan study",
+          "trial_design": "Clinical study advancing in Taiwan in companion animals",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Advancing in Taiwan (10-K, 2026-03-30)",
+          "lead_sponsor": "Ainos, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "VELDONA Pet supplements; AI Nose / POCT (COVID-19 Antigen Rapid Test, Ainos Flora) — primarily devices and supplements",
+    "regions": ["Taiwan"]
+  },
+  "excluded_preclinical": [
+    {"asset": "POCT devices powered by AI Nose (ventilator-associated pneumonia, women's vaginal health, STIs)", "reason": "Diagnostic devices, not drug pipeline"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT00690885", "reason": "TERMINATED — IFN-alpha cough COPD/IPF (legacy)"},
+    {"nct_id": "NCT01442779", "reason": "COMPLETED — IPF (TTUHSC-led)"},
+    {"nct_id": "NCT00695019", "reason": "COMPLETED — Hepatitis C relapse"},
+    {"nct_id": "NCT00483184", "reason": "COMPLETED — Behcet's oral ulcers (Nobel-led)"},
+    {"nct_id": "NCT01146535", "reason": "COMPLETED — Influenza"},
+    {"nct_id": "NCT00454181", "reason": "COMPLETED — Oral warts in HIV+ (legacy data)"},
+    {"nct_id": "NCT00895947", "reason": "COMPLETED — URI prevention"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "P3": 0, "P2": 3, "P1": 0, "total_active_indications": 3, "note": "All active programs are Taiwan studies without public registry IDs; primary corporate focus has shifted to AI Nose smell-tech platform"}
+}

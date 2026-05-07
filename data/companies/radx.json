@@ -1,0 +1,120 @@
+{
+  "issuer_name": "Radiopharm Theranostics Ltd",
+  "ticker": "RADX",
+  "exchange": "Nasdaq",
+  "cik": "0001949257",
+  "region": "AU (US-listed via Nasdaq ADR)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (Australian company); no 10-K available"},
+    "website": {"error": "no public pipeline page found at /pipeline (404)"},
+    "ctgov": {"file": "data/radx_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "RAD402",
+      "aka": ["161Tb-RAD402"],
+      "modality": "Terbium-161 labeled targeted radioligand therapy",
+      "target": "KLK2 (CRPC)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Castration-resistant prostate cancer (CRPC)",
+          "highest_phase": "P1/P2",
+          "trial_name": "161Tb-RAD402 in CRPC",
+          "trial_design": "Multi-cohort dose-finding/expansion in CRPC",
+          "nct_ids": ["NCT07259213"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": ["Start 2026-03-05; primary completion 2028-11-30"]
+        }
+      ]
+    },
+    {
+      "asset": "RAD101",
+      "aka": ["18F-FPIA"],
+      "modality": "Fluorine-18 labeled PET imaging radiopharmaceutical",
+      "target": "Fatty acid synthesis pathway (brain metastases)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Suspected recurrent brain metastases (imaging)",
+          "highest_phase": "P2b",
+          "trial_name": "RAD101 brain metastases P2b imaging",
+          "trial_design": "Open-label diagnostic imaging study",
+          "nct_ids": ["NCT06777433"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": ["Primary completion 2026-04-23"]
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-2403",
+      "aka": [],
+      "modality": "Targeted radiopharmaceutical imaging agent",
+      "target": "Solid-tumor antigen (Lantheus collaboration)",
+      "license_origin": "Collaboration with Lantheus",
+      "indications": [
+        {
+          "indication": "Locally advanced or metastatic solid tumors (CRC, HNSCC, NSCLC, TNBC) — imaging",
+          "highest_phase": "P1",
+          "trial_name": "LNTH-2403 imaging P1",
+          "trial_design": "Multicenter imaging study",
+          "nct_ids": ["NCT07272642"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": ["Start 2026-01-30; primary completion 2027-08-30"]
+        }
+      ]
+    },
+    {
+      "asset": "177Lu-BetaBart",
+      "aka": ["RV-01", "B335", "177Lu-DOTA-anti-B7-H3"],
+      "modality": "Lutetium-177 labeled anti-B7-H3 antibody radioligand therapy",
+      "target": "B7-H3",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory advanced or metastatic solid tumors (CRPC, CRC, NSCLC, OvCa, CervCa, EndoCa, TNBC, SCLC, HNSCC, ESCC)",
+          "highest_phase": "P1/P2",
+          "trial_name": "177Lu-BetaBart pan-tumor P1/P2",
+          "trial_design": "Dose escalation across solid tumors",
+          "nct_ids": ["NCT07189871"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": ["Start 2026-02-23; primary completion 2027-12"]
+        }
+      ]
+    },
+    {
+      "asset": "RAD301",
+      "aka": ["68Ga-RAD301"],
+      "modality": "Gallium-68 labeled PET imaging radiopharmaceutical",
+      "target": "Integrin / pancreatic-cancer target",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Pancreatic cancer and other solid tumors (imaging)",
+          "highest_phase": "P1",
+          "trial_name": "RAD301 first-in-human imaging",
+          "trial_design": "Healthy volunteers + patients with PDAC/NSCLC/cervical/endometrial/ovarian",
+          "nct_ids": ["NCT05799274"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": ["Primary completion 2026-05"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 5,
+    "p3_indications": 0,
+    "p2_indications": 3,
+    "p1_indications": 2
+  }
+}

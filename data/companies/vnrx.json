@@ -1,0 +1,36 @@
+{
+  "issuer_name": "VolitionRx Limited",
+  "ticker": "VNRX",
+  "exchange": "NYSE",
+  "cik": "0000093314",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "VolitionRx is an in vitro diagnostics company (Nu.Q nucleosomics platform). It develops blood-based diagnostic tests (Nu.Q NETs, Nu.Q Cancer, Nu.Q Vet Cancer Test, Capture-Seq) and research products, not therapeutic drug candidates. No active interventional drug trials in Phase 1/2/3 are sponsored by the company.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001477932-26-001832",
+      "url": "https://www.sec.gov/Archives/edgar/data/93314/000147793226001832/vnrx_10k.htm"
+    },
+    "website": {
+      "url": "https://www.volition.com",
+      "note": "Diagnostics pipeline only (Nu.Q NETs, Nu.Q Cancer, Nu.Q Vet, Capture-Seq, Nu.Q Discover). No drug pipeline page."
+    },
+    "ctgov": {
+      "query": "VolitionRx",
+      "interventional_p1_3_count": 0,
+      "note": "No company-sponsored interventional drug trials in Phase 1/2/3."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase3": 0,
+    "phase2": 0,
+    "phase1": 0
+  }
+}

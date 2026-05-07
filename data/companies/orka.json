@@ -1,0 +1,94 @@
+{
+  "issuer_name": "Oruka Therapeutics, Inc.",
+  "ticker": "ORKA",
+  "exchange": "Nasdaq",
+  "cik": "0000907654",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-026929", "filing_date": "2026-03-12", "doc": "ea0273300-10k_oruka.htm"},
+    "website": {"url": "https://www.orukatx.com/", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/orka_ctgov_compact.json", "lead_sponsor_query": "Oruka Therapeutics, Inc.", "active_studies": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "ORKA-001",
+      "aka": [],
+      "modality": "Monoclonal antibody (YTE half-life extension); ~100-day human half-life; collaboration with Halozyme Hypercon for SC delivery",
+      "target": "IL-23p19",
+      "license_origin": "Oruka internal",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe plaque psoriasis (PsO) — Phase 2b dose ranging",
+          "highest_phase": "Phase 2",
+          "trial_name": "EVERLAST-B (dose ranging Phase 2)",
+          "trial_design": "Phase 2 dose-ranging study of ORKA-001 in moderate-to-severe plaque psoriasis",
+          "nct_ids": ["NCT07290569"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Oruka Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Moderate-to-severe plaque psoriasis — Phase 2a (EVERLAST-A)",
+          "highest_phase": "Phase 2",
+          "trial_name": "EVERLAST-A (Phase 2a)",
+          "trial_design": "Phase 2a randomized 3:1, 84 patients, ORKA-001 600 mg weeks 0 and 4 vs placebo",
+          "nct_ids": ["NCT07090330"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Oruka Therapeutics, Inc.",
+          "key_milestones": ["EADV interim data Sept 2025"]
+        },
+        {
+          "indication": "Plaque psoriasis — open-label extension",
+          "highest_phase": "Phase 2",
+          "trial_name": "ORKA-001 OLE",
+          "trial_design": "Open-label extension study of ORKA-001 in plaque psoriasis",
+          "nct_ids": ["NCT07449702"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Oruka Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ORKA-002",
+      "aka": [],
+      "modality": "Monoclonal antibody (extended half-life)",
+      "target": "IL-17A/F",
+      "license_origin": "Oruka internal",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe plaque psoriasis (and HS / PsA development)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ORKA-002 dose ranging Phase 2",
+          "trial_design": "Dose-ranging Phase 2 of ORKA-002 in moderate-to-severe plaque psoriasis",
+          "nct_ids": ["NCT07474792"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Oruka Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Healthy volunteers (Phase 1 SAD)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ORKA-002-211",
+          "trial_design": "Phase 1 single-ascending-dose study of ORKA-002 in healthy volunteers",
+          "nct_ids": ["NCT06944379"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Oruka Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {},
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3_indications": 0,
+    "phase_2_indications": 4,
+    "phase_1_indications": 1
+  }
+}

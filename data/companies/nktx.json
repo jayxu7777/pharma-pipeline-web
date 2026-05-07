@@ -1,0 +1,82 @@
+{
+  "issuer_name": "Nkarta, Inc.",
+  "ticker": "NKTX",
+  "exchange": "Nasdaq",
+  "cik": "0001787400",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001787400-26-000006", "filed": "2026-03-25", "doc": "nktx-20251231.htm"},
+    "website": {"url": "https://www.nkartatx.com/pipeline"},
+    "ctgov": {"sponsor_query": "Nkarta", "unique_trials_p1_p3": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "NKX019",
+      "aka": [],
+      "modality": "Allogeneic CAR-NK cell therapy (cryopreserved, off-the-shelf)",
+      "target": "CD19",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lupus nephritis and primary membranous nephropathy",
+          "highest_phase": "P2",
+          "trial_name": "Ntrust-1",
+          "trial_design": "Phase 1/2 multicenter open-label study of NKX019 with lymphodepletion in active lupus nephritis and primary membranous nephropathy",
+          "nct_ids": ["NCT06557265"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Nkarta, Inc.",
+          "key_milestones": ["Primary completion 2027-04"]
+        },
+        {
+          "indication": "Systemic sclerosis, idiopathic inflammatory myopathies, ANCA-associated vasculitis",
+          "highest_phase": "P2",
+          "trial_name": "Ntrust-2",
+          "trial_design": "Phase 1/2 multicenter open-label study of NKX019 in immune-mediated diseases (SSc, IIM, AAV)",
+          "nct_ids": ["NCT06733935"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Nkarta, Inc.",
+          "key_milestones": ["Primary completion 2028-10"]
+        },
+        {
+          "indication": "Relapsed/refractory B-cell malignancies (NHL, B-ALL, CLL, etc.)",
+          "highest_phase": "P1",
+          "trial_name": "NKX019 oncology Phase 1",
+          "trial_design": "Phase 1 dose-escalation/expansion of NKX019 in adults with relapsed/refractory B-cell cancers",
+          "nct_ids": ["NCT05020678"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Nkarta, Inc.",
+          "key_milestones": ["Primary completion 2025-03-31; oncology focus de-prioritized in favor of autoimmune"]
+        }
+      ]
+    },
+    {
+      "asset": "NKX101",
+      "aka": [],
+      "modality": "Allogeneic CAR-NK cell therapy",
+      "target": "NKG2D ligands",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory acute myeloid leukemia (AML) and myelodysplastic syndromes (MDS)",
+          "highest_phase": "P1",
+          "trial_name": "NKX101 Phase 1",
+          "trial_design": "Phase 1 dose-escalation of NKX101 with lymphodepletion in r/r AML and higher-risk MDS",
+          "nct_ids": ["NCT04623944"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Nkarta, Inc.",
+          "key_milestones": ["Primary completion 2024-10-02; program de-prioritized to focus on autoimmune NKX019"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Next-generation engineered CAR-NK candidates (preclinical)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Investigator-sponsored NKX019 studies in SLE/myasthenia gravis (referenced on website but not Nkarta-sponsored)"
+  ],
+  "summary_counts": {"assets": 2, "P3": 0, "P2": 2, "P1": 2}
+}

@@ -1,0 +1,94 @@
+{
+  "issuer_name": "Alzamend Neuro, Inc.",
+  "ticker": "ALZN",
+  "exchange": "Nasdaq",
+  "cik": "0001677077",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001214659-25-010763",
+      "filing_date": "2025-07-22",
+      "primary_doc": "u7925110k.htm"
+    },
+    "website": {
+      "url": "https://alzamend.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "sponsor_query": "Alzamend Neuro",
+      "trials_returned": 4
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "AL001",
+      "aka": ["LISPRO", "lithium salicylate/L-proline cocrystal"],
+      "modality": "Small molecule (lithium ionic cocrystal)",
+      "target": "Lithium delivery (CNS)",
+      "license_origin": "In-licensed from Massachusetts General Hospital",
+      "indications": [
+        {
+          "indication": "Alzheimer's disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "AL001 multiple ascending dose study in Alzheimer's patients and healthy adults",
+          "trial_design": "Multiple ascending dose, safety, tolerability, PK",
+          "nct_ids": ["NCT05363293"],
+          "trial_status": "Completed (Phase IIA completed March 2024); MTD identified",
+          "lead_sponsor": "Alzamend Neuro, Inc.",
+          "key_milestones": ["Phase IIA completed March 2024", "MTD identified"]
+        },
+        {
+          "indication": "Bipolar I Disorder",
+          "highest_phase": "Phase 2",
+          "trial_name": "AL001 vs lithium carbonate brain/plasma PK in Bipolar I patients",
+          "trial_design": "Phase 1/2, comparative PK and safety, AL001 vs marketed lithium carbonate",
+          "nct_ids": ["NCT07540338"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alzamend Neuro, Inc.",
+          "key_milestones": ["Start 2026-04", "Primary completion 2026-12"]
+        },
+        {
+          "indication": "Healthy adult PK (bridging)",
+          "highest_phase": "Phase 1",
+          "trial_name": "AL001 oral capsule vs lithium carbonate PK in healthy adults",
+          "trial_design": "Phase 1 PK comparison",
+          "nct_ids": ["NCT06921590"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Alzamend Neuro, Inc.",
+          "key_milestones": ["Start 2025-05", "Primary completion 2025-12"]
+        }
+      ]
+    },
+    {
+      "asset": "ALZN002",
+      "aka": ["E22W"],
+      "modality": "Cell-based active immunotherapy (autologous DCs pulsed with E22W mutant amyloid-beta peptide)",
+      "target": "Amyloid-beta (immune-mediated clearance)",
+      "license_origin": "In-licensed from University of South Florida Research Foundation",
+      "indications": [
+        {
+          "indication": "Mild-to-moderate Alzheimer's dementia",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALZN002 multiple ascending dose study in mild-to-moderate Alzheimer's",
+          "trial_design": "Phase 1/2A, multiple ascending dose, safety/tolerability/efficacy vs placebo",
+          "nct_ids": ["NCT05834296"],
+          "trial_status": "Active, not recruiting (per company website: paused, expected to resume mid-2026)",
+          "lead_sponsor": "Alzamend Neuro, Inc.",
+          "key_milestones": ["Initiated April 2023", "Primary completion 2028-03"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 2,
+    "indications": 4,
+    "p1_count": 1,
+    "p2_count": 3,
+    "p3_count": 0
+  }
+}

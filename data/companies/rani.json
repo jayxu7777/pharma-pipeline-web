@@ -1,0 +1,73 @@
+{
+  "issuer_name": "Rani Therapeutics Holdings, Inc.",
+  "ticker": "RANI",
+  "exchange": "Nasdaq",
+  "cik": "0001856725",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/rani_10k_pipeline_section.html", "filing_date": "2026-03-26", "accession": "0001193125-26-126417"},
+    "website": {"url": "https://www.ranitherapeutics.com/pipeline", "note": "Page is outdated; 10-K used as primary source"},
+    "ctgov": {"file": "data/rani_ctgov_compact.json", "unique_p1_p3_trials": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "RT-114",
+      "aka": ["RaniPill HC + PG-102"],
+      "modality": "Oral RaniPill HC capsule containing peptide drug substance",
+      "target": "GLP-1/GLP-2 dual agonist (PG-102, in-licensed from ProGen)",
+      "license_origin": "Worldwide collaboration with ProGen Co., Ltd.",
+      "indications": [
+        {
+          "indication": "Obesity",
+          "highest_phase": "Phase 1",
+          "trial_name": "RT-114 first-in-human Phase 1",
+          "trial_design": "Single-center Phase 1 in Australia; single-dose and multiple-dose evaluation of safety, tolerability, bioavailability, PK/PD; cohorts comparing oral RaniPill capsule (12 mg PG-102) vs subcutaneous PG-102 in healthy participants",
+          "nct_ids": ["NCT06891287"],
+          "trial_status": "RECRUITING (initiated December 2025)",
+          "lead_sponsor": "Rani Therapeutics",
+          "key_milestones": ["Phase 1 readout expected 2027", "Primary completion December 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "RT-111",
+      "aka": ["RaniPill + ustekinumab biosimilar"],
+      "modality": "Oral RaniPill capsule containing biosimilar antibody",
+      "target": "IL-12/IL-23 (ustekinumab biosimilar, supplied by Celltrion)",
+      "license_origin": "License and supply agreement with Celltrion",
+      "indications": [
+        {
+          "indication": "Inflammatory conditions (psoriasis, Crohn's disease, ulcerative colitis)",
+          "highest_phase": "Phase 1",
+          "trial_name": "RT-111 Phase 1",
+          "trial_design": "Single-center, open-label Phase 1 in healthy adult volunteers in Australia evaluating safety/tolerability of single doses of RT-111 (0.5 mg, 0.75 mg) vs SC STELARA (0.5 mg)",
+          "nct_ids": ["NCT05890118"],
+          "trial_status": "COMPLETED (positive topline Feb 2024); next step is to advance with RaniPill HC",
+          "lead_sponsor": "Rani Therapeutics",
+          "key_milestones": ["Bioavailability 84% for 0.5 mg RT-111 vs SC STELARA"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "RT-116 (semaglutide for obesity in RaniPill HC) - preclinical; next step is to initiate Phase 1",
+    "RT-117 (Chugai collaboration; undisclosed compound for hemophilia in RaniPill HC) - early collaboration",
+    "RT-109 (human growth hormone) - preclinical",
+    "Other earlier preclinical programs (basal insulin, GLP-1 agonist)"
+  ],
+  "excluded_legacy_terminated": [
+    "RT-102 (PTH for osteoporosis) - discontinued 2026 after Phase 1; NCT05164614 COMPLETED (RaniPill GO)",
+    "RT-110 (PTH for hypoparathyroidism) - discontinued",
+    "RT-105 (anti-TNF-alpha adalimumab biosimilar for psoriatic arthritis) - paused November 2023, never reached Phase 1",
+    "RT-101/octreotide RaniPill first-in-human (NCT03798912) - COMPLETED legacy platform validation"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1_or_1_2": 2
+  }
+}

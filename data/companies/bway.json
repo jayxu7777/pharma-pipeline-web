@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Brainsway Ltd.",
+  "ticker": "BWAY",
+  "exchange": "Nasdaq",
+  "cik": "0001505065",
+  "region": "IL",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer (Israel) — files 20-F instead of 10-K. Not retrieved by fetch_10k.py."
+    },
+    "website": {
+      "url": "https://www.brainsway.com/",
+      "note": "No /pipeline page (404). Site lists FDA-cleared Deep TMS indications and CE-marked non-US indications. No active P1/P2/P3 trial pipeline disclosed on public website."
+    },
+    "ctgov": {
+      "sponsor_query": "Brainsway",
+      "unique_trials_p1_p3": 13,
+      "active_p1_p3": 0,
+      "note": "All 13 registry hits are COMPLETED, TERMINATED, WITHDRAWN, or UNKNOWN status — no RECRUITING / ACTIVE_NOT_RECRUITING / NOT_YET_RECRUITING trials. Excluded from pipeline."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "platform": "Deep Transcranial Magnetic Stimulation (Deep TMS) using H-coil technology",
+    "fda_cleared_indications": [
+      "Major Depressive Disorder (MDD), including accelerated protocol",
+      "Anxious Depression (comorbid anxiety with depression)",
+      "Late-Life Depression",
+      "Obsessive-Compulsive Disorder (OCD) — first FDA de novo clearance for noninvasive device in OCD",
+      "Smoking Addiction (Smoking Cessation) — first FDA addiction-space clearance for TMS"
+    ],
+    "ce_marked_non_us_indications": [
+      "Bipolar disorder",
+      "PTSD",
+      "Schizophrenia",
+      "Alzheimer's disease",
+      "Autism",
+      "Chronic pain",
+      "Multiple sclerosis",
+      "Parkinson's disease",
+      "Post-stroke rehabilitation"
+    ],
+    "category": "Medical device — neuromodulation"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT00753662", "indication": "Alzheimer's Disease", "status": "UNKNOWN", "lead_sponsor": "Tel-Aviv Sourasky"},
+    {"nct_id": "NCT01196910", "indication": "Adult ADHD", "status": "UNKNOWN", "lead_sponsor": "Brainsway"},
+    {"nct_id": "NCT01388179", "indication": "Autism (children)", "status": "TERMINATED", "lead_sponsor": "Brainsway"},
+    {"nct_id": "NCT01409304", "indication": "MDD", "status": "COMPLETED", "lead_sponsor": "Douglas Mental Health"},
+    {"nct_id": "NCT00445237", "indication": "Major Depression", "status": "COMPLETED", "lead_sponsor": "Shalvata"},
+    {"nct_id": "NCT02126124", "indication": "Smoking Cessation", "status": "COMPLETED", "lead_sponsor": "Brainsway", "note": "Pivotal trial supporting FDA clearance — now commercial."},
+    {"nct_id": "NCT01464515", "indication": "Mild Cognitive Impairment", "status": "UNKNOWN", "lead_sponsor": "Brainsway"},
+    {"nct_id": "NCT01409317", "indication": "MDD", "status": "COMPLETED", "lead_sponsor": "Douglas Mental Health"},
+    {"nct_id": "NCT02039206", "indication": "Machado-Joseph Disease (SCA3)", "status": "COMPLETED", "lead_sponsor": "Brainsway"},
+    {"nct_id": "NCT02206516", "indication": "Adult ADD", "status": "UNKNOWN", "lead_sponsor": "Tel-Aviv Sourasky"},
+    {"nct_id": "NCT01179373", "indication": "Alzheimer's Disease", "status": "COMPLETED", "lead_sponsor": "Brainsway"},
+    {"nct_id": "NCT02053961", "indication": "Tinnitus", "status": "WITHDRAWN", "lead_sponsor": "Brainsway"},
+    {"nct_id": "NCT00807105", "indication": "MDE", "status": "COMPLETED", "lead_sponsor": "Shalvata"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device (neuromodulation) company. Commercial Deep TMS platform with multiple FDA-cleared and CE-marked indications. No active P1/P2/P3 clinical trials disclosed on ClinicalTrials.gov (all 13 historical registry entries are completed, terminated, withdrawn, or unknown). Blocker: foreign private issuer (Israel), files 20-F not 10-K, so SEC filing not retrieved."
+}

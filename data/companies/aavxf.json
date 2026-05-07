@@ -1,0 +1,111 @@
+{
+  "issuer_name": "Abivax S.A.",
+  "ticker": "AAVXF",
+  "exchange": "OTC",
+  "cik": "0001956827",
+  "region": "France (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F instead of 10-K",
+      "latest_20f_filing_date": "2026-03-23",
+      "note": "Abivax S.A. is a French company; SEC registrant filing 20-F annual reports. Pipeline content here is sourced from corporate site and clinicaltrials.gov."
+    },
+    "website": {
+      "url": "https://www.abivax.com/pipeline",
+      "note": "Lead asset obefazimod (ABX464) in Phase 3 for ulcerative colitis (ABTECT program; induction readout in 2025) and Phase 2b for Crohn's disease (ENHANCE-CD)."
+    },
+    "ctgov": {
+      "sponsor_query": "Abivax",
+      "active_p1_p3_company_sponsored": 4,
+      "note": "Four active sponsor-led P1-P3 trials: ABTECT-Maintenance Phase 3 (NCT05535946), Long-Term Phase 2 (NCT05177835), Crohn's Phase 2 (NCT06456593), and minitablet Phase 1 PK (NCT07453784). ABTECT-1 and ABTECT-2 induction studies (NCT05507203, NCT05507216) are completed (June 2025)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Obefazimod",
+      "aka": ["ABX464"],
+      "modality": "Small molecule oral; first-in-class miR-124 enhancer (splicing modulator)",
+      "target": "miR-124 (microRNA upregulator with anti-inflammatory effect)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Moderately to severely active ulcerative colitis (induction)",
+          "highest_phase": "Phase 3 (induction completed)",
+          "trial_name": "ABTECT-1 / ABTECT-2 (ABX464 Treatment Evaluation for UC Therapy)",
+          "trial_design": "Two parallel global Phase 3 induction studies; randomized, double-blind, placebo-controlled, dose-ranging",
+          "nct_ids": ["NCT05507203", "NCT05507216"],
+          "trial_status": "COMPLETED (primary completion 2025-06-24); topline induction data reported Q3 2025",
+          "lead_sponsor": "Abivax S.A.",
+          "key_milestones": [
+            "Induction topline Q3 2025"
+          ]
+        },
+        {
+          "indication": "Moderately to severely active ulcerative colitis (maintenance)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ABTECT-Maintenance",
+          "trial_design": "Randomized, double-blind, placebo-controlled maintenance phase following ABTECT-1/2 responders",
+          "nct_ids": ["NCT05535946"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2026-04); maintenance data expected Q2 2026",
+          "lead_sponsor": "Abivax S.A.",
+          "key_milestones": [
+            "Maintenance data expected Q2 2026"
+          ]
+        },
+        {
+          "indication": "Ulcerative colitis (long-term safety/efficacy extension)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Obefazimod long-term safety/efficacy in UC",
+          "trial_design": "Open-label long-term extension",
+          "nct_ids": ["NCT05177835"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2028-03)",
+          "lead_sponsor": "Abivax S.A.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Moderately to severely active Crohn's disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "ENHANCE-CD",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2b",
+          "nct_ids": ["NCT06456593"],
+          "trial_status": "RECRUITING (primary completion 2026-12)",
+          "lead_sponsor": "Abivax S.A.",
+          "key_milestones": [
+            "12-week data anticipated Q4 2026"
+          ]
+        },
+        {
+          "indication": "Healthy volunteers (minitablet PK / palatability)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Obefazimod minitablet PK / relative bioavailability / palatability",
+          "trial_design": "PK/bioequivalence in healthy adults",
+          "nct_ids": ["NCT07453784"],
+          "trial_status": "RECRUITING (primary completion 2026-09)",
+          "lead_sponsor": "Abivax S.A.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Follow-on miR-124 modulator series (research stage, candidate selection planned 2026)"
+  ],
+  "excluded_legacy_terminated": [
+    "ABX464 in COVID-19 ARF (NCT04393038, TERMINATED 2021)",
+    "ABX464 Phase 2b/3 in Crohn's (NCT03905109, WITHDRAWN 2022; superseded by ENHANCE-CD)",
+    "ABX464 Phase 2 in HIV (NCT02452242, NCT02735863, NCT02990325) — completed legacy program",
+    "ABX464 Phase 2 in rheumatoid arthritis (NCT03813199, NCT04049448) — completed, not advanced",
+    "ABX196 Phase 1/2 in HCC (NCT03897543) — non-core program",
+    "ABX203 Phase 2/3 hepatitis B (NCT02249988) — completed legacy"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 2,
+    "phase_2": 2,
+    "phase_1": 1,
+    "note_on_counts": "phase counts reflect active obefazimod indications/programs; the asset count is 1 (obefazimod)"
+  }
+}

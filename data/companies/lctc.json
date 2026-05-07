@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Lifeloc Technologies, Inc.",
+  "ticker": "LCTC",
+  "exchange": "OTC",
+  "cik": "0001493137",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001079973-26-000376",
+      "filing_date": "2026-03-27",
+      "doc": "lctc_10k-123125.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found; corporate site is a breath-alcohol device store, not a clinical pipeline page"
+    },
+    "ctgov": {
+      "unique_trials_p1_3": 0,
+      "compact_path": "data/lctc_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Breath alcohol testing devices",
+    "products": [
+      "Portable and fixed-station fuel-cell breathalyzers",
+      "Accessories, supplies, and training services for alcohol testing programs"
+    ],
+    "regulatory_status": "Commercial; FDA-listed and DOT-approved evidential breath testers"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech: Lifeloc designs and sells fuel-cell breath alcohol testing instruments and accessories. No proprietary drug or device clinical pipeline (no P1/P2/P3 or pivotal IDE studies of company devices)."
+}

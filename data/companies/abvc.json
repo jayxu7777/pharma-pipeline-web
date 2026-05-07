@@ -1,0 +1,151 @@
+{
+  "issuer_name": "ABVC BioPharma, Inc.",
+  "ticker": "ABVC",
+  "exchange": "Nasdaq",
+  "cik": "0001173313",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-023063",
+      "filing_date": "2026-03-03",
+      "doc": "ea0278313-10k_abvcbio.htm"
+    },
+    "website": {
+      "url": "https://abvcpharma.com/pipeline/",
+      "note": "Page returned mostly CSS/layout; substantive pipeline data not extracted from website. Used 10-K as canonical source."
+    },
+    "ctgov": {
+      "lead_sponsor_searched": "ABVC BioPharma",
+      "trials_returned": 1,
+      "note": "Most ABVC trials are sponsored by partner BioLite, Inc.; one PHASE2 ADHD study (NCT05202327) was returned and is COMPLETED."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "ABV-1504",
+      "aka": ["PDC-1421"],
+      "modality": "Botanical small molecule (norepinephrine reuptake inhibitor)",
+      "target": "Norepinephrine transporter",
+      "license_origin": "Internally developed via BioLite",
+      "indications": [
+        {
+          "indication": "Major Depressive Disorder (MDD)",
+          "highest_phase": "Phase 2 (Phase 3 planned)",
+          "trial_name": "ABV-1504 Phase 2 MDD",
+          "trial_design": "Randomized, double-blind, placebo-controlled, multi-center; 60 adults with moderate-severe MDD; PDC-1421 low/high dose vs placebo TID for 6 weeks",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 completed; Phase 3 planning",
+          "lead_sponsor": "BioLite / ABVC BioPharma",
+          "key_milestones": ["Phase 2 met primary endpoint (MADRS) at high dose", "Plan to advance to Phase 3 with high-dose formulation"]
+        }
+      ]
+    },
+    {
+      "asset": "ABV-1505",
+      "aka": ["PDC-1421 (ADHD indication)"],
+      "modality": "Botanical small molecule (norepinephrine reuptake inhibitor)",
+      "target": "Norepinephrine transporter",
+      "license_origin": "Internally developed via BioLite",
+      "indications": [
+        {
+          "indication": "Adult Attention-Deficit Hyperactivity Disorder (ADHD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PDC-1421 Treatment in Adult Patients With ADHD (Part I/II)",
+          "trial_design": "Phase 2 tolerability and efficacy study of PDC-1421 capsule TID in adult ADHD",
+          "nct_ids": ["NCT05202327"],
+          "trial_status": "Phase 2 Part I COMPLETED; Phase 2 Part II planned",
+          "lead_sponsor": "BioLite, Inc. (ABVC collaborator)",
+          "key_milestones": ["Phase 2 Part I CSR (Oct 2020): PDC-1421 safe and well-tolerated, response rates 80-83% at 8 weeks"]
+        }
+      ]
+    },
+    {
+      "asset": "ABV-1601",
+      "aka": ["PDC-1421 (cancer-depression indication)"],
+      "modality": "Botanical small molecule (norepinephrine reuptake inhibitor)",
+      "target": "Norepinephrine transporter",
+      "license_origin": "Internally developed via BioLite",
+      "indications": [
+        {
+          "indication": "Depression in cancer patients",
+          "highest_phase": "Phase 2",
+          "trial_name": "ABV-1601 Phase 2 (cancer-depression)",
+          "trial_design": "Open-label dose-escalation Part I; comparator-controlled Part II; up to 54 cancer patients with depression; primary endpoint MADRS",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 Part I (open-label) ongoing per 10-K",
+          "lead_sponsor": "ABVC BioPharma",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ABV-1702",
+      "aka": [],
+      "modality": "Botanical / oral liquid (combined with azacitidine)",
+      "target": "Not specified (anti-infective adjunct in MDS)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Myelodysplastic syndromes (MDS) - reduction of bacterial/fungal infections in combination with azacitidine",
+          "highest_phase": "Phase 2 (planned)",
+          "trial_name": "ABV-1702 Phase 2 MDS",
+          "trial_design": "Two-part Phase 2; Part 1 dose-finding for ABV-1702+azacitidine; Part 2 efficacy on infection reduction; planned 52 subjects",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - IND approved July 2016; ABVC plans Phase 2 initiation in Q4 2026 per 10-K",
+          "lead_sponsor": "ABVC BioPharma",
+          "key_milestones": ["Targeting Phase 2 initiation Q4 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ABV-1703",
+      "aka": [],
+      "modality": "Maitake extract botanical",
+      "target": "Not specified",
+      "license_origin": "Co-developed with Rgene (Co-development Agreement)",
+      "indications": [
+        {
+          "indication": "Pancreatic cancer",
+          "highest_phase": "Phase 2 (planned)",
+          "trial_name": "ABV-1703 Phase 2 pancreatic cancer",
+          "trial_design": "Phase 2 to be conducted at Cedars-Sinai Medical Center",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - FDA approved Phase 2 Aug 2017; ABVC plans to initiate Phase 2 in 2026",
+          "lead_sponsor": "ABVC BioPharma (Rgene co-development)",
+          "key_milestones": ["Phase 2 initiation planned 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ABV-1701 (Vitargus)",
+      "aka": ["Vitargus"],
+      "modality": "Vitreous substitute (semisolid gel)",
+      "target": "Vitreous replacement post-vitrectomy",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Retinal detachment / vitreous replacement following vitrectomy",
+          "highest_phase": "Phase 2",
+          "trial_name": "Vitargus Phase 2 / multi-site clinical study",
+          "trial_design": "Multi-site Phase 2 in vitrectomy patients; intravitreal Vitargus injection",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 completed (CSR 2020 - safe, well-tolerated, vision improvement); Phase 2 in preparation per 10-K",
+          "lead_sponsor": "ABVC BioPharma",
+          "key_milestones": ["Working on improvements to Vitargus product with new investigational batch"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 6,
+    "phase_3": 0,
+    "phase_2": 6,
+    "phase_1": 0,
+    "note": "Several assets in pre-launch / planned status; no truly active P3 yet."
+  }
+}

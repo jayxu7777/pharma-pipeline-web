@@ -1,0 +1,26 @@
+{
+  "issuer_name": "Pulsenmore Ltd.",
+  "ticker": "PLSM",
+  "exchange": "Nasdaq",
+  "cik": "0002064764",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Israel) - files 20-F; no 10-K available on EDGAR for CIK 0002064764"},
+    "website": {"error": "https://pulsenmore.com returned HTTP 403 for WebFetch; no public pipeline page accessible from this environment"},
+    "ctgov": {"endpoint": "ClinicalTrials.gov v2 API", "sponsor_query": "Pulsenmore", "unique_p1_p3_trials": 0, "file": "data/plsm_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Pulsenmore ES (and Pulsenmore Cardio)",
+    "type": "Handheld home tele-ultrasound device with smartphone interface, paired with remote clinician interpretation platform",
+    "regulatory": "CE Mark (EU). Pulsenmore ES targets self-scan obstetric ultrasound at home; Cardio extension under development.",
+    "status": "Commercial in select EU/Israel markets via partnerships (e.g. Clalit Health Services)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Medical device (handheld home tele-ultrasound) company. Products are CE-marked imaging hardware regulated as devices, not investigational drugs. No company-sponsored P1/P2/P3 interventional drug trials. No active pivotal IDE-style device trials disclosed in public registries under sponsor name 'Pulsenmore'."
+}

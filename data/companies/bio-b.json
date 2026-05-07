@@ -1,0 +1,34 @@
+{
+  "issuer_name": "BIO-RAD LABORATORIES, INC.",
+  "ticker": "BIO-B",
+  "exchange": "NYSE",
+  "cik": "0000012208",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000012208-26-000010",
+      "filing_date": "2026-02-13",
+      "path": "data/bio-b_10k_pipeline_section.html",
+      "note": "10-K contains no mention of clinical trials, drug candidates, IND/NDA/BLA filings, or therapeutic phases — confirms non-pharma life sciences tools / diagnostics business model."
+    },
+    "website": {"error": "no public drug pipeline page — Bio-Rad is a life sciences research and clinical diagnostics instruments / reagents company"},
+    "ctgov": {"path": "data/bio-b_ctgov_compact.json", "note": "Sponsor query returned 0 P1-3 trials"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Life Science research instruments & reagents and Clinical Diagnostics instruments / consumables",
+    "examples": [
+      "Droplet Digital PCR (ddPCR) systems and assays",
+      "Western blotting / chromatography / electrophoresis instruments",
+      "Cell biology and gene expression analysis tools",
+      "Clinical Diagnostics: blood typing, diabetes monitoring (HbA1c), autoimmune, infectious disease, and quality control products"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Life sciences tools and clinical diagnostics company — sells research instruments/reagents and clinical diagnostic systems. No proprietary therapeutic drug or device pipeline; the company itself does not sponsor P1/P2/P3 drug or therapeutic-device trials. Customers (pharma/biotech, hospitals, labs) use Bio-Rad products to enable their own research and diagnostics."
+}

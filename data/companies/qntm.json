@@ -1,0 +1,63 @@
+{
+  "issuer_name": "Quantum Biopharma Ltd.",
+  "ticker": "QNTM",
+  "exchange": "Nasdaq",
+  "cik": "0001771885",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer (Canada) — does not file 10-K with SEC; files annual disclosures via SEDAR/40-F."
+    },
+    "website": {
+      "url": "https://www.quantumbiopharma.com/"
+    },
+    "ctgov": {
+      "path": "data/qntm_ctgov_compact.json",
+      "trial_count": 4,
+      "note": "All listed trials are TERMINATED or COMPLETED."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Lucid-21-302",
+      "aka": ["Lucid-MS"],
+      "modality": "Oral small-molecule peptidyl arginine deiminase (PAD) inhibitor",
+      "target": "PAD enzymes; myelin protection / remyelination",
+      "license_origin": "Internal (Lucid Psycheceuticals subsidiary)",
+      "indications": [
+        {
+          "indication": "Multiple Sclerosis (MS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lucid-MS Phase 2 (planned)",
+          "trial_design": "Phase 2 clinical trial of Lucid-21-302 in MS patients; CRO Allucent under binding LOI; PI Dr. Salvatore Napoli appointed",
+          "nct_ids": [],
+          "trial_status": "PLANNED — IND submitted to FDA April 1, 2026; Phase 2 initiation expected Q2 2026, subject to FDA clearance",
+          "lead_sponsor": "Quantum BioPharma Ltd.",
+          "key_milestones": [
+            "Phase 1 SAD (NCT05821387) and MAD (NCT06595706) studies in healthy volunteers completed in 2023 and 2025",
+            "IND filed 2026-04-01 for Phase 2 in MS"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "FSD201 (ultramicronized PEA)",
+      "trials": ["NCT04619706 (COVID-19 Phase 2)", "NCT05652907 (MCAS chronic pain Phase 2)"],
+      "reason": "Both Phase 2 studies TERMINATED; program no longer active."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 0,
+    "active_trials": 0,
+    "planned_trials": 1
+  }
+}

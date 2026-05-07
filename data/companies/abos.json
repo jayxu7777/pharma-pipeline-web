@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Acumen Pharmaceuticals, Inc.",
+  "ticker": "ABOS",
+  "exchange": "Nasdaq",
+  "cik": "0001576885",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-021413", "filed": "2026-03-26", "fy": "2025"},
+    "website": {"url": "https://www.acumenpharm.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Acumen Pharmaceuticals", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Sabirnetug",
+      "aka": ["ACU193"],
+      "modality": "Humanized IgG2 monoclonal antibody (IV; SC formulation in development)",
+      "target": "Toxic soluble amyloid beta oligomers (AβOs)",
+      "license_origin": "Internal (Acumen)",
+      "indications": [
+        {
+          "indication": "Early Alzheimer's disease (MCI/mild AD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALTITUDE-AD",
+          "trial_design": "Phase 2 global randomized double-blind placebo-controlled trial of IV sabirnetug",
+          "nct_ids": ["NCT06335173"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Acumen Pharmaceuticals",
+          "key_milestones": ["Primary completion October 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Sabirnetug subcutaneous (with rHuPH20)", "note": "Phase 1 PK bridging study NCT06511570 completed; SC formulation development continuing"},
+    {"asset": "Enhanced Brain Delivery (EBD) program", "note": "TfR-shuttle anti-AβO antibody, preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 0,
+    "P2": 1,
+    "P1": 0,
+    "indications_active": 1
+  }
+}

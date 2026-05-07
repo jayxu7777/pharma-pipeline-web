@@ -1,0 +1,66 @@
+{
+  "issuer_name": "Passage Bio, Inc.",
+  "ticker": "PASG",
+  "exchange": "Nasdaq",
+  "cik": "0001787297",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-03",
+      "accession": "0001104659-26-022549",
+      "url": "https://www.sec.gov/Archives/edgar/data/1787297/000110465926022549/pasg-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://www.passagebio.com/pipeline"
+    },
+    "ctgov": {
+      "query": "Passage Bio",
+      "interventional_p1_3_count": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "PBFT02",
+      "aka": [],
+      "modality": "AAV1 gene therapy delivering GRN gene encoding progranulin",
+      "target": "Progranulin (PGRN) restoration",
+      "license_origin": "In-licensed from University of Pennsylvania (GTP/Wilson lab)",
+      "indications": [
+        {
+          "indication": "Frontotemporal dementia with GRN mutations (FTD-GRN)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "upliFT-D",
+          "trial_design": "Open-label, single-arm, multi-center dose-escalation study of intracisternal PBFT02 in adults with FTD-GRN",
+          "nct_ids": ["NCT04747431"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Passage Bio, Inc.",
+          "key_milestones": ["Primary completion expected 2028-08"]
+        },
+        {
+          "indication": "Frontotemporal dementia with C9orf72 mutations (FTD-C9orf72)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "upliFT-D (C9orf72 cohort)",
+          "trial_design": "Open-label dose-escalation cohort within upliFT-D evaluating PBFT02 in FTD-C9orf72",
+          "nct_ids": ["NCT04747431"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Passage Bio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "PBFT02 expansion in ALS and Alzheimer's disease (named as future opportunities, not in active clinical trials)",
+    "Huntington's Disease program (discovery/preclinical, no IND)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase3": 0,
+    "phase2": 1,
+    "phase1": 0
+  }
+}

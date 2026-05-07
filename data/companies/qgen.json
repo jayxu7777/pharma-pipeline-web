@@ -1,0 +1,38 @@
+{
+  "issuer_name": "QIAGEN N.V.",
+  "ticker": "QGEN",
+  "exchange": "NYSE",
+  "cik": "0001015820",
+  "region": "EU/Netherlands",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {
+      "url": "https://www.qiagen.com",
+      "note": "No therapeutic drug pipeline page; QIAGEN is a molecular diagnostics / sample-and-assay company. They develop companion diagnostics (e.g., therascreen KRAS) and digital insights tools, not internally-sponsored therapeutic drugs."
+    },
+    "ctgov": {
+      "sponsor_query": "QIAGEN",
+      "unique_trials": 1,
+      "note": "Sole hit is a Neuron23 trial (NEU-411) using QIAGEN diagnostic; not a QIAGEN-owned therapeutic asset.",
+      "file": "data/qgen_ctgov_compact.json"
+    }
+  },
+  "no_active_clinical_pipeline_reason": "QIAGEN is a diagnostics and life-science tools company. It does not develop or sponsor proprietary Phase 1/2/3 therapeutic drugs. Its clinical-trial involvement is limited to companion-diagnostic (CDx) partnerships with pharma sponsors.",
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Diagnostics, sample technologies, and bioinformatics products (QIAstat-Dx, QuantiFERON, therascreen CDx, QIAGEN Digital Insights, etc.) — not therapeutic drugs."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "NEU-411", "lead_sponsor": "Neuron23 Inc.", "reason": "Partner trial; QIAGEN supplies CDx, not the therapeutic"}
+  ],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

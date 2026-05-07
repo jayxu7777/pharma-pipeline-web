@@ -1,0 +1,79 @@
+{
+  "issuer_name": "Alterity Therapeutics Limited",
+  "ticker": "PRNAF",
+  "exchange": "OTC",
+  "cik": "0001131343",
+  "region": "Australia (foreign private issuer; ASX:ATH / NASDAQ:ATHE)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer - files 20-F instead of 10-K",
+      "note": "Alterity Therapeutics Limited is an Australian company; SEC registrant via 20-F annual reports. Pipeline content here is sourced from clinicaltrials.gov and recent press releases."
+    },
+    "website": {
+      "url": "https://alteritytx.com/our-pipeline/",
+      "error": "Corporate website returned HTTP 429 (rate-limited) on multiple attempts. Cross-checked using corporate press releases via web search instead.",
+      "domain_redirect_note": "alteritytherapeutics.com 301-redirects to alteritytx.com."
+    },
+    "ctgov": {
+      "sponsor_query": "Alterity Therapeutics",
+      "active_p1_p3_company_sponsored": 0,
+      "note": "Both ctgov-listed sponsor-led trials are COMPLETED (NCT05109091 Phase 2 ATH434 in MSA; NCT05864365 Phase 2 biomarker study in MSA). No registered active P1/P2/P3 trial yet; planned Phase 3 pivotal in MSA following positive FDA Type C meetings (Mar/Apr 2026), End-of-Phase 2 meeting on track for mid-2026."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "ATH434",
+      "aka": ["PBT434"],
+      "modality": "Small molecule oral; alpha-synuclein aggregation inhibitor / brain iron chaperone",
+      "target": "Labile iron / alpha-synuclein aggregation",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Multiple System Atrophy (early-stage)",
+          "highest_phase": "Phase 2 completed; planned Phase 3 pivotal",
+          "trial_name": "ATH434-201 (randomized, double-blind, placebo-controlled, biomarker / clinical Phase 2 in early-stage MSA)",
+          "trial_design": "Randomized, double-blind, placebo-controlled, two-dose Phase 2 in 77 early-stage MSA patients; clinical and biomarker endpoints",
+          "nct_ids": ["NCT05109091"],
+          "trial_status": "COMPLETED (primary completion 2024-11-28); positive topline reported. Phase 3 pivotal planned (PLANNED - End-of-Phase 2 meeting mid-2026).",
+          "lead_sponsor": "Alterity Therapeutics",
+          "key_milestones": [
+            "Positive Phase 2 topline 2024",
+            "Positive FDA Type C feedback Mar 2026 (clinical pharmacology, non-clinical)",
+            "Positive second Type C feedback Apr 2026 (CMC)",
+            "End-of-Phase 2 meeting mid-2026",
+            "Phase 3 pivotal trial initiation planned"
+          ]
+        },
+        {
+          "indication": "Multiple System Atrophy (advanced; biomarker study)",
+          "highest_phase": "Phase 2 completed",
+          "trial_name": "ATH434 open-label biomarker study in advanced MSA",
+          "trial_design": "Open-label biomarker study in advanced MSA patients",
+          "nct_ids": ["NCT05864365"],
+          "trial_status": "COMPLETED (primary completion 2025-02-26); positive topline reported",
+          "lead_sponsor": "Alterity Therapeutics",
+          "key_milestones": [
+            "Positive open-label data 2025"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Bioquin program (preclinical, neurodegeneration)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 1,
+    "indications_total": 2,
+    "highest_phase_p3": 0,
+    "highest_phase_p2": 2,
+    "highest_phase_p1": 0,
+    "active_recruiting_or_active_not_recruiting": 0,
+    "planned_or_pre_launch": 1
+  },
+  "no_active_clinical_pipeline_reason": null
+}

@@ -1,0 +1,32 @@
+{
+  "issuer_name": "First Choice Healthcare Solutions, Inc.",
+  "ticker": "FCHS",
+  "exchange": "OTC",
+  "cik": "0001416876",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-009679",
+      "filing_date": "2026-03-11",
+      "path": "data/fchs_10k_pipeline_section.html"
+    },
+    "website": {"url": "https://myfchs.com", "note": "Wix corporate site; no pipeline page (services company)"},
+    "ctgov": {"path": "data/fchs_ctgov_compact.json", "trial_count": 0}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "service_lines": [
+      "Functional health and wellness clinics (anti-aging, weight management, hormone replacement)",
+      "Compounding pharmacy services (Live Well Drugstore, Inc.)",
+      "Legacy orthopedic / physical therapy services (being wound down)"
+    ],
+    "note": "Operating subsidiaries: Leading Primary Care, Inc.; Live Well Medical Group; The Good Clinic Properties, Inc.; Live Well Drugstore, Inc."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Healthcare services / clinic operator pivoting from orthopedic services to a chain of functional wellness clinics and compounding pharmacy. No proprietary drug or device candidates in clinical trials per 10-K; ClinicalTrials.gov returns zero sponsored studies. Going-concern context (accumulated deficit ~$74.7M)."
+}

@@ -1,0 +1,66 @@
+{
+  "issuer_name": "Catheter Precision, Inc.",
+  "ticker": "VTAK",
+  "exchange": "NYSE",
+  "cik": "0001716621",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-26-010549",
+      "filing_date": "2026-03-31",
+      "doc": "vtak20251231_10k.htm"
+    },
+    "website": {
+      "url": "https://www.catheterprecision.com/",
+      "pipeline_url_attempted": "https://catheterprecision.com/pipeline",
+      "note": "No /pipeline page; products VIVO and LockeT featured on corporate site."
+    },
+    "ctgov": {
+      "sponsor_query": "Catheter Precision",
+      "trials_returned": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "devices": [
+      {
+        "name": "VIVO System",
+        "description": "Non-invasive 3D cardiac mapping system to localize sites of origin of idiopathic ventricular arrhythmias prior to electrophysiology procedures.",
+        "regulatory_status": "FDA 510(k) cleared (Gen 1 June 2019; Gen 2 in 2020); CE Mark in EU.",
+        "indication": "Pre-procedural mapping of ventricular arrhythmias in structurally normal hearts."
+      },
+      {
+        "name": "LockeT",
+        "description": "Suture retention device for wound healing, distributing suture tension over a larger area used with figure-of-eight suture closure.",
+        "regulatory_status": "Marketed (Class II suture-related device).",
+        "indication": "Hemostasis and post-procedural ambulation support after vascular access procedures."
+      }
+    ],
+    "ongoing_post_market_studies": [
+      {
+        "asset": "VIVO System",
+        "study": "Coventry Hospital UK physician-initiated study (50 pts, completed Q4 2024) in re-entrant scar-dependent VT; data planned to support FDA submission to expand labeling in Q2 2025.",
+        "type": "Investigator-initiated post-market study (not company-sponsored pivotal)."
+      },
+      {
+        "asset": "VIVO System Gen 3",
+        "study": "Software development underway; planned expanded indications to include ischemic heart disease (preclinical/development stage).",
+        "type": "Product development, no clinical trial yet."
+      }
+    ]
+  },
+  "excluded_preclinical": [
+    "VIVO Generation 3 software (in development, not yet in clinical trials)."
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company. Both products (VIVO System, LockeT) are FDA-cleared and commercially marketed. No active company-sponsored pivotal P1/P2/P3 drug or device clinical trials. Ongoing studies are investigator-initiated post-market evaluations."
+}

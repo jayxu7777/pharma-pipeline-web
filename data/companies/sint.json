@@ -1,0 +1,29 @@
+{
+  "issuer_name": "Sintx Technologies, Inc.",
+  "ticker": "SINT",
+  "exchange": "Nasdaq",
+  "cik": "0001269026",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-011924", "filed": "2026-03-20", "doc": "form10-k.htm", "slice_path": "data/sint_10k_pipeline_section.html"},
+    "website": {"url": "https://sintx.com/", "note": "Pipeline subpage 404; main site lists silicon-nitride products and applications"},
+    "ctgov": {"sponsor_query": "Sintx", "trials_found": 0, "compact_path": "data/sint_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "platform": "Silicon nitride (Si3N4) advanced ceramics",
+    "approved_devices": [
+      {"name": "SiNAPTIC Foot & Ankle Osteotomy Wedge System", "regulatory_status": "FDA 510(k) cleared (October 2025)", "indication": "Reconstructive foot and ankle orthopedic surgery"},
+      {"name": "FleX-SN orthopedic line / spinal implant material", "regulatory_status": "Material supplied to OEMs (CASCADE / Valencia spine cage cleared)", "indication": "Spinal interbody fusion"},
+      {"name": "FleX SN-AP (antipathogenic powder)", "regulatory_status": "Materials product; coatings and composite additive", "indication": "Antimicrobial coatings, medical textiles, wound care"}
+    ],
+    "manufacturing": "ISO 13485 / ISO 9001 / AS9100D certified; composite 3D printing capabilities"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Medical-device materials company (silicon nitride ceramics for orthopedic / spinal implants). Products commercialized via FDA 510(k) clearance pathway, not P1/P2/P3 drug trials. No company-sponsored ctgov studies and no active IDE pivotal device trials disclosed."
+}

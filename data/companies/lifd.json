@@ -1,0 +1,20 @@
+{
+  "issuer_name": "LFTD Partners Inc.",
+  "ticker": "LIFD",
+  "exchange": "OTC",
+  "cik": "0001391135",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001096906-26-000454", "filed": "2026-04-01", "doc": "lftp_10k.htm"},
+    "website": {"error": "Not a clinical-stage pharmaceutical issuer; pipeline page not applicable"},
+    "ctgov": {"sponsor_query": "LFTD Partners", "active_p1_p3_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "LFTD Partners is a holding company in hemp-derived consumer products and craft spirits (Ablis hemp-derived beverages, Bendistillery, Bend Spirits). It is not a clinical-stage biopharmaceutical company and has no FDA-regulated investigational drug candidates or clinical trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

@@ -1,0 +1,25 @@
+{
+  "issuer_name": "Elanco Animal Health Inc",
+  "ticker": "ELAN",
+  "exchange": "NYSE",
+  "cik": "0001739104",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/elan_10k_pipeline_section.html", "filing_date": "2026-02-24", "accession": "0001739104-26-000012"},
+    "website": {"url": "https://www.elanco.com/en-us/innovation", "note": "Animal-health company; no human clinical pipeline page"},
+    "ctgov": {"file": "data/elan_ctgov_compact.json", "trial_count": 0, "sponsor_query": "Elanco", "note": "No human clinical trials registered (animal health)"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Elanco Animal Health is an animal-health/veterinary pharmaceuticals company. Its products are veterinary medicines, vaccines, and parasiticides for livestock and companion animals; it does not run human clinical Phase 1/2/3 trials and is out of scope for this US biotech human-pipeline tracker.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3_indications": 0,
+    "p2_indications": 0,
+    "p1_indications": 0
+  }
+}

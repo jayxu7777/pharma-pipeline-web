@@ -1,0 +1,119 @@
+{
+  "issuer_name": "REGENXBIO Inc.",
+  "ticker": "RGNX",
+  "exchange": "Nasdaq",
+  "cik": "0001590877",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-094013", "filing_date": "2026-03-05", "fiscal_year_end": "2025-12-31"},
+    "website": {"error": "regenxbio.com/pipeline returned 404; details corroborated via IR press releases"},
+    "ctgov": {"sponsor_query": "REGENXBIO", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "ABBV-RGX-314 (surabgene lomparvovec)",
+      "aka": ["RGX-314", "sura-vec"],
+      "modality": "AAV8 gene therapy (one-time, anti-VEGF Fab transgene)",
+      "target": "VEGF (transgene-encoded anti-VEGF Fab)",
+      "license_origin": "Co-developed with AbbVie (collaboration / license)",
+      "indications": [
+        {
+          "indication": "Wet age-related macular degeneration (subretinal delivery)",
+          "highest_phase": "Phase 3",
+          "trial_name": "AAVIATE Pivotal 1 (subretinal)",
+          "trial_design": "Randomized, controlled pivotal Phase 2/3",
+          "nct_ids": ["NCT04704921"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "AbbVie (REGENXBIO collaborator)",
+          "key_milestones": ["Pivotal data expected 2026"]
+        },
+        {
+          "indication": "Wet age-related macular degeneration (suprachoroidal delivery)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ATMOSPHERE Pivotal 2",
+          "trial_design": "Randomized, controlled pivotal Phase 3",
+          "nct_ids": ["NCT05407636"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "AbbVie (REGENXBIO collaborator)",
+          "key_milestones": ["Primary completion 2026-10"]
+        },
+        {
+          "indication": "Diabetic retinopathy / diabetic macular edema (suprachoroidal)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALTITUDE",
+          "trial_design": "Randomized Phase 2",
+          "nct_ids": ["NCT04567550", "NCT06942520"],
+          "trial_status": "Active, not recruiting / Recruiting",
+          "lead_sponsor": "AbbVie (REGENXBIO collaborator); Sierra Eye Associates investigator-led",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RGX-202",
+      "aka": [],
+      "modality": "AAV8 gene therapy (microdystrophin with C-terminal domain)",
+      "target": "Dystrophin gene (microdystrophin transgene)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Duchenne muscular dystrophy",
+          "highest_phase": "Phase 3",
+          "trial_name": "AFFINITY DUCHENNE",
+          "trial_design": "Pivotal Phase 2/3, open-label",
+          "nct_ids": ["NCT05693142"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "REGENXBIO Inc.",
+          "key_milestones": ["Topline 1H 2026", "BLA submission planned mid-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "RGX-121 (clemidsogene lanparvovec)",
+      "aka": [],
+      "modality": "AAV9 gene therapy (CNS-directed, IDS gene)",
+      "target": "Iduronate-2-sulfatase (IDS) gene",
+      "license_origin": "Partnered with Nippon Shinyaku (commercial)",
+      "indications": [
+        {
+          "indication": "Mucopolysaccharidosis type II (Hunter syndrome)",
+          "highest_phase": "Phase 3",
+          "trial_name": "CAMPSIITE / RGX-121-3102",
+          "trial_design": "Pivotal Phase 1/2/3 and confirmatory Phase 3",
+          "nct_ids": ["NCT03566043", "NCT07236606"],
+          "trial_status": "Active, not recruiting / Suspended (FDA CRL on prior BLA)",
+          "lead_sponsor": "REGENXBIO Inc.",
+          "key_milestones": ["Received Complete Response Letter; engaging FDA on path forward"]
+        }
+      ]
+    },
+    {
+      "asset": "RGX-111",
+      "aka": [],
+      "modality": "AAV9 gene therapy (CNS-directed, IDUA gene)",
+      "target": "Alpha-L-iduronidase (IDUA) gene",
+      "license_origin": "Partnered with Nippon Shinyaku",
+      "indications": [
+        {
+          "indication": "Mucopolysaccharidosis type I (Hurler / Hurler-Scheie)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RGX-111 Gene Therapy in Patients With MPS I",
+          "trial_design": "Open-label Phase 1/2",
+          "nct_ids": ["NCT03580083"],
+          "trial_status": "Suspended",
+          "lead_sponsor": "REGENXBIO Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "AAV-hLDLR (HoFH)", "nct_ids": ["NCT02651675"], "reason": "Terminated"},
+    {"asset": "RGX-314 nAMD Phase 1/2", "nct_ids": ["NCT03066258"], "reason": "Completed early-phase, superseded by pivotals"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 4, "phase_3": 3, "phase_2": 1, "phase_1": 0}
+}

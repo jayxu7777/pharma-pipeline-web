@@ -1,0 +1,45 @@
+{
+  "issuer_name": "HOLOGIC INC",
+  "ticker": "HOLX",
+  "exchange": "Nasdaq",
+  "cik": "0000859737",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000859737-25-000072",
+      "filing_date": "2025-11-18",
+      "doc": "holx-20250927.htm",
+      "slice_html": "data/holx_10k_pipeline_section.html"
+    },
+    "website": {
+      "skipped": "Pure medtech / diagnostics company — no proprietary therapeutic pipeline page; products are devices, assays, and surgical instruments."
+    },
+    "ctgov": {
+      "compact": "data/holx_ctgov_compact.json",
+      "kept_p1_p3": 3,
+      "active_p1_p3_company_owned": 0,
+      "note": "2 sponsor-led P2 studies (MammoSite, GliaSite) are COMPLETED legacy device trials. The only RECRUITING P2 (NCT07087419 SHAZAM) is investigator-initiated (University of Washington lead) of generic Tinidazole; Hologic is collaborator only and the asset is not a Hologic proprietary therapeutic — excluded per partner-owned rule."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Hologic is a women's health-focused medical device, diagnostics, and surgical company. Major franchises (per FY2025 10-K Overview): Diagnostics (Aptima, Panther / Panther Fusion / Panther Scalable Solution molecular assays, ThinPrep Pap test, Biotheranostics breast-cancer tests), Breast Health (3Dimensions / Genius 3D Mammography, Affirm biopsy, BRevera, SuperSonic Imagine), GYN Surgical (NovaSure, MyoSure, Acessa, Fluent), Skeletal Health (Horizon DXA, Faxitron). All marketed under FDA device pathways (510(k) / PMA), not the IND/NDA P1-P3 drug-development paradigm."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT00586326", "reason": "COMPLETED 2006 — MammoSite for DCIS (legacy radiation-therapy device, divested business)"},
+    {"nct_id": "NCT00589212", "reason": "COMPLETED 2007 — GliaSite for brain metastases (legacy radiation-therapy device, divested business)"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT07087419", "reason": "Investigator-initiated (University of Washington lead sponsor); intervention is generic Tinidazole, not a Hologic-owned therapeutic. Hologic participates only as collaborator (likely supplying its Aptima M. genitalium diagnostic assay)."}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Pure medical device / molecular diagnostics / surgical instrument company (Diagnostics, Breast Health, GYN Surgical, Skeletal Health). No proprietary drug pipeline. Marketed products follow FDA 510(k)/PMA device pathways. The only active ctgov record is an investigator-led trial of a generic antibiotic where Hologic is merely a diagnostic-supplying collaborator."
+}

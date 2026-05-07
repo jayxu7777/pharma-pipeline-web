@@ -1,0 +1,44 @@
+{
+  "issuer_name": "VYNE Therapeutics Inc.",
+  "ticker": "VYNE",
+  "exchange": "Nasdaq",
+  "cik": "0001566044",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "file": "data/vyne_10k_pipeline_section.html",
+      "filing_date": "2026-02-27",
+      "accession": "0001566044-26-000002"
+    },
+    "website": {
+      "error": "vynetherapeutics.com/pipeline returned 404; vyne.com redirects to unrelated domain. Press releases and 10-K used instead."
+    },
+    "ctgov": {
+      "file": "data/vyne_ctgov_compact.json",
+      "trial_count": 35,
+      "active_trials": 0,
+      "note": "All trials are COMPLETED or TERMINATED. Most recent (NCT06493578, repibresib P2b NSV) was TERMINATED 2025-07 after missing primary endpoint."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Repibresib (VYN201) Phase 2b trial in nonsegmental vitiligo (NCT06493578) was TERMINATED in July 2025 after failing primary endpoint; company seeking external partner. VYN202 Phase 1b trial in plaque psoriasis was TERMINATED in 2025 after FDA clinical hold (testicular toxicity in dogs); a non-clinical dog tox study is ongoing through Q4 2026 to remedy hold. VYNE entered Merger Agreement (Dec 2025, amended Jan 2026) with Yarrow Biosciences; post-merger company will rename to Yarrow Bioscience and focus on YB-101 (TSHR antibody for Graves Disease), an asset not currently held by VYNE. As of snapshot, VYNE has no active P1/P2/P3 trials of its own assets.",
+  "excluded_preclinical": [
+    "VYN202 — repeat 12-week non-clinical toxicology study in male dogs (initiated Oct 2025, completion 2H 2026)"
+  ],
+  "excluded_legacy_terminated": [
+    "Repibresib (VYN201) — NSV Phase 2b NCT06493578 (TERMINATED 2025-07; missed F-VASI50 endpoint)",
+    "VYN202 — plaque psoriasis Phase 1b (TERMINATED 2025; FDA clinical hold)",
+    "Multiple legacy minocycline foam (FMX101/FMX103/FCD105), serlopitant (VPD-737), and other dermatology programs from prior business — all COMPLETED or TERMINATED"
+  ],
+  "excluded_partner_owned": [
+    "YB-101 / GS-098 (TSHR antibody, Graves Disease) — Yarrow Biosciences asset, only relevant post-merger close"
+  ],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

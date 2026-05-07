@@ -1,0 +1,24 @@
+{
+  "issuer_name": "Curative Biotechnology Inc",
+  "ticker": "CUBTD",
+  "exchange": "OTC",
+  "cik": "0001400271",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found in EDGAR recent filings (small OTC issuer; may file alternative reports)"},
+    "website": {"url": "https://curativebiotech.com/pipeline", "extracted": true},
+    "ctgov": {"path": "data/cubtd_ctgov_compact.json", "trials_kept": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "IMT504", "reason": "IND-supporting non-clinical studies; rabies and COVID-19 vaccine adjuvant; no active P1+ trial on registry"},
+    {"asset": "CUBT906 (CURB906)", "reason": "Phase I/II IND cleared but no recruiting trial on public registry; CD56 ADC for glioblastoma"},
+    {"asset": "Metformin reformulation (AMD/GA)", "reason": "IND-supporting studies, 505(b)(2) pathway, not yet in active clinical trial"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "All three disclosed assets are pre-IND or IND-cleared but not yet enrolling on any public registry (clinicaltrials.gov, EU CTIS, jRCT searched).",
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

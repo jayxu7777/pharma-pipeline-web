@@ -1,0 +1,60 @@
+{
+  "issuer_name": "Pasithea Therapeutics Corp.",
+  "ticker": "KTTAW",
+  "exchange": "Nasdaq",
+  "cik": "0001841330",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001213900-26-036434",
+      "path": "data/kttaw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://pasithea.com/pipeline",
+      "note": "Page summarizes MEK-inhibitor focus areas (NF1, ALS, MS, schizophrenia) and references marketed selumetinib for context; PAS-004 is the only proprietary clinical-stage asset"
+    },
+    "ctgov": {"path": "data/kttaw_ctgov_compact.json", "trials_kept": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "PAS-004",
+      "aka": [],
+      "modality": "Small molecule, macrocyclic allosteric MEK 1/2 inhibitor (oral capsule/tablet)",
+      "target": "MEK 1/2 (MAPK pathway)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "MAPK pathway-driven advanced solid tumors (RAS, NF1 or RAF mutations; or prior MAPK-pathway-targeted therapy)",
+          "highest_phase": "Phase 1",
+          "trial_name": "First-in-human Phase 1 multicenter open-label dose-escalation in advanced solid tumors",
+          "trial_design": "Open-label, multicenter, dose-escalation; PK/PD, safety, RECIST 1.1; food-effect sub-study",
+          "nct_ids": ["NCT06299839"],
+          "trial_status": "Recruiting (started 2024-02-29; primary completion 2026-02; cohort 8 / 45 mg dosed as of Dec 2025)",
+          "lead_sponsor": "Pasithea Therapeutics Corp.",
+          "key_milestones": ["Interim safety/PK/PD data Dec 2025 cutoff: well tolerated, t1/2 ~60h", "Study completion expected 2028"]
+        },
+        {
+          "indication": "Neurofibromatosis Type 1 (NF1) with symptomatic / inoperable plexiform neurofibromas (PNs)",
+          "highest_phase": "Phase 1/1b",
+          "trial_name": "Phase 1/1b dose-escalation of PAS-004 in adults with NF1-PN",
+          "trial_design": "Multicenter, open-label, dose-escalation; safety/tolerability, RPBD/MTD, REiNS criteria for tumor volume, QOL",
+          "nct_ids": ["NCT06961565"],
+          "trial_status": "Recruiting (started 2025-05-30; primary completion 2027-09)",
+          "lead_sponsor": "Pasithea Therapeutics Corp.",
+          "key_milestones": ["Trial initiated May 2025 with Novotech (Australia) collaborator"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "MEK inhibitor research programs in ALS, MS, schizophrenia", "reason": "Preclinical / discovery stage, not in active clinical trials"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "Selumetinib (Koselugo)", "reason": "Marketed product of AstraZeneca/Alexion; referenced on Pasithea website only as context — not a Pasithea asset"}
+  ],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 0, "P1": 1}
+}

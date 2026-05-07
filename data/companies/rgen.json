@@ -1,0 +1,33 @@
+{
+  "issuer_name": "Repligen Corporation",
+  "ticker": "RGEN",
+  "exchange": "Nasdaq",
+  "cik": "0000730272",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/rgen_10k_pipeline_section.html", "filing_date": "2026-02-26", "accession": "0001193125-26-076528"},
+    "website": {"note": "Repligen is a bioprocessing-tools supplier; no public clinical pipeline page"},
+    "ctgov": {"file": "data/rgen_ctgov_compact.json", "trial_count": 9, "sponsor_query": "Repligen", "note": "All trials COMPLETED or TERMINATED prior to 2015 — legacy drug-development programs since divested/discontinued"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Repligen Corporation is a bioprocessing tools and consumables company supplying filtration, chromatography, process analytics, and proteins to biopharma manufacturers. Per its FY2025 10-K (filed 2026-02-26), Repligen does not develop or run clinical trials of therapeutic candidates; legacy drug programs (RG1068 secretin, RG2417, RG2133, RG2077) were terminated/completed and divested years ago. No active P1/P2/P3 assets exist.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT00660335 RG1068 (synthetic secretin) MRCP P3 — COMPLETED, legacy",
+    "NCT00036231 RG1068 autism P3 — TERMINATED",
+    "NCT00036244 RG1068 autism P3 — COMPLETED, legacy",
+    "NCT00322764 / NCT00812058 RG2417 bipolar P2 — COMPLETED, legacy",
+    "NCT00060515 RG2133 mitochondrial P1 — TERMINATED",
+    "NCT00076934 RG2077 MS P1 (NIAID-led) — COMPLETED",
+    "NCT00216294 / NCT00235274 RG1068 OCD/schizophrenia P2 (Indiana University) — COMPLETED"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3_indications": 0,
+    "p2_indications": 0,
+    "p1_indications": 0
+  }
+}

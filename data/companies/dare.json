@@ -1,0 +1,142 @@
+{
+  "issuer_name": "Dare Bioscience, Inc.",
+  "ticker": "DARE",
+  "exchange": "Nasdaq",
+  "cik": "0001401914",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-26",
+      "accession": "0001401914-26-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1401914/000140191426000004/dare-20251231.htm"
+    },
+    "website": {
+      "url": "https://darebioscience.com/pipeline/",
+      "note": "Pipeline page returned mostly CSS; data confirmed via 10-K."
+    },
+    "ctgov": {
+      "sponsor_query": "Daré Bioscience",
+      "trials_returned_dare_led": 9,
+      "compact_path": "data/dare_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Ovaprene",
+      "aka": [],
+      "modality": "Hormone-free intravaginal contraceptive ring",
+      "target": "Mechanical/spermicidal barrier (ferrous gluconate)",
+      "license_origin": "Licensed from ADVA-Tec",
+      "indications": [
+        {
+          "indication": "Contraception (monthly intravaginal, hormone-free)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pivotal Phase 3 contraceptive efficacy study",
+          "trial_design": "Pivotal Phase 3 contraceptive efficacy study in women of reproductive age",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pivotal Phase 3 study referenced in 10-K; capital-dependent",
+          "lead_sponsor": "Dare Bioscience",
+          "key_milestones": ["Lead asset; primary R&D priority"]
+        }
+      ]
+    },
+    {
+      "asset": "Sildenafil Cream, 3.6%",
+      "aka": ["DARE to PLAY Sildenafil Cream (503B compounded)"],
+      "modality": "Topical cream (PDE5 inhibitor)",
+      "target": "PDE5",
+      "license_origin": "Internal / Strategic Science & Technologies",
+      "indications": [
+        {
+          "indication": "Female sexual arousal disorder (FSAD)",
+          "highest_phase": "Phase 1/Phase 2 (completed prior PK/efficacy work); 503B commercial launch initiated",
+          "trial_name": "Multiple Phase 1 PK and exploratory efficacy studies",
+          "trial_design": "PK and pilot efficacy studies of topical sildenafil cream in women with FSAD",
+          "nct_ids": ["NCT05765487", "NCT05418426", "NCT05354050"],
+          "trial_status": "COMPLETED — investigational program continues; 503B compounded version available by prescription Dec 2025",
+          "lead_sponsor": "Dare Bioscience",
+          "key_milestones": ["DARE to PLAY 503B compounded launch in U.S. Dec 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "DARE-HRT1",
+      "aka": [],
+      "modality": "Intravaginal ring (combination hormone)",
+      "target": "Estrogen / progesterone receptors",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Vasomotor symptoms of menopause (hot flashes)",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "Phase 1/2 in healthy postmenopausal women",
+          "trial_design": "12-week Phase 1/2 PK/PD study of intravaginal 17beta-estradiol + progesterone ring",
+          "nct_ids": ["NCT05367973"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Dare Bioscience",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "DARE-VVA1",
+      "aka": [],
+      "modality": "Intravaginal soft-gel capsule (tamoxifen formulation)",
+      "target": "Estrogen receptor (SERM)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe dyspareunia / vulvovaginal atrophy (VVA) in postmenopausal women",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "Intravaginal Tamoxifen Study in Postmenopausal Women with VVA",
+          "trial_design": "Open-label intravaginal tamoxifen study in postmenopausal women with VVA",
+          "nct_ids": ["NCT05378269"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Dare Bioscience",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "DARE-PTB1",
+      "aka": [],
+      "modality": "Vaginal insert",
+      "target": "Cervical/uterine — preterm birth prevention",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Prevention of preterm birth",
+          "highest_phase": "Phase 1",
+          "trial_name": "DARE-PTB1 Phase 1 program",
+          "trial_design": "Early Phase 1 clinical evaluation",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE — disclosed in 10-K as Phase 1 / Phase 1-ready clinical-stage program",
+          "lead_sponsor": "Dare Bioscience",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "XACIATO (clindamycin phosphate vaginal gel 2%)",
+    "status": "FDA-approved Dec 2021; licensed worldwide to Organon (royalties sold to XOMA in 2024)"
+  },
+  "excluded_preclinical": [
+    "DARE-HPV (lopinavir/ritonavir vaginal insert) — preclinical / IND-enabling",
+    "DARE-LARC1 (long-acting reversible contraceptive) — preclinical",
+    "DARE-FRT1, DARE-GML, DARE-IDDS, DARE-LBT, DARE-204, DARE-214 — preclinical or option/development programs",
+    "DARE-BV1 — Phase 3 completed (NCT04370548); commercialized as XACIATO (now classified as commercial)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "PVSRIPO trials by Darell Bigner (NCT04125719, NCT04160494, NCT03973879, NCT06177964) — academic-led, not Dare Bioscience-owned (sponsor name overlap on ctgov)"
+  ],
+  "summary_counts": {
+    "total_active_assets": 5,
+    "p3": 1,
+    "p2": 3,
+    "p1": 1
+  }
+}

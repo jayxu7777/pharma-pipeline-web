@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Optimi Health Corp.",
+  "ticker": "OPTHF",
+  "exchange": "OTC",
+  "cik": "0002027329",
+  "region": "Canada (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Optimi Health is a Health-Canada-licensed commercial-stage GMP manufacturer of natural psilocybin and MDMA, supplying clinical trials and special-access programs operated by third parties. The company itself does not sponsor any P1/P2/P3 clinical trials (CT.gov shows zero qualifying records as sponsor). Reported activity is supply for Australia's Authorised Prescriber Scheme (TRD treatment with 5 mg natural psilocybin capsules), supply for upcoming third-party Phase 2 trials in Canada and abroad, and a newly launched Ibogaine manufacturing initiative (April 2026). No proprietary clinical-stage drug candidate is in active P1/P2/P3 development under Optimi as sponsor.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files Canadian continuous-disclosure (no 10-K on EDGAR)"
+    },
+    "website": {
+      "url": "https://www.optimi.net/",
+      "note": "Corporate site describes commercial GMP manufacturing of psilocybin and MDMA; no proprietary clinical-stage drug pipeline disclosed."
+    },
+    "ctgov": {
+      "query": "spons:Optimi Health",
+      "unique_trials_p1_p3": 0,
+      "raw_records": 1,
+      "kept_p1_p3": 0,
+      "fetched": "2026-05-06"
+    },
+    "secondary_research": [
+      "stocktitan.net — Optimi Health 5 mg psilocybin TRD Australia rollout (Feb 2026)",
+      "newsfilecorp.com — Ibogaine Initiative launch (April 2026)"
+    ]
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "GMP-grade natural psilocybin (5 mg capsules) and pharmaceutical-grade MDMA supplied to third-party trials and Australia's Authorised Prescriber Scheme. Manufacturing/supply business, not a sponsored clinical-stage drug."
+  },
+  "excluded_preclinical": [
+    "Ibogaine manufacturing initiative (announced April 2026) — manufacturing platform extension, no clinical sponsorship"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  }
+}

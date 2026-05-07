@@ -1,0 +1,25 @@
+{
+  "issuer_name": "INTEGRATED BIOPHARMA INC",
+  "ticker": "INBP",
+  "exchange": "OTC",
+  "cik": "0001016504",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/inbp_10k_full.htm", "note": "10-K fetched; pipeline section auto-locator did not find a heading because no clinical pipeline exists. Company is a nutraceutical contract manufacturer."},
+    "website": {"url": "http://www.ibiopharma.com/", "note": "integratedbiopharma.com redirects to ibiopharma.com — corporate site for nutraceutical / vitamin / dietary-supplement contract manufacturing"},
+    "ctgov": {"file": "data/inbp_ctgov_compact.json", "trials": 0, "sponsor_query": "Integrated BioPharma"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Integrated BioPharma is a contract manufacturer of nutraceutical and dietary supplement products (Manhattan Drug Company subsidiary; Other Nutraceutical Business segment). The 10-K describes revenue from Contract Manufacturing and Nutraceutical sales; there are no drug candidates, no IND-stage assets, and no clinical trials sponsored. Not a clinical-stage biotech.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3_or_p2_p3": 0,
+    "p2_or_p1_p2": 0,
+    "p1": 0
+  }
+}

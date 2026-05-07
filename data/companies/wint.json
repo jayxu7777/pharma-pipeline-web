@@ -1,0 +1,59 @@
+{
+  "issuer_name": "Windtree Therapeutics, Inc.",
+  "ticker": "WINT",
+  "exchange": "OTC",
+  "cik": "0000946486",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-25-012093", "filing_date": "2025-04-15", "path": "data/wint_10k_pipeline_section.html"},
+    "website": {"url": "https://windtreetx.com/pipeline", "note": "WebFetch returned 522 (Cloudflare); pipeline composition confirmed via 2025 corporate news releases"},
+    "ctgov": {"path": "data/wint_ctgov_compact.json", "p1_p3_trials": 16, "note": "1 ACTIVE_NOT_RECRUITING Phase 1/2 (NCT05975021 istaroxime cardiogenic shock SCAI Stage C); remaining are completed/terminated legacy trials"}
+  },
+  "pipeline": [
+    {
+      "asset": "Istaroxime",
+      "aka": ["PST2744"],
+      "modality": "Small molecule (dual SERCA2a activator and Na+/K+-ATPase inhibitor)",
+      "target": "SERCA2a / Na+/K+-ATPase",
+      "license_origin": "Internal (ex-Greater China); Greater China rights licensed to Lee's Pharmaceutical (HK) Ltd.",
+      "indications": [
+        {
+          "indication": "Cardiogenic shock (SCAI Stage C)",
+          "highest_phase": "Phase 2 (Phase 1/2 SEISMiC C trial active; advancing toward Phase 3 pending interim and regulatory discussions in early 2026)",
+          "trial_name": "SEISMiC C — Safety and Efficacy Trial of Istaroxime for Cardiogenic Shock Stage C",
+          "trial_design": "Global, placebo-controlled, double-blind Phase 1/2 evaluating istaroxime added to standard inotropic/vasopressor therapy on systolic blood pressure and cardiac function in SCAI Stage C cardiogenic shock",
+          "nct_ids": ["NCT05975021"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2025-07-28); interim analysis of first 20 subjects in Q3 2025; advancing to Phase 3",
+          "lead_sponsor": "Windtree Therapeutics",
+          "key_milestones": ["Q3 2025 interim analysis", "Early 2026 regulatory discussions for Phase 3", "Prior SEISMiC pre-cardiogenic shock Phase 2 (NCT04325035) completed Sept 2024"]
+        },
+        {
+          "indication": "Acute heart failure (Greater China program via Lee's Pharmaceutical partner)",
+          "highest_phase": "Phase 3 (preparation; partner-led)",
+          "trial_name": "Lee's Pharmaceutical Greater China Phase 3 in acute heart failure (in preparation)",
+          "trial_design": "Partner-led Phase 3 for acute heart failure; Windtree retains final protocol approval",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — partner Lee's Pharmaceutical (HK) preparing to initiate Phase 3 program in Greater China",
+          "lead_sponsor": "Lee's Pharmaceutical (HK) Ltd. (Windtree licensee)",
+          "key_milestones": ["Phase 3 initiation in preparation as of 2025"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    {"asset": "aPKCi inhibitor (oncology)", "reason": "Preclinical; Japan patent issued but no clinical-stage program"},
+    {"asset": "Next-generation SERCA2a activators", "reason": "Discovery / preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Lucinactant / AEROSURF (KL4 surfactant)", "reason": "Multiple completed and terminated Phase 2/3 trials in RDS, BPD, MAS, ARDS, COVID-19 (NCT02636868, NCT04264156, NCT00004500, NCT00807235, NCT00215540, NCT04389671, NCT02528318, NCT02074059, NCT00578734, NCT00215553, NCT00934362) — discontinued program"},
+    {"asset": "Rostafuroxin (hypertension, NCT03217825)", "reason": "Phase 2 completed Feb 2018; not advanced"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "TH1902 (peptide-drug conjugate, NCT04706962)", "reason": "Sponsored by Theratechnologies; Windtree only listed as collaborator"}
+  ],
+  "summary_counts": {"p3": 1, "p2": 1, "p1": 0, "total_assets": 1},
+  "no_active_clinical_pipeline_reason": null
+}

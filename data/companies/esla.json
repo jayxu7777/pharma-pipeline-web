@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Estrella Immunopharma, Inc.",
+  "ticker": "ESLA",
+  "exchange": "Nasdaq",
+  "cik": "0001844417",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-029357", "filing_date": "2026-03-18", "path": "data/esla_10k_pipeline_section.html"},
+    "website": {"url": "https://estrellabio.com/pipeline/", "note": "Wix-rendered site, content not directly readable; supplemented with company 10-K and press releases"},
+    "ctgov": {"path": "data/esla_ctgov_compact.json", "trial_count": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "EB103",
+      "aka": [],
+      "modality": "ARTEMIS T-cell receptor platform (CD19-directed engineered T-cell therapy; differs from CAR-T by using TCR-like signaling)",
+      "target": "CD19",
+      "license_origin": "Licensed from Eureka Therapeutics (ARTEMIS platform)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell Non-Hodgkin's Lymphoma (NHL)",
+          "highest_phase": "Phase 1/2 (advancing to Phase 2 dose expansion)",
+          "trial_name": "STARLIGHT-1",
+          "trial_design": "Phase 1 dose escalation + Phase 2 dose expansion; open-label",
+          "nct_ids": ["NCT06343311"],
+          "trial_status": "RECRUITING — Phase 1 dose-escalation completed Dec 2025 (n=9, no treatment-related SAEs, 100% CR in high-dose cohort at Month 1); DSMB recommended advancing to Phase 2 expansion at RP2D (presented Feb 2026 ASTCT/CIBMTR Tandem Meetings)",
+          "lead_sponsor": "Estrella Biopharma, Inc.",
+          "key_milestones": ["Phase 1 100% CR in high-dose cohort 2025-2026", "Phase 2 expansion advancing"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "EB104", "reason": "ARTEMIS T-cell therapy targeting both CD19 and CD22; no active P1/P2/P3 trial registered — preclinical stage"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 0, "p2": 1, "p1": 1}
+}

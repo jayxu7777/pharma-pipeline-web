@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Sofgen Pharma S.A. (Procaps Group)",
+  "ticker": "PROCF",
+  "exchange": "OTC",
+  "cik": "0001863362",
+  "region": "EU/Latin America (foreign private issuer; Procaps Group, S.A. domiciled in Luxembourg, operations Colombia / softgel CDMO globally)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — Procaps Group files Form 20-F (not 10-K) with SEC; primary SEC ticker has been PROC (NASDAQ) and PROCF (OTC) for the FPI shares."},
+    "website": {"note": "Sofgen Pharma is the integrated Softgel CDMO arm of Procaps Group (sofgenpharma.com). Pipeline page describes CDMO service offerings (softgel formulation development, generics, OTC, nutraceuticals) rather than proprietary drug candidates in IND-enabled or clinical development."},
+    "ctgov": {"path": "data/procf_ctgov_compact.json", "trials_found": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "Procaps Group (PROCF / NASDAQ:PROC) and its Sofgen Pharma subsidiary operate primarily as a Contract Development and Manufacturing Organization (CDMO) specializing in softgel encapsulation technology, plus a portfolio of marketed generics, OTC, and nutraceutical products distributed in 50+ countries. No company-sponsored Phase 1/2/3 clinical trials appear on ClinicalTrials.gov under Sofgen Pharma or Procaps Group. Manufacturing/services and commercial-product business — not a clinical-stage drug developer.",
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

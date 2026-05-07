@@ -1,0 +1,67 @@
+{
+  "issuer_name": "Veru Inc.",
+  "ticker": "VERU",
+  "exchange": "Nasdaq",
+  "cik": "0000863894",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-25-038089", "filing_date": "2025-12-17", "doc": "veru20250930_10k.htm"},
+    "website": {"url": "https://verupharma.com/pipeline", "accessed": "2026-05-06", "note": "Page is JS-rendered; details obtained from 10-K"},
+    "ctgov": {"compact_path": "data/veru_ctgov_compact.json", "trials_p1_p3": 12}
+  },
+  "pipeline": [
+    {
+      "asset": "Enobosarm",
+      "aka": ["VERU-024"],
+      "modality": "Selective androgen receptor modulator (SARM, oral small molecule)",
+      "target": "Androgen receptor (tissue-selective)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Sarcopenic obesity / muscle preservation in patients on GLP-1 RA for chronic weight management",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 proof-of-concept (enobosarm + semaglutide); preceded by completed Phase 2b QUALITY dose-finding",
+          "trial_design": "Phase 2 randomized study assessing total body weight, physical function, and safety of enobosarm in patients on GLP-1 RA for weight loss; QUALITY Phase 2b previously met primary endpoint (100% relative reduction in lean-mass loss vs placebo + semaglutide, p<0.001) in Jan 2025; Phase 2b PLATEAU 72-week study planned to begin Q1 CY2026",
+          "nct_ids": ["NCT07446998", "NCT06282458"],
+          "trial_status": "Recruiting (NCT07446998); NCT06282458 dose-finding completed Apr 2025",
+          "lead_sponsor": "Veru Inc.",
+          "key_milestones": ["QUALITY Phase 2b primary endpoint met Jan 2025", "Maintenance Extension positive results Jun 2025", "Modified-release oral formulation on track for Phase 3", "PLATEAU Phase 2b planned start Q1 CY2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Sabizabulin",
+      "aka": ["VERU-111"],
+      "modality": "Oral small-molecule microtubule disruptor (binds colchicine site on beta-tubulin)",
+      "target": "Beta-tubulin (colchicine binding site); broad anti-inflammatory (suppresses IL-1, IL-6, IL-8, TNF-alpha, IFN-gamma, CXCL10)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Inflammation in atherosclerotic cardiovascular disease (stable CAD; hsCRP reduction)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Planned Phase 2 dose-finding proof-of-concept",
+          "trial_design": "Small Phase 2 dose-finding study assessing whether sabizabulin reduces high-sensitivity C-reactive protein in patients with stable CAD",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pre-IND meeting held with FDA Division of Cardiology and Nephrology Dec 26, 2024; FDA agreed unmet medical need exists; sufficient drug substance on hand",
+          "lead_sponsor": "Veru Inc.",
+          "key_milestones": ["Pre-IND meeting completed Dec 2024", "505(b)(1) regulatory pathway"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Sabizabulin (VERU-111) in metastatic castration-resistant prostate cancer — Phase 3 NCT04844749 terminated; Phase 1/2 NCT03752099 terminated",
+    "Sabizabulin in metastatic triple-negative breast cancer — Phase 2 NCT05008510 withdrawn",
+    "Sabizabulin in COVID-19 ARDS — Phase 3 NCT04842747 completed; Phase 2 NCT04388826 completed; program de-prioritized",
+    "Enobosarm in ER+/HER2- metastatic breast cancer — Phase 3 NCT05065411 (combo with abemaciclib) terminated; Phase 3 NCT04869943 (monotherapy) terminated; Phase 2 NCT05079360 withdrawn",
+    "VERU-100 (LHRH antagonist) in advanced prostate cancer — Phase 1/2 NCT04843319 terminated",
+    "VERU-944 / Zuclomiphene citrate in hot flashes from prostate cancer ADT — Phase 2 NCT03646162 completed; not advanced"
+  ],
+  "excluded_partner_owned": [
+    "FC2 Female Condom — divested Dec 30, 2024 (FC2 Business Sale to Clear Future, Inc.)"
+  ],
+  "summary_counts": {"total_active_assets": 2, "P3": 0, "P2": 2, "P1": 0, "indications_total": 2}
+}

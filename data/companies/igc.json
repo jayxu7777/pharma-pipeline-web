@@ -1,0 +1,63 @@
+{
+  "issuer_name": "IGC Pharma, Inc.",
+  "ticker": "IGC",
+  "exchange": "NYSE",
+  "cik": "0001326205",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001185185-25-000706",
+      "filing_date": "2025-06-27",
+      "doc": "igc10k033125.htm"
+    },
+    "website": {
+      "url": "https://igcpharma.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "trial_count": 2,
+      "active_or_recruiting": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "IGC-AD1",
+      "aka": [],
+      "modality": "Small molecule oral formulation (low-dose THC + secondary natural molecule, CB1 partial agonist with anti-neuroinflammatory properties)",
+      "target": "CB1 receptor (partial agonist)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Agitation in Alzheimer's dementia (AAD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CALMA",
+          "trial_design": "Multi-center, randomized, double-blind, placebo-controlled Phase 2 trial; 146-patient target",
+          "nct_ids": ["NCT05543681"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "IGC Pharma, LLC",
+          "key_milestones": [
+            "Positive interim results announced March 20, 2024 and November 14, 2024",
+            "Primary completion expected August 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "TGR-63 (preclinical candidate targeting amyloid-beta plaque formation)",
+    "MINT-AD (AI diagnostic tool for Alzheimer's, not a drug)",
+    "aha (Agentic Harmonization Assistant — AI platform, not a drug)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT04749563 — IGC-AD1 Phase 1 MAD safety trial (COMPLETED 2021)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 0,
+    "P2": 1,
+    "P1": 0
+  }
+}

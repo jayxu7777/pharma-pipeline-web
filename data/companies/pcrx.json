@@ -1,0 +1,141 @@
+{
+  "issuer_name": "Pacira BioSciences, Inc.",
+  "ticker": "PCRX",
+  "exchange": "Nasdaq",
+  "cik": "0001396814",
+  "region": "USA",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/pcrx_10k_pipeline_section.html", "filing_date": "2026-02-26", "accession": "0001628280-26-012297"},
+    "website": {"url": "https://pacira.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/pcrx_ctgov_compact.json", "sponsor": "Pacira (Pacira Pharmaceuticals, Inc)", "trial_count_total": "many (legacy + active)"}
+  },
+  "pipeline": [
+    {
+      "asset": "EXPAREL",
+      "aka": ["bupivacaine liposome injectable suspension"],
+      "modality": "Long-acting liposomal local anesthetic",
+      "target": "Local anesthetic (sodium-channel blockade) — sustained release",
+      "license_origin": "In-house (Pacira)",
+      "indications": [
+        {
+          "indication": "Acute postsurgical analgesia in pediatrics (age 0 to <6 years) — label expansion",
+          "highest_phase": "Phase 3",
+          "trial_name": "EXPAREL pediatric label-expansion program",
+          "trial_design": "Pediatric PK/safety program supporting label expansion; includes PK study in pediatric subjects",
+          "nct_ids": ["NCT03682302"],
+          "trial_status": "Pediatric program ongoing; per company pipeline page Phase 3",
+          "lead_sponsor": "Pacira Pharmaceuticals, Inc",
+          "key_milestones": []
+        },
+        {
+          "indication": "Postsurgical analgesia in cardiac surgery (PK + safety)",
+          "highest_phase": "Phase 1",
+          "trial_name": "EXPAREL cardiac surgery PK",
+          "trial_design": "Phase 1 PK and safety study of EXPAREL for postoperative analgesia in subjects undergoing cardiac surgery",
+          "nct_ids": ["NCT06271265"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Pacira Pharmaceuticals, Inc",
+          "key_milestones": ["Primary completion 2027-01"]
+        }
+      ]
+    },
+    {
+      "asset": "ZILRETTA",
+      "aka": ["triamcinolone acetonide extended-release injectable suspension"],
+      "modality": "Sustained-release intra-articular corticosteroid",
+      "target": "Glucocorticoid receptor (intra-articular)",
+      "license_origin": "In-house (acquired via Flexion Therapeutics)",
+      "indications": [
+        {
+          "indication": "Shoulder osteoarthritis (glenohumeral OA) — label expansion",
+          "highest_phase": "Phase 3",
+          "trial_name": "ZILRETTA Shoulder OA pivotal",
+          "trial_design": "Phase 3 randomized, double-blind, placebo-controlled study of ZILRETTA in subjects with shoulder OA",
+          "nct_ids": ["NCT06269705"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Pacira Pharmaceuticals, Inc",
+          "key_milestones": ["Primary completion 2026-08"]
+        }
+      ]
+    },
+    {
+      "asset": "iovera",
+      "aka": [],
+      "modality": "Handheld cryoneurolysis device (cryoanalgesia)",
+      "target": "Peripheral nerve cryoneurolysis (focused cold)",
+      "license_origin": "In-house (acquired via Myoscience)",
+      "indications": [
+        {
+          "indication": "Spasticity (label expansion)",
+          "highest_phase": "Phase 2",
+          "trial_name": "iovera spasticity program",
+          "trial_design": "Phase 2 program of iovera° cryoneurolysis in spasticity (per company pipeline)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company pipeline page",
+          "lead_sponsor": "Pacira BioSciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PCRX-201",
+      "aka": ["enekinragene inzadenovec"],
+      "modality": "Helper-dependent adenoviral gene therapy expressing IL-1Ra",
+      "target": "IL-1 (intra-articular IL-1Ra gene therapy)",
+      "license_origin": "In-house (acquired via GQ Bio / Flexion-related; in-house pipeline asset)",
+      "indications": [
+        {
+          "indication": "Knee osteoarthritis",
+          "highest_phase": "Phase 2",
+          "trial_name": "ASCEND",
+          "trial_design": "Phase 2 randomized, placebo-controlled study of intra-articular PCRX-201 in subjects with painful knee OA",
+          "nct_ids": ["NCT06884865"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Pacira Pharmaceuticals, Inc",
+          "key_milestones": ["Started 2025-02; primary completion 2032-07"]
+        }
+      ]
+    },
+    {
+      "asset": "PCRX-2002",
+      "aka": [],
+      "modality": "Sustained-release post-surgical pain agent",
+      "target": "Local analgesic (collaboration with AmacaThera; HA hydrogel-based delivery)",
+      "license_origin": "Licensed from AmacaThera",
+      "indications": [
+        {
+          "indication": "Post-surgical pain",
+          "highest_phase": "Phase 1",
+          "trial_name": "PCRX-2002 first-in-human",
+          "trial_design": "Phase 1 safety/PK study of PCRX-2002 (per company pipeline)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company pipeline page",
+          "lead_sponsor": "Pacira BioSciences (with AmacaThera)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "EXPAREL", "indication": "Postsurgical analgesia (multiple approvals; pediatric down to age 6)", "status": "Approved"},
+      {"name": "ZILRETTA", "indication": "Knee osteoarthritis pain", "status": "Approved"},
+      {"name": "iovera°", "indication": "Cryoneurolysis for various peripheral nerves", "status": "Cleared device"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"reason": "Many legacy COMPLETED/TERMINATED/WITHDRAWN EXPAREL studies (NCT04160091, NCT03954639, NCT03428984, NCT02468583, NCT03793010 etc.) are commercial product label-support studies, not active pipeline"}
+  ],
+  "excluded_partner_owned": [
+    {"reason": "Multiple Exparel investigator-initiated studies sponsored by academic centers (Rutgers, Emory, USF, Northwestern, Foundation for Orthopaedic Research) where Pacira is collaborator, not sponsor"}
+  ],
+  "summary_counts": {
+    "total_assets": 5,
+    "p3_indications": 2,
+    "p2_indications": 2,
+    "p1_indications": 2
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "issuer_name": "Dominari Holdings Inc.",
+  "ticker": "DOMH",
+  "exchange": "Nasdaq",
+  "cik": "0000012239",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-036897",
+      "filed": "2026-03-31",
+      "doc": "ea0283159-10k_domin.htm",
+      "note": "10-K describes the issuer as a financial-services holding company engaged in wealth management, investment banking, sales and trading, asset management, and insurance through subsidiaries (notably Dominari Securities). No drug, device, or therapeutic pipeline disclosed."
+    },
+    "website": {
+      "note": "Website lookup skipped — issuer is a financial-services holding company with no clinical product line; no /pipeline page applicable."
+    },
+    "ctgov": {
+      "sponsor_query": "Dominari",
+      "unique_trials_p1_p3": 0,
+      "compact_path": "data/domh_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Mis-bucketed via wide keyword match. Dominari Holdings is a financial-services holding company (broker-dealer, investment banking, asset management, insurance via subsidiaries including Dominari Securities). No therapeutic, device, or diagnostic clinical pipeline."
+}

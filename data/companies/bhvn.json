@@ -1,0 +1,222 @@
+{
+  "issuer_name": "Biohaven Ltd.",
+  "ticker": "BHVN",
+  "exchange": "NYSE",
+  "cik": "0001935979",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001935979-26-000020",
+      "filing_date": "2026-03-02",
+      "doc": "bhvn-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.biohaven.com/science/pipeline"
+    },
+    "ctgov": {
+      "query_sponsor": "Biohaven",
+      "studies_returned": 32,
+      "active_p123_company_sponsored": 12
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Troriluzole",
+      "aka": ["BHV-4157"],
+      "modality": "Oral small-molecule glutamate modulator (riluzole prodrug)",
+      "target": "Glutamatergic system",
+      "license_origin": "Internal (legacy Biohaven Pharmaceutical Holding asset retained post-Pfizer transaction)",
+      "indications": [
+        {
+          "indication": "Spinocerebellar Ataxia (adult)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Troriluzole SCA Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT03701399"],
+          "trial_status": "Active, not recruiting (NDA stage per company narrative)",
+          "lead_sponsor": "Biohaven Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Taldefgrobep alfa",
+      "aka": ["BHV-2000", "BMS-986089"],
+      "modality": "Recombinant fusion protein (anti-myostatin / activin-receptor ligand trap)",
+      "target": "Myostatin (GDF-8)",
+      "license_origin": "In-licensed from Bristol-Myers Squibb",
+      "indications": [
+        {
+          "indication": "Spinal Muscular Atrophy (adjunct to SMN-targeted therapy)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Taldefgrobep alfa SMA Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT05337553"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Biohaven Therapeutics Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Obesity / Overweight (cardiometabolic expansion)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Taldefgrobep alfa obesity Phase 2",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT07281495"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Biohaven Therapeutics Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Opakalim (BHV-7000)",
+      "aka": ["BHV-7000"],
+      "modality": "Oral small-molecule selective Kv7.2/7.3 potassium channel activator",
+      "target": "Kv7.2/Kv7.3 (KCNQ2/3)",
+      "license_origin": "Internal (Knopp Biosciences acquisition / Biohaven proprietary)",
+      "indications": [
+        {
+          "indication": "Refractory focal-onset epilepsy (adults)",
+          "highest_phase": "Phase 2/Phase 3",
+          "trial_name": "BHV-7000 focal epilepsy pivotal program",
+          "trial_design": "Randomized, double-blind, placebo-controlled (parallel pivotal studies)",
+          "nct_ids": ["NCT06132893", "NCT06309966"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biohaven Therapeutics Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Long-term safety/tolerability (open-label extension, focal epilepsy)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BHV-7000 long-term safety OLE",
+          "trial_design": "Open-label extension",
+          "nct_ids": ["NCT06443463"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Biohaven Therapeutics Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Inherited erythromelalgia",
+          "highest_phase": "Phase 1",
+          "trial_name": "BHV-7000 Phase 1b",
+          "trial_design": "Randomized, placebo-controlled crossover",
+          "nct_ids": ["NCT07262268"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Biohaven Therapeutics Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BHV-8000",
+      "aka": [],
+      "modality": "Oral brain-penetrant small-molecule TYK2/JAK1 inhibitor",
+      "target": "TYK2 / JAK1 (CNS neuroinflammation)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Parkinson's disease",
+          "highest_phase": "Phase 2/Phase 3",
+          "trial_name": "BHV-8000 PD pivotal",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06976268"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biohaven Therapeutics Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BHV-1300",
+      "aka": [],
+      "modality": "Bifunctional Molecular Degrader of Extracellular protein (MoDE) — IgG degrader",
+      "target": "Circulating IgG (extracellular protein degradation)",
+      "license_origin": "Internal (MoDE platform)",
+      "indications": [
+        {
+          "indication": "Graves' disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "BHV-1300 Graves' disease Phase 1",
+          "trial_design": "Open-label / placebo-controlled dose-finding",
+          "nct_ids": ["NCT06980649"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biohaven Therapeutics Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BHV-1400",
+      "aka": [],
+      "modality": "MoDE-class selective galactose-deficient IgA1 (Gd-IgA1) degrader",
+      "target": "Gd-IgA1",
+      "license_origin": "Internal (MoDE platform)",
+      "indications": [
+        {
+          "indication": "IgA nephropathy",
+          "highest_phase": "Phase 1",
+          "trial_name": "BHV-1400 IgAN Phase 1",
+          "trial_design": "Phase 1 dose finding",
+          "nct_ids": ["NCT07054684"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biohaven Therapeutics Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BHV-1510",
+      "aka": ["PBI-410", "GQ1010"],
+      "modality": "TROP2-directed antibody-drug conjugate (ADC)",
+      "target": "TROP2",
+      "license_origin": "In-licensed (GeneQuantum / Pyramid)",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic epithelial solid tumors (+/- cemiplimab)",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "BHV-1510 Phase 1/2",
+          "trial_design": "Open-label dose escalation/expansion +/- cemiplimab",
+          "nct_ids": ["NCT06384807"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biohaven Therapeutics Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BHV-1530",
+      "aka": ["AMB302"],
+      "modality": "FGFR3-directed antibody-drug conjugate (ADC)",
+      "target": "FGFR3",
+      "license_origin": "In-licensed",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (urothelial cancer focus)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BHV-1530 Phase 1",
+          "trial_design": "Open-label dose escalation",
+          "nct_ids": ["NCT06874335"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biohaven Therapeutics Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "BHV-1310 (MoDE IgG degrader for myasthenia gravis) — preclinical",
+    "BHV-1500 (CD30 ADC) — preclinical",
+    "BHV-1600 (\u03b21AR autoantibody MoDE for peripartum cardiomyopathy) — Phase 1 IND-stage per website (no NCT located)",
+    "BHV-2100 (TRPM3 antagonist for pain) — Phase 2 per website but no NCT located (treated as PLANNED)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 8,
+    "phase_3": 2,
+    "phase_2": 3,
+    "phase_1": 6
+  }
+}

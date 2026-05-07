@@ -1,0 +1,50 @@
+{
+  "issuer_name": "Silexion Therapeutics Corp",
+  "ticker": "SLXNW",
+  "exchange": "Nasdaq",
+  "cik": "0002022416",
+  "region": "Israel (US-listed via Cayman Islands holdco)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001178913-26-000953", "filing_date": "2026-03-17", "path": "data/slxnw_10k_pipeline_section.html"},
+    "website": {"url": "https://www.silexion.com", "note": "Single-asset KRAS siRNA company (SIL204); pipeline content matches 10-K"},
+    "ctgov": {"path": "data/slxnw_ctgov_compact.json", "active_p1_to_p3_trials": 0, "note": "No SIL204 or Silexion-sponsored trials registered as of snapshot date"}
+  },
+  "pipeline": [
+    {
+      "asset": "SIL204",
+      "aka": ["second-generation siG12D-LODER", "rSIL204"],
+      "modality": "siRNA (small interfering RNA), local intratumoral and subcutaneous formulations",
+      "target": "KRAS (pan-KRAS G12 mutations including G12D, G12V; broad activity vs. oncogenic KRAS mutants)",
+      "license_origin": "Internal (Silexion / formerly Silenseed)",
+      "indications": [
+        {
+          "indication": "Locally Advanced Pancreatic Cancer (LAPC) harboring KRAS mutation",
+          "highest_phase": "P2/3",
+          "trial_name": "SIL204-IR + Standard of Care chemotherapy vs SoC alone (adaptive design: Segment 1 P2 safety run-in, Segment 2 P2 dose-finding, Segment 3 confirmatory P3)",
+          "trial_design": "Prospective, randomized, controlled, multinational, multi-center, open-label, adaptive 3-segment design; ~15-21 patients in Segment 1, ~403 patients total; planned sites Israel + Germany + EU + US",
+          "nct_ids": [],
+          "trial_status": "PLANNED — Q2 2026 expected commencement. As of FY2025 10-K (filed 2026-03-17): submitted to Israel Ministry of Health (awaiting response); ethics committee approval received from major Israeli oncology center; German BfArM submission planned 03/2026; toxicology package complete; GMP API for Segment 1 manufactured.",
+          "lead_sponsor": "Silexion Therapeutics",
+          "key_milestones": [
+            "2025 H2: toxicology package complete in two species, ICH S9-aligned",
+            "Q1 2026: regulatory submission to Israel MoH",
+            "Planned 03/2026: German MoH submission",
+            "Planned Q2 2026: trial commencement",
+            "Planned H1 2027: file for Orphan Drug Designation in US and EU",
+            "Planned early 2027: Segment 2 (dose-finding) initiation"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "SIL204 expansion programs", "indication": "Colorectal cancer, NSCLC, gastric cancer (KRAS-mutant)", "stage": "Preclinical — additional indications planned for 2026 pipeline expansion"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "siG12D-LODER (first-generation product)", "note": "Phase II in LAPC completed 2018-2023 (5 sites Israel, 4 US); served as prototype for SIL204. Company pivoted from Loder to SIL204 in 2022 following management change; first-gen Loder no longer being developed for commercialization."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2/3_planned": 1, "P2": 0, "P1": 0, "total_active_assets": 1}
+}

@@ -1,0 +1,88 @@
+{
+  "issuer_name": "Corbus Pharmaceuticals Holdings, Inc.",
+  "ticker": "CRBP",
+  "exchange": "Nasdaq",
+  "cik": "0001595097",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-098530", "filed": "2026-03-09", "fy": "2025"},
+    "website": {"url": "https://www.corbuspharma.com/our-pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Corbus Pharmaceuticals", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "CRB-701",
+      "aka": ["SYS6002"],
+      "modality": "Antibody-drug conjugate (Nectin-4 MMAE)",
+      "target": "Nectin-4",
+      "license_origin": "In-licensed from CSPC (Greater China retained by CSPC)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (urothelial, cervical, HNSCC) - US/EU",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "CRB-701 Phase 1/2 (US/EU)",
+          "trial_design": "Phase 1/2 dose escalation/expansion +/- anti-PD-1",
+          "nct_ids": ["NCT06265727"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Corbus Pharmaceuticals Inc. (collaborator: CSPC)",
+          "key_milestones": ["FDA Fast Track Designation in HNSCC and cervical cancer; CSPC has Phase 3 program in China for urothelial"]
+        }
+      ]
+    },
+    {
+      "asset": "CRB-913",
+      "aka": [],
+      "modality": "Oral small molecule, peripherally restricted",
+      "target": "Cannabinoid receptor type 1 (CB1) inverse agonist",
+      "license_origin": "Internal (Corbus)",
+      "indications": [
+        {
+          "indication": "Obesity",
+          "highest_phase": "Phase 1",
+          "trial_name": "CRB-913 Phase 1b in obesity",
+          "trial_design": "2-part Phase 1b safety/PK/efficacy in participants with obesity",
+          "nct_ids": ["NCT07310901"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Corbus Pharmaceuticals Inc.",
+          "key_milestones": ["12-week dose-range Phase 2 study (n~240) planned mid-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "CRB-601",
+      "aka": [],
+      "modality": "Anti-integrin avß8 monoclonal antibody (TGF-beta activation blocker)",
+      "target": "Integrin avß8",
+      "license_origin": "Internal (Corbus)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "CRB-601-01 first-in-human",
+          "trial_design": "Phase 1/2 dose escalation/expansion mono and with anti-PD-1",
+          "nct_ids": ["NCT06603844"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Corbus Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Lenabasum (JBT-101)", "note": "Phase 3 systemic sclerosis NCT03398837 terminated; Phase 3 dermatomyositis NCT03813160 completed (failed primary); Phase 2 CF, SLE, dermatomyositis prior all terminated/completed; program discontinued"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "CRB-701 China rights (CSPC)", "note": "CSPC Zhongnuo retains greater China rights and runs separate Phase 3 in urothelial cancer"}
+  ],
+  "summary_counts": {
+    "total_assets": 3,
+    "P3": 0,
+    "P2": 0,
+    "P1/2": 2,
+    "P1": 1,
+    "indications_active": 3
+  }
+}

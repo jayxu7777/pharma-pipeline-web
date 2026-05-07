@@ -1,0 +1,43 @@
+{
+  "issuer_name": "Spero Therapeutics, Inc.",
+  "ticker": "SPRO",
+  "exchange": "Nasdaq",
+  "cik": "0001701108",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-126192", "filing_date": "2026-03-26", "path": "data/spro_10k_pipeline_section.html"},
+    "website": {"url": "https://sperotherapeutics.com/pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/spro_ctgov_compact.json", "trial_count": 26}
+  },
+  "pipeline": [
+    {
+      "asset": "Tebipenem HBr",
+      "aka": ["tebipenem pivoxil hydrobromide", "TBP-PI-HBr", "SPR994"],
+      "modality": "Small molecule (oral carbapenem antibiotic)",
+      "target": "Bacterial cell wall synthesis (penicillin-binding proteins)",
+      "license_origin": "Licensed to GSK Sept 2022 (development/manufacture/commercialization, IND and NDA ownership transferred to GSK)",
+      "indications": [
+        {
+          "indication": "Complicated urinary tract infection (cUTI) including pyelonephritis",
+          "highest_phase": "Phase 3 (NDA filing planned)",
+          "trial_name": "PIVOT-PO",
+          "trial_design": "Randomized, double-blind, double-dummy, active-controlled global non-inferiority trial vs IV imipenem-cilastatin",
+          "nct_ids": ["NCT06059846"],
+          "trial_status": "COMPLETED — IDMC stopped trial early for efficacy; primary endpoint of non-inferiority met; FDA NDA filing planned 2H 2025 (per company)",
+          "lead_sponsor": "Spero Therapeutics (with GSK collaboration)",
+          "key_milestones": ["Phase 3 PIVOT-PO topline positive 2025", "Earlier Phase 3 ADAPT-PO completed (NCT03788967)", "NDA submission to FDA"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "SPR206", "reason": "March 2025 — company announced reprioritization, ceased development of SPR206 (HABP/VABP polymyxin)"},
+    {"asset": "SPR720", "reason": "November 2025 — company ceased development of SPR720 for first-line MAC pulmonary disease following Phase 2 (NCT05496374 completed; earlier Phase 2 NCT04553406 terminated)"},
+    {"asset": "SPR741", "reason": "Legacy potentiator program; only Phase 1 completed, no current development"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 1, "p2": 0, "p1": 0}
+}

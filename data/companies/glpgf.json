@@ -1,0 +1,108 @@
+{
+  "issuer_name": "Galapagos NV",
+  "ticker": "GLPGF",
+  "exchange": "OTC",
+  "cik": "0001421876",
+  "region": "Belgium (EU)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F (Belgium); no 10-K found via fetcher"},
+    "website": {
+      "url": "https://www.galapagos.com/science/pipeline",
+      "fetched": "2026-05-06",
+      "note": "Pipeline page captured via WebFetch; secondary URL https://www.glpg.com/innovation/pipeline/ also referenced"
+    },
+    "ctgov": {
+      "path": "data/glpgf_ctgov_compact.json",
+      "trials_kept_total": 128,
+      "note": "Most trials are legacy filgotinib (GLPG0634) studies sublicensed to Gilead and several discontinued small-molecule programs; only the trials below are active, company-led, and aligned with disclosed pipeline."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "GLPG3667",
+      "aka": [],
+      "modality": "Oral small molecule",
+      "target": "Tyrosine kinase 2 (TYK2) inhibitor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Systemic lupus erythematosus (SLE)",
+          "highest_phase": "Phase 2",
+          "trial_name": "GALARISSO (SLE Phase 2)",
+          "trial_design": "Randomized, placebo-controlled Phase 2 in adults with active SLE",
+          "nct_ids": ["NCT05695950"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; primary completion 2025-10-08; topline expected 1H 2026",
+          "lead_sponsor": "Galapagos NV",
+          "key_milestones": ["Topline data expected 1H 2026"]
+        },
+        {
+          "indication": "Dermatomyositis",
+          "highest_phase": "Phase 2",
+          "trial_name": "GALACETO (Dermatomyositis Phase 2)",
+          "trial_design": "Randomized, placebo-controlled Phase 2 in adults with dermatomyositis, up to 24 weeks oral treatment",
+          "nct_ids": ["NCT05442489"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; primary completion 2025-10-13; topline expected 1H 2026",
+          "lead_sponsor": "Galapagos NV",
+          "key_milestones": ["Topline data expected 1H 2026", "Partnership opportunities being explored"]
+        }
+      ]
+    },
+    {
+      "asset": "GLPG5101",
+      "aka": [],
+      "modality": "Autologous CD19-directed CAR-T (point-of-care manufactured)",
+      "target": "CD19",
+      "license_origin": "Internal (decentralized point-of-care platform)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory non-Hodgkin lymphoma (NHL); planned pivotal in mantle cell lymphoma",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ATALANTA-1",
+          "trial_design": "Open-label Phase 1/2 of GLPG5101 in patients with R/R B-cell NHL",
+          "nct_ids": ["NCT05554939"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; primary completion 2029-07-01. Pivotal MCL development planned for 2026; HOWEVER company announced intention (Oct 2025) to wind down cell therapy activities starting Jan 2026.",
+          "lead_sponsor": "Galapagos NV",
+          "key_milestones": ["Pivotal MCL development originally planned 2026", "Cell-therapy wind-down initiated Jan 2026 - program continuity uncertain"]
+        }
+      ]
+    },
+    {
+      "asset": "GLPG5301",
+      "aka": [],
+      "modality": "Autologous BCMA-directed CAR-T (point-of-care manufactured)",
+      "target": "BCMA",
+      "license_origin": "Internal (decentralized point-of-care platform)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory multiple myeloma",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "PAPILIO-1",
+          "trial_design": "Open-label Phase 1/2 of GLPG5301 in R/R multiple myeloma",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1/2 ongoing per company disclosure; not located on US clinicaltrials.gov as of snapshot. Cell-therapy wind-down initiated Jan 2026 - program continuity uncertain.",
+          "lead_sponsor": "Galapagos NV",
+          "key_milestones": ["Cell-therapy wind-down initiated Jan 2026 - program continuity uncertain"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Filgotinib / GLPG0634 (JAK1) - global rights with Gilead/Alfasigma; not Galapagos-led commercially in US/EU outside legacy obligations",
+    "GLPG1690 ziritaxestat (Phase 3 ISABELA terminated in IPF, 2021)",
+    "GLPG3970, GLPG2737, GLPG0974, GLPG0187, GLPG1837, GLPG0259 - discontinued or completed programs"
+  ],
+  "excluded_partner_owned": [
+    "Filgotinib trials sponsored by Gilead Sciences"
+  ],
+  "summary_counts": {
+    "assets": 3,
+    "indications_active_p1_p2_p3": 4,
+    "phase3": 0,
+    "phase2": 2,
+    "phase1_2": 2,
+    "phase1": 0
+  }
+}

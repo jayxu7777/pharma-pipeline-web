@@ -1,0 +1,24 @@
+{
+  "issuer_name": "ProtoKinetix, Inc.",
+  "ticker": "PKTX",
+  "exchange": "OTC",
+  "cik": "0001128189",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"note": "Latest 10-K downloaded; pipeline section heading not auto-detected (no formal pipeline table). Body text reviewed via grep. Filing reflects FY2024 financials (R&D ~$99,625)."},
+    "website": {"url": "https://www.protokinetix.com", "note": "Site describes AAGP molecule and broad applications (ophthalmology, dermatology, transplants, biomanufacturing) but discloses no formal company-sponsored clinical pipeline."},
+    "ctgov": {"sponsor_query": "ProtoKinetix", "results": 1, "note": "Single trial NCT03073577 'Islet Transplantation Using PKX-001' is investigator-sponsored by University of Alberta with ProtoKinetix as collaborator; status COMPLETED (primary completion May 7, 2025)."}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "ProtoKinetix is a research/product-development-stage company with no marketed products and no active company-sponsored P1/P2/P3 trials. Its sole clinical engagement (PKX-001 in islet transplantation, NCT03073577) is an investigator-sponsored Phase 1 by University of Alberta which COMPLETED in May 2025. R&D is limited (~$99,625 in FY2024) and the company is focused on commercial/partnership validation of the AAGP molecule rather than running its own clinical trials.",
+  "excluded_preclinical": [
+    {"asset": "AAGP molecule (broad applications: cell/tissue/organ preservation, ophthalmology, dermatology, biomanufacturing)", "reason": "Preclinical / research-stage; no active company-sponsored P1/P2/P3"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "PKX-001 (AAGP) in Type 1 Diabetes islet transplantation", "nct": "NCT03073577", "reason": "Phase 1 investigator-sponsored trial (University of Alberta) status COMPLETED; not active"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

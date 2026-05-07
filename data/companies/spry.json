@@ -1,0 +1,73 @@
+{
+  "issuer_name": "ARS Pharmaceuticals, Inc.",
+  "ticker": "SPRY",
+  "exchange": "Nasdaq",
+  "cik": "0001671858",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-097478", "filing_date": "2026-03-09", "doc": "spry-20251231.htm"},
+    "website": {"url": "https://www.ars-pharma.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/spry_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "neffy (epinephrine nasal spray)",
+      "aka": ["ARS-1"],
+      "modality": "Nasal spray (intranasal epinephrine)",
+      "target": "Adrenergic receptors (alpha/beta)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute exacerbation of asthma (rescue use)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ARS-1 vs. albuterol persistent asthma study",
+          "trial_design": "Randomized study comparing ARS-1 and albuterol MDI in persistent asthma",
+          "nct_ids": ["NCT05363670"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "ARS Pharmaceuticals, Inc.",
+          "key_milestones": ["Completed 2024-02; data supports follow-on/registrational planning"]
+        },
+        {
+          "indication": "Frequent urticaria flares (acute treatment)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Intranasal epinephrine in frequent urticaria flares",
+          "trial_design": "Open-label safety/efficacy of ARS-1 in subjects with frequent urticaria flares",
+          "nct_ids": ["NCT05496465"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "ARS Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ARS-2",
+      "aka": [],
+      "modality": "Intranasal epinephrine (next-gen formulation)",
+      "target": "Adrenergic receptors",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic spontaneous urticaria (CSU)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ARS-2 outpatient CSU study",
+          "trial_design": "Outpatient placebo-controlled Phase 2 of intranasal epinephrine (0.5 mg / 1.0 mg) in CSU",
+          "nct_ids": ["NCT06927999"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ARS Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2026-06"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "neffy (epinephrine nasal spray)", "indication": "Type I allergic reactions including anaphylaxis", "approval": "FDA Aug 2024 (adults/peds >=30 kg); pediatric 15-30 kg approval Mar 2025; EU/UK approvals"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "phase_3": 0, "phase_2": 3, "phase_1": 0}
+}

@@ -1,0 +1,52 @@
+{
+  "issuer_name": "Agentix Corp.",
+  "ticker": "AGTX",
+  "exchange": "OTC",
+  "cik": "0001603345",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001477932-25-005077",
+      "filing_date": "2025-07-16",
+      "primary_doc": "agtx_10k.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found"
+    },
+    "ctgov": {
+      "sponsor_query": "Agentix",
+      "trials_returned": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {
+      "asset": "AGTX-2004",
+      "aka": ["DBPR211"],
+      "modality": "Small molecule",
+      "target": "Peripherally-acting CB1 receptor antagonist",
+      "indications": ["Obesity", "Type 2 diabetes mellitus"],
+      "status": "IND cleared by FDA; preparing to commence Phase 1 in Australia. Not yet started."
+    },
+    {
+      "asset": "AGTX-2003",
+      "aka": ["RTI-1092769"],
+      "modality": "Small molecule",
+      "target": "Peripherally-acting CB1 receptor inverse agonist",
+      "indications": ["Obesity", "NAFLD"],
+      "status": "Preclinical; advancing IND-enabling animal studies."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "Both product candidates (AGTX-2004 IND-cleared but not yet enrolled; AGTX-2003 preclinical) are below the active-P1 threshold. Company has no employees and operates from a virtual office; FY2025 R&D spend was $180,987.",
+  "summary_counts": {
+    "assets": 0,
+    "indications": 0,
+    "p1_count": 0,
+    "p2_count": 0,
+    "p3_count": 0
+  }
+}

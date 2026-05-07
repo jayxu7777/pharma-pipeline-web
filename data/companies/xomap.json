@@ -1,0 +1,42 @@
+{
+  "issuer_name": "XOMA Royalty Corp",
+  "ticker": "XOMAP",
+  "exchange": "Nasdaq",
+  "cik": "0000791908",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-030872",
+      "filing_date": "2026-03-18",
+      "file": "data/xomap_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://xoma.com",
+      "note": "No /pipeline page; XOMA Royalty is a royalty aggregator, not a clinical-stage developer"
+    },
+    "ctgov": {
+      "file": "data/xomap_ctgov_compact.json",
+      "note": "All 26 historical XOMA-sponsored or XOMA-collaborator trials are TERMINATED, COMPLETED, or SUSPENDED; no active P1/P2/P3 sponsored by XOMA"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "XOMA Royalty Corp transitioned to a biotech royalty aggregator. It does not develop drugs internally; instead, it acquires economic rights (milestone and royalty payments) on partnered pre-commercial clinical candidates being developed by third parties. It sponsors no active P1/P2/P3 trials of its own.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Gevokizumab (anti-IL-1beta) — multiple Phase 2/3 trials in pyoderma gangrenosum, Behcet's uveitis, non-infectious uveitis, osteoarthritis, acne, autoimmune inner ear disease — all TERMINATED or COMPLETED",
+    "XOMA 052 (gevokizumab) — Phase 1/2 trials in type 1 and type 2 diabetes mellitus, rheumatoid arthritis — COMPLETED or SUSPENDED",
+    "XOMA 358 (X358) — Phase 2 trials in hypoglycemia post-gastric-bypass and congenital hyperinsulinism — COMPLETED",
+    "Opebacan — Phase 1/2 in graft-versus-host disease — TERMINATED",
+    "ING-1, efalizumab — historical Phase 1/2 — COMPLETED",
+    "HCD122 — Novartis-led Phase 1 / Phase 1-2 in CLL and lymphoma — TERMINATED/COMPLETED"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "issuer_name": "Novavax, Inc.",
+  "ticker": "NVAX",
+  "exchange": "Nasdaq",
+  "cik": "0001000694",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001000694-26-000007", "filed": "2026-02-26", "form": "10-K"},
+    "website": {"url": "https://www.novavax.com/products-pipeline/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Novavax", "trials_returned": 50, "active_clinical": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "COVID-19/Influenza Combination (CIC) vaccine",
+      "aka": ["NVX-CoV-Flu CIC"],
+      "modality": "Recombinant nanoparticle protein vaccine + Matrix-M adjuvant",
+      "target": "SARS-CoV-2 spike + influenza HA",
+      "license_origin": "Internal (Sanofi has option/CLA on certain CIC products)",
+      "indications": [
+        {
+          "indication": "Prevention of COVID-19 and seasonal influenza",
+          "highest_phase": "Phase 3",
+          "trial_name": "CIC Phase 3 safety/immunogenicity",
+          "trial_design": "Phase 3 randomized immunogenicity/safety study",
+          "nct_ids": ["NCT06291857"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Novavax",
+          "key_milestones": ["FDA Fast Track designation"]
+        }
+      ]
+    },
+    {
+      "asset": "Stand-alone influenza vaccine (older adults)",
+      "aka": [],
+      "modality": "Recombinant nanoparticle protein vaccine + Matrix-M adjuvant",
+      "target": "Influenza HA",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Seasonal influenza in older adults",
+          "highest_phase": "Phase 3",
+          "trial_name": "Stand-alone influenza Phase 3 (program described in 10-K alongside CIC)",
+          "trial_design": "Phase 3 randomized immunogenicity/safety",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per 10-K (paired with CIC Phase 3 program)",
+          "lead_sponsor": "Novavax",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NVX-CoV2705 (next-generation/strain-updated COVID-19 vaccine)",
+      "aka": ["NVX-CoV2705"],
+      "modality": "Recombinant nanoparticle protein vaccine + Matrix-M adjuvant",
+      "target": "SARS-CoV-2 spike (updated variant)",
+      "license_origin": "Internal (Sanofi-licensed under CLA)",
+      "indications": [
+        {
+          "indication": "COVID-19 prevention (strain change/PMC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Safety and Immunogenicity of NVX-CoV2705",
+          "trial_design": "Phase 3 strain-change immunogenicity/safety",
+          "nct_ids": ["NCT07079670", "NCT06409663"],
+          "trial_status": "ACTIVE_NOT_RECRUITING / recently completed strain-change study",
+          "lead_sponsor": "Novavax",
+          "key_milestones": ["U.S. BLA transferred to Sanofi (Nov 2025)"]
+        },
+        {
+          "indication": "COVID-19 prevention in pediatric population (6 months to <12 years)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Pediatric COVID-19 vaccine study",
+          "trial_design": "Phase 2/3 randomized safety and immunogenicity",
+          "nct_ids": ["NCT05468736"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Novavax",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Nuvaxovid (NVX-CoV2373)": "Authorized COVID-19 vaccine; commercialization transferred to Sanofi via CLA (Nov 2025).",
+    "R21/Matrix-M malaria vaccine": "Available in 24 countries as of Feb 2026; partnered with Serum Institute of India / Oxford."
+  },
+  "excluded_preclinical": [
+    "C. difficile colitis vaccine (preclinical)",
+    "Shingles vaccine (preclinical)",
+    "RSV / hMPV combinations (preclinical)",
+    "Pandemic influenza + Matrix-M (Sanofi partner, preclinical)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "FLUBLOK + Nuvaxovid combination (Sanofi-led)",
+    "FLUZONE High-Dose + Nuvaxovid combination (Sanofi-led)"
+  ],
+  "summary_counts": {"assets": 3, "indications": 4, "phase3": 4, "phase2": 0, "phase1": 0}
+}

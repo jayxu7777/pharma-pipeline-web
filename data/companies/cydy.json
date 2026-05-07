@@ -1,0 +1,79 @@
+{
+  "issuer_name": "CytoDyn Inc.",
+  "ticker": "CYDY",
+  "exchange": "OTC",
+  "cik": "0001175680",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001558370-25-009617", "filing_date": "2025-07-25", "fiscal_year_end": "2025-05-31"},
+    "website": {"url": "https://www.cytodyn.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "CytoDyn", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Leronlimab",
+      "aka": ["PRO 140"],
+      "modality": "Humanized IgG4 monoclonal antibody",
+      "target": "CCR5",
+      "license_origin": "Internal (originally licensed from Progenics)",
+      "indications": [
+        {
+          "indication": "Metastatic colorectal cancer (mCRC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CLOVER — Leronlimab + chemo/VEGF inhibitor",
+          "trial_design": "Phase 2 open-label, two-dose (350 mg vs 700 mg) plus oral chemo + bevacizumab",
+          "nct_ids": ["NCT06699836"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "CytoDyn, Inc.",
+          "key_milestones": ["Started 2025-06; primary completion 2028-01"]
+        },
+        {
+          "indication": "Metastatic triple-negative breast cancer (mTNBC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Leronlimab in mTNBC (per company pipeline disclosure)",
+          "trial_design": "Phase 2 (planned/ongoing per company; previous study NCT03838367 completed)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — company-disclosed Phase 2 advancement following prior P1b/2 readout (NCT03838367)",
+          "lead_sponsor": "CytoDyn, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "MASH (metabolic dysfunction-associated steatohepatitis)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Leronlimab in MASH (investigator-sponsored, planned)",
+          "trial_design": "Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — company-disclosed Phase 2 program",
+          "lead_sponsor": "CytoDyn, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "HIV antiviral therapy (combination/heavily treatment-experienced)",
+          "highest_phase": "Phase 3 (legacy)",
+          "trial_name": "Prior Phase 3 BLA-supporting program",
+          "trial_design": "Phase 3 (FDA clinical hold lifted; no new active enrolling Phase 3 currently on registry)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 3 HIV program disclosed by company; no active recruiting Phase 3 on ctgov as of snapshot",
+          "lead_sponsor": "CytoDyn, Inc.",
+          "key_milestones": ["FDA clinical hold lifted in 2024"]
+        },
+        {
+          "indication": "Long COVID",
+          "highest_phase": "Phase 2",
+          "trial_name": "Leronlimab Long COVID Phase 2 (planned/ongoing per company)",
+          "trial_design": "Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — disclosed in company pipeline page",
+          "lead_sponsor": "CytoDyn, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Glioblastoma", "Prostate cancer (combination)", "Liver fibrosis prevention/reversal", "HIV post-exposure prophylaxis", "Long-acting leronlimab formulation"],
+  "excluded_legacy_terminated": ["Acute COVID-19 trials (NCT04343651 and others terminated/withdrawn)", "HIV monotherapy NCT01272258 (legacy completed)", "Multiple early HIV PRO 140 studies completed/terminated"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 1, "P3": 1, "P2": 4, "P1_or_P1_2": 0}
+}

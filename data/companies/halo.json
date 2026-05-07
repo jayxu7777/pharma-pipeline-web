@@ -1,0 +1,66 @@
+{
+  "issuer_name": "Halozyme Therapeutics, Inc.",
+  "ticker": "HALO",
+  "exchange": "Nasdaq",
+  "cik": "0001159036",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-17",
+      "accession": "0001159036-26-000024",
+      "slice_html": "data/halo_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "https://www.halozyme.com/our-science/pipeline/ returned 403 (bot protection); 10-K + ctgov used."
+    },
+    "ctgov": {
+      "compact": "data/halo_ctgov_compact.json",
+      "lead_sponsor_query": "Halozyme Therapeutics"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Halozyme is a drug-delivery technology company (ENHANZE rHuPH20, Hypercon, VIBEX/QuickShot auto-injectors). It does not run its own internal clinical-stage proprietary therapeutic candidates as the lead sponsor. Halozyme's two proprietary marketed products (Hylenex recombinant, XYOSTED) are commercial. The previously developed proprietary candidate ATRS-1902 (drug-device hydrocortisone) was discontinued in December 2025. All other clinical activity (DARZALEX FASPRO, Phesgo, TECENTRIQ HYBREZA, OCREVUS ZUNOVO, VYVGART Hytrulo, Opdivo Qvantig, RYBREVANT FASPRO, HYQVIA TAK-881, selatogrel auto-injector, ARGX-117/ARGX-213/ARGX-121, ViiV VH4524184, Acumen sabirnetug SC, Merus petosemtamab SC, Skye nimacimab SC) is partner-led and royalty/milestone-only — excluded per the partner-owned rule.",
+  "commercial_product": {
+    "Hylenex recombinant (hyaluronidase human injection)": "Marketed; the leading branded hyaluronidase",
+    "XYOSTED (testosterone enanthate SC injection)": "FDA-approved once-weekly self-administered SC testosterone replacement therapy",
+    "ENHANZE (rHuPH20) royalties": "Royalty stream from partner products: DARZALEX FASPRO/SC (Janssen), Phesgo (Roche), TECENTRIQ HYBREZA (Roche), OCREVUS ZUNOVO (Roche), Herceptin Hylecta (Roche), MabThera/RITUXAN HYCELA SC (Roche), HYQVIA (Takeda), VYVGART Hytrulo / VYVDURA (argenx), Opdivo Qvantig (BMS), RYBREVANT FASPRO / RYBROFAZ (Janssen)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ATRS-1902", "reason": "Drug-device hydrocortisone candidate; development discontinued December 2025"},
+    {"asset": "BMS RELATIVITY-127 (nivolumab + relatlimab SC with ENHANZE)", "reason": "BMS decided not to advance the SC nivolumab+relatlimab program"},
+    {"asset": "Chugai undisclosed ENHANZE program", "reason": "Chugai terminated the ENHANZE program"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "DARZALEX FASPRO / DARZALEX SC (daratumumab + ENHANZE)", "partner": "Janssen", "reason": "Partner-owned; Halozyme receives royalties only"},
+    {"asset": "RYBREVANT FASPRO / RYBROFAZ (amivantamab + ENHANZE)", "partner": "Janssen", "reason": "Partner-owned"},
+    {"asset": "Phesgo (pertuzumab + trastuzumab + ENHANZE)", "partner": "Roche", "reason": "Partner-owned"},
+    {"asset": "Herceptin Hylecta / Herceptin SC (trastuzumab + ENHANZE)", "partner": "Roche", "reason": "Partner-owned"},
+    {"asset": "MabThera SC / RITUXAN HYCELA / RITUXAN SC (rituximab + ENHANZE)", "partner": "Roche", "reason": "Partner-owned"},
+    {"asset": "TECENTRIQ HYBREZA / TECENTRIQ SC (atezolizumab + ENHANZE)", "partner": "Roche", "reason": "Partner-owned"},
+    {"asset": "OCREVUS ZUNOVO / OCREVUS SC (ocrelizumab + ENHANZE)", "partner": "Roche", "reason": "Partner-owned"},
+    {"asset": "HYQVIA / TAK-881 (immune globulin SC + ENHANZE)", "partner": "Takeda", "reason": "Partner-owned"},
+    {"asset": "ENTYVIO SC (vedolizumab + ENHANZE)", "partner": "Takeda", "reason": "Partner-owned (new agreement Dec 2025)"},
+    {"asset": "VYVGART Hytrulo / VYVDURA (efgartigimod + ENHANZE)", "partner": "argenx", "reason": "Partner-owned"},
+    {"asset": "ARGX-117, ARGX-213, ARGX-121 with ENHANZE (Phase 1)", "partner": "argenx", "reason": "Partner-owned"},
+    {"asset": "Opdivo Qvantig / Opdivo SC (nivolumab + ENHANZE)", "partner": "BMS", "reason": "Partner-owned"},
+    {"asset": "Pfizer ENHANZE undisclosed target", "partner": "Pfizer", "reason": "Partner-owned"},
+    {"asset": "AbbVie ENHANZE programs", "partner": "AbbVie", "reason": "Partner-owned"},
+    {"asset": "Lilly ENHANZE / Hypercon programs", "partner": "Lilly", "reason": "Partner-owned"},
+    {"asset": "ViiV VH4524184 + undisclosed HIV targets with ENHANZE (Phase 1)", "partner": "ViiV Healthcare", "reason": "Partner-owned"},
+    {"asset": "Sabirnetug (ACU193) SC with ENHANZE", "partner": "Acumen", "reason": "Partner-owned"},
+    {"asset": "Petosemtamab SC with ENHANZE", "partner": "Merus", "reason": "Partner-owned"},
+    {"asset": "Nimacimab SC with ENHANZE", "partner": "Skye Bioscience", "reason": "Partner-owned"},
+    {"asset": "Selatogrel auto-injector (drug-device)", "partner": "Viatris (assigned from Idorsia)", "reason": "Partner-owned (Phase 3 sponsor is Viatris)"},
+    {"asset": "Teva epinephrine and teriparatide auto-injectors", "partner": "Teva", "reason": "Partner-owned"}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "note": "Halozyme is a drug-delivery technology and royalty company; it has no active proprietary internal P1/P2/P3 therapeutic pipeline at snapshot date."
+  }
+}

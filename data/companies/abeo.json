@@ -1,0 +1,57 @@
+{
+  "issuer_name": "Abeona Therapeutics Inc.",
+  "ticker": "ABEO",
+  "exchange": "Nasdaq",
+  "cik": "0000318306",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-010413", "filing_date": "2026-03-17", "doc": "form10-k.htm"},
+    "website": {"error": "no public clinical pipeline page reviewed; 10-K characterizes remaining R&D programs as preclinical"},
+    "ctgov": {"file": "data/abeo_ctgov_compact.json", "n_records": 10}
+  },
+  "pipeline": [
+    {
+      "asset": "ZEVASKYN (prademagene zamikeracel; pz-cel; EB-101)",
+      "aka": ["pz-cel", "EB-101", "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets"],
+      "modality": "Autologous COL7A1 gene-modified epidermal cell sheet (ex vivo retroviral gene therapy)",
+      "target": "COL7A1 (type VII collagen)",
+      "license_origin": "Internal (Stanford-originated; FDA-approved April 28, 2025)",
+      "indications": [
+        {
+          "indication": "Recessive Dystrophic Epidermolysis Bullosa (RDEB) — post-approval long-term follow-up / Phase 3b in new and previously treated patients",
+          "highest_phase": "Phase 3b",
+          "trial_name": "VIITAL extension / Phase 3b post-approval study",
+          "trial_design": "Phase 3b open-label study in new and previously EB-101 treated DEB patients",
+          "nct_ids": ["NCT05725018"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Abeona Therapeutics, Inc.",
+          "key_milestones": ["FDA approval of ZEVASKYN April 28, 2025", "First commercial patient treated December 2025 at Lucile Packard Children's Hospital Stanford", "Orphan Drug and Rare Pediatric Disease designations"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "ZEVASKYN (prademagene zamikeracel)",
+    "indication": "Wounds in adult and pediatric patients with RDEB",
+    "approval": "FDA approved 2025-04-28; first commercial sale Q4 2025; 2025 product revenue $2.4M"
+  },
+  "excluded_preclinical": [
+    "ABO-504 (AAV gene therapy, Stargardt disease) — preclinical, pre-IND completed",
+    "ABO-503 (AAV gene therapy, X-linked retinoschisis / XLRS) — preclinical, pre-IND completed",
+    "ABO-505 (AAV gene therapy, autosomal dominant optic atrophy / ADOA) — preclinical, pre-IND completed",
+    "AIM next-generation AAV capsid platform — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "ABO-101 / rAAV9.CMV.hNAGLU (MPS IIIB / Sanfilippo B; NCT03315182, Phase 1/2, TERMINATED 2022)",
+    "MSI-78 (diabetic foot ulcers; legacy Phase 3 completed 1996)",
+    "EcoNail / econazole-SEPA (onychomycosis; legacy Phase 2 completed 2008)",
+    "EB-101 NCT01263379 (gene transfer for RDEB Phase 1/2 with Stanford/NIAMS, COMPLETED 2022)",
+    "EB-101 NCT04227106 (Phase 3 RDEB COMPLETED 2022, supportive of approval)"
+  ],
+  "excluded_partner_owned": [
+    "UX111 / ABO-102 (rebisufligene etisparvovec; MPS IIIA / Sanfilippo A) — out-licensed to Ultragenyx Pharmaceutical Inc.; NCT02716246 (Phase 2/3, RECRUITING) and NCT04088734 (Phase 1/2, TERMINATED) sponsored by Ultragenyx"
+  ],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 0, "P1": 0}
+}

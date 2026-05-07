@@ -1,0 +1,40 @@
+{
+  "issuer_name": "PROCYON CORP",
+  "ticker": "PCYN",
+  "exchange": "OTC",
+  "cik": "0000812306",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-24-032155",
+      "filed": "2024-10-25",
+      "doc": "pcyn20240630_10k.htm",
+      "note": "10-K fetched but pipeline section heading not auto-detected; manual review confirms commercial wound-care only."
+    },
+    "website": {
+      "url": "https://procyoncorp.com/",
+      "note": "Markets AMERIGEL skin/wound care line with Oakin ingredient; no clinical pipeline disclosed."
+    },
+    "ctgov": {
+      "trials_kept": 0,
+      "note": "No sponsored interventional trials on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "AMERIGEL",
+    "description": "OTC skin and wound care product line containing proprietary Oakin ingredient."
+  },
+  "no_active_clinical_pipeline_reason": "Procyon Corp is a commercial-stage OTC wound-care company with no investigational drug candidates in Phase 1/2/3 clinical development.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

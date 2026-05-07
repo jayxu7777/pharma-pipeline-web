@@ -1,0 +1,67 @@
+{
+  "issuer_name": "Agomab Therapeutics NV",
+  "ticker": "AGMB",
+  "exchange": "Nasdaq",
+  "cik": "0002020932",
+  "region": "Belgium",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (no 10-K available); CIK 2020932 also reflects recent IPO"},
+    "website": {"url": "https://agomab.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/agmb_ctgov_compact.json", "sponsor": "Agomab Therapeutics (Agomab Spain S.L.U.)", "trial_count": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "Ontunisertib",
+      "aka": ["AGMB-129"],
+      "modality": "Oral, gut-restricted ALK5 (TGF-beta receptor type I) inhibitor",
+      "target": "ALK5 (TGF-beta receptor I)",
+      "license_origin": "In-house (Agomab; originated via Origo Biopharma)",
+      "indications": [
+        {
+          "indication": "Fibrostenotic Crohn's disease",
+          "highest_phase": "Phase 2a",
+          "trial_name": "STENOVA",
+          "trial_design": "Phase 2a study to evaluate safety, tolerability, PK and PD of AGMB-129 in patients with fibrostenotic Crohn's disease",
+          "nct_ids": ["NCT05843578"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Agomab Spain S.L.U.",
+          "key_milestones": ["Started 2023-08; primary completion 2026-09"]
+        }
+      ]
+    },
+    {
+      "asset": "AGMB-447",
+      "aka": [],
+      "modality": "Inhaled, lung-restricted ALK5 (TGF-beta receptor I) inhibitor",
+      "target": "ALK5 (TGF-beta receptor I)",
+      "license_origin": "In-house (Agomab)",
+      "indications": [
+        {
+          "indication": "Idiopathic pulmonary fibrosis (IPF) — fibrotic lung disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "AGMB-447-101",
+          "trial_design": "Phase 1 SAD/MAD study assessing safety, tolerability, PK and PD of AGMB-447 in healthy participants and IPF patients",
+          "nct_ids": ["NCT06181370"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Agomab Spain S.L.",
+          "key_milestones": ["Primary completion 2026-06"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "AGMB-101", "reason": "MET receptor full agonist; Phase 1-ready preclinical per pipeline"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"trial": "NCT04933565", "asset": "ORG-129", "reason": "Origo Biopharma legacy first-in-human study (AGMB-129 development origin)"}
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3_indications": 0,
+    "p2_indications": 1,
+    "p1_indications": 1
+  }
+}

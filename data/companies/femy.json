@@ -1,0 +1,71 @@
+{
+  "issuer_name": "FEMASYS INC",
+  "ticker": "FEMY",
+  "exchange": "Nasdaq",
+  "cik": "0001339005",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. Company is a women's health medical device maker; for device issuers we capture active pivotal/IDE studies of company-owned devices in lieu of drug phases.",
+  "sources": {
+    "10k": {
+      "accession": "0001140361-26-012375",
+      "filing_date": "2026-03-31",
+      "doc": "femy-20251231.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found (https://femasys.com/pipeline 404; root page returned styling/navigation only)"
+    },
+    "ctgov": {
+      "query_sponsor": "Femasys",
+      "studies_returned": 6,
+      "note": "fetch_ctgov.py with phase=P1-P3 filter returned 0 because all Femasys studies are device studies registered with phase=NA; supplemental direct ctgov API query used."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "FemBloc",
+      "aka": ["FemBloc System", "FemBloc + FemChec"],
+      "modality": "Medical device (transcervical intratubal occlusion system for non-surgical permanent birth control)",
+      "target": "Fallopian tube occlusion",
+      "license_origin": "Internal (Femasys proprietary)",
+      "indications": [
+        {
+          "indication": "Permanent female contraception (transcervical, non-surgical)",
+          "highest_phase": "Pivotal (IDE) — device equivalent of late-stage clinical",
+          "trial_name": "FINALE",
+          "trial_design": "Prospective, multi-center, international, unblinded, single-arm IDE trial of FemBloc followed by ultrasound confirmation (FemChec); n=573 estimated; primary endpoint pregnancy rate at 1 year; PMA-supporting pivotal.",
+          "nct_ids": ["NCT05977751"],
+          "trial_status": "Recruiting (start 2023-10; primary completion estimated 2029-12)",
+          "lead_sponsor": "Femasys Inc.",
+          "key_milestones": [
+            "Pivotal trial enrolling toward PMA submission",
+            "Confirmation Feasibility trial NCT04273594 ACTIVE_NOT_RECRUITING (supportive)"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "FemaSeed": "510(k)-cleared intratubal insemination device (marketed)",
+    "FemVue": "FDA-cleared intrauterine device for selective tubal evaluation (marketed)",
+    "FemCath": "FDA-cleared selective fallopian tube catheterization device (marketed)",
+    "FemCerv": "FDA-cleared endocervical tissue sampler (marketed)",
+    "FemChec": "Ultrasound confirmation companion to FemBloc (investigational; bundled with FINALE)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT01053052", "reason": "FemVue HSG comparison — WITHDRAWN"},
+    {"nct": "NCT03433911", "reason": "FemBloc Early Pivotal — COMPLETED (legacy)"},
+    {"nct": "NCT03067272", "reason": "Pilot Bi-Lateral Tubal Occlusion — COMPLETED (legacy)"},
+    {"nct": "NCT04968847", "reason": "FemaSeed LOCAL Artificial Insemination — COMPLETED (supports cleared product)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_or_pivotal": 1,
+    "p2": 0,
+    "p1": 0,
+    "marketed_devices": 4
+  },
+  "no_active_clinical_pipeline_reason": null
+}

@@ -1,0 +1,67 @@
+{
+  "issuer_name": "Algernon Health Inc. (formerly Algernon Pharmaceuticals; rebranded Grey Matters Health Inc.)",
+  "ticker": "AGNPF",
+  "exchange": "OTC",
+  "cik": "0001642178",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F or Canadian filings; no 10-K on EDGAR"},
+    "website": {"url": "https://www.greymatters-health.com/pipeline", "note": "algernonpharmaceuticals.com redirects to greymatters-health.com"},
+    "ctgov": {"file": "data/agnpf_ctgov_compact.json", "trials": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "DMT (N,N-Dimethyltryptamine)",
+      "aka": ["AP-188"],
+      "modality": "Small molecule (psychedelic / serotonin receptor agonist)",
+      "target": "Neuroplasticity promotion (5-HT2A receptor)",
+      "license_origin": "In-house",
+      "indications": [
+        {
+          "indication": "Stroke (ischemic)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Single and Repeat Doses of DMT in Healthy Subjects",
+          "trial_design": "Single and repeat dose study in healthy subjects, with Centre for Human Drug Research (Netherlands)",
+          "nct_ids": ["NCT05559931"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion Mar 2026); Phase 2 Stroke study planned",
+          "lead_sponsor": "Algernon Pharmaceuticals",
+          "key_milestones": ["Completed Phase 1 Stroke Study Q1 2024 (per company website)", "Phase 2 Stroke Study planned Q3 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "Repirinast",
+      "aka": ["NP-251"],
+      "modality": "Small molecule (originally developed as asthma medication)",
+      "target": "Kidney fibrosis/inflammation",
+      "license_origin": "Repurposed",
+      "indications": [
+        {
+          "indication": "Chronic Kidney Disease",
+          "highest_phase": "Pre-Phase 1 (Planned)",
+          "trial_name": "Repirinast CKD Phase 1 (planned)",
+          "trial_design": "Not disclosed",
+          "nct_ids": [],
+          "trial_status": "PLANNED — Phase 1 planned Q2 2026 per company website",
+          "lead_sponsor": "Algernon / Grey Matters Health",
+          "key_milestones": ["Phase 1 planned Q2 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "NP-120 (Ifenprodil)", "reason": "Divested to Seyltx Inc. on March 27, 2024 for USD $2M cash + 20% equity; no longer in Algernon pipeline. Prior trials NCT04382924 (COVID, P2/P3, COMPLETED) and NCT04318704 (IPF, P2, COMPLETED) excluded as asset divested."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 1,
+    "planned_pre_phase_1": 1
+  },
+  "blockers": "Foreign private issuer — no 10-K on EDGAR. Asset NP-120 (Ifenprodil) divested to Seyltx in March 2024; Repirinast Phase 1 still planned (not yet started)."
+}

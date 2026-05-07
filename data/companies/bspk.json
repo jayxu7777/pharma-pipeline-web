@@ -1,0 +1,38 @@
+{
+  "issuer_name": "Bespoke Extracts, Inc.",
+  "ticker": "BSPK",
+  "exchange": "OTC",
+  "cik": "0001409197",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-04-21",
+      "accession": "0001213900-25-033608",
+      "path": "data/bspk_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found — company is not a clinical-stage pharma"
+    },
+    "ctgov": {
+      "path": "data/bspk_ctgov_compact.json",
+      "sponsor_query": "Bespoke Extracts",
+      "trials_kept_p1_p3": 0
+    }
+  },
+  "no_active_clinical_pipeline_reason": "Bespoke Extracts is a Nevada-incorporated, regulated-cannabis consumer products operator (marijuana-infused products production via Bespoke Colorado). Formerly in the CBD space, exited CBD in June 2023. Not a clinical-stage drug developer; no IND, no clinical trials, no drug candidates.",
+  "pipeline": [],
+  "commercial_product": {
+    "cannabis_products": "Marijuana-infused consumer products produced through Bespoke Extracts Colorado, LLC"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3_indications": 0,
+    "p2_indications": 0,
+    "p1_indications": 0
+  }
+}

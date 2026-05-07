@@ -1,0 +1,24 @@
+{
+  "issuer_name": "BIOMERICA INC",
+  "ticker": "BMRA",
+  "exchange": "Nasdaq",
+  "cik": "0000073290",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001641172-25-026041", "filing_date": "2025-08-29", "doc": "form10-k.htm", "fiscal_year_end": "2025-05-31"},
+    "website": {"note": "Not separately fetched — 10-K is dispositive: company is a commercial diagnostics manufacturer"},
+    "ctgov": {"trials_returned": 3, "active_p1_p2_p3": 0, "note": "All Biomerica-sponsored studies are observational/diagnostic-validation, not interventional P1/P2/P3 drug trials"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Biomerica is a commercial-stage IVD (in-vitro diagnostics) company. Lead products are FDA 510(k)-cleared diagnostic test kits (inFoods IBS — diagnostic-guided therapy blood test for IBS food triggers; hp+detect — H. pylori detection). Pipeline expansion targets are additional inFoods diagnostic indications (Functional Dyspepsia, Crohn's, UC, GERD, Migraine, Depression, Osteoarthritis), all as DIAGNOSTIC tests, not drugs. No active investigational drug Phase 1/2/3 trials.",
+  "commercial_product": {
+    "products": ["inFoods IBS (diagnostic-guided therapy blood test)", "hp+detect (H. pylori diagnostic, FDA 510(k))", "broad CE-marked / FDA-cleared IVD test kits"],
+    "note": "Diagnostic devices, not therapeutics"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p1": 0, "p2": 0, "p3": 0}
+}

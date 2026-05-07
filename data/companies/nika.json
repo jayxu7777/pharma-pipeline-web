@@ -1,0 +1,20 @@
+{
+  "issuer_name": "NIKA Pharmaceuticals, Inc.",
+  "ticker": "NIKA",
+  "exchange": "OTC",
+  "cik": "0001145604",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001826466-26-000026", "filing_date": "2026-03-25", "path": "data/nika_10k_pipeline_section.html"},
+    "website": {"error": "no public pipeline page found; OTCQB-listed shell-style entity"},
+    "ctgov": {"path": "data/nika_ctgov_compact.json", "sponsor_query": "NIKA Pharmaceuticals", "result": "0 trials"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "NIKA Pharmaceuticals is an OTCQB-listed Colorado entity that, post-2022 change of control, holds exclusive distribution/licensing rights for a Bulgarian thymus-derived product (TNG, with a single small 1997-1998 Phase III on 20 AIDS patients in Sofia — not a current US clinical program), several dietary supplements (Carotilen, Physiolong, Hypocholestin, Biodetoxin, Dry Boza, Fructin, Anthocylen C, Silymaron), and an Inactivated Pepsin Fraction (IPF) platform via JV with Immunotech Laboratories BG. No active or planned IND-stage US Phase 1/2/3 clinical trials. No sponsor records on ClinicalTrials.gov.",
+  "excluded_preclinical": ["Inactivated Pepsin Fraction (IPF) platform — patents only, no active clinical program disclosed"],
+  "excluded_legacy_terminated": ["TNG (Thymus Nuclear Glycoprotein) — single 1997-1998 Bulgarian Phase III in HIV/AIDS, not currently in US clinical development"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "p3_indications": 0, "p2_indications": 0, "p1_indications": 0}
+}

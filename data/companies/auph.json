@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Aurinia Pharmaceuticals Inc.",
+  "ticker": "AUPH",
+  "exchange": "Nasdaq",
+  "cik": "0001600620",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001600620-26-000017", "filed": "2026-02-26", "doc": "auph-20251231.htm"},
+    "website": {"url": "https://www.auriniapharma.com/science/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Aurinia Pharmaceuticals", "trials_returned": 17, "active_p1_3": 0}
+  },
+  "pipeline": [
+    {
+      "asset": "aritinercept",
+      "aka": ["AUR200"],
+      "modality": "Recombinant fusion protein (BCMA-engineered ECD + IgG4 Fc)",
+      "target": "BAFF / APRIL (dual inhibitor)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Autoimmune disease (initial indication, not specified)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Aritinercept clinical study (post-SAD)",
+          "trial_design": "Initial clinical study following completed single ascending dose (SAD) study in healthy volunteers; Aurinia plans to initiate a study in an additional autoimmune disease in 1H 2026",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ONGOING — initiated per 2025 10-K; second autoimmune-disease study planned 1H 2026",
+          "lead_sponsor": "Aurinia Pharmaceuticals Inc.",
+          "key_milestones": ["SAD study completed in 61 healthy subjects", "First autoimmune-disease clinical study initiated", "Second autoimmune-disease study planned 1H 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "LUPKYNIS",
+    "inn": "voclosporin",
+    "indication": "Lupus nephritis (LN) in adults with active disease",
+    "approval": "FDA-approved 2021"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "voclosporin", "indication": "Pediatric/adolescent lupus nephritis", "nct_ids": ["NCT05288855", "NCT05962788"], "status": "TERMINATED"},
+    {"asset": "voclosporin", "indication": "Focal Segmental Glomerulosclerosis", "nct_ids": ["NCT03598036"], "status": "TERMINATED"},
+    {"asset": "voclosporin", "indication": "Renal transplantation", "nct_ids": ["NCT01586845"], "status": "WITHDRAWN"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "indications_p1": 1, "indications_p2": 0, "indications_p3": 0}
+}

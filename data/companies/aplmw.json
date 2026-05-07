@@ -1,0 +1,64 @@
+{
+  "issuer_name": "Apollomics Inc.",
+  "ticker": "APLMW",
+  "exchange": "Nasdaq",
+  "cik": "0001944885",
+  "region": "US/China",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (Cayman/China-domiciled)"},
+    "website": {"url": "https://www.apollomicsinc.com/pipeline", "status": "fetched (image-based pipeline; details cross-referenced from press releases)"},
+    "ctgov": {"file": "data/aplmw_ctgov_compact.json", "active_p1_p3_trials": 2, "note": "1 P2 RECRUITING (NCT03175224 SPARTA), 1 P1/2 ACTIVE_NOT_RECRUITING (NCT04743505 APL-101 + osimertinib)"}
+  },
+  "pipeline": [
+    {
+      "asset": "Vebreltinib",
+      "aka": ["APL-101", "PLB-1001", "Bozitinib", "CBT-101"],
+      "modality": "Small molecule (oral c-Met kinase inhibitor)",
+      "target": "c-Met (MET) tyrosine kinase",
+      "license_origin": "Greater China rights to LaunXP (Mar 2025); ex-China rights with Apollomics",
+      "indications": [
+        {
+          "indication": "Non-small cell lung cancer (NSCLC) with c-Met EXON 14 skip mutations / c-Met dysregulation, advanced solid tumors",
+          "highest_phase": "Phase 2",
+          "trial_name": "SPARTA",
+          "trial_design": "International multicenter open-label Phase 2 (multiple cohorts including NSCLC, gastric, GBM, RCC)",
+          "nct_ids": ["NCT03175224"],
+          "trial_status": "Recruiting; primary completion Mar 2026; clinical activity continuing under reconstituted Apollomics board (post-Sep 2025 PIPE)",
+          "lead_sponsor": "Apollomics Inc.",
+          "key_milestones": ["FDA Orphan Drug Designation for NSCLC with MET aberrations", "Sep 2025 $4.1M PIPE financing reaffirmed program continuation"]
+        },
+        {
+          "indication": "EGFR-mutant metastatic NSCLC (combination with osimertinib, frontline)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "APL-101 + Osimertinib",
+          "trial_design": "Investigator-initiated Phase 1/2",
+          "nct_ids": ["NCT04743505"],
+          "trial_status": "Active, not recruiting; primary completion Jan 2027",
+          "lead_sponsor": "Washington University School of Medicine (Apollomics collaborator)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["APL-122 (referenced on website pipeline)"],
+  "excluded_legacy_terminated": [
+    "NCT05054543 (Uproleselan R/R AML Phase 3 — Terminated Aug 2024)",
+    "NCT05055518 (APL-102 advanced solid tumors P1 — Suspended)",
+    "NCT05367388 (APL-101 vs PLB-1001 BE study P1 — Unknown)",
+    "NCT03655613 (APL-501 + APL-101 in HCC/RCC P1/2 — Terminated)",
+    "NCT04839341 (Uproleselan PK in Chinese R/R AML P1 — Completed)",
+    "NCT03053466 (APL-501 advanced solid tumors P1 — Completed)"
+  ],
+  "excluded_partner_owned": [
+    "Vebreltinib in Greater China — out-licensed to LaunXP (Mar 2025)"
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase3_indications": 0,
+    "phase2_indications": 1,
+    "phase1_indications": 1,
+    "planned": 0
+  }
+}

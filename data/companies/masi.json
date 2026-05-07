@@ -1,0 +1,40 @@
+{
+  "issuer_name": "Masimo Corporation",
+  "ticker": "MASI",
+  "exchange": "Nasdaq",
+  "cik": "0000937556",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000937556-26-000017",
+      "filing_date": "2026-02-27",
+      "doc": "masi-20260103.htm",
+      "note": "10-K describes a noninvasive patient-monitoring device business (SET pulse oximetry, rainbow SET, regional oximetry, capnography, brain monitoring, hospital automation). No proprietary therapeutic drug pipeline disclosed."
+    },
+    "website": {
+      "error": "no public drug-pipeline page; masimo.com is product-marketing focused on monitoring devices and Hospital Automation platforms"
+    },
+    "ctgov": {
+      "file": "data/masi_ctgov_compact.json",
+      "lead_sponsor_query": "Masimo",
+      "trials_returned": 1,
+      "note": "The single returned trial (NCT06644573) is investigator-led (lead sponsor: Nyree Penn / PROSOMNIA Sleep Health & Wellness); Masimo is only a collaborator providing the SedLine EEG monitoring device. Not a Masimo-owned drug or device pivotal."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Manufacturer of noninvasive patient-monitoring technologies. Marketed devices include Masimo SET pulse oximetry, rainbow SET (SpHb, SpCO, SpMet, PVi), Root patient monitoring/connectivity hub, Radius PPG / Radius VSM wearable monitoring, SedLine brain function (EEG) monitoring, O3 regional oximetry (rSO2), NomoLine capnography, Centroid posture/orientation sensor, Bridge opioid-withdrawal device, Stork home baby monitor, and Iris hospital-automation / patient-care platforms. FDA-cleared via 510(k) and de novo pathways."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "nct_id": "NCT06644573",
+      "reason": "Investigator-initiated PROSOMNIA sleep therapy study; Masimo is collaborator (SedLine EEG monitor used for measurement) — not a Masimo-led pivotal."
+    }
+  ],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0, "indications_total": 0},
+  "no_active_clinical_pipeline_reason": "Masimo is a noninvasive patient-monitoring device company. It develops monitoring sensors and software (pulse oximetry, brain function, capnography, hospital automation) regulated as medical devices, not pharmaceuticals. ClinicalTrials.gov shows no active company-sponsored P1-P3 interventional pivotal of a Masimo-owned investigational drug or device."
+}

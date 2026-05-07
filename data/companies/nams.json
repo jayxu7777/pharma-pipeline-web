@@ -1,0 +1,105 @@
+{
+  "issuer_name": "NewAmsterdam Pharma Co N.V.",
+  "ticker": "NAMS",
+  "exchange": "Nasdaq",
+  "cik": "0001936258",
+  "region": "EU (Netherlands) / US-listed",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-18",
+      "accession": "0001193125-26-056029",
+      "path": "data/nams_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.newamsterdampharma.com/obicetrapibta8995/",
+      "fetched_via": "WebFetch"
+    },
+    "ctgov": {
+      "path": "data/nams_ctgov_compact.json",
+      "trial_count": 19
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Obicetrapib",
+      "aka": ["TA-8995"],
+      "modality": "Small molecule oral CETP inhibitor",
+      "target": "Cholesteryl ester transfer protein (CETP)",
+      "license_origin": "In-licensed from Amgen/Dezima (originally Mitsubishi Tanabe TA-8995)",
+      "indications": [
+        {
+          "indication": "Atherosclerotic cardiovascular disease (CV outcomes)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PREVAIL",
+          "trial_design": "Phase 3 randomized, double-blind, placebo-controlled CV outcomes trial in ~9,500 ASCVD patients",
+          "nct_ids": ["NCT05202509"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": ["Primary completion 2026-11"]
+        },
+        {
+          "indication": "Coronary plaque (FDC obicetrapib + ezetimibe; CCTA imaging)",
+          "highest_phase": "Phase 3",
+          "trial_name": "REMBRANDT",
+          "trial_design": "Phase 3 placebo-controlled CCTA imaging trial of FDC vs placebo on plaque",
+          "nct_ids": ["NCT06305559"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": ["Primary completion 2027-11"]
+        },
+        {
+          "indication": "Type 2 diabetes / metabolic syndrome with elevated lipids",
+          "highest_phase": "Phase 3",
+          "trial_name": "VINCENT (T2DM/MetS)",
+          "trial_design": "Phase 3 obicetrapib/ezetimibe FDC or obicetrapib monotherapy on top of guideline-recommended lipid therapy",
+          "nct_ids": ["NCT07219602"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": ["Primary completion 2028-03"]
+        },
+        {
+          "indication": "Antioxidant levels in plasma/HDL (mechanism)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Obicetrapib antioxidant study",
+          "trial_design": "Phase 2 obicetrapib vs placebo in healthy volunteers",
+          "nct_ids": ["NCT06982508"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": ["Primary completion 2026-09"]
+        },
+        {
+          "indication": "Lipoprotein(a) reduction (with evolocumab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lp(a) study with Repatha",
+          "trial_design": "Phase 2 obicetrapib +/- evolocumab on Lp(a)",
+          "nct_ids": ["NCT06496243"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": ["Primary completion 2026-11"]
+        }
+      ]
+    }
+  ],
+  "regulatory_status_note": "MAAs accepted by EMA Aug 2025 for obicetrapib 10 mg monotherapy and obicetrapib/ezetimibe FDC. NDA filings in US in progress per company.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "BROADWAY Phase 3 NCT05142722 — completed (positive topline)",
+    "BROOKLYN Phase 3 NCT05425745 — completed",
+    "TANDEM Phase 3 NCT06005597 — completed",
+    "ROSE Phase 2 NCT04753606 — completed",
+    "Japanese dose-finding NCT05421078 — completed",
+    "Early-Alzheimer's PoC NCT05161715 — completed (exploratory, not advancing as standalone indication per current pipeline)",
+    "Multiple Phase 1 PK/DDI/food/hepatic studies (NCT06048302, NCT06547359, NCT06250205, NCT06081166, NCT06050291, NCT05972278) — completed/active-not-recruiting support studies",
+    "ROSE2 ezetimibe combo Phase 2 NCT04770389 — completed",
+    "HIS adjunct Phase 2 NCT05266586 — completed"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3_indications": 3,
+    "phase_2_indications": 2,
+    "phase_1_indications": 0
+  }
+}

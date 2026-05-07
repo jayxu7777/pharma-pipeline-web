@@ -1,0 +1,56 @@
+{
+  "issuer_name": "RESMED INC",
+  "ticker": "RMD",
+  "exchange": "NYSE",
+  "cik": "0000943819",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000943819-25-000035",
+      "filing_date": "2025-08-08",
+      "file": "data/rmd_10k_pipeline_section.html",
+      "note": "10-K describes commercialized cloud-connected medical devices (CPAP, bilevel, ventilators, masks) and SaaS for out-of-hospital care. No drug pipeline disclosed."
+    },
+    "website": {
+      "error": "no public pipeline page found (resmed.com returns HTTP 403 to fetcher; ResMed is a commercial medtech company without a drug pipeline page)"
+    },
+    "ctgov": {
+      "file": "data/rmd_ctgov_compact.json",
+      "trials_returned": 12,
+      "note": "All ResMed-sponsored interventional studies are completed device studies (CPAP, Astral VAPS, AutoVPAP, Salt Lake mask). One PHASE3 RECRUITING study (NCT07332442) is Yale-sponsored eszopiclone with ResMed Foundation as collaborator only — not a ResMed proprietary asset."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "ResMed designs, manufactures and distributes cloud-connectable medical devices and software for sleep apnea, COPD, neuromuscular disease and other respiratory conditions, plus SaaS for out-of-hospital care providers.",
+    "key_franchises": [
+      "AirSense / AirCurve sleep therapy devices (CPAP, APAP, bilevel)",
+      "AirFit / AirTouch patient interface masks",
+      "Astral and Stellar life-support and non-invasive ventilators",
+      "myAir / AirView digital health platform",
+      "Brightree, MatrixCare and other SaaS for HME, home health, hospice and senior living"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT04084990", "title": "Sleep Apnea and Fetal Growth Restriction", "status": "TERMINATED", "lead_sponsor": "Washington University School of Medicine"}
+  ],
+  "excluded_partner_owned": [
+    {"nct": "NCT07332442", "title": "CPAP, Arousability and Links to Mechanisms in OSA", "lead_sponsor": "Yale University", "reason": "Investigator-initiated drug study (eszopiclone); ResMed Foundation is a collaborator only, not a ResMed proprietary asset."},
+    {"nct": "NCT01482065", "lead_sponsor": "Johns Hopkins University", "reason": "Investigator-initiated; ResMed Foundation collaborator."},
+    {"nct": "NCT01061476", "lead_sponsor": "Johns Hopkins University", "reason": "Investigator-initiated; uses Ventus Provent device, not a ResMed asset."},
+    {"nct": "NCT00990132", "lead_sponsor": "Patrick Murphy", "reason": "Investigator-initiated; ResMed collaborator."},
+    {"nct": "NCT00251290", "lead_sponsor": "Yale University", "reason": "Investigator-initiated; ResMed Foundation collaborator."},
+    {"nct": "NCT01303198", "lead_sponsor": "Kaiserswerther Diakonie", "reason": "Investigator-initiated; ResMed Foundation collaborator; status UNKNOWN since 2011."},
+    {"nct": "NCT00738179", "lead_sponsor": "Adelaide Institute for Sleep Health", "reason": "Investigator-initiated; ResMed collaborator; status UNKNOWN."}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "ResMed is a commercial medical device and digital-health SaaS company (sleep apnea, respiratory care, out-of-hospital software). It does not develop drugs and has no active proprietary P1/P2/P3 clinical pipeline. Historical ResMed-sponsored device studies on ctgov are all completed; remaining trials are investigator-initiated with ResMed Foundation as collaborator only."
+}

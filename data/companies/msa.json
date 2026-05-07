@@ -1,0 +1,40 @@
+{
+  "issuer_name": "MSA Safety Inc",
+  "ticker": "MSA",
+  "exchange": "NYSE",
+  "cik": "0000066570",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000066570-26-000005",
+      "filing_date": "2026-02-12",
+      "doc": "msa-20251231.htm",
+      "note": "10-K Business Overview slice retrieved. MSA Safety manufactures industrial safety equipment (self-contained breathing apparatus, fall protection, gas detection, fire helmets, head protection). No drug or healthcare R&D pipeline."
+    },
+    "website": {
+      "error": "no public drug pipeline page found — MSA Safety is an industrial safety equipment manufacturer, not a pharma/medtech company. The 'MSA' ticker was misclassified into the pharma universe (likely on a wide-keyword match for the substring 'MSA')."
+    },
+    "ctgov": {
+      "file": "data/msa_ctgov_compact.json",
+      "kept_p1_p3": 0,
+      "active": 0,
+      "note": "ClinicalTrials.gov returned 0 trials with sponsor 'MSA Safety'. Confirms MSA has no clinical activity."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "MSA Safety markets industrial safety products: G1 SCBA, ALTAIR gas detectors, V-Series fall protection harnesses, Cairns fire helmets, V-Gard head protection, FieldServer industrial connectivity. These are not pharmaceutical or medical-device assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "MSA Safety is an industrial safety equipment manufacturer (breathing apparatus, gas detection, fall protection, head/face/fire protection). It is NOT a pharmaceutical, biotech, or medical-device company. It has no clinical pipeline of any kind. Inclusion in the pharma universe appears to be a wide-keyword false positive on the 'MSA' substring."
+}

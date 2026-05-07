@@ -1,0 +1,65 @@
+{
+  "issuer_name": "Vivani Medical, Inc.",
+  "ticker": "VANI",
+  "exchange": "Nasdaq",
+  "cik": "0001266806",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-26",
+      "accession": "0001753926-26-000548",
+      "doc": "vani-20251231.htm"
+    },
+    "website": {
+      "url": "https://vivani.com/portfolio/",
+      "accessed": "2026-05-06"
+    },
+    "ctgov": {
+      "query": "spons:Vivani Medical",
+      "kept_p1_3": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "NPM-139",
+      "aka": ["semaglutide implant (6-month)", "semaglutide subcutaneous implant"],
+      "modality": "Drug-device combination — subcutaneous NanoPortal implant delivering semaglutide (GLP-1 receptor agonist)",
+      "target": "GLP-1 receptor",
+      "license_origin": "Internal — Vivani NanoPortal platform",
+      "indications": [
+        {
+          "indication": "Chronic weight management (obesity / overweight)",
+          "highest_phase": "Phase 1",
+          "trial_name": "LIBERATE-2 (Safety, Tolerability and PK of a Subcutaneous Semaglutide Implant)",
+          "trial_design": "First-in-human, randomized, open-label safety/tolerability/PK study of NPM-139 vs. weekly subcutaneous semaglutide (Wegovy) in adults with overweight/obesity; conducted in Australia with Avance Clinical.",
+          "nct_ids": ["NCT07430059"],
+          "trial_status": "Not yet recruiting (start April 2026; primary completion August 2026)",
+          "lead_sponsor": "Vivani Medical, Inc.",
+          "key_milestones": [
+            "Topline PK/safety readout expected H2 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    "NPM-133 — six-month semaglutide implant for type 2 diabetes (preclinical)",
+    "NPM-115 — six-month exenatide implant for obesity (preclinical / platform validation; LIBERATE-1 Phase 1 completed and program superseded by NPM-139)",
+    "OKV-119 — exenatide implant for feline/canine obesity (preclinical; partnered with Okava Pharmaceuticals)",
+    "Cortigent / Orion neurostimulation device program (early development; spun-out medical device platform — non-drug)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT05670379 — LIBERATE-1, Phase 1 first-in-human exenatide implant (NPM-115/NPM-119), completed 2025-08; program not advancing to later phases as company has prioritized NPM-139 semaglutide implant."
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 1
+  },
+  "no_active_clinical_pipeline_reason": null
+}

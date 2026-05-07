@@ -1,0 +1,85 @@
+{
+  "issuer_name": "Atea Pharmaceuticals, Inc.",
+  "ticker": "AVIR",
+  "exchange": "Nasdaq",
+  "cik": "0001593899",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-094159", "filing_date": "2026-03-05", "doc": "avir-20251231.htm"},
+    "website": {"url": "https://www.ateapharma.com/pipeline", "note": "Pipeline page references HCV combination and AT-527; details from 10-K"},
+    "ctgov": {"sponsor_query": "Atea Pharmaceuticals", "trial_count": 32, "active_count": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "Bemnifosbuvir + Ruzasvir (BEM/RZR)",
+      "aka": ["AT-527 (bemnifosbuvir)", "MK-8408 / ruzasvir"],
+      "modality": "Oral small-molecule combination: NS5B nucleotide polymerase inhibitor (bemnifosbuvir) + NS5A inhibitor (ruzasvir)",
+      "target": "HCV NS5B (bemnifosbuvir); HCV NS5A (ruzasvir)",
+      "license_origin": "Bemnifosbuvir owned by Atea; ruzasvir in-licensed from Merck/MSD (Dec 2021)",
+      "indications": [
+        {
+          "indication": "Chronic Hepatitis C Virus (HCV) infection",
+          "highest_phase": "Phase 3",
+          "trial_name": "C-BEYOND and C-FORWARD",
+          "trial_design": "Two randomized, open-label Phase 3 trials comparing BEM/RZR vs sofosbuvir/velpatasvir; ~880 patients each; C-BEYOND in US/Canada (fully enrolled), C-FORWARD ex-North America (enrolling)",
+          "nct_ids": ["NCT06868264", "NCT07037277"],
+          "trial_status": "C-BEYOND ACTIVE_NOT_RECRUITING (fully enrolled, topline mid-2026); C-FORWARD RECRUITING (topline year-end 2026); NDA targeted March 2027",
+          "lead_sponsor": "Atea Pharmaceuticals, Inc.",
+          "key_milestones": ["First Phase 3 milestone payment $5M to Merck Apr 2025", "C-BEYOND topline mid-2026", "C-FORWARD topline YE 2026", "NDA submission targeted Mar 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "Bemnifosbuvir/Ruzasvir Phase 1 supportive studies",
+      "aka": ["BEM/RZR DDI and special-population studies"],
+      "modality": "Oral small-molecule combination",
+      "target": "HCV",
+      "license_origin": "Atea + Merck",
+      "indications": [
+        {
+          "indication": "Healthy volunteers / hepatic and renal impairment / DDI (supportive of HCV NDA)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Renal/hepatic impairment study; DDI with buprenorphine/naloxone or methadone",
+          "trial_design": "Open-label Phase 1 PK studies",
+          "nct_ids": ["NCT06911320", "NCT07314346"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Atea Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AT-587",
+      "aka": [],
+      "modality": "Oral antiviral small molecule",
+      "target": "HEV (hepatitis E virus)",
+      "license_origin": "Atea proprietary",
+      "indications": [
+        {
+          "indication": "Hepatitis E Virus (HEV) infection",
+          "highest_phase": "PLANNED (Phase 1 program planned mid-2026)",
+          "trial_name": "Not yet initiated",
+          "trial_design": "Phase 1 program planned",
+          "nct_ids": [],
+          "trial_status": "PLANNED - selected as HEV development candidate Jan 2026; Phase 1 initiation expected mid-2026",
+          "lead_sponsor": "Atea Pharmaceuticals, Inc.",
+          "key_milestones": ["Candidate selected Jan 2026", "Phase 1 initiation mid-2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "AT-527 (bemnifosbuvir monotherapy) for COVID-19", "reason": "Roche collaboration discontinued; COVID-19 program no longer active development priority"},
+    {"asset": "AT-752", "reason": "Dengue program (no longer in active disclosed pipeline in 2025 10-K)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "phase_3": 1,
+    "phase_1": 1,
+    "planned": 1
+  }
+}

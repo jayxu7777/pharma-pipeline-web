@@ -1,0 +1,68 @@
+{
+  "issuer_name": "iBio, Inc.",
+  "ticker": "IBIO",
+  "exchange": "Nasdaq",
+  "cik": "0001420720",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001558370-25-011888",
+      "filing_date": "2025-09-05",
+      "filename": "ibio-20250630x10k.htm",
+      "summary": "Self-described preclinical-stage biotech focused on AI-discovered antibodies for obesity/cardiometabolic disease. 10-K (FY2025) describes IBIO-600 (anti-myostatin) in IND-enabling studies; first human trials anticipated late FY2026/early FY2027. IBIO-610 (Activin E) at development candidate selection."
+    },
+    "website": {
+      "url": "https://www.ibioinc.com/pipeline",
+      "summary": "Public pipeline shows IBIO-610 and IBIO-600 in IND-enabling stage; bispecific Myostatin x Activin A and amylin receptor antibody in optimization; one undisclosed AstralBio target in discovery"
+    },
+    "ctgov": {
+      "query_sponsor": "iBio",
+      "p1_p3_trials": 3,
+      "p1_p3_relevant_to_iBio_Inc": 1,
+      "note": "PHI-101 trials (NCT04678102, NCT04842370) are sponsored by Seoul National University Hospital with Pharos iBio Co., Ltd. (a separate Korean entity, not iBio Inc.) and are excluded as partner/unrelated. NCT07487376 is iBio Inc.'s own IBIO-600 P1 SAD."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "IBIO-600",
+      "aka": ["anti-myostatin antibody", "GDF8 antibody"],
+      "modality": "Long-acting humanized monoclonal antibody (subcutaneous, extended half-life)",
+      "target": "Myostatin (GDF8)",
+      "license_origin": "In-licensed from AstralBio (Myostatin License Agreement, Dec 2024)",
+      "indications": [
+        {
+          "indication": "Overweight / Obesity (lean-mass-preserving therapy, intended to be combined with or follow GLP-1 agonists)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Single-dose SAD study of IBIO-600 in overweight/obese adults",
+          "trial_design": "Single ascending dose, randomized, placebo-controlled; safety, tolerability, PK, PD",
+          "nct_ids": ["NCT07487376"],
+          "trial_status": "Not Yet Recruiting (planned start April 2026; primary completion May 2027)",
+          "lead_sponsor": "iBio, Inc.",
+          "key_milestones": ["First in-human dosing planned 2026; primary completion May 2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "IBIO-610 (Activin E antibody) — development candidate, IND-enabling planned",
+    "Myostatin x Activin A bispecific antibody — late discovery / in vitro POC",
+    "Amylin receptor agonist antibody (AstralBio collaboration) — in vivo POC, preclinical",
+    "IBIO-101 (anti-CD25) — preclinical immuno-oncology, partnering",
+    "TROP-2 x CD3 bispecific — preclinical",
+    "MUC16 program — preclinical",
+    "EGFRvIII program — preclinical",
+    "CCR8 program — preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "PHI-101 (NCT04678102 platinum-resistant ovarian cancer P1; NCT04842370 R/R AML P1) — sponsored by Seoul National University Hospital with Pharos iBio Co., Ltd. (separate Korean entity, not iBio Inc.)"
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 1
+  }
+}

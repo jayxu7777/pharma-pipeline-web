@@ -1,0 +1,38 @@
+{
+  "issuer_name": "FOXO Technologies Inc.",
+  "ticker": "FOXOW",
+  "exchange": "OTC",
+  "cik": "0001812360",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-016725",
+      "filing_date": "2026-04-15",
+      "doc": "form10-k.htm",
+      "path": "data/foxow_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public drug pipeline page — issuer is a healthcare services / epigenetics-diagnostics holding company, not a drug developer"
+    },
+    "ctgov": {
+      "path": "data/foxow_ctgov_compact.json",
+      "trial_count": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Operates four divisions: (i) rural hospital (Big South Fork Medical Center via SCCH/RCHI), (ii) mental and behavioral health (Myrtle Recovery Centers — substance use disorder treatment), (iii) information, data and biospecimen sourcing for biotech / clinical research / pharma (Vector BioSource), (iv) epigenetic biomarker diagnostics and interpretation. Revenue derives from healthcare services and biospecimen / data sales rather than proprietary drug or device development."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Healthcare services + diagnostics holding company (rural hospital, behavioral-health treatment, biospecimen/data services, epigenetic biomarker diagnostics). No proprietary drug or device clinical trial pipeline."
+}

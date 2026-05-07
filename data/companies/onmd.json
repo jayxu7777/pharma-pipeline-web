@@ -1,0 +1,45 @@
+{
+  "issuer_name": "OneMedNet Corporation",
+  "ticker": "ONMD",
+  "exchange": "Nasdaq",
+  "cik": "0001849380",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-013681",
+      "filing_date": "2026-03-30",
+      "doc": "form10-k.htm",
+      "error": "Pipeline section heading not found by slicer; 10-K describes a healthcare real-world-data (RWD) services business, not a drug developer."
+    },
+    "website": {
+      "url": "https://www.onemednet.com",
+      "error": "Direct fetch returned 403; corroborated via public press releases. Company sells the iRWD data platform (built on Palantir Foundry) — no /pipeline page exists for drug assets."
+    },
+    "ctgov": {
+      "queried_sponsor": "OneMedNet",
+      "unique_trials_p1_to_p3": 0,
+      "note": "No clinical trials sponsored by OneMedNet."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "platform": "iRWD (regulatory decision-grade, AI-driven real-world data platform on Palantir Foundry)",
+    "offerings": [
+      "Curated bespoke datasets for drug/device/AI development",
+      "Pre-curated specialty datasets (oncology, neurology, cardiology, rare diseases)",
+      "Live data feeds / subscription data licenses"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Healthcare data / services company (real-world-data SaaS). Sells data and analytics to drug, device and AI developers; does not own or sponsor any therapeutic asset and has no active P1/P2/P3 clinical trials."
+}

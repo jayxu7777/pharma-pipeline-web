@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Aspire Biopharma Holdings, Inc.",
+  "ticker": "ASBPW",
+  "exchange": "Nasdaq",
+  "cik": "0001847345",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-013682",
+      "filing_date": "2026-03-30",
+      "doc": "form10-k.htm",
+      "note": "Lead candidate is sublingual high-dose aspirin pursued via 505(b)(2) NDA pathway; small Florida PK study completed July 2025."
+    },
+    "website": {
+      "url": "https://aspirebiolabs.com",
+      "note": "Website describes sublingual delivery technology platform; no specific drug names beyond aspirin shown; no NCT IDs disclosed."
+    },
+    "ctgov": {
+      "query": "Aspire Biopharma",
+      "trials_returned": 0,
+      "note": "No trials registered on ClinicalTrials.gov under sponsor name Aspire Biopharma."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Sublingual High-Dose Aspirin (informally 'Instaprin')",
+      "aka": ["Instaprin", "high-dose sublingual aspirin"],
+      "modality": "Sublingual fast-dissolving aspirin formulation (505(b)(2) reformulation)",
+      "target": "Cyclooxygenase (COX-1/COX-2) - antiplatelet",
+      "license_origin": "Aspire proprietary delivery platform (patent pending; provisional 63/702,381 filed Oct 2024)",
+      "indications": [
+        {
+          "indication": "Acute myocardial infarction (rapid antiplatelet delivery)",
+          "highest_phase": "Phase 1 (PK study completed July 2025; pivotal trial planned 2026 ahead of 505(b)(2) NDA submission late 2026)",
+          "trial_name": "Florida PK study (single-dose pharmacokinetics in healthy adult volunteers)",
+          "trial_design": "Open-label crossover PK study comparing sublingual high-dose aspirin product vs standard oral aspirin in 6 healthy adult volunteers; 14-day washout between doses; final report received Sept 5, 2025.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 PK study COMPLETED July 2025; next clinical trials being prepared (CDMO Microsize engaged Jan 2026 to manufacture supplies for next round); 505(b)(2) NDA submission targeted late 2026.",
+          "lead_sponsor": "Aspire Biopharma Holdings, Inc.",
+          "key_milestones": [
+            "Florida PK trial completed July 2025; report Sept 2025",
+            "CDMO Microsize engaged Jan 2026 for next-round clinical supply",
+            "Planned 505(b)(2) NDA submission late 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Other sublingual reformulations referenced in passing (pain, ED, TBI, opioid alternatives) - all preclinical/conceptual, not yet IND-stage."
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 1
+  }
+}

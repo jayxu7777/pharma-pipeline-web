@@ -1,0 +1,222 @@
+{
+  "issuer_name": "BIOMARIN PHARMACEUTICAL INC",
+  "ticker": "BMRN",
+  "exchange": "Nasdaq",
+  "cik": "0001048477",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001048477-26-000004", "filing_date": "2026-02-26", "doc": "bmrn-20251231.htm"},
+    "website": {"url": "https://www.biomarin.com/products-and-pipeline/research-pipeline/", "note": "Dynamic JS-rendered grid; asset list cross-confirmed via 10-K, ctgov, and corporate updates (BMN 333, BMN 351, BMN 349 program details corroborated)."},
+    "ctgov": {"sponsor_query": "BioMarin Pharmaceutical", "compact_file": "data/bmrn_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Vosoritide",
+      "aka": ["BMN 111", "VOXZOGO"],
+      "modality": "Modified recombinant human C-type natriuretic peptide (CNP analog)",
+      "target": "NPR-B receptor / FGFR3 pathway",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Achondroplasia (label-expansion / long-term)",
+          "highest_phase": "Phase 3",
+          "trial_name": "VOXZOGO long-term extension and at-risk infant programs",
+          "trial_design": "Open-label long-term extension (NCT03424018, NCT03989947, NCT02724228) and infant safety study (NCT04554940)",
+          "nct_ids": ["NCT03424018", "NCT03989947", "NCT02724228", "NCT04554940"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": ["VOXZOGO commercially approved in achondroplasia"]
+        },
+        {
+          "indication": "Hypochondroplasia",
+          "highest_phase": "Phase 3",
+          "trial_name": "Vosoritide hypochondroplasia pivotal program",
+          "trial_design": "Randomized, placebo-controlled (NCT06455059) plus infant Phase 2 (NCT07126262) and long-term extension (NCT07073014)",
+          "nct_ids": ["NCT06455059", "NCT07126262", "NCT07073014"],
+          "trial_status": "Active, not recruiting / Recruiting / Enrolling by invitation",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": []
+        },
+        {
+          "indication": "Idiopathic short stature",
+          "highest_phase": "Phase 2",
+          "trial_name": "Vosoritide ISS Phase 2",
+          "trial_design": "Randomized vs. growth hormone vs. placebo",
+          "nct_ids": ["NCT06382155"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": []
+        },
+        {
+          "indication": "Turner syndrome / SHOX deficiency / Noonan syndrome (basket)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Vosoritide basket Phase 2",
+          "trial_design": "Open-label basket study",
+          "nct_ids": ["NCT06668805"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BMN 333",
+      "aka": [],
+      "modality": "Long-acting CNP analog",
+      "target": "NPR-B receptor / FGFR3 pathway",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Achondroplasia",
+          "highest_phase": "Phase 2/Phase 3",
+          "trial_name": "BMN 333 vs. vosoritide",
+          "trial_design": "Randomized active-comparator study vs. VOXZOGO (registration-enabling)",
+          "nct_ids": ["NCT07441876"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": ["FDA agreement on overall clinical plan reached; targeted 2030 approval per company guidance"]
+        }
+      ]
+    },
+    {
+      "asset": "BMN 351",
+      "aka": [],
+      "modality": "Next-generation oligonucleotide (exon-skipping)",
+      "target": "DMD exon 51",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Duchenne muscular dystrophy (exon-51 amenable)",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "BMN 351 first-in-human / dose-escalation",
+          "trial_design": "Open-label dose-escalation in DMD patients",
+          "nct_ids": ["NCT06280209"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": ["Initial data expected by year-end per company guidance"]
+        }
+      ]
+    },
+    {
+      "asset": "BMN 349",
+      "aka": [],
+      "modality": "Oral small molecule",
+      "target": "Z-AAT polymer / hepatic alpha-1 antitrypsin pathway",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Alpha-1 antitrypsin deficiency-associated liver disease (PiZZ / PiMZ-MASH)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BMN 349 single-dose Phase 1",
+          "trial_design": "Single ascending dose, placebo-controlled in PiZZ and PiMZ/MASH adults",
+          "nct_ids": ["NCT06738017"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": ["Phase 2 expected to start H1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Pegvaliase",
+      "aka": ["BMN 165", "PEG PAL", "PALYNZIQ"],
+      "modality": "PEGylated recombinant phenylalanine ammonia lyase",
+      "target": "Phenylalanine catabolism",
+      "license_origin": "Internal (commercial in adults; pediatric expansion in trial)",
+      "indications": [
+        {
+          "indication": "Phenylketonuria — adolescents 12-17",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pegvaliase adolescent PKU Phase 3",
+          "trial_design": "Randomized vs. diet only",
+          "nct_ids": ["NCT05270837"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Valoctocogene roxaparvovec",
+      "aka": ["BMN 270", "ROCTAVIAN"],
+      "modality": "AAV5 gene therapy (factor VIII)",
+      "target": "F8 gene replacement",
+      "license_origin": "Internal (commercial in EU/US; investigational expansion)",
+      "indications": [
+        {
+          "indication": "Hemophilia A with inhibitors / prior inhibitors",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "GENEr8 inhibitor cohort",
+          "trial_design": "Single-arm safety/efficacy",
+          "nct_ids": ["NCT04684940"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": []
+        },
+        {
+          "indication": "Severe hemophilia A — Japanese population",
+          "highest_phase": "Phase 3",
+          "trial_name": "ROCTAVIAN Japan Phase 3",
+          "trial_design": "Single-arm efficacy/safety in Japanese patients",
+          "nct_ids": ["NCT06224907"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BMN 331",
+      "aka": [],
+      "modality": "AAV gene therapy",
+      "target": "SERPING1 (C1-inhibitor)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Hereditary angioedema (HAE)",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "BMN 331 HAE gene therapy Phase 1/2",
+          "trial_design": "Open-label, dose-escalation",
+          "nct_ids": ["NCT05121376"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": ["Note: per public reports BioMarin has rationalized its early gene-therapy portfolio; status remains active per ctgov."]
+        }
+      ]
+    },
+    {
+      "asset": "BMN 307",
+      "aka": [],
+      "modality": "AAV gene therapy",
+      "target": "PAH gene replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Phenylketonuria (PKU)",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "PHEarless",
+          "trial_design": "Open-label dose-escalation gene therapy",
+          "nct_ids": ["NCT04480567"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BioMarin Pharmaceutical",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_assets": ["VOXZOGO (vosoritide)", "ROCTAVIAN (valoctocogene roxaparvovec)", "PALYNZIQ (pegvaliase)", "KUVAN (sapropterin) — divested in some regions", "VIMIZIM (elosulfase alfa)", "NAGLAZYME (galsulfase)", "BRINEURA (cerliponase alfa)", "ALDURAZYME (laronidase)"],
+    "note": "Excluded from clinical pipeline list above where not in active label-expansion trials."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 8,
+    "indications_total": 11,
+    "phase_3_indications": 5,
+    "phase_2_indications": 2,
+    "phase_1_indications": 4
+  }
+}

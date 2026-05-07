@@ -1,0 +1,29 @@
+{
+  "issuer_name": "Esports Entertainment Group, Inc.",
+  "ticker": "GMBL",
+  "exchange": "OTC",
+  "cik": "0001451448",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-23-037224",
+      "filing_date": "2023-10-13",
+      "note": "Online gambling and esports wagering company; no drug/device pipeline."
+    },
+    "website": {
+      "error": "Not applicable — non-pharma issuer (esports/igaming)"
+    },
+    "ctgov": {
+      "sponsor_query": "Esports Entertainment",
+      "trials_found": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total": 0},
+  "no_active_clinical_pipeline_reason": "Esports Entertainment Group is an iGaming and esports wagering company (online sportsbook, casino, esports betting); not a pharmaceutical, biotech, or medical device issuer. Mis-bucketed under wide_keyword_match. No drug or device pipeline exists."
+}

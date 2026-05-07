@@ -1,0 +1,25 @@
+{
+  "issuer_name": "QuidelOrtho Corp",
+  "ticker": "QDEL",
+  "exchange": "Nasdaq",
+  "cik": "0001906324",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001906324-26-000008",
+      "filed": "2026-02-19",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1906324/000190632426000008/qdel-20251228.htm"
+    },
+    "website": {"url": "https://www.quidelortho.com/global/en/products", "fetched": "2026-05-06"},
+    "ctgov": {"endpoint": "ClinicalTrials.gov v2 API", "sponsor_query": "QuidelOrtho", "unique_p1_p3_trials": 0}
+  },
+  "no_active_clinical_pipeline_reason": "QuidelOrtho is an in-vitro diagnostics (IVD) company. Its product portfolio consists exclusively of diagnostic testing platforms (VITROS clinical chemistry/immunoassay systems, ORTHO VISION transfusion medicine, SOFIA/QUICKVUE rapid antigen, LYRA/SOLANA molecular, point-of-care). The company does not develop therapeutics and has no Phase 1/2/3 drug trials.",
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0}
+}

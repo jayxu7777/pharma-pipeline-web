@@ -1,0 +1,92 @@
+{
+  "issuer_name": "Pharming Group N.V.",
+  "ticker": "PHAR",
+  "exchange": "Nasdaq",
+  "cik": "0001828316",
+  "region": "EU (Netherlands) — US-listed ADR",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://www.pharming.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Pharming", "trials_returned": 23, "active_clinical": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "Leniolisib (Joenja)",
+      "aka": [],
+      "modality": "Small molecule (oral)",
+      "target": "PI3K-delta selective inhibitor",
+      "license_origin": "In-licensed from Novartis",
+      "indications": [
+        {
+          "indication": "Activated PI3K-delta syndrome (APDS) — pediatric 4-11 years",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pediatric APDS Phase 3 (4-11 years)",
+          "trial_design": "Phase 3 open-label safety/efficacy in pediatric APDS",
+          "nct_ids": ["NCT05438407"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (started 2023-02-01)",
+          "lead_sponsor": "Pharming Technologies B.V.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Activated PI3K-delta syndrome (APDS) — pediatric 1-6 years",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pediatric APDS Phase 3 (1-6 years)",
+          "trial_design": "Phase 3 open-label safety/efficacy in pediatric APDS",
+          "nct_ids": ["NCT05693129"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (started 2023-08-30)",
+          "lead_sponsor": "Pharming Technologies B.V.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Common Variable Immunodeficiency (CVID) with immune dysregulation",
+          "highest_phase": "Phase 2",
+          "trial_name": "Leniolisib in CVID with immune dysregulation",
+          "trial_design": "Phase 2 proof of concept",
+          "nct_ids": ["NCT06897358"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (started 2025-02-12)",
+          "lead_sponsor": "Pharming Technologies B.V.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Primary Immunodeficiency Disorders (PIDs) with immune dysregulation",
+          "highest_phase": "Phase 2",
+          "trial_name": "Leniolisib in PIDs (ALPS-FAS, CTLA4 haploinsufficiency, NFKB1 haploinsufficiency, PTEN deficiency)",
+          "trial_design": "Phase 2 proof of concept",
+          "nct_ids": ["NCT06549114", "NCT06990529"],
+          "trial_status": "ACTIVE_NOT_RECRUITING / RECRUITING",
+          "lead_sponsor": "Pharming Technologies B.V.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Napazimone (KL1333)",
+      "aka": ["KL1333"],
+      "modality": "Small molecule (NAD+ modulator)",
+      "target": "Mitochondrial NAD+/NADH metabolism",
+      "license_origin": "Acquired via Abliva acquisition",
+      "indications": [
+        {
+          "indication": "Primary mitochondrial disease (genetically confirmed adults)",
+          "highest_phase": "Phase 2 (pivotal)",
+          "trial_name": "FALCON pivotal trial",
+          "trial_design": "Phase 2 randomized, placebo-controlled pivotal study",
+          "nct_ids": ["NCT05650229", "NCT07514338"],
+          "trial_status": "Pivotal trial RECRUITING; OLE NOT_YET_RECRUITING (start 2026-06-09); positive interim analysis reported.",
+          "lead_sponsor": "Pharming Technologies B.V. (formerly Abliva)",
+          "key_milestones": ["Positive FALCON interim analysis"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Ruconest (rhC1INH)": "Approved for HAE (hereditary angioedema)",
+    "Joenja (leniolisib)": "FDA-approved March 2023 for APDS in patients ≥12 years"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "indications": 5, "phase3": 2, "phase2": 3, "phase1": 0}
+}

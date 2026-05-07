@@ -1,0 +1,122 @@
+{
+  "issuer_name": "Madrigal Pharmaceuticals, Inc.",
+  "ticker": "MDGL",
+  "exchange": "Nasdaq",
+  "cik": "0001157601",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-19", "accession": "0001628280-26-009514", "path": "data/mdgl_10k_pipeline_section.html"},
+    "website": {"path": "https://www.madrigalpharma.com/pipeline", "trials_listed": "resmetirom plus combination programs"},
+    "ctgov": {"path": "data/mdgl_ctgov_compact.json", "trials_found": 17}
+  },
+  "pipeline": [
+    {
+      "asset": "Resmetirom",
+      "aka": ["MGL-3196", "VIA-3196", "Rezdiffra"],
+      "modality": "Oral liver-directed THR-beta selective agonist",
+      "target": "Thyroid hormone receptor beta (THR-beta)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "MASH (NASH) with fibrosis F2-F3 - confirmatory and outcomes",
+          "highest_phase": "Phase 3 (FDA approved under accelerated approval - MAESTRO-NASH ongoing for full approval)",
+          "trial_name": "MAESTRO-NASH",
+          "trial_design": "Pivotal Phase 3 randomized, double-blind, placebo-controlled biopsy-confirmed MASH F2-F3 with histologic and outcome endpoints",
+          "nct_ids": ["NCT03900429"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2028-01)",
+          "lead_sponsor": "Madrigal Pharmaceuticals, Inc.",
+          "key_milestones": ["Accelerated approval as Rezdiffra granted 2024", "MAESTRO-NASH 54-month outcomes data pending"]
+        },
+        {
+          "indication": "Well-compensated MASH cirrhosis (F4c)",
+          "highest_phase": "Phase 3",
+          "trial_name": "MAESTRO-NASH-OUTCOMES",
+          "trial_design": "Pivotal Phase 3 randomized placebo-controlled in well-compensated NASH cirrhosis with composite clinical outcomes",
+          "nct_ids": ["NCT05500222"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2026-12)",
+          "lead_sponsor": "Madrigal Pharmaceuticals, Inc.",
+          "key_milestones": ["Could expand label to compensated cirrhosis"]
+        },
+        {
+          "indication": "MASH safety / open-label extension",
+          "highest_phase": "Phase 3",
+          "trial_name": "MAESTRO-NAFLD-OLE",
+          "trial_design": "Phase 3 open-label safety extension in MAFLD/MASH",
+          "nct_ids": ["NCT04951219"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Madrigal Pharmaceuticals, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "MASH in post-liver transplant patients",
+          "highest_phase": "Phase 2",
+          "trial_name": "Post-LT MASH study",
+          "trial_design": "Phase 2 randomized placebo-controlled in MASH after liver transplantation",
+          "nct_ids": ["NCT07335601"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Madrigal Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MGL-2086",
+      "aka": ["SYH2086"],
+      "modality": "Oral small-molecule GLP-1 receptor agonist",
+      "target": "GLP-1 receptor",
+      "license_origin": "In-licensed globally from CSPC (Sept 2025)",
+      "indications": [
+        {
+          "indication": "MASH / obesity-associated metabolic disease (planned combination with resmetirom)",
+          "highest_phase": "Phase 1 (planned start Q2 2026)",
+          "trial_name": "MGL-2086 SAD",
+          "trial_design": "Planned Phase 1 single-ascending-dose study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - IND accepted; SAD initiation expected Q2 2026",
+          "lead_sponsor": "Madrigal Pharmaceuticals, Inc.",
+          "key_milestones": ["Phase 1 SAD initiation Q2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Ervogastat",
+      "aka": ["PF-06865571"],
+      "modality": "Oral liver-directed DGAT-2 inhibitor",
+      "target": "DGAT-2",
+      "license_origin": "In-licensed globally from Pfizer (Dec 2025)",
+      "indications": [
+        {
+          "indication": "MASH (planned combination with resmetirom)",
+          "highest_phase": "Phase 2 (Pfizer Phase 2b completed; Madrigal Phase 1 DDI then Phase 2 combo planned)",
+          "trial_name": "Ervogastat + resmetirom combo program",
+          "trial_design": "Phase 1 DDI study planned 2026; Phase 2 combination trial planned 2027",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - Phase 1 DDI 2026, Phase 2 combination 2027",
+          "lead_sponsor": "Madrigal Pharmaceuticals, Inc.",
+          "key_milestones": ["Pfizer Phase 2b showed up to 72% of patients with >=30% MRI-PDFF reduction"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Rezdiffra (resmetirom)",
+    "indication": "Noncirrhotic MASH with moderate to advanced fibrosis (F2-F3)",
+    "approval_status": "FDA accelerated approval 2024",
+    "geography": "US (additional regions pursuing)"
+  },
+  "excluded_preclinical": [
+    "siRNA programs (Ribocure license, Feb 2026) - preclinical / IND-enabling",
+    "Three additional early-stage MASH assets from Pfizer license"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3_assets": 1,
+    "phase_2_assets": 1,
+    "phase_1_assets": 1,
+    "note": "Resmetirom counted as P3 (highest phase per asset). Ervogastat highest active dev under Madrigal will be Phase 1 DDI then Phase 2 combo - listed at currently planned Phase 1/2."
+  }
+}

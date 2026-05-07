@@ -1,0 +1,55 @@
+{
+  "issuer_name": "Tevogen Bio Holdings Inc.",
+  "ticker": "TVGN",
+  "exchange": "Nasdaq",
+  "cik": "0001860871",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001493152-26-014326",
+      "path": "data/tvgn_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.tevogen.com/pipeline",
+      "note": "Lists TVGN-489 as lead clinical asset; non-oncology programs described as opportunistic."
+    },
+    "ctgov": {
+      "path": "data/tvgn_ctgov_compact.json",
+      "trials_p1_p3": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "TVGN 489",
+      "aka": ["TVGN-489"],
+      "modality": "Off-the-shelf allogeneic cytotoxic CD8+ T cell therapy (ExacTcell platform)",
+      "target": "SARS-CoV-2 viral peptides presented on HLA-A*02:01",
+      "license_origin": "In-licensed/co-developed with Thomas Jefferson University",
+      "indications": [
+        {
+          "indication": "Long COVID",
+          "highest_phase": "P2",
+          "trial_name": "Phase 2 Long COVID treatment trial (in development)",
+          "trial_design": "Phase 2 study evaluating safety and efficacy of TVGN 489 in individuals with Long COVID; in development per FY2025 10-K (filed Mar 2026).",
+          "nct_ids": [],
+          "trial_status": "PLANNED — Phase 2 study in development for Long COVID per 10-K filed 2026-03-31; not yet posted on ClinicalTrials.gov.",
+          "lead_sponsor": "Tevogen Bio",
+          "key_milestones": ["Phase 2 design described in FY2025 10-K", "Pivotal trial of TVGN 489 in COVID-19 also contemplated based on completed Phase 1 (NCT04765449)"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "TVGN 501 / TVGN 502 (HPV)", "reason": "investigative/preclinical per 10-K"},
+    {"asset": "TVGN 960 (oncology)", "reason": "investigative/preclinical per 10-K"},
+    {"asset": "TVGN 116 (chronic hepatitis B)", "reason": "investigative/preclinical per 10-K"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "TVGN 489 COVID-19 treatment", "reason": "Phase 1 NCT04765449 COMPLETED 2022-07; not counted as active. Pivotal trial not yet initiated."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 1, "P1": 0, "total_assets": 1}
+}

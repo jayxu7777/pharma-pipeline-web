@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Savara Inc.",
+  "ticker": "SVRA",
+  "exchange": "Nasdaq",
+  "cik": "0001160308",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-105076", "filed": "2026-03-13", "doc": "svra-20251231.htm"},
+    "website": {"url": "https://www.savarapharma.com/development/", "fetched": "2026-05-06", "note": "Pipeline summary obtained from homepage; /pipeline 404"},
+    "ctgov": {"sponsor_query": "Savara", "trials_returned": 12, "active_p1_3": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "molgramostim",
+      "aka": ["MOLBREEVI", "inhaled rhGM-CSF"],
+      "modality": "Inhaled recombinant protein (GM-CSF) via nebulizer",
+      "target": "Granulocyte-macrophage colony-stimulating factor (GM-CSF) supplementation/replacement",
+      "license_origin": "Internal (Savara)",
+      "indications": [
+        {
+          "indication": "Autoimmune pulmonary alveolar proteinosis (aPAP) — adults",
+          "highest_phase": "Phase 3",
+          "trial_name": "IMPALA-2",
+          "trial_design": "Phase 3 randomized, double-blind, placebo-controlled study with open-label extension of inhaled molgramostim in adult aPAP",
+          "nct_ids": ["NCT04544293"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Savara Inc.",
+          "key_milestones": ["BLA submission targeted following pivotal readout"]
+        },
+        {
+          "indication": "Autoimmune pulmonary alveolar proteinosis (aPAP) — pediatric",
+          "highest_phase": "Phase 3",
+          "trial_name": "Inhaled molgramostim pediatric aPAP",
+          "trial_design": "Phase 3 study of inhaled molgramostim in pediatric participants with aPAP",
+          "nct_ids": ["NCT06431776"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Savara Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "indications_p1": 0, "indications_p2": 0, "indications_p3": 2}
+}

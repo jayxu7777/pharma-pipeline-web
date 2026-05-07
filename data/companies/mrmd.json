@@ -1,0 +1,20 @@
+{
+  "issuer_name": "MariMed Inc.",
+  "ticker": "MRMD",
+  "exchange": "OTC",
+  "cik": "0001522767",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001522767-26-000030", "filed": "2026-03-12", "file": "data/mrmd_10k_pipeline_section.html"},
+    "website": {"note": "Not fetched; 10-K business description is unambiguous"},
+    "ctgov": {"file": "data/mrmd_ctgov_compact.json", "trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "MariMed is a multi-state cannabis operator (MSO) with cultivation, processing, and dispensary operations. State-regulated cannabis products are not subject to FDA P1/P2/P3 clinical trials. No human therapeutic IND pipeline.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "phase3": 0, "phase2": 0, "phase1": 0}
+}

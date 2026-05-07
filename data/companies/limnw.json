@@ -1,0 +1,70 @@
+{
+  "issuer_name": "Liminatus Pharma, Inc.",
+  "ticker": "LIMNW",
+  "exchange": "Nasdaq",
+  "cik": "0001971387",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-037933",
+      "filing_date": "2026-03-31",
+      "doc": "limn-20251231x10k.htm"
+    },
+    "website": {"error": "Both liminatus.com and www.liminatuspharma.com returned TLS / certificate errors on WebFetch"},
+    "ctgov": {"compact": "data/limnw_ctgov_compact.json", "studies_returned": 0}
+  },
+  "pipeline": [
+    {
+      "asset": "IBA101",
+      "aka": ["next-generation anti-CD47 monoclonal antibody"],
+      "modality": "Monoclonal antibody (CD47 immune checkpoint inhibitor)",
+      "target": "CD47",
+      "license_origin": "In-licensed from InnoBation Bio Co. Ltd. and Valetudo Therapeutics LLC",
+      "indications": [
+        {
+          "indication": "Advanced solid cancers (lung-cancer focus)",
+          "highest_phase": "PLANNED — Phase 1 (IND not yet filed)",
+          "trial_name": "IBA101 monotherapy global Phase 1 (planned 2026, South Korea lung-cancer focus)",
+          "trial_design": "Phase 1 safety / dose-escalation in advanced solid tumors; global trial planned in South Korea focused on lung cancer",
+          "nct_ids": [],
+          "trial_status": "PLANNED — late preclinical stage; CMC and monkey toxicity completed; IND package in preparation; Phase 1 monotherapy scheduled for 2026",
+          "lead_sponsor": "Liminatus Pharma, Inc.",
+          "key_milestones": [
+            "Preclinical CMC and toxicology completed",
+            "IND package in preparation",
+            "Phase 1 monotherapy planned 2026"
+          ]
+        },
+        {
+          "indication": "Stage III+ Non-Small Cell Lung Cancer (NSCLC) — combination",
+          "highest_phase": "PLANNED — Phase 1",
+          "trial_name": "IBA101 + durvalumab or pembrolizumab in NSCLC (planned 2027)",
+          "trial_design": "Phase 1 combination with PD-L1 inhibitor (durvalumab or pembrolizumab) in stage III+ NSCLC, both PD-L1 high and low patients",
+          "nct_ids": [],
+          "trial_status": "PLANNED — combination Phase 1 scheduled to start in 2027 per 10-K clinical plan",
+          "lead_sponsor": "Liminatus Pharma, Inc.",
+          "key_milestones": [
+            "Combination Phase 1 planned 2027"
+          ]
+        }
+      ]
+    }
+  ],
+  "no_active_clinical_pipeline_reason": "Liminatus self-describes as a 'pre-clinical stage biopharmaceutical company.' Lead asset IBA101 (anti-CD47 mAb) is in late preclinical with IND package in preparation; first Phase 1 not initiated until 2026 (planned). No active Phase 1/2/3 trial currently exists. The originally licensed GCC CAR-T program from TDT was terminated August 2024.",
+  "excluded_preclinical": [
+    {"asset": "GCC CAR-T", "reason": "TDT/Thomas Jefferson licenses terminated August 2024"},
+    {"asset": "GCC vaccine (diagnostics)", "reason": "Originally sub-licensed from Viral Gene; TDT licenses terminated"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "total_indications": 2,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "planned": 2
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "issuer_name": "Dyne Therapeutics, Inc.",
+  "ticker": "DYN",
+  "exchange": "Nasdaq",
+  "cik": "0001818794",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-084178", "filing_date": "2026-03-02", "doc": "dyn-20251231.htm"},
+    "website": {"url": "https://www.dyne-tx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/dyn_ctgov_compact.json", "lead_sponsor_query": "Dyne Therapeutics", "active_studies": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "Zeleciment rostudirsen",
+      "aka": ["DYNE-251", "z-rostudirsen"],
+      "modality": "FORCE platform — TfR1 antibody-conjugated PMO antisense oligonucleotide (exon-skipping)",
+      "target": "Dystrophin exon 51 skipping",
+      "license_origin": "Dyne internal",
+      "indications": [
+        {
+          "indication": "Duchenne muscular dystrophy (DMD) amenable to exon 51 skipping",
+          "highest_phase": "Phase 1/2 (registration-directed)",
+          "trial_name": "DELIVER",
+          "trial_design": "Multi-part, double-blind, placebo-controlled Phase 1/2 of DYNE-251 in DMD patients amenable to exon 51 skipping",
+          "nct_ids": ["NCT05524883"],
+          "trial_status": "Active, not recruiting; planned BLA submission Q2 2026",
+          "lead_sponsor": "Dyne Therapeutics",
+          "key_milestones": ["Planned BLA Q2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Zeleciment basivarsen",
+      "aka": ["DYNE-101", "z-basivarsen"],
+      "modality": "FORCE platform — TfR1 antibody-conjugated antisense oligonucleotide",
+      "target": "DMPK (dystrophia myotonica protein kinase)",
+      "license_origin": "Dyne internal",
+      "indications": [
+        {
+          "indication": "Myotonic dystrophy type 1 (DM1)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ACHIEVE Phase 3 (zeleciment basivarsen DM1)",
+          "trial_design": "Phase 3 efficacy/safety/tolerability study of zeleciment basivarsen vs placebo in DM1",
+          "nct_ids": ["NCT07486934"],
+          "trial_status": "Recruiting (registration-directed)",
+          "lead_sponsor": "Dyne Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Myotonic dystrophy type 1 (DM1) — Phase 1/2 ACHIEVE",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ACHIEVE (Phase 1/2)",
+          "trial_design": "Multi-part, double-blind, placebo-controlled Phase 1/2 of DYNE-101 in DM1 patients",
+          "nct_ids": ["NCT05481879"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Dyne Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {},
+  "excluded_preclinical": [
+    {"asset": "DYNE-302 (DUX4 / FSHD)", "stage": "Preclinical"},
+    {"asset": "DYNE-253 (DMD exon 53)", "stage": "Preclinical"},
+    {"asset": "DYNE-245 (DMD exon 45)", "stage": "Preclinical"},
+    {"asset": "DYNE-244 (DMD exon 44)", "stage": "Preclinical"},
+    {"asset": "DYNE-255 (DMD exon 55)", "stage": "Preclinical"},
+    {"asset": "DYNE-401 (GAA / Pompe disease)", "stage": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3_indications": 1,
+    "phase_2_indications": 0,
+    "phase_1_2_indications": 2,
+    "phase_1_indications": 0
+  }
+}

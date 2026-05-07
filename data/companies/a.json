@@ -1,0 +1,45 @@
+{
+  "issuer_name": "AGILENT TECHNOLOGIES, INC.",
+  "ticker": "A",
+  "exchange": "NYSE",
+  "cik": "0001090872",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001090872-25-000087",
+      "filing_date": "2025-12-22",
+      "doc": "a-20251031.htm",
+      "path": "data/a_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found - Agilent is a life-sciences instruments / diagnostics company, no drug pipeline page exists"
+    },
+    "ctgov": {
+      "path": "data/a_ctgov_compact.json",
+      "hits": 1,
+      "note": "Only hit is NCT02452697 where Agilent is a collaborator (manufactures DUK-CPG-001 reagent), lead sponsor is academic investigator Cristina Gasparetto. Status UNKNOWN, primary completion 2022. Excluded as partner/collaborator role with academic-investigator-led study."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Agilent commercializes laboratory instruments, consumables, software, and IVD/CDx (companion diagnostic) assays under the Diagnostics and Genomics Group (incl. Dako pathology stains, Resolution Bioscience NGS CDx, SureSelect, etc.). These are marketed in-vitro diagnostic devices, not drug therapeutics."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "nct_id": "NCT02452697",
+      "asset": "DUK-CPG-001 (TLR9 agonist) + NK-DLI",
+      "reason": "Investigator-initiated (Cristina Gasparetto, Duke); Agilent is collaborator/reagent supplier, not sponsor. Status UNKNOWN since 2022."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Agilent Technologies is a life-sciences and diagnostics tools company (analytical instruments, mass-spec, NGS, pathology stains, companion diagnostics). It does not develop proprietary therapeutic drugs and has no internal P1/P2/P3 drug pipeline."
+}

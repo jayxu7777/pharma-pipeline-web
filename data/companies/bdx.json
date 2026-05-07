@@ -1,0 +1,50 @@
+{
+  "issuer_name": "BECTON DICKINSON & CO",
+  "ticker": "BDX",
+  "exchange": "NYSE",
+  "cik": "0000010795",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000010795-25-000099",
+      "filing_date": "2025-11-25",
+      "doc": "bdx-20250930.htm",
+      "note": "10-K fetched but pipeline section heading not detected — BD is a medical-devices/diagnostics company and the 10-K does not contain a drug R&D pipeline section."
+    },
+    "website": {
+      "error": "no public drug pipeline page found — BD is a medical devices and diagnostics company"
+    },
+    "ctgov": {
+      "file": "data/bdx_ctgov_compact.json",
+      "kept_p1_p3": 9,
+      "active": 0,
+      "note": "All 9 P1-P3 sponsored studies are COMPLETED (latest primaryCompletionDate 2023-06-08). All studies relate to BD medical devices (insulin delivery sets, CGM prototypes, hemostatic powder Arista, antimicrobial skin prep). No active proprietary drug pipeline."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "BD markets a broad portfolio of medical devices, diagnostics and laboratory instruments (e.g. BD Vacutainer, BD ChloraPrep, BD Veritor, BD MAX, BD FACS flow cytometers, infusion sets, prefillable syringes). These are not drug assets and are out of scope for this active P1/P2/P3 drug pipeline."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT00553488", "reason": "COMPLETED 2007 — intradermal insulin device feasibility"},
+    {"nct_id": "NCT05522153", "reason": "COMPLETED 2023 — Arista hemostatic powder, investigator-initiated (Virtua Health lead)"},
+    {"nct_id": "NCT01093833", "reason": "COMPLETED 2009 — BD CGM prototype"},
+    {"nct_id": "NCT03224299", "reason": "COMPLETED 2017 — antimicrobial skin prep"},
+    {"nct_id": "NCT01557907", "reason": "COMPLETED 2012 — intradermal vs subQ insulin device"},
+    {"nct_id": "NCT03229759", "reason": "COMPLETED 2017 — antimicrobial cloth"},
+    {"nct_id": "NCT01120444", "reason": "COMPLETED 2010 — intradermal insulin device"},
+    {"nct_id": "NCT01469715", "reason": "COMPLETED 2012 — University of Virginia lead, GBP CGM"},
+    {"nct_id": "NCT01061216", "reason": "COMPLETED 2010 — intradermal insulin device"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Becton Dickinson is a medical devices, diagnostics and laboratory instruments company. It has no proprietary drug development pipeline. All 9 historical P1-P3 trials linked to BD on ClinicalTrials.gov are device studies (insulin delivery, continuous glucose monitors, antimicrobial skin prep, hemostatic powders) and all are COMPLETED. No active pivotal/IDE drug clinical studies are listed."
+}

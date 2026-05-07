@@ -1,0 +1,88 @@
+{
+  "issuer_name": "Cellectar Biosciences, Inc.",
+  "ticker": "CLRB",
+  "exchange": "Nasdaq",
+  "cik": "0001279704",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/clrb_10k_pipeline_section.html", "filing_date": "2026-03-04", "accession": "0001104659-26-023167"},
+    "website": {"error": "https://www.cellectar.com/pipeline returned 404; details derived from 10-K"},
+    "ctgov": {"file": "data/clrb_ctgov_compact.json", "trials": 15, "active_p1_p3": 4, "sponsor_query": "Cellectar Biosciences"}
+  },
+  "pipeline": [
+    {
+      "asset": "Iopofosine I 131",
+      "aka": ["CLR 131", "I-131-CLR1404", "iopofosine"],
+      "modality": "Phospholipid drug conjugate (PDC) — beta-emitting iodine-131 radioconjugate",
+      "target": "Lipid rafts of cancer cell membranes (PDC platform delivery)",
+      "license_origin": "Internal (Cellectar PDC platform)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory Waldenstrom macroglobulinemia (r/r WM)",
+          "highest_phase": "P2 pivotal (registrational; FDA Breakthrough Therapy Designation granted June 2025; CMA acceptable per EMA scientific advice Oct 2025)",
+          "trial_name": "CLOVER WaM (pivotal Phase 2 in r/r WM)",
+          "trial_design": "Pivotal Phase 2 single-arm registration study in WM patients r/r to >=2 prior lines including failure/suboptimal response to BTKi; enrollment completed Q4 2023",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrollment complete (Q4 2023); pivotal data supportive; FDA Breakthrough Therapy granted Jun-2025; confirmatory study required for accelerated NDA, initiation pending funding",
+          "lead_sponsor": "Cellectar Biosciences, Inc.",
+          "key_milestones": ["Initiate confirmatory study", "Submit accelerated NDA"]
+        },
+        {
+          "indication": "Select B-cell malignancies (r/r multiple myeloma, CLL/SLL, lymphoplasmacytic lymphoma, marginal zone, mantle cell, DLBCL, CNS lymphoma)",
+          "highest_phase": "P2",
+          "trial_name": "CLOVER-1",
+          "trial_design": "Phase 2 study of iopofosine I 131 in select B-cell malignancies with expansion cohorts; primary efficacy endpoint met",
+          "nct_ids": ["NCT02952508"],
+          "trial_status": "Active, not recruiting (started 2017-07-26)",
+          "lead_sponsor": "Cellectar Biosciences, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pediatric relapsed/refractory high-grade glioma and other pediatric solid tumors / lymphoma / brain tumors (DIPG, neuroblastoma, Ewing, rhabdo, osteosarcoma)",
+          "highest_phase": "P1",
+          "trial_name": "CLOVER-2 (pediatric studies)",
+          "trial_design": "Phase 1 dose-escalation in pediatric inoperable r/r high-grade glioma (NCT05610891) and Phase 1 dose-escalation in pediatric r/r malignant tumors (NCT03478462)",
+          "nct_ids": ["NCT05610891", "NCT03478462"],
+          "trial_status": "Both Active, not recruiting",
+          "lead_sponsor": "Cellectar Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CLR 125",
+      "aka": ["CLR 121125", "Iodine-125 Auger-emitting PRC"],
+      "modality": "Phospholipid drug conjugate (PDC) — Auger-emitting iodine-125 radioconjugate",
+      "target": "Lipid rafts (PDC platform); intracellular near-nucleus delivery",
+      "license_origin": "Internal (Cellectar PDC platform)",
+      "indications": [
+        {
+          "indication": "Triple-negative breast cancer (TNBC), advanced r/r",
+          "highest_phase": "P1",
+          "trial_name": "Phase 1 Study of CLR 125 in Triple Negative Breast Cancer",
+          "trial_design": "Randomized, open-label, multi-center Phase 1b dose-finding study; three dose levels; up to ~75 patients; endpoint = Phase 2 dose plus safety/tolerability/initial response",
+          "nct_ids": ["NCT07311993"],
+          "trial_status": "Recruiting (started 2025-12-05)",
+          "lead_sponsor": "Cellectar Biosciences, Inc.",
+          "key_milestones": ["Phase 2 dose determination"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "CLR 225 (CLR 121225, actinium-225 alpha-emitting PRC)", "reason": "Preclinical; Phase 1 imaging/dose escalation prepared but initiation pending funding"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"note": "Multiple partnered PDC assets referenced in 10-K but no specific NCT/active records under Cellectar sponsorship"}
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3_or_p2_p3": 0,
+    "p2_or_p1_p2": 1,
+    "p1": 1,
+    "note": "Iopofosine WaM is a pivotal P2 with BTD; counted as P2."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "issuer_name": "Viking Therapeutics, Inc.",
+  "ticker": "VKTX",
+  "exchange": "Nasdaq",
+  "cik": "0001607678",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-046876", "filing_date": "2026-02-11", "doc": "vktx-20251231.htm"},
+    "website": {"url": "https://www.vikingtherapeutics.com/pipeline/", "note": "Pipeline page extracted; NCT IDs cross-referenced via ctgov."},
+    "ctgov": {"sponsor_query": "Viking Therapeutics", "compact_file": "data/vktx_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "VK2735 (subcutaneous)",
+      "aka": [],
+      "modality": "Dual GLP-1 / GIP receptor agonist (peptide, weekly SC)",
+      "target": "GLP-1R + GIPR",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Obesity / weight management",
+          "highest_phase": "Phase 3",
+          "trial_name": "VANQUISH-1",
+          "trial_design": "Randomized, placebo-controlled global Phase 3 in adults with obesity",
+          "nct_ids": ["NCT07104500"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Viking Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Obesity with type 2 diabetes",
+          "highest_phase": "Phase 3",
+          "trial_name": "VANQUISH-2",
+          "trial_design": "Randomized, placebo-controlled Phase 3 in obese T2D adults",
+          "nct_ids": ["NCT07104383"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Viking Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "VK2735 (oral)",
+      "aka": [],
+      "modality": "Dual GLP-1 / GIP receptor agonist (oral tablet)",
+      "target": "GLP-1R + GIPR",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Obesity (oral formulation)",
+          "highest_phase": "Phase 2",
+          "trial_name": "VENTURE-Oral Dosing",
+          "trial_design": "Randomized, placebo-controlled oral dosing Phase 2 (completed)",
+          "nct_ids": ["NCT06828055"],
+          "trial_status": "Completed (Phase 2); Phase 3 planned 3Q26 per company guidance",
+          "lead_sponsor": "Viking Therapeutics, Inc.",
+          "key_milestones": ["Phase 3 planned 3Q26"]
+        }
+      ]
+    },
+    {
+      "asset": "VK2809",
+      "aka": [],
+      "modality": "Small-molecule, liver-selective thyroid hormone receptor beta (TR\u03b2) agonist",
+      "target": "Thyroid hormone receptor beta",
+      "license_origin": "Internal (in-licensed historically from Ligand)",
+      "indications": [
+        {
+          "indication": "Metabolic dysfunction-associated steatohepatitis (MASH/NASH)",
+          "highest_phase": "Phase 2",
+          "trial_name": "VOYAGE",
+          "trial_design": "Randomized, placebo-controlled biopsy-confirmed Phase 2b (completed)",
+          "nct_ids": ["NCT04173065"],
+          "trial_status": "Completed (positive readout); Phase 3 planning",
+          "lead_sponsor": "Viking Therapeutics, Inc.",
+          "key_milestones": ["VOYAGE Phase 2b completed"]
+        }
+      ]
+    },
+    {
+      "asset": "VK0214",
+      "aka": [],
+      "modality": "Small-molecule TR\u03b2 agonist",
+      "target": "Thyroid hormone receptor beta",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "X-linked adrenoleukodystrophy (X-ALD / AMN)",
+          "highest_phase": "Phase 1",
+          "trial_name": "VK0214 X-ALD Phase 1b",
+          "trial_design": "Randomized, placebo-controlled PD study in adult male AMN patients",
+          "nct_ids": ["NCT04973657"],
+          "trial_status": "Completed (proof-of-concept demonstrated); next-step study planned",
+          "lead_sponsor": "Viking Therapeutics, Inc.",
+          "key_milestones": ["PoC demonstrated"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Amylin agonist (DACRA)", "reason": "Preclinical; IND planned 1Q26 per company guidance"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "VK5211 (enobosarm)", "reason": "Legacy SARM program; no active clinical activity disclosed (last study NCT02578095 completed 2017)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "indications_total": 5,
+    "phase_3_indications": 2,
+    "phase_2_indications": 2,
+    "phase_1_indications": 1
+  }
+}

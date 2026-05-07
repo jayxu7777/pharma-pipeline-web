@@ -1,0 +1,47 @@
+{
+  "issuer_name": "Gain Therapeutics, Inc.",
+  "ticker": "GANX",
+  "exchange": "Nasdaq",
+  "cik": "0001819411",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-035188", "filed": "2026-03-26", "file": "data/ganx_10k_pipeline_section.html"},
+    "website": {"url": "https://www.gaintherapeutics.com/pipeline"},
+    "ctgov": {"file": "data/ganx_ctgov_compact.json", "kept_p1_p3": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "GT-02287",
+      "aka": [],
+      "modality": "Small molecule structurally targeted allosteric regulator (STAR) of GCase",
+      "target": "Glucocerebrosidase (GCase / GBA1)",
+      "license_origin": "Internal (proprietary SEE-Tx platform)",
+      "indications": [
+        {
+          "indication": "Parkinson's disease (idiopathic and GBA1-PD)",
+          "highest_phase": "Phase 2 (transitioning from Phase 1b)",
+          "trial_name": "Phase 2 efficacy/safety/tolerability/biomarker study in early Parkinson's disease (planned); Phase 1b PK/PD ongoing",
+          "trial_design": "Phase 1b: SAD/MAD safety, tolerability, PK, PD in PD patients. Phase 2: randomized, placebo-controlled, multi-dose efficacy and biomarker study in early PD.",
+          "nct_ids": ["NCT06732180", "NCT07280299"],
+          "trial_status": "Phase 1b RECRUITING (start 2025-02-21, primary completion 2025-11-30); Phase 2 NOT_YET_RECRUITING (planned start 2026-05-30, primary completion 2028-06-30)",
+          "lead_sponsor": "Gain Therapeutics, Inc.",
+          "key_milestones": ["Phase 1b primary completion late 2025", "Phase 2 initiation H1 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "GT-02287 in Gaucher disease — preclinical",
+    "GT-02287 in dementia with Lewy bodies — preclinical",
+    "GT-02287 in Alzheimer's disease — preclinical",
+    "GLB program for GM1 gangliosidosis — preclinical",
+    "GALC program for Krabbe disease — preclinical",
+    "AAT program for alpha-1 antitrypsin deficiency — preclinical",
+    "DDR2 oncology program — discovery"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 1, "P1": 0, "total_assets": 1}
+}

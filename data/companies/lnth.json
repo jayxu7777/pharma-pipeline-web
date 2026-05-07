@@ -1,0 +1,276 @@
+{
+  "issuer_name": "Lantheus Holdings, Inc.",
+  "ticker": "LNTH",
+  "exchange": "Nasdaq",
+  "cik": "0001521036",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001193125-26-073498",
+      "slice_html": "data/lnth_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.lantheus.com/our-products/pipeline/",
+      "fetched": true
+    },
+    "ctgov": {
+      "compact": "data/lnth_ctgov_compact.json",
+      "lead_sponsor_query": "Lantheus"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "MK-6240 (florquinitau)",
+      "aka": ["MK-6240", "florquinitau", "[18F]MK-6240"],
+      "modality": "PET diagnostic radiopharmaceutical (18F)",
+      "target": "Tau (PHF tau)",
+      "license_origin": "Acquired/licensed from Cerveau / Merck",
+      "indications": [
+        {
+          "indication": "Detection of brain tau pathology in Alzheimer's disease (PET imaging diagnostic)",
+          "highest_phase": "Phase 3 / Regulatory Filing",
+          "trial_name": "MK-6240 tau PET program",
+          "trial_design": "Pivotal PET imaging study supporting NDA filing",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Regulatory filing per company pipeline (Phase 3 complete)",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": ["Regulatory filing stage"]
+        }
+      ]
+    },
+    {
+      "asset": "NAV-4694 (flutafuranol)",
+      "aka": ["NAV-4694", "flutafuranol", "[18F]NAV4694"],
+      "modality": "PET diagnostic radiopharmaceutical (18F)",
+      "target": "Beta-amyloid plaque",
+      "license_origin": "Acquired with Navidea / from internal portfolio expansion",
+      "indications": [
+        {
+          "indication": "Detection of beta-amyloid plaque in Alzheimer's disease (PET imaging diagnostic)",
+          "highest_phase": "Phase 3",
+          "trial_name": "NAV-4694 amyloid PET Phase 3",
+          "trial_design": "Pivotal Phase 3 PET imaging study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 active per company pipeline",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-2515 (florbetaben)",
+      "aka": ["florbetaben", "LNTH-2515"],
+      "modality": "PET diagnostic radiopharmaceutical (18F)",
+      "target": "Beta-amyloid",
+      "license_origin": "Internal / acquisition",
+      "indications": [
+        {
+          "indication": "Beta-amyloid PET imaging in Alzheimer's disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "LNTH-2515 florbetaben Phase 3",
+          "trial_design": "Pivotal Phase 3 PET imaging study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 active per company pipeline",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-2620 / PI-2620",
+      "aka": ["PI-2620", "[18F]PI-2620"],
+      "modality": "PET diagnostic radiopharmaceutical (18F)",
+      "target": "Tau",
+      "license_origin": "In-licensed (collaboration with Life Molecular Imaging / Perspectum lineage)",
+      "indications": [
+        {
+          "indication": "Tau PET imaging (neurodegenerative disorders, including PSP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PI-2620 tau PET Phase 3",
+          "trial_design": "Pivotal Phase 3 PET imaging study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 active per company pipeline",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PNT2003",
+      "aka": ["177Lu-DOTATATE biosimilar candidate", "PNT2003"],
+      "modality": "Therapeutic radiopharmaceutical (177Lu peptide)",
+      "target": "Somatostatin receptor 2 (SSTR2)",
+      "license_origin": "Acquired via POINT Biopharma / collaboration",
+      "indications": [
+        {
+          "indication": "Somatostatin-receptor-positive gastroenteropancreatic neuroendocrine tumors (GEP-NETs)",
+          "highest_phase": "Phase 3 / Regulatory Filing",
+          "trial_name": "PNT2003 GEP-NET program (registration enabling)",
+          "trial_design": "Pivotal study supporting registration",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Regulatory filing per company pipeline",
+          "lead_sponsor": "Lantheus / POINT Biopharma",
+          "key_milestones": ["Regulatory filing stage"]
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-2501 / EVG-001",
+      "aka": ["EVG-001", "[68Ga]-SSTR2 imaging agent"],
+      "modality": "PET diagnostic radiopharmaceutical (68Ga)",
+      "target": "Somatostatin receptor 2 (SSTR2)",
+      "license_origin": "In-licensed from Evergreen Theragnostics",
+      "indications": [
+        {
+          "indication": "Imaging of somatostatin-receptor-positive neuroendocrine tumors",
+          "highest_phase": "Phase 3 / Regulatory Filing",
+          "trial_name": "EVG-001 NET imaging program",
+          "trial_design": "Pivotal imaging study supporting registration",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Regulatory filing per company pipeline",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": ["Regulatory filing stage"]
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-2401",
+      "aka": ["[68Ga]-GRPR imaging agent"],
+      "modality": "PET diagnostic radiopharmaceutical (68Ga)",
+      "target": "Gastrin-releasing peptide receptor (GRPR)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Prostate cancer imaging (GRPR-positive)",
+          "highest_phase": "Phase 2",
+          "trial_name": "LNTH-2401 prostate cancer Phase 2",
+          "trial_design": "Imaging Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 active per company pipeline",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-2513 (GP1)",
+      "aka": ["[18F]GP1"],
+      "modality": "PET diagnostic radiopharmaceutical (18F)",
+      "target": "GPIIb-IIIa receptor (activated platelets)",
+      "license_origin": "In-licensed from Life Molecular Imaging / Piramal pipeline",
+      "indications": [
+        {
+          "indication": "Imaging of acute thromboembolic disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "GP1 thrombus imaging Phase 2",
+          "trial_design": "Imaging Phase 2 study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 active per company pipeline",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-1363S",
+      "aka": ["[64Cu]-FAP-targeted imaging agent"],
+      "modality": "PET diagnostic radiopharmaceutical (64Cu)",
+      "target": "Fibroblast activation protein (FAP)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Solid tumors (FAP-expressing)",
+          "highest_phase": "Phase 1",
+          "trial_name": "LNTH-1363S FAP imaging Phase 1",
+          "trial_design": "First-in-human imaging Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 active per company pipeline",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-2503",
+      "aka": ["[68Ga]/[177Lu]-CCK2R theranostic"],
+      "modality": "Theranostic radiopharmaceutical (68Ga imaging and 177Lu therapy)",
+      "target": "Cholecystokinin-2 receptor (CCK2R)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "CCK2R-expressing solid tumors (e.g. medullary thyroid carcinoma)",
+          "highest_phase": "Phase 1",
+          "trial_name": "LNTH-2503 CCK2R Phase 1 (imaging and therapy)",
+          "trial_design": "First-in-human imaging and dosimetry Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 active per company pipeline",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-2511 (DED)",
+      "aka": ["[18F]DED"],
+      "modality": "PET diagnostic radiopharmaceutical (18F)",
+      "target": "Monoamine oxidase B (MAO-B)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Neurodegenerative disease imaging (MAO-B / astrogliosis)",
+          "highest_phase": "Phase 1",
+          "trial_name": "LNTH-2511 DED Phase 1",
+          "trial_design": "First-in-human imaging Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 active per company pipeline",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-2403",
+      "aka": ["[177Lu]-LRRC15 therapeutic radioligand"],
+      "modality": "Therapeutic radiopharmaceutical (177Lu)",
+      "target": "Leucine-rich repeat-containing protein 15 (LRRC15)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "LRRC15-expressing solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "LNTH-2403 LRRC15 Phase 1",
+          "trial_design": "First-in-human Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 active per company pipeline",
+          "lead_sponsor": "Lantheus",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "PYLARIFY (piflufolastat F 18)": "Approved PSMA PET diagnostic for prostate cancer",
+    "DEFINITY": "Marketed ultrasound microbubble contrast agent",
+    "TechneLite": "Marketed Tc-99m generator",
+    "AZEDRA": "Approved 131I-iobenguane therapy for pheochromocytoma/paraganglioma"
+  },
+  "excluded_preclinical": [
+    {"asset": "LNTH-2402", "reason": "[177Lu]-GRPR therapeutic for prostate cancer; preclinical"},
+    {"asset": "LNTH-2404", "reason": "TROP2-targeted therapeutic radiopharmaceutical; preclinical"},
+    {"asset": "LNTH-2505", "reason": "Undisclosed target theranostic pair; preclinical"},
+    {"asset": "LNTH-2507", "reason": "Undisclosed target theranostic pair; preclinical"},
+    {"asset": "LNTH-2509", "reason": "Undisclosed target theranostic pair; preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 12,
+    "phase_3": 6,
+    "phase_2": 2,
+    "phase_1": 4,
+    "note": "Counted by highest phase per asset; 'Regulatory filing' assets counted as Phase 3 (post-pivotal)."
+  }
+}

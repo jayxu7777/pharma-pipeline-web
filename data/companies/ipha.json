@@ -1,0 +1,204 @@
+{
+  "issuer_name": "Innate Pharma SA",
+  "ticker": "IPHA",
+  "exchange": "Nasdaq",
+  "cik": "0001598599",
+  "region": "France",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F instead of 10-K"},
+    "website": {"url": "https://www.innate-pharma.com/products/pipeline-overview", "accessed": "2026-05-06"},
+    "ctgov": {"file": "data/ipha_ctgov_compact.json", "unique_p1_p3_trials": 25}
+  },
+  "pipeline": [
+    {
+      "asset": "Lacutamab",
+      "aka": ["IPH4102"],
+      "modality": "Anti-KIR3DL2 monoclonal antibody",
+      "target": "KIR3DL2",
+      "license_origin": "Innate Pharma proprietary",
+      "indications": [
+        {
+          "indication": "Cutaneous T-cell lymphoma (Sezary syndrome / mycosis fungoides)",
+          "highest_phase": "Phase 2",
+          "trial_name": "TELLOMAK",
+          "trial_design": "Open-label Phase 2 of lacutamab alone or in combination with chemotherapy in advanced T-cell lymphoma",
+          "nct_ids": ["NCT03902184"],
+          "trial_status": "COMPLETED (primary completion 2026-01-08)",
+          "lead_sponsor": "Innate Pharma",
+          "key_milestones": ["Phase 3 ready per company"]
+        },
+        {
+          "indication": "Peripheral T-cell lymphoma (relapsed/refractory)",
+          "highest_phase": "Phase 2",
+          "trial_name": "KILT",
+          "trial_design": "Lacutamab + gemcitabine + oxaliplatin vs control in PTCL",
+          "nct_ids": ["NCT04984837"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "The Lymphoma Academic Research Organisation (LYSARC); Innate Pharma collaborator",
+          "key_milestones": ["Primary completion April 2028"]
+        }
+      ]
+    },
+    {
+      "asset": "IPH4502",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "Nectin-4",
+      "license_origin": "Innate Pharma proprietary",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "First-in-human Phase 1",
+          "trial_design": "Dose-escalation in advanced solid tumors expressing Nectin-4",
+          "nct_ids": ["NCT06781983"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innate Pharma",
+          "key_milestones": ["Started Jan 2025; primary completion April 2028"]
+        }
+      ]
+    },
+    {
+      "asset": "Monalizumab",
+      "aka": ["IPH2201"],
+      "modality": "Anti-NKG2A monoclonal antibody",
+      "target": "NKG2A",
+      "license_origin": "Partnered with AstraZeneca (out-licensed)",
+      "indications": [
+        {
+          "indication": "Unresectable Stage III non-small cell lung cancer (NSCLC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PACIFIC-9",
+          "trial_design": "Monalizumab + durvalumab vs durvalumab in unresectable Stage III NSCLC after CRT",
+          "nct_ids": ["NCT05221840"],
+          "trial_status": "Ongoing per company website (sponsored by AstraZeneca)",
+          "lead_sponsor": "AstraZeneca",
+          "key_milestones": []
+        },
+        {
+          "indication": "Neoadjuvant resectable NSCLC",
+          "highest_phase": "Phase 2",
+          "trial_name": "NeoCOAST-2",
+          "trial_design": "Multi-arm neoadjuvant immunotherapy combinations including monalizumab",
+          "nct_ids": ["NCT05061550"],
+          "trial_status": "Ongoing per company website",
+          "lead_sponsor": "AstraZeneca",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent/metastatic squamous cell carcinoma of head and neck (R/M SCCHN)",
+          "highest_phase": "Phase 3",
+          "trial_name": "INTERLINK-1",
+          "trial_design": "Monalizumab + cetuximab vs placebo + cetuximab in R/M SCCHN",
+          "nct_ids": ["NCT04590963"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "AstraZeneca",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IPH6501",
+      "aka": [],
+      "modality": "Tetra-specific NK cell engager (2nd generation ANKET)",
+      "target": "CD20 x NKp46 x CD16 x IL-2v",
+      "license_origin": "Innate Pharma proprietary",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell non-Hodgkin lymphoma",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "IPH6501-101",
+          "trial_design": "First-in-human dose escalation/expansion in R/R B-NHL",
+          "nct_ids": ["NCT06088654"],
+          "trial_status": "TERMINATED per ctgov (primary completion 2026-02-06); company website still lists asset as Phase 1/2",
+          "lead_sponsor": "Innate Pharma",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IPH6101 (SAR443579)",
+      "aka": ["SAR'579"],
+      "modality": "Trifunctional NK cell engager (ANKET)",
+      "target": "CD123 x NKp46 x CD16",
+      "license_origin": "Partnered with Sanofi (out-licensed)",
+      "indications": [
+        {
+          "indication": "Acute myeloid leukemia, B-ALL, high-risk MDS",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "First-in-human",
+          "trial_design": "Phase 1/2 open-label in AML/B-ALL/HR-MDS",
+          "nct_ids": ["NCT05086315"],
+          "trial_status": "Ongoing per company website (Sanofi-sponsored)",
+          "lead_sponsor": "Sanofi",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IPH5201",
+      "aka": [],
+      "modality": "Anti-CD39 monoclonal antibody",
+      "target": "CD39",
+      "license_origin": "Partnered with AstraZeneca",
+      "indications": [
+        {
+          "indication": "Resectable / neoadjuvant non-small cell lung cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "MATISSE",
+          "trial_design": "IPH5201 + durvalumab + standard chemotherapy in resectable NSCLC",
+          "nct_ids": ["NCT05742607"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innate Pharma",
+          "key_milestones": ["Primary completion June 2025; interim Phase 2 results disclosed per company"]
+        }
+      ]
+    },
+    {
+      "asset": "IPH5301",
+      "aka": [],
+      "modality": "Anti-CD73 monoclonal antibody",
+      "target": "CD73",
+      "license_origin": "Innate Pharma proprietary",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (breast, pancreatic, gastric, lung, ovary)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CHANCES",
+          "trial_design": "IPH5301 alone or with chemotherapy and trastuzumab in advanced solid tumors",
+          "nct_ids": ["NCT05143970"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Institut Paoli-Calmettes; Innate Pharma collaborator",
+          "key_milestones": ["Primary completion March 2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["IPH6401 (preclinical NK cell engager per company)"],
+  "excluded_legacy_terminated": [
+    "NCT01687387 EFFIKIR lirilumab AML P2 COMPLETED",
+    "NCT00552396 anti-KIR multiple myeloma P1 COMPLETED",
+    "NCT00999830/NCT01217203/NCT01222286 IPH2101 multiple myeloma P1/P2 COMPLETED",
+    "NCT02557516 monalizumab+ibrutinib CLL P1/2 TERMINATED",
+    "NCT02331875 IPH2201 oral cavity SCC P1/2 TERMINATED",
+    "NCT02593045 IPH4102 CTCL P1 COMPLETED (legacy of lacutamab)",
+    "NCT02643550 monalizumab+cetuximab SCCHN P1/2 COMPLETED (legacy of INTERLINK-1)",
+    "NCT01256073 anti-KIR AML P1 COMPLETED",
+    "NCT02459301 IPH2201 gynecologic P1 COMPLETED",
+    "NCT01370902 NNC0141 RA P1 COMPLETED",
+    "NCT03665129 IPH5401 + durvalumab P1 TERMINATED",
+    "NCT02921685 monalizumab post-allo SCT P1 UNKNOWN",
+    "NCT04371367 avdoralimab COVID P2 COMPLETED",
+    "NCT05321147 lacutamab PTCL P1 COMPLETED (predecessor of KILT)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 7,
+    "phase_3": 1,
+    "phase_2": 3,
+    "phase_1_or_1_2": 4,
+    "by_phase_indication_pairs": {"P3": 2, "P2": 4, "P1_or_1_2": 4}
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Theravance Biopharma, Inc.",
+  "ticker": "TBPH",
+  "exchange": "Nasdaq",
+  "cik": "0001583107",
+  "region": "US (Cayman-incorporated; US 10-K filer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-033077", "filing_date": "2026-03-23", "doc": "tbph-20251231x10k.htm"},
+    "website": {"url": "https://www.theravance.com/pipeline", "note": "site emphasizes commercial YUPELRI; pipeline content limited to ampreloxetine"},
+    "ctgov": {"file": "data/tbph_ctgov_compact.json", "trial_count": 71, "active_lead_sponsored": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "Ampreloxetine",
+      "aka": ["TD-9855"],
+      "modality": "Small molecule, once-daily oral norepinephrine reuptake inhibitor (NRI)",
+      "target": "Norepinephrine transporter (NET)",
+      "license_origin": "Internal (originated at Theravance)",
+      "indications": [
+        {
+          "indication": "Symptomatic neurogenic orthostatic hypotension (nOH) in patients with multiple system atrophy (MSA)",
+          "highest_phase": "Phase 3 (registrational)",
+          "trial_name": "CYPRESS",
+          "trial_design": "Phase 3 randomized, double-blind, placebo-controlled, durability-of-effect, multicenter study with open-label run-in followed by randomized withdrawal",
+          "nct_ids": ["NCT05696717"],
+          "trial_status": "Active, not recruiting (primary completion 2026-01); topline data expected 2026",
+          "lead_sponsor": "Theravance Biopharma",
+          "key_milestones": ["FDA Orphan Drug designation for nOH in MSA"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed": ["YUPELRI (revefenacin) inhalation solution — once-daily nebulized LAMA for COPD; commercialized in US by Viatris/Mylan; co-promoted; Theravance receives profit share + royalties"]
+  },
+  "excluded_preclinical": ["Other discovery-stage programs (none individually disclosed as in-human)"],
+  "excluded_legacy_terminated": [
+    "Izencitinib (TD-1473) — discontinued (UC, Crohn's program ended)",
+    "Nezulcitinib (TD-0903) — discontinued",
+    "TRELEGY ELLIPTA royalty interest fully monetized (Innoviva-related); not in TBPH internal pipeline",
+    "Numerous historical respiratory / GI / pain programs across the 71 ctgov records, all completed/terminated/withdrawn"
+  ],
+  "excluded_partner_owned": [
+    "YUPELRI ongoing post-marketing studies (lead sponsor Mylan/Viatris, 13 trials) — relate to commercialized product, not new clinical-stage development"
+  ],
+  "summary_counts": {"assets": 1, "phase3": 1, "phase2": 0, "phase1_or_1_2": 0, "indications_total": 1}
+}

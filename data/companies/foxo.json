@@ -1,0 +1,42 @@
+{
+  "issuer_name": "FOXO TECHNOLOGIES INC.",
+  "ticker": "FOXO",
+  "exchange": "OTC",
+  "cik": "0001812360",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-016725",
+      "filing_date": "2026-04-15",
+      "doc": "form10-k.htm",
+      "local_slice": "data/foxo_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://foxotechnologies.com/pipeline",
+      "error": "no public pipeline page found (404)"
+    },
+    "ctgov": {
+      "query": "FOXO Technologies",
+      "kept_p1_p3": 0,
+      "local": "data/foxo_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "Healthcare_segment": "Myrtle Recovery Centers (substance use disorder), RCHI / SCCH / Big South Fork Medical Center (Critical Access rural hospital, 25 beds)",
+    "Life_Science_Services_segment": "Vector (biospecimen and information sourcing for biotech / clinical research / pharma research)",
+    "Labs_segment": "Saliva-based epigenetic biomarker technology for life-insurance underwriting and risk classification"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Healthcare services and technology holding company operating four divisions: rural critical-access hospital (BSF), behavioral health (Myrtle), life-science services / biospecimen sourcing (Vector, a CRO-type provider), and saliva-based epigenetic biomarker labs commercialized for life-insurance underwriting. No proprietary therapeutic drug or pivotal device pipeline; no records on ClinicalTrials.gov as a sponsor of P1/P2/P3 studies."
+}

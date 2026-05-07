@@ -1,0 +1,51 @@
+{
+  "issuer_name": "BullFrog AI Holdings, Inc.",
+  "ticker": "BFRG",
+  "exchange": "Nasdaq",
+  "cik": "0001829247",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/bfrg_10k_pipeline_section.html", "filing_date": "2026-03-19", "accession": "0001493152-26-011644"},
+    "website": {"url": "https://bullfrogai.com/pipeline", "note": "Pipeline page is dynamic/JS-rendered and returned no extractable asset data"},
+    "ctgov": {"file": "data/bfrg_ctgov_compact.json", "trials": 0, "sponsor_query": "BullFrog AI", "note": "No NCT records under BullFrog AI sponsorship"}
+  },
+  "pipeline": [
+    {
+      "asset": "Mebendazole improved formulation",
+      "aka": ["JHU mebendazole polymorph"],
+      "modality": "Small-molecule benzimidazole anthelmintic — improved cancer formulation (oral)",
+      "target": "Tubulin / multi-mechanism anti-tumor (repurposed)",
+      "license_origin": "Exclusive worldwide license from Johns Hopkins University (Feb 2022)",
+      "indications": [
+        {
+          "indication": "Glioblastoma / high-grade glioma (newly diagnosed)",
+          "highest_phase": "P2 (planned; described in 10-K as 'Phase II ready' licensed asset)",
+          "trial_name": "Planned Phase II of improved mebendazole formulation in high-grade glioma (BullFrog AI-sponsored, post-license)",
+          "trial_design": "Planned Phase II based on completed JHU-sponsored Phase I open-label dose-escalation in 24 newly diagnosed glioma patients with adjuvant temozolomide (NCT01729260 — completed; no DLT observed; not BullFrog-sponsored)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase II under BullFrog sponsorship not yet initiated; awaiting partnering / funding. JHU Phase I (NCT01729260) was completed pre-license.",
+          "lead_sponsor": "BullFrog AI Holdings, Inc. (planned); prior Phase I conducted by Johns Hopkins University",
+          "key_milestones": ["Initiate BullFrog-sponsored Phase II", "Partner / out-license"]
+        }
+      ]
+    }
+  ],
+  "no_active_clinical_pipeline_reason": "BullFrog AI is primarily an AI/ML drug-development services platform (bfLEAP). It has not yet initiated any company-sponsored clinical trials. Its lead therapeutic asset (improved mebendazole formulation, JHU license) is described as 'Phase II ready' but no Phase II is currently enrolling. BF-223 (glioblastoma) is preclinical/IND-enabling. SPTBN1 siRNA program (GWU license, HCC/NASH/obesity) is preclinical.",
+  "excluded_preclinical": [
+    {"asset": "BF-223 (anti-cancer compound, glioblastoma model)", "reason": "Preclinical; formulating strategy for IND-enabling studies"},
+    {"asset": "siRNA targeting Beta2-spectrin (SPTBN1) for HCC, obesity, NAFLD/NASH (GWU license, Jan 2022)", "reason": "Preclinical / proof-of-concept stage"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT01729260", "reason": "JHU-sponsored Phase I in newly diagnosed high-grade glioma — completed prior to BullFrog license; BullFrog is licensee not sponsor of that record"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_or_p2_p3": 0,
+    "p2_or_p1_p2": 1,
+    "p1": 0,
+    "note": "Sole entry is a PLANNED Phase II (no active enrollment); company has zero active company-sponsored P1/P2/P3 trials."
+  }
+}

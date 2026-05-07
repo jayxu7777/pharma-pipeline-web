@@ -1,0 +1,28 @@
+{
+  "issuer_name": "YD Bio Ltd",
+  "ticker": "YDESW",
+  "exchange": "Nasdaq",
+  "cik": "0002011674",
+  "region": "International (Cayman/Asia)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found - YD Bio is a foreign private issuer that listed on Nasdaq via SPAC merger with Breeze Holdings in August 2025; files Form 20-F instead of 10-K. No annual report yet on file at the time of snapshot."},
+    "website": {"error": "no public pipeline page found - https://ydbio.com redirects to a GoDaddy domain-for-sale parking page; no live corporate website"},
+    "ctgov": {"unique_trials_p1_3": 0, "note": "ctgov sponsor search 'YD Bio' returned 0 raw studies"},
+    "supplemental": {"source": "press releases / news (Aug-Oct 2025)", "summary": "YD Bio operates in three segments: (1) DNA methylation-based cancer detection technology licensed from EG BioMed (commercial laboratory-developed test for pancreatic cancer; recurrent breast cancer monitoring test in development) - these are LDTs/diagnostics, not therapeutic clinical trials; (2) stem cell and exosome-based ophthalmology therapies via partner 3D Global Biotech (exosome-based contact lenses and artificial tears for dry eye, glaucoma, corneal injury) - trials PLANNED for 2027, not yet initiated; (3) clinical trial support services."}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "Exosome-based contact lenses (partnered with 3D Global Biotech)", "indication": "dry eye syndrome / glaucoma / corneal injury", "reason": "Trials planned for 2027 - not yet initiated; pre-IND / pre-clinical stage"},
+    {"asset": "Exosome-based artificial tears (partnered with 3D Global Biotech)", "indication": "dry eye syndrome", "reason": "Trials planned for 2027 - not yet initiated; pre-IND / pre-clinical stage"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "DNA methylation pancreatic cancer screening LDT", "owner": "EG BioMed (licensor)", "reason": "Laboratory-developed diagnostic test, not a therapeutic clinical-trial asset; commercialized via EG BioMed certified laboratory"},
+    {"asset": "DNA methylation recurrent breast cancer monitoring LDT", "owner": "EG BioMed (licensor)", "reason": "In-development laboratory-developed diagnostic test, not a therapeutic clinical-trial asset"}
+  ],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Newly Nasdaq-listed (Aug 2025) SPAC-merged foreign private issuer. Cancer business is a licensed laboratory-developed diagnostic (LDT), not a therapeutic clinical trial. Ophthalmology programs (exosome-based therapies via partner 3D Global Biotech) are still pre-clinical with first trials planned for 2027. No active P1/P2/P3 interventional clinical trials on public registries.",
+  "blockers": ["Foreign private issuer - files 20-F, but no 20-F yet on EDGAR (recent SPAC listing)", "Corporate website ydbio.com is a parked/for-sale GoDaddy page - no public pipeline disclosure available"]
+}

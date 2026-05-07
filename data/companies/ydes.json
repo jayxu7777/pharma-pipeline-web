@@ -1,0 +1,81 @@
+{
+  "issuer_name": "YD Bio Ltd",
+  "ticker": "YDES",
+  "exchange": "Nasdaq",
+  "cik": "0002011674",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "No 10-K found - YD Bio Ltd is a foreign private issuer (Cayman-incorporated, listed on Nasdaq via Aug 2025 SPAC merger with Breeze Holdings); files Form 20-F instead. No 20-F yet on file as of snapshot date."
+    },
+    "website": {
+      "primary_url": "https://www.ydesgroup.com/",
+      "pipeline_page": "https://www.ydesgroup.com/pipeline",
+      "note": "Wix-hosted site; pipeline page does not render via WebFetch. Pipeline details reconstructed from official press releases on globenewswire and company news pages.",
+      "key_press_releases": [
+        "https://www.globenewswire.com/news-release/2025/11/24/3193553/0/en/YD-Bio-Limited-Announces-U-S-Ophthalmology-Market-Entry-Advances-Across-Diagnostics-and-LSC-Exosome-Therapeutics.html",
+        "https://www.globenewswire.com/news-release/2026/01/05/3212819/0/en/YD-Bio-Limited-Announces-Major-Milestones-and-Unveils-Robust-2026-Clinical-and-Commercial-Roadmap.html",
+        "https://www.globenewswire.com/news-release/2026/04/30/3285588/0/en/YD-Bio-Limited-Reports-Full-Year-2025-Financial-Results.html"
+      ],
+      "note_domain": "ydbio.com is a parked GoDaddy domain; the operating site is ydesgroup.com."
+    },
+    "ctgov": {
+      "sponsor_query": "YD Bio",
+      "raw_returned": 0,
+      "kept_p1_p3": 0,
+      "note": "No ClinicalTrials.gov sponsor records under YD Bio. Per company disclosures, IND submissions for LSC/exosome programs targeted for 2026, with Phase 1 initiation targeted 2027."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "lines": [
+      {
+        "name": "Exovisse Contact Lenses",
+        "modality": "Class II medical device (corrective contact lens)",
+        "regulatory_status": "FDA 510(k) cleared (2025); marketed via 3D Global Biotech partnership.",
+        "indication": "Vision correction"
+      },
+      {
+        "name": "Exovisse Artificial Tears",
+        "modality": "OTC ophthalmic solution",
+        "regulatory_status": "Compliant with FDA OTC Final Monograph M018; nationwide OTC distribution allowed.",
+        "indication": "Eye hydration / dry eye comfort"
+      },
+      {
+        "name": "EG BioMed cfDNA methylation cancer screening test (pancreatic)",
+        "modality": "Laboratory developed test (LDT)",
+        "regulatory_status": "Available as LDT through EG BioMed certified laboratory; licensed to YD Bio.",
+        "indication": "Pancreatic cancer screening"
+      },
+      {
+        "name": "EG BioMed cfDNA methylation breast cancer recurrence monitoring test",
+        "modality": "Laboratory developed test (LDT)",
+        "regulatory_status": "LDT launch targeted late 2025.",
+        "indication": "Breast cancer recurrence monitoring"
+      }
+    ]
+  },
+  "excluded_preclinical": [
+    "LSC-derived exosome therapy for Dry Eye Disease - IND submission targeted 2026; Phase 1 targeted 2027 (not yet P1).",
+    "LSC-derived exosome therapy for Age-Related Macular Degeneration (AMD) - preclinical/efficacy/tox in 2026; IND targeted 2026.",
+    "Clinical-grade Limbal Stem Cell bank establishment - planned 2026 (infrastructure)."
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "EG BioMed cfDNA cancer detection LDTs are EG BioMed assets accessed via 20-year exclusive license; not YD Bio interventional drug trials.",
+    "3D Global Biotech ophthalmology devices/products are partnered/licensed assets."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "YD Bio Ltd is an early-stage Cayman-incorporated diagnostics + ophthalmology company that listed on Nasdaq in Aug 2025 via SPAC. Its therapeutic (LSC-derived exosome) programs for Dry Eye and AMD are still preclinical with IND submissions targeted in 2026 and Phase 1 not expected until 2027. Current commercial activity is FDA-cleared contact lenses, OTC artificial tears, and licensed LDT cancer-detection tests - none of which are P1/P2/P3 drug programs.",
+  "blockers": [
+    "Foreign private issuer - no 10-K available; no 20-F yet on file at snapshot date.",
+    "Pipeline data sourced from press releases; corporate website pipeline page does not render content via WebFetch."
+  ]
+}

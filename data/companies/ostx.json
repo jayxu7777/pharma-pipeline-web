@@ -1,0 +1,41 @@
+{
+  "issuer_name": "OS Therapies Inc.",
+  "ticker": "OSTX",
+  "exchange": "NYSE",
+  "cik": "0001795091",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-036629", "filed": "2026-03-31", "file": "data/ostx_10k_pipeline_section.html"},
+    "website": {"url": "https://ostherapies.com/", "note": "Pipeline page URL not directly resolvable; corroborated via press releases and clinical news outlets"},
+    "ctgov": {"file": "data/ostx_ctgov_compact.json", "trials_p1_p3": 0, "note": "ctgov fetch returned 0 trials under sponsor name; trial NCT04974008 confirmed via web search"}
+  },
+  "pipeline": [
+    {
+      "asset": "OST-HER2",
+      "aka": ["OST31-164", "Listeria monocytogenes-based HER2 immunotherapy"],
+      "modality": "Live attenuated Listeria monocytogenes-based cancer immunotherapy",
+      "target": "HER2",
+      "license_origin": "Internal (in-licensed Listeria platform)",
+      "indications": [
+        {
+          "indication": "Recurrent, fully resected pulmonary metastatic osteosarcoma",
+          "highest_phase": "Phase 2 (BLA submission underway)",
+          "trial_name": "Phase 2b open-label maintenance therapy",
+          "trial_design": "Open-label, single-arm Phase 2b study of OST-HER2 maintenance after resection of recurrent osteosarcoma (N=41 enrolled); primary endpoint 12-month EFS met (33.3% vs 20% historical control, p=0.0158); 2-year OS 75% vs 40% historical control",
+          "nct_ids": ["NCT04974008"],
+          "trial_status": "Primary endpoint met; rolling BLA submission to FDA initiated; FDA action target by 2026-09-30 under Accelerated Approval Program",
+          "lead_sponsor": "OS Therapies Inc.",
+          "key_milestones": ["Full enrollment Oct 2023", "Phase 2b primary endpoint met Q1 2025", "Positive 2-year OS data 2025", "Immune biomarker data Jan 2026", "BLA clinical module submission target Mar 2026", "FDA action target Sep 30, 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "OST-tADC", "reason": "Tunable antibody-drug conjugate platform; preclinical; intended for osteosarcoma and other solid tumors"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "phase3": 0, "phase2": 1, "phase1": 0}
+}

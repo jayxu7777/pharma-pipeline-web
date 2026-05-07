@@ -1,0 +1,326 @@
+{
+  "issuer_name": "ASCENTAGE PHARMA GROUP INTERNATIONAL",
+  "ticker": "AAPG",
+  "exchange": "Nasdaq",
+  "cik": "0002023311",
+  "region": "China (US-listed ADR; HK-listed parent)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. Ascentage-led trials emphasized; partner/investigator-led trials excluded.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F instead of 10-K; not retrieved this run"},
+    "website": {"path": "https://www.ascentage.com/en/pipeline/", "note": "Pipeline page is image-based; relied on company press releases (ASH 2025, EHA 2025) and ctgov for asset details"},
+    "ctgov": {"path": "data/aapg_ctgov_compact.json", "trials_found": 56}
+  },
+  "pipeline": [
+    {
+      "asset": "Olverembatinib",
+      "aka": ["HQP1351"],
+      "modality": "Oral third-generation BCR-ABL1 tyrosine kinase inhibitor (covers T315I)",
+      "target": "BCR-ABL1 (incl. T315I mutation)",
+      "license_origin": "Internal (with Guangzhou HealthQuest collaboration)",
+      "indications": [
+        {
+          "indication": "Newly diagnosed Philadelphia chromosome-positive acute lymphoblastic leukemia (Ph+ ALL)",
+          "highest_phase": "Phase 3",
+          "trial_name": "POLARIS-1",
+          "trial_design": "Pivotal Phase 3 randomized: olverembatinib vs investigator's choice TKI in newly diagnosed Ph+ ALL",
+          "nct_ids": ["NCT06051409"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": ["Best MRD-negativity CR rate >60% (ASH 2025)", "FDA Breakthrough Therapy Designation"]
+        },
+        {
+          "indication": "Chronic myeloid leukemia in chronic phase (CML-CP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "POLARIS-2",
+          "trial_design": "Pivotal Phase 3 randomized: olverembatinib vs bosutinib in CP-CML",
+          "nct_ids": ["NCT06423911"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": ["FDA-cleared global registrational study"]
+        },
+        {
+          "indication": "Succinate dehydrogenase (SDH)-deficient gastrointestinal stromal tumor (GIST)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Olverembatinib SDH-deficient GIST registrational",
+          "trial_design": "Pivotal Phase 3 in SDH-deficient GIST",
+          "nct_ids": ["NCT06640361"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "GIST / advanced solid tumors (Phase 1)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Olverembatinib advanced solid tumor Phase 1",
+          "trial_design": "Phase 1 in GIST and other advanced solid tumors",
+          "nct_ids": ["NCT03594422"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Refractory CML and Ph+ ALL (Phase 1 + blinatumomab combination)",
+          "highest_phase": "Phase 1",
+          "trial_name": "HQP1351 + blinatumomab Phase 1",
+          "trial_design": "Phase 1 in refractory CML / Ph+ ALL",
+          "nct_ids": ["NCT04260022"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Hepatic impairment PK study",
+          "highest_phase": "Phase 1",
+          "trial_name": "Olverembatinib hepatic impairment PK",
+          "trial_design": "Phase 1 PK in hepatic impairment vs healthy",
+          "nct_ids": ["NCT07282093"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Lisaftoclax",
+      "aka": ["APG-2575"],
+      "modality": "Oral selective Bcl-2 inhibitor",
+      "target": "Bcl-2",
+      "license_origin": "Internal (with Suzhou Yasheng on some studies)",
+      "indications": [
+        {
+          "indication": "Newly diagnosed CLL/SLL",
+          "highest_phase": "Phase 3",
+          "trial_name": "GLORA-2",
+          "trial_design": "Global Phase 3 lisaftoclax + acalabrutinib vs immunochemotherapy in newly diagnosed CLL/SLL",
+          "nct_ids": ["NCT06319456"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "CLL/SLL previously treated with BTK inhibitor",
+          "highest_phase": "Phase 3",
+          "trial_name": "GLORA",
+          "trial_design": "Global Phase 3 lisaftoclax + BTK inhibitor vs BTK inhibitor in pretreated CLL/SLL",
+          "nct_ids": ["NCT06104566"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": ["FDA-cleared registrational"]
+        },
+        {
+          "indication": "Newly diagnosed unfit/elderly acute myeloid leukemia (AML)",
+          "highest_phase": "Phase 3",
+          "trial_name": "GLORA-3",
+          "trial_design": "Pivotal Phase 3 lisaftoclax + azacitidine vs placebo + azacitidine in elderly/unfit newly diagnosed AML",
+          "nct_ids": ["NCT06389292"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Higher-risk myelodysplastic syndrome (HR-MDS)",
+          "highest_phase": "Phase 3",
+          "trial_name": "GLORA-4",
+          "trial_design": "Pivotal Phase 3 lisaftoclax + azacitidine vs placebo + azacitidine in newly diagnosed HR-MDS",
+          "nct_ids": ["NCT06641414"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": ["Cleared simultaneously by US FDA, EU EMA, and China CDE"]
+        },
+        {
+          "indication": "Relapsed/refractory CLL/SLL",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lisaftoclax R/R CLL Phase 2",
+          "trial_design": "Phase 2 single-agent or combination in r/r CLL/SLL",
+          "nct_ids": ["NCT04494503", "NCT05147467"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Relapsed/refractory AML",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lisaftoclax + AZA / olverembatinib R/R AML",
+          "trial_design": "Phase 1/2 in R/R AML",
+          "nct_ids": ["NCT04501120"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Mild-to-moderate systemic lupus erythematosus (SLE)",
+          "highest_phase": "Phase 2",
+          "trial_name": "APG-2575 SLE Phase 1/2",
+          "trial_design": "Phase 1/2 randomized placebo-controlled in mild-to-moderate SLE",
+          "nct_ids": ["NCT06182969"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Hematologic malignancies (single-agent Phase 1)",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG-2575 Phase 1 hematologic",
+          "trial_design": "Phase 1 single-agent in hematologic malignancies",
+          "nct_ids": ["NCT03913949", "NCT04215809"],
+          "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": ["China NMPA approval for adult R/R CLL/SLL post-BTKi"]
+        }
+      ]
+    },
+    {
+      "asset": "Alrizomadlin",
+      "aka": ["APG-115"],
+      "modality": "Oral MDM2-p53 protein-protein interaction inhibitor",
+      "target": "MDM2 (restoring p53 function)",
+      "license_origin": "Internal (with Suzhou Yasheng on some studies)",
+      "indications": [
+        {
+          "indication": "T-prolymphocytic leukemia / non-Hodgkin lymphoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "APG-115 +/- APG-2575 in T-PLL/NHL",
+          "trial_design": "Phase 2 single-agent or combination",
+          "nct_ids": ["NCT04496349"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Liposarcoma / advanced solid tumors (with toripalimab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "APG-115 + toripalimab Phase 1/2",
+          "trial_design": "Phase 1/2 in liposarcoma and advanced solid tumors with PD-1 inhibitor",
+          "nct_ids": ["NCT04785196"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Acute myeloid leukemia / MDS Phase 1",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG-115 + AZA / cytarabine in AML/MDS",
+          "trial_design": "Phase 1b combination",
+          "nct_ids": ["NCT04275518"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pediatric neuroblastoma / solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG-115 +/- APG-2575 pediatric",
+          "trial_design": "Phase 1 in pediatric R/R neuroblastoma or solid tumors",
+          "nct_ids": ["NCT05701306"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Pelcitoclax",
+      "aka": ["APG-1252"],
+      "modality": "IV dual Bcl-2 / Bcl-xL inhibitor",
+      "target": "Bcl-2 / Bcl-xL",
+      "license_origin": "Internal (with Suzhou Yasheng on some studies)",
+      "indications": [
+        {
+          "indication": "EGFR-positive NSCLC after TKI resistance (with osimertinib)",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG-1252 + osimertinib EGFR-TKI resistant NSCLC",
+          "trial_design": "Phase 1 in EGFR TKI-resistant NSCLC",
+          "nct_ids": ["NCT04001777"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2025-12)",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "APG-2449",
+      "aka": ["APG-2449"],
+      "modality": "Oral FAK / ALK / ROS1 inhibitor",
+      "target": "FAK / ALK / ROS1",
+      "license_origin": "Internal (with Suzhou Yasheng on some studies)",
+      "indications": [
+        {
+          "indication": "Platinum-resistant recurrent ovarian cancer / advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG-2449 monotherapy / + PLD",
+          "trial_design": "Phase 1 dose-escalation/expansion",
+          "nct_ids": ["NCT06687070", "NCT03917043"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "APG-5918",
+      "aka": ["APG-5918"],
+      "modality": "Oral EED inhibitor (PRC2 epigenetic modulator)",
+      "target": "EED (PRC2 complex)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Anemia (chronic kidney disease)",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG-5918 anemia Phase 1",
+          "trial_design": "Phase 1 randomized placebo-controlled SAD/MAD in anemia",
+          "nct_ids": ["NCT05773586"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "APG-3288",
+      "aka": ["APG-3288"],
+      "modality": "Investigational targeted protein degrader (chimeric)",
+      "target": "Undisclosed (B-cell lymphoma targets)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory hematologic malignancies (CLL/SLL, DLBCL, MCL, WM, MZL, FL)",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG-3288 first-in-human",
+          "trial_design": "Phase 1 dose-escalation",
+          "nct_ids": ["NCT07424833"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Ascentage Pharma Group Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "Olverembatinib", "indication": "China NMPA approval for CML-CP/AP with T315I and TKI-resistant CML-CP"},
+      {"name": "Lisaftoclax (APG-2575)", "indication": "China NMPA approval for adult R/R CLL/SLL after >=1 prior systemic therapy including BTK inhibitor"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "APG-1387 Phase 1/2 chronic hepatitis B and pancreatic cancer studies (terminated/unknown)",
+    "APG-1252 SCLC, neuroendocrine, myelofibrosis (terminated/withdrawn)",
+    "APG-2575 breast cancer (suspended)",
+    "APG-115 NCT04358393 AML/MDS/CMML status UNKNOWN; NCT03883100 CML T315I AP status UNKNOWN; NCT05186012 NHL UNKNOWN; NCT03883087 CML CP T315I UNKNOWN; NCT05415098 solid tumor UNKNOWN; NCT04942067 MM UNKNOWN; NCT04674514 MM UNKNOWN; NCT04568265 HBV UNKNOWN"
+  ],
+  "excluded_partner_owned": [
+    "NCT06401603 (Decitabine + Lisaftoclax + Olverembatinib in CML-AP/Ph+AML) - MD Anderson lead",
+    "NCT06817720 (Olverembatinib monotherapy in newly diagnosed CML-CP) - MD Anderson lead",
+    "NCT07178912 (Subcutaneous Blinatumomab + Olverembatinib in Ph+ ALL) - MD Anderson + Amgen lead",
+    "NCT07428486 (FLAG + Lisaftoclax + Pelcitoclax in T-ALL) - MD Anderson lead",
+    "NCT03781986 (APG-115 in salivary gland cancer) - University of Michigan Rogel lead"
+  ],
+  "summary_counts": {
+    "total_assets": 7,
+    "phase_3_assets": 2,
+    "phase_2_assets": 1,
+    "phase_1_assets": 4,
+    "note": "Counted at highest active phase per asset; olverembatinib and lisaftoclax are at Phase 3 with multiple registrational programs each."
+  }
+}

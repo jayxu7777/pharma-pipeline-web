@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Alphatec Holdings, Inc.",
+  "ticker": "ATEC",
+  "exchange": "Nasdaq",
+  "cik": "0001350653",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-067393",
+      "filing_date": "2026-02-24",
+      "doc": "atec-20251231.htm",
+      "path": "data/atec_10k_pipeline_section.html"
+    },
+    "website": {
+      "url_tried": ["https://atec.com/pipeline", "https://www.atecspine.com/"],
+      "note": "No /pipeline page exists. Corporate site lists marketed spine surgery devices only; no drug or investigational-device pipeline disclosed."
+    },
+    "ctgov": {
+      "query": "spons=Alphatec",
+      "raw_results": 9,
+      "kept_p1_p3": 0,
+      "path": "data/atec_ctgov_compact.json",
+      "note": "No active P1-P3 drug or device interventional studies sponsored by Alphatec."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Spinal surgery medical devices",
+    "marketed_platforms": [
+      "EOS imaging (full-body biplanar imaging)",
+      "PTP (Prone Transpsoas) lateral approach system",
+      "LTP (Lateral Transpsoas) approach system",
+      "ACDF, ALIF, TLIF, PLIF, PCF, Corpectomy, Posterior Fixation systems",
+      "IdentiTi II LIF porous titanium interbody spacer",
+      "SafeOp Neural InformatiX intra-operative neuromonitoring"
+    ],
+    "regulatory_status": "FDA-cleared/approved spine implants and surgical instruments commercially marketed in the US."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Alphatec is a pure-play spinal-surgery medtech (implants, instruments, EOS imaging, neuromonitoring). It develops and markets FDA-cleared spine devices, not investigational drugs. No active sponsored P1/P2/P3 clinical trials of proprietary investigational devices are disclosed on ClinicalTrials.gov or the corporate site."
+}

@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Sana Biotechnology, Inc.",
+  "ticker": "SANA",
+  "exchange": "Nasdaq",
+  "cik": "0001770121",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-088215", "filing_date": "2026-03-03", "doc": "sana-20251231.htm"},
+    "website": {"url": "https://sana.com/our-pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"unique_p1_p3_trials": 3, "fetched": "2026-05-06", "note": "All 3 ex vivo CAR-T trials (SC291/SC262) listed as ACTIVE_NOT_RECRUITING; SC291/SC262 are not mentioned in 2025 10-K, indicating deprioritization in favor of T1D and in vivo CAR-T"}
+  },
+  "pipeline": [
+    {
+      "asset": "UP421",
+      "aka": [],
+      "modality": "HIP-modified allogeneic primary pancreatic islet cell therapy (no immunosuppression)",
+      "target": "Pancreatic islet cell replacement (hypoimmune-edited)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Type 1 diabetes",
+          "highest_phase": "Phase 1",
+          "trial_name": "Investigator-sponsored trial at Uppsala University Hospital",
+          "trial_design": "First-in-human IST evaluating safety, survival, and function (no immunosuppression)",
+          "nct_ids": ["NCT06239636"],
+          "trial_status": "Ongoing IST (first patient transplanted December 2024)",
+          "lead_sponsor": "Uppsala University Hospital (investigator-sponsored; Sana asset)",
+          "key_milestones": ["First patient dosed Dec 2024", "Initial human data demonstrate islet cell survival and function without systemic immune response"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "SC451 — iPSC-derived HIP pancreatic islet cells for T1D (preclinical; IND/Phase 1 planned)",
+    "SG293 — in vivo CD8-targeted fusogen delivering CD19 CAR (preclinical, next-generation in vivo CAR-T)",
+    "SG295, SG299 (earlier in vivo constructs)"
+  ],
+  "excluded_legacy_terminated": [
+    "SC291 ex vivo allogeneic CD19 CAR-T (NCT05878184 ARDENT in r/r B-cell malignancies; NCT06294236 GLEAM in B-cell autoimmune) — Active, not recruiting; not in 2025 10-K, deprioritized",
+    "SC262 ex vivo allogeneic CD22 CAR-T (NCT06285422 VIVID in r/r NHL) — Active, not recruiting; not in 2025 10-K, deprioritized"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 0, "p2": 0, "p1": 1}
+}

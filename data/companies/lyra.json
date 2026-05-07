@@ -1,0 +1,40 @@
+{
+  "issuer_name": "Lyra Therapeutics, Inc.",
+  "ticker": "LYRA",
+  "exchange": "OTC",
+  "cik": "0001327273",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001327273-26-000003",
+      "filed": "2026-03-31",
+      "primary_doc": "lyra-20251231.htm",
+      "slice_path": "data/lyra_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page found (company pursuing strategic alternatives; trading suspended Mar 17, 2026; Nasdaq delisting in progress)"},
+    "ctgov": {"unique_trials_p1_p3": 5, "all_status": "COMPLETED", "compact_path": "data/lyra_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "LYR-210",
+      "indication": "Chronic rhinosinusitis (CRS)",
+      "highest_phase_reached": "Phase 3",
+      "nct_ids": ["NCT05295459 (ENLIGHTEN 2 — positive)", "NCT05219968 (ENLIGHTEN 1 — failed primary endpoint)", "NCT04041609 (LANTERN P2)"],
+      "reason": "In January 2026 Lyra announced suspension of further development of LYR-210 and is pursuing strategic alternatives. FDA required an additional clinical trial for NDA submission; company has stopped commercialization and paused manufacturing."
+    },
+    {
+      "asset": "LYR-220",
+      "indication": "Chronic rhinosinusitis (post-ethmoid surgery / larger nasal cavity)",
+      "highest_phase_reached": "Phase 2",
+      "nct_ids": ["NCT05035654 (BEACON)"],
+      "reason": "Development paused in May 2024 alongside ~75% workforce reduction; further development not being pursued."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "All clinical programs (LYR-210, LYR-220) have been suspended/paused. Per the FY2025 10-K filed 2026-03-31, Lyra suspended further development of LYR-210 in January 2026, executed multiple workforce reductions, withdrew its Nasdaq appeal (trading suspended 2026-03-17), and is pursuing strategic alternatives. No active P1/P2/P3 trials are ongoing."
+}

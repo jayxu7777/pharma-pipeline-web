@@ -1,0 +1,171 @@
+{
+  "issuer_name": "Arcutis Biotherapeutics, Inc.",
+  "ticker": "ARQT",
+  "exchange": "Nasdaq",
+  "cik": "0001787306",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001787306-26-000018",
+      "filing_date": "2026-02-25",
+      "primary_doc": "arqt-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.arcutis.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Arcutis Biotherapeutics",
+      "unique_trials": 27,
+      "file": "data/arqt_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Roflumilast cream",
+      "aka": ["ARQ-151", "ZORYVE cream"],
+      "modality": "Topical small-molecule cream",
+      "target": "Phosphodiesterase 4 (PDE4) inhibitor",
+      "license_origin": "Internal (in-licensed roflumilast topical)",
+      "indications": [
+        {
+          "indication": "Plaque psoriasis (line-extension/0.3% adults)",
+          "highest_phase": "Phase 3",
+          "trial_name": "DERMIS / Open-label extension",
+          "trial_design": "Randomized vehicle-controlled (completed); ongoing label-supporting work",
+          "nct_ids": ["NCT04211363", "NCT04211389", "NCT04286607"],
+          "trial_status": "COMPLETED (label supportive); marketed",
+          "lead_sponsor": "Arcutis Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Plaque psoriasis (pediatric 2-5 years)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Pediatric pharmacokinetics/safety",
+          "trial_design": "Open-label maximal-use PK/safety",
+          "nct_ids": ["NCT04746911", "NCT04655313"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Arcutis Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Atopic dermatitis (adults/adolescents 0.15%)",
+          "highest_phase": "Phase 3",
+          "trial_name": "INTEGUMENT-I / -II / extension",
+          "trial_design": "Randomized vehicle-controlled",
+          "nct_ids": ["NCT04773587", "NCT04773600", "NCT04804605"],
+          "trial_status": "COMPLETED (marketed)",
+          "lead_sponsor": "Arcutis Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Atopic dermatitis (pediatric 2-5 yrs, 0.05%)",
+          "highest_phase": "Phase 3",
+          "trial_name": "INTEGUMENT-PED",
+          "trial_design": "Randomized vehicle-controlled, pediatric",
+          "nct_ids": ["NCT04845620"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Arcutis Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Atopic dermatitis (3-24 months, 0.05%)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Infant safety study",
+          "trial_design": "Open-label safety",
+          "nct_ids": ["NCT06998056"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Arcutis Biotherapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Roflumilast foam",
+      "aka": ["ARQ-154", "ZORYVE foam"],
+      "modality": "Topical small-molecule foam",
+      "target": "Phosphodiesterase 4 (PDE4) inhibitor",
+      "license_origin": "Internal (in-licensed roflumilast topical)",
+      "indications": [
+        {
+          "indication": "Seborrheic dermatitis (0.3%)",
+          "highest_phase": "Phase 3",
+          "trial_name": "STRATUM",
+          "trial_design": "Randomized vehicle-controlled",
+          "nct_ids": ["NCT04973228"],
+          "trial_status": "COMPLETED (marketed)",
+          "lead_sponsor": "Arcutis Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Scalp & body psoriasis (0.3%)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ARRECTOR",
+          "trial_design": "Randomized vehicle-controlled",
+          "nct_ids": ["NCT05028582", "NCT07340216"],
+          "trial_status": "COMPLETED (P3) / Phase 1 pediatric ongoing",
+          "lead_sponsor": "Arcutis Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Hidradenitis suppurativa (0.3%)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Tulane investigator-led HS study",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT07077902"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Tulane University",
+          "key_milestones": []
+        },
+        {
+          "indication": "Vitiligo (pediatric, 0.3%)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Pediatric NSV proof-of-concept",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT07105254"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Derm Texas, PLLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ARQ-234",
+      "aka": [],
+      "modality": "Biologic (subcutaneous)",
+      "target": "CD200 receptor agonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Atopic dermatitis (moderate-to-severe)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1a/1b SAD/MAD",
+          "trial_design": "Randomized placebo-controlled SAD/MAD",
+          "nct_ids": ["NCT07453602"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Arcutis Biotherapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_products": [
+      {"name": "ZORYVE cream (roflumilast 0.3%/0.15%/0.05%)", "indication": "Plaque psoriasis, atopic dermatitis"},
+      {"name": "ZORYVE foam (roflumilast 0.3%)", "indication": "Seborrheic dermatitis, scalp/body psoriasis"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ARQ-252 (vitiligo)", "reason": "Phase 2 NCT04811131 terminated"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 3,
+    "phase_3": 5,
+    "phase_2": 4,
+    "phase_1": 1
+  }
+}

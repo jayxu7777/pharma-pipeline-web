@@ -1,0 +1,40 @@
+{
+  "issuer_name": "PROVECTUS BIOPHARMACEUTICALS, INC.",
+  "ticker": "PVCT",
+  "exchange": "OTC",
+  "cik": "0000315545",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-012726",
+      "filing_date": "2026-03-26",
+      "path": "data/pvct_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "provectusbio.com/product-pipeline returned navigation only; no asset details rendered"
+    },
+    "ctgov": {
+      "path": "data/pvct_ctgov_compact.json",
+      "trials_kept": 4,
+      "note": "All trials TERMINATED or UNKNOWN status; no actively enrolling Provectus-sponsored studies"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per 2025 10-K, the Company has no active enrolling clinical trials. Company is in monetization mode for legacy lead candidates PV-10 (intratumoral rose bengal sodium for oncology) and PH-10 (topical rose bengal sodium for dermatology), pursuing co-development/licensing transactions. Going-concern doubt disclosed. All four ctgov trials are either TERMINATED (NCT02288897 P3 melanoma) or UNKNOWN status with primary completion dates 2021-2023 (NCT00986661, NCT02557321, NCT02693067). 10-K explicitly notes 'absence of active clinical trials in Australia during the current period' and decreased clinical trial costs.",
+  "excluded_preclinical": ["RBS oral oncology proof-of-concept", "RBS hematology oral", "RBS topical wound healing", "RBS canine cancer intratumoral", "RBS infectious disease in vitro", "RBS tissue regeneration in vitro"],
+  "excluded_legacy_terminated": [
+    "NCT02288897 PV-10 P3 melanoma (TERMINATED)",
+    "NCT00986661 PV-10 P1 liver cancer (UNKNOWN, started 2009)",
+    "NCT02557321 PV-10 + pembrolizumab P1/P2 melanoma (UNKNOWN)",
+    "NCT02693067 PV-10 P1 NET liver mets (UNKNOWN)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  }
+}

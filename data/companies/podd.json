@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Insulet Corporation",
+  "ticker": "PODD",
+  "exchange": "Nasdaq",
+  "cik": "0001145197",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001145197-26-000028",
+      "filing_date": "2026-02-18",
+      "doc": "podd-20251231.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found (404 on https://www.insulet.com/pipeline; Insulet is a medical-device manufacturer and lists product roadmap rather than a clinical pipeline)"
+    },
+    "ctgov": {
+      "query_sponsor": "Insulet",
+      "studies_returned_p1_p3": 1,
+      "active_p1_p3_company_sponsored": 0,
+      "note": "Only ctgov hit (NCT02561078) is a COMPLETED Eli Lilly-sponsored U-500 insulin study with Insulet as collaborator (Omnipod CSII delivery method). Asset is Lilly's, not Insulet's."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Insulet manufactures and markets the Omnipod tubeless insulin-pump platform. Marketed products include Omnipod DASH, Omnipod 5 (FDA-cleared automated insulin-delivery system with integrated CGMs Dexcom G6/G7 and Abbott FreeStyle Libre 2 Plus), and the on-body Omnipod patch pump for both type 1 and type 2 diabetes. Ongoing R&D is device/software lifecycle (next-gen Omnipod 5 algorithms, additional CGM integrations, expanded insulin compatibility) — not investigational drugs."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT02561078", "reason": "COMPLETED 2017 — Lilly-sponsored U-500 insulin (LY041001) administered via Omnipod; Insulet is collaborator providing the pump, asset is Lilly's."}
+  ],
+  "summary_counts": {
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Insulet is a medical-device company (Omnipod insulin patch-pump platform) with no proprietary drug pipeline. Device development is iterative product/software lifecycle on already-cleared platforms, not active P1/P2/P3 pivotal IDE drug-style trials reportable here."
+}

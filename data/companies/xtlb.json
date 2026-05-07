@@ -1,0 +1,77 @@
+{
+  "issuer_name": "XTL BIOPHARMACEUTICALS LTD",
+  "ticker": "XTLB",
+  "exchange": "Nasdaq",
+  "cik": "0001023549",
+  "region": "Israel (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F (NT 20-F filed 2026-04-30); no 10-K"
+    },
+    "website": {
+      "url": "https://xtlbio.com/pipeline/products-pipeline/",
+      "notes": "Two clinical-stage assets disclosed: hCDR1 (Edratide) for SLE and rHuEPO (erythropoietin) for multiple myeloma; both shown at Phase 2 stage on pipeline chart but no current enrolling trial NCTs identified"
+    },
+    "ctgov": {
+      "path": "data/xtlb_ctgov_compact.json",
+      "studies": 4,
+      "notes": "All historical XTLB-sponsored studies (Bicifadine x2 for diabetic neuropathy, XTL-2125 and XTL-6865 for HCV) are TERMINATED, WITHDRAWN, or UNKNOWN with no activity since 2008"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "hCDR1 (Edratide)",
+      "aka": ["Edratide", "TV-4710"],
+      "modality": "Synthetic peptide based on the complementarity-determining region 1 of an anti-DNA monoclonal antibody",
+      "target": "Tolerogenic peptide modulator of T- and B-cell autoimmunity",
+      "license_origin": "Licensed/acquired from Yeda (Weizmann Institute) lineage; reformulated by XTL",
+      "indications": [
+        {
+          "indication": "Systemic lupus erythematosus (SLE)",
+          "highest_phase": "Phase 2 (planned global trial; prior Phase 2 completed under Teva 2007)",
+          "trial_name": "Planned global Phase 2 — 26-week double-blind placebo-controlled, two doses vs placebo",
+          "trial_design": "Double-blind, placebo-controlled, two active doses; 26-week endpoint based on BILAG response",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — trial design completed; no enrolling NCT identified as of snapshot",
+          "lead_sponsor": "XTL Biopharmaceuticals",
+          "key_milestones": ["Trial design announced 2016", "Ongoing partnering / financing efforts"]
+        }
+      ]
+    },
+    {
+      "asset": "rHuEPO (erythropoietin)",
+      "aka": ["recombinant human erythropoietin"],
+      "modality": "Recombinant protein",
+      "target": "Erythropoietin receptor (anti-myeloma activity hypothesis)",
+      "license_origin": "In-licensed (per company website pipeline disclosures)",
+      "indications": [
+        {
+          "indication": "Multiple myeloma",
+          "highest_phase": "Phase 2 (per company pipeline chart)",
+          "trial_name": "Not disclosed",
+          "trial_design": "Not disclosed",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED / under evaluation — no enrolling NCT identified",
+          "lead_sponsor": "XTL Biopharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT00597649 — Bicifadine Phase 2 diabetic neuropathy (terminated 2008)",
+    "NCT00553592 — Bicifadine SR Phase 2 diabetic neuropathy (unknown, last 2007)",
+    "NCT00255359 — XTL-2125 Phase 1 HCV (withdrawn)",
+    "NCT00300807 — XTL-6865 Phase 1 HCV (unknown, last 2005)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 0,
+    "P2": 2,
+    "P1": 0
+  }
+}

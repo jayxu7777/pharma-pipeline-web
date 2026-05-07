@@ -1,0 +1,38 @@
+{
+  "issuer_name": "Viskase Holdings, Inc. (formerly Enzon Pharmaceuticals, Inc.)",
+  "ticker": "ENZN",
+  "exchange": "OTC",
+  "cik": "0000727510",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-02",
+      "accession": "0001104659-26-022313",
+      "path": "data/enzn_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page — issuer is a public-company acquisition vehicle / no clinical operations"
+    },
+    "ctgov": {
+      "path": "data/enzn_ctgov_compact.json",
+      "sponsor_query": "Enzon Pharmaceuticals",
+      "trials_kept_p1_p3": 24,
+      "note": "All historical Enzon-sponsored trials. Per 10-K, company has had no clinical operations for 10+ years."
+    }
+  },
+  "no_active_clinical_pipeline_reason": "Per Enzon 10-K (filed 2026-03-02), the Company has had no clinical operations and only limited corporate operations for more than ten years and is positioned as a public-company acquisition vehicle. Has no employees. Vicineum license was canceled by Amgen in 2025; PegIntron and other historical royalty patents have expired. On Feb 11, 2026 stockholders approved a merger with Viskase Companies (food packaging/cellulose casings); upon closing the company will rename to Viskase Holdings, Inc. — fully outside the pharma sector.",
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "All historical Enzon-sponsored ctgov trials (Vicineum, Oncaspar, PEG-SN38, PEG-PARP, etc.) — completed/terminated/withdrawn; no active company-sponsored trials remain"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3_indications": 0,
+    "p2_indications": 0,
+    "p1_indications": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "issuer_name": "Bio Green Med Solution, Inc.",
+  "ticker": "BGMS",
+  "exchange": "Nasdaq",
+  "cik": "0001130166",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-013669", "filing_date": "2026-03-30", "doc": "form10-k.htm"},
+    "website": {"error": "no public pipeline page found"},
+    "ctgov": {"sponsor_query": "Bio Green Med Solution", "results": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Issuer (formerly Cyclacel Pharmaceuticals) divested all pharmaceutical assets: UK subsidiary Cyclacel Limited (which held the fadraciclib transcriptional-regulation program) was liquidated on Jan 24, 2025; the remaining anti-mitotic asset plogosertib was sold in early October 2025. The 10-K explicitly states the Company does not expect to incur further material R&D expenditures and has pivoted to fire-safety equipment via the Sept 12, 2025 acquisition of Fitters Sdn. Bhd.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "fadraciclib", "reason": "Owner Cyclacel Limited liquidated Jan 24, 2025"},
+    {"asset": "plogosertib", "reason": "Asset sold in early October 2025"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

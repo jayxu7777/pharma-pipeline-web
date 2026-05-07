@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Sartorius Stedim Biotech S.A./ADR",
+  "ticker": "SDMHF",
+  "exchange": "OTC",
+  "cik": "0001794363",
+  "region": "EU (France) — US ADR",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — Sartorius Stedim Biotech S.A. is a French company that does not file Form 10-K with the SEC. No 20-F was retrieved by the standard fetcher either; the issuer publishes annual reports under French/EU disclosure rules."
+    },
+    "website": {
+      "error": "No public clinical pipeline page — issuer is a bioprocess equipment and consumables supplier (single-use bioreactors, filtration, cell culture media, lab instruments) to biopharma manufacturers. It does not develop proprietary drugs."
+    },
+    "ctgov": {
+      "query": "spons:Sartorius Stedim",
+      "trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Sartorius Stedim Biotech sells bioprocess solutions to drug developers and CDMOs: single-use bioreactors and bags, cross-flow and sterile filtration, cell culture media, fluid management, fermentation, separation, and laboratory products. These are picks-and-shovels equipment, not therapeutic assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Sartorius Stedim Biotech is a bioprocess equipment and consumables supplier to the biopharma industry, not a drug developer. It has no proprietary therapeutic pipeline. ClinicalTrials.gov returns 0 sponsored P1/P2/P3 studies. SEC 10-K is not applicable (foreign private issuer)."
+}

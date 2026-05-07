@@ -1,0 +1,170 @@
+{
+  "issuer_name": "NovoCure Ltd",
+  "ticker": "NVCR",
+  "exchange": "Nasdaq",
+  "cik": "0001645113",
+  "region": "US (Jersey-domiciled)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001645113-26-000017",
+      "path": "data/nvcr_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found (novocure.com/pipeline returned 404)"
+    },
+    "ctgov": {
+      "path": "data/nvcr_ctgov_compact.json",
+      "sponsor_query": "NovoCure"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Optune Gio (NovoTTF-200A / TTFields therapy, 200 kHz)",
+      "aka": ["TTFields", "Tumor Treating Fields", "NovoTTF-200A", "Optune"],
+      "modality": "Wearable medical device delivering alternating electric fields (Tumor Treating Fields)",
+      "target": "Mitotic spindle / dividing tumor cells (anti-mitotic physical mechanism)",
+      "license_origin": "Internal (Zai Lab licensee for Greater China)",
+      "indications": [
+        {
+          "indication": "Newly diagnosed glioblastoma (ndGBM) — concurrent with radiation + maintenance temozolomide",
+          "highest_phase": "Phase 3",
+          "trial_name": "TRIDENT (EF-32)",
+          "trial_design": "Phase 3 randomized trial of Optune Gio initiated concurrent with chemoradiation and maintenance TMZ vs. maintenance TMZ + Optune; primary endpoint overall survival; n=981; 24-month minimum follow-up after last patient enrolled.",
+          "nct_ids": ["NCT04471844"],
+          "trial_status": "Enrollment complete (last patient enrolled 2024); topline data anticipated Q2 2026",
+          "lead_sponsor": "NovoCure",
+          "key_milestones": ["Enrollment complete 2024", "Topline OS data Q2 2026"]
+        },
+        {
+          "indication": "Newly diagnosed glioblastoma (ndGBM) — TTFields + temozolomide + pembrolizumab",
+          "highest_phase": "Phase 3",
+          "trial_name": "EF-41 / KEYNOTE-D58",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of TTFields + TMZ + pembrolizumab vs. TTFields + TMZ + placebo in newly diagnosed GBM; n=741 planned; primary endpoint overall survival; collaboration with MSD (Merck).",
+          "nct_ids": ["NCT06556563"],
+          "trial_status": "Recruiting (enrollment expected to complete by end of 2026)",
+          "lead_sponsor": "NovoCure GmbH",
+          "key_milestones": ["FDA IND accepted 2024", "Enrollment ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "Optune Lua / Optune Mya (NovoTTF-200T / TTFields therapy, 150 kHz)",
+      "aka": ["NovoTTF-200T", "Optune Lua", "Optune Mya (proposed for brain mets)", "TTFields 150 kHz"],
+      "modality": "Wearable medical device delivering Tumor Treating Fields at 150 kHz",
+      "target": "Mitotic spindle / dividing tumor cells",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Brain metastases from NSCLC (1-10 lesions, post-stereotactic radiosurgery) — proposed brand Optune Mya",
+          "highest_phase": "Phase 3 (PMA filed)",
+          "trial_name": "METIS (EF-25)",
+          "trial_design": "Phase 3 randomized trial of TTFields therapy + best supportive care (BSC) vs. BSC alone after SRS in 1-10 brain metastases from NSCLC; n=298; primary endpoint time to intracranial progression.",
+          "nct_ids": ["NCT02831959"],
+          "trial_status": "Completed (final data presented Sep 2025); PMA submitted Dec 2025 under brand Optune Mya, accepted as filed and under FDA substantive review",
+          "lead_sponsor": "NovoCure GmbH",
+          "key_milestones": ["Final data ASTRO Sep 2025: 28% reduction in intracranial progression risk (HR=0.72, p=0.044)", "PMA filed Dec 2025", "FDA substantive review ongoing"]
+        },
+        {
+          "indication": "Metastatic non-small cell lung cancer (NSCLC), first-line — TTFields + pembrolizumab + platinum-based chemo",
+          "highest_phase": "Phase 3",
+          "trial_name": "LUNAR-2 (EF-37)",
+          "trial_design": "Randomized Phase 3 of TTFields therapy concomitant with pembrolizumab + platinum-based chemotherapy vs. pembrolizumab + platinum chemo as 1L treatment for metastatic NSCLC; n=734 planned; co-primary endpoints OS and PFS; 21-month minimum follow-up.",
+          "nct_ids": ["NCT06216301"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "NovoCure GmbH",
+          "key_milestones": ["FDA IDE accepted Jul 2023", "Enrollment ongoing"]
+        },
+        {
+          "indication": "Metastatic non-small cell lung cancer (NSCLC) — TTFields + pembrolizumab",
+          "highest_phase": "Phase 2",
+          "trial_name": "LUNAR-4 (EF-43)",
+          "trial_design": "Phase 2 of TTFields (150 kHz) concurrent with pembrolizumab for metastatic NSCLC.",
+          "nct_ids": ["NCT06558799"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "NovoCure GmbH",
+          "key_milestones": ["Enrollment complete", "Primary completion Jan 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Optune Pax (NovoTTF-200T(P) / TTFields therapy)",
+      "aka": ["NovoTTF-200T(P)", "Optune Pax"],
+      "modality": "Wearable medical device delivering Tumor Treating Fields for torso indications",
+      "target": "Mitotic spindle / dividing tumor cells",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Metastatic pancreatic ductal adenocarcinoma (mPDAC), first-line — TTFields + atezolizumab + gemcitabine + nab-paclitaxel",
+          "highest_phase": "Phase 2",
+          "trial_name": "PANOVA-4 (EF-39)",
+          "trial_design": "Phase 2 evaluating safety and efficacy of TTFields + atezolizumab + gemcitabine + nab-paclitaxel in metastatic pancreatic adenocarcinoma; n=84; primary endpoint disease control rate; 12-month minimum follow-up; collaboration with Roche.",
+          "nct_ids": ["NCT06390059"],
+          "trial_status": "Enrollment complete (2024); topline data anticipated Q1 2026",
+          "lead_sponsor": "NovoCure Ltd.",
+          "key_milestones": ["Enrollment complete 2024", "Topline data Q1 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Optune Gio": "FDA approved (2011 monotherapy recurrent GBM; 2015 with TMZ for newly diagnosed GBM); CE-marked. Marketed in US, Germany, France, Japan and other countries for glioblastoma multiforme.",
+    "Optune Lua": "FDA approved under HDE for malignant pleural mesothelioma (MPM) with chemotherapy; FDA approved (2024) for metastatic NSCLC after platinum failure (LUNAR pivotal trial); CE-marked.",
+    "Optune Pax": "FDA approved 2026 (PMA pathway) for adult patients with locally advanced pancreatic cancer concurrent with gemcitabine and nab-paclitaxel (PANOVA-3 pivotal data)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT03906448", "name": "FORWARD (Optune + adjuvant TMZ in grade II/III astrocytoma)", "reason": "TERMINATED"},
+    {"nct": "NCT04892472", "name": "EF-36/Keynote B36 (TTFields + pembro 1L NSCLC, Phase 2)", "reason": "TERMINATED"},
+    {"nct": "NCT02348255", "name": "NovoTTF-100A + bevacizumab/carmustine recurrent GBM", "reason": "WITHDRAWN"},
+    {"nct": "NCT02343549", "name": "Optune + bevacizumab + TMZ in unresectable GBM", "reason": "TERMINATED"},
+    {"nct": "NCT04129515", "name": "NovoTTF-200A + pembrolizumab in melanoma brain mets", "reason": "WITHDRAWN"},
+    {"nct": "NCT03995667", "name": "TTFields in SCLC brain mets", "reason": "TERMINATED"},
+    {"nct": "NCT05341349", "name": "SRS + ICI + NovoTTF-200M in melanoma brain mets", "reason": "TERMINATED"},
+    {"nct": "NCT02743078", "name": "Optune + bevacizumab in bevacizumab-refractory recurrent GBM", "reason": "TERMINATED"},
+    {"nct": "NCT03430791", "name": "Optune + nivolumab +/- ipilimumab recurrent GBM", "reason": "TERMINATED"},
+    {"nct": "NCT02663271", "name": "TTFields + pulsed bevacizumab recurrent GBM", "reason": "TERMINATED"},
+    {"nct": "NCT03705351", "name": "TTFields + chemoradiation in newly diagnosed GBM (investigator-initiated)", "reason": "TERMINATED"},
+    {"nct": "NCT03903640", "name": "Optune + nivolumab/ipilimumab melanoma brain mets", "reason": "TERMINATED"},
+    {"nct": "NCT00916409", "name": "EF-14 (Optune + TMZ ndGBM Phase 3)", "reason": "Completed; basis for FDA approval — now commercial"},
+    {"nct": "NCT00379470", "name": "EF-11 (Optune monotherapy recurrent GBM Phase 3)", "reason": "Completed; basis for FDA approval — now commercial"},
+    {"nct": "NCT02973789", "name": "LUNAR (TTFields + SOC in 2L NSCLC Phase 3)", "reason": "Completed; basis for FDA approval — now commercial"},
+    {"nct": "NCT03377491", "name": "PANOVA-3 (TTFields + gem/nab-pac locally advanced pancreatic Phase 3)", "reason": "Completed; basis for 2026 FDA approval — now commercial"},
+    {"nct": "NCT02397928", "name": "STELLAR (TTFields + chemo MPM Phase 2)", "reason": "Completed; basis for HDE approval — now commercial"},
+    {"nct": "NCT03940196", "name": "INNOVATE-3 (TTFields + paclitaxel ovarian Phase 3)", "reason": "Completed; missed primary endpoint in 2024"},
+    {"nct": "NCT03606590", "name": "HEPANOVA (TTFields + sorafenib advanced HCC Phase 2)", "reason": "Completed 2021 (signal-finding); not on active development pipeline"},
+    {"nct": "NCT04671459", "name": "TTFields + SRS recurrent GBM (investigator-initiated)", "reason": "UNKNOWN status"},
+    {"nct": "NCT01755624", "name": "COMET (TTFields in NSCLC brain mets Phase 2)", "reason": "UNKNOWN status"},
+    {"nct": "NCT01971281", "name": "PANOVA (TTFields + gemcitabine pancreatic Phase 1/2)", "reason": "UNKNOWN status (legacy)"},
+    {"nct": "NCT02244502", "name": "INNOVATE (TTFields + paclitaxel ovarian Phase 1/2)", "reason": "UNKNOWN status (legacy)"},
+    {"nct": "NCT04223999", "name": "Skullremodeling surgery + TTFields recurrent GBM (investigator-initiated)", "reason": "UNKNOWN status"}
+  ],
+  "excluded_partner_owned": [
+    {"nct": "NCT04474353", "name": "TTFields + hypofractionated chemoradiotherapy ndGBM Phase 1 (Stanford)", "reason": "Investigator-initiated, NovoCure collaborator only"},
+    {"nct": "NCT03223103", "name": "Personalized peptide vaccine + TTFields GBM Phase 1 (Mount Sinai/Hormigo)", "reason": "Investigator-initiated"},
+    {"nct": "NCT05764954", "name": "TTFields in lung adenocarcinoma Phase 1 (MSK)", "reason": "Investigator-initiated, NovoCure collaborator only"},
+    {"nct": "NCT06906900", "name": "NovoTTF-200M/200A in refractory spinal metastasis Phase 1 (MD Anderson)", "reason": "Investigator-initiated"},
+    {"nct": "NCT05624918", "name": "NovoTTF-200T(P) + gem/nab-pac in resectable pancreatic Phase 2 (Manne/OSU)", "reason": "Investigator-initiated"},
+    {"nct": "NCT04605913", "name": "Nab-paclitaxel + cisplatin + gemcitabine + TTF metastatic pancreatic Phase 1/2 (Mayo Clinic)", "reason": "Investigator-initiated"},
+    {"nct": "NCT02847559", "name": "Optune + bevacizumab recurrent grade 2/3 meningioma Phase 2 (Northwestern)", "reason": "Investigator-initiated"},
+    {"nct": "NCT01894061", "name": "NovoTTF-100A + bevacizumab recurrent GBM Phase 2 (Case CCC)", "reason": "Investigator-initiated"},
+    {"nct": "NCT03405792", "name": "2-THE-TOP (TMZ + Optune + pembrolizumab ndGBM Phase 2, U Florida)", "reason": "Investigator-initiated"},
+    {"nct": "NCT05004025", "name": "TTFields + nivo/ipi metastatic uveal melanoma Phase 1 (HonorHealth)", "reason": "Investigator-initiated"},
+    {"nct": "NCT04221503", "name": "Niraparib + TTFields GBM Phase 2 (Penn)", "reason": "Investigator-initiated"},
+    {"nct": "NCT03128047", "name": "HUMC 1612 Optune NovoTTF-200A in high-grade glioma Phase 1 (Hackensack)", "reason": "Investigator-initiated"},
+    {"nct": "NCT03232424", "name": "NovoTTF-200A + TMZ chemoradiation ndGBM Phase 1 (Hackensack)", "reason": "Investigator-initiated"},
+    {"nct": "NCT04492163", "name": "Optune high-density transducer arrays recurrent GBM Phase 2", "reason": "COMPLETED — device-engineering signal-finding pilot"},
+    {"nct": "NCT00749346", "name": "NovoTTF-100L + pemetrexed advanced NSCLC Phase 1/2", "reason": "Legacy COMPLETED 2011"},
+    {"nct": "NCT02893137", "name": "Enhancing Optune with targeted craniectomy Phase 1 (Aarhus)", "reason": "Investigator-initiated, COMPLETED"}
+  ],
+  "summary_counts": {
+    "total_active_assets": 3,
+    "total_active_indications": 5,
+    "phase_3": 4,
+    "phase_2": 1,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": null
+}

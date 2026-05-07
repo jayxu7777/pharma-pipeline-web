@@ -1,0 +1,75 @@
+{
+  "issuer_name": "Cardiff Oncology, Inc.",
+  "ticker": "CRDF",
+  "exchange": "Nasdaq",
+  "cik": "0001213037",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-067464", "filed": "2026-02-24", "note": "Section heading not auto-detected; ctgov + website used for synthesis"},
+    "website": {"url": "https://www.cardiffoncology.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/crdf_ctgov_compact.json", "lead_sponsor_query": "Cardiff Oncology"}
+  },
+  "pipeline": [
+    {
+      "asset": "Onvansertib",
+      "aka": ["PCM-075", "NMS-1286937"],
+      "modality": "Small molecule",
+      "target": "PLK1 (polo-like kinase 1)",
+      "license_origin": "Nerviano Medical Sciences (in-licensed)",
+      "indications": [
+        {
+          "indication": "Metastatic colorectal cancer (mCRC), 1L, KRAS/NRAS-mutant",
+          "highest_phase": "Phase 2",
+          "trial_name": "ONSEMBLE (CRDF-004 / first-line mCRC)",
+          "trial_design": "Randomized; Onvansertib + FOLFIRI/FOLFOX + bevacizumab vs FOLFIRI/FOLFOX + bevacizumab",
+          "nct_ids": ["NCT06106308"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Cardiff Oncology",
+          "key_milestones": ["Primary completion Nov 2026"]
+        },
+        {
+          "indication": "Metastatic pancreatic ductal adenocarcinoma (mPDAC), 1L",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Onvansertib + NALIRIFOX (1L PDAC)",
+          "trial_design": "Onvansertib in combination with NALIRIFOX",
+          "nct_ids": ["NCT06736717"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "University of Kansas Medical Center (collab: Cardiff Oncology)",
+          "key_milestones": ["Primary completion Jul 2026"]
+        },
+        {
+          "indication": "Triple-negative breast cancer (TNBC), metastatic",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Onvansertib + paclitaxel in TNBC",
+          "trial_design": "Onvansertib + paclitaxel",
+          "nct_ids": ["NCT05383196"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Antonio Giordano, MD (collab: Cardiff Oncology)",
+          "key_milestones": ["Primary completion Dec 2026"]
+        },
+        {
+          "indication": "Small cell lung cancer (SCLC), relapsed",
+          "highest_phase": "Phase 2",
+          "trial_name": "Onvansertib monotherapy in relapsed SCLC",
+          "trial_design": "Single-agent PLK1 inhibitor",
+          "nct_ids": ["NCT05450965"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "University of Maryland, Baltimore (collab: Cardiff Oncology, NCI)",
+          "key_milestones": ["Primary completion Aug 2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT04752696", "reason": "PDAC 2L study completed"},
+    {"nct": "NCT05593328", "reason": "ONSEMBLE 2L mCRC completed"},
+    {"nct": "NCT03414034", "reason": "mCRPC abiraterone study completed"},
+    {"nct": "NCT03829410", "reason": "Earlier 2L mCRC study completed"},
+    {"nct": "NCT03303339", "reason": "AML study completed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 0, "p2": 4, "p1": 0, "active_indications": 4}
+}

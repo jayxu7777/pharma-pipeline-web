@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Adicet Bio, Inc.",
+  "ticker": "ACET",
+  "exchange": "Nasdaq",
+  "cik": "0001720580",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/acet_10k_pipeline_section.html", "filing_date": "2026-03-12", "accession": "0001720580-26-000008"},
+    "website": {"url": "https://www.adicetbio.com/pipeline"},
+    "ctgov": {"file": "data/acet_ctgov_compact.json", "unique_p1_p3_trials": 4, "sponsor_search": "Adicet Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "Prulacabtagene leucel (Prula-cel)",
+      "aka": ["ADI-001"],
+      "modality": "Allogeneic gamma-delta CAR T cell therapy",
+      "target": "CD20",
+      "license_origin": "Adicet proprietary",
+      "indications": [
+        {
+          "indication": "Lupus nephritis, SLE, systemic sclerosis, ANCA-associated vasculitis, idiopathic inflammatory myopathies, stiff person syndrome (autoimmune basket)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ADI-001 in autoimmune disease",
+          "trial_design": "Phase 1 dose-finding/expansion in multi-indication autoimmune basket; lymphodepletion with fludarabine + cyclophosphamide",
+          "nct_ids": ["NCT06375993"],
+          "trial_status": "ENROLLING_BY_INVITATION",
+          "lead_sponsor": "Adicet Therapeutics",
+          "key_milestones": ["FDA Fast Track designation", "Primary completion December 2026"]
+        },
+        {
+          "indication": "Rheumatoid arthritis",
+          "highest_phase": "Phase 1",
+          "trial_name": "ADI-001 in rheumatoid arthritis",
+          "trial_design": "Phase 1 in moderate-to-severe RA with lymphodepletion (Flu/Cy)",
+          "nct_ids": ["NCT07100873"],
+          "trial_status": "RECRUITING (initiated October 2025)",
+          "lead_sponsor": "Adicet Therapeutics",
+          "key_milestones": ["Primary completion March 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "ADI-270",
+      "aka": [],
+      "modality": "Anti-CD70 CAR gamma-delta T cell therapy (allogeneic)",
+      "target": "CD70",
+      "license_origin": "Adicet proprietary",
+      "indications": [
+        {
+          "indication": "Clear cell renal cell carcinoma (ccRCC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ADI-270 in ccRCC",
+          "trial_design": "Phase 1/2 dose escalation/expansion in advanced ccRCC with Flu/Cy lymphodepletion",
+          "nct_ids": ["NCT06480565"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Adicet Therapeutics",
+          "key_milestones": ["Primary completion June 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "ADI-212 (armored PSMA CAR gamma-delta T cell for mCRPC) - preclinical",
+    "ADI-925 (chimeric adapter program for NKG2D ligand-expressing cancers) - preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT04735471 ADI-001 Phase 1 in B-cell malignancies - TERMINATED (predecessor of autoimmune pivot)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1_or_1_2": 3
+  }
+}

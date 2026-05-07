@@ -1,0 +1,143 @@
+{
+  "issuer_name": "Harmony Biosciences Holdings, Inc.",
+  "ticker": "HRMY",
+  "exchange": "Nasdaq",
+  "cik": "0001802665",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/hrmy_10k_pipeline_section.html", "filed": "2026-02-24", "accession": "0001104659-26-018859"},
+    "website": {"error": "harmonybiosciences.com pipeline pages 404; relied on 10-K + corporate disclosures"},
+    "ctgov": {"path": "data/hrmy_ctgov_compact.json", "n_studies": 12}
+  },
+  "pipeline": [
+    {
+      "asset": "Pitolisant (WAKIX)",
+      "aka": [],
+      "modality": "Small molecule, selective histamine 3 (H3) receptor antagonist/inverse agonist",
+      "target": "H3 receptor",
+      "license_origin": "In-licensed from Bioprojet (US/LATAM rights)",
+      "indications": [
+        {
+          "indication": "Prader-Willi Syndrome (excessive daytime sleepiness)",
+          "highest_phase": "P3",
+          "trial_name": "TEMPO and follow-on Phase 3 in Prader-Willi",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06366464", "NCT07219485"],
+          "trial_status": "RECRUITING / ENROLLING_BY_INVITATION (primary completion 2026-07 / 2030-08)",
+          "lead_sponsor": "Harmony Biosciences Management, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HBS-201 (pitolisant delayed-release)",
+      "aka": ["pitolisant DR"],
+      "modality": "Small molecule, H3 inverse agonist (DR formulation)",
+      "target": "H3 receptor",
+      "license_origin": "Internal (new formulation of pitolisant)",
+      "indications": [
+        {
+          "indication": "Narcolepsy (improved formulation)",
+          "highest_phase": "P1",
+          "trial_name": "HBS-201 PK study",
+          "trial_design": "Phase 1 PK",
+          "nct_ids": ["NCT07051252"],
+          "trial_status": "COMPLETED 2025-10-13",
+          "lead_sponsor": "Harmony Biosciences Management, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HBS-301 (pitolisant delayed-release tablet)",
+      "aka": [],
+      "modality": "Small molecule, H3 inverse agonist (DR formulation)",
+      "target": "H3 receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Idiopathic Hypersomnia (IH)",
+          "highest_phase": "P3",
+          "trial_name": "Phase 3 efficacy & safety of HBS-301 in IH",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT07500090"],
+          "trial_status": "RECRUITING (start 2026-03-16, primary completion 2027-10)",
+          "lead_sponsor": "Harmony Biosciences Management, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "EPX-100 (clemizole hydrochloride)",
+      "aka": ["clemizole HCl"],
+      "modality": "Small molecule, serotonin 5HT-2 receptor agonist",
+      "target": "5HT-2 receptor",
+      "license_origin": "Acquired via Epygenix Therapeutics acquisition",
+      "indications": [
+        {
+          "indication": "Dravet Syndrome (DS)",
+          "highest_phase": "P3",
+          "trial_name": "ARGUS Study",
+          "trial_design": "Randomized, double-blind, placebo-controlled, Phase 3 registrational",
+          "nct_ids": ["NCT04462770"],
+          "trial_status": "RECRUITING (primary completion 2026-04-01); OLE data presented Dec 2025; topline 2026",
+          "lead_sponsor": "Epygenix (collaborator: Harmony Biosciences)",
+          "key_milestones": ["Topline data 2026"]
+        },
+        {
+          "indication": "Lennox-Gastaut Syndrome (LGS)",
+          "highest_phase": "P3",
+          "trial_name": "LIGHTHOUSE Study",
+          "trial_design": "Randomized, double-blind, placebo-controlled, Phase 3 registrational",
+          "nct_ids": ["NCT05066217"],
+          "trial_status": "RECRUITING (primary completion 2026-11-01)",
+          "lead_sponsor": "Epygenix (collaborator: Harmony Biosciences)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BP1.15205",
+      "aka": [],
+      "modality": "Small molecule, orexin 2 receptor agonist",
+      "target": "OX2R",
+      "license_origin": "Sublicensed from Bioprojet (originally Teijin Pharma) — US/LATAM rights",
+      "indications": [
+        {
+          "indication": "Narcolepsy",
+          "highest_phase": "P1",
+          "trial_name": "First-in-human Phase 1",
+          "trial_design": "Phase 1 PK in healthy volunteers (EU IMPD)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING — first-in-human began Q4 2025; clinical PK data expected mid-2026",
+          "lead_sponsor": "Bioprojet / Harmony Biosciences",
+          "key_milestones": ["Clinical PK data mid-2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "WAKIX (pitolisant)",
+    "indication": "Narcolepsy (EDS and cataplexy), adults and pediatrics 6+",
+    "fy26_revenue_guidance_usd": ">1,000,000,000"
+  },
+  "excluded_preclinical": [
+    {"asset": "HBS-102", "reason": "MCHR1 antagonist preclinical for PWS-related hyperphagia"},
+    {"asset": "EPX-200 (lorcaserin liquid)", "reason": "Pre-IND for DEEs"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "ZYN002 (synthetic cannabidiol gel)", "reason": "Phased out: RECONNECT (FXS) failed primary endpoint Sept 2025; 22q indication discontinued"},
+    {"nct": "NCT04257929", "reason": "P2 PWS pitolisant ACTIVE_NOT_RECRUITING — superseded by P3 program"},
+    {"nct": "NCT04886518", "reason": "P2 DM1 pitolisant COMPLETED — formulation work ongoing for fatigue program (P1 PK stage)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 5,
+    "total_active_indications": 6,
+    "P3": 4,
+    "P2": 0,
+    "P1": 2
+  }
+}

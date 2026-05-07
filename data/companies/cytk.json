@@ -1,0 +1,126 @@
+{
+  "issuer_name": "Cytokinetics, Incorporated",
+  "ticker": "CYTK",
+  "exchange": "Nasdaq",
+  "cik": "0001061983",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-076495", "filed": "2026-02-26", "doc": "cytk-20251231.htm"},
+    "website": {"url": "https://cytokinetics.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/cytk_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Aficamten",
+      "aka": ["CK-274", "CK-3773274", "MYQORZO (commercial name in oHCM)"],
+      "modality": "Small molecule (next-generation cardiac myosin inhibitor)",
+      "target": "Cardiac myosin",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Symptomatic Non-Obstructive Hypertrophic Cardiomyopathy (nHCM)",
+          "highest_phase": "P3",
+          "trial_name": "ACACIA-HCM",
+          "trial_design": "Phase 3 randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06081894"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Cytokinetics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pediatric Symptomatic Obstructive Hypertrophic Cardiomyopathy (oHCM)",
+          "highest_phase": "P3",
+          "trial_name": "CEDAR-HCM",
+          "trial_design": "Phase 2/3 in pediatric patients",
+          "nct_ids": ["NCT06412666"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Cytokinetics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Long-term Safety / OLE in Symptomatic HCM",
+          "highest_phase": "P3",
+          "trial_name": "FOREST-HCM",
+          "trial_design": "Open-label extension Phase 2/3",
+          "nct_ids": ["NCT04848506"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Cytokinetics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Omecamtiv mecarbil",
+      "aka": ["CK-1827452", "AMG 423"],
+      "modality": "Small molecule (cardiac myosin activator)",
+      "target": "Cardiac myosin",
+      "license_origin": "Internal (rights returned from Amgen)",
+      "indications": [
+        {
+          "indication": "Chronic Heart Failure with Severely Reduced Ejection Fraction (HFsrEF)",
+          "highest_phase": "P3",
+          "trial_name": "COMET-HF",
+          "trial_design": "Phase 3 confirmatory study in HFsrEF",
+          "nct_ids": ["NCT06736574"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Cytokinetics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Ulacamten",
+      "aka": ["CK-586", "CK-4021586"],
+      "modality": "Small molecule (cardiac myosin inhibitor)",
+      "target": "Cardiac myosin",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Symptomatic Heart Failure with Preserved Ejection Fraction (HFpEF)",
+          "highest_phase": "P2",
+          "trial_name": "AMBER-HFpEF",
+          "trial_design": "Phase 2 multi-center, blinded, placebo-controlled",
+          "nct_ids": ["NCT06793371"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Cytokinetics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CK-089",
+      "aka": [],
+      "modality": "Small molecule (fast skeletal muscle troponin activator, next-generation)",
+      "target": "Fast skeletal muscle troponin",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Neuromuscular disease (undisclosed)",
+          "highest_phase": "P1",
+          "trial_name": "CK-089 Phase 1",
+          "trial_design": "Phase 1 first-in-human",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company pipeline disclosure",
+          "lead_sponsor": "Cytokinetics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "MYQORZO (aficamten)",
+    "indication": "Symptomatic obstructive hypertrophic cardiomyopathy (oHCM)",
+    "status": "FDA-approved (commercial)"
+  },
+  "excluded_preclinical": ["Additional skeletal muscle activators (research stage)"],
+  "excluded_legacy_terminated": ["Reldesemtiv (CK-2127107) — ALS Phase 2 program, no active studies", "Tirasemtiv (CK-2017357) — ALS Phase 3 (VITALITY-ALS) completed, program discontinued"],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "P3": 2,
+    "P2": 1,
+    "P1": 1
+  }
+}

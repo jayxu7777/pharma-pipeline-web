@@ -1,0 +1,79 @@
+{
+  "issuer_name": "SciSparc Ltd.",
+  "ticker": "SPRC",
+  "exchange": "Nasdaq",
+  "cik": "0001611746",
+  "region": "IL",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://scisparc.com/product/", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "SciSparc", "trials_returned": 0, "note": "Trials sponsored by Neurothera Labs Inc. (collaborator/operator); found via term search SCI-110/SCI-210"}
+  },
+  "pipeline": [
+    {
+      "asset": "SCI-110",
+      "aka": [],
+      "modality": "Cannabinoid combination (dronabinol + PEA)",
+      "target": "Cannabinoid receptors (CNS)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Tourette Syndrome",
+          "highest_phase": "P2",
+          "trial_name": "SCI-110 in the Treatment of Tourette Syndrome",
+          "trial_design": "Phase 2 study evaluating SCI-110 in Tourette Syndrome",
+          "nct_ids": ["NCT05126888"],
+          "trial_status": "Not Yet Recruiting",
+          "lead_sponsor": "Neurothera Labs Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Alzheimer's Disease and Agitation",
+          "highest_phase": "P2",
+          "trial_name": "SCI-110 for Alzheimer Disease and Agitation",
+          "trial_design": "Phase 2 study of SCI-110 in Alzheimer's-related agitation",
+          "nct_ids": ["NCT05239390"],
+          "trial_status": "Unknown (last known: Recruiting)",
+          "lead_sponsor": "The Israeli Medical Center for Alzheimer's",
+          "key_milestones": []
+        },
+        {
+          "indication": "Obstructive Sleep Apnea",
+          "highest_phase": "P2",
+          "trial_name": "SCI-120 (formerly listed; OSA program)",
+          "trial_design": "Phase 2 program disclosed by company; not currently registered",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — disclosed by company; no active ctgov record found",
+          "lead_sponsor": "SciSparc Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SCI-210",
+      "aka": ["CannAmide-based combination"],
+      "modality": "Cannabidiol (CBD) + palmitoylethanolamide (PEA) combination",
+      "target": "Cannabinoid + endocannabinoid system modulator",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Autism Spectrum Disorder (children and young adults)",
+          "highest_phase": "P2",
+          "trial_name": "SCI-210 in the Treatment of Children and Young Adults With Autism",
+          "trial_design": "Interventional study (registry-listed as NA phase, but sponsor characterizes as clinical-stage)",
+          "nct_ids": ["NCT05182697"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Neurothera Labs Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {"name": "CannAmide", "status": "Sold as supplement in Canada (PEA-based, non-Rx)"},
+  "excluded_preclinical": ["SCI-160 (CB2 agonist) — pain, preclinical", "Status epilepticus program (preclinical)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 3, "P1": 0, "total_active_assets": 2}
+}

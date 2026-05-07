@@ -1,0 +1,65 @@
+{
+  "issuer_name": "Lexeo Therapeutics, Inc.",
+  "ticker": "LXEO",
+  "exchange": "Nasdaq",
+  "cik": "0001907108",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-132085", "filed": "2026-03-30", "doc": "lxeo-20251231.htm"},
+    "website": {"url": "https://www.lexeotx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Lexeo Therapeutics", "trials_returned": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "LX2006",
+      "aka": [],
+      "modality": "AAVrh10 gene therapy delivering FXN (frataxin)",
+      "target": "FXN",
+      "license_origin": "In-licensed (Weill Cornell Medicine)",
+      "indications": [
+        {
+          "indication": "Friedreich Ataxia (FA) cardiomyopathy",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "SUNRISE-FA",
+          "trial_design": "Phase 1/2 dose escalation (low/mid/high) IV gene therapy in FA cardiomyopathy patients; advancing toward planned pivotal study supporting BLA",
+          "nct_ids": ["NCT05445323"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Lexeo Therapeutics",
+          "key_milestones": ["FDA approved Sf9 vs HEK293 analytical comparability Nov 2025", "CMC Development and Readiness Program meeting with FDA Mar 2026", "Pivotal study planned; BLA preparation"]
+        }
+      ]
+    },
+    {
+      "asset": "LX2020",
+      "aka": [],
+      "modality": "AAVrh10 gene therapy delivering PKP2",
+      "target": "PKP2",
+      "license_origin": "In-licensed",
+      "indications": [
+        {
+          "indication": "PKP2-associated arrhythmogenic cardiomyopathy (PKP2-ACM/ARVC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Phase 1/2 LX2020 study",
+          "trial_design": "Phase 1/2 IV gene therapy in adults with PKP2 pathogenic variant ACM",
+          "nct_ids": ["NCT06109181"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Lexeo Therapeutics",
+          "key_milestones": ["Trial start 2024-02-29", "Primary completion targeted 2026-12"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "LX2021 (Cx43 for DSP cardiomyopathy / dilated cardiomyopathy)", "reason": "Preclinical"},
+    {"asset": "LX2022 (TNNI3 for hypertrophic cardiomyopathy)", "reason": "Preclinical"},
+    {"asset": "LX1020 (APOE2+/E4-)", "reason": "Preclinical"},
+    {"asset": "LX1021 (Christchurch APOE2+)", "reason": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "LX1001 (APOE2 gene therapy for APOE4 homozygous Alzheimer's)", "reason": "Phase 1/2 trial NCT03634007 completed; long-term follow-up NCT05400330 active not recruiting. Company seeking business development opportunities for APOE4 portfolio (deprioritized; not a current internal P1+ asset for active development)."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 0, "p2": 0, "p1_p2": 2, "p1": 0}
+}

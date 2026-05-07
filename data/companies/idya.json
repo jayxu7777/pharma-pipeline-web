@@ -1,0 +1,206 @@
+{
+  "issuer_name": "IDEAYA Biosciences, Inc.",
+  "ticker": "IDYA",
+  "exchange": "Nasdaq",
+  "cik": "0001676725",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/idya_10k_pipeline_section.html", "filing_date": "2026-02-17", "accession": "0001193125-26-054533"},
+    "website": {"url": "https://www.ideayabio.com/pipeline/"},
+    "ctgov": {"file": "data/idya_ctgov_compact.json", "active_ideaya_led_count": 10}
+  },
+  "pipeline": [
+    {
+      "asset": "darovasertib",
+      "aka": ["IDE196", "LXS196"],
+      "modality": "Small molecule (oral PKC inhibitor)",
+      "target": "Protein kinase C (PKC)",
+      "license_origin": "In-licensed from Novartis",
+      "indications": [
+        {
+          "indication": "Primary uveal melanoma (neoadjuvant, eye-preserving)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 neoadjuvant UM",
+          "trial_design": "Darovasertib + primary local therapy",
+          "nct_ids": ["NCT07015190"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "IDEAYA Biosciences",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic uveal melanoma (1L, with crizotinib)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Pivotal Ph2/3 metastatic UM",
+          "trial_design": "Darovasertib + crizotinib +/- pembrolizumab/ipilimumab",
+          "nct_ids": ["NCT05987332", "NCT03947385", "NCT05907954"],
+          "trial_status": "Active not recruiting (Ph2/3); Recruiting (Ph1/2 basket)",
+          "lead_sponsor": "IDEAYA Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IDE397",
+      "aka": [],
+      "modality": "Small molecule (oral MAT2A inhibitor)",
+      "target": "Methionine adenosyltransferase 2a (MAT2A)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "MTAP-deleted solid tumors (urothelial cancer combo with Trodelvy; NSCLC combo)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "IDE397 program (with Gilead CSCSA)",
+          "trial_design": "IDE397 + sacituzumab govitecan; IDE397 + IDE892 in NSCLC/GC",
+          "nct_ids": ["NCT04794699", "NCT07277413"],
+          "trial_status": "Active not recruiting (Ph1 mono+SG); Recruiting (Ph1 combo with IDE892)",
+          "lead_sponsor": "IDEAYA Biosciences",
+          "key_milestones": ["Pivotal MTAP-deleted NSCLC trial planned Q2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "IDE161",
+      "aka": ["IDE-161"],
+      "modality": "Small molecule (oral PARG inhibitor)",
+      "target": "Poly (ADP-ribose) glycohydrolase (PARG)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "HRD-positive solid tumors (breast, ovarian, prostate); combo with pembrolizumab and TOP1 ADCs",
+          "highest_phase": "Phase 1",
+          "trial_name": "IDE161 dose optimization",
+          "trial_design": "IDE161 monotherapy and + pembrolizumab; planned + IDE849/IDE034",
+          "nct_ids": ["NCT05787587"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "IDEAYA Biosciences",
+          "key_milestones": ["Combo Ph1 with IDE034 planned Q1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "IDE849",
+      "aka": ["SHR-4849"],
+      "modality": "Antibody-drug conjugate (TOP1 payload)",
+      "target": "DLL3",
+      "license_origin": "In-licensed from Hengrui Pharma (ex-China)",
+      "indications": [
+        {
+          "indication": "Small-cell lung cancer / neuroendocrine carcinomas (DLL3-expressing)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "IDE849 global Ph1/2",
+          "trial_design": "IDE849 mono and + durvalumab and + IDE161",
+          "nct_ids": ["NCT07174583"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "IDEAYA Biosciences",
+          "key_milestones": ["Registrational SCLC/NEC 2L+ trial planned by end-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "IDE574",
+      "aka": [],
+      "modality": "Small molecule (oral dual KAT6/KAT7 inhibitor)",
+      "target": "Lysine acetyltransferase 6 and 7 (KAT6/KAT7)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "ER+/HER2- breast cancer; NSCLC; mCRPC",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "IDE574-01",
+          "trial_design": "IDE574 +/- fulvestrant",
+          "nct_ids": ["NCT07540572"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "IDEAYA Biosciences",
+          "key_milestones": ["IND clearance Jan 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "IDE034",
+      "aka": [],
+      "modality": "Bispecific antibody-drug conjugate (TOP1 payload)",
+      "target": "B7-H3 / PTK7 bispecific",
+      "license_origin": "Internal (from Biocytogen Option/License)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (esophageal SCC, ovarian, head & neck)",
+          "highest_phase": "Phase 1",
+          "trial_name": "IDE034 dose escalation",
+          "trial_design": "IDE034 monotherapy dose escalation",
+          "nct_ids": ["NCT07503808"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "IDEAYA Biosciences",
+          "key_milestones": ["IND cleared Q4 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "IDE275",
+      "aka": ["GSK4418959"],
+      "modality": "Small molecule (oral WRN helicase inhibitor)",
+      "target": "Werner protein (WRN) helicase domain",
+      "license_origin": "Co-developed with GSK (GSK terminating Mar 9, 2026; IDEAYA continuing solo)",
+      "indications": [
+        {
+          "indication": "MSI-high tumors (incl. colorectal cancer)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "GSK4418959 Ph1/2",
+          "trial_design": "WRN inhibitor +/- PD-1 inhibitor",
+          "nct_ids": ["NCT06710847"],
+          "trial_status": "Active not recruiting (lead sponsor GSK; reverting to IDEAYA)",
+          "lead_sponsor": "GlaxoSmithKline (transitioning to IDEAYA)",
+          "key_milestones": ["GSK termination notice Dec 2025; effective Mar 9 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "IDE892",
+      "aka": [],
+      "modality": "Small molecule (oral MTA-cooperative PRMT5 inhibitor)",
+      "target": "PRMT5 (MTA-cooperative)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "MTAP-deleted solid tumors (mono and combo with IDE397)",
+          "highest_phase": "Phase 1",
+          "trial_name": "IDE892 dose escalation; IDE892 + IDE397 combo",
+          "trial_design": "Ph1 dose escalation + combination with IDE397",
+          "nct_ids": ["NCT07277413"],
+          "trial_status": "Recruiting (combo); monotherapy Ph1 starting Q1 2026",
+          "lead_sponsor": "IDEAYA Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IDE705",
+      "aka": [],
+      "modality": "Small molecule (oral Pol Theta helicase inhibitor)",
+      "target": "Pol Theta (POLQ) helicase domain",
+      "license_origin": "Co-developed with GSK (terminated Dec 2025; IDEAYA continuing dose expansion)",
+      "indications": [
+        {
+          "indication": "BRCA+ / HRD-positive solid tumors (combo with PARP)",
+          "highest_phase": "Phase 1",
+          "trial_name": "IDE705 + niraparib Ph1 (transitioning post-GSK exit)",
+          "trial_design": "Pol Theta inhibitor + niraparib",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 dose expansion - sponsorship transitioning from GSK to IDEAYA",
+          "lead_sponsor": "IDEAYA Biosciences (post-transition)",
+          "key_milestones": ["GSK termination Dec 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 9,
+    "phase_3_indications": 1,
+    "phase_2_or_2_3_indications": 1,
+    "phase_1_or_1_2_indications": 8
+  }
+}

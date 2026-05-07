@@ -1,0 +1,79 @@
+{
+  "issuer_name": "Ainos, Inc.",
+  "ticker": "AIMDW",
+  "exchange": "Nasdaq",
+  "cik": "0001014763",
+  "region": "US (operations primarily Taiwan)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001493152-26-013579",
+      "path": "data/aimdw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.ainos.com/",
+      "note": "Pipeline page returned 404; homepage and SEC 10-K plus press releases used."
+    },
+    "ctgov": {
+      "path": "data/aimdw_ctgov_compact.json",
+      "trials_returned": 7,
+      "note": "All 7 records are pre-2013 PHASE2 studies (6 COMPLETED, 1 TERMINATED) under legacy name Amarillo Biosciences — excluded as legacy. Current Taiwan-based VELDONA trials are not on clinicaltrials.gov."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "VELDONA",
+      "aka": ["Low-dose oral interferon alpha", "IFN-alpha lozenge"],
+      "modality": "Low-dose oral interferon alpha lozenge",
+      "target": "Type I interferon receptor / immune modulation",
+      "license_origin": "Internal (legacy Amarillo Biosciences program)",
+      "indications": [
+        {
+          "indication": "Oral warts in HIV-seropositive patients",
+          "highest_phase": "Phase 2",
+          "trial_name": "VELDONA + antiretroviral therapy vs placebo in HIV-related oral warts",
+          "trial_design": "Randomized, placebo-controlled; 40 HIV-positive participants, 1:3 ratio (VELDONA:placebo)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE — TFDA approval and IRB clearance obtained; trial planned to begin June 2025 in Taiwan; targeted completion 2H 2026 (Taiwan registry, not clinicaltrials.gov). FDA orphan drug designation granted.",
+          "lead_sponsor": "Ainos, Inc.",
+          "key_milestones": ["TFDA approval received (2024-2025)", "IRB approval at National Taiwan University Hospital", "FDA Orphan Drug Designation", "Targeted trial completion 2H 2026"]
+        },
+        {
+          "indication": "Primary Sjögren's syndrome (pSS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "An Open-Label Study to Evaluate the Efficacy Of VELDONA in Patients with Primary Sjögren's Syndrome (Protocol 24PSS01)",
+          "trial_design": "Open-label efficacy study evaluating salivary flow and dryness symptom improvement",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE — IRB approval received from Taipei Medical University Joint IRB on 2024-10-25; targeted completion 1H 2027.",
+          "lead_sponsor": "Ainos, Inc.",
+          "key_milestones": ["IRB approval 2024-10-25", "Targeted completion 1H 2027"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      "Ainos COVID-19 Antigen Rapid Test Kit (commercial, Taiwan)",
+      "Ainos Flora (women's vaginal microbiome POCT)",
+      "Ainos Pen / AI Nose VOC analyzer (commercial)",
+      "VELDONA Pet supplements (commercialized)"
+    ]
+  },
+  "excluded_preclinical": [
+    {"asset": "AI Nose POCT for ventilator-associated pneumonia", "stage": "Device development / not a drug clinical trial"},
+    {"asset": "VELDONA FCGS (feline chronic gingivostomatitis)", "stage": "Veterinary, pre-approval Taiwan TFDA"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Interferon-alpha lozenges for chronic cough in COPD/IPF (NCT00690885)", "phase": "PHASE2", "status": "TERMINATED", "primary_completion": "2012-04"},
+    {"asset": "Low-dose oral IFN-alpha for IPF (NCT01442779)", "phase": "PHASE2", "status": "COMPLETED", "primary_completion": "2007-05", "note": "Sponsored by Texas Tech, Ainos collaborator"},
+    {"asset": "IFN-alpha lozenges for HCV relapse prevention (NCT00695019)", "phase": "PHASE2", "status": "COMPLETED", "primary_completion": "2011-11"},
+    {"asset": "IFN-alpha for Behcet's oral ulcers (NCT00483184)", "phase": "PHASE2", "status": "COMPLETED", "primary_completion": "2008-04", "note": "Nobel Pharmaceuticals sponsor"},
+    {"asset": "IFN-alpha + Oseltamivir for influenza (NCT01146535)", "phase": "PHASE2", "status": "COMPLETED", "primary_completion": "2012-12"},
+    {"asset": "IFN-alpha for HIV oral warts (NCT00454181)", "phase": "PHASE2", "status": "COMPLETED", "primary_completion": "2009-09", "note": "Legacy historical study; current HIV oral warts trial is the new Taiwan PHASE2."},
+    {"asset": "IFN-alpha lozenges for cold/flu prevention (NCT00895947)", "phase": "PHASE2", "status": "COMPLETED", "primary_completion": "2010-01"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 2, "P1": 0, "note": "1 unique asset (VELDONA) with 2 active P2 indications."}
+}

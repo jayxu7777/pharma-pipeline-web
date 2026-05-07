@@ -1,0 +1,40 @@
+{
+  "issuer_name": "Immunome Inc.",
+  "ticker": "IMNM",
+  "exchange": "Nasdaq",
+  "cik": "0001472012",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-088172", "filing_date": "2026-03-03", "doc": "imnm-20251231.htm"},
+    "website": {"url": "https://www.immunome.com/pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Immunome", "studies_total": 7, "active_p1_p3": 2}
+  },
+  "pipeline": [
+    {"asset": "Varegacestat", "aka": ["AL102"], "modality": "Oral gamma-secretase inhibitor", "target": "Gamma-secretase (Notch pathway)", "license_origin": "Acquired via Ayala Pharmaceuticals (2023)",
+     "indications": [
+       {"indication": "Desmoid tumors", "highest_phase": "Phase 3", "trial_name": "RINGSIDE Phase 2/3", "trial_design": "Randomized, double-blind, placebo-controlled (Part B pivotal)", "nct_ids": ["NCT04871282"], "trial_status": "Active, not recruiting (pivotal Part B fully enrolled; supports planned NDA submission)", "lead_sponsor": "Immunome, Inc.", "key_milestones": ["Topline pivotal data 2025", "Planned NDA submission"]}
+     ]},
+    {"asset": "IM-1021", "aka": [], "modality": "Antibody-drug conjugate (ADC)", "target": "ROR1", "license_origin": "Immunome internal (Discovery Engine)",
+     "indications": [
+       {"indication": "Advanced ROR1-expressing solid and hematologic tumors", "highest_phase": "Phase 1", "trial_name": "IM-1021 FIH", "trial_design": "Open-label dose escalation + expansion", "nct_ids": ["NCT06823167"], "trial_status": "Recruiting", "lead_sponsor": "Immunome, Inc.", "key_milestones": ["FIH initiated 2024", "Initial data expected 2026"]}
+     ]},
+    {"asset": "IM-3050", "aka": [], "modality": "Radioligand therapy (Lu-177)", "target": "FAP (fibroblast activation protein)", "license_origin": "Immunome internal",
+     "indications": [
+       {"indication": "FAP-expressing solid tumors", "highest_phase": "Phase 1", "trial_name": "IM-3050 FIH", "trial_design": "Open-label dose escalation", "nct_ids": "Not on public registry", "trial_status": "PLANNED — IND cleared Q1 2025; FIH initiating", "lead_sponsor": "Immunome, Inc.", "key_milestones": ["IND clearance Q1 2025"]}
+     ]}
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    "IM-1617 (undisclosed-target ADC) — preclinical",
+    "IM-1340 (undisclosed-target solid-tumor program) — preclinical",
+    "IM-1335 (undisclosed-target solid-tumor program) — preclinical",
+    "Discovery Engine-derived undisclosed ADC and bispecific programs"
+  ],
+  "excluded_legacy_terminated": [
+    "IMM-BCP-01 (anti-SARS-CoV-2 antibody cocktail; Phase 1, NCT05429021) — terminated"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 3, "phase_3": 1, "phase_2": 0, "phase_1": 2}
+}

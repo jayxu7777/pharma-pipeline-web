@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Regen BioPharma Inc.",
+  "ticker": "RGBPP",
+  "exchange": "OTC",
+  "cik": "0001589150",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"note": "10-K (FY ending 2025-09-30) retrieved; pipeline section parsed manually — no clinical pipeline section heading because all assets are preclinical"},
+    "website": {"url": "https://regenbiopharmainc.com", "note": "Pipeline page lists same preclinical programs as 10-K"},
+    "ctgov": {"sponsor_query": "Regen BioPharma", "active_p1_p3_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Regen BioPharma's 10-K explicitly states 'No clinical trials on our product candidates have commenced.' HemaXellerate (autologous SVF for aplastic anemia) had FDA clinical hold lifted in 2015 but no Phase 1 study has been initiated. All other programs (dCellVax, tCellVax, DiffronC, DuraCar CAR-T, NR2F6 small-molecule agonists/antagonists including RG-NAH005) are in preclinical/IP-development stage as of the latest filing.",
+  "excluded_preclinical": [
+    {"asset": "HemaXellerate", "indication": "Drug-refractory aplastic anemia", "stage": "IND cleared 2015; Phase 1 not yet initiated"},
+    {"asset": "dCellVax", "indication": "Breast cancer (autologous dendritic cells with IDO siRNA)", "stage": "Preclinical"},
+    {"asset": "tCellVax", "indication": "Cancer (autologous T cells with NR2F6 siRNA)", "stage": "Preclinical"},
+    {"asset": "DiffronC", "indication": "Cancer (in vivo NR2F6 siRNA)", "stage": "Preclinical"},
+    {"asset": "DuraCar", "indication": "Cancer (CAR-T cells with NR2F6 shRNA)", "stage": "Preclinical"},
+    {"asset": "NR2F6 small molecules (incl. RG-NAH005)", "indication": "Cancer (antagonists) and autoimmune/IBD (agonists)", "stage": "Preclinical (animal model studies)"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

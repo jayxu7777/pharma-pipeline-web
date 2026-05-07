@@ -1,0 +1,45 @@
+{
+  "issuer_name": "SAB Biotherapeutics, Inc.",
+  "ticker": "SABS",
+  "exchange": "Nasdaq",
+  "cik": "0001833214",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/sabs_10k_pipeline_section.html", "filing_date": "2026-03-09", "accession": "0001833214-26-000003"},
+    "website": {"url": "https://www.sab.bio/our-pipeline/", "method": "WebFetch"},
+    "ctgov": {"file": "data/sabs_ctgov_compact.json", "trial_count": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "SAB-142",
+      "aka": ["Human anti-thymocyte globulin (hATG)"],
+      "modality": "Multi-specific, fully human polyclonal anti-thymocyte globulin (Tc Bovine-derived hIgG)",
+      "target": "Anti-thymocyte (T-cell modulation; CD4/CD8 T cells, preserves Tregs)",
+      "license_origin": "Internal (proprietary Tc Bovine platform)",
+      "indications": [
+        {
+          "indication": "New onset Stage 3 Type 1 Diabetes (T1D)",
+          "highest_phase": "Phase 2b (registrational)",
+          "trial_name": "SAFEGUARD",
+          "trial_design": "Multicenter, global, randomized, double-blind, placebo-controlled Phase 2b in pediatric/adolescent/adult patients (5-40 yrs) with new-onset Stage 3 T1D within 100 days of dx; 159 patients; two active dose levels (1.5 mg/kg, 2.5 mg/kg) vs placebo; primary endpoint stimulated C-peptide AUC at 12 months",
+          "nct_ids": ["NCT07187531"],
+          "trial_status": "Recruiting (first patient dosed December 2025)",
+          "lead_sponsor": "SAB Biotherapeutics, Inc.",
+          "key_milestones": ["Phase 1 positive topline Jan 2025 + Dec 2025; Phase 2b initiated Q3 2025; topline data H2 2027; FDA Type B meeting May 2025 confirmed registrational use of SAFEGUARD"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Other autoimmune indications (SLE, RA, MS, celiac) — preclinical platform expansion only"
+  ],
+  "excluded_legacy_terminated": [
+    "SAB-185 anti-SARS-CoV-2 hIgG (NCT04468958, NCT04469179, NCT04518410 ACTIV-2) — completed/discontinued, no active development",
+    "SAB-301 anti-MERS hIgG (NCT02788188) — completed, no further development",
+    "SAB-176 anti-influenza hIgG Phase 1 (NCT06435936, NCT04471038) and Phase 2 challenge (NCT04850898) — completed; not part of current active P1/P2/P3 lead pipeline per 10-K (program deprioritized in favor of SAB-142)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

@@ -1,0 +1,87 @@
+{
+  "issuer_name": "Foghorn Therapeutics Inc.",
+  "ticker": "FHTX",
+  "exchange": "Nasdaq",
+  "cik": "0001822462",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/fhtx_10k_pipeline_section.html", "filing_date": "2026-03-11", "accession": "0001628280-26-016814"},
+    "website": {"url": "https://www.foghorntx.com/pipeline/", "note": "Lists FHD-909/LY4050784 (P1, partnered with Lilly) clinically; rest preclinical."},
+    "ctgov": {"file": "data/fhtx_ctgov_compact.json", "trials_returned": 5, "active_p1_p3_count": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "FHD-286",
+      "aka": [],
+      "modality": "Small molecule (selective dual BRG1/BRM ATPase inhibitor)",
+      "target": "SMARCA4 (BRG1) / SMARCA2 (BRM)",
+      "license_origin": "Internal (Foghorn)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory AML, MDS, CMML (monotherapy and combinations)",
+          "highest_phase": "Phase 1",
+          "trial_name": "FHD-286 in Advanced Hematologic Malignancies",
+          "trial_design": "Open-label, dose-escalation/expansion; monotherapy and combinations with low-dose cytarabine and decitabine",
+          "nct_ids": ["NCT04891757"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Foghorn Therapeutics Inc.",
+          "key_milestones": ["Primary completion 2025-09"]
+        },
+        {
+          "indication": "AML / MDS (FHD-286 + decitabine + venetoclax combo)",
+          "highest_phase": "Phase 1",
+          "trial_name": "FHD-286 with low-dose weekly decitabine/venetoclax",
+          "trial_design": "Investigator-initiated Phase 1 combination",
+          "nct_ids": ["NCT07283094"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Montefiore Medical Center (Foghorn collaborator)",
+          "key_milestones": ["Primary completion 2028-05"]
+        },
+        {
+          "indication": "POU2F3-Positive Small Cell Lung Cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "SMARCA4/2 Inhibitor for POU2F3-Positive SCLC",
+          "trial_design": "Investigator-initiated Phase 2",
+          "nct_ids": ["NCT07551635"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Dana-Farber Cancer Institute (Foghorn collaborator)",
+          "key_milestones": ["Start 2026-09-04", "Primary completion 2028-01-31"]
+        }
+      ]
+    },
+    {
+      "asset": "FHD-909",
+      "aka": ["LY4050784"],
+      "modality": "Small molecule (selective SMARCA2 ATPase inhibitor)",
+      "target": "SMARCA2 (BRM)",
+      "license_origin": "Co-developed with Eli Lilly (50/50 collaboration)",
+      "indications": [
+        {
+          "indication": "Advanced/Metastatic Solid Tumors with SMARCA4/BRG1 Alterations (focus NSCLC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "FHD-909/LY4050784 First-in-Human Phase 1",
+          "trial_design": "Phase 1a dose escalation + Phase 1b dose optimization/expansion",
+          "nct_ids": ["NCT06561685"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Eli Lilly and Company",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Selective SMARCA2 (next-gen)",
+    "Selective CBP (ER+ breast, EP300-mutant cancers)",
+    "Selective EP300 (multiple myeloma, DLBCL)",
+    "Selective ARID1B (ARID1A-mutant cancers)",
+    "Three undisclosed discovery programs"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT04879017 FHD-286 in Metastatic Uveal Melanoma Phase 1 (TERMINATED 2023)",
+    "NCT04965753 FHD-609 in Advanced Synovial Sarcoma Phase 1 (TERMINATED 2023)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "phase_3": 0, "phase_2": 1, "phase_1": 3}
+}

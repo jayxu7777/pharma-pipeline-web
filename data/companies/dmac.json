@@ -1,0 +1,52 @@
+{
+  "issuer_name": "DiaMedica Therapeutics Inc.",
+  "ticker": "DMAC",
+  "exchange": "Nasdaq",
+  "cik": "0001401040",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-010342", "filing_date": "2026-03-30", "fiscal_year_end": "2025-12-31"},
+    "website": {"error": "diamedica.com/pipeline timed out; details corroborated via IR press releases"},
+    "ctgov": {"sponsor_query": "DiaMedica Therapeutics", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "DM199 (rhKLK1)",
+      "aka": ["recombinant human tissue kallikrein-1"],
+      "modality": "Recombinant protein (subcutaneous)",
+      "target": "Tissue kallikrein-1 (KLK1) replacement; bradykinin/B2-receptor pathway",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute ischemic stroke",
+          "highest_phase": "Phase 3",
+          "trial_name": "ReMEDy2",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2/3 with planned interim",
+          "nct_ids": ["NCT05065216"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "DiaMedica Therapeutics Inc",
+          "key_milestones": ["Approaching ~70% enrollment for interim", "Interim analysis expected 2H 2026", "Primary completion 2026-12"]
+        },
+        {
+          "indication": "Preeclampsia (early-onset) and fetal growth restriction",
+          "highest_phase": "Phase 2",
+          "trial_name": "Investigator-sponsored expansion + DiaMedica-sponsored Phase 2 (planned)",
+          "trial_design": "Open-label expansion cohort (Part 1a) plus planned Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Part 1a expansion enrolling; Parts 2/3 and DiaMedica-sponsored Phase 2 to initiate 2026; first FGR patient expected Q2 2026",
+          "lead_sponsor": "DiaMedica Therapeutics Inc",
+          "key_milestones": ["Health Canada cleared Phase 2 in preeclampsia"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "DM199 acute ischemic stroke Phase 2 (REMEDY)", "nct_ids": ["NCT03290560"], "reason": "Completed; superseded by ReMEDy2"},
+    {"asset": "DM199 chronic kidney disease (REDUX)", "nct_ids": ["NCT04123613"], "reason": "Completed; CKD program deprioritized"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 1, "phase_3": 1, "phase_2": 1, "phase_1": 0, "note": "Single asset DM199 across two indications"}
+}

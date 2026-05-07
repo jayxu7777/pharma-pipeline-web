@@ -1,0 +1,105 @@
+{
+  "issuer_name": "OCULAR THERAPEUTIX, INC",
+  "ticker": "OCUL",
+  "exchange": "Nasdaq",
+  "cik": "0001393434",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-05",
+      "accession": "0001104659-26-010664",
+      "path": "data/ocul_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.ocutx.com/pipeline/",
+      "extracted": "AXPAXLI (OTX-TKI/axitinib) Phase 3 in wet AMD and NPDR; OTX-TIC (travoprost) early clinical for OAG/OHT"
+    },
+    "ctgov": {
+      "path": "data/ocul_ctgov_compact.json",
+      "query_sponsor": "Ocular Therapeutix"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "AXPAXLI",
+      "aka": ["OTX-TKI", "axitinib intravitreal hydrogel implant"],
+      "modality": "Intravitreal bioresorbable hydrogel implant (ELUTYX) releasing axitinib",
+      "target": "VEGF receptors (pan-VEGFR tyrosine kinase inhibitor)",
+      "license_origin": "Internal (axitinib repositioned from Pfizer's Inlyta via 505(b)(2))",
+      "indications": [
+        {
+          "indication": "Wet age-related macular degeneration (wet AMD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SOL program (SOL-1, SOL-R, SOL-X)",
+          "trial_design": "SOL-1: randomized, double-masked, active-controlled (aflibercept) Phase 3, primary endpoint Week 36 BCVA non-inferiority. SOL-R: registrational re-dose Phase 3 (631 subjects randomized Dec 2025). SOL-X: planned long-term safety extension (Q2 2026 start).",
+          "nct_ids": ["NCT06223958", "NCT06495918"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (SOL-1, SOL-R)",
+          "lead_sponsor": "Ocular Therapeutix, Inc.",
+          "key_milestones": [
+            "SOL-1 Week 52 readout expected at Macula Society Annual Meeting Feb 25-28, 2026",
+            "SOL-R topline data expected Q1 2027",
+            "Planned NDA submission under 505(b)(2) based on SOL-1 Week 52"
+          ]
+        },
+        {
+          "indication": "Non-proliferative diabetic retinopathy (NPDR) without center-involved DME",
+          "highest_phase": "Phase 3",
+          "trial_name": "HELIOS-3",
+          "trial_design": "Phase 3 superiority registrational trial of intravitreal axitinib implant in NPDR; initiated November 2025",
+          "nct_ids": ["NCT07235085"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ocular Therapeutix, Inc.",
+          "key_milestones": [
+            "HELIOS-2 may be added if needed"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "OTX-TIC",
+      "aka": ["travoprost intracameral hydrogel"],
+      "modality": "Intracameral bioresorbable hydrogel implant (ELUTYX) releasing travoprost",
+      "target": "Prostaglandin F2-alpha receptor",
+      "license_origin": "Internal; ex-Asia license to AffaMed",
+      "indications": [
+        {
+          "indication": "Open-angle glaucoma (OAG) or ocular hypertension (OHT)",
+          "highest_phase": "Phase 2",
+          "trial_name": "OTX-TIC Phase 2 (with repeat-dose pilot sub-study)",
+          "trial_design": "Phase 2 of intracameral travoprost implant 26 ug; pilot repeat-dose sub-study completed Q3 2025 in subset of Phase 2 subjects to evaluate safety of repeat sustained-release dose",
+          "nct_ids": ["NCT05335122"],
+          "trial_status": "COMPLETED (Phase 2 main + repeat-dose sub-study); next steps under evaluation",
+          "lead_sponsor": "Ocular Therapeutix, Inc.",
+          "key_milestones": [
+            "Generally well tolerated after single and repeat dosing",
+            "Company evaluating next steps for the program"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "DEXTENZA",
+    "modality": "Intracanalicular dexamethasone insert",
+    "indication": "Post-surgical ocular inflammation/pain; ocular itching from allergic conjunctivitis",
+    "2025_net_revenue_usd_m": 51.8
+  },
+  "excluded_preclinical": [
+    "OTX-DED (dry eye disease)",
+    "OTX-CSI (dry eye disease)",
+    "Other preclinical retinal/ocular programs"
+  ],
+  "excluded_legacy_terminated": [
+    "OTX-TP (travoprost punctal plug for glaucoma) — Phase 3 NCT02914509 completed but not advanced"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "indications_total": 3,
+    "p3_indications": 2,
+    "p2_indications": 1,
+    "p1_indications": 0
+  }
+}

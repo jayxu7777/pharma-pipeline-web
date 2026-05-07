@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Invivyd, Inc.",
+  "ticker": "IVVD",
+  "exchange": "Nasdaq",
+  "cik": "0001832038",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-092547", "filed": "2026-03-05", "doc": "ivvd-20251231.htm"},
+    "website": {"url": "https://www.invivyd.com/pipeline"},
+    "ctgov": {"sponsor_query": "Invivyd", "unique_trials_p1_p3": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "VYD2311",
+      "aka": [],
+      "modality": "Anti-SARS-CoV-2 monoclonal antibody",
+      "target": "SARS-CoV-2 spike protein",
+      "license_origin": "Internal (Adagio/Invivyd platform)",
+      "indications": [
+        {
+          "indication": "COVID-19 prevention (pivotal program, including in immunocompromised)",
+          "highest_phase": "P3",
+          "trial_name": "DECLARATION",
+          "trial_design": "Randomized, placebo-controlled Phase 3 study evaluating VYD2311 single- and multi-dose regimens for COVID-19 prevention; Fast Track designation",
+          "nct_ids": ["NCT07298434"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Invivyd, Inc.",
+          "key_milestones": ["Primary completion expected 2026-03"]
+        },
+        {
+          "indication": "COVID-19 (healthy participant pharmacokinetics/safety)",
+          "highest_phase": "P1",
+          "trial_name": "VYD2311 Phase 1",
+          "trial_design": "Phase 1 study evaluating safety, tolerability and PK of VYD2311 in healthy adults",
+          "nct_ids": ["NCT06523153"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Invivyd, Inc.",
+          "key_milestones": ["Primary completion 2025-05"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Pemivibart (PEMGARDA)",
+    "codename": "VYD222",
+    "indication": "COVID-19 pre-exposure prophylaxis in immunocompromised individuals",
+    "status": "U.S. FDA Emergency Use Authorization (March 2024)"
+  },
+  "excluded_preclinical": [
+    "VBY329 (anti-RSV mAb, preclinical)",
+    "Measles antibody discovery program",
+    "VYD2311 COVID-19 treatment indication (preclinical / IND active)"
+  ],
+  "excluded_legacy_terminated": [
+    "ADG20/adintrevimab COVID-19 prevention (NCT04859517) — Terminated",
+    "ADG20/adintrevimab COVID-19 treatment (NCT04805671) — Terminated"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "P3": 1, "P2": 0, "P1": 1}
+}

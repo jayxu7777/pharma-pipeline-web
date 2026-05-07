@@ -1,0 +1,65 @@
+{
+  "issuer_name": "Heartflow, Inc.",
+  "ticker": "HTFL",
+  "exchange": "Nasdaq",
+  "cik": "0001464521",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001464521-26-000042",
+      "filing_date": "2026-03-18",
+      "document": "htfl-20251231x10k.htm",
+      "path": "data/htfl_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.heartflow.com",
+      "note": "Corporate site lists FDA-cleared SaMD products (Heartflow One platform: Roadmap Analysis, FFRCT Analysis, Plaque Analysis, PCI Navigator). No /pipeline page exists; site emphasizes commercial deployments and peer-reviewed validation studies rather than a drug-style pipeline."
+    },
+    "ctgov": {
+      "path": "data/htfl_ctgov_compact.json",
+      "sponsor_query": "Heartflow",
+      "raw_hits": 23,
+      "kept_p1_p3": 0,
+      "note": "All Heartflow-sponsored studies on ClinicalTrials.gov are observational/validation studies of FDA-cleared software-as-a-medical-device, not interventional drug or device Phase 1-3 trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "platform": "Heartflow One",
+    "components": [
+      {
+        "name": "Roadmap Analysis",
+        "description": "AI-driven CCTA reading tool for fast, consistent detection of coronary artery disease.",
+        "regulatory_status": "FDA-cleared (commercial)"
+      },
+      {
+        "name": "FFRCT Analysis",
+        "description": "Non-invasive assessment of coronary blood flow / fractional flow reserve to guide revascularization decisions.",
+        "regulatory_status": "FDA-cleared (commercial)"
+      },
+      {
+        "name": "Plaque Analysis",
+        "description": "Quantification and characterization of coronary plaque for risk stratification and disease management.",
+        "regulatory_status": "FDA-cleared (commercial); supported by ACC/AHA scientific statements; AHA 2025 late-breaking data presented."
+      },
+      {
+        "name": "PCI Navigator",
+        "description": "Pre-procedural planning tool for interventional cardiologists.",
+        "regulatory_status": "FDA-cleared (commercial)"
+      }
+    ],
+    "indications": ["Coronary artery disease (CAD)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Heartflow is a medical-device / software-as-a-medical-device (SaMD) company commercializing FDA-cleared AI tools for coronary artery disease analysis (Heartflow One platform). It has no proprietary drug pipeline and no active interventional Phase 1/2/3 device trials of its own; sponsored studies are post-market validation / outcomes research."
+}

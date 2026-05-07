@@ -1,0 +1,79 @@
+{
+  "issuer_name": "Hoth Therapeutics, Inc.",
+  "ticker": "HOTH",
+  "exchange": "Nasdaq",
+  "cik": "0001711786",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-035625",
+      "filing_date": "2026-03-27",
+      "path": "data/hoth_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page fetched (avoided slow Playwright fallback)"
+    },
+    "ctgov": {
+      "path": "data/hoth_ctgov_compact.json",
+      "trials_kept": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "HT-001",
+      "aka": [],
+      "modality": "Small molecule topical gel",
+      "target": "EGFR-induced skin toxicity (symptomatic management)",
+      "license_origin": "Licensed (patent rights for HT-001)",
+      "indications": [
+        {
+          "indication": "Skin toxicities (acneiform eruption, xerosis cutis, paronychia) associated with EGFR inhibitors used in cancer therapy",
+          "highest_phase": "Phase 2",
+          "trial_name": "HT-001 Phase 2",
+          "trial_design": "Multi-dose (2%, 1%, 0.5%) topical gel vs placebo; multi-site (US, Poland, Hungary)",
+          "nct_ids": ["NCT05639933"],
+          "trial_status": "Recruiting (primary completion Dec 2026)",
+          "lead_sponsor": "Hoth Therapeutics, Inc.",
+          "key_milestones": [
+            "Positive interim preliminary clinical results from open-label cohort",
+            "USPTO patent granted 2024 for active ingredient use"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "BioLexa",
+      "aka": ["BioLexa Platform"],
+      "modality": "Topical drug compound platform (zinc + antibiotic)",
+      "target": "Biofilm inhibition / sweat-duct clogging in atopic dermatitis",
+      "license_origin": "Licensed",
+      "indications": [
+        {
+          "indication": "Mild to moderate atopic dermatitis (eczema)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BioLexa Phase 1b in atopic dermatitis (Australia)",
+          "trial_design": "Twice-daily topical application, healthy subjects + AD patients, vs placebo",
+          "nct_ids": ["NCT04544943"],
+          "trial_status": "Completed 2022 (no announced follow-on Phase 2 in active recruitment)",
+          "lead_sponsor": "Hoth Therapeutics, Inc.",
+          "key_milestones": ["Phase 1b completed Sep 2022"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "HT-KIT (mast-cell derived cancers and anaphylaxis) — preclinical",
+    "HT-004 (asthma/allergies, exon-skipping oligonucleotide) — preclinical (NC State license)",
+    "HT-VA (obesity) — preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_1": 1,
+    "phase_2": 1,
+    "phase_3": 0
+  }
+}

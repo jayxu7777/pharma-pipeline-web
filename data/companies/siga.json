@@ -1,0 +1,84 @@
+{
+  "issuer_name": "SIGA Technologies Inc",
+  "ticker": "SIGA",
+  "exchange": "Nasdaq",
+  "cik": "0001010086",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-10",
+      "accession": "0001437749-26-007557",
+      "path": "data/siga_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page fetched (commercial-stage; product info on siga.com)"
+    },
+    "ctgov": {
+      "path": "data/siga_ctgov_compact.json",
+      "trials_kept": 7,
+      "active": ["NCT04957485"]
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Tecovirimat (TPOXX) + JYNNEOS co-administration",
+      "aka": ["TPOXX", "ST-246", "tecovirimat"],
+      "modality": "Small molecule antiviral (orthopoxvirus inhibitor)",
+      "target": "Orthopoxvirus VP37 envelope wrapping protein",
+      "license_origin": "SIGA Technologies (internal)",
+      "indications": [
+        {
+          "indication": "Smallpox prophylaxis (post-exposure vaccine co-administration)",
+          "highest_phase": "P2",
+          "trial_name": "Safety and Immunogenicity of TPOXX with JYNNEOS",
+          "trial_design": "Randomized, placebo-controlled study assessing oral TPOXX safety/immunogenicity when administered for 28 days with JYNNEOS smallpox/mpox vaccine",
+          "nct_ids": ["NCT04957485"],
+          "trial_status": "Active, not recruiting (primary completion 2027-01)",
+          "lead_sponsor": "SIGA Technologies",
+          "key_milestones": ["Primary completion target Jan 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "TPOXX pediatric formulation",
+      "aka": ["pediatric tecovirimat"],
+      "modality": "Small molecule antiviral (oral pediatric formulation)",
+      "target": "Orthopoxvirus VP37",
+      "license_origin": "SIGA Technologies (internal); BARDA-funded development",
+      "indications": [
+        {
+          "indication": "Smallpox (pediatric)",
+          "highest_phase": "P1",
+          "trial_name": "Pediatric formulation development under 19C BARDA Contract (additional $13.2M added June 2025)",
+          "trial_design": "Formulation development and clinical bridging activities funded by BARDA",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — formulation development funded; clinical bridging study not yet listed on ctgov as of 2025 10-K",
+          "lead_sponsor": "SIGA Technologies",
+          "key_milestones": ["BARDA pediatric funding option exercised June 2025"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "TPOXX (tecovirimat)",
+    "approvals": [
+      "FDA oral approval (Jul 13, 2018) for smallpox",
+      "FDA IV approval (May 18, 2022) for smallpox",
+      "Approvals also from EMA, MHRA, PMDA, Health Canada (oral)"
+    ],
+    "primary_customer": "U.S. Strategic National Stockpile via BARDA 19C contract; DoD; international governments"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT05534984", "reason": "PALM007/STOMP NIAID-led mpox study in DRC, terminated; SIGA was collaborator only"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p1": 1,
+    "p2": 1,
+    "p3": 0
+  }
+}

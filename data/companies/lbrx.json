@@ -1,0 +1,59 @@
+{
+  "issuer_name": "LB Pharmaceuticals Inc.",
+  "ticker": "LBRX",
+  "exchange": "Nasdaq",
+  "cik": "0001691082",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/lbrx_10k_pipeline_section.html", "filed": "2026-03-26", "accession": "0001193125-26-126368"},
+    "website": {"note": "Not separately fetched; recent IPO with single-asset focus, 10-K + ctgov sufficient"},
+    "ctgov": {"path": "data/lbrx_ctgov_compact.json", "n_studies": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "LB-102",
+      "aka": ["N-methyl amisulpride", "nemalimab"],
+      "modality": "Small molecule, benzamide derivative; selective dopamine D2/D3 and serotonin 5-HT7 receptor antagonist",
+      "target": "D2/D3 / 5-HT7",
+      "license_origin": "Internal (proprietary methylated form of amisulpride)",
+      "indications": [
+        {
+          "indication": "Acute Schizophrenia in adults",
+          "highest_phase": "P3",
+          "trial_name": "NOVA Phase 3 (acute schizophrenia) and 52-week open-label safety-tolerability study",
+          "trial_design": "Randomized, double-blind, placebo-controlled (50 mg & 100 mg) with companion 52-week open-label safety extension",
+          "nct_ids": ["NCT07363577", "NCT07369154"],
+          "trial_status": "P3 acute trial RECRUITING (start 2026-03-25, primary completion 2027-06); OLE NOT_YET_RECRUITING (start 2026-04, primary completion 2028-12)",
+          "lead_sponsor": "LB Pharmaceuticals Inc.",
+          "key_milestones": ["P3 topline 2027"]
+        },
+        {
+          "indication": "Bipolar I Disorder — Major Depressive Episode (BP1MDE)",
+          "highest_phase": "P2",
+          "trial_name": "Phase 2 LB-102 in BP1MDE",
+          "trial_design": "Multicenter, randomized, placebo-controlled",
+          "nct_ids": ["NCT07494305"],
+          "trial_status": "RECRUITING (start 2026-01-23, primary completion 2028-02)",
+          "lead_sponsor": "LB Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT06179108", "reason": "Phase 2 acute schizophrenia COMPLETED 2024-12 — superseded by Phase 3"},
+    {"nct": "NCT04187560", "reason": "Phase 1 SAD/MAD COMPLETED 2020"},
+    {"nct": "NCT04588129", "reason": "Phase 1 PET receptor occupancy COMPLETED 2021"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "total_active_indications": 2,
+    "P3": 1,
+    "P2": 1,
+    "P1": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "issuer_name": "Nasus Pharma Ltd",
+  "ticker": "NSRX",
+  "exchange": "NYSE",
+  "cik": "0002029039",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Israel) — files 20-F instead of 10-K; no 10-K in EDGAR recent filings"},
+    "website": {"error": "https://nasuspharma.com/pipeline returned template only — no extractable pipeline content"},
+    "ctgov": {"file": "data/nsrx_ctgov_compact.json", "trials": 5, "sponsor_query": "Nasus Pharma"}
+  },
+  "pipeline": [
+    {
+      "asset": "FMXIN002",
+      "aka": ["Epinephrine nasal powder spray", "NS002"],
+      "modality": "Intranasal small-molecule powder (epinephrine)",
+      "target": "Adrenergic receptors (epinephrine agonist)",
+      "license_origin": "Internal (Nasus proprietary microsphere nasal-delivery platform)",
+      "indications": [
+        {
+          "indication": "Anaphylaxis (food-allergy / severe allergic reaction)",
+          "highest_phase": "P2/P3",
+          "trial_name": "FMXIN002 in Patients at Risk of Anaphylaxis",
+          "trial_design": "Interventional pivotal study comparing FMXIN002 4mg nasal powder vs. injectable epinephrine (Adrenalin 0.5mg) in patients at risk of anaphylaxis",
+          "nct_ids": ["NCT07045701"],
+          "trial_status": "Enrolling by invitation (started 2025-06-12, primary completion 2026-06-12)",
+          "lead_sponsor": "Nasus Pharma",
+          "key_milestones": ["Primary completion expected 2026-06-12"]
+        },
+        {
+          "indication": "Anaphylaxis / allergic rhinitis (PK/PD bridging)",
+          "highest_phase": "P1/P2",
+          "trial_name": "Comparative PK/PD of FMXIN002 vs EpiPen in Healthy Adults With Allergic Rhinitis",
+          "trial_design": "Comparative PK/PD interventional study of FMXIN002 single/double dose +/- NAC vs EpiPen autoinjector single/double dose",
+          "nct_ids": ["NCT07228325"],
+          "trial_status": "Enrolling by invitation (started 2025-11-03, primary completion 2026-03)",
+          "lead_sponsor": "Nasus Pharma",
+          "key_milestones": ["Primary completion 2026-03"]
+        }
+      ]
+    },
+    {
+      "asset": "FMXIN001",
+      "aka": ["Nasal naloxone microspheres powder"],
+      "modality": "Intranasal small-molecule powder (naloxone)",
+      "target": "Mu-opioid receptor antagonist",
+      "license_origin": "Internal (Nasus proprietary microsphere nasal-delivery platform)",
+      "indications": [
+        {
+          "indication": "Opioid overdose reversal",
+          "highest_phase": "P1",
+          "trial_name": "Single-Dose Bioequivalence Study of FMXIN001 4 mg Microspheres Powder",
+          "trial_design": "Single-dose bioequivalence study of FMXIN001 4mg nasal microspheres vs nasal naloxone liquid spray (Narcan)",
+          "nct_ids": ["NCT04713709"],
+          "trial_status": "Completed (2021-03-30) — no active follow-on registered",
+          "lead_sponsor": "Nasus Pharma",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT06205134", "reason": "Completed comparative bioavailability study supporting FMXIN002 program (already represented by active P2/P3)"},
+    {"nct": "NCT04696822", "reason": "Completed early bioavailability study supporting FMXIN002 program"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3_or_p2_p3": 1,
+    "p2_or_p1_p2": 1,
+    "p1": 1
+  }
+}

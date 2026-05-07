@@ -1,0 +1,96 @@
+{
+  "issuer_name": "Mesoblast Ltd",
+  "ticker": "MESO",
+  "exchange": "Nasdaq",
+  "cik": "0001345099",
+  "region": "US-listed (Australian domiciled)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"error": "https://www.mesoblast.com/pipeline returned 403; used WebSearch corporate disclosures"},
+    "ctgov": {"path": "data/meso_ctgov_compact.json", "n_studies": 39}
+  },
+  "pipeline": [
+    {
+      "asset": "Remestemcel-L (Ryoncil)",
+      "aka": ["MSC-100-IV", "Prochymal"],
+      "modality": "Allogeneic ex vivo cultured adult human mesenchymal stem cells",
+      "target": "Immunomodulation (MSC mechanism)",
+      "license_origin": "Internal (originated from Osiris Therapeutics; acquired)",
+      "indications": [
+        {
+          "indication": "Adult steroid-refractory acute graft-versus-host disease (SR-aGVHD), Grade III-IV, in combination with ruxolitinib",
+          "highest_phase": "P3",
+          "trial_name": "Phase III Trial of Remestemcel-L-rknd Added to Ruxolitinib for Grade III-IV SR-aGVHD",
+          "trial_design": "Randomized, double-blind, placebo-controlled, multicenter",
+          "nct_ids": ["NCT07568535"],
+          "trial_status": "NOT_YET_RECRUITING (start 2026-08-31)",
+          "lead_sponsor": "Mesoblast, Ltd.",
+          "key_milestones": ["Site initiation expected March 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Rexlemestrocel-L",
+      "aka": ["MPC-06-ID"],
+      "modality": "Allogeneic mesenchymal precursor cells (MPCs)",
+      "target": "Immunomodulation / disc inflammation (MPC mechanism)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Moderate to severe chronic low back pain (CLBP) due to degenerative disc disease, combined with hyaluronic acid",
+          "highest_phase": "P3",
+          "trial_name": "Confirmatory Phase 3 of Rexlemestrocel-L + HA in CLBP",
+          "trial_design": "Randomized, placebo-controlled, multicenter (~300 patients across 40 US sites)",
+          "nct_ids": ["NCT06325566"],
+          "trial_status": "RECRUITING (enrollment completion expected Mar/Apr 2026; readout / BLA CY2027)",
+          "lead_sponsor": "Mesoblast, Ltd.",
+          "key_milestones": ["Enrollment completion Mar-Apr 2026", "Data readout & BLA CY2027"]
+        }
+      ]
+    },
+    {
+      "asset": "Rexlemestrocel-L (Revascor)",
+      "aka": ["MPC-150-IM"],
+      "modality": "Allogeneic mesenchymal precursor cells (MPCs), transendocardial delivery",
+      "target": "Cardiac inflammation / endothelial function",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "End-stage chronic heart failure with LVAD (reduction of GI bleeding events)",
+          "highest_phase": "P3",
+          "trial_name": "Efficacy and Safety of Allogeneic Mesenchymal Precursor Cells (Rexlemestrocel-L) for the Treatment of Heart Failure",
+          "trial_design": "Randomized, sham-controlled, multicenter",
+          "nct_ids": ["NCT02032004"],
+          "trial_status": "COMPLETED — full FDA BLA filing planned next quarter (per FY2026 H1 update)",
+          "lead_sponsor": "Mesoblast, Inc.",
+          "key_milestones": ["Full BLA filing planned CY2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Ryoncil (remestemcel-L)",
+    "indication": "Pediatric steroid-refractory acute graft-versus-host disease",
+    "approval": "FDA approved December 2024; commercial launch April 2025",
+    "fy26_h1_revenue_usd_m": 49,
+    "fy26_guidance_usd_m": "110-120"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT04548583", "reason": "Cleveland Clinic-led TERMINATED Crohn colitis P1/P2"},
+    {"nct": "NCT04543994", "reason": "Cleveland Clinic-led TERMINATED ulcerative colitis P1/P2"},
+    {"nct": "NCT04371393", "reason": "Mount Sinai-led TERMINATED COVID-19 ARDS P3"},
+    {"nct": "NCT00810212", "reason": "WITHDRAWN NeoFuse posterolateral lumbar fusion"},
+    {"nct": "NCT00081055", "reason": "WITHDRAWN OTI-010 GVHD prophylaxis"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 3,
+    "total_active_indications": 3,
+    "P3": 3,
+    "P2": 0,
+    "P1": 0
+  }
+}

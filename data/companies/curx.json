@@ -1,0 +1,31 @@
+{
+  "issuer_name": "Curanex Pharmaceuticals Inc",
+  "ticker": "CURX",
+  "exchange": "Nasdaq",
+  "cik": "0002025942",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Curanex is a preclinical-stage botanical drug developer. Its sole product candidate Phyto-N is in preclinical studies; the company plans to file an IND in Q4 2026 with Phase 1 trials to initiate in Australia thereafter. No active P1/P2/P3 clinical trials exist as of snapshot date.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001493152-26-013677",
+      "path": "data/curx_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found; corporate website not located via slug variants"
+    },
+    "ctgov": {
+      "path": "data/curx_ctgov_compact.json",
+      "trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "Phyto-N", "modality": "Botanical drug (medicinal plant extract)", "indication": "Inflammatory diseases (initial focus on ulcerative colitis)", "stage": "Preclinical; IND submission planned Q4 2026, Phase 1 in Australia thereafter", "reason": "Pre-IND, no active clinical trial."}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

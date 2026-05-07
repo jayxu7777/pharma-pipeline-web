@@ -1,0 +1,37 @@
+{
+  "issuer_name": "WEST PHARMACEUTICAL SERVICES INC",
+  "ticker": "WST",
+  "exchange": "NYSE",
+  "cik": "0000105770",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-17",
+      "accession": "0000105770-26-000010",
+      "path": "data/wst_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "Not applicable - components/devices supplier; no proprietary drug pipeline page"
+    },
+    "ctgov": {
+      "path": "data/wst_ctgov_compact.json",
+      "note": "Zero P1-P3 trials with West Pharmaceutical Services as lead sponsor."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "West Pharmaceutical Services manufactures and sells components and delivery systems for injectable drugs (elastomer stoppers/seals, syringes, self-injection systems such as the SmartDose platform, vial-to-bag transfer systems). Customers are pharma/biotech sponsors. West does not develop its own NCEs and has no company-sponsored P1/P2/P3 drug trials."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech/packaging supplier - no proprietary clinical pipeline. West sells primary packaging components (elastomer closures, seals) and delivery devices (e.g. SmartDose wearable injector, Daikyo Crystal Zenith containers) to pharma customers. No company-sponsored therapeutic P1/P2/P3 programs."
+}

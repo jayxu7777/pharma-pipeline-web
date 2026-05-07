@@ -1,0 +1,57 @@
+{
+  "issuer_name": "NutriBand Inc.",
+  "ticker": "NTRBW",
+  "exchange": "Nasdaq",
+  "cik": "0001676047",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-049399",
+      "filing_date": "2026-04-29",
+      "doc": "ea0287168-10k_nutriband.htm"
+    },
+    "website": {
+      "url": "https://nutriband.com/",
+      "error": "no public pipeline page found (Wix-built site, no /pipeline route; pipeline detail only described in 10-K)"
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 0,
+      "note": "No P1-P3 trials listed under sponsor 'NutriBand' on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {
+      "asset": "AVERSA Fentanyl",
+      "modality": "Abuse-deterrent transdermal patch (fentanyl + AVERSA aversive-agent technology, partnered with Kindeva)",
+      "indication": "Chronic pain (abuse-deterrent reformulation of approved fentanyl transdermal system)",
+      "status": "IND-pending. Type C meeting with FDA Division of Anesthesiology, Addiction Medicine, and Pain Medicine held 2025-09-18; company is incorporating CMC feedback and preparing IND filing to support a Phase 1 Human Abuse Potential (HAP) study. Regulatory pathway: 505(b)(2) NDA after a single Phase 1 HAP study (no Phase 2/3 required).",
+      "exclusion_reason": "IND not yet filed — preclinical/IND-pending per scope rules."
+    },
+    {
+      "asset": "AVERSA Buprenorphine",
+      "modality": "Abuse-deterrent transdermal patch",
+      "indication": "Pain (follow-on to AVERSA Fentanyl)",
+      "status": "Pipeline expansion concept; preclinical / pre-IND.",
+      "exclusion_reason": "Preclinical."
+    },
+    {
+      "asset": "AVERSA Methylphenidate",
+      "modality": "Abuse-deterrent transdermal patch",
+      "indication": "ADHD (follow-on)",
+      "status": "Pipeline expansion concept; preclinical / pre-IND.",
+      "exclusion_reason": "Preclinical."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Lead asset AVERSA Fentanyl (abuse-deterrent fentanyl transdermal system, partnered with Kindeva Drug Delivery) is at IND-pending stage as of the FY2025 10-K. Following a 2025-09-18 FDA Type C meeting, NutriBand is preparing an IND to support a Phase 1 Human Abuse Potential study; no IND has been filed and no clinical trial has been initiated. Follow-on assets AVERSA Buprenorphine and AVERSA Methylphenidate are preclinical concepts. No active P1/P2/P3 clinical trials. Note: NTRBW is the warrant ticker; NTRB is the common-stock ticker for the same issuer."
+}

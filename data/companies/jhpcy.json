@@ -1,0 +1,1945 @@
+{
+  "issuer_name": "Jiangsu Hengrui Pharmaceuticals Co., Ltd. / ADR",
+  "ticker": "JHPCY",
+  "exchange": "OTC",
+  "cik": "0002071868",
+  "region": "CN (ADR / OTC US)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer / non-US-domestic — no 10-K on EDGAR (Hengrui is HK/SSE listed; ADR sponsor filings only)."
+    },
+    "website": {
+      "url": "https://www.hengrui.com/en/research/pipeline.html",
+      "note": "Corporate pipeline page returns mostly high-level info; detailed asset-level data not parseable from the rendered page."
+    },
+    "ctgov": {
+      "query": "spons:Jiangsu Hengrui (variants: HengRui)",
+      "kept_p1_p3_total_trials": 738,
+      "lead_sponsor_active_trials": 103,
+      "unique_assets_active": 70
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "SHR-A1811",
+      "aka": [],
+      "modality": "ADC",
+      "target": "HER2",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "HER2-Positive, Unresectable and/or Metastatic Breast Cancer Subjects Previously Treated With Trastuzumab and Taxane",
+          "highest_phase": "P3",
+          "trial_name": "A Trial of SHR-A1811versus Pyrotinib in Combination With Capecitabine in HER2-Positive, Unresectable and/or Metastatic Breast Cancer Subjects Previously Treated With Trastuzumab and Taxane",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05424835"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "HER2-PositiveRecurrent or Metastatic Breast Cancer",
+          "highest_phase": "P3",
+          "trial_name": "A Phase III Study of SHR-A1811 Injection With or Without Pertuzumab in HER2-Positive Recurrent or Metastatic Breast Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06057610"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced Breast Cancer",
+          "highest_phase": "P1",
+          "trial_name": "Investigation of Drug-drug Interaction of Ritonavir and Itraconazole on the Pharmacokinetics of SHR-A1811 in Subjects With HER2-expressing Advanced Breast Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06710990"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "HER2 Expression / Amplification in Patients With Biliary Tract Cancer",
+          "highest_phase": "P2",
+          "trial_name": "Phase II Clinical Study of SHR-A1811 in Patients With HER2 Expression / Amplification of Locally Advanced Unresectable or Recurrent Metastatic Biliary Tract Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06413745"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "HER2-positive Advanced Gastric Cancer or Gastroesophageal Junction Adenocarcinoma",
+          "highest_phase": "P3",
+          "trial_name": "SHR-A1811 for Subjects With Her2-positive Gastric Cancer and Gastroesophageal Junction Adenocarcinoma After Progression on or After First-line Anti-HER2 Therapy-containing Regimen",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06123494"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced Non-small Cell Lung Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Study of SHR-A1811 in Subjects With Advanced Non-small Cell Lung Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT04818333"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Non-Small Cell Lung Cancer With HER2- Mutations",
+          "highest_phase": "P3",
+          "trial_name": "A Study of SHR-A1811 in First-line Treatment of Patients With Advanced or Metastatic Non-small Cell Lung Cancer With HER2 Mutations",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06430437"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Breast Cancer",
+          "highest_phase": "P3",
+          "trial_name": "SHR-A1811 Versus Investigator's Chemotherapy in Recurrent/Metastatic Breast Cancer Clinical Trial",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05814354"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "HER2-Positive Primary Breast Cancer Participants With Residual Invasive Disease Following Neoadjuvant Therapy",
+          "highest_phase": "P3",
+          "trial_name": "A Phase III, Active-Controlled Study of SHR-A1811 Versus Trastuzumab Emtansine (T-DM1) in HER2-Positive Primary Breast Cancer Participants With Residual Invasive Disease Following Neoadjuvant Therapy",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06126640"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Ovarian Cancer",
+          "highest_phase": "P3",
+          "trial_name": "A Study of SHR-A1811 in Subjects With Ovarian Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06828354"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent or Metastatic Cervical Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Phase II Trial of SHR-A1811 in HER2-Expressing Recurrent/Metastatic Cervical Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07051486"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR2554",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "EZH2",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Relapsed or Refractory Mature Lymphoid Neoplasms",
+          "highest_phase": "P1",
+          "trial_name": "A Phase 1 Study of SHR2554 in Subjects With Relapsed or Refractory Mature Lymphoid Neoplasms",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT03603951"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Follicular Lymphoma",
+          "highest_phase": "P2",
+          "trial_name": "A Phase II Study of SHR2554 in Patients With Relapsed or Refractory Follicular Lymphoma",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06368167"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Relapsed/Refractory PTCLT With at Least One Line of Prior Systemic Therapy",
+          "highest_phase": "P3",
+          "trial_name": "SHR2554 Clinical Study of Chidamide in the Treatment of T-cell Lymphoma",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06122389"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced Gastric Cancer",
+          "highest_phase": "P2",
+          "trial_name": "Safety and Efficacy of SHR2554 Combined With Other Antitumor Therapies in Gastric or Gastro-oesophageal Junction Adenocarcinoma",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07102901"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic Gastric Cancer",
+          "highest_phase": "P2",
+          "trial_name": "Safety and Efficacy of SHR2554 Combined With Other Antitumor Therapies in Gastric or Gastro-oesophageal Junction Adenocarcinoma",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07102901"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Gastroesophageal Junction Adenocarcinoma",
+          "highest_phase": "P2",
+          "trial_name": "Safety and Efficacy of SHR2554 Combined With Other Antitumor Therapies in Gastric or Gastro-oesophageal Junction Adenocarcinoma",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07102901"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Locally Advanced or Metastatic Non-small Cell Lung Cancer",
+          "highest_phase": "P2",
+          "trial_name": "Phase II Clinical Study of SHR2554 Tablets Combined With Other Anti-tumor Treatments in Non-small Cell Lung Cancer Subjects",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07175220"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-4642",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "KRAS G12D",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced KRAS G12D Mutant Solid Tumors",
+          "highest_phase": "P2",
+          "trial_name": "A Study of HRS-4642 in Patients With Advanced Solid Tumors Harboring KRAS G12D Mutation",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05533463",
+            "NCT06385678"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "KRAS G12D-Mutant Advanced or Metastatic Pancreatic Cancer in the First-line Setting",
+          "highest_phase": "P3",
+          "trial_name": "HRS 4642 Injection Combined With AG Versus Placebo Combined With AG Therapy in First-Line Advanced or Metastatic Pancreatic Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07232875"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced Solid Tumors",
+          "highest_phase": "P2",
+          "trial_name": "A Study of HRS-4642 in Combination With Antineoplastic Agents in Advanced Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06520488"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Hetrombopag",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "TPO-R (thrombopoietin receptor)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Chemotherapy-Induced Thrombocytopenia",
+          "highest_phase": "P3",
+          "trial_name": "Hetrombopag for the Treatment of Chemotherapy-Induced Thrombocytopenia in Adults With Solid Tumors.",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05864014"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Treatment-naive Severe Aplastic Anemia",
+          "highest_phase": "P3",
+          "trial_name": "Extension Study of Hetrombopag in Severe Aplastic Anemia",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT04961710"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Patients With Chemotherapy-Induced Thrombocytopenia",
+          "highest_phase": "P3",
+          "trial_name": "A Study to Evaluate the Efficacy and Safety of Hetrombopag Olamine Tablets Vs Placebo in Patients With Chemotherapy-Induced Thrombocytopenia",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07286032"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-8427",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "beta-lactamase inhibitor / antibacterial",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Hospital-acquired Bacterial Pneumonia (HABP)",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of HRS-8427 in the Treatment of Adults With Bacterial Pneumonia",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06841731"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Ventilator-associated Bacterial Pneumonia (VABP)",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of HRS-8427 in the Treatment of Adults With Bacterial Pneumonia",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06841731"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Complicated Urinary Tract Infection(cUTI), Including Acute Pyelonephritis(AP)",
+          "highest_phase": "P3",
+          "trial_name": "A Trial of HRS-8427 in the Treatment of Adults With Complicated Urinary Tract Infection, Including Acute Pyelonephritis",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06569056"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRG2010",
+      "aka": [],
+      "modality": "Reformulation",
+      "target": "carbidopa/levodopa sustained release",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Parkinson's Disease",
+          "highest_phase": "P3",
+          "trial_name": "A Study to Evaluate the Efficacy and Safety of HRG2010 in Parkinson's Disease With Motor Fluctuations",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06596876"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HR070803 plus oxaliplatin",
+      "aka": [],
+      "modality": "Liposomal injection",
+      "target": "Irinotecan liposome",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Colorectal Cancer",
+          "highest_phase": "P3",
+          "trial_name": "A Phase II/III Study of HR070803 in Combination With Oxaliplatin, 5-fluorouracil, Calcium Folinate and Bevacizumab Versus FOLFOX in Combination With Bevacizumab for First-line Treatment of Advanced Colorectal Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05945901"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Lutetium (177Lu) Oxodotreotide Injection；long-acting Octreotide",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Gastroenteropancreatic Neuroendocrine Tumor",
+          "highest_phase": "P3",
+          "trial_name": "An Open-label Phase 3 Study of Lutetium (177Lu) Oxodotreotide Injection in Subjects With Advanced Gastrointestinal Pancreatic Neuroendocrine Tumors.",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05884255"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "camrelizumab",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "PD-1",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Gastric Cancer",
+          "highest_phase": "P3",
+          "trial_name": "Study to Evaluate the Efficacy and Safety of Camrelizumab and Apatinib in Patients With GC/GEJC",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT04342910"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-A1811 for",
+      "aka": [],
+      "modality": "ADC",
+      "target": "HER2",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Early-stage or Locally Advanced HER2-positive Breast Cancer",
+          "highest_phase": "P3",
+          "trial_name": "A Trial of SHR-A1811 Compared to Other Antitumor Therapies as Neoadjuvant Treatments in Early-stage or Locally Advanced HER2-positive Breast Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07196774"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Irinotecan",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "First-line Treatment of Metastatic Pancreatic Cancer",
+          "highest_phase": "P3",
+          "trial_name": "Irinotecan Hydrochloride Liposome Injection (II)in Combination With Oxaliplatin, 5-FU/LV Versus AG for First-line Treatment of Metastatic Pancreatic Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07238283"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Herombopag",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "TPO-R",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Thrombocytopenia in Chronic Liver Disease Patients Undergoing Elective Invasive Surgery",
+          "highest_phase": "P3",
+          "trial_name": "The Phase III Clinical Study of Herombopag for the Treatment of Thrombocytopenia in Chronic Liver Disease Patients Undergoing Elective Invasive Surgery",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06507436"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-1316",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "PD-L1",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Non-Small-Cell Lung Cancer",
+          "highest_phase": "P3",
+          "trial_name": "A Trial of SHR-1316/Placebo in Combination With Chemotherapy in Patients With Resectable NSCLC",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT04316364"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "camrelizumab； famitinib malate",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Cervical Cancer",
+          "highest_phase": "P3",
+          "trial_name": "Camrelizumab Combined With Famitinib Malate for Treatment of Recurrent/Metastatic Cervical Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT04906993"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HR070803",
+      "aka": [],
+      "modality": "Liposomal injection",
+      "target": "Irinotecan liposome",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "First-line Treatment of Advanced Pancreatic Cancer",
+          "highest_phase": "P3",
+          "trial_name": "HR070803 in Combination With Oxaliplatin, 5-FU/LV Versus AG for First-line Treatment of Advanced Pancreatic Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05751850"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR7280",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "GnRH antagonist (oral)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Uterine Fibroids With Menorrhagia",
+          "highest_phase": "P3",
+          "trial_name": "A Phase II/III Study of Efficacy and Safety of SHR7280 Tablets in Subjects With Menorrhagia With Uterine Fibroids",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05442827"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR6390",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "CDK4/6 (dalpiciclib)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Hormone Receptor Positive,Human Epidermal Receptor 2 Negative, Node-positive, High Risk, Early Stage，Female Breast Cancer",
+          "highest_phase": "P3",
+          "trial_name": "Phase III Study ：SHR6390/Placebo Combined With Endocrine Therapy for the Adjuvant Treatment of Hormone Receptor Positive,Human Epidermal Receptor 2 Negative",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT04842617"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Rezvilutamide",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "AR antagonist (2nd gen)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Metastatic Hormone-sensitive Prostate Cancer (mHSPC)",
+          "highest_phase": "P3",
+          "trial_name": "A Phase III Clinical Study of Rezvilutamide in Patients With Metastatic Hormone-Sensitive Prostate Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07241416"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Camrelizumab",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Hepatocellular Carcinoma (HCC)",
+          "highest_phase": "P3",
+          "trial_name": "A Study to Evaluate Camrelizumab Plus Rivoceranib (Apatinib) as Adjuvant Therapy in Patients With Hepatocellular Carcinoma (HCC) at High Risk of Recurrence After Curative Resection or Ablation",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT04639180"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Fuzuloparib",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+          "highest_phase": "P3",
+          "trial_name": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Phase III Study of Fuzuloparib Combined With Abiraterone Acetate and Prednisone (AA-P) Versus Placebo Combined With AA-P as First-Line Treatment in Patients With Metastatic Castration-Resistant Prostate Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT04691804"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TACE",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Hepatocellular Carcinoma",
+          "highest_phase": "P3",
+          "trial_name": "A Study of TACE Combined With Camrelizumab Plus Rivoceranib (Apatinib) in Patients With Incurable Hepatocellular Carcinoma",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05320692"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Remimazolam Tosilate for",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Operative Sedation of Pediatric",
+          "highest_phase": "P3",
+          "trial_name": "A Trial of Remimazolam for Intraoperative Sedation in Pediatric and Adolescent Patients",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07036419"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Operative Sedation of Adolescent Patients",
+          "highest_phase": "P3",
+          "trial_name": "A Trial of Remimazolam for Intraoperative Sedation in Pediatric and Adolescent Patients",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07036419"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Noiiglutide",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Type 2 Diabetes",
+          "highest_phase": "P3",
+          "trial_name": "The Experiment of Noiiglutide Injection in Type 2 Diabetes Patients",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06649773"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HR091506",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Gout With Hyperuricemia in Adults",
+          "highest_phase": "P3",
+          "trial_name": "Clinical Trial of HR091506 Tablets in Treatment of Gout With Hyperuricemia in Adults",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06414837"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "68Ga-DOTATOC",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Gastroenteropancreatic Neuroendocrine Tumor",
+          "highest_phase": "P3",
+          "trial_name": "Gallium (68Ga) Edotreotide PET/CT for Imaging Patients With Gastrointestinal Pancreatic Neuroendocrine Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06091748"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-4357",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "PSMA-Positive Progressive Metastatic Castration-Resistant Prostate Cancer",
+          "highest_phase": "P3",
+          "trial_name": "A Phase III Study Comparing HRS-4357 With Novel Androgen Receptor Pathway Inhibitors in Patients With Progressive, PSMA-Positive Metastatic Castration-Resistant Prostate Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07311694"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-3167",
+      "aka": [],
+      "modality": "Small molecule / agonist",
+      "target": "GLP-1R / GIPR (oral GLP-1 candidate)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Type 2 Diabetes Mellitus",
+          "highest_phase": "P2",
+          "trial_name": "A Study Comparing SHR-3167 and Insulin Degludec in Type 2 Diabetic Subjects Treated With Basal Insulin With or Without Oral Antidiabetic Drugs",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07018453"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Diabetes Mellitus, Type 2",
+          "highest_phase": "P2",
+          "trial_name": "A Study Comparing Safety and Efficacy of SHR-3167 Fixed-Dose Titration and Individualized-Dose Titration in Adults With Type 2 Diabetes Inadequately Controlled With Oral Antihyperglycemic Agents",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07472725"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Type 2 Diabetes",
+          "highest_phase": "P2",
+          "trial_name": "Efficacy and Safety of SHR-3167 and Insulin Glargine in Type 2 Diabetes Subjects",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06688123",
+            "NCT07032688"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING,RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Diabetes Mellitus",
+          "highest_phase": "P1",
+          "trial_name": "A Clinical Study Comparing the Relative Bioavailability and Safety of SHR-3167 Injection",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07489482"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-4508",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed (oncology)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Solid Tumors",
+          "highest_phase": "P1",
+          "trial_name": "A Clinical Study of the Safety, Tolerability, Pharmacokinetics, and Initial Efficacy of HRS-4508 Monotherapy in Patients With Advanced or Metastatic Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06598735"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Solid Tumor",
+          "highest_phase": "P2",
+          "trial_name": "A Study of HRS-4508 in Combination With Other Anti-tumor Therapy for Solid Tumor",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07003321",
+            "NCT07140393"
+          ],
+          "trial_status": "NOT_YET_RECRUITING,RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Lung Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of HRS-4508 Combined With Other Antitumor Therapies in Subjects With Locally Advanced or Metastatic Non-small Cell Lung Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07232849"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-1167",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "PARP1 selective inhibitor",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Prostate Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Study for the Treatment of Metastatic Prostate Cancer With HRS-1167 Tablets Combined With Abiraterone Acetate Tablets and Prednisone",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06689163"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced Solid Tumors",
+          "highest_phase": "P1",
+          "trial_name": "Study of HRS-1167 as Monotherapy in Patients With Advanced Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05473624"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-9190",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "neuromuscular blocker",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Neuromuscular Blockade",
+          "highest_phase": "P2",
+          "trial_name": "Safety and Efficacy of HRS-9190 Compared to Rocuronium for Bolus Maintenance in Adults",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07404579",
+            "NCT07446309"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-6209",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed (breast cancer)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Breast Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Clinical Study of HRS-6209 Combined With Other Treatment Regimens in Patients With Breast Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06974929"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced Solid Tumors",
+          "highest_phase": "P1",
+          "trial_name": "A Phase I Clinical Study of the Safety， Tolerability，Pharmacokinetics, and Initial Efficacy of HRS-6209 Monotherapy in Patients With Advanced Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05781048"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-5041",
+      "aka": [],
+      "modality": "Radioligand",
+      "target": "PSMA (prostate)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Prostate Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Study of HRS-5041 Tablets Combined With Antitumor Therapy in Subjects With Advanced Prostate Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06568094"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced Prostate Cancer",
+          "highest_phase": "P1",
+          "trial_name": "Study of HRS-5041 in Patients With Metastatic Castration Resistant Prostate Cancer (mCRPC)",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05942001"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RSS0393",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "topical (psoriasis)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Plaque Psoriasis in Children",
+          "highest_phase": "P2",
+          "trial_name": "A Clinical Study to Evaluate the Safety and Pharmacokinetics of Topical RSS0393 Ointment in Children and Adolescents With Plaque Psoriasis",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07102888"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Plaque Psoriasis in Adolescents",
+          "highest_phase": "P2",
+          "trial_name": "A Clinical Study to Evaluate the Safety and Pharmacokinetics of Topical RSS0393 Ointment in Children and Adolescents With Plaque Psoriasis",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07102888"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Psoriatic Subjects",
+          "highest_phase": "P2",
+          "trial_name": "To Evaluate the Efficacy and Safety of RSS0393 Ointment in Patients With Plaque Psoriasis Phase II Study",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06918743"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "FH-006",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed oncology",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Lung Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Phase II Clinical Study of FH-006 for Injection Combined With Other Anticancer Therapies in Subjects With Lung Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07241767"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Malignant Solid Tumor",
+          "highest_phase": "P2",
+          "trial_name": "Phase I/II Clinical Study of FH-006 for Injection in Patients With Malignant Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06735144"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-4394",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed (prostate cancer)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Prostate Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Clinical Study of SHR-4394 in Combination With Anti-tumor Therapy in Prostate Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07407283"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-8364",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Solid Tumor",
+          "highest_phase": "P2",
+          "trial_name": "A Clinical Study of HRS-8364 in the Treatment of Advanced Solid Tumor Subjects",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07446153"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR4640 ；Febuxostat",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "URAT1",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Primary Gout and Hyperuricemia",
+          "highest_phase": "P2",
+          "trial_name": "The Efficacy and Safety of SHR4640 Tablet Combined With 40 mg Febuxostat Tablets in the Treatment of Primary Gout and Hyperuricemia",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07362355"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Bupivacaine",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Local Analgesia Via Nerve Block",
+          "highest_phase": "P2",
+          "trial_name": "A Study of Bupivacaine Liposome Injection in the Treatment of Pain After Thoracoscopic Surgery",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06529432"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-1738",
+      "aka": [],
+      "modality": "Imaging tracer",
+      "target": "PSMA PET",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "PET Imaging in Patients With Prostate Cancer",
+          "highest_phase": "P2",
+          "trial_name": "Phase I/II Clinical Study of HRS-1738 for the Diagnosis of Prostate Cancer Patients",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07056439"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR0302",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "JAK1",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Non-segmental Vitiligo",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of SHR0302 Tablets and SHR0302 Base Gel in Patients With Non-segmental Vitiligo",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07251595"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR0302Base",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Vitiligo",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of SHR0302Base in Patients With Vitiligo",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06790862"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-9803",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Solid Tumors",
+          "highest_phase": "P2",
+          "trial_name": "A Study of SHR-9803 for Injection in Patients With Advanced Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06906731"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20093 for",
+      "aka": [],
+      "modality": "ADC",
+      "target": "B7-H3",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Prostate Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Study of SHR3680, HS-20093 and SHR2554 in Subjects With Prostate Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07230106"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Tegileridine",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "opioid (sedation)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Abirritation in the ICU",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of Tegileridine Fumarate Lnjection for Prolonged Mechanical Ventilation Abirritation in the Intensive Care Unit (ICU)",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07372924"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-6213",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed (oncology)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Patients With Solid Tumors",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of HRS-6213 in Healthy Subjects and Patients With Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07070349"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-A1904",
+      "aka": [],
+      "modality": "ADC",
+      "target": "CLDN18.2",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Solid Tumors",
+          "highest_phase": "P2",
+          "trial_name": "A TRIAL TO EVALUATE THE SAFETY, TOLERABILITY, PHARMACOKINETICS, AND EFFICACY OF SHR-A1904 IN SUBJECTS WITH ADVANCED SOLID TUMORS",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05277168"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-A1811 & Pyrotinib/SHR-A1811 & SHR-1316",
+      "aka": [],
+      "modality": "ADC",
+      "target": "HER2",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Non-small Cell Lung Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of Injectable SHR-A1811 in Combination With Pyrotinib or SHR-1316 in Subjects With Advanced Non-small Cell Lung Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05482568"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RSS0343 Tabella",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "asthma",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Adolescent Asthma",
+          "highest_phase": "P2",
+          "trial_name": "Study of RSS0343 Tablets in Patients With Non-cystic Fibrosis Bronchiectasis",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06775340"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "FH-006 for",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed oncology",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Malignant Solid Tumor",
+          "highest_phase": "P2",
+          "trial_name": "A Phase I/II Clinical Study of FH-006 for Injection in Patients With Malignant Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07136142"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-6768",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Solid Tumors",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of HRS-6768 in Patients With Advanced Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06925581"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR- A1811",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Gynaecological Malignancies",
+          "highest_phase": "P2",
+          "trial_name": "A Study of SHR-A1811 in Subjects With Gynaecologic Oncology",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT05896020"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR2554/CHOP",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Peripheral T-cell Lymphoma",
+          "highest_phase": "P2",
+          "trial_name": "A Study of SHR2554 With Chemotherapy in Treatment-naïve Patients With Peripheral T-cell Lymphoma",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06173999"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-A1811 combined with Pyrotinib.",
+      "aka": [],
+      "modality": "ADC",
+      "target": "HER2",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "HER2-expressing Advanced Solid Tumors",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of SHR-A1811 Combined With Other Antitumor Therapies in Advanced Solid Tumors.",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06015048"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-9231",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "For Contrast-enhanced Magnetic Resonance Imaging (MRI) of Central Nervous System (CNS) Lesions",
+          "highest_phase": "P2",
+          "trial_name": "A Study for Adults Undergoing Magnetic Resonance Imaging (MRI) for Known or Highly Suspected Brain and/or Spinal Cord Conditions",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06731829"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-6209 in Combination with Fulvestrant",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed (breast cancer)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Unresectable or Metastatic Breast Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of HRS-6209 in Combination With Fulvestrant, Letrozole, HRS-8080, or HRS-1358 in Breast Cancer Patients",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06555068"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Linperlisib ； Rituximab",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory Indolent NHL",
+          "highest_phase": "P2",
+          "trial_name": "A Study of Linperlisib (YY-20394) in Combination With Rituximab in Patients With Relapsed/Refractory Indolent NHL",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06981988"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-4602",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "HER2-expressing or -Mutated Unresectable or Metastatic Solid Tumors",
+          "highest_phase": "P2",
+          "trial_name": "SHR-4602 for Injection in Subjects With HER2-expressing or -Mutated Unresectable or Metastatic Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06516926"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Trastuzumab Rezetecan for",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Unresectable Locally Recurrent Breast Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of Trastuzumab Rezetecan in Unresectable Locally Recurrent/Metastatic Breast Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07497386"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Unresectable Locally Metastatic Breast Cancer",
+          "highest_phase": "P2",
+          "trial_name": "A Trial of Trastuzumab Rezetecan in Unresectable Locally Recurrent/Metastatic Breast Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07497386"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-1209",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "PCSK9",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Hypercholesterolemia and Hyperlipidemia",
+          "highest_phase": "P1",
+          "trial_name": "Study of SHR-1209 Administered by Single-site or Multiple-site Subcutaneous Injections in Healthy Volunteers",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06837077"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HR011408",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed metabolic",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Diabetes",
+          "highest_phase": "P1",
+          "trial_name": "Comparison of HR011408 and NovoRapid® in Subjects With Diabetics",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06375031"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-2183",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Chinese Healthy Adult Subjects",
+          "highest_phase": "P1",
+          "trial_name": "Safety, Tolerability and Pharmacokinetic Studies of HRS-2183 for Injection in Healthy Chinese Subjects After Single and Multiple Administration",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07232758"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "dalpiciclib isethionate",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "CDK4/6",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "High-volume, Metastatic, Hormone-sensitive Prostate Cancer (mHSPC)",
+          "highest_phase": "P1",
+          "trial_name": "Dalpiciclib Isethionate Tablets Combined With Abiraterone Acetate Tablets (I) and Prednisone Tablets (AA-P) Versus Placebo Combined With AA-P in Treatment of High-volume, Metastatic, Hormone-sensitive Prostate Cancer (mHSPC)",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06099990"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "[14C] HRS-9190",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Healthy Adult Male",
+          "highest_phase": "P1",
+          "trial_name": "Study on the Mass Balance of [14C]HRS-9190 for Injection in Healthy Participants",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07494175"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-3005",
+      "aka": [],
+      "modality": "Bispecific/T-cell engager",
+      "target": "undisclosed (B-cell)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "B-cell Malignancy",
+          "highest_phase": "P1",
+          "trial_name": "Phase I Study of HRS-3005 in B-cell Malignancies",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07556822"
+          ],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-7172",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed (RAS)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Solid Tumors Harboring RAS Mutations or Amplifications",
+          "highest_phase": "P1",
+          "trial_name": "A Phase I Study of HRS-7172 in Participants With Advanced Solid Tumors Harboring RAS Mutations or Amplifications",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07142980"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-2329",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Solid Tumors Harboring RAS Mutations or Amplifications",
+          "highest_phase": "P1",
+          "trial_name": "A Study of HRS-2329 in Participants With Advanced Solid Tumors Harboring RAS Mutations or Amplifications",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07189949"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RSS0393 ointment；Placebo",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "topical (psoriasis)",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Healthy",
+          "highest_phase": "P1",
+          "trial_name": "Randomized, Double-blind, Placebo-controlled Study of RSS0393 Ointment in Healthy and Psoriatic Subjects",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06308393"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Psoriatic Subjects",
+          "highest_phase": "P1",
+          "trial_name": "Randomized, Double-blind, Placebo-controlled Study of RSS0393 Ointment in Healthy and Psoriatic Subjects",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06308393"
+          ],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HRS-6093",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "KRAS G12D",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced KRAS G12D Mutant Solid Tumors",
+          "highest_phase": "P1",
+          "trial_name": "Phase I Study of HRS-6093 in Participants With Advanced Solid Tumors Harboring KRAS G12D Mutations",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07134998"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR4394",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Prostate Cancer",
+          "highest_phase": "P1",
+          "trial_name": "A Study of SHR-4394 Injection in Subjects With Prostate Cancer",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT06783829"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SHR-1049",
+      "aka": [],
+      "modality": "undisclosed",
+      "target": "undisclosed",
+      "license_origin": "Hengrui internal",
+      "indications": [
+        {
+          "indication": "Advanced Solid Tumor",
+          "highest_phase": "P1",
+          "trial_name": "A Clinical Study on the Safety, Tolerability, Pharmacokinetics and Efficacy of SHR-1049 in Patients With Advanced Solid Tumors",
+          "trial_design": "Interventional",
+          "nct_ids": [
+            "NCT07380334"
+          ],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Many UNKNOWN-status trials (e.g. NCT04650633 SHR-1701) excluded as not actively recruiting per ctgov."
+  ],
+  "excluded_partner_owned": [
+    "Investigator-initiated and academic-led trials with Hengrui only as collaborator are excluded."
+  ],
+  "summary_counts": {
+    "P3": 26,
+    "P2": 32,
+    "P1": 12,
+    "total_assets": 70
+  }
+}

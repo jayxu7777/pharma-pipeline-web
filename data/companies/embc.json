@@ -1,0 +1,57 @@
+{
+  "issuer_name": "Embecta Corp.",
+  "ticker": "EMBC",
+  "exchange": "Nasdaq",
+  "cik": "0001872789",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001872789-25-000036",
+      "filing_date": "2025-11-25",
+      "doc": "embc-20250930.htm",
+      "path": "data/embc_10k_full.htm",
+      "note": "Pipeline-section heading not located by slicer (device company; no Pipeline section). Full 10-K cached for reference."
+    },
+    "website": {
+      "url_tried": ["https://www.embecta.com/"],
+      "note": "Corporate site lists pen needles (Nano 2nd Gen, Nano 4mm, Ultra-Fine), Ultra-Fine insulin syringes, and accessories. No drug or active investigational-device pipeline disclosed."
+    },
+    "ctgov": {
+      "query": "spons=Embecta",
+      "raw_results": 2,
+      "kept_p1_p3": 0,
+      "path": "data/embc_ctgov_compact.json",
+      "note": "Two non-interventional/observational records exist; none are P1-P3 drug or device interventional studies."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Diabetes injection devices (Becton Dickinson Diabetes Care spin-off, May 2022)",
+    "marketed_platforms": [
+      "BD Nano 2nd Gen pen needles",
+      "BD Nano 4mm pen needles",
+      "BD Ultra-Fine pen needles",
+      "BD Ultra-Fine insulin syringes",
+      "Safety pen needles and safety syringes for clinical settings",
+      "Alcohol swabs and accessories"
+    ],
+    "regulatory_status": "FDA-cleared diabetes injection devices; sold globally to >30 million people in >100 countries."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "Embecta insulin patch pump (open-loop, 300-unit reservoir)",
+      "status": "FDA 510(k) cleared Sept 2024; program discontinued Nov 2024 in connection with restructuring; will not be commercially launched and closed-loop development halted."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Embecta is a pure-play diabetes injection-device company spun off from Becton Dickinson in 2022. It markets pen needles and insulin syringes; it develops no proprietary drugs and sponsors no active P1/P2/P3 trials. Its sole investigational-device program (insulin patch pump) was discontinued in November 2024 after restructuring."
+}

@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Medline Inc.",
+  "ticker": "MDLN",
+  "exchange": "Nasdaq",
+  "cik": "0002046386",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0002046386-26-000009",
+      "filing_date": "2026-02-25",
+      "doc": "mdln-20251231.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found (403 on https://www.medline.com/pipeline; Medline is a medical supplies manufacturer/distributor and does not publish a clinical-pipeline page)"
+    },
+    "ctgov": {
+      "query_sponsor": "Medline Industries",
+      "studies_returned": 11,
+      "active_p1_p3_company_sponsored": 0,
+      "note": "All 9 Medline-sponsored interventional studies (chlorhexidine gluconate / CHG skin-prep cloth) are COMPLETED. The single RECRUITING study (PluroGel burn dressing, NCT05000983) is sponsored by University of Manitoba, with Medline as collaborator only."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Medline is a privately-founded, recently-IPO'd manufacturer and distributor of medical-surgical supplies, durable medical equipment, and PPE. Marketed product families include CHG (chlorhexidine gluconate) skin-preparation cloths, PluroGel burn-wound matrix, exam/surgical gloves, gowns, drapes, custom procedure trays, and a broad commodity-supply catalog. None require an active drug-development pipeline."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT02222896", "reason": "COMPLETED 2014 — CHG cloth on healthy subjects"},
+    {"nct_id": "NCT02224625", "reason": "COMPLETED 2015 — CHG cloth irritation/sensitization"},
+    {"nct_id": "NCT03331263", "reason": "COMPLETED 2017 — single-dose CHG PK"},
+    {"nct_id": "NCT02526667", "reason": "COMPLETED 2015 — preoperative CHG cloth"},
+    {"nct_id": "NCT02530554", "reason": "COMPLETED 2015 — pilot CHG skin prep"},
+    {"nct_id": "NCT02530528", "reason": "COMPLETED 2014 — pilot preoperative CHG"},
+    {"nct_id": "NCT02530541", "reason": "COMPLETED 2014 — antimicrobial efficacy of 2% CHG"},
+    {"nct_id": "NCT03326726", "reason": "COMPLETED 2016 — 2% CHG evaluation"},
+    {"nct_id": "NCT02291601", "reason": "COMPLETED 2015 — preoperative CHG cloth"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT05000983", "reason": "PluroGel burn dressing — lead sponsor is University of Manitoba (investigator-initiated); Medline is collaborator only"}
+  ],
+  "summary_counts": {
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medline is a medical-surgical supply manufacturer/distributor; it has no proprietary drug or device development pipeline in active P1/P2/P3 trials. All company-sponsored interventional studies on file are completed CHG (chlorhexidine gluconate) skin-prep cloth studies for an already-marketed antiseptic product."
+}

@@ -1,0 +1,48 @@
+{
+  "issuer_name": "RetinalGenix Technologies Inc.",
+  "ticker": "RTGN",
+  "exchange": "OTC",
+  "cik": "0001836295",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-016638",
+      "filing_date": "2026-04-15",
+      "doc": "form10-k.htm",
+      "note": "10-K describes a development-stage ophthalmic imaging device company plus two early planned drug-repurposing candidates (RTG-2023 dry AMD, RTG-2024 Alzheimer's); both are pre-IND with Avania Clinical only contracted as initial advisor. A Pearl IRB observational study on anti-VEGF response in wet AMD is ongoing but is not an interventional sponsor-led drug trial."
+    },
+    "website": {
+      "url": "https://retinalgenix.com",
+      "note": "No /pipeline page. Site describes high-resolution retinal imaging device and Pharmaco-Genetic Mapping platform; no specific drug pipeline page disclosed."
+    },
+    "ctgov": {
+      "sponsor_query": "RetinalGenix",
+      "unique_p1_p3_trials": 0,
+      "note": "No sponsor-led interventional P1/P2/P3 trials registered."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {
+      "asset": "RTG-2023",
+      "indication": "Dry age-related macular degeneration (dry AMD)",
+      "reason": "Pre-IND drug-repurposing candidate; advisor (Avania Clinical) only contracted, no IND filed and no clinical trial initiated as of 2025 10-K."
+    },
+    {
+      "asset": "RTG-2024",
+      "indication": "Alzheimer's syndrome dementia",
+      "reason": "Pre-IND drug-repurposing candidate; advisor (Avania Clinical) only contracted, no IND filed and no clinical trial initiated as of 2025 10-K."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Development-stage ophthalmic imaging / diagnostics device company. Two named drug-repurposing candidates (RTG-2023, RTG-2024) remain pre-IND / preclinical planning with no active P1/P2/P3 trials. Ongoing Pearl IRB study is observational anti-VEGF response work, not an interventional drug trial."
+}

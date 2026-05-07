@@ -1,0 +1,29 @@
+{
+  "issuer_name": "ANI Pharmaceuticals, Inc.",
+  "ticker": "ANIP",
+  "exchange": "Nasdaq",
+  "cik": "0001023024",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "10-K fetched but no 'pipeline' section heading detected — ANI is primarily a commercial-stage specialty + generics + ophthalmics company; no dedicated pipeline section in the filing"},
+    "website": {"url": "https://www.anipharmaceuticals.com", "note": "corporate site lists only marketed products (Cortrophin Gel, ILUVIEN, YUTIQ, generics); no clinical-stage pipeline page exists"},
+    "ctgov": {"file": "data/anip_ctgov_compact.json", "trial_count": 6, "active_with_ani_role": 1}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "ANI Pharmaceuticals is a commercial-stage specialty/generics + rare-disease company. Marketed products include Cortrophin Gel (ACTH), ILUVIEN, YUTIQ (acquired via Alimera 2024), Arimidex, vancomycin oral solution, etc. No internally-sponsored Phase 1/2/3 clinical development programs were identified in the latest 10-K, on the corporate website, or as a lead sponsor on ClinicalTrials.gov. The single active study (NCT05486468, YUTIQ uveitis label-expansion P3) is investigator-initiated by Texas Retina Associates with ANI as collaborator — listed under excluded_partner_owned.",
+  "commercial_product": {
+    "marketed": ["Cortrophin Gel (repository corticotropin injection)", "ILUVIEN (fluocinolone acetonide intravitreal implant 0.19 mg)", "YUTIQ (fluocinolone acetonide intravitreal implant 0.18 mg)", "Arimidex", "Vancomycin oral solution", "various generics and specialty branded products"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT00770770 — Iluvien for Retinal Vein Occlusion, Phase 2, Terminated",
+    "NCT00695318 — Iluvien for Geographic Atrophy/AMD, Phase 2, Terminated",
+    "NCT00490815 / NCT00344968 / NCT01304706 — historical Iluvien DME registrational program, Completed (drug already approved)"
+  ],
+  "excluded_partner_owned": [
+    "NCT05486468 — YUTIQ for chronic non-infectious posterior-segment uveitis, Phase 3, Recruiting; lead sponsor Texas Retina Associates (investigator-initiated), ANI Pharmaceuticals listed only as collaborator alongside EyePoint Pharmaceuticals — not an ANI-sponsored development program"
+  ],
+  "summary_counts": {"assets": 0, "phase3": 0, "phase2": 0, "phase1_or_1_2": 0, "indications_total": 0}
+}

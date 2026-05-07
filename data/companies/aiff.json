@@ -1,0 +1,53 @@
+{
+  "issuer_name": "Firefly Neuroscience, Inc.",
+  "ticker": "AIFF",
+  "exchange": "Nasdaq",
+  "cik": "0000803578",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-26-010500",
+      "filing_date": "2026-03-31",
+      "doc": "aiff20251231_10k.htm"
+    },
+    "website": {
+      "url": "https://fireflyneuro.com",
+      "note": "Corporate site describes the FDA-cleared Evoke / BNA (Brain Network Analytics) qEEG/ERP platform; no drug-pipeline page."
+    },
+    "ctgov": {
+      "sponsor_query": "Firefly Neuroscience",
+      "unique_trials": 0,
+      "note": "No company-sponsored interventional P1/P2/P3 drug or device trials. Firefly's EEG analytics have been used as exploratory biomarkers in third-party industry studies (e.g., Novartis MIJ821 / onfasprodil Phase I, published 2023), but Firefly is not the sponsor and the asset is not its own."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "Evoke System (BNA Platform)",
+        "type": "FDA-cleared Class II medical device (qEEG / event-related potentials analytics)",
+        "regulatory_status": "FDA 510(k) cleared (initial BNA Analysis System cleared July 2014 for ages 14-24; Evoke / BNA Platform commercialized as successor)",
+        "indication": "Quantitative EEG and ERP analysis to support assessment across neuropsychiatric and neurological conditions; deployed at 85+ clinical sites."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "asset": "MIJ821 (onfasprodil)",
+      "owner": "Novartis",
+      "reason": "Third-party Phase I study where Firefly's EEG analytics served as a CNS biomarker readout; the drug asset is not Firefly's."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "registrational_or_filed": 0
+  },
+  "no_active_clinical_pipeline_reason": "Commercial-stage medtech / brain-health diagnostics company. The Evoke/BNA platform is FDA 510(k) cleared and marketed; the company has no proprietary drug assets and no active company-sponsored interventional P1/P2/P3 trials of its own device beyond commercial use."
+}

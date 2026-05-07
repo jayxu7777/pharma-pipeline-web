@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Sol-Gel Technologies Ltd.",
+  "ticker": "SLGL",
+  "exchange": "Nasdaq",
+  "cik": "0001684693",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Israeli) — files 20-F, no 10-K on EDGAR"},
+    "website": {"error": "https://www.sol-gel.com/pipeline/ returned HTTP 403 to fetcher; details from press releases / IR site"},
+    "ctgov": {"file": "data/slgl_ctgov_compact.json", "trial_count": 15}
+  },
+  "pipeline": [
+    {
+      "asset": "SGT-610 (patidegib topical gel 2%)",
+      "aka": ["Patidegib", "IPI-926", "Saridegib"],
+      "modality": "Topical small-molecule Hedgehog (Smoothened) inhibitor gel",
+      "target": "Smoothened (SMO) — Hedgehog pathway",
+      "license_origin": "Acquired from PellePharm",
+      "indications": [
+        {
+          "indication": "Prevention of new basal cell carcinomas in adults with Gorlin Syndrome",
+          "highest_phase": "Phase 3",
+          "trial_name": "SGT-610 Phase 3 (Gorlin Syndrome)",
+          "trial_design": "Randomized, vehicle-controlled Phase 3 (~140 subjects at ~40 sites in North America, UK, Europe); single pivotal study agreed with FDA/EMA",
+          "nct_ids": ["NCT06050122"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Sol-Gel Technologies, Ltd.",
+          "key_milestones": ["FDA Orphan Drug + Breakthrough Therapy designation; topline results expected Q4 2026; primary completion ctgov August 2026; high-frequency BCC indication being explored as next step"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Twyneo (tretinoin + benzoyl peroxide)",
+    "indication": "Acne vulgaris",
+    "status": "FDA-approved (2021); commercialized via partner",
+    "note": "Out-licensed; not part of active clinical pipeline"
+  },
+  "excluded_preclinical": ["Earlier microencapsulation pipeline assets in dermatology — no active clinical trials"],
+  "excluded_legacy_terminated": [
+    "Patidegib in non-Gorlin high-frequency BCC Phase 2 (NCT04155190) — TERMINATED",
+    "S2G6T-1 tinea pedis Phase 2 (NCT02842021) — TERMINATED",
+    "Several earlier dermatology Phase 1/2 trials — COMPLETED with no ongoing follow-on (DER 45-EV rosacea, encapsulated BPO, Epsolay/Twyneo support studies)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 0, "P1": 0}
+}

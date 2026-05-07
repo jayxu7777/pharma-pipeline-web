@@ -1,0 +1,74 @@
+{
+  "issuer_name": "Eledon Pharmaceuticals, Inc.",
+  "ticker": "ELDN",
+  "exchange": "Nasdaq",
+  "cik": "0001404281",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-19",
+      "accession": "0001193125-26-116164",
+      "path": "data/eldn_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page fetched (relying on 10-K + ctgov)"},
+    "ctgov": {"path": "data/eldn_ctgov_compact.json", "trials_kept": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "Tegoprubart",
+      "aka": ["AT-1501"],
+      "modality": "Anti-CD40L IgG1 monoclonal antibody (Fc-modified to avoid platelet activation)",
+      "target": "CD40 Ligand (CD154)",
+      "license_origin": "Eledon internal (acquired via Anelixis Therapeutics, Sept 2020)",
+      "indications": [
+        {
+          "indication": "Prevention of allograft rejection in de novo kidney transplantation",
+          "highest_phase": "P2",
+          "trial_name": "BESTOW (Phase 2) and Phase 1b kidney transplant studies",
+          "trial_design": "BESTOW: multi-center, two-arm, head-to-head superiority Phase 2 vs tacrolimus, ~120 participants; primary endpoint eGFR at 12 months. Phase 1b open-label, up to 36 patients, tegoprubart-based regimen replacing tacrolimus",
+          "nct_ids": ["NCT05983770", "NCT05027906", "NCT06126380"],
+          "trial_status": "BESTOW completed (last patient dosed Sept 4, 2025; topline reported Nov 6, 2025 — non-inferior on efficacy composite, favorable safety vs tacrolimus). Long-term extension enrolling by invitation. Phase 1b recruiting. Phase 3 planning underway in 2026 pending FDA guidance.",
+          "lead_sponsor": "Eledon Pharmaceuticals",
+          "key_milestones": ["Nov 2025 BESTOW topline", "2026 FDA Phase 3 design discussions"]
+        },
+        {
+          "indication": "Xenotransplantation (genetically modified pig kidney/heart) — collaboration with eGenesis",
+          "highest_phase": "P1",
+          "trial_name": "eGenesis xenotransplant procedures using tegoprubart-based immunosuppression",
+          "trial_design": "Compassionate use / early clinical xenotransplantation procedures (4 to date: 3 pig kidneys, 1 pig heart) under FDA expanded access / IND",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active — 4 procedures conducted; 2 kidney recipients alive (1 maintains pig kidney function)",
+          "lead_sponsor": "eGenesis (collaborator); Eledon supplies tegoprubart",
+          "key_milestones": []
+        },
+        {
+          "indication": "Islet cell transplantation for Type 1 diabetes (investigator-initiated)",
+          "highest_phase": "P2",
+          "trial_name": "University of Chicago investigator-initiated islet transplantation",
+          "trial_design": "Investigator-initiated open-label study assessing CNI-free immunosuppression with tegoprubart in T1D patients undergoing ICT",
+          "nct_ids": ["NCT06305286"],
+          "trial_status": "Recruiting — as of Nov 2025, 8 patients underwent ICT with tegoprubart; first 6 reported insulin independence",
+          "lead_sponsor": "University of Chicago (Eledon supplies drug only — investigator-initiated)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT05125068", "reason": "IgA Nephropathy Phase 2 — Terminated (program deprioritized Jan 2023)"},
+    {"nct": "NCT05480657", "reason": "Brittle T1D islet ICT Phase 1/2 — Withdrawn (company-funded ICT program discontinued Jan 2023)"},
+    {"nct": "NCT04711226", "reason": "Anelixis-sponsored islet Phase 2 — Withdrawn"},
+    {"nct": "NCT04322149", "reason": "Anelixis Phase 2a in ALS — Completed (program paused; awaiting funding)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p1": 0,
+    "p2": 1,
+    "p3": 0,
+    "note": "Single asset (tegoprubart) with multiple indications; highest = P2 kidney allograft (BESTOW). Phase 3 planned but not initiated."
+  }
+}

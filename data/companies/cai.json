@@ -1,0 +1,31 @@
+{
+  "issuer_name": "Caris Life Sciences, Inc.",
+  "ticker": "CAI",
+  "exchange": "Nasdaq",
+  "cik": "0002019410",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/cai_10k_pipeline_section.html", "filing_date": "2026-03-03", "accession": "0002019410-26-000016", "note": "10-K describes Caris as a precision medicine / molecular science platform company offering whole exome and whole transcriptome sequencing (WES/WTS) profiling, AI-powered bioinformatics, and a clinico-genomic database. The 'pipeline' references in the 10-K are to the bioinformatics analytical pipeline and to molecular signature / data-asset programs (e.g., breast cancer prognostic signatures), not to proprietary therapeutic drug candidates."},
+    "website": {"url": "https://www.carislifesciences.com/research/pipeline/", "note": "Pipeline page exists but is JavaScript-rendered and could not be extracted via WebFetch. Description references 'currently planned molecular science-based solutions' (i.e. diagnostic assays / signatures), not drug therapeutics."},
+    "ctgov": {"file": "data/cai_ctgov_compact.json", "total_records": 2, "active_p1_p3_caris_owned": 0, "note": "Only 2 records list Caris-related sponsors; both are TERMINATED or WITHDRAWN, and lead sponsors are external academic / Debiopharm / Georgetown University - Caris was a diagnostic collaborator, not the asset owner."}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Caris commercial offerings are diagnostic / molecular profiling assays, not therapeutics.",
+    "products": [
+      "MI Cancer Seek (FDA-authorized comprehensive WES/WTS tissue profiling)",
+      "Caris Assure (blood-based liquid biopsy)",
+      "MI Profile / MI Tumor Seek Hybrid (tissue-based molecular profiling)",
+      "Caris Discovery / data-asset partnerships with biopharma"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"reason": "Of the 2 ctgov records returned for the Caris query, 1 was TERMINATED and 1 was WITHDRAWN (lead sponsors Debiopharm International SA and Georgetown University); neither was a Caris-owned therapeutic asset."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0},
+  "no_active_clinical_pipeline_reason": "Diagnostics-only / precision-medicine services company - no proprietary therapeutic pipeline. Caris develops and commercializes molecular profiling assays (MI Cancer Seek, Caris Assure, MI Tumor Seek Hybrid) and operates a clinico-genomic data platform for biopharma partners. The company does not own or develop drug candidates. Per scoping rule for diagnostics / lab-services issuers, pipeline is empty."
+}

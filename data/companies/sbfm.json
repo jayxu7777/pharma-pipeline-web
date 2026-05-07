@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Sunshine Biopharma Inc.",
+  "ticker": "SBFM",
+  "exchange": "Nasdaq",
+  "cik": "0001402328",
+  "region": "US/Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001683168-26-002644", "filed": "2026-04-03", "doc": "sunshine_i10k-123125.htm"},
+    "website": {"url": "https://sunshinebiopharma.com", "note": "No dedicated /pipeline page; oncology and antivirals sections list preclinical programs only"},
+    "ctgov": {"sponsor_query": "Sunshine Biopharma", "active_p1_p3_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Both proprietary candidates (K1.1 mRNA-LNP for liver cancer and SBFM-PL4 small molecule PLpro inhibitor for SARS coronavirus) remain at preclinical/animal-testing stage. The 10-K explicitly states no IND or other regulatory filings have been made. Commercial revenue is from Nora Pharma generic distribution in Canada (~71 generic prescription drugs) plus Sunshine Canada OTC supplements.",
+  "commercial_product": {
+    "subsidiary": "Nora Pharma Inc. (Canada)",
+    "description": "Approximately 71 generic prescription drugs marketed in Canada via in-licensing, cross-licensing, and distribution agreements; OTC supplements (Essential.9, Calcium-Vitamin D, L-Citrulline, Taurine) via Sunshine Biopharma Canada Inc."
+  },
+  "excluded_preclinical": [
+    {"asset": "K1.1 mRNA-LNP", "indication": "Liver cancer (oncology)", "stage": "Animal testing / xenograft mouse studies"},
+    {"asset": "SBFM-PL4", "indication": "SARS coronavirus (PLpro inhibitor)", "stage": "Animal testing; lead compound from University of Arizona license"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

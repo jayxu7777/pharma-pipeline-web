@@ -1,0 +1,20 @@
+{
+  "issuer_name": "MYRIAD GENETICS INC",
+  "ticker": "MYGN",
+  "exchange": "Nasdaq",
+  "cik": "0000899923",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000899923-26-000018", "filed": "2026-02-24", "path": "data/mygn_10k_pipeline_section.html"},
+    "website": {"url": "https://myriad.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/mygn_ctgov_compact.json", "lead_sponsor_query": "Myriad Genetics", "note": "ctgov hits are partner/CDx studies, not Myriad-sponsored therapeutic trials"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Myriad Genetics is a molecular diagnostics company. Its products are companion diagnostics (BRACAnalysis CDx, MyChoice CDx, FOLR1 IHC), hereditary cancer panels (MyRisk), pharmacogenomics (GeneSight), prenatal screening (Prequel, Foresight, SneakPeek), and prostate prognostics (Prolaris). The company does not develop therapeutic drug assets in clinical trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

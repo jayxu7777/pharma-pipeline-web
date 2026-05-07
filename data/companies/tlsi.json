@@ -1,0 +1,110 @@
+{
+  "issuer_name": "TriSalus Life Sciences, Inc.",
+  "ticker": "TLSI",
+  "exchange": "Nasdaq",
+  "cik": "0001826667",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-015163",
+      "filing_date": "2026-03-05",
+      "doc": "tlsi-20251231.htm"
+    },
+    "website": {
+      "url": "https://trisaluslifesci.com/pipeline",
+      "note": "Pipeline page lists nelitolimod (SD-101) across multiple liver/pancreatic cancer indications; readouts of three Phase 1 PERIO studies expected in 2026."
+    },
+    "ctgov": {
+      "sponsor_query": "TriSalus Life Sciences",
+      "unique_trials_p1_p3": 6,
+      "by_status": {
+        "TERMINATED": 2,
+        "COMPLETED": 1,
+        "RECRUITING": 1,
+        "WITHDRAWN": 1,
+        "ACTIVE_NOT_RECRUITING": 1
+      }
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "nelitolimod",
+      "aka": ["SD-101"],
+      "modality": "Synthetic single-stranded oligonucleotide; class C TLR9 agonist",
+      "target": "TLR9",
+      "license_origin": "Acquired worldwide rights from Dynavax Technologies (2020 Asset Purchase Agreement)",
+      "indications": [
+        {
+          "indication": "Locally advanced pancreatic adenocarcinoma (PDAC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "PERIO-03",
+          "trial_design": "Phase 1 study of pressure-enabled intrapancreatic delivery (PEDD/PRVI) of nelitolimod with anti-PD-1 checkpoint blockade in locally advanced PDAC",
+          "nct_ids": ["NCT05607953"],
+          "trial_status": "Active, not recruiting (sponsor-led; data readout expected 2026)",
+          "lead_sponsor": "TriSalus Life Sciences, Inc.",
+          "key_milestones": [
+            "Phase 1 results expected in 2026",
+            "Subsequent indication selection and partnering discussions planned post-readout"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "TriNav Infusion System (and broader TriNav device portfolio)",
+    "category": "FDA-cleared pressure-enabled drug delivery (PEDD) microcatheter for hepatic arterial infusion",
+    "manufacturing": "In-house at Westminster, Colorado facility",
+    "note": "Provides current commercial revenue; used clinically for delivery of standard-of-care therapeutics into liver tumors."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "trial": "PERIO-01",
+      "nct_id": "NCT04935229",
+      "indication": "Uveal melanoma with liver metastases",
+      "status": "TERMINATED"
+    },
+    {
+      "trial": "PERIO-02",
+      "nct_id": "NCT05220722",
+      "indication": "HCC and intrahepatic cholangiocarcinoma (ICC)",
+      "status": "TERMINATED"
+    },
+    {
+      "trial": "Pancreatic adenocarcinoma — TriSalus Infusion System with FOLFIRI/FOLFIRINOX",
+      "nct_id": "NCT04270929",
+      "lead_sponsor": "Roger Williams Medical Center",
+      "status": "WITHDRAWN"
+    },
+    {
+      "trial": "Synergy-001/KEYNOTE 184 (legacy Dynavax-era cutaneous melanoma / head-and-neck Phase 1b/2)",
+      "status": "Completed under prior sponsor; not active under TriSalus"
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "trial": "Cryoablation + arterial infusion of SD-101 + durvalumab/tremelimumab in HCC",
+      "nct_id": "NCT06710223",
+      "lead_sponsor": "University of California, San Diego",
+      "phase": "Phase 1",
+      "status": "RECRUITING",
+      "reason": "Investigator-initiated trial (IIT); TriSalus is collaborator/drug supplier, not sponsor."
+    },
+    {
+      "trial": "Pembrolizumab +/- SD-101 in hormone-naive oligometastatic prostate cancer",
+      "nct_id": "NCT03007732",
+      "lead_sponsor": "David Oh (UCSF investigator)",
+      "phase": "Phase 2",
+      "status": "COMPLETED",
+      "reason": "Investigator-initiated; not a TriSalus-sponsored development trial."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 0,
+    "p2": 0,
+    "p1": 1
+  }
+}

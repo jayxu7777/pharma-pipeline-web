@@ -1,0 +1,152 @@
+{
+  "issuer_name": "OPKO Health, Inc.",
+  "ticker": "OPK",
+  "exchange": "Nasdaq",
+  "cik": "0000944809",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-076596", "filed": "2026-02-26", "doc": "opk-20251231.htm"},
+    "website": {"url": "https://www.opko.com/research/pipeline", "modex_url": "https://www.modextherapeutics.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "OPKO Health", "trials_returned": 54, "active_p1_3": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "MDX2001",
+      "aka": [],
+      "modality": "Tetraspecific antibody (MSTAR platform)",
+      "target": "cMET x Trop2 x CD3 x CD28",
+      "license_origin": "ModeX Therapeutics (OPKO subsidiary)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "MDX2001 dose-escalation/expansion",
+          "trial_design": "First-in-human Phase 1 dose-escalation followed by Phase 1b expansion in select solid tumors",
+          "nct_ids": ["NCT06239194"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModeX Therapeutics, an OPKO Health Company",
+          "key_milestones": ["Advanced through fifth dose level; Phase 1b expansion in select solid tumors expected 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "MDX2003",
+      "aka": [],
+      "modality": "Tetraspecific antibody (MSTAR platform)",
+      "target": "CD19 x CD20 x CD3 x CD28",
+      "license_origin": "ModeX Therapeutics (OPKO subsidiary)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell lymphomas (and autoimmune potential)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "MDX2003 dose-escalation/expansion",
+          "trial_design": "First-in-human dose-escalation/dose-expansion in B-cell lymphomas",
+          "nct_ids": ["NCT07249905"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModeX Therapeutics, an OPKO Health Company",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MDX2004",
+      "aka": [],
+      "modality": "Trispecific antibody-fusion protein (MSTAR platform; T-cell rejuvenator)",
+      "target": "CD3 x CD28 x 4-1BBL",
+      "license_origin": "ModeX Therapeutics (OPKO subsidiary)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors and hematologic / immunology indications",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "MDX2004 dose-escalation/expansion",
+          "trial_design": "First-in-human dose-escalation/dose-expansion in advanced tumors and immune-impairment indications",
+          "nct_ids": ["NCT07110584"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModeX Therapeutics, an OPKO Health Company",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MDX2301",
+      "aka": [],
+      "modality": "Tetravalent bispecific antibody (MSTAR platform)",
+      "target": "SARS-CoV-2 spike receptor-binding domain (RBD)",
+      "license_origin": "ModeX Therapeutics (OPKO) — BARDA partnership",
+      "indications": [
+        {
+          "indication": "Pre-exposure prophylaxis for severe COVID-19 in high-risk adults",
+          "highest_phase": "Phase 1",
+          "trial_name": "MDX2301 first-in-human study",
+          "trial_design": "Phase 1 evaluating MDX2301 in healthy adults and adults at higher risk for severe COVID-19",
+          "nct_ids": ["NCT07445971"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModeX Therapeutics, an OPKO Health Company",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CTAP101 ER (calcifediol extended-release)",
+      "aka": ["Rayaldee pediatric formulation"],
+      "modality": "Small molecule (oral, extended-release calcifediol)",
+      "target": "Vitamin D prohormone",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Secondary hyperparathyroidism in pediatric CKD patients (PK/PD/safety/tolerability)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CTAP101 ER pediatric PK/PD/safety study",
+          "trial_design": "Phase 2 PK/PD, safety, tolerability of CTAP101 ER capsules in pediatric participants",
+          "nct_ids": ["NCT07494045"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "OPKO Health, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "OPK-88006 (injectable)",
+      "aka": ["OPK88006", "OPK88003 (former)", "long-acting oxyntomodulin"],
+      "modality": "Long-acting peptide (CTP-modified OXM, weekly subcutaneous)",
+      "target": "GLP-1 / glucagon dual agonist",
+      "license_origin": "Acquired (Transition Therapeutics) — licensed from Eli Lilly originally",
+      "indications": [
+        {
+          "indication": "Obesity and metabolic dysfunction-associated steatohepatitis (MASH)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "OPK-88006 Phase 1/2 in healthy and presumed MASH",
+          "trial_design": "Phase 1/2 study of injectable OPK-88006 in healthy and presumed MASH participants",
+          "nct_ids": ["NCT07512427"],
+          "trial_status": "NOT_YET_RECRUITING — IND-enabling work to complete; Phase 1 initiation planned 2026",
+          "lead_sponsor": "OPKO Health, Inc.",
+          "key_milestones": ["IND-enabling work to complete; Phase 1 start 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "NGENLA", "inn": "somatrogon (hGH-CTP)", "indication": "Pediatric GHD", "approval": "Approved >50 countries (US/EU/Japan/Canada/Australia); marketed by Pfizer; pursuing SGA expansion"},
+      {"name": "Rayaldee", "inn": "calcifediol ER", "indication": "Secondary hyperparathyroidism in stage 3-4 CKD with vitamin D insufficiency", "approval": "FDA-approved 2016; EU launches via VFMCRP"}
+    ]
+  },
+  "excluded_preclinical": [
+    {"asset": "Oral OPK-88006 tablet", "partner": "Entera Bio", "stage": "Preclinical/IND-enabling"},
+    {"asset": "Oral GLP-2 analog (SBS)", "partner": "Entera Bio", "stage": "Preclinical"},
+    {"asset": "Oral LA-PTH tablet (hypoparathyroidism)", "partner": "Entera Bio", "stage": "Preclinical; IND planned late 2026"},
+    {"asset": "Factor VIIa-CTP (hemophilia)", "stage": "Preclinical (LeaderMed JV)"},
+    {"asset": "MDX2201 EBV vaccine", "stage": "Preclinical (Merck partner)"},
+    {"asset": "MDX3001 in vivo CAR-T", "stage": "Discovery"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "CTAP101 pediatric", "indication": "SHPT", "nct_ids": ["NCT05543928"], "status": "TERMINATED"},
+    {"asset": "CTAP101 (HD)", "nct_ids": ["NCT03602261"], "status": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "NGENLA Phase 3 SGA", "owner": "Pfizer (commercializes; OPKO retains royalty/milestone)"}
+  ],
+  "summary_counts": {"assets": 6, "indications_p1": 1, "indications_p2": 5, "indications_p3": 0}
+}

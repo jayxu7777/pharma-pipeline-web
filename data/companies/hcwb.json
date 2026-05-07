@@ -1,0 +1,63 @@
+{
+  "issuer_name": "HCW Biologics Inc.",
+  "ticker": "HCWB",
+  "exchange": "Nasdaq",
+  "cik": "0001828673",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-134934", "filed": "2026-03-31", "doc": "hcwb-20251231.htm"},
+    "website": {"url": "https://hcwbiologics.com/pipeline/", "note": "JS-rendered page; details obtained from press releases"},
+    "ctgov": {"sponsor_query": "HCW Biologics", "trials_returned": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "HCW9302",
+      "aka": [],
+      "modality": "Injectable IL-2 fusion protein (TOBI platform)",
+      "target": "IL-2 receptor (regulatory T cell activation)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Alopecia areata",
+          "highest_phase": "Phase 1",
+          "trial_name": "HCW9302 (Interleukin-2 Fusion Protein) for Alopecia Areata",
+          "trial_design": "Open-label Phase 1, subcutaneous administration",
+          "nct_ids": ["NCT07049328"],
+          "trial_status": "RECRUITING (initiated 2025-08-16; primary completion 2026-07-16)",
+          "lead_sponsor": "HCW Biologics",
+          "key_milestones": ["Phase 1 study initiated November 2025 per company disclosure"]
+        }
+      ]
+    },
+    {
+      "asset": "HCW9218",
+      "aka": [],
+      "modality": "Bifunctional fusion protein (TGF-betaRII / tissue factor / IL-15)",
+      "target": "TGF-beta sequestration plus IL-15 immune activation; senescence reduction",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (multiple Phase 2 plans per 10-K; prior pancreatic and ovarian studies)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Multiple investigator-initiated and company-sponsored Phase 2 studies planned",
+          "trial_design": "Phase 2 cancer studies, injectable",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — company plans multiple Phase 2 trials; prior NCT05145569 (ovarian, neoadjuvant) was WITHDRAWN before enrollment",
+          "lead_sponsor": "HCW Biologics",
+          "key_milestones": ["Prior Phase 1b in pancreatic and ovarian cancer", "Multiple Phase 2 cancer trials planned"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "HCW11-006", "indication": "Solid tumors", "stage": "IND-pending; Phase 1 in China expected H1 2027 (Trimmune JV)"},
+    {"asset": "HCW11-018b", "indication": "Pancreatic cancer (T-cell engager)", "stage": "Preclinical; IND target 2027"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "HCW9218", "trial": "NCT05145569 (Antitumor Activity of Neoadjuvant Chemotherapy with or Without HCW9218 in Metastatic Advanced Stage Ovarian Cancer)", "status": "WITHDRAWN", "lead_sponsor": "Haider Mahdi (investigator-initiated)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 1, "P1": 1, "total_assets": 2}
+}

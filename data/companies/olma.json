@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Olema Pharmaceuticals, Inc.",
+  "ticker": "OLMA",
+  "exchange": "Nasdaq",
+  "cik": "0001750284",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-107169", "filing_date": "2026-03-16", "path": "data/olma_10k_pipeline_section.html"},
+    "website": {"url": "https://www.olema.com/pipeline", "note": "Page is JS-rendered; could not extract via WebFetch. Used 10-K + ctgov."},
+    "ctgov": {"path": "data/olma_ctgov_compact.json", "sponsor_query": "Olema Pharmaceuticals"}
+  },
+  "pipeline": [
+    {
+      "asset": "Palazestrant",
+      "aka": ["OP-1250"],
+      "modality": "Oral small molecule (CERAN/SERD)",
+      "target": "Estrogen Receptor (complete antagonist + degrader)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "ER+/HER2- metastatic breast cancer (2L/3L monotherapy)",
+          "highest_phase": "Phase 3",
+          "trial_name": "OPERA-01",
+          "trial_design": "Pivotal Phase 3 monotherapy vs standard of care endocrine therapy",
+          "nct_ids": ["NCT06016738"],
+          "trial_status": "Recruiting; topline expected fall 2026; NDA planned 2027",
+          "lead_sponsor": "Olema Pharmaceuticals, Inc.",
+          "key_milestones": ["Topline fall 2026", "NDA submission 2027", "Potential approval/launch late 2027"]
+        },
+        {
+          "indication": "ER+/HER2- metastatic breast cancer (1L combination with ribociclib)",
+          "highest_phase": "Phase 3",
+          "trial_name": "OPERA-02",
+          "trial_design": "Pivotal Phase 3 palazestrant + ribociclib vs letrozole + ribociclib (placebo-controlled)",
+          "nct_ids": ["NCT07085767"],
+          "trial_status": "Recruiting; initiated 2025; topline 2028 (Novartis ribociclib supply agreement)",
+          "lead_sponsor": "Olema Pharmaceuticals, Inc.",
+          "key_milestones": ["Initiated 2025", "Topline data 2028", "Potential approval/launch 2029"]
+        },
+        {
+          "indication": "ER+/HER2- advanced/metastatic breast cancer (combination Phase 1b/2 with CDK4/6i, PI3Ka, mTOR, CDK4i)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Phase 1b/2 combination program",
+          "trial_design": "Open-label combination cohorts with palbociclib, ribociclib, alpelisib, everolimus, atirmociclib",
+          "nct_ids": ["NCT05508906", "NCT05266105"],
+          "trial_status": "Recruiting / Active not recruiting; ESMO Oct 2025 ribociclib combo update",
+          "lead_sponsor": "Olema Pharmaceuticals, Inc.",
+          "key_milestones": ["ESMO Oct 2025 ribociclib combo update"]
+        }
+      ]
+    },
+    {
+      "asset": "OP-3136",
+      "aka": [],
+      "modality": "Oral small molecule (KAT6 inhibitor)",
+      "target": "KAT6 (lysine acetyltransferase)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "ER+/HER2- breast cancer, NSCLC, mCRPC (Phase 1, monotherapy and in combination with fulvestrant or palazestrant)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 first-in-human",
+          "trial_design": "Dose-escalation, monotherapy and combinations",
+          "nct_ids": ["NCT06784193"],
+          "trial_status": "Recruiting; first clinical data expected Q2 2026",
+          "lead_sponsor": "Olema Pharmaceuticals, Inc.",
+          "key_milestones": ["IND cleared late 2024", "First clinical data Q2 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["Palazestrant Phase 1/2 monotherapy (NCT04505826) — completed"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "p3_indications": 2, "p2_indications": 1, "p1_indications": 1}
+}

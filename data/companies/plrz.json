@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Polyrizon Ltd.",
+  "ticker": "PLRZ",
+  "exchange": "Nasdaq",
+  "cik": "0001893645",
+  "region": "Israel (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F instead of 10-K"
+    },
+    "website": {
+      "url": "https://polyrizon-biotech.com",
+      "note": "Pipeline page returned 404; homepage describes only Capture & Contain (C&C) and Trap & Target (T&T) platform technologies, no clinical trial information"
+    },
+    "ctgov": {
+      "path": "data/plrz_ctgov_compact.json",
+      "note": "Sponsor 'Polyrizon' returned 0 P1-3 trials"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {},
+  "excluded_preclinical": [
+    {
+      "asset": "PL-14 / NASARIX",
+      "reason": "Allergy blocker hydrogel intranasal spray; only preclinical/GMP CTM stage. Per Mar 10, 2026 press release, GMP batch produced to support a planned U.S. clinical study later in 2026 — not yet started."
+    },
+    {
+      "asset": "PL-16",
+      "reason": "Viral blocker product candidate; preclinical only"
+    },
+    {
+      "asset": "Capture & Contain (C&C) platform",
+      "reason": "Platform technology; no active human trials"
+    },
+    {
+      "asset": "Trap & Target (T&T) platform",
+      "reason": "Intranasal drug delivery platform; no active human trials"
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Pre-clinical-stage Israeli medical device / hydrogel platform company. Lead asset PL-14 (NASARIX) is at GMP CTM stage with first clinical study only planned for 2H 2026 — no active P1/P2/P3 trials at snapshot date. Foreign private issuer (files 20-F)."
+}

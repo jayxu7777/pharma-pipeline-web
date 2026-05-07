@@ -1,0 +1,94 @@
+{
+  "issuer_name": "Traws Pharma, Inc.",
+  "ticker": "TRAW",
+  "exchange": "Nasdaq",
+  "cik": "0001130598",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/traw_10k_pipeline_section.html", "filing_date": "2026-04-15", "accession": "0001104659-26-043832"},
+    "website": {"url": "https://www.trawspharma.com", "note": "Pipeline page returns 404; home page lists ratutrelvir and tivoxavir marboxil"},
+    "ctgov": {"file": "data/traw_ctgov_compact.json", "trials": 35, "active_p1_p3": 4, "sponsor_query": "Traws Pharma"}
+  },
+  "pipeline": [
+    {
+      "asset": "Tivoxavir marboxil",
+      "aka": ["TRX-100"],
+      "modality": "Oral small-molecule cap-dependent endonuclease (CEN) inhibitor",
+      "target": "Influenza polymerase cap-dependent endonuclease (PA-CEN)",
+      "license_origin": "Internal (post-merger Traws program)",
+      "indications": [
+        {
+          "indication": "Bird flu (H5N1) and seasonal influenza A",
+          "highest_phase": "P2",
+          "trial_name": "Phase 2 single ascending/multiple-dose tivoxavir marboxil studies in influenza",
+          "trial_design": "Two Phase 2 studies: (a) early-stage dose-finding study in influenza patients (TRX-100 vs SOC), and (b) Phase 2a human influenza A challenge study (TRX-100 vs placebo using A/France/759/2021 H1N1 challenge virus)",
+          "nct_ids": ["NCT07371650", "NCT07503405"],
+          "trial_status": "Active, not recruiting (NCT07371650, started 2025-12-15) and Not yet recruiting (NCT07503405, planned start 2026-06)",
+          "lead_sponsor": "Traws Pharma, Inc.",
+          "key_milestones": ["Phase 2 dose-finding readout", "Phase 2a challenge model results"]
+        },
+        {
+          "indication": "Healthy volunteer PK / food-effect (TRX-100 tablet)",
+          "highest_phase": "P1",
+          "trial_name": "Study of TRX-100 Tablets — Safety, PK, Food Effect",
+          "trial_design": "Phase 1 healthy-volunteer study evaluating safety, PK and food effect of TRX-100 tablet formulation vs placebo",
+          "nct_ids": ["NCT07526506"],
+          "trial_status": "Recruiting (started 2026-03-25)",
+          "lead_sponsor": "Traws Pharma, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Ratutrelvir",
+      "aka": ["83-0060"],
+      "modality": "Oral small-molecule SARS-CoV-2 main protease (Mpro / 3CL protease) inhibitor; ritonavir-independent",
+      "target": "SARS-CoV-2 3CL protease (Mpro)",
+      "license_origin": "Internal (post-merger Traws program)",
+      "indications": [
+        {
+          "indication": "COVID-19",
+          "highest_phase": "P2",
+          "trial_name": "Early-stage trial to determine safe and effective dose of Ratutrelvir in COVID patients",
+          "trial_design": "Phase 2 dose-finding trial of Ratutrelvir vs Paxlovid in COVID-19 patients",
+          "nct_ids": ["NCT07157007"],
+          "trial_status": "Recruiting (started 2025-09-16)",
+          "lead_sponsor": "Traws Pharma, Inc.",
+          "key_milestones": ["Phase 2 dose-finding readout"]
+        }
+      ]
+    },
+    {
+      "asset": "Narazaciclib",
+      "aka": ["ON 123300", "HX-301"],
+      "modality": "Oral multi-targeted kinase inhibitor (CDK4/6 plus other kinases)",
+      "target": "CDK4/6 + multi-kinase",
+      "license_origin": "Internal (legacy Onconova oncology program)",
+      "indications": [
+        {
+          "indication": "Endometrial cancer / gynecologic cancers (combo with letrozole) and advanced solid tumors",
+          "highest_phase": "P1/P2",
+          "trial_name": "Narazaciclib (ON 123300) Plus Letrozole in Endometrial Cancer; ON 123300 in Advanced Cancer",
+          "trial_design": "Phase 1/2 combo with letrozole in endometrioid endometrial cancer (NCT05705505); Phase 1 monotherapy in advanced solid tumors (NCT04739293)",
+          "nct_ids": ["NCT05705505", "NCT04739293"],
+          "trial_status": "Status UNKNOWN on ctgov for both records (not formally terminated); program retained but de-prioritized in favor of antiviral programs per 10-K",
+          "lead_sponsor": "Traws Pharma, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Rigosertib (ON 01910.Na)", "reason": "Numerous P1/P2/P3 trials all completed (including Phase 3 NCT01928537, NCT01241500, NCT01360853) or terminated (NCT02562443 P3 MDS, NCT02730884 P2 myelofibrosis); no active studies; legacy Onconova asset retained for opportunistic combos"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "p3_or_p2_p3": 0,
+    "p2_or_p1_p2": 3,
+    "p1": 1
+  }
+}

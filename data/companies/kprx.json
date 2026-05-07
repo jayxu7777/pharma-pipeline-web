@@ -1,0 +1,105 @@
+{
+  "issuer_name": "Kiora Pharmaceuticals, Inc.",
+  "ticker": "KPRX",
+  "exchange": "Nasdaq",
+  "cik": "0001372514",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-25",
+      "accession": "0001372514-26-000024",
+      "url": "https://www.sec.gov/Archives/edgar/data/1372514/000137251426000024/kprx-20251231.htm"
+    },
+    "website": {
+      "url": "https://kiorapharma.com/pipeline/"
+    },
+    "ctgov": {
+      "sponsor_query": "Kiora Pharmaceuticals",
+      "trials_returned": 5,
+      "compact_path": "data/kprx_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "KIO-301",
+      "aka": [],
+      "modality": "Intravitreal small-molecule photoswitch (azo-derivative)",
+      "target": "Retinal ganglion cell light sensitization (mutation-agnostic photoswitch)",
+      "license_origin": "Partnered with Thea Open Innovation (global ex-Asia commercial rights)",
+      "indications": [
+        {
+          "indication": "Late-stage retinitis pigmentosa (mutation-agnostic)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ABACUS-2",
+          "trial_design": "Phase 2 study of intravitreal KIO-301 in patients with late-stage retinitis pigmentosa",
+          "nct_ids": ["NCT06628947"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Kiora Pharmaceuticals, Inc.",
+          "key_milestones": ["FDA Orphan Drug Designation (Mar 2022)"]
+        },
+        {
+          "indication": "Choroideremia",
+          "highest_phase": "Phase 2 (program-level; pre-launch in this indication)",
+          "trial_name": "Choroideremia program (planned)",
+          "trial_design": "Planned Phase 2 expansion in choroideremia — disclosed on website pipeline",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — disclosed on corporate pipeline",
+          "lead_sponsor": "Kiora Pharmaceuticals, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Stargardt disease",
+          "highest_phase": "Phase 2 (program-level; pre-launch in this indication)",
+          "trial_name": "Stargardt program (planned)",
+          "trial_design": "Planned Phase 2 expansion in Stargardt disease — disclosed on website pipeline",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — disclosed on corporate pipeline",
+          "lead_sponsor": "Kiora Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "KIO-104",
+      "aka": [],
+      "modality": "Intravitreal small molecule (DHODH inhibitor)",
+      "target": "Dihydroorotate dehydrogenase (DHODH)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Macular edema / retinal inflammation",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 KIO-104 macular edema study",
+          "trial_design": "Phase 2 safety/tolerability/efficacy of intravitreal KIO-104 in patients with macular edema",
+          "nct_ids": ["NCT06825702"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Kiora Pharmaceuticals, Inc.",
+          "key_milestones": ["EU Orphan Drug Designation (May 2015)"]
+        },
+        {
+          "indication": "Proliferative vitreoretinopathy (PVR)",
+          "highest_phase": "Phase 2 (program-level; pre-launch in this indication)",
+          "trial_name": "PVR program (planned)",
+          "trial_design": "Planned Phase 2 in PVR — disclosed on corporate pipeline",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — disclosed on corporate pipeline",
+          "lead_sponsor": "Kiora Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "KIO-201 (ocular bandage gel) corneal epithelial defects — NCT05436288 completed, NCT05629364 terminated; non-core / out of scope of P1-P3 active oncology/retinal pipeline"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "p3": 0,
+    "p2": 5,
+    "p1": 0
+  }
+}

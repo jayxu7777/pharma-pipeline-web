@@ -1,0 +1,28 @@
+{
+  "issuer_name": "International Stem Cell Corporation",
+  "ticker": "ISCO",
+  "exchange": "OTC",
+  "cik": "0001355790",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-131723", "filing_date": "2026-03-30", "path": "data/isco_10k_pipeline_section.html"},
+    "website": {"url": "https://www.internationalstemcell.com", "note": "Corporate site; no active P1/P2/P3 trial disclosed beyond completed Australia Parkinson's Phase 1"},
+    "ctgov": {"path": "data/isco_ctgov_compact.json", "trial_count": 2, "note": "Both ctgov hits cite International Stem Cell Forum (a research consortium) - not the same entity as ISCO; neither is an active ISCO-sponsored trial"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "ISCO's lead therapeutic asset ISC-hpNSC (parthenogenetic neural stem cells for Parkinson's disease) completed its Australia-based dose-escalating Phase 1 in June 2021. No active follow-on Phase 2 trial is disclosed in the 2025 10-K (filed 2026-03-30) and there is no ISCO-sponsored study on clinicaltrials.gov. Stroke and TBI programs remain preclinical. Going-concern doubt is disclosed. Commercial revenue derives from non-clinical subsidiaries Lifeline Skin Care (cosmetics) and Lifeline Cell Technology (research reagents).",
+  "excluded_preclinical": [
+    {"asset": "ISC-hpNSC", "indication": "Ischemic stroke", "status": "Preclinical (rodent model)"},
+    {"asset": "ISC-hpNSC", "indication": "Traumatic brain injury (TBI)", "status": "Preclinical (rodent model)"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "ISC-hpNSC", "indication": "Parkinson's disease", "phase": "P1", "status": "Phase 1 completed June 2021 in Australia; no active follow-on trial"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Cultivated conjunctival transplantation", "nct": "NCT00346450", "indication": "Ocular surface disease", "phase": "P3", "status": "COMPLETED", "note": "Lead sponsor Singapore National Eye Centre; ISCO not sponsor (collaborator was International Stem Cell Forum, a separate research consortium)"},
+    {"asset": "Donepezil", "nct": "NCT01442766", "indication": "Acute stroke", "phase": "P1/P2", "status": "WITHDRAWN", "note": "Lead sponsor Imperial College London"}
+  ],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

@@ -1,0 +1,116 @@
+{
+  "issuer_name": "NRX Pharmaceuticals, Inc.",
+  "ticker": "NRXPW",
+  "exchange": "Nasdaq",
+  "cik": "0001719406",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-23",
+      "accession": "0001437749-26-009418",
+      "note": "10-K identifies three lead drug candidates: NRX-100 (preservative-free IV ketamine), KETAFREE (generic preservative-free ketamine ANDA), and NRX-101 (oral fixed-dose D-cycloserine + lurasidone). Subsidiary HOPE Therapeutics provides interventional psychiatry services."
+    },
+    "website": {
+      "url": "https://www.nrxpharma.com/pipeline/",
+      "note": "Pipeline page references Bipolar Depression with suicidal ideation as lead indication; full asset detail rendered via JS table not extracted by WebFetch. Confirmed via 10-K and IR press releases."
+    },
+    "ctgov": {
+      "sponsor_query": "NRX Pharmaceuticals",
+      "active_p1_p3_company_sponsored": 0,
+      "note": "No active P1-P3 trials returned for sponsor 'NRX Pharmaceuticals' on clinicaltrials.gov. Path forward for NRX-100 is NDA via Real World Evidence (per March 2026 Type C FDA meeting); NRX-101 has Breakthrough Therapy Designation and an amended IND for TMS-augmentation indication but no enrolling registrational trial yet."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "NRX-100",
+      "aka": ["preservative-free IV ketamine"],
+      "modality": "Small molecule (IV anesthetic; NMDA receptor antagonist)",
+      "target": "NMDA receptor",
+      "license_origin": "Internal (NeuroRx subsidiary)",
+      "indications": [
+        {
+          "indication": "Suicidal ideation in depression (including bipolar depression)",
+          "highest_phase": "NDA-pending (post-Phase 3 / RWE-supported)",
+          "trial_name": "NDA pathway based on prior Phase 3 (NCT02639091 / NCT02545517-era data) plus Real World Evidence",
+          "trial_design": "FDA agreed at Type C meeting (Feb 2026, formalized March 2026) that NDA can rely on completed trial data plus RWE; no new clinical trials required.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — NDA submission targeted June 2026; Fast Track Designation granted",
+          "lead_sponsor": "NRX Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "Type C FDA meeting Feb 2026 (minutes confirmed March 16, 2026)",
+            "Targeted NDA filing June 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "KETAFREE",
+      "aka": ["generic preservative-free ketamine"],
+      "modality": "Small molecule (IV anesthetic generic)",
+      "target": "NMDA receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Anesthesia (current ketamine label)",
+          "highest_phase": "ANDA-pending",
+          "trial_name": "Abbreviated New Drug Application",
+          "trial_design": "ANDA — no new clinical trial; bioequivalence pathway",
+          "nct_ids": [],
+          "trial_status": "PLANNED — FDA accepted ANDA September 2025; Summer 2026 PDUFA-equivalent decision date",
+          "lead_sponsor": "NRX Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "ANDA acceptance Sept 2025",
+            "Decision expected Summer 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "NRX-101",
+      "aka": ["D-cycloserine + lurasidone fixed-dose combination", "DCS/lurasidone"],
+      "modality": "Small molecule oral fixed-dose combination",
+      "target": "NMDA receptor (glycine site partial agonist) + 5-HT/D2 antagonism",
+      "license_origin": "Internal (NeuroRx subsidiary)",
+      "indications": [
+        {
+          "indication": "Suicidal bipolar depression",
+          "highest_phase": "Phase 3 (registrational, planned/inactive enrollment)",
+          "trial_name": "NRX-101 registrational program",
+          "trial_design": "Breakthrough Therapy Designation; prior Phase 2 data published; pivotal trial design under discussion",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Breakthrough Therapy Designation granted; no actively enrolling pivotal trial as of FY2025 10-K",
+          "lead_sponsor": "NRX Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "Breakthrough Therapy Designation"
+          ]
+        },
+        {
+          "indication": "Depression (including suicidal depression) in augmentation of Transcranial Magnetic Stimulation (TMS)",
+          "highest_phase": "Phase 2 (planned)",
+          "trial_name": "NRX-101 + TMS augmentation study",
+          "trial_design": "Approximately 120-participant well-controlled trial per amended IND",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IND amendment filed Dec 2025 to add TMS-augmentation indication",
+          "lead_sponsor": "NRX Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "IND amendment Dec 2025"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Dura Medical / HOPE Therapeutics interventional psychiatry clinic services (not a drug asset)"
+  ],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 1,
+    "phase_2": 1,
+    "phase_1": 0,
+    "regulatory_pending_NDA_or_ANDA": 2
+  }
+}

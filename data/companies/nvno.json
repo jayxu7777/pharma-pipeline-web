@@ -1,0 +1,62 @@
+{
+  "issuer_name": "enVVeno Medical Corp",
+  "ticker": "NVNO",
+  "exchange": "Nasdaq",
+  "cik": "0001661053",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-012928",
+      "filing_date": "2026-03-26",
+      "primary_doc": "form10-k.htm"
+    },
+    "website": {
+      "url": "https://envveno.com/pipeline/",
+      "error": "Page returned 403 to automated fetch; pipeline content reconstructed from 10-K disclosures."
+    },
+    "ctgov": {
+      "sponsor_query": "enVVeno",
+      "kept_p1_p3": 0,
+      "note": "No P1/P2/P3 hits under enVVeno sponsor name. Legacy VenoValve SAVE trial registered under former sponsor name (Hancock Jaffe Laboratories) as NCT04943172, Active_not_recruiting, device study (not classified P1-P3)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "enVVe System",
+      "aka": ["enVVe Valve", "enVVe transcatheter venous valve"],
+      "modality": "Class III implantable medical device (transcatheter bioprosthetic venous valve)",
+      "target": "Deep venous valve replacement",
+      "license_origin": "Internal (next-generation of legacy VenoValve program)",
+      "indications": [
+        {
+          "indication": "Severe deep chronic venous insufficiency (CVI), CEAP C4b-C6",
+          "highest_phase": "PLANNED pivotal (IDE in pre-submission discussions with FDA)",
+          "trial_name": "enVVe pivotal IDE study (planned)",
+          "trial_design": "Planned U.S. pivotal IDE study; Class III device requires PMA. Pre-clinical testing complete; IDE not yet approved at filing date.",
+          "nct_ids": [],
+          "trial_status": "PLANNED — pre-clinical testing complete; in discussions with FDA regarding pivotal trial design; IDE not yet filed/approved per 10-K filed 2026-04",
+          "lead_sponsor": "enVVeno Medical Corp",
+          "key_milestones": [
+            "Pre-clinical testing of enVVe System completed (per 2026 10-K)",
+            "FDA discussions regarding pivotal trial ongoing",
+            "Strong physician interest in participating in enVVe pivotal study"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {},
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "VenoValve (surgical replacement venous valve)",
+      "trial": "SAVE U.S. pivotal study (NCT04943172, n=75, severe CVI)",
+      "reason": "FDA issued a non-approvable letter in August 2025 in response to PMA application; subsequent appeal unsuccessful. Company has elected to forgo any further approval/commercialization efforts (including ex-U.S.) and to focus all resources on enVVe. Trial listed Active_not_recruiting on ctgov but program is being wound down."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 0, "P1": 0, "planned_pivotal": 1},
+  "no_active_clinical_pipeline_reason": "Sole active program (enVVe System) is a Class III device in PLANNED pivotal IDE stage — pre-clinical complete, IDE not yet filed/approved, no enrolling clinical study at snapshot date. Legacy VenoValve PMA was non-approvable and is being discontinued."
+}

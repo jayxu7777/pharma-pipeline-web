@@ -1,0 +1,97 @@
+{
+  "issuer_name": "Cocrystal Pharma, Inc.",
+  "ticker": "COCP",
+  "exchange": "Nasdaq",
+  "cik": "0001412486",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "fetch_10k.py could not locate pipeline section heading in latest 10-K (filed 2026-03-31, accession 0001493152-26-013838); full 10-K downloaded but section auto-extraction failed."
+    },
+    "website": {
+      "url": "https://www.cocrystalpharma.com",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "file": "data/cocp_ctgov_compact.json",
+      "trial_count": 6,
+      "active_trials": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CDI-988",
+      "aka": [],
+      "modality": "Small molecule oral pan-viral 3CL protease inhibitor",
+      "target": "Viral 3C-like (3CL) protease",
+      "license_origin": "Internal (Cocrystal)",
+      "indications": [
+        {
+          "indication": "Norovirus gastroenteritis",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "CDI-988 Snow Mountain Virus human challenge study",
+          "trial_design": "Phase 1/2 randomized, placebo-controlled human challenge study evaluating efficacy, safety and PK of CDI-988 in healthy adults inoculated with Snow Mountain Virus (norovirus surrogate)",
+          "nct_ids": ["NCT07198139"],
+          "trial_status": "RECRUITING (start 2026-03-01, primary completion 2026-10-01)",
+          "lead_sponsor": "Cocrystal Pharma, Inc.",
+          "key_milestones": [
+            "Phase 1 healthy-volunteer safety study (NCT05977140) completed 2025-05",
+            "Phase 1b challenge readout expected 2026"
+          ]
+        },
+        {
+          "indication": "SARS-CoV-2 (coronavirus)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CDI-988 healthy participants safety study",
+          "trial_design": "Phase 1 randomized, placebo-controlled, single/multiple ascending dose safety, tolerability and PK study in healthy adults",
+          "nct_ids": ["NCT05977140"],
+          "trial_status": "COMPLETED (2025-05-23) — next steps under evaluation",
+          "lead_sponsor": "Cocrystal Pharma, Inc.",
+          "key_milestones": [
+            "Phase 1 completed; advancement to next stage pending"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "CC-42344",
+      "aka": [],
+      "modality": "Small molecule oral PB2 inhibitor (small molecule polymerase basic protein 2)",
+      "target": "Influenza A polymerase PB2 subunit",
+      "license_origin": "Internal (Cocrystal)",
+      "indications": [
+        {
+          "indication": "Influenza A (oral formulation)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Influenza A viral challenge study (CC-42344 Phase 2a)",
+          "trial_design": "Phase 2a viral-challenge study in healthy participants evaluating CC-42344 vs placebo against influenza A",
+          "nct_ids": ["NCT06160531"],
+          "trial_status": "COMPLETED (2024-05); per company website additional Phase 2a is needed before Phase 3 advancement",
+          "lead_sponsor": "Cocrystal Pharma, Inc.",
+          "key_milestones": [
+            "Phase 2a challenge study completed 2024",
+            "Additional Phase 2a planned"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CC-42344 inhaled formulation (GLP tox complete; pre-IND)",
+    "Oral influenza A&B replication inhibitor (lead discovery, NIH SBIR funded)",
+    "Rhinovirus pan-viral protease inhibitor (lead discovery)"
+  ],
+  "excluded_legacy_terminated": [
+    "CDI-31244 NNI for HCV — Phase 1/Phase 2 COMPLETED in 2017-2019; program not currently active"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "phase_3": 0,
+    "phase_2": 2,
+    "phase_1": 0,
+    "note": "CDI-988 norovirus is dual-phase P1/P2; counted under P2 here. CC-42344 influenza P2 completed but additional P2a needed."
+  }
+}

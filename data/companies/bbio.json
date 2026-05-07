@@ -1,0 +1,187 @@
+{
+  "issuer_name": "BridgeBio Pharma, Inc.",
+  "ticker": "BBIO",
+  "exchange": "Nasdaq",
+  "cik": "0001743881",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001743881-26-000009",
+      "filed": "2026-02-24",
+      "doc": "bbio-20251231.htm"
+    },
+    "website": {
+      "url": "https://bridgebio.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "BridgeBio",
+      "trial_count": 35
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Acoramidis",
+      "aka": ["AG10", "Attruby", "Beyonttra", "ALXN2060"],
+      "modality": "Small molecule TTR stabilizer",
+      "target": "Transthyretin (TTR)",
+      "license_origin": "Internal (Eidos Therapeutics, BridgeBio subsidiary)",
+      "indications": [
+        {
+          "indication": "Early-stage variant ATTR (asymptomatic carriers of pathogenic TTR variant)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ACT-EARLY",
+          "trial_design": "Randomized, placebo-controlled prevention trial in asymptomatic carriers of pathogenic TTR variant",
+          "nct_ids": ["NCT06563895"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Eidos Therapeutics, a BridgeBio company",
+          "key_milestones": ["Trial initiated end of 2024", "Recruiting as of 2025-05-12 start date"]
+        },
+        {
+          "indication": "ATTR-CM (long-term safety extension)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Open-label safety extension",
+          "trial_design": "Open-label safety extension in symptomatic ATTR participants",
+          "nct_ids": ["NCT04988386", "NCT07116473"],
+          "trial_status": "Active, not recruiting (NCT04988386); Not yet recruiting (NCT07116473 ACT-EARLY OLE)",
+          "lead_sponsor": "Eidos Therapeutics, a BridgeBio company",
+          "key_milestones": ["Acoramidis approved as Attruby (US) and Beyonttra (EU); ongoing extension/post-approval studies"]
+        }
+      ]
+    },
+    {
+      "asset": "Infigratinib",
+      "aka": ["BGJ398", "low-dose oral infigratinib"],
+      "modality": "Small molecule, selective FGFR1-3 inhibitor",
+      "target": "FGFR3",
+      "license_origin": "Internal (QED Therapeutics, BridgeBio subsidiary)",
+      "indications": [
+        {
+          "indication": "Achondroplasia (children)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PROPEL 3 / extension / under-3 study",
+          "trial_design": "Phase 3 randomized, placebo-controlled pivotal study with open-label extensions",
+          "nct_ids": ["NCT06164951", "NCT05145010", "NCT07169279"],
+          "trial_status": "PROPEL 3 Completed (positive topline Feb 2026); extensions Enrolling/Recruiting; NDA/MAA submission planned H2 2026",
+          "lead_sponsor": "QED Therapeutics, a BridgeBio company",
+          "key_milestones": ["PROPEL 3 met all primary and secondary endpoints (Feb 2026)", "NDA/MAA filing planned H2 2026"]
+        },
+        {
+          "indication": "Hypochondroplasia (children)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "ACCEL 2/3",
+          "trial_design": "Phase 2/3 program; Phase 2 fully enrolled; Phase 3 observational run-in enrolling",
+          "nct_ids": ["NCT06873035", "NCT07393373"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "QED Therapeutics, a BridgeBio company",
+          "key_milestones": ["First participant dosed April 2025", "Proof-of-concept data expected H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "BBP-418",
+      "aka": ["ribitol"],
+      "modality": "Oral small molecule (substrate replacement therapy)",
+      "target": "FKRP (fukutin-related protein)",
+      "license_origin": "Internal (BridgeBio rare disease)",
+      "indications": [
+        {
+          "indication": "Limb-Girdle Muscular Dystrophy Type 2I/R9 (LGMD2I/R9)",
+          "highest_phase": "Phase 3",
+          "trial_name": "FORTIFY",
+          "trial_design": "Global, randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 interim analysis met primary and key secondary endpoints (Oct 2025); ongoing for long-term follow-up; NDA submission planned H1 2026",
+          "lead_sponsor": "BridgeBio Pharma, Inc.",
+          "key_milestones": ["Positive FORTIFY interim analysis Oct 2025", "Planned NDA submission H1 2026", "Orphan Drug, Fast Track, Rare Pediatric Disease designations"]
+        }
+      ]
+    },
+    {
+      "asset": "Encaleret",
+      "aka": ["CLTX-305"],
+      "modality": "Oral small molecule calcium-sensing receptor (CaSR) antagonist",
+      "target": "CaSR",
+      "license_origin": "Internal (Calcilytix Therapeutics, BridgeBio subsidiary)",
+      "indications": [
+        {
+          "indication": "Autosomal Dominant Hypocalcemia Type 1 (ADH1)",
+          "highest_phase": "Phase 3",
+          "trial_name": "CALIBRATE",
+          "trial_design": "Phase 3 randomized, encaleret vs standard of care",
+          "nct_ids": ["NCT05680818", "NCT07080385"],
+          "trial_status": "Active, not recruiting (CALIBRATE met endpoints Oct 2025); pediatric study Recruiting; NDA submission planned H1 2026",
+          "lead_sponsor": "Calcilytix Therapeutics, Inc., a BridgeBio company",
+          "key_milestones": ["Positive Phase 3 topline Oct 2025", "Planned NDA submission H1 2026"]
+        },
+        {
+          "indication": "Chronic Hypoparathyroidism (CHP)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Encaleret CHP program",
+          "trial_design": "Phase 2 study; Phase 3 initiation planned 2026",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 initiation planned 2026",
+          "lead_sponsor": "Calcilytix Therapeutics, Inc., a BridgeBio company",
+          "key_milestones": ["Phase 3 study initiating in 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "BBP-812",
+      "aka": [],
+      "modality": "AAV9 gene therapy (intravenous)",
+      "target": "ASPA (aspartoacylase) gene replacement",
+      "license_origin": "Internal (BridgeBio gene therapy)",
+      "indications": [
+        {
+          "indication": "Canavan Disease",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "CANaspire",
+          "trial_design": "Phase 1/2 single-arm registrational study using biomarker endpoint",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing Phase 1/2",
+          "lead_sponsor": "BridgeBio Pharma, Inc.",
+          "key_milestones": ["Orphan Drug, Fast Track, RMAT, and Rare Pediatric Disease Designations from FDA"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "Attruby (acoramidis)", "indication": "ATTR-CM", "region": "US", "status": "Approved 2024"},
+      {"name": "Beyonttra (acoramidis)", "indication": "ATTR-CM", "region": "EU/Japan", "status": "Approved (out-licensed/partner-marketed)"},
+      {"name": "Nulibry (fosdenopterin)", "indication": "MoCD Type A", "status": "Approved (not marketed by BridgeBio)"},
+      {"name": "Truseltiq (infigratinib)", "indication": "Cholangiocarcinoma", "status": "Approved (withdrawn)"}
+    ]
+  },
+  "excluded_preclinical": [
+    "Evanesco/ATTR-CM depleter monoclonal antibody (preclinical, IND planned 2027-2028)"
+  ],
+  "excluded_legacy_terminated": [
+    "Infigratinib for cholangiocarcinoma (NCT03773302 Phase 3 TERMINATED; NCT02150967 Phase 2 TERMINATED) - Truseltiq approval withdrawn",
+    "Infigratinib for urothelial carcinoma (NCT04197986 Phase 3 TERMINATED)",
+    "BBP-398 (SHP2 inhibitor) all studies (NCT05480865, NCT05375084, NCT04528836) TERMINATED",
+    "BBP-671 (NCT04836494) TERMINATED",
+    "BBP-711 (NCT04876924) Phase 1 COMPLETED healthy volunteers, no further development by BridgeBio",
+    "VT30 Venthera (NCT04409145) TERMINATED",
+    "Acoramidis ATTR polyneuropathy Phase 3 (NCT04418024, NCT04882735) WITHDRAWN"
+  ],
+  "excluded_partner_owned": [
+    "PORT-77 (GondolaBio) - 27.5% minority ownership; independent pipeline",
+    "BBOT (BridgeBio Oncology Therapeutics) - separately listed Nasdaq:BBOT (18.2% minority ownership); BBO-8520, BBO-10203, BBO-11818 belong to BBOT",
+    "Phoenix Tissue Repair PTR-01 (NCT05143190) - independent BridgeBio company",
+    "Encaleret post-surgical hypoparathyroidism NIDCR-led trial (NCT05735015) - investigator-sponsored"
+  ],
+  "summary_counts": {
+    "total_assets": 5,
+    "phase_3": 4,
+    "phase_2_3": 1,
+    "phase_2": 1,
+    "phase_1_2": 1,
+    "phase_1": 0,
+    "indications_total": 7,
+    "commercial_products": 4
+  }
+}

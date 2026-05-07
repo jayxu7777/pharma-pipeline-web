@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Sibannac, Inc.",
+  "ticker": "SNNC",
+  "exchange": "OTC",
+  "cik": "0001313938",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Latest 10-K filed 2016-12-14 (accession 0001683168-16-000946); pipeline section heading not found. Issuer is now a wellness/cannabis holding company with no SEC drug pipeline disclosure."},
+    "website": {"error": "https://sibannac.com/pipeline returned 404. Corporate site (snncinc.com) describes wellness/lifestyle and cannabis-derived consumer products, not clinical drug development."},
+    "ctgov": {"query": "spons:Sibannac", "result": "0 P1-P3 trials found", "file": "data/snnc_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "Sibannac, Inc. is a wellness/lifestyle holding company focused on hemp-derived cannabis consumer products, Amanita mushrooms, Kratom, plant-based wellness tourism, and consciousness-focused media. It is not a clinical-stage biopharmaceutical company and has no IND-enabled or registered drug development programs.",
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

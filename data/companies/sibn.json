@@ -1,0 +1,61 @@
+{
+  "issuer_name": "SI-BONE, Inc.",
+  "ticker": "SIBN",
+  "exchange": "Nasdaq",
+  "cik": "0001459839",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001459839-26-000036",
+      "filing_date": "2026-02-24",
+      "doc": "sibn-20251231.htm"
+    },
+    "website": {
+      "url": "https://si-bone.com",
+      "error": "No /pipeline page (404). Corporate site is product-focused (iFuse implant family); no separate clinical pipeline disclosure."
+    },
+    "ctgov": {
+      "sponsor_query": "SI-BONE",
+      "raw_results": 16,
+      "kept_p1_p2_p3": 0,
+      "note": "All SI-BONE-sponsored studies on ClinicalTrials.gov are post-market or observational/N-A phase studies of already-FDA-cleared iFuse devices (e.g. INSITE NCT01681004 Completed; LOIS NCT02270203 Completed; VaReFi NCT01874236 Terminated). No active drug-style P1/P2/P3 trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "SI-BONE is an orthopedic medical device company; products are FDA-cleared/PMA implants for sacroiliac joint, spinopelvic fixation and pelvic trauma. No proprietary drug pipeline. Three platform technologies hold FDA Breakthrough Device designation. >140,000 procedures performed since 2009.",
+    "marketed_implant_families": {
+      "si_joint_dysfunction": ["iFuse 3D", "iFuse TORQ", "iFuse INTRA Ti", "iFuse INTRA", "iFuse INTRA X"],
+      "pelvic_trauma": ["iFuse TORQ TNT", "iFuse TORQ in Trauma", "iFuse 3D in Trauma"],
+      "spinopelvic_fixation_adult_spine_deformity": ["iFuse Bedrock Granite"]
+    },
+    "reimbursement_milestones": [
+      "iFuse TORQ TNT received CMS New Technology Add-on Payment (NTAP) effective Oct 1, 2025 (up to $4,136 incremental hospital reimbursement; expires Sep 30, 2028)",
+      "iFuse Bedrock Granite received Transitional Pass-Through (TPT) payment in HOPD/ASC settings effective Jan 1, 2025"
+    ],
+    "post_market_evidence_studies": [
+      {"name": "SILVIA", "implant": "iFuse 3D", "indication": "Adult spinal deformity (Bedrock configuration)", "status": "Complete; primary endpoint manuscript under review"},
+      {"name": "PAULA", "implant": "iFuse Bedrock Granite", "indication": "Adult spinal deformity / spinopelvic fixation", "status": "Complete; enrollment stopped at 162 patients; manuscript under review"},
+      {"name": "STACI", "implant": "iFuse TORQ", "indication": "SI joint dysfunction (interventional pain physician operators)", "status": "Enrollment completed; primary endpoint manuscript in press"},
+      {"name": "SAFFRON", "implant": "iFuse TORQ", "indication": "Fragility fracture of the pelvis", "status": "Complete; results published May 2025"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "trial_name": "VaReFi",
+      "nct_ids": ["NCT01874236"],
+      "reason": "TERMINATED on ClinicalTrials.gov (data interpretation issues); diagnostic SI joint blocking validity study."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Orthopedic medical-device company (sacroiliac joint and spinopelvic implants). Marketed iFuse implant family is already FDA-cleared/PMA-approved; ongoing company-sponsored studies (SILVIA, PAULA, STACI, SAFFRON) are post-market real-world evidence / observational studies of cleared devices, not active P1/P2/P3 IDE pivotal registrational trials. No proprietary drug pipeline."
+}

@@ -1,0 +1,69 @@
+{
+  "issuer_name": "CervoMed Inc.",
+  "ticker": "CRVO",
+  "exchange": "Nasdaq",
+  "cik": "0001053691",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-008259", "filing_date": "2026-03-13", "form": "10-K"},
+    "website": {"url": "https://www.cervomed.com/pipeline", "accessed": "2026-05-06", "note": "Pipeline shown only as image; details extracted from 10-K and ctgov."},
+    "ctgov": {"sponsor_query": "CervoMed (EIP Pharma)", "studies_count": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "Neflamapimod",
+      "aka": [],
+      "modality": "Oral small molecule",
+      "target": "p38-alpha MAP kinase",
+      "license_origin": "Internal (legacy EIP Pharma)",
+      "indications": [
+        {
+          "indication": "Dementia with Lewy Bodies (DLB) without AD co-pathology — Phase 3 planned",
+          "highest_phase": "Phase 3",
+          "trial_name": "Planned Phase 3 in pure DLB (post-RewinD-LB)",
+          "trial_design": "Planned ~300-patient, 32-week randomized placebo-controlled Phase 3; CDR-SB primary endpoint; FDA alignment Nov-2025",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiation in 2H 2026 subject to funding; FDA alignment achieved Nov-2025",
+          "lead_sponsor": "CervoMed Inc.",
+          "key_milestones": ["RewinD-LB Phase 2b extension positive 16-/32-week results (2025)", "FDA alignment on Phase 3 design (Nov-2025)"]
+        },
+        {
+          "indication": "Stroke recovery (motor recovery after acute ischemic stroke)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Neflamapimod motor recovery post-stroke Phase 2",
+          "trial_design": "Phase 2 randomized study",
+          "nct_ids": ["NCT06987643"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "CervoMed Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Non-fluent variant primary progressive aphasia (nfvPPA / FTD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Neflamapimod in PPA Phase 2a",
+          "trial_design": "Phase 2a open-label / proof-of-concept",
+          "nct_ids": ["NCT07033481"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "CervoMed Inc.",
+          "key_milestones": ["Initial biomarker results expected mid-2026"]
+        },
+        {
+          "indication": "Amyotrophic lateral sclerosis (ALS) — EXPERTS-ALS platform",
+          "highest_phase": "Phase 2",
+          "trial_name": "EXPERTS-ALS platform (UK)",
+          "trial_design": "Adaptive multi-arm platform Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "First patient dosed (Feb-2026)",
+          "lead_sponsor": "EXPERTS-ALS platform (UK government/charities); CervoMed-supplied drug",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["RewinD-LB completed Phase 2b (NCT05869669, NCT06815965) — extension data informs Phase 3"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 1, "phase_2": 3, "phase_1": 0}
+}

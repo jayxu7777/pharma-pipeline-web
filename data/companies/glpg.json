@@ -1,0 +1,100 @@
+{
+  "issuer_name": "Galapagos NV",
+  "ticker": "GLPG",
+  "exchange": "Nasdaq",
+  "cik": "0001421876",
+  "region": "Belgium (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F, not 10-K"},
+    "website": {"url": "https://www.glpg.com/pipeline", "method": "WebFetch", "note": "Pipeline page indicates Galapagos is winding down cell therapy activities as of January 2026"},
+    "ctgov": {"file": "data/glpg_ctgov_compact.json", "trials_total": 128, "lead_sponsor_filter": "Galapagos NV"}
+  },
+  "pipeline": [
+    {
+      "asset": "GLPG3667",
+      "aka": [],
+      "modality": "Small molecule (oral)",
+      "target": "TYK2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Dermatomyositis",
+          "highest_phase": "Phase 2",
+          "trial_name": "GALARISSO",
+          "trial_design": "Phase 2 randomized placebo-controlled, 24-week oral dosing",
+          "nct_ids": ["NCT05695950"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Galapagos NV",
+          "key_milestones": []
+        },
+        {
+          "indication": "Systemic Lupus Erythematosus (SLE)",
+          "highest_phase": "Phase 2",
+          "trial_name": "GALACELA",
+          "trial_design": "Phase 2 randomized placebo-controlled in adult SLE",
+          "nct_ids": ["NCT05856448"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Galapagos NV",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "GLPG5101",
+      "aka": ["19CP02"],
+      "modality": "Autologous CAR-T",
+      "target": "CD19",
+      "license_origin": "Internal (decentralized manufacturing platform)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell Non-Hodgkin Lymphoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "ATALANTA-1",
+          "trial_design": "Phase 1/2 single-arm, fresh-cell CAR-T",
+          "nct_ids": ["NCT06561425"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Galapagos NV",
+          "key_milestones": ["Cell therapy activities being wound down per Jan 2026 announcement"]
+        }
+      ]
+    },
+    {
+      "asset": "GLPG5301",
+      "aka": [],
+      "modality": "Autologous CAR-T",
+      "target": "BCMA",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Multiple Myeloma",
+          "highest_phase": "Phase 2",
+          "trial_name": "PAPILIO-1",
+          "trial_design": "Phase 1/2 single-arm CAR-T study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Disclosed on company pipeline as Phase 2; cell therapy program being wound down per Jan 2026 announcement",
+          "lead_sponsor": "Galapagos NV",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "GLPG2737 (ADPKD, NCT04578548) — terminated",
+    "GLPG1690 (multiple) — terminated",
+    "GLPG3970 (SLE, NCT04700267) — terminated",
+    "MOR106 (atopic dermatitis) — terminated"
+  ],
+  "excluded_partner_owned": [
+    "Filgotinib (Jyseleca) — divested to Alfasigma in 2024; legacy ex-Galapagos asset"
+  ],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 0,
+    "phase_2": 3,
+    "phase_1": 0
+  },
+  "blockers": "Foreign private issuer (no 10-K). Cell therapy programs (GLPG5101, GLPG5301) being wound down per Jan 2026 corporate restructuring; included as company still lists them on active pipeline page."
+}

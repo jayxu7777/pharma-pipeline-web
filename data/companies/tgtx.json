@@ -1,0 +1,121 @@
+{
+  "issuer_name": "TG Therapeutics, Inc.",
+  "ticker": "TGTX",
+  "exchange": "Nasdaq",
+  "cik": "0001001316",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-27", "accession": "0001437749-26-006133", "path": "data/tgtx_10k_pipeline_section.html"},
+    "website": {"path": "https://www.tgtherapeutics.com/our-pipeline/", "note": "Page returned mostly metadata; relied on 10-K + Q1 2026 earnings + ctgov"},
+    "ctgov": {"path": "data/tgtx_ctgov_compact.json", "trials_found": 42}
+  },
+  "pipeline": [
+    {
+      "asset": "Ublituximab",
+      "aka": ["BRIUMVI", "TG-1101", "LFB-R603"],
+      "modality": "Glycoengineered anti-CD20 monoclonal antibody (IV; SC in development)",
+      "target": "CD20",
+      "license_origin": "Licensed from LFB Biotechnologies",
+      "indications": [
+        {
+          "indication": "Relapsing forms of multiple sclerosis (RMS) — IV form approved (BRIUMVI); subcutaneous formulation in pivotal Phase 3",
+          "highest_phase": "Phase 3 (subcutaneous pivotal)",
+          "trial_name": "ublituximab SC Phase 3 (BRIUMVI SC pivotal)",
+          "trial_design": "Randomized Phase 3 evaluating PK/PD/safety/efficacy of subcutaneous ublituximab vs IV in RMS; enrollment completed",
+          "nct_ids": ["NCT07211633", "NCT05877963"],
+          "trial_status": "RECRUITING / enrollment complete; pivotal topline year-end 2026 / Q1 2027",
+          "lead_sponsor": "TG Therapeutics, Inc.",
+          "key_milestones": ["SC BRIUMVI pivotal topline YE2026/Q1 2027", "ENHANCE Day 1/Day 15 IV consolidated dosing enrollment complete"]
+        },
+        {
+          "indication": "Relapsing forms of MS — pediatric population",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Ublituximab Pediatric MS Phase 2/3",
+          "trial_design": "Phase 2/3 evaluating ublituximab in pediatric participants with RMS",
+          "nct_ids": ["NCT07220252"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "TG Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "RMS — long-term ublituximab extension",
+          "highest_phase": "Phase 3 extension",
+          "trial_name": "ULTIMATE extension",
+          "trial_design": "Open-label extension Phase 3 of ublituximab in RMS patients from prior trials",
+          "nct_ids": ["NCT04130997"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "TG Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Immune-mediated necrotizing myopathy (IMNM, autoantibody positive)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Ublituximab IMNM Phase 2",
+          "trial_design": "Phase 2 evaluating ublituximab in autoantibody-positive IMNM",
+          "nct_ids": ["NCT07103746"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "TG Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Subcutaneous ublituximab — PK / injection-site selection study",
+          "highest_phase": "Phase 2",
+          "trial_name": "SC ublituximab PK Phase 2",
+          "trial_design": "Phase 2 evaluating PK/safety of SC ublituximab at various injection sites",
+          "nct_ids": ["NCT07503873"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "TG Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Generalized Myasthenia Gravis (gMG) — planned new indication",
+          "highest_phase": "Phase 3 (planned, registration-directed)",
+          "trial_name": "Ublituximab MG (planned)",
+          "trial_design": "Planned registration-directed study; not yet on public registries",
+          "nct_ids": [],
+          "trial_status": "PLANNED — registration-directed gMG trial announced for 2026 initiation",
+          "lead_sponsor": "TG Therapeutics, Inc.",
+          "key_milestones": ["Trial initiation in 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Azercabtagene zapreleucel (azer-cel)",
+      "aka": ["azer-cel", "PBCAR0191"],
+      "modality": "Allogeneic CD19-directed CAR-T cell therapy",
+      "target": "CD19",
+      "license_origin": "Licensed from Precision BioSciences (2024)",
+      "indications": [
+        {
+          "indication": "B-cell mediated autoimmune disorders (incl. progressive multiple sclerosis)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Azer-cel autoimmune Phase 1",
+          "trial_design": "Open-label Phase 1 evaluating safety and clinical activity of azer-cel in B-cell mediated autoimmune disorders",
+          "nct_ids": ["NCT06680037"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "TG Therapeutics, Inc.",
+          "key_milestones": ["Preliminary Phase 1 azer-cel data in progressive MS expected H2 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": ["BRIUMVI (ublituximab) — approved for relapsing forms of MS (US/EU); 2026 revenue guidance raised"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Umbralisib (UKONIQ) — withdrawn 2022",
+    "TG-1701 (BTK inhibitor) — Phase 1 terminated",
+    "TG-1801 (anti-CD47/CD19 bispecific) — Phase 1 terminated",
+    "TGR-1202 (PI3K-delta) — discontinued"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 2,
+    "phase_3_indications": 3,
+    "phase_2_indications": 3,
+    "phase_1_indications": 1
+  }
+}

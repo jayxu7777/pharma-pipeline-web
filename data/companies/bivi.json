@@ -1,0 +1,74 @@
+{
+  "issuer_name": "BioVie Inc.",
+  "ticker": "BIVI",
+  "exchange": "Nasdaq",
+  "cik": "0001580149",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001520138-25-000268", "filed": "2025-08-15", "fiscal_year_end": "2025-06-30"},
+    "website": {"url": "https://investors.bioviepharma.com", "note": "Primary biovieinc.com domain redirects out; investor site available"},
+    "ctgov": {"records": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "Bezisterim (NE3107)",
+      "aka": ["NE3107"],
+      "modality": "Oral small molecule (insulin-sensitizing, anti-inflammatory, ERK/NF-kB modulator)",
+      "target": "ERK and NF-kB inflammatory signaling",
+      "license_origin": "Internal (BioVie acquired NeurMedix assets)",
+      "indications": [
+        {
+          "indication": "Early Parkinson's Disease (SUNRISE-PD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Study of NE3107 in Early Parkinson's (SUNRISE-PD)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2",
+          "nct_ids": ["NCT06757010"],
+          "trial_status": "Active, not recruiting (fully enrolled; topline data expected 1H 2026)",
+          "lead_sponsor": "BioVie Inc.",
+          "key_milestones": ["Primary completion 2026-05-01", "Topline 1H 2026"]
+        },
+        {
+          "indication": "Neurological symptoms of Long COVID",
+          "highest_phase": "Phase 2",
+          "trial_name": "NE3107 in Adults With Neurological Symptoms of Long COVID",
+          "trial_design": "Randomized, placebo-controlled Phase 2",
+          "nct_ids": ["NCT06847191"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioVie Inc.",
+          "key_milestones": ["Primary completion 2026-06"]
+        }
+      ]
+    },
+    {
+      "asset": "BIV201 (continuous-infusion terlipressin)",
+      "aka": ["Terlipressin diacetate continuous infusion"],
+      "modality": "Vasopressin V1 receptor agonist (continuous IV/SC infusion)",
+      "target": "Vasopressin V1a receptor",
+      "license_origin": "Internal (LAT Pharma legacy)",
+      "indications": [
+        {
+          "indication": "Refractory ascites in decompensated cirrhosis",
+          "highest_phase": "Phase 2",
+          "trial_name": "BIV201 program (post terminated NCT04112199)",
+          "trial_design": "Phase 2 outpatient infusion program; key data expected mid-2026 per company guidance",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — registry-active study terminated 2023; company pipeline guidance indicates BIV201 ascites readout mid-2026 but no current ctgov record",
+          "lead_sponsor": "BioVie Inc.",
+          "key_milestones": ["Prior NCT04112199 Phase 2 study TERMINATED 2023"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "NE3107", "indication": "Mild-to-moderate Alzheimer's Disease (NM101)", "nct_id": "NCT04669028", "reason": "Phase 3 study completed 2023-09; topline missed primary endpoints amid GCP irregularities; not advancing per company communications"},
+    {"asset": "NE3107", "indication": "Traumatic brain injury (sleep/fatigue)", "nct_id": "NCT05970575", "reason": "Phase 2 IIT TERMINATED 2025-07"},
+    {"asset": "NE3107", "indication": "Parkinson's with levodopa (NM201)", "nct_id": "NCT05083260", "reason": "Phase 1/2 completed 2022; superseded by SUNRISE-PD"},
+    {"asset": "NE3107", "indication": "Alzheimer's combo (Reardon IIT)", "nct_id": "NCT05227820", "reason": "Phase 2 IIT completed 2022"},
+    {"asset": "BIV201", "indication": "Cirrhosis/ascites (initial Phase 2)", "nct_id": "NCT04112199", "reason": "TERMINATED 2023"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 2, "P3": 0, "P2": 3, "P1": 0}
+}

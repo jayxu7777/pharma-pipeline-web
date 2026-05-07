@@ -1,0 +1,59 @@
+{
+  "issuer_name": "Upstream Bio, Inc.",
+  "ticker": "UPB",
+  "exchange": "Nasdaq",
+  "cik": "0002022626",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-126188", "filing_date": "2026-03-26", "doc": "upb-20251231.htm"},
+    "website": {"url": "https://upstreambio.com/pipeline"},
+    "ctgov": {"sponsor_query": "Upstream Bio", "trials_returned": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "Verekitug",
+      "aka": ["UPB-101", "ASP7266"],
+      "modality": "Monoclonal antibody (IgG1)",
+      "target": "TSLP receptor (TSLPR)",
+      "license_origin": "In-licensed from Astellas Pharma",
+      "indications": [
+        {
+          "indication": "Severe Asthma",
+          "highest_phase": "Phase 2",
+          "trial_name": "VALIANT (P2 dose-finding) and VALOUR (long-term safety/efficacy)",
+          "trial_design": "VALIANT: randomized, double-blind, placebo-controlled dose-finding; VALOUR: long-term extension",
+          "nct_ids": ["NCT06196879", "NCT06966479"],
+          "trial_status": "VALIANT completed (positive topline 2025); VALOUR active, not recruiting",
+          "lead_sponsor": "Upstream Bio Inc.",
+          "key_milestones": ["VALIANT P2 readout reported statistically significant reduction in annualized asthma exacerbation rate"]
+        },
+        {
+          "indication": "Chronic Rhinosinusitis with Nasal Polyps (CRSwNP)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 CRSwNP study",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06164704"],
+          "trial_status": "Completed (primary completion 2025-07-07)",
+          "lead_sponsor": "Upstream Bio Inc.",
+          "key_milestones": ["Positive Phase 2 topline reported"]
+        },
+        {
+          "indication": "Chronic Obstructive Pulmonary Disease (COPD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 COPD study",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06981078"],
+          "trial_status": "Recruiting (started 2025-07-02)",
+          "lead_sponsor": "Upstream Bio Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "indications": 3, "P3": 0, "P2": 3, "P1": 0}
+}

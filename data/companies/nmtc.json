@@ -1,0 +1,48 @@
+{
+  "issuer_name": "NeuroOne Medical Technologies Corporation",
+  "ticker": "NMTC",
+  "exchange": "Nasdaq",
+  "cik": "0001500198",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-12-17",
+      "accession": "0001213900-25-122390",
+      "note": "Medical-device company (high-definition thin-film electrodes for neurological diagnosis/treatment). Commercial products cleared via 510(k); pipeline programs (Drug Delivery & monitoring electrode, SCS spinal cord stim, BVNA) are at benchtop/animal pre-clinical stage with potential 510(k) pathway — no active company-sponsored P1-P3 clinical trials disclosed."
+    },
+    "website": {
+      "url": "https://nmtc1.com/",
+      "note": "Corporate site describes commercial Evo sEEG, OneRF ablation system, and Evo Cortical devices; no clinical-trial pipeline page."
+    },
+    "ctgov": {
+      "sponsor_query": "NeuroOne Medical Technologies",
+      "unique_trials_p1_p3": 0,
+      "note": "One raw record returned by sponsor query but none are active P1-P3 interventional trials sponsored by NeuroOne."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      "Evo sEEG Electrode (FDA-cleared <30-day stereoelectroencephalography depth electrode for epilepsy/Parkinson's monitoring)",
+      "OneRF Ablation System (FDA-cleared RF ablation using Evo sEEG-RF Probe; first nervous-tissue RF ablation system of its kind)",
+      "Evo Cortical Electrode (FDA-cleared minimally invasive cortical recording/stim electrode)"
+    ],
+    "distribution": "Exclusive global distribution of strip/grid cortical electrodes, electrode cable assemblies, and sEEG depth electrodes through Zimmer Biomet (agreement dated July 20, 2020)."
+  },
+  "excluded_preclinical": [
+    "Drug Delivery and monitoring electrode (benchtop and animal studies; potential 510(k) for brain-cancer drug delivery system)",
+    "SCS - Spinal cord stimulation electrodes / percutaneous delivery system (benchtop, animal, cadaver studies; design not finalized)",
+    "BVNA (benchtop and animal ex-vivo studies; potential 510(k))"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device company. Commercial neurology electrode products (Evo sEEG, OneRF, Evo Cortical) are FDA-cleared via 510(k) and not in active drug-style P1-P3 clinical trials; remaining pipeline programs (drug-delivery electrode, SCS, BVNA) are at benchtop/animal pre-clinical stage with 510(k) regulatory pathway. No active company-sponsored P1-P3 interventional trials registered on ClinicalTrials.gov."
+}

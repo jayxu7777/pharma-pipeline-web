@@ -1,0 +1,271 @@
+{
+  "issuer_name": "Summit Therapeutics Inc.",
+  "ticker": "SMMT",
+  "exchange": "Nasdaq",
+  "cik": "0001599298",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001599298-26-000015", "filed": "2026-02-23", "doc": "smmt-20251231.htm", "note": "Pipeline section heading not auto-sliced; full filing saved at data/smmt_10k_full.htm; ivonescimab mentioned 222 times, HARMONi 84 times."},
+    "website": {"url": "https://www.smmttx.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/smmt_ctgov_compact.json", "sponsor_query": "Summit Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "Ivonescimab",
+      "aka": ["SMT112", "AK112"],
+      "modality": "PD-1/VEGF bispecific antibody",
+      "target": "PD-1 x VEGF",
+      "license_origin": "In-licensed from Akeso (rights ex-China for US/Canada/EU/Japan/etc.)",
+      "indications": [
+        {
+          "indication": "EGFRm+ NSCLC post-TKI (after progression on third-generation EGFR TKI)",
+          "highest_phase": "P3",
+          "trial_name": "HARMONi",
+          "trial_design": "Ivonescimab + chemotherapy vs placebo + chemotherapy",
+          "nct_ids": ["NCT05899608"],
+          "trial_status": "Active, not recruiting (also phase 3 NCT05899608 listed as recruiting in compact; HARMONi primary readouts reported)",
+          "lead_sponsor": "Summit Therapeutics",
+          "key_milestones": ["Top-line HARMONi readout previously announced", "Regulatory engagement ongoing"]
+        },
+        {
+          "indication": "1L metastatic NSCLC",
+          "highest_phase": "P3",
+          "trial_name": "HARMONi-3",
+          "trial_design": "Ivonescimab + chemotherapy vs pembrolizumab + chemotherapy in metastatic squamous and non-squamous NSCLC",
+          "nct_ids": ["NCT05899608"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Summit Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "1L PD-L1 high metastatic NSCLC",
+          "highest_phase": "P3",
+          "trial_name": "HARMONi-7",
+          "trial_design": "Ivonescimab vs pembrolizumab monotherapy in PD-L1 TPS >=50% NSCLC",
+          "nct_ids": ["NCT06767514"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Summit Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "1L metastatic colorectal cancer (CRC)",
+          "highest_phase": "P3",
+          "trial_name": "HARMONi-GI3",
+          "trial_design": "Ivonescimab + FOLFOX vs bevacizumab + FOLFOX in metastatic CRC",
+          "nct_ids": ["NCT07228832"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Summit Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Squamous cell carcinoma of the head and neck (HNSCC)",
+          "highest_phase": "P3",
+          "trial_name": "Ivonescimab +/- ligufalimab vs pembrolizumab in SCCHN",
+          "trial_design": "Three-arm phase 3: ivonescimab; ivonescimab + ligufalimab (AK117); pembrolizumab",
+          "nct_ids": ["NCT07264075"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Groupe Oncologie Radiotherapie Tete et Cou (collaborator: Summit Therapeutics, Akeso)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Extensive-stage small cell lung cancer (ES-SCLC)",
+          "highest_phase": "P2",
+          "trial_name": "Platinum/etoposide + ivonescimab in ES-SCLC",
+          "trial_design": "Phase 2 platinum/etoposide + ivonescimab (PrECOG)",
+          "nct_ids": ["NCT07057791"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "PrECOG, LLC. (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Triple-negative breast cancer (early-stage)",
+          "highest_phase": "P2",
+          "trial_name": "Ivonescimab + carboplatin + docetaxel in early-stage TNBC",
+          "trial_design": "Investigator-sponsored phase 2",
+          "nct_ids": ["NCT07017673"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Cedars-Sinai Medical Center (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic gastric / gastroesophageal adenocarcinoma",
+          "highest_phase": "P2",
+          "trial_name": "Ivonescimab + chemotherapy in advanced/metastatic gastric/GEJ adenocarcinoma",
+          "trial_design": "Phase 2 ivonescimab + FOLFOX +/- irinotecan or paclitaxel",
+          "nct_ids": ["NCT06846346", "NCT07070466"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "UNICANCER / Massachusetts General Hospital (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Hepatocellular carcinoma (HCC)",
+          "highest_phase": "P2",
+          "trial_name": "Akeso-sponsored HCC trials (per Summit pipeline page)",
+          "trial_design": "Various Akeso-sponsored ivonescimab combinations",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per Summit pipeline disclosure (Akeso-sponsored)",
+          "lead_sponsor": "Akeso (Summit retains ex-China rights)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Biliary tract cancer",
+          "highest_phase": "P2",
+          "trial_name": "Ivonescimab vs FOLFOX in advanced biliary tract cancer",
+          "trial_design": "UNICANCER-sponsored randomized phase 2",
+          "nct_ids": ["NCT06529718"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "UNICANCER (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pancreatic cancer",
+          "highest_phase": "P2",
+          "trial_name": "Akeso-sponsored HARMONi-GI2 (pancreatic)",
+          "trial_design": "Akeso-sponsored phase 2/3",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per Summit pipeline disclosure (Akeso-sponsored)",
+          "lead_sponsor": "Akeso (Summit retains ex-China rights)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Ovarian cancer",
+          "highest_phase": "P2",
+          "trial_name": "Akeso-sponsored ovarian study",
+          "trial_design": "Akeso-sponsored phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per Summit pipeline disclosure (Akeso-sponsored)",
+          "lead_sponsor": "Akeso (Summit retains ex-China rights)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Endometrial / cervical cancer",
+          "highest_phase": "P2",
+          "trial_name": "Ivonescimab in endometrial and cervical cancers",
+          "trial_design": "MSKCC-led phase 2",
+          "nct_ids": ["NCT06925724"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Memorial Sloan Kettering Cancer Center (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Salivary gland cancer / adenoid cystic carcinoma",
+          "highest_phase": "P2",
+          "trial_name": "Ivonescimab in advanced salivary gland cancers",
+          "trial_design": "Investigator-sponsored phase 2",
+          "nct_ids": ["NCT06805617"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Glenn J. Hanna (Dana-Farber) (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cutaneous squamous cell carcinoma",
+          "highest_phase": "P2",
+          "trial_name": "Ivonescimab in cutaneous SCC",
+          "trial_design": "MD Anderson-led phase 2",
+          "nct_ids": ["NCT06567314"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "M.D. Anderson Cancer Center (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pleural mesothelioma",
+          "highest_phase": "P2",
+          "trial_name": "Ivonescimab in relapsed pleural mesothelioma",
+          "trial_design": "IFCT-sponsored phase 2",
+          "nct_ids": ["NCT06840834"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Intergroupe Francophone de Cancerologie Thoracique (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Thymic carcinoma",
+          "highest_phase": "P2",
+          "trial_name": "Ivonescimab in thymic cancer",
+          "trial_design": "Investigator-sponsored phase 2",
+          "nct_ids": ["NCT06980077"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jonsson Comprehensive Cancer Center (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Clear cell renal cell carcinoma (previously treated)",
+          "highest_phase": "P2",
+          "trial_name": "Ivonescimab in advanced ccRCC",
+          "trial_design": "MD Anderson-led phase 2",
+          "nct_ids": ["NCT06940518"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "M.D. Anderson Cancer Center (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Resectable head and neck cancer (neoadjuvant)",
+          "highest_phase": "P2",
+          "trial_name": "Neoadjuvant ivonescimab in resectable stage II-IV head and neck cancer",
+          "trial_design": "Investigator-sponsored phase 2",
+          "nct_ids": ["NCT07094685"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "University of Michigan Rogel Cancer Center (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent glioblastoma",
+          "highest_phase": "P1/P2",
+          "trial_name": "Ivonescimab in recurrent glioblastoma",
+          "trial_design": "Phase 1/2 single-agent ivonescimab",
+          "nct_ids": ["NCT06672575"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "M.D. Anderson Cancer Center (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "NSCLC combination (ivonescimab + Dato-DXd or osimertinib)",
+          "highest_phase": "P1/P2",
+          "trial_name": "Ivonescimab + Dato-DXd or osimertinib in NSCLC",
+          "trial_design": "MSKCC-led phase 1/2",
+          "nct_ids": ["NCT07535437"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Memorial Sloan Kettering Cancer Center (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "NSCLC + stereotactic radiosurgery",
+          "highest_phase": "P1/P2",
+          "trial_name": "Ivonescimab + chemotherapy + SRS in NSCLC",
+          "trial_design": "MSKCC-led phase 1/2",
+          "nct_ids": ["NCT07535463"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Memorial Sloan Kettering Cancer Center (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Solid tumors with RAS(ON) inhibitors (with Revolution Medicines)",
+          "highest_phase": "P1/P2",
+          "trial_name": "RAS(ON) inhibitors + ivonescimab in solid tumors",
+          "trial_design": "Phase 1/2 daraxonrasib/elironrasib/zoldonrasib + ivonescimab combinations",
+          "nct_ids": ["NCT07397338"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Revolution Medicines, Inc. (collaborator: Summit Therapeutics)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Ridinilazole", "indication": "C. difficile infection", "reason": "Phase 3 terminated (NCT04802837); historical asset divested/discontinued"},
+    {"asset": "Ezutromid (SMT C1100)", "indication": "Duchenne muscular dystrophy", "reason": "Phase 2 terminated (NCT02858362); legacy program"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "AK112 + AK117 in CRC (NCT05382442)", "reason": "Akeso-led trial in China; geographic territory outside Summit's licensed rights"}
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_indications": 5,
+    "p2_indications": 14,
+    "p1_indications": 0,
+    "p1_p2_indications": 4,
+    "active_clinical_indications_total": 23
+  }
+}

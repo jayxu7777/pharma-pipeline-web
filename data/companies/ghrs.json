@@ -1,0 +1,78 @@
+{
+  "issuer_name": "GH Research PLC",
+  "ticker": "GHRS",
+  "exchange": "Nasdaq",
+  "cik": "0001855129",
+  "region": "Ireland",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F, no 10-K available"},
+    "website": {"url": "https://www.ghres.com/our-work/pipeline", "method": "WebFetch+WebSearch"},
+    "ctgov": {"file": "data/ghrs_ctgov_compact.json", "sponsor": "GH Research", "trial_count": 9}
+  },
+  "pipeline": [
+    {
+      "asset": "GH001 (mebufotenin inhalation)",
+      "aka": ["5-MeO-DMT inhalation", "mebufotenin", "5-Methoxy-N,N-dimethyltryptamine"],
+      "modality": "Proprietary inhaled aerosol delivery of 5-MeO-DMT",
+      "target": "5-HT2A agonist (psychedelic)",
+      "license_origin": "In-house (GH Research)",
+      "indications": [
+        {
+          "indication": "Treatment-resistant depression (TRD)",
+          "highest_phase": "Phase 2b",
+          "trial_name": "Phase 2b TRD program",
+          "trial_design": "Ongoing Phase 2b randomized program of GH001 inhalation in TRD (per company pipeline; primary registry trials NCT05800860 [Phase 2 RCT, completed] and earlier NCT04698603 [P1/2, completed])",
+          "nct_ids": ["NCT05800860", "NCT04698603"],
+          "trial_status": "Active (Phase 2b ongoing per company pipeline; pivotal Phase 2b not separately listed on registry yet)",
+          "lead_sponsor": "GH Research Ireland Limited",
+          "key_milestones": ["Initial RCT positive day-7 remission; Phase 2b ongoing"]
+        },
+        {
+          "indication": "GH001 aerosol delivery system PK / device-bridging",
+          "highest_phase": "Phase 1",
+          "trial_name": "GH001 aerosol delivery PK",
+          "trial_design": "Phase 1 PK/safety of GH001 via proprietary aerosol delivery device in healthy subjects",
+          "nct_ids": ["NCT06511947", "NCT07540494"],
+          "trial_status": "Recruiting / Not yet recruiting",
+          "lead_sponsor": "GH Research Ireland Limited",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "GH002 (mebufotenin IV)",
+      "aka": ["5-MeO-DMT IV"],
+      "modality": "Intravenous mebufotenin formulation",
+      "target": "5-HT2A agonist",
+      "license_origin": "In-house (GH Research)",
+      "indications": [
+        {
+          "indication": "Psychiatric/neurological disorders (formulation development)",
+          "highest_phase": "Phase 1",
+          "trial_name": "GH002 healthy volunteer PK/safety",
+          "trial_design": "Phase 1 safety and PK of GH002 IV in healthy volunteers (n=64)",
+          "nct_ids": ["NCT05753956"],
+          "trial_status": "Completed (Q4 2023)",
+          "lead_sponsor": "GH Research Ireland Limited",
+          "key_milestones": ["Phase 1 completed 2023-11"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "GH003 (intranasal mebufotenin)", "reason": "Preclinical / not yet in clinic per company disclosures"}
+  ],
+  "excluded_legacy_terminated": [
+    {"trial": "NCT05804708", "asset": "GH001 in postpartum depression", "status": "TERMINATED"},
+    {"trial": "NCT05839509", "asset": "GH001 in bipolar II disorder", "status": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3_indications": 0,
+    "p2_indications": 1,
+    "p1_indications": 2
+  }
+}

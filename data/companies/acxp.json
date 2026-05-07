@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Acurx Pharmaceuticals, Inc.",
+  "ticker": "ACXP",
+  "exchange": "Nasdaq",
+  "cik": "0001736243",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-027052",
+      "filed": "2026-03-12",
+      "doc": "acxp-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://www.acurxpharma.com/pipeline",
+      "assets": ["Ibezapolstat (DNA pol IIIC inhibitor) — clinical-stage for C. difficile/VRE/MRSA/Strep", "GPSS Gram-positive selective spectrum platform — early-stage"]
+    },
+    "ctgov": {"matches": 2, "note": "both Phase 2 ibezapolstat trials sponsored by Acurx Pharmaceuticals Inc."}
+  },
+  "pipeline": [
+    {
+      "asset": "Ibezapolstat",
+      "aka": ["ACX-362E"],
+      "modality": "Small molecule (DNA pol IIIC inhibitor)",
+      "target": "Bacterial DNA polymerase IIIC",
+      "license_origin": "Acquired worldwide rights from GLSynthesis Inc. (Feb 2018)",
+      "indications": [
+        {
+          "indication": "Clostridioides difficile infection (CDI) — initial episode",
+          "highest_phase": "Phase 2 (completed; Phase 3 ready)",
+          "trial_name": "ACX-362E for Oral Treatment of Clostridioides Difficile Infection (Phase 2a/2b)",
+          "trial_design": "Randomized, double-blind, vancomycin-controlled non-inferiority study; ibezapolstat 450 mg BID vs vancomycin 125 mg q6h x10 days",
+          "nct_ids": ["NCT04247542"],
+          "trial_status": "COMPLETED — pooled Phase 2 clinical cure 96% (25/26); Phase 3 planning underway, partnership-dependent funding",
+          "lead_sponsor": "Acurx Pharmaceuticals Inc.",
+          "key_milestones": [
+            "Phase 2b results published Lancet Microbe (June 2025)",
+            "FDA QIDP and Fast Track designations granted",
+            "Company stated Phase 3 readiness in FY2025 10-K"
+          ]
+        },
+        {
+          "indication": "Recurrent Clostridioides difficile infection",
+          "highest_phase": "Phase 2",
+          "trial_name": "ACX-362E [Ibezapolstat] for Oral Treatment of Recurrent Clostridioides Difficile Infection",
+          "trial_design": "Phase 2 oral treatment study in recurrent CDI patients",
+          "nct_ids": ["NCT07513285"],
+          "trial_status": "NOT_YET_RECRUITING — start date 2026-08-19, primary completion 2027-09-29",
+          "lead_sponsor": "Acurx Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ACX-375C", "indication": "Gram-positive infections (MRSA, VRE, PRSP)", "stage": "preclinical per FY2025 10-K"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 2, "P1": 0}
+}

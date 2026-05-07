@@ -1,0 +1,30 @@
+{
+  "issuer_name": "Asep Medical Holdings Inc.",
+  "ticker": "SEPSF",
+  "exchange": "OTC",
+  "cik": "0001969766",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Canadian, CSE:ASEP) — does not file 10-K with SEC; no Form 20-F located either"},
+    "website": {"url": "https://asepmedical.com/", "accessed": "2026-05-06"},
+    "ctgov": {"unique_p1_p3_trials": 0, "as_of": "2026-05-06"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Asep Medical is a diagnostics-and-preclinical-peptide company. (1) Its lead asset SepsetER is an AI-based sepsis gene-expression diagnostic (medical device), preparing for FDA 510(k) clinical study — not a Phase 1/2/3 drug trial. (2) Its therapeutic peptide platform (ABT Innovations subsidiary) targeting biofilm infections, anti-inflammatory, anti-infective immune modulation, and substrate-independent device coatings is in pre-clinical development per company disclosures. No company-sponsored P1/P2/P3 drug trials are listed on ClinicalTrials.gov, EU CTIS, or jRCT.",
+  "commercial_product": {},
+  "excluded_preclinical": [
+    "Anti-biofilm peptide (dental, wound, sinusitis, skin, medical-device-associated infections) — preclinical",
+    "Anti-inflammatory peptide candidates — preclinical",
+    "Anti-infective immune-modulator peptide candidates — preclinical",
+    "Substrate-independent peptide coatings for medical devices/implants — preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "diagnostic_device_assets_excluded_from_drug_pipeline": [
+    "SepsetER — AI-based sepsis severity diagnostic, in preparation for 510(k) clinical study (US); validated retrospectively in 700+ patients"
+  ],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_active_assets": 0},
+  "blockers": "Foreign private issuer (CSE-listed Canadian) — no 10-K available; primary assets are a diagnostic device (510(k) path, not P1/P2/P3) plus preclinical peptides"
+}

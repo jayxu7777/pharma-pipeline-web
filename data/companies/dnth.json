@@ -1,0 +1,68 @@
+{
+  "issuer_name": "Dianthus Therapeutics, Inc. /DE/",
+  "ticker": "DNTH",
+  "exchange": "Nasdaq",
+  "cik": "0001690585",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-03-09", "accession": "0001690585-26-000006", "path": "data/dnth_10k_pipeline_section.html"},
+    "website": {"path": "https://dianthustx.com/approach-and-pipeline/", "note": "JS-rendered page returned only template; relied on 10-K + ctgov + IR press releases for asset details"},
+    "ctgov": {"path": "data/dnth_ctgov_compact.json", "trials_found": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "Claseprubart",
+      "aka": ["DNTH103"],
+      "modality": "Subcutaneous selective monoclonal antibody",
+      "target": "Active C1s (classical complement pathway)",
+      "license_origin": "Internal (acquired via Magenta merger)",
+      "indications": [
+        {
+          "indication": "Chronic inflammatory demyelinating polyneuropathy (CIDP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "CAPTIVATE",
+          "trial_design": "Pivotal Phase 3 randomized double-blind placebo-controlled trial of DNTH103 in CIDP; interim responder analysis expected Q2 2026",
+          "nct_ids": ["NCT06858579"],
+          "trial_status": "RECRUITING (started 2025-02-10; primary completion 2028-12-31)",
+          "lead_sponsor": "Dianthus Therapeutics",
+          "key_milestones": ["Phase 3 GO decision", "Interim responder analysis expected Q2 2026"]
+        },
+        {
+          "indication": "Generalized myasthenia gravis (gMG)",
+          "highest_phase": "Phase 2",
+          "trial_name": "MaGic",
+          "trial_design": "Phase 2 randomized placebo-controlled trial in AChR-Ab+ gMG (enrolled 65; target 60)",
+          "nct_ids": ["NCT06282159"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2025-07-28); topline Sept 2025; Phase 3 planned mid-2026",
+          "lead_sponsor": "Dianthus Therapeutics",
+          "key_milestones": ["Enrollment complete", "Topline expected Sept 2025", "Phase 3 initiation mid-2026"]
+        },
+        {
+          "indication": "Multifocal motor neuropathy (MMN)",
+          "highest_phase": "Phase 2",
+          "trial_name": "MoMeNtum",
+          "trial_design": "Phase 2 in adults with MMN (~36 patients)",
+          "nct_ids": ["NCT06537999"],
+          "trial_status": "RECRUITING (started 2024-09-17; primary completion 2026-06-30)",
+          "lead_sponsor": "Dianthus Therapeutics",
+          "key_milestones": ["Topline expected 2H 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {},
+  "excluded_preclinical": [
+    "Additional pipeline expansion plans discussed but no specific named candidates yet"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3_assets": 1,
+    "phase_2_assets": 0,
+    "phase_1_assets": 0,
+    "note": "Single asset (claseprubart / DNTH103) at multiple phases across indications; counted at highest active phase (P3 in CIDP)."
+  }
+}

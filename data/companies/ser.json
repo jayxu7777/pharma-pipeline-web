@@ -1,0 +1,76 @@
+{
+  "issuer_name": "Serina Therapeutics, Inc.",
+  "ticker": "SER",
+  "exchange": "NYSE",
+  "cik": "0001708599",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-25",
+      "accession": "0001708599-26-000016",
+      "path": "data/ser_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.serinatx.com/pipeline",
+      "error": "Wix-based site, JS-heavy; pipeline content not extractable via WebFetch"
+    },
+    "ctgov": {
+      "path": "data/ser_ctgov_compact.json",
+      "studies": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "SER-252",
+      "aka": ["POZ-apomorphine"],
+      "modality": "POZ-conjugated small molecule (subcutaneous depot)",
+      "target": "Dopamine D1/D2 receptor agonist (apomorphine)",
+      "license_origin": "Internal (Serina POZ platform)",
+      "indications": [
+        {
+          "indication": "Advanced Parkinson's disease with motor fluctuations",
+          "highest_phase": "Phase 1",
+          "trial_name": "SER-252 SAD study",
+          "trial_design": "Single ascending dose, subcutaneous, in patients with Parkinson's disease and motor fluctuations",
+          "nct_ids": ["NCT07422675"],
+          "trial_status": "Recruiting (start 2026-02-01, primary completion 2027-01-31)",
+          "lead_sponsor": "Serina Therapeutics",
+          "key_milestones": ["First-in-patient SAD initiated 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "SER-214",
+      "aka": ["POZ-rotigotine"],
+      "modality": "POZ-conjugated small molecule (subcutaneous weekly)",
+      "target": "Dopamine receptor agonist (rotigotine)",
+      "license_origin": "Internal (Serina POZ platform)",
+      "indications": [
+        {
+          "indication": "Early stable Parkinson's disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "SER-214 weekly subcutaneous PK/safety study",
+          "trial_design": "Weekly subcutaneous injections; safety, tolerability, PK",
+          "nct_ids": ["NCT02579473"],
+          "trial_status": "Unknown (last update primary completion 2023-12-31; no recent activity reported)",
+          "lead_sponsor": "Serina Therapeutics",
+          "key_milestones": ["Phase 1a PK demonstrated linear dose-response"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "POZ-lipid LNP platform (preclinical/partnering discussions)",
+    "POZ-cannabinoid program (SER-228, SER-229, SER-232 — preclinical)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 0,
+    "P2": 0,
+    "P1": 2
+  }
+}

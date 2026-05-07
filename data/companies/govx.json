@@ -1,0 +1,112 @@
+{
+  "issuer_name": "GeoVax Labs, Inc.",
+  "ticker": "GOVX",
+  "exchange": "Nasdaq",
+  "cik": "0000832489",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-15",
+      "accession": "0001437749-26-012377",
+      "path": "data/govx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.geovax.com",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/govx_ctgov_compact.json",
+      "lead_sponsor_query": "GeoVax"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "GEO-CM04S1",
+      "aka": ["COH04S1", "sMVA-based SARS-CoV-2 vaccine"],
+      "modality": "Synthetic MVA-vectored vaccine (spike + nucleocapsid)",
+      "target": "SARS-CoV-2 (Spike + Nucleocapsid)",
+      "license_origin": "In-licensed from City of Hope (COH)",
+      "indications": [
+        {
+          "indication": "COVID-19 prevention/booster in patients with hematologic blood cancers",
+          "highest_phase": "Phase 2",
+          "trial_name": "GEO-CM04S1 vs mRNA in patients with blood cancer",
+          "trial_design": "Randomized Phase 2 comparing GEO-CM04S1 vs mRNA SARS-CoV-2 vaccine in blood-cancer patients",
+          "nct_ids": ["NCT04977024"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "GeoVax, Inc.",
+          "key_milestones": ["Primary completion expected 2026-12"]
+        },
+        {
+          "indication": "COVID-19 — Phase 2b BARDA Project NextGen funded study (next-gen vaccine)",
+          "highest_phase": "Phase 2b",
+          "trial_name": "BARDA RRPV Project NextGen Phase 2b",
+          "trial_design": "Phase 2b funded under BARDA RRPV award announced June 2024",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — funded; trial preparation under BARDA RRPV award",
+          "lead_sponsor": "GeoVax, Inc.",
+          "key_milestones": ["BARDA RRPV award June 2024"]
+        }
+      ]
+    },
+    {
+      "asset": "GEO-MVA",
+      "aka": [],
+      "modality": "MVA-vectored vaccine",
+      "target": "Orthopoxvirus (Mpox / smallpox)",
+      "license_origin": "GeoVax proprietary MVA platform",
+      "indications": [
+        {
+          "indication": "Mpox and smallpox prevention",
+          "highest_phase": "Phase 1 (planned)",
+          "trial_name": "GEO-MVA clinical program",
+          "trial_design": "cGMP manufacture and fill-finish completed; clinical study preparation underway with global regulators (EMA engagement)",
+          "nct_ids": [],
+          "trial_status": "PLANNED — cGMP material manufactured; awaiting clinical trial initiation",
+          "lead_sponsor": "GeoVax, Inc.",
+          "key_milestones": ["cGMP material completed"]
+        }
+      ]
+    },
+    {
+      "asset": "Gedeptin",
+      "aka": ["Ad/PNP", "GDEPT"],
+      "modality": "Gene-directed enzyme prodrug therapy (oncolytic adenoviral vector + fludarabine phosphate)",
+      "target": "Solid tumors (intratumoral PNP enzyme converting fludarabine to active cytotoxin)",
+      "license_origin": "In-licensed from Emory University; combination-with-ICI license added Feb 2026",
+      "indications": [
+        {
+          "indication": "Recurrent / first-line head and neck squamous cell carcinoma (combination with ICI)",
+          "highest_phase": "Phase 1/2 (completed); Phase 2 with ICI planned 1H 2027",
+          "trial_name": "PNP-002 (completed) and planned Gedeptin + ICI Phase 2",
+          "trial_design": "Multicenter Phase 1/2 completed in advanced head and neck cancer; new Phase 2 in combination with ICI as first-line in surgery-eligible HNSCC planned 1H2027",
+          "nct_ids": ["NCT03754933"],
+          "trial_status": "Completed Phase 1/2 (NCT03754933); next Phase 2 PLANNED — initiation 1H 2027",
+          "lead_sponsor": "GeoVax, Inc.",
+          "key_milestones": ["Phase 2 ICI combo initiation planned 1H 2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"program": "Hemorrhagic fever vaccines (Ebola Zaire, Ebola Sudan, Marburg)", "reason": "preclinical"},
+    {"program": "Malaria, Zika preventive vaccines", "reason": "preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT04041674", "reason": "WITHDRAWN"},
+    {"nct_id": "NCT01378156", "reason": "COMPLETED legacy HIV vaccine"},
+    {"nct_id": "NCT01571960", "reason": "COMPLETED legacy HIV vaccine"},
+    {"nct_id": "NCT04639466", "reason": "COMPLETED Phase 1/2 GEO-CM04S1 booster"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT04357821", "reason": "UCSF-led HIV remission study; GeoVax is collaborator only"}
+  ],
+  "summary_counts": {
+    "total_active_assets": 3,
+    "p3": 0,
+    "p2": 2,
+    "p1": 1
+  }
+}

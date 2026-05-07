@@ -1,0 +1,26 @@
+{
+  "issuer_name": "United Health Products, Inc.",
+  "ticker": "UEEC",
+  "exchange": "OTC",
+  "cik": "0001096938",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "fetch_10k.py downloaded the 10-K (data/ueec_10k_full.htm, ~977 KB) but could not auto-locate a 'pipeline' / 'product candidates' section heading - consistent with a non-pipeline operating filing for a medical-device hemostatic-gauze company"},
+    "website": {"error": "Pipeline page not pursued; UHP markets a single hemostatic-gauze device (HemoStyp) and has no public 'pipeline' page typical of biotech issuers"},
+    "ctgov": {"endpoint": "ClinicalTrials.gov v2 API", "sponsor_query": "United Health Products", "unique_p1_p3_trials": 0, "file": "data/ueec_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "HemoStyp",
+    "type": "Neutralized, oxidized regenerated cellulose hemostatic gauze (510(k) Class II medical device)",
+    "regulatory": "FDA 510(k) cleared as a topical hemostatic agent for external/exudative bleeding control",
+    "status": "Marketed; company also pursuing PMA pathway for surgical (internal) use - that pathway involves regulatory submissions and engineering studies, not P1/P2/P3 drug trials"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Medical device (hemostatic gauze) company with no investigational drug pipeline. HemoStyp is an FDA-cleared 510(k) device. Any future surgical PMA submission relies on device-engineering and biocompatibility studies rather than ICH P1/P2/P3 drug trials. No company-sponsored interventional trials of qualifying phase appear on ClinicalTrials.gov under sponsor 'United Health Products'."
+}

@@ -1,0 +1,144 @@
+{
+  "issuer_name": "Mirum Pharmaceuticals, Inc.",
+  "ticker": "MIRM",
+  "exchange": "Nasdaq",
+  "cik": "0001759425",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001759425-26-000013",
+      "filing_date": "2026-02-25",
+      "primary_doc": "mirm-20251231.htm"
+    },
+    "website": {
+      "url": "https://mirumpharma.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Mirum Pharmaceuticals",
+      "unique_trials": 33,
+      "file": "data/mirm_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Maralixibat",
+      "aka": ["LIVMARLI", "LUM001", "SHP625"],
+      "modality": "Small-molecule (oral)",
+      "target": "Apical sodium-dependent bile-acid transporter (ASBT/IBAT) inhibitor",
+      "license_origin": "Acquired (ex-Lumena/Shire)",
+      "indications": [
+        {
+          "indication": "Pruritus in cholestatic liver disease (excluding ALGS, PFIC, PBC, PSC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "EXPAND",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT06553768"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Mirum Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2026-10"]
+        },
+        {
+          "indication": "Intrahepatic cholestasis of pregnancy (investigator-led)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Maralixibat for ICP",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT07389031"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Imperial College London",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Volixibat",
+      "aka": ["SHP626"],
+      "modality": "Small-molecule (oral)",
+      "target": "ASBT/IBAT inhibitor (minimally absorbed)",
+      "license_origin": "Acquired (ex-Shire)",
+      "indications": [
+        {
+          "indication": "Primary biliary cholangitis (PBC, cholestatic pruritus)",
+          "highest_phase": "Phase 2b",
+          "trial_name": "VANTAGE",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT05050136"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Mirum Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2027-04"]
+        },
+        {
+          "indication": "Primary sclerosing cholangitis (PSC, cholestatic pruritus)",
+          "highest_phase": "Phase 2b",
+          "trial_name": "VISTAS",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT04663308"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Mirum Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2026-06"]
+        }
+      ]
+    },
+    {
+      "asset": "Brelovitug",
+      "aka": ["BJT-778"],
+      "modality": "Monoclonal antibody",
+      "target": "HBsAg neutralizing antibody",
+      "license_origin": "Acquired via Bonum Therapeutics asset",
+      "indications": [
+        {
+          "indication": "Chronic hepatitis delta (CHD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "AZURE program (AZURE-1, AZURE-2, AZURE-3, AZURE-4)",
+          "trial_design": "Randomized active/delayed-treatment controlled Phase 2/3 and Phase 3",
+          "nct_ids": ["NCT07200908", "NCT07298330", "NCT06907290", "NCT07454837"],
+          "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Mirum Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MRM-3379",
+      "aka": [],
+      "modality": "Small-molecule (oral)",
+      "target": "PDE4D allosteric inhibitor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Fragile X syndrome",
+          "highest_phase": "Phase 2",
+          "trial_name": "BLOOM",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT07209462"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Mirum Pharmaceuticals, Inc.",
+          "key_milestones": ["Topline expected 1H 2027"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_products": [
+      {"name": "LIVMARLI (maralixibat)", "indication": "Cholestatic pruritus in ALGS and PFIC"},
+      {"name": "CHOLBAM (cholic acid)", "indication": "Bile acid synthesis disorders, PBD-ZSD"},
+      {"name": "CTEXLI (chenodiol)", "indication": "Cerebrotendinous xanthomatosis (CTX)"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Maralixibat (NCT02321306)", "reason": "Withdrawn PBC P2 study"},
+    {"asset": "Maralixibat (NCT03353454)", "reason": "Withdrawn PFIC P3 study"},
+    {"asset": "Volixibat (NCT04718961 OHANA)", "reason": "Terminated ICP P2 (now reactivated under investigator IND for ICP)"},
+    {"asset": "Volixibat (NCT02787304 NASH)", "reason": "Terminated NASH P2"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 4,
+    "phase_3": 2,
+    "phase_2": 4,
+    "phase_1": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Q32 Bio Inc.",
+  "ticker": "QTTB",
+  "exchange": "Nasdaq",
+  "cik": "0001661998",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-099339", "filed": "2026-03-10", "fy": "2025"},
+    "website": {"url": "https://q32bio.com/pipeline", "fetched_via": "WebFetch"},
+    "ctgov": {"sponsor_query": "Q32 Bio", "raw_count": 4, "kept_p1_p3": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "bempikibart",
+      "aka": ["ADX-914"],
+      "modality": "Anti-IL-7Ralpha monoclonal antibody",
+      "target": "IL-7Ralpha (blocks both IL-7 and TSLP signaling)",
+      "license_origin": "In-licensed from Bristol-Myers Squibb (Sep 2019); rights re-acquired from Horizon/Amgen Nov 2023",
+      "indications": [
+        {
+          "indication": "Severe alopecia areata (AA)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SIGNAL-AA Part B",
+          "trial_design": "Open-label Phase 2a, 33 severe/very severe AA patients, 200 mg loading weekly x4 then every-other-week through week 36, follow-up to week 52; intended to enable advancement into pivotal trials.",
+          "nct_ids": ["NCT06018428"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Q32 Bio Inc.",
+          "key_milestones": ["36-week topline data expected mid-2026"]
+        },
+        {
+          "indication": "Moderate-to-severe atopic dermatitis (AD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SIGNAL-AD",
+          "trial_design": "Phase 2 randomized, double-blind, placebo-controlled study evaluating safety and efficacy of ADX-914 in moderate-to-severe AD.",
+          "nct_ids": ["NCT05509023"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Q32 Bio Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ADX-097", "reason": "Asset sold/divested to Akebia Therapeutics on Nov 28, 2025; Colorado License Agreement transferred. No longer a Q32 asset. NCT06419205 was WITHDRAWN."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 0, "p2": 2, "p1": 0}
+}

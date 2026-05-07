@@ -1,0 +1,71 @@
+{
+  "issuer_name": "BriaCell Therapeutics Corp.",
+  "ticker": "BCTX",
+  "exchange": "Nasdaq",
+  "cik": "0001610820",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-25-018212",
+      "filing_date": "2025-10-16",
+      "path": "data/bctx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://briacell.com/",
+      "error": "pipeline page returned framework markup only; relied on 10-K + ctgov"
+    },
+    "ctgov": {
+      "path": "data/bctx_ctgov_compact.json",
+      "trials_total": 4
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Bria-IMT",
+      "aka": ["SV-BR-1-GM"],
+      "modality": "Allogeneic whole-cell targeted immunotherapy (GM-CSF-secreting breast cancer cell line)",
+      "target": "Tumor-associated antigens (HLA-mediated)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Metastatic breast cancer (advanced/late-line)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Bria-IMT pivotal Phase 3 (Bria-IMT + retifanlimab vs Treatment of Physician's Choice)",
+          "trial_design": "Pivotal randomized study of Bria-IMT regimen plus checkpoint inhibitor (retifanlimab) vs Treatment of Physician's Choice in advanced metastatic breast cancer; FDA Fast Track Designation.",
+          "nct_ids": ["NCT06072612"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BriaCell Therapeutics Corporation",
+          "key_milestones": ["Primary completion expected Dec 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "Bria-OTS",
+      "aka": ["BC1 cell line"],
+      "modality": "Off-the-shelf personalized allogeneic cellular immunotherapy platform",
+      "target": "HLA-matched tumor antigens",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Metastatic recurrent breast cancer",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BRIA-OTS-001 (Bria-OTS regimen + tislelizumab)",
+          "trial_design": "Phase 1/2 study of Bria-OTS cellular immunotherapy with checkpoint inhibitor (tislelizumab) in metastatic recurrent breast cancer; trial initiated Aug 2024.",
+          "nct_ids": ["NCT06471673"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BriaCell Therapeutics Corporation",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Bria-PROS+ (prostate cancer; manufacturing under NCI grant, IND-pending)", "Bria-LUNG+ (lung cancer; preclinical)"],
+  "excluded_legacy_terminated": [
+    "NCT03328026 Bria-IMT + retifanlimab Phase 1/2 (COMPLETED)",
+    "NCT03066947 SV-BR-1-GM Phase 1/2 (COMPLETED)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_active": 2, "P3": 1, "P2": 1, "P1": 0}
+}

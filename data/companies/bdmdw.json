@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Baird Medical Investment Holdings Ltd.",
+  "ticker": "BDMDW",
+  "exchange": "Nasdaq",
+  "cik": "0001982444",
+  "region": "Cayman Islands / China (operations)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F (Cayman-domiciled, China-operating); no 10-K available via SEC submissions API"},
+    "website": {"url": "https://bairdmed.com/", "note": "Corporate site describes microwave ablation (MWA) systems and disposable antennas/needles for thyroid nodules and other tumor ablation; no listed company-sponsored P1/P2/P3 drug clinical trials"},
+    "ctgov": {"file": "data/bdmdw_ctgov_compact.json", "sponsor_query": "Baird Medical", "trials_found": 0, "note": "No company-sponsored studies under Baird Medical name on ClinicalTrials.gov"},
+    "press_releases": [
+      {"url": "https://www.prnewswire.com/news-releases/baird-medical-expands-global-reach-with-regulatory-clearance-in-argentina-302711933.html", "date": "2026-03", "topic": "Argentina regulatory clearance for MWA system"},
+      {"url": "https://www.prnewswire.com/news-releases/baird-medical-establishes-us-manufacturing-base-to-accelerate-global-expansion-and-future-rd-302644327.html", "date": "2025-12", "topic": "U.S. manufacturing base via MPS Medical partnership"}
+    ]
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Minimally invasive microwave ablation (MWA) medical devices and consumable antennas/needles",
+    "lead_platform": "Proprietary microwave ablation system for thyroid nodules and other soft-tissue tumor ablation",
+    "regulatory_status": [
+      "FDA cleared (United States)",
+      "Approved in Indonesia, Malaysia, Vietnam",
+      "Most recent clearance: Argentina (March 2026)",
+      "Applications under review: Egypt, Sri Lanka, Philippines, Pakistan, and other markets",
+      "Market leader in China for thyroid microwave ablation devices and consumables"
+    ],
+    "us_clinical_deployment": "Used at 30+ U.S. hospitals/clinics including Mayo Clinic, Tulane Medical Center, Columbia University Medical Center, UCSF Medical Center, Weill Cornell Medical Center, and George Washington University Hospital"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Commercial-stage medical-device company. Baird Medical sells FDA-cleared microwave ablation (MWA) systems and consumable antennas for thyroid-nodule and tumor ablation; current activity is global regulatory expansion (Argentina clearance Mar 2026, U.S. manufacturing base via MPS Medical) and commercial deployment, not company-sponsored P1/P2/P3 clinical trials of investigational drugs or pivotal IDE device studies on a public registry."
+}

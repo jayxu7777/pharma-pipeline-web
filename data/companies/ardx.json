@@ -1,0 +1,87 @@
+{
+  "issuer_name": "Ardelyx, Inc.",
+  "ticker": "ARDX",
+  "exchange": "Nasdaq",
+  "cik": "0001437402",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437402-26-000013", "filed": "2026-02-19", "doc": "ardx-20251231.htm"},
+    "website": {"url": "https://www.ardelyx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Ardelyx", "trials_returned": 29, "active_p1_3": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "tenapanor",
+      "aka": ["IBSRELA (US)", "XPHOZAH (US)", "RDX5791", "AZD1722"],
+      "modality": "Small molecule (oral, minimally absorbed)",
+      "target": "NHE3 (sodium/hydrogen exchanger 3)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic idiopathic constipation (CIC) — adults",
+          "highest_phase": "Phase 3",
+          "trial_name": "Tenapanor CIC dose-ranging Phase 3",
+          "trial_design": "26-week randomized study assessing safety and efficacy of tenapanor (5/25/50 mg BID) vs placebo in CIC",
+          "nct_ids": ["NCT07382167"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ardelyx",
+          "key_milestones": []
+        },
+        {
+          "indication": "Irritable bowel syndrome with constipation (IBS-C) — pediatric (6 to <18 yrs)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Tenapanor pediatric IBS-C Phase 3",
+          "trial_design": "Phase 3 safety/efficacy of tenapanor in pediatric IBS-C patients",
+          "nct_ids": ["NCT05643534", "NCT05905926"],
+          "trial_status": "RECRUITING / ENROLLING_BY_INVITATION (long-term safety)",
+          "lead_sponsor": "Ardelyx",
+          "key_milestones": []
+        },
+        {
+          "indication": "Irritable bowel syndrome with constipation (IBS-C) — pediatric (6 to <12 yrs) dose-ranging",
+          "highest_phase": "Phase 2",
+          "trial_name": "Tenapanor pediatric IBS-C dose-ranging",
+          "trial_design": "4-week multi-center dose-ranging study in pediatric IBS-C patients aged 6 to <12 years",
+          "nct_ids": ["NCT06553547"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ardelyx",
+          "key_milestones": []
+        },
+        {
+          "indication": "Synucleinopathy-related constipation (e.g., Parkinson's disease)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Tenapanor in synucleinopathy-related constipation",
+          "trial_design": "Phase 2 randomized placebo-controlled study",
+          "nct_ids": ["NCT06460038"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ardelyx",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cystic fibrosis-related constipation",
+          "highest_phase": "Phase 3",
+          "trial_name": "Tenapanor in CF-related constipation",
+          "trial_design": "Phase 3 study assessing tenapanor for CF-related constipation",
+          "nct_ids": ["NCT06810167"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ardelyx",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "IBSRELA", "inn": "tenapanor", "indication": "IBS-C in adults", "approval": "FDA-approved 2019"},
+      {"name": "XPHOZAH", "inn": "tenapanor", "indication": "Hyperphosphatemia in adult CKD on dialysis", "approval": "FDA-approved 2023"}
+    ]
+  },
+  "excluded_preclinical": [
+    {"asset": "RDX10531", "stage": "Preclinical", "target": "Next-generation NHE3 inhibitor"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "indications_p1": 0, "indications_p2": 2, "indications_p3": 3}
+}

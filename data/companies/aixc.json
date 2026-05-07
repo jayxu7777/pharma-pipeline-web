@@ -1,0 +1,57 @@
+{
+  "issuer_name": "AIxCrypto Holdings, Inc.",
+  "ticker": "AIXC",
+  "exchange": "Nasdaq",
+  "cik": "0001460702",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001493152-26-013434",
+      "path": "data/aixc_10k_pipeline_section.html",
+      "note": "Issuer rebranded from Qualigen Therapeutics, Inc. to AIxCrypto Holdings, Inc. in November 2025; 10-K states the company has determined to discontinue development of its therapeutics programs and is evaluating strategic options for the QN-302 trial (continue, license, or sell)."
+    },
+    "website": {
+      "url": "https://www.aixcrypto.ai/",
+      "note": "Website is now an AI / blockchain / RWA company; no pipeline page exists. /pipeline returns 404."
+    },
+    "ctgov": {
+      "path": "data/aixc_qn302_ctgov_compact.json",
+      "unique_trials_p1_p3": 1,
+      "note": "Search by AIxCrypto returned 0 trials; search by predecessor sponsor 'Qualigen' returned NCT06086522 (still listed RECRUITING)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "QN-302",
+      "aka": ["Substituted Naphthalene Diimide G-quadruplex stabilizer"],
+      "modality": "Small molecule (substituted naphthalene diimide; G-quadruplex transcriptional inhibitor)",
+      "target": "G-quadruplex DNA structures (transcriptional inhibition; relevant to KRAS-driven tumors)",
+      "license_origin": "Patent family 'Substituted Naphthalene Dimides and Their Use' managed/licensed by Qualigen (pre-rebrand)",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic solid tumors (Phase 1a dose escalation; pancreatic cancer focus)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Trial to Evaluate Safety, PD & PK of IV Study Drug, QN-302, in Patients with Advanced or Metastatic Solid Tumors",
+          "trial_design": "Phase 1, interventional, open-label dose escalation; safety, pharmacodynamics and pharmacokinetics of IV QN-302",
+          "nct_ids": ["NCT06086522"],
+          "trial_status": "RECRUITING (per ClinicalTrials.gov; lead sponsor still listed as Qualigen Therapeutics, Inc.). Primary completion 2025-12. Issuer's 2026 10-K states therapeutics development is being discontinued and the QN-302 program is up for continuation, license, or sale.",
+          "lead_sponsor": "Qualigen Therapeutics, Inc. (legacy name; now AIxCrypto Holdings, Inc.)",
+          "key_milestones": [
+            "Trial start 2023-11",
+            "Primary completion target 2025-12",
+            "Strategic review post-rebrand (Nov 2025): continue / out-license / divest"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 1, "total_assets": 1},
+  "no_active_clinical_pipeline_reason": null,
+  "blockers": "Issuer rebranded from Qualigen Therapeutics to AIxCrypto Holdings (Nov 2025) and is now an AI / blockchain / RWA company; therapeutics business is being wound down. QN-302 (NCT06086522) remains RECRUITING on ClinicalTrials.gov under the legacy Qualigen sponsor record but the asset's future ownership is uncertain (continue / license / sell)."
+}

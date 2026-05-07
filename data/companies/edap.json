@@ -1,0 +1,72 @@
+{
+  "issuer_name": "EDAP TMS SA",
+  "ticker": "EDAP",
+  "exchange": "Nasdaq",
+  "cik": "0001041934",
+  "region": "France (US-listed; files 10-K)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. For this medtech device issuer (HIFU prostate-tissue-ablation devices), task rule says report only ACTIVE pivotal/IDE clinical studies of company's own devices, not investigator-initiated.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-034528",
+      "filing_date": "2026-03-25",
+      "doc": "edap-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://focalone.com",
+      "note": "edap-tms.com 301-redirects to focalone.com. /pipeline page is 404. Site lists Focal One i HIFU robotic system as the marketed product and references the HIFI study (peer-reviewed, completed)."
+    },
+    "ctgov": {
+      "queries": ["EDAP TMS"],
+      "raw_returned": 3,
+      "kept_in_compact_phase_filter": 3,
+      "trials": [
+        {"nct": "NCT02250014", "phase": "PHASE1", "status": "COMPLETED", "lead": "University of Colorado, Denver", "note": "Investigator-initiated; EDAP collaborator only."},
+        {"nct": "NCT00295802", "phase": "PHASE2/PHASE3", "status": "UNKNOWN", "lead": "EDAP TMS S.A.", "note": "Legacy 2006-start trial of Ablatherm; status UNKNOWN since ~2012; not active."},
+        {"nct": "NCT06402357", "phase": "PHASE2", "status": "RECRUITING", "lead": "University of Florida", "note": "Investigator-initiated study of Focal One HIFU; EDAP-TMS Focal One collaborator."}
+      ]
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "Focal One i Robotic HIFU System",
+        "status": "FDA 510(k) cleared (initial Focal One: 2018-06-07; 2025 510(k) clearance for new ultrasound imaging and workflow enhancements). CE Marked since 2013-06-18. Marketed in U.S., Europe, Canada, Korea, Russia, Brazil and other countries. Indicated for prostate tissue ablation."
+      },
+      {
+        "name": "Ablatherm HIFU (legacy)",
+        "status": "Earlier-generation HIFU prostate device; predecessor to Focal One."
+      },
+      {
+        "name": "ESWL (Sonolith i-move) lithotripsy",
+        "status": "Discontinued: company stopped selling Sonolith i-move in H2 2025; service of installed base continues."
+      }
+    ],
+    "supporting_clinical_evidence": [
+      {
+        "name": "HIFI study",
+        "design": "Largest prospective comparative multi-center study of prostate cancer treatments (HIFU vs surgery).",
+        "status": "Results published December 2024 in European Urology (Ploussard G. et al.). Met primary endpoint of non-inferiority for Salvage Treatment-free Survival at 30 months.",
+        "note": "Supports approved/marketed Focal One; not forward pipeline."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Ablatherm Integrated Imaging HIFU", "nct_id": "NCT00295802", "reason": "Phase 2/3 study with status UNKNOWN since 2012; superseded by Focal One generations."},
+    {"asset": "Sonolith i-move ESWL lithotripsy", "reason": "Product line discontinued in H2 2025."}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Cryotherapy + GM-CSF for prostate cancer", "nct_id": "NCT02250014", "lead_sponsor": "University of Colorado, Denver", "reason": "Investigator-initiated; EDAP collaborator only; completed 2017."},
+    {"asset": "Focal One HIFU in prostate cancer (UF study)", "nct_id": "NCT06402357", "lead_sponsor": "University of Florida", "reason": "Investigator-initiated study with EDAP-TMS Focal One as collaborator; per task rules, investigator-initiated trials of device companies are excluded."}
+  ],
+  "summary_counts": {
+    "total_assets_pipeline": 0,
+    "phase_3_or_pivotal_device": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "commercial_products": 2
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company (HIFU robotic system for prostate tissue ablation). Focal One i is FDA-cleared and marketed; R&D consists of incremental device/software/AI enhancements pursued via 510(k) line extensions (2025 510(k) clearance obtained), not new investigational drug or pivotal IDE studies sponsored by the company. The only company-sponsored ctgov study is a legacy UNKNOWN-status Ablatherm trial; other Focal One ctgov entries are investigator-initiated and excluded per task rules."
+}

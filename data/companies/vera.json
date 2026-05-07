@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Vera Therapeutics, Inc.",
+  "ticker": "VERA",
+  "exchange": "Nasdaq",
+  "cik": "0001831828",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-077442", "filing_date": "2026-02-26", "doc": "vera-20251231.htm"},
+    "website": {"error": "veratx.com pipeline page returned 403; cross-referenced via 10-K, ctgov, and corporate IR releases."},
+    "ctgov": {"sponsor_query": "Vera Therapeutics", "compact_file": "data/vera_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Atacicept",
+      "aka": ["VT-001"],
+      "modality": "Recombinant TACI-Fc fusion protein (subcutaneous, weekly)",
+      "target": "BAFF + APRIL",
+      "license_origin": "In-licensed from Merck Serono; rights held by Vera",
+      "indications": [
+        {
+          "indication": "IgA nephropathy (IgAN)",
+          "highest_phase": "Phase 3 (BLA filed; PDUFA Jul 7, 2026)",
+          "trial_name": "ORIGIN Phase 3 + monthly-dosing Phase 2 + LTE",
+          "trial_design": "Pivotal randomized, double-blind, placebo-controlled (NCT04716231); rollover LTE (NCT06674577); monthly-dosing Phase 2 (NCT07020923)",
+          "nct_ids": ["NCT04716231", "NCT06674577", "NCT07020923"],
+          "trial_status": "Active, not recruiting / Enrolling by invitation; BLA accepted under Accelerated Approval, Priority Review",
+          "lead_sponsor": "Vera Therapeutics, Inc.",
+          "key_milestones": ["ORIGIN met primary endpoint: 46% UPCR reduction at week 36", "BLA submitted Nov 2025; PDUFA Jul 7, 2026"]
+        },
+        {
+          "indication": "Multiple glomerular diseases (PIONEER: pMN, FSGS, MCD, expanded IgAN, nephrotic syndrome)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PIONEER",
+          "trial_design": "Basket Phase 2 across glomerular diseases",
+          "nct_ids": ["NCT06983028"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vera Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MAU868",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "BK virus VP1",
+      "license_origin": "Acquired from Amplyx/Novartis",
+      "indications": [
+        {
+          "indication": "BK virus infection in kidney transplant recipients",
+          "highest_phase": "Phase 2",
+          "trial_name": "MAU868 BK viremia Phase 2",
+          "trial_design": "Randomized, placebo-controlled (completed)",
+          "nct_ids": ["NCT04294472"],
+          "trial_status": "Completed; next development steps under evaluation",
+          "lead_sponsor": "Vera Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "VT-109", "reason": "Next-generation BAFF/APRIL fusion protein in-licensed from Stanford; preclinical per company disclosures"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Atacicept in lupus nephritis (COMPASS Phase 3, NCT05609812)", "reason": "Withdrawn per ctgov record"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "indications_total": 3,
+    "phase_3_indications": 1,
+    "phase_2_indications": 2,
+    "phase_1_indications": 0
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "issuer_name": "PRECIGEN, INC.",
+  "ticker": "PGEN",
+  "exchange": "Nasdaq",
+  "cik": "0001356090",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001356090-26-000009", "filing_date": "2026-03-25", "doc": "pgen-20251231.htm"},
+    "website": {"url": "https://www.precigen.com/pipeline", "extracted": true},
+    "ctgov": {"sponsor_query": "Precigen", "trial_count": 7, "active_count": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "PRGN-2009",
+      "aka": ["PRGN-2009"],
+      "modality": "Off-the-shelf gorilla adenovector immunotherapy (AdenoVerse)",
+      "target": "HPV-16 and HPV-18 oncoproteins (E6/E7)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Recurrent or metastatic cervical cancer (in combination with pembrolizumab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PRGN-2009 + pembrolizumab cervical cancer",
+          "trial_design": "Phase 2 combination",
+          "nct_ids": ["NCT06157151"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Precigen, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "HPV-associated oropharyngeal squamous cell carcinoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "PRGN-2009 OPSCC",
+          "trial_design": "Phase 2 (NCI-led)",
+          "nct_ids": ["NCT05996523"],
+          "trial_status": "Recruiting / Active",
+          "lead_sponsor": "National Cancer Institute (NCI) / Precigen collaboration",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PRGN-3006 UltraCAR-T",
+      "aka": ["PRGN-3006"],
+      "modality": "Autologous CAR-T (UltraCAR-T platform with membrane-bound IL-15 and kill switch)",
+      "target": "CD33",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory Acute Myeloid Leukemia (AML), MDS",
+          "highest_phase": "Phase 1",
+          "trial_name": "PRGN-3006 in CD33+ R/R AML",
+          "trial_design": "Phase 1 dose escalation/expansion",
+          "nct_ids": ["NCT03927261"],
+          "trial_status": "Active, not recruiting; Phase 1b enrollment completed",
+          "lead_sponsor": "Precigen, Inc.",
+          "key_milestones": ["Orphan Drug Designation", "Fast Track Designation"]
+        }
+      ]
+    },
+    {
+      "asset": "PRGN-3005 UltraCAR-T",
+      "aka": ["PRGN-3005"],
+      "modality": "Autologous CAR-T (UltraCAR-T)",
+      "target": "MUC16 (Mucin 16)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced/recurrent ovarian, fallopian tube and primary peritoneal cancers",
+          "highest_phase": "Phase 1",
+          "trial_name": "PRGN-3005 in advanced ovarian cancer",
+          "trial_design": "Phase 1 dose escalation",
+          "nct_ids": ["NCT03907527"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Precigen, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PRGN-3007 UltraCAR-T",
+      "aka": ["PRGN-3007"],
+      "modality": "Autologous CAR-T with intrinsic PD-1 blockade",
+      "target": "ROR1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "ROR1+ hematologic and solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "PRGN-3007 in ROR1+ tumors",
+          "trial_design": "Phase 1 first-in-human",
+          "nct_ids": ["NCT05694364"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Precigen, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_products": ["PAPZIMEOS (zopapogene imadenovec-drba / PRGN-2012) — FDA-approved for adult RRP"],
+    "note": "PRGN-2012 was approved by FDA; remaining pipeline focuses on AdenoVerse cancer immunotherapies and UltraCAR-T cell therapies."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase_3": 0,
+    "phase_2": 2,
+    "phase_1": 3,
+    "approved": 1
+  }
+}

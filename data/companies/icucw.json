@@ -1,0 +1,114 @@
+{
+  "issuer_name": "SeaStar Medical Holding Corp",
+  "ticker": "ICUCW",
+  "exchange": "Nasdaq",
+  "cik": "0001831868",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 (device-company adaptation: active pivotal IDE and feasibility IDE studies of own SCD device).",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-26-009797",
+      "filed": "2026-03-25",
+      "doc": "icu20251231_10k.htm",
+      "note": "10-K describes Selective Cytopheretic Device (SCD) platform: one HDE-approved pediatric product (QUELIMMUNE) and an active pivotal IDE study NEUTRALIZE-AKI (NCT05758077, 339 subjects, 181 enrolled as of 2026-03-21) plus feasibility IDE studies in cardiorenal syndrome (NCT03836482) and investigator-initiated HRS (NCT04898010). Six FDA Breakthrough Device Designations awarded across AKI, CRS, HRS, ESRD, adult and pediatric cardiac-surgery indications."
+    },
+    "website": {
+      "url": "https://seastarmedical.com/pipeline",
+      "note": "Pipeline page lists QUELIMMUNE (commercial pediatric AKI), SCD pivotal in adult AKI, and SCD feasibility/Breakthrough programs in CRS, ESRD chronic hemodialysis, HRS, and cardiac-surgery systemic inflammation (adult and pediatric)."
+    },
+    "ctgov": {
+      "file": "data/icucw_ctgov_compact.json",
+      "result_count_raw": 7,
+      "result_count_p1_p3": 0,
+      "note": "All sponsor-matched studies are device IDE studies with phase=N/A and were filtered out by the P1/P2/P3 keep-rule. Re-included here per device-company rule (rule 4 in workflow)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Selective Cytopheretic Device (SCD)",
+      "aka": ["SCD therapy", "NEUTRALIZE-AKI device"],
+      "modality": "Extracorporeal immunomodulatory medical device (cell-directed neutrophil/monocyte deactivation cartridge)",
+      "target": "Activated neutrophils and monocytes (calcium-mediated catch-and-release on hollow-fiber membrane)",
+      "license_origin": "Internal (acquired from Predecessor entity)",
+      "indications": [
+        {
+          "indication": "Adult acute kidney injury (AKI) requiring CRRT",
+          "highest_phase": "Pivotal IDE (FDA Breakthrough Device Designation; PMA-track)",
+          "trial_name": "NEUTRALIZE-AKI",
+          "trial_design": "Prospective, multi-center, open-label, randomized, two-arm comparative pivotal study; 339 planned subjects; primary composite of Day-90 mortality or dialysis dependency; control = standard CRRT.",
+          "nct_ids": ["NCT05758077"],
+          "trial_status": "Recruiting (181/339 enrolled as of 2026-03-21)",
+          "lead_sponsor": "SeaStar Medical",
+          "key_milestones": ["Enrollment began Q2 2023; ~48-month enrollment window", "BDD granted Apr 2022 for adult AKI immunomodulatory dysregulation"]
+        },
+        {
+          "indication": "Cardiorenal syndrome (CRS) / right-ventricular failure awaiting LVAD",
+          "highest_phase": "Feasibility IDE (FDA Breakthrough Device Designation)",
+          "trial_name": "Feasibility of the SCD in Cardiorenal Syndrome Patients Awaiting LVAD",
+          "trial_design": "Multi-center, open-label, single-arm feasibility study; 20 subjects; SCD delivered 4 hours/day for up to 6 consecutive days; safety and mortality / MI / vasopressor endpoints.",
+          "nct_ids": ["NCT03836482"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "SeaStar Medical",
+          "key_milestones": ["BDD granted Sep 2023", "NIH-funded program (~$3.6M)"]
+        },
+        {
+          "indication": "Hepatorenal syndrome (HRS) Type I with AKI",
+          "highest_phase": "Investigator-initiated pilot IDE (FDA Breakthrough Device Designation)",
+          "trial_name": "SCD in HRS pilot (University of Michigan)",
+          "trial_design": "Investigator-initiated pilot, up to 10 ICU patients; 7-day SCD treatment; safety and effects on leukocytes, circulation, renal function.",
+          "nct_ids": ["NCT04898010"],
+          "trial_status": "Active (2 patients treated to date)",
+          "lead_sponsor": "Investigator-initiated (University of Michigan)",
+          "key_milestones": ["BDD granted Oct 2023"]
+        },
+        {
+          "indication": "End-stage renal disease (ESRD) on chronic hemodialysis (chronic systemic inflammation)",
+          "highest_phase": "Planned chronic-setting program (FDA Breakthrough Device Designation; pilot data)",
+          "trial_name": "SCD in chronic hemodialysis ESRD",
+          "trial_design": "Pilot feasibility data in 15 ESRD patients on chronic hemodialysis; controlled program planned.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — controlled study to follow pilot",
+          "lead_sponsor": "SeaStar Medical",
+          "key_milestones": ["First chronic-disease BDD, granted Nov 2024"]
+        },
+        {
+          "indication": "Systemic inflammatory response in adult cardiac surgery",
+          "highest_phase": "Planned IDE (FDA Breakthrough Device Designation)",
+          "trial_name": "SCD adult cardiac-surgery program",
+          "trial_design": "Prevention of post-operative complications via intra-/peri-operative SCD therapy.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IND/IDE design stage",
+          "lead_sponsor": "SeaStar Medical",
+          "key_milestones": ["BDD granted Mar 27, 2025"]
+        },
+        {
+          "indication": "Systemic inflammatory response in pediatric cardiac surgery",
+          "highest_phase": "Planned IDE (FDA Breakthrough Device Designation)",
+          "trial_name": "SCD pediatric cardiac-surgery program",
+          "trial_design": "Prevention of post-operative complications in pediatric cardiac surgery.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IDE design stage",
+          "lead_sponsor": "SeaStar Medical",
+          "key_milestones": ["First pediatric BDD for SCD, granted Mar 27, 2025"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "QUELIMMUNE (SCD-PED)",
+        "approval": "FDA Humanitarian Device Exemption (HDE) approved Feb 21, 2024",
+        "indication": "Critically ill pediatric patients (>=10 kg) with life-threatening acute kidney injury due to sepsis or septic conditions and requiring kidney replacement therapy",
+        "launch": "Commercial launch July 2024"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "SCD", "study": "SCD-003", "reason": "Phase 3A randomized controlled trial terminated 2013 due to nationwide calcium shortage."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "device_pivotal_ide": 1, "device_feasibility_ide": 2, "planned": 3, "total_assets": 1, "total_indications": 6}
+}

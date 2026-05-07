@@ -1,0 +1,27 @@
+{
+  "issuer_name": "CTT Pharmaceutical Holdings, Inc.",
+  "ticker": "CTTH",
+  "exchange": "OTC",
+  "cik": "0001035422",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2015-04-14",
+      "accession": "0001553350-15-000347",
+      "note": "Stale 10-K (2015). No subsequent annual filings on EDGAR. Issuer appears to be a dormant shell."
+    },
+    "website": {"error": "Corporate domain cttpharma.com expired (HugeDomains parking page); ctth.com unreachable. No public pipeline page found."},
+    "ctgov": {"unique_p1_p3_trials": 0, "note": "No registered clinical trials with this sponsor."}
+  },
+  "pipeline": [],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    {"asset": "Cannabis-extract fast-dissolving oral wafer (THC / cannabinoids / terpenes)", "reason": "Preclinical drug-delivery platform; no IND or registered clinical trial."}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p1": 0, "p2": 0, "p3": 0},
+  "no_active_clinical_pipeline_reason": "Dormant micro-cap shell. Last 10-K filed 2015 described a preclinical cannabis-extract oral wafer drug-delivery platform; no IND, no registered clinical trials, corporate website domain expired, no SEC filings since."
+}

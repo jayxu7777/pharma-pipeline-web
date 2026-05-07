@@ -1,0 +1,75 @@
+{
+  "issuer_name": "Anavex Life Sciences Corp.",
+  "ticker": "AVXL",
+  "exchange": "Nasdaq",
+  "cik": "0001314052",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Pipeline section heading not parsed by fetch_10k.py; raw 10-K saved to data/avxl_10k_full.htm. Cross-referenced with 2026 IR releases."},
+    "website": {"url": "https://anavex.com/news/anavex-life-sciences-q1-2026-financial-results/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Anavex Life Sciences", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Blarcamesine",
+      "aka": ["ANAVEX2-73"],
+      "modality": "Oral small molecule",
+      "target": "Sigma-1 receptor (SIGMAR1) agonist",
+      "license_origin": "Internal (Anavex)",
+      "indications": [
+        {
+          "indication": "Early Alzheimer's disease",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "ANAVEX2-73-AD-004 (Phase 2b/3) and OLE",
+          "trial_design": "Randomized Phase 2b/3 plus open-label extension",
+          "nct_ids": ["NCT03790709", "NCT04314934"],
+          "trial_status": "Completed; under regulatory review (FDA Type C 2026; EMA re-examination requested after CHMP negative opinion 2025)",
+          "lead_sponsor": "Anavex Life Sciences Corp.",
+          "key_milestones": ["FDA Type C meeting Jan 2026; EU re-examination requested Dec 2025"]
+        },
+        {
+          "indication": "Pediatric Rett syndrome",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "ANAVEX2-73 EXCELLENCE",
+          "trial_design": "Phase 2/3 randomized placebo-controlled in pediatric Rett",
+          "nct_ids": ["NCT04304482"],
+          "trial_status": "Completed",
+          "lead_sponsor": "Anavex Life Sciences Corp.",
+          "key_milestones": ["Adult Rett Phase 3 NCT03941444 also completed"]
+        }
+      ]
+    },
+    {
+      "asset": "ANAVEX3-71",
+      "aka": [],
+      "modality": "Oral small molecule",
+      "target": "Sigma-1 receptor and M1 muscarinic receptor agonist",
+      "license_origin": "Internal (Anavex)",
+      "indications": [
+        {
+          "indication": "Schizophrenia",
+          "highest_phase": "Phase 2",
+          "trial_name": "ANAVEX3-71 schizophrenia Phase 2",
+          "trial_design": "Randomized placebo-controlled Phase 2 in adults with schizophrenia",
+          "nct_ids": ["NCT06245213"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Anavex Life Sciences Corp.",
+          "key_milestones": ["Expected to advance to pivotal studies"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 0,
+    "P2/3": 2,
+    "P2": 1,
+    "P1": 0,
+    "indications_active": 3
+  }
+}

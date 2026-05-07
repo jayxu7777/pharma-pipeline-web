@@ -1,0 +1,93 @@
+{
+  "issuer_name": "Biomea Fusion, Inc.",
+  "ticker": "BMEA",
+  "exchange": "Nasdaq",
+  "cik": "0001840439",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-121825", "filed": "2026-03-24", "form": "10-K"},
+    "website": {"url": "https://www.biomeafusion.com/pipeline"},
+    "ctgov": {"query_sponsor": "Biomea Fusion", "results": 9}
+  },
+  "pipeline": [
+    {
+      "asset": "Icovamenib",
+      "aka": ["BMF-219"],
+      "modality": "Small molecule, covalent menin inhibitor",
+      "target": "Menin",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Type 2 Diabetes Mellitus (insulin-deficient)",
+          "highest_phase": "Phase 2",
+          "trial_name": "COVALENT-111 / COVALENT-211",
+          "trial_design": "Phase 2 in T2D not achieving glycemic targets",
+          "nct_ids": ["NCT07502495"],
+          "trial_status": "Recruiting (start 2026-03-27; primary completion 2027-06)",
+          "lead_sponsor": "Biomea Fusion Inc.",
+          "key_milestones": ["26-week primary endpoint data anticipated 4Q 2026"]
+        },
+        {
+          "indication": "Type 2 Diabetes Mellitus on GLP-1 therapy (COVALENT-212)",
+          "highest_phase": "Phase 2",
+          "trial_name": "COVALENT-212",
+          "trial_design": "Phase 2 placebo-controlled in T2D not achieving glycemic targets on GLP-1",
+          "nct_ids": ["NCT07502508"],
+          "trial_status": "Recruiting (start 2026-04; primary completion 2027-06)",
+          "lead_sponsor": "Biomea Fusion Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BMF-500",
+      "aka": [],
+      "modality": "Small molecule, covalent FLT3 inhibitor",
+      "target": "FLT3",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Acute Myeloid Leukemia (FLT3-mutant)",
+          "highest_phase": "Phase 1",
+          "trial_name": "COVALENT-103",
+          "trial_design": "First-in-human dose escalation in adults with acute leukemia",
+          "nct_ids": ["NCT05918692"],
+          "trial_status": "Active, not recruiting (primary completion 2026-04)",
+          "lead_sponsor": "Biomea Fusion Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BMF-650",
+      "aka": [],
+      "modality": "Small molecule, oral GLP-1 receptor agonist",
+      "target": "GLP-1R",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Obesity / Overweight",
+          "highest_phase": "Phase 1",
+          "trial_name": "First-in-human BMF-650",
+          "trial_design": "Phase 1 in healthy overweight/obese adults",
+          "nct_ids": ["NCT07223216"],
+          "trial_status": "Active, not recruiting (primary completion 2026-05)",
+          "lead_sponsor": "Biomea Fusion Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT05631574", "asset": "BMF-219", "reason": "Terminated KRAS NSCLC/PDAC/CRC study"},
+    {"nct_id": "NCT05153330", "asset": "BMF-219", "reason": "Terminated AML/ALL/DLBCL/MM/CLL study"},
+    {"nct_id": "NCT06152042", "asset": "BMF-219 (Icovamenib)", "reason": "Terminated COVALENT-112 Type 1 Diabetes Phase 2"},
+    {"nct_id": "NCT05731544", "asset": "BMF-219", "reason": "Completed Phase 1/2 healthy/T2D study"},
+    {"nct_id": "NCT07254286", "asset": "Icovamenib", "reason": "Completed food-effect Phase 1 (PK study)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 3, "p3": 0, "p2": 1, "p1": 2}
+}

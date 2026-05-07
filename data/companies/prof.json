@@ -1,0 +1,70 @@
+{
+  "issuer_name": "Profound Medical Corp.",
+  "ticker": "PROF",
+  "exchange": "Nasdaq",
+  "cik": "0001628808",
+  "region": "US/CA",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-024153",
+      "filing_date": "2026-03-05",
+      "doc": "prof-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://www.profoundmedical.com/",
+      "note": "Pipeline/ page not present; corporate site describes commercial devices TULSA-PRO and Sonalleve."
+    },
+    "ctgov": {
+      "sponsor_query": "Profound Medical",
+      "p1_p3_drug_trials": 0,
+      "company_sponsored_device_trials": [
+        {
+          "nct_id": "NCT05027477",
+          "name": "CAPTAIN",
+          "phase": "NA (device RCT)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "design": "Randomized comparison of TULSA Procedure vs. Radical Prostatectomy in Localized Prostate Cancer",
+          "lead_sponsor": "Profound Medical Inc."
+        }
+      ],
+      "investigator_initiated_excluded": [
+        {
+          "nct_id": "NCT05917860",
+          "title": "Neoadjuvant ADT with TULSA in Intermediate Risk Prostate Cancer",
+          "lead_sponsor": "Turku University Hospital"
+        }
+      ]
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "TULSA-PRO": {
+      "type": "Medical device — MRI-guided transurethral ultrasound ablation system",
+      "indications": ["Prostate tissue ablation (FDA 510(k) cleared)", "Localized prostate cancer (commercial use)", "BPH (development/use)"],
+      "active_company_trial": "CAPTAIN (NCT05027477) — randomized post-market comparison vs. radical prostatectomy, ACTIVE_NOT_RECRUITING"
+    },
+    "Sonalleve": {
+      "type": "Medical device — MR-guided focused ultrasound platform (uterine fibroids, palliative bone metastases) — CE-marked",
+      "regions": ["EU", "select international"]
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "asset": "TULSA (investigator-initiated)",
+      "nct_id": "NCT05917860",
+      "lead_sponsor": "Turku University Hospital",
+      "reason": "Investigator-initiated study using TULSA-PRO + degarelix; not Profound-sponsored."
+    }
+  ],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "total": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company. Lead product TULSA-PRO is FDA-cleared and commercial; only ongoing company-sponsored study is the post-market CAPTAIN RCT (Phase NA device trial), which falls outside the P1/P2/P3 drug-pipeline scope. No proprietary pharmaceutical pipeline."
+}

@@ -1,0 +1,46 @@
+{
+  "issuer_name": "LakeShore Biopharma Co., Ltd.",
+  "ticker": "LSBCF",
+  "exchange": "OTC",
+  "cik": "0001946399",
+  "region": "Singapore/China",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F (none found in recent SEC filings)"},
+    "website": {"url": "https://www.lakeshorebio.com", "accessed": "2026-05-06", "notes": "Pipeline page lists PIKA-platform vaccines; primary text in Chinese."},
+    "ctgov": {"file": "data/lsbcf2_ctgov_compact.json", "sponsor_search": "Yisheng Biopharma (Singapore) Pte. Ltd."}
+  },
+  "pipeline": [
+    {
+      "asset": "PIKA Rabies Vaccine (Vero Cell)",
+      "aka": ["YSJA Rabies Vaccine", "PIKA rabies vaccine, freeze-dried"],
+      "modality": "Inactivated rabies virus vaccine + proprietary PIKA TLR3-agonist adjuvant",
+      "target": "Rabies virus glycoprotein (post-exposure prophylaxis)",
+      "license_origin": "Internal (PIKA platform)",
+      "indications": [
+        {
+          "indication": "Rabies — post-exposure prophylaxis (accelerated regimen)",
+          "highest_phase": "P3",
+          "trial_name": "Pivotal Phase 3 PIKA Rabies Vaccine vs Chirorab",
+          "trial_design": "Phase 3, ~4,500 subjects in Philippines and Pakistan; non-inferiority/superiority vs comparator. Enrollment complete; positive interim results; BLA submitted to Pakistan DRAP (2025).",
+          "nct_ids": ["NCT05667974"],
+          "trial_status": "Completed enrollment; primary completion 2024-03 (ctgov UNKNOWN); BLA initiated in Pakistan; additional Phase III approval granted in Philippines (Oct 2024) for simplified-regimen study",
+          "lead_sponsor": "Yisheng Biopharma (Singapore) Pte. Ltd.",
+          "key_milestones": ["Positive interim Phase 3 readout", "BLA submitted to Pakistan DRAP", "Philippines FDA Phase 3 approval Oct 2024 for simplified regimen"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "PIKA Hepatitis B vaccines (multiple cell-platform variants)", "reason": "Pipeline page lists CHO/E.coli/Yeast HBV variants; YS-HBV-002 Phase 1 (NCT06162299) was TERMINATED 2024-09; remaining HBV programs not in active P1+ on public registries"},
+    {"asset": "YS-ON-001 (oncology immunomodulator)", "reason": "Phase 1 (NCT03131765) COMPLETED 2019; no active follow-on trial registered"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "PIKA COVID-19 vaccine (NCT05305300 Phase 1, NCT05463419 Phase 2/3)", "reason": "Both COMPLETED; no active follow-on trial; pandemic-era program"},
+    {"asset": "Earlier PIKA rabies trials NCT02956421 (Phase 2) and NCT02657161 (Phase 1)", "reason": "Both COMPLETED, superseded by NCT05667974 Phase 3"},
+    {"asset": "YS-HBV-002", "reason": "Phase 1 TERMINATED 2024-09 (NCT06162299)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 0, "P1": 0}
+}

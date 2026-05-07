@@ -1,0 +1,123 @@
+{
+  "issuer_name": "BRISTOL MYERS SQUIBB CO",
+  "ticker": "CELG-RI",
+  "exchange": "NYSE",
+  "cik": "0000014272",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "security_note": "CELG-RI is the Celgene Contingent Value Right (CVR) issued in 2019 in connection with the BMY-Celgene merger. The CVR was a single-payment security tied to FDA approval of three Celgene assets (liso-cel, ide-cel, ozanimod) by stated deadlines; conditions were not met in full and the CVR expired without payout. CELG-RI carries no operating pipeline of its own. The filer (CIK 0000014272) is Bristol Myers Squibb; for completeness we summarize BMY's active P1-P3 pipeline below as the underlying issuer.",
+  "sources": {
+    "10k": {"accession": "0000014272-26-000004", "filed": "2026-02-11", "doc": "bmy-20251231.htm", "note": "Pipeline section heading auto-detection failed; pipeline below derived from corporate website disclosure dated April 30, 2026."},
+    "website": {"url": "https://www.bms.com/researchers-and-partners/in-the-pipeline.html", "fetched": "2026-05-06", "as_of": "2026-04-30"},
+    "ctgov": {"sponsor_query": "Bristol-Myers Squibb", "studies_returned": 2190, "file": "data/celg-ri_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {"asset": "milvexian", "aka": ["BMS-986177"], "modality": "Small molecule (Factor XIa inhibitor)", "target": "FXIa", "license_origin": "BMY/J&J co-development",
+     "indications": [
+       {"indication": "Atrial fibrillation (stroke prevention)", "highest_phase": "P3", "trial_name": "LIBREXIA-AF", "trial_design": "Randomized vs apixaban", "nct_ids": ["NCT05757869"], "trial_status": "Recruiting", "lead_sponsor": "Janssen/BMY", "key_milestones": []},
+       {"indication": "Secondary stroke prevention", "highest_phase": "P3", "trial_name": "LIBREXIA-STROKE", "trial_design": "Randomized vs placebo on top of antiplatelet", "nct_ids": ["NCT05702034"], "trial_status": "Recruiting", "lead_sponsor": "Janssen/BMY", "key_milestones": []}
+     ]},
+    {"asset": "admilparant", "aka": ["BMS-986278"], "modality": "Small molecule (LPA1 antagonist)", "target": "LPA1",
+     "indications": [
+       {"indication": "Idiopathic pulmonary fibrosis (IPF)", "highest_phase": "P3", "trial_name": "ALOFT-IPF", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT06003426"], "trial_status": "Recruiting", "lead_sponsor": "BMY", "key_milestones": []},
+       {"indication": "Progressive pulmonary fibrosis (PPF)", "highest_phase": "P3", "trial_name": "ALOFT-PPF", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT06025578"], "trial_status": "Recruiting", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "obexelimab", "aka": [], "modality": "Bifunctional monoclonal antibody (CD19 x FcgRIIb)", "target": "CD19/FcgRIIb", "license_origin": "Zenas Bio collaboration",
+     "indications": [
+       {"indication": "IgG4-Related Disease", "highest_phase": "P3", "trial_name": "INDIGO", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT05662241"], "trial_status": "Active", "lead_sponsor": "Zenas/BMY", "key_milestones": []}
+     ]},
+    {"asset": "deucravacitinib", "aka": ["SOTYKTU"], "modality": "Small molecule (TYK2 inhibitor)", "target": "TYK2",
+     "indications": [
+       {"indication": "Systemic Lupus Erythematosus", "highest_phase": "P3", "trial_name": "POETYK SLE", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT06150287"], "trial_status": "Recruiting", "lead_sponsor": "BMY", "key_milestones": []},
+       {"indication": "Psoriatic Arthritis", "highest_phase": "P3", "trial_name": "POETYK PsA", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT04908202"], "trial_status": "Active", "lead_sponsor": "BMY", "key_milestones": []},
+       {"indication": "Sjogren's syndrome", "highest_phase": "P3", "trial_name": "POETYK SS", "trial_design": "Randomized placebo-controlled", "nct_ids": "Not on public registry", "trial_status": "Active", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "iberdomide", "aka": ["CC-220"], "modality": "Cereblon E3 ligase modulator (CELMoD)", "target": "Ikaros/Aiolos",
+     "indications": [
+       {"indication": "Multiple myeloma (maintenance + R/R)", "highest_phase": "P3", "trial_name": "EXCALIBER-Maintenance / EXCALIBER-RRMM", "trial_design": "Randomized", "nct_ids": ["NCT05827016", "NCT04975997"], "trial_status": "Recruiting", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "mezigdomide", "aka": ["CC-92480"], "modality": "CELMoD", "target": "Ikaros/Aiolos",
+     "indications": [
+       {"indication": "Relapsed/Refractory Multiple Myeloma", "highest_phase": "P3", "trial_name": "SUCCESSOR-1/-2", "trial_design": "Randomized vs control", "nct_ids": ["NCT05552976", "NCT05519085"], "trial_status": "Recruiting", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "golcadomide", "aka": ["CC-99282"], "modality": "CELMoD", "target": "Ikaros/Aiolos",
+     "indications": [
+       {"indication": "Diffuse Large B-cell Lymphoma (1L)", "highest_phase": "P3", "trial_name": "GOLSEEK-1", "trial_design": "Randomized + R-CHOP", "nct_ids": ["NCT06356129"], "trial_status": "Recruiting", "lead_sponsor": "BMY", "key_milestones": []},
+       {"indication": "Follicular Lymphoma", "highest_phase": "P2", "trial_name": "GOLSEEK-2", "trial_design": "Randomized", "nct_ids": ["NCT06356142"], "trial_status": "Active", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "arlocabtagene autoleucel", "aka": ["arlo-cel", "BMS-986393"], "modality": "GPRC5D-directed CAR-T", "target": "GPRC5D",
+     "indications": [
+       {"indication": "Relapsed/Refractory Multiple Myeloma", "highest_phase": "P3", "trial_name": "QUINTESSENTIAL-2", "trial_design": "Randomized vs SoC", "nct_ids": ["NCT06615479"], "trial_status": "Recruiting", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "atigotatug", "aka": ["BMS-986463"], "modality": "Anti-ILT4 monoclonal antibody", "target": "ILT4",
+     "indications": [
+       {"indication": "Small Cell Lung Cancer (1L)", "highest_phase": "P3", "trial_name": "ARTEMIDE-Lung01", "trial_design": "Randomized + nivolumab", "nct_ids": "Not on public registry", "trial_status": "Initiating", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "adagrasib", "aka": ["KRAZATI"], "modality": "Small molecule (KRAS G12C inhibitor)", "target": "KRAS G12C",
+     "indications": [
+       {"indication": "NSCLC (1L combos and earlier lines)", "highest_phase": "P3", "trial_name": "KRYSTAL-7 / KRYSTAL-17", "trial_design": "Randomized combo trials", "nct_ids": ["NCT04613596", "NCT05722327"], "trial_status": "Active", "lead_sponsor": "BMY/Mirati", "key_milestones": []}
+     ]},
+    {"asset": "RYZ101", "aka": ["225Ac-DOTATATE"], "modality": "Targeted radioligand (Ac-225)", "target": "SSTR2",
+     "indications": [
+       {"indication": "GEP-NET (SSTR+)", "highest_phase": "P3", "trial_name": "ACTION-1", "trial_design": "Randomized vs SoC", "nct_ids": ["NCT05477576"], "trial_status": "Recruiting", "lead_sponsor": "RayzeBio/BMY", "key_milestones": []}
+     ]},
+    {"asset": "pumitamig", "aka": ["BMS-986489"], "modality": "PD-1 x VEGF bispecific", "target": "PD-1/VEGF",
+     "indications": [
+       {"indication": "Multiple solid tumors (lung, breast, gastric, CRC, HCC, RCC)", "highest_phase": "P3", "trial_name": "Multiple registrational programs", "trial_design": "Multiple", "nct_ids": "Not on public registry", "trial_status": "Initiating", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "nivolumab + relatlimab", "aka": ["OPDUALAG line extensions"], "modality": "Anti-PD-1 + anti-LAG-3 mAbs", "target": "PD-1/LAG-3",
+     "indications": [
+       {"indication": "Non-Small Cell Lung Cancer (high-dose relatlimab)", "highest_phase": "P3", "trial_name": "RELATIVITY-1093 etc.", "trial_design": "Randomized", "nct_ids": ["NCT05704634"], "trial_status": "Recruiting", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "nivolumab", "aka": ["OPDIVO"], "modality": "Anti-PD-1 mAb", "target": "PD-1",
+     "indications": [
+       {"indication": "Adjuvant hepatocellular carcinoma", "highest_phase": "P3", "trial_name": "CheckMate-9DX", "trial_design": "Randomized vs placebo", "nct_ids": ["NCT03383458"], "trial_status": "Active", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "AR LDD", "aka": ["BMS undisclosed androgen receptor ligand-directed degrader"], "modality": "Targeted protein degrader", "target": "Androgen Receptor",
+     "indications": [
+       {"indication": "Castration-resistant prostate cancer", "highest_phase": "P3", "trial_name": "TBD", "trial_design": "Registrational", "nct_ids": "Not on public registry", "trial_status": "Initiating", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "luspatercept", "aka": ["REBLOZYL"], "modality": "Activin receptor-Fc fusion", "target": "TGF-beta superfamily ligands",
+     "indications": [
+       {"indication": "Myelofibrosis (anemia)", "highest_phase": "P3", "trial_name": "INDEPENDENCE", "trial_design": "Randomized placebo-controlled add-on JAKi", "nct_ids": ["NCT04717414"], "trial_status": "Active", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "xanomeline-trospium", "aka": ["COBENFY", "KarXT"], "modality": "Small molecule (M1/M4 muscarinic agonist + peripheral antagonist)", "target": "M1/M4",
+     "indications": [
+       {"indication": "Bipolar I disorder", "highest_phase": "P3", "trial_name": "ARISE-1", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT06058078"], "trial_status": "Recruiting", "lead_sponsor": "BMY/Karuna", "key_milestones": []},
+       {"indication": "Alzheimer's disease psychosis/agitation/cognition", "highest_phase": "P3", "trial_name": "ADEPT program", "trial_design": "Multiple randomized", "nct_ids": ["NCT05511363"], "trial_status": "Recruiting", "lead_sponsor": "BMY", "key_milestones": []},
+       {"indication": "Autism spectrum disorder (irritability)", "highest_phase": "P3", "trial_name": "ARISE-Autism", "trial_design": "Randomized placebo-controlled", "nct_ids": "Not on public registry", "trial_status": "Initiating", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "moponetug", "aka": ["BMS-986446"], "modality": "Anti-microtubule binding region (MTBR) tau monoclonal antibody", "target": "tau",
+     "indications": [
+       {"indication": "Early Alzheimer's disease", "highest_phase": "P2", "trial_name": "TargetTau-1", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT06545240"], "trial_status": "Recruiting", "lead_sponsor": "BMY/Prothena", "key_milestones": []}
+     ]},
+    {"asset": "navlimetostat", "aka": ["EZH1/2 inhibitor"], "modality": "Small molecule (EZH1/2 inhibitor)", "target": "EZH1/2",
+     "indications": [
+       {"indication": "NSCLC, pancreatic, solid tumors", "highest_phase": "P2", "trial_name": "Multiple", "trial_design": "Open-label expansions", "nct_ids": "Not on public registry", "trial_status": "Active", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "iza-bren", "aka": ["izalontamab brengitecan", "BMS-986458"], "modality": "EGFR x HER3 bispecific ADC (Topo-I payload)", "target": "EGFR/HER3",
+     "indications": [
+       {"indication": "Triple-negative breast cancer, NSCLC, urothelial", "highest_phase": "P2", "trial_name": "Multiple expansions", "trial_design": "Open-label", "nct_ids": ["NCT06419621"], "trial_status": "Recruiting", "lead_sponsor": "SystImmune/BMY", "key_milestones": []}
+     ]},
+    {"asset": "irafamdastat", "aka": ["BMS-986419"], "modality": "Small molecule", "target": "Undisclosed",
+     "indications": [
+       {"indication": "MS spasticity", "highest_phase": "P2", "trial_name": "TBD", "trial_design": "Randomized", "nct_ids": "Not on public registry", "trial_status": "Active", "lead_sponsor": "BMY", "key_milestones": []},
+       {"indication": "Alzheimer's agitation", "highest_phase": "P2", "trial_name": "TBD", "trial_design": "Randomized", "nct_ids": "Not on public registry", "trial_status": "Active", "lead_sponsor": "BMY", "key_milestones": []}
+     ]},
+    {"asset": "MYK-224", "aka": [], "modality": "Cardiac myosin inhibitor (small molecule)", "target": "Cardiac myosin",
+     "indications": [
+       {"indication": "HFpEF", "highest_phase": "P2", "trial_name": "MYK-224 Phase 2", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT05236335"], "trial_status": "Active", "lead_sponsor": "MyoKardia/BMY", "key_milestones": []}
+     ]},
+    {"asset": "zola-cel", "aka": ["zolademciclacel", "Cabaletta CABA-201 successor"], "modality": "Autologous CD19 CAR-T", "target": "CD19",
+     "indications": [
+       {"indication": "Autoimmune diseases (RA, lupus, sclerosis, myopathies)", "highest_phase": "P3", "trial_name": "RESET program", "trial_design": "Open-label cohorts (program-level P3 in lupus)", "nct_ids": "Not on public registry", "trial_status": "Active", "lead_sponsor": "BMY", "key_milestones": []}
+     ]}
+  ],
+  "commercial_product": {"note": "BMY has many marketed products (Eliquis, Opdivo, Revlimid, Pomalyst, Sotyktu, Camzyos, Reblozyl, Krazati, Cobenfy, Breyanzi, Abecma, etc.). Only active development-phase assets listed above per scope."},
+  "excluded_preclinical": ["BCL6 LDD", "CD33-GSPT1 ADC", "Dual BCMAxGPRC5D CAR-T (Phase 1 listed above where active)", "HbF Activating CELMoD", "WEE1 CELMoD", "eIF2B Activator", "TRPC4/5 Inhibitor", "BMS-986454/495/521/525 (early Phase 1, listed only at program level)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 23, "p3": 16, "p2": 6, "p1": 1, "note": "Phase counts reflect highest phase per asset. Many additional Phase 1 programs at BMY are not enumerated individually here per scope brevity."},
+  "no_active_clinical_pipeline_reason": "CELG-RI is the Celgene CVR security and itself has no pipeline. Pipeline shown is BMY's (the issuing legal entity) for completeness."
+}

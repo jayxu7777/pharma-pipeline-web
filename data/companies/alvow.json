@@ -1,0 +1,99 @@
+{
+  "issuer_name": "Alvotech",
+  "ticker": "ALVOW",
+  "exchange": "Nasdaq",
+  "cik": "0001898416",
+  "region": "Iceland (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F, not 10-K. SEC fetcher returned 'No 10-K found'."},
+    "website": {"url": "https://www.alvotech.com/pipeline", "note": "Public pipeline page successfully scraped"},
+    "ctgov": {"path": "data/alvow_ctgov_compact.json", "lead_sponsor_total_trials": 20, "active_or_planned_p1_to_p3": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "AVT16",
+      "aka": ["proposed vedolizumab biosimilar"],
+      "modality": "Biosimilar monoclonal antibody",
+      "target": "alpha4beta7 integrin (vedolizumab biosimilar to Entyvio)",
+      "license_origin": "Internal (Alvotech)",
+      "indications": [
+        {
+          "indication": "Ulcerative Colitis / Inflammatory Bowel Disease",
+          "highest_phase": "P3",
+          "trial_name": "AVT16 vs Entyvio comparative efficacy (terminated); pilot Phase 1 completed",
+          "trial_design": "Randomized, double-blind comparative efficacy/safety/immunogenicity; pilot PK Phase 1 in healthy volunteers",
+          "nct_ids": ["NCT06570772", "NCT06400719"],
+          "trial_status": "Pivotal P3 (NCT06570772) TERMINATED Nov 2025. Pilot P1 (NCT06400719) COMPLETED Nov 2024. Website still lists program as 'Clinical Trials' stage; new pivotal trial status pending.",
+          "lead_sponsor": "Alvotech Swiss AG",
+          "key_milestones": ["P3 NCT06570772 terminated 2025-11-25"]
+        }
+      ]
+    },
+    {
+      "asset": "AVT29",
+      "aka": ["proposed aflibercept HD biosimilar"],
+      "modality": "Biosimilar fusion protein (intravitreal)",
+      "target": "VEGF-A / placental growth factor (aflibercept HD biosimilar to Eylea HD)",
+      "license_origin": "Internal (Alvotech)",
+      "indications": [
+        {
+          "indication": "Diabetic Macular Edema",
+          "highest_phase": "P3",
+          "trial_name": "AVT29 vs Eylea HD comparative efficacy/safety in DME",
+          "trial_design": "Randomized comparative efficacy and safety study",
+          "nct_ids": ["NCT07489131"],
+          "trial_status": "RECRUITING (start 2026-04-22, primary completion 2027-07)",
+          "lead_sponsor": "Alvotech Swiss AG",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AVT32-DRL_PB",
+      "aka": ["proposed pembrolizumab biosimilar"],
+      "modality": "Biosimilar monoclonal antibody",
+      "target": "PD-1 (pembrolizumab biosimilar to Keytruda)",
+      "license_origin": "Co-developed with Dr. Reddy's Laboratories",
+      "indications": [
+        {
+          "indication": "Melanoma (fully resected) — PK similarity",
+          "highest_phase": "P1",
+          "trial_name": "AVT32-DRL_PB vs Keytruda PK similarity study",
+          "trial_design": "Randomized, double-blind PK similarity study",
+          "nct_ids": ["NCT07475572"],
+          "trial_status": "NOT_YET_RECRUITING (planned start 2026-06-19, primary completion 2027-10)",
+          "lead_sponsor": "Alvotech Swiss AG",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "launched_or_approved": [
+      {"asset": "AVT02", "ref": "Humira (adalimumab)", "status": "Launched US, EU, Canada, Australia, Saudi Arabia, Israel, Egypt, South Africa, Morocco, Peru, Bolivia"},
+      {"asset": "AVT04", "ref": "Stelara (ustekinumab)", "status": "Launched US, Japan, Canada, EU/EEA"},
+      {"asset": "AVT03", "ref": "Prolia/Xgeva (denosumab)", "status": "Approved Japan, EU/EEA"},
+      {"asset": "AVT05", "ref": "Simponi/Simponi Aria (golimumab)", "status": "Approved Japan, EU/EEA, UK"},
+      {"asset": "AVT06", "ref": "Eylea (aflibercept)", "status": "Approved EU/EEA, Japan, UK"}
+    ],
+    "filing": [{"asset": "AVT23", "ref": "Xolair (omalizumab)", "status": "Regulatory filing"}]
+  },
+  "excluded_preclinical": [
+    {"asset": "AVT33", "ref": "Keytruda (pembrolizumab)", "stage": "Preclinical (separate from AVT32 partnered program)"},
+    {"asset": "AVT10", "ref": "Cimzia (certolizumab pegol)", "stage": "Early Phase"},
+    {"asset": "AVT28", "ref": "Taltz (ixekizumab)", "stage": "Early Phase"},
+    {"asset": "AVT48", "ref": "Ilaris (canakinumab)", "stage": "Early Phase"},
+    {"asset": "AVT41", "ref": "Tremfya (guselkumab)", "stage": "Early Phase"},
+    {"asset": "AVT65", "ref": "Kesimpta (ofatumumab)", "stage": "Early Phase"},
+    {"asset": "AVT19", "ref": "Dupixent (dupilumab)", "stage": "Early Phase"},
+    {"asset": "AVT80", "ref": "Entyvio (vedolizumab) — second program", "stage": "PK pilot P1 (NCT06732804) completed Jan 2026; awaiting next step"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "AVT16", "trial": "NCT06570772 P3 in Ulcerative Colitis", "reason": "TERMINATED 2025-11-25"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 2, "P2": 0, "P1": 1, "total_assets": 3},
+  "blockers": ["Foreign private issuer — files 20-F not 10-K, so SEC 10-K fetcher returned no results. Pipeline reconciled from corporate website + ClinicalTrials.gov."]
+}

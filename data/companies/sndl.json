@@ -1,0 +1,26 @@
+{
+  "issuer_name": "SNDL Inc.",
+  "ticker": "SNDL",
+  "exchange": "Nasdaq",
+  "cik": "0001766600",
+  "region": "CA",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — Canadian filer, files 40-F not 10-K"},
+    "website": {"note": "SNDL is a Canadian cannabis cultivator/retailer (formerly Sundial Growers); no public pipeline page"},
+    "ctgov": {"path": "data/sndl_ctgov_compact.json", "trial_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "SNDL Inc. is a Canadian cannabis cultivator, producer and retailer (cannabis grower / liquor and cannabis retail operator). It is not a clinical-stage biotech and has no Phase 1/2/3 drug pipeline. No clinicaltrials.gov sponsored trials and no 10-K filings (40-F filer).",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "indications_active": 0
+  }
+}

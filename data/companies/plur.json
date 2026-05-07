@@ -1,0 +1,80 @@
+{
+  "issuer_name": "Pluri Inc.",
+  "ticker": "PLUR",
+  "exchange": "Nasdaq",
+  "cik": "0001158780",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/plur_10k_pipeline_section.html", "filing_date": "2025-09-17", "accession": "0001213900-25-088578"},
+    "website": {"error": "no public pipeline page found / company has pivoted to food tech, CDMO and AgTech"},
+    "ctgov": {"file": "data/plur_ctgov_compact.json", "sponsor_search": "Pluristem Ltd.", "unique_p1_p3_trials": 10, "note": "All Pluristem-sponsored trials COMPLETED, TERMINATED, or UNKNOWN; none active"}
+  },
+  "pipeline": [
+    {
+      "asset": "PLX-PAD",
+      "aka": ["placental expanded adherent stromal cells (maternal-derived)"],
+      "modality": "Allogeneic placenta-derived mesenchymal-like adherent stromal cell therapy (3D bioreactor expanded)",
+      "target": "Multiple paracrine pathways (angiogenic, anti-inflammatory, immunomodulatory)",
+      "license_origin": "Pluri proprietary",
+      "indications": [
+        {
+          "indication": "Mild-to-moderate knee osteoarthritis",
+          "highest_phase": "Phase planned (academic-led)",
+          "trial_name": "PROTO (Advanced PeRsOnalized Therapies for Osteoarthritis)",
+          "trial_design": "International collaboration led by Charite Berlin Institute of Health Center for Regenerative Therapies; clinical study approved by Germany's Paul-Ehrlich-Institut (PEI) in June 2025; to be conducted by Charite",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - PEI authorization received June 2025; Charite to conduct study",
+          "lead_sponsor": "Charite Berlin (academic-led); Pluri provides PLX-PAD product",
+          "key_milestones": ["PEI clinical trial authorization June 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "PLX-R18",
+      "aka": ["placental expanded adherent stromal cells (fetal-derived)"],
+      "modality": "Allogeneic placenta-derived stromal cell therapy",
+      "target": "Hematopoietic recovery / radiation injury",
+      "license_origin": "Pluri proprietary",
+      "indications": [
+        {
+          "indication": "Hematopoietic syndrome of acute radiation syndrome (H-ARS)",
+          "highest_phase": "Phase 1 (Animal Rule pathway)",
+          "trial_name": "PLX-R18 ARS development",
+          "trial_design": "FDA Animal Rule regulatory pathway; March 2025 collaboration with Hemafund (Ukraine) for stockpiling and potential clinical advancement",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED / development on hold - July 2023 NIAID $4.2M contract terminated April 15, 2025 for government convenience; company evaluating mass production readiness",
+          "lead_sponsor": "Pluri Inc.",
+          "key_milestones": ["NIAID contract terminated April 2025", "Hemafund collaboration March 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "PLX cells for cocaine addiction - assigned to Bar-Ilan University (BIRAD) in Dec 2023; Pluri retains 20% revenue share",
+    "Ever After Foods (cultivated meat) - non-pharma food tech subsidiary",
+    "Coffeesai (cultivated coffee), Kokomodo (cultivated cacao) - food tech",
+    "PluriCDMO services line - non-clinical",
+    "AgTech ICL biostimulant POC - non-clinical"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT03451916 PLX-PAD P3 hip fracture muscle injury - COMPLETED (read-out)",
+    "NCT03006770 PLX-PAD P3 critical limb ischemia - COMPLETED",
+    "NCT04614025 / NCT04389450 PLX-PAD P2 COVID-19 ARDS - both TERMINATED",
+    "NCT01679990 PLX-PAD P2 intermittent claudication - COMPLETED",
+    "NCT01525667 PLX-PAD P1/2 hip arthroplasty - COMPLETED",
+    "NCT00951210 / NCT00919958 PLX-PAD P1 CLI - COMPLETED",
+    "NCT03002519 PLX-R18 P1 incomplete HCT - COMPLETED",
+    "NCT03797040 PLX-R18 P1 HS-ARS PEP - UNKNOWN status"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1_or_1_2": 0,
+    "phase_planned": 2
+  },
+  "no_active_clinical_pipeline_reason": "Pluri Inc. has pivoted toward food tech (Ever After Foods cultivated meat), CDMO (PluriCDMO), AgTech and plant-based verticals (Coffeesai, Kokomodo). Cell therapy programs are in maintenance mode: all historical Pluristem-sponsored P1-P3 trials are completed/terminated/unknown; PLX-PAD knee OA study (PROTO) received PEI authorization June 2025 but is academic-led by Charite; PLX-R18 ARS lost NIAID funding April 2025."
+}

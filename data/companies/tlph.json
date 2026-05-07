@@ -1,0 +1,44 @@
+{
+  "issuer_name": "Talphera, Inc.",
+  "ticker": "TLPH",
+  "exchange": "Nasdaq",
+  "cik": "0001427925",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-009387", "filed": "2026-03-23", "doc": "acrx20251231_10k.htm"},
+    "website": {"error": "Pipeline page returned 404"},
+    "ctgov": {"path": "data/tlph_ctgov_compact.json", "note": "All 17 listed sponsor trials are completed legacy sufentanil/DSUVIA/Zalviso studies (divested to Alora Apr 2023); no Niyad NEPHRO study in compact (regulated as device under IDE, not drug NCT)"}
+  },
+  "pipeline": [
+    {
+      "asset": "Niyad",
+      "aka": ["nafamostat mesylate (lyophilized for extracorporeal infusion)"],
+      "modality": "Combination drug-device (Class III medical device per FDA)",
+      "target": "Serine protease inhibitor (regional anticoagulant for the extracorporeal circuit)",
+      "license_origin": "Acquired from Lowell Therapeutics (Jan 2022)",
+      "indications": [
+        {
+          "indication": "Regional anticoagulation during continuous renal replacement therapy (CRRT) in adult AKI patients",
+          "highest_phase": "Phase 3 (registrational / pivotal IDE)",
+          "trial_name": "NEPHRO CRRT Study (Nafamostat Efficacy in Phase 3 Registrational CRRT Study)",
+          "trial_design": "Prospective, double-blinded, placebo-controlled; up to 14 US ICUs; n=70; primary endpoint mean post-filter ACT over first 24h",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Recruiting (registrational); completion expected 2026 per 2025 10-K. PMA submission planned post-completion",
+          "lead_sponsor": "Talphera, Inc.",
+          "key_milestones": ["FDA Breakthrough Device Designation", "IDE approved", "CMS ICD-10 procedural code received", "Trial completion expected 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "LTX-608", "reason": "Nafamostat IV formulation; IND will be evaluated for submission following toxicology to enable Phase 2 - still preclinical/IND-pending per 2025 10-K"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "DSUVIA / DZUVEO / Zalviso (sufentanil sublingual)", "reason": "Divested to Alora Pharmaceuticals Apr 2023; Alora submitted DSUVIA NDA withdrawal in 2025; 17 legacy NCT records all COMPLETED"},
+    {"asset": "Pre-filled syringe (PFS) candidates including Fedsyra (ephedrine PFS, Aguettant license)", "reason": "Being evaluated for discontinuation per 2025 10-K"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 1, "p2": 0, "p1": 0, "active_indications": 1}
+}

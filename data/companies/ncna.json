@@ -1,0 +1,65 @@
+{
+  "issuer_name": "NuCana plc",
+  "ticker": "NCNA",
+  "exchange": "Nasdaq",
+  "cik": "0001709626",
+  "region": "UK",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F instead of 10-K; supplemented from press releases and ctgov"},
+    "website": {"error": "no public pipeline page fetched (sources from globenewswire / ESMO 2025 / ctgov adequate)"},
+    "ctgov": {"path": "data/ncna_ctgov_compact.json", "trial_count_p1_p3": 7, "active_count": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "NUC-7738",
+      "aka": ["3'-deoxyadenosine ProTide"],
+      "modality": "ProTide-transformed nucleotide analogue (3'-dA monophosphate)",
+      "target": "RNA polymerase II / cancer cell apoptosis pathway",
+      "license_origin": "Internal (ProTide platform from Univ of Cardiff)",
+      "indications": [
+        {
+          "indication": "Advanced melanoma (combination with pembrolizumab) — Phase 2 expansion",
+          "highest_phase": "P2",
+          "trial_name": "NuTide:701 (Phase 1/2 NUC-7738 + pembrolizumab)",
+          "trial_design": "Phase 1/2 safety, PK, and clinical activity of NUC-7738 monotherapy and in combination with pembrolizumab in advanced solid tumours and lymphoma; expansion focused on melanoma",
+          "nct_ids": ["NCT03829254"],
+          "trial_status": "RECRUITING — Phase 2 expansion ongoing; ESMO Dec-2025 update: 2 PRs (1 confirmed), 7 SD incl. one converted to complete metabolic response; primary completion Aug 2026; seeking FDA guidance on registrational path",
+          "lead_sponsor": "NuCana plc",
+          "key_milestones": ["Final Phase 2 expansion data 2026", "FDA registrational path discussions"]
+        }
+      ]
+    },
+    {
+      "asset": "NUC-3373 (Fosifloxuridine Nafalbenamide)",
+      "aka": ["floxuridine ProTide", "fluorouracil ProTide"],
+      "modality": "ProTide-transformed thymidylate synthase inhibitor",
+      "target": "Thymidylate synthase (TS) — antimetabolite",
+      "license_origin": "Internal (ProTide platform)",
+      "indications": [
+        {
+          "indication": "Solid tumours — strategy refinement (no active company-sponsored P1/P2/P3 trial; prior CRC trials terminated 2024-25)",
+          "highest_phase": "P2",
+          "trial_name": "Strategy under refinement post-NuTide:323 termination",
+          "trial_design": "Per Q3 2025 update, management refining development strategy with new COO; no enrolling Phase 2/3 trial currently",
+          "nct_ids": "Not on public registry",
+          "trial_status": "BETWEEN-TRIAL / development strategy under refinement; previous combination trials NCT05678257 and NCT05714553 TERMINATED 2024-2025",
+          "lead_sponsor": "NuCana plc",
+          "key_milestones": ["New trial design pending"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "NUC-1031 (Acelarin / Fosgemcitabine palabenamide)", "nct": "NCT04163900, NCT03146663", "reason": "Phase 3 NuTide:121 biliary tract cancer TERMINATED 2022 (futility); Phase 2 ovarian also TERMINATED — program discontinued"},
+    {"asset": "NUC-3373 colorectal Phase 1b/2", "nct": "NCT03428958", "reason": "Phase 1b/2 NuTide:302 COMPLETED Mar 2024; not advanced into Phase 3"},
+    {"asset": "NUC-3373 colorectal Phase 2 NuTide:323", "nct": "NCT05678257", "reason": "Phase 2 TERMINATED Aug 2024"},
+    {"asset": "NUC-3373 advanced solid tumours Phase 1/2 NuTide:303", "nct": "NCT05714553", "reason": "Phase 1/2 TERMINATED May 2025"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "NUC-1031 Imperial College Phase 1", "nct": "NCT01621854", "reason": "Investigator-led at Imperial College London; legacy Phase 1 completed 2015"}
+  ],
+  "summary_counts": {"P1": 0, "P2": 1, "P3": 0, "total_assets": 1, "note": "NUC-3373 retained as asset but no active enrolling trial — counted as 0 active for highest-phase tally"}
+}

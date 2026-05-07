@@ -1,0 +1,55 @@
+{
+  "issuer_name": "Addex Therapeutics Ltd.",
+  "ticker": "ADXN",
+  "exchange": "Nasdaq",
+  "cik": "0001574232",
+  "region": "Switzerland",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer (Swiss) — files 20-F instead of 10-K."
+    },
+    "website": {
+      "url": "https://www.addextherapeutics.com/en/pipeline/"
+    },
+    "ctgov": {
+      "path": "data/adxn_ctgov_compact.json",
+      "trial_count": 0,
+      "note": "No trials found with 'Addex Therapeutics' as lead sponsor in active P1/P2/P3 status."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "As of May 2026 Addex Therapeutics has no actively recruiting / ongoing Phase 1/2/3 trial sponsored by the company. Dipraglurant (mGlu5 NAM) Phase 2a in blepharospasm produced inconclusive 2022 data and is awaiting partnering for post-stroke / TBI recovery. ADX71149 (mGlu2 PAM, partnered with Janssen / Indivior) failed its Phase 2 epilepsy trial in April 2024. GABAB PAM (substance use disorder, chronic cough), mGlu7 NAM (anxiety) and other programs are all preclinical / candidate-selection stage. NTX-253 (M4 PAM Phase 1 for schizophrenia) belongs to spin-out Neurosterix, not Addex.",
+  "excluded_preclinical": [
+    "GABAB PAM (substance use disorder) — preclinical, partnered with Indivior",
+    "GABAB PAM (chronic cough) — preclinical (April 2026 NHP anti-tussive data)",
+    "mGlu7 NAM (anxiety) — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "Dipraglurant (mGlu5 NAM)",
+      "trial": "Phase 2a blepharospasm (2021-2022)",
+      "reason": "Inconclusive feasibility readout; program paused, seeking partner; no active trial."
+    },
+    {
+      "asset": "ADX71149 (mGlu2 PAM)",
+      "trial": "Phase 2 epilepsy (Janssen/Indivior partnered)",
+      "reason": "Failed primary endpoint April 2024; no active trial."
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "asset": "NTX-253 (M4 PAM)",
+      "trial": "Phase 1 schizophrenia",
+      "reason": "Owned by Neurosterix (Addex spin-out), not Addex Therapeutics."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "active_trials": 0
+  }
+}

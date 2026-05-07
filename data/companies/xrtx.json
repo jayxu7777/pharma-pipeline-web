@@ -1,0 +1,62 @@
+{
+  "issuer_name": "XORTX Therapeutics Inc.",
+  "ticker": "XRTX",
+  "exchange": "Nasdaq",
+  "cik": "0001729214",
+  "region": "Canada (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Canada) — files annual reports on Form 20-F/40-F or via SEDAR; no 10-K available on EDGAR."},
+    "website": {"url": "https://www.xortx.com/pipeline", "note": "Lead XRx-026 gout (XORLO oxypurinol) pre-NDA via 505(b)(2); XRx-008 ADPKD (clinically advanced, deprioritized post-2025 pivot); XRx-101 acute kidney injury/COVID (clinically advanced); XRx-225 T2DN (preclinical)."},
+    "ctgov": {"path": "data/xrtx_ctgov_compact.json", "trials_total": 0, "active_or_recruiting": 0, "note": "No XORTX-sponsored trials found on ClinicalTrials.gov under that sponsor name."}
+  },
+  "pipeline": [
+    {
+      "asset": "XORLO (oxypurinol)",
+      "aka": ["XRx-026"],
+      "modality": "Small molecule (xanthine oxidase inhibitor; novel oxypurinol oral formulation)",
+      "target": "Xanthine oxidase",
+      "license_origin": "In-house",
+      "indications": [
+        {
+          "indication": "Refractory / intolerant gout (hyperuricemia)",
+          "highest_phase": "Phase 1 (PK bridging — pre-NDA via 505(b)(2))",
+          "trial_name": "XRX-OXY-102 (fed/fasted PK bridging study)",
+          "trial_design": "Phase 1 pharmacokinetic bridging study evaluating XORLO in fed and fasted states to support population PK modeling for FDA/EMA filings.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiation H2 2025 per Aug-2025 corporate update; supports NDA filing targeted ~12 months later (2026). Prior PK study XRX-OXY-101 completed positive topline.",
+          "lead_sponsor": "XORTX Therapeutics Inc.",
+          "key_milestones": ["FDA confirmed XORLO eligible for accelerated approval pathway (May 2023)", "XRX-OXY-101 PK positive topline", "XRX-OXY-102 initiation H2 2025", "Planned NDA filing within ~12 months of Aug 2025 update"]
+        }
+      ]
+    },
+    {
+      "asset": "XORLO (oxypurinol)",
+      "aka": ["XRx-008"],
+      "modality": "Small molecule (xanthine oxidase inhibitor)",
+      "target": "Xanthine oxidase",
+      "license_origin": "In-house",
+      "indications": [
+        {
+          "indication": "Autosomal Dominant Polycystic Kidney Disease (ADPKD) with hyperuricemia (stage 2/3/4)",
+          "highest_phase": "Phase 3 (planned, deprioritized)",
+          "trial_name": "XRX-OXY-301",
+          "trial_design": "Planned Phase 3 multi-centre, double-blind, placebo-controlled, randomized withdrawal design study, ~300 patients, 12-month treatment evaluating slowing of total kidney volume expansion and eGFR decline.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IND opened; FDA SPA discussions; deprioritized in 2025 strategic pivot to accelerate gout (XRx-026) program. No active enrollment.",
+          "lead_sponsor": "XORTX Therapeutics Inc.",
+          "key_milestones": ["IND opened for XRx-008", "Phase 3 SPA negotiations with FDA", "Currently deprioritized pending capital allocation toward XRx-026 NDA"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "XRx-101", "indication": "Acute kidney injury / COVID-19", "stage": "Clinically advanced but no active trial; XRX-OXY-101 PK study completed"},
+    {"asset": "XRx-225", "indication": "Type 2 Diabetic Nephropathy", "stage": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"active_assets": 2, "phase_3": 1, "phase_2": 0, "phase_1": 1},
+  "blockers": ["Foreign private issuer (Canada) — no 10-K available on EDGAR; relied on website + press releases.", "No XORTX trials on ClinicalTrials.gov; XRX-OXY-102 (Phase 1 PK) and XRX-OXY-301 (Phase 3 ADPKD) status sourced from corporate updates only."]
+}

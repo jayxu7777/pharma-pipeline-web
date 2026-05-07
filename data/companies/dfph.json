@@ -1,0 +1,43 @@
+{
+  "issuer_name": "The Oncology Institute, Inc. (formerly DFP Healthcare Acquisitions Corp.)",
+  "ticker": "DFPH",
+  "exchange": "OTC",
+  "cik": "0001799191",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001799191-26-000007",
+      "filing_date": "2026-03-12",
+      "doc": "toi-20251231.htm",
+      "note": "Issuer is The Oncology Institute (TOI), trading post-de-SPAC. DFPH was the predecessor SPAC ticker; common ticker now TOI."
+    },
+    "website": {
+      "url": "https://theoncologyinstitute.com/",
+      "pipeline_url_attempted": "n/a — services company, no drug-pipeline page expected",
+      "note": "Community oncology services / value-based care provider; does not develop proprietary therapeutics."
+    },
+    "ctgov": {
+      "sponsor_query": "Oncology Institute",
+      "trials_returned": "Many results returned, but all matched unrelated 'Oncology Institute' sponsors (e.g. European Institute of Oncology, Eastern Cooperative Oncology Group, Alliance for Clinical Trials in Oncology, etc.). None are sponsored by The Oncology Institute, Inc. (TOI/DFPH).",
+      "note": "Sponsor-name collision; no proprietary trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "service_offering": "Community oncology services: 65 owned clinics with 116 providers, plus 81 affiliated MSO clinics and a contracted network of 198 independent providers, across 17 markets in 5 U.S. states. Manages ~2.0 million patients under value-based agreements as of Dec 31, 2025. Patient services include medical oncology, hematology, radiation oncology, dispensary services, and clinical trial site participation as a community-based research site for sponsor-funded studies."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "TOI participates as a clinical trial site for sponsor-funded oncology studies; those trials are owned by the respective drug sponsors and are not TOI's proprietary pipeline."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Community oncology services / value-based care provider. Operates clinics that deliver oncology care and may serve as trial sites for sponsor-funded studies. No proprietary drug or device development pipeline."
+}

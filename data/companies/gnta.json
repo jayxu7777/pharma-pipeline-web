@@ -1,0 +1,47 @@
+{
+  "issuer_name": "Genenta Science S.p.A.",
+  "ticker": "GNTA",
+  "exchange": "Nasdaq",
+  "cik": "0001838716",
+  "region": "EU (Italy)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F instead of 10-K"},
+    "website": {
+      "error": "no public pipeline page fetched"
+    },
+    "ctgov": {
+      "path": "data/gnta_ctgov_compact.json",
+      "trials_total": 3
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Temferon",
+      "aka": [],
+      "modality": "Autologous hematopoietic stem and progenitor cell (HSPC) gene therapy expressing Tie2-driven IFN-alpha2 in tumor-infiltrating monocytes/macrophages",
+      "target": "Tumor microenvironment (Tie2+ macrophages; IFN-alpha2 delivery)",
+      "license_origin": "Internal (San Raffaele/Telethon collaboration origin)",
+      "indications": [
+        {
+          "indication": "Glioblastoma multiforme (GBM), unmethylated MGMT, newly diagnosed",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "TEM-GBM-001",
+          "trial_design": "Open-label Phase 1/2 study evaluating safety and biological activity of Temferon in newly diagnosed GBM patients with unmethylated MGMT promoter.",
+          "nct_ids": ["NCT03866109"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Genenta Science",
+          "key_milestones": ["Primary completion Jun 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT03875495 TEM-MM (Multiple Myeloma) — Terminated",
+    "NCT06716853 TEM-RCC (clear cell RCC) — Terminated"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_active": 1, "P3": 0, "P2": 1, "P1": 0}
+}

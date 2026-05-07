@@ -1,0 +1,25 @@
+{
+  "issuer_name": "Synlogic, Inc.",
+  "ticker": "SYBX",
+  "exchange": "OTC",
+  "cik": "0001527599",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-104262", "filed": "2026-03-12", "doc": "sybx-20251231.htm"},
+    "website": {"error": "company is a public shell — no active pipeline page maintained"},
+    "ctgov": {"file": "data/sybx_ctgov_compact.json", "n_studies": 9}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Synlogic is a non-operating public shell company. In February 2024 it discontinued Synpheny-3, its pivotal Phase 3 study of labafenogene marselecobac (SYNB1934) for PKU, after an internal review indicated the trial was unlikely to meet its primary endpoint (no safety/tolerability concerns). Per the 10-K filed 2026-03-12, as of March 5, 2026 the company has one full-time employee, no ongoing R&D activities, and no active clinical trial; R&D expense for the nine months ended 2025 was only $16,000. Nasdaq delisted SYBX on January 21, 2026; shares now trade on OTC. The board is pursuing strategic alternatives including merger or sale.",
+  "excluded_preclinical": [
+    {"asset": "SYNB1353 (homocystinuria)", "reason": "Discontinued / no active study; company is a shell"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "SYNB1934 / labafenogene marselecobac (PKU) — Synpheny-3 Phase 3", "reason": "Discontinued February 2024 (futility on internal review)"},
+    {"note": "All 9 Synlogic-sponsored studies on ctgov are COMPLETED (6) or TERMINATED (3)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "P3": 0, "P2": 0, "P1": 0, "total_active_indications": 0}
+}

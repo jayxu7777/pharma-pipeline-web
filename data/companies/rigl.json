@@ -1,0 +1,88 @@
+{
+  "issuer_name": "Rigel Pharmaceuticals, Inc.",
+  "ticker": "RIGL",
+  "exchange": "Nasdaq",
+  "cik": "0001034842",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001034842-26-000015", "filed": "2026-03-03", "doc": "rigl-20251231.htm"},
+    "website": {"url": "https://www.rigel.com/pipeline", "fetched": "2026-05-06", "note": "Site timeout; pipeline assembled from 10-K + ctgov"},
+    "ctgov": {"sponsor_query": "Rigel Pharmaceuticals", "trials_returned": 39, "active_p1_3_total": 14, "active_rigel_sponsored": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "fostamatinib",
+      "aka": ["fostamatinib disodium hexahydrate", "TAVALISSE", "TAVLESSE", "R935788"],
+      "modality": "Small molecule (oral)",
+      "target": "SYK (spleen tyrosine kinase)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Warm autoimmune hemolytic anemia (wAIHA) — open-label extension",
+          "highest_phase": "Phase 3",
+          "trial_name": "Fostamatinib wAIHA Phase 3 OLE",
+          "trial_design": "Phase 3 open-label extension of fostamatinib disodium for wAIHA",
+          "nct_ids": ["NCT04138927"],
+          "trial_status": "ENROLLING_BY_INVITATION",
+          "lead_sponsor": "Rigel Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "olutasidenib",
+      "aka": ["REZLIDHIA", "FT-2102"],
+      "modality": "Small molecule (oral)",
+      "target": "Mutant IDH1 (mIDH1)",
+      "license_origin": "In-licensed from Forma Therapeutics (now Novo Nordisk)",
+      "indications": [
+        {
+          "indication": "High-grade glioma (HGG) with IDH1 mutation, in combination with temozolomide",
+          "highest_phase": "Phase 2",
+          "trial_name": "Olutasidenib + TMZ in HGG",
+          "trial_design": "Phase 2 study of olutasidenib + TMZ in IDH1-mutated HGG",
+          "nct_ids": ["NCT06161974"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Rigel Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "R289",
+      "aka": ["R906289", "R906289 monosodium"],
+      "modality": "Small molecule (oral)",
+      "target": "IRAK1/4 dual inhibitor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lower-risk myelodysplastic syndromes (LR-MDS), R/R or resistant to prior therapies",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "R289 LR-MDS Phase 1b",
+          "trial_design": "Open-label multicenter Phase 1b dose-escalation/expansion in R/R LR-MDS; ~86 patients (up to 36 escalation, up to 40 expansion at 500 mg QD or BID, 10 exploratory ESA cohort)",
+          "nct_ids": ["NCT05308264"],
+          "trial_status": "RECRUITING (dose escalation complete July 2025; expansion enrolling)",
+          "lead_sponsor": "Rigel Pharmaceuticals",
+          "key_milestones": ["Recommended Phase 2 dose selection 2H 2026", "Preliminary expansion data by year-end 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "TAVALISSE/TAVLESSE", "inn": "fostamatinib", "indication": "Chronic ITP in adults with insufficient response to prior treatment", "approval": "FDA-approved 2018"},
+      {"name": "REZLIDHIA", "inn": "olutasidenib", "indication": "R/R AML with susceptible IDH1 mutation in adults", "approval": "FDA-approved 2022"},
+      {"name": "GAVRETO", "inn": "pralsetinib", "indication": "Metastatic RET fusion-positive NSCLC and RET-altered thyroid cancer", "approval": "FDA-approved; US rights acquired from Blueprint/Sanofi 2024"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "LY3871801", "owner": "Eli Lilly and Company (RIPK1 inhibitor program — Lilly-led)", "indication": "Rheumatoid arthritis", "nct_ids": ["NCT05848258"], "phase": "Phase 2a/2b", "status": "ACTIVE_NOT_RECRUITING"},
+    {"asset": "olutasidenib (investigator-initiated)", "indications": ["Newly diagnosed AML (NCT06782542)", "AML w/ HMA (NCT06597734)", "MDS/AML w/ decitabine+venetoclax (NCT06445959)", "R/R IDH1-mut myeloid (NCT07032727)", "IDH1-mut clonal cytopenia (NCT06566742)", "R/R AML post-venetoclax (NCT07471841)", "AML post-induction (NCT07130695)"], "owner": "M.D. Anderson and other academic IIT sponsors"},
+    {"asset": "fostamatinib (investigator-initiated)", "indications": ["Resectable pancreatic cancer (NCT06639724)", "Steroid-refractory cGvHD with ruxolitinib (NCT06233110)", "ARDS (NCT06564207)"], "owner": "Academic IIT sponsors"}
+  ],
+  "summary_counts": {"assets": 3, "indications_p1": 1, "indications_p2": 1, "indications_p3": 1}
+}

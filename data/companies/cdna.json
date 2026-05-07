@@ -1,0 +1,100 @@
+{
+  "issuer_name": "CareDx, Inc.",
+  "ticker": "CDNA",
+  "exchange": "Nasdaq",
+  "cik": "0001217234",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001217234-26-000018",
+      "filing_date": "2026-02-25",
+      "fiscal_year_end": "2025-12-31",
+      "file": "data/cdna_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://caredx.com/science-innovation/pipeline",
+      "note": "Pipeline page exists but lists diagnostic assets only (AlloHeme next-generation HCT relapse monitoring; ImmuneScape research initiative). No therapeutic / drug pipeline."
+    },
+    "ctgov": {
+      "sponsor_query": "CareDx",
+      "compact_file": "data/cdna_ctgov_compact.json",
+      "phase_p1_p3_count": 0,
+      "note": "27 raw studies sponsored by CareDx; all are observational / registry studies for transplant diagnostics (e.g., AlloSure, AlloMap, OKRA, SHORE, KOAR, ADMIRAL). None are P1/P2/P3 drug or therapeutic trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_diagnostics_and_services": [
+      {
+        "name": "AlloSure Kidney",
+        "type": "Donor-derived cell-free DNA test",
+        "indication": "Kidney transplant rejection surveillance"
+      },
+      {
+        "name": "AlloSure Heart",
+        "type": "Donor-derived cell-free DNA test",
+        "indication": "Heart transplant rejection surveillance"
+      },
+      {
+        "name": "AlloSure Lung",
+        "type": "Donor-derived cell-free DNA test",
+        "indication": "Lung transplant rejection surveillance"
+      },
+      {
+        "name": "AlloMap Heart",
+        "type": "Gene expression profiling test",
+        "indication": "Heart transplant rejection surveillance"
+      },
+      {
+        "name": "HeartCare",
+        "type": "Combined AlloSure Heart + AlloMap Heart panel",
+        "indication": "Heart transplant surveillance"
+      },
+      {
+        "name": "AlloSeq HCT / cfDNA / Tx",
+        "type": "NGS-based HLA typing and chimerism kits",
+        "indication": "Transplant typing and monitoring"
+      },
+      {
+        "name": "RemoTraC",
+        "type": "Remote home phlebotomy service",
+        "indication": "Transplant patient monitoring logistics"
+      },
+      {
+        "name": "CareDx Transplant Pharmacy",
+        "type": "Specialty pharmacy services",
+        "indication": "Post-transplant immunosuppression management"
+      },
+      {
+        "name": "Ottr / TX Connect / TXAccess (digital health)",
+        "type": "Transplant center workflow software",
+        "indication": "Transplant program management"
+      }
+    ],
+    "diagnostic_pipeline_in_development": [
+      {
+        "name": "AlloHeme",
+        "type": "AI-powered post-HCT relapse monitoring (cfDNA + ML)",
+        "indication": "AML, MDS post-hematopoietic cell transplant",
+        "stage": "Next-generation development"
+      },
+      {
+        "name": "ImmuneScape",
+        "type": "Single-cell and spatial immune biology research platform",
+        "stage": "Research initiative"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "CareDx is a transplant diagnostics, digital health, and patient-services company. It develops molecular diagnostics (cell-free DNA, NGS HLA typing, gene expression) and software for organ and stem-cell transplant patients. It has no proprietary drug or therapeutic pipeline and no Phase 1/2/3 clinical drug studies. All sponsored ctgov studies are observational registries / clinical-utility studies for its diagnostic assays."
+}

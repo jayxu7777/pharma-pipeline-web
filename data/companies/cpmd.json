@@ -1,0 +1,28 @@
+{
+  "issuer_name": "CANNAPHARMARX, INC.",
+  "ticker": "CPMD",
+  "exchange": "OTC",
+  "cik": "0001081938",
+  "region": "US/Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001654954-26-003108",
+      "path": "data/cpmd_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page found — company is a cannabis cultivator, not a drug developer"},
+    "ctgov": {
+      "path": "data/cpmd_ctgov_compact.json",
+      "lead_sponsor_query": "CannaPharmaRx",
+      "result": "0 trials found"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "CannaPharmaRx is a Canadian cannabis cultivation/sales company (Health Canada operating license Dec 2022). The 10-K describes only cannabis cultivation, distribution, and retail — no drug development, no clinical trials, no INDs.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Lucid Diagnostics Inc.",
+  "ticker": "LUCD",
+  "exchange": "Nasdaq",
+  "cik": "0001799011",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-26-009805",
+      "filing_date": "2026-03-25",
+      "doc": "lucd20251231_10k.htm",
+      "file": "data/lucd_10k_pipeline_section.html",
+      "note": "10-K describes EsoCheck (FDA 510(k)-cleared device) and EsoGuard (laboratory developed test / NGS DNA assay run in Lucid's CLIA lab). No drug or biologic pipeline. R&D activity focused on reimbursement-supporting utility studies, not P1/P2/P3 drug trials."
+    },
+    "website": {
+      "url": "https://www.luciddx.com/clinical-data",
+      "note": "Clinical-data page lists observational / real-world / validation studies (BETRNet, ESOGUARD BE-1, CLUE, Lucid Registry, VA, Firefighter Health Fair, Genetic Classifier). All are device-validation or reimbursement evidence studies — none are P1/P2/P3 therapeutic clinical trials. No NCT IDs listed on the company page."
+    },
+    "ctgov": {
+      "file": "data/lucd_ctgov_compact.json",
+      "note": "Zero P1-P3 trials on ClinicalTrials.gov sponsored by Lucid Diagnostics."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Esophageal precancer screening — device + LDT",
+    "products": [
+      {
+        "name": "EsoCheck",
+        "type": "Esophageal Cell Collection Device (swallowable balloon capsule catheter)",
+        "status": "FDA 510(k)-cleared and CE Mark certified; commercially marketed"
+      },
+      {
+        "name": "EsoGuard",
+        "type": "Bisulfite-converted targeted NGS DNA methylation assay (VIM + CCNA1, 31 sites)",
+        "status": "Laboratory Developed Test (LDT) performed in Lucid's CLIA-certified lab; commercially marketed",
+        "indication": "Detection of Barrett's esophagus and esophageal adenocarcinoma in at-risk GERD patients",
+        "performance": "~90% sensitivity, ~99% NPV in validation studies"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Commercial-stage molecular diagnostics company. Sole focus is selling EsoGuard (LDT) and EsoCheck (FDA 510(k)-cleared device) for esophageal precancer screening. No proprietary drug, biologic, or device asset in P1/P2/P3 development. Ongoing studies (CLUE, Lucid Registry) are observational real-world evidence efforts to support payer reimbursement, not therapeutic clinical trials."
+}

@@ -1,0 +1,108 @@
+{
+  "issuer_name": "Design Therapeutics, Inc.",
+  "ticker": "DSGN",
+  "exchange": "Nasdaq",
+  "cik": "0001807120",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-09",
+      "accession": "0001193125-26-098491",
+      "path": "data/dsgn_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.designtx.com/pipeline",
+      "error": "404 at /pipeline; common variants not located. Relied on 10-K + ctgov."
+    },
+    "ctgov": {
+      "path": "data/dsgn_ctgov_compact.json",
+      "query_sponsor": "Design Therapeutics"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "DT-216P2",
+      "aka": ["DT-216 (drug substance)", "FA GeneTAC"],
+      "modality": "Small-molecule GeneTAC (gene-targeted chimera) targeting expanded GAA repeats in FXN intron 1; IV/SC formulations",
+      "target": "Expanded GAA triplet repeats in FXN gene (restores frataxin expression)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Friedreich ataxia (FA)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RESTORE-FA (Phase 1/2 MAD)",
+          "trial_design": "Phase 1/2 multiple-ascending-dose trial of IV and SC DT-216P2 in adult FA patients; primary endpoints safety, tolerability, PK, PD (frataxin levels)",
+          "nct_ids": ["NCT06874010"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Design Therapeutics, Inc.",
+          "key_milestones": [
+            "12-week frataxin expression update expected 2H 2026",
+            "Phase 1 SAD in healthy volunteers (NCT06772870) showed improved PK vs DT-216P1"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "DT-168",
+      "aka": ["FECD GeneTAC"],
+      "modality": "Small-molecule GeneTAC targeting expanded CTG repeats in TCF4 intron",
+      "target": "Expanded CTG repeats in TCF4 gene (reduces RNA foci and mis-splicing)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Fuchs endothelial corneal dystrophy (FECD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "DT-168 Phase 2 biomarker trial in keratoplasty patients",
+          "trial_design": "Phase 2 biomarker trial in FECD patients undergoing keratoplasty; evaluating safety, tolerability and corneal endothelium biomarkers",
+          "nct_ids": ["NCT07024693"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Design Therapeutics, Inc.",
+          "key_milestones": [
+            "Phase 1 healthy volunteer results reported May 2025",
+            "Phase 2 biomarker readout expected 2H 2026",
+            "Observational study completed baseline assessments on ~250 FECD patients"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "DT-818",
+      "aka": ["DM1 GeneTAC"],
+      "modality": "Small-molecule GeneTAC targeting expanded CTG repeats in DMPK gene",
+      "target": "Expanded CTG repeats in mutant DMPK (selective vs WT)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Myotonic dystrophy type 1 (DM1)",
+          "highest_phase": "Phase 1",
+          "trial_name": "DT-818 Phase 1 MAD (planned)",
+          "trial_design": "Phase 1 MAD trial in DM1 patients to assess safety and correction of mis-splicing",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — first patient dosing planned 1H 2026; regulatory clearance obtained Q4 2025; results anticipated 2027",
+          "lead_sponsor": "Design Therapeutics, Inc.",
+          "key_milestones": [
+            "Development candidate nominated Q4 2025",
+            "Regulatory clearance Q4 2025"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "HD GeneTAC program — preclinical, candidate selection ongoing",
+    "Other GeneTAC research-stage indications"
+  ],
+  "excluded_legacy_terminated": [
+    "DT-216P1 Phase 1 (NCT05285540, NCT05573698) — completed; superseded by DT-216P2 formulation"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "indications_total": 3,
+    "p3_indications": 0,
+    "p2_indications": 2,
+    "p1_indications": 1
+  }
+}

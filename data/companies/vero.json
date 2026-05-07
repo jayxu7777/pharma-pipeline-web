@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Venus Concept Inc.",
+  "ticker": "VERO",
+  "exchange": "OTC",
+  "cik": "0001409269",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-25-009968",
+      "filing_date": "2025-03-31",
+      "doc": "vero20241231_10k.htm"
+    },
+    "website": {
+      "url": "https://www.venusconcept.com/",
+      "note": "Corporate site redirects to venus.ai; no clinical pipeline page exists. Product catalog only."
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 0,
+      "note": "No P1-P3 trials listed under sponsor 'Venus Concept'."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Energy-based medical aesthetic devices (FDA-cleared)",
+    "marketed_devices": [
+      "Venus Bliss MAX",
+      "Venus Bliss",
+      "Venus Legacy",
+      "Venus Versa",
+      "Venus Versa Pro",
+      "Venus Nova",
+      "Venus Viva MD",
+      "Venus Glow",
+      "ARTAS iXi (robotic hair transplant)",
+      "NeoGraft (hair restoration)",
+      "Venus Velocity",
+      "Venus Epileve"
+    ],
+    "indications": [
+      "Non-invasive fat lipolysis",
+      "Cellulite reduction",
+      "Skin tightening",
+      "Wrinkle reduction",
+      "Acne treatment",
+      "Skin resurfacing",
+      "Hair removal",
+      "Hair restoration"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical aesthetic device company (energy-based devices for body, face, and hair). No proprietary drug clinical pipeline. Products are 510(k)-cleared aesthetic devices, not Phase 1/2/3 drug or pivotal IDE trial assets."
+}

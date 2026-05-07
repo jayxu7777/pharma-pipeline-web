@@ -1,0 +1,106 @@
+{
+  "issuer_name": "Matinas BioPharma Holdings, Inc.",
+  "ticker": "MTNB",
+  "exchange": "NYSE",
+  "cik": "0001582554",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014132",
+      "filing_date": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1582554/000149315226014132/form10-k.htm"
+    },
+    "website": {
+      "url": "https://www.matinasbiopharma.com/",
+      "note": "Pipeline subpage (/pipeline) returns 404; only homepage available, mentions MAT2203 lead asset."
+    },
+    "ctgov": {
+      "query": "Matinas BioPharma",
+      "trials_returned": 11,
+      "active_or_relevant": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "MAT2203",
+      "aka": ["encochleated amphotericin B", "CAMB", "oral amphotericin B"],
+      "modality": "Lipid nano-crystal (LNC) oral formulation of amphotericin B (small molecule, polyene antifungal)",
+      "target": "Fungal ergosterol membrane",
+      "license_origin": "In-licensed from Rutgers/BioDelivery Sciences (LNC platform)",
+      "indications": [
+        {
+          "indication": "Invasive aspergillosis (with limited or no treatment options)",
+          "highest_phase": "Phase 3 (planned, paused)",
+          "trial_name": "Planned Phase 3 registration trial",
+          "trial_design": "Single Phase 3 registrational study; design not finalized at filing.",
+          "nct_ids": [],
+          "trial_status": "PLANNED — clinical development paused following October 2024 termination of partnership negotiations and 80% workforce reduction; IND remains active; company seeking partner to advance into Phase 3.",
+          "lead_sponsor": "Matinas BioPharma Nanotechnologies, Inc.",
+          "key_milestones": [
+            "Oct 2024: MAT2203 partnership term sheet terminated; clinical development paused.",
+            "Company evaluating sale/license/strategic alternatives for MAT2203."
+          ]
+        },
+        {
+          "indication": "Cryptococcal meningitis",
+          "highest_phase": "Phase 3",
+          "trial_name": "EnACT-3 (Encochleated Oral Amphotericin for Cryptococcal Meningitis Trial 3)",
+          "trial_design": "Phase 3 trial; intervention arms MAT2203 vs IV amphotericin B; collaborator University of Minnesota.",
+          "nct_ids": ["NCT05541107"],
+          "trial_status": "UNKNOWN per ctgov (last update prior to development pause); positive Phase 2 EnACT (NCT04031833) met primary endpoint and demonstrated robust survival.",
+          "lead_sponsor": "Matinas BioPharma Nanotechnologies, Inc.",
+          "key_milestones": [
+            "EnACT Phase 2 (NCT04031833): primary endpoint met, robust survival.",
+            "Phase 3 registration enabling per 10-K narrative; clinical activity paused."
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "LYPDISO",
+      "aka": ["MAT9001", "omega-3 pentaenoic acid"],
+      "modality": "Prescription omega-3 fatty acid composition (EPA + DPA)",
+      "target": "Triglyceride / lipid metabolism (cardiovascular)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Severe hypertriglyceridemia (triglycerides 500-2000 mg/dL)",
+          "highest_phase": "Phase 3 (planned, paused / partner-seeking)",
+          "trial_name": "Phase 3 MAT9001 efficacy/safety study",
+          "trial_design": "Originally a Phase 3 study (NCT04662528) of MAT9001 vs placebo in severe hypertriglyceridemia; WITHDRAWN before initiation.",
+          "nct_ids": ["NCT04662528"],
+          "trial_status": "PLANNED — Phase 3 study withdrawn (NCT04662528, WITHDRAWN); company has initiated process to identify a partner to continue LYPDISO development.",
+          "lead_sponsor": "Matinas Biopharma, Inc.",
+          "key_milestones": [
+            "Phase 2 PD study NCT04177680 completed Nov 2020.",
+            "FDA conditionally accepted LYPDISO brand name (Jan 2021).",
+            "Company seeking external partner for further development."
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Discovery programs in oncology and inflammation (LNC platform) — no IND filed."
+  ],
+  "excluded_legacy_terminated": [
+    "NCT02971007 (Phase 2 vulvovaginal candidiasis, MAT2203) — COMPLETED.",
+    "NCT03187691 (Phase 2 antifungal prophylaxis in AML/ALL, MAT2203) — WITHDRAWN.",
+    "NCT03167957 (Phase 2 fluconazole-resistant VVC, MAT2203) — WITHDRAWN.",
+    "NCT02629419 (Phase 2 mucocutaneous candidiasis, MAT2203) — COMPLETED.",
+    "NCT03196921 (Phase 1/2 cryptococcal infection, MAT2203) — WITHDRAWN.",
+    "NCT04031833 (Phase 1/2 EnACT, MAT2203) — COMPLETED, supports Phase 3.",
+    "NCT04177680 (Phase 2 omega-3 PD study, MAT9001) — COMPLETED.",
+    "NCT02310022 (Phase 1/2 omega-3 formulation PK/PD, MAT9001) — COMPLETED."
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 2,
+    "phase_2": 0,
+    "phase_1": 0,
+    "note": "Both lead assets at Phase 3 stage but clinical activities paused; company in partner-seeking / strategic-alternatives mode."
+  }
+}

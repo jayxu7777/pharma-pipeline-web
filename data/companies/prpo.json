@@ -1,0 +1,50 @@
+{
+  "issuer_name": "Precipio, Inc.",
+  "ticker": "PRPO",
+  "exchange": "Nasdaq",
+  "cik": "0001043961",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-036878",
+      "filing_date": "2026-03-30",
+      "path": "data/prpo_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://precipiodx.com",
+      "note": "Hematopathology diagnostics company; no drug or device pipeline page."
+    },
+    "ctgov": {
+      "path": "data/prpo_ctgov_compact.json",
+      "note": "Zero P1-P3 trials with Precipio as lead sponsor."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "services": [
+      "Hematopathology diagnostic services",
+      "Rapid AML Complete testing"
+    ],
+    "molecular_kits": [
+      "Bloodhound BCR-ABL1 Panel",
+      "Bloodhound MPN Panel",
+      "Bloodhound ABL1 Resistance Panel",
+      "HemeScreen AML Panel",
+      "HemeScreen CLL Panel",
+      "HemeScreen Cytopenia Panel",
+      "IV-Cell Cytogenetics Culture Media"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Diagnostics-only company (hematopathology lab services and commercialized molecular IVD kits — Bloodhound and HemeScreen lines). No proprietary therapeutic pipeline; no company-sponsored P1/P2/P3 trials on ClinicalTrials.gov."
+}

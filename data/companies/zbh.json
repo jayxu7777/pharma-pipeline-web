@@ -1,0 +1,58 @@
+{
+  "issuer_name": "ZIMMER BIOMET HOLDINGS, INC.",
+  "ticker": "ZBH",
+  "exchange": "NYSE",
+  "cik": "0001136869",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-059853",
+      "filing_date": "2026-02-20",
+      "doc": "zbh-20251231.htm",
+      "note": "10-K Business Overview slice retrieved (53KB). Zimmer Biomet describes itself as a global musculoskeletal medical-device company (knees, hips, sports medicine, extremities, trauma, cranio-maxillofacial, spine, dental, surgical robotics/ROSA). No proprietary drug pipeline disclosed."
+    },
+    "website": {
+      "error": "no public drug pipeline page found — Zimmer Biomet is a medical-devices (orthopedics) company"
+    },
+    "ctgov": {
+      "file": "data/zbh_ctgov_compact.json",
+      "kept_p1_p3": 16,
+      "active": 0,
+      "note": "All 16 P1-P3 trials linked to Zimmer Biomet are device/biologic-adjunct studies (joint replacement, spine, PRP, autologous bone-marrow/blood products). Status mix: 8 COMPLETED, 5 UNKNOWN (legacy stale records), 2 TERMINATED, 1 WITHDRAWN. No active pivotal drug studies."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "ZBH markets orthopedic implants and surgical solutions including knee (Persona, NexGen), hip (Taperloc, G7), shoulder, spine, dental implants, sports medicine, ROSA surgical robotics, and Persona IQ smart knee. These are devices, not drug assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT01123850", "reason": "TERMINATED — CopiOs spine adjunct"},
+    {"nct_id": "NCT00759057", "reason": "TERMINATED — Dynesys spine system (device)"},
+    {"nct_id": "NCT03167788", "reason": "WITHDRAWN — rejuvesol RBC rejuvenation, University of Leicester lead"},
+    {"nct_id": "NCT00553488", "reason": "n/a"},
+    {"nct_id": "NCT00802477", "reason": "UNKNOWN — Marshall University lead, autologous blood products mastectomy"},
+    {"nct_id": "NCT01113762", "reason": "UNKNOWN — University of Southern Denmark lead, hip arthroplasty device"},
+    {"nct_id": "NCT00134537", "reason": "UNKNOWN — Wallis spine device (Zimmer Spine)"},
+    {"nct_id": "NCT00484458", "reason": "UNKNOWN — Wallis spine device (Zimmer Spine)"},
+    {"nct_id": "NCT01611493", "reason": "UNKNOWN — investigator-led dental implant study"},
+    {"nct_id": "NCT02863926", "reason": "COMPLETED 2018 — investigator-led cBMA"},
+    {"nct_id": "NCT01461785", "reason": "COMPLETED 2015 — investigator-led PRP fat-transfer"},
+    {"nct_id": "NCT00158418", "reason": "COMPLETED 2008 — investigator-led shoulder cement"},
+    {"nct_id": "NCT00758758", "reason": "COMPLETED 2009 — Hedrocel cervical fusion device"},
+    {"nct_id": "NCT00514241", "reason": "COMPLETED 2008 — GPS II platelet device"},
+    {"nct_id": "NCT00746616", "reason": "COMPLETED 2011 — Durom hip resurfacing device"},
+    {"nct_id": "NCT00591812", "reason": "COMPLETED 2009 — Compress distal femoral device, MSKCC lead"},
+    {"nct_id": "NCT02262364", "reason": "COMPLETED 2016 — nStride APS knee OA device/biologic"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Zimmer Biomet is a musculoskeletal medical-device company (orthopedic implants, spine, dental, surgical robotics). It has no proprietary drug pipeline. All historical ctgov P1-P3 records are device or biologic-adjunct studies; none are active pivotal drug studies."
+}

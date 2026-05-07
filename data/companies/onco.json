@@ -1,0 +1,21 @@
+{
+  "issuer_name": "Onconetix, Inc.",
+  "ticker": "ONCO",
+  "exchange": "Nasdaq",
+  "cik": "0001782107",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-027725", "filing_date": "2026-03-13", "doc": "ea0280547-10k_onconetix.htm"},
+    "website": {"url": "https://onconetix.com/pipeline", "error": "page rendered client-side; content not extractable via WebFetch"},
+    "ctgov": {"sponsor_query": "Onconetix", "trials_returned": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Onconetix is a diagnostics-focused company (commercializing Proclarix, a CE-marked in vitro diagnostic ELISA assay for prostate cancer risk stratification, originally developed by Proteomedix). The only previously held drug asset, ENTADFI (FDA-approved once-daily oral therapy acquired from Veru in April 2023), was fully impaired and commercialization abandoned in 2024. No active P1/P2/P3 clinical-stage drug candidates remain.",
+  "commercial_product": {"name": "Proclarix", "status": "CE-marked, sold in Europe; LabCorp-led PRIME validation study underway in U.S."},
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["ENTADFI — FDA-approved drug, commercialization abandoned 2024, asset fully impaired"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_active_assets": 0}
+}

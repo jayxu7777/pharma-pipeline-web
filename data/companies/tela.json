@@ -1,0 +1,49 @@
+{
+  "issuer_name": "TELA Bio, Inc.",
+  "ticker": "TELA",
+  "exchange": "Nasdaq",
+  "cik": "0001561921",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-034507",
+      "filing_date": "2026-03-25",
+      "doc": "tela-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://telabio.com",
+      "note": "No dedicated pipeline page; commercial product information only."
+    },
+    "ctgov": {
+      "sponsor_query": "TELA Bio",
+      "unique_trials": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "OviTex Reinforced Tissue Matrix portfolio",
+    "modality": "Biologic-synthetic hybrid surgical mesh (510(k)-cleared medical devices)",
+    "indications": [
+      "Ventral, inguinal and hiatal hernia repair, abdominal wall reconstruction (OviTex)",
+      "Plastic and reconstructive surgery, including breast reconstruction (OviTex PRS)"
+    ],
+    "post_market_studies": [
+      "BRAVO — 24-month results published Oct 2022 (Annals of Medicine and Surgery)",
+      "BRAVO II — post-market prospective study",
+      "OPERA — retrospective-prospective real-world study of OviTex PRS in implant-based breast reconstruction",
+      "Real-world quality-improvement registry (1,100 patients across OviTex portfolio, 24-month follow-up)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Commercial-stage medtech company selling 510(k)-cleared reinforced tissue matrix devices (OviTex / OviTex PRS). All disclosed clinical activity (BRAVO, BRAVO II, OPERA, real-world registry) is post-market observational data collection on already-cleared devices, not active pivotal/IDE investigational studies. A future IDE study of OviTex PRS in breast reconstruction is described only as 'potential'. Per scope, no active P1/P2/P3 or pivotal IDE pipeline to report."
+}

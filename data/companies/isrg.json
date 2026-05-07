@@ -1,0 +1,107 @@
+{
+  "issuer_name": "Intuitive Surgical, Inc.",
+  "ticker": "ISRG",
+  "exchange": "Nasdaq",
+  "cik": "0001035267",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001035267-26-000010",
+      "filing_date": "2026-02-03",
+      "doc": "isrg-20251231.htm",
+      "note": "Medtech 10-K; pipeline disclosed at product/platform level rather than per-asset drug pipeline. Imaging-drug program (IS-001 / IS-002) not detailed in narrative slice."
+    },
+    "website": {
+      "error": "Pipeline page not directly accessible via WebFetch (corporate site blocked / no dedicated drug-pipeline page); intuitive.com is product-marketing focused (da Vinci, Ion, SP). Status validated from press releases."
+    },
+    "ctgov": {
+      "file": "data/isrg_ctgov_compact.json",
+      "lead_sponsor_query": "Intuitive Surgical",
+      "trials_returned": 8
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "filricianine",
+      "aka": ["IS-001"],
+      "modality": "Small-molecule near-infrared fluorescent imaging agent (IV)",
+      "target": "Renally cleared dye that highlights ureters under NIR imaging",
+      "license_origin": "Internal (Intuitive Surgical)",
+      "indications": [
+        {
+          "indication": "Visualization of ureters during robotic-assisted gynecological surgery",
+          "highest_phase": "P3",
+          "trial_name": "IS-001 Injection in Patients Undergoing Robotic-Assisted Gynecological Surgery",
+          "trial_design": "Phase 3 interventional study; primary completion January 2025",
+          "nct_ids": ["NCT05954767"],
+          "trial_status": "COMPLETED (primary completion 2025-01-31; pivotal readout supports anticipated NDA pathway)",
+          "lead_sponsor": "Intuitive Surgical",
+          "key_milestones": ["Phase 3 gynecological pivotal completed Jan 2025"]
+        },
+        {
+          "indication": "Visualization of ureters during robotic-assisted colorectal surgery",
+          "highest_phase": "P3",
+          "trial_name": "IS-001 Injection in Patients Undergoing Robotic-Assisted Colorectal Surgery",
+          "trial_design": "Phase 3 interventional study; sites being activated",
+          "nct_ids": ["NCT07346066"],
+          "trial_status": "NOT_YET_RECRUITING (start scheduled 2026-03-31; primary completion 2027-04-30)",
+          "lead_sponsor": "Intuitive Surgical",
+          "key_milestones": ["Phase 3 colorectal pivotal initiated 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "IS-002",
+      "aka": [],
+      "modality": "Tumor-targeted near-infrared fluorescent imaging agent (IV)",
+      "target": "PSMA-targeted NIR dye for intraoperative prostate cancer visualization (Firefly imaging)",
+      "license_origin": "Internal (Intuitive Surgical)",
+      "indications": [
+        {
+          "indication": "Intraoperative visualization of prostate cancer during robotic prostatectomy",
+          "highest_phase": "P2",
+          "trial_name": "IS-002 Phase 2 Prostate Cancer Study",
+          "trial_design": "Phase 2 interventional; IS-002 administered prior to robotic-assisted laparoscopic prostatectomy with PLND, Firefly fluorescent imaging readout",
+          "nct_ids": ["NCT05946603", "NCT04574401"],
+          "trial_status": "Phase 2 COMPLETED (primary completion 2024-05-21); preceding Phase 1 (NCT04574401) also COMPLETED",
+          "lead_sponsor": "Intuitive Surgical",
+          "key_milestones": ["Phase 2 prostate cancer readout 2024"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Core revenue is medical devices, not drugs. Marketed device franchises include da Vinci surgical robotic systems (multi-port: Si, X, Xi, da Vinci 5; single-port: SP), Ion endoluminal robotic bronchoscopy system, instruments and accessories (EndoWrist, staplers, energy), and digital/services (My Intuitive, Intuitive Hub). FDA-cleared via 510(k) pathway (e.g., K242318, K232610, K230033, K183086).",
+    "approved_devices_examples": ["da Vinci 5", "da Vinci Xi", "da Vinci SP", "Ion endoluminal system"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "nct_id": "NCT02136121",
+      "reason": "COMPLETED in 2013 — legacy single-port feasibility study (da Vinci SP device, not a drug asset)"
+    },
+    {
+      "nct_id": "NCT03006237",
+      "reason": "Phase 1 IS-001 PK study, COMPLETED 2017 — superseded by later P2/P3"
+    },
+    {
+      "nct_id": "NCT03937505",
+      "reason": "Phase 2 IS-001 hysterectomy safety, COMPLETED 2021 — superseded by NCT05954767 P3 gynecological"
+    },
+    {
+      "nct_id": "NCT05769257",
+      "reason": "Phase 2 IS-001 colorectal feasibility, COMPLETED 2024 — superseded by NCT07346066 P3 colorectal"
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 1,
+    "P2": 1,
+    "P1": 0,
+    "indications_total": 3
+  },
+  "no_active_clinical_pipeline_reason": null
+}

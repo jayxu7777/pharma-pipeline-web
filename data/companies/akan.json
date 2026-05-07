@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Akanda Corp.",
+  "ticker": "AKAN",
+  "exchange": "Nasdaq",
+  "cik": "0001888014",
+  "region": "UK / Lesotho / international",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (no 10-K found in EDGAR recent filings)"},
+    "website": {"url": "https://www.akandacorp.com", "note": "Cannabis cultivator/distributor; no drug pipeline disclosed"},
+    "ctgov": {"sponsor_query": "Akanda", "active_p1_p3_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Akanda Corp. is an international medical-cannabis and hemp cultivation, manufacturing, and distribution company (using Cookies genetics, with operations in Lesotho and distribution to international medical-cannabis markets). It is not a clinical-stage biopharmaceutical issuer and operates no FDA/EMA-regulated investigational drug programs.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

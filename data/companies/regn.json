@@ -1,0 +1,217 @@
+{
+  "issuer_name": "REGENERON PHARMACEUTICALS, INC.",
+  "ticker": "REGN",
+  "exchange": "Nasdaq",
+  "cik": "0000872589",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000872589-26-000008", "filing_date": "2026-02-04", "doc": "regn-20251231.htm"},
+    "website": {"url": "https://www.regeneron.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Regeneron Pharmaceuticals", "studies_total": 585}
+  },
+  "pipeline": [
+    {"asset": "Cemiplimab", "aka": ["Libtayo", "REGN2810"], "modality": "Anti-PD-1 monoclonal antibody", "target": "PD-1", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Adjuvant cutaneous squamous cell carcinoma (CSCC)", "highest_phase": "Phase 3", "trial_name": "C-POST", "trial_design": "Randomized adjuvant", "nct_ids": ["NCT03969004"], "trial_status": "Active", "lead_sponsor": "Regeneron", "key_milestones": []},
+       {"indication": "Multiple NSCLC settings (perioperative, adjuvant, in combination)", "highest_phase": "Phase 3", "trial_name": "Multiple", "trial_design": "Various", "nct_ids": ["NCT03409614", "NCT03515629"], "trial_status": "Active", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Dupilumab", "aka": ["Dupixent", "REGN668"], "modality": "Anti-IL-4Ralpha monoclonal antibody", "target": "IL-4Ralpha", "license_origin": "Regeneron/Sanofi collaboration",
+     "indications": [
+       {"indication": "Pediatric asthma, chronic spontaneous urticaria (CSU), chronic pruritus of unknown origin (CPUO), and additional Type 2 indications", "highest_phase": "Phase 3", "trial_name": "Multiple Phase 3 programs", "trial_design": "Various", "nct_ids": ["NCT05526222", "NCT05526521"], "trial_status": "Active", "lead_sponsor": "Sanofi/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Linvoseltamab", "aka": ["Lynozyfic", "REGN5458"], "modality": "BCMAxCD3 bispecific antibody", "target": "BCMA/CD3", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Multiple myeloma (post-approval expansion to earlier lines and combinations)", "highest_phase": "Phase 3", "trial_name": "LINKER-MM3 and combination programs", "trial_design": "Randomized + combination", "nct_ids": ["NCT05730036"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []},
+       {"indication": "Smoldering / precursor multiple myeloma", "highest_phase": "Phase 2", "trial_name": "LINKER-SMM1", "trial_design": "Single-agent", "nct_ids": ["NCT05955508"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Odronextamab", "aka": ["Ordspono", "REGN1979"], "modality": "CD20xCD3 bispecific antibody", "target": "CD20/CD3", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Diffuse large B-cell lymphoma (DLBCL), follicular lymphoma, marginal zone lymphoma and combination/earlier-line settings", "highest_phase": "Phase 3", "trial_name": "OLYMPIA program", "trial_design": "Randomized", "nct_ids": ["NCT06091254", "NCT06091267", "NCT06149286"], "trial_status": "Recruiting/Active", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Fianlimab", "aka": ["REGN3767"], "modality": "Anti-LAG-3 monoclonal antibody", "target": "LAG-3", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Metastatic and adjuvant melanoma (with cemiplimab)", "highest_phase": "Phase 3", "trial_name": "Multiple Phase 3 melanoma trials", "trial_design": "Randomized vs. PD-1", "nct_ids": ["NCT05352672", "NCT05608291"], "trial_status": "Recruiting/Active", "lead_sponsor": "Regeneron", "key_milestones": []},
+       {"indication": "Head and neck squamous cell carcinoma (HNSCC)", "highest_phase": "Phase 2", "trial_name": "Combination with cemiplimab", "trial_design": "Randomized", "nct_ids": ["NCT05459298"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Itepekimab", "aka": ["SAR440340", "REGN3500"], "modality": "Anti-IL-33 monoclonal antibody", "target": "IL-33", "license_origin": "Sanofi/Regeneron collaboration",
+     "indications": [
+       {"indication": "COPD (chronic obstructive pulmonary disease)", "highest_phase": "Phase 3", "trial_name": "AERIFY-1/2/LTS", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT04701983", "NCT04751487", "NCT06208306"], "trial_status": "Active", "lead_sponsor": "Sanofi", "key_milestones": []},
+       {"indication": "Chronic rhinosinusitis without nasal polyps (CRSsNP)", "highest_phase": "Phase 3", "trial_name": "CRSsNP program", "trial_design": "Randomized", "nct_ids": ["NCT05598866"], "trial_status": "Recruiting", "lead_sponsor": "Sanofi", "key_milestones": []}
+     ]},
+    {"asset": "Cemdisiran", "aka": ["ALN-CC5"], "modality": "siRNA targeting C5", "target": "Complement C5", "license_origin": "Alnylam license",
+     "indications": [
+       {"indication": "Generalized myasthenia gravis", "highest_phase": "Phase 3", "trial_name": "Cemdisiran in gMG", "trial_design": "Randomized", "nct_ids": ["NCT05070858"], "trial_status": "Active", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Pozelimab + Cemdisiran", "aka": ["REGN3918+ALN-CC5"], "modality": "Anti-C5 mAb + siRNA combination", "target": "Complement C5", "license_origin": "Regeneron + Alnylam",
+     "indications": [
+       {"indication": "Paroxysmal nocturnal hemoglobinuria (PNH)", "highest_phase": "Phase 3", "trial_name": "ACCESS-1/2", "trial_design": "Randomized vs. ravulizumab", "nct_ids": ["NCT05133531", "NCT05131204"], "trial_status": "Active", "lead_sponsor": "Regeneron", "key_milestones": []},
+       {"indication": "Geographic atrophy (intravitreal)", "highest_phase": "Phase 3", "trial_name": "GA program", "trial_design": "Randomized", "nct_ids": ["NCT06164587"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Garetosmab", "aka": ["REGN2477"], "modality": "Anti-Activin A monoclonal antibody", "target": "Activin A", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Fibrodysplasia ossificans progressiva (FOP)", "highest_phase": "Phase 3", "trial_name": "OPTIMA", "trial_design": "Randomized", "nct_ids": ["NCT05394116"], "trial_status": "Active", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Mibavademab", "aka": ["REGN4461"], "modality": "Anti-LEPR agonist mAb", "target": "Leptin receptor (LEPR)", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Generalized lipodystrophy and monogenic obesity", "highest_phase": "Phase 3", "trial_name": "Mibavademab Ph3", "trial_design": "Randomized", "nct_ids": ["NCT06164652"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []},
+       {"indication": "Functional hypothalamic amenorrhea", "highest_phase": "Phase 2", "trial_name": "FHA Ph2", "trial_design": "Randomized", "nct_ids": ["NCT05886413"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Nexiguran ziclumeran", "aka": ["NTLA-2001", "REGV131"], "modality": "In vivo CRISPR/Cas9 gene editing", "target": "TTR", "license_origin": "Intellia collaboration",
+     "indications": [
+       {"indication": "Transthyretin amyloid cardiomyopathy (ATTR-CM) and ATTRv polyneuropathy", "highest_phase": "Phase 3", "trial_name": "MAGNITUDE / MAGNITUDE-2", "trial_design": "Randomized", "nct_ids": ["NCT06128629", "NCT06672237"], "trial_status": "Recruiting", "lead_sponsor": "Intellia/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN1908-1909", "aka": [], "modality": "Anti-Fel d 1 monoclonal antibody cocktail", "target": "Fel d 1", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Cat allergy", "highest_phase": "Phase 3", "trial_name": "Cat allergy program", "trial_design": "Randomized", "nct_ids": ["NCT05308719"], "trial_status": "Active", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN5713-5715", "aka": [], "modality": "Anti-Bet v 1 monoclonal antibody cocktail", "target": "Bet v 1", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Birch allergy", "highest_phase": "Phase 3", "trial_name": "Birch allergy program", "trial_design": "Randomized", "nct_ids": ["NCT05484882"], "trial_status": "Active", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN7508", "aka": [], "modality": "Anti-Factor XI monoclonal antibody", "target": "Factor XI", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "VTE prevention and stroke prevention in atrial fibrillation (SPAF)", "highest_phase": "Phase 3", "trial_name": "REGN7508 Ph3 program", "trial_design": "Randomized", "nct_ids": ["NCT06154369"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN9933", "aka": [], "modality": "Anti-Factor XI monoclonal antibody", "target": "Factor XI", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Stroke prevention in atrial fibrillation (SPAF)", "highest_phase": "Phase 3", "trial_name": "REGN9933 SPAF", "trial_design": "Randomized", "nct_ids": ["NCT06143150"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Davutamig", "aka": ["REGN5093"], "modality": "MET x MET bispecific antibody", "target": "MET", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "MET-altered NSCLC", "highest_phase": "Phase 2", "trial_name": "Davutamig NSCLC", "trial_design": "Single-agent + combination", "nct_ids": ["NCT04077099"], "trial_status": "Active", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Marlotamig", "aka": ["REGN7075"], "modality": "EGFRxCD28 costim bispecific", "target": "EGFR/CD28", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Solid tumors (CRC, NSCLC) in combination with cemiplimab", "highest_phase": "Phase 2", "trial_name": "REGN7075 combos", "trial_design": "Combination", "nct_ids": ["NCT04626635"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Trevogrumab", "aka": ["REGN1033"], "modality": "Anti-myostatin (GDF8) monoclonal antibody", "target": "GDF8/myostatin", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Obesity (lean-mass preservation)", "highest_phase": "Phase 2", "trial_name": "TRESHOLD", "trial_design": "Randomized in combination with semaglutide", "nct_ids": ["NCT06299098"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Ubamatamab", "aka": ["REGN4018"], "modality": "MUC16xCD3 bispecific antibody", "target": "MUC16/CD3", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Recurrent ovarian cancer; NSCLC", "highest_phase": "Phase 2", "trial_name": "Ubamatamab program", "trial_design": "Single-agent + combinations", "nct_ids": ["NCT03564340"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Sarilumab", "aka": ["Kevzara", "REGN88"], "modality": "Anti-IL-6R monoclonal antibody", "target": "IL-6R", "license_origin": "Regeneron/Sanofi",
+     "indications": [
+       {"indication": "Systemic juvenile idiopathic arthritis (sJIA)", "highest_phase": "Phase 2", "trial_name": "Sarilumab sJIA", "trial_design": "Open-label / randomized", "nct_ids": ["NCT02991469"], "trial_status": "Active", "lead_sponsor": "Sanofi", "key_milestones": []}
+     ]},
+    {"asset": "Olatorepatide", "aka": ["HS-20094"], "modality": "GLP-1/GIP dual agonist", "target": "GLP-1R/GIPR", "license_origin": "Hansoh Pharma license (ex-Greater China)",
+     "indications": [
+       {"indication": "Obesity / weight management", "highest_phase": "Phase 2", "trial_name": "Olatorepatide Ph2", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT06467669"], "trial_status": "Recruiting", "lead_sponsor": "Hansoh/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Rapirosiran", "aka": ["ALN-HSD"], "modality": "siRNA targeting HSD17B13", "target": "HSD17B13", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "MASH (metabolic dysfunction-associated steatohepatitis)", "highest_phase": "Phase 2", "trial_name": "Rapirosiran MASH", "trial_design": "Randomized", "nct_ids": ["NCT04565717"], "trial_status": "Active", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN5668", "aka": [], "modality": "MUC16xCD28 costim bispecific", "target": "MUC16/CD28", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Ovarian cancer (with ubamatamab/cemiplimab)", "highest_phase": "Phase 2", "trial_name": "REGN5668 combo", "trial_design": "Combination", "nct_ids": ["NCT04590326"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN7544", "aka": [], "modality": "Anti-NPR1 monoclonal antibody", "target": "Natriuretic peptide receptor 1", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Postural orthostatic tachycardia syndrome (POTS); sepsis-induced hypotension", "highest_phase": "Phase 2", "trial_name": "REGN7544 Ph2", "trial_design": "Randomized", "nct_ids": ["NCT05923840"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN7999", "aka": [], "modality": "Anti-TMPRSS6 monoclonal antibody", "target": "TMPRSS6", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Beta-thalassemia iron overload", "highest_phase": "Phase 2", "trial_name": "REGN7999 Ph2", "trial_design": "Randomized", "nct_ids": ["NCT05335291"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "ALN-ANG3", "aka": [], "modality": "siRNA targeting ANGPTL3", "target": "ANGPTL3", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "Diabetic kidney disease / mixed dyslipidemia", "highest_phase": "Phase 2", "trial_name": "ALN-ANG3 Ph2", "trial_design": "Randomized", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Alnylam/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Nezastomig", "aka": ["REGN5678"], "modality": "PSMAxCD28 costim bispecific", "target": "PSMA/CD28", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Metastatic castration-resistant prostate cancer (with cemiplimab)", "highest_phase": "Phase 1", "trial_name": "REGN5678 Ph1", "trial_design": "Dose escalation + combination", "nct_ids": ["NCT03972657"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Vonsetamig", "aka": ["REGN5459"], "modality": "BCMAxCD3 bispecific (high-affinity)", "target": "BCMA/CD3", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Multiple myeloma; transplant desensitization", "highest_phase": "Phase 1", "trial_name": "REGN5459 FIH", "trial_design": "Dose escalation", "nct_ids": ["NCT04643002"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN5837", "aka": [], "modality": "CD22xCD28 costim bispecific", "target": "CD22/CD28", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "B-cell non-Hodgkin lymphoma (with odronextamab)", "highest_phase": "Phase 1", "trial_name": "REGN5837 + odronextamab", "trial_design": "Combination escalation", "nct_ids": ["NCT05685173"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN7945", "aka": [], "modality": "CD38xCD28 costim bispecific", "target": "CD38/CD28", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Multiple myeloma", "highest_phase": "Phase 1", "trial_name": "REGN7945 FIH", "trial_design": "Dose escalation", "nct_ids": ["NCT05652335"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN17372", "aka": [], "modality": "GPRC5DxCD28 costim bispecific", "target": "GPRC5D/CD28", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Multiple myeloma", "highest_phase": "Phase 1", "trial_name": "REGN17372 FIH", "trial_design": "Dose escalation", "nct_ids": ["NCT06515912"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN10597", "aka": [], "modality": "PD1-IL2Ra fusion / bispecific", "target": "PD-1/IL-2Ra", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Solid tumors", "highest_phase": "Phase 1", "trial_name": "REGN10597 FIH", "trial_design": "Dose escalation", "nct_ids": ["NCT06251271"], "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN13335", "aka": [], "modality": "Anti-PDGF-b monoclonal antibody (intravitreal)", "target": "PDGF-b", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Retinal disease (Phase 1/2)", "highest_phase": "Phase 1", "trial_name": "REGN13335 FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "27T51", "aka": [], "modality": "Allogeneic CAR-T (anti-MUC16)", "target": "MUC16", "license_origin": "2seventy bio collaboration",
+     "indications": [
+       {"indication": "Ovarian cancer", "highest_phase": "Phase 1", "trial_name": "27T51 FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGV131-LNP1265 (Factor 9)", "aka": [], "modality": "In vivo CRISPR gene insertion (LNP)", "target": "Factor IX", "license_origin": "Intellia collaboration",
+     "indications": [
+       {"indication": "Hemophilia B", "highest_phase": "Phase 1", "trial_name": "REGV131-LNP1265 FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "PLANNED — IND-enabled, FIH initiating", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "TSRA-196", "aka": [], "modality": "In vivo CRISPR gene editing", "target": "SERPINA1", "license_origin": "Intellia collaboration",
+     "indications": [
+       {"indication": "Alpha-1 antitrypsin deficiency (AATD)", "highest_phase": "Phase 1", "trial_name": "TSRA-196 FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Intellia/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "ALN-5288", "aka": [], "modality": "siRNA targeting MAPT", "target": "MAPT (tau)", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "Alzheimer's disease", "highest_phase": "Phase 1", "trial_name": "ALN-MAPT FIH", "trial_design": "Dose escalation", "nct_ids": ["NCT06556173"], "trial_status": "Recruiting", "lead_sponsor": "Alnylam/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "ALN-APOC3", "aka": [], "modality": "siRNA targeting APOC3", "target": "APOC3", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "Severe hypertriglyceridemia / dyslipidemia", "highest_phase": "Phase 1", "trial_name": "ALN-APOC3 FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Alnylam/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "ALN-CFB", "aka": [], "modality": "siRNA targeting Complement Factor B", "target": "CFB", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "Paroxysmal nocturnal hemoglobinuria / complement-mediated disease", "highest_phase": "Phase 1", "trial_name": "ALN-CFB FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Alnylam/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "ALN-CIDEB", "aka": [], "modality": "siRNA targeting CIDEB", "target": "CIDEB", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "MASH", "highest_phase": "Phase 1", "trial_name": "ALN-CIDEB FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Alnylam/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "ALN-F1202", "aka": [], "modality": "siRNA targeting Factor XII", "target": "Factor XII", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "Hereditary angioedema / thrombosis (HV)", "highest_phase": "Phase 1", "trial_name": "ALN-F1202 FIH", "trial_design": "Healthy volunteers", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Alnylam/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "ALN-HTT02", "aka": [], "modality": "siRNA targeting HTT", "target": "Huntingtin (HTT)", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "Huntington's disease", "highest_phase": "Phase 1", "trial_name": "ALN-HTT02 FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Alnylam/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "ALN-PNP", "aka": [], "modality": "siRNA targeting PNPLA3", "target": "PNPLA3", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "MASLD", "highest_phase": "Phase 1", "trial_name": "ALN-PNP FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Alnylam/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "ALN-SNCA", "aka": [], "modality": "siRNA targeting SNCA", "target": "SNCA (alpha-synuclein)", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "Parkinson's disease", "highest_phase": "Phase 1", "trial_name": "ALN-SNCA FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Alnylam/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "ALN-SOD", "aka": [], "modality": "siRNA targeting SOD1", "target": "SOD1", "license_origin": "Alnylam collaboration",
+     "indications": [
+       {"indication": "SOD1-mediated ALS", "highest_phase": "Phase 1", "trial_name": "ALN-SOD FIH", "trial_design": "Dose escalation", "nct_ids": "Not on public registry", "trial_status": "On FDA hold", "lead_sponsor": "Alnylam/Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "REGN9533", "aka": [], "modality": "Anti-Factor XII monoclonal antibody", "target": "Factor XII", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Healthy-volunteer pharmacology / thromboinflammation", "highest_phase": "Phase 1", "trial_name": "REGN9533 FIH", "trial_design": "SAD/MAD healthy volunteers", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]},
+    {"asset": "Dupilumab/Linvoseltamab combination (food allergy)", "aka": [], "modality": "Combination therapy", "target": "IL-4Ralpha + BCMA/CD3", "license_origin": "Regeneron internal",
+     "indications": [
+       {"indication": "Severe food allergy", "highest_phase": "Phase 1", "trial_name": "Dupi+Linvo food allergy", "trial_design": "Combination", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "Regeneron", "key_milestones": []}
+     ]}
+  ],
+  "commercial_product": {
+    "marketed": ["EYLEA / EYLEA HD (aflibercept)", "Dupixent (dupilumab)", "Libtayo (cemiplimab)", "Praluent (alirocumab)", "Kevzara (sarilumab)", "Evkeeza (evinacumab)", "Inmazeb (REGN-EB3)", "Veopoz (pozelimab)", "Lynozyfic (linvoseltamab)", "Ordspono (odronextamab)", "ARCALYST (rilonacept)"]
+  },
+  "excluded_preclinical": ["Numerous undisclosed preclinical bispecifics, siRNAs, and gene-editing programs from the Regeneron-Alnylam and Regeneron-Intellia collaborations"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 45, "phase_3": 15, "phase_2": 11, "phase_1": 19, "note": "Indication-level highest phase used; some assets count once per indication-tier."}
+}

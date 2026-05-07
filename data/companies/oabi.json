@@ -1,0 +1,40 @@
+{
+  "issuer_name": "OmniAb, Inc.",
+  "ticker": "OABI",
+  "exchange": "Nasdaq",
+  "cik": "0001846253",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001846253-26-000009",
+      "filing_date": "2026-03-04",
+      "primary_doc": "ck0001846253-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.omniab.com/",
+      "note": "Corporate site describes OmniAb as an antibody-discovery technology platform. No proprietary clinical pipeline page; all clinical programs reside with partners."
+    },
+    "ctgov": {
+      "query_sponsor": "OmniAb",
+      "kept_p1_p3": 0,
+      "note": "Zero OmniAb-sponsored interventional studies. OmniAb licenses its discovery platforms (OmniRat, OmniChicken, OmniFlic, OmniMouse, OmniDeep, xPloration, etc.) to partners who then run trials under their own sponsor names."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "note": "Per 10-K (FY2025, filed 2026-03-04): 107 active partners, 407 active programs using OmniAb technology, 27 OmniAb-derived antibodies in clinical development by partners, 2 under regulatory review, and 3 approved/commercialized by partners. All clinical assets are owned and run by third-party partners; OmniAb receives milestones/royalties only. Excluded per workflow rule 4 (partner-owned trials)."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Services / CRO-style antibody-discovery platform company. OmniAb licenses its transgenic-animal and AI-driven discovery technologies to pharma/biotech partners and earns milestones/royalties; it does not own or sponsor clinical-stage drug assets. The 27 partner clinical programs derived from its tech are partner-owned and excluded per workflow rule 4."
+}

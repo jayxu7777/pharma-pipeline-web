@@ -1,0 +1,61 @@
+{
+  "issuer_name": "BIODESIX INC",
+  "ticker": "BDSX",
+  "exchange": "Nasdaq",
+  "cik": "0001439725",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-076547",
+      "filing_date": "2026-02-26",
+      "primary_doc": "bdsx-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.biodesix.com/",
+      "note": "Corporate site lists commercial diagnostic blood tests (Nodify XL2, Nodify CDT, GeneStrat ddPCR, GeneStrat NGS, VeriStrat). No therapeutic-drug pipeline page."
+    },
+    "ctgov": {
+      "query_sponsor": "Biodesix",
+      "kept_p1_p3": 0,
+      "raw_records_returned": 3,
+      "note": "Three trials returned (1 PHASE3 COMPLETED, 2 PHASE2 TERMINATED/WITHDRAWN) but lead sponsors are AVEO Pharmaceuticals and ETOP IBCSG Partners Foundation; Biodesix's role was diagnostic-test partner, not asset owner. All excluded per workflow rules (terminated/withdrawn or partner-owned). Biodesix-run studies (ALTITUDE NCT04171492, CLARIFY NCT06728319, INSIGHT NCT03289780) are clinical-utility studies of its own diagnostic tests, not interventional drug trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "diagnostic_tests": [
+      {"name": "Nodify XL2", "type": "blood-based proteomic LDT", "indication": "lung-nodule risk reclassification", "status": "marketed; CMS ADLT-designated 2019"},
+      {"name": "Nodify CDT", "type": "blood-based auto-antibody LDT", "indication": "lung-nodule risk reclassification", "status": "marketed; CMS ADLT-designated 2023"},
+      {"name": "VeriStrat", "type": "MALDI-ToF proteomic LDT", "indication": "NSCLC immune profiling / treatment guidance", "status": "marketed; CMS ADLT-designated 2018"},
+      {"name": "GeneStrat ddPCR", "type": "blood-based ddPCR genomic LDT", "indication": "NSCLC tumor profiling", "status": "marketed"},
+      {"name": "GeneStrat NGS", "type": "blood-based NGS genomic LDT", "indication": "NSCLC tumor profiling", "status": "marketed"}
+    ],
+    "development_pipeline_diagnostics": [
+      "ROR & MRD Combination Test (pan-cancer; ddPCR, with MSKCC)",
+      "VeriStrat - immunotherapy use (pan-cancer MSI-H, with MSKCC)",
+      "VeriStrat - prostate cancer (Abiraterone/Enzalutamide)",
+      "ESR1 Monitoring - HR+/HER2- breast cancer (Bio-Rad ddPLEX ESR1 IVD)"
+    ],
+    "note": "Biodesix is a diagnostic-test company. All in-development pipeline items are new diagnostic tests / IVDs, not therapeutic drugs."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "note": "ctgov returned 3 trials linked to BDSX as collaborator: 1 PHASE3 COMPLETED, 1 PHASE2 TERMINATED, 1 PHASE2 WITHDRAWN. None active and none are BDSX-owned therapeutic assets."
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "note": "Trials sponsored by AVEO Pharmaceuticals and ETOP IBCSG Partners Foundation in which Biodesix participated as a biomarker/diagnostic-test collaborator. Biodesix did not own the therapeutic asset; excluded per workflow rule 4."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Diagnostics-only company. Biodesix develops and markets blood-based laboratory-developed tests (LDTs) and IVDs for lung-cancer diagnosis, treatment guidance, and monitoring. It does not develop therapeutic drugs. Its ongoing clinical studies (ALTITUDE, CLARIFY, INSIGHT) are clinical-utility evaluations of its own diagnostic tests, not interventional therapeutic Phase 1/2/3 trials."
+}

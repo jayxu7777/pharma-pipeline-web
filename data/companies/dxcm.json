@@ -1,0 +1,45 @@
+{
+  "issuer_name": "DEXCOM INC",
+  "ticker": "DXCM",
+  "exchange": "Nasdaq",
+  "cik": "0001093557",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001093557-26-000027",
+      "doc": "dxcm-20251231.htm",
+      "filed": "2026-02-12",
+      "file": "data/dxcm_10k_pipeline_section.html",
+      "note": "10-K Overview section captured. DexCom describes itself as a continuous glucose monitoring (CGM) device company; no proprietary drug pipeline."
+    },
+    "website": {
+      "error": "no public pipeline page found (DexCom is a device company, no /pipeline page exists)"
+    },
+    "ctgov": {
+      "file": "data/dxcm_ctgov_compact.json",
+      "study_count": 4,
+      "note": "All studies are investigator- or third-party-sponsored (Stanford, Jaeb, Ananda Basu, Alessandro Doria); DexCom appears only as collaborator providing the CGM device. No DexCom-sponsored drug trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "DexCom commercializes the Dexcom G7, Dexcom G6, Dexcom ONE+, and Dexcom Stelo CGM systems for diabetes management and over-the-counter glucose monitoring. Approved/marketed devices are out of scope for this drug-pipeline tracker."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"nct": "NCT06217302", "reason": "Lead sponsor Alessandro Doria (Joslin); sotagliflozin is Lexicon Pharmaceuticals asset, DexCom collaborator only"},
+    {"nct": "NCT00850135", "reason": "Stanford-led, COMPLETED CGM evaluation"},
+    {"nct": "NCT04233034", "reason": "Jaeb Center-led closed-loop + verapamil study, COMPLETED"},
+    {"nct": "NCT04201496", "reason": "Investigator-initiated (Ananda Basu); empagliflozin is Boehringer Ingelheim/Lilly asset"}
+  ],
+  "summary_counts": {
+    "assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  },
+  "no_active_clinical_pipeline_reason": "DexCom is a continuous glucose monitoring (CGM) device company. It has no proprietary drug pipeline. The few ClinicalTrials.gov entries listing DexCom are all investigator- or partner-led studies of third-party drugs (sotagliflozin, verapamil, empagliflozin) with DexCom only providing CGM devices."
+}

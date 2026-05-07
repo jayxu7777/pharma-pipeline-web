@@ -1,0 +1,48 @@
+{
+  "issuer_name": "RAPID MICRO BIOSYSTEMS, INC.",
+  "ticker": "RPID",
+  "exchange": "Nasdaq",
+  "cik": "0001380106",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001380106-26-000034",
+      "filing_date": "2026-03-12",
+      "doc": "rmb-20251231.htm",
+      "local_path": "data/rpid_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.rapidmicrobio.com/",
+      "note": "Corporate site describes Growth Direct System (automated microbial detection instrument for pharmaceutical QC). No drug pipeline page exists."
+    },
+    "ctgov": {
+      "query": "lead sponsor: Rapid Micro Biosystems",
+      "unique_trials_p1_p3": 0,
+      "local_path": "data/rpid_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "platform": "Growth Direct System",
+    "type": "Automated rapid microbial detection instrument and consumables for pharmaceutical and biotech quality control labs",
+    "applications": [
+      "Environmental monitoring",
+      "Water testing",
+      "Bioburden testing",
+      "Sterility testing"
+    ],
+    "software": "RMBNucleus data management software"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech / instrumentation company. Rapid Micro Biosystems sells the Growth Direct microbial detection platform to pharmaceutical QC laboratories; it does not develop or sponsor any therapeutic drug or device clinical trials of its own. No proprietary drug pipeline exists."
+}

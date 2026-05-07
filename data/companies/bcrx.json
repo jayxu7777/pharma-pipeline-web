@@ -1,0 +1,133 @@
+{
+  "issuer_name": "BioCryst Pharmaceuticals, Inc.",
+  "ticker": "BCRX",
+  "exchange": "Nasdaq",
+  "cik": "0000882796",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-012240", "filed": "2026-02-26", "doc": "bcrx-20251231.htm"},
+    "website": {"url": "https://www.biocryst.com/our-pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/bcrx_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Berotralstat",
+      "aka": ["BCX7353", "ORLADEYO (commercial name)"],
+      "modality": "Small molecule (oral plasma kallikrein inhibitor)",
+      "target": "Plasma kallikrein",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Hereditary Angioedema (HAE) — Pediatric (2 to <12 years)",
+          "highest_phase": "P3",
+          "trial_name": "APeX-P (pediatric berotralstat)",
+          "trial_design": "Phase 3 open-label / pivotal pediatric study",
+          "nct_ids": ["NCT05453968"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BioCryst Pharmaceuticals",
+          "key_milestones": ["Pediatric label expansion targeted"]
+        },
+        {
+          "indication": "HAE long-term access (continuation)",
+          "highest_phase": "P3",
+          "trial_name": "Berotralstat open-label extension/access",
+          "trial_design": "Open-label Phase 3 access for prior trial participants",
+          "nct_ids": ["NCT04933721"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "BioCryst Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Navenibart",
+      "aka": [],
+      "modality": "Monoclonal antibody (long-acting subcutaneous)",
+      "target": "Plasma kallikrein",
+      "license_origin": "In-licensed (Astria Therapeutics) — note: navenibart is an Astria Therapeutics asset (STAR-0215). Per BioCryst pipeline page it is shown as an asset, but lead sponsor is Astria; treat as partner-related and confirm.",
+      "indications": [
+        {
+          "indication": "Hereditary Angioedema (HAE)",
+          "highest_phase": "P2",
+          "trial_name": "Navenibart Phase 2",
+          "trial_design": "Phase 2 in adults with HAE",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company pipeline disclosure (no Astria-sponsored matching trial appears in BioCryst-sponsor ctgov pull)",
+          "lead_sponsor": "BioCryst (per company disclosure)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BCX17725",
+      "aka": [],
+      "modality": "Recombinant protein therapeutic",
+      "target": "KLK5 (kallikrein-related peptidase 5)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Netherton Syndrome",
+          "highest_phase": "P1",
+          "trial_name": "BCX17725 Phase 1",
+          "trial_design": "Phase 1 safety, tolerability, PK and immunogenicity study",
+          "nct_ids": ["NCT06539507"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioCryst Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Avoralstat",
+      "aka": [],
+      "modality": "Small molecule plasma kallikrein inhibitor (intravitreal)",
+      "target": "Plasma kallikrein",
+      "license_origin": "Internal (repositioned)",
+      "indications": [
+        {
+          "indication": "Diabetic Macular Edema",
+          "highest_phase": "P1",
+          "trial_name": "Avoralstat DME Phase 1",
+          "trial_design": "Phase 1 in participants with diabetic macular edema",
+          "nct_ids": ["NCT07228559"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BioCryst Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "STAR-0310",
+      "aka": [],
+      "modality": "Monoclonal antibody (OX40 antagonist)",
+      "target": "OX40",
+      "license_origin": "In-licensed / partnered (Astria Therapeutics origin)",
+      "indications": [
+        {
+          "indication": "Atopic Dermatitis",
+          "highest_phase": "P1",
+          "trial_name": "STAR-0310 Phase 1",
+          "trial_design": "Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company pipeline disclosure (non-core)",
+          "lead_sponsor": "Per BioCryst disclosure",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "names": ["ORLADEYO (berotralstat) — HAE prophylaxis", "RAPIVAB (peramivir injection) — acute uncomplicated influenza"]
+  },
+  "excluded_preclinical": ["Undisclosed rare disease program (preclinical)"],
+  "excluded_legacy_terminated": ["BCX9930 (factor D inhibitor) — paused"],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 5,
+    "P3": 1,
+    "P2": 1,
+    "P1": 3
+  }
+}

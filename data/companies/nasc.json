@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Can B Corp",
+  "ticker": "NASC",
+  "exchange": "OTC",
+  "cik": "0001509957",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-24-014686",
+      "filing_date": "2024-04-15",
+      "form": "10-K",
+      "error": "fetch_10k slicer could not find 'pipeline section' heading — 10-K narrative is consumer-CBD/hemp wellness business description, not a drug-pipeline filing"
+    },
+    "website": {
+      "url": "https://canbcorp.com",
+      "error": "Corporate site returns 403 to automated fetcher; /pipeline path 404. Public sources confirm consumer hemp/CBD product company, not a clinical-stage developer."
+    },
+    "ctgov": {
+      "search_terms_tried": ["Can B Corp", "Can-B"],
+      "raw_trials": 0,
+      "kept_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_brands": [
+      "Canbiola",
+      "Seven Chakras",
+      "NuWellness",
+      "Pure Leaf Oil"
+    ],
+    "note": "Can B Corp is a consumer health-and-wellness company selling hemp-derived cannabinoid (CBD) products. Subsidiary Nascent Pharma LLC holds cannabis-extract composition/use patents but no active human clinical trials are registered."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Consumer hemp/CBD wellness company (OTC). No registered company-sponsored P1/P2/P3 trials on ClinicalTrials.gov; 10-K is a small-cap consumer-products narrative; no proprietary investigational drug program."
+}

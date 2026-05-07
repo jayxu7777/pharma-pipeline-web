@@ -1,0 +1,37 @@
+{
+  "issuer_name": "Integer Holdings Corporation",
+  "ticker": "ITGR",
+  "exchange": "NYSE",
+  "cik": "0001114483",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001114483-26-000003",
+      "filing_date": "2026-02-23",
+      "doc": "gb-20251231.htm"
+    },
+    "website": {
+      "error": "Medical device contract manufacturer (CDMO) — no proprietary drug pipeline page"
+    },
+    "ctgov": {
+      "sponsor_query": "Integer",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "description": "Integer Holdings is a contract design and manufacturing organization (CDMO) for medical devices and components. It serves OEM customers in cardiac rhythm management, neuromodulation, cardiac & vascular (electrophysiology, structural heart, peripheral vascular), advanced surgical, orthopedics, portable medical, and non-medical (defense / energy) markets. Brands include Greatbatch Medical, Lake Region Medical, and Electrochem. It supplies primary batteries, capacitors, leads, catheters, introducers, and complete devices to its OEM customers — Integer does not develop, sponsor, or commercialize proprietary therapeutic drugs or its own branded clinical-stage devices."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Integer Holdings is a medical device contract design and manufacturing organization (CDMO). It produces components and finished medical devices on behalf of OEM customers (e.g., batteries, leads, catheters, introducers) and does not develop or sponsor proprietary clinical-stage drugs or branded devices. No Integer-sponsored interventional P1/P2/P3 trials are listed on ClinicalTrials.gov."
+}

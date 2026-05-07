@@ -1,0 +1,30 @@
+{
+  "issuer_name": "Emergent BioSolutions Inc.",
+  "ticker": "EBS",
+  "exchange": "NYSE",
+  "cik": "0001367644",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001367644-26-000015", "filed": "2026-02-27", "fy": "2025"},
+    "website": {"error": "pipeline page timeout/blocked; product-pipeline page returned navigation only"},
+    "ctgov": {"sponsor_query": "Emergent BioSolutions", "active_pcubed_trials": 0, "note": "All EBS-sponsored or collaborated trials are COMPLETED or TERMINATED"}
+  },
+  "no_active_clinical_pipeline_reason": "Per FY2025 10-K, the four pipeline candidates (EBS-MARV, EBS-SUDV, Pan-Ebola mAbs, WEVEE-VLP) were all deprioritized at end of 2025 and remain pre-clinical / Phase 1 partner-led only; EBS-LASV program was discontinued and closed in 2025. No active company-sponsored P1/P2/P3 trials. Company is commercial-stage focused on government MCM products (ACAM2000, BioThrax, CYFENDUS, BAT, ANTHRASIL, CNJ-016, TEMBEXA) and naloxone (NARCAN, KLOXXADO).",
+  "pipeline": [],
+  "commercial_product": {
+    "products": ["ACAM2000 (smallpox/mpox)", "BioThrax (anthrax)", "CYFENDUS (anthrax)", "BAT (botulism antitoxin)", "ANTHRASIL (anthrax immune globulin)", "CNJ-016 / VIGIV (vaccinia immune globulin)", "TEMBEXA (brincidofovir, smallpox)", "NARCAN Nasal Spray (naloxone)", "KLOXXADO (naloxone)"]
+  },
+  "excluded_preclinical": [
+    {"asset": "EBS-MARV", "indication": "Marburg virus disease", "reason": "Pre-clinical / IND-enabling; deprioritized end of 2025"},
+    {"asset": "EBS-SUDV", "indication": "Sudan virus disease", "reason": "Pre-clinical / IND-enabling; deprioritized end of 2025"},
+    {"asset": "Pan-Ebola mAbs (IBT-T02)", "indication": "Sudan ebolavirus", "reason": "Pre-clinical; deprioritized end of 2025"},
+    {"asset": "WEVEE-VLP", "indication": "WEEV/EEEV/VEEV", "reason": "Phase 1 completed by NIAID partner; deprioritized end of 2025"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "EBS-LASV", "indication": "Lassa fever", "reason": "Phase 1 missed immunogenicity endpoint; CEPI funding discontinued; closed 2025"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

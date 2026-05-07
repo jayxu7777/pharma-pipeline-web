@@ -1,0 +1,78 @@
+{
+  "issuer_name": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+  "ticker": "NTHI",
+  "exchange": "Nasdaq",
+  "cik": "0001979414",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001829126-26-002860", "filed": "2026-03-31", "doc": "neonctechnologies_10k.htm"},
+    "website": {"url": "https://www.neonc.com/pipeline-patents/", "fetched": "2026-05-06", "note": "Pipeline page rendered dynamically; pipeline detail derived from 10-K and ctgov."},
+    "ctgov": {"file": "data/nthi_ctgov_compact.json", "trials_total": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "NEO100",
+      "aka": ["Perillyl alcohol (POH), ultra pure"],
+      "modality": "Intranasal monoterpene (small molecule)",
+      "target": "Multiple (Ras/Raf signaling, BBB-penetrant)",
+      "license_origin": "Internal (NEONC platform)",
+      "indications": [
+        {
+          "indication": "Recurrent or progressive Grade III/IV IDH1-mutated glioma (glioblastoma multiforme)",
+          "highest_phase": "Phase 2",
+          "trial_name": "NEO100 Phase 1/2 in recurrent IDH1-mutated glioma",
+          "trial_design": "Open-label safety and efficacy of intranasal NEO100 in recurrent or progressive Grade III/IV IDH1-mutated glioma",
+          "nct_ids": ["NCT02704858"],
+          "trial_status": "Recruiting (started 2017-08; primary completion 2026-03-30).",
+          "lead_sponsor": "Neonc Technologies, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Residual, progressive, or recurrent Grade II/III meningioma",
+          "highest_phase": "Phase 2",
+          "trial_name": "NEO100 high-grade meningioma",
+          "trial_design": "Phase 2 evaluation of intranasal NEO100 in high-grade meningioma",
+          "nct_ids": ["NCT05023018"],
+          "trial_status": "Recruiting (started 2022-07; primary completion 2026-12).",
+          "lead_sponsor": "Neonc Technologies, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pediatric brain tumors (DMG H3 K27M-mutant, high-grade glioma, brain stem, choroid plexus carcinoma, spinal cord tumors)",
+          "highest_phase": "Phase 1",
+          "trial_name": "NEO100 pediatric brain tumors",
+          "trial_design": "Phase 1 safety, dosing, and delivery of intranasal NEO100 in pediatric brain tumors",
+          "nct_ids": ["NCT06357377"],
+          "trial_status": "Not yet recruiting (start 2026-01; primary completion 2026-10).",
+          "lead_sponsor": "Neonc Technologies, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NEO212",
+      "aka": ["POH-TMZ", "Perillyl alcohol-temozolomide conjugate"],
+      "modality": "Oral small molecule (POH conjugated to temozolomide)",
+      "target": "DNA alkylator (TMZ payload) with BBB-penetrant POH carrier",
+      "license_origin": "Internal (NEONC platform)",
+      "indications": [
+        {
+          "indication": "Astrocytoma IDH-mutant, glioblastoma IDH-wildtype, brain metastases, and broad solid tumors (NSCLC, CRC, HNSCC, melanoma, gastric, etc.)",
+          "highest_phase": "Phase 2",
+          "trial_name": "NEO212 Phase 1/2 in astrocytoma, glioblastoma, brain metastases and other solid tumors",
+          "trial_design": "Phase 1/2 open-label trial of oral NEO212 monotherapy and combinations with checkpoint inhibitors / chemotherapy across multiple solid tumor types and brain metastases",
+          "nct_ids": ["NCT06047379"],
+          "trial_status": "Recruiting (started 2023-11; primary completion 2027-02).",
+          "lead_sponsor": "Neonc Technologies, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "P1": 1, "P2": 3, "P3": 0, "indications": 4}
+}

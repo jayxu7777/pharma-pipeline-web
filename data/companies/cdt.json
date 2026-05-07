@@ -1,0 +1,30 @@
+{
+  "issuer_name": "CDT Equity Inc.",
+  "ticker": "CDT",
+  "exchange": "Nasdaq",
+  "cik": "0001896212",
+  "region": "US/UK",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-016858",
+      "filing_date": "2026-04-15",
+      "path": "data/cdt_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page found at /pipeline (404)"},
+    "ctgov": {
+      "path": "data/cdt_ctgov_compact.json",
+      "note": "No CDT/Conduit-sponsored trials registered on ctgov."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "CDT Equity (formerly Conduit Pharmaceuticals, renamed Aug 2025) operates a lean asset-repositioning model. Per FY2025 10-K, the company explicitly avoids late-stage clinical trial costs and focuses on in vitro / in vivo preclinical work guided by AI signature analysis (Sarborg partnership), seeking exit through third-party license deals. Lead assets AZD1656 and AZD5658 (HK-4 glucokinase activators, in-licensed from AstraZeneca Aug 2024) and AZD5904 (myeloperoxidase inhibitor for idiopathic male infertility) historically completed Phase 1 under AstraZeneca but are not in any CDT-sponsored active P1/P2/P3 trials.",
+  "excluded_preclinical": [
+    {"asset": "AZD1656 + AZD5658 cocrystal", "indication": "Autoimmune / inflammatory disorders", "stage": "Preclinical (in vitro / in vivo); historical Phase 1 completed under AstraZeneca"},
+    {"asset": "AZD5904", "indication": "Idiopathic male infertility", "stage": "Preclinical; historical Phase 1 completed under AstraZeneca"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

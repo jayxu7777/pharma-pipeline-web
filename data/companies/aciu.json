@@ -1,0 +1,89 @@
+{
+  "issuer_name": "AC Immune SA",
+  "ticker": "ACIU",
+  "exchange": "Nasdaq",
+  "cik": "0001651625",
+  "region": "CH (Switzerland)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F instead of 10-K"},
+    "website": {"error": "no public pipeline page fetched in this session; relying on ctgov + known program disclosures"},
+    "ctgov": {
+      "path": "data/aciu_ctgov_compact.json",
+      "trials_kept": 6
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "ACI-7104.056",
+      "aka": ["alpha-synuclein vaccine (PD active immunotherapy)"],
+      "modality": "Active immunotherapy (anti-alpha-synuclein vaccine)",
+      "target": "Alpha-synuclein",
+      "license_origin": "AC Immune internal (originated from Affiris alpha-synuclein program acquired in 2021)",
+      "indications": [
+        {
+          "indication": "Early Parkinson's disease",
+          "highest_phase": "P2",
+          "trial_name": "VacSYn",
+          "trial_design": "Randomized, placebo-controlled Phase 2 in early-stage PD evaluating multiple doses",
+          "nct_ids": ["NCT06015841"],
+          "trial_status": "Active, not recruiting (primary completion Jan 2028)",
+          "lead_sponsor": "AC Immune SA",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ACI-24.060",
+      "aka": ["anti-Abeta active immunotherapy"],
+      "modality": "Active immunotherapy (anti-Abeta vaccine, optimized)",
+      "target": "Truncated and pyroglutamate Abeta (oligomers / plaques)",
+      "license_origin": "AC Immune internal",
+      "indications": [
+        {
+          "indication": "Prodromal/early Alzheimer's disease and Down syndrome-associated AD",
+          "highest_phase": "P2",
+          "trial_name": "ABATE",
+          "trial_design": "Phase 1b/2 multi-cohort, multi-dose study in prodromal AD and Down syndrome adults",
+          "nct_ids": ["NCT05462106"],
+          "trial_status": "Recruiting (primary completion Jun 2026)",
+          "lead_sponsor": "AC Immune SA",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ACI-19764",
+      "aka": [],
+      "modality": "Active immunotherapy (vaccine — undisclosed antigen, neurodegenerative target per AC Immune platform)",
+      "target": "Undisclosed (likely neurodegenerative target)",
+      "license_origin": "AC Immune internal",
+      "indications": [
+        {
+          "indication": "Healthy participants — first-in-human safety/PK/immunogenicity",
+          "highest_phase": "P1",
+          "trial_name": "ACI-19764 first-in-human",
+          "trial_design": "Phase 1 SAD/MAD in healthy participants assessing safety, absorption, elimination, and immune response",
+          "nct_ids": ["NCT07463196"],
+          "trial_status": "Recruiting (started Jan 2026; primary completion Aug 2026)",
+          "lead_sponsor": "AC Immune SA",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT04373616", "reason": "ACI-24 original formulation Phase 2 in Down syndrome — Withdrawn"},
+    {"nct": "NCT04445831", "reason": "ACI-35.030 / JACI-35.054 tau vaccine Phase 1b/2 — Completed (Janssen returned program); not in current active forward pipeline"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "p1": 1,
+    "p2": 2,
+    "p3": 0
+  },
+  "blockers": ["Foreign private issuer — no 10-K available; pipeline derived from ctgov + general disclosures"]
+}

@@ -1,0 +1,37 @@
+{
+  "issuer_name": "SCHOTT Pharma AG & Co. KGaA/ADR",
+  "ticker": "SHTPY",
+  "exchange": "OTC",
+  "cik": "0002018852",
+  "region": "DE",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F (or no SEC annual report). fetch_10k.py raised 'No 10-K found in recent filings' for CIK 0002018852."
+    },
+    "website": {
+      "error": "no public drug pipeline page found — SCHOTT Pharma is a packaging-and-delivery-systems supplier (vials, syringes, cartridges, ampoules) for the pharmaceutical industry, not a drug developer."
+    },
+    "ctgov": {
+      "file": "data/shtpy_ctgov_compact.json",
+      "kept_p1_p3": 0,
+      "active": 0,
+      "note": "ClinicalTrials.gov returned 0 trials with sponsor 'SCHOTT Pharma'. Consistent with a packaging supplier with no clinical pipeline."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "SCHOTT Pharma supplies primary pharmaceutical packaging and drug-delivery containment: glass and polymer prefillable syringes (incl. for GLP-1s and biologics), cartridges (e.g. for autoinjectors), vials, and ampoules. These are drug-packaging products, not drug assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "SCHOTT Pharma is a German pharmaceutical-packaging and drug-containment supplier (vials, syringes, cartridges, ampoules). It does not develop drugs and has no clinical pipeline. As a foreign private issuer it files 20-F rather than 10-K."
+}

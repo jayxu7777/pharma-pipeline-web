@@ -1,0 +1,63 @@
+{
+  "issuer_name": "BeyondSpring Inc.",
+  "ticker": "BYSI",
+  "exchange": "Nasdaq",
+  "cik": "0001677940",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001171843-26-001908", "filed": "2026-03-25", "doc": "bysi20251231_10k.htm"},
+    "website": {"url": "http://beyondspringpharma.com/pipeline", "fetched": "2026-05-06", "note": "Pipeline table is JS-rendered; relied on 10-K and ctgov"},
+    "ctgov": {"file": "data/bysi_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Plinabulin",
+      "aka": ["BPI-2358", "NPI-2358"],
+      "modality": "Small molecule selective tubulin-binding agent and dendritic-cell maturation inducer",
+      "target": "Tubulin / GEF-H1 / dendritic cell maturation",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic non-squamous NSCLC after PD-1/PD-L1 + platinum",
+          "highest_phase": "P3",
+          "trial_name": "DUBLIN-4",
+          "trial_design": "Docetaxel + Plinabulin vs Docetaxel + Placebo (randomized)",
+          "nct_ids": ["NCT07361484"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "BeyondSpring Pharmaceuticals Inc.",
+          "key_milestones": ["Start 2026-06-01; primary completion 2029-06-01"]
+        },
+        {
+          "indication": "Multiple myeloma (autologous HSCT setting)",
+          "highest_phase": "P2",
+          "trial_name": "Plinabulin + Pegfilgrastim post-AHCT",
+          "trial_design": "Plinabulin + Pegfilgrastim post-stem-cell transplant",
+          "nct_ids": ["NCT05130827"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Memorial Sloan Kettering Cancer Center",
+          "key_milestones": ["Primary completion 2026-11"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT03102606 P3 CIN (COMPLETED)",
+    "NCT02504489 P3 NSCLC docetaxel + plinabulin (COMPLETED)",
+    "NCT03294577 P3 (UNKNOWN)",
+    "NCT04345900 P2 CIN (COMPLETED)",
+    "NCT04227990 P2 CIN (COMPLETED)",
+    "NCT05599789 P2 NSCLC KeyPemls-004 (UNKNOWN)",
+    "NCT02812667 P1 NSCLC (COMPLETED)",
+    "NCT03575793 P1/P2 SCLC (COMPLETED)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_indications": 1,
+    "p2_indications": 1,
+    "p1_indications": 0
+  }
+}

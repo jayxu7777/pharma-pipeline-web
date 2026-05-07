@@ -1,0 +1,22 @@
+{
+  "issuer_name": "Shuttle Pharmaceuticals Holdings, Inc.",
+  "ticker": "SHPH",
+  "exchange": "Nasdaq",
+  "cik": "0001757499",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-014131", "filed": "2026-03-31", "path": "data/shph_10k_pipeline_section.html"},
+    "website": {"error": "shuttlepharma.com pipeline page not accessible (Divi theme JS only); /pipeline returned 404"},
+    "ctgov": {"path": "data/shph_ctgov_compact.json", "trial_count": 1, "all_terminated": true}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "On November 20, 2025, the Company committed to a plan to wind-down its sole clinical program (Ropidoxuridine Phase 2 in glioblastoma, NCT06359379, now TERMINATED). On November 21, 2025, the Company acquired substantially all assets of Molecule.ai and pivoted to an AI-driven molecular discovery software platform. No active human clinical-stage assets remain.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Ropidoxuridine (IPdR)", "indication": "IDH-wildtype glioblastoma with unmethylated MGMT promoter", "phase": "Phase 2", "nct_ids": ["NCT06359379"], "reason": "Trial TERMINATED; company committed to wind-down on 2025-11-20 following pivot to AI software"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

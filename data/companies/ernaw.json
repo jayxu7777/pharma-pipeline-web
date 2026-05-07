@@ -1,0 +1,33 @@
+{
+  "issuer_name": "Ernexa Therapeutics Inc.",
+  "ticker": "ERNAW",
+  "exchange": "Nasdaq",
+  "cik": "0000748592",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-010102",
+      "filing_date": "2026-03-13",
+      "slice_html": "data/ernaw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://ernexatx.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "compact": "data/ernaw_ctgov_compact.json",
+      "trials_found": 0
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "All assets (ERNA-101 platinum-resistant ovarian cancer; ERNA-201 rheumatoid arthritis) are preclinical engineered iPSC-derived MSC programs; no IND filed and no clinicaltrials.gov entries.",
+  "excluded_preclinical": [
+    {"asset": "ERNA-101", "indication": "Platinum-resistant ovarian cancer", "modality": "Engineered iPSC-derived MSC"},
+    {"asset": "ERNA-201", "indication": "Rheumatoid arthritis", "modality": "Engineered iPSC-derived MSC delivering IL-10"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

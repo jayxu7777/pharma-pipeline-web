@@ -1,0 +1,36 @@
+{
+  "issuer_name": "Nyxoah SA",
+  "ticker": "NYXH",
+  "exchange": "Nasdaq",
+  "cik": "0001857190",
+  "region": "Belgium (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (no 10-K available via SEC EDGAR 10-K endpoint)"},
+    "website": {"url": "https://www.nyxoah.com", "note": "Corporate site describes Genio System but does not enumerate clinical trials; /pipeline and /clinical-evidence return 404"},
+    "ctgov": {"sponsor_query": "Nyxoah", "intervention_query": "Genio", "result_count": 7, "compact_file": "data/nyxh_ctgov_compact.json (empty under default Phase filter; trials are device studies with Phase=NA)"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Genio System",
+    "type": "Leadless, battery-free bilateral hypoglossal nerve stimulation (HGNS) implant",
+    "indication": "Moderate-to-severe obstructive sleep apnea (OSA) in PAP-intolerant adults",
+    "regulatory_status": "CE Mark (Europe). FDA PMA approval pursued via DREAM pivotal study; commercial in EU/UK/AU/CH",
+    "active_post_market_or_pivotal_studies": [
+      {"trial": "DREAM", "nct_id": "NCT03868618", "status": "Active, not recruiting", "design": "US/AU/EU pivotal, single-arm, prospective, multicenter; basis for FDA PMA submission"},
+      {"trial": "ACCCESS", "nct_id": "NCT05592002", "status": "Active, not recruiting", "design": "Safety/effectiveness of Genio bilateral stimulation in patients with complete concentric collapse (CCC) at the soft palate"},
+      {"trial": "EliSA post-market follow-up", "nct_id": "NCT04031040", "status": "Active, not recruiting", "design": "Post-market clinical follow-up of the Genio System for OSA"},
+      {"trial": "BREATHE post-approval", "nct_id": "NCT07331285", "status": "Not yet recruiting", "design": "Multicenter, prospective, single-arm post-approval study (Genio 2.1)"},
+      {"trial": "Long-term Safety Extension", "nct_id": "NCT05939141", "status": "Not yet recruiting", "design": "Extension study for long-term safety of Genio System"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"trial": "BETTER SLEEP", "nct_id": "NCT03763682", "status": "Terminated"},
+    {"trial": "BLAST OSA pilot", "nct_id": "NCT03048604", "status": "Completed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p1": 0, "p2": 0, "p3": 0, "commercial_devices": 1, "active_device_studies": 5},
+  "no_active_clinical_pipeline_reason": "Medical device company (implantable hypoglossal nerve stimulator for OSA). No proprietary drug pipeline; Genio System is a marketed/late-stage device with ongoing pivotal and post-market clinical studies (Phase=NA in ClinicalTrials.gov per device-trial convention)."
+}

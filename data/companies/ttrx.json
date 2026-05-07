@@ -1,0 +1,59 @@
+{
+  "issuer_name": "Turn Therapeutics Inc.",
+  "ticker": "TTRX",
+  "exchange": "Nasdaq",
+  "cik": "0002023016",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-037505", "filed": "2026-03-31", "doc": "ea0281342-10k_turntherap.htm"},
+    "website": {"url": "https://turntherapeutics.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/ttrx_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "GX-03",
+      "aka": ["Hexagen"],
+      "modality": "Topical small molecule",
+      "target": "IL-36 alpha, IL-36 gamma, IL-31, IL-4 (multi-cytokine modulator)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe atopic dermatitis (eczema)",
+          "highest_phase": "P2",
+          "trial_name": "GX-03 vs vehicle in atopic dermatitis",
+          "trial_design": "Randomized vehicle-controlled topical study",
+          "nct_ids": ["NCT07355075"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Turn Therapeutics",
+          "key_milestones": ["Q2 2026 interim analysis", "Mid-2026 P2 readout", "1H 2027 P3 initiation"]
+        },
+        {
+          "indication": "Onychomycosis",
+          "highest_phase": "P3-PLANNED",
+          "trial_name": "PLANNED — onychomycosis Phase 3",
+          "trial_design": "Topical GX-03 in onychomycosis",
+          "nct_ids": [],
+          "trial_status": "PLANNED — Phase 3 initiation targeted 1H 2027 per company guidance",
+          "lead_sponsor": "Turn Therapeutics",
+          "key_milestones": ["1H 2027 P3 initiation"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Antimicrobial Surgical Gauze",
+    "status": "FDA-cleared device, out-licensed (collagen powder $70M+ milestones)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["NCT04951349 (GX-03 COVID-19 P2, COMPLETED non-active)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_indications": 0,
+    "p2_indications": 1,
+    "p1_indications": 0,
+    "planned_indications": 1
+  }
+}

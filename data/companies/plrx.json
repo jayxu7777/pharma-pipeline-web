@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Pliant Therapeutics, Inc.",
+  "ticker": "PLRX",
+  "exchange": "Nasdaq",
+  "cik": "0001746473",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001746473-26-000037", "filing_date": "2026-03-11", "doc": "plrx-20251231.htm"},
+    "website": {"note": "Website check skipped; 10-K provides definitive current pipeline (post-bexotegrast discontinuation)"},
+    "ctgov": {"trials_returned": 7, "lead_sponsor": "Pliant Therapeutics, Inc."}
+  },
+  "pipeline": [
+    {
+      "asset": "PLN-101095",
+      "aka": [],
+      "modality": "Oral small molecule dual integrin inhibitor",
+      "target": "alpha-v-beta-8 (αvβ8) and alpha-v-beta-1 (αvβ1) integrins (TGF-β activation)",
+      "license_origin": "Internal (wholly owned)",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic solid tumors resistant to immune checkpoint inhibitors (initial signals in cholangiocarcinoma, melanoma, HNSCC, NSCLC)",
+          "highest_phase": "Phase 1 (with Phase 1b expansion planned 2026)",
+          "trial_name": "Phase 1 dose-escalation of PLN-101095 monotherapy followed by combination with pembrolizumab",
+          "trial_design": "Open-label dose-escalation; 14-day PLN-101095 monotherapy run-in then combination with pembrolizumab. 16 patients across 5 cohorts (250 mg BID to higher doses). Across 3 highest-dose cohorts: 4 responders (1 confirmed CR, 2 confirmed PR, 1 unconfirmed PR) of 10 secondary ICI-refractory patients; median time on treatment 15 months. Phase 1b indication-expansion in NSCLC and other tumors planned 2026.",
+          "nct_ids": ["NCT06270706"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Pliant Therapeutics, Inc.",
+          "key_milestones": ["Phase 1b indication-expansion initiation in 2026 (NSCLC and other tumor types)"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Bexotegrast (PLN-74809) — IPF", "trial": "BEACON-IPF Phase 2b", "nct": "NCT06097260", "reason": "TERMINATED March 2025 following DSMB recommendation; development in IPF discontinued"},
+    {"asset": "Bexotegrast (PLN-74809) — PSC", "trial": "INTEGRIS-PSC Phase 2a", "nct": "NCT04480840", "reason": "Bexotegrast development in PSC discontinued"},
+    {"asset": "Bexotegrast (PLN-74809) — COVID-19 ARDS Phase 2", "nct": "NCT04565249", "reason": "TERMINATED"},
+    {"asset": "Bexotegrast (PLN-74809) — IPF imaging Phase 2", "nct": "NCT05621252", "reason": "COMPLETED (legacy)"},
+    {"asset": "Bexotegrast (PLN-74809) — IPF Phase 2", "nct": "NCT04396756", "reason": "COMPLETED (legacy)"},
+    {"asset": "Bexotegrast (PLN-74809) — IPF αvβ6 PET Phase 2a", "nct": "NCT04072315", "reason": "COMPLETED (legacy)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 0, "P1": 1}
+}

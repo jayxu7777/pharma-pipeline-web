@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Greater Cannabis Company, Inc.",
+  "ticker": "GCAN",
+  "exchange": "OTC",
+  "cik": "0001695473",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "fetch_10k.py could not locate a pipeline section heading in the most recent SEC filing; company is a small OTC issuer (Greater Cannabis Company / GCANRx) with limited 10-K content"},
+    "website": {"url": "https://gcanrx.com/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor": "Greater Cannabis Company", "trials_returned": 0, "note": "No GCANRx-sponsored interventional studies found in ClinicalTrials.gov P1-P3 query"}
+  },
+  "pipeline": [
+    {
+      "asset": "Neuroprotective cannabinoid therapeutic (unnamed)",
+      "aka": [],
+      "modality": "Cannabinoid-based small molecule / botanical",
+      "target": "Neuroinflammation / cannabinoid signaling (per company disclosure)",
+      "license_origin": "internal (GCANRx)",
+      "indications": [
+        {
+          "indication": "Autism Spectrum Disorder (ASD)",
+          "highest_phase": "P2",
+          "trial_name": "Double-blind placebo-controlled Phase II trial in ASD (Israel)",
+          "trial_design": "Double-blind, placebo-controlled Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Approved by Israel Ministry of Health (announced July 2023); not listed on ClinicalTrials.gov; status uncertain",
+          "lead_sponsor": "GCANRx / The Greater Cannabis Company, Inc.",
+          "key_milestones": ["Israel MoH final approval announced July 2023", "Preclinical neuropsychiatric study completed Feb 2024"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Phytor LTD collaboration cannabinoid/botanical therapeutics", "reason": "Dermatology / chronic ailments collaboration; preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0},
+  "blockers": ["10-K pipeline section not parseable", "No NCT ID disclosed; trial not registered on public registries"]
+}

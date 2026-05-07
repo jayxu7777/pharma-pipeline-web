@@ -1,0 +1,62 @@
+{
+  "issuer_name": "CEL-SCI Corporation",
+  "ticker": "CVM",
+  "exchange": "NYSE",
+  "cik": "0000725363",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "fetch_10k.py could not locate pipeline section heading in latest 10-K (filed 2025-12-29, accession 0001654954-25-014303); full 10-K downloaded but section auto-extraction failed."
+    },
+    "website": {
+      "url": "https://cel-sci.com/product-pipeline/",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "file": "data/cvm_ctgov_compact.json",
+      "trial_count": 3,
+      "active_trials": 0,
+      "note": "All 3 historical trials COMPLETED or TERMINATED. The new 212-patient Confirmatory Registration Study for Multikine is not yet posted on ClinicalTrials.gov as of snapshot date."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Multikine",
+      "aka": ["Leukocyte Interleukin Injection", "LI"],
+      "modality": "Biologic (cytokine mixture)",
+      "target": "Immune system activation",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Locally advanced primary squamous cell carcinoma of the head and neck (resectable, low PD-L1, no nodal involvement)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Confirmatory Registration Study (212 patients)",
+          "trial_design": "Phase 3 confirmatory registration trial in target subpopulation from prior IT-MATTERS pivotal trial; readout planned after last patient treated, expected Q2 2026; supports accelerated/conditional BLA path. Prior pivotal IT-MATTERS Phase 3 (NCT01265849) showed 5-yr OS 73% vs 45% in target subgroup.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "INITIATING — final stages of launch as of early 2026; full enrollment expected Q2 2026",
+          "lead_sponsor": "CEL-SCI Corporation",
+          "key_milestones": [
+            "Q2 2026: Full enrollment expected",
+            "FDA concurred with study design",
+            "Pursuing Breakthrough Therapy Designation (filed in Saudi Arabia)"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["LEAPS platform (rheumatoid arthritis, autoimmune, infectious — early/preclinical)"],
+  "excluded_legacy_terminated": [
+    "NCT03038828 — Multikine for perianal warts (Phase 1, TERMINATED)",
+    "NCT02115919 — Multikine for perianal warts (Phase 1, TERMINATED)",
+    "NCT01265849 — Multikine IT-MATTERS pivotal Phase 3 in head and neck cancer (COMPLETED 2020); supports new confirmatory study"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

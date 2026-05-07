@@ -1,0 +1,92 @@
+{
+  "issuer_name": "Centessa Pharmaceuticals plc",
+  "ticker": "CNTA",
+  "exchange": "Nasdaq",
+  "cik": "0001847903",
+  "region": "UK (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/cnta_10k_pipeline_section.html", "filing_date": "2026-03-31", "accession": "0001847903-26-000025"},
+    "website": {"url": "https://www.centessa.com/programs", "error": "JS-rendered, no static pipeline content extractable"},
+    "ctgov": {"file": "data/cnta_ctgov_compact.json", "trial_count": 15, "sponsor_query": "Centessa"}
+  },
+  "pipeline": [
+    {
+      "asset": "Cleminorexton",
+      "aka": ["ORX750"],
+      "modality": "Small molecule, oral selective OX2R agonist",
+      "target": "Orexin receptor 2 (OX2R)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Narcolepsy type 1, type 2 and idiopathic hypersomnia",
+          "highest_phase": "P2",
+          "trial_name": "ORX750 P2 + LTE",
+          "trial_design": "Phase 2 placebo-controlled study + long-term extension",
+          "nct_ids": ["NCT06752668", "NCT07096674"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Centessa Pharmaceuticals (UK) Limited",
+          "key_milestones": ["P2 enrolling; LTE started 2025-08"]
+        }
+      ]
+    },
+    {
+      "asset": "ORX142",
+      "aka": [],
+      "modality": "Small molecule, oral OX2R agonist",
+      "target": "Orexin receptor 2 (OX2R)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Excessive daytime sleepiness (FIH healthy volunteers)",
+          "highest_phase": "P1",
+          "trial_name": "ORX142 FIH",
+          "trial_design": "Phase 1 SAD/MAD in healthy adults incl. elderly",
+          "nct_ids": ["NCT07082829"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Centessa Pharmaceuticals (UK) Limited",
+          "key_milestones": ["FIH initiated 2025-06"]
+        }
+      ]
+    },
+    {
+      "asset": "ORX489",
+      "aka": [],
+      "modality": "Small molecule, oral OX2R agonist",
+      "target": "Orexin receptor 2 (OX2R)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Healthy-volunteer FIH (orexin pathway)",
+          "highest_phase": "P1",
+          "trial_name": "ORX489 FIH",
+          "trial_design": "Phase 1 FIH in healthy adults",
+          "nct_ids": ["NCT07413666"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Centessa Pharmaceuticals (UK) Limited",
+          "key_milestones": ["FIH initiated Q1 2026 post-FDA IND clearance"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Earlier-stage OX2R agonist research; differentiated orexin-pathway pharmacology programs"
+  ],
+  "excluded_legacy_terminated": [
+    "SerpinPC (ApcinteX) hemophilia P3 NCT06568302, P2 NCT05789524/NCT05789537 — TERMINATED",
+    "Lixivaptan (Palladio) ADPKD P3 NCT04064346/NCT04152837/NCT05208866 — TERMINATED",
+    "ZF874 (Z Factor) AATD P1 NCT04443192 — TERMINATED",
+    "CBS001 (Capella) anti-LIGHT P1 NCT05323110 — TERMINATED",
+    "LB101 (LockBody) PD-L1xCD47 oncology P1/P2 NCT05821777 — TERMINATED",
+    "Imgatuzumab (Pega-One) cSCC P2 NCT04985825 — WITHDRAWN"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "p3_indications": 0,
+    "p2_indications": 1,
+    "p1_indications": 2
+  },
+  "notes": "Centessa underwent strategic refocus to orexin/OX2R pipeline. Lead asset cleminorexton (ORX750) is in Phase 2 for NT1/NT2/IH; ORX142 and ORX489 are Phase 1 follow-ons. Subsidiary programs (ApcinteX, Palladio, Z Factor, Capella, LockBody, Pega-One) all discontinued."
+}

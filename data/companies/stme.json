@@ -1,0 +1,36 @@
+{
+  "issuer_name": "Stimcell Energetics Inc.",
+  "ticker": "STME",
+  "exchange": "OTC",
+  "cik": "0001493712",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "path": "data/stme_10k_full.htm",
+      "note": "10-K downloaded but pipeline-section heading not found by slicer; manual review confirms issuer is a microcurrent device company, not a drug developer."
+    },
+    "website": {
+      "url": "https://stimcell.com",
+      "note": "Corporate site lists only eBalance microcurrent device and Bio Feedback product; no /pipeline page (404). Trial-results section referenced but no active P1/P2/P3 drug studies."
+    },
+    "ctgov": {
+      "path": "data/stme_ctgov_compact.json",
+      "trials_p1_p3": 0,
+      "note": "No active P1-P3 interventional studies on ctgov for this sponsor."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "device": "eBalance microcurrent therapeutic device platform",
+    "variants": ["eBalance Pro System (clinical / practitioner use)", "eBalance Home System (consumer wellness/pain management)"],
+    "indication_marketing": "Wellness, pain management; positioned for lifestyle use (15-minute sessions 2-3x weekly). Company also markets a Bio Feedback product.",
+    "regulatory_status": "Consumer/wellness microcurrent device; not a drug; no active FDA PMA/IDE clinical pivotal study disclosed."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Consumer/wellness microcurrent device company (eBalance platform). No proprietary drug pipeline; no active P1/P2/P3 trials on ctgov; no IDE pivotal device study disclosed. Mis-bucketed as biopharma — actual business is electrotherapy hardware."
+}

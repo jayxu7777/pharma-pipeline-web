@@ -1,0 +1,84 @@
+{
+  "issuer_name": "IN8BIO, INC.",
+  "ticker": "INAB",
+  "exchange": "Nasdaq",
+  "cik": "0001740279",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-104181",
+      "filing_date": "2026-03-12",
+      "doc": "inab-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.in8bio.com/pipeline/",
+      "fetched": true
+    },
+    "ctgov": {
+      "trial_count": 2,
+      "active_or_recruiting": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "INB-100",
+      "aka": ["DeltEx Allo"],
+      "modality": "Allogeneic ex vivo expanded activated gamma-delta T cell therapy (DeltEx platform)",
+      "target": "Gamma-delta T cell-mediated tumor surveillance (post-HSCT immune reconstitution)",
+      "license_origin": "Internal (DeltEx platform)",
+      "indications": [
+        {
+          "indication": "Hematologic malignancies (AML, ALL, CML, MDS) post allogeneic haploidentical HSCT",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 INB-100 dose escalation/expansion (investigator-sponsored)",
+          "trial_design": "Open-label dose-escalation with expansion cohort; RP2D declared at dose level 2; total at least 25 treated patients",
+          "nct_ids": ["NCT03533816"],
+          "trial_status": "Recruiting (expansion cohort, lead sponsor University of Kansas Medical Center, IN8bio collaborator)",
+          "lead_sponsor": "University of Kansas Medical Center (collaborator: In8bio Inc.)",
+          "key_milestones": [
+            "Initial long-term follow-up data including expansion cohort expected at medical meeting in late 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "INB-400",
+      "aka": ["DeltEx DRI Auto/Allo"],
+      "modality": "Autologous (and allogeneic) genetically modified chemotherapy-resistant gamma-delta T cell therapy",
+      "target": "Stress antigens / NKG2D / gamma-delta TCR on glioblastoma cells",
+      "license_origin": "Internal (DeltEx DRI platform)",
+      "indications": [
+        {
+          "indication": "Newly diagnosed glioblastoma (GBM)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 1b/2 INB-400 (DeltEx DRI) in recurrent or newly diagnosed GBM",
+          "trial_design": "Multi-center Phase 1b/2 evaluating autologous and allogeneic DeltEx DRI + maintenance temozolomide",
+          "nct_ids": ["NCT05664243"],
+          "trial_status": "Active, not recruiting (enrollment suspended September 2024; treated patients continue to be monitored)",
+          "lead_sponsor": "In8bio Inc.",
+          "key_milestones": [
+            "Additional mOS data expected at medical meetings mid- and late-2026",
+            "Seeking FDA guidance on registration pathway"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "INB-200 (DeltEx DRI Auto, GBM) — patient treatment completed, no active enrollment",
+    "INB-300 (DeltEx nsCAR-T) — preclinical",
+    "INB-330 (CD-33 nsCAR-T for AML) — preclinical",
+    "INB-500 (iPSC-derived gamma-delta T cells) — preclinical",
+    "INB-600 / INB-619 (CD19 TCE platform) — preclinical, IND targeted 2027"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 0,
+    "P2": 1,
+    "P1": 1
+  }
+}

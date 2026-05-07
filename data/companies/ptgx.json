@@ -1,0 +1,126 @@
+{
+  "issuer_name": "Protagonist Therapeutics, Inc",
+  "ticker": "PTGX",
+  "exchange": "Nasdaq",
+  "cik": "0001377121",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-25", "accession": "0001104659-26-019696", "path": "data/ptgx_10k_pipeline_section.html"},
+    "website": {"path": "https://www.protagonist-inc.com/product-pipeline", "trials_listed": "icotrokinra, PN-881, rusfertide, oral hepcidin, PN-477"},
+    "ctgov": {"path": "data/ptgx_ctgov_compact.json", "trials_found": 14}
+  },
+  "pipeline": [
+    {
+      "asset": "Rusfertide",
+      "aka": ["PTG-300", "TAK-121"],
+      "modality": "Subcutaneous hepcidin mimetic peptide",
+      "target": "Ferroportin / hepcidin axis",
+      "license_origin": "Internal (co-developed with Takeda)",
+      "indications": [
+        {
+          "indication": "Polycythemia vera",
+          "highest_phase": "Phase 3 (NDA filed; Priority Review)",
+          "trial_name": "VERIFY (NCT05210790) and long-term extension (NCT06033586)",
+          "trial_design": "Pivotal Phase 3 randomized double-blind placebo-controlled in PV requiring phlebotomy; long-term safety extension PHASE3 OLE",
+          "nct_ids": ["NCT05210790", "NCT06033586"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; FDA accepted NDA with Priority Review (PDUFA 3Q 2026)",
+          "lead_sponsor": "Protagonist Therapeutics, Inc.",
+          "key_milestones": ["VERIFY positive (61.9% maintained absence of phlebotomy eligibility through Wk52)", "NDA filed EOY 2025", "Priority Review granted", "Co-development with Takeda"]
+        }
+      ]
+    },
+    {
+      "asset": "Icotrokinra",
+      "aka": ["JNJ-2113", "PN-235", "ICOTYDE"],
+      "modality": "Oral IL-23 receptor peptide antagonist",
+      "target": "IL-23 receptor",
+      "license_origin": "Out-licensed to Janssen / Johnson & Johnson - Protagonist receives milestones and royalties; Janssen leads development",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe plaque psoriasis",
+          "highest_phase": "Phase 3 (FDA approved March 2026 as ICOTYDE)",
+          "trial_name": "ICONIC-LEAD, ICONIC-TOTAL",
+          "trial_design": "Pivotal Phase 3 in moderate-to-severe plaque psoriasis (J&J-led)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "FDA approved March 18, 2026 in adults and adolescents (>=12y, >=40 kg)",
+          "lead_sponsor": "Janssen Research & Development, LLC",
+          "key_milestones": ["FDA approval March 2026"]
+        },
+        {
+          "indication": "Psoriatic arthritis",
+          "highest_phase": "Phase 3",
+          "trial_name": "ICONIC-PsA program",
+          "trial_design": "Phase 3 in PsA (J&J-led)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ONGOING (J&J-led)",
+          "lead_sponsor": "Janssen Research & Development, LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Ulcerative colitis",
+          "highest_phase": "Phase 3 (initiated Q4 2025)",
+          "trial_name": "ICONIC-UC",
+          "trial_design": "Phase 3 in UC (J&J-led)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING / initiated Q4 2025",
+          "lead_sponsor": "Janssen Research & Development, LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Crohn's disease",
+          "highest_phase": "Phase 3 (initiated Q4 2025)",
+          "trial_name": "ICONIC-CD",
+          "trial_design": "Phase 3 in CD (J&J-led)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING / initiated Q4 2025",
+          "lead_sponsor": "Janssen Research & Development, LLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PN-881",
+      "aka": ["PN-881"],
+      "modality": "Oral IL-17 antagonist peptide",
+      "target": "IL-17",
+      "license_origin": "Internal (wholly-owned)",
+      "indications": [
+        {
+          "indication": "Psoriasis / psoriatic arthritis / hidradenitis suppurativa / spondyloarthritis (broad IL-17-driven inflammation)",
+          "highest_phase": "Phase 1",
+          "trial_name": "PN-881 Phase 1 SAD/MAD",
+          "trial_design": "Phase 1 healthy volunteer SAD/MAD with oral solution / oral tablet",
+          "nct_ids": ["NCT07153146"],
+          "trial_status": "RECRUITING (initiated Q4 2025)",
+          "lead_sponsor": "Protagonist Therapeutics, Inc.",
+          "key_milestones": ["Phase 1 first-in-human initiated Q4 2025"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "ICOTYDE (icotrokinra)",
+    "indication": "Moderate-to-severe plaque psoriasis (>=12y, >=40 kg)",
+    "approval_status": "FDA approved March 18, 2026",
+    "note": "Marketed by Janssen / J&J; Protagonist receives milestone + royalty payments"
+  },
+  "excluded_preclinical": [
+    "Oral hepcidin (development candidate Q4 2025) - preclinical",
+    "PN-477 sc and oral (GLP/GIP/GCG triagonist) - IND-enabling, Phase 1 mid 2026 / 2H 2026",
+    "PN-458 (oral GLP/GIP dual agonist) - preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "PTG-100 (Phase 2 UC) - terminated NCT02895100",
+    "PN-943 (Phase 2 UC) - completed but discontinued for UC"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3_assets": 2,
+    "phase_2_assets": 0,
+    "phase_1_assets": 1,
+    "note": "Icotrokinra is partner-led but Protagonist retains royalty interest; counted as the originator's asset."
+  }
+}

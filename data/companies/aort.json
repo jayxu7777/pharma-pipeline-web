@@ -1,0 +1,107 @@
+{
+  "issuer_name": "Artivion, Inc.",
+  "ticker": "AORT",
+  "exchange": "NYSE",
+  "cik": "0000784199",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-009046",
+      "filing_date": "2026-02-18",
+      "doc": "aort-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.artivion.com/products",
+      "note": "No dedicated /pipeline page; products page lists marketed devices. Active pivotal trials disclosed in 10-K."
+    },
+    "ctgov": {
+      "sponsor_query": "Artivion",
+      "unique_trials_returned": 1,
+      "note": "Default sponsor query returned only legacy PROACT Xa (terminated). ARTIZEN and PERSEVERE found via targeted ctgov API queries."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Arcevo LSA Hybrid Stent Graft System",
+      "aka": ["Arcevo LSA", "next-gen E-vita Open Neo"],
+      "modality": "Hybrid aortic arch stent graft (medical device)",
+      "target": "Aortic arch (Frozen Elephant Trunk procedure with integrated left subclavian artery branch)",
+      "license_origin": "Internal (Artivion)",
+      "indications": [
+        {
+          "indication": "Acute and chronic aortic arch aneurysms and dissections",
+          "highest_phase": "P3",
+          "trial_name": "ARTIZEN",
+          "trial_design": "Prospective, multicenter, non-randomized pivotal IDE clinical investigation; 132 participants in US and Europe; up to 5 years follow-up; supports US PMA submission",
+          "nct_ids": ["NCT07089576"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Artivion Inc.",
+          "key_milestones": [
+            "Custom version NEO EDE launched in EMEA Q2 2025",
+            "Pivotal trial enrolling to support forthcoming US FDA PMA application"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "AMDS Hybrid Prosthesis",
+      "aka": ["AMDS", "Aortic Arch Remodeling Device"],
+      "modality": "Hybrid uncovered stent (medical device)",
+      "target": "Aortic arch remodeling for acute Type A aortic dissection",
+      "license_origin": "Acquired (Ascyrus, September 2020)",
+      "indications": [
+        {
+          "indication": "Acute DeBakey Type I aortic dissection (with malperfusion)",
+          "highest_phase": "P3",
+          "trial_name": "PERSEVERE",
+          "trial_design": "Prospective, single-arm, multicenter pivotal IDE clinical investigation supporting US PMA submission",
+          "nct_ids": ["NCT05174767"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Artivion Inc.",
+          "key_milestones": [
+            "Enrollment completed November 2023",
+            "FDA Humanitarian Device Exemption (HDE) granted December 2024 for use in acute DeBakey Type I dissections with malperfusion",
+            "PMA approval anticipated 2026 for full US commercial distribution"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Artivion is a cardiac and vascular medical device company. Marketed products are devices, not drugs.",
+    "categories": {
+      "aortic_arch": ["AMDS (HDE in US; CE/Health Canada elsewhere)", "Neo EDE", "NEXUS TRE", "E-vita Open Neo", "NEXUS DUO", "NEXUS ONE (distributed for Endospan)"],
+      "heart_valves": ["On-X Aortic Heart Valve (FDA approved; low-INR labeling)", "On-X Mitral Heart Valve", "On-X Ascending Aortic Prosthesis (AAP)", "Chord-X Mitral Chordal Replacement", "CryoValve SG Pulmonary Human Heart Valve"],
+      "allografts": ["CryoValve Aortic", "CryoPatch SG Pulmonary", "CryoGraft Descending Thoracic Aorta", "CryoArtery", "CryoVein", "CryoPatch Autologous Pericardium"],
+      "thoracoabdominal": ["E-nside TAAA Multibranch Stent Graft", "E-xtra Design MultiBranch (custom)", "Artivex Thoracic Extension Stent Graft"],
+      "abdominal_peripheral": ["E-tegra", "E-liac", "Tuva BX Peripheral Stent Graft"],
+      "surgical_sealant": ["BioGlue"],
+      "ancillary": ["PhotoFix", "CarbonAid CO2 Diffuser", "E-wire", "FlowLine Bipore", "E-xpand Stent Graft Balloon Catheter", "FlowNit Bioseal", "FlowWeave Bioseal"]
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "trial_name": "PROACT Xa",
+      "nct_ids": ["NCT04142658"],
+      "reason": "Status TERMINATED on ctgov; not active.",
+      "indication": "Apixaban anticoagulation in On-X aortic valve recipients"
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "trial_name": "TRIOMPHE (NEXUS ONE)",
+      "lead_sponsor": "Endospan Ltd.",
+      "reason": "Endospan-sponsored US pivotal trial; Artivion holds distribution rights and a purchase option, not the IDE/PMA holder."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 2,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": null
+}

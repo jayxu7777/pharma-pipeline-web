@@ -1,0 +1,54 @@
+{
+  "issuer_name": "Cytek Biosciences, Inc.",
+  "ticker": "CTKB",
+  "exchange": "Nasdaq",
+  "cik": "0001831915",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-012352",
+      "filing_date": "2026-02-26",
+      "doc": "ctkb-20251231.htm"
+    },
+    "website": {
+      "url": "https://cytekbio.com",
+      "accessed": "2026-05-06",
+      "note": "Cytek is a flow cytometry instrument and reagent vendor (Aurora, Northern Lights, Muse, Guava, Amnis ImageStream, cFluor reagents). No drug or therapeutic device pipeline page exists; /pages/pipeline returns 404."
+    },
+    "ctgov": {
+      "queried_sponsor": "Cytek",
+      "kept_p1_p3": 0,
+      "note": "Zero studies returned for sponsor 'Cytek' on ClinicalTrials.gov, consistent with a research-tools company."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "type": "Life-science research instruments and reagents (flow cytometry)",
+    "instruments": [
+      "Cytek Aurora and Aurora Evo (full-spectrum flow cytometers)",
+      "Cytek Northern Lights",
+      "Cytek Orion (reagent preparation / high-throughput)",
+      "Cytek Muse Micro cell analyzer",
+      "Cytek Amnis ImageStreamX (imaging flow cytometry)",
+      "Cytek Guava easyCyte"
+    ],
+    "reagents_software": [
+      "cFluor antibody reagents and FSP reagent kits",
+      "SpectroFlo analysis software",
+      "Cytek Cloud"
+    ],
+    "description": "Sells capital instruments, reagents, software and services to academic, biopharma, and clinical-research customers. Not a drug developer."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Life-science research-tools company (full-spectrum flow cytometry instruments and reagents). No proprietary therapeutic pipeline; no studies on ClinicalTrials.gov with Cytek as sponsor."
+}

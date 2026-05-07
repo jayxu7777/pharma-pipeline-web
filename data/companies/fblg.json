@@ -1,0 +1,65 @@
+{
+  "issuer_name": "FibroBiologics, Inc.",
+  "ticker": "FBLG",
+  "exchange": "Nasdaq",
+  "cik": "0001958777",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-24",
+      "accession": "0001193125-26-066965",
+      "path": "data/fblg_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://fibrobiologics.com/pipeline",
+      "note": "Pipeline page lists CYWC628 (wound healing), CYMS101 (MS), CybroCell (degenerative disc disease, IND cleared), CYPS317 (psoriasis); plus discovery assets CYTER915, TBC190, CYAPO913."
+    },
+    "ctgov": {
+      "path": "data/fblg_ctgov_compact.json",
+      "note": "Single active registry record: CYWC628 Phase 1/2 in DFU (NCT07096934, NOT_YET_RECRUITING; 10-K confirms Q1 2026 initiation in Australia)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CYWC628",
+      "aka": [],
+      "modality": "allogeneic dermal fibroblast spheroid cell therapy",
+      "target": "Wound healing (chemoattractant factors, growth factors, anti-inflammatory cytokines)",
+      "license_origin": "Internal (FibroBiologics; IP originally from FibroGenesis/SpinalCyte)",
+      "indications": [
+        {
+          "indication": "Refractory diabetic foot ulcers (DFU)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Controlled Trial of CYWC628 (Human Dermal Fibroblast Spheroids) for Refractory Diabetic Foot Ulcers vs Standard of Care",
+          "trial_design": "Twelve-week controlled trial, three arms: SoC alone, SoC + low-dose CYWC628, SoC + high-dose CYWC628; conducted in Australia",
+          "nct_ids": ["NCT07096934"],
+          "trial_status": "NOT_YET_RECRUITING per ctgov; 10-K states trial initiating Q1 2026 in Australia (start 2025-09 listed; primary completion 2026-03)",
+          "lead_sponsor": "FibroBiologics",
+          "key_milestones": [
+            "Q1 2026 planned trial initiation in Australia",
+            "Master and working cell banks complete and CDMO-released"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CybroCell (degenerative disc disease) — IND cleared, but Phase 1 not yet initiated; treated as pre-launch",
+    "CYPS317 (psoriasis) — preclinical, IND-enabling studies",
+    "CYMS101 (MS) — completed an IRB-approved 5-patient Phase 1 study in Mexico; no active US/EU registry trial",
+    "CYTER915 (oncology) — discovery",
+    "TBC190 (thymic involution) — discovery",
+    "CYAPO913 (type 1 diabetes) — discovery"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": null,
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 0,
+    "p2": 0,
+    "p1": 1
+  }
+}

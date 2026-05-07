@@ -1,0 +1,32 @@
+{
+  "issuer_name": "Greenland Mines Ltd (formerly Klotho Neurosciences, Inc.)",
+  "ticker": "GRML",
+  "exchange": "Nasdaq",
+  "cik": "0001907223",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-038629", "filed": "2026-04-01", "path": "data/grml_10k_pipeline_section.html"},
+    "website": {"error": "Company recently renamed to Greenland Mines Ltd (March 2026); pivoting to mining. No active drug-developer pipeline page."},
+    "ctgov": {"path": "data/grml_ctgov_compact.json", "note": "No interventional P1-3 trials sponsored by Klotho Neurosciences or Greenland Mines"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Greenland Mines Ltd (formerly Klotho Neurosciences) discloses in its 10-K (filed 2026-04-01) that 'We have not yet submitted any IND applications in connection with any gene therapies.' Its lead s-KL (alpha-Klotho) AAV gene therapy program for ALS and neurodegenerative disease remains preclinical. The company also holds five market-approved anti-cancer generic drugs (FOLFOX/FOLFIRI components) marketed in Germany and two off-patent biosimilar antibodies licensed from Reliance Life Sciences — these are already marketed/biosimilar generics, not active clinical pipeline assets. In March 2026 the company acquired Greenland Mines Corp., expanding into critical minerals mining and effectively pivoting away from drug development.",
+  "commercial_product": {
+    "Germany-approved anti-cancer generics": {
+      "products": ["Four FOLFOX/FOLFIRI regimen components for metastatic colorectal/gastric cancer", "Two drugs for metastatic lung cancer"],
+      "status": "Market-approved in Germany (acquired 2022-09-12); not active clinical pipeline"
+    },
+    "Off-patent biosimilar antibodies": {
+      "source": "Licensed from Reliance Life Sciences (India)",
+      "status": "Off-patent biosimilars; not active clinical pipeline"
+    }
+  },
+  "excluded_preclinical": [
+    {"asset": "AAV-s-KL (alpha-Klotho secreted isoform gene therapy)", "indication": "ALS and other neurodegenerative diseases", "reason": "Preclinical — no IND filed per 10-K"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "P3": 0, "P2": 0, "P1": 0, "indications": 0}
+}

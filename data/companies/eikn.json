@@ -1,0 +1,116 @@
+{
+  "issuer_name": "Eikon Therapeutics, Inc.",
+  "ticker": "EIKN",
+  "exchange": "Nasdaq",
+  "cik": "0001861123",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-130395", "filing_date": "2026-03-30", "path": "data/eikn_10k_pipeline_section.html"},
+    "website": {"url": "https://www.eikontx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/eikn_ctgov_compact.json", "sponsor_query": "Eikon Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "EIK1001",
+      "aka": ["BDB001"],
+      "modality": "Systemically administered TLR7/8 dual-agonist (small molecule)",
+      "target": "TLR7 and TLR8",
+      "license_origin": "In-licensed worldwide from Seven and Eight Biotherapeutics / Superb Wisdom Limited",
+      "indications": [
+        {
+          "indication": "Advanced Melanoma (in combination with pembrolizumab)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Global Phase 2/3 registrational melanoma trial",
+          "trial_design": "Randomized Phase 2/3 EIK1001 + pembrolizumab; designed to proceed to completion subject to DMC interim analysis, intended to support registration",
+          "nct_ids": ["NCT06697301"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Eikon Therapeutics",
+          "key_milestones": ["Registrational design with interim DMC analysis"]
+        },
+        {
+          "indication": "NSCLC (1L, in combination with pembrolizumab + histology-appropriate chemotherapy)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Phase 2 (NCT06246110) and Phase 2/3 registrational (NCT07365319)",
+          "trial_design": "Phase 2 in NSCLC + Phase 2/3 registrational (squamous and non-squamous, stage IV) — FDA cleared to proceed",
+          "nct_ids": ["NCT06246110", "NCT07365319"],
+          "trial_status": "Phase 2 recruiting; Phase 2/3 not-yet-recruiting (site selection initiated)",
+          "lead_sponsor": "Eikon Therapeutics",
+          "key_milestones": ["FDA clearance for Phase 2/3"]
+        }
+      ]
+    },
+    {
+      "asset": "EIK1003",
+      "aka": ["IMP1734"],
+      "modality": "Selective PARP1 inhibitor (small molecule)",
+      "target": "PARP1",
+      "license_origin": "In-licensed",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (HRR-deficient breast/ovarian/prostate/pancreatic)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Phase 1/2 EIK1003",
+          "trial_design": "Dose-escalation/expansion in advanced solid tumors",
+          "nct_ids": ["NCT06253130"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Eikon Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "EIK1004",
+      "aka": ["IMP1707-001", "EIK1004-001"],
+      "modality": "Brain-penetrant selective PARP1 inhibitor (small molecule)",
+      "target": "PARP1 (CNS-penetrant)",
+      "license_origin": "In-licensed",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors with brain metastases / primary brain malignancies",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Phase 1/2 EIK1004",
+          "trial_design": "Dose-escalation/expansion",
+          "nct_ids": ["NCT06907043"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Eikon Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "EIK1005",
+      "aka": [],
+      "modality": "Werner (WRN) helicase inhibitor (small molecule)",
+      "target": "WRN helicase (synthetic lethality in MSI-high tumors)",
+      "license_origin": "Internal (Eikon SMT platform)",
+      "indications": [
+        {
+          "indication": "MSI-H/dMMR advanced solid tumors (gastric, CRC, GEJ, endometrial)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Phase 1/2 EIK1005 ± pembrolizumab",
+          "trial_design": "Dose-escalation/expansion, monotherapy and pembrolizumab combination",
+          "nct_ids": ["NCT07262619"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Eikon Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "EIK1006 — AR antagonist for prostate cancer (IND-enabling)",
+    "AR-v7 antagonist (preclinical hit ID)",
+    "Four undisclosed neuroscience programs (preclinical)"
+  ],
+  "excluded_legacy_terminated": [
+    "BDB001 + atezolizumab (NCT04196530, NCT04819373) — Phase 1/2 completed",
+    "BDB001 + pembrolizumab (NCT03486301) — Phase 1 completed",
+    "BDB018 (NCT04840394) — Phase 1 completed (program not advanced)"
+  ],
+  "excluded_partner_owned": [
+    "Atezolizumab + BDB001 + RT (NCT03915678) — sponsored by Institut Bergonié, investigator-initiated"
+  ],
+  "summary_counts": {"assets": 4, "p3_indications": 0, "p2_3_indications": 2, "p2_indications": 0, "p1_2_indications": 3, "p1_indications": 0}
+}

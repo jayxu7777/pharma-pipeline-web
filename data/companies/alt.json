@@ -1,0 +1,59 @@
+{
+  "issuer_name": "Altimmune, Inc.",
+  "ticker": "ALT",
+  "exchange": "Nasdaq",
+  "cik": "0001326190",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001326190-26-000018", "filing_date": "2026-03-06", "doc": "alt-20251231x10k.htm"},
+    "website": {"error": "Live pipeline page redirect failed at fetch time; relied on 10-K and ctgov which are authoritative for active programs"},
+    "ctgov": {"file": "data/alt_ctgov_compact.json", "trials_kept": 17}
+  },
+  "pipeline": [
+    {
+      "asset": "Pemvidutide",
+      "aka": ["ALT-801"],
+      "modality": "Peptide (1:1 balanced glucagon/GLP-1 dual receptor agonist)",
+      "target": "Glucagon receptor; GLP-1 receptor",
+      "license_origin": "Acquired via Spitfire Pharma (2019); EuPort domain in-licensed from Mederis Diabetes; oral formulation rights from Adocia (2024)",
+      "indications": [
+        {
+          "indication": "MASH (metabolic dysfunction-associated steatohepatitis) with moderate to advanced fibrosis",
+          "highest_phase": "Phase 3 (preparing to initiate)",
+          "trial_name": "IMPACT Phase 2b (completed 24-week and 48-week readouts); registrational Phase 3 in preparation for 2026 initiation",
+          "trial_design": "IMPACT Phase 2b: 212 biopsy-confirmed MASH F2/F3 subjects, randomized 1:2:2 to 1.2 mg, 1.8 mg pemvidutide, or placebo, weekly SC. Phase 3: 52-week pivotal trial in MASH with biopsy-driven endpoints, AIM-MASH AI Assist",
+          "nct_ids": ["NCT05989711"],
+          "trial_status": "IMPACT Phase 2b 48-week topline reported Dec 19, 2025 (positive); End-of-Phase 2 FDA meeting Dec 2025; Phase 3 initiation planned 2026",
+          "lead_sponsor": "Altimmune, Inc.",
+          "key_milestones": ["FDA Breakthrough Therapy Designation", "FDA Fast Track Designation", "Phase 3 initiation 2026"]
+        },
+        {
+          "indication": "Alcohol Use Disorder (AUD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RECLAIM Phase 2",
+          "trial_design": "Randomized, placebo-controlled, ~100 subjects across ~15 US sites, 1:1 to 2.4 mg pemvidutide weekly or placebo for 24 weeks; primary endpoint: change in heavy drinking days at Week 24",
+          "nct_ids": ["NCT06987513"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; enrollment completed Nov 3, 2025; 24-week topline expected 2026",
+          "lead_sponsor": "Altimmune, Inc.",
+          "key_milestones": ["FDA Fast Track Designation Aug 2025", "Topline 2026"]
+        },
+        {
+          "indication": "Alcohol-Associated Liver Disease (ALD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RESTORE Phase 2",
+          "trial_design": "Randomized, placebo-controlled, ~100 subjects across 34 US sites, 1:1 to 2.4 mg pemvidutide weekly or placebo for 48 weeks; primary endpoint: change in LSM by VCTE at Week 24",
+          "nct_ids": ["NCT07009860"],
+          "trial_status": "RECRUITING (start 2025-06-16)",
+          "lead_sponsor": "Altimmune, Inc.",
+          "key_milestones": ["First patient enrolled Jul 9, 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["HepTcell (T-cell immunotherapy for HBV) - prior pipeline asset, no longer active", "AdCOVID intranasal COVID-19 vaccine - discontinued"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 2, "P1": 0, "note": "Single asset (pemvidutide) advancing across 3 indications; counts represent indication-level highest phases"}
+}

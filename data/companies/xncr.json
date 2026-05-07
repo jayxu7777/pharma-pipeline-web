@@ -1,0 +1,191 @@
+{
+  "issuer_name": "Xencor Inc",
+  "ticker": "XNCR",
+  "exchange": "Nasdaq",
+  "cik": "0001326732",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001326732-26-000015", "filing_date": "2026-02-25", "doc": "xncr-20251231.htm"},
+    "website": {"url": "https://www.xencor.com/pipeline", "extracted": true},
+    "ctgov": {"sponsor_query": "Xencor", "trial_count": 33, "active_count": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "XmAb942 (Xtend TL1A)",
+      "aka": ["XmAb942"],
+      "modality": "Anti-TL1A antibody with Xtend Fc half-life extension",
+      "target": "TL1A",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Ulcerative Colitis",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "XmAb942 in healthy participants and ulcerative colitis",
+          "trial_design": "Phase 1/2 (with Phase 2b planned)",
+          "nct_ids": ["NCT06619990"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Xencor, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "XmAb541",
+      "aka": ["XmAb541"],
+      "modality": "T-cell engager bispecific (CLDN6 x CD3)",
+      "target": "Claudin 6 (CLDN6) x CD3",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (ovarian)",
+          "highest_phase": "Phase 1",
+          "trial_name": "XmAb541 in advanced solid tumors",
+          "trial_design": "Phase 1 dose escalation",
+          "nct_ids": ["NCT06276491"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Xencor, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "XmAb819",
+      "aka": ["XmAb819"],
+      "modality": "T-cell engager bispecific (ENPP3 x CD3)",
+      "target": "ENPP3 x CD3",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced clear cell renal cell carcinoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "XmAb819 in advanced ccRCC",
+          "trial_design": "Phase 1 dose escalation/expansion",
+          "nct_ids": ["NCT05433142"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Xencor, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Plamotamab",
+      "aka": ["XmAb13676", "Plamotamab"],
+      "modality": "T-cell engager bispecific (CD20 x CD3) — autoimmune indication; oncology indication previously partnered/de-prioritized",
+      "target": "CD20 x CD3",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Rheumatoid Arthritis",
+          "highest_phase": "Phase 1b",
+          "trial_name": "Plamotamab in RA",
+          "trial_design": "Phase 1b open-label safety",
+          "nct_ids": ["NCT07230353"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Xencor, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Healthy participants and autoimmune indication (XmAb13676 / plamotamab)",
+          "highest_phase": "Phase 1",
+          "trial_name": "XmAb13676 (plamotamab) Phase 1",
+          "trial_design": "Phase 1 open-label",
+          "nct_ids": ["NCT07284797"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Xencor, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Vudalimab (XmAb20717)",
+      "aka": ["XmAb20717", "vudalimab"],
+      "modality": "PD-1 x CTLA-4 bispecific antibody",
+      "target": "PD-1 x CTLA-4",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced gynecologic and genitourinary cancers",
+          "highest_phase": "Phase 2",
+          "trial_name": "XmAb20717 (vudalimab) in select gynecologic/GU cancers",
+          "trial_design": "Phase 2 cohorts",
+          "nct_ids": ["NCT05032040"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Xencor, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced biliary tract cancers",
+          "highest_phase": "Phase 2",
+          "trial_name": "XmAb20717 in advanced biliary tract cancer (investigator-initiated)",
+          "trial_design": "Phase 2",
+          "nct_ids": ["NCT05297903"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Sidney Kimmel Comprehensive Cancer Center / Xencor collaboration",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "XmAb808",
+      "aka": ["XmAb808"],
+      "modality": "Bispecific (B7-H3 x CD28) co-stimulator",
+      "target": "B7-H3 x CD28",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Solid tumors (in combination with anti-PD-1)",
+          "highest_phase": "Phase 1",
+          "trial_name": "XmAb808 in advanced solid tumors",
+          "trial_design": "Phase 1 dose escalation",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company website",
+          "lead_sponsor": "Xencor, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "XmAb657",
+      "aka": ["XmAb657"],
+      "modality": "T-cell engager bispecific (CD19 x CD3)",
+      "target": "CD19 x CD3",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Idiopathic inflammatory myopathy (autoimmune)",
+          "highest_phase": "Phase 1",
+          "trial_name": "XmAb657 Phase 1",
+          "trial_design": "Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company website",
+          "lead_sponsor": "Xencor, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_products_via_partners": ["Ultomiris (ravulizumab) — Alexion (royalty)", "Monjuvi (tafasitamab-cxix) — Incyte (royalty)"]
+  },
+  "excluded_preclinical": [
+    {"asset": "XmAb412 (TL1A x IL23p19)", "indication": "IBD", "reason": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "Xaluritamig (AMG 340) STEAP1 x CD3", "partner": "Amgen", "phase": "Phase 3", "indication": "Prostate cancer"},
+    {"asset": "Obexelimab", "partner": "Zenas BioPharma", "phase": "Phase 3", "indication": "IgG4-related disease"},
+    {"asset": "Tobevibart", "partner": "Vir Biotechnology", "phase": "Phase 3", "indication": "Hepatitis Delta"},
+    {"asset": "ASP2138 (Claudin 18.2 x CD3)", "partner": "Astellas", "phase": "Phase 1", "indication": "Gastric/GEJ, pancreatic"},
+    {"asset": "JNJ-9401 (PSMA x CD28)", "partner": "J&J Innovative Medicine", "phase": "Phase 1", "indication": "Prostate cancer"},
+    {"asset": "JNJ-1493 (CD20 x CD28)", "partner": "J&J Innovative Medicine", "phase": "Phase 1", "indication": "B-cell tumors"}
+  ],
+  "summary_counts": {
+    "total_assets": 7,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1_2": 1,
+    "phase_1": 6
+  }
+}

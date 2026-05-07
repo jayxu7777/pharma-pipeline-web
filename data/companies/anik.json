@@ -1,0 +1,111 @@
+{
+  "issuer_name": "Anika Therapeutics, Inc.",
+  "ticker": "ANIK",
+  "exchange": "Nasdaq",
+  "cik": "0000898437",
+  "region": "United States (Bedford, MA)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "path": "data/anik_10k_full.htm",
+      "filing": "Form 10-K (FY 2025)",
+      "notes": "Auto-extractor could not isolate a discrete pipeline section heading; analysis used targeted greps for asset names (Hyalofast, Cingal, Integrity, Tactoset, FastTRACK, bioequivalence). Anika is a hyaluronic-acid-based medical device / combination-product company; assets pursued through FDA PMA (device) and NDA (Cingal combination)."
+    },
+    "website": {
+      "url": "https://www.anika.com/",
+      "notes": "/pipeline subpage returns 404. Homepage lists commercial products (Integrity, Hyalofast outside US, Tactoset, NanoFx, Cingal outside US, Monovisc, Orthovisc) but does not enumerate ongoing trials."
+    },
+    "ctgov": {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.spons=Anika%20Therapeutics",
+      "compact_path": "data/anik_ctgov_compact.json",
+      "p1_to_p3_trials_kept": 4,
+      "notes": "All four kept ClinicalTrials.gov records are Phase 3 Cingal studies, all marked COMPLETED (latest primary completion 2022-05). The active US Cingal bioequivalence study and the Hyalofast US FastTRACK Phase III are sourced from the 10-K and corporate disclosures (Hyalofast PMA submitted 2025-10-31; bioequivalence study initiated December 2025)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Hyalofast",
+      "aka": [],
+      "modality": "Hyaluronic acid (HA) resorbable scaffold (Class III medical device); single-stage off-the-shelf cartilage repair, used with autologous bone marrow aspirate concentrate (BMAC)",
+      "target": "Articular cartilage defects (knee)",
+      "license_origin": "Internal (Anika Hyaff platform)",
+      "indications": [
+        {
+          "indication": "Knee articular cartilage defects (cartilage repair)",
+          "highest_phase": "P3 (US pivotal IDE study completed; PMA filed - under FDA review)",
+          "trial_name": "FastTRACK (US pivotal Phase III IDE)",
+          "trial_design": "Randomized, controlled, multicenter pivotal IDE study comparing Hyalofast plus BMAC vs microfracture in approximately 200 patients with knee cartilage defects; two-year follow-up; co-primary endpoints: pain (KOOS Pain) and function (KOOS ADL).",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrollment completed May 2023; topline results July 2025 (co-primary endpoints not met; statistically significant improvements on KOOS Sports & Recreation, Quality of Life, Total KOOS). Modular PMA submitted; final (third) PMA module filed 2025-10-31. FDA deficiency letter received January 2026; Anika preparing response with resubmission expected in coming months.",
+          "lead_sponsor": "Anika Therapeutics, Inc.",
+          "key_milestones": [
+            "2023-05 enrollment complete (200 patients)",
+            "2025-07 topline results - co-primary endpoints missed",
+            "2025-10-31 final PMA module submitted",
+            "2026-Q1 FDA deficiency letter received (CMC + statistical analysis plan)",
+            "Resubmission anticipated 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Cingal",
+      "aka": [],
+      "modality": "Combination product (drug-device): proprietary cross-linked hyaluronic acid + triamcinolone hexacetonide (fast-acting steroid), single intra-articular injection; regulated as an NDA in the US",
+      "target": "Knee osteoarthritis pain (non-opioid)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Osteoarthritis knee pain - US regulatory pathway (commercial outside the US in 50+ countries under CE mark)",
+          "highest_phase": "P3 (three Phase 3 efficacy studies complete; active pivotal bioequivalence study and preclinical work supporting US NDA submission)",
+          "trial_name": "Cingal US bioequivalence study (supporting NDA)",
+          "trial_design": "Bioequivalence study of Cingal vs reference triamcinolone hexacetonide drug (Aristospan) to address final FDA NDA requirements; preclinical / toxicity studies completed 2025.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Bioequivalence study INITIATED December 2025 (per company disclosures). Earlier Phase 3 efficacy program (NCT04231318, NCT03390036, NCT03191903, NCT02381652) all COMPLETED; third pivotal Phase 3 (NCT04231318) achieved primary endpoint in 2022.",
+          "lead_sponsor": "Anika Therapeutics, Inc.",
+          "key_milestones": [
+            "2022 third pivotal Phase 3 met primary endpoint",
+            "2024-04 FDA Type-C advice letter",
+            "2024-09 Anika acquired Aristospan NDA (reference drug source); 2025-04 sold to third-party manufacturer",
+            "2025-02 second Type-C meeting with FDA",
+            "2025 preclinical / toxicity studies completed",
+            "2025-12 US bioequivalence study initiated",
+            "Targeting US NDA submission contingent on bioequivalence enrollment"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "regenerative_solutions": [
+      {"name": "Integrity", "use": "Rotator cuff and tendon repair augmentation (US full market release in 2024-2025)"},
+      {"name": "Hyalofast", "use": "Cartilage regeneration scaffold - commercial outside US in 30+ countries; US PMA pending"},
+      {"name": "Tactoset", "use": "Injectable HA-enhanced bone substitute"},
+      {"name": "NanoFx", "use": "Bone marrow stimulation device"}
+    ],
+    "oa_pain_management": [
+      {"name": "Monovisc", "use": "Single-injection HA viscosupplement for knee OA"},
+      {"name": "Orthovisc", "use": "Multi-injection HA viscosupplement for knee OA"},
+      {"name": "Cingal", "use": "Single-injection HA + steroid for knee OA pain - commercial outside US in 50+ countries; US NDA pending"},
+      {"name": "Hyvisc", "use": "Veterinary HA viscosupplement"}
+    ]
+  },
+  "excluded_preclinical": [
+    "Additional Hyaff-platform regenerative pipeline programs referenced generally in the 10-K but without disclosed clinical-trial-stage assets."
+  ],
+  "excluded_legacy_terminated": [
+    "Cingal Phase 3 NCT02381652 (2015 repeat-injection study) - COMPLETED, supportive but not pivotal for current NDA",
+    "Cingal Phase 3 NCT03191903 / NCT03390036 (2017-2018) - COMPLETED",
+    "Cingal Phase 3 NCT04231318 (2020-2022 third pivotal study) - COMPLETED, met primary endpoint; data still supports US NDA but trial itself is not active"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 2,
+    "regulatory_submitted": 1
+  },
+  "no_active_clinical_pipeline_reason": ""
+}

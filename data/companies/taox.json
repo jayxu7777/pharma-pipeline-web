@@ -1,0 +1,47 @@
+{
+  "issuer_name": "TAO Synergies Inc.",
+  "ticker": "TAOX",
+  "exchange": "Nasdaq",
+  "cik": "0001571934",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-037915",
+      "filing_date": "2026-03-31",
+      "primary_doc": "taox-20251231x10k.htm",
+      "note": "Per FY2025 10-K, the company (formerly Synaptogenix, Inc.) launched a cryptocurrency-treasury strategy focused on the Bittensor TAO token in 2025 and renamed itself TAO Synergies. The Cleveland Clinic Bryostatin-1 Alzheimer's disease trial concluded by end of 2024; the Multiple Sclerosis Bryostatin-1 trial was discontinued. No active P1/P2/P3 trials remain."
+    },
+    "website": {
+      "note": "Corporate identity has shifted to a digital-asset / AI-crypto treasury strategy; no active drug-pipeline page maintained."
+    },
+    "ctgov": {
+      "query_sponsor": "TAO Synergies",
+      "unique_p1_p3_trials": 0,
+      "note": "Legacy Synaptogenix-sponsored Bryostatin-1 trials are no longer active."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "Bryostatin-1",
+      "indication": "Alzheimer's disease",
+      "reason": "Cleveland Clinic trial concluded by end of 2024; no active follow-on P1/P2/P3 study disclosed."
+    },
+    {
+      "asset": "Bryostatin-1",
+      "indication": "Multiple Sclerosis",
+      "reason": "Trial discontinued per FY2025 10-K."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Issuer (formerly Synaptogenix) pivoted in 2025 to a cryptocurrency-treasury strategy centered on the Bittensor TAO token and renamed to TAO Synergies. Its prior Bryostatin-1 Alzheimer's trial concluded in 2024 and the MS trial was discontinued; no active company-sponsored P1/P2/P3 drug studies remain."
+}

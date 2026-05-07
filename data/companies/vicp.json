@@ -1,0 +1,31 @@
+{
+  "issuer_name": "Vicapsys Life Sciences, Inc.",
+  "ticker": "VICP",
+  "exchange": "OTC",
+  "cik": "0001468639",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2024-10-21",
+      "accession": "0001493152-24-041809",
+      "path": "data/vicp_10k_pipeline_section.html",
+      "note": "Most recent 10-K available is for FY2023; covers years ended Dec 31, 2023 and 2022"
+    },
+    "website": {"error": "no public pipeline page found — preclinical-stage company without active development website"},
+    "ctgov": {
+      "path": "data/vicp_ctgov_compact.json",
+      "lead_sponsor_query": "Vicapsys",
+      "result": "0 trials found"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Vicapsys is a preclinical/IP-stage shell-style company developing the VICAPSYN platform — encapsulated cell products incorporating CXCL12 derivatives for immunoprotection of transplanted cells/tissues/devices. The FY2023 10-K shows R&D spend of only $15,267 (vs $13,097 in FY2022), no revenue, $9,422 cash on hand, going-concern doubt, no IND filings, and no clinical trials registered. No active P1/P2/P3 program.",
+  "excluded_preclinical": [
+    {"asset": "VICAPSYN (CXCL12-derivative encapsulated transplantation immunoprotection platform)", "reason": "Preclinical / IP-stage; no IND, no clinical trial"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

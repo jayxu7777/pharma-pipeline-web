@@ -1,0 +1,63 @@
+{
+  "issuer_name": "Azitra, Inc.",
+  "ticker": "AZTR",
+  "exchange": "NYSE",
+  "cik": "0001701478",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001701478-26-000013", "filing_date": "2026-02-27", "form": "10-K"},
+    "website": {"url": "https://azitrainc.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor": "Azitra Inc.", "trials_returned": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "ATR-12",
+      "aka": ["ATR12-351"],
+      "modality": "Engineered live biotherapeutic (S. epidermidis expressing rhLEKTI-D6)",
+      "target": "LEKTI deficiency / SPINK5 pathway",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Netherton Syndrome",
+          "highest_phase": "P1",
+          "trial_name": "Evaluation of Topical ATR12-351 in Adults With Netherton Syndrome",
+          "trial_design": "Open-label Phase 1 topical safety/tolerability in adults",
+          "nct_ids": ["NCT06137157"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Azitra Inc.",
+          "key_milestones": ["Primary completion expected 2026-06-01"]
+        }
+      ]
+    },
+    {
+      "asset": "ATR-04",
+      "aka": ["ATR04-484"],
+      "modality": "Engineered live biotherapeutic (S. epidermidis strain SE484)",
+      "target": "EGFR inhibitor-associated dermal toxicity (IL-36g / S. aureus)",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "EGFR inhibitor-associated dermal toxicity / rash",
+          "highest_phase": "P2",
+          "trial_name": "A Study to Evaluate Topical ATR04-484 for EGFRi-Associated Dermal Toxicity",
+          "trial_design": "Phase 1/2 topical study in cancer patients on EGFR inhibitors",
+          "nct_ids": ["NCT06830863"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Azitra Inc.",
+          "key_milestones": ["Started 2025-08-25", "Primary completion expected 2027-01-15"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ATR-01", "indication": "Ichthyosis vulgaris", "reason": "Preclinical per company website"},
+    {"asset": "Bayer collaboration consumer-health strains", "reason": "Consumer health partnership, not clinical drug development"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT04731259", "asset": "ATR-04 (papulopustular rosacea)", "reason": "Withdrawn"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 0, "P2": 1, "P1": 1}
+}

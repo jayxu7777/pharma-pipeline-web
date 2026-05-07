@@ -1,0 +1,46 @@
+{
+  "issuer_name": "CARDINAL HEALTH INC",
+  "ticker": "CAH",
+  "exchange": "NYSE",
+  "cik": "0000721371",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-08-12",
+      "accession": "0000721371-25-000079",
+      "path": "data/cah_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "Not applicable - distributor; no proprietary drug pipeline page"
+    },
+    "ctgov": {
+      "path": "data/cah_ctgov_compact.json",
+      "note": "All Cardinal Health 414 LLC sponsored studies are TERMINATED, COMPLETED or WITHDRAWN; remaining records are partner/collaborator-only studies of legacy Lymphoseek/tilmanocept (FDA-approved imaging agent)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Cardinal Health is primarily a healthcare distribution and medical-products company. Subsidiary Cardinal Health 414, LLC markets the FDA-approved radiopharmaceutical Lymphoseek (technetium Tc 99m tilmanocept) for sentinel lymph node imaging. No active proprietary P1/P2/P3 development programs."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT02509585", "reason": "TERMINATED - cervical cancer Lymphoseek P2"},
+    {"nct_id": "NCT02857608", "reason": "WITHDRAWN - anal cancer Lymphoseek P2"},
+    {"nct_id": "NCT02509598", "reason": "COMPLETED - pediatric Lymphoseek P2 (post-marketing)"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT02589366", "reason": "UCSD-led, Cardinal as collaborator only"},
+    {"nct_id": "NCT02602353", "reason": "Lead Chemical Co. sponsor; Cardinal collaborator"},
+    {"nct_id": "NCT05800574", "reason": "Fox Chase Cancer Center investigator-initiated"},
+    {"nct_id": "NCT00279877", "reason": "University of Virginia device study; Cardinal collaborator"}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Distribution / services company - no proprietary clinical pipeline. Cardinal Health operates a Pharmaceutical and Specialty Solutions segment (drug distribution) and a Global Medical Products and Distribution segment. Its only branded therapeutic, Lymphoseek (Tc 99m tilmanocept), is an already-FDA-approved imaging agent; no active company-sponsored P1/P2/P3 trials of new molecular entities."
+}

@@ -1,0 +1,105 @@
+{
+  "issuer_name": "Nuvalent, Inc.",
+  "ticker": "NUVL",
+  "exchange": "Nasdaq",
+  "cik": "0001861560",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-073317",
+      "filed": "2026-02-26",
+      "doc": "nuvl-20251231.htm"
+    },
+    "website": {
+      "url": "https://nuvalent.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Nuvalent",
+      "trial_count": 4
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Zidesamtinib",
+      "aka": ["NVL-520"],
+      "modality": "Small molecule, brain-penetrant, selective ROS1 kinase inhibitor",
+      "target": "ROS1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced ROS1-positive NSCLC and other solid tumors (TKI pre-treated and TKI-naive)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ARROS-1",
+          "trial_design": "Phase 1/2 first-in-human dose escalation and expansion in ROS1+ NSCLC and other solid tumors",
+          "nct_ids": ["NCT05118789"],
+          "trial_status": "Recruiting; PDUFA target 2H 2026 for TKI pre-treated NSCLC",
+          "lead_sponsor": "Nuvalent Inc.",
+          "key_milestones": ["NDA submission for TKI-pretreated ROS1+ NSCLC; PDUFA target 2H 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Neladalkib",
+      "aka": ["NVL-655"],
+      "modality": "Small molecule, brain-penetrant, selective ALK kinase inhibitor",
+      "target": "ALK",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced ALK-positive NSCLC and other solid tumors (TKI pre-treated)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALKOVE-1",
+          "trial_design": "Phase 1/2 first-in-human dose escalation and expansion in ALK+ NSCLC and other solid tumors",
+          "nct_ids": ["NCT05384626"],
+          "trial_status": "Recruiting; pivotal data reported",
+          "lead_sponsor": "Nuvalent Inc.",
+          "key_milestones": ["Pivotal Phase 2 data reported"]
+        },
+        {
+          "indication": "Advanced ALK-positive NSCLC (TKI-naive, vs alectinib)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ALKAZAR",
+          "trial_design": "Phase 3 randomized, head-to-head vs alectinib in TKI-naive ALK+ NSCLC",
+          "nct_ids": ["NCT06765109"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Nuvalent Inc.",
+          "key_milestones": ["Enrollment ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "NVL-330",
+      "aka": [],
+      "modality": "Small molecule, brain-penetrant, selective HER2 kinase inhibitor",
+      "target": "HER2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic HER2-altered NSCLC",
+          "highest_phase": "Phase 1",
+          "trial_name": "HEROEX-1",
+          "trial_design": "Phase 1 first-in-human dose escalation in HER2-altered NSCLC",
+          "nct_ids": ["NCT06521554"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Nuvalent Inc.",
+          "key_milestones": ["Enrollment ongoing"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Discovery-stage programs (NVL-300 series and others) — not in active clinical trials"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 1,
+    "phase_2": 2,
+    "phase_1": 1,
+    "indications_total": 4
+  }
+}

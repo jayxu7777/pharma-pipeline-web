@@ -1,0 +1,34 @@
+{
+  "issuer_name": "Sharps Technology Inc.",
+  "ticker": "STSSW",
+  "exchange": "Nasdaq",
+  "cik": "0001737995",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014261",
+      "filing_date": "2026-03-31",
+      "doc": "form10-k.htm"
+    },
+    "website": {"error": "no public pipeline page found; medical-device company without a clinical pipeline page"},
+    "ctgov": {"unique_trials_p1_p3": 0, "sponsor_query": "Sharps Technology"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      {
+        "name": "Disposable safety syringe products",
+        "type": "Safety syringe medical devices",
+        "indication": "General injection / safety syringe use",
+        "notes": "Company began generating syringe revenues in 2025; in October 2025 discontinued R&D and in-house manufacturing. Future inventory will be sourced from third-party manufacturers."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Medical-device (safety syringe) company with no proprietary drug pipeline. Per FY2025 10-K, the Company discontinued R&D and manufacturing in October 2025 and now operates as a medical-device sales/distribution enterprise (with a separate digital-assets/Solana treasury strategy). No company-sponsored P1-P3 trials registered on ClinicalTrials.gov."
+}

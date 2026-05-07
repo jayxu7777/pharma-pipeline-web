@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Guardian Pharmacy Services, Inc.",
+  "ticker": "GRDN",
+  "exchange": "NYSE",
+  "cik": "0001802255",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-102172",
+      "filing_date": "2026-03-11",
+      "doc": "d16111d10k.htm",
+      "path": "data/grdn_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page expected - Guardian Pharmacy Services is a long-term-care pharmacy operator, not a drug developer"
+    },
+    "ctgov": {
+      "path": "data/grdn_ctgov_compact.json",
+      "hits": 0,
+      "note": "One raw sponsor hit but zero P1-3 interventional studies kept; no proprietary clinical trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Guardian Pharmacy Services operates a network of long-term-care (LTC) pharmacies that dispense medications to residents of assisted-living facilities, group homes, behavioral-health facilities, and other LTC settings. Service / dispensing business; no proprietary drugs."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Distribution / services company - no proprietary clinical pipeline. Guardian Pharmacy Services is a long-term-care pharmacy services operator (dispensing and pharmacy management for LTC facilities) and does not develop drugs."
+}

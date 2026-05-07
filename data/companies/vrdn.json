@@ -1,0 +1,110 @@
+{
+  "issuer_name": "Viridian Therapeutics, Inc.",
+  "ticker": "VRDN",
+  "exchange": "Nasdaq",
+  "cik": "0001590750",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001590750-26-000007",
+      "path": "data/vrdn_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.viridiantherapeutics.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/vrdn_ctgov_compact.json",
+      "lead_sponsor_query": "Viridian Therapeutics"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Veligrotug",
+      "aka": ["VRDN-001"],
+      "modality": "Monoclonal antibody (IV)",
+      "target": "IGF-1R (full antagonist)",
+      "license_origin": "Internal (Viridian); Japan licensed to Kissei (Jul 2025)",
+      "indications": [
+        {
+          "indication": "Thyroid eye disease (TED), active and chronic",
+          "highest_phase": "Phase 3 (BLA filed)",
+          "trial_name": "THRIVE / THRIVE-2 / OLE",
+          "trial_design": "Global, double-masked, placebo-controlled phase 3; OLE for non-responders",
+          "nct_ids": ["NCT05176639", "NCT06021054", "NCT06179875", "NCT06384547"],
+          "trial_status": "Phase 3 trials Completed; BLA accepted (Dec 2025) Priority Review; PDUFA target Jun 30, 2026",
+          "lead_sponsor": "Viridian Therapeutics, Inc.",
+          "key_milestones": [
+            "Breakthrough Therapy Designation May 2025",
+            "BLA filing accepted Dec 2025",
+            "PDUFA Jun 30, 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Elegrobart",
+      "aka": ["VRDN-003"],
+      "modality": "Half-life extended monoclonal antibody (subcutaneous, autoinjector)",
+      "target": "IGF-1R (full antagonist; same binding domain as veligrotug)",
+      "license_origin": "Internal (Viridian); Japan licensed to Kissei",
+      "indications": [
+        {
+          "indication": "Thyroid eye disease (TED), active",
+          "highest_phase": "Phase 3",
+          "trial_name": "REVEAL-1 (active TED) and supporting studies",
+          "trial_design": "Randomized, double-masked, placebo-controlled SC pivotal program",
+          "nct_ids": ["NCT06625411", "NCT06812325", "NCT07155668"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Viridian Therapeutics, Inc.",
+          "key_milestones": ["Primary completion early-mid 2026"]
+        },
+        {
+          "indication": "Thyroid eye disease (TED), chronic",
+          "highest_phase": "Phase 3",
+          "trial_name": "REVEAL-2 (chronic TED)",
+          "trial_design": "Randomized, double-masked, placebo-controlled SC pivotal",
+          "nct_ids": ["NCT06625398"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Viridian Therapeutics, Inc.",
+          "key_milestones": ["Primary completion ~Apr 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "VRDN-006",
+      "aka": [],
+      "modality": "FcRn inhibitor antibody (subcutaneous)",
+      "target": "Neonatal Fc receptor (FcRn)",
+      "license_origin": "Internal (Viridian)",
+      "indications": [
+        {
+          "indication": "Autoimmune diseases (FcRn-mediated; healthy volunteer Phase 1)",
+          "highest_phase": "Phase 1",
+          "trial_name": "VRDN-006 Phase 1 healthy volunteers",
+          "trial_design": "Single/multiple-dose Phase 1 in healthy volunteers",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing — Sept 2025 interim data showed class-consistent IgG reduction; future development plans 2026",
+          "lead_sponsor": "Viridian Therapeutics, Inc.",
+          "key_milestones": ["Future development plan disclosure in 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    "Anti-TSHR mAb for TED (preclinical)",
+    "VRDN-008 (half-life extended bispecific FcRn) — IND cleared Jan 2026; Phase 1 healthy-volunteer data expected H2 2026 (no patients dosed yet at snapshot — IND-pending dosing)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 3,
+    "phase_3_indications": 3,
+    "phase_2_indications": 0,
+    "phase_1_indications": 1
+  }
+}

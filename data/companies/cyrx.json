@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Cryoport, Inc.",
+  "ticker": "CYRX",
+  "exchange": "Nasdaq",
+  "cik": "0001124524",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-024180", "filing_date": "2026-03-05", "fiscal_year_end": "2025-12-31"},
+    "website": {"note": "Cryoport is a temperature-controlled supply chain solutions provider; no internal drug pipeline page applicable"},
+    "ctgov": {"sponsor_query": "Cryoport", "result": "0 trials as lead sponsor"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Cryoport is a life sciences supply chain and logistics company (cryogenic shipping, storage, informatics, BioStorage/BioServices) for biopharma cell and gene therapy customers. It is not a drug developer and has no internal P1/P2/P3 clinical pipeline.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "P3": 0, "P2": 0, "P1_or_P1_2": 0}
+}

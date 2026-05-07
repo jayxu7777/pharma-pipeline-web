@@ -1,0 +1,450 @@
+{
+  "issuer_name": "GSK plc",
+  "ticker": "GSK",
+  "exchange": "NYSE",
+  "cik": "0001131399",
+  "region": "UK (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F. Annual report content not retrieved via 10-K fetcher."},
+    "website": {"primary": "https://www.gsk.com/en-gb/innovation/pipeline/", "data_source": "Q4 2025 Pipeline assets and clinical trials appendix PDF (https://www.gsk.com/media/rs0mbgqw/fy-2025-pipeline-assets-and-clinical-trials-report.pdf)"},
+    "ctgov": {"file": "data/gsk_ctgov_compact.json", "lead_sponsor_query": "GlaxoSmithKline", "note": "Very large historical dataset; only NCTs explicitly listed in GSK Q4 2025 appendix used as canonical."}
+  },
+  "pipeline": [
+    {
+      "asset": "depemokimab",
+      "aka": ["Exdensur", "GSK3511294"],
+      "modality": "Long-acting anti-IL5 monoclonal antibody",
+      "target": "IL-5",
+      "license_origin": "Internal (anti-IL5 franchise)",
+      "indications": [
+        {"indication": "Severe asthma with eosinophilic phenotype", "highest_phase": "Registration/Phase 3", "trial_name": "SWIFT-1, SWIFT-2, AGILE", "trial_design": "Randomized, double-blind, placebo-controlled + open-label extension", "nct_ids": ["NCT04719832", "NCT04718103", "NCT05243680"], "trial_status": "APPROVED US (Q4 2025); EU/CN filed; data reported", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["US approval Q4 2025 (severe asthma)", "EU/CN approval expected H1 2026"]},
+        {"indication": "Chronic rhinosinusitis with nasal polyps (CRSwNP)", "highest_phase": "Registration/Phase 3", "trial_name": "ANCHOR-1, ANCHOR-2", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT05274750", "NCT05281523"], "trial_status": "APPROVED JP, UK; positive CHMP opinion EU", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["EU/CN regulatory decision H1 2026"]},
+        {"indication": "Eosinophilic granulomatosis with polyangiitis (EGPA)", "highest_phase": "Phase 3", "trial_name": "OCEAN", "trial_design": "Randomized, double-blind, double-dummy non-inferiority vs mepolizumab", "nct_ids": ["NCT05263934"], "trial_status": "Active, not recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["Phase 3 readout H2 2026", "US filing 2027"]},
+        {"indication": "Hypereosinophilic syndrome (HES)", "highest_phase": "Phase 3", "trial_name": "DESTINY", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT05334368"], "trial_status": "Active", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["Orphan Drug Designation JP"]},
+        {"indication": "COPD with type 2 inflammation", "highest_phase": "Phase 3", "trial_name": "ENDURA-1, ENDURA-2, VIGILANT", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT06959095", "NCT06961214", "NCT07177339"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "linerixibat",
+      "aka": ["GSK2330672"],
+      "modality": "IBAT (ileal bile acid transporter) inhibitor, oral small molecule",
+      "target": "ASBT/IBAT (SLC10A2)",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Cholestatic pruritus in primary biliary cholangitis (PBC)", "highest_phase": "Registration/Phase 3", "trial_name": "GLISTEN", "trial_design": "Two-part randomized, placebo-controlled, double-blind", "nct_ids": ["NCT04950127"], "trial_status": "Filed; data reported Q4 2024", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["US/CN/JP regulatory decisions H1-H2 2026", "Orphan Drug Designation US/EU/JP"]}
+      ]
+    },
+    {
+      "asset": "mepolizumab",
+      "aka": ["Nucala"],
+      "modality": "Anti-IL5 monoclonal antibody",
+      "target": "IL-5",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "COPD with eosinophilic phenotype", "highest_phase": "Registration/Phase 3", "trial_name": "MATINEE", "trial_design": "Randomized, double-blind, placebo-controlled add-on to triple therapy", "nct_ids": ["NCT04133909"], "trial_status": "Approved CN; EU positive CHMP opinion; primary data reported Q3 2024", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["EU regulatory decision H1 2026"]}
+      ]
+    },
+    {
+      "asset": "camlipixant",
+      "aka": ["GSK5464714", "BLU-5937"],
+      "modality": "P2X3 receptor antagonist, oral small molecule",
+      "target": "P2X3",
+      "license_origin": "In-license (Bellus Health acquisition)",
+      "indications": [
+        {"indication": "Refractory chronic cough (RCC)", "highest_phase": "Phase 3", "trial_name": "CALM-1, CALM-2", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT05599191", "NCT05600777"], "trial_status": "Active", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["Phase 3 readout H2 2026", "Filings US/EU/JP 2027"]}
+      ]
+    },
+    {
+      "asset": "efimosfermin alfa",
+      "aka": ["GSK6519754", "BOS-580"],
+      "modality": "FGF21 analog, fusion protein",
+      "target": "FGFR1c/KLB",
+      "license_origin": "In-license (Boston Pharmaceuticals)",
+      "indications": [
+        {"indication": "Metabolic dysfunction-associated steatohepatitis (MASH), F2-F3 stage", "highest_phase": "Phase 3", "trial_name": "ZENITH-1, ZENITH-2", "trial_design": "Randomized, double-blind, placebo-controlled, 3-arm", "nct_ids": ["NCT07221227", "NCT07221188"], "trial_status": "Started Q4 2025", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["Newly progressed to Phase 3 in Q4 2025"]}
+      ]
+    },
+    {
+      "asset": "salbutamol low-carbon MDI",
+      "aka": ["Ventolin (HFA-152a propellant)"],
+      "modality": "Beta 2 adrenergic receptor agonist (low-carbon metered dose inhaler reformulation)",
+      "target": "Beta-2 adrenergic receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Asthma", "highest_phase": "Phase 3", "trial_name": "Salbutamol HFA-152a long-term safety study", "trial_design": "Randomized, double-blind, parallel group", "nct_ids": ["NCT06261957"], "trial_status": "Data reported Q4 2025", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["EU regulatory submission acceptance H2 2026"]}
+      ]
+    },
+    {
+      "asset": "belantamab mafodotin",
+      "aka": ["Blenrep", "GSK2857916"],
+      "modality": "Anti-BCMA antibody-drug conjugate (ADC)",
+      "target": "BCMA",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Relapsed/refractory multiple myeloma (RRMM, 2L+)", "highest_phase": "Registration/Phase 3", "trial_name": "DREAMM-7, DREAMM-8", "trial_design": "Randomized, open-label, head-to-head vs SoC combinations", "nct_ids": ["NCT04246047", "NCT04484623"], "trial_status": "Filed; primary data reported", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["CN approval H1 2026 (DREAMM-7)", "Priority Review CN", "Breakthrough Designation CN"]},
+        {"indication": "Newly diagnosed multiple myeloma, transplant-ineligible (TI-NDMM)", "highest_phase": "Phase 3", "trial_name": "DREAMM-10", "trial_design": "Randomized open-label, BRd vs DRd", "nct_ids": ["NCT06679101"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []},
+        {"indication": "Relapsed/refractory multiple myeloma (extended dosing combinations)", "highest_phase": "Phase 2", "trial_name": "DREAMM-15", "trial_design": "Multicentre, open label, non-randomized", "nct_ids": ["NCT07227311"], "trial_status": "Trial start anticipated H1 2026", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []},
+        {"indication": "Newly diagnosed AL amyloidosis", "highest_phase": "Phase 2", "trial_name": "ALANIS", "trial_design": "Open-label, single-arm proof-of-concept", "nct_ids": ["NCT07224672"], "trial_status": "Trial start anticipated H1 2026", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "dostarlimab",
+      "aka": ["Jemperli", "TSR-042"],
+      "modality": "Anti-PD-1 monoclonal antibody",
+      "target": "PD-1",
+      "license_origin": "Acquired (Tesaro)",
+      "indications": [
+        {"indication": "dMMR/MSI-H locally advanced rectal cancer (neoadjuvant)", "highest_phase": "Phase 2 (registrational)", "trial_name": "AZUR-1", "trial_design": "Single-arm, open-label monotherapy", "nct_ids": ["NCT05723562"], "trial_status": "Active; FDA Commissioner's National Priority Voucher", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["Phase 3 readout H2 2026", "Filings 2027", "Breakthrough Designation US, Fast Track US"]},
+        {"indication": "dMMR/MSI-H Stage III/T4N0 colon cancer (perioperative)", "highest_phase": "Phase 3", "trial_name": "AZUR-2", "trial_design": "Open-label, randomized vs SoC chemo", "nct_ids": ["NCT05855200"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []},
+        {"indication": "MMRp/MSS T4N0 or stage III colon cancer (neoadjuvant)", "highest_phase": "Phase 2", "trial_name": "AZUR-4", "trial_design": "Open-label, randomized + chemo", "nct_ids": ["NCT06567782"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []},
+        {"indication": "Locally advanced unresected HNSCC (post chemoradiation)", "highest_phase": "Phase 3", "trial_name": "JADE", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT06256588"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "risvutatug rezetecan",
+      "aka": ["GSK5764227", "HS-20093"],
+      "modality": "B7-H3-targeted antibody-drug conjugate (ADC)",
+      "target": "B7-H3 (CD276)",
+      "license_origin": "In-license (Hansoh Pharma)",
+      "indications": [
+        {"indication": "Extensive-stage small cell lung cancer (ES-SCLC)", "highest_phase": "Phase 3", "trial_name": "EMBOLD-SCLC-301", "trial_design": "Randomized, open-label vs topotecan", "nct_ids": ["NCT07099898"], "trial_status": "Started Q3 2025", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["Orphan Drug Designation US/EU", "Breakthrough Designation US, EU"]},
+        {"indication": "Relapsed/refractory osteosarcoma", "highest_phase": "Phase 2 (designation phase)", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Breakthrough Designation US", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "velzatinib",
+      "aka": ["GSK6042981", "IDRX-42"],
+      "modality": "KIT inhibitor (oral small molecule)",
+      "target": "KIT",
+      "license_origin": "Acquired (IDRx)",
+      "indications": [
+        {"indication": "Gastrointestinal stromal tumours (GIST), post-imatinib", "highest_phase": "Phase 3", "trial_name": "StrateGIST 3", "trial_design": "Randomized open-label vs sunitinib", "nct_ids": ["NCT07218926"], "trial_status": "Started Q4 2025", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["Newly progressed to Phase 3 Q4 2025", "Fast Track US", "Orphan Drug Designation US/EU"]}
+      ]
+    },
+    {
+      "asset": "niraparib",
+      "aka": ["Zejula"],
+      "modality": "PARP inhibitor",
+      "target": "PARP1/2",
+      "license_origin": "Acquired (Tesaro)",
+      "indications": [
+        {"indication": "Newly diagnosed glioblastoma multiforme", "highest_phase": "Phase 3", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Active; Orphan Drug Designation US", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "momelotinib",
+      "aka": ["Ojjaara", "Omjjara"],
+      "modality": "JAK1/JAK2/ACVR1 inhibitor (oral small molecule)",
+      "target": "JAK1, JAK2, ACVR1",
+      "license_origin": "Acquired (Sierra Oncology)",
+      "indications": [
+        {"indication": "Low-risk myelodysplastic syndromes (LR-MDS)", "highest_phase": "Phase 2", "trial_name": "MIDAS", "trial_design": "Randomized, open-label dose optimisation/exploration", "nct_ids": ["NCT06847867"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []},
+        {"indication": "Transfusion-dependent primary/secondary myelofibrosis", "highest_phase": "Phase 2", "trial_name": "ODYSSEY", "trial_design": "Open-label, momelotinib + luspatercept", "nct_ids": ["NCT06517875"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "mocertatug rezetecan",
+      "aka": ["GSK5733584"],
+      "modality": "B7-H4-targeted antibody-drug conjugate (ADC)",
+      "target": "B7-H4",
+      "license_origin": "In-license",
+      "indications": [
+        {"indication": "Platinum-resistant ovarian cancer", "highest_phase": "Phase 3", "trial_name": "BEHOLD-Ovarian01", "trial_design": "Randomized, open-label vs SoC chemotherapy", "nct_ids": ["NCT07286266"], "trial_status": "Trial start anticipated H1 2026", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []},
+        {"indication": "Recurrent endometrial cancer", "highest_phase": "Phase 3", "trial_name": "BEHOLD-Endometrial01", "trial_design": "Randomized open-label vs SoC chemo", "nct_ids": ["NCT07286331"], "trial_status": "Trial start anticipated H1 2026", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []},
+        {"indication": "Gynaecologic malignancies (Phase 1)", "highest_phase": "Phase 1", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Phase 1 ongoing per GSK appendix", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Benlysta (belimumab)",
+      "aka": [],
+      "modality": "Anti-BLyS (BAFF) monoclonal antibody",
+      "target": "BLyS/BAFF",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Systemic sclerosis-associated ILD (SSc-ILD)", "highest_phase": "Phase 2/3", "trial_name": "BLISSc-ILD", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT05878717"], "trial_status": "Recruiting; Orphan Drug Designation US", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []},
+        {"indication": "Connective tissue disease-associated ILD (CTD-ILD)", "highest_phase": "Phase 3", "trial_name": "BEconneCTD-ILD", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT06572384"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "GSK4532990",
+      "aka": ["AZD2693"],
+      "modality": "HSD17B13-targeted RNA interference (siRNA)",
+      "target": "HSD17B13 mRNA",
+      "license_origin": "In-license",
+      "indications": [
+        {"indication": "MASH/NASH with advanced fibrosis", "highest_phase": "Phase 2b", "trial_name": "HORIZON, SKYLINE", "trial_design": "Randomized, placebo-controlled (HORIZON); open-label dose exploration (SKYLINE)", "nct_ids": ["NCT05583344", "NCT06104319"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []},
+        {"indication": "Alcohol-related liver disease (ALD)", "highest_phase": "Phase 2", "trial_name": "STARLIGHT", "trial_design": "Dose-finding, double-blind, placebo-controlled", "nct_ids": ["NCT06613698"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "GSK5784283",
+      "aka": [],
+      "modality": "Anti-TSLP monoclonal antibody",
+      "target": "TSLP",
+      "license_origin": "In-license",
+      "indications": [
+        {"indication": "Uncontrolled asthma", "highest_phase": "Phase 2", "trial_name": "NAZARE", "trial_design": "Randomized, double-blind, placebo-controlled, dose finding", "nct_ids": ["NCT06748053"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "nivisnebart",
+      "aka": ["GSK4527226", "AL101"],
+      "modality": "Anti-sortilin monoclonal antibody",
+      "target": "Sortilin",
+      "license_origin": "In-license (Alector)",
+      "indications": [
+        {"indication": "Early Alzheimer's disease (MCI/mild AD)", "highest_phase": "Phase 2", "trial_name": "PROGRESS-AD", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT06079190"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "GSK3862995",
+      "aka": [],
+      "modality": "Anti-IL33 monoclonal antibody",
+      "target": "IL-33",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Bronchiectasis (NCFB)", "highest_phase": "Phase 2", "trial_name": "GSK3862995B bronchiectasis trial", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT07201051"], "trial_status": "Started Q4 2025", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []},
+        {"indication": "COPD (Phase 1)", "highest_phase": "Phase 1", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Phase 1 ongoing per GSK appendix", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "cabotegravir long-acting",
+      "aka": ["GSK1265744", "Vocabria/Apretude (approved formulations)"],
+      "modality": "HIV integrase strand transfer inhibitor (long-acting injectable)",
+      "target": "HIV integrase",
+      "license_origin": "Internal (ViiV Healthcare)",
+      "indications": [
+        {"indication": "HIV pre-exposure prophylaxis (Q4M ultra long-acting formulation)", "highest_phase": "Phase 2b", "trial_name": "CAB ULA Q4M", "trial_design": "Single arm, repeat dose PK study", "nct_ids": ["NCT06741397"], "trial_status": "Recruiting", "lead_sponsor": "ViiV Healthcare", "key_milestones": ["EXTEND4M Phase 3 readout H2 2026", "US filing 2027"]}
+      ]
+    },
+    {
+      "asset": "VH3810109 (N6LS)",
+      "aka": [],
+      "modality": "Broadly neutralizing antibody",
+      "target": "HIV gp120 CD4 binding site",
+      "license_origin": "Internal (ViiV)",
+      "indications": [
+        {"indication": "HIV treatment (ART-experienced suppressed adults)", "highest_phase": "Phase 2b", "trial_name": "EMBRACE", "trial_design": "Randomized, open-label, in combination with cabotegravir", "nct_ids": ["NCT05996471"], "trial_status": "Recruiting", "lead_sponsor": "ViiV Healthcare", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "VH4011499",
+      "aka": [],
+      "modality": "HIV capsid protein inhibitor",
+      "target": "HIV capsid",
+      "license_origin": "Internal (ViiV)",
+      "indications": [
+        {"indication": "HIV", "highest_phase": "Phase 2", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Phase 2 per GSK appendix", "lead_sponsor": "ViiV Healthcare", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "VH4524184",
+      "aka": [],
+      "modality": "HIV integrase inhibitor",
+      "target": "HIV integrase",
+      "license_origin": "In-license/alliance",
+      "indications": [
+        {"indication": "HIV", "highest_phase": "Phase 2", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Phase 2 per GSK appendix", "lead_sponsor": "ViiV Healthcare", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Arexvy (RSVPreF3 OA)",
+      "aka": ["GSK3844766A"],
+      "modality": "Recombinant protein, AS01E adjuvanted vaccine",
+      "target": "RSV pre-fusion F glycoprotein",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "RSV in adults 18-49 years at increased risk (AIR)", "highest_phase": "Registration/Phase 3", "trial_name": "RSV OA=ADJ-025", "trial_design": "Open-label non-inferiority", "nct_ids": ["NCT06389487"], "trial_status": "Filed US, EU, JP", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["US/JP regulatory decision H1 2026"]},
+        {"indication": "RSV in adults 18+ immunocompromised (IC)", "highest_phase": "Registration/Phase 3", "trial_name": "RSV OA=ADJ-023", "trial_design": "Randomized, controlled, open-label in transplant recipients", "nct_ids": ["NCT05921903"], "trial_status": "Approved EU; filed US/EU/JP", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["US/EU/JP regulatory decision H2 2026"]},
+        {"indication": "RSV in adults 60+ (China and additional populations)", "highest_phase": "Phase 3", "trial_name": "RSV OA=ADJ-021, ADJ-024, ADJ-028, ADJ-013, ADJ-019, ADJ-020, ADJ-012, ADJ-006, ADJ-004", "trial_design": "Various randomized/open-label studies for revaccination, co-administration, China population", "nct_ids": ["NCT06551181", "NCT06614725", "NCT07220109", "NCT06374394", "NCT05879107", "NCT05966090", "NCT06534892", "NCT04886596", "NCT04732871"], "trial_status": "Active/Recruiting; CN filing", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["China 60+ regulatory decision 2027"]}
+      ]
+    },
+    {
+      "asset": "Blujepa (gepotidacin)",
+      "aka": ["GSK2140944"],
+      "modality": "Triazaacenaphthylene bacterial topoisomerase II inhibitor (oral)",
+      "target": "Bacterial DNA gyrase/topoisomerase IV",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Uncomplicated UTI (acute cystitis)", "highest_phase": "Registration/Phase 3", "trial_name": "EAGLE 2, EAGLE 3", "trial_design": "Randomized, double-blind, double-dummy vs nitrofurantoin", "nct_ids": ["NCT04020341", "NCT04187144"], "trial_status": "Approved US; EU filed", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["EU filing 2027"]},
+        {"indication": "Urogenital gonorrhoea", "highest_phase": "Registration/Phase 3", "trial_name": "EAGLE 1", "trial_design": "Randomized, multicentre, open-label vs ceftriaxone+azithromycin", "nct_ids": ["NCT04010539"], "trial_status": "Approved US; EU filing 2027", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "tebipenem pivoxil",
+      "aka": ["GSK3778712", "SPR994"],
+      "modality": "Oral antibacterial carbapenem",
+      "target": "Bacterial penicillin-binding proteins",
+      "license_origin": "In-license (Spero Therapeutics)",
+      "indications": [
+        {"indication": "Complicated UTI", "highest_phase": "Registration/Phase 3", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Filed US (acceptance); QIDP and Fast Track", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["US regulatory decision H1 2026"]}
+      ]
+    },
+    {
+      "asset": "bepirovirsen",
+      "aka": ["GSK3228836", "IONIS-HBVRx"],
+      "modality": "Antisense oligonucleotide (ASO)",
+      "target": "Hepatitis B virus mRNA",
+      "license_origin": "In-license (Ionis)",
+      "indications": [
+        {"indication": "Chronic HBV infection (non-cirrhotic, on NA therapy)", "highest_phase": "Registration/Phase 3", "trial_name": "B-WELL-1, B-WELL-2", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT05630807", "NCT05630820"], "trial_status": "Positive Phase 3 readout; filings underway", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["US/JP regulatory decision H2 2026", "EU/CN 2027", "SENKU JP, Breakthrough CN"]},
+        {"indication": "Chronic HBV with HIV co-infection", "highest_phase": "Phase 2", "trial_name": "B-FOCUS", "trial_design": "Randomized, double-blind, placebo-controlled", "nct_ids": ["NCT06497504"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Bexsero (Meningococcal B vaccine)",
+      "aka": [],
+      "modality": "Recombinant protein, OMV (outer membrane vesicle) vaccine",
+      "target": "Neisseria meningitidis serogroup B antigens",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Meningitis B in infants (US line extension)", "highest_phase": "Registration/Phase 3", "trial_name": "Not on public registry (line extension)", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Filed US", "lead_sponsor": "GlaxoSmithKline", "key_milestones": ["US regulatory decision H2 2026"]}
+      ]
+    },
+    {
+      "asset": "GSK4178116 (Varicella new seed)",
+      "aka": [],
+      "modality": "Live, attenuated varicella vaccine",
+      "target": "Varicella zoster virus",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Varicella prevention in children (12-15 months)", "highest_phase": "Phase 3", "trial_name": "VNS Phase 3 program (NCT06693895, NCT06740630, NCT06806137, NCT06855160)", "trial_design": "Randomized, observer-blind, controlled vs Varivax", "nct_ids": ["NCT06693895", "NCT06740630", "NCT06806137", "NCT06855160"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "alpibectir",
+      "aka": ["BVL-GSK3729098"],
+      "modality": "Ethionamide booster (oral small molecule)",
+      "target": "EthR (M. tuberculosis transcriptional regulator)",
+      "license_origin": "In-license (Bioversys)",
+      "indications": [
+        {"indication": "Tuberculosis", "highest_phase": "Phase 2", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Phase 2; Fast Track US", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "ganfeborole",
+      "aka": ["GSK3036656"],
+      "modality": "Leucyl t-RNA synthetase inhibitor (oral)",
+      "target": "M. tuberculosis LeuRS",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Drug-sensitive pulmonary tuberculosis", "highest_phase": "Phase 2a", "trial_name": "GSK3036656 EBA combination study", "trial_design": "Parallel group, randomized, open-label combination study", "nct_ids": ["NCT05382312"], "trial_status": "Active", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "GSK4077164",
+      "aka": [],
+      "modality": "Bivalent GMMA + typhoid conjugate vaccine (TCV)",
+      "target": "S. typhimurium, S. enteritidis, S. Typhi",
+      "license_origin": "In-license (alliance)",
+      "indications": [
+        {"indication": "Invasive non-typhoidal salmonella (iNTS)", "highest_phase": "Phase 2a", "trial_name": "iNTS age-de-escalation study", "trial_design": "Observer-blind, randomized, controlled, age-de-escalation", "nct_ids": ["NCT06213506"], "trial_status": "Recruiting", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "GSK4382276",
+      "aka": [],
+      "modality": "mRNA vaccine (multivalent)",
+      "target": "Influenza HA antigens",
+      "license_origin": "In-license (CureVac alliance)",
+      "indications": [
+        {"indication": "Seasonal influenza", "highest_phase": "Phase 2", "trial_name": "FLU SV mRNA-027, FLU SV mRNA-028, mRNA-flu Phase 2a", "trial_design": "Randomized, observer-blind, dose finding", "nct_ids": ["NCT06431607", "NCT07121192", "NCT07204964"], "trial_status": "Active/Recruiting; Fast Track US", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "GSK4396687",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "SARS-CoV-2 spike",
+      "license_origin": "In-license (CureVac alliance)",
+      "indications": [
+        {"indication": "COVID-19", "highest_phase": "Phase 2", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Phase 2 per GSK appendix", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "GSK4406371 (MMRV new seed)",
+      "aka": [],
+      "modality": "Live, attenuated MMRV vaccine",
+      "target": "Measles, mumps, rubella, varicella",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "MMRV in healthy children 4-6 years", "highest_phase": "Phase 2", "trial_name": "MMRV new seed Phase 2", "trial_design": "Single-blind, randomized, controlled vs ProQuad", "nct_ids": ["NCT05630846"], "trial_status": "Active; primary completion Q4 2024", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "GSK5102188",
+      "aka": [],
+      "modality": "Recombinant subunit, adjuvanted vaccine",
+      "target": "UTI antigens",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Urinary tract infection prophylaxis", "highest_phase": "Phase 1/2", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Phase 2 per GSK appendix", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "GSK5536522",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "Influenza H5N1 hemagglutinin",
+      "license_origin": "In-license (CureVac alliance)",
+      "indications": [
+        {"indication": "Pre-pandemic flu (H5N1)", "highest_phase": "Phase 1/2", "trial_name": "Not on public registry", "trial_design": "Not specified", "nct_ids": "Not on public registry", "trial_status": "Phase 1/2 per GSK appendix", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "GSK5637608 (daplusiran/tomligisiran)",
+      "aka": [],
+      "modality": "HBV-targeted siRNA",
+      "target": "HBV mRNA",
+      "license_origin": "In-license",
+      "indications": [
+        {"indication": "Chronic HBV infection (combo with bepirovirsen)", "highest_phase": "Phase 2b", "trial_name": "B-UNITED", "trial_design": "Randomized, partially placebo-controlled, double-blind sequential therapy", "nct_ids": ["NCT06537414"], "trial_status": "Recruiting; Breakthrough Designation CN", "lead_sponsor": "GlaxoSmithKline", "key_milestones": []}
+      ]
+    }
+  ],
+  "phase_1_assets_summary": {
+    "note": "GSK lists 23 Phase 1 assets in Q4 2025 appendix. They are tracked here as a compact list rather than expanded indications (low data per asset).",
+    "items": [
+      {"asset": "GSK4347859", "modality": "Interferon pathway modulator", "indication": "SLE"},
+      {"asset": "GSK4527363", "modality": "B-cell modulator", "indication": "SLE"},
+      {"asset": "GSK4528287", "modality": "Anti-IL23-IL18 bispecific", "indication": "Inflammatory bowel disease"},
+      {"asset": "GSK4771261", "modality": "mAb against novel kidney target", "indication": "Autosomal dominant PKD"},
+      {"asset": "GSK5926371", "modality": "Anti-CD19-CD20-CD3 trispecific", "indication": "Autoimmune disease"},
+      {"asset": "GSK6582701", "modality": "PDE3/4 inhibitor", "indication": "COPD"},
+      {"asset": "GSK6759821", "modality": "siRNA", "indication": "COPD"},
+      {"asset": "belantamab (GSK2857914)", "modality": "Anti-BCMA antibody (non-ADC)", "indication": "Multiple myeloma"},
+      {"asset": "GSK5458514", "modality": "PSMAxCD3 T cell engager", "indication": "Prostate cancer (Phase 1/2)"},
+      {"asset": "GSK5460025", "modality": "Nucleotide excision repair targeting agent", "indication": "Solid tumours (Phase 1/2)"},
+      {"asset": "XMT-2056", "modality": "STING agonist ADC", "indication": "Cancer (Mersana, GSK option)"},
+      {"asset": "VH4527079", "modality": "HIV entry inhibitor", "indication": "HIV"},
+      {"asset": "GSK3772701", "modality": "P. falciparum whole cell inhibitor", "indication": "Malaria"},
+      {"asset": "GSK3882347", "modality": "FimH antagonist", "indication": "Uncomplicated UTI"},
+      {"asset": "GSK3923868", "modality": "PI4K beta inhibitor", "indication": "Rhinovirus disease"},
+      {"asset": "GSK3965193", "modality": "PAPD5/PAPD7 inhibitor", "indication": "Chronic HBV (Phase 1/2)"},
+      {"asset": "GSK4024484", "modality": "P. falciparum whole cell inhibitor", "indication": "Malaria"},
+      {"asset": "GSK4424989", "modality": "Recombinant/glycoconjugate vaccine", "indication": "Group A streptococcus"},
+      {"asset": "GSK5251738", "modality": "TLR8 agonist", "indication": "Chronic HBV"},
+      {"asset": "GSK5459248", "modality": "MAPS pneumococcal 30+ valent (adults)", "indication": "Pneumococcal disease"},
+      {"asset": "GSK5475152", "modality": "mRNA combo", "indication": "Seasonal flu/COVID-19 (Phase 1/2)"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "latozinemab", "reason": "Removed from Phase 3 in Q4 2025 (frontotemporal dementia)"},
+    {"asset": "GSK5101955", "reason": "Removed from Phase 2 in Q4 2025 (paediatric pneumococcal disease)"},
+    {"asset": "GSK3888130", "reason": "Removed from Phase 1 (autoimmune disease)"},
+    {"asset": "GSK5462688", "reason": "Removed from Phase 1 (alpha-1 antitrypsin deficiency)"},
+    {"asset": "GSK4418959", "reason": "Removed from Phase 1 (Werner helicase, dMMR/MSI-H solid tumours)"},
+    {"asset": "GSK4524101", "reason": "Removed from Phase 1 (DNA polymerase theta, cancer)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_pipeline_assets": 35,
+    "phase_3_or_registration": 17,
+    "phase_2": 13,
+    "phase_1": 21,
+    "note": "Counts reflect distinct assets from GSK Q4 2025 appendix. Some assets span multiple phases across indications; phase counts reference the highest phase per asset."
+  }
+}

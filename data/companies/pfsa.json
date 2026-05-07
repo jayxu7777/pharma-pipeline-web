@@ -1,0 +1,95 @@
+{
+  "issuer_name": "Profusa, Inc.",
+  "ticker": "PFSA",
+  "exchange": "Nasdaq",
+  "cik": "0001859807",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-044046",
+      "filing_date": "2026-04-15",
+      "doc": "ea0282813-10k_profusa.htm",
+      "note": "Medical-device (biosensor) issuer. Pipeline section enumerates Lumee Oxygen (CE-marked) and Lumee Glucose (in clinical trials)."
+    },
+    "website": {
+      "url": "https://profusa.com/pipeline",
+      "note": "Pipeline page lists Lumee Oxygen (EU approved, US pivotal Q4 2025-Q2 2026), Lumee Glucose (CE/FDA submission phase, pivotal planning Q4 2025-Q2 2026), Mayo Clinic collaboration (development), and future analytes (lactate, CO2, sodium, ethanol). No NCT IDs displayed."
+    },
+    "ctgov": {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.spons=Profusa",
+      "result": "1 raw study returned, 0 with phase P1-P3 — device studies are typically registered as N/A phase, so they fall outside the P1-P3 filter."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Lumee Glucose",
+      "aka": ["Wireless Lumee Glucose System"],
+      "modality": "Implantable hydrogel biosensor (continuous glucose monitor)",
+      "target": "Interstitial glucose",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Continuous glucose monitoring in diabetes / pre-diabetes",
+          "highest_phase": "Pivotal (device)",
+          "trial_name": "Lumee Glucose pivotal / CE-Mark study",
+          "trial_design": "Pivotal device study supporting EU CE-mark and planned US FDA submission; insertable hydrogel biosensor read by external optical reader and smartphone app.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE — pivotal planning Q4 2025-Q2 2026; EU launch expected 2026 subject to regulatory approval; US FDA submission/approval targeted 2027.",
+          "lead_sponsor": "Profusa, Inc.",
+          "key_milestones": [
+            "Pivotal study readout / data publication: Q4 2025 - Q2 2026",
+            "EU commercial launch (CE mark): 2026",
+            "US FDA submission: targeted 2026-2027",
+            "US approval: targeted Q1-Q2 2027"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Lumee Oxygen (US pivotal)",
+      "aka": ["Wireless Lumee Oxygen System", "Lumee Oxygen Platform"],
+      "modality": "Implantable hydrogel tissue-oxygen biosensor",
+      "target": "Tissue oxygen (pO2)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Tissue oxygen monitoring in peripheral arterial disease / critical limb ischemia (CLI / CLTI), including post-revascularization monitoring",
+          "highest_phase": "Pivotal (device, US)",
+          "trial_name": "Lumee Oxygen US pivotal study",
+          "trial_design": "US pivotal IDE-style study supporting FDA clearance for the Wireless Lumee Oxygen System; product already CE-marked and EU-launched (2023).",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE — US pivotal study scheduled to begin Q4 2025-Q2 2026; FDA submission targeted Q3-Q4 2026.",
+          "lead_sponsor": "Profusa, Inc.",
+          "key_milestones": [
+            "US pivotal study start: Q4 2025 - Q2 2026",
+            "FDA submission: Q3-Q4 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_devices": [
+      {
+        "name": "Lumee Oxygen Platform",
+        "status": "CE Mark (EU); commercial launch in EU since 2023; sold for research-use-only in US (animal models / in vitro)",
+        "indication": "Tissue oxygen monitoring in PAD / CLI"
+      }
+    ]
+  },
+  "excluded_preclinical": [
+    "Future analyte sensors: lactate, CO2, sodium, ethanol — research stage",
+    "Mayo Clinic personalized-healthcare collaboration — product-development stage, launch anticipated Q3 2027+"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3_or_pivotal": 2,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": null
+}

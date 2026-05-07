@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Cordyceps Sunshine Biotech Holdings Co., Ltd.",
+  "ticker": "RAJAF",
+  "exchange": "OTC",
+  "cik": "0001885680",
+  "region": "TW",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found in EDGAR; issuer is a Taiwan-based foreign filer (likely files 20-F or no SEC annual report). EDGAR submissions API returned no 10-K accessions."},
+    "website": {
+      "url": "http://www.cordyceps-sunshine.com/",
+      "note": "Corporate site lists dietary supplement products only (Taiwanofungus oral pills/shots, collagen drinks, chocolate). No drug pipeline disclosed."
+    },
+    "ctgov": {
+      "path": "data/rajaf_ctgov_compact.json",
+      "trials_p1_p3": 0,
+      "note": "No trials found with sponsor='Cordyceps Sunshine Biotech'."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Cordyceps Sunshine Biotech Holdings is a Taiwan-based cordyceps cultivator and dietary-supplement company (Taiwanofungus oral products, collagen drinks, chocolate). It is not a clinical-stage drug developer; no IND-stage or P1/P2/P3 sponsored interventional drug trials are disclosed on the corporate website or registered on ClinicalTrials.gov.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_total": 0, "p3": 0, "p2": 0, "p1": 0}
+}

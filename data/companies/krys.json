@@ -1,0 +1,182 @@
+{
+  "issuer_name": "Krystal Biotech, Inc.",
+  "ticker": "KRYS",
+  "exchange": "Nasdaq",
+  "cik": "0001711279",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001711279-26-000016", "filed": "2026-02-17", "doc": "krys-20251231.htm", "pipeline_section_file": "data/krys_10k_pipeline_section.txt"},
+    "website": {"url": "https://www.krystalbio.com/science/pipeline/", "error": "JS-rendered SPA, content not extractable via WebFetch"},
+    "ctgov": {"file": "data/krys_ctgov_compact.json", "sponsor_query": "Krystal Biotech"}
+  },
+  "commercial_product": {
+    "brand": "VYJUVEK (beremagene geperpavec; B-VEC; KB103)",
+    "indication": "Dystrophic epidermolysis bullosa (DEB) — both recessive and dominant",
+    "approval_status": "FDA-approved (May 2023, US); EU approved",
+    "modality": "HSV-1 vector-based topical gene therapy delivering COL7A1"
+  },
+  "pipeline": [
+    {
+      "asset": "KB803",
+      "aka": [],
+      "modality": "Topical HSV-1 vector gene therapy",
+      "target": "COL7A1 (next-generation B-VEC follow-on)",
+      "license_origin": "Internally developed (Krystal STAR-D platform)",
+      "indications": [
+        {
+          "indication": "Dystrophic epidermolysis bullosa (next-gen formulation)",
+          "highest_phase": "P3",
+          "trial_name": "KB803 vs placebo in DEB (Phase 3)",
+          "trial_design": "Randomized, double-blind, placebo-controlled phase 3",
+          "nct_ids": ["NCT07016750"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Krystal Biotech, Inc.",
+          "key_milestones": ["Initiated June 2025; primary completion Dec 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "KB707",
+      "aka": [],
+      "modality": "HSV-1 vector expressing IL-12 and IL-2 (oncology)",
+      "target": "Tumor microenvironment cytokine delivery (IL-12/IL-2)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic NSCLC and other lung tumors (inhaled formulation)",
+          "highest_phase": "P1/P2",
+          "trial_name": "OPAL-1 (KB707 inhaled in solid tumors affecting the lungs)",
+          "trial_design": "Phase 1/2 inhaled KB707 +/- pembrolizumab/docetaxel",
+          "nct_ids": ["NCT06228326"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Krystal Biotech, Inc.",
+          "key_milestones": ["FDA RMAT designation granted Feb 2026 for advanced/metastatic NSCLC"]
+        },
+        {
+          "indication": "Locally advanced or metastatic solid tumors (intratumoral, melanoma focus)",
+          "highest_phase": "P1/P2",
+          "trial_name": "PEARL-1 (KB707 intratumoral in solid tumors incl. melanoma)",
+          "trial_design": "Phase 1/2 intratumoral KB707 +/- Opdualag or pembrolizumab",
+          "nct_ids": ["NCT05970497"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Krystal Biotech, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "KB407",
+      "aka": [],
+      "modality": "Inhaled HSV-1 vector gene therapy delivering CFTR",
+      "target": "CFTR",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Cystic fibrosis",
+          "highest_phase": "P1",
+          "trial_name": "CORAL-1 (inhaled KB407 in CF)",
+          "trial_design": "Phase 1 open-label dose escalation",
+          "nct_ids": ["NCT05504837"],
+          "trial_status": "Recruiting (positive Cohort 3 interim Jan 2026)",
+          "lead_sponsor": "Krystal Biotech, Inc.",
+          "key_milestones": ["FDA/EMA Orphan Designation; FDA RPDD; CFF TDN sanctioning (Jan 2025); Cohort 3 positive interim (Jan 2026)"]
+        }
+      ]
+    },
+    {
+      "asset": "KB408",
+      "aka": [],
+      "modality": "Inhaled HSV-1 vector gene therapy delivering wild-type SERPINA1",
+      "target": "SERPINA1 (alpha-1 antitrypsin)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Alpha-1 antitrypsin deficiency (AATD) lung disease",
+          "highest_phase": "P1",
+          "trial_name": "SERPENTINE-1",
+          "trial_design": "Phase 1 open-label single-dose escalation in Pi*ZZ/Pi*ZNull adults",
+          "nct_ids": ["NCT06049082"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Krystal Biotech, Inc.",
+          "key_milestones": ["FDA Orphan Designation"]
+        }
+      ]
+    },
+    {
+      "asset": "KB801",
+      "aka": [],
+      "modality": "Topical/ophthalmic HSV-1 vector gene therapy delivering NGF",
+      "target": "NGF (nerve growth factor)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Neurotrophic keratitis (Stage 2 or 3)",
+          "highest_phase": "P1/P2",
+          "trial_name": "EMERALD-1 (KB801 vs placebo)",
+          "trial_design": "Randomized, placebo-controlled phase 1/2",
+          "nct_ids": ["NCT06999733"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Krystal Biotech, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "KB304",
+      "aka": [],
+      "modality": "Aesthetics — HSV-1 vector gene therapy expressing collagen/elastin-stimulating proteins",
+      "target": "Aesthetic dermal proteins (Jeune subsidiary)",
+      "license_origin": "Internally developed (Jeune Aesthetics)",
+      "indications": [
+        {
+          "indication": "Decollete wrinkles / pigmentation in women",
+          "highest_phase": "P1/P2",
+          "trial_name": "KB304 in decollete wrinkles",
+          "trial_design": "Randomized, placebo-controlled phase 1/2",
+          "nct_ids": ["NCT06724900"],
+          "trial_status": "Active, not recruiting (primary completion July 2025)",
+          "lead_sponsor": "Krystal Biotech, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "KB301",
+      "aka": [],
+      "modality": "Intradermal HSV-1 vector expressing human Type III collagen (COL3)",
+      "target": "COL3A1",
+      "license_origin": "Internally developed (Jeune Aesthetics)",
+      "indications": [
+        {
+          "indication": "Superficial skin depressions / wrinkles / fine lines",
+          "highest_phase": "P1",
+          "trial_name": "KB301 in skin depressions",
+          "trial_design": "Phase 1 open-label",
+          "nct_ids": ["NCT04540900"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Krystal Biotech, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "KB105", "indication": "TGM1-deficient autosomal recessive congenital ichthyosis", "reason": "Phase 1/2 (NCT04047732) and Phase 2 (NCT05735158) listed as UNKNOWN status; program de-emphasized in pipeline disclosures"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "KB407", "trial": "NCT05095246", "reason": "Withdrawn early Australian phase 1; superseded by US CORAL-1 (NCT05504837)"},
+    {"asset": "B-VEC / KB103 (DEB pivotal)", "trial": "NCT04491604, NCT04917874, NCT03536143", "reason": "Completed; product approved as VYJUVEK (commercial)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 7,
+    "p3_indications": 1,
+    "p2_indications": 0,
+    "p1_indications": 2,
+    "p1_p2_indications": 4,
+    "active_clinical_indications_total": 7,
+    "commercial_products": 1
+  }
+}

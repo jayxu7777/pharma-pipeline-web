@@ -1,0 +1,68 @@
+{
+  "issuer_name": "KalVista Pharmaceuticals, Inc.",
+  "ticker": "KALV",
+  "exchange": "Nasdaq",
+  "cik": "0001348911",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000950170-25-095011", "filing_date": "2025-07-10", "doc": "kalv-20250430.htm", "fiscal_year_end": "2025-04-30"},
+    "website": {"url": "https://www.kalvista.com/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "KalVista Pharmaceuticals", "trials_returned": 11}
+  },
+  "pipeline": [
+    {
+      "asset": "Sebetralstat (KVD900)",
+      "aka": ["EKTERLY", "Ekterly"],
+      "modality": "Oral plasma kallikrein inhibitor (small molecule)",
+      "target": "Plasma kallikrein",
+      "license_origin": "Internal (KalVista). Royalty stream sold to DRI Healthcare; Japan licensed to Kaken; Canada to Pendopharm.",
+      "indications": [
+        {
+          "indication": "Hereditary angioedema (HAE) - on-demand treatment in pediatric patients ages 2-11 (orally disintegrating tablet)",
+          "highest_phase": "Phase 3",
+          "trial_name": "KONFIDENT-KID - Open-Label Safety/PK/Efficacy of Sebetralstat in Pediatric Patients (Ages 2-11) With HAE",
+          "trial_design": "Open-label Phase 3 of ODT formulation in pediatrics ages 2-11; enrollment completed Mar 2025",
+          "nct_ids": ["NCT06467084"],
+          "trial_status": "Completed (primary completion 2026-01-15); supports pediatric NDA supplement",
+          "lead_sponsor": "KalVista Pharmaceuticals, Ltd.",
+          "key_milestones": ["Pediatric sNDA expected"]
+        },
+        {
+          "indication": "HAE on-demand - long-term safety extension in adolescents/adults",
+          "highest_phase": "Phase 3",
+          "trial_name": "KONFIDENT-S - Open-label long-term safety extension",
+          "trial_design": "Phase 3 open-label extension; converting participants to ODT formulation",
+          "nct_ids": ["NCT05505916"],
+          "trial_status": "Active, not recruiting (primary completion 2026-06-30)",
+          "lead_sponsor": "KalVista Pharmaceuticals, Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "asset": "EKTERLY (sebetralstat)",
+    "modality": "Oral plasma kallikrein inhibitor",
+    "target": "Plasma kallikrein",
+    "indication": "On-demand treatment of acute HAE attacks in patients 12 years and older",
+    "status": "FDA approved July 2025; pivotal Phase 3 KONFIDENT (NCT05259917) met all primary/key secondary endpoints; EMA, UK MHRA, Swissmedic, TGA, HSA, Japan PMDA reviews ongoing/pending"
+  },
+  "excluded_preclinical": [
+    {"asset": "Oral Factor XIIa inhibitor program", "reason": "Preclinical; under strategic review per FY2025 10-K"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "KVD824", "nct_id": "NCT05055258", "reason": "Phase 2 prophylactic HAE program terminated 2022"},
+    {"asset": "KVD001 (intravitreal plasma kallikrein inhibitor for DME)", "nct_id": "NCT03466099", "reason": "Phase 2 completed; program deprioritized"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_clinical_assets": 1,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 0,
+    "commercial": 1,
+    "note": "Sebetralstat is FDA-approved (EKTERLY); remaining active P3 trials are pediatric label extension (KONFIDENT-KID) and long-term safety extension (KONFIDENT-S)."
+  }
+}

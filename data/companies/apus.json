@@ -1,0 +1,60 @@
+{
+  "issuer_name": "Apimeds Pharmaceuticals US, Inc.",
+  "ticker": "APUS",
+  "exchange": "NYSE",
+  "cik": "0001894525",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-051139",
+      "filing_date": "2026-05-04",
+      "primary_doc": "ea0288344-10k_apimeds.htm"
+    },
+    "website": {
+      "url": "https://www.apimedsus.com/pipeline",
+      "fetched": true,
+      "notes": "Single asset Apitox listed; phase shown as Phase 3 planning"
+    },
+    "ctgov": {
+      "queries": ["sponsor: Apimeds Pharmaceuticals"],
+      "trials_found": 0,
+      "notes": "No US-registered Apitox trials under Apimeds sponsor; prior trials run by Apimeds Korea in South Korea"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Apitox",
+      "aka": ["Apitoxin", "purified honeybee venom"],
+      "modality": "Biologic (purified Apis mellifera venom)",
+      "target": "Multi-component immunomodulatory / anti-inflammatory; mechanism not fully elucidated",
+      "license_origin": "Apimeds Korea (parent); Apitoxin approved as API in South Korea",
+      "indications": [
+        {
+          "indication": "Osteoarthritis of the knee (and spinal OA, add-on therapy)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Planned US Phase 3 pivotal trial for knee OA (BLA-enabling)",
+          "trial_design": "Randomized, placebo/active-controlled pivotal trial; design under development per 10-K",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED \u2014 company plans to file BLA following successful completion of Phase III for knee OA; trial not yet initiated/registered on ClinicalTrials.gov as of 2026-05",
+          "lead_sponsor": "Apimeds Pharmaceuticals US, Inc.",
+          "key_milestones": [
+            "Prior Phase II in Korea (n=101 and n=407) showed efficacy vs nabumetone",
+            "BLA filing planned post Phase III completion"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 1,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 0,
+    "indications_active": 1
+  }
+}

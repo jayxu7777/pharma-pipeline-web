@@ -1,0 +1,26 @@
+{
+  "issuer_name": "Zeo ScientifiX, Inc.",
+  "ticker": "ZEOX",
+  "exchange": "OTC",
+  "cik": "0001557376",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001829126-26-000763", "filed": "2026-01-29", "doc": "zeoscientifix_10k.htm"},
+    "website": {"url": "https://zeoscientifix.com/products", "fetched": "2026-05-06", "note": "products page lists commercial regenerative biologics; no dedicated clinical pipeline page"},
+    "ctgov": {"file": "data/zeox_ctgov_compact.json", "n_studies": 3}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Company sells regenerative-medicine biologic products (Zofin, DayZero MSCs, Wharton's Jelly matrix, Patient Pure X exosomes, amniotic-membrane patches) primarily under Florida SB 1768 commercial channels. The only IND-based clinical trials sponsored by ZEO are Zofin in COPD (NCT05643729, SUSPENDED, primary completion 2024-05-30) and two completed Zofin COVID-19 studies (NCT05228899, NCT04384445). The recently announced Cytora Therapeutics / Made Scientific partnership (Jan 2026) for an allogeneic oral mucosal stem cell therapy contemplates a future Phase 2b trial in the US, but no IND has been filed and no NCT exists yet — therefore PRE-LAUNCH and excluded.",
+  "excluded_preclinical": [
+    {"asset": "Cytora oral mucosal stem cell therapy (partnership)", "reason": "Phase 2b PLANNED — no IND filed, no NCT, partnership announced Jan 2026"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT05643729", "reason": "SUSPENDED — Zofin COPD Phase 1/2"},
+    {"nct_id": "NCT05228899", "reason": "COMPLETED — Zofin COVID-19 long haulers"},
+    {"nct_id": "NCT04384445", "reason": "COMPLETED — Zofin COVID-19"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "P3": 0, "P2": 0, "P1": 0, "total_active_indications": 0}
+}

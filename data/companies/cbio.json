@@ -1,0 +1,44 @@
+{
+  "issuer_name": "Crescent Biopharma, Inc.",
+  "ticker": "CBIO",
+  "exchange": "Nasdaq",
+  "cik": "0001253689",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-011983", "filed": "2026-02-26", "doc": "cbio-20251231.htm"},
+    "website": {"url": "https://crescentbiopharma.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Crescent Biopharma", "trials_returned": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "CR-001",
+      "aka": [],
+      "modality": "Tetravalent PD-1 x VEGF bispecific antibody",
+      "target": "PD-1 / VEGF",
+      "license_origin": "Licensed from Paragon Therapeutics (CR-001 License Agreement)",
+      "indications": [
+        {
+          "indication": "Locally advanced or metastatic solid tumors (incl. NSCLC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ASCEND (CR-001 first-in-human)",
+          "trial_design": "Phase 1/2 dose escalation and expansion in adults with locally advanced/metastatic solid tumors",
+          "nct_ids": ["NCT07335497"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Crescent Biopharma, Inc.",
+          "key_milestones": ["Trial start 2026-02-17", "Primary completion targeted 2029-02"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "CR-002", "reason": "PD-L1 ADC, IND-enabling; monotherapy clinical trials anticipated 2H 2026 — not yet active P1"},
+    {"asset": "CR-004", "reason": "Undisclosed ADC, discovery stage"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "CR-003 (SKB105, ITGB6 ADC)", "reason": "Greater China rights held by Kelun-Biotech; ex-Greater China rights with Crescent. Phase 1/2 in China is sponsor-led by Kelun. Crescent's first monotherapy trial planned 1Q 2026 via Kelun partnership — not yet listed on US registry as Crescent-sponsored active P1+ trial."}
+  ],
+  "summary_counts": {"total_assets": 1, "p3": 0, "p2": 0, "p1_p2": 1, "p1": 0}
+}

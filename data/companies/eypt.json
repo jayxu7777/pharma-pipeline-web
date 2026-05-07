@@ -1,0 +1,86 @@
+{
+  "issuer_name": "EyePoint Pharmaceuticals, Inc.",
+  "ticker": "EYPT",
+  "exchange": "Nasdaq",
+  "cik": "0001314102",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-093917",
+      "filing_date": "2026-03-05",
+      "doc": "eypt-20251231.htm"
+    },
+    "website": {
+      "url": "https://eyepoint.bio/our-programs/",
+      "accessed": "2026-05-06",
+      "note": "Pipeline shows DURAVYU (EYP-1901) in Phase 3 for wet AMD (LUGANO, LUCIA) and Phase 3 for DME (COMO, CAPRI)."
+    },
+    "ctgov": {
+      "queried_sponsor": "EyePoint",
+      "kept_p1_p3": 17,
+      "active_studies": 4,
+      "note": "Four active Phase 3 studies of EYP-1901 (DURAVYU); other historical trials are completed/terminated/withdrawn."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "DURAVYU",
+      "aka": ["EYP-1901", "vorolanib intravitreal insert"],
+      "modality": "Sustained-release intravitreal insert (Durasert E bio-erodible polymer) delivering vorolanib",
+      "target": "Multi-target tyrosine kinase inhibitor (VEGF receptors, PDGFR)",
+      "license_origin": "Vorolanib in-licensed from Equinox Sciences/Tyrogenex; Durasert technology proprietary to EyePoint",
+      "indications": [
+        {
+          "indication": "Wet age-related macular degeneration (wAMD)",
+          "highest_phase": "P3",
+          "trial_name": "LUGANO / LUCIA (twin pivotal Phase 3)",
+          "trial_design": "2-year randomized, double-masked, active-controlled (vs aflibercept 2.0 mg) studies in previously treated wAMD patients; primary endpoint at Week 56",
+          "nct_ids": ["NCT06668064", "NCT06683742"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (enrollment complete; on-treatment follow-up)",
+          "lead_sponsor": "EyePoint Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "Week 56 primary efficacy readout expected from primary completion dates 2026-08 (LUGANO) and 2026-10 (LUCIA)"
+          ]
+        },
+        {
+          "indication": "Diabetic macular edema (DME)",
+          "highest_phase": "P3",
+          "trial_name": "COMO / CAPRI (twin pivotal Phase 3)",
+          "trial_design": "Randomized, double-masked Phase 3 studies comparing EYP-1901 vs aflibercept 2.0 mg in DME patients",
+          "nct_ids": ["NCT07449936", "NCT07449923"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "EyePoint Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "Study start February 2026; primary completion expected October 2027"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "YUTIQ": "Fluocinolone acetonide intravitreal insert for chronic non-infectious uveitis (FDA approved 2018); U.S. commercial rights divested to Alimera Sciences in 2023.",
+    "DEXYCU": "Dexamethasone intraocular suspension for postoperative inflammation following ocular surgery (FDA approved 2018); subject to DOJ investigation."
+  },
+  "excluded_preclinical": [
+    {
+      "asset": "EYP-2301",
+      "description": "Razuprotafib (Tie2 activator) formulated in Durasert E for serious retinal diseases; advancing into pre-clinical development per 10-K."
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT04511650", "study": "Razuprotafib in COVID-19 ARDS", "reason": "TERMINATED"},
+    {"nct": "NCT05070728", "study": "FAI insert in uveitis", "reason": "TERMINATED"},
+    {"nct": "NCT05550363", "study": "DEXYCU for cataract pain (2)", "reason": "WITHDRAWN"},
+    {"nct": "NCT05550350", "study": "DEXYCU for cataract pain (1)", "reason": "WITHDRAWN"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 1,
+    "p2": 0,
+    "p1": 0,
+    "indications_p3": 2
+  }
+}

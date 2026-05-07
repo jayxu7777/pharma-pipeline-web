@@ -1,0 +1,89 @@
+{
+  "issuer_name": "Alvotech",
+  "ticker": "ALVO",
+  "exchange": "Nasdaq",
+  "cik": "0001898416",
+  "region": "Iceland",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. Biosimilar developer - phases reflect biosimilar PK and comparative efficacy studies.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F (or local equivalent); no 10-K on EDGAR"},
+    "website": {"url": "https://www.alvotech.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/alvo_ctgov_compact.json", "sponsor_query": "Alvotech"}
+  },
+  "pipeline": [
+    {
+      "asset": "AVT29",
+      "aka": ["proposed aflibercept HD biosimilar"],
+      "modality": "Biosimilar mAb / VEGF trap (high-dose aflibercept reference EYLEA HD)",
+      "target": "VEGF-A / PlGF",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Diabetic macular edema (comparative efficacy vs Eylea HD)",
+          "highest_phase": "P3",
+          "trial_name": "AVT29 vs Eylea HD comparator study",
+          "trial_design": "Randomized double-blind comparative efficacy / safety in DME",
+          "nct_ids": ["NCT07489131"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Alvotech Swiss AG",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AVT32",
+      "aka": ["AVT32-DRL_PB", "proposed pembrolizumab biosimilar (co-developed with Dr. Reddy's)"],
+      "modality": "Biosimilar mAb (pembrolizumab reference KEYTRUDA)",
+      "target": "PD-1",
+      "license_origin": "Co-development with Dr. Reddy's Laboratories",
+      "indications": [
+        {
+          "indication": "Melanoma (PK similarity vs Keytruda)",
+          "highest_phase": "P1",
+          "trial_name": "AVT32 PK similarity study",
+          "trial_design": "Randomized double-blind PK similarity in melanoma patients",
+          "nct_ids": ["NCT07475572"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Alvotech Swiss AG",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AVT16",
+      "aka": ["proposed vedolizumab biosimilar"],
+      "modality": "Biosimilar mAb (vedolizumab reference ENTYVIO)",
+      "target": "alpha4beta7 integrin",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Inflammatory bowel disease (UC/Crohn's) - clinical-stage per company website",
+          "highest_phase": "P1",
+          "trial_name": "PLANNED - AVT16 confirmatory PK / clinical similarity",
+          "trial_design": "Biosimilar PK / efficacy similarity studies",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - listed as in clinical trials per company website; not yet on ClinicalTrials.gov",
+          "lead_sponsor": "Alvotech",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": ["AVT02 SIMLANDI/HUKYNDRA (high-conc adalimumab)", "AVT04 SELARSDI/JAMTEKI (ustekinumab)", "AVT03 (denosumab biosimilar - approved)", "AVT05 (golimumab biosimilar - approved)", "AVT06 (aflibercept biosimilar - approved)"],
+    "note": "Multiple biosimilars approved or launched globally"
+  },
+  "excluded_preclinical": ["AVT33 pembrolizumab (preclinical)", "AVT10 certolizumab", "AVT28 ixekizumab", "AVT48 canakinumab", "AVT41 guselkumab", "AVT65 ofatumumab", "AVT19 dupilumab"],
+  "excluded_legacy_terminated": ["Multiple completed PK/efficacy similarity studies for approved/filed biosimilars (AVT02, AVT03, AVT04, AVT05, AVT06, AVT23 etc.)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "P3": 1,
+    "P2": 0,
+    "P1": 2,
+    "approved_commercial": 5
+  },
+  "no_active_clinical_pipeline_reason": null,
+  "blockers": ["Foreign private issuer - no 10-K on EDGAR (Iceland-domiciled)"]
+}

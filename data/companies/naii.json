@@ -1,0 +1,22 @@
+{
+  "issuer_name": "NATURAL ALTERNATIVES INTERNATIONAL INC",
+  "ticker": "NAII",
+  "exchange": "Nasdaq",
+  "cik": "0000787253",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "fetch_10k.py could not locate a pipeline section heading in the latest 10-K — issuer is a contract manufacturer of nutritional supplements, not a drug developer"},
+    "website": {"error": "no public drug pipeline page; corporate site naii.com does not belong to issuer"},
+    "ctgov": {"matches": 1, "note": "single hit (NCT01439659) is a Phase 2 ovarian cancer study sponsored by M.D. Anderson Cancer Center using Juice Plus+ supplements; NAII is a collaborator/supplement supplier, not the drug sponsor"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Natural Alternatives International is a contract manufacturer and private-label formulator of customized nutritional supplements (e.g., CarnoSyn beta-alanine), not a drug developer. The company sponsors no investigational drugs; it has no FDA IND/NDA programs. The only clinicaltrials.gov hit is an investigator-initiated nutrition study where NAII is listed as a collaborator providing supplements.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT01439659", "title": "Juice Plus+ and Juice Plus+ Complete in Ovarian Cancer", "lead_sponsor": "M.D. Anderson Cancer Center", "naii_role": "collaborator (supplement supplier)", "reason": "not an NAII-sponsored drug program — nutritional supplement intervention"}
+  ],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

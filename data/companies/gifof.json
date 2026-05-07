@@ -1,0 +1,160 @@
+{
+  "issuer_name": "Grifols SA",
+  "ticker": "GIFOF",
+  "exchange": "OTC",
+  "cik": "0001438569",
+  "region": "Spain (foreign private issuer; OTC ADR-equivalent)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (none in EDGAR recent filings under this CIK at fetch time)"},
+    "website": {"url": "https://www.grifols.com/en/innovation", "note": "Pipeline page returned 404 in WebFetch; pipeline composition reconstructed from corporate news (BLA/MAA filings) and clinicaltrials.gov"},
+    "ctgov": {"path": "data/gifof_ctgov_compact.json", "p1_p3_trials_total": 88, "active_grifols_sponsored": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "Fibrinogen Concentrate (Human) — BT524 / FIB Grifols",
+      "aka": ["BT524", "FIB Grifols"],
+      "modality": "Plasma-derived fibrinogen concentrate (biologic)",
+      "target": "Fibrinogen replacement",
+      "license_origin": "Internal (Biotest acquisition)",
+      "indications": [
+        {
+          "indication": "Acquired fibrinogen deficiency / intraoperative bleeding (AdFIrst); congenital afibrinogenemia",
+          "highest_phase": "BLA submitted to FDA (Jan 2025); EU MAA submitted Oct 2024",
+          "trial_name": "AdFIrst Phase 3 (acquired fibrinogen deficiency)",
+          "trial_design": "Phase 3 non-inferiority study versus standard of care in patients with acquired fibrinogen deficiency undergoing surgery",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 completed with positive topline; BLA under FDA review; EU launch H2 2025; US launch targeted H1 2026",
+          "lead_sponsor": "Grifols / Biotest",
+          "key_milestones": ["BLA filing Jan 2025", "EU MAA Oct 2024", "Targeted EU launch H2 2025", "Targeted US launch H1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Trimodulin (BT588)",
+      "aka": ["BT588"],
+      "modality": "Polyclonal IgM-/IgA-/IgG-enriched immunoglobulin (biologic)",
+      "target": "Polyclonal immunomodulation",
+      "license_origin": "Internal (Biotest)",
+      "indications": [
+        {
+          "indication": "Severe community-acquired pneumonia (sCAP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ESsCAPE",
+          "trial_design": "Global Phase 3 in ~590 adults with sCAP, placebo-controlled",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING (Phase 3 ongoing)",
+          "lead_sponsor": "Biotest AG / Grifols",
+          "key_milestones": ["Phase 3 ESsCAPE enrollment ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "Alpha-1 Proteinase Inhibitor (Human), Modified Process (Alpha-1 MP) — Prolastin-C / Liquid Alpha1-PI",
+      "aka": ["Alpha-1 MP", "Prolastin-C", "Liquid Alpha1-PI", "Alpha-1 15%"],
+      "modality": "Plasma-derived alpha-1 proteinase inhibitor (biologic)",
+      "target": "Alpha-1 antitrypsin (AAT) augmentation",
+      "license_origin": "Internal (marketed franchise; lifecycle expansion)",
+      "indications": [
+        {
+          "indication": "Pulmonary emphysema in alpha-1 antitrypsin deficiency (AATD) — SPARTA dosing study",
+          "highest_phase": "Phase 3",
+          "trial_name": "SPARTA — Efficacy and Safety of Alpha1-PI Modified Process",
+          "trial_design": "Phase 3 evaluating two weekly IV alpha-1 dosing schedules in AATD pulmonary emphysema (~339 patients enrolled)",
+          "nct_ids": ["NCT01983241", "NCT02796937"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (NCT01983241); ENROLLING_BY_INVITATION long-term safety extension (NCT02796937)",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": ["Recruitment finalized 2023 with 339 patients", "Long-term safety extension ongoing"]
+        },
+        {
+          "indication": "Alpha-1 antitrypsin deficiency — non-inferiority PK/safety of two formulations",
+          "highest_phase": "Phase 3",
+          "trial_name": "Non-inferiority PK/safety study of Alpha-1 15% vs Liquid Alpha1-PI",
+          "trial_design": "Phase 3 non-inferiority PK and safety/tolerability study",
+          "nct_ids": ["NCT07555483"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": ["Phase 3 PK study planned"]
+        }
+      ]
+    },
+    {
+      "asset": "Xembify (Immune Globulin Subcutaneous Human, 20%)",
+      "aka": ["IGSC 20%"],
+      "modality": "Subcutaneous immunoglobulin (biologic)",
+      "target": "Polyclonal IgG replacement",
+      "license_origin": "Internal (marketed; label-expansion)",
+      "indications": [
+        {
+          "indication": "Secondary hypogammaglobulinemia in B-cell malignancies (CLL, multiple myeloma) with recurrent bacterial infection",
+          "highest_phase": "Phase 3",
+          "trial_name": "XEMBIFY + standard medical treatment vs SMT alone",
+          "trial_design": "Phase 3, placebo-controlled, evaluating XEMBIFY add-on to standard medical treatment",
+          "nct_ids": ["NCT05645107"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": ["Phase 3 enrollment ongoing"]
+        },
+        {
+          "indication": "Chronic Inflammatory Demyelinating Polyradiculoneuropathy (CIDP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PK and safety of XEMBIFY vs Gamunex-C in CIDP",
+          "trial_design": "Phase 3 PK and safety/tolerability comparator study",
+          "nct_ids": ["NCT07540221"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": ["Phase 3 ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "GRF312 (5%)",
+      "aka": [],
+      "modality": "Topical ophthalmic (biologic-derived)",
+      "target": "Undisclosed (dry eye therapy)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Dry Eye Disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "Safety, Tolerability, and Efficacy of GRF312 5%",
+          "trial_design": "Phase 2, placebo-controlled",
+          "nct_ids": ["NCT07264517"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Grifols",
+          "key_milestones": ["Phase 2 enrollment ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "Plasma-derived Antithrombin III (AT-III) Concentrate",
+      "aka": [],
+      "modality": "Plasma-derived antithrombin III (biologic)",
+      "target": "Antithrombin replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Hereditary Antithrombin III Deficiency",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Safety, PK and Efficacy of an ATIII Concentrate",
+          "trial_design": "Phase 2/3 safety/PK/efficacy",
+          "nct_ids": ["NCT00319228"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Grifols",
+          "key_milestones": ["Long-running Phase 2/3"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "summary": "Grifols is a marketed plasma-derived therapeutics company with a broad commercial portfolio (immunoglobulins, alpha-1, albumin, hemostasis products) — only the active development-stage P1-P3 assets are reflected in the pipeline above"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "Various investigator-initiated trials at academic centers (UNC Chapel Hill, Beth Israel Deaconess, Cincinnati Children's, Albert Einstein, Columbia, Duke, etc.) using Grifols products", "reason": "Lead sponsor is the academic institution, not Grifols"}
+  ],
+  "summary_counts": {"p3": 4, "p2_3": 1, "p2": 1, "p1": 0, "total_assets": 6},
+  "no_active_clinical_pipeline_reason": null
+}

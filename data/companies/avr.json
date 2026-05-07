@@ -1,0 +1,126 @@
+{
+  "issuer_name": "Anteris Technologies Global Corp.",
+  "ticker": "AVR",
+  "exchange": "Nasdaq",
+  "cik": "0002011514",
+  "region": "US (Delaware-domiciled; operations Australia/US)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. (For this device-only company, equivalent stages mapped: Pivotal IDE = highest_phase 'Pivotal (PMA-enabling)'; Early Feasibility Study = 'Early Feasibility (EFS)'.)",
+  "sources": {
+    "10k": {
+      "accession": "0001140361-26-006977",
+      "filing_date": "2026-02-26",
+      "document": "ef20060646_10k.htm",
+      "fiscal_year_end": "2025-12-31"
+    },
+    "website": {
+      "url_checked": "https://anteristech.com/",
+      "note": "No /pipeline page (404). Homepage describes DurAVR THV and references PARADIGM, EMBARK, EFS but does not list NCT IDs."
+    },
+    "ctgov": {
+      "query_sponsor_canonical": "Anteris Technologies Ltd.",
+      "note": "Initial sponsor query 'Anteris' returned 0 results; corporate sponsor name on ctgov is 'Anteris Technologies Ltd.' Manual ctgov lookup of DurAVR returned 4 active company-sponsored studies (NCT07194265 PARADIGM, NCT06510855 EU-EFS, NCT05712161 US-EFS, NCT05182307 EMBARK first-in-human).",
+      "active_studies_used": [
+        "NCT07194265 (PARADIGM - global pivotal, RECRUITING)",
+        "NCT06510855 (EU-EFS, ACTIVE_NOT_RECRUITING)",
+        "NCT05712161 (US-EFS, ACTIVE_NOT_RECRUITING)",
+        "NCT05182307 (EMBARK first-in-human, UNKNOWN status on ctgov but described as ongoing in 10-K)"
+      ]
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "DurAVR THV System",
+      "aka": ["DurAVR Transcatheter Heart Valve System", "DurAVR + ComASUR"],
+      "modality": "Class III medical device — balloon-expandable transcatheter aortic valve (TAVR) made from a single piece of molded bovine pericardium treated with proprietary ADAPT anti-calcification tissue technology, delivered via the ComASUR balloon-expandable Delivery System",
+      "target": "Aortic valve replacement (biomimetic single-piece valve)",
+      "license_origin": "Internally developed (ADAPT tissue, DurAVR valve, ComASUR delivery system); Anteris is sole owner of related patent portfolio.",
+      "indications": [
+        {
+          "indication": "Symptomatic severe aortic stenosis (transcatheter aortic valve replacement)",
+          "highest_phase": "Pivotal (PMA-enabling IDE study)",
+          "trial_name": "PARADIGM Trial",
+          "trial_design": "Global, prospective, randomized, controlled, multicenter head-to-head trial vs. commercially available THVs across ~80 centers in US/Canada/Europe; first all-comers TAVI trial designed to evaluate post-procedure blood flow patterns using cardiac MRI",
+          "nct_ids": ["NCT07194265"],
+          "trial_status": "RECRUITING. First patients enrolled October 2025 (Denmark). FDA granted IDE approval November 2025 for staged enrollment of first 200 US patients.",
+          "lead_sponsor": "Anteris Technologies Ltd.",
+          "key_milestones": [
+            "Oct 2025 - first patient enrolled (Denmark)",
+            "Nov 2025 - FDA IDE approval (staged, first 200 US patients)",
+            "Trial intended to support global regulatory approval (US PMA + ex-US)"
+          ]
+        },
+        {
+          "indication": "Severe aortic stenosis - small annulus / valve-in-valve population (Early Feasibility evaluation)",
+          "highest_phase": "Early Feasibility (EFS)",
+          "trial_name": "DurAVR US Early Feasibility Study",
+          "trial_design": "Multi-center early feasibility study; 15 patients enrolled across 4 US sites",
+          "nct_ids": ["NCT05712161"],
+          "trial_status": "ACTIVE_NOT_RECRUITING. 100% implant success, no mortality / disabling stroke / life-threatening bleeding at 30 days. 30-day pooled data published in EuroIntervention.",
+          "lead_sponsor": "Anteris Technologies Ltd.",
+          "key_milestones": [
+            "Enrollment complete (15 patients)",
+            "30-day pooled EFS publication in EuroIntervention"
+          ]
+        },
+        {
+          "indication": "Severe aortic stenosis - EU early feasibility / valve-in-valve (ViV) safety and performance",
+          "highest_phase": "Early Feasibility (EFS)",
+          "trial_name": "DurAVR EU Early Feasibility Study (EU-EFS)",
+          "trial_design": "Multi-center early feasibility study in EU; 15 patients enrolled to evaluate safety and ViV performance",
+          "nct_ids": ["NCT06510855"],
+          "trial_status": "ACTIVE_NOT_RECRUITING. Pooled with US EFS for 30-day publication.",
+          "lead_sponsor": "Anteris Technologies Ltd.",
+          "key_milestones": [
+            "Enrollment complete (15 patients)"
+          ]
+        },
+        {
+          "indication": "Severe aortic stenosis - first-in-human safety/performance (multi-cohort)",
+          "highest_phase": "First-in-Human / Feasibility",
+          "trial_name": "EMBARK Study",
+          "trial_design": "First-in-human, multi-cohort study initiated November 2021 in Tbilisi, Georgia; 9 cohorts enrolled including de novo, ViV, and complex anatomies (e.g., bicuspid aortic valve)",
+          "nct_ids": ["NCT05182307"],
+          "trial_status": "Ongoing per FY2025 10-K (over 130 patients treated to date across all DurAVR studies including compassionate use); ctgov status listed as UNKNOWN.",
+          "lead_sponsor": "Anteris Technologies Ltd.",
+          "key_milestones": [
+            "Initiated November 2021",
+            "9 cohorts enrolled - consistent device performance and acceptable safety profile per 10-K"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_or_marketed": [
+      {
+        "name": "ADAPT tissue (component / supply)",
+        "modality": "FDA-cleared anti-calcification bioscaffold tissue (bovine pericardium)",
+        "indication": "Used clinically for over 10 years in 55,000+ patients globally as a tissue component (e.g., supplied to 4C Medical Technologies for mitral/tricuspid devices; previously CardioCel - now divested to LeMaitre)",
+        "regulatory_status": "FDA-cleared tissue technology; 4C supply agreement non-renewed effective for next renewal term (notified Nov 2025)."
+      }
+    ]
+  },
+  "preclinical_partner_programs": [
+    {
+      "name": "v2vmedtech TEER Product (transcatheter edge-to-edge mitral/tricuspid repair)",
+      "status": "Stage 2 of 5-stage development; concept lock on clips and coupler. First-in-human timing not yet determinable.",
+      "ownership": "Anteris owns 30% of v2vmedtech; underlying Columbia University license to v2vmedtech.",
+      "exclusion_reason": "Preclinical (pre-FIH); excluded from active P1/P2/P3 pipeline."
+    }
+  ],
+  "excluded_preclinical": [
+    "v2vmedtech TEER mitral/tricuspid repair device (Stage 2 of 5; pre-FIH)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "4C Medical Technologies mitral/tricuspid devices using ADAPT tissue (Anteris is supplier only; 4C agreement non-renewed November 2025)"
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3_or_pivotal": 1,
+    "phase_2": 0,
+    "phase_1_or_efs": 1,
+    "active_pivotal_or_efs_studies": 4
+  }
+}

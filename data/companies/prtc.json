@@ -1,0 +1,91 @@
+{
+  "issuer_name": "PureTech Health plc",
+  "ticker": "PRTC",
+  "exchange": "Nasdaq",
+  "cik": "0001782999",
+  "region": "United Kingdom (Nasdaq + LSE)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (UK plc) — files 20-F, no 10-K on EDGAR"},
+    "website": {"url": "https://www.puretechhealth.com/programs/", "method": "WebFetch"},
+    "ctgov": {"file": "data/prtc_ctgov_compact.json", "trial_count": 9, "sponsor_query": "PureTech"}
+  },
+  "pipeline": [
+    {
+      "asset": "Deupirfenidone (LYT-100)",
+      "aka": ["LYT-100"],
+      "modality": "Small molecule, deuterated form of pirfenidone (oral)",
+      "target": "Anti-fibrotic (mechanism shared with pirfenidone)",
+      "license_origin": "Internal (now operated via Founded Entity Celea)",
+      "indications": [
+        {
+          "indication": "Idiopathic Pulmonary Fibrosis (IPF)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ELEVATE IPF (head-to-head vs pirfenidone)",
+          "trial_design": "Randomized, double-blind, head-to-head Phase 3 vs pirfenidone in adults with IPF",
+          "nct_ids": ["NCT07284602"],
+          "trial_status": "Not yet recruiting (start April 2026)",
+          "lead_sponsor": "PureTech / Celea",
+          "key_milestones": ["Phase 2b (NCT05321420) topline 2024 — positive; Phase 3 initiation 2026; primary completion targeted 2029"]
+        }
+      ]
+    },
+    {
+      "asset": "LYT-200",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "Galectin-9",
+      "license_origin": "Internal (operated via Founded Entity Gallop Oncology)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory Acute Myeloid Leukemia (AML) and high-risk Myelodysplastic Syndrome (MDS)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "LYT-200 in r/r AML / high-risk MDS (with venetoclax + HMA)",
+          "trial_design": "Open-label Phase 1, monotherapy and combination with venetoclax + azacitidine/decitabine",
+          "nct_ids": ["NCT05829226"],
+          "trial_status": "Completed Phase 1 portion (per ctgov); program advancing in Gallop",
+          "lead_sponsor": "PureTech / Gallop",
+          "key_milestones": ["Phase 1 primary completion December 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "Glyph platform lead (Seaport Therapeutics asset)",
+      "aka": [],
+      "modality": "Glyph lipid-prodrug platform (oral)",
+      "target": "Neuropsychiatric (CNS) — undisclosed mechanism",
+      "license_origin": "Founded Entity (Seaport Therapeutics) — PureTech retains ~35% equity + tiered royalties",
+      "indications": [
+        {
+          "indication": "Neuropsychiatric conditions",
+          "highest_phase": "Phase 2",
+          "trial_name": "Not disclosed on PureTech site",
+          "trial_design": "Not disclosed",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 (per company portfolio page)",
+          "lead_sponsor": "Seaport Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Cobenfy (xanomeline-trospium, formerly KarXT)",
+    "indication": "Schizophrenia",
+    "status": "FDA-approved (marketed by Bristol-Myers Squibb via Karuna acquisition)",
+    "puretech_role": "Founded Karuna Therapeutics; receives sub-royalties/milestones — no operational involvement"
+  },
+  "excluded_preclinical": [
+    "LYT-300 (oral allopregnanolone) — Phase 1 completed, no active P1/P2/P3 listing on ctgov",
+    "LYT-310, LYT-320, additional Founded Entity preclinical assets"
+  ],
+  "excluded_legacy_terminated": [
+    "LYT-100 in Post-acute COVID-19 (NCT04652518) — TERMINATED",
+    "LYT-100 in BCRL (NCT04243837) — TERMINATED"
+  ],
+  "excluded_partner_owned": [
+    "Cobenfy (KarXT) — Karuna/BMS owned and marketed (listed under commercial_product for context)"
+  ],
+  "summary_counts": {"total_assets": 3, "P3": 1, "P2": 1, "P1": 1}
+}

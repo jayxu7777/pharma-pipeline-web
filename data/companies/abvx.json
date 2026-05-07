@@ -1,0 +1,79 @@
+{
+  "issuer_name": "Abivax S.A.",
+  "ticker": "ABVX",
+  "exchange": "Nasdaq",
+  "cik": "0001956827",
+  "region": "France (US-listed ADR/ordinary)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (no 10-K on EDGAR)"},
+    "website": {"path": "https://www.abivax.com/pipeline/", "fetched": true},
+    "ctgov": {"path": "data/abvx_ctgov_compact.json", "trials_found": 23}
+  },
+  "pipeline": [
+    {
+      "asset": "Obefazimod",
+      "aka": ["ABX464"],
+      "modality": "Oral small molecule",
+      "target": "miR-124 enhancer (CBC complex / cap-binding complex modulator)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe ulcerative colitis (induction)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ABTECT-1 / ABTECT-2 (induction)",
+          "trial_design": "Randomized, double-blind, placebo-controlled induction studies of obefazimod in moderate-to-severe active UC",
+          "nct_ids": ["NCT05507203", "NCT05507216"],
+          "trial_status": "COMPLETED (primary completion 2025-06-24); positive topline July 2025",
+          "lead_sponsor": "Abivax S.A.",
+          "key_milestones": ["Phase 3 induction topline July 2025 (positive)", "NDA filing planned post-maintenance readout"]
+        },
+        {
+          "indication": "Moderate-to-severe ulcerative colitis (maintenance)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ABTECT — Maintenance",
+          "trial_design": "Randomized, double-blind, placebo-controlled maintenance study in UC responders",
+          "nct_ids": ["NCT05535946"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2026-04)",
+          "lead_sponsor": "Abivax S.A.",
+          "key_milestones": ["Maintenance data readout expected Q2 2026"]
+        },
+        {
+          "indication": "Moderately-to-severely active Crohn's disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "ENHANCE-CD (Phase 2b)",
+          "trial_design": "Randomized, double-blind, placebo-controlled dose-ranging Phase 2b induction in moderate-to-severe Crohn's disease",
+          "nct_ids": ["NCT06456593"],
+          "trial_status": "RECRUITING (primary completion 2026-12)",
+          "lead_sponsor": "Abivax S.A.",
+          "key_milestones": ["12-week induction data anticipated Q4 2026"]
+        },
+        {
+          "indication": "Healthy-volunteer formulation bridge (UC minitablet PK)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Obefazimod minitablet PK / relative-bioavailability study",
+          "trial_design": "Phase 1 PK/relative bioavailability/palatability study comparing 50 mg capsule vs minitablet formulation in healthy volunteers",
+          "nct_ids": ["NCT07453784"],
+          "trial_status": "RECRUITING (started 2026-03-03; primary completion 2026-09)",
+          "lead_sponsor": "Abivax S.A.",
+          "key_milestones": ["Supports pediatric/alternative formulation development"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Obefazimod combination (with etrasimod) for UC", "reason": "Preclinical/research stage per company website"},
+    {"asset": "Follow-on miR-124 modulators for inflammation", "reason": "Research stage; compound selection expected 2026"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "ABX464 in COVID-19", "nct_ids": ["NCT04393038"], "status": "TERMINATED"},
+    {"asset": "ABX464 in Crohn's (older Phase 2b/3)", "nct_ids": ["NCT03905109"], "status": "WITHDRAWN"},
+    {"asset": "ABX196 + nivolumab in HCC", "nct_ids": ["NCT03897543"], "reason": "Not on current corporate pipeline; legacy program"},
+    {"asset": "ABX203 chronic hepatitis B vaccine", "nct_ids": ["NCT02249988"], "status": "COMPLETED — divested/legacy"},
+    {"asset": "ABX464 HIV program", "nct_ids": ["NCT02735863", "NCT02452242", "NCT02990325"], "reason": "Discontinued indication"},
+    {"asset": "ABX464 rheumatoid arthritis", "nct_ids": ["NCT03813199", "NCT04049448"], "reason": "Discontinued indication"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 1, "phase_2": 1, "phase_1": 1, "indications_in_active_clinical_dev": 4}
+}

@@ -1,0 +1,97 @@
+{
+  "issuer_name": "Cingulate Inc.",
+  "ticker": "CINGW",
+  "exchange": "Nasdaq",
+  "cik": "0001862150",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-010882",
+      "filing_date": "2026-03-18",
+      "doc": "form10-k.htm"
+    },
+    "website": {"error": "https://www.cingulate.com/pipeline timed out (60s) on WebFetch — 10-K used as authoritative source"},
+    "ctgov": {
+      "compact": "data/cingw_ctgov_compact.json",
+      "studies_returned": 6
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CTx-1301",
+      "aka": ["dexmethylphenidate"],
+      "modality": "Oral trimodal modified-release tablet (PTR drug delivery platform)",
+      "target": "Dopamine/norepinephrine reuptake inhibitor (CNS stimulant)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Attention Deficit Hyperactivity Disorder (ADHD) — pediatric, adolescent, adult",
+          "highest_phase": "NDA filed",
+          "trial_name": "CTx-1301 Phase 3 program (adult dose-optimization NCT05631626; pediatric fixed-dose NCT05286762; classroom NCT05924594)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 efficacy and safety studies in adults and pediatric ADHD; supportive Phase 1 food-effect studies",
+          "nct_ids": ["NCT05631626", "NCT05286762", "NCT05924594", "NCT07119073", "NCT04449250", "NCT04138498"],
+          "trial_status": "NDA submitted to FDA July 31, 2025 under 505(b)(2); FDA accepted with PDUFA target action date May 31, 2026. Adult Phase 3 (NCT05631626) COMPLETED Jun 2023; pediatric fixed-dose (NCT05286762) COMPLETED Feb 2024; classroom study (NCT05924594) SUSPENDED — additional trials not required per FDA guidance.",
+          "lead_sponsor": "Cingulate Therapeutics",
+          "key_milestones": [
+            "Adult Phase 3 completed Jun 2023",
+            "Pediatric Phase 3 completed Feb 2024",
+            "NDA submitted Jul 31, 2025",
+            "PDUFA target May 31, 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "CTx-1302",
+      "aka": ["dextroamphetamine"],
+      "modality": "Oral trimodal modified-release tablet (PTR platform)",
+      "target": "CNS stimulant",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "ADHD (children, adolescents, adults)",
+          "highest_phase": "PLANNED — pending capital",
+          "trial_name": "Not yet initiated",
+          "trial_design": "Clinical plan not yet initiated; per 10-K, awaiting additional capital resources",
+          "nct_ids": [],
+          "trial_status": "PLANNED — clinical plan not initiated; awaiting additional capital resources",
+          "lead_sponsor": "Cingulate Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CTx-2103",
+      "aka": ["buspirone (modified release)"],
+      "modality": "Once-daily, modified-release oral tablet (PTR platform)",
+      "target": "5-HT1A partial agonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Anxiety / Generalized Anxiety Disorder",
+          "highest_phase": "Preclinical / formulation (not yet IND)",
+          "trial_name": "Formulation PK study completed",
+          "trial_design": "Completed formulation pharmacokinetic study; no IND-enabling clinical trial in registries",
+          "nct_ids": [],
+          "trial_status": "PLANNED — formulation PK study completed; clinical development not yet initiated",
+          "lead_sponsor": "Cingulate Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "total_indications": 3,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "nda_filed": 1,
+    "planned": 2
+  }
+}

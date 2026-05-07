@@ -1,0 +1,93 @@
+{
+  "issuer_name": "Bio-Path Holdings, Inc.",
+  "ticker": "BPTH",
+  "exchange": "OTC",
+  "cik": "0001133818",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001558370-25-003837", "filed": "2025-03-27", "path": "data/bpth_10k_pipeline_section.html"},
+    "website": {"url": "https://www.biopathholdings.com/pipeline", "note": "Lists BP1001 (prexigebersen), BP1001-A, BP1002, BP1003 — note website table mis-states BP1001 target as Bcl-2; 10-K confirms Grb2"},
+    "ctgov": {"path": "data/bpth_ctgov_compact.json", "trial_count": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "BP1001 (prexigebersen)",
+      "aka": ["L-Grb-2", "Liposomal Grb2 antisense oligonucleotide"],
+      "modality": "DNAbilize liposome-encapsulated antisense oligonucleotide",
+      "target": "Growth factor receptor-bound protein 2 (Grb2)",
+      "license_origin": "Internal (Bio-Path DNAbilize platform)",
+      "indications": [
+        {
+          "indication": "Acute Myeloid Leukemia (AML), newly diagnosed — in combination with venetoclax + decitabine",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 prexigebersen + venetoclax + decitabine in AML",
+          "trial_design": "Open-label triple combination Phase 2 in newly diagnosed AML; previously transitioned from prexigebersen + LDAC backbone",
+          "nct_ids": ["NCT02781883"],
+          "trial_status": "RECRUITING (primary completion 2027-12)",
+          "lead_sponsor": "Bio-Path Holdings, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BP1001-A",
+      "aka": ["Liposomal Grb2 antisense oligonucleotide (modified formulation)"],
+      "modality": "DNAbilize liposome-encapsulated antisense oligonucleotide",
+      "target": "Grb2",
+      "license_origin": "Internal (Bio-Path DNAbilize platform)",
+      "indications": [
+        {
+          "indication": "Advanced/recurrent solid tumors (ovarian, fallopian tube, endometrial, peritoneal)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BP1001-A monotherapy and in combination with paclitaxel in advanced or recurrent solid tumors",
+          "trial_design": "Open-label dose-escalation Phase 1",
+          "nct_ids": ["NCT04196257"],
+          "trial_status": "RECRUITING (primary completion 2027-07)",
+          "lead_sponsor": "Bio-Path Holdings, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BP1002",
+      "aka": ["L-Bcl-2", "Liposomal Bcl-2 antisense oligodeoxynucleotide"],
+      "modality": "DNAbilize liposome-encapsulated antisense oligonucleotide",
+      "target": "Bcl-2",
+      "license_origin": "Internal (Bio-Path DNAbilize platform)",
+      "indications": [
+        {
+          "indication": "Refractory/relapsed Acute Myeloid Leukemia (AML) — in combination with decitabine",
+          "highest_phase": "Phase 1",
+          "trial_name": "BP1002 + decitabine in R/R AML",
+          "trial_design": "Open-label dose-escalation Phase 1",
+          "nct_ids": ["NCT05190471"],
+          "trial_status": "RECRUITING (primary completion 2027-03)",
+          "lead_sponsor": "Bio-Path Holdings, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced lymphoid malignancies (mantle cell, PTCL, CTCL, CLL/SLL, follicular, marginal zone, Hodgkin, Waldenstrom, DLBCL)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BP1002 monotherapy in advanced lymphoid malignancies",
+          "trial_design": "Open-label dose-escalation Phase 1",
+          "nct_ids": ["NCT04072458"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2025-04)",
+          "lead_sponsor": "Bio-Path Holdings, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "BP1003 (Liposomal STAT3 antisense)", "reason": "IND-stage / preclinical; pancreatic and lung cancer programs"},
+    {"asset": "BP1001-A in obesity", "reason": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "BP1001 + dasatinib in Ph+ CML/AML/MDS", "nct_ids": ["NCT02923986"], "reason": "WITHDRAWN"},
+    {"asset": "BP1001 first-in-human Phase 1 in CML/AML/ALL/MDS", "nct_ids": ["NCT01159028"], "reason": "COMPLETED legacy study"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 3, "P3": 0, "P2": 1, "P1": 2}
+}

@@ -1,0 +1,20 @@
+{
+  "issuer_name": "CBD Life Sciences Inc.",
+  "ticker": "CBDL",
+  "exchange": "OTC",
+  "cik": "0001776073",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found in recent EDGAR filings for CIK 0001776073"},
+    "website": {"note": "Not fetched — issuer is consumer CBD/hemp products company; no clinical pipeline page expected."},
+    "ctgov": {"path": "data/cbdl_ctgov_compact.json", "trials_found": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "CBD Life Sciences Inc. is a consumer cannabidiol (CBD) and hemp-derived wellness products company (oils, topicals, gummies) with no SEC 10-K on file and no Sponsor-led clinical trials on ClinicalTrials.gov. Not a drug developer.",
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

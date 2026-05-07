@@ -1,0 +1,43 @@
+{
+  "issuer_name": "UFP Technologies, Inc.",
+  "ticker": "UFPT",
+  "exchange": "Nasdaq",
+  "cik": "0000914156",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-012816",
+      "filing_date": "2026-02-27",
+      "doc": "ufpt-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.ufpt.com",
+      "note": "No /pipeline page exists (404). Corporate site confirms contract manufacturer / design partner role; no proprietary clinical pipeline disclosed."
+    },
+    "ctgov": {
+      "sponsor_query": "UFP Technologies",
+      "unique_trials_p1_p3": 0,
+      "note": "No clinical trials sponsored by UFP Technologies."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "UFP Technologies is a contract design, development, engineering, and manufacturing partner for medical device OEMs (MedTech segment) and engineered products for aerospace, defense, and automotive (Advanced Components segment). Products are manufactured for external customers under their brands; UFPT does not market proprietary FDA-approved devices.",
+    "segments": [
+      "MedTech (single-use / single-patient device contract manufacturing)",
+      "Advanced Components (aerospace, defense, automotive)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Contract design / development / manufacturing partner for medical device and industrial OEMs. No proprietary drug or device clinical pipeline. ClinicalTrials.gov returns zero sponsored P1-P3 studies under UFP Technologies."
+}

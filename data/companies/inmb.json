@@ -1,0 +1,77 @@
+{
+  "issuer_name": "INmune Bio, Inc.",
+  "ticker": "INMB",
+  "exchange": "Nasdaq",
+  "cik": "0001711754",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001213900-26-036370",
+      "path": "data/inmb_10k_pipeline_section.html"
+    },
+    "website": {"error": "skipped per agent guidance; relied on 10-K + ctgov"},
+    "ctgov": {"path": "data/inmb_ctgov_compact.json", "sponsor_query": "INmune Bio", "study_count": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "CORDStrom",
+      "aka": [],
+      "modality": "Pooled human umbilical cord-derived mesenchymal stromal cell (MSC) therapy",
+      "target": "Systemic immune/inflammatory dysregulation in RDEB",
+      "license_origin": "Wholly owned IP (INmune Bio); clinical trial data licensed from Great Ormond Street Hospital (GOSH) for the MissionEB pivotal study.",
+      "indications": [
+        {
+          "indication": "Recessive Dystrophic Epidermolysis Bullosa (RDEB), pediatric",
+          "highest_phase": "Pivotal Phase 2/3 cross-over completed; preparing MAA (UK/EU) and BLA (FDA, targeted 2026)",
+          "trial_name": "MissionEB",
+          "trial_design": "Pivotal, blinded, randomized, cross-over study in pediatric RDEB conducted at Great Ormond Street Hospital (UK).",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Pivotal study completed; formally closed February 2026. Company transitioning to regulatory submission and commercialization. MAA planned in UK/EU and BLA filing targeted 2026.",
+          "lead_sponsor": "Great Ormond Street Hospital (academic sponsor); INmune Bio holds CORDStrom IP and commercial rights",
+          "key_milestones": [
+            "Pivotal cross-over trial completed with positive results (per 10-K narrative)",
+            "Feb 2026: MissionEB study formally closed",
+            "2026: planned MAA in UK/EU; BLA submission targeted 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "INKmune",
+      "aka": [],
+      "modality": "Allogeneic NK cell-priming platform (replication-incompetent tumor cell line conditioning patient NK cells)",
+      "target": "Innate immune system priming (NK-cell activation)",
+      "license_origin": "Licensed (INmune Bio holds rights)",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "CaRe Prostate",
+          "trial_design": "Open-label Phase 1/2 study of INKmune in mCRPC.",
+          "nct_ids": ["NCT06056791"],
+          "trial_status": "Per ctgov: COMPLETED. Per 10-K: nearing completion of open-label Phase 2; data readout / next-step decisions pending.",
+          "lead_sponsor": "INmune Bio, Inc.",
+          "key_milestones": ["Trial enrollment complete; awaiting data analysis and next-step decisions"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "XPro1595 / INB03 / DN-TNF in Alzheimer's disease (NCT05318976 P2 completed, NCT05522387 OLE terminated, NCT05321498 P2 MCI withdrawn) — Phase 2 MINDFuL trial failed primary endpoint in 2025; company halted internal AD development and is seeking a partner",
+    "INB03 for COVID-19 pulmonary complications (NCT04370236) — terminated",
+    "INKmune in MDS/AML (NCT05933070) — Phase 1 terminated"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1_or_1_2": 1,
+    "filed_or_approved": 0,
+    "note": "CORDStrom pivotal complete and approaching BLA/MAA filing — counted under highest active program; XPro program paused pending partnership."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issuer_name": "iRhythm Technologies, Inc.",
+  "ticker": "IRTC",
+  "exchange": "Nasdaq",
+  "cik": "0001388658",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001388658-26-000011",
+      "filing_date": "2026-02-19",
+      "doc": "irtc-20251231.htm",
+      "note": "10-K describes ambulatory cardiac monitoring service (Zio long-term continuous monitoring patches plus AI-driven ECG analysis software / Zio ECG Utilization Service). No therapeutic drug pipeline."
+    },
+    "website": {
+      "error": "no public drug-pipeline page; irhythmtech.com is product-marketing focused (Zio monitor service for clinicians)"
+    },
+    "ctgov": {
+      "file": "data/irtc_ctgov_compact.json",
+      "lead_sponsor_query": "iRhythm Technologies",
+      "trials_returned": 0,
+      "note": "ctgov fetch returned 7 raw trials matching iRhythm but none classified as P1-P3 interventional with iRhythm as lead sponsor; iRhythm-sponsored studies are typically real-world evidence or device-validation observational studies."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Provider of ambulatory cardiac monitoring services. Marketed devices/services include the Zio long-term continuous monitor (Zio XT, Zio AT extended-wear ECG patches), Zio Monitor, and the Zio ECG Utilization Service (cloud-based AI ECG analysis with curated reports). FDA cleared via 510(k) pathway (multiple Zio generations)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0, "indications_total": 0},
+  "no_active_clinical_pipeline_reason": "iRhythm is a cardiac-monitoring device and digital-health services company. Its commercial offering (Zio patches and ECG-analysis cloud service) is regulated as a medical device, and its clinical-evidence program is mostly real-world-evidence observational research rather than P1-P3 drug or device pivotals. No active company-sponsored P1-P3 interventional trial of a proprietary therapeutic asset."
+}

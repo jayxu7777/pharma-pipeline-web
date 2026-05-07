@@ -1,0 +1,25 @@
+{
+  "issuer_name": "Liminatus Pharma, Inc.",
+  "ticker": "LIMN",
+  "exchange": "Nasdaq",
+  "cik": "0001971387",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-037933", "filed": "2026-03-31", "fiscal_year_end": "2025-12-31"},
+    "website": {"error": "https://liminatuspharma.com pipeline page returned SSL TLS internal error; relied on 10-K + recent press release via WebSearch"},
+    "ctgov": {"records": 0, "note": "No registered trials with Liminatus as sponsor"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per FY2025 10-K, Liminatus is explicitly a 'pre-clinical stage biopharmaceutical company.' Lead asset IBA101 (humanized anti-CD47 monoclonal antibody, Hu3A5) has completed IND-enabling studies including a 4-week NHP toxicity study; the company is preparing the IND package and a Phase 1 monotherapy trial in advanced solid cancers (lung-focused, South Korea) is scheduled to initiate in 2026, with combination Phase 1 (IBA101 + durvalumab/pembrolizumab in NSCLC) targeted for 2027. The previously held GCC CAR-T license from Targeted Diagnostics & Therapeutics was terminated in August 2024. Company also has Nasdaq listing-compliance concerns (MVLS, MVPHS, and bid price all deficient as of late 2025/early 2026). No active P1/P2/P3 trials at snapshot date.",
+  "excluded_preclinical": [
+    {"asset": "IBA101 (Hu3A5)", "indication": "Advanced solid cancers (lung-focused) - planned Phase 1 in 2026", "stage": "IND-enabling complete; pre-IND meeting with FDA pending; Phase 1 not yet initiated"},
+    {"asset": "IBA101 + durvalumab/pembrolizumab", "indication": "Stage III+ NSCLC - planned Phase 1 in 2027", "stage": "Future combination plan"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "GCC vaccine / GCC CAR-T", "indication": "Colorectal/pancreatic/gastric/esophageal cancers expressing Guanylyl Cyclase C", "reason": "TDT licenses (from Thomas Jefferson University) terminated August 2024 per FY2025 10-K"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

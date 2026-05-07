@@ -1,0 +1,28 @@
+{
+  "issuer_name": "MindWalk Holdings Corp.",
+  "ticker": "HYFT",
+  "exchange": "Nasdaq",
+  "cik": "0001715925",
+  "region": "US/Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "AI-native drug-discovery platform company (formerly ImmunoPrecise Antibodies; rebranded to MindWalk Sept 2025). Operates LensAI / HYFT technology to discover biologics for partners. No proprietary clinical-stage assets in P1/P2/P3 disclosed; programs (dengue, GLP-1, influenza) are at discovery/preclinical stage. Public clinical assets attributed to partners (Acumen sabirnetug Ph2, OncoResponse Ph1/2, Amyl Therapeutics) are partner-owned and excluded.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer / no 10-K in EDGAR recent filings (Canadian-domiciled; files 20-F or 40-F)"},
+    "website": {"url": "https://www.mindwalkai.com/pipeline", "note": "No proprietary phase-staged pipeline disclosed"},
+    "ctgov": {"query_sponsor": "MindWalk", "results": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "Dengue immunogen program", "reason": "Discovery/preclinical via LensAI/HYFT platform; data anticipated near term but not in clinic"},
+    {"asset": "GLP-1 program", "reason": "Discovery/preclinical"},
+    {"asset": "Influenza broadly protective immunogen", "reason": "Discovery via LensAI; not clinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "Sabirnetug", "partner": "Acumen Pharmaceuticals", "phase": "Phase 2", "reason": "Partner-owned; MindWalk discovery contribution only"},
+    {"asset": "OncoResponse lead candidates", "partner": "OncoResponse", "phase": "Phase 1/2", "reason": "Partner-owned"},
+    {"asset": "Pan-amyloid immunotherapy", "partner": "Amyl Therapeutics", "reason": "Partner-owned"}
+  ],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

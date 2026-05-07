@@ -1,0 +1,83 @@
+{
+  "issuer_name": "Tivic Health Systems, Inc.",
+  "ticker": "TIVC",
+  "exchange": "Nasdaq",
+  "cik": "0001787740",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001437749-26-010343",
+      "path": "data/tivc_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://valionbio.com/ (tivichealth.com 301 redirects)",
+      "note": "Company appears to operate under Valion Bio brand; pipeline page renders via JS so WebFetch did not return text content. 10-K used as canonical source."
+    },
+    "ctgov": {
+      "sponsor_query": "Tivic Health",
+      "raw_hits": 3,
+      "kept_p1_p3": 0,
+      "path": "data/tivc_ctgov_compact.json",
+      "note": "Legacy ClearUp sinusitis device studies; no kept active P1/P2/P3 drug trials."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Entolimod (CBLB502)",
+      "aka": ["CBLB502"],
+      "modality": "Recombinant TLR5 agonist (engineered Salmonella flagellin derivative, ~329 aa, ~35 kDa)",
+      "target": "TLR5 (Toll-like Receptor 5); downstream NF-kB, G-CSF, IL-6 induction",
+      "license_origin": "Licensed February 2025 from Statera Biopharma (worldwide exclusive); license expanded Q2 2025 to neutropenia and to next-gen Entolasta",
+      "indications": [
+        {
+          "indication": "Acute Radiation Syndrome (ARS) - hematopoietic and GI",
+          "highest_phase": "Pre-BLA (FDA Animal Rule)",
+          "trial_name": "BLA preparation under FDA Animal Rule (no human efficacy trial required)",
+          "trial_design": "FDA Animal Rule pathway: pivotal NHP GLP Study Rs-23 (160 rhesus macaques, 7.2 Gy TBI) showed 75% vs 27.5% survival. Human safety data from prior studies in ~150 subjects.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Pre-BLA preparation; CGMP manufacturing scale-up at Velocity Bioworks completed Jan 2026 (200x scale-up at 50L)",
+          "lead_sponsor": "Tivic Health Systems",
+          "key_milestones": [
+            "Q3 2025: Entolimod cell line verified at Scorpius Biomanufacturing site",
+            "January 2026: Velocity Bioworks demonstrated 200x manufacturing scale-up at 50L meeting purity/potency",
+            "FDA designations: Fast Track; Orphan Drug"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {
+      "asset": "Entolimod",
+      "indication": "Radiation-induced neutropenia (oncology and ARS)",
+      "stage": "IND open (IND 112257) / Phase 2 design in preparation - not yet enrolling"
+    },
+    {
+      "asset": "Entolimod",
+      "indication": "Thrombocytopenia (radiation- and chemotherapy-induced)",
+      "stage": "IND / Phase 2 Preparation - not yet enrolling"
+    },
+    {
+      "asset": "Entolimod",
+      "indication": "Radiation mucositis (head & neck cancer radiotherapy)",
+      "stage": "IND / Phase 2 Preparation - not yet enrolling"
+    },
+    {
+      "asset": "Entolasta (next-gen TLR5 agonist)",
+      "indication": "Immunosenescence / chronic radiation exposure",
+      "stage": "Preclinical; IND-enabling studies planned 2026-2027"
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "ClearUp (vagus / trigeminal nerve stimulator device)",
+      "reason": "Legacy bioelectronic device program; no active P1/P2/P3 drug trial; not a drug pipeline asset under scope"
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "pre_bla": 1, "total_assets": 1},
+  "no_active_clinical_pipeline_reason": "Lead asset Entolimod for ARS is on FDA Animal Rule pathway (no human efficacy trial); other Entolimod indications are in IND/Phase 2 preparation but not yet enrolling. No active P1/P2/P3 trials at snapshot date."
+}

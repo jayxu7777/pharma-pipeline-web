@@ -1,0 +1,61 @@
+{
+  "issuer_name": "PMGC Holdings Inc.",
+  "ticker": "ELAB",
+  "exchange": "Nasdaq",
+  "cik": "0001840563",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-035937",
+      "filing_date": "2026-03-30",
+      "primary_doc": "ea0282650-10k_pmgc.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found (PMGC Holdings is a diversified holding company; biotech subsidiary Elevai Labs hosts the pipeline)"
+    },
+    "ctgov": {
+      "sponsor_query": "PMGC Holdings",
+      "trials_returned": 0
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "EL-22",
+      "aka": [],
+      "modality": "Engineered probiotic (oral, expressing membrane-bound myostatin)",
+      "target": "Myostatin",
+      "license_origin": "Acquired/licensed by PMGC subsidiary",
+      "indications": [
+        {
+          "indication": "Obesity (preservation of lean muscle mass during GLP-1 receptor agonist therapy)",
+          "highest_phase": "Phase 1",
+          "trial_name": "EL-22 Phase 1 in South Korea",
+          "trial_design": "Phase 1 safety / tolerability (completed in South Korea)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 completed in South Korea; generally well tolerated. US IND submission planned 2026; preclinical bridge studies underway to pivot from DMD to obesity indication.",
+          "lead_sponsor": "PMGC Holdings (Elevai Labs)",
+          "key_milestones": ["Phase 1 completed in South Korea", "Planned US IND submission 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {
+      "asset": "EL-32",
+      "modality": "Engineered probiotic (dual myostatin & activin-A)",
+      "indications": ["Obesity / muscle preservation"],
+      "status": "Preclinical."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 1,
+    "indications": 1,
+    "p1_count": 1,
+    "p2_count": 0,
+    "p3_count": 0
+  }
+}

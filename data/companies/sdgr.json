@@ -1,0 +1,90 @@
+{
+  "issuer_name": "Schrodinger, Inc.",
+  "ticker": "SDGR",
+  "exchange": "Nasdaq",
+  "cik": "0001490978",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001490978-26-000010",
+      "filing_date": "2026-02-25",
+      "doc": "sdgr-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.schrodinger.com/pipeline"
+    },
+    "ctgov": {
+      "sponsor_query": "Schrödinger",
+      "raw_count": 3,
+      "kept_p1_p3": 3
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "SGR-1505",
+      "aka": [],
+      "modality": "Small molecule (oral)",
+      "target": "MALT1",
+      "license_origin": "Internal (computationally designed)",
+      "indications": [
+        {
+          "indication": "Mature B-cell neoplasms (NHL, CLL, DLBCL, Waldenstrom etc.)",
+          "highest_phase": "Phase 1",
+          "trial_name": "SGR-1505 first-in-human",
+          "trial_design": "Phase 1 dose escalation/expansion in mature B-cell malignancies",
+          "nct_ids": ["NCT05544019"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Schrödinger, Inc.",
+          "key_milestones": ["Primary completion 2027-11"]
+        }
+      ]
+    },
+    {
+      "asset": "SGR-3515",
+      "aka": [],
+      "modality": "Small molecule (oral) — combined Wee1/Myt1 inhibitor",
+      "target": "Wee1 + Myt1 kinases",
+      "license_origin": "Internal (computationally designed)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (ovarian, uterine focus)",
+          "highest_phase": "Phase 1",
+          "trial_name": "SGR-3515 first-in-human",
+          "trial_design": "Phase 1 dose escalation in advanced solid tumors",
+          "nct_ids": ["NCT06463340"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Schrödinger, Inc.",
+          "key_milestones": ["Primary completion 2026-10"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": ["Software (computational drug discovery platform — primary revenue source)"],
+    "note": "Schrodinger is primarily a computational drug-discovery software company; proprietary drug pipeline is a secondary value driver alongside numerous partner-program royalty/milestone interests (Nimbus, BMS, Otsuka, Morphic, Structure Tx, etc.) which are excluded as partner-owned."
+  },
+  "excluded_preclinical": [
+    {"asset": "SGR-2921 (was Phase 1 AML/MDS, NCT05961839)", "reason": "Phase 1 trial terminated; program discontinued."},
+    {"asset": "SGR-6016 (NLRP3, neurodegeneration)", "reason": "Preclinical."},
+    {"asset": "SGR-3907 (NLRP3, inflammation/CV)", "reason": "Preclinical."},
+    {"asset": "SGR-4281 (MALT1, I&I)", "reason": "Preclinical."},
+    {"asset": "SGR-1820 / SGR-8139 (oral cytokine inhibitors)", "reason": "Preclinical."},
+    {"asset": "SGR-4594 (oral hAb disrupter, I&I)", "reason": "Preclinical."},
+    {"asset": "SGR-2290 (SL degrader, oncology)", "reason": "Preclinical."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "SGR-2921 R/R AML/MDS Phase 1 (NCT05961839)", "reason": "Terminated Aug 2025."}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Numerous partner-discovered programs across Nimbus, BMS, Otsuka, Morphic, Structure Tx, etc.", "reason": "Partner-owned royalty/milestone interests; not Schrodinger-sponsored trials."}
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3": 0,
+    "p2": 0,
+    "p1": 2,
+    "indications_total": 2
+  }
+}

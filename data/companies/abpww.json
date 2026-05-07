@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Abpro Holdings, Inc.",
+  "ticker": "ABPWW",
+  "exchange": "OTC",
+  "cik": "0001893219",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-15",
+      "accession": "0001213900-26-044166",
+      "path": "data/abpww_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://abpro.com/pipeline",
+      "error": "TLS connection disconnected on WebFetch"
+    },
+    "ctgov": {
+      "path": "data/abpww_ctgov_compact.json",
+      "trial_count": 0,
+      "note": "No Abpro-sponsored trials on ClinicalTrials.gov"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "All product candidates are pre-IND / preclinical per the FY2025 10-K (filed Apr 2026). Lead asset ABP-102 (HER2 x CD3 TetraBi T-cell engager) Phase 1/2 trial planned for 1H 2026 in HER2+ breast and gastric cancer (partnered with Celltrion). ABP-201 (VEGF/Ang2 TetraBi) Phase 1 also planned. ABP-110 (GPC3 x CD3, HCC) clinical start expected 1H 2027. ABP-150 (Claudin 18.2 x CD3, gastric) preclinical (partner: Nanjing). IND-enabling GLP tox and GMP manufacturing in progress.",
+  "excluded_preclinical": [
+    {"asset": "ABP-102", "indication": "HER2+ breast & gastric cancer", "phase": "Pre-IND (Phase 1/2 planned 1H 2026)", "partner": "Celltrion (worldwide)"},
+    {"asset": "ABP-201", "indication": "Wet AMD / DME (VEGF x Ang2)", "phase": "Pre-IND (Phase 1 planned)", "partner": "AbMed; Abpro Bio (Asia/MENA)"},
+    {"asset": "ABP-110", "indication": "Hepatocellular carcinoma (GPC3 x CD3)", "phase": "Preclinical (clinical start 1H 2027)", "license_origin": "NCI patent license"},
+    {"asset": "ABP-150", "indication": "Gastric cancer (Claudin 18.2 x CD3)", "phase": "Preclinical", "partner": "Nanjing collaboration"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "issuer_name": "Processa Pharmaceuticals, Inc.",
+  "ticker": "PCSA",
+  "exchange": "Nasdaq",
+  "cik": "0001533743",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-011204",
+      "filing_date": "2026-03-18",
+      "doc": "form10-k.htm"
+    },
+    "website": {
+      "url": "https://www.processapharmaceuticals.com/product-pipeline",
+      "note": "Confirms NGC-Cap (PCS6422) and NGC-Iri (PCS11T) oncology assets plus PCS499 and PCS12852 non-oncology drugs."
+    },
+    "ctgov": {
+      "lead_sponsor_searched": "Processa Pharmaceuticals",
+      "trials_returned": 10,
+      "note": "Active: PCS6422+capecitabine Phase 2 breast cancer (NCT06568692, RECRUITING); other registry studies COMPLETED or TERMINATED."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "PCS6422 (NGC-Cap)",
+      "aka": ["NGC-Cap", "Eniluracil + capecitabine"],
+      "modality": "Oral small molecule (irreversible DPD inhibitor) co-administered with low-dose capecitabine",
+      "target": "Dihydropyrimidine dehydrogenase (DPD)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic breast cancer (HER2-negative incl. TNBC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PCS6422 + Capecitabine in Advanced/Metastatic Breast Cancer",
+          "trial_design": "Phase 2 of PCS6422 (Cohort 3 [75 mg BID] and Cohort 4 [225 mg BID]) + capecitabine vs capecitabine alone",
+          "nct_ids": ["NCT06568692"],
+          "trial_status": "RECRUITING; primary completion Sept 2026; ~20 patients dosed by 2025 per 10-K",
+          "lead_sponsor": "Processa Pharmaceuticals",
+          "key_milestones": ["Phase 1B completed July 2024 supporting Phase 2 dose selection"]
+        },
+        {
+          "indication": "Metastatic colorectal cancer",
+          "highest_phase": "Phase 2 (planned)",
+          "trial_name": "NGC-Cap colorectal cancer (planned)",
+          "trial_design": "Planned Phase 2 of NGC-Cap in metastatic CRC",
+          "nct_ids": [],
+          "trial_status": "PLANNED - listed on website pipeline; no active CRC-specific trial registered",
+          "lead_sponsor": "Processa Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PCS11T (NGC-Iri)",
+      "aka": ["NGC-Iri", "SN38 analog"],
+      "modality": "Small molecule (SN38 analog with modified chemical structure for tumor uptake)",
+      "target": "Topoisomerase I (active metabolite of irinotecan analog)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Colorectal, small cell lung, pancreatic cancer",
+          "highest_phase": "Preclinical / IND-stage",
+          "trial_name": "NGC-Iri (planned first-in-human)",
+          "trial_design": "Preclinical xenograft data supports development; first-in-human planned",
+          "nct_ids": [],
+          "trial_status": "PRE-LAUNCH - in pre-clinical development per 10-K (\"the other is in pre-clinical development\"). Excluded from active P1/P2/P3 list.",
+          "lead_sponsor": "Processa Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PCS12852",
+      "aka": [],
+      "modality": "Small molecule (highly specific 5-HT4 agonist)",
+      "target": "5-HT4 receptor",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Gastroparesis (moderate to severe)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PCS12852 Phase 2A gastric emptying (completed); Phase 2B-ready",
+          "trial_design": "Phase 2A safety/PK/efficacy on gastric emptying rate vs placebo",
+          "nct_ids": ["NCT05270460"],
+          "trial_status": "Phase 2A COMPLETED Sept 2022 with positive results; Phase 2B-ready; exploring out-licensing/partnership",
+          "lead_sponsor": "Processa Pharmaceuticals",
+          "key_milestones": ["Phase 2A positive readout 2022", "Phase 2B-ready"]
+        }
+      ]
+    },
+    {
+      "asset": "PCS499",
+      "aka": ["Pentoxifylline metabolite"],
+      "modality": "Small molecule (modified-release)",
+      "target": "Multi-pathway (vascular, inflammatory)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Necrobiosis lipoidica / primary glomerular disease (under evaluation)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PCS499 Phase 2 (NL); planned program for primary glomerular disease",
+          "trial_design": "Prior Phase 2 NL studies completed/terminated; future plan: Phase 2 then Phase 3 in primary glomerular disease",
+          "nct_ids": ["NCT03698864", "NCT04800562"],
+          "trial_status": "Prior Phase 2 NL studies COMPLETED (NCT03698864) or TERMINATED (NCT04800562); future development plan being defined - exploring partnership",
+          "lead_sponsor": "Processa Pharmaceuticals",
+          "key_milestones": ["Out-licensing/partnership being explored"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {
+      "asset": "PCS11T (NGC-Iri)",
+      "reason": "Pre-clinical per 10-K; not yet in human trials."
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "RX-3117",
+      "nct_ids": ["NCT03189914", "NCT02030067"],
+      "reason": "Phase 1/2 pancreatic cancer and solid tumors COMPLETED; not in current Processa pipeline."
+    },
+    {
+      "asset": "HT-100 (halofuginone)",
+      "nct_ids": ["NCT01847573", "NCT01978366"],
+      "reason": "Phase 1/2 and Phase 2 OLE in DMD both TERMINATED."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 0,
+    "phase_2": 3,
+    "phase_1": 0,
+    "note": "PCS11T excluded as preclinical; PCS6422, PCS12852, PCS499 counted in P2."
+  }
+}

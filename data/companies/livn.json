@@ -1,0 +1,99 @@
+{
+  "issuer_name": "LivaNova PLC",
+  "ticker": "LIVN",
+  "exchange": "Nasdaq",
+  "cik": "0001639691",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001639691-26-000010",
+      "filed": "2026-02-25",
+      "fiscal_year_end": "2025-12-31",
+      "section_used": "Business Overview / Neuromodulation / DTD / OSA"
+    },
+    "website": {
+      "url_attempted": "https://www.livanova.com/pipeline",
+      "note": "Skipped — LivaNova is a medical device manufacturer; it publishes product pages and clinical-evidence resources rather than a drug pipeline page. 10-K and ctgov are sufficient sources."
+    },
+    "ctgov": {
+      "sponsor_query": "LivaNova",
+      "trials_returned_in_compact": 10,
+      "supplemental_lookups": "RECOVER (NCT03887715) and OSPREY (NCT04950894) confirmed via direct ClinicalTrials.gov v2 API queries because the default sponsor query did not include the legacy ImThera-renamed and CED-coded studies."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "VNS Therapy System (SenTiva / SenTiva Duo, Model 1000 / 1000-D pulse generators)",
+      "aka": ["VNS Therapy", "Vagus Nerve Stimulation Therapy", "RECOVER"],
+      "modality": "Implantable active medical device — vagus nerve neurostimulation",
+      "target": "Left cervical vagus nerve",
+      "license_origin": "Internal / Cyberonics legacy (predecessor to LivaNova)",
+      "indications": [
+        {
+          "indication": "Difficult-to-Treat Depression (DTD) / Treatment-Resistant Depression (TRD) — adjunctive therapy",
+          "highest_phase": "P3-equivalent (CMS-mandated CED pivotal RCT for an approved device; classified Phase=NA in ctgov but functionally pivotal)",
+          "trial_name": "RECOVER",
+          "trial_design": "Prospective, multi-center, randomized, controlled, blinded study of VNS Therapy System as adjunctive therapy versus a no-stimulation control in subjects with treatment-resistant depression; up to 1,000 patients across up to 100 U.S. sites; unipolar and bipolar cohorts.",
+          "nct_ids": ["NCT03887715"],
+          "trial_status": "RECRUITING (bipolar cohort ongoing; unipolar cohort enrollment completed 2023; preliminary unipolar primary endpoint not met in 2024 with positive secondary endpoints; LivaNova initiated CMS reconsideration process June 2025)",
+          "lead_sponsor": "LivaNova",
+          "key_milestones": [
+            "2019 — CMS accepts RECOVER protocol; first patient enrolled",
+            "2023 — Unipolar cohort enrollment completed",
+            "2024 — Unipolar primary endpoint missed; significant gains on secondary QoL/function endpoints",
+            "Jun 2025 — Process initiated with CMS to reconsider National Coverage Determination for unipolar TRD",
+            "Bipolar cohort enrollment ongoing"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "aura6000 System",
+      "aka": ["ImThera aura6000", "Targeted Hypoglossal Neurostimulation"],
+      "modality": "Implantable active medical device — targeted hypoglossal nerve stimulation (six-electrode)",
+      "target": "Hypoglossal nerve",
+      "license_origin": "ImThera Medical acquisition (full ownership 2018)",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe Obstructive Sleep Apnea (OSA)",
+          "highest_phase": "P3-equivalent (FDA IDE pivotal trial for PMA; Phase=NA in ctgov but pivotal)",
+          "trial_name": "OSPREY",
+          "trial_design": "Prospective, multi-center, randomized IDE pivotal trial of targeted hypoglossal nerve stimulation with the aura6000 System for the treatment of obstructive sleep apnea.",
+          "nct_ids": ["NCT04950894"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary endpoints for efficacy and safety met in 2024; PolySync advanced titration algorithm announced November 2025; PMA submission expected to follow)",
+          "lead_sponsor": "LivaNova",
+          "key_milestones": [
+            "2021 — FDA approval to proceed with IDE",
+            "2022 — First patient implanted",
+            "2024 — OSPREY met primary endpoints for efficacy and safety",
+            "Nov 2025 — Launch of PolySync advanced titration algorithm leveraging the six-electrode design"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "neuromodulation": "VNS Therapy System for drug-resistant epilepsy (DRE) — approved in U.S. for patients aged 4+ with partial/focal-onset seizures; models include Model 103 (Demipulse), Model 106 (AspireSR), Model 1000 (SenTiva), Model 1000-D (SenTiva Duo). VNS for depression has been FDA-approved since 2005 but not broadly reimbursed pending RECOVER outcomes.",
+    "cardiopulmonary": "Essenz Perfusion System (next-gen heart-lung machine), Inspire oxygenators, autotransfusion systems, perfusion tubing, cannulae."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "NANO LV Lead", "nct_ids": ["NCT01731210"], "reason": "TERMINATED"},
+    {"asset": "PARADYM RF / SonR / REPLY pacing & CRT device studies", "nct_ids": ["NCT01193634","NCT01169272","NCT02167789","NCT01537718","NCT00957541","NCT01341522"], "reason": "All COMPLETED or WITHDRAWN; cardiac rhythm management line divested years ago to MicroPort."},
+    {"asset": "Equilia VNS for HFrEF (VANGUARD)", "nct_ids": ["NCT02113033"], "reason": "COMPLETED 2016; program not advanced."},
+    {"asset": "RECOVER sub-study", "nct_ids": ["NCT04753385"], "reason": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Heart-failure ACE-I optimization in elderly", "nct_ids": ["NCT01437371"], "reason": "Sponsor University Hospital Clermont-Ferrand."},
+    {"asset": "ICE post-AF ablation (Ramipril)", "nct_ids": ["NCT00736294"], "reason": "Sponsor CHU Saint Etienne / Sanofi / French MoH."}
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3": 2,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": null
+}

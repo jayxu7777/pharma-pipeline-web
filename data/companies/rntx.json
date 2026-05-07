@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Rein Therapeutics, Inc.",
+  "ticker": "RNTX",
+  "exchange": "Nasdaq",
+  "cik": "0001420565",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/rntx_10k_pipeline_section.html", "filing_date": "2026-03-26", "accession": "0001193125-26-126385"},
+    "website": {"url": "https://reintx.com/", "note": "Pipeline confirmed via ctgov; LTI-03 lead asset"},
+    "ctgov": {"path": "data/rntx_ctgov_compact.json", "trial_count": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "LTI-03",
+      "aka": ["Caveolin-1 scaffolding-protein-derived peptide"],
+      "modality": "Inhaled synthetic peptide (dry powder inhaler)",
+      "target": "Caveolin-1 (Cav1) pathway restoration in alveolar epithelium",
+      "license_origin": "Internal (Lung Therapeutics legacy / Rein Therapeutics)",
+      "indications": [
+        {
+          "indication": "Idiopathic Pulmonary Fibrosis (IPF)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RENEW (Phase 2 IPF)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 of inhaled LTI-03 vs placebo in newly diagnosed IPF patients",
+          "nct_ids": ["NCT06968845"],
+          "trial_status": "Recruiting (started 2026-02-02; primary completion 2027-09-30)",
+          "lead_sponsor": "Rein Therapeutics",
+          "key_milestones": ["Phase 1b in IPF patients (NCT05954988) completed 2024-09-25 with positive biomarker readout supporting Phase 2 advancement"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["LTI-2010 (preclinical follow-on)"],
+  "excluded_legacy_terminated": ["NCT04159831 (LTI-01 Phase 2 in infected non-draining pleural effusions) — Completed 2022; program deprioritized"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

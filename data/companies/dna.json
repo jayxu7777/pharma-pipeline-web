@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Ginkgo Bioworks Holdings, Inc.",
+  "ticker": "DNA",
+  "exchange": "NYSE",
+  "cik": "0001830214",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-012346", "filed": "2026-02-26", "fy": "2025"},
+    "website": {"note": "skipped — Ginkgo is a platform/services company, no proprietary clinical pipeline"},
+    "ctgov": {"sponsor_query": "Ginkgo Bioworks", "active_pcubed_trials": 0}
+  },
+  "no_active_clinical_pipeline_reason": "Ginkgo Bioworks is a horizontal cell-engineering platform / biosecurity services company (Cell Engineering segment + Biosecurity segment). It does not develop its own clinical drug candidates; revenue is from R&D services and program fees with partners who own the assets. 10-K pipeline section contains no Phase 1/2/3 clinical mentions; ctgov returns zero trials with Ginkgo as lead sponsor.",
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

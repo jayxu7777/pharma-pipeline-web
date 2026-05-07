@@ -1,0 +1,96 @@
+{
+  "issuer_name": "Assembly Biosciences, Inc.",
+  "ticker": "ASMB",
+  "exchange": "Nasdaq",
+  "cik": "0001426800",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-115992", "filing_date": "2026-03-19", "doc": "asmb-20251231.htm"},
+    "website": {"url": "https://assemblybio.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/asmb_ctgov_compact.json", "trials_kept": 21, "note": "All Assembly-sponsored ctgov trials are COMPLETED or TERMINATED at snapshot date; ongoing Phase 1b activities (5366, 1179) shown on website are not yet reflected as active in registry."}
+  },
+  "pipeline": [
+    {
+      "asset": "ABI-5366",
+      "aka": ["5366"],
+      "modality": "Small molecule",
+      "target": "HSV helicase-primase",
+      "license_origin": "Internal; partnered with Gilead Sciences (collaboration/option agreement)",
+      "indications": [
+        {
+          "indication": "Recurrent genital herpes (HSV-2)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ABI-5366 first-in-human / Phase 1b in HSV-2 seropositive participants",
+          "trial_design": "Safety, PK, antiviral activity in healthy volunteers and HSV-2 seropositive participants with recurrent genital herpes",
+          "nct_ids": ["NCT06385327"],
+          "trial_status": "Phase 1b ongoing per company; ctgov record COMPLETED 2026-02-03 (primary completion); program transitioning to Gilead",
+          "lead_sponsor": "Assembly Biosciences",
+          "key_milestones": ["Program transitioning to Gilead under collaboration/option agreement"]
+        }
+      ]
+    },
+    {
+      "asset": "ABI-1179",
+      "aka": ["1179"],
+      "modality": "Small molecule",
+      "target": "HSV helicase-primase",
+      "license_origin": "Internal; partnered with Gilead Sciences",
+      "indications": [
+        {
+          "indication": "Recurrent genital herpes (HSV-2)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ABI-1179 Phase 1 / 1b in healthy volunteers and HSV-2 seropositive participants",
+          "trial_design": "Safety, PK, tolerability in healthy and HSV-2 seropositive participants",
+          "nct_ids": ["NCT06698575"],
+          "trial_status": "Phase 1b ongoing per company; ctgov primary completion 2026-01-19; program transitioning to Gilead",
+          "lead_sponsor": "Assembly Biosciences",
+          "key_milestones": ["Program transitioning to Gilead under collaboration/option agreement"]
+        }
+      ]
+    },
+    {
+      "asset": "ABI-6250",
+      "aka": ["6250"],
+      "modality": "Small molecule (NTCP entry inhibitor)",
+      "target": "NTCP (sodium taurocholate co-transporting polypeptide)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic hepatitis D (HDV)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ABI-6250 Phase 1 in healthy participants",
+          "trial_design": "First-in-human SAD/MAD safety, tolerability, PK study",
+          "nct_ids": ["NCT06740474"],
+          "trial_status": "Phase 1 completed 2025-07-08; Phase 2 preparation ongoing with initiation expected Q4 2026",
+          "lead_sponsor": "Assembly Biosciences",
+          "key_milestones": ["Phase 2 initiation expected Q4 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ABI-4334",
+      "aka": ["4334"],
+      "modality": "Small molecule (capsid assembly modulator)",
+      "target": "HBV core/capsid",
+      "license_origin": "Internal; structured partnering process underway",
+      "indications": [
+        {
+          "indication": "Chronic hepatitis B (HBV)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ABI-4334 Phase 1b in chronic HBV-infected subjects",
+          "trial_design": "Safety, PK, antiviral activity in chronic HBV-infected adults",
+          "nct_ids": ["NCT05569941", "NCT06384131"],
+          "trial_status": "Phase 1b primary completion 2025-04-15; company evaluating partnering opportunities; no further internal advancement announced",
+          "lead_sponsor": "Assembly Biosciences",
+          "key_milestones": ["Structured partnering process initiated to advance program"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Discovery-stage broad-spectrum non-nucleoside polymerase inhibitor for transplant-associated herpesvirus infections"],
+  "excluded_legacy_terminated": ["ABI-H0731 (vebicorvir, VBR) - HBV - Phase 2 program terminated", "ABI-H2158 - HBV - Phase 2 program terminated", "ABI-H3733 - HBV - Phase 1 completed, superseded", "ABI-M201 - ulcerative colitis - Phase 1 terminated"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 4, "P3": 0, "P2": 0, "P1": 4}
+}

@@ -1,0 +1,37 @@
+{
+  "issuer_name": "Emmaus Life Sciences, Inc.",
+  "ticker": "EMMA",
+  "exchange": "OTC",
+  "cik": "0000822370",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Per the FY2025 10-K: 'we have suspended substantially all research and development activities to reduce operating expenses while we seek to restructure or refinance our existing indebtedness.' All historical Emmaus-sponsored or collaborator trials of L-glutamine (sickle cell disease P3 NCT01179217, diverticulosis P1 NCT05106101, pancreatic cancer P1 NCT04634539, cystic fibrosis P2 NCT01051999, sickle cell anemia P2 NCT00125788) are completed or terminated. December 2025 exclusive option for an academic-stage solid-tumor metabolic therapy is partner-led and not yet a sponsored Emmaus trial.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-132925", "filing_date": "2026-03-31", "form": "10-K"},
+    "website": {"url": "https://www.emmausmedical.com/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor": "Emmaus", "trials_returned": 6}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Endari (L-glutamine oral powder)",
+    "indication": "Sickle cell disease, ages 5+",
+    "approval": "FDA-approved July 2017; also approved in UAE, Qatar, Kuwait, Bahrain, Oman; pending in KSA",
+    "license": "Dec 2025 License & Exclusive Distribution Agreement with NeoImmuneTech (NIT) for U.S. and Canada in SCD"
+  },
+  "excluded_preclinical": [
+    {"asset": "IRAK4 inhibitor (KM10544)", "reason": "Preclinical, Kainos Medicine collaboration"},
+    {"asset": "Cell sheet engineering", "reason": "Research-stage regenerative medicine"},
+    {"asset": "Solid-tumor metabolic therapy (option from academic medical center)", "reason": "Option only; partner-completed Phase 1; no Emmaus-sponsored trial yet"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT01179217", "asset": "Endari P3 SCD", "reason": "Completed; led to FDA approval"},
+    {"nct_id": "NCT00125788", "asset": "L-glutamine P2 SCD", "reason": "Completed"},
+    {"nct_id": "NCT05106101", "asset": "L-glutamine P1 diverticulosis", "reason": "Completed 2022-12-30; R&D suspended"},
+    {"nct_id": "NCT04634539", "asset": "L-glutamine P1 pancreatic cancer (investigator-initiated, Jun Gong MD)", "reason": "Completed 2023-07-06"},
+    {"nct_id": "NCT01051999", "asset": "Glutamine P2 cystic fibrosis (Emory University)", "reason": "Completed; collaborator-led"},
+    {"nct_id": "NCT00586209", "asset": "L-glutamine P2 SCA (Lundquist Institute)", "reason": "Terminated"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

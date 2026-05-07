@@ -1,0 +1,45 @@
+{
+  "issuer_name": "3M CO",
+  "ticker": "MMM",
+  "exchange": "NYSE",
+  "cik": "0000066740",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-03",
+      "accession": "0000066740-26-000014",
+      "path": "data/mmm_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "3M is an industrial conglomerate; no drug or device clinical pipeline page exists. Healthcare business (Solventum) was spun off in April 2024."
+    },
+    "ctgov": {
+      "path": "data/mmm_ctgov_compact.json",
+      "note": "All ctgov hits where 3M appears are completed, terminated, withdrawn, or sponsored by Solventum/Kindeva (divested entities). No active proprietary 3M-sponsored drug or device clinical trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "3M is a diversified industrial company. After the April 2024 spin-off of Solventum (healthcare business) and the prior 2020 sale of the drug delivery business (now Kindeva), 3M has no proprietary drug or active medical-device clinical pipeline. Consumer-facing safety/PPE products (e.g., respirators, adhesives) are commercial industrial goods, not regulated drug-pipeline assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT01968356", "reason": "TERMINATED, sponsored by Solventum (divested entity)"},
+    {"nct_id": "NCT00230373", "reason": "WITHDRAWN"},
+    {"nct_id": "NCT06493539", "reason": "WITHDRAWN"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT05983874", "reason": "Lead sponsor International AIDS Vaccine Initiative; 3M-052 adjuvant supplied as collaborator material, asset is not a 3M proprietary clinical asset post-Solventum spin-off"},
+    {"nct_id": "NCT03246581", "reason": "Lead sponsor Kindeva Drug Delivery (divested 3M drug-delivery business)"},
+    {"nct_id": "NCT02682316", "reason": "Investigator-initiated MSKCC trial of KCI/Solventum Prevena device; not 3M proprietary"}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "3M is a diversified industrial conglomerate. After spinning off Solventum (healthcare) in April 2024 and divesting its pharmaceutical drug-delivery business (now Kindeva) in 2020, 3M holds no proprietary drug or active company-sponsored device clinical pipeline. All ctgov entries listing 3M are either completed/terminated/withdrawn or led by external sponsors / divested entities."
+}

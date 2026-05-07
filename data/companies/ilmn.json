@@ -1,0 +1,41 @@
+{
+  "issuer_name": "ILLUMINA, INC.",
+  "ticker": "ILMN",
+  "exchange": "Nasdaq",
+  "cik": "0001110803",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-12",
+      "accession": "0001110803-26-000024",
+      "path": "data/ilmn_10k_pipeline_section.html",
+      "note": "10-K describes Illumina as a sequencing instruments / consumables / informatics provider. No proprietary therapeutic pipeline."
+    },
+    "website": {
+      "error": "Illumina is a genomics tools and clinical diagnostics vendor; no therapeutic-drug pipeline page exists. Product portfolio (NovaSeq, NextSeq, MiSeq, TruSight oncology assays) is commercial."
+    },
+    "ctgov": {
+      "path": "data/ilmn_ctgov_compact.json",
+      "note": "All ctgov hits map to Innervate Radiopharmaceuticals LLC (formerly Illumina Radiopharmaceuticals LLC), an unrelated private entity, not Illumina, Inc. (ILMN). Excluded as not the issuer."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Illumina sells sequencing instruments (NovaSeq X / 6000, NextSeq, MiSeq, iSeq), consumables and informatics, plus IVD/clinical assays such as TruSight Oncology Comprehensive (TSO Comp, EU IVDR) and TruSight Oncology 500. These are commercial diagnostic products, not active drug-pipeline assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT04535193", "reason": "Lead sponsor Innervate Radiopharmaceuticals (formerly Illumina Radiopharmaceuticals LLC) — unrelated entity, not Illumina, Inc."},
+    {"nct_id": "NCT06965621", "reason": "Same — Innervate Radiopharmaceuticals, not the issuer."}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Illumina, Inc. is a genomic-sequencing instruments and clinical-diagnostics company. It has no proprietary therapeutic drug pipeline. ctgov entries appearing under 'Illumina' belong to Innervate Radiopharmaceuticals (formerly Illumina Radiopharmaceuticals LLC), a separate entity unrelated to ILMN."
+}

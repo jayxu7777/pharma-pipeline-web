@@ -1,0 +1,52 @@
+{
+  "issuer_name": "SMITH & NEPHEW PLC",
+  "ticker": "SNNUF",
+  "exchange": "OTC",
+  "cik": "0000845982",
+  "region": "UK",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F, no 10-K available on EDGAR for CIK 0000845982."
+    },
+    "website": {
+      "url": "https://www.smith-nephew.com/",
+      "note": "Smith & Nephew is a global medical-devices company (Orthopaedics, Sports Medicine & ENT, Advanced Wound Management). No drug pipeline page; products are commercial-stage devices and biologics for wound care."
+    },
+    "ctgov": {
+      "sponsor_query": "Smith & Nephew",
+      "unique_trials_p1_p3": 5,
+      "all_status": "All 5 P1-P3 records are COMPLETED (3) or TERMINATED (2); none active. Most are investigator-initiated device studies with Smith & Nephew as collaborator.",
+      "trials_reviewed": [
+        {"nctId": "NCT00590369", "status": "TERMINATED", "lead": "Cleveland Clinic", "topic": "NPWT wound therapy comparison"},
+        {"nctId": "NCT01509313", "status": "COMPLETED", "lead": "Birmingham Women's NHS", "topic": "TruClear morcellator vs Versapoint"},
+        {"nctId": "NCT01224522", "status": "TERMINATED", "lead": "Smith & Nephew Orthopaedics AG", "topic": "Visionaire patient-matched cutting blocks for knee"},
+        {"nctId": "NCT00704743", "status": "COMPLETED", "lead": "University of British Columbia", "topic": "Casting vs splinting for Colles fractures"},
+        {"nctId": "NCT01656889", "status": "COMPLETED", "lead": "Healthpoint", "topic": "HP802-247 venous leg ulcer (legacy Healthpoint asset)"}
+      ]
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "franchise": "Global medical-devices company across three franchises: Orthopaedics (knee/hip implants, trauma), Sports Medicine & ENT (arthroscopy), Advanced Wound Management (PICO and RENASYS NPWT systems, OASIS, REGRANEX gel, ALLEVYN dressings). All commercialized; not enumerated individually here."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT00590369 (TERMINATED, NPWT)",
+    "NCT01224522 (TERMINATED, Visionaire knee)",
+    "NCT01509313 (COMPLETED 2013, TruClear)",
+    "NCT00704743 (COMPLETED, Colles fracture)",
+    "NCT01656889 (COMPLETED, HP802-247 VLU — legacy Healthpoint asset)"
+  ],
+  "excluded_partner_owned": [
+    "Investigator-initiated trials where Smith & Nephew is only a collaborator/device provider (Cleveland Clinic, Birmingham NHS, UBC)."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Smith & Nephew is a commercial-stage global medical-device company (orthopaedics, sports medicine & ENT, advanced wound management). No active proprietary P1/P2/P3 drug trials; all ClinicalTrials.gov P1-P3 records with Smith & Nephew involvement are completed or terminated, and most are investigator-initiated device-comparison studies. Foreign private issuer (files 20-F, not 10-K)."
+}

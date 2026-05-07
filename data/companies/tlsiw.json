@@ -1,0 +1,101 @@
+{
+  "issuer_name": "TriSalus Life Sciences, Inc.",
+  "ticker": "TLSIW",
+  "exchange": "Nasdaq",
+  "cik": "0001826667",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-015163",
+      "filing_date": "2026-03-05",
+      "doc": "tlsi-20251231.htm",
+      "note": "Combined commercial medtech (TriNav PEDD device family, FDA-cleared, $45.2M FY2025 revenue) plus investigational drug nelitolimod (TLR9 agonist, acquired from Dynavax 2020). Three Phase 1/1b PERIO studies; results expected 2026; planning pharma partnership for further development."
+    },
+    "website": {
+      "url": "https://trisaluslifesci.com/pipeline/",
+      "note": "Public pipeline page documents nelitolimod PERIO-01/02/03 program and TriNav device line."
+    },
+    "ctgov": {
+      "file": "data/tlsiw_ctgov_compact.json",
+      "unique_trials_p1_p3": 6,
+      "active_or_recruiting": 2,
+      "terminated_or_withdrawn": 3,
+      "completed": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "nelitolimod",
+      "aka": ["SD-101"],
+      "modality": "Class C TLR9 agonist (oligonucleotide); delivered intratumorally via Pressure-Enabled Drug Delivery (PEDD)",
+      "target": "TLR9; reduces myeloid-derived suppressor cells (MDSCs) in liver/pancreas tumor microenvironment",
+      "license_origin": "Acquired from Dynavax (Asset Purchase Agreement, July 31, 2020); $9M paid upfront/reimbursement plus $3M milestones to date; up to $170M development and $80M commercial milestones; tiered 10-12% royalty on net sales",
+      "indications": [
+        {
+          "indication": "Locally advanced pancreatic adenocarcinoma (PDAC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "PERIO-03",
+          "trial_design": "Phase 1, intrapancreatic pressure-enabled delivery of SD-101 (nelitolimod) plus anti-PD-1 checkpoint blockade in locally advanced pancreatic adenocarcinoma; lead investigator MD Anderson Cancer Center",
+          "nct_ids": ["NCT05607953"],
+          "trial_status": "Active, not recruiting (started 2023-03-01; primary completion 2027-09); results expected 2026",
+          "lead_sponsor": "TriSalus Life Sciences, Inc.",
+          "key_milestones": [
+            "Phase 1 readout expected in 2026",
+            "Subsequent indication selection and pharma partnership discussions planned"
+          ]
+        },
+        {
+          "indication": "Hepatocellular carcinoma (HCC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Cryoablation + PEDD-delivered SD-101 with durvalumab + tremelimumab",
+          "trial_design": "Phase 1 investigator-initiated trial (IIT) of cryotherapy plus arterial pressure-enabled infusion of nelitolimod combined with durvalumab and tremelimumab in HCC; TriSalus drug supply / collaborator",
+          "nct_ids": ["NCT06710223"],
+          "trial_status": "Recruiting (started 2025-01-03; primary completion 2027-06); 10-K notes HCC investigation continuing through IIT after company-sponsored PERIO-02 was terminated",
+          "lead_sponsor": "University of California, San Diego (TriSalus collaborator and drug provider)",
+          "key_milestones": [
+            "IIT data expected to inform HCC indication selection alongside PERIO-03 PDAC readout"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "device_family": "TriNav / TriNav XP — Pressure-Enabled Drug Delivery (PEDD) microcatheters",
+    "regulatory_status": "FDA 510(k)-cleared; used in over 31,000 procedures (TACE/TARE primarily); FY2025 revenue $45.2M (+53.4% YoY)",
+    "additional_uses": "Off-label / emerging procedural applications in uterine artery embolization, thyroid artery embolization, prostate artery embolization, genicular artery embolization (osteoarthritis)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "nelitolimod",
+      "trial_name": "PERIO-01 (uveal melanoma with liver metastases)",
+      "nct_ids": ["NCT04935229"],
+      "reason": "Terminated (primary completion 2024-07-17)"
+    },
+    {
+      "asset": "nelitolimod",
+      "trial_name": "PERIO-02 (HCC / ICC)",
+      "nct_ids": ["NCT05220722"],
+      "reason": "Terminated (primary completion 2024-07-31); HCC interest continues via UCSD IIT NCT06710223"
+    },
+    {
+      "asset": "PEDD pancreatic retrograde venous infusion (FOLFIRI/FOLFIRINOX) — Roger Williams investigator study",
+      "nct_ids": ["NCT04270929"],
+      "reason": "Withdrawn"
+    },
+    {
+      "asset": "Pembrolizumab +/- SD-101 in oligometastatic prostate cancer (David Oh, UCSF, IIT)",
+      "nct_ids": ["NCT03007732"],
+      "reason": "Completed Phase 2 IIT (primary completion 2025-03-31); TriSalus listed as collaborator only; no active sponsor-led prostate program disclosed in 10-K"
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 0,
+    "P2": 0,
+    "P1": 2
+  }
+}

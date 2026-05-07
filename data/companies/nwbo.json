@@ -1,0 +1,65 @@
+{
+  "issuer_name": "Northwest Biotherapeutics, Inc.",
+  "ticker": "NWBO",
+  "exchange": "OTC",
+  "cik": "0001072379",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-043806", "filing_date": "2026-04-15", "doc": "nwbo-20251231x10k.htm"},
+    "website": {"url": "https://www.nwbio.com"},
+    "ctgov": {"sponsor_query": "Northwest Biotherapeutics", "trials_returned": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "DCVax-L",
+      "aka": ["DCVax-Brain"],
+      "modality": "Autologous dendritic cell immunotherapy (personalized cancer vaccine)",
+      "target": "Tumor lysate antigens (patient-specific)",
+      "license_origin": "Internal platform technology",
+      "indications": [
+        {
+          "indication": "Newly Diagnosed and Recurrent Glioblastoma Multiforme (GBM)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 GBM externally controlled study",
+          "trial_design": "Phase 3 externally controlled trial; primary completion reported November 2022 with positive overall survival results",
+          "nct_ids": ["NCT00045968"],
+          "trial_status": "Phase 3 primary completion 2022; ctgov status UNKNOWN (not updated). Company pursuing MHRA UK regulatory pathway and other approvals.",
+          "lead_sponsor": "Northwest Biotherapeutics",
+          "key_milestones": ["Positive Phase 3 OS results published in JAMA Oncology 2022", "Pursuing MHRA UK regulatory submission"]
+        }
+      ]
+    },
+    {
+      "asset": "DCVax-Direct",
+      "aka": [],
+      "modality": "Autologous dendritic cell immunotherapy (intratumoral injection)",
+      "target": "Tumor lysate antigens (patient-specific)",
+      "license_origin": "Internal platform technology",
+      "indications": [
+        {
+          "indication": "Inoperable solid tumors (multiple — liver, colorectal, pancreatic, melanoma, sarcoma)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "DCVax-Direct Phase 1/2 solid tumors",
+          "trial_design": "Open-label safety/efficacy study in locally advanced and metastatic solid tumors",
+          "nct_ids": ["NCT01882946"],
+          "trial_status": "Status UNKNOWN on ctgov (not updated since 2016 primary completion). Company describes program as ongoing.",
+          "lead_sponsor": "Northwest Biotherapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["DCVax-Prostate (described as product candidate; no active trial)"],
+  "excluded_legacy_terminated": [
+    "NCT00043212 DCVax-Prostate Phase 3 — withdrawn",
+    "NCT00603460 DCVax-L ovarian (UPenn-led) — withdrawn",
+    "NCT03014804 DCVax-Lung GBM (UCLA-led) — withdrawn"
+  ],
+  "excluded_partner_owned": [
+    "NCT00683241 — completed Phase 1 ovarian, Abramson/UPenn-led, NWBO collaborator only",
+    "NCT03638765 DCVax-Direct brain metastases — Mayo-collaborated; status UNKNOWN since 2019, not advancing"
+  ],
+  "summary_counts": {"assets": 2, "indications": 2, "P3": 1, "P2": 1, "P1": 0}
+}

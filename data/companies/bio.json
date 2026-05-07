@@ -1,0 +1,37 @@
+{
+  "issuer_name": "Bio-Rad Laboratories, Inc.",
+  "ticker": "BIO",
+  "exchange": "NYSE",
+  "cik": "0000012208",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000012208-26-000010",
+      "filing_date": "2026-02-13",
+      "doc": "bio-20251231.htm"
+    },
+    "website": {
+      "error": "Diagnostics / life-science instruments company — no proprietary drug pipeline page"
+    },
+    "ctgov": {
+      "sponsor_query": "Bio-Rad",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "description": "Bio-Rad operates two segments: (1) Life Science (instruments, reagents and consumables for proteomics, genomics, cell biology, food safety, and process chromatography — Droplet Digital PCR, ddSEQ single-cell, qPCR, Western blotting, flow cytometry, electrophoresis), and (2) Clinical Diagnostics (quality controls, blood-typing, immunohematology, autoimmune, diabetes monitoring HbA1c, infectious disease, BioPlex multiplex testing platforms). It manufactures instruments, reagents and IVDs — not therapeutic drugs."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Bio-Rad is a life-science research and clinical diagnostics company that manufactures laboratory instruments, reagents, and in vitro diagnostic (IVD) products. It does not develop or sponsor proprietary therapeutic drugs. No Bio-Rad-sponsored P1/P2/P3 interventional drug trials are listed on ClinicalTrials.gov."
+}

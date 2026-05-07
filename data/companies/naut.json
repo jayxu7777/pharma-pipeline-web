@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Nautilus Biotechnology, Inc.",
+  "ticker": "NAUT",
+  "exchange": "Nasdaq",
+  "cik": "0001808805",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001808805-26-000011",
+      "filing_date": "2026-02-26",
+      "doc": "naut-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.nautilus.bio/",
+      "note": "Proteomics tools/platform company; no /pipeline page exists. Commercial platform: Voyager (single-molecule proteomics analyzer)."
+    },
+    "ctgov": {
+      "sponsor_query": "Nautilus Biotechnology",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Voyager Platform",
+    "category": "Life-sciences research instrument (single-molecule proteomics analyzer)",
+    "core_technology": "Iterative Mapping for protein and proteoform quantification",
+    "stage": "Early commercialization via Iterative Mapping Early Access Program"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Nautilus is a proteomics research-tools / platform company (Voyager single-molecule proteomics analyzer). It does not develop therapeutics and has no sponsor-led clinical trials; ctgov returns zero P1-P3 studies."
+}

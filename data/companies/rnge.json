@@ -1,0 +1,32 @@
+{
+  "issuer_name": "RANGE IMPACT, INC.",
+  "ticker": "RNGE",
+  "exchange": "OTC",
+  "cik": "0001438943",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "fetch_10k.py could not locate a pipeline section heading (expected — issuer is not a biopharma); 10-K exists but contains no drug pipeline content."
+    },
+    "website": {
+      "error": "no public pipeline page found (https://rnge.com/pipeline 404). Corporate site is rangeimpact.com — focused on land reclamation, not clinical assets."
+    },
+    "ctgov": {
+      "query_sponsor": "Range Impact",
+      "studies_returned": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Range Impact is an impact-investing / land reclamation company (formerly Malachite Innovations) that acquires, reclaims and repurposes former coal mine complexes in Appalachia. Segments: Range Reclaim, Range Minerals, Range Water (biochar/water), Range Security, Range Land. No drug or device development. Wide_keyword_match bucket false positive."
+}

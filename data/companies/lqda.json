@@ -1,0 +1,69 @@
+{
+  "issuer_name": "Liquidia Corp",
+  "ticker": "LQDA",
+  "exchange": "Nasdaq",
+  "cik": "0001819576",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-023804", "filed": "2026-03-05", "doc": "lqda-20251231x10k.htm", "pipeline_section_file": "data/lqda_10k_pipeline_section.txt"},
+    "website": {"url": "https://www.liquidia.com/pipeline", "error": "WebFetch timeout (>60s) — JS-heavy page; relied on 10-K + ctgov"},
+    "ctgov": {"file": "data/lqda_ctgov_compact.json", "sponsor_query": "Liquidia"}
+  },
+  "commercial_product": {
+    "brand": "YUTREPIA (treprostinil) Inhalation Powder",
+    "aka": ["LIQ861"],
+    "indication": "Pulmonary arterial hypertension (PAH) and pulmonary hypertension associated with interstitial lung disease (PH-ILD)",
+    "approval_status": "FDA-approved May 2025; launched June 2025",
+    "modality": "Inhaled dry-powder treprostinil via PRINT particle technology delivered with RS00 DPI",
+    "support_trials": ["NCT03992755 (long-term safety extension, P3, active not recruiting)"]
+  },
+  "pipeline": [
+    {
+      "asset": "L606",
+      "aka": [],
+      "modality": "Inhaled sustained-release liposomal treprostinil suspension via Vectura mesh-vibrating nebulizer",
+      "target": "Prostacyclin receptor (treprostinil)",
+      "license_origin": "In-licensed from Pharmosa (Jun 2023; expanded Oct 2024 to EU/Japan); Vectura nebulizer license Oct 2025",
+      "indications": [
+        {
+          "indication": "Pulmonary hypertension associated with interstitial lung disease (PH-ILD)",
+          "highest_phase": "P3",
+          "trial_name": "L606 in PH-ILD (Phase 3)",
+          "trial_design": "Randomized, placebo-controlled phase 3",
+          "nct_ids": ["NCT07285655"],
+          "trial_status": "Not yet recruiting (start April 2026; primary completion July 2029)",
+          "lead_sponsor": "Liquidia Technologies, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pulmonary arterial hypertension (PAH) and PH-ILD (safety/tolerability)",
+          "highest_phase": "P3",
+          "trial_name": "L606 safety/tolerability in PAH or PH-ILD",
+          "trial_design": "Open-label phase 3 safety/tolerability",
+          "nct_ids": ["NCT04691154"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Liquidia Technologies, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "LIQ861 (now commercial as YUTREPIA)", "trial": "NCT03884465 (P2 hemodynamic study)", "reason": "Terminated; LIQ861 program advanced to FDA approval as YUTREPIA"},
+    {"asset": "LIQ001 (influenza vaccine adjuvant)", "trial": "NCT01224262", "reason": "Legacy completed phase 1/2; program not active"},
+    {"asset": "LIQ865 (bupivacaine for acute pain)", "trial": "NCT02982889", "reason": "Legacy completed phase 1; program not active"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_indications": 2,
+    "p2_indications": 0,
+    "p1_indications": 0,
+    "p1_p2_indications": 0,
+    "active_clinical_indications_total": 2,
+    "commercial_products": 1
+  }
+}

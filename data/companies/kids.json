@@ -1,0 +1,49 @@
+{
+  "issuer_name": "OrthoPediatrics Corp",
+  "ticker": "KIDS",
+  "exchange": "Nasdaq",
+  "cik": "0001425450",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-04",
+      "accession": "0001425450-26-000013",
+      "path": "data/kids_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://orthopediatrics.com/products",
+      "note": "Corporate site lists marketed pediatric orthopedic devices; no drug pipeline page exists."
+    },
+    "ctgov": {
+      "path": "data/kids_ctgov_compact.json",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Pediatric orthopedic medical devices",
+    "representative_products": [
+      "Pediatric Nailing Platform (Femur, Tibia)",
+      "PediLoc Femur / PediLoc Tibia plates",
+      "PediFrag plating system",
+      "PediFlex flexible nails",
+      "Free-Gliding SCFE Screw System",
+      "DF2 Brace",
+      "Bioretec Cannulated ActivaScrew (resorbable PLGA)",
+      "Pediatric Plating Platform - Hip (limited launch, full launch 2026)"
+    ],
+    "note": "All listed products are commercially marketed Class II medical devices for pediatric trauma, deformity correction, and scoliosis."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Pediatric orthopedic medical-device company. Products are 510(k)-cleared / commercially marketed implants and instruments, not therapeutic drug candidates. No active P1/P2/P3 drug or device IDE trials disclosed in the FY2025 10-K or on ClinicalTrials.gov under OrthoPediatrics as lead sponsor."
+}

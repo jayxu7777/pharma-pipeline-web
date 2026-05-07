@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Immuneering Corporation",
+  "ticker": "IMRX",
+  "exchange": "Nasdaq",
+  "cik": "0001790340",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/imrx_10k_pipeline_section.html", "filing_date": "2026-03-06", "accession": "0001790340-26-000042"},
+    "website": {"url": "https://www.immuneering.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/imrx_ctgov_compact.json", "trial_count": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "Atebimetinib",
+      "aka": ["IMM-1-104"],
+      "modality": "Small molecule, oral once-daily MEK inhibitor (Deep Cyclic Inhibition)",
+      "target": "MEK1/MEK2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "First-line metastatic pancreatic ductal adenocarcinoma (PDAC) — combination with mGnP",
+          "highest_phase": "Phase 3",
+          "trial_name": "MAPKeeper 301",
+          "trial_design": "Randomized Phase 3 of atebimetinib + modified gemcitabine/nab-paclitaxel (mGnP) vs GnP in 1L metastatic PDAC",
+          "nct_ids": ["NCT07562152"],
+          "trial_status": "Recruiting (start May 2026)",
+          "lead_sponsor": "Immuneering Corporation",
+          "key_milestones": ["First patient dosing mid-2026; primary completion targeted June 2028"]
+        },
+        {
+          "indication": "Advanced/metastatic solid tumors (PDAC, NSCLC, melanoma) — monotherapy and combinations",
+          "highest_phase": "Phase 1/2a",
+          "trial_name": "IMM-1-104 Phase 1/2a basket",
+          "trial_design": "Open-label Phase 1/2a; monotherapy and combinations with mGnP, mFOLFIRINOX, dabrafenib, pembrolizumab",
+          "nct_ids": ["NCT05585320"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Immuneering Corporation",
+          "key_milestones": ["Primary completion June 2026"]
+        },
+        {
+          "indication": "First-line RAS-mutant non-small cell lung cancer (NSCLC) — combination with cemiplimab +/- chemo",
+          "highest_phase": "Phase 2",
+          "trial_name": "Regeneron-collaboration Phase 2 (atebimetinib + cemiplimab)",
+          "trial_design": "Phase 2 atebimetinib + cemiplimab (Libtayo) ± chemotherapy in RAS-mutant 1L NSCLC",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Planned — first patient dosing 2H 2026",
+          "lead_sponsor": "Immuneering Corporation (Regeneron collaboration)",
+          "key_milestones": ["FPI second half of 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Envometinib",
+      "aka": ["IMM-6-415"],
+      "modality": "Small molecule, oral Deep Cyclic Inhibitor",
+      "target": "MEK (next-gen, accelerated cycling)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "RAS/RAF-mutant advanced/metastatic solid tumors",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "IMM-6-415 Phase 1/2",
+          "trial_design": "Open-label Phase 1/2 in RAS/RAF mutant solid tumors",
+          "nct_ids": ["NCT06208124"],
+          "trial_status": "Phase 1 completed (April 2025); program paused / available for partnering",
+          "lead_sponsor": "Immuneering Corporation",
+          "key_milestones": ["Phase 1 readout 2025; further dev pending partnering"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Multiple additional Deep Cyclic Inhibitor discovery programs"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 1, "P2": 2, "P1": 1}
+}

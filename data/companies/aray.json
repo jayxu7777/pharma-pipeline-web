@@ -1,0 +1,59 @@
+{
+  "issuer_name": "Accuray Incorporated",
+  "ticker": "ARAY",
+  "exchange": "Nasdaq",
+  "cik": "0001138723",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-25-191242",
+      "filed": "2025-08-28",
+      "doc": "aray-20250630.htm",
+      "slice_path": "data/aray_10k_pipeline_section.html"
+    },
+    "website": {
+      "result": "Skipped — Accuray is a radiation-oncology device manufacturer (CyberKnife, TomoTherapy/Radixact); corporate site has no drug-pipeline page."
+    },
+    "ctgov": {
+      "lead_sponsor_query": "Accuray",
+      "p1_p3_unique_trials": 0,
+      "note": "Lead-sponsor query returned 6 historical trials, all WITHDRAWN, COMPLETED, UNKNOWN, TERMINATED, or investigator-initiated with Accuray as collaborator only. No active sponsor-led P1/P2/P3 study.",
+      "compact_path": "data/aray_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "approved_devices": [
+      {
+        "name": "CyberKnife System",
+        "category": "Robotic stereotactic radiosurgery / SBRT platform",
+        "regulatory_status": "FDA-cleared and CE-marked; commercially marketed worldwide"
+      },
+      {
+        "name": "TomoTherapy / Radixact System",
+        "category": "Helical IMRT / image-guided radiation therapy platform",
+        "regulatory_status": "FDA-cleared and CE-marked; commercially marketed worldwide"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT01318200", "title": "TACE vs CyberKnife for Recurrent HCC", "phase": "PHASE3", "status": "WITHDRAWN", "lead_sponsor": "Accuray Incorporated"},
+    {"nct": "NCT00643318", "title": "CyberKnife Radiosurgical Treatment of Inoperable Early Stage NSCLC", "phase": "PHASE2", "status": "UNKNOWN (last update stale)", "lead_sponsor": "Accuray Incorporated"},
+    {"nct": "NCT01318447", "title": "CyberKnife for Hepatic Metastases From Colorectal Cancer", "phase": "PHASE2", "status": "TERMINATED", "lead_sponsor": "Accuray Incorporated"}
+  ],
+  "excluded_partner_owned": [
+    {"nct": "NCT02716948", "title": "SRS and Nivolumab in Brain/Spine Melanoma Mets", "phase": "PHASE1", "status": "COMPLETED", "lead_sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins", "reason": "Investigator-initiated; Accuray is collaborator only"},
+    {"nct": "NCT02701088", "title": "SIB-IMRT + 5-FU/Mitomycin-C in Locally Advanced Anal Canal Cancer", "phase": "PHASE2", "status": "ACTIVE_NOT_RECRUITING", "lead_sponsor": "Centre Francois Baclesse", "reason": "Investigator-initiated by Centre Francois Baclesse; Accuray is collaborator only — not a company-sponsored asset trial"},
+    {"nct": "NCT01327521", "title": "TACE vs CyberKnife for Recurrent HCC", "phase": "PHASE3", "status": "WITHDRAWN", "lead_sponsor": "Albert Koong", "reason": "Investigator-initiated; Accuray is collaborator only"}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Radiation-oncology medical-device company (CyberKnife, TomoTherapy/Radixact). No proprietary drug or biologic pipeline. ClinicalTrials.gov shows only legacy company-sponsored device trials (all WITHDRAWN / TERMINATED / UNKNOWN) and investigator-initiated studies where Accuray is a collaborator — none qualify as active company-sponsored P1/P2/P3 drug trials."
+}

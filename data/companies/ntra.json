@@ -1,0 +1,50 @@
+{
+  "issuer_name": "Natera, Inc.",
+  "ticker": "NTRA",
+  "exchange": "Nasdaq",
+  "cik": "0001604821",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-020881",
+      "filing_date": "2026-02-27",
+      "doc": "ntra-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://www.natera.com/",
+      "note": "No proprietary drug pipeline page; product pages cover commercial cfDNA/genetic tests (Signatera, Panorama, Horizon, Prospera, Empower, Altera). Pipeline URL returned only an SVG graphic."
+    },
+    "ctgov": {
+      "sponsor_query": "Natera",
+      "compact_path": "data/ntra_ctgov_compact.json",
+      "note": "All studies are investigator/cooperative-group sponsored using Natera's Signatera ctDNA assay as a biomarker/monitoring tool, not Natera-sponsored therapeutic trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Natera markets molecular diagnostics: Signatera (personalized ctDNA MRD), Panorama (NIPT), Horizon (carrier screening), Prospera (transplant rejection cfDNA), Empower (hereditary cancer), Altera (tumor genomic profiling), Renasight (kidney genetics).",
+    "products": [
+      {"name": "Signatera", "category": "Personalized ctDNA MRD test"},
+      {"name": "Panorama", "category": "Non-invasive prenatal test"},
+      {"name": "Horizon", "category": "Carrier screening"},
+      {"name": "Prospera", "category": "Transplant rejection cfDNA"},
+      {"name": "Empower", "category": "Hereditary cancer test"},
+      {"name": "Altera", "category": "Tumor genomic profiling"},
+      {"name": "Renasight", "category": "Kidney gene panel"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "All ctgov entries listing Natera as collaborator — investigator/co-op-group sponsored studies that use Signatera as a monitoring biomarker rather than Natera-sponsored therapeutic assets."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Diagnostics / lab-services company — no proprietary therapeutic drug or device clinical pipeline. Natera develops and commercializes cell-free DNA (cfDNA) molecular diagnostic tests; clinical studies on ClinicalTrials.gov are investigator- or cooperative-group-sponsored studies that use Natera's Signatera ctDNA assay as a biomarker."
+}

@@ -1,0 +1,90 @@
+{
+  "issuer_name": "Organon & Co.",
+  "ticker": "OGN",
+  "exchange": "NYSE",
+  "cik": "0001821825",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-011125", "filing_date": "2026-02-24", "doc": "ogn-20251231.htm"},
+    "website": {"error": "no public asset-level pipeline page found; company is primarily established brands + biosimilars + women's health portfolio"},
+    "ctgov": {"sponsor_query": "Organon", "trial_count": 364, "active_count": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "Tapinarof (Vtama)",
+      "aka": ["VTAMA", "GSK2894512", "DMVT-505"],
+      "modality": "Topical aryl hydrocarbon receptor (AhR) agonist",
+      "target": "Aryl hydrocarbon receptor (AhR)",
+      "license_origin": "Acquired via Dermavant Sciences acquisition (Oct 2024)",
+      "indications": [
+        {
+          "indication": "Plaque Psoriasis (pediatric)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Tapinarof pediatric plaque psoriasis",
+          "trial_design": "Phase 3 in pediatric subjects",
+          "nct_ids": ["NCT05172726"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Organon and Co",
+          "key_milestones": []
+        },
+        {
+          "indication": "Atopic Dermatitis (pediatric, ages 3 months and older)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Tapinarof Cream 1% pediatric AD",
+          "trial_design": "Phase 3 efficacy/safety",
+          "nct_ids": ["NCT07265479"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Organon and Co",
+          "key_milestones": []
+        },
+        {
+          "indication": "Palmoplantar Keratoderma (adults)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Tapinarof PPK",
+          "trial_design": "Phase 2 efficacy/safety",
+          "nct_ids": ["NCT06561321"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Organon and Co",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Pembrolizumab + Trastuzumab + FLOT (combination, sponsor-led trial)",
+      "aka": ["KEYTRUDA + Herceptin + FLOT"],
+      "modality": "PD-1 inhibitor + HER2 mAb + chemo",
+      "target": "PD-1 / HER2",
+      "license_origin": "Investigator/sponsor-led; products partner-owned (Merck/Roche)",
+      "indications": [
+        {
+          "indication": "HER2-positive gastric/gastroesophageal cancer (perioperative)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Perioperative pembrolizumab + trastuzumab + FLOT",
+          "trial_design": "Phase 2 perioperative",
+          "nct_ids": ["NCT05504720"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Organon and Co",
+          "key_milestones": ["Note: combination uses partner-owned drugs"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_products": ["Nexplanon (etonogestrel implant)", "Vtama (tapinarof)", "Jada (postpartum hemorrhage device)", "Hadlima (adalimumab biosimilar)", "Renflexis (infliximab biosimilar)", "Ontruzant (trastuzumab biosimilar)", "Marvelon", "NuvaRing", "Follistim AQ", "Singulair (legacy)", "Nasonex (legacy)", "Diprovate (legacy)"],
+    "note": "Organon is largely a commercial-stage women's health, biosimilars and established brands company; clinical pipeline is narrow and centered on Vtama (tapinarof) lifecycle expansion plus partnered programs."
+  },
+  "excluded_preclinical": [
+    {"asset": "OG-6219 (endometriosis HSD17B1 inhibitor, ex-Forendo)", "reason": "Phase 2b reported negative readout in 2024; program discontinued"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 2,
+    "phase_2": 2,
+    "phase_1": 0,
+    "note": "Asset count = unique assets; phase counts = number of indication-level programs at that phase"
+  }
+}

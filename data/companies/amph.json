@@ -1,0 +1,44 @@
+{
+  "issuer_name": "Amphastar Pharmaceuticals, Inc.",
+  "ticker": "AMPH",
+  "exchange": "Nasdaq",
+  "cik": "0001297184",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001297184-26-000009", "filing_date": "2026-02-26", "doc": "amph-20251231x10k.htm"},
+    "website": {"error": "amphastar.com pipeline page not found at common URLs"},
+    "ctgov": {"unique_p1_p3_trials": 20, "fetched": "2026-05-06", "note": "Mostly legacy ANDA/biosimilar PK/PD studies; only one active P1-3 trial"}
+  },
+  "pipeline": [
+    {
+      "asset": "AMP-004 (Insulin Aspart biosimilar / I004)",
+      "aka": ["I004"],
+      "modality": "Biosimilar (rapid-acting human insulin analogue)",
+      "target": "Insulin receptor (interchangeable biosimilar to NovoLog/Insulin Aspart)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Diabetes mellitus (Type 1/Type 2) — biosimilarity PK/PD",
+          "highest_phase": "Phase 2/Phase 3",
+          "trial_name": "AMP-004 (I004) Biosimilarity PK/PD Study",
+          "trial_design": "PK/PD biosimilarity study comparing I004 to reference Insulin Aspart",
+          "nct_ids": ["NCT07560150"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Amphastar Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "no_active_clinical_pipeline_reason": "Amphastar is primarily a commercial-stage specialty/generic injectable & inhalation pharma; pipeline of 10+ candidates is largely ANDA generics and biosimilars at non-clinical / regulatory stages. Only AMP-004 (insulin aspart biosimilar) has an active P1-3 clinical trial on ClinicalTrials.gov. AMP-005 (recombinant human insulin biosimilar) and AMP-028 (other biosimilar) are not yet at registered active P1-3 trials.",
+  "excluded_preclinical": [
+    "AMP-005 Recombinant Human Insulin biosimilar (no active registered P1-3 trial)",
+    "AMP-028 biosimilar (no active registered P1-3 trial)",
+    "Numerous generic ANDA candidates"
+  ],
+  "excluded_legacy_terminated": ["14 COMPLETED and 5 TERMINATED legacy biosimilar/generic PK/PD studies on CTgov"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 0, "p2": 1, "p1": 0}
+}

@@ -1,0 +1,53 @@
+{
+  "issuer_name": "Pelthos Therapeutics Inc.",
+  "ticker": "PTHS",
+  "exchange": "NYSE",
+  "cik": "0001919246",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001919246-26-000013", "filing_date": "2026-03-19", "file": "data/pths_10k_pipeline_section.html"},
+    "website": {"error": "no public pipeline page found at pelthos.com/pipeline"},
+    "ctgov": {"file": "data/pths_ctgov_compact.json", "sponsor_query": "Pelthos Therapeutics", "result": "no trials returned"}
+  },
+  "pipeline": [
+    {
+      "asset": "CT2000",
+      "aka": ["CC8464 ophthalmic formulation"],
+      "modality": "Topical small molecule NaV1.7 sodium channel blocker (ophthalmic)",
+      "target": "NaV1.7",
+      "license_origin": "Internal (legacy Channel/Chromocell program)",
+      "indications": [
+        {
+          "indication": "Acute and chronic eye pain (severe dry eye, trauma, surgery)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CT2000 Eye Pain Phase 1a/2b POC",
+          "trial_design": "Phase 1a/2b human proof-of-concept; IND-enabling toxicology completed",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - initiation expected Q1 2026 per 10-K filed Mar 2026",
+          "lead_sponsor": "Pelthos Therapeutics Inc.",
+          "key_milestones": ["IND-enabling ophthalmic toxicology completed", "Two animal efficacy studies completed"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "ZELSUVMI": {"generic": "berdazimer topical gel 10.3%", "indication": "Molluscum contagiosum", "status": "FDA-approved; launched July 2025"},
+    "XEPI": {"generic": "ozenoxacin cream 1%", "indication": "Impetigo", "status": "FDA-approved; relaunch planned late 2026"},
+    "XEGLYZE": {"generic": "abametapir", "indication": "Head lice", "status": "FDA-approved (2020); acquired Dec 2025"}
+  },
+  "excluded_preclinical": [
+    {"asset": "CT3000 (Depot Program)", "reason": "Pre-clinical; no immediate plans to commence toxicology/POC trial"},
+    {"asset": "CC8464 systemic neuropathic pain", "reason": "Phase 1 completed historically; no immediate plans for further clinical work per 10-K"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 1,
+    "indications_total": 1
+  }
+}

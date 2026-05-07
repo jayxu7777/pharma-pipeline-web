@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Calidi Biotherapeutics, Inc.",
+  "ticker": "CLDI",
+  "exchange": "NYSE",
+  "cik": "0001855485",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/cldi_10k_pipeline_section.html", "filing_date": "2026-03-27", "accession": "0001493152-26-013242"},
+    "website": {"url": "https://calidibio.com/pipeline", "status": "fetched"},
+    "ctgov": {"file": "data/cldi_ctgov_compact.json", "active_p1_p3_trials": 0, "note": "No Calidi-sponsored P1-P3 trials in ctgov registry; CLD-101 trials are partner-led (Northwestern, City of Hope)"}
+  },
+  "pipeline": [
+    {
+      "asset": "CLD-101",
+      "aka": ["NeuroNova", "NNV1", "NNV2"],
+      "modality": "Allogeneic neural stem cells loaded with oncolytic adenovirus (CRAd-S-pk7)",
+      "target": "Tumor cells (oncolytic virotherapy)",
+      "license_origin": "Internal / partner cell bank from City of Hope",
+      "indications": [
+        {
+          "indication": "Recurrent high-grade glioma (rHGG)",
+          "highest_phase": "Phase 1",
+          "trial_name": "City of Hope Phase 1",
+          "trial_design": "Open-label, dose-escalation Phase 1 of intracerebral CRAd-S-pk7-NSC, up to 4 weekly doses",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active — first patient dosed May 2023",
+          "lead_sponsor": "City of Hope (partnered with Calidi)",
+          "key_milestones": ["Data presentation 8th Oncolytic Virotherapy Summit, Dec 2023"]
+        },
+        {
+          "indication": "Newly diagnosed high-grade glioma",
+          "highest_phase": "Phase 1b/2",
+          "trial_name": "Northwestern Phase 1b/2",
+          "trial_design": "Open-label Phase 1b/2 (open IND with Northwestern)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — open IND, planned trial initiation through Northwestern collaboration",
+          "lead_sponsor": "Northwestern University (partner)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CLD-201",
+      "aka": ["SuperNova", "SNV-1"],
+      "modality": "Allogeneic adipose-derived stem cells loaded with vaccinia oncolytic virus (CAL1)",
+      "target": "Tumor cells (intratumoral oncolytic virotherapy)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Soft tissue sarcoma, triple-negative breast cancer (TNBC), squamous cell carcinoma of the head and neck (SCCHN)",
+          "highest_phase": "Phase 1 (planned)",
+          "trial_name": "First-in-human Phase 1",
+          "trial_design": "PLANNED — first-in-human Phase 1 in solid tumors (intratumoral)",
+          "nct_ids": [],
+          "trial_status": "PLANNED — IND-enabling complete, FDA Fast Track granted Jul 2025 for soft tissue sarcoma",
+          "lead_sponsor": "Calidi Biotherapeutics",
+          "key_milestones": ["FDA Fast Track Designation (Jul 2025)"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CLD-401 (RedTail platform, IND-enabling, ~40%)",
+    "CLD-501 (myeloma/autoimmune, discovery)",
+    "CLD-601 (undisclosed oncology, discovery)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase3_indications": 0,
+    "phase2_indications": 1,
+    "phase1_indications": 1,
+    "planned": 2
+  }
+}

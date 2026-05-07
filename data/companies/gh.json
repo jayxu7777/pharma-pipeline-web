@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Guardant Health, Inc.",
+  "ticker": "GH",
+  "exchange": "Nasdaq",
+  "cik": "0001576280",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001576280-26-000013",
+      "filing_date": "2026-02-19",
+      "doc": "gh-20251231.htm"
+    },
+    "website": {
+      "url": "https://guardanthealth.com/",
+      "note": "Corporate site lists commercial diagnostics (Guardant360 CDx, Guardant Complete, Guardant Infinity, Shield blood test, InfinityAI). No proprietary therapeutic pipeline. Recent companion-diagnostic collaboration with Nuvalent."
+    },
+    "ctgov": {
+      "sponsor_query": "Guardant Health",
+      "compact_path": "data/gh_ctgov_compact.json",
+      "note": "ctgov entries are investigator-initiated / academic-sponsored studies that use Guardant ctDNA assays as a biomarker, not Guardant-sponsored therapeutic trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Guardant Health markets blood-based molecular diagnostics for oncology.",
+    "products": [
+      {"name": "Guardant360 CDx", "category": "FDA-approved comprehensive genomic profiling companion diagnostic (advanced cancer)"},
+      {"name": "Guardant Complete", "category": "Test portfolio across early- and advanced-stage cancer"},
+      {"name": "Guardant Infinity", "category": "Smart liquid-biopsy platform for oncology testing"},
+      {"name": "Shield", "category": "Blood-based colorectal cancer screening test (FDA approved)"},
+      {"name": "Guardant Reveal", "category": "Tissue-free MRD/recurrence monitoring"},
+      {"name": "InfinityAI", "category": "AI-driven oncology insight layer on Infinity platform"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "All ctgov entries listing Guardant Health as collaborator — investigator/academic-sponsored studies that use Guardant assays as biomarkers."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Diagnostics / lab-services company — no proprietary therapeutic drug or device clinical pipeline. Guardant Health develops and commercializes blood-based ctDNA cancer diagnostics (Guardant360, Reveal, Shield, Infinity); ctgov studies referencing Guardant are investigator/academic-sponsored uses of Guardant assays."
+}

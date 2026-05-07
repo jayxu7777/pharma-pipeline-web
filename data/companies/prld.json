@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Prelude Therapeutics Inc.",
+  "ticker": "PRLD",
+  "exchange": "Nasdaq",
+  "cik": "0001678660",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-099428", "filing_date": "2026-03-10", "doc": "prld-20251231.htm"},
+    "website": {"error": "no public pipeline page reviewed; relied on 10-K and ctgov given recent (Nov 2025) program reprioritization"},
+    "ctgov": {"file": "data/prld_ctgov_compact.json", "n_records": 12}
+  },
+  "pipeline": [
+    {
+      "asset": "PRT12396",
+      "aka": [],
+      "modality": "Oral mutant-selective allosteric JAK2 JH2 inhibitor",
+      "target": "JAK2 V617F",
+      "license_origin": "Internal; subject to Exclusive Option Agreement with Incyte Corporation (signed November 4, 2025) — Prelude continues to own and develop during Option Period",
+      "indications": [
+        {
+          "indication": "Myeloproliferative Neoplasms (Polycythemia Vera, Myelofibrosis, Post-PV/ET MF, Primary Myelofibrosis)",
+          "highest_phase": "Phase 1",
+          "trial_name": "PRT12396 first-in-human Phase 1",
+          "trial_design": "Phase 1 study in select MPN patients",
+          "nct_ids": ["NCT07469891"],
+          "trial_status": "Recruiting (study start 2026-04-29)",
+          "lead_sponsor": "Prelude Therapeutics",
+          "key_milestones": ["FDA IND clearance February 2026", "Phase 1 study initiation Q2 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "KAT6A selective degrader program — development candidate selected; IND filing planned mid-2026, Phase 1 initiation H2 2026",
+    "Mutated calreticulin (mCALR) degrader-antibody conjugates — discovery",
+    "Precision ADC / DAC programs (with AbCellera) — discovery"
+  ],
+  "excluded_legacy_terminated": [
+    "PRT3789 (SMARCA2 degrader) — clinical development PAUSED November 2025 (NCT05639751 Phase 1 COMPLETED; NCT06682806 Phase 2 with pembrolizumab TERMINATED)",
+    "PRT7732 (oral SMARCA2 degrader) — paused November 2025 (NCT06560645 Phase 1 TERMINATED)",
+    "PRT1419 (NCT04543305 Phase 1, NCT05107856 Phase 1 TERMINATED, NCT04837677 Phase 1 COMPLETED) — discontinued",
+    "PRT543 (PRMT5 inhibitor; NCT03886831 Phase 1 COMPLETED) — discontinued",
+    "PRT2527 (CDK9 inhibitor; NCT05159518 and NCT05665530 Phase 1 COMPLETED) — discontinued",
+    "PRT3645 (CDK4/6 inhibitor; NCT05538572 Phase 1 COMPLETED) — discontinued",
+    "PRT811 (PRMT5 inhibitor; NCT04089449 Phase 1 COMPLETED) — discontinued"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 0, "P1": 1}
+}

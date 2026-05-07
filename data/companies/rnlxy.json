@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Renalytix plc",
+  "ticker": "RNLXY",
+  "exchange": "OTC",
+  "cik": "0001811115",
+  "region": "UK",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000950170-24-110315",
+      "filing_date": "2024-09-30",
+      "doc": "rnlx-20240630.htm",
+      "local_path": "data/rnlxy_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.renalytix.com",
+      "pipeline_url_tried": "https://www.renalytix.com/pipeline",
+      "pipeline_url_status": "404 — no dedicated pipeline page; corporate site documents only the approved kidneyintelX.dkd product"
+    },
+    "ctgov": {
+      "query": "spons:Renalytix",
+      "raw_count": 4,
+      "kept_phase_1_3": 0,
+      "local_path": "data/rnlxy_ctgov_compact.json",
+      "note": "All 4 sponsor-matched studies are observational/registry-style or otherwise not phase I-III interventional drug trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "kidneyintelX.dkd",
+    "modality": "In-vitro diagnostic (IVD); blood-based bioprognostic test combining serum biomarkers (sTNFR1, sTNFR2, KIM-1) with EHR features (uACR, HbA1c, BUN) via a machine-learning algorithm",
+    "indication": "Risk stratification of progressive kidney function decline in adults with type 2 diabetes and stage 1-3b chronic kidney disease (diabetic kidney disease)",
+    "regulatory_status": "FDA De Novo marketing authorization granted Q2 2023; Medicare final coverage determination June 2024 at $950 per reportable test; included as a risk assessment tool in KDIGO 2024 CKD Clinical Practice Guideline"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Renalytix is a diagnostics company. Its sole product is the FDA-authorized kidneyintelX.dkd in-vitro diagnostic for diabetic kidney disease risk stratification. The 10-K, corporate website, and ClinicalTrials.gov sponsor search disclose no active interventional Phase 1/2/3 drug or device trials of company-owned therapeutic candidates."
+}

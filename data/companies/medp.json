@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Medpace Holdings, Inc.",
+  "ticker": "MEDP",
+  "exchange": "Nasdaq",
+  "cik": "0001668397",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/medp_10k_pipeline_section.html", "filing_date": "2026-02-10", "accession": "0001668397-26-000006", "note": "10-K describes Medpace as a global, full-service clinical contract research organization (CRO) providing scientific, medical and operational expertise to biotech, pharmaceutical and medical device companies. No proprietary drug or device assets."},
+    "website": {"error": "Medpace has no proprietary pipeline page (CRO services company)"},
+    "ctgov": {"file": "data/medp_ctgov_compact.json", "total_records": 84, "medpace_as_lead_sponsor": 0, "note": "All 84 records list Medpace only as a collaborator/CRO running trials for client sponsors (LIB Therapeutics, GE Healthcare, VIVUS, Milestone Pharmaceuticals, Daiichi Sankyo, etc.); Medpace is not the asset owner on any trial."}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0},
+  "no_active_clinical_pipeline_reason": "Distribution / services company - no proprietary clinical pipeline. Medpace is a global full-service clinical CRO that conducts trials on behalf of biotech, pharmaceutical and medical-device sponsors; it does not develop or own any drug or device assets. Per scoping rule, sponsor's clients' trials are not enumerated."
+}

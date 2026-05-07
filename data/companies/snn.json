@@ -1,0 +1,30 @@
+{
+  "issuer_name": "SMITH & NEPHEW PLC",
+  "ticker": "SNN",
+  "exchange": "NYSE",
+  "cik": "0000845982",
+  "region": "UK (foreign private issuer; files Form 20-F, ADR listed in US)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F, not 10-K. fetch_10k.py returned 'No 10-K found in recent filings'."},
+    "website": {"error": "Pure medtech (orthopedics, sports medicine, advanced wound management); company has no public 'pipeline' page in the biopharma sense. Did not fetch."},
+    "ctgov": {"file": "data/snn_ctgov_compact.json", "sponsor_query": "Smith & Nephew", "total_studies_returned": 5, "active_p1_to_p3_company_sponsored": 0, "note": "All five returned studies are PHASE3 device or wound-care studies; 3 COMPLETED, 2 TERMINATED. Only one is sponsored by a Smith & Nephew entity (Smith & Nephew Orthopaedics AG)."}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Smith & Nephew is a global medical-technology company organized in three franchises: Orthopaedics (hip and knee replacement implants, trauma and extremities, including the LEGION, JOURNEY II, POLAR3, EVOS, and CORI surgical robotics platforms), Sports Medicine & ENT (arthroscopic enabling technologies, REGENETEN bioinductive implant, and ENT solutions), and Advanced Wound Management (PICO and RENASYS negative-pressure wound therapy, ALLEVYN dressings, ACTICOAT antimicrobial dressings, SANTYL/COLLAGENASE wound debridement). These are approved/marketed devices and are out of scope for an active P1/P2/P3 drug pipeline."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "All five Smith & Nephew-related ClinicalTrials.gov records are COMPLETED or TERMINATED Phase 3 device/wound-care studies and are excluded from the active pipeline."
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Smith & Nephew is a pure medical-technology (orthopedics, sports medicine, advanced wound management) company with no proprietary drug pipeline. It is a UK-domiciled foreign private issuer (files Form 20-F, not 10-K). ClinicalTrials.gov returned only completed or terminated device/wound-care studies, no active P1/P2/P3 drug programs."
+}

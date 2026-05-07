@@ -1,0 +1,76 @@
+{
+  "issuer_name": "Immunic, Inc.",
+  "ticker": "IMUX",
+  "exchange": "Nasdaq",
+  "cik": "0001280776",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001280776-26-000005", "filed": "2026-02-26", "fy": "2025"},
+    "website": {"note": "skipped — 10-K provides comprehensive pipeline detail"},
+    "ctgov": {"sponsor_query": "Immunic AG", "active_pcubed_trials": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "Vidofludimus calcium",
+      "aka": ["IMU-838"],
+      "modality": "Oral small molecule (selective DHODH inhibitor with Nurr1 activation)",
+      "target": "DHODH; Nurr1 (transcription factor)",
+      "license_origin": "Acquired from 4SC AG in Sept 2016; royalty obligation settled March 2021",
+      "indications": [
+        {
+          "indication": "Relapsing multiple sclerosis (RMS)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ENSURE-1 and ENSURE-2 (twin pivotal)",
+          "trial_design": "Two identical multicenter, randomized, double-blind, placebo-controlled Phase 3 trials. Primary endpoint: time to first relapse up to 72 weeks. ENSURE-1 randomized 1,121 patients; ENSURE-2 randomized 1,100 patients across >100 sites in 15 countries. Enrollment completion announced June 5, 2025. October 2024 IDMC interim: futility not met.",
+          "nct_ids": ["NCT05134441", "NCT05201638"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Immunic AG",
+          "key_milestones": ["Topline data for both ENSURE trials expected by end of 2026", "FDA pediatric study waiver obtained for RMS"]
+        },
+        {
+          "indication": "Progressive multiple sclerosis (PMS, including PPMS / naSPMS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CALLIPER",
+          "trial_design": "Multicenter, randomized, double-blind, placebo-controlled; 467 PMS patients enrolled (PPMS, active or non-active SPMS); 45 mg daily vidofludimus vs placebo. Top-line announced April 30, 2025; positive 24wCDW reduction in EDSS, reduction in thalamic brain volume loss. >350 patients in OLE phase as of Jan 2026. Confirmatory P3 program planned following FDA/EMA feedback.",
+          "nct_ids": ["NCT05054140"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (OLE ongoing; main study primary completion Jan 2025)",
+          "lead_sponsor": "Immunic AG",
+          "key_milestones": ["P3 PMS program preparation following positive CALLIPER", "FDA pediatric study waiver obtained for PMS"]
+        }
+      ]
+    },
+    {
+      "asset": "IMU-856",
+      "aka": [],
+      "modality": "Oral small molecule SIRT6 modulator",
+      "target": "SIRT6 (transcriptional regulator of intestinal barrier function)",
+      "license_origin": "Licensed from Daiichi Sankyo (option exercised Jan 5, 2020)",
+      "indications": [
+        {
+          "indication": "Celiac disease (and broader GI / GLP-1 indications under evaluation)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1/1b SAD/MAD + celiac patient cohort",
+          "trial_design": "Phase 1 SAD (10-160 mg) and MAD (40-160 mg x14d) in healthy volunteers; Phase 1b in 43 celiac patients (80/160 mg x28d during gluten challenge) — completed; positive results May 2023 + GLP-1 post-hoc Feb 2025. Further clinical testing contingent on financing/partnering.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1/1b complete; Phase 2 in preparation (contingent on financing/partnering)",
+          "lead_sponsor": "Immunic AG",
+          "key_milestones": ["New 60/150/240 mg formulation developed for Phase 2"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "IMU-381", "reason": "Preclinical Nurr1 platform program"},
+    {"asset": "Gliomic Therapeutics DHODH compounds", "reason": "Preclinical neuro-oncology; spun-out wholly-owned subsidiary"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "IMU-838", "indication": "Ulcerative colitis", "nct": "NCT03341962", "reason": "Phase 2 TERMINATED 2022"},
+    {"asset": "IMU-935", "indication": "Metastatic CRPC", "nct": "NCT05124795", "reason": "Phase 1 TERMINATED 2023"},
+    {"asset": "IMU-838", "indication": "COVID-19 (CALVID/IONIC)", "nct": ["NCT04379271", "NCT04516915"], "reason": "Phase 2/3 COMPLETED; not advanced"},
+    {"asset": "IMU-838", "indication": "RRMS (EMPhASIS Phase 2)", "nct": "NCT03846219", "reason": "Phase 2 main study complete; OLE continues but program graduated to Phase 3 ENSURE"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 1, "p2": 1, "p1": 1}
+}

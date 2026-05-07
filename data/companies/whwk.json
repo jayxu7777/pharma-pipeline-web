@@ -1,0 +1,83 @@
+{
+  "issuer_name": "Whitehawk Therapeutics, Inc.",
+  "ticker": "WHWK",
+  "exchange": "Nasdaq",
+  "cik": "0001422142",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-104158", "filing_date": "2026-03-12", "path": "data/whwk_10k_pipeline_section.html"},
+    "website": {"url": "https://whitehawktx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/whwk_ctgov_compact.json", "trial_count": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "HWK-007",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC; DAR 6, TOP1 inhibitor payload)",
+      "target": "Protein Tyrosine Kinase 7 (PTK7)",
+      "license_origin": "In-licensed from WuXi Biologics",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors — endometrial, ovarian (PROC), non-squamous EGFR-wt NSCLC",
+          "highest_phase": "Phase 1",
+          "trial_name": "HWK-007-101",
+          "trial_design": "Phase 1 multicenter open-label sequential dose-escalation + expansion in advanced/metastatic solid tumors refractory to standard therapies",
+          "nct_ids": ["NCT07444814"],
+          "trial_status": "Recruiting (first patient initiated Dec 2025; FDA IND cleared Q4 2025)",
+          "lead_sponsor": "Whitehawk Therapeutics, Inc.",
+          "key_milestones": ["IND submitted Q4 2025", "Phase 1 data readout H1 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "HWK-016",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC) targeting membrane-bound MUC16; +/- bevacizumab",
+      "target": "Mucin 16 (MUC16, membrane-bound portion)",
+      "license_origin": "In-licensed from WuXi Biologics",
+      "indications": [
+        {
+          "indication": "Platinum-resistant ovarian cancer (PROC) and endometrial cancer",
+          "highest_phase": "Phase 1",
+          "trial_name": "HWK-016 Phase 1",
+          "trial_design": "Phase 1 dose escalation/expansion of HWK-016 +/- bevacizumab in advanced solid tumors (PROC, endometrial)",
+          "nct_ids": ["NCT07470853"],
+          "trial_status": "Recruiting (start Mar 2026)",
+          "lead_sponsor": "Whitehawk Therapeutics, Inc.",
+          "key_milestones": ["Data readout H1 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "HWK-206",
+      "aka": [],
+      "modality": "Biparatopic antibody-drug conjugate",
+      "target": "Seizure protein 6 (SEZ6)",
+      "license_origin": "In-licensed from WuXi Biologics",
+      "indications": [
+        {
+          "indication": "Small cell lung cancer (SCLC) and neuroendocrine tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "HWK-206 Phase 1 (planned)",
+          "trial_design": "Phase 1 in SCLC / neuroendocrine tumors",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IND submission planned mid-2026; Phase 1 start Q3 2026",
+          "lead_sponsor": "Whitehawk Therapeutics, Inc.",
+          "key_milestones": ["IND submission mid-2026", "Phase 1 initiation Q3 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 3,
+    "indications_active": 3
+  }
+}

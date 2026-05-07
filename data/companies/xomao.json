@@ -1,0 +1,46 @@
+{
+  "issuer_name": "XOMA Royalty Corp",
+  "ticker": "XOMAO",
+  "exchange": "Nasdaq",
+  "cik": "0000791908",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "XOMA transformed in 2017 into a royalty aggregator. It does not conduct in-house clinical trials. Its portfolio consists of economic rights (milestones and royalties) on >120 commercial and pre-commercial therapeutic candidates owned and developed by third-party licensees. All historical XOMA-sponsored clinical trials are completed, terminated, or suspended. There is no active company-owned P1/P2/P3 program.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-030872",
+      "filing_date": "2026-03-18",
+      "doc": "xoma-20251231x10k.htm",
+      "note": "Confirms royalty aggregator business model; no internal clinical pipeline."
+    },
+    "website": {
+      "url": "https://xoma.com",
+      "note": "Site presents royalty portfolio of partner programs; XOMA does not run its own trials."
+    },
+    "ctgov": {
+      "query": "XOMA",
+      "trials_returned": 27,
+      "active_recruiting": 0,
+      "note": "All XOMA (US) LLC sponsored studies are COMPLETED, TERMINATED, or SUSPENDED."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "XOMA receives royalties on third-party commercialized products including DAYBUE (trofinetide, Acadia), VABYSMO (faricimab, Roche/Genentech), OJEMDA (tovorafenib, Day One Bio), and others. These are partner-owned commercial assets, not XOMA pipeline."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Gevokizumab (anti IL-1 beta) - multiple Phase 2/3 programs in pyoderma gangrenosum, Behcet uveitis, non-infectious uveitis, osteoarthritis, acne, AIED - all terminated or completed without advancement (out-licensed to Novartis / Servier historically).",
+    "XOMA 052 / XOMA 358 / Opebacan / HCD122 / Efalizumab - legacy XOMA-sponsored programs, all completed/terminated."
+  ],
+  "excluded_partner_owned": [
+    "All current royalty assets (Acadia DAYBUE, Roche VABYSMO, Day One OJEMDA, Rezolute RZ358, Janssen, Takeda, etc.) are owned and clinically developed by partners; classified as partner-owned, not XOMA pipeline."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

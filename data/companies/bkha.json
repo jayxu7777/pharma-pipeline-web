@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Black Hawk Acquisition Corp",
+  "ticker": "BKHA",
+  "exchange": "Nasdaq",
+  "cik": "0002000775",
+  "region": "US (Cayman Islands exempted)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Blank check / SPAC (Cayman Islands exempted company) with no operations and no revenue. Entered into a Business Combination Agreement on Apr 26, 2025 with Vesicor Therapeutics, Inc. (subject to closing conditions). Pre-closing the issuer itself has no clinical pipeline; no company-sponsored P1/P2/P3 trials disclosed in the 10-K. Pipeline (if any) will become applicable to the post-merger entity once the Vesicor business combination closes.",
+  "sources": {
+    "10k": {"accession": "0001829126-26-002021", "filing_date": "2026-03-06", "file": "data/bkha_10k_pipeline_section.html"},
+    "website": {"error": "not fetched - non-applicable (pre-deClose SPAC)"},
+    "ctgov": {"file": "data/bkha_ctgov_compact.json", "kept_p1_p3": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

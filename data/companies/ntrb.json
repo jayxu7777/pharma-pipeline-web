@@ -1,0 +1,74 @@
+{
+  "issuer_name": "NutriBand Inc.",
+  "ticker": "NTRB",
+  "exchange": "Nasdaq",
+  "cik": "0001676047",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-049399",
+      "filing_date": "2026-04-29",
+      "doc": "ea0287168-10k_nutriband.htm"
+    },
+    "website": {
+      "url": "https://nutriband.com",
+      "note": "Wix-built corporate site; pipeline details rendered client-side and not extractable via WebFetch. /pipeline path returns 404."
+    },
+    "ctgov": {
+      "sponsor_query": "NutriBand",
+      "unique_trials": 0,
+      "note": "No active P1/P2/P3 trials registered under NutriBand sponsorship as of snapshot date."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "AVERSA Fentanyl",
+      "aka": ["AVERSA-Fentanyl", "abuse-deterrent fentanyl transdermal system"],
+      "modality": "Transdermal patch (abuse-deterrent reformulation of fentanyl)",
+      "target": "mu-opioid receptor (fentanyl as active drug); AVERSA aversive-agent coating deters extraction/abuse",
+      "license_origin": "In-house (acquired via 4P Therapeutics, 2018); commercial development partnership with Kindeva Drug Delivery",
+      "indications": [
+        {
+          "indication": "Chronic pain (abuse-deterrent transdermal opioid for chronic pain management)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Human abuse potential (HAP) study for AVERSA Fentanyl",
+          "trial_design": "Randomized, double-blind, placebo- and positive-controlled crossover study in recreational drug abusers comparing AVERSA Fentanyl to the marketed fentanyl transdermal patch; supports a 505(b)(2) NDA referencing Duragesic as the listed drug.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED / IN PREPARATION - Phase 1 human abuse potential study supporting 505(b)(2) NDA submission; no Phase 2 or Phase 3 required per FDA pathway.",
+          "lead_sponsor": "NutriBand Inc.",
+          "key_milestones": [
+            "Commercial Development and Clinical Supply Agreement with Kindeva Drug Delivery; addendum signed Feb 13, 2025",
+            "Targeting 505(b)(2) NDA submission with potential expedited (6-month) FDA review"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    {
+      "asset": "AVERSA Buprenorphine",
+      "reason": "Follow-on AVERSA program; in early development, no active P1+ clinical study disclosed in FY2025 10-K."
+    },
+    {
+      "asset": "AVERSA Methylphenidate",
+      "reason": "Follow-on AVERSA program; in early development, no active P1+ clinical study disclosed in FY2025 10-K."
+    },
+    {
+      "asset": "Other transdermal peptide/protein delivery research portfolio (acquired with 4P Therapeutics)",
+      "reason": "Research-stage only; no clinical-stage assets disclosed."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 1,
+    "registrational_or_filed": 0
+  },
+  "no_active_clinical_pipeline_reason": null
+}

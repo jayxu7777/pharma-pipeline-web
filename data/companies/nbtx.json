@@ -1,0 +1,96 @@
+{
+  "issuer_name": "Nanobiotix S.A.",
+  "ticker": "NBTX",
+  "exchange": "Nasdaq",
+  "cik": "0001760854",
+  "region": "France / US (ADS)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (no 10-K available via SEC EDGAR for CIK 0001760854)"},
+    "website": {
+      "url": "https://www.nanobiotix.com/pipeline/",
+      "fetched": "2026-05-06",
+      "note": "Page is JS-rendered; only NBTXR3 product name surfaced via WebFetch. Used company press releases and ctgov for details."
+    },
+    "ctgov": {
+      "path": "data/nbtx_ctgov_compact.json",
+      "sponsor_query": "Nanobiotix",
+      "note": "Lead sponsor for NANORAY-312 P3 transferred to Johnson & Johnson (asset rebranded JNJ-1900)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "NBTXR3",
+      "aka": ["JNJ-1900", "Hafnium oxide nanoparticles", "PEP503"],
+      "modality": "Radio-enhancer (hafnium oxide nanoparticle)",
+      "target": "Tumor cell radiation dose enhancement (physical mechanism)",
+      "license_origin": "Internal; global development & commercialization licensed to Johnson & Johnson (Janssen) — Jul 2023 collaboration; ex-Asia partner PharmaEngine for some legacy indications",
+      "indications": [
+        {
+          "indication": "Locally advanced head and neck squamous cell carcinoma (LA-HNSCC), platinum-ineligible elderly",
+          "highest_phase": "P3",
+          "trial_name": "NANORAY-312",
+          "trial_design": "Global open-label randomized 1:1 Phase 3 pivotal: NBTXR3 + RT +/- cetuximab vs RT +/- cetuximab; 500 patients age >=60; PFS primary, OS key secondary",
+          "nct_ids": ["NCT04892173"],
+          "trial_status": "Ongoing; sponsorship transferred to J&J; protocol amended May 2026 (interim analysis eliminated, final analysis accelerated; readout estimated 1H2027)",
+          "lead_sponsor": "Johnson & Johnson (Janssen) — global sponsor; Nanobiotix licensor",
+          "key_milestones": ["Protocol amendment May 2026 to accelerate registration pathway", "Interim/final readout 1H2027"]
+        },
+        {
+          "indication": "Advanced solid tumors with anti-PD-1 (multiple cohorts: NSCLC, HNSCC, melanoma, RCC, TNBC, etc.)",
+          "highest_phase": "P1",
+          "trial_name": "Study 1100 (NBTXR3 + SABR + anti-PD-1)",
+          "trial_design": "Phase 1 dose escalation/expansion combining NBTXR3 + SABR + nivolumab or pembrolizumab",
+          "nct_ids": ["NCT03589339"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Nanobiotix",
+          "key_milestones": []
+        },
+        {
+          "indication": "Locally advanced non-small cell lung cancer (NSCLC) with RT alone",
+          "highest_phase": "P1/P2",
+          "trial_name": "MDACC NBTXR3 + RT NSCLC",
+          "trial_design": "Phase 1/2 NBTXR3 with radiation therapy alone in locally-advanced NSCLC",
+          "nct_ids": ["NCT07224152"],
+          "trial_status": "Recruiting (start 2026-03-27)",
+          "lead_sponsor": "M.D. Anderson Cancer Center (Nanobiotix collaborator)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Esophageal cancer",
+          "highest_phase": "P1",
+          "trial_name": "JNJ-1900 (NBTXR3) esophageal Phase 1",
+          "trial_design": "Phase 1 dose escalation in esophageal cancer",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company press release; first data presented",
+          "lead_sponsor": "Janssen / Nanobiotix",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pancreatic cancer (locally advanced)",
+          "highest_phase": "P1",
+          "trial_name": "NBTXR3 pancreatic Phase 1",
+          "trial_design": "Phase 1 dose escalation NBTXR3 + RT",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company communications",
+          "lead_sponsor": "Janssen / Nanobiotix",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT02805894 NBTXR3 prostate Phase 1/2 (terminated)",
+    "NCT02721056 NBTXR3 liver Phase 1/2 (terminated)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 1,
+    "p2": 0,
+    "p1": 0,
+    "note": "Single asset NBTXR3/JNJ-1900 with multiple indications; counted at asset level by highest active phase (P3)."
+  }
+}

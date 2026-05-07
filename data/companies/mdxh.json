@@ -1,0 +1,28 @@
+{
+  "issuer_name": "MDxHealth SA",
+  "ticker": "MDXH",
+  "exchange": "Nasdaq",
+  "cik": "0001872529",
+  "region": "BE",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Belgium) — files 20-F instead of 10-K"},
+    "website": {"url": "https://mdxhealth.com", "note": "Corporate site lists only marketed molecular diagnostic tests; no pipeline page (404 on /pipeline)."},
+    "ctgov": {"sponsor_query": "MDxHealth", "kept_p1_p3": 0, "file": "data/mdxh_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_diagnostic_tests": [
+      {"name": "Confirm mdx", "type": "Tissue-based prostate cancer test", "indication": "Prostate cancer (biopsy false-negative resolution)"},
+      {"name": "GPS mdx (Genomic Prostate Score)", "type": "Genomic assay", "indication": "Localized prostate cancer treatment decision support"},
+      {"name": "Select mdx", "type": "Urine-based molecular test", "indication": "Prostate cancer risk stratification pre-biopsy"},
+      {"name": "Resolve mdx", "type": "Molecular UTI test with antimicrobial susceptibility (ASTX)", "indication": "Urinary tract infection diagnostics"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Commercial molecular diagnostics company (urology/prostate cancer and UTI dx). No proprietary drug or device clinical pipeline; all listed products are marketed in vitro diagnostic tests. Foreign private issuer (Belgium) so no 10-K filed."
+}

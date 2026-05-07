@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Cingulate Inc.",
+  "ticker": "CING",
+  "exchange": "Nasdaq",
+  "cik": "0001862150",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-010882", "filing_date": "2026-03-18", "file": "data/cing_10k_pipeline_section.html"},
+    "website": {"error": "not fetched - 10-K + ctgov sufficient (single lead asset, well-disclosed)"},
+    "ctgov": {"file": "data/cing_ctgov_compact.json", "kept_p1_p3": 6, "lead_sponsor_count": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "CTx-1301",
+      "aka": ["dexmethylphenidate", "trimodal extended-release dexmethylphenidate"],
+      "modality": "Small molecule (oral trimodal tablet, PTR drug delivery platform)",
+      "target": "Dopamine and norepinephrine reuptake (CNS stimulant)",
+      "license_origin": "Internal (Cingulate PTR platform)",
+      "indications": [
+        {
+          "indication": "Attention Deficit Hyperactivity Disorder (ADHD), patients 6 years and older",
+          "highest_phase": "NDA filed (post-Phase 3) — PDUFA May 31, 2026",
+          "trial_name": "Phase 3 program (adult dose-optimization NCT05631626; pediatric fixed-dose NCT05286762; pediatric classroom NCT05924594)",
+          "trial_design": "Three Phase 3 studies: adult dose-optimization (completed Jun 2023), pediatric fixed-dose (completed; enrollment closed early per FDA guidance), pediatric laboratory classroom (suspended; enrollment closed per FDA guidance). Plus food-effect Phase 1 (NCT07119073, completed Dec 2024).",
+          "nct_ids": ["NCT05631626", "NCT05286762", "NCT05924594", "NCT07119073"],
+          "trial_status": "NDA accepted for review by FDA on Sep 29, 2025; PDUFA target action date May 31, 2026. Pre-approval inspection of CDMO Gainesville, GA facility completed Feb 2026 (Form 483 with three observations under response).",
+          "lead_sponsor": "Cingulate Therapeutics",
+          "key_milestones": [
+            "NDA submitted Jul 31, 2025; accepted Sep 29, 2025",
+            "PDUFA target May 31, 2026",
+            "Commercialization partnership with Indegene if approved"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "CTx-1302", "indication": "ADHD (dextroamphetamine)", "reason": "Pre-IND; clinical plan pending additional capital."},
+    {"asset": "CTx-2103", "indication": "Anxiety (triple-release buspirone)", "reason": "Human formulation study completed; Pre-IND meeting Q4 2023; clinical program design phase, not yet IND-active."}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 0, "P1": 0, "note": "CTx-1301 in NDA review (post-Phase 3). Counted under P3 as highest active phase prior to approval."}
+}

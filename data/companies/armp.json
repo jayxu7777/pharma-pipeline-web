@@ -1,0 +1,74 @@
+{
+  "issuer_name": "Armata Pharmaceuticals, Inc.",
+  "ticker": "ARMP",
+  "exchange": "NYSE",
+  "cik": "0000921114",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-034532", "filed": "2026-03-25", "doc": "armp-20251231x10k.htm"},
+    "website": {"url": "https://www.armatapharma.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Armata Pharmaceuticals", "trials_returned": 11}
+  },
+  "pipeline": [
+    {
+      "asset": "AP-SA02",
+      "aka": [],
+      "modality": "IV bacteriophage cocktail (anti-Staphylococcus aureus)",
+      "target": "Staphylococcus aureus (incl. MRSA)",
+      "license_origin": "Internal (Armata phage platform; DoD-supported)",
+      "indications": [
+        {
+          "indication": "Complicated S. aureus bacteremia (including MRSA)",
+          "highest_phase": "Phase 2",
+          "trial_name": "diSArm (Phase 1b/2)",
+          "trial_design": "Randomized double-blind placebo-controlled Phase 1b/2 of IV AP-SA02 + standard of care antibiotics in S. aureus bacteremia",
+          "nct_ids": ["NCT05184764"],
+          "trial_status": "Completed (primary completion 2024-11-07); Phase 3 planned H2 2026 per Jan 2026 announcement",
+          "lead_sponsor": "Armata Pharmaceuticals, Inc.",
+          "key_milestones": ["Phase 2 readout positive", "DoD collaborator", "Phase 3 initiation planned 2H 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "AP-PA02",
+      "aka": [],
+      "modality": "Inhaled bacteriophage cocktail (anti-Pseudomonas aeruginosa)",
+      "target": "Pseudomonas aeruginosa",
+      "license_origin": "Internal (Armata phage platform; CF Foundation-supported)",
+      "indications": [
+        {
+          "indication": "Chronic P. aeruginosa lung infection in cystic fibrosis (CF)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "SWARM-P.a.",
+          "trial_design": "Phase 1/2 randomized placebo-controlled study of inhaled AP-PA02 in CF subjects with chronic P. aeruginosa lung infection",
+          "nct_ids": ["NCT04596319"],
+          "trial_status": "Completed (primary completion 2022-12-14)",
+          "lead_sponsor": "Armata Pharmaceuticals, Inc.",
+          "key_milestones": ["Cystic Fibrosis Foundation collaborator"]
+        },
+        {
+          "indication": "Chronic P. aeruginosa lung infection in non-cystic fibrosis bronchiectasis (NCFB)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Tailwind",
+          "trial_design": "Phase 2 of inhaled AP-PA02 in NCFB subjects with chronic pulmonary P. aeruginosa infection",
+          "nct_ids": ["NCT05616221"],
+          "trial_status": "Completed (primary completion 2024-07-17)",
+          "lead_sponsor": "Armata Pharmaceuticals, Inc.",
+          "key_milestones": ["Continues clinical development under company's chronic respiratory infection franchise"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "AP-PA03 (anti-P. aeruginosa pneumonia)", "reason": "Preclinical"},
+    {"asset": "AP-SA02 in prosthetic joint infection (PJI)", "reason": "Preclinical/development stage"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "C16G2 antimicrobial peptide for dental caries (multiple Phase 2 studies NCT02594254, NCT03004365, NCT03052842, NCT02509845, NCT02254993, NCT02044081, NCT03196219)", "reason": "Legacy C3J Therapeutics dental program; no longer part of Armata's active phage-focused pipeline"},
+    {"asset": "AB-SA01 (NCT02757755 Phase 1 topical)", "reason": "Older program; replaced by AP-SA02 IV phage program"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 0, "p2": 2, "p1_p2": 1, "p1": 0}
+}

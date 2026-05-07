@@ -1,0 +1,145 @@
+{
+  "issuer_name": "AtriCure, Inc.",
+  "ticker": "ATRC",
+  "exchange": "Nasdaq",
+  "cik": "0001323885",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. For this medical device issuer, scope captures active interventional pivotal/IDE/post-approval clinical studies of AtriCure-owned devices. Observational registries are excluded.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-19",
+      "accession": "0001323885-26-000007",
+      "path": "data/atrc_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "http://www.atricure.com/patients-caregivers/clinical-evidence/active-clinical-trials",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/atrc_ctgov_compact.json",
+      "note": "ctgov sponsor query returned only legacy COMPLETED/WITHDRAWN/UNKNOWN trials; current active studies were identified via the AtriCure clinical-evidence webpage and cross-referenced to ctgov NCT IDs individually."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "AtriClip LAA Exclusion System",
+      "aka": ["AtriClip", "AtriClip PRO", "LAA Exclusion System"],
+      "modality": "Implantable surgical device (left atrial appendage exclusion clip)",
+      "target": "Left atrial appendage (mechanical occlusion)",
+      "license_origin": "AtriCure proprietary",
+      "indications": [
+        {
+          "indication": "Prophylactic stroke reduction in cardiac surgery patients (with or without AF)",
+          "highest_phase": "PHASE3",
+          "trial_name": "LeAAPS (Left Atrial Appendage Exclusion for Prophylactic Stroke Reduction)",
+          "trial_design": "Randomized IDE pivotal trial, ~6,500 patients, evaluating prophylactic AtriClip use during cardiac surgery to reduce ischemic stroke or systemic embolism",
+          "nct_ids": ["NCT05478304"],
+          "trial_status": "Enrollment complete; in follow-up (per company website)",
+          "lead_sponsor": "AtriCure, Inc.",
+          "key_milestones": ["Enrollment completion 2024-2025", "Primary endpoint readout pending follow-up"]
+        },
+        {
+          "indication": "Atrial fibrillation prevention after cardiac surgery (combined with Isolator Synergy EnCompass)",
+          "highest_phase": "PHASE3",
+          "trial_name": "BoxX-NoAF",
+          "trial_design": "Randomized controlled trial of Isolator Synergy EnCompass plus AtriClip vs. control to prevent post-operative AF in patients undergoing cardiac surgery",
+          "nct_ids": ["NCT06989775"],
+          "trial_status": "Enrolling",
+          "lead_sponsor": "AtriCure, Inc.",
+          "key_milestones": ["Active enrollment 2025-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "EPi-Sense / EPi-Sense ST Coagulation System",
+      "aka": ["EPi-Sense", "EPi-Sense ST", "Convergent procedure ablation device"],
+      "modality": "Hybrid epicardial radiofrequency ablation device",
+      "target": "Cardiac tissue (posterior left atrial wall, epicardial RF ablation)",
+      "license_origin": "AtriCure proprietary",
+      "indications": [
+        {
+          "indication": "Long-standing persistent atrial fibrillation (Convergent hybrid procedure)",
+          "highest_phase": "PHASE3",
+          "trial_name": "CONVERGE PAS (Post-Approval Study)",
+          "trial_design": "Prospective post-approval study of EPi-Sense / EPi-Sense ST device for long-standing persistent AF; required by FDA following PMA approval",
+          "nct_ids": ["NCT05393180"],
+          "trial_status": "Enrolling",
+          "lead_sponsor": "AtriCure, Inc.",
+          "key_milestones": ["FDA PMA approved 2021 for long-standing persistent AF; PAS active"]
+        }
+      ]
+    },
+    {
+      "asset": "cryoICE Cryoablation System",
+      "aka": ["cryoICE", "cryoICE BOX", "cryoSPHERE", "Cryo Nerve Block"],
+      "modality": "Surgical cryoablation device",
+      "target": "Cardiac tissue (Maze procedure cryoablation) and intercostal nerves (cryo nerve block)",
+      "license_origin": "AtriCure proprietary",
+      "indications": [
+        {
+          "indication": "Persistent and long-standing persistent atrial fibrillation during concomitant on-pump cardiac surgery",
+          "highest_phase": "PHASE3",
+          "trial_name": "ICE-AFIB",
+          "trial_design": "Bayesian adaptive pivotal IDE trial of cryoICE for persistent and long-standing persistent AF during concomitant cardiac surgery",
+          "nct_ids": ["NCT03732794"],
+          "trial_status": "Enrollment complete; results published 2025; supports labeling expansion",
+          "lead_sponsor": "AtriCure, Inc.",
+          "key_milestones": ["2025 publication of pivotal results", "Supports expanded indication for cryoICE"]
+        }
+      ]
+    },
+    {
+      "asset": "Isolator Synergy Ablation System",
+      "aka": ["Isolator Synergy", "Synergy clamp"],
+      "modality": "Bipolar radiofrequency surgical ablation clamp",
+      "target": "Cardiac tissue (pulmonary vein isolation, left atrial ablation)",
+      "license_origin": "AtriCure proprietary",
+      "indications": [
+        {
+          "indication": "Inappropriate sinus tachycardia (IST)",
+          "highest_phase": "PHASE2",
+          "trial_name": "HEAL-IST",
+          "trial_design": "Single-arm investigational study of Isolator Synergy device for inappropriate sinus tachycardia",
+          "nct_ids": ["NCT05280093"],
+          "trial_status": "Enrollment complete; in follow-up (per company website)",
+          "lead_sponsor": "AtriCure, Inc.",
+          "key_milestones": ["Follow-up phase ongoing"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "AtriCure markets a portfolio of FDA-cleared/approved surgical ablation and LAA-exclusion devices including the Isolator Synergy bipolar RF ablation system, the AtriClip LAA Exclusion System (multiple variants), the cryoICE cryoablation platform (cryoICE BOX, cryoSPHERE, cryoSPHERE+ for cryo nerve block), and the EPi-Sense / EPi-Sense ST devices used in the Convergent hybrid procedure for long-standing persistent AF (FDA PMA approved 2021).",
+    "key_franchises": [
+      "AtriClip LAA Exclusion (LAA management)",
+      "Isolator Synergy / EnCompass (surgical ablation for AF)",
+      "cryoICE platform (cryoablation and post-surgical pain management)",
+      "EPi-Sense (Convergent procedure for long-standing persistent AF)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT00785902", "reason": "WITHDRAWN — legacy AtriCure Bipolar persistent AF P3"},
+    {"nct": "NCT00571779", "reason": "WITHDRAWN — RESTORE IIB legacy P2"},
+    {"nct": "NCT00567515", "reason": "COMPLETED 2010 — legacy LAA occlusion P2"},
+    {"nct": "NCT00779857", "reason": "COMPLETED 2009 — legacy LAA exclusion P2"},
+    {"nct": "NCT00560885", "reason": "COMPLETED 2009 — legacy permanent AF P3"},
+    {"nct": "NCT00566787", "reason": "COMPLETED 2007 — legacy permanent AF P3"},
+    {"nct": "NCT00566176", "reason": "UNKNOWN status — legacy sole-therapy P2"},
+    {"nct": "NCT01997905", "reason": "COMPLETED 2015 — legacy stroke feasibility P1/P2"}
+  ],
+  "excluded_partner_owned": [],
+  "excluded_observational_registries": [
+    {"nct": "NCT05111015", "reason": "TRAC-AF observational registry"},
+    {"nct": "NCT05107635", "reason": "IST observational registry"},
+    {"nct": "NCT05110989", "reason": "REDUCE observational registry"},
+    {"nct": "NCT06908538", "reason": "VANISH observational registry"}
+  ],
+  "summary_counts": {
+    "total_assets": 4,
+    "total_indications": 5,
+    "by_phase": {"PHASE3": 4, "PHASE2": 1, "PHASE1": 0}
+  },
+  "no_active_clinical_pipeline_reason": null
+}

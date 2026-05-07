@@ -1,0 +1,38 @@
+{
+  "issuer_name": "Wellgistics Health, Inc.",
+  "ticker": "WGRX",
+  "exchange": "Nasdaq",
+  "cik": "0002030763",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-012004",
+      "filing_date": "2026-03-20",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/2030763/000149315226012004/form10-k.htm"
+    },
+    "website": {
+      "result": "Not fetched — distribution/services issuer per workflow rule; no proprietary pipeline expected."
+    },
+    "ctgov": {
+      "sponsor_query": "Wellgistics",
+      "unique_active_p1_p3_trials": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "Wellgistics_LLC_wholesale": {
+      "description": "Wholesale pharmaceutical distribution and fulfillment to a network of independent pharmacies (acquired Aug 30, 2024)."
+    },
+    "digital_pharmacy": {
+      "description": "Operates a digital pharmacy and hub/clinical-services technology platform."
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Distribution / services company — pharmaceutical wholesale distribution, digital pharmacy, and clinical-services technology platform. No proprietary drug or device clinical trials sponsored by Wellgistics Health are active. Per workflow rule, distributors do not enumerate clients' trials."
+}

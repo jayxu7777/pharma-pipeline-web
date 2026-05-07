@@ -1,0 +1,44 @@
+{
+  "issuer_name": "Scinai Immunotherapeutics Ltd.",
+  "ticker": "SCNI",
+  "exchange": "Nasdaq",
+  "cik": "0001611747",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-23-030228",
+      "filing_date": "2023-04-17",
+      "path": "data/scni_10k_pipeline_section.html",
+      "note": "Latest available SEC annual report (filed when company was BiondVax). Scinai now appears to file 20-F as foreign private issuer; pre-2024 portfolio data is largely obsolete after the BiondVax flu vaccine pivot."
+    },
+    "website": {
+      "url": "https://scinai.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/scni_ctgov_compact.json",
+      "trials_kept": 7,
+      "note": "All 7 trials are legacy BiondVax M-001 universal influenza vaccine trials, all COMPLETED. The Phase 3 NCT03450915 failed and the program was terminated; legacy assets are not part of the active Scinai pipeline."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Scinai's current portfolio (NanoAb VHH-based antibody platform programs targeting IL-17; PC111 anti-sFasL mAb licensed from Pincell for pemphigus vulgaris and SJS/TEN) is in preclinical stage. PC111 has not yet entered human proof-of-concept; Scinai's EUR12 million FENG grant application to fund PC111 clinical entry was not approved (Nov 2025). No active P1/P2/P3 company-sponsored trials. Operating revenues come from Scinai's CDMO services rather than clinical-stage assets.",
+  "excluded_preclinical": [
+    "Targeted Intradermal IL-17 NanoAb (preclinical)",
+    "Systemic Bi-Specific IL-17 NanoAb (preclinical)",
+    "PC111 anti-sFasL mAb for pemphigus vulgaris / SJS/TEN (preclinical, awaiting non-dilutive funding)"
+  ],
+  "excluded_legacy_terminated": [
+    "M-001 / Multimeric-001 universal influenza vaccine (Phase 3 NCT03450915 failed in 2020; program terminated; corporate pivot to Scinai)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 0,
+    "indications_active_p1_p2_p3": 0,
+    "phase3": 0,
+    "phase2": 0,
+    "phase1": 0
+  }
+}

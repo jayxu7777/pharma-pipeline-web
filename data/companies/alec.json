@@ -1,0 +1,56 @@
+{
+  "issuer_name": "Alector, Inc.",
+  "ticker": "ALEC",
+  "exchange": "Nasdaq",
+  "cik": "0001653087",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-25", "accession": "0001193125-26-071593", "path": "data/alec_10k_pipeline_section.html"},
+    "website": {"url": "https://www.alector.com/pipeline"},
+    "ctgov": {"path": "data/alec_ctgov_compact.json", "unique_trials_p1_3": 12}
+  },
+  "pipeline": [
+    {
+      "asset": "AL101",
+      "aka": ["GSK4527226", "PGRN-Ab"],
+      "modality": "Anti-sortilin monoclonal antibody (progranulin elevator)",
+      "target": "Sortilin (elevates progranulin)",
+      "license_origin": "Internal; co-developed with GlaxoSmithKline under 50/50 US profit-share collaboration",
+      "indications": [
+        {
+          "indication": "Early Alzheimer's disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "PROGRESS-AD (Phase 2) and open-label extension",
+          "trial_design": "Randomized, placebo-controlled Phase 2 of GSK4527226 in early AD (NCT06079190); open-label extension (NCT07105709)",
+          "nct_ids": ["NCT06079190", "NCT07105709"],
+          "trial_status": "Active, not recruiting (NCT06079190; primary completion 2026-09-30) and Recruiting (NCT07105709 OLE; start 2025-08-14)",
+          "lead_sponsor": "GlaxoSmithKline (Alector collaborator)",
+          "key_milestones": ["Phase 2 primary completion expected Q3 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "AL137 (anti-amyloid beta antibody)", "reason": "Preclinical AD program using ABC brain-carrier platform"},
+    {"asset": "AL050 (GCase-ERT)", "reason": "Preclinical glucocerebrosidase replacement for PD/Gaucher/LBD"},
+    {"asset": "AL064 (Tau-siRNA)", "reason": "Research-stage"},
+    {"asset": "ADP062 (alpha-synuclein siRNA)", "reason": "Research-stage"},
+    {"asset": "ADP065 (NLRP3 siRNA)", "reason": "Research-stage"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "AL001 / latozinemab — INFRONT-3 (NCT04374136)", "reason": "Phase 3 in FTD-GRN — terminated 2025 after failing primary endpoint"},
+    {"asset": "AL001 — Continuation Study (NCT06111014)", "reason": "Phase 3 latozinemab continuation — terminated 2025"},
+    {"asset": "AL001 — INFRONT-2 (NCT03987295)", "reason": "Phase 2 long-term safety in FTD — completed 2024 (program discontinued after INFRONT-3 failure)"},
+    {"asset": "AL001 — C9orf72 ALS (NCT05053035)", "reason": "Phase 2 — terminated 2022"},
+    {"asset": "AL001 first-in-human (NCT03636204)", "reason": "Phase 1 — completed 2019"},
+    {"asset": "AL002 — Phase 2 INVOKE-2 (NCT04592874)", "reason": "Phase 2 in early AD — completed 2024 but failed primary endpoint; AbbVie partnership ended; program discontinued"},
+    {"asset": "AL002 long-term extension (NCT05744401)", "reason": "Phase 2 OLE — terminated 2025 after INVOKE-2 readout"},
+    {"asset": "AL002 Phase 1 (NCT03635047)", "reason": "Phase 1 — completed 2020"},
+    {"asset": "AL003", "reason": "Phase 1 (NCT03822208) — completed 2021; program discontinued"},
+    {"asset": "AL101 first-in-human (NCT04111666)", "reason": "Phase 1 healthy volunteers — completed 2022"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

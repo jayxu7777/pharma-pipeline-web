@@ -1,0 +1,43 @@
+{
+  "issuer_name": "Beauty Health Co",
+  "ticker": "SKIN",
+  "exchange": "Nasdaq",
+  "cik": "0001818093",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-017376",
+      "filed": "2026-03-12",
+      "doc": "skin-20251231.htm",
+      "note": "10-K fetched but no drug-pipeline section heading found — issuer is a medical aesthetics device company (Hydrafacial), no proprietary drug pipeline disclosed."
+    },
+    "website": {
+      "url_attempted": "https://beautyhealth.com/pipeline",
+      "result": "redirected to product/distribution site (skinhealthsystems.com); no clinical pipeline page exists"
+    },
+    "ctgov": {
+      "lead_sponsor_query": "Beauty Health",
+      "p1_p3_unique_trials": 0,
+      "compact_path": "data/skin_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "primary_brand": "Hydrafacial",
+    "category": "Medical aesthetics device / hydradermabrasion system",
+    "regulatory_status": "Marketed device (FDA-cleared / equivalent ex-US clearances)",
+    "note": "Company sells aesthetic-treatment devices and consumables; no investigational drug or biologic assets in clinical development."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-aesthetics device company (Hydrafacial). No proprietary drug or biologic pipeline; no active P1/P2/P3 clinical trials sponsored by Beauty Health on ClinicalTrials.gov."
+}

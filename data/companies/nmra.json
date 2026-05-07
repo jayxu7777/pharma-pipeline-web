@@ -1,0 +1,134 @@
+{
+  "issuer_name": "Neumora Therapeutics, Inc.",
+  "ticker": "NMRA",
+  "exchange": "Nasdaq",
+  "cik": "0001885522",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001193125-26-130388",
+      "path": "data/nmra_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.neumoratx.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "path": "data/nmra_ctgov_compact.json",
+      "trial_count": 7
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Navacaprant",
+      "aka": ["NMRA-140", "NMRA-335140", "BTRX-335140", "CYM-53093"],
+      "modality": "Small molecule, oral once-daily",
+      "target": "Kappa Opioid Receptor (KOR) antagonist",
+      "license_origin": "Acquired via BlackThorn (2020); IP exclusively licensed from The Scripps Research Institute (TSRI)",
+      "indications": [
+        {
+          "indication": "Major Depressive Disorder (MDD) — monotherapy",
+          "highest_phase": "Phase 3",
+          "trial_name": "KOASTAL program (KOASTAL-1, KOASTAL-2, KOASTAL-3, KOASTAL-LT)",
+          "trial_design": "Three pivotal Phase 3 monotherapy studies plus open-label long-term extension; KOASTAL-1 missed primary endpoint Jan 2025; KOASTAL-2/-3 fully enrolled (>400 patients each)",
+          "nct_ids": ["NCT06029439", "NCT06029426", "NCT06058013", "NCT06058039"],
+          "trial_status": "Active — KOASTAL-2/-3 active not recruiting; joint topline readout expected Q2 2026",
+          "lead_sponsor": "Neumora Therapeutics, Inc.",
+          "key_milestones": [
+            "Q2 2026: KOASTAL-2 and KOASTAL-3 topline data readout"
+          ]
+        },
+        {
+          "indication": "Major Depressive Episode in Bipolar II Disorder",
+          "highest_phase": "Phase 2",
+          "trial_name": "Navacaprant Phase 2 in Bipolar II MDE",
+          "trial_design": "Placebo-controlled Phase 2; 80 mg dose",
+          "nct_ids": ["NCT06429722"],
+          "trial_status": "Completed (primary completion 2025-04-09)",
+          "lead_sponsor": "Neumora Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NMRA-511",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Vasopressin 1a Receptor (V1aR) antagonist",
+      "license_origin": "Acquired via BlackThorn / TSRI license",
+      "indications": [
+        {
+          "indication": "Agitation associated with Alzheimer's Disease",
+          "highest_phase": "Phase 1b",
+          "trial_name": "NMRA-511 Phase 1b (and MAD expansion)",
+          "trial_design": "Phase 1b in AD agitation patients; MAD expansion ongoing in 2026",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1b reported Q1 2026 (positive); MAD expansion data expected H2 2026; Phase 2 initiation planned Q1 2027",
+          "lead_sponsor": "Neumora Therapeutics, Inc.",
+          "key_milestones": [
+            "H2 2026: MAD higher-dose data",
+            "Q1 2027: Phase 2 initiation in AD agitation"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "NMRA-323511",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Undisclosed (CNS)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Agitation associated with Dementia due to Alzheimer's Disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "NMRA-323511 Phase 1 PK/PD study",
+          "trial_design": "Phase 1 in healthy elderly and AD-agitation adults",
+          "nct_ids": ["NCT06546995"],
+          "trial_status": "Completed (primary completion 2025-11-19)",
+          "lead_sponsor": "Neumora Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NMRA-898",
+      "aka": [],
+      "modality": "Small molecule positive allosteric modulator (PAM)",
+      "target": "M4 muscarinic acetylcholine receptor",
+      "license_origin": "Exclusively licensed from Vanderbilt (Warren Center)",
+      "indications": [
+        {
+          "indication": "Schizophrenia",
+          "highest_phase": "Phase 1",
+          "trial_name": "NMRA-898 SAD/MAD",
+          "trial_design": "SAD complete; ongoing MAD in healthy volunteers and stable schizophrenia patients",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing — designated lead M4 program (Mar 2026); Phase 1 MAD data expected H2 2026",
+          "lead_sponsor": "Neumora Therapeutics, Inc.",
+          "key_milestones": [
+            "H2 2026: Phase 1 MAD data readout"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "NMRA-861 (M4 PAM, schizophrenia) — preclinical / Phase 1 backup; NMRA-898 designated lead",
+    "NMRA-215 (NLRP3 inhibitor, obesity / Parkinson's) — preclinical; clinic entry planned Q1 2027",
+    "NMRA-GCase (GCase activator, Parkinson's) — preclinical",
+    "NMRA-CK1d (CK1 delta inhibitor, ALS) — preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "p3": 1,
+    "p2": 1,
+    "p1": 2,
+    "indications_total": 5
+  }
+}

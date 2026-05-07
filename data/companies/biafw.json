@@ -1,0 +1,55 @@
+{
+  "issuer_name": "bioAffinity Technologies, Inc.",
+  "ticker": "BIAFW",
+  "exchange": "Nasdaq",
+  "cik": "0001712762",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-010143",
+      "filing_date": "2026-03-16",
+      "note": "Diagnostics company; commercial CyPath Lung flow-cytometry sputum test plus preclinical/discovery-stage therapeutic and companion diagnostic programs."
+    },
+    "website": {
+      "url": "https://bioaffinitytech.com/",
+      "note": "No dedicated /pipeline page. Homepage describes commercial CyPath Lung diagnostic only; therapeutic discovery programs not detailed."
+    },
+    "ctgov": {
+      "sponsor_query": "bioAffinity Technologies",
+      "trials_found_raw": 5,
+      "trials_p1_p3": 0,
+      "note": "Active sputum-based diagnostic validation study NCT07168993 (Detection of Early-Stage Lung Cancer in Sputum using Flow Cytometry and an Automated Analysis Pipeline) is a diagnostic device clinical validation, not a P1/P2/P3 drug trial."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "CyPath Lung",
+    "modality": "In vitro diagnostic / lab-developed test (flow cytometry + AI on sputum)",
+    "indication": "Noninvasive assessment of patients at high risk for lung cancer with indeterminate pulmonary nodules 6 to <30 mm",
+    "status": "Commercially available via wholly owned CLIA lab Precision Pathology Laboratory Services (PPLS); Medicare PLA code 0406U effective Jan 1, 2024",
+    "ongoing_validation_study": {
+      "nct_id": "NCT07168993",
+      "title": "Detection of Early-Stage Lung Cancer in Sputum using Flow Cytometry and an Automated Analysis Pipeline (FlowPath Lung)",
+      "sites": "Brooke Army Medical Center, Walter Reed, Naval Medical Center San Diego (via DoD MCCRP collaboration)",
+      "first_patient_enrolled": "March 2026"
+    }
+  },
+  "excluded_preclinical": [
+    {
+      "program": "Broad-spectrum cancer therapeutics (siRNA and TCPP-porphyrin conjugates)",
+      "stage": "Preclinical / discovery; intends to seek strategic partners",
+      "reason": "Pre-IND, no clinical trials"
+    },
+    {
+      "program": "Companion diagnostics for asthma and COPD biologics (e.g., dupilumab, benralizumab patient selection)",
+      "stage": "Research collaboration with BAMC; first patient studies expected 2026",
+      "reason": "Diagnostic discovery, not a drug; not yet in interventional registry trials"
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total": 0},
+  "no_active_clinical_pipeline_reason": "bioAffinity Technologies is a diagnostics/lab-services company. Its sole commercial product is the CyPath Lung sputum flow-cytometry test (offered via its CLIA lab subsidiary PPLS). Therapeutic candidates are preclinical/discovery-stage (siRNA, TCPP conjugates) and companion-diagnostic programs are in research phase. The single active ctgov study (NCT07168993) is a diagnostic validation study, not a P1/P2/P3 drug trial. No active P1/P2/P3 drug or device pivotal pipeline."
+}

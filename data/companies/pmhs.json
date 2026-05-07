@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Polomar Health Services, Inc.",
+  "ticker": "PMHS",
+  "exchange": "OTC",
+  "cik": "0001265521",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-021488", "filed": "2026-05-06", "path": "data/pmhs_10k_pipeline_section.html"},
+    "website": {"error": "no public pipeline page found — DNS lookup failed for polomarhealthservices.com"},
+    "ctgov": {"path": "data/pmhs_ctgov_compact.json", "trials_found": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "Polomar operates a Florida-licensed retail/sterile compounding pharmacy (Polomar Specialty Pharmacy, LLC). No drug discovery or clinical development programs disclosed in the 10-K; no trials on ClinicalTrials.gov.",
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

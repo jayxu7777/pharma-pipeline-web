@@ -1,0 +1,54 @@
+{
+  "issuer_name": "Gossamer Bio, Inc.",
+  "ticker": "GOSS",
+  "exchange": "Nasdaq",
+  "cik": "0001728117",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001728117-26-000017", "filing_date": "2026-03-17", "path": "data/goss_10k_pipeline_section.html"},
+    "website": {"url": "https://www.gossamerbio.com/", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/goss_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Seralutinib",
+      "aka": ["GB002"],
+      "modality": "Inhaled small molecule kinase inhibitor (dry powder inhaler)",
+      "target": "PDGFR alpha/beta, CSF1R, c-KIT",
+      "license_origin": "Internal (Gossamer Bio); ex-US partnership with Chiesi Farmaceutici",
+      "indications": [
+        {
+          "indication": "Pulmonary arterial hypertension (PAH), WHO Functional Class II/III",
+          "highest_phase": "Phase 3 (topline results reported Feb 2026 — primary endpoint not met at prespecified alpha; CTD-APAH subgroup positive)",
+          "trial_name": "PROSERA",
+          "trial_design": "Randomized, double-blind, placebo-controlled, global registrational Phase 3 (n=390; 197 seralutinib / 193 placebo); 24-week 6MWD primary endpoint",
+          "nct_ids": ["NCT05934526"],
+          "trial_status": "COMPLETED (topline Feb 23 2026: +13.3 m placebo-adjusted 6MWD, p=0.0320, did not meet alpha=0.025; CTD-APAH subgroup +37.0 m, p=0.0104)",
+          "lead_sponsor": "GB002, Inc. (wholly owned subsidiary of Gossamer Bio)",
+          "key_milestones": ["Enrollment completed June 2025", "Topline Feb 2026"]
+        },
+        {
+          "indication": "Pulmonary hypertension associated with interstitial lung disease (PH-ILD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PH-ILD Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled global Phase 3",
+          "nct_ids": ["NCT07181382"],
+          "trial_status": "SUSPENDED (start 2026-02; current ctgov status SUSPENDED — likely pending PROSERA data review)",
+          "lead_sponsor": "GB002, Inc. (collaboration with Chiesi Farmaceutici)",
+          "key_milestones": ["Initiated Feb 2026", "Currently suspended"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "GB5121", "reason": "Phase 1 in CNS lymphoma terminated (NCT05242146)"},
+    {"asset": "GB004", "reason": "Phase 2 in ulcerative colitis terminated (NCT04556383)"},
+    {"asset": "GB001", "reason": "Legacy program — discontinued"},
+    {"asset": "GB006", "reason": "Legacy program — discontinued"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 2, "p2": 0, "p1": 0}
+}

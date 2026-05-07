@@ -1,0 +1,84 @@
+{
+  "issuer_name": "Ovid Therapeutics Inc.",
+  "ticker": "OVID",
+  "exchange": "Nasdaq",
+  "cik": "0001636651",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-019438", "filing_date": "2026-03-18", "doc": "ovid-20251231.htm"},
+    "website": {"url": "https://www.ovidrx.com/our-pipeline", "note": "Confirms OV329 Phase 2 stage and OV4071 Phase 1 stage."},
+    "ctgov": {"sponsor_query": "Ovid Therapeutics", "studies_returned": 0, "note": "Lead-sponsor query returned 0; OV329 Phase 1 ran outside ctgov registration window or under non-public listing"}
+  },
+  "pipeline": [
+    {
+      "asset": "OV329",
+      "aka": [],
+      "modality": "Small molecule (next-generation GABA-aminotransferase irreversible inhibitor, oral)",
+      "target": "GABA-AT",
+      "license_origin": "In-licensed from Northwestern University (2016)",
+      "indications": [
+        {
+          "indication": "Drug-resistant adult focal onset seizures (FOS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "OV329 Phase 2 FOS program (planned)",
+          "trial_design": "POC study in adult drug-resistant FOS; design pending regulatory feedback after Phase 1 topline (Q3 2025 AES presentation)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — regulatory discussions underway following Phase 1 topline; Phase 2 patient studies planned",
+          "lead_sponsor": "Ovid Therapeutics",
+          "key_milestones": ["Phase 1 topline announced Q3 2025", "Phase 2 study initiation pending FDA feedback"]
+        },
+        {
+          "indication": "Tuberous sclerosis complex (TSC) seizures",
+          "highest_phase": "Phase 2",
+          "trial_name": "OV329 TSC POC (planned)",
+          "trial_design": "POC study to be run in parallel with FOS program",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — POC study to launch alongside FOS",
+          "lead_sponsor": "Ovid Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Infantile spasms (IS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "OV329 IS POC (planned)",
+          "trial_design": "POC study to be run in parallel with FOS program",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — POC study to launch alongside FOS",
+          "lead_sponsor": "Ovid Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "OV4071",
+      "aka": [],
+      "modality": "Small molecule (oral KCC2 direct activator, first-in-human)",
+      "target": "Potassium-chloride cotransporter 2 (KCC2)",
+      "license_origin": "In-licensed from AstraZeneca (Dec 2021, KCC2 portfolio)",
+      "indications": [
+        {
+          "indication": "Psychosis associated with Parkinson's disease and Lewy body dementia; acute schizophrenia",
+          "highest_phase": "Phase 1",
+          "trial_name": "OV4071 first-in-human study",
+          "trial_design": "Phase 1 PK/safety study; ketamine challenge study planned mid-2026 to characterize PD effects and proof-of-mechanism",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 1 initiation Q2 2026 pending HREC approval",
+          "lead_sponsor": "Ovid Therapeutics",
+          "key_milestones": ["Q2 2026: Phase 1 initiation", "Mid-2026: ketamine challenge study"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "KCC2 library molecules beyond OV4071 (preclinical)",
+    "Other psychiatric / mood-disorder programs (preclinical)"
+  ],
+  "excluded_legacy_terminated": [
+    "OV101 (gaboxadol) Angelman syndrome — closed early 2021",
+    "OV350 IV — first-in-human PK/safety completed Q4 2025; succeeded by oral OV4071 as the lead KCC2 program"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 1, "P1": 1, "total_assets": 2}
+}

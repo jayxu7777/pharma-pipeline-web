@@ -1,0 +1,99 @@
+{
+  "issuer_name": "Kazia Therapeutics Ltd",
+  "ticker": "KZIA",
+  "exchange": "Nasdaq",
+  "cik": "0001075880",
+  "region": "AU",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Australia) - files 20-F, not 10-K"},
+    "website": {"error": "Pipeline page returned 404; assets confirmed as Paxalisib and EVT801 from site nav"},
+    "ctgov": {"path": "data/kzia_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Paxalisib",
+      "aka": ["GDC-0084"],
+      "modality": "Small molecule",
+      "target": "PI3K / mTOR (brain-penetrant)",
+      "license_origin": "Genentech (in-licensed)",
+      "indications": [
+        {
+          "indication": "Glioblastoma (newly diagnosed, MGMT unmethylated) - GBM AGILE adaptive platform",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "GBM AGILE",
+          "trial_design": "Adaptive platform; multiple regimens vs SOC",
+          "nct_ids": ["NCT03970447"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Global Coalition for Adaptive Research (collab: Kazia)",
+          "key_milestones": ["Primary completion Jun 2028"]
+        },
+        {
+          "indication": "Primary CNS lymphoma (PCNSL), recurrent/refractory",
+          "highest_phase": "Phase 2",
+          "trial_name": "Paxalisib in r/r PCNSL",
+          "trial_design": "Investigator-initiated, single-arm",
+          "nct_ids": ["NCT04906096"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Lakshmi Nayak, MD / Dana-Farber (collab: Kazia)",
+          "key_milestones": ["Primary completion Dec 2026"]
+        },
+        {
+          "indication": "Pediatric solid/brain tumors (precision-medicine basket)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "OPTIMISE",
+          "trial_design": "Adaptive precision-medicine platform",
+          "nct_ids": ["NCT06208657"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ANZCHOG (collab: Kazia)",
+          "key_milestones": ["Primary completion Dec 2030"]
+        },
+        {
+          "indication": "Malignant primary gliomas / GBM (5G-PEARL)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "5G-PEARL",
+          "trial_design": "Paxalisib + temozolomide",
+          "nct_ids": ["NCT07391215"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Institute of Cancer Research, UK (collab: Kazia)",
+          "key_milestones": ["Started Jan 2026; primary completion Jan 2029"]
+        },
+        {
+          "indication": "PIK3CA-mutated solid tumor brain/leptomeningeal metastases",
+          "highest_phase": "Phase 1",
+          "trial_name": "Paxalisib + WBRT in PIK3CA-mut brain mets",
+          "trial_design": "Paxalisib + whole-brain radiation",
+          "nct_ids": ["NCT04192981"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Memorial Sloan Kettering (collab: Kazia)",
+          "key_milestones": ["Primary completion Dec 2026"]
+        },
+        {
+          "indication": "Brain metastases (Alliance A071701, genotype-directed)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Alliance A071701",
+          "trial_design": "Genotype-directed basket",
+          "nct_ids": ["NCT03994796"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Alliance for Clinical Trials in Oncology (collab: Kazia)",
+          "key_milestones": ["Primary completion Oct 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "EVT801", "reason": "Phase 1 (NCT05114668) completed Nov 2024; no active Phase 1+ study currently enrolling"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT03522298", "reason": "Paxalisib GBM Ph2 - completed"},
+    {"nct": "NCT05183204", "reason": "Paxalisib + ketogenic diet GBM - SUSPENDED"},
+    {"nct": "NCT03765983", "reason": "Paxalisib + trastuzumab HER2+ brain mets - TERMINATED"},
+    {"nct": "NCT03696355", "reason": "DIPG ped Ph1 - completed"},
+    {"nct": "NCT05012670", "reason": "[14C]-Paxalisib mass-balance Ph1 - completed (clin-pharm)"},
+    {"nct": "NCT02903771", "reason": "Cantrixil ovarian Ph1 - completed; legacy asset"},
+    {"nct": "NCT00022295", "reason": "Phenoxodiol legacy - completed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 0, "p2": 4, "p1": 2, "active_indications": 6}
+}

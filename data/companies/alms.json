@@ -1,0 +1,109 @@
+{
+  "issuer_name": "ALUMIS INC.",
+  "ticker": "ALMS",
+  "exchange": "Nasdaq",
+  "cik": "0001847367",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001847367-26-000006",
+      "filed": "2026-03-19",
+      "doc": "alms-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://alumis.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Alumis",
+      "trial_count": 13
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Envudeucitinib (envu)",
+      "aka": ["ESK-001"],
+      "modality": "Oral allosteric TYK2 inhibitor (small molecule)",
+      "target": "TYK2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe Plaque Psoriasis (PsO)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ONWARD1 / ONWARD2 / Long-term extension",
+          "trial_design": "Two pivotal global, multi-center, randomized, double-blind placebo-controlled Phase 3 trials (vs placebo and apremilast); plus open-label long-term extension",
+          "nct_ids": ["NCT06586112", "NCT06588738", "NCT06846541"],
+          "trial_status": "ONWARD1 & ONWARD2 Completed (positive topline Jan 2026); LTE Active, not recruiting; NDA submission planned H2 2026",
+          "lead_sponsor": "Alumis Inc",
+          "key_milestones": ["Positive Phase 3 topline Jan 2026 (met all primary and secondary endpoints)", "NDA filing planned H2 2026"]
+        },
+        {
+          "indication": "Systemic Lupus Erythematosus (SLE)",
+          "highest_phase": "Phase 2",
+          "trial_name": "LUMUS (Phase 2b)",
+          "trial_design": "Phase 2b 48-week global, placebo-controlled, double-blind, randomized; primary endpoint BICLA at Week 48",
+          "nct_ids": ["NCT05966480"],
+          "trial_status": "Active, not recruiting; topline data expected Q3 2026",
+          "lead_sponsor": "Alumis Inc",
+          "key_milestones": ["Topline expected Q3 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "A-005",
+      "aka": [],
+      "modality": "Oral CNS-penetrant allosteric TYK2 inhibitor (small molecule)",
+      "target": "TYK2 (CNS-penetrant)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Multiple Sclerosis and other neuroinflammatory/neurodegenerative diseases (Phase 2 indication selection ongoing)",
+          "highest_phase": "Phase 1",
+          "trial_name": "A-005 SAD/MAD",
+          "trial_design": "Phase 1 single- and multiple-ascending dose study in healthy volunteers",
+          "nct_ids": ["NCT07442149"],
+          "trial_status": "Phase 1 Completed (Dec 2024 positive readout); Phase 2 commencement planned pending indication selection",
+          "lead_sponsor": "Alumis Inc",
+          "key_milestones": ["Positive Phase 1 data Dec 2024", "Phase 2 trial commencement planning"]
+        }
+      ]
+    },
+    {
+      "asset": "Lonigutamab",
+      "aka": [],
+      "modality": "Subcutaneous monoclonal antibody",
+      "target": "IGF-1R",
+      "license_origin": "Acquired via ACELYRIN merger (May 2025); composition of matter in-licensed from Pierre Fabre Medicament SAS",
+      "indications": [
+        {
+          "indication": "Thyroid Eye Disease (TED)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Lonigutamab Phase 1/2 dose-ranging",
+          "trial_design": "Phase 1/2 dose-ranging in TED (data reported by ACELYRIN in March 2024 and January 2025)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Development program under continued evaluation in capital-efficient manner; no active enrollment indicated post-merger",
+          "lead_sponsor": "Alumis Inc (formerly ACELYRIN)",
+          "key_milestones": ["Acquired via ACELYRIN merger May 2025", "Continuing program evaluation"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "IRF5 program - lead generation/optimization (preclinical)",
+    "Additional undisclosed targets - preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "ESK-001 in non-infectious uveitis (NCT05953688 Phase 2) - TERMINATED"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 1,
+    "phase_2": 1,
+    "phase_1_2": 1,
+    "phase_1": 1,
+    "indications_total": 4
+  }
+}

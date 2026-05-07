@@ -1,0 +1,28 @@
+{
+  "issuer_name": "iSpecimen Inc.",
+  "ticker": "ISPC",
+  "exchange": "Nasdaq",
+  "cik": "0001558569",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-038607",
+      "filing_date": "2026-04-01",
+      "path": "data/ispc_10k_pipeline_section.html"
+    },
+    "website": {"error": "Services / marketplace company; corporate site advertises the iSpecimen Marketplace platform, not a drug or device pipeline."},
+    "ctgov": {"path": "data/ispc_ctgov_compact.json", "unique_trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "platform": "iSpecimen Marketplace",
+    "description": "Online marketplace connecting biomedical researchers (industry, academia, government) with healthcare providers (hospitals, labs, biobanks) to source human biospecimens and de-identified patient data for research and drug development."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P1": 0, "P2": 0, "P3": 0},
+  "no_active_clinical_pipeline_reason": "Services / biospecimen-marketplace company. iSpecimen does not develop drug or device products; it brokers human biospecimen access for third-party researchers. The FY2025 10-K describes only the Marketplace platform and ClinicalTrials.gov returns no trials with iSpecimen as lead sponsor."
+}

@@ -1,0 +1,67 @@
+{
+  "issuer_name": "Cardiol Therapeutics Inc.",
+  "ticker": "CRDL",
+  "exchange": "Nasdaq",
+  "cik": "0001702123",
+  "region": "US/Canada (Canadian-domiciled, dual-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer - Canadian company files Form 40-F (not 10-K)"
+    },
+    "website": {
+      "url": "https://www.cardiolrx.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "path": "data/crdl_ctgov_compact.json",
+      "trial_count": 4
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CardiolRx",
+      "aka": ["pharmaceutically produced cannabidiol oral solution"],
+      "modality": "Oral cannabidiol (CBD) solution; ultra-pure pharmaceutical-grade",
+      "target": "NLRP3 inflammasome",
+      "license_origin": "Internally developed.",
+      "indications": [
+        {
+          "indication": "Recurrent Pericarditis",
+          "highest_phase": "Phase 3",
+          "trial_name": "MAVERIC Phase 3 (Cardiol 100-006)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 (pivotal)",
+          "nct_ids": ["NCT06708299"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Cardiol Therapeutics Inc.",
+          "key_milestones": ["Start April 2025", "Primary completion targeted Sep 2026", "FDA Orphan Drug Designation"]
+        },
+        {
+          "indication": "Acute Myocarditis",
+          "highest_phase": "Phase 2",
+          "trial_name": "ARCHER (Phase 2)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2",
+          "nct_ids": ["NCT05180240"],
+          "trial_status": "Completed (per ctgov, primary completion Jan 31, 2025)",
+          "lead_sponsor": "Cardiol Therapeutics Inc.",
+          "key_milestones": ["Top-line readout 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "CRD-38", "modality": "Subcutaneous CBD formulation targeting NLRP3 inflammasome", "indication": "Heart Failure", "status": "Pre-IND / IND-enabling"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "CardiolRx in COVID-19 + cardiovascular disease", "nct": "NCT04615949", "reason": "Phase 2/3 LANCER trial terminated"},
+    {"asset": "CardiolRx MAvERIC-Pilot Phase 2", "nct": "NCT05494788", "reason": "Phase 2 pilot completed; supported pivotal Phase 3 MAVERIC"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 1,
+    "P3_indications": 1,
+    "P2_indications": 1,
+    "P1_indications": 0
+  }
+}

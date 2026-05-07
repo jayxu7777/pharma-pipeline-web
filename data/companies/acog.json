@@ -1,0 +1,33 @@
+{
+  "issuer_name": "Alpha Cognition Inc.",
+  "ticker": "ACOG",
+  "exchange": "Nasdaq",
+  "cik": "0001655923",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-037614", "filed": "2026-03-31", "file": "data/acog_10k_pipeline_section.html"},
+    "website": {"url": "https://alphacognition.com/our-focus/our-pipeline/", "note": "Lists ZUNVEYL (commercial) plus pre-clinical programs."},
+    "ctgov": {"file": "data/acog_ctgov_compact.json", "kept_p1_p3": 0}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "ZUNVEYL (benzgalantamine)",
+    "indication": "Mild to moderate Alzheimer's disease dementia",
+    "status": "FDA-approved; US launch March 19, 2025"
+  },
+  "no_active_clinical_pipeline_reason": "Commercial-stage company. ZUNVEYL is FDA-approved and marketed; remaining programs (ZUNVEYL+memantine, ALPHA-1062 sublingual for mTBI/dysphagia, ALPHA-0602/0702/0802 progranulin GEMs) are explicitly described in 10-K as pre-clinical. No active P1/P2/P3 trials sponsored by Alpha Cognition.",
+  "excluded_preclinical": [
+    "ZUNVEYL + memantine combination (moderate-to-severe Alzheimer's) — preclinical",
+    "ALPHA-1062 sublingual formulation (mTBI / dysphagia) — preclinical, planned PK study vs ALPHA-162IN and ZUNVEYL",
+    "ALPHA-0602 (Progranulin) — preclinical",
+    "ALPHA-0702 (Progranulin GEM) — preclinical",
+    "ALPHA-0802 (Progranulin GEM) — preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "ZUNVEYL Asia ex-Japan / Australia / NZ commercialization licensed to CMSI (Alpha Cognition receives royalties)"
+  ],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

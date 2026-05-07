@@ -1,0 +1,61 @@
+{
+  "issuer_name": "Neuronetics, Inc.",
+  "ticker": "STIM",
+  "exchange": "Nasdaq",
+  "cik": "0001227636",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-029004",
+      "filing_date": "2026-03-17",
+      "doc": "stim-20251231x10k.htm"
+    },
+    "website": {
+      "error": "Pipeline page fetch failed (certificate expired). Public filings and search confirm Neuronetics is a single-product medtech company; no proprietary drug pipeline disclosed."
+    },
+    "ctgov": {
+      "studies_returned": 2,
+      "active_proprietary_studies": 0,
+      "note": "Only legacy Phase 3 study NCT00104611 (COMPLETED 2005) and one withdrawn investigator-initiated bipolar study NCT00447096."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "NeuroStar Advanced Therapy System",
+    "modality": "Transcranial Magnetic Stimulation (TMS) medical device",
+    "regulatory_status": "FDA 510(k) cleared. Adult MDD (2008); adjunct for adolescent MDD ages 15-21 (March 2024); also cleared for OCD and as adjunct for anxious depression in adults.",
+    "indications": [
+      "Major Depressive Disorder (adults)",
+      "Major Depressive Disorder (adolescents 15-21, adjunct)",
+      "Obsessive-Compulsive Disorder",
+      "Anxious Depression in MDD adults (adjunct)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "nct_id": "NCT00104611",
+      "title": "rTMS Device for Treatment of MDD",
+      "phase": "PHASE3",
+      "status": "COMPLETED",
+      "reason": "Legacy pivotal trial supporting 2008 FDA clearance; not active."
+    },
+    {
+      "nct_id": "NCT00447096",
+      "title": "rTMS for Bipolar Disorder Type II Depression",
+      "phase": "PHASE2",
+      "status": "WITHDRAWN",
+      "reason": "Investigator-initiated (UT Southwestern lead); withdrawn."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Single-product medical device company. NeuroStar TMS system is already FDA-cleared and commercialized; no active proprietary P1/P2/P3 drug or device clinical studies identified in 10-K, ClinicalTrials.gov, or public sources. New indications historically pursued via real-world evidence and 510(k)/De Novo pathways rather than registered phased trials."
+}

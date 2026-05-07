@@ -1,0 +1,69 @@
+{
+  "issuer_name": "Jupiter Neurosciences, Inc.",
+  "ticker": "JUNS",
+  "exchange": "Nasdaq",
+  "cik": "0001679628",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014687",
+      "filing_date": "2026-04-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679628/000149315226014687/form10-k.htm"
+    },
+    "website": {
+      "url": "https://jupiterneurosciences.com/pipeline"
+    },
+    "ctgov": {
+      "query": "Jupiter Neurosciences",
+      "trials_kept": 0,
+      "note": "No company-sponsored trials currently registered on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "JOTROL (JNS115)",
+      "aka": ["JNS115", "enhanced-bioavailability resveratrol"],
+      "modality": "Oral micellar resveratrol formulation (small molecule, enhanced bioavailability)",
+      "target": "SIRT1 / multi-target neuroinflammation and mitochondrial pathways",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Parkinson's disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "JNS115 Phase IIa in Parkinson's disease",
+          "trial_design": "Planned Phase IIa clinical trial of JOTROL in Parkinson's disease; FDA IND cleared November 2025; clinical supplies manufactured by Catalent; trial start anticipated 2026",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IND cleared by FDA Nov 2025; Phase IIa start expected in 2026",
+          "lead_sponsor": "Jupiter Neurosciences, Inc.",
+          "key_milestones": [
+            "Final IND approval received Nov 2025",
+            "Catalent has manufactured Phase IIa clinical supplies",
+            "Phase IIa initiation anticipated 2026"
+          ]
+        },
+        {
+          "indication": "Mild cognitive impairment (MCI) / Alzheimer's disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "JOTROL Phase 1 PK study (cross-referenceable for MCI/AD development)",
+          "trial_design": "Phase 1 single/multiple-ascending dose pharmacokinetic study (up to 500 mg) demonstrating CMax >800 ng/mL without severe AEs; results published in AAPS Open 2022 and intended to support Phase 2 indications",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 completed; Phase 2 in MCI/AD planned to follow Parkinson's program",
+          "lead_sponsor": "Jupiter Neurosciences, Inc.",
+          "key_milestones": [
+            "Phase 1 PK readout published 2022",
+            "FDA agreed Phase 1 supports IND for Phase IIa indications"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Nugevia consumer supplement line (non-Rx; not part of clinical pipeline)",
+    "Additional rare-disease indications for JOTROL (pre-IND)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 1, "P2": 1, "P3": 0, "total_assets": 1}
+}

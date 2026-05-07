@@ -1,0 +1,80 @@
+{
+  "issuer_name": "Celularity Inc",
+  "ticker": "CELU",
+  "exchange": "Nasdaq",
+  "cik": "0001752828",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-30",
+      "accession": "0001493152-26-020424",
+      "url": "https://www.sec.gov/Archives/edgar/data/1752828/000149315226020424/form10-k.htm"
+    },
+    "website": {
+      "url": "https://celularity.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Celularity",
+      "trial_count": 17,
+      "note": "All historical trials COMPLETED, TERMINATED, WITHDRAWN, or ACTIVE_NOT_RECRUITING in long-term follow-up; no actively recruiting trials"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Cenplacel-L (MLASC; PDA-001/PDA-002)",
+      "aka": ["PDA001", "PDA-002", "human placenta-derived cells"],
+      "modality": "Off-the-shelf placental-derived allogeneic mesenchymal-like adherent stromal cells (MLASC)",
+      "target": "Stem cell exhaustion / cellular senescence (longevity-driven cellular therapy)",
+      "license_origin": "Internal (placenta-derived from postpartum donors)",
+      "indications": [
+        {
+          "indication": "Crohn's Disease and Diabetic Foot Ulcer (with PAD)",
+          "highest_phase": "Phase 2 (per company website: complete, pending FDA End-of-Phase-2 meeting)",
+          "trial_name": "Historic Phase 2 trials of PDA-001 (Crohn's) and PDA-002 (DFU/PAD)",
+          "trial_design": "Multi-center, placebo-controlled IM/IV infusion of placental-derived cells",
+          "nct_ids": ["NCT01155362", "NCT02264288", "NCT02552277"],
+          "trial_status": "Prior Phase 2 trials COMPLETED (NCT01155362 Crohn's, NCT02552277 DPN); other Phase 2 in DFU TERMINATED (NCT02264288, NCT02460081). Per company pipeline page: pending FDA EOP-2; no active recruiting trial. Company also evaluating commercialization in jurisdictions outside traditional regulatory approval pathways.",
+          "lead_sponsor": "Celularity Incorporated",
+          "key_milestones": [
+            "FDA End-of-Phase-2 meeting expected"
+          ]
+        },
+        {
+          "indication": "Facioscapulohumeral muscular dystrophy (FSHD)",
+          "highest_phase": "Phase 1 (planned per company pipeline page)",
+          "trial_name": "Planned Phase 1 PDA-002 in FSHD",
+          "trial_design": "Not disclosed",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — listed as 'Ready' on company pipeline page; no NCT identifier yet",
+          "lead_sponsor": "Celularity Incorporated",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "biomaterials_segment": "Celularity markets advanced biomaterial products derived from placental tissue: Biovance, Biovance 3L Ocular, Interfyl, CentaFlex, Rebound. Pipeline biomaterials with 510(k) expected: Celularity Tendon Wrap (CTW), FUSE Bone Void Filler, Celularity Placental Matrix (CPM). These are the Degenerative Disease commercial segment, not subject to active P1/P2/P3 clinical trials."
+  },
+  "excluded_preclinical": [
+    {"asset": "pT (placental T cell) for solid tumors", "reason": "Discovery / preclinical (CAR + persistence + stealth)"},
+    {"asset": "pT/pNK for autoimmune disease", "reason": "Discovery / preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "CYNK-001 (placental natural killer cells)", "reason": "Multiple programs: COVID-19 (NCT04365101 ACTIVE_NOT_RECRUITING in long-term follow-up; primary completion 2021-12-30), AML (NCT04310592 TERMINATED), MM (NCT04309084 UNKNOWN, primary completion 2023-01-31), recurrent GBM (NCT04489420 TERMINATED, NCT05218408 WITHDRAWN). No active development per 10-K cell therapy section."},
+    {"asset": "CYNK-101 (CD16-engineered placental NK cells)", "reason": "Phase 1/2 NCT05207722 in HER2+ G/GEJ adenocarcinoma TERMINATED Feb 2024"},
+    {"asset": "PNK-007", "reason": "Phase 1 trials in AML (NCT02781467) TERMINATED and MM (NCT02955550) COMPLETED; not in active pipeline"},
+    {"asset": "PDA001 in RA, ischemic stroke, sarcoidosis", "reason": "Historical Phase 1/2 trials with Celgene TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3_indications": 0,
+    "phase_2_indications": 1,
+    "phase_1_indications": 0,
+    "planned_indications": 1
+  },
+  "company_status_note": "Going-concern doubt disclosed in 10-K; current cash insufficient to fund operations 12 months beyond filing date. No actively recruiting clinical trials per ctgov. Company pivoting toward biomaterials commercial sales and exploring commercialization of cenplacel-L in jurisdictions outside traditional regulatory approval pathways."
+}

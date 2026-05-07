@@ -1,0 +1,57 @@
+{
+  "issuer_name": "CytoMed Therapeutics Ltd",
+  "ticker": "GDTC",
+  "exchange": "Nasdaq",
+  "cik": "0001873093",
+  "region": "Singapore (foreign private issuer; cross-listed on Nasdaq)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F instead of 10-K (no 10-K found in EDGAR submissions)"
+    },
+    "website": {
+      "url": "https://w2.cytomed.sg/pipeline/"
+    },
+    "ctgov": {
+      "sponsor_query": "CytoMed Therapeutics",
+      "trials_returned": 3,
+      "compact_path": "data/gdtc_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CTM-N2D",
+      "aka": ["Allogeneic NKG2DL-targeting CAR gamma-delta T cells"],
+      "modality": "Allogeneic CAR gamma-delta T-cell therapy",
+      "target": "NKG2D ligands (NKG2DL) on tumor cells",
+      "license_origin": "In-house",
+      "indications": [
+        {
+          "indication": "Advanced/refractory solid tumors and hematologic malignancies",
+          "highest_phase": "Phase 1",
+          "trial_name": "ANGELICA",
+          "trial_design": "Phase 1 dose-escalation of allogeneic NKG2DL-targeting CAR gamma-delta T cells (CTM-N2D) in advanced cancers",
+          "nct_ids": ["NCT05302037", "NCT04107142"],
+          "trial_status": "RECRUITING (NCT05302037); UNKNOWN (NCT04107142)",
+          "lead_sponsor": "CytoMed Therapeutics Pte Ltd",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CTM-GDT (unmodified gamma-delta T cell) — described as clinically-ready but no active registered trial",
+    "iPSC-derived gamma-delta NKT cell (gdNKT) — preclinical / development"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "MSC infusion for anti-aging/regenerative therapy (NCT04174898) — sponsored by Landmark Medical Centre, not a CytoMed asset"
+  ],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "p3": 0,
+    "p2": 0,
+    "p1": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "issuer_name": "Perceptive Capital Solutions Corp",
+  "ticker": "PCSC",
+  "exchange": "Nasdaq",
+  "cik": "0002017526",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001140361-26-009262",
+      "filing_date": "2026-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/2017526/000114036126009262/ef20060645_10k.htm"
+    },
+    "website": {
+      "error": "Blank check / SPAC entity — no operating website with pipeline page"
+    },
+    "ctgov": {
+      "trials_found": 0,
+      "note": "No clinicaltrials.gov sponsor records"
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total": 0},
+  "no_active_clinical_pipeline_reason": "Blank check SPAC company (incorporated March 22, 2024, Cayman Islands) sponsored by Perceptive Advisors. No operating business or proprietary clinical pipeline; formed solely to pursue an initial business combination in the life sciences / medtech sectors."
+}

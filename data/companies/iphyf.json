@@ -1,0 +1,132 @@
+{
+  "issuer_name": "Innate Pharma SA",
+  "ticker": "IPHYF",
+  "exchange": "OTC",
+  "cik": "0001598599",
+  "region": "France (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer \u2014 files 20-F instead of 10-K"},
+    "website": {
+      "url": "https://www.innate-pharma.com/products/pipeline-overview",
+      "fetched": true
+    },
+    "ctgov": {
+      "queries": ["sponsor: Innate Pharma"],
+      "trials_found": 26
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Lacutamab",
+      "aka": ["IPH4102"],
+      "modality": "Monoclonal antibody (anti-KIR3DL2, cytotoxicity-inducing)",
+      "target": "KIR3DL2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Cutaneous T-cell lymphoma (Sezary syndrome / mycosis fungoides)",
+          "highest_phase": "Phase 2",
+          "trial_name": "TELLOMAK",
+          "trial_design": "Open-label Phase 2",
+          "nct_ids": ["NCT03902184"],
+          "trial_status": "Completed (TELLOMAK CTCL primary endpoint met); FDA Breakthrough Therapy Designation granted Feb 2025 for r/r Sezary",
+          "lead_sponsor": "Innate Pharma",
+          "key_milestones": ["BTD granted Feb 2025", "Primary completion 2026-01"]
+        },
+        {
+          "indication": "Peripheral T-cell lymphoma (PTCL, relapsed/refractory)",
+          "highest_phase": "Phase 2",
+          "trial_name": "KILT",
+          "trial_design": "Phase 2 lacutamab + GemOx vs GemOx alone",
+          "nct_ids": ["NCT04984837"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "The Lymphoma Academic Research Organisation (LYSARC); Innate collaborator",
+          "key_milestones": ["Primary completion 2028-04"]
+        }
+      ]
+    },
+    {
+      "asset": "IPH4502",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (Topo-I inhibitor exatecan payload)",
+      "target": "Nectin-4",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic solid tumors expressing Nectin-4 (urothelial, NSCLC, breast, ovarian, gastric, esophageal, colorectal)",
+          "highest_phase": "Phase 1",
+          "trial_name": "First-in-human Phase 1",
+          "trial_design": "Open-label, dose-escalation/expansion Phase 1",
+          "nct_ids": ["NCT06781983"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Innate Pharma",
+          "key_milestones": ["First patient dosed Jan 2025", "Primary completion 2028-04"]
+        }
+      ]
+    },
+    {
+      "asset": "IPH5301",
+      "aka": [],
+      "modality": "Monoclonal antibody (anti-CD73)",
+      "target": "CD73",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (combo +/- chemo + trastuzumab)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CHANCES",
+          "trial_design": "Phase 1 dose-escalation/expansion",
+          "nct_ids": ["NCT05143970"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Institut Paoli-Calmettes; Innate collaborator",
+          "key_milestones": ["Primary completion 2027-03"]
+        }
+      ]
+    },
+    {
+      "asset": "IPH5201",
+      "aka": ["AZD2235 (collab name with AstraZeneca)"],
+      "modality": "Monoclonal antibody (anti-CD39)",
+      "target": "CD39",
+      "license_origin": "Internal (partnered with AstraZeneca)",
+      "indications": [
+        {
+          "indication": "Resectable non-small cell lung cancer (neoadjuvant)",
+          "highest_phase": "Phase 2",
+          "trial_name": "MATISSE",
+          "trial_design": "Phase 2, IPH5201 + durvalumab + chemo",
+          "nct_ids": ["NCT05742607"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Innate Pharma",
+          "key_milestones": ["Primary completion 2025-06"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "IPH6501", "indication": "B-NHL", "reason": "Sole NCT06088654 P1/2 was TERMINATED; remaining work is preclinical (DLBCL/FL data at EHA 2025)"},
+    {"asset": "IPH6101 (SAR443579)", "indication": "AML, B-ALL, MDS", "reason": "Phase 1/2 NCT05086315 listed on company website; this trial is partner-led (Sanofi); not in Innate ctgov-sponsor compact"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "IPH6501", "nct": "NCT06088654", "indication": "B-NHL", "status": "TERMINATED"},
+    {"asset": "Avdoralimab (IPH5401)", "nct": "NCT03665129 / NCT04371367", "indication": "Solid tumors / COVID-19", "status": "TERMINATED / COMPLETED"},
+    {"asset": "Lacutamab (IPH4102)", "nct": "NCT05321147 / NCT02593045", "indication": "PTCL / CTCL", "status": "COMPLETED (legacy P1)"},
+    {"asset": "Monalizumab (IPH2201)", "nct": "NCT02557516 / NCT02331875 / NCT02921685 / NCT03307941 / NCT02459301 / NCT02643550", "indication": "Various", "status": "TERMINATED / WITHDRAWN / COMPLETED / UNKNOWN"},
+    {"asset": "IPH2101/lirilumab", "nct": "NCT01687387 / NCT00999830 / NCT01217203 / NCT01256073 / NCT01222286 / NCT00552396", "indication": "AML / MM", "status": "COMPLETED"},
+    {"asset": "Other legacy", "nct": "NCT01370902 / NCT00562666", "indication": "RA / HCC", "status": "COMPLETED / TERMINATED"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Monalizumab", "indication": "Unresectable Stage III NSCLC (PACIFIC-9, Phase 3)", "nct": "NCT05221840", "owner": "AstraZeneca", "reason": "Partner-led Phase 3; royalty/milestone economics to Innate but trial is AstraZeneca-sponsored"},
+    {"asset": "Monalizumab", "indication": "Neoadjuvant NSCLC (NeoCOAST-2, Phase 2)", "nct": "NCT05061550", "owner": "AstraZeneca", "reason": "Partner-led Phase 2 by AstraZeneca"},
+    {"asset": "Monalizumab + cetuximab", "indication": "R/M head & neck SCC (Phase 3)", "nct": "NCT04590963", "owner": "AstraZeneca", "reason": "Partner-led Phase 3 by AstraZeneca; included in compact ctgov but not Innate-owned trial"}
+  ],
+  "summary_counts": {
+    "assets": 4,
+    "phase_3": 0,
+    "phase_2": 3,
+    "phase_1": 2,
+    "indications_active": 5
+  }
+}

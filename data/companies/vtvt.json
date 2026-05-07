@@ -1,0 +1,42 @@
+{
+  "issuer_name": "vTv Therapeutics Inc.",
+  "ticker": "VTVT",
+  "exchange": "Nasdaq",
+  "cik": "0001641489",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001641489-26-000010", "filed": "2026-03-10", "doc": "vtvt-20251231.htm"},
+    "website": {"error": "Pipeline page returned mostly CSS/JS; content not extractable via WebFetch"},
+    "ctgov": {"sponsor_query": "vTv Therapeutics", "trials_returned": 14}
+  },
+  "pipeline": [
+    {
+      "asset": "Cadisegliatin",
+      "aka": ["TTP399"],
+      "modality": "Oral small-molecule liver-selective glucokinase activator (GKA)",
+      "target": "Glucokinase (liver-selective activation)",
+      "license_origin": "Internal (vTv Therapeutics)",
+      "indications": [
+        {
+          "indication": "Type 1 Diabetes — adjunctive therapy to insulin",
+          "highest_phase": "Phase 3",
+          "trial_name": "Cadisegliatin Phase 3 (CATALYST/T1D adjunctive)",
+          "trial_design": "Randomized double-blind placebo-controlled Phase 3 of cadisegliatin (TTP399) 800 mg QD or 800 mg BID vs placebo as adjunctive therapy to insulin in adults with Type 1 Diabetes",
+          "nct_ids": ["NCT06334133"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "vTv Therapeutics",
+          "key_milestones": ["Trial start 2024-06-14", "Primary completion targeted 2026-09"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "TTP273 (oral GLP-1R agonist)", "reason": "Phase 2 (NCT02653599) completed; not in active P1+ development"},
+    {"asset": "Azeliragon (TTP488, RAGE antagonist) and other legacy candidates", "reason": "Multiple older studies completed/terminated/withdrawn; not in active P1+ development by vTv"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 1, "p2": 0, "p1": 0}
+}

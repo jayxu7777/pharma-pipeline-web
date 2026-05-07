@@ -1,0 +1,106 @@
+{
+  "issuer_name": "Artiva Biotherapeutics, Inc.",
+  "ticker": "ARTV",
+  "exchange": "Nasdaq",
+  "cik": "0001817241",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-100135", "filing_date": "2026-03-10", "file": "data/artv_10k_pipeline_section.html"},
+    "website": {"url": "https://www.artivabio.com/nk-cell-therapy-pipeline/", "accessed": "2026-05-06"},
+    "ctgov": {"file": "data/artv_ctgov_compact.json", "sponsor_query": "Artiva Biotherapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "AlloNK",
+      "aka": ["AB-101"],
+      "modality": "Allogeneic, non-genetically modified, cord blood-derived NK cell therapy",
+      "target": "B-cells (via ADCC with anti-CD20 mAbs)",
+      "license_origin": "GC Cell Corporation (originated)",
+      "indications": [
+        {
+          "indication": "Refractory rheumatoid arthritis (lead), Sjogren's disease, idiopathic inflammatory myopathies, systemic sclerosis",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2a basket trial of AlloNK + rituximab in B-cell-dependent rheumatologic diseases",
+          "trial_design": "Open-label Phase 2a basket study of AlloNK in combination with rituximab",
+          "nct_ids": ["NCT06991114"],
+          "trial_status": "RECRUITING; first patient treated Aug 2025; FDA Fast Track for refractory RA (Oct 2025)",
+          "lead_sponsor": "Artiva Biotherapeutics, Inc.",
+          "key_milestones": ["Initial safety/translational data Nov 2025", "Refractory RA designated lead indication"]
+        },
+        {
+          "indication": "Lupus nephritis (Class III/IV) and refractory SLE",
+          "highest_phase": "Phase 1",
+          "trial_name": "AlloNK + B-cell depleting mAb in lupus nephritis / refractory SLE",
+          "trial_design": "Open-label Phase 1/1b combination with rituximab or obinutuzumab",
+          "nct_ids": ["NCT06265220"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; expanded to SLE July 2024",
+          "lead_sponsor": "Artiva Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "B-cell associated autoimmune diseases (RA, pemphigus vulgaris, GPA, SLE)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Investigator-initiated AlloNK + rituximab basket",
+          "trial_design": "Open-label, single-center Phase 1/1b combination with rituximab",
+          "nct_ids": ["NCT06581562"],
+          "trial_status": "RECRUITING (investigator-initiated; IRIS Research and Development lead sponsor with Artiva collaborator)",
+          "lead_sponsor": "IRIS Research and Development, LLC (collaborator: Artiva Biotherapeutics)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AB-201",
+      "aka": ["CAR-NK HER2"],
+      "modality": "HER2-targeted CAR-NK cell therapy",
+      "target": "HER2",
+      "license_origin": "GC Cell Corporation",
+      "indications": [
+        {
+          "indication": "Advanced HER2+ solid tumors (breast, gastric, GEJ adenocarcinoma)",
+          "highest_phase": "Phase 1",
+          "trial_name": "AB-201 in HER2+ solid tumors",
+          "trial_design": "Phase 1/2 open-label dose escalation",
+          "nct_ids": ["NCT05678205"],
+          "trial_status": "WITHDRAWN per ctgov; company website lists program as Active with Orphan Drug designation - flagged",
+          "lead_sponsor": "Artiva Biotherapeutics, Inc.",
+          "key_milestones": ["Orphan Drug designation"]
+        }
+      ]
+    },
+    {
+      "asset": "AB-205 / GCC2005",
+      "aka": ["GCC2005", "CAR-NK CD5"],
+      "modality": "CD5-targeted CAR-NK cell therapy",
+      "target": "CD5",
+      "license_origin": "GC Cell Corporation (lead sponsor of trial)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory NK and T-cell malignancies (T-cell lymphoma)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 GCC2005 in R/R NK and T-cell malignancies",
+          "trial_design": "Phase 1 dose escalation",
+          "nct_ids": ["NCT06699771"],
+          "trial_status": "RECRUITING (GC Cell lead sponsor; Artiva collaborator)",
+          "lead_sponsor": "GC Cell Corporation (collaborator: Artiva Biotherapeutics)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "AB-101 + AFM13", "nct_id": "NCT05883449", "reason": "Affimed-sponsored Phase 2 in HL/PTCL TERMINATED (2024)"},
+    {"asset": "AB-101 monotherapy", "nct_id": "NCT04673617", "reason": "Phase 1/2 in R/R B-NHL COMPLETED July 2025"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 4,
+    "indications_total": 5
+  }
+}

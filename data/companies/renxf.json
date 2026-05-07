@@ -1,0 +1,31 @@
+{
+  "issuer_name": "Renalytix plc",
+  "ticker": "RENXF",
+  "exchange": "OTC",
+  "cik": "0001811115",
+  "region": "UK",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000950170-24-110315",
+      "filing_date": "2024-09-30",
+      "doc": "rnlx-20240630.htm",
+      "note": "Renalytix is an in vitro diagnostics (IVD) company. Lead product KidneyIntelX.dkd is an FDA De Novo authorized prognostic blood-based bioprognostic test for early-stage diabetic kidney disease (DKD), included in 2024 KDIGO CKD guidelines. No therapeutic drug pipeline."
+    },
+    "website": {"error": "no public pipeline page found - https://www.renalytix.com/pipeline returned 404; company is a diagnostics firm (KidneyIntelX product page only)"},
+    "ctgov": {"unique_trials_p1_3": 0, "note": "ctgov sponsor search returned 4 raw studies, 0 are interventional P1-P3 drug/device trials"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "KidneyIntelX.dkd",
+    "modality": "in vitro diagnostic (prognostic blood test)",
+    "indication": "risk stratification for progressive kidney function decline in adults with type 2 diabetes and existing chronic kidney disease (stages 1-3b)",
+    "regulatory_status": "FDA De Novo authorized (June 2023); CE-marked; included in KDIGO 2024 CKD Clinical Practice Guideline"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Diagnostics-only company. KidneyIntelX.dkd is a commercially marketed FDA-authorized in vitro diagnostic prognostic test, not a therapeutic asset. No active P1/P2/P3 drug or device interventional clinical pipeline."
+}

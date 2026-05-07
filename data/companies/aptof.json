@@ -1,0 +1,65 @@
+{
+  "issuer_name": "Aptose Biosciences Inc.",
+  "ticker": "APTOF",
+  "exchange": "OTC",
+  "cik": "0000882361",
+  "region": "Canada/US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001193125-26-135012",
+      "path": "data/aptof_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.aptose.com/product-pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/aptof_ctgov_compact.json",
+      "lead_sponsor_query": "Aptose Biosciences"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Tuspetinib",
+      "aka": ["HM43239", "TUS"],
+      "modality": "Small molecule oral kinase inhibitor (myeloid kinome inhibitor; SYK, FLT3, JAK, c-KIT(mut))",
+      "target": "SYK / FLT3 / JAK / mutant c-KIT",
+      "license_origin": "In-licensed from Hanmi Pharmaceutical",
+      "indications": [
+        {
+          "indication": "Acute Myeloid Leukemia (AML) — relapsed/refractory and newly diagnosed (TUS+VEN+HMA triplet)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "APTIVATE / TUSCANY (tuspetinib monotherapy and combinations)",
+          "trial_design": "Dose escalation/expansion of tuspetinib as single agent and in combination with venetoclax and azacitidine in R/R AML and newly diagnosed AML",
+          "nct_ids": ["NCT03850574"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Aptose Biosciences Inc.",
+          "key_milestones": ["Primary completion expected 2026-11"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Luxeptinib (CG-806)", "reason": "10-K explicitly states not undergoing active clinical development"},
+    {"asset": "APTO-253", "reason": "10-K explicitly states not undergoing active clinical development"},
+    {"nct_id": "NCT03893682", "reason": "TERMINATED"},
+    {"nct_id": "NCT04477291", "reason": "TERMINATED"},
+    {"nct_id": "NCT02267863", "reason": "TERMINATED"},
+    {"nct_id": "NCT01281592", "reason": "COMPLETED legacy"},
+    {"nct_id": "NCT00565058", "reason": "COMPLETED legacy"},
+    {"nct_id": "NCT00040092", "reason": "COMPLETED legacy"},
+    {"nct_id": "NCT00056173", "reason": "COMPLETED legacy"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "p3": 0,
+    "p2": 0,
+    "p1": 1,
+    "p1_p2": 1
+  }
+}

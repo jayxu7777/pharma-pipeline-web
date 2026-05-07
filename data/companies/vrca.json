@@ -1,0 +1,77 @@
+{
+  "issuer_name": "Verrica Pharmaceuticals Inc.",
+  "ticker": "VRCA",
+  "exchange": "Nasdaq",
+  "cik": "0001660334",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-11",
+      "accession": "0001660334-26-000008",
+      "path": "data/vrca_10k_pipeline_section.html"
+    },
+    "website": {"error": "skipped per agent guidance; relied on 10-K + ctgov"},
+    "ctgov": {"path": "data/vrca_ctgov_compact.json", "sponsor_query": "Verrica Pharmaceuticals", "study_count": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "VP-102",
+      "aka": ["YCANTH (in molluscum)", "Cantharidin topical solution 0.7%"],
+      "modality": "Topical small molecule (cantharidin topical film-forming solution with single-use applicator)",
+      "target": "Cantharidin (vesicant)",
+      "license_origin": "Wholly owned (Verrica). Japan rights licensed to Torii (TO-208).",
+      "indications": [
+        {
+          "indication": "Common warts (verruca vulgaris)",
+          "highest_phase": "Phase 3",
+          "trial_name": "COVE-2 (plus long-term follow-up COVE-LTFU)",
+          "trial_design": "Phase 3 multicenter, randomized, vehicle-controlled trial of VP-102 in patients with common warts; long-term follow-up open-label extension.",
+          "nct_ids": ["NCT07246590", "NCT07457918"],
+          "trial_status": "Recruiting (global Phase 3 program initiated)",
+          "lead_sponsor": "Verrica Pharmaceuticals Inc.",
+          "key_milestones": ["Phase 3 program initiated; LTFU recruiting"]
+        }
+      ]
+    },
+    {
+      "asset": "VP-315",
+      "aka": [],
+      "modality": "Oncolytic peptide (intratumoral injection)",
+      "target": "Membrane disruption / immunogenic cell death",
+      "license_origin": "Wholly owned (Verrica)",
+      "indications": [
+        {
+          "indication": "Basal cell carcinoma (BCC)",
+          "highest_phase": "Phase 2 (completed); Phase 3 program planning underway",
+          "trial_name": "VP-315 BCC open-label proof-of-concept",
+          "trial_design": "Open-label Phase 2 dose-finding intratumoral study; Part 1 + expanded Part 2.",
+          "nct_ids": ["NCT05188729"],
+          "trial_status": "Phase 2 completed (last patient dosed December 2023). Phase 3 program planning currently underway per 10-K.",
+          "lead_sponsor": "Verrica Pharmaceuticals Inc.",
+          "key_milestones": ["Phase 3 program design ongoing"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "YCANTH (VP-102)",
+    "indication": "Molluscum contagiosum (FDA approved July 2023; ages 2 and older)",
+    "status": "Commercialized in the United States"
+  },
+  "excluded_preclinical": [
+    "VP-103 (plantar warts) — no plans underway to begin Phase 2 trial"
+  ],
+  "excluded_legacy_terminated": [
+    "Completed Phase 2/3 molluscum trials of VP-102 (NCT03377790, NCT03377803, NCT03186378) — supported YCANTH approval, no longer active",
+    "VP-102 external genital warts (NCT03981822, NCT03487549) — completed Phase 2; no plans to begin Phase 3"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "phase_3": 1,
+    "phase_2": 1,
+    "phase_1_or_1_2": 0
+  }
+}

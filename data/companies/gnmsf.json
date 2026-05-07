@@ -1,0 +1,283 @@
+{
+  "issuer_name": "GENMAB A/S",
+  "ticker": "GNMSF",
+  "exchange": "OTC",
+  "cik": "0001434265",
+  "region": "DK",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://www.genmab.com/antibody-science/pipeline", "error": "403 to WebFetch; supplemented via WebSearch and ctgov"},
+    "ctgov": {"sponsor_query": "Genmab", "trials_returned": 32, "note": "Active Genmab-sponsored P1/P2/P3 trials"}
+  },
+  "pipeline": [
+    {
+      "asset": "Epcoritamab",
+      "aka": ["EPKINLY", "TEPKINLY", "DuoBody-CD3xCD20", "GEN3013"],
+      "modality": "Subcutaneous bispecific antibody (CD3 x CD20 T-cell engager)",
+      "target": "CD3 x CD20",
+      "license_origin": "Internal (partnered with AbbVie)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory Diffuse Large B-cell Lymphoma (R/R DLBCL) — 2L+",
+          "highest_phase": "P3",
+          "trial_name": "EPCORE DLBCL-1",
+          "trial_design": "Phase 3 open-label epcoritamab vs investigator's choice chemotherapy in R/R DLBCL",
+          "nct_ids": ["NCT04628494", "NCT07226752"],
+          "trial_status": "Active, not recruiting; topline 2026 H1",
+          "lead_sponsor": "Genmab",
+          "key_milestones": ["Phase 3 readout 2026 H1"]
+        },
+        {
+          "indication": "Relapsed/Refractory Follicular Lymphoma + R-CHOP / Combinations (DLBCL-2)",
+          "highest_phase": "P3",
+          "trial_name": "EPCORE DLBCL-2 (epcoritamab + R-CHOP) and EPCORE FL-1 / arm studies",
+          "trial_design": "Phase 3 SC epcoritamab in combination with rituximab + lenalidomide vs SoC; multiple registrational arms",
+          "nct_ids": ["NCT05578976", "NCT05409066", "NCT06191744", "NCT06508658"],
+          "trial_status": "Active not recruiting / Recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": ["Frontline DLBCL readout 2026"]
+        },
+        {
+          "indication": "Relapsed/Refractory CLL / B-cell NHL (combination, pediatric, JP)",
+          "highest_phase": "P2",
+          "trial_name": "Multiple P1/P2 epcoritamab combination/regional trials",
+          "trial_design": "P1/P2 trials in CLL, B-NHL, pediatric, Japanese populations",
+          "nct_ids": ["NCT04623541", "NCT04542824", "NCT05206357", "NCT05660967", "NCT05451810", "NCT04663347", "NCT05283720", "NCT05201248"],
+          "trial_status": "Active not recruiting / Recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Rinatabart sesutecan (Rina-S)",
+      "aka": ["PRO1184", "GEN1184"],
+      "modality": "Folate-receptor-alpha-targeted ADC (TOPO1 payload)",
+      "target": "Folate receptor alpha (FRα)",
+      "license_origin": "Acquired from ProfoundBio",
+      "indications": [
+        {
+          "indication": "Platinum-Resistant Ovarian Cancer (2L+ PROC)",
+          "highest_phase": "P3",
+          "trial_name": "Rina-S vs SoC in PROC (registrational)",
+          "trial_design": "Phase 3 randomized of Rina-S vs investigator's choice chemo in PROC",
+          "nct_ids": ["NCT06619236", "NCT07166094"],
+          "trial_status": "Active not recruiting / Recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": ["First registrational readout in 2L+ PROC during 2026"]
+        },
+        {
+          "indication": "Endometrial Cancer",
+          "highest_phase": "P3",
+          "trial_name": "Rina-S + SoC vs SoC in advanced endometrial cancer",
+          "trial_design": "Phase 3 randomized of Rina-S plus SoC vs SoC",
+          "nct_ids": ["NCT07225270"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        },
+        {
+          "indication": "Platinum-Sensitive Ovarian Cancer (PSOC) +/- bevacizumab",
+          "highest_phase": "P3",
+          "trial_name": "Rina-S +/- bevacizumab in PSOC",
+          "trial_design": "Phase 3 Rina-S +/- bev vs SoC",
+          "nct_ids": ["NCT07564141"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced Solid Tumors / NSCLC / Gastrointestinal cancers",
+          "highest_phase": "P2",
+          "trial_name": "Rina-S basket and Phase 2 expansions",
+          "trial_design": "Phase 1/2 in advanced solid tumors; Phase 2 in NSCLC and GI cancers",
+          "nct_ids": ["NCT05579366", "NCT07288177", "NCT07539311"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Petosemtamab",
+      "aka": ["MCLA-158"],
+      "modality": "EGFR x LGR5 bispecific antibody (Biclonics)",
+      "target": "EGFR x LGR5",
+      "license_origin": "To be acquired from Merus (acquisition announced)",
+      "indications": [
+        {
+          "indication": "Head and Neck Squamous Cell Carcinoma (HNSCC) — 1L and 2L+",
+          "highest_phase": "P3",
+          "trial_name": "Phase 3 frontline and 2L+ HNSCC (LiGeR-HN)",
+          "trial_design": "Two ongoing Phase 3 trials, frontline and 2L+ HNSCC; FDA Breakthrough Therapy",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Recruiting (sponsored by Merus pre-close; transitioning to Genmab post-acquisition)",
+          "lead_sponsor": "Merus N.V. (acquisition pending)",
+          "key_milestones": ["Phase 3 readout(s) H2 2026", "Potential 2027 launch"]
+        }
+      ]
+    },
+    {
+      "asset": "Acasunlimab",
+      "aka": ["GEN1046", "DuoBody-PD-L1x4-1BB"],
+      "modality": "PD-L1 x 4-1BB bispecific antibody",
+      "target": "PD-L1 x 4-1BB",
+      "license_origin": "Internal (partnered with BioNTech)",
+      "indications": [
+        {
+          "indication": "2L+ Non-Small Cell Lung Cancer (NSCLC) — combination with pembrolizumab",
+          "highest_phase": "P3",
+          "trial_name": "ABBIL1TY NSCLC-06",
+          "trial_design": "Phase 3 acasunlimab + pembrolizumab vs SoC; under strategic review",
+          "nct_ids": ["NCT06635824"],
+          "trial_status": "Active, not recruiting — Genmab announced discontinuation of acasunlimab in Dec 2025 pipeline review; included pending wind-down",
+          "lead_sponsor": "Genmab",
+          "key_milestones": ["Discontinuation announced 2025-12; included as still-active per ctgov status as of snapshot"]
+        },
+        {
+          "indication": "Endometrial Cancer / Solid tumors (combination)",
+          "highest_phase": "P2",
+          "trial_name": "Acasunlimab combination studies",
+          "trial_design": "Phase 1/2 monotherapy and pembrolizumab combinations",
+          "nct_ids": ["NCT03917381", "NCT05117242", "NCT06984328"],
+          "trial_status": "Active not recruiting (program being wound down)",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "GEN1042 (DuoBody-CD40x4-1BB)",
+      "aka": ["BNT312"],
+      "modality": "CD40 x 4-1BB bispecific antibody",
+      "target": "CD40 x 4-1BB",
+      "license_origin": "Internal (partnered with BioNTech)",
+      "indications": [
+        {
+          "indication": "Advanced Solid Tumors",
+          "highest_phase": "P2",
+          "trial_name": "GEN1042 P1/P2 safety and antitumor activity",
+          "trial_design": "Phase 1/2 dose escalation and expansion in malignant solid tumors",
+          "nct_ids": ["NCT04083599", "NCT06057038"],
+          "trial_status": "Active not recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "GEN3014 (HexaBody-CD38)",
+      "aka": [],
+      "modality": "Hexabody anti-CD38 monoclonal antibody",
+      "target": "CD38",
+      "license_origin": "Internal (option held by Johnson & Johnson, Darzalex collaboration)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory B-cell Lymphoma / Multiple Myeloma",
+          "highest_phase": "P2",
+          "trial_name": "GEN3014 first-in-human",
+          "trial_design": "Phase 1/2 FIH in B-cell lymphoma",
+          "nct_ids": ["NCT03625037"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "GEN3018",
+      "aka": [],
+      "modality": "Bispecific antibody (early-stage)",
+      "target": "Undisclosed (AML/MDS target)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory AML or Higher-Risk MDS",
+          "highest_phase": "P1",
+          "trial_name": "GEN3018 FIH",
+          "trial_design": "Phase 1 first-in-human dose escalation",
+          "nct_ids": ["NCT07384715"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "GEN1057",
+      "aka": [],
+      "modality": "Antibody-based therapeutic",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Malignant Solid Tumors",
+          "highest_phase": "P1",
+          "trial_name": "GEN1057 FIH",
+          "trial_design": "Phase 1 safety and antitumor activity",
+          "nct_ids": ["NCT06573294"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "GEN1106",
+      "aka": [],
+      "modality": "Antibody-based therapeutic",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced Solid Tumors",
+          "highest_phase": "P1",
+          "trial_name": "GEN1106 FIH",
+          "trial_design": "Phase 1 first-in-human in solid tumors",
+          "nct_ids": ["NCT07416123"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "GEN1079",
+      "aka": [],
+      "modality": "Antibody-based therapeutic",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced Solid Tumors",
+          "highest_phase": "P1",
+          "trial_name": "GEN1079 FIH",
+          "trial_design": "Phase 1 safety and preliminary efficacy",
+          "nct_ids": ["NCT07387068"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Genmab",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "TIVDAK (tisotumab vedotin)",
+    "status": "Approved; standard of care in 2L cervical cancer; Genmab independent commercialization in Europe",
+    "partnered_with": "Pfizer (formerly Seagen)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "GEN1056 (BioNTech collaboration solid tumor candidate) — terminated per Dec 2025 pipeline review",
+    "Enapotamab vedotin (HuMax-AXL-ADC) NCT02988817 — completed/discontinued",
+    "Zalutumumab — terminated (NCT00707655, NCT00460551)",
+    "Phase 3 lung cancer candidate shelved per public reports"
+  ],
+  "excluded_partner_owned": [
+    "DARZALEX (daratumumab) — Johnson & Johnson commercialized; royalties only",
+    "KESIMPTA / Arzerra (ofatumumab) — Novartis commercialized"
+  ],
+  "summary_counts": {"P3": 4, "P2": 2, "P1": 4, "total_active_assets": 10}
+}

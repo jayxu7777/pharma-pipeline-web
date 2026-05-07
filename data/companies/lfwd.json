@@ -1,0 +1,57 @@
+{
+  "issuer_name": "Lifeward Ltd.",
+  "ticker": "LFWD",
+  "exchange": "Nasdaq",
+  "cik": "0001607962",
+  "region": "US (Israel-domiciled)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001178913-26-001208",
+      "filing_date": "2026-03-18",
+      "doc": "zk2634619.htm"
+    },
+    "website": {
+      "url": "https://golifeward.com",
+      "note": "Pipeline subpage not present (404). Homepage lists commercialized medical devices only."
+    },
+    "ctgov": {
+      "sponsor_query": "Lifeward",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "ReWalk_Personal_Exoskeleton": {
+      "type": "Powered lower-limb exoskeleton for spinal cord injury",
+      "regulatory": "FDA de novo (2014); 510(k) clearances for modifications including stair/curb functionality (March 2023); CE mark; Medicare benefit category established"
+    },
+    "ReWalk_7": {
+      "type": "Next-generation ReWalk Personal Exoskeleton iteration",
+      "regulatory": "510(k) cleared March 2025"
+    },
+    "ReStore_Exo_Suit": {
+      "type": "Soft exo-suit for post-stroke gait rehabilitation",
+      "regulatory": "FDA cleared; commercial"
+    },
+    "AlterG_Anti_Gravity_Systems": {
+      "type": "Differential air pressure body-weight support treadmills / mobility devices",
+      "regulatory": "Acquired August 2023; commercial"
+    },
+    "MYOLYN_MyoCycle": {
+      "type": "Functional electrical stimulation cycling system (Pro and Home)",
+      "regulatory": "Distributed by Lifeward to US rehab clinics and US veterans (VA)"
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company (powered exoskeletons, anti-gravity rehabilitation systems, FES cycling). Devices are commercialized under FDA 510(k)/de novo clearances and CE mark; no proprietary therapeutic drug pipeline and no active company-sponsored interventional P1/P2/P3 drug trials on ClinicalTrials.gov."
+}

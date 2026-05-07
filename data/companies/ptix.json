@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Protagenic Therapeutics, Inc.",
+  "ticker": "PTIX",
+  "exchange": "OTC",
+  "cik": "0001022899",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001641172-25-001600", "filed": "2025-03-31", "slice": "data/ptix_10k_pipeline_section.html"},
+    "website": {"url": "https://www.protagenic.com", "accessed": "2026-05-06"},
+    "ctgov": {"file": "data/ptix_ctgov_compact.json", "trials_kept": 0, "note": "No Protagenic-sponsored trials on ClinicalTrials.gov; Phase 1 conducted in Australia/non-registry"}
+  },
+  "pipeline": [
+    {
+      "asset": "PT00114",
+      "aka": ["TCAP-based peptide therapeutic", "Teneurin C-terminal Associated Peptide analogue"],
+      "modality": "Synthetic neuropeptide (TCAP, 41 amino acid C-terminal teneurin peptide)",
+      "target": "TCAP / latrophilin signalling — stress-response modulation",
+      "license_origin": "Licensed from University of Toronto",
+      "indications": [
+        {
+          "indication": "Stress-related and mood disorders (anxiety/depression/PTSD spectrum)",
+          "highest_phase": "P1 (transitioning to P2)",
+          "trial_name": "PT00114 Phase 1 single-dose + multiple-dose studies; Phase 2a planned",
+          "trial_design": "Phase 1 single-dose (results May 2024) and multiple-dose portion (results Dec 2025) completed; Phase 2a initiation planned per most recent 10-K guidance",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 multiple-dose results released 2025-12-09; advancing toward Phase 2a",
+          "lead_sponsor": "Protagenic Therapeutics, Inc.",
+          "key_milestones": ["Phase 1 single-dose results (May 2024)", "Phase 1 multi-dose results (Dec 2025)", "Phase 2a planned"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 0, "P1": 1}
+}

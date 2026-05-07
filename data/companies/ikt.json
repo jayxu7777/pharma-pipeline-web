@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Inhibikase Therapeutics, Inc.",
+  "ticker": "IKT",
+  "exchange": "Nasdaq",
+  "cik": "0001750149",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/ikt_10k_pipeline_section.html", "filing_date": "2026-03-26", "accession": "0001193125-26-126371"},
+    "website": {"url": "https://www.inhibikase.com/pipeline", "note": "Skipped WebFetch — relied on 10-K + ctgov."},
+    "ctgov": {"file": "data/ikt_ctgov_compact.json", "trials_returned": 3, "active_p1_p3_count": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "IKT-001",
+      "aka": ["IkT-001Pro", "imatinib pro-drug"],
+      "modality": "Small molecule (oral imatinib pro-drug)",
+      "target": "BCR-ABL / PDGFR / c-KIT tyrosine kinases",
+      "license_origin": "Internal (Inhibikase)",
+      "indications": [
+        {
+          "indication": "Pulmonary Arterial Hypertension (PAH)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Adaptive Program of IKT-001 in PAH",
+          "trial_design": "Adaptive Phase 3, randomized, placebo-controlled",
+          "nct_ids": ["NCT07365332"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Inhibikase Therapeutics",
+          "key_milestones": ["Start 2026-03", "Primary completion 2029-06"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["IkT-148009 (Risvodetinib) Parkinson's Disease — note: company pivoted away from PD program after Phase 2 in 2024; risvodetinib not in active development per latest 10-K"],
+  "excluded_legacy_terminated": [
+    "NCT05623774 IkT-001Pro vs imatinib dose calibration in CML Phase 1 (COMPLETED — supports IKT-001 imatinib bioequivalence claim)",
+    "NCT06643143 IkT-001Pro PAH Phase 2 (WITHDRAWN — replaced by Phase 3 program)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 1, "phase_2": 0, "phase_1": 0}
+}

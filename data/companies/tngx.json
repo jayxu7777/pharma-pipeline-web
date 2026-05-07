@@ -1,0 +1,94 @@
+{
+  "issuer_name": "Tango Therapeutics, Inc.",
+  "ticker": "TNGX",
+  "exchange": "Nasdaq",
+  "cik": "0001819133",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-03-05", "accession": "0001193125-26-092518", "path": "data/tngx_10k_pipeline_section.html"},
+    "website": {"path": "https://www.tangotx.com/pipeline/", "fetched": true},
+    "ctgov": {"path": "data/tngx_ctgov_compact.json", "trials_found": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "Vopimetostat",
+      "aka": ["TNG462"],
+      "modality": "Oral small-molecule MTA-cooperative PRMT5 inhibitor",
+      "target": "PRMT5 (MTAP-deleted synthetic lethality)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "MTAP-deleted advanced/metastatic solid tumors (monotherapy + pembrolizumab combo)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "TNG462-C101 (Phase 1/2 first-in-human)",
+          "trial_design": "Open-label, multi-cohort Phase 1/2 dose-escalation and dose-expansion study of TNG462 alone and in combination with pembrolizumab in MTAP-deleted solid tumors",
+          "nct_ids": ["NCT05732831"],
+          "trial_status": "RECRUITING (started 2023-05-26; primary completion 2026-05)",
+          "lead_sponsor": "Tango Therapeutics, Inc.",
+          "key_milestones": ["Pivotal-intent dose-expansion data 2026"]
+        },
+        {
+          "indication": "MTAP-deleted, RAS-mutant pancreatic ductal adenocarcinoma and NSCLC (combinations with Revolution Medicines RAS(ON) inhibitors and chemo)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "TNG462 + RMC-9805 / RMC-6236 / chemo combo study",
+          "trial_design": "Open-label Phase 1/2 of TNG462 in combination with RMC-9805, RMC-6236, mFOLFIRINOX, or gemcitabine/nab-paclitaxel in PDAC and NSCLC",
+          "nct_ids": ["NCT06922591"],
+          "trial_status": "RECRUITING (started 2025-05-31; primary completion 2027-06)",
+          "lead_sponsor": "Tango Therapeutics, Inc.",
+          "key_milestones": ["Initial combination data anticipated 2026/2027"]
+        }
+      ]
+    },
+    {
+      "asset": "TNG456",
+      "aka": [],
+      "modality": "Brain-penetrant oral small-molecule MTA-cooperative PRMT5 inhibitor",
+      "target": "PRMT5 (MTAP-deleted)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "MTAP-deleted glioblastoma and other CNS-involved MTAP-deleted solid tumors (monotherapy + abemaciclib combo)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "TNG456-C101 (Phase 1/2 first-in-human)",
+          "trial_design": "Open-label Phase 1/2 dose-escalation/expansion of TNG456 alone and in combination with abemaciclib in MTAP-deleted solid tumors including glioblastoma",
+          "nct_ids": ["NCT06810544"],
+          "trial_status": "RECRUITING (started 2025-03-24; primary completion 2027-03-31)",
+          "lead_sponsor": "Tango Therapeutics, Inc.",
+          "key_milestones": ["Initial Phase 1 data 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "TNG260",
+      "aka": [],
+      "modality": "Oral small-molecule selective CoREST complex inhibitor",
+      "target": "CoREST (synthetic lethal in STK11-mutant tumors)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "STK11-mutant non-small cell lung cancer and other STK11-mutant solid tumors (with anti-PD-1)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "TNG260-C101 (Phase 1/2 first-in-human)",
+          "trial_design": "Open-label Phase 1/2 of TNG260 in combination with pembrolizumab in STK11-mutant solid tumors",
+          "nct_ids": ["NCT05887492"],
+          "trial_status": "RECRUITING (started 2023-06-12; primary completion 2026-01)",
+          "lead_sponsor": "Tango Therapeutics, Inc.",
+          "key_milestones": ["Phase 1/2 dose-expansion data 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "TNG961 (HBS1L) — solid tumors with MTAP/FOCAD deletion", "reason": "Preclinical / IND-enabling per company website"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "TNG908 (first-generation PRMT5)", "nct_ids": ["NCT05275478"], "status": "TERMINATED — superseded by TNG462/TNG456"},
+    {"asset": "TNG348 (USP1) BRCA1/2 / HRD+ solid tumors", "nct_ids": ["NCT06065059"], "status": "TERMINATED (May 2024) due to liver-enzyme elevations"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "S095035 (PRMT5 inhibitor) in MTAP-deleted solid tumors", "nct_ids": ["NCT06188702"], "lead_sponsor": "Servier Bio-Innovation LLC", "reason": "Servier-led trial of Servier's S095035; Tango listed only as collaborator. Tango's own MTA-cooperative PRMT5 program is TNG462."}
+  ],
+  "summary_counts": {"total_assets": 3, "phase_3": 0, "phase_2": 0, "phase_1_or_1_2": 4, "indications_in_active_clinical_dev": 4}
+}

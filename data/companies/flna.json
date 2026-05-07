@@ -1,0 +1,52 @@
+{
+  "issuer_name": "Filana Therapeutics, Inc. (formerly Cassava Sciences)",
+  "ticker": "FLNA",
+  "exchange": "Nasdaq",
+  "cik": "0001069530",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-007962", "filed": "2026-03-12", "doc": "sava20251231_10k.htm", "note": "10-K filed under former Cassava name"},
+    "website": {"url": "https://www.filanatx.com/", "fetched": "2026-05-06", "note": "Site timed out; relied on press release content"},
+    "ctgov": {"file": "data/flna_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Simufilam",
+      "aka": ["PTI-125"],
+      "modality": "Oral small molecule",
+      "target": "Filamin A (FLNA) protein modulator",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Tuberous sclerosis complex (TSC)-related epilepsy",
+          "highest_phase": "PLANNED",
+          "trial_name": "PLANNED — TSC-related epilepsy program",
+          "trial_design": "Pivotal program design under FDA dialogue",
+          "nct_ids": [],
+          "trial_status": "PLANNED — IND pathway in dialogue with FDA following 2026 rebrand pivot from Alzheimer's",
+          "lead_sponsor": "Filana Therapeutics",
+          "key_milestones": ["Progress update on TSC-related epilepsy program expected 2026"]
+        }
+      ]
+    }
+  ],
+  "no_active_clinical_pipeline_reason": "Lead asset simufilam Phase 3 in Alzheimer's disease (NCT05026177, NCT05575076 OLE) was terminated in November 2024 after failing to show clinical benefit. Company rebranded from Cassava Sciences to Filana Therapeutics in March 2026 and pivoted to TSC-related epilepsy with simufilam, but no Phase 1/2/3 trial has been initiated yet for the new indication.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT05026177 (simufilam P3 mild-moderate AD, TERMINATED)",
+    "NCT05575076 (simufilam OLE for AD, TERMINATED)",
+    "NCT04079803 (PTI-125 P2 AD, COMPLETED, no follow-up)",
+    "NCT06195319 (simufilam P1 ADME, COMPLETED)",
+    "NCT03784300 (PTI-125 P1 healthy volunteers, COMPLETED)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_indications": 0,
+    "p2_indications": 0,
+    "p1_indications": 0,
+    "planned_indications": 1
+  }
+}

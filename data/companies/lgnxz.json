@@ -1,0 +1,53 @@
+{
+  "issuer_name": "LIGAND PHARMACEUTICALS INC",
+  "ticker": "LGNXZ",
+  "exchange": "OTC",
+  "cik": "0000886163",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-27",
+      "accession": "0000886163-26-000006",
+      "note": "Ligand operates as a biopharmaceutical royalty aggregator with two infrastructure-light platform technologies (Captisol, NITRICIL). Per the 2025 10-K, Ligand does not directly sponsor any active clinical-stage drug development programs; clinical execution is done by partners who hold the IND/NDA."
+    },
+    "website": {
+      "url": "https://www.ligand.com/",
+      "note": "Corporate site presents royalty/portfolio-aggregator business model. No internal pipeline page; pipeline.aspx and portfolio pages return 404."
+    },
+    "ctgov": {
+      "sponsor_query": "Ligand Pharmaceuticals",
+      "trials_found_total": 36,
+      "active_p1_p3_company_sponsored": 0,
+      "note": "All Ligand-sponsored trials returned by clinicaltrials.gov are COMPLETED or TERMINATED legacy programs (Targretin/bexarotene, lasofoxifene, LGD-6972, MB07803, PS433540). No active company-sponsored P1/P2/P3 trials."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Ligand Pharmaceuticals is a royalty aggregator and capital partner, not an operating drug developer. Per its 2025 10-K, its strategy (refocused in 2022) is to acquire royalty interests in third-party-owned mid- to late-stage assets and to operate two royalty-generating platform technologies (Captisol, NITRICIL). Clinical development is sponsored and executed by its partners (e.g., Travere, Merck, Roche, Castle Creek), and these assets belong to those partners, not to Ligand. Ligand itself sponsors no active P1/P2/P3 trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Targretin/bexarotene (multiple oncology Phase 2/3 trials)",
+    "Lasofoxifene PEARL Phase 3 osteoporosis (NCT00141323)",
+    "LGD-6972 Phase 1 T2DM (NCT01919684, NCT02672839)",
+    "MB07803 Phase 2 T2DM (NCT00458016)",
+    "PS433540 Phase 2 hypertension (NCT00635232)"
+  ],
+  "excluded_partner_owned": [
+    "Filspari (Travere) — royalty only",
+    "Ohtuvayre (Merck) — royalty only",
+    "Capvaxive, Vaxneuvance (Merck) — royalty only",
+    "Qarziba (Recordati) — royalty only",
+    "Zelsuvmi (Pelthos) — royalty only",
+    "D-Fi / FCX-007 (Castle Creek) Phase 3 DEB — royalty only",
+    "Vabysmo (Roche) — royalty (added via XOMA acquisition)",
+    "Ojemda (Day One) — royalty (added via XOMA acquisition)",
+    "Miplyffa (Zevra) — royalty (added via XOMA acquisition)"
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Sharps Technology Inc.",
+  "ticker": "STSS",
+  "exchange": "Nasdaq",
+  "cik": "0001737995",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014261",
+      "filed": "2026-03-31",
+      "doc": "form10-k.htm",
+      "note": "10-K describes safety syringes, sharps containers, and related drug-delivery devices. No drug candidates, no clinical trials, no Phase 1/2/3 references found in text (zero hits for 'Phase [123]', 'drug candidate', 'clinical trial', 'IND', 'NDA')."
+    },
+    "website": {
+      "error": "no public drug pipeline page — issuer markets safety-syringe and sharps-disposal devices (sharpstechnology.com); no drug pipeline exists."
+    },
+    "ctgov": {
+      "queries": ["spons:Sharps Technology"],
+      "raw_total": 0,
+      "kept_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Designer and manufacturer of safety syringes, sharps containers, and related drug-delivery / safety devices. Products target needlestick-injury prevention and safe disposal of medical sharps."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device manufacturer (safety syringes, sharps disposal). No proprietary drug or clinical-stage device pipeline; no Phase 1/2/3 trials sponsored on ClinicalTrials.gov; 10-K contains no drug-development or clinical-trial language."
+}

@@ -1,0 +1,30 @@
+{
+  "issuer_name": "Atara Biotherapeutics, Inc.",
+  "ticker": "ATRA",
+  "exchange": "Nasdaq",
+  "cik": "0001604464",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-108361", "filing_date": "2026-03-16", "doc": "atra-20251231.htm"},
+    "website": {"note": "Website check skipped; 10-K is definitive given recent strategic transitions"},
+    "ctgov": {"trials_returned": 9, "lead_sponsor": "Atara Biotherapeutics", "note": "All Atara-led CTgov entries are TERMINATED, WITHDRAWN, or ACTIVE_NOT_RECRUITING; investigator-sponsored MSK trials use Atara material as collaborator only"}
+  },
+  "no_active_clinical_pipeline_reason": "Atara has effectively divested or wound down all internally sponsored clinical development. (1) Tab-cel/Ebvallo: all manufacturing (Mar 2025), clinical (Jul 2025), and regulatory (Oct 2025) responsibility transferred to Pierre Fabre, who is now the sponsor of the ALLELE Phase 3 study and the tab-cel multi-cohort Phase 2 study and the U.S. tab-cel BLA; Atara retains only royalty/milestone economics. Second FDA Complete Response Letter received January 2026. (2) ATA3219 and ATA3431 CAR T programs paused/discontinued in March 2025 with wind-down nearly complete. (3) ATA188 and EBV vaccine returned to QIMR Berghofer in May 2025. (4) ATA2271 and ATA3271 returned to MSK in March 2024. Atara conducted 4 reductions in force in 2025 (50%, 50%, 30%, 30%) leaving ~15 employees and is exploring strategic alternatives.",
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ATA3219 (allogeneic CD19 CAR T)", "indications": ["r/r B-cell NHL", "SLE with lupus nephritis", "extrarenal SLE"], "reason": "CAR T operations discontinued March 2025; clinical trials terminated; wind-down nearly complete"},
+    {"asset": "ATA3431 (allogeneic bispecific CD19/CD20 CAR T)", "reason": "Development paused/discontinued March 2025; preclinical only"},
+    {"asset": "ATA188 (allogeneic EBV T-cell for MS)", "reason": "Rights returned to QIMR Berghofer May 2025"},
+    {"asset": "EBV vaccine", "reason": "Rights returned to QIMR Berghofer May 2025"},
+    {"asset": "ATA2271 / ATA3271 (mesothelin CAR T)", "reason": "Returned to MSK March 2024"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Tab-cel (tabelecleucel / Ebvallo)", "indication": "EBV+ post-transplant lymphoproliferative disease (PTLD) post-HCT or SOT after rituximab failure", "trials": ["ALLELE Phase 3", "Tab-cel multi-cohort Phase 2"], "partner": "Pierre Fabre Medicament", "reason": "Approved in EU/UK/Switzerland (EU EC-approved as Ebvallo). Pierre Fabre is now sponsor of all clinical studies and the U.S. BLA. Atara retains royalty (significant double-digit tiered) plus up to ~$308M Initial Territory + ~$556M Additional Territory milestone economics; royalties partially monetized via HCRx. Second FDA Complete Response Letter received Jan 2026; Pierre Fabre granted Type A meeting; regulatory update expected Q2 2026."},
+    {"asset": "Ifetroban-related — N/A (not applicable to Atara)", "reason": "Not relevant"},
+    {"asset": "MPM CAR T NCT (ICETEA-style mesothelin CAR T at MSK)", "reason": "Lead sponsor is Memorial Sloan Kettering Cancer Center; Atara is collaborator only; mesothelin program ATA2271/ATA3271 returned to MSK in March 2024"}
+  ],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

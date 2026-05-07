@@ -1,0 +1,70 @@
+{
+  "issuer_name": "TuHURA Biosciences, Inc.",
+  "ticker": "HURA",
+  "exchange": "Nasdaq",
+  "cik": "0001498382",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-134950", "filing_date": "2026-03-31", "path": "data/hura_10k_pipeline_section.html"},
+    "website": {"url": "https://tuhurabio.com/pipeline/", "note": "Page is JS-rendered — content not directly readable; supplemented by web search of company press releases"},
+    "ctgov": {"path": "data/hura_ctgov_compact.json", "trial_count": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "IFx-Hu2.0",
+      "aka": ["IFx-2.0", "pAc/emm55"],
+      "modality": "Personalized cancer vaccine — innate immune agonist (plasmid DNA encoding emm55 streptococcal protein)",
+      "target": "Innate immune activation (TLR pathway) in tumor microenvironment",
+      "license_origin": "Internal (TuHURA, formerly Kintara/Morphogenesis)",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic Merkel cell carcinoma (MCC), first-line, as adjunctive therapy to pembrolizumab (Keytruda)",
+          "highest_phase": "Phase 3 (registrational, accelerated approval; SPA with FDA)",
+          "trial_name": "Phase 3 Accelerated Approval Trial (IFx-2.0 + pembrolizumab vs placebo + pembrolizumab)",
+          "trial_design": "Randomized, double-blind, placebo-controlled, single-pivotal registration trial; under FDA Special Protocol Assessment",
+          "nct_ids": ["NCT06947928"],
+          "trial_status": "RECRUITING (started 2025-12-11; enrollment completion targeted Q4 2026)",
+          "lead_sponsor": "TuHURA Biosciences, Inc.",
+          "key_milestones": ["FDA Orphan Drug Designation Feb 2026 for cutaneous melanoma stage IIB-IV", "Enrollment completion targeted Q4 2026"]
+        },
+        {
+          "indication": "Metastatic Merkel cell carcinoma of unknown primary origin (MCCUP), adjunctive to pembrolizumab",
+          "highest_phase": "Phase 1b/2a",
+          "trial_name": "Phase 1b/2a IFx-Hu2.0 + Keytruda in MCCUP",
+          "trial_design": "Open-label adjunctive therapy study in patients ineligible for the Phase 3 trial",
+          "nct_ids": ["NCT06940440"],
+          "trial_status": "RECRUITING (started 2025-10)",
+          "lead_sponsor": "TuHURA Biosciences, Inc.",
+          "key_milestones": ["Initiated 2025", "Data anticipated end of Q4 2025 / early Q1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "TBS-2025",
+      "aka": [],
+      "modality": "Small molecule (Delta Opioid Receptor antagonist; immunomodulator targeting MDSCs)",
+      "target": "Delta Opioid Receptor on tumor-associated MDSCs (myeloid-derived suppressor cells)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute Myeloid Leukemia (AML), combination therapy",
+          "highest_phase": "Phase 1 (PLANNED — IND filed)",
+          "trial_name": "TBS-2025 in AML combination (planned)",
+          "trial_design": "Phase 1 combination trial (IND filed)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IND filed; trial initiation pending",
+          "lead_sponsor": "TuHURA Biosciences, Inc.",
+          "key_milestones": ["IND filed 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Bi-functional ADCs (immune-modulating bi-specific ADCs targeting MDSCs)", "reason": "Preclinical platform"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 1, "p2": 1, "p1": 1}
+}

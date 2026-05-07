@@ -1,0 +1,226 @@
+{
+  "issuer_name": "Legend Biotech Corp",
+  "ticker": "LEGN",
+  "exchange": "Nasdaq",
+  "cik": "0001801198",
+  "region": "US (ADR; foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F, no 10-K returned by SEC EDGAR submissions feed"},
+    "website": {"error": "https://www.legendbiotech.com/our-pipeline/ failed TLS certificate verification at fetch time"},
+    "ctgov": {
+      "compact": "data/legn_ctgov_compact.json",
+      "lead_sponsor_query": "Legend Biotech (incl. Nanjing Legend Biotech Co. and Legend Biotech USA Inc)"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Ciltacabtagene autoleucel",
+      "aka": ["cilta-cel", "CARVYKTI", "JNJ-4528", "LCAR-B38M"],
+      "modality": "BCMA-directed autologous CAR-T cell therapy",
+      "target": "BCMA",
+      "license_origin": "Co-developed and co-commercialized worldwide with Janssen Biotech (J&J). Legend retains co-promotion rights in mainland China through Legend's affiliate.",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory Multiple Myeloma (now approved 2L+; lifecycle expansion)",
+          "highest_phase": "Phase 3",
+          "trial_name": "CARTITUDE program (lifecycle expansion: CARTITUDE-5 in NDMM, CARTITUDE-6 in transplant-eligible NDMM)",
+          "trial_design": "Randomized Phase 3 vs standard of care in earlier lines / NDMM",
+          "nct_ids": ["NCT04923893", "NCT05257083"],
+          "trial_status": "ACTIVE - lead sponsor Janssen Research & Development, Legend collaborator (CARTITUDE-5: NCT04923893; CARTITUDE-6: NCT05257083)",
+          "lead_sponsor": "Janssen (Legend co-developer)",
+          "key_milestones": ["Lifecycle expansion to earlier lines and NDMM"]
+        }
+      ]
+    },
+    {
+      "asset": "LB1908",
+      "aka": [],
+      "modality": "Autologous CAR-T cell therapy",
+      "target": "Claudin 18.2 (CLDN18.2)",
+      "license_origin": "Internal (Legend Biotech USA)",
+      "indications": [
+        {
+          "indication": "Unresectable, locally advanced or metastatic gastric, gastroesophageal junction or esophageal adenocarcinoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "LB1908 CLDN18.2 CAR-T Phase 1",
+          "trial_design": "First-in-human, dose-escalation/expansion",
+          "nct_ids": ["NCT05539430"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Legend Biotech USA Inc",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LB2102",
+      "aka": [],
+      "modality": "Autologous CAR-T cell therapy",
+      "target": "Delta-like ligand 3 (DLL3)",
+      "license_origin": "Internal (Legend Biotech USA)",
+      "indications": [
+        {
+          "indication": "Extensive Stage Small Cell Lung Cancer (and selected DLL3-positive neuroendocrine carcinomas)",
+          "highest_phase": "Phase 1",
+          "trial_name": "LB2102 DLL3 CAR-T Phase 1",
+          "trial_design": "First-in-human, dose-escalation/expansion",
+          "nct_ids": ["NCT05680922"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Legend Biotech USA Inc",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LCAR-AIO",
+      "aka": [],
+      "modality": "Autologous CAR-T cell therapy (multi-target)",
+      "target": "B-cell antigens (CAR-T multi-targeting)",
+      "license_origin": "Internal (Nanjing Legend Biotech)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory Neurological Autoimmune Diseases",
+          "highest_phase": "Phase 1",
+          "trial_name": "LCAR-AIO Phase 1 in neurological autoimmune disease",
+          "trial_design": "First-in-human, dose-escalation/expansion",
+          "nct_ids": ["NCT06869278"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Investigator-initiated (Union Hospital, Tongji Medical College) with Legend product",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LCAR-HL30",
+      "aka": [],
+      "modality": "Autologous CAR-T cell therapy",
+      "target": "CD30",
+      "license_origin": "Internal (Nanjing Legend Biotech)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory Hodgkin's Lymphoma and Anaplastic Large Cell Lymphoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "LCAR-HL30 Phase 1",
+          "trial_design": "First-in-human, dose-escalation/expansion",
+          "nct_ids": ["NCT06494371"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ruijin Hospital (investigator-initiated with Legend product)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LUCAR-G39D",
+      "aka": [],
+      "modality": "Autologous dual-targeted CAR-T cell therapy",
+      "target": "CD19/CD20",
+      "license_origin": "Internal (Nanjing Legend Biotech)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory B-cell Non-Hodgkin Lymphoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "LUCAR-G39D Phase 1",
+          "trial_design": "First-in-human, dose-escalation/expansion",
+          "nct_ids": ["NCT06395870"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Tianjin Medical University Cancer Institute (investigator-initiated with Legend product)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LUCAR-G79 / LUCAR-G79D",
+      "aka": ["LUCAR-G79", "LUCAR-G79D"],
+      "modality": "Autologous CAR-T cell therapy (B-cell targeting for autoimmune)",
+      "target": "Likely CD19 (or B-cell antigen) - autoimmune indication",
+      "license_origin": "Internal (Nanjing Legend Biotech)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory autoimmune diseases (incl. systemic lupus erythematosus)",
+          "highest_phase": "Phase 1",
+          "trial_name": "LUCAR-G79 / G79D autoimmune Phase 1",
+          "trial_design": "First-in-human, dose-escalation/expansion",
+          "nct_ids": ["NCT07049081", "NCT07331272"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Nanjing Legend Biotech Co.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LUCAR-20SP",
+      "aka": [],
+      "modality": "Autologous CAR-T cell therapy",
+      "target": "CD20",
+      "license_origin": "Internal (Nanjing Legend Biotech)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory B-cell Non-Hodgkin Lymphoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "LUCAR-20SP Phase 1",
+          "trial_design": "First-in-human, dose-escalation/expansion",
+          "nct_ids": ["NCT06313957"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Peking University Cancer Hospital (investigator-initiated with Legend product)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LVIVO-TaVec100",
+      "aka": [],
+      "modality": "In vivo gene-modified cell therapy product (vector-based)",
+      "target": "B-cell antigen (CD19/CD20 family)",
+      "license_origin": "Internal (Nanjing Legend Biotech)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory B-cell malignancies",
+          "highest_phase": "Phase 1",
+          "trial_name": "LVIVO-TaVec100 Phase 1",
+          "trial_design": "First-in-human, dose-escalation/expansion",
+          "nct_ids": ["NCT07002112"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "First Affiliated Hospital with Nanjing Medical University (investigator-initiated)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LUCAR-B68",
+      "aka": [],
+      "modality": "Allogeneic / universal BCMA-targeted CAR-T cell therapy",
+      "target": "BCMA",
+      "license_origin": "Internal (Nanjing Legend Biotech)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory Multiple Myeloma",
+          "highest_phase": "Phase 1",
+          "trial_name": "LUCAR-B68 universal CAR-T Phase 1",
+          "trial_design": "First-in-human universal/allogeneic CAR-T",
+          "nct_ids": ["NCT05498545"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Second Affiliated Hospital of Xi'an Jiaotong University (investigator-initiated with Legend product)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "CARVYKTI (ciltacabtagene autoleucel)": "BCMA-directed CAR-T approved US/EU/Japan/China for relapsed/refractory multiple myeloma; co-marketed with Janssen"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "LCAR-B38M (NCT03758417)", "reason": "Phase 2 LEGEND-2 study terminated; superseded by partnered cilta-cel CARTITUDE program"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Cilta-cel pivotal trials run solely by Janssen", "reason": "Many CARTITUDE studies (e.g. CARTITUDE-1, -2, -4) are sponsored by Janssen Research & Development; Legend co-developer with shared rights - listed under cilta-cel asset above to capture lifecycle expansion."}
+  ],
+  "summary_counts": {
+    "total_assets": 10,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 9,
+    "note": "Cilta-cel listed as Phase 3 (lifecycle expansion CARTITUDE-5/-6 in NDMM); product itself is approved. All other Legend-driven assets are early CAR-T programs in Phase 1."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "issuer_name": "Minerva Neurosciences, Inc.",
+  "ticker": "NERV",
+  "exchange": "Nasdaq",
+  "cik": "0001598646",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-101117", "filed": "2026-03-11", "fy": "2025"},
+    "website": {"note": "skipped — single-asset focus per 10-K is sufficient"},
+    "ctgov": {"sponsor_query": "Minerva Neurosciences", "active_pcubed_trials": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "Roluperidone",
+      "aka": ["MIN-101", "CYR-101"],
+      "modality": "Small molecule (5-HT2A / sigma-2 / alpha-1 adrenergic antagonist)",
+      "target": "5-HT2A, sigma-2, alpha-1A/1B adrenergic receptors",
+      "license_origin": "Licensed from Tanabe Pharma Corporation (formerly Mitsubishi Tanabe), 2007",
+      "indications": [
+        {
+          "indication": "Negative symptoms of schizophrenia",
+          "highest_phase": "Phase 3",
+          "trial_name": "C19 (Embolden-style confirmatory)",
+          "trial_design": "Confirmatory Phase 3, 380 patients, 1:1 randomized to placebo or 64 mg roluperidone monotherapy; 12-week DB primary endpoint (PANSS NSFS) followed by 40-week relapse assessment crossover phase. Initiated Q2 2026.",
+          "nct_ids": ["NCT07565428"],
+          "trial_status": "RECRUITING (initiating)",
+          "lead_sponsor": "Minerva Neurosciences",
+          "key_milestones": ["Topline efficacy expected H2 2027", "Relapse assessment data H2 2028", "Following Feb 2024 FDA CRL on prior NDA submitted Aug 2022"]
+        },
+        {
+          "indication": "Apathy in dementia",
+          "highest_phase": "Phase 1",
+          "trial_name": "PLANNED",
+          "trial_design": "IND filed and cleared by FDA; clinical trial not yet initiated",
+          "nct_ids": [],
+          "trial_status": "PLANNED — IND cleared, trial not yet started",
+          "lead_sponsor": "Minerva Neurosciences",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "MIN-117", "indication": "MDD", "nct": "NCT03446846", "reason": "Phase 2 completed 2019; no further active development cited in FY2025 10-K"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Seltorexant", "indication": "Insomnia / MDD adjunctive", "reason": "Co-developed with Janssen; Minerva opted out 2020 and sold royalty rights to Royalty Pharma in 2021. Janssen is sole P3 sponsor."}
+  ],
+  "summary_counts": {"total_assets": 1, "p3": 1, "p2": 0, "p1": 1}
+}

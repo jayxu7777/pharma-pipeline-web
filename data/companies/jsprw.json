@@ -1,0 +1,69 @@
+{
+  "issuer_name": "Jasper Therapeutics, Inc.",
+  "ticker": "JSPRW",
+  "exchange": "Nasdaq",
+  "cik": "0001788028",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-036426", "filing_date": "2026-03-30", "file": "data/jsprw_10k_pipeline_section.html"},
+    "website": {"url": "http://www.jaspertx.com", "note": "/pipeline page returns 404; details extracted from homepage and 10-K"},
+    "ctgov": {"file": "data/jsprw_ctgov_compact.json", "trials": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "Briquilimab",
+      "aka": ["JSP191", "anti-CD117 mAb", "anti-KIT mAb"],
+      "modality": "Humanized aglycosylated anti-KIT (CD117) monoclonal antibody (mast cell depletion)",
+      "target": "KIT (CD117)",
+      "license_origin": "Exclusive license from Amgen (HSC clearance use); Jasper-developed for mast cell indications",
+      "indications": [
+        {
+          "indication": "Chronic Spontaneous Urticaria (CSU)",
+          "highest_phase": "Phase 1b/2a (BEACON, ongoing) — Phase 2b/3 planned",
+          "trial_name": "BEACON Study",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 1b/2a evaluating multiple ascending doses (single doses 240mg & 360mg; multi-dose cohorts including 240mg/180mg Q8W) in CSU patients refractory to antihistamines",
+          "nct_ids": ["NCT06162728"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; positive efficacy and safety data through Q1 2026; planned Phase 2b/3 CSU study being designed",
+          "lead_sponsor": "Jasper Therapeutics, Inc.",
+          "key_milestones": ["Late 2023: BEACON commenced", "Q1 2026: 240mg/180mg Q8W cohort efficacy data reported", "Planned: Phase 2b/3 CSU registrational study"]
+        },
+        {
+          "indication": "Chronic Inducible Urticaria (CIndU) — cold urticaria & symptomatic dermographism",
+          "highest_phase": "Phase 1b/2a (SPOTLIGHT completed dosing) + Phase 2 OLE ongoing",
+          "trial_name": "SPOTLIGHT Study + Open-Label Extension (OLE)",
+          "trial_design": "SPOTLIGHT: Phase 1b/2a open-label, single-dose 40mg/120mg/180mg in 27 CIndU participants; OLE rolls SPOTLIGHT and BEACON patients into 180mg Q8W dosing",
+          "nct_ids": ["NCT06353971", "NCT06736262"],
+          "trial_status": "SPOTLIGHT terminated (study completed); OLE ACTIVE_NOT_RECRUITING; preliminary OLE data reported Jan 2026 (65% complete/partial response in CIndU)",
+          "lead_sponsor": "Jasper Therapeutics, Inc.",
+          "key_milestones": ["Early 2024: SPOTLIGHT commenced", "Oct 2024: positive preliminary data on 40mg/120mg cohorts", "2025: OLE commenced", "Jan 2026: OLE preliminary data"]
+        },
+        {
+          "indication": "Allergic Asthma",
+          "highest_phase": "Phase 1 (ETESIAN — completed)",
+          "trial_name": "ETESIAN Study",
+          "trial_design": "Double-blind, placebo-controlled single 180mg subcutaneous dose in patients with allergic asthma (14 evaluable: 7 briquilimab vs 7 placebo)",
+          "nct_ids": ["NCT06592768"],
+          "trial_status": "TERMINATED on ctgov (study completed dosing/follow-up); LAR-reduction efficacy data reported; further development being evaluated",
+          "lead_sponsor": "Jasper Therapeutics, Inc.",
+          "key_milestones": ["ETESIAN single-dose Phase 1 completed; data demonstrating LAR reduction at 6 and 12 weeks"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Briquilimab (JSP191) in SCID conditioning", "ncts": ["NCT02963064"], "reason": "SCID program discontinued July 2025"},
+    {"asset": "Briquilimab (JSP191) in MDS/AML HSCT conditioning", "ncts": ["NCT04429191"], "reason": "Hematology/HSCT conditioning programs discontinued; Jasper now exclusively focused on mast cell driven diseases"},
+    {"asset": "Briquilimab (JSP191) in Lower-Risk MDS", "ncts": ["NCT05903274"], "reason": "TERMINATED; HSCT-conditioning indication discontinued"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 2,
+    "phase_1": 1
+  },
+  "blockers": "None — single asset (briquilimab) with three active mast-cell-driven indications; HSC-conditioning programs (SCID, MDS, AML) formally discontinued in 2025."
+}

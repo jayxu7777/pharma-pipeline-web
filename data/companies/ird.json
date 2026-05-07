@@ -1,0 +1,120 @@
+{
+  "issuer_name": "Opus Genetics, Inc.",
+  "ticker": "IRD",
+  "exchange": "Nasdaq",
+  "cik": "0001228627",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001140361-26-009247", "filing_date": "2026-03-12", "doc": "ef20060643_10k.htm"},
+    "website": {"url": "https://opusgtx.com/pipeline", "note": "Pipeline page is image-based; details extracted from 10-K"},
+    "ctgov": {"sponsor_query": "Opus Genetics", "trial_count": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "OPGx-LCA5",
+      "aka": ["AAV8.hLCA5"],
+      "modality": "AAV8 gene therapy (subretinal injection)",
+      "target": "LCA5 gene (lebercilin)",
+      "license_origin": "University of Pennsylvania (Bennett lab) collaboration",
+      "indications": [
+        {
+          "indication": "Leber Congenital Amaurosis 5 (LCA5)-associated inherited retinal degeneration",
+          "highest_phase": "Phase 1/2; transitioning to Phase 1/2/3 registrational",
+          "trial_name": "Phase 1/2 (UPenn-led); planned Phase 3 single-arm 8-participant adaptive trial",
+          "trial_design": "Open-label, dose-escalation, subretinal injection; 6 late-stage participants treated (3 adult, 3 pediatric); planned Phase 3 with run-in natural history",
+          "nct_ids": ["NCT05616793"],
+          "trial_status": "RECRUITING; positive 18-month adult and 3-month pediatric data Sep 2025; FDA Type B RMAT meeting Nov 2025; RDEP application targeted Q1 2026; Phase 3 dosing 2H 2026",
+          "lead_sponsor": "Opus Genetics, Inc.",
+          "key_milestones": ["Positive 6-participant data Sep 2025", "Type B RMAT meeting Nov 2025", "RDEP submission Q1 2026", "Phase 3 dosing 2H 2026", "Topline ~1 year after dosing"]
+        }
+      ]
+    },
+    {
+      "asset": "OPGx-BEST1",
+      "aka": [],
+      "modality": "AAV2 gene therapy (subretinal injection)",
+      "target": "BEST1 gene (bestrophin-1)",
+      "license_origin": "University of Pennsylvania",
+      "indications": [
+        {
+          "indication": "BEST1-associated retinal disease (Best Vitelliform Macular Dystrophy and Autosomal Recessive Bestrophinopathy)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BIRD-1",
+          "trial_design": "Adaptive, open-label, dose-exploring safety/tolerability; single subretinal injection in one eye; two dosing cohorts",
+          "nct_ids": ["NCT07185256"],
+          "trial_status": "RECRUITING; first patient dosed Nov 2025",
+          "lead_sponsor": "Opus Genetics, Inc.",
+          "key_milestones": ["First participant dosed Nov 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "Phentolamine Ophthalmic Solution 0.75% (PS)",
+      "aka": ["RYZUMVI (commercial brand for mydriasis reversal)", "Nyxol"],
+      "modality": "Small molecule alpha-1/alpha-2 adrenergic antagonist eye drop",
+      "target": "Iris smooth muscle alpha-adrenergic receptors",
+      "license_origin": "Opus/Ocuphire; commercialized for mydriasis by Viatris",
+      "indications": [
+        {
+          "indication": "Presbyopia (VEGA program)",
+          "highest_phase": "Phase 3 (sNDA filed)",
+          "trial_name": "VEGA-2 and VEGA-3",
+          "trial_design": "Multicenter, randomized, double-masked, placebo-controlled Phase 3; VEGA-3 enrolled 569 participants 3:2 PS vs placebo, once daily evening dosing",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Both pivotal Phase 3 trials met primary endpoints (VEGA-2 Nov 2023; VEGA-3 Jun 2025); sNDA filed by Viatris",
+          "lead_sponsor": "Viatris (commercialization partner) / Opus Genetics",
+          "key_milestones": ["VEGA-3 positive topline Jun 2025", "sNDA filed by Viatris based on both Phase 3 trials"]
+        },
+        {
+          "indication": "Decreased vision under dim light after keratorefractive surgery (LYNX program)",
+          "highest_phase": "Phase 3",
+          "trial_name": "LYNX-2 and LYNX-3",
+          "trial_design": "Phase 3 double-masked, randomized, placebo-controlled multicenter (LYNX-2 met primary endpoint; LYNX-3 ongoing)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "LYNX-2 met primary endpoint Jun 2025; LYNX-3 first patient dosed Sep 2025; topline 1H 2026",
+          "lead_sponsor": "Opus Genetics, Inc.",
+          "key_milestones": ["FDA SPA Dec 2023", "Fast Track designation", "LYNX-2 positive Jun 2025", "LYNX-3 first patient Sep 2025", "LYNX-3 topline 1H 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "APX3330",
+      "aka": [],
+      "modality": "Oral small-molecule selective Ref-1 (APE1/Ref-1) redox inhibitor",
+      "target": "APE1/Ref-1 protein (HIF-1alpha and NF-kB regulation)",
+      "license_origin": "Acquired (Ocuphire/Opus)",
+      "indications": [
+        {
+          "indication": "Diabetic Retinopathy (DR)",
+          "highest_phase": "Phase 2 completed; Phase 3 SPA in place; partnering being sought",
+          "trial_name": "ZETA-1 (Phase 2b complete); planned Phase 3",
+          "trial_design": "Phase 2b ZETA-1 randomized double-masked placebo-controlled in 103 DR/DME patients (did not meet primary endpoint in study eye, supportive binocular data)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 design under SPA agreed Dec 2024; Opus seeking strategic partner to advance program (deprioritized internally)",
+          "lead_sponsor": "Opus Genetics, Inc.",
+          "key_milestones": ["EOP2 meeting Oct 2023", "SPA agreement Dec 2024", "Partnering process ongoing"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "RYZUMVI (phentolamine ophthalmic solution 0.75%)",
+    "indication": "Reversal of pharmacologically induced mydriasis",
+    "marketer": "Viatris",
+    "launch": "April 2024",
+    "note": "Same molecule as PS; Opus receives milestones/royalties under Viatris License Agreement"
+  },
+  "excluded_preclinical": [
+    {"asset": "OPGx programs targeting RHO, CNGB1, RDH12, NMNAT1, MERTK", "reason": "Preclinical AAV gene therapy candidates"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 4,
+    "phase_3": 2,
+    "phase_2": 1,
+    "phase_1_2": 2
+  }
+}

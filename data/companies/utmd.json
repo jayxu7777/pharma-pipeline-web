@@ -1,0 +1,49 @@
+{
+  "issuer_name": "UTAH MEDICAL PRODUCTS INC",
+  "ticker": "UTMD",
+  "exchange": "Nasdaq",
+  "cik": "0000706698",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001096906-26-000395",
+      "filing_date": "2026-03-27",
+      "doc": "utmd-20251231_10k.htm",
+      "note": "Specialty medical-device manufacturer (OB/GYN, neonatal, urology). 10-K describes commercialized 510(k)-cleared devices; no active clinical trials or pivotal IDE studies disclosed."
+    },
+    "website": {
+      "url": "https://www.utahmed.com",
+      "pipeline_page": "no dedicated pipeline page (HTTP 404 on /pipeline)",
+      "note": "Site lists already-marketed products (CVX-Ripe cervical ripening catheter, Nutri-Cath with ENFit) — no in-development pipeline disclosed."
+    },
+    "ctgov": {
+      "queried_sponsor": "Utah Medical Products",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Specialty medical devices for OB/GYN, neonatal intensive care, and urology",
+    "examples": [
+      "Filshie Clip System (permanent female contraception / tubal occlusion)",
+      "CVX-Ripe cervical ripening catheter",
+      "Nutri-Cath enteral feeding catheter (ENFit connections)",
+      "Intran Plus intrauterine pressure catheter",
+      "Lumax Pro fetal scalp electrode",
+      "Disposable pressure transducers (DPT) and OEM custom components"
+    ],
+    "regulatory_status": "Established 510(k)-cleared Class I/II medical devices marketed worldwide; no active investigational device exemption (IDE) or PMA pivotal studies disclosed."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Established medical-device manufacturer selling 510(k)-cleared OB/GYN, neonatal, and urology devices; no active P1/P2/P3 clinical trials, IDE pivotal studies, or drug pipeline disclosed in 10-K, on corporate website, or on ClinicalTrials.gov."
+}

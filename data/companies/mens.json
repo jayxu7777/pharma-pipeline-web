@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Jyong Biotech Ltd.",
+  "ticker": "MENS",
+  "exchange": "Nasdaq",
+  "cik": "0001954488",
+  "region": "Taiwan",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Taiwan) — files 20-F (no 10-K on EDGAR)"},
+    "website": {"error": "Corporate website not resolvable from this environment (jyong-biotech.com DNS lookup failed)"},
+    "ctgov": {"file": "data/mens_ctgov_compact.json", "trials_total_under_jyong_name": 0, "trials_under_health_ever_biotech": 9, "note": "Trials posted under predecessor sponsor name 'Health Ever Bio-Tech Co., Ltd.' which is the Jyong Biotech development entity."}
+  },
+  "pipeline": [
+    {
+      "asset": "MCS-2 (BOTRESO)",
+      "aka": ["BOTRESO", "API-1"],
+      "modality": "Oral botanical drug (saw palmetto + multi-carotenoid composition)",
+      "target": "5-alpha reductase / androgen pathway (botanical mechanism)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Benign prostatic hyperplasia (BPH) / Lower urinary tract symptoms (LUTS)",
+          "highest_phase": "Phase 3",
+          "trial_name": "MCS-2 Phase 3 program (4 completed Phase 3 trials in US/Taiwan)",
+          "trial_design": "Randomized, double-blind, placebo-controlled efficacy and safety trials in BPH/LUTS plus open-label extensions",
+          "nct_ids": ["NCT01002664", "NCT01002222", "NCT01002274", "NCT01002417"],
+          "trial_status": "Phase 3 program COMPLETED. Per company disclosures (Apr 2026), MCS-2 is the world's only oral botanical new drug to have completed a global Phase 3 in BPH; in regulatory / market-access stage.",
+          "lead_sponsor": "Health Ever Bio-Tech Co., Ltd. (Jyong Biotech development entity)",
+          "key_milestones": ["Pursuing FDA NDA / regulatory submission and Asia commercialization (South Korea, Vietnam non-binding agreements)"]
+        }
+      ]
+    },
+    {
+      "asset": "MCS-8",
+      "aka": ["PCP", "MCS prostate cancer prevention"],
+      "modality": "Oral botanical drug (multi-carotenoid)",
+      "target": "Prostate cancer chemoprevention (botanical mechanism)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Prostate cancer prevention in at-risk men",
+          "highest_phase": "Phase 2",
+          "trial_name": "MCS prostate cancer prevention Phase 2",
+          "trial_design": "Randomized placebo-controlled chemoprevention trial in men at risk of prostate cancer; primary endpoint cancer incidence over multi-year follow-up",
+          "nct_ids": ["NCT02042807"],
+          "trial_status": "Active, not recruiting. Primary endpoint statistical analysis announced Nov 2025: 27.3% reduction in prostate cancer incidence and 17.1% reduction in high-grade disease vs placebo. Discussions with global pharma partners for large Phase 3 (thousands to tens of thousands of participants).",
+          "lead_sponsor": "Health Ever Bio-Tech Co., Ltd. (Jyong Biotech development entity)",
+          "key_milestones": ["Phase 2 positive primary readout 2025-11-20", "Seeking partner for large-scale Phase 3"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "MCS (LUTS Phase 3)", "nct_ids": ["NCT00501371"], "reason": "TERMINATED Phase 3 in BPH/LUTS."},
+    {"asset": "MCS-5", "nct_ids": ["NCT01016340"], "reason": "TERMINATED Phase 2 in male oligoasthenospermia."},
+    {"asset": "MCS Phase 1 PK", "nct_ids": ["NCT01003171"], "reason": "Status UNKNOWN; legacy Phase 1 PK study in healthy volunteers."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "P1": 0, "P2": 1, "P3": 1, "indications": 2}
+}

@@ -1,0 +1,64 @@
+{
+  "issuer_name": "Zynex Inc",
+  "ticker": "ZYXIQ",
+  "exchange": "OTC",
+  "cik": "0000846475",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001558370-25-002717",
+      "filing_date": "2025-03-11",
+      "form": "10-K",
+      "fiscal_year_end": "2024-12-31"
+    },
+    "website": {
+      "url": "https://altiveramedical.com",
+      "note": "zynex.com redirects 301 to altiveramedical.com (rebrand). No clinical pipeline page exists; site lists marketed devices only."
+    },
+    "ctgov": {
+      "search_term": "Zynex",
+      "raw_trials": 11,
+      "kept_p1_p3": 2,
+      "note": "Both kept trials are PHASE1 device studies of the CM-1500 Blood Volume Monitor; both COMPLETED in 2011-2013."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      "NexWave (IFC/TENS/NMES electrotherapy)",
+      "M-Wave (NMES)",
+      "NeuroMove (stroke rehabilitation)",
+      "InWave (incontinence therapy)",
+      "CM-1500 / CM-1600 Fluid Monitoring System (non-invasive blood/fluid volume monitor)",
+      "Private-labeled rehabilitation products (knee/back/wrist braces, cervical and lumbar traction, hot/cold therapy)"
+    ],
+    "note": "Zynex / Altivera Medical is a commercial medical-device company. Per latest 10-K, the business sells FDA-cleared electrotherapy and rehabilitation devices and the CM-1500/1600 fluid-monitoring system. No proprietary drug pipeline."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "nct_id": "NCT01834612",
+      "asset": "CM1500 Blood Volume Monitor",
+      "phase": "PHASE1",
+      "status": "COMPLETED",
+      "reason": "Legacy completed device study (2013); not an active clinical-development program."
+    },
+    {
+      "nct_id": "NCT01646060",
+      "asset": "CM-1500 Blood Volume Monitor",
+      "phase": "PHASE1",
+      "status": "COMPLETED",
+      "reason": "Legacy completed device study (2011); not an active clinical-development program."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device commercial company (electrotherapy, rehabilitation, non-invasive fluid monitoring). 10-K describes marketed/FDA-cleared devices only; no active P1/P2/P3 drug or device pivotal trials. The two ctgov hits are completed 2011-2013 PHASE1 device studies."
+}

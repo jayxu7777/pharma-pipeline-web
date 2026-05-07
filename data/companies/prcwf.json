@@ -1,0 +1,31 @@
+{
+  "issuer_name": "Procaps Group, S.A. (parent of Sofgen Pharma S.A.)",
+  "ticker": "PRCWF",
+  "exchange": "OTC",
+  "cik": "0001863362",
+  "region": "Colombia / US (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Procaps Group is an integrated softgel Contract Development and Manufacturing Organization (CDMO) and producer of generics, OTC, and nutraceutical products distributed to 50+ countries. Sofgen Pharma is its US-based softgel CDMO business unit. The company is not a clinical-stage drug developer; it manufactures third-party products and its own generic/OTC catalog. No proprietary novel-drug P1/P2/P3 trials. PRCWF is the warrant ticker; common stock trades as PROC.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (no 10-K found in EDGAR for CIK 0001863362)"},
+    "website": {
+      "url": "https://www.sofgenpharma.com/",
+      "note": "Sofgen Pharma site describes CDMO services for softgel pharma/OTC/nutra; no proprietary drug pipeline. Procaps Group portfolio is generics/OTC/nutraceuticals."
+    },
+    "ctgov": {
+      "path": "data/prcwf_ctgov_compact.json",
+      "trials_returned": 0,
+      "note": "No clinicaltrials.gov records under sponsor 'Sofgen Pharma' or 'Procaps' for P1-P3."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "commercial_product": {
+    "business_model": "Integrated Contract Development and Manufacturing Organization (iCDMO) specializing in softgel advanced technologies; also generics, OTC, hospital supplies, and nutraceuticals across Latin America and 50+ countries.",
+    "subsidiary_brands": ["Softigel", "Sofgen Pharmaceuticals", "Softcaps Brazil", "Funtrition"]
+  },
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

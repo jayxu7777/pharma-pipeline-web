@@ -1,0 +1,28 @@
+{
+  "issuer_name": "Accustem Sciences Inc.",
+  "ticker": "ACUT",
+  "exchange": "OTC",
+  "cik": "0001850767",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-016559",
+      "filed": "2026-04-14",
+      "doc": "form10-k.htm",
+      "note": "issuer self-describes as a clinical-stage diagnostics company developing genomic tests, not therapeutics"
+    },
+    "website": {
+      "url": "https://accustem.com/pipeline",
+      "note": "pipeline page returned 504 on first attempt; homepage and 10-K confirm products are diagnostic/prognostic tests (MSC for lung-nodule screening, StemPrintER 20-gene prognostic test for early-stage breast cancer) — no investigational drugs"
+    },
+    "ctgov": {"matches": 0, "note": "no trials returned for sponsor 'Accustem Sciences'"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Accustem Sciences is a clinical-stage diagnostics company developing genomic tests for oncology — Molecular Signature Classifier (MSC) for lung-nodule screening and StemPrintER (a 20-gene prognostic signature validated in TransATAC and other cohorts for early-stage breast cancer outcomes). The company does not develop therapeutic drugs and sponsors no FDA IND/clinical drug trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

@@ -1,0 +1,50 @@
+{
+  "issuer_name": "ClearPoint Neuro, Inc.",
+  "ticker": "CLPT",
+  "exchange": "Nasdaq",
+  "cik": "0001285550",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-111231",
+      "filing_date": "2026-03-17",
+      "doc": "clpt-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.clearpointneuro.com/",
+      "note": "No /pipeline page; product/technology pages list commercial neurosurgical devices and a partner-services platform for biologics/drug delivery."
+    },
+    "ctgov": {
+      "sponsor_query": "ClearPoint Neuro",
+      "unique_trials_p1_p3": 0,
+      "note": "No company-sponsored P1-P3 interventional trials returned."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Commercial-stage neurosurgical navigation and drug-delivery device portfolio. ClearPoint also provides services and hardware to >60 biologics/cell/gene-therapy partners running their own clinical trials.",
+    "products": [
+      {"name": "ClearPoint Navigation System", "category": "Software/navigation platform for MRI-guided neurosurgery"},
+      {"name": "ClearPoint Prism Neuro Laser System", "category": "MRI-guided laser ablation"},
+      {"name": "SmartFrame OR", "category": "Frameless OR stereotactic guidance (MRI/CT)"},
+      {"name": "ClearPoint Array Platform", "category": "Multi-target intracranial delivery"},
+      {"name": "SmartFlow Neuro Cannula", "category": "Drug/biologic delivery cannula used in partner gene/cell therapy programs"},
+      {"name": "IRRAflow System", "category": "Active fluid exchange / brain infusion (distribution)"},
+      {"name": "ClearPoint Maestro Brain Model", "category": "Pre-procedural planning / training"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Numerous gene-therapy and cell-therapy P1/P2 trials run by ClearPoint biologics-and-drug-delivery partners (>60 programs) that use ClearPoint hardware/services but where ClearPoint is neither sponsor nor asset owner."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device company (neurosurgical navigation, laser ablation, intracranial delivery). ClearPoint has no proprietary drug or biologic in clinical development; its drug-delivery exposure is via fee-for-service support of partner-sponsored gene/cell therapy trials, which are excluded as partner-owned."
+}

@@ -1,0 +1,24 @@
+{
+  "issuer_name": "Insight Molecular Diagnostics Inc.",
+  "ticker": "IMDX",
+  "exchange": "Nasdaq",
+  "cik": "0001642380",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001642380-26-000004", "filing_date": "2026-03-26", "doc": "imdx-20251231.htm"},
+    "website": {"url": "https://imdxinc.com/", "accessed": "2026-05-06", "note": "Diagnostics products: GraftAssureCore, GraftAssureDx, GraftAssureIQ, VitaGraft Kidney, VitaGraft Liver, DetermaCNI, DetermaIO"},
+    "ctgov": {"compact_path": "data/imdx_ctgov_compact.json", "trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Insight Molecular Diagnostics is a molecular diagnostics company focused on transplant monitoring and oncology assays (donor-derived cfDNA, gene expression). It develops in vitro diagnostic tests, not therapeutics, and runs no Phase 1-3 drug clinical trials. GraftAssureDx was submitted to FDA as a de novo IVD device, not a drug.",
+  "commercial_product": {
+    "transplant_diagnostics": ["GraftAssureCore", "GraftAssureDx (FDA de novo submission)", "GraftAssureIQ", "VitaGraft Kidney", "VitaGraft Liver"],
+    "oncology_diagnostics": ["DetermaCNI", "DetermaIO"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "P3": 0, "P2": 0, "P1": 0, "indications_total": 0}
+}

@@ -1,0 +1,25 @@
+{
+  "issuer_name": "UL Solutions Inc.",
+  "ticker": "ULS",
+  "exchange": "NYSE",
+  "cik": "0001901440",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/uls_10k_pipeline_section.txt", "filing_date": "2026-02-19", "accession": "0001901440-26-000005"},
+    "website": {"note": "Safety science / testing / certification services company — no drug pipeline page applicable"},
+    "ctgov": {"file": "data/uls_ctgov_compact.json", "sponsor_query": "UL Solutions", "trials_returned": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "UL Solutions is a global independent safety-science / testing, inspection, and certification (TIC) services company. It does not develop or own pharmaceutical drug candidates or clinical-stage therapeutic devices. No mention of drug candidates, clinical trials, or pipeline in the FY2025 10-K; no ClinicalTrials.gov records list UL Solutions as sponsor."
+}

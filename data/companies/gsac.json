@@ -1,0 +1,20 @@
+{
+  "issuer_name": "GelStat Corp",
+  "ticker": "GSAC",
+  "exchange": "OTC",
+  "cik": "0000890725",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"note": "10-K retrieved (gelstat10k.htm) but no clinical pipeline section; legacy migraine/sleep natural product business has been suspended"},
+    "website": {"url": "https://www.gelstat.com", "note": "Now positioned as engineering/industrial-security parent company"},
+    "ctgov": {"sponsor_query": "GelStat", "active_p1_p3_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "GelStat Corporation has pivoted away from natural healthcare products (legacy migraine and sleep OTC products) and now operates primarily through subsidiary GSAC Engineering, providing industrial security automation (ICAS, ECD, VBEC) and renewable-energy engineering services. The company has suspended its natural-pharmaceuticals operations and has no FDA-regulated drug pipeline or clinical trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

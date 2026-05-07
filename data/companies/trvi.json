@@ -1,0 +1,72 @@
+{
+  "issuer_name": "Trevi Therapeutics, Inc.",
+  "ticker": "TRVI",
+  "exchange": "Nasdaq",
+  "cik": "0001563880",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-110783", "filing_date": "2026-03-17", "path": "data/trvi_10k_pipeline_section.html"},
+    "website": {"url": "https://www.trevitherapeutics.com/pipeline", "error": "HTTP 403 — used 10-K + ctgov"},
+    "ctgov": {"path": "data/trvi_ctgov_compact.json", "sponsor_query": "Trevi Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "Haduvio (nalbuphine ER)",
+      "aka": ["NAL ER", "oral nalbuphine extended-release"],
+      "modality": "Oral small molecule (extended-release tablet)",
+      "target": "Kappa-opioid receptor agonist / Mu-opioid receptor antagonist (KAMA)",
+      "license_origin": "Internal (worldwide commercial rights retained)",
+      "indications": [
+        {
+          "indication": "IPF-related Chronic Cough",
+          "highest_phase": "Phase 3 (planned initiation Q2 2026)",
+          "trial_name": "Phase 3 pivotal program (two parallel trials)",
+          "trial_design": "Trial 1: ~300 patients, 52-wk fixed dosing 54 mg BID, primary endpoint at 24 wks. Trial 2: ~130 patients, 12-wk fixed dosing 54 mg BID. Primary EP: relative change in 24-hr cough frequency vs placebo.",
+          "nct_ids": [],
+          "trial_status": "PLANNED — first Phase 3 to start Q2 2026; second in H2 2026 (post End-of-Phase-2 FDA alignment). Phase 2b CORAL met primary endpoint Jun 2025.",
+          "lead_sponsor": "Trevi Therapeutics, Inc.",
+          "key_milestones": ["CORAL P2b positive topline Jun 2025", "First P3 initiation Q2 2026", "Second P3 initiation H2 2026"]
+        },
+        {
+          "indication": "Non-IPF ILD-related Chronic Cough",
+          "highest_phase": "Phase 2b (planned initiation H2 2026)",
+          "trial_name": "Phase 2b adaptive design",
+          "trial_design": "Adaptive design Phase 2b",
+          "nct_ids": [],
+          "trial_status": "PLANNED — H2 2026 initiation, subject to FDA protocol review",
+          "lead_sponsor": "Trevi Therapeutics, Inc.",
+          "key_milestones": ["Phase 2b initiation H2 2026"]
+        },
+        {
+          "indication": "Refractory Chronic Cough (RCC)",
+          "highest_phase": "Phase 2b (planned initiation Q2 2026)",
+          "trial_name": "Phase 2b in RCC",
+          "trial_design": "Multinational (UK, Canada, EU); dose-finding for Phase 3",
+          "nct_ids": [],
+          "trial_status": "PLANNED — Q2 2026 initiation. Phase 2a RIVER met primary endpoint with 57% placebo-adjusted reduction (Mar 2025).",
+          "lead_sponsor": "Trevi Therapeutics, Inc.",
+          "key_milestones": ["RIVER P2a positive topline Mar 2025", "Phase 2b initiation Q2 2026"]
+        },
+        {
+          "indication": "NDA-supportive Phase 1 studies (DDI, food effect, hepatic/renal impairment, respiratory safety)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Various Phase 1 supportive studies",
+          "trial_design": "Pharmacology / safety studies in healthy volunteers and special populations",
+          "nct_ids": ["NCT07487740", "NCT07036029"],
+          "trial_status": "Recruiting / ongoing",
+          "lead_sponsor": "Trevi Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Completed historical Phase 2/3 studies in Uremic Pruritus and Prurigo Nodularis (NCT02143648, NCT02174419, NCT03497975, NCT02174432, NCT02143973) — no longer active programs",
+    "Completed Phase 1/2 IPF and RCC studies (NCT04030026, NCT05964335, NCT05962151, NCT04020016, NCT04018664, NCT07015398, NCT02373215)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3_indications": 1, "p2_indications": 2, "p1_indications": 1}
+}

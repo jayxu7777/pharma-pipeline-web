@@ -1,0 +1,144 @@
+{
+  "issuer_name": "Vir Biotechnology, Inc.",
+  "ticker": "VIR",
+  "exchange": "Nasdaq",
+  "cik": "0001706431",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-010749", "filing_date": "2026-02-23", "doc": "vir-20251231.htm"},
+    "website": {"url": "https://www.vir.bio/our-pipeline/", "note": "asset list cross-referenced from 10-K + ctgov; SOLSTICE/ECLIPSE-1/2/3 HDV program and dual masked T-cell engager (TCE) oncology program"},
+    "ctgov": {"file": "data/vir_ctgov_compact.json", "trial_count": 33}
+  },
+  "pipeline": [
+    {
+      "asset": "Tobevibart + Elebsiran combination",
+      "aka": ["VIR-3434 + VIR-2218", "ECLIPSE program"],
+      "modality": "Monoclonal antibody (tobevibart) + siRNA (elebsiran)",
+      "target": "HBsAg (tobevibart) + HBV mRNA (elebsiran)",
+      "license_origin": "Internal (VIR-3434 and VIR-2218 from Alnylam collaboration)",
+      "indications": [
+        {
+          "indication": "Chronic hepatitis delta virus (HDV) infection",
+          "highest_phase": "Phase 3",
+          "trial_name": "ECLIPSE-1",
+          "trial_design": "Phase 3 randomized study of tobevibart + elebsiran in chronic HDV infection",
+          "nct_ids": ["NCT06903338"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Vir Biotechnology, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic HDV not virologically suppressed with bulevirtide",
+          "highest_phase": "Phase 3",
+          "trial_name": "ECLIPSE-2",
+          "trial_design": "Phase 3 in HDV patients not virologically suppressed on bulevirtide",
+          "nct_ids": ["NCT07128550"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vir Biotechnology, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic HDV (vs bulevirtide head-to-head)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ECLIPSE-3",
+          "trial_design": "Phase 2 of tobevibart + elebsiran versus bulevirtide in chronic HDV",
+          "nct_ids": ["NCT07142811"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Vir Biotechnology, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic HDV (Phase 2 SOLSTICE supportive)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SOLSTICE",
+          "trial_design": "Phase 2 combination tobevibart + elebsiran for chronic HDV",
+          "nct_ids": ["NCT05461170"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Vir Biotechnology, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic hepatitis B virus (HBV) infection",
+          "highest_phase": "Phase 2",
+          "trial_name": "MARCH and ENRICH (BRII-179/BRII-835/PEG-IFN combos)",
+          "trial_design": "Phase 2 evaluating combinations including VIR-2218 (BRII-835) +/- tobevibart and PEG-IFNa for functional cure of CHB",
+          "nct_ids": ["NCT04856085", "NCT06491563", "NCT05970289"],
+          "trial_status": "Active, not recruiting / partner-led (Brii in greater China territory)",
+          "lead_sponsor": "Vir Biotechnology, Inc. / Brii Biosciences (territorial)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "VIR-5818",
+      "aka": ["AMX-818"],
+      "modality": "Dual-masked T-cell engager (PRO-XTEN protease-cleavable)",
+      "target": "HER2 x CD3",
+      "license_origin": "Acquired with Amunix Pharmaceuticals (2021)",
+      "indications": [
+        {
+          "indication": "Locally advanced or metastatic HER2-expressing solid tumors (mono +/- pembrolizumab)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "VIR-5818-101",
+          "trial_design": "Phase 1/2 dose-escalation/expansion in HER2+ advanced cancers; mono and combo with pembrolizumab",
+          "nct_ids": ["NCT05356741"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vir Biotechnology, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "VIR-5500",
+      "aka": ["AMX-500"],
+      "modality": "Dual-masked T-cell engager (PRO-XTEN)",
+      "target": "PSMA x CD3",
+      "license_origin": "Internal (Amunix platform)",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "VIR-5500-101",
+          "trial_design": "Phase 1 dose-escalation in mCRPC, including combos with enzalutamide/darolutamide",
+          "nct_ids": ["NCT05997615"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vir Biotechnology, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "VIR-5525",
+      "aka": ["AMX-525"],
+      "modality": "Dual-masked T-cell engager (PRO-XTEN)",
+      "target": "EGFR x CD3",
+      "license_origin": "Internal (Amunix platform)",
+      "indications": [
+        {
+          "indication": "Locally advanced or metastatic EGFR-expressing solid tumors (mono +/- pembrolizumab)",
+          "highest_phase": "Phase 1",
+          "trial_name": "VIR-5525-101",
+          "trial_design": "Phase 1 dose-escalation/expansion in advanced EGFR+ solid tumors",
+          "nct_ids": ["NCT06960395"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vir Biotechnology, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "VIR-7831 / sotrovimab (COVID-19) — commercialized by GSK; legacy program, not active VIR clinical-stage development",
+    "VIR-2482 (influenza A) — Phase 2 PENINSULA terminated 2023",
+    "VIR-1111 (HIV vaccine) — Phase 1 completed; program de-prioritized"
+  ],
+  "excluded_partner_owned": [
+    "Selgantolimod combination NCT04891770 — Gilead lead sponsor",
+    "VRON-0200 NCT06070051 — Virion Therapeutics lead sponsor",
+    "BRII-179/BRII-835 partner trials (NCT04749368, NCT04507269) — Brii Biosciences greater China territory licensee"
+  ],
+  "summary_counts": {"P3": 1, "P2": 1, "P1": 3, "total_active_assets": 4}
+}

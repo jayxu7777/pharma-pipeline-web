@@ -1,0 +1,29 @@
+{
+  "issuer_name": "Inspira Technologies OXY B.H.N. Ltd",
+  "ticker": "IINN",
+  "exchange": "Nasdaq",
+  "cik": "0001837493",
+  "region": "IL",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://inspira-technologies.com/", "note": "Homepage used; no dedicated /pipeline page"},
+    "ctgov": {"sponsor_query": "Inspira Technologies", "trials_returned": 0}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "INSPIRA ART100",
+    "regulatory_status": "FDA 510(k) cleared (K232788)",
+    "indication": "Blood oxygenation support during cardiopulmonary bypass procedures (up to 6 hours)",
+    "in_development": [
+      {"name": "INSPIRA ART500", "indication": "Adaptive acute respiratory support as alternative to mechanical ventilation", "status": "In development; pre-market device"},
+      {"name": "HYLA Blood Sensor (Gen 1/Gen 2)", "status": "Gen 1 clip-on pending regulatory clearance; Gen 2 integrated continuous monitoring under development"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Medical device company (extracorporeal blood oxygenation systems). Lead device INSPIRA ART100 is FDA 510(k) cleared; ART500 next-gen device is in pre-market development. No active P1/P2/P3 drug trials. No company-sponsored trials registered on ClinicalTrials.gov under this sponsor name."
+}

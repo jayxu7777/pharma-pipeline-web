@@ -1,0 +1,79 @@
+{
+  "issuer_name": "CVRx, Inc.",
+  "ticker": "CVRX",
+  "exchange": "Nasdaq",
+  "cik": "0001235912",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-014708",
+      "filing_date": "2026-02-13",
+      "doc": "cvrx-20251231x10k.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found (https://www.cvrx.com/pipeline redirects to https://www.barostim.com/pipeline which returns 404)"
+    },
+    "ctgov": {
+      "queried_sponsor": "CVRx",
+      "active_studies_returned": 1,
+      "note": "Compact result returned only the legacy completed Rheos hypertension feasibility (NCT01077180); active BENEFIT-HF IDE pivotal located via direct ctgov API query"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Barostim Neo / Barostim System",
+      "aka": ["BAT", "Baroreflex Activation Therapy"],
+      "modality": "Implantable neuromodulation device (carotid baroreceptor electrical stimulation)",
+      "target": "Carotid baroreceptors (autonomic nervous system modulation)",
+      "license_origin": "Internally developed (CVRx proprietary)",
+      "indications": [
+        {
+          "indication": "Heart failure expansion: HFmrEF and HFrEF with NT-proBNP 400 to <5,000 pg/mL (NYHA Class II or III, LVEF <50%)",
+          "highest_phase": "Phase 3 pivotal (IDE)",
+          "trial_name": "BENEFIT-HF",
+          "trial_design": "Prospective, multi-center, randomized 2:1 controlled IDE trial; up to 200 sites US/Germany; 2,500 patients; 2-year follow-up; primary endpoint composite of all-cause death, LVAD, heart transplant, and HF events requiring ED visit or hospitalization",
+          "nct_ids": ["NCT07232030"],
+          "trial_status": "Enrolling by invitation; FDA IDE granted Nov 2025; trial initiated Jan 2026; CMS Category B IDE coverage; enrollment expected to begin H1 2026 across ~150 centers; enrollment complete within 5 years; trial conclusion 5-7 years",
+          "lead_sponsor": "CVRx, Inc.",
+          "key_milestones": [
+            "FDA IDE granted Nov 2025",
+            "Trial initiated Jan 2026",
+            "Enrollment to begin H1 2026",
+            "Expected enrollment complete in 5 years",
+            "2-year follow-up; conclusion 5-7 years"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Barostim",
+    "modality": "Implantable neuromodulation device (IPG + stimulation lead)",
+    "approval": "FDA Premarket Approval (PMA) August 2019 with Breakthrough Device designation; expanded labeling Dec 2023",
+    "indication_label": "Patients who are NYHA Class III or Class II (with recent history of Class III) despite GDMT, with LVEF <=35% and NT-proBNP <1,600 pg/mL; delivers BAT to improve NYHA functional status, 6MHW, and quality of life",
+    "geographies": "US (direct sales), Germany (direct), Austria/Spain/other EU (distributors)",
+    "fy2025_revenue_usd_million": 56.7
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "trial": "Rheos Feasibility Trial (NCT01077180)",
+      "rationale": "Completed Phase 2 hypertension feasibility study from 2005-2007; legacy, not part of active pipeline"
+    },
+    {
+      "trial": "BAT-in-HF (Phase I), HOPE4HF (Phase II), BeAT-HF (Phase III pivotal)",
+      "rationale": "Pre-market HF studies completed; supported 2019 PMA approval and 2023 expanded labeling — now historical evidence base, not active pipeline"
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3_pivotal_ide": 1,
+    "commercial_devices": 1
+  },
+  "no_active_clinical_pipeline_reason": null
+}

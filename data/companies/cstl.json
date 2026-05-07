@@ -1,0 +1,81 @@
+{
+  "issuer_name": "Castle Biosciences, Inc.",
+  "ticker": "CSTL",
+  "exchange": "Nasdaq",
+  "cik": "0001447362",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001628280-26-012272",
+      "url": "https://www.sec.gov/Archives/edgar/data/1447362/000162828026012272/cstl-20251231.htm"
+    },
+    "website": {
+      "url": "https://castlebiosciences.com/",
+      "note": "Corporate site lists commercial diagnostic tests (DecisionDx-Melanoma, TissueCypher, AdvanceAD-Tx, DecisionDx-SCC, MyPath Melanoma, DecisionDx-UM); no drug clinical-stage pipeline page."
+    },
+    "ctgov": {
+      "query": "spons:Castle Biosciences",
+      "raw_count": 16,
+      "kept_p1_p3": 12,
+      "note": "All 12 hits actually belong to 'Castle Creek Biosciences, LLC.' — a different, unrelated company (gene therapy for dermatology). Castle Biosciences, Inc. (CSTL) itself sponsors observational / clinical-validation studies for its diagnostic tests, none of which are drug-intervention P1/P2/P3 trials. ctgov source not used for pipeline."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "diagnostic_tests": [
+      {
+        "name": "DecisionDx-Melanoma",
+        "modality": "Gene expression profile (GEP) risk-stratification test for invasive cutaneous melanoma",
+        "regulatory_status": "Commercial; Medicare-covered LDT"
+      },
+      {
+        "name": "TissueCypher",
+        "modality": "Spatialomics risk-stratification test for Barrett's esophagus progression",
+        "regulatory_status": "Commercial; Medicare-covered LDT"
+      },
+      {
+        "name": "AdvanceAD-Tx",
+        "modality": "Non-invasive 487-gene GEP test guiding systemic therapy selection in moderate-to-severe atopic dermatitis (JAK inhibitor vs Th2 profile)",
+        "regulatory_status": "Limited-access launch November 2025; phased expansion in 2026"
+      },
+      {
+        "name": "DecisionDx-SCC",
+        "modality": "GEP test predicting metastasis risk and adjuvant radiation response in high-risk cutaneous squamous cell carcinoma",
+        "regulatory_status": "Commercial; Medicare LCD changes finalized 2025"
+      },
+      {
+        "name": "MyPath Melanoma",
+        "modality": "Diagnostic GEP test for difficult-to-diagnose melanocytic lesions",
+        "regulatory_status": "Commercial; Medicare-covered LDT"
+      },
+      {
+        "name": "DecisionDx-UM",
+        "modality": "GEP risk-stratification test for uveal melanoma metastasis",
+        "regulatory_status": "Commercial; Medicare-covered LDT"
+      }
+    ],
+    "diagnostic_pipeline_disclosed_in_10k": [
+      "Esopredict — methylation-based BE risk-stratification test acquired with Previse (May 2025); planned launch Q1 2026 as supplemental option to TissueCypher",
+      "Previse sponge-based, swallowable cell-collection device for non-endoscopic esophageal sampling — under development, subject to regulatory clearance",
+      "SciBase collaboration (June 2025) — non-invasive Electrical Impedance Spectroscopy diagnostic to predict atopic dermatitis flares; North America rights",
+      "Discontinued IDgenetix pharmacogenomics test (May 2025)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "note": "12 ctgov trials returned by sponsor search belong to 'Castle Creek Biosciences, LLC.' (gene therapy for recessive dystrophic epidermolysis bullosa, etc.) — an unrelated entity. Excluded entirely; not part of CSTL."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Molecular diagnostics / lab-services company. Sells gene-expression-profile and spatialomics tests as laboratory-developed tests (LDTs); does not develop therapeutic drugs. Pipeline initiatives consist of new diagnostic assays (Esopredict methylation test, Previse swallowable cell-collection device, SciBase atopic-dermatitis flare predictor) — none are P1/P2/P3 drug trials. The clinicaltrials.gov sponsor search hits are for the unrelated company Castle Creek Biosciences."
+}

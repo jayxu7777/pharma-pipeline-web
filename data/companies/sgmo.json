@@ -1,0 +1,131 @@
+{
+  "issuer_name": "Sangamo Therapeutics, Inc.",
+  "ticker": "SGMO",
+  "exchange": "Nasdaq",
+  "cik": "0001001233",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001628280-26-022029",
+      "path": "data/sgmo_10k_pipeline_section.html"
+    },
+    "website": {"error": "skipped per agent guidance; relied on 10-K + ctgov"},
+    "ctgov": {"path": "data/sgmo_ctgov_compact.json", "sponsor_query": "Sangamo Therapeutics", "study_count": 26}
+  },
+  "pipeline": [
+    {
+      "asset": "Isaralgagene civaparvovec",
+      "aka": ["ST-920"],
+      "modality": "AAV2/6 gene therapy (liver-directed, alpha-Gal A)",
+      "target": "GLA gene (alpha-galactosidase A)",
+      "license_origin": "Wholly owned (Sangamo)",
+      "indications": [
+        {
+          "indication": "Fabry disease",
+          "highest_phase": "Phase 1/2 (registrational; rolling BLA initiated Dec 2025)",
+          "trial_name": "STAAR",
+          "trial_design": "Phase 1/2 multicenter, open-label, dose-ranging single-infusion study; long-term follow-up ongoing.",
+          "nct_ids": ["NCT04046224"],
+          "trial_status": "Primary study completed (April 2025 cutoff); long-term follow-up ongoing; rolling BLA submission initiated December 2025 under FDA Accelerated Approval pathway.",
+          "lead_sponsor": "Sangamo Therapeutics",
+          "key_milestones": [
+            "Jun 2025: positive topline STAAR results (mean eGFR slope at 52 weeks)",
+            "Oct 2025: FDA reaffirmed eGFR slope as primary endpoint for accelerated approval",
+            "Dec 2025: rolling BLA initiated",
+            "Summer 2026: expected BLA completion (subject to funding)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Giroctocogene fitelparvovec",
+      "aka": ["SB-525"],
+      "modality": "AAV6 gene therapy (FVIII)",
+      "target": "F8 (Factor VIII) gene",
+      "license_origin": "Originally co-developed with Pfizer; rights regained by Sangamo April 2025.",
+      "indications": [
+        {
+          "indication": "Hemophilia A (moderately severe to severe, adult males)",
+          "highest_phase": "Phase 3",
+          "trial_name": "AFFINE",
+          "trial_design": "Global, open-label, multicenter, single-arm Phase 3 trial in 75 adult male patients; single 3e13 vg/kg infusion; primary endpoint annualized bleeding rate vs. lead-in.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Trial completed primary readout (Jul 2024 non-inferiority and superiority met). Sangamo regained rights April 2025; in business development negotiations for a partner.",
+          "lead_sponsor": "Sangamo Therapeutics (post April 2025; previously Pfizer)",
+          "key_milestones": [
+            "Jul 2024: primary endpoint met (non-inferior and superior ABR)",
+            "Dec 2024: detailed AFFINE data presented at ASH",
+            "Apr 2025: rights returned from Pfizer; partnership discussions underway"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "TX200-TR101",
+      "aka": ["TX200"],
+      "modality": "Autologous CAR-Treg cell therapy (HLA-A2 specific)",
+      "target": "HLA-A2",
+      "license_origin": "Wholly owned (Sangamo, ex-TxCell)",
+      "indications": [
+        {
+          "indication": "Prevention of immune-mediated rejection in HLA-A2 mismatched living donor renal transplant recipients",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "STEADFAST",
+          "trial_design": "Phase 1/2 open-label safety, tolerability, dose-ranging study of CAR-Treg in living-donor renal transplant recipients.",
+          "nct_ids": ["NCT04817774"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Sangamo Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ST-503",
+      "aka": [],
+      "modality": "Zinc finger repressor (ZFR) gene therapy delivered via AAV; SCN9A gene repression",
+      "target": "SCN9A (Nav1.7 sodium channel)",
+      "license_origin": "Wholly owned (Sangamo)",
+      "indications": [
+        {
+          "indication": "Refractory chronic neuropathic pain due to small fiber predominant peripheral neuropathy (SFN)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ST-503 SFN safety and tolerability study",
+          "trial_design": "Phase 1/2 first-in-human study, intrathecal administration vs. sham.",
+          "nct_ids": ["NCT06980948"],
+          "trial_status": "Recruiting (started December 2025)",
+          "lead_sponsor": "Sangamo Therapeutics",
+          "key_milestones": [
+            "Dec 2025: first patient dosed",
+            "Primary completion anticipated July 2027"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "ST-506 (prion disease ZFR delivered via STAC-BBB capsid) — preclinical",
+    "ZFR programs for tauopathies (Genentech license) — preclinical",
+    "Other undisclosed neurology ZFR programs — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "SB-913 (MPS II ZFN) — terminated NCT03041324",
+    "SB-318 (MPS I ZFN) — terminated NCT02702115",
+    "SB-FIX (Hemophilia B ZFN) — terminated NCT02695160",
+    "BIVV003 (sickle cell) — completed; partner-returned, no active follow-up",
+    "ST-400 (beta-thalassemia) — completed; no active follow-up",
+    "Multiple legacy SB-509, SB-728, CERE-110/120 trials — all completed long ago"
+  ],
+  "excluded_partner_owned": [
+    "C9ORF72 ALS/FTLD ZFR program — assigned by Pfizer to Alexion in October 2023; no active Sangamo trials"
+  ],
+  "summary_counts": {
+    "total_active_assets": 4,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1_or_1_2": 3,
+    "filed_or_approved": 1
+  }
+}

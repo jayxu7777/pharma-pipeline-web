@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Q/C Technologies, Inc. (formerly MyMD Pharmaceuticals)",
+  "ticker": "QCLS",
+  "exchange": "Nasdaq",
+  "cik": "0001321834",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-15",
+      "accession": "0001493152-26-016872",
+      "path": "data/qcls_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page expected — company pivoted to laser-based computing (qc-LPU100); legacy pharma assets parked"},
+    "ctgov": {"path": "data/qcls_ctgov_compact.json", "trial_count_p1_p3": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Q/C Technologies pivoted to laser-based photonic computing (qc-LPU100) following acquisition of LPU Holdings LLC. Per FY2025 10-K, the company holds legacy pharmaceutical assets Isomyosamine and Supera-CBD but explicitly 'does not expect to generate revenue from these pharmaceutical assets' and is evaluating strategic alternatives. No active company-sponsored P1/P2/P3 clinical trials.",
+  "excluded_preclinical": [
+    {"asset": "Isomyosamine (MyMD-1)", "reason": "Legacy pharma asset; company evaluating strategic alternatives, no active sponsored clinical trials in registry"},
+    {"asset": "Supera-CBD", "reason": "Legacy pharma asset; preclinical/dormant per 10-K"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_assets": 0}
+}

@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Silo Pharma, Inc.",
+  "ticker": "SILO",
+  "exchange": "Nasdaq",
+  "cik": "0001514183",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-035576",
+      "filing_date": "2026-03-27",
+      "path": "data/silo_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://silopharma.com/our-pipeline-and-ip/",
+      "note": "Pipeline page exists but content rendered via JS; programs corroborated via official asset subpages /spc-14/ and /spc-15/."
+    },
+    "ctgov": {
+      "path": "data/silo_ctgov_compact.json",
+      "trial_count": 0
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "All four product candidates (SPC-15, SP-26, SPC-14, SPU-16) are still preclinical or IND-pending. Lead asset SPC-15 had a pre-IND meeting with FDA in September 2024 and is targeting IND submission in 2026; Phase 1 SAD/MAD studies with Allucent are planned but not yet initiated. SP-26 is in preclinical research. SPC-14 and SPU-16 are early discovery/preclinical.",
+  "excluded_preclinical": [
+    {"asset": "SPC-15", "indication": "PTSD and stress-induced anxiety", "status": "IND-enabling GLP toxicology ongoing; IND submission targeted 2026; Phase 1 planned with Allucent"},
+    {"asset": "SP-26", "indication": "Chronic pain / fibromyalgia", "status": "Preclinical (ketamine-based subcutaneous polymer implant)"},
+    {"asset": "SPC-14", "indication": "Alzheimer's disease", "status": "Preclinical (Columbia University collaboration)"},
+    {"asset": "SPU-16", "indication": "Undisclosed", "status": "Early-stage / discovery"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

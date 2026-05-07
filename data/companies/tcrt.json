@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Alaunos Therapeutics, Inc.",
+  "ticker": "TCRT",
+  "exchange": "Nasdaq",
+  "cik": "0001107421",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "file": "data/tcrt_10k_pipeline_section.html",
+      "filing_date": "2026-03-31",
+      "accession": "0001193125-26-134720"
+    },
+    "website": {
+      "url": "https://alaunos.com/clinical-trials/",
+      "fetched": "2026-05-06",
+      "note": "Pipeline shown as image only; no parseable text. Per 10-K, no active clinical programs."
+    },
+    "ctgov": {
+      "file": "data/tcrt_ctgov_compact.json",
+      "trial_count": 35,
+      "active_trials": 0,
+      "note": "All Alaunos-sponsored trials are COMPLETED, TERMINATED, WITHDRAWN, SUSPENDED or UNKNOWN. The TCR-T Library trial NCT05194735 (P1/2 solid tumors) was TERMINATED 2023-08-14 alongside strategic reprioritization."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Alaunos discontinued all clinical TCR-T programs in August 2023 (strategic reprioritization, ~95% workforce reduction). The TCR-T Library Phase 1/2 trial at MD Anderson (NCT05194735) was terminated. As of the FY2025 10-K (filed March 2026), Alaunos is a preclinical-stage company developing an internally discovered, oral, small-molecule, non-hormonal anti-obesity / MASLD candidate (ALN1003); no IND filed. Cash ~$1.4M as of Dec 31 2025 with runway only into Q2 2026.",
+  "excluded_preclinical": [
+    "ALN1003 — oral non-hormonal small molecule for obesity / MASLD; positive DIO mouse proof-of-concept announced March 2026; IND-enabling studies planned but no IND filed"
+  ],
+  "excluded_legacy_terminated": [
+    "TCR-T Library Phase 1/2 (NCT05194735) — TERMINATED 2023-08 (strategic wind-down)",
+    "Ad-RTS-hIL-12 + veledimex glioblastoma program (multiple NCTs incl. NCT04006119, NCT03330197, NCT02423902, NCT01703754) — all TERMINATED",
+    "Palifosfamide (ZIO-201) sarcoma/SCLC program (NCT01168791 P3 COMPLETED neg, NCT01555710 MATISSE P3 UNKNOWN, etc.)",
+    "Darinaparsin (ZIO-101) and Indibulin (ZIO-301) legacy oncology programs — all completed/unknown"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

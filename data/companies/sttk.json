@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Shattuck Labs, Inc.",
+  "ticker": "STTK",
+  "exchange": "Nasdaq",
+  "cik": "0001680367",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-014989", "filed": "2026-03-05", "doc": "sttk-20251231.htm"},
+    "website": {"url": "https://shattucklabs.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/sttk_ctgov_compact.json", "trials_total": 6, "active_p1_p3": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "SL-325",
+      "aka": [],
+      "modality": "Monoclonal antibody (Fc-silenced, DR3-blocking)",
+      "target": "DR3 (TL1A/DR3 pathway)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Inflammatory bowel disease (healthy-volunteer SAD/MAD; planned Crohn's disease P2)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 SAD/MAD in Healthy Volunteers",
+          "trial_design": "Randomized, double-blind, placebo-controlled SAD/MAD to evaluate safety, tolerability, PK, immunogenicity and establish Phase 2 dose",
+          "nct_ids": ["NCT07158437"],
+          "trial_status": "Active, not recruiting (started 2025-09-18; primary completion 2026-07). Phase 2 in Crohn's disease planned for Q3 2026.",
+          "lead_sponsor": "Shattuck Labs, Inc.",
+          "key_milestones": [
+            "Phase 1 primary completion expected 2026-07",
+            "Phase 2 CD trial design disclosure planned Q2 2026",
+            "Phase 2 CD initiation planned Q3 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "SL-425", "reason": "Half-life-extended variant of SL-325; in IND-enabling chronic GLP toxicity study (preclinical)."},
+    {"asset": "DR3 bispecific antibodies", "reason": "Preclinical bispecific program targeting DR3/TL1A plus second target."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "SL-172154", "nct_ids": ["NCT04406623", "NCT05275439", "NCT05483933", "NCT04502888"], "reason": "Trials COMPLETED or TERMINATED; program no longer disclosed as active in 2025 10-K (focus shifted to SL-325)."},
+    {"asset": "SL-279252", "nct_ids": ["NCT03894618"], "reason": "Trial COMPLETED 2023; program not disclosed as active in 2025 10-K."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "P1": 1, "P2": 0, "P3": 0, "indications": 1}
+}

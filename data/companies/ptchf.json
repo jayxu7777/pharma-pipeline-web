@@ -1,0 +1,65 @@
+{
+  "issuer_name": "PureTech Health plc",
+  "ticker": "PTCHF",
+  "exchange": "OTC",
+  "cik": "0001782999",
+  "region": "UK (US OTC ADR/ordinary)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F instead of 10-K. Auto fetcher returned 'No 10-K found in recent filings.'"},
+    "website": {"url": "https://www.puretechhealth.com/programs/", "note": "Wholly-owned programs identified as Celea Therapeutics (LYT-100/deupirfenidone in IPF, P2b complete, P3 starting) and Gallop Oncology (LYT-200 in AML/MDS, P1/2). Founded Entities (Seaport, Karuna/Cobenfy) excluded as partner-owned."},
+    "ctgov": {"sponsor_query": "PureTech", "results": 9, "note": "Mix of completed/terminated and one not-yet-recruiting Phase 3."}
+  },
+  "pipeline": [
+    {
+      "asset": "deupirfenidone",
+      "aka": ["LYT-100"],
+      "modality": "Small molecule (deuterated pirfenidone)",
+      "target": "TGF-beta / fibrosis pathway (deuterated analog of pirfenidone)",
+      "license_origin": "Wholly-owned (being advanced via Celea Therapeutics, 100% PureTech equity)",
+      "indications": [
+        {
+          "indication": "Idiopathic Pulmonary Fibrosis (IPF)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ELEVATE IPF (or equivalent) - LYT-100 vs Pirfenidone in IPF",
+          "trial_design": "Randomized, head-to-head Phase 3 trial of deupirfenidone (LYT-100) versus pirfenidone in adults with IPF",
+          "nct_ids": ["NCT07284602"],
+          "trial_status": "Not yet recruiting (start April 2026; primary completion June 2029)",
+          "lead_sponsor": "PureTech",
+          "key_milestones": ["Prior Phase 2b NCT05321420 active-not-recruiting / completed Oct 2024 with positive readout supporting pivotal Phase 3"]
+        }
+      ]
+    },
+    {
+      "asset": "LYT-200",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "Galectin-9",
+      "license_origin": "Wholly-owned (being advanced via Gallop Oncology, 100% PureTech equity)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory Acute Myeloid Leukemia (AML) and high-risk Myelodysplastic Syndrome (MDS)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 LYT-200 in R/R AML / high-risk MDS",
+          "trial_design": "Phase 1 in combination with venetoclax, azacitidine, or decitabine",
+          "nct_ids": ["NCT05829226"],
+          "trial_status": "Completed (primary completion 2025-12-31); Phase 1/2 advancement under Gallop Oncology per website",
+          "lead_sponsor": "PureTech",
+          "key_milestones": ["Solid-tumor Phase 1/2 NCT04666688 completed Dec 2024"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "LYT-100", "indication": "Post-acute COVID-19 respiratory disease", "nct": "NCT04652518", "status": "Terminated"},
+    {"asset": "LYT-100", "indication": "Breast cancer related lymphedema (BCRL)", "nct": "NCT04243837", "status": "Terminated"},
+    {"asset": "LYT-300", "indication": "Healthy volunteer P1/2 only; no further development disclosed", "nct": "NCT05129865", "status": "Completed P1, no later-stage trial"}
+  ],
+  "excluded_partner_owned": [
+    {"founded_entity": "Karuna Therapeutics", "asset": "Cobenfy (KarXT)", "reason": "Acquired by BMS; PureTech holds royalty/milestone stake only"},
+    {"founded_entity": "Seaport Therapeutics", "reason": "Founded entity, only 35% equity; not a PureTech wholly-owned asset"}
+  ],
+  "summary_counts": {"total_assets": 2, "P3": 1, "P2": 0, "P1": 1}
+}

@@ -1,0 +1,107 @@
+{
+  "issuer_name": "VACCINEX, INC.",
+  "ticker": "VCNX",
+  "exchange": "OTC",
+  "cik": "0001205922",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000950170-25-054318",
+      "filing_date": "2025-04-15",
+      "doc": "vcnx-20241231.htm"
+    },
+    "website": {
+      "url": "https://vaccinex.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "compact": "data/vcnx_ctgov_compact.json",
+      "studies_returned": 13
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Pepinemab",
+      "aka": ["VX15/2503", "VX15"],
+      "modality": "Humanized IgG4 monoclonal antibody",
+      "target": "SEMA4D (Semaphorin 4D / CD100)",
+      "license_origin": "Internal (ActivMAb platform)",
+      "indications": [
+        {
+          "indication": "Huntington's Disease",
+          "highest_phase": "Phase 2 (completed); Phase 3 planned",
+          "trial_name": "SIGNAL",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 in early manifest and late prodromal HD; 18 months monthly IV pepinemab vs placebo",
+          "nct_ids": ["NCT02481674"],
+          "trial_status": "COMPLETED — topline reported Sep 2020; full results published Nature Medicine 2022. FDA Orphan Drug + Fast Track designations. Phase 3 planned per company website.",
+          "lead_sponsor": "Vaccinex Inc.",
+          "key_milestones": [
+            "Phase 2 topline Sep 2020",
+            "Full results Nature Medicine 28:2183-2193 (2022)",
+            "Phase 3 planned (per corporate pipeline)"
+          ]
+        },
+        {
+          "indication": "Alzheimer's Disease (MCI / mild dementia due to AD)",
+          "highest_phase": "Phase 1b/2",
+          "trial_name": "SIGNAL-AD",
+          "trial_design": "Phase 1b/2, 50 participants, 12 months treatment with pepinemab vs placebo; FDG-PET and biomarker endpoints",
+          "nct_ids": ["NCT04381468"],
+          "trial_status": "COMPLETED — last patient last visit June 6, 2024; topline reported AAIC Jul 31, 2024; further data CTAD Oct 31, 2024",
+          "lead_sponsor": "Vaccinex Inc.",
+          "key_milestones": [
+            "Enrollment complete Apr 2023",
+            "Topline AAIC Jul 31, 2024",
+            "Additional efficacy data CTAD Madrid Oct 31, 2024"
+          ]
+        },
+        {
+          "indication": "Recurrent/Metastatic Squamous Cell Carcinoma of Head and Neck (R/M HNSCC)",
+          "highest_phase": "Phase 1b/2",
+          "trial_name": "KEYNOTE collaboration — pepinemab + pembrolizumab (KEYNOTE-B84)",
+          "trial_design": "Phase 1b/2 combination of pepinemab + pembrolizumab in first-line R/M HNSCC",
+          "nct_ids": ["NCT04815720"],
+          "trial_status": "COMPLETED (primary completion 2024-07-24)",
+          "lead_sponsor": "Vaccinex Inc.",
+          "key_milestones": [
+            "Primary completion Jul 2024"
+          ]
+        },
+        {
+          "indication": "Metastatic Pancreatic Adenocarcinoma (2L)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Pepinemab + avelumab in metastatic pancreatic adenocarcinoma",
+          "trial_design": "Phase 1/2 of pepinemab + avelumab as second-line therapy",
+          "nct_ids": ["NCT05102721"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion expected 2028-12-31)",
+          "lead_sponsor": "Vaccinex Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "VX5", "target": "CXCL13", "reason": "preclinical for autoimmune disorders"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT03425461", "reason": "TERMINATED — Stage III/IV melanoma combo (Jonsson Cancer Center sponsored)"},
+    {"nct_id": "NCT01313065", "reason": "COMPLETED legacy Phase 1 advanced solid tumors (2014)"},
+    {"nct_id": "NCT01764737", "reason": "COMPLETED legacy Phase 1 in MS (2014); cancer program currently paused"},
+    {"nct_id": "NCT03268057", "reason": "COMPLETED Phase 1/2 NSCLC + avelumab (2020); cancer program currently paused"},
+    {"nct_id": "NCT03769155", "reason": "Investigator-sponsored Phase 1 melanoma (Emory); active_not_recruiting; cancer program paused at sponsor"},
+    {"nct_id": "NCT03373188", "reason": "COMPLETED IST Phase 1 pancreatic/CRC (Emory)"},
+    {"nct_id": "NCT05378464", "reason": "Investigator-sponsored Phase 1 HER2+ breast cancer (Moffitt) — partner-led, asset role limited"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT03690986", "reason": "Investigator-sponsored Phase 1 HNSCC (Emory)"}
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "total_indications": 4,
+    "phase_3": 0,
+    "phase_2": 3,
+    "phase_1": 1
+  }
+}

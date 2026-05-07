@@ -1,0 +1,50 @@
+{
+  "issuer_name": "MiniMed Group, Inc.",
+  "ticker": "MMED",
+  "exchange": "Nasdaq",
+  "cik": "0002062583",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "No 10-K available — MiniMed Group is a recent (March 2026) Medtronic spin-off; only an S-1 has been filed. No annual report yet."
+    },
+    "website": {
+      "url": "https://www.minimed.com/",
+      "note": "Commercial diabetes-care device portfolio: MiniMed 780G AID system (T1D and T2D), MiniMed Flex pump, MiniMed Go (MDI), InPen smart insulin pen, i-Port Advance injection port, Simplera/Guardian CGM sensors, CareLink software. No standalone clinical pipeline page."
+    },
+    "ctgov": {
+      "sponsor_query": "MiniMed",
+      "compact_path": "data/mmed_ctgov_compact.json",
+      "note": "Only 3 hits, all COMPLETED legacy Medtronic MiniMed device studies (intraperitoneal insulin pump, low-glucose-suspend Veo pump, dual-hormone closed-loop). No active pivotal/IDE studies appear under the MiniMed sponsor name. Newer 780G/Simplera pivotal data may be filed under Medtronic, Inc. and predates the spin-off."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Diabetes-management medical-device company spun off from Medtronic in March 2026. Marketed devices include automated insulin delivery (AID) systems, continuous glucose monitors (CGM), and smart insulin pens.",
+    "products": [
+      {"name": "MiniMed 780G", "category": "Automated insulin delivery (AID) hybrid closed-loop pump system, T1D and T2D"},
+      {"name": "MiniMed Flex", "category": "Insulin pump system"},
+      {"name": "MiniMed Go", "category": "Connected multiple-daily-injection (MDI) solution"},
+      {"name": "InPen", "category": "Smart insulin pen with dosing app"},
+      {"name": "i-Port Advance", "category": "Subcutaneous injection port"},
+      {"name": "Simplera / Guardian CGM", "category": "Continuous glucose monitoring sensors"},
+      {"name": "CareLink", "category": "Diabetes data-management software"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT00211536 — Intraperitoneal insulin implantable pump P3, COMPLETED 2004",
+    "NCT01297946 — Closed-loop dual-hormone P1/P2 (investigator-led), COMPLETED",
+    "NCT01497938 — Veo low-glucose-suspend feature P3, COMPLETED 2013"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech / device company (diabetes care) — no proprietary therapeutic drug pipeline. MiniMed Group develops and commercializes insulin pumps, CGM sensors, and smart insulin pens. ctgov shows only completed legacy device studies under the Medtronic MiniMed sponsor name; ongoing pivotal/IDE studies for current-generation devices, if any, are not registered under the spun-off MiniMed Group sponsor entity at this snapshot."
+}

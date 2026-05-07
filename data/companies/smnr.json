@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Semnur Pharmaceuticals, Inc.",
+  "ticker": "SMNR",
+  "exchange": "OTC",
+  "cik": "0001913577",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-082642",
+      "filed": "2026-02-27",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1913577/000119312526082642/smnr-20251231.htm"
+    },
+    "website": {"error": "Public corporate domain semnur.com is parked/for sale (GoDaddy redirect); no pipeline page available."},
+    "ctgov": {"endpoint": "ClinicalTrials.gov v2 API", "sponsor_query": "Semnur Pharmaceuticals", "unique_p1_p3_trials": 2, "note": "Both registered trials are COMPLETED; second pivotal Phase 3 initiated Sep 2025 not yet posted to public registry."}
+  },
+  "pipeline": [
+    {
+      "asset": "SP-102",
+      "aka": ["SEMDEXA"],
+      "modality": "Injectable viscous gel formulation of dexamethasone sodium phosphate (corticosteroid)",
+      "target": "Glucocorticoid receptor (anti-inflammatory)",
+      "license_origin": "In-licensed from Shah Investor LP (2013 Assignment Agreement); developed under Scilex/Semnur",
+      "indications": [
+        {
+          "indication": "Lumbosacral radicular pain (sciatica)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Second pivotal Phase 3 study (SP-102)",
+          "trial_design": "Pivotal Phase 3 confirmatory study; first pivotal Phase 3 (NCT03372161) met primary and secondary endpoints (results March 2022).",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 ongoing — second pivotal Phase 3 initiated September 2025; first pivotal Phase 3 NCT03372161 COMPLETED 2021; FDA Fast Track designation granted; 505(b)(2) regulatory pathway.",
+          "lead_sponsor": "Semnur Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "Pivotal Phase 3 NCT03372161 met primary/secondary endpoints (March 2022, published in PAIN Journal June 2024)",
+            "Second pivotal Phase 3 initiated September 2025",
+            "Business Combination with Denali closed September 22, 2025; renamed Semnur Pharmaceuticals, Inc."
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "phase_3": 1, "phase_2": 0, "phase_1": 0}
+}

@@ -1,0 +1,37 @@
+{
+  "issuer_name": "GeneDx Holdings Corp.",
+  "ticker": "WGSWW",
+  "exchange": "Nasdaq",
+  "cik": "0001818331",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-23",
+      "accession": "0001818331-26-000015",
+      "path": "data/wgsww_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public drug pipeline page - diagnostics company"},
+    "ctgov": {
+      "path": "data/wgsww_ctgov_compact.json",
+      "unique_p1_p3_trials": 0,
+      "note": "GeneDx-sponsored studies are observational/registry, not interventional P1-P3"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {"name": "Standard exome sequencing", "category": "Genetic diagnostic test"},
+      {"name": "Whole genome sequencing", "category": "Genetic diagnostic test"},
+      {"name": "Rapid and ultraRapid genome sequencing", "category": "NICU diagnostic test"},
+      {"name": "Newborn genomic screening", "category": "Population screening service"},
+      {"name": "Next Generation Sequencing panels", "category": "Genetic diagnostic test"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "GeneDx Holdings is a clinical genomics / diagnostic testing company providing exome and whole genome sequencing services (rare-disease diagnosis, NICU rapid sequencing, newborn screening). It is a lab-services / diagnostics issuer with no proprietary drug or therapeutic-device clinical pipeline."
+}

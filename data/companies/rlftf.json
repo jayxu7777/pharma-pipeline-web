@@ -1,0 +1,72 @@
+{
+  "issuer_name": "Relief Therapeutics Holding SA",
+  "ticker": "RLFTF",
+  "exchange": "OTC",
+  "cik": "0001854078",
+  "region": "Switzerland",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Switzerland) — does not file 10-K with SEC."},
+    "website": {
+      "url": "https://relieftherapeutics.com/pipeline",
+      "note": "Site redirects to mindmazetherapeutics.com (corporate restructuring); pipeline data sourced from public press releases and external aggregators."
+    },
+    "ctgov": {
+      "path": "data/rlftf_ctgov_compact.json",
+      "note": "No Relief-sponsored trials returned by sponsor search; programs may use APR Applied Pharma Research subsidiary name."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "RLF-OD032",
+      "aka": ["Liquid sapropterin"],
+      "modality": "Advanced liquid formulation of sapropterin dihydrochloride",
+      "target": "BH4 / phenylalanine hydroxylase cofactor",
+      "license_origin": "Internal (Relief / APR Applied Pharma Research)",
+      "indications": [
+        {
+          "indication": "Phenylketonuria (PKU)",
+          "highest_phase": "Phase 3 / NDA-stage",
+          "trial_name": "RLF-OD032 development program",
+          "trial_design": "505(b)(2) NDA pathway",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Final data verification and CMC activities ongoing; 505(b)(2) NDA filing planned early 2026 with 10-month FDA review",
+          "lead_sponsor": "Relief Therapeutics",
+          "key_milestones": ["NDA filing early 2026", "10-month FDA review expected"]
+        }
+      ]
+    },
+    {
+      "asset": "RLF-TD011",
+      "aka": [],
+      "modality": "Topical hypochlorous acid solution (Nexodyn AcidOxidizing Solution technology)",
+      "target": "Wound antimicrobial / pH modulation",
+      "license_origin": "Internal (APR Applied Pharma Research)",
+      "indications": [
+        {
+          "indication": "Epidermolysis bullosa (EB)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RLF-TD011 EB clinical development",
+          "trial_design": "Clinical study in EB wound management",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Clinical development ongoing; FDA Orphan Drug Designation granted",
+          "lead_sponsor": "Relief Therapeutics",
+          "key_milestones": ["FDA Orphan Drug Designation for EB"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "PKU GOLIKE",
+    "indication": "Dietary management of phenylketonuria",
+    "note": "Prolonged-release medical food. Ex-US IP/commercialization sold to Nutrisens (Jan 2025); US rights licensed to Eton Pharmaceuticals. Relief remains exclusive global supplier and develops line extensions for tyrosinemia and homocystinuria (launches 2025-2026)."
+  },
+  "blockers": "Swiss-domiciled company (no SEC 10-K); pipeline page redirects to renamed entity (MindMaze Therapeutics); ctgov sponsor search returns no records under 'Relief Therapeutics' name. Trial NCT IDs not located on public registries.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "RLF-100 (aviptadil)", "indication": "COVID-19 respiratory deficiency", "reason": "Late-stage development effectively concluded post-pandemic; no current active trials disclosed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 1, "p2": 1, "p1": 0}
+}

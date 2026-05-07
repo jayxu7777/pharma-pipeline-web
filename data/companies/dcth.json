@@ -1,0 +1,103 @@
+{
+  "issuer_name": "Delcath Systems, Inc.",
+  "ticker": "DCTH",
+  "exchange": "Nasdaq",
+  "cik": "0000872912",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-012019",
+      "filing_date": "2026-02-26",
+      "file": "data/dcth_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://delcath.com/",
+      "note": "Pipeline page is dynamic/Divi-rendered; pipeline content not extractable via static fetch. Used 10-K plus ctgov."
+    },
+    "ctgov": {
+      "file": "data/dcth_ctgov_compact.json",
+      "sponsor_query": "Delcath Systems"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "HEPZATO KIT (melphalan for Injection / Hepatic Delivery System)",
+      "aka": ["Melphalan/HDS", "PHP", "Percutaneous Hepatic Perfusion", "CHEMOSAT (EU stand-alone device version)"],
+      "modality": "Drug/device combination (chemo-saturation; hepatic arterial melphalan with extracorporeal filtration)",
+      "target": "Liver-directed cytotoxic delivery (alkylating agent)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Liver-dominant HER2-negative metastatic breast cancer (3rd-line)",
+          "highest_phase": "Phase 2",
+          "trial_name": "HEPZATO + SOC vs SOC in liver-dominant mBC",
+          "trial_design": "Randomized, controlled, ~90 patients, >15 sites US/EU; Melphalan/HDS followed by physician's choice SOC (eribulin, vinorelbine or capecitabine) vs SOC alone",
+          "nct_ids": ["NCT06875128"],
+          "trial_status": "Recruiting (start 2026-01-29; primary completion May 2029)",
+          "lead_sponsor": "Delcath Systems Inc.",
+          "key_milestones": [
+            "FDA IND clearance announced 2025-04-28",
+            "hPFS primary endpoint readout expected end of 2028",
+            "OS secondary endpoint readout expected 2029"
+          ]
+        },
+        {
+          "indication": "Refractory liver-dominant metastatic colorectal cancer (3rd-line)",
+          "highest_phase": "Phase 2",
+          "trial_name": "HEPZATO + trifluridine-tipiracil + bevacizumab vs SOC in liver-dominant mCRC",
+          "trial_design": "Randomized, controlled, ~90 patients, >20 sites US/EU; Melphalan/HDS followed by trifluridine-tipiracil + bevacizumab vs trifluridine-tipiracil + bevacizumab alone",
+          "nct_ids": ["NCT06607458"],
+          "trial_status": "Recruiting (start 2025-08-05; primary completion Dec 2026)",
+          "lead_sponsor": "Delcath Systems Inc.",
+          "key_milestones": [
+            "FDA IND cleared December 2024",
+            "EU/UK regulatory authorization received July 2025",
+            "Patient enrollment began Q3 2025",
+            "hPFS primary endpoint readout anticipated end of 2027",
+            "OS secondary endpoint readout expected 2028"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "HEPZATO_KIT": {
+      "approval": "FDA approved 2023-08-14",
+      "indication": "Liver-directed treatment for adult patients with uveal melanoma (mUM) with unresectable hepatic metastases (<50% liver involvement; limited or resectable extrahepatic disease)",
+      "first_commercial_use": "January 2024",
+      "2025_revenue_thousands_usd": 78835,
+      "2024_revenue_thousands_usd": 32303
+    },
+    "CHEMOSAT": {
+      "approval": "CE-marked / MDR certified 2022-02-28 (EU stand-alone hepatic delivery device for melphalan)",
+      "indication": "Liver-directed melphalan delivery; used at major EU centers for cancers in the liver",
+      "2025_revenue_thousands_usd": 6396,
+      "2024_revenue_thousands_usd": 4902
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT02415036", "reason": "TERMINATED (HCC/iCCA Phase 2)"},
+    {"nct_id": "NCT02406508", "reason": "WITHDRAWN (sequential melphalan/HDS + sorafenib in HCC Phase 2)"},
+    {"nct_id": "NCT03086993", "reason": "Status UNKNOWN since 2023 (PHP vs Cis/Gem in iCCA Phase 2/3) — not actively pursued per 10-K"},
+    {"nct_id": "NCT05022901", "reason": "Status UNKNOWN; expanded access study in mUM (Phase 3) for already-approved HEPZATO"},
+    {"nct_id": "NCT00096083", "reason": "COMPLETED (NCI Phase 2)"},
+    {"nct_id": "NCT00324727", "reason": "COMPLETED (NCI Phase 3 in liver mets from melanoma)"},
+    {"nct_id": "NCT02678572", "reason": "COMPLETED — pivotal Phase 3 FOCUS in mUM that supported 2023 HEPZATO approval"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT07281924", "reason": "Investigator-initiated: lead sponsor University of Wisconsin (HEPZATO KIT + Opdualag in metastatic melanoma); Delcath is collaborator only"},
+    {"nct_id": "NCT07276386", "reason": "Investigator-initiated: lead sponsor H. Lee Moffitt Cancer Center (Melphalan/HDS + tebentafusp in metastatic uveal melanoma); Delcath is collaborator only"}
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 2,
+    "phase_1": 0,
+    "indications_active": 2,
+    "approved_products": 2
+  },
+  "no_active_clinical_pipeline_reason": null
+}

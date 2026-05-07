@@ -1,0 +1,26 @@
+{
+  "issuer_name": "Regen BioPharma Inc",
+  "ticker": "RGBP",
+  "exchange": "OTC",
+  "cik": "0001589150",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-25-029526", "path": "/tmp/rgbp_10k.htm", "note": "fetch_10k.py could not auto-locate pipeline section; manually downloaded form10-k.htm"},
+    "website": {"note": "Not crawled — 10-K confirms no active clinical trials"},
+    "ctgov": {"path": "data/rgbp_ctgov_compact.json", "trials_found": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    "HemaXellerate (drug-refractory aplastic anemia) — IND on clinical hold; Phase I has not commenced",
+    "dCellVax (autologous DC vaccine, IDO siRNA) — preclinical",
+    "NR2F6 siRNA in vivo (cancer) — preclinical",
+    "DuraCar (NR2F6 shRNA-modified CAR-T) — preclinical",
+    "NR2F6 small molecules — discovery"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Per FY2025 10-K, Regen BioPharma's lead candidate HemaXellerate has an IND on clinical hold and the Phase I trial has not commenced. All other programs (dCellVax, NR2F6 siRNA/shRNA/CAR-T/small-molecule) are preclinical. The 10-K explicitly states: 'No clinical trials on our product candidates have commenced'. No active P1/P2/P3 trials and zero records on CT.gov as sponsor."
+}

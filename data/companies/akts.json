@@ -1,0 +1,68 @@
+{
+  "issuer_name": "Aktis Oncology, Inc.",
+  "ticker": "AKTS",
+  "exchange": "Nasdaq",
+  "cik": "0002035832",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-131748", "filing_date": "2026-03-30", "doc": "aktis_12.31.25_10k.htm"},
+    "website": {"error": "Pipeline page rendered as image/JS - no machine-readable text retrieved"},
+    "ctgov": {"sponsor_query": "Aktis Oncology", "trials_returned": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "[225Ac]Ac-AKY-1189",
+      "aka": ["AKY-1189"],
+      "modality": "225Ac alpha-emitting miniprotein radioconjugate (with 64Cu/68Ga/177Lu imaging conjugates)",
+      "target": "Nectin-4",
+      "license_origin": "Internal (Aktis); worldwide rights retained",
+      "indications": [
+        {
+          "indication": "Locally advanced or metastatic urothelial carcinoma and other Nectin-4 expressing solid tumors (TNBC, HR+ breast, NSCLC, cervical, colorectal, head and neck) - FDA Fast Track Feb 2026 for UC post systemic therapy",
+          "highest_phase": "Phase 1",
+          "trial_name": "A Study of [225Ac]Ac-AKY-1189 in Patients With Solid Tumors (Phase 1b)",
+          "trial_design": "Multi-site Phase 1b dose escalation (Part 1) followed by dose expansion; 64Cu imaging companion",
+          "nct_ids": ["NCT07020117"],
+          "trial_status": "Recruiting; first dose level completed Dec 2025; Part 1 data expected Q1 2027",
+          "lead_sponsor": "Aktis Oncology, Inc.",
+          "key_milestones": ["Part 1 dose escalation data Q1 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "[225Ac]Ac-AKY-2519",
+      "aka": ["AKY-2519"],
+      "modality": "225Ac alpha-emitting miniprotein radioconjugate (with 64Cu/68Ga/177Lu imaging conjugates)",
+      "target": "B7-H3 (CD276)",
+      "license_origin": "Internal (Aktis); worldwide rights retained",
+      "indications": [
+        {
+          "indication": "B7-H3 expressing solid tumors (mCRPC, NSCLC, SCLC, breast)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Planned Phase 1 of [225Ac]Ac-AKY-2519 (and [64Cu] imaging conjugate)",
+          "trial_design": "Phase 1 dose escalation; INDs cleared March 2026",
+          "nct_ids": "PLANNED - INDs cleared March 2026; trial initiation pending",
+          "trial_status": "PLANNED - INDs allowed by FDA March 2026; imaging/dosimetry data from 68Ga/177Lu conjugates expected mid-2026",
+          "lead_sponsor": "Aktis Oncology, Inc.",
+          "key_milestones": ["68Ga/177Lu imaging+dosimetry data mid-2026", "Phase 1 [225Ac] start"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "AKY-1162", "reason": "Discovery-stage miniprotein radioconjugate"},
+    {"asset": "AKY-807", "reason": "Discovery-stage miniprotein radioconjugate"},
+    {"asset": "Eli Lilly partnered programs", "reason": "Discovery-stage radiopharmaceutical collaboration"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_clinical_assets": 2,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 2,
+    "note": "AKY-2519 is PRE-LAUNCH (INDs cleared March 2026, trial not yet posted to ctgov)."
+  }
+}

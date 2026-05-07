@@ -1,0 +1,24 @@
+{
+  "issuer_name": "Cypherpunk Technologies Inc. (formerly Leap Therapeutics, Inc.)",
+  "ticker": "CYPH",
+  "exchange": "Nasdaq",
+  "cik": "0001509745",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-028566", "filing_date": "2026-03-16", "path": "data/cyph_10k_pipeline_section.html"},
+    "website": {"error": "Company is now a Zcash digital asset treasury company; legacy Leap Therapeutics pipeline page not maintained as primary corporate page"},
+    "ctgov": {"path": "data/cyph_leap_ctgov_compact.json", "note": "Sponsor query used Leap Therapeutics; all R&D wound down per 10-K"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per 2025 10-K (filed 2026-03-16): On June 23, 2025 the Board approved completion of the DeFianCe clinical trial and a full wind-down of R&D activities (sirexatamab/DKN-01 and FL-501 programs). Company also executed a ~75% workforce reduction (CMO/COO/CSO/CMfO departed). On November 12, 2025 the company renamed from Leap Therapeutics to Cypherpunk Technologies Inc., changed ticker LPTX -> CYPH, and pivoted to a Zcash (ZEC) digital asset treasury strategy. ~90% of total assets are now digital assets receivable held at Gemini. Therapeutic R&D continues only as a small wholly-owned Leap subsidiary with no active enrolling P1/P2/P3 trials.",
+  "excluded_preclinical": [
+    {"asset": "FL-501", "indication": "Cachexia-related", "stage": "Preclinical; program wound down per June 2025 restructuring"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Sirexatamab (DKN-01)", "modality": "Anti-DKK1 monoclonal antibody", "indications_studied": ["Gastric cancer", "Endometrial cancer", "Colorectal cancer (DeFianCe)"], "status": "All clinical trials completed and program wound down per June 2025 restructuring"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

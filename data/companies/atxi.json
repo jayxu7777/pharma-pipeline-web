@@ -1,0 +1,58 @@
+{
+  "issuer_name": "Avenue Therapeutics, Inc.",
+  "ticker": "ATXI",
+  "exchange": "OTC",
+  "cik": "0001644963",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-010359", "filing_date": "2026-03-30", "path": "data/atxi_10k_pipeline_section.html"},
+    "website": {"note": "Website not crawled — 10-K + ctgov sufficient"},
+    "ctgov": {"path": "data/atxi_ctgov_compact.json", "trials_found": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "ATX-04 (clenbuterol)",
+      "aka": ["clenbuterol"],
+      "modality": "Selective beta-2 adrenergic agonist (small molecule)",
+      "target": "Beta-2 adrenergic receptor",
+      "license_origin": "Licensed from Duke University (Feb 2026)",
+      "indications": [
+        {
+          "indication": "Pompe disease — adjunct to enzyme replacement therapy",
+          "highest_phase": "Phase 1/2 completed; planning pivotal trial",
+          "trial_name": "Duke 52-week Phase I/II at Duke (completed); pivotal trial in pre-IND prep",
+          "trial_design": "Pivotal study design under discussion with FDA (pre-IND meeting being prepared)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pivotal study; pre-IND with FDA pending; capital raise required",
+          "lead_sponsor": "Avenue Therapeutics, Inc.",
+          "key_milestones": ["Feb 2026 Duke license", "Pre-IND meeting planned"]
+        }
+      ]
+    },
+    {
+      "asset": "IV Tramadol",
+      "aka": [],
+      "modality": "Synthetic dual-acting opioid (Schedule IV)",
+      "target": "Mu-opioid receptor agonist + serotonin/noradrenaline reuptake inhibitor",
+      "license_origin": "Exclusive US license from Revogenex",
+      "indications": [
+        {
+          "indication": "Postoperative acute pain (inpatient)",
+          "highest_phase": "Phase 3 (NDA twice CRL'd; new Phase 3 safety study planned)",
+          "trial_name": "IV Tramadol vs IV Morphine non-inferiority safety study (post-bunionectomy, ~300 pts)",
+          "trial_design": "Randomized non-inferiority safety study — composite respiratory depression endpoint; design agreed with FDA Jan 2024",
+          "nct_ids": ["NCT03774836", "NCT03290378", "NCT03395808"],
+          "trial_status": "Phase 3 safety study PLANNED — feasibility under evaluation, subject to financing/partnership; previously completed Phase 3 efficacy trials (NCT03290378, NCT03395808 Completed; NCT03774836 Active, not recruiting)",
+          "lead_sponsor": "Avenue Therapeutics, Inc.",
+          "key_milestones": ["Dec 2019 NDA submission", "Oct 2020 First CRL", "Jun 2021 Second CRL", "Jan 2024 Phase 3 safety study protocol agreed with FDA"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["AJ201 (SBMA) — AnnJi license terminated April 2025; rights returned to AnnJi"],
+  "excluded_partner_owned": ["BAER-101 (now AXS-17) — Baergic subsidiary sold to Axsome Nov 2025; AVENUE retains only milestone/royalty entitlements"],
+  "summary_counts": {"total_assets": 2, "p3": 1, "p2": 0, "p1": 0, "p1_p2_completed_planning_pivotal": 1}
+}

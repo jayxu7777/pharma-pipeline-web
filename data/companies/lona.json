@@ -1,0 +1,58 @@
+{
+  "issuer_name": "LeonaBio, Inc.",
+  "ticker": "LONA",
+  "exchange": "Nasdaq",
+  "cik": "0001620463",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-134565", "filing_date": "2026-03-31", "form": "10-K"},
+    "website": {"url": "https://leonabio.com/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "LeonaBio", "studies_count": 9}
+  },
+  "pipeline": [
+    {
+      "asset": "Lasofoxifene",
+      "aka": [],
+      "modality": "Oral small molecule (SERM)",
+      "target": "Estrogen receptor (selective modulator)",
+      "license_origin": "Acquired (formerly Sermonix; via Athira/LeonaBio)",
+      "indications": [
+        {
+          "indication": "ER+/HER2-, ESR1-mutated metastatic breast cancer — combination with abemaciclib",
+          "highest_phase": "Phase 3",
+          "trial_name": "ELAINE-3",
+          "trial_design": "Randomized, open-label, registrational Phase 3 vs fulvestrant + abemaciclib",
+          "nct_ids": ["NCT05696626"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "LeonaBio, Inc. (formerly Sermonix Pharmaceuticals)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ATH-1105",
+      "aka": [],
+      "modality": "Oral small molecule",
+      "target": "Positive modulator of the neurotrophic HGF system",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Amyotrophic lateral sclerosis (ALS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ATH-1105 Phase 2 in ALS (planned)",
+          "trial_design": "Phase 2 (in planning per 10-K; first-in-human Phase 1 SAD/MAD completed)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 2 in ALS being prepared; Phase 1 SAD/MAD (NCT06432647) completed",
+          "lead_sponsor": "LeonaBio, Inc.",
+          "key_milestones": ["Phase 1 SAD/MAD completed (NCT06432647)"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Early HGF-system compound discovery programs"],
+  "excluded_legacy_terminated": ["Fosgonimeton (ATH-1017) — Phase 2/3 LIFT-AD (NCT04488419) and Phase 2 SHAPE in DLB/PDD (NCT04831281) terminated; program halted", "ATH-1020 (Phase 1 NCT05169671) — Phase 1 completed; further development under review"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "phase_3": 1, "phase_2": 1, "phase_1": 0}
+}

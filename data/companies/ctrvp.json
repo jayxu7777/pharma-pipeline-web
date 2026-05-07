@@ -1,0 +1,22 @@
+{
+  "issuer_name": "Hepion Pharmaceuticals, Inc.",
+  "ticker": "CTRVP",
+  "exchange": "OTC",
+  "cik": "0001583771",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-009755", "filed": "2026-03-12", "doc": "form10-k.htm", "file": "data/ctrvp_10k_pipeline_section.html"},
+    "website": {"url": "https://hepionpharma.com/pipeline/", "fetched": "2026-05-06", "note": "Page reorganized as 'Diagnostic Candidates - Updates Coming Soon!' - no active clinical drug development disclosed."},
+    "ctgov": {"sponsor_query": "Hepion Pharmaceuticals", "studies_returned": 4, "active_or_recruiting": 1, "completed": 3, "file": "data/ctrvp_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "rencofilstat (CRV431)", "modality": "Cyclophilin inhibitor (small molecule)", "indication": "NASH with fibrosis", "highest_phase_reached": "P2b", "nct_ids": ["NCT05402371", "NCT05461105", "NCT04480710"], "status": "ASCEND-NASH wound down April 2024 (151/336 enrolled, enrollment paused April 2023). Company has discontinued clinical drug development of rencofilstat and pivoted to diagnostics."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Hepion wound down its lead asset rencofilstat (ASCEND-NASH) in April 2024, was delisted from Nasdaq in May 2025 (now trades OTC), and pivoted to in-licensed diagnostics (celiac, respiratory multiplex, H. pylori, HCC ctRNA biomarker from Cirna Diagnostics, March 2026). The pipeline page on hepionpharma.com lists only 'Diagnostic Candidates - Updates Coming Soon!' with no clinical-stage drug assets. CTRVP is a non-common security (preferred/warrant class) of Hepion on OTC; no active P1/P2/P3 drug pipeline."
+}

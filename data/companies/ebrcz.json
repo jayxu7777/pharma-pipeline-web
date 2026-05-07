@@ -1,0 +1,50 @@
+{
+  "issuer_name": "EBR Systems, Inc.",
+  "ticker": "EBRCZ",
+  "exchange": "OTC",
+  "cik": "0001347123",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001214659-26-003451",
+      "filing_date": "2026-03-18",
+      "doc": "s31626010k.htm"
+    },
+    "website": {
+      "url": "https://www.ebrsystemsinc.com/",
+      "note": "WiSE-UP post-approval registry referenced (first enrollments Nov 2025); no dedicated public pipeline page"
+    },
+    "ctgov": {
+      "unique_trials_p1_3": 0,
+      "raw_studies_seen": 7,
+      "note": "All EBR-sponsored device studies are phase=NA (feasibility / IDE / post-market registry) and therefore excluded by the P1/P2/P3 drug-trial scope. Active studies seen: NCT06561932 (feasibility, Recruiting), NCT07098858 (WiSE-UP Registry, Recruiting), NCT02922036 (Active, not recruiting), NCT02610673 (WiCS-LV PMS Registry, Active, not recruiting).",
+      "compact_path": "data/ebrcz_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Implantable cardiac device",
+    "products": [
+      "WiSE CRT System \u2014 leadless left-ventricular endocardial pacing system for cardiac resynchronization therapy"
+    ],
+    "regulatory_status": "FDA PMA-approved (April 2025); commercially distributed in the United States; CE-marked and used in additional jurisdictions"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "ongoing_device_studies_out_of_scope": [
+    {"nct": "NCT07098858", "name": "WiSE-UP Registry", "status": "RECRUITING", "phase": "NA", "reason": "Post-approval real-world registry, not a P1/P2/P3 drug trial"},
+    {"nct": "NCT06561932", "name": "WiSE CRT System feasibility implant study", "status": "RECRUITING", "phase": "NA", "reason": "Device feasibility, not a P1/P2/P3 drug trial"},
+    {"nct": "NCT02922036", "name": "CRT in previously implanted patients", "status": "ACTIVE_NOT_RECRUITING", "phase": "NA", "reason": "Device study, not a P1/P2/P3 drug trial"},
+    {"nct": "NCT02610673", "name": "WiCS-LV Post Market Surveillance Registry", "status": "ACTIVE_NOT_RECRUITING", "phase": "NA", "reason": "Post-market surveillance registry"}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Implantable cardiac device company. WiSE CRT System received FDA PMA approval in April 2025 and is now commercial; remaining clinical activity is post-approval/feasibility device studies (phase=NA), which are out of scope for the P1/P2/P3 drug-pipeline schema."
+}

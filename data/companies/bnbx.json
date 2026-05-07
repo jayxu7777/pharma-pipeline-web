@@ -1,0 +1,34 @@
+{
+  "issuer_name": "BNB Plus Corp. (formerly Applied DNA Sciences, Inc.)",
+  "ticker": "BNBX",
+  "exchange": "Nasdaq",
+  "cik": "0000744452",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-12-22",
+      "accession": "0001104659-25-123342",
+      "url": "https://www.sec.gov/Archives/edgar/data/744452/000110465925123342/tmb-20250930x10k.htm"
+    },
+    "website": {
+      "error": "Company is now a digital asset treasury (DAT) company; no proprietary clinical pipeline page maintained"
+    },
+    "ctgov": {
+      "query_sponsor": "BNB PLUS",
+      "trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "no_active_clinical_pipeline_reason": "BNB Plus Corp. is primarily a digital asset treasury (DAT) company focused on accumulating BNB cryptocurrency. Its 98%-owned subsidiary LineaRx, Inc. is a CDMO/services business commercializing the LineaDNA, LineaRNAP, and LineaIVT cell-free nucleic acid manufacturing platforms for third-party biotech customers; LineaRx does not own any proprietary drug or biologic in clinical development. The company's stated business strategy is to sell or license LineaRx to a third party. No active P1/P2/P3 trials with the company as sponsor."
+}

@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Oncolytics Biotech Inc.",
+  "ticker": "ONCY",
+  "exchange": "Nasdaq",
+  "cik": "0001129928",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001129928-26-000020", "filing_date": "2026-03-30", "path": "data/oncy_10k_pipeline_section.html"},
+    "website": {"url": "https://www.oncolyticsbiotech.com/pipeline", "note": "Pipeline page is dynamic; lead asset Pelareorep across multiple oncology indications"},
+    "ctgov": {"path": "data/oncy_ctgov_compact.json", "trial_count": 22}
+  },
+  "pipeline": [
+    {
+      "asset": "Pelareorep",
+      "aka": ["REOLYSIN", "Reovirus serotype 3 Dearing Strain", "Wild-type Reovirus"],
+      "modality": "Intravenous oncolytic reovirus immunotherapy",
+      "target": "Tumor immune microenvironment (innate and adaptive immune activation via viral oncolysis)",
+      "license_origin": "Internal; partnered with Adlai Nortye for Greater China + select Asia regions",
+      "indications": [
+        {
+          "indication": "Metastatic RAS-mutated, microsatellite-stable colorectal cancer (2L)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Pelareorep + FOLFIRI + bevacizumab vs FOLFIRI + bevacizumab",
+          "trial_design": "Randomized Phase 2 second-line mCRC",
+          "nct_ids": ["NCT07446322"],
+          "trial_status": "Recruiting (start 2026-04)",
+          "lead_sponsor": "Oncolytics Biotech",
+          "key_milestones": ["Primary completion 2027-08-30"]
+        },
+        {
+          "indication": "Advanced/metastatic gastrointestinal cancers (anal, pancreatic)",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "GOBLET — Pelareorep + atezolizumab combinations in GI cancers",
+          "trial_design": "Multi-cohort Phase 1/2 with atezolizumab plus chemo backbones (gem/nab-pac, FOLFIRINOX, trifluridine/tipiracil)",
+          "nct_ids": ["NCT07280377"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Oncolytics Biotech",
+          "key_milestones": ["Primary completion 2027-07-30", "Co-funded by PanCAN Therapeutic Accelerator Award for FOLFIRINOX pancreatic cohort"]
+        },
+        {
+          "indication": "Metastatic HR+/HER2- breast cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "BRACELET-1 — Pelareorep + paclitaxel +/- avelumab",
+          "trial_design": "Randomized Phase 2 in metastatic breast cancer",
+          "nct_ids": ["NCT04215146"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Oncolytics Biotech",
+          "key_milestones": ["Primary completion 2022-08; readouts ongoing; supports planned registrational program"]
+        },
+        {
+          "indication": "Metastatic triple-negative breast cancer (mTNBC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IRENE — Pelareorep + retifanlimab (INCMGA00012)",
+          "trial_design": "Investigator-sponsored Phase 2",
+          "nct_ids": ["NCT04445844"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Mridula George, MD (Rutgers); Oncolytics collaborator",
+          "key_milestones": ["Primary completion 2025-06-30"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Pelareorep legacy combos (REOLYSIN era)", "nct_ids": ["NCT01166542 P3 H&N", "NCT00753038", "NCT00998322", "NCT01622543", "NCT01619813", "NCT00861627", "NCT00528684", "NCT00984464", "NCT01274624", "NCT01708993", "NCT01656538", "NCT00503295", "NCT00998192", "NCT02620423", "NCT02723838 (WITHDRAWN)", "NCT03605719", "NCT02514382", "NCT03015922", "NCT03763318"], "status": "All COMPLETED, WITHDRAWN, UNKNOWN, or TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 0, "p2": 4, "p1": 0, "p1_p2": 1}
+}

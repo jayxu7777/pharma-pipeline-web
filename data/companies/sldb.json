@@ -1,0 +1,103 @@
+{
+  "issuer_name": "Solid Biosciences Inc.",
+  "ticker": "SLDB",
+  "exchange": "Nasdaq",
+  "cik": "0001707502",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-115928",
+      "filing_date": "2026-03-19",
+      "doc": "sldb-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.solidbio.com/pipeline"
+    },
+    "ctgov": {
+      "query_sponsor": "Solid Biosciences",
+      "studies_returned": 5,
+      "active_p123_company_sponsored": 4
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "SGT-003",
+      "aka": [],
+      "modality": "AAV gene therapy (AAV-SLB101 capsid; microdystrophin transgene with R16/R17 nNOS-binding domain)",
+      "target": "Microdystrophin transgene delivery (DMD gene replacement-style)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Duchenne muscular dystrophy (ambulatory pediatric)",
+          "highest_phase": "Phase 3",
+          "trial_name": "IMPACT DUCHENNE (Phase 3 confirmatory) and INSPIRE DUCHENNE (Phase 1/2 first-in-human)",
+          "trial_design": "Phase 3 randomized, placebo-controlled (IMPACT) plus open-label single-arm Phase 1/2 (INSPIRE) at 1E14 vg/kg IV one-time infusion",
+          "nct_ids": ["NCT07160634", "NCT06138639"],
+          "trial_status": "Recruiting (both pivotal Phase 3 and Phase 1/2 ongoing)",
+          "lead_sponsor": "Solid Biosciences Inc.",
+          "key_milestones": [
+            "Nov 2023: FDA cleared IND",
+            "Q2 2024: first dosing in INSPIRE DUCHENNE",
+            "Day 360 microdystrophin expression 91% by western blot reported"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "SGT-212",
+      "aka": [],
+      "modality": "AAV gene therapy (frataxin transgene)",
+      "target": "Frataxin (FXN) gene replacement",
+      "license_origin": "Internal (advanced via AavantiBio acquisition Dec 2022)",
+      "indications": [
+        {
+          "indication": "Friedreich's ataxia",
+          "highest_phase": "Phase 1",
+          "trial_name": "FALCON (SGT-212 Phase 1)",
+          "trial_design": "Open-label Phase 1 first-in-human",
+          "nct_ids": ["NCT07180355"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Solid Biosciences Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SGT-501",
+      "aka": [],
+      "modality": "AAV gene therapy (CASQ2 transgene initial; broader CPVT program)",
+      "target": "CASQ2 (and RYR2 pathway) — calcium handling in cardiomyocytes",
+      "license_origin": "Internal (advanced via AavantiBio acquisition Dec 2022)",
+      "indications": [
+        {
+          "indication": "Catecholaminergic polymorphic ventricular tachycardia (CPVT)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ARTEMIS (SGT-501 Phase 1)",
+          "trial_design": "Open-label Phase 1 first-in-human",
+          "nct_ids": ["NCT07148089"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Solid Biosciences Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "SGT-401 (BAG3 DCM gene therapy) — preclinical",
+    "SGT-601 (TNNT2 DCM gene therapy) — preclinical",
+    "SGT-701 (RBM20 DCM gene therapy) — preclinical",
+    "Next-generation cardiac/neuromuscular capsid libraries — preclinical (capsid selection 2H 2026)"
+  ],
+  "excluded_legacy_terminated": [
+    "SGT-001 (microdystrophin AAV9 IGNITE DMD; NCT03368742) — company \"no longer developing\" SGT-001 per 10-K; trial registry remains \"Active, not recruiting\" for follow-up only"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 3
+  }
+}

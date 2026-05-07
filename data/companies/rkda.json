@@ -1,0 +1,40 @@
+{
+  "issuer_name": "Arcadia Biosciences, Inc.",
+  "ticker": "RKDA",
+  "exchange": "Nasdaq",
+  "cik": "0001469443",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-126238",
+      "filing_date": "2026-03-26",
+      "doc": "rkda-20251231.htm",
+      "note": "Agricultural biotech / consumer beverage issuer. No drug pipeline disclosed."
+    },
+    "website": {
+      "url": "https://www.arcadiabio.com/",
+      "note": "Site lists Zola Coconut Water and agronomic wheat traits only; no drug or clinical pipeline. /pipeline path returns 404."
+    },
+    "ctgov": {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.spons=Arcadia+Biosciences",
+      "result": "0 trials sponsored by Arcadia Biosciences"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "consumer_brands": ["Zola Coconut Water (original, original-with-pulp, espresso, pineapple)"],
+    "note": "Sold or divested most agricultural trait IP (RS durum wheat to Corteva 2024-05; GoodWheat to Above Food 2024-05; soy traits returned from BIOX 2025-03; Bioseed license terminated 2025-05). 24 issued patents remain as of 2025-12-31."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Arcadia Biosciences is an agricultural biotechnology and consumer wellness food company (Zola coconut water, divested wheat traits). It is mis-bucketed under wide_keyword_match but has never developed pharmaceutical drugs and has no clinical-stage assets. Going-concern doubt also disclosed in 2025 10-K."
+}

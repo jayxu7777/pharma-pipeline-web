@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Invech Holdings, Inc.",
+  "ticker": "IVHI",
+  "exchange": "OTC",
+  "cik": "0001009919",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "filed under OTC Markets Alternative Reporting Standards",
+      "accession": "n/a — non-SEC-reporting since Form 15-12G in 2006",
+      "note": "Annual report describes IVHI as a shell-style entity providing public-company regulatory compliance and consulting services (SEC, FINRA, OTC Markets reporting). The company had a brief Chinese pharmaceutical interest (Hubei Pharmaceutical Co. Ltd.) divested in 2004-2005 and abandoned all operations in 2007. Charter was revoked; revived via Nevada custodianship in 2017 and re-purposed as a microcap compliance consultancy. No drug or device pipeline."
+    },
+    "website": {
+      "error": "no public pipeline page found — non-pharma issuer (compliance services shell)"
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 0,
+      "note": "No trials found on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "Hubei Pharmaceutical Co. Ltd. (controlling interest)",
+      "reason": "Divested in 2004; the Company terminated participation in the Hubei Tongji Benda Ebei Pharmaceutical JV in October 2005. No proprietary drug assets retained."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Non-pharma issuer. IVHI is a microcap regulatory-compliance and consulting shell company that abandoned all prior business operations in 2007 and was revived via Nevada custodianship in 2017. Historical Chinese pharma interests were fully divested by 2005. No active drug or device clinical pipeline. Mis-bucketed by wide_keyword_match (likely picked up by 'pharmaceutical' in legacy corporate history)."
+}

@@ -1,0 +1,52 @@
+{
+  "issuer_name": "VERACYTE, INC.",
+  "ticker": "VCYT",
+  "exchange": "Nasdaq",
+  "cik": "0001384101",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001384101-26-000010",
+      "filing_date": "2026-02-26",
+      "file": "data/vcyt_10k_pipeline_section.html",
+      "note": "Veracyte is a global diagnostics company. Tests address prostate cancer (Decipher Prostate), thyroid cancer (Afirma), bladder cancer (Decipher Bladder, formerly Decipher Bladder GRS), breast cancer (Prosigna), idiopathic pulmonary fibrosis (Envisia) and lymphoma (Lymphmark). No proprietary drug pipeline disclosed."
+    },
+    "website": {
+      "error": "no public drug pipeline page found (Veracyte is a diagnostics company without a therapeutic pipeline page)"
+    },
+    "ctgov": {
+      "file": "data/vcyt_ctgov_compact.json",
+      "trials_returned": 3,
+      "note": "All 3 P1-3 trials have Veracyte as a collaborator only — investigator-initiated or pharma-sponsored studies (UCSD prostate radiotherapy; Gustave Roussy/BeiGene tislelizumab MRD; Cancer Research Antwerp/Bayer darolutamide). Veracyte's role is supplying diagnostic tests, not a proprietary therapeutic asset."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Veracyte is a genomic diagnostics company that develops and commercializes molecular tests for cancer and other diseases.",
+    "key_franchises": [
+      "Decipher Prostate (genomic classifier, NCCN-included for risk stratification)",
+      "Afirma (thyroid nodule classifier)",
+      "Decipher Bladder (genomic classifier)",
+      "Prosigna (breast cancer prognostic, IVD)",
+      "Envisia (idiopathic pulmonary fibrosis classifier)",
+      "Percepta Nasal Swab and Percepta Genomic Sequencing Classifier (lung cancer risk)",
+      "Lymphmark (lymphoma diagnostic)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"nct": "NCT06990542", "lead_sponsor": "University of California, San Diego", "reason": "Investigator-initiated prostate radiotherapy trial; Veracyte collaborator providing Decipher classifier."},
+    {"nct": "NCT06332274", "lead_sponsor": "Gustave Roussy", "reason": "BeiGene tislelizumab MRD-guided trial; Veracyte collaborator providing MRD diagnostic, not asset owner."},
+    {"nct": "NCT06282588", "lead_sponsor": "Cancer Research Antwerp", "reason": "Bayer darolutamide-based prostate trial; Veracyte collaborator providing diagnostic, not asset owner."}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Veracyte is a genomic diagnostics / lab-services company (Decipher Prostate, Afirma, Prosigna, Envisia, Percepta, Lymphmark). It commercializes molecular tests, not drugs, and has no proprietary therapeutic pipeline. The 3 ctgov P1-3 trials all list Veracyte as a collaborator providing diagnostic services to externally sponsored studies."
+}

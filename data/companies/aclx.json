@@ -1,0 +1,158 @@
+{
+  "issuer_name": "Arcellx, Inc.",
+  "ticker": "ACLX",
+  "exchange": "Nasdaq",
+  "cik": "0001786205",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-076876", "filing_date": "2026-02-26", "doc": "aclx-20251231.htm"},
+    "website": {"note": "Pipeline confirmed via 10-K Item 1 'Our Pipeline' section; corporate site (arcellx.com) mirrors the 10-K disclosures."},
+    "ctgov": {"sponsor_query": "Arcellx", "trials_returned": 5, "kept_active_p1_p3": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "anito-cel",
+      "aka": ["anitocabtagene autoleucel", "CART-ddBCMA"],
+      "modality": "Autologous BCMA-targeted D-Domain CAR-T cell therapy",
+      "target": "BCMA",
+      "license_origin": "Internal (D-Domain platform); co-developed with Kite/Gilead in MM under 2022 Collaboration Agreement",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory multiple myeloma (rrMM), 4L+",
+          "highest_phase": "Registration / BLA filed (PDUFA 2026-12-23)",
+          "trial_name": "iMMagine-1",
+          "trial_design": "Single-arm, open-label, pivotal Phase 2; N=117; ORR primary endpoint; 20 US sites",
+          "nct_ids": ["NCT05396885"],
+          "trial_status": "Active, not recruiting (dosing complete Q4 2024)",
+          "lead_sponsor": "Kite, A Gilead Company (collaborator: Arcellx)",
+          "key_milestones": [
+            "Oct 2025 data: ORR 96%, CR/sCR 74%, mPFS not reached at 15.9 mo median follow-up (ASH 2025)",
+            "BLA filed; PDUFA target action date 2026-12-23",
+            "Fast Track, Orphan Drug, RMAT designations granted"
+          ]
+        },
+        {
+          "indication": "Relapsed/refractory multiple myeloma (rrMM), 2L-4L",
+          "highest_phase": "Phase 3",
+          "trial_name": "iMMagine-3",
+          "trial_design": "Global, randomized controlled Phase 3; N=~450; anito-cel vs investigator-choice SOC (PVd/DPd/KDd/Kd); ~130 sites; primary endpoint PFS",
+          "nct_ids": ["NCT06413498"],
+          "trial_status": "Recruiting; full enrollment expected mid-2026",
+          "lead_sponsor": "Kite, A Gilead Company (collaborator: Arcellx)",
+          "key_milestones": [
+            "Initiated 2024-08-23",
+            "Expected full enrollment mid-2026"
+          ]
+        },
+        {
+          "indication": "Frontline multiple myeloma (safety lead-in)",
+          "highest_phase": "Phase 1",
+          "trial_name": "GEM-AnitoFIRST",
+          "trial_design": "Safety lead-in for future pivotal frontline trials",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Initiated 2025; ongoing",
+          "lead_sponsor": "Kite, A Gilead Company (collaborator: Arcellx)",
+          "key_milestones": [
+            "Initiated 2025"
+          ]
+        },
+        {
+          "indication": "Generalized myasthenia gravis (gMG) and other plasma-cell-driven autoimmune diseases",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 anito-cel in non-oncology plasma cell-related diseases",
+          "trial_design": "Phase 1, open-label; lymphodepletion (Cy/Flu) + anito-cel infusion; manufactured at Arcellx Redwood City cGMP facility",
+          "nct_ids": ["NCT06626919"],
+          "trial_status": "Recruiting (dosing initiated H2 2025)",
+          "lead_sponsor": "Arcellx, Inc. (wholly-owned outside Kite collaboration)",
+          "key_milestones": [
+            "First patient dosed H2 2025",
+            "Wholly-owned program (autoimmune indications excluded from Kite agreement)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "ACLX-001",
+      "aka": ["ARC-T cells + SPRX001 (BCMA SparX)"],
+      "modality": "ARC-SparX universal CAR-T plus bi-valent SparX adapter protein targeting BCMA",
+      "target": "BCMA (via SparX adapter)",
+      "license_origin": "Internal ARC-SparX platform; Kite exercised option Dec 2023 to negotiate license",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory multiple myeloma (rrMM)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ACLX-001 Phase 1 dose-escalation",
+          "trial_design": "Phase 1 dose-escalation of ARC-T-cells + SPRX001 with flexible dosing frequency; primary endpoint TEAEs/DLTs",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing (initiated 2022)",
+          "lead_sponsor": "Arcellx, Inc.",
+          "key_milestones": [
+            "Initiated 2022",
+            "Kite exercised option to negotiate exclusive license, December 2023"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "ACLX-002",
+      "aka": ["ARC-T cells + SPRX002 (CD123 SparX)"],
+      "modality": "ARC-SparX universal CAR-T plus mono-valent SparX adapter protein targeting CD123",
+      "target": "CD123",
+      "license_origin": "Internal ARC-SparX platform",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory acute myeloid leukemia (AML) and high-risk myelodysplastic syndromes (MDS)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase I Study of Cell Therapies for Patients With R/R AML or High-risk MDS",
+          "trial_design": "Phase 1 dose-escalation of ARC-T-cells + SPRX002; primary endpoint TEAEs/DLTs to identify RP2D",
+          "nct_ids": ["NCT05457010"],
+          "trial_status": "Ongoing (ctgov status: UNKNOWN; primary completion 2025-09-30); initiated 2022",
+          "lead_sponsor": "Arcellx, Inc.",
+          "key_milestones": [
+            "Initiated 2022"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "ACLX-004",
+      "aka": ["ARC-T cells + dual CD33/CD123 SparX"],
+      "modality": "ARC-SparX universal CAR-T plus SparX adapter targeting CD33 and CD123",
+      "target": "CD33 / CD123",
+      "license_origin": "Internal ARC-SparX platform",
+      "indications": [
+        {
+          "indication": "Acute myeloid leukemia (AML) — IND cleared 2025; trial initiation pending",
+          "highest_phase": "Phase 1 (IND cleared, trial initiation pending)",
+          "trial_name": "Not yet initiated",
+          "trial_design": "Phase 1 planned; details TBD",
+          "nct_ids": [],
+          "trial_status": "PLANNED — IND cleared by FDA in 2025; first-in-human trial initiation pending",
+          "lead_sponsor": "Arcellx, Inc.",
+          "key_milestones": [
+            "FDA IND clearance in 2025"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Additional ARC-SparX programs in AML/MDS (SparX proteins against undisclosed antigens) — preclinical",
+    "ddCAR for HCC (hepatocellular carcinoma) — preclinical / discovery",
+    "AND-gated SparX proteins for solid tumors (e.g., SCLC) — preclinical / discovery",
+    "Additional CS1-targeted ARC-SparX program — preclinical (Kite option)",
+    "Next-generation off-the-shelf NK-/T-based therapies — research"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 4,
+    "registration_or_marketed": 1,
+    "note": "Counts are by asset-indication combinations of distinct highest-phase status. anito-cel: 1 Registration (4L+ MM, BLA filed), 1 P3 (2L-4L MM iMMagine-3), 2 P1 (frontline MM, gMG). ACLX-001/002: 1 P1 each. ACLX-004: planned (IND cleared)."
+  }
+}

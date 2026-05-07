@@ -1,0 +1,55 @@
+{
+  "issuer_name": "Clearside Biomedical, Inc.",
+  "ticker": "CLSDQ",
+  "exchange": "OTC",
+  "cik": "0001539029",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000950170-25-046134", "filed": "2025-03-27", "form": "10-K"},
+    "website": {"url": "https://clearsidebio.com/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"unique_p1_p3_trials": 11, "as_of": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "CLS-AX",
+      "aka": ["axitinib injectable suspension"],
+      "modality": "Small molecule (TKI) suprachoroidal injection",
+      "target": "VEGFR tyrosine kinase",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Neovascular (wet) age-related macular degeneration",
+          "highest_phase": "Phase 2 complete; Phase 3 planned",
+          "trial_name": "ODYSSEY (Phase 2b) completed; Phase 3 pivotal program planned (2 non-inferiority trials vs aflibercept 2 mg)",
+          "trial_design": "Phase 2b ODYSSEY: randomized, masked, active-controlled vs aflibercept; Phase 3: planned two pivotal non-inferiority trials vs aflibercept 2 mg in treatment-naive patients with flexible dosing",
+          "nct_ids": ["NCT05891548", "NCT04626128"],
+          "trial_status": "Phase 2 ODYSSEY (NCT05891548) COMPLETED 2024-08; End-of-Phase 2 FDA meeting 1Q2025; Phase 3 PLANNED to initiate 2H2025 subject to financing",
+          "lead_sponsor": "Clearside Biomedical, Inc.",
+          "key_milestones": ["Phase 3 initiation pending financing/partnering"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "XIPERE (US)": "Triamcinolone acetonide suprachoroidal — partnered with Bausch + Lomb for uveitic macular edema",
+    "ARCATUS (Asia-Pac)": "Triamcinolone acetonide suprachoroidal — partnered with Arctic Vision for uveitic ME and DME"
+  },
+  "excluded_preclinical": [
+    "CLS-AX in Geographic Atrophy (early/undisclosed)",
+    "Unnamed pro-inflammatory cell modulator in Geographic Atrophy (early/undisclosed)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT02980874 PHASE3 RVO TERMINATED 2018",
+    "NCT03203447 PHASE3 RVO TERMINATED 2018",
+    "Legacy CLS-TA program (XIPERE) — commercialized; partnered"
+  ],
+  "excluded_partner_owned": [
+    "Bel-Sar (Aura Biosciences) Phase 3 CoMpass — uses SCS Microinjector but Aura-sponsored",
+    "ABBV-RGX-314 / sura-vec (AbbVie/Regenxbio) — partner-sponsored",
+    "Avoralstat (BioCryst) DME — partner-sponsored"
+  ],
+  "summary_counts": {"P3": 0, "P2": 1, "P1": 0, "total_active_assets": 1},
+  "blockers": "Going-concern / Chapter 11 status (CLSDQ ticker suffix); Phase 3 initiation contingent on financing"
+}

@@ -1,0 +1,258 @@
+{
+  "issuer_name": "Duality Biotherapeutics Inc/ADR",
+  "ticker": "DUTBF",
+  "exchange": "OTC",
+  "cik": "0002085208",
+  "region": "China",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer / Hong Kong-listed (HKEX 09606); no 10-K on EDGAR. ADR is unsponsored OTC."
+    },
+    "website": {
+      "error": "dualitybiologics.com SSL certificate verification failed; dualitybio.com domain is parked/for sale. Pipeline reconstructed from ClinicalTrials.gov with company codename matching."
+    },
+    "ctgov": {
+      "trials_p1_p3": 16,
+      "lead_sponsor_used": "DualityBio Inc.",
+      "co_sponsor_partners": ["BioNTech SE", "GlaxoSmithKline"]
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "DB-1303",
+      "aka": ["BNT323", "trastuzumab pamirtecan"],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "HER2",
+      "license_origin": "Internally discovered by DualityBio; ex-Greater China rights licensed to BioNTech (2023).",
+      "indications": [
+        {
+          "indication": "HER2-positive metastatic breast cancer (vs T-DM1)",
+          "highest_phase": "Phase 3",
+          "trial_name": "DYNASTY-Breast01-style head-to-head vs T-DM1",
+          "trial_design": "Randomized active-controlled Phase 3",
+          "nct_ids": ["NCT06265428"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Primary completion Feb 2026"]
+        },
+        {
+          "indication": "HER2-low, HR+ metastatic breast cancer",
+          "highest_phase": "Phase 3",
+          "trial_name": "DYNASTY-Breast02",
+          "trial_design": "Randomized vs investigator's choice chemotherapy",
+          "nct_ids": ["NCT06018337"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Primary completion May 2026"]
+        },
+        {
+          "indication": "Recurrent endometrial cancer",
+          "highest_phase": "Phase 3",
+          "trial_name": "BNT323 endometrial Ph3",
+          "trial_design": "Randomized vs chemotherapy (doxorubicin/paclitaxel/docetaxel)",
+          "nct_ids": ["NCT06340568"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech SE",
+          "key_milestones": ["Primary completion Mar 2028"]
+        },
+        {
+          "indication": "HER2-positive advanced/metastatic solid tumors",
+          "highest_phase": "Phase 1/2a",
+          "trial_name": "DB-1303/BNT323 FIH",
+          "trial_design": "Open-label dose-escalation/expansion",
+          "nct_ids": ["NCT05150691"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Primary completion Apr 2026"]
+        },
+        {
+          "indication": "Advanced/metastatic breast cancer (BNT323+BNT327 combo)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT323 + BNT327 combo dose-finding",
+          "trial_design": "Open-label combination dose-finding/expansion",
+          "nct_ids": ["NCT06827236"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech SE",
+          "key_milestones": ["Primary completion May 2028"]
+        }
+      ]
+    },
+    {
+      "asset": "DB-1311",
+      "aka": ["BNT324"],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "B7-H3",
+      "license_origin": "Internally discovered by DualityBio; ex-Greater China rights licensed to BioNTech.",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC) vs docetaxel",
+          "highest_phase": "Phase 3",
+          "trial_name": "BNT324 vs docetaxel mCRPC Ph3",
+          "trial_design": "Randomized active-controlled",
+          "nct_ids": ["NCT07365995"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech SE",
+          "key_milestones": ["Start Apr 2026; primary completion Feb 2031"]
+        },
+        {
+          "indication": "Advanced/metastatic solid tumors (FIH)",
+          "highest_phase": "Phase 1/2a",
+          "trial_name": "DB-1311/BNT324 FIH",
+          "trial_design": "Open-label dose-escalation/expansion",
+          "nct_ids": ["NCT05914116"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Primary completion Dec 2027"]
+        },
+        {
+          "indication": "Advanced lung cancer (BNT324 + BNT327 combo)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT324+BNT327 NSCLC combo",
+          "trial_design": "Open-label combination",
+          "nct_ids": ["NCT06892548"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech SE",
+          "key_milestones": ["Primary completion Aug 2027"]
+        },
+        {
+          "indication": "Advanced/metastatic solid tumors (DB-1311 + BNT327 or DB-1305 combo)",
+          "highest_phase": "Phase 2",
+          "trial_name": "DB-1311 combination Ph2",
+          "trial_design": "Open-label combination",
+          "nct_ids": ["NCT06953089"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Primary completion Jun 2030"]
+        }
+      ]
+    },
+    {
+      "asset": "DB-1305",
+      "aka": ["BNT325"],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "TROP2",
+      "license_origin": "Internally discovered by DualityBio; ex-Greater China rights licensed to BioNTech.",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic solid tumors (FIH)",
+          "highest_phase": "Phase 1/2a",
+          "trial_name": "DB-1305/BNT325 FIH",
+          "trial_design": "Open-label dose-escalation/expansion; combinations with pembrolizumab and BNT327",
+          "nct_ids": ["NCT05438329"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Primary completion Jun 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "DB-1310",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "HER3",
+      "license_origin": "Internally discovered by DualityBio.",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic solid tumors (NSCLC focus)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "DB-1310 FIH",
+          "trial_design": "Open-label dose-escalation/expansion; combinations with osimertinib, trastuzumab, capecitabine",
+          "nct_ids": ["NCT05785741"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Primary completion Dec 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "DB-1419",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "Undisclosed (solid tumor target)",
+      "license_origin": "Internally discovered by DualityBio.",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic solid tumors",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "DB-1419 FIH",
+          "trial_design": "Open-label dose-escalation/expansion",
+          "nct_ids": ["NCT06554795"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Primary completion Feb 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "DB-1317",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered by DualityBio.",
+      "indications": [
+        {
+          "indication": "Selected advanced/metastatic solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "DB-1317 FIH",
+          "trial_design": "Open-label dose-escalation",
+          "nct_ids": ["NCT07141706"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Primary completion Jun 2028"]
+        }
+      ]
+    },
+    {
+      "asset": "DB-1324",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "Undisclosed (GI tumor target)",
+      "license_origin": "Internally discovered by DualityBio; collaboration with GlaxoSmithKline.",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic gastrointestinal tumors",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "DB-1324 FIH",
+          "trial_design": "Open-label dose-escalation/expansion",
+          "nct_ids": ["NCT07263594"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Start Dec 2025; primary completion Dec 2028"]
+        }
+      ]
+    },
+    {
+      "asset": "DB-2304",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC) for autoimmune indication",
+      "target": "Undisclosed (immune cell target)",
+      "license_origin": "Internally discovered by DualityBio.",
+      "indications": [
+        {
+          "indication": "Systemic lupus erythematosus (SLE)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "DB-2304 FIH (healthy adults + SLE)",
+          "trial_design": "Open-label/placebo-controlled dose-escalation",
+          "nct_ids": ["NCT06625671"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "DualityBio Inc.",
+          "key_milestones": ["Primary completion Mar 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "DB-1202 monotherapy in advanced solid tumors (NCT05785728) — overallStatus UNKNOWN with primary completion Feb 2024 already passed; treated as inactive."
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 8,
+    "P3": 3,
+    "P2": 0,
+    "P1": 5
+  },
+  "no_active_clinical_pipeline_reason": ""
+}

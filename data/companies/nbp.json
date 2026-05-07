@@ -1,0 +1,98 @@
+{
+  "issuer_name": "NovaBridge Biosciences (formerly I-Mab)",
+  "ticker": "NBP",
+  "exchange": "Nasdaq",
+  "cik": "0001778016",
+  "region": "US/China",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (no 10-K on EDGAR); company renamed from I-Mab to NovaBridge Biosciences in October 2025."},
+    "website": {"url": "https://www.novabridge.com/", "fetched": "2026-05-06", "note": "Public site placeholder; pipeline detail derived from press releases and ctgov."},
+    "ctgov": {"file": "data/nbp_ctgov_compact.json", "trials_total": 11, "search_sponsor": "I-Mab"}
+  },
+  "pipeline": [
+    {
+      "asset": "Givastomig",
+      "aka": ["TJ033721", "ABL111"],
+      "modality": "Bispecific antibody",
+      "target": "CLDN18.2 x 4-1BB",
+      "license_origin": "Co-developed with ABL Bio; collaboration with Bristol-Myers Squibb",
+      "indications": [
+        {
+          "indication": "CLDN18.2-positive metastatic gastric / GEJ / esophageal adenocarcinoma (1L combination)",
+          "highest_phase": "Phase 2",
+          "trial_name": "GIVA-2",
+          "trial_design": "Givastomig + nivolumab + chemotherapy in CLDN18.2+ metastatic gastric cancer (1L)",
+          "nct_ids": ["NCT07432295"],
+          "trial_status": "Recruiting (started 2026-02; primary completion 2030-03).",
+          "lead_sponsor": "I-Mab Biopharma US Limited (NovaBridge)",
+          "key_milestones": ["Phase 1b reported 75% ORR and 16.9-month median PFS; potential Accelerated Approval pathway"]
+        },
+        {
+          "indication": "Advanced/metastatic CLDN18.2-positive solid tumors (gastric, GEJ, esophageal, PDAC, BTC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Givastomig Phase 1/1b dose escalation/expansion",
+          "trial_design": "Givastomig monotherapy and combinations with nivolumab/durvalumab/chemotherapy",
+          "nct_ids": ["NCT04900818"],
+          "trial_status": "Recruiting (started 2021-06-29; primary completion 2026-12).",
+          "lead_sponsor": "I-Mab Biopharma US Limited (NovaBridge)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "VIS-101",
+      "aka": [],
+      "modality": "Tetravalent bispecific antibody",
+      "target": "VEGF-A x ANG-2",
+      "license_origin": "Visara, Inc. (NovaBridge subsidiary)",
+      "indications": [
+        {
+          "indication": "Wet age-related macular degeneration (also DME and RVO in development)",
+          "highest_phase": "Phase 2",
+          "trial_name": "VIS-101 Phase 2a wet AMD",
+          "trial_design": "Phase 2a evaluation in wet AMD (positive topline disclosed by NovaBridge/Visara press release)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2a positive results announced; trial not located on ClinicalTrials.gov, EU CTIS, or JRCT under Visara/NovaBridge sponsorship (likely posted under different CRO or a non-US registry).",
+          "lead_sponsor": "Visara, Inc. (NovaBridge subsidiary)",
+          "key_milestones": ["Phase 2a positive topline disclosed"]
+        }
+      ]
+    },
+    {
+      "asset": "Uliledlimab",
+      "aka": ["TJ004309"],
+      "modality": "Monoclonal antibody",
+      "target": "CD73",
+      "license_origin": "Co-developed; ex-Greater China rights with NovaBridge, Greater China rights with TJ Biopharma",
+      "indications": [
+        {
+          "indication": "1L locally advanced or metastatic NSCLC (combination with checkpoint inhibitor + chemo)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Uliledlimab + toripalimab combination NSCLC",
+          "trial_design": "Three-arm comparison of uliledlimab + toripalimab + chemo vs toripalimab monotherapy vs pembrolizumab in untreated advanced NSCLC",
+          "nct_ids": ["NCT06984588"],
+          "trial_status": "Active, not recruiting (TJ Biopharma sponsorship — Greater China rights holder; NovaBridge retains ex-China rights to the molecule).",
+          "lead_sponsor": "TJ Biopharma Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Ragistomig (TJ-L14B)", "reason": "PD-L1 x 4-1BB bispecific antibody; no active Phase 1-3 trial under NovaBridge sponsorship located on ClinicalTrials.gov."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "TJ210001 (MOR210)", "nct_ids": ["NCT04947033", "NCT04678921"], "reason": "Status UNKNOWN/COMPLETED; rights returned to MorphoSys."},
+    {"asset": "TJ003234 (lenzilumab analog)", "nct_ids": ["NCT03794180", "NCT04457856", "NCT04341116"], "reason": "GM-CSF antibody trials COMPLETED/UNKNOWN; no active continuation."},
+    {"asset": "TJ011133 (lemzoparlimab)", "nct_ids": ["NCT03934814"], "reason": "Anti-CD47; combination trial with pembrolizumab COMPLETED 2023; rights transferred / divested."},
+    {"asset": "TJ301", "nct_ids": ["NCT03235752"], "reason": "Anti-IL-6 ulcerative colitis P2 COMPLETED 2020; not currently active."},
+    {"asset": "Protollin (nasal Alzheimer's)", "nct_ids": ["NCT07187141"], "reason": "Brigham and Women's Hospital sponsored P1 COMPLETED 2022; investigator-initiated."},
+    {"asset": "Uliledlimab (TJ004309)", "nct_ids": ["NCT05001347"], "reason": "Earlier P2 ovarian/solid tumors COMPLETED 2023."}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Uliledlimab China NSCLC P2", "nct_ids": ["NCT07005336"], "reason": "TJ Biopharma (Greater China rights holder) sponsored P2 with sintilimab — covered by Phase 2/3 entry above; this earlier P2 is the China-only program."}
+  ],
+  "summary_counts": {"assets": 3, "P1": 1, "P2": 2, "P3": 0, "P2/3": 1, "indications": 4}
+}

@@ -1,0 +1,74 @@
+{
+  "issuer_name": "Citius Pharmaceuticals, Inc.",
+  "ticker": "CTXR",
+  "exchange": "Nasdaq",
+  "cik": "0001506251",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-12-23",
+      "accession": "0001213900-25-125333",
+      "path": "data/ctxr_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page fetched (skipped — 10-K coverage adequate)"},
+    "ctgov": {"path": "data/ctxr_ctgov_compact.json", "trial_count_p1_p3": 3, "active_count": 0, "note": "All Citius-sponsored ctgov trials COMPLETED — Phase 3 Mino-Lok readout May 2024, Halo-Lido Phase 2b 2023, LYMPHIR Phase 3 (Eisai-led)"}
+  },
+  "pipeline": [
+    {
+      "asset": "Mino-Lok",
+      "aka": ["minocycline + EDTA + ethanol antibiotic lock"],
+      "modality": "Antibiotic catheter lock solution",
+      "target": "Catheter-related bloodstream infection (biofilm)",
+      "license_origin": "Internal (in-licensed from MD Anderson)",
+      "indications": [
+        {
+          "indication": "Catheter-related bloodstream infections (CRBSI) — catheter salvage",
+          "highest_phase": "P3 (complete, pre-NDA)",
+          "trial_name": "Mino-Lok Phase 3",
+          "trial_design": "Randomized 1:1 vs site-specific standard-of-care lock + systemic antibiotics; 241 patients, 34 sites US/India; primary endpoint time to catheter failure",
+          "nct_ids": "Not on public registry",
+          "trial_status": "COMPLETED — positive topline May 2024 (significantly prolonged time to catheter failure, 57% vs 38% catheter retention); FDA Fast Track granted; engaging FDA on NDA path",
+          "lead_sponsor": "Citius Pharmaceuticals, Inc.",
+          "key_milestones": ["FDA NDA path discussions ongoing", "Hemodialysis subset analysis positive"]
+        }
+      ]
+    },
+    {
+      "asset": "Halo-Lido (CITI-002)",
+      "aka": ["halobetasol + lidocaine topical"],
+      "modality": "Topical corticosteroid + anesthetic combination",
+      "target": "Symptomatic hemorrhoids",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Grade I-II hemorrhoids",
+          "highest_phase": "P2",
+          "trial_name": "Halo-Lido Phase 2b",
+          "trial_design": "Multi-center randomized dose-ranging double-blind placebo-controlled",
+          "nct_ids": ["NCT05348200"],
+          "trial_status": "COMPLETED 2023 — company seeking strategic/financial partner before advancing to Phase 3",
+          "lead_sponsor": "Citius Pharmaceuticals, Inc.",
+          "key_milestones": ["Partnering pursuit for Phase 3 funding"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "LYMPHIR (denileukin diftitox-cdxl)",
+    "indication": "Relapsed/refractory cutaneous T-cell lymphoma (CTCL)",
+    "status": "FDA approved Aug 2024; commercialized via majority-owned subsidiary Citius Oncology",
+    "nct_ids": ["NCT01871727"],
+    "note": "Pivotal Study E7777-G000-302 (Eisai-led); ORR 36%, CR 9%"
+  },
+  "excluded_preclinical": [
+    {"asset": "NoveCite (NC-iMSCs)", "reason": "Mesenchymal stem cell therapy for ARDS; preclinical; deprioritized to focus resources on LYMPHIR"},
+    {"asset": "Mino-Wrap", "reason": "Preclinical liquefying gel for breast tissue expander infections"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Halo-Lido predecessor formulation", "nct": "NCT02689856", "reason": "Earlier Phase 2 hydrocortisone+lidocaine formulation, superseded by current CITI-002 Halo-Lido"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 1, "P3": 1, "total_assets": 2}
+}

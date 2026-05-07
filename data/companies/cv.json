@@ -1,0 +1,106 @@
+{
+  "issuer_name": "CapsoVision, Inc.",
+  "ticker": "CV",
+  "exchange": "Nasdaq",
+  "cik": "0001378325",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. For this medtech device issuer, report active pivotal / IDE clinical studies of company's own devices (per task rule for device companies).",
+  "sources": {
+    "10k": {
+      "accession": "0001378325-26-000010",
+      "filing_date": "2026-03-26",
+      "doc": "cv-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.capsovision.com",
+      "note": "Corporate site lists products only (CapsoCam Plus, CapsoCloud, CapsoView). No dedicated /pipeline page (404)."
+    },
+    "ctgov": {
+      "query_sponsors": ["CapsoVision", "Capso Vision"],
+      "raw_trials_kept": 1,
+      "note": "Single legacy 2018 PHASE1 study (NCT03685903) with status UNKNOWN; not active and not for current commercial pipeline."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CapsoCam Colon (2nd generation)",
+      "aka": ["CapsoCam Colon Gen 2"],
+      "modality": "Capsule endoscopy device (panoramic, AI-assisted)",
+      "target": "Colonic polyp detection (AI-assisted reading)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Colonic polyp detection / colorectal cancer screening",
+          "highest_phase": "Pivotal (device, FDA 510(k) pathway)",
+          "trial_name": "CapsoCam Colon Pivotal Study - Second Arm",
+          "trial_design": "Prospective, open-label pivotal study comparing 2nd-gen CapsoCam Colon capsule endoscopy to optical colonoscopy; planned ~800 patients at up to 20 U.S. sites; AI-assisted vs non-AI-assisted reading; primary endpoints sensitivity/specificity for polyps >=6mm.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrolling - over 500 of ~800 patients enrolled as of 2026-03-26 10-K",
+          "lead_sponsor": "CapsoVision, Inc.",
+          "key_milestones": [
+            "Enrollment commenced Q3 2025",
+            "510(k) submission to FDA targeted Q3 2026",
+            "First-gen CapsoCam Colon 510(k) effort discontinued after Dec-2025 FDA meeting; resources reprioritized to 2nd gen"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "CapsoCam Plus with AI (small-bowel)",
+      "aka": ["CapsoCam Plus SV-3 + AI"],
+      "modality": "Capsule endoscopy device + AI software (combination)",
+      "target": "Small-bowel abnormality detection (AI-assisted)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Visualization of small-bowel mucosa with AI-assisted polyp/abnormality detection",
+          "highest_phase": "Pivotal (device, FDA 510(k) pathway) - retrospective clinical study supporting filed 510(k)",
+          "trial_name": "CapsoCam Plus AI retrospective clinical study",
+          "trial_design": "Retrospective clinical study analyzing in vivo videos from completed real-world cases to assess AI performance for small bowel; predicate device NaviCam ProScan.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing - supports 510(k) submission filed 2025-12-26; FDA clearance targeted mid-2026; EU submission Q2 2026",
+          "lead_sponsor": "CapsoVision, Inc.",
+          "key_milestones": [
+            "510(k) filed 2025-12-26",
+            "Targeted FDA clearance mid-2026",
+            "Targeted EU clearance Q3 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "CapsoCam Plus (SV-3)",
+        "status": "FDA-cleared (small-bowel mucosa visualization, adults and pediatric ages 2+); marketed in U.S. and internationally via distributors. 2025 revenue ~$13.6M."
+      },
+      {
+        "name": "CapsoCloud / CapsoView",
+        "status": "Cloud and viewer software supporting CapsoCam Plus."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "CapsoCam Plus (SV-3) duodenal-papilla detection study",
+      "nct_id": "NCT03685903",
+      "reason": "PHASE1 study, status UNKNOWN since 2020; not part of active pipeline."
+    },
+    {
+      "asset": "CapsoCam Colon (1st generation)",
+      "reason": "Company has decided not to further pursue first-generation CapsoCam Colon 510(k); resources redirected to 2nd-generation capsule."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets_active_pivotal": 2,
+    "phase_3_or_pivotal_device": 2,
+    "phase_2": 0,
+    "phase_1": 0,
+    "commercial_products": 2
+  },
+  "no_active_clinical_pipeline_reason": null
+}

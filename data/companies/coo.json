@@ -1,0 +1,43 @@
+{
+  "issuer_name": "COOPER COMPANIES, INC.",
+  "ticker": "COO",
+  "exchange": "Nasdaq",
+  "cik": "0000711404",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-25-055615",
+      "filing_date": "2025-12-05",
+      "file": "data/coo_10k_pipeline_section.html",
+      "note": "10-K describes two commercial segments: CooperVision (soft contact lenses, including MiSight 1 day myopia control) and CooperSurgical (women's healthcare devices and fertility products including Paragard IUD). R&D is focused on existing-product innovation and 510(k)/PMA medical-device pathways. No active proprietary drug pipeline disclosed."
+    },
+    "website": {
+      "error": "no public pipeline page found (Cooper Companies is a commercial medtech holding company without a drug pipeline page)"
+    },
+    "ctgov": {
+      "file": "data/coo_ctgov_compact.json",
+      "trials_returned": 0,
+      "note": "ctgov sponsor search 'CooperSurgical' returned 5 raw records, 0 with PHASE1/2/3 designation kept. No proprietary drug trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Two operating units: CooperVision (specialty contact lenses) and CooperSurgical (medical devices, fertility and women's-health products).",
+    "key_franchises": [
+      "CooperVision: Biofinity, clariti, MyDay and Avaira silicone hydrogel lenses; MiSight 1 day (FDA-approved myopia-control lens for children); Proclear and other specialty lenses",
+      "CooperSurgical: Paragard non-hormonal copper IUD; uterine manipulators; obstetrical devices; PARAGARD T 380A; fertility products including witness IVF systems, donor egg/sperm services and Embryoscope time-lapse incubators"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Cooper Companies is a commercial medical device manufacturer (contact lenses via CooperVision; women's-health devices and fertility products via CooperSurgical). It does not develop drugs; Paragard, although classified as a drug-device combination, is a long-marketed product. No active proprietary P1/P2/P3 clinical pipeline."
+}

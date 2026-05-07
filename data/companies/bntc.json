@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Benitec Biopharma Inc.",
+  "ticker": "BNTC",
+  "exchange": "Nasdaq",
+  "cik": "0001808898",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-25-211361", "filing_date": "2025-09-22", "doc": "d57150d10k.htm"},
+    "website": {"url": "https://www.benitec.com/our-science/", "fetched": "2026-05-06", "notes": "No detailed pipeline page; corporate site describes ddRNAi platform and OPMD program"},
+    "ctgov": {"file": "data/bntc_ctgov_compact.json", "n_records": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "BB-301",
+      "aka": [],
+      "modality": "AAV9-delivered ddRNAi 'silence and replace' gene therapy (codon-optimized PABPN1 + two shmiRs)",
+      "target": "PABPN1 (silence mutant + replace with codon-optimized variant)",
+      "license_origin": "Internal (with Royal Holloway University of London origin patents assigned to Benitec)",
+      "indications": [
+        {
+          "indication": "Oculopharyngeal Muscular Dystrophy (OPMD) with dysphagia",
+          "highest_phase": "Phase 1b/2a",
+          "trial_name": "BB-301 First-in-Human Phase 1b/2a",
+          "trial_design": "Single-arm, open-label, sequential dose-escalation; intramuscular pharyngeal injection; 52-week post-dosing follow-up",
+          "nct_ids": ["NCT06185673"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Benitec Biopharma, Inc.",
+          "key_milestones": ["IND cleared June 2023", "First subject dosed November 2023", "Sixth subject dosed April 2025", "Orphan Drug Designation US and EU"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["BB-401 (Head and Neck Squamous Cell Carcinoma; Phase 2 completed 2018, NCT03433027 — legacy program no longer in active development)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 0, "P1_P2": 1, "P1": 0}
+}

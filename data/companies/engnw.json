@@ -1,0 +1,83 @@
+{
+  "issuer_name": "enGene Holdings Inc.",
+  "ticker": "ENGNW",
+  "exchange": "Nasdaq",
+  "cik": "0001980845",
+  "region": "US (operations Canada/Montreal lab)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-12-22",
+      "accession": "0001193125-25-328743",
+      "fiscal_year_end": "2025-10-31",
+      "path": "data/engnw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.engene.com/pipeline",
+      "note": "Pipeline page lists detalimogene (EG-70) for NMIBC; LEGEND clinical trial referenced."
+    },
+    "ctgov": {
+      "path": "data/engnw_ctgov_compact.json",
+      "trials_returned": 1,
+      "note": "Single active P1/P2 RECRUITING study (NCT04752722, LEGEND)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Detalimogene voraplasmid",
+      "aka": ["EG-70", "detalimogene"],
+      "modality": "Non-viral gene therapy (DDX dually-derivatized chitosan delivery of plasmid encoding immune cargo via Nature Technology Corp Nanoplasmid vector)",
+      "target": "Local intra-tumoral immune activation (innate immune response in bladder mucosa)",
+      "license_origin": "Internal program; Nanoplasmid vector backbone in-licensed from Nature Technology Corporation (2020)",
+      "indications": [
+        {
+          "indication": "Non-muscle invasive bladder cancer (NMIBC) with carcinoma in situ (CIS) — BCG-unresponsive (pivotal cohort)",
+          "highest_phase": "Phase 2 (pivotal cohort of Phase 1/2 LEGEND)",
+          "trial_name": "LEGEND",
+          "trial_design": "Open-label Phase 1/2; Phase 2 has three cohorts. Cohort 1 (pivotal) = BCG-unresponsive NMIBC with CIS ± concomitant papillary disease, enrollment complete with 125 patients.",
+          "nct_ids": ["NCT04752722"],
+          "trial_status": "RECRUITING (Cohort 1 enrollment complete; Cohorts 2 and 3 ongoing). Primary completion date 2026-06-30. BLA submission planned 2H 2026.",
+          "lead_sponsor": "enGene, Inc.",
+          "key_milestones": ["Cohort 1 (pivotal) enrollment complete (125 patients)", "BLA submission planned 2H 2026", "Interim Milestone achieved per Hercules loan agreement"]
+        },
+        {
+          "indication": "NMIBC with CIS — BCG-naïve (Cohort 2a)",
+          "highest_phase": "Phase 2",
+          "trial_name": "LEGEND Cohort 2a",
+          "trial_design": "Open-label expansion cohort of LEGEND; high-risk BCG-naïve NMIBC with CIS",
+          "nct_ids": ["NCT04752722"],
+          "trial_status": "RECRUITING — 30 patients enrolled as of 2025-11-11.",
+          "lead_sponsor": "enGene, Inc.",
+          "key_milestones": ["30 patients enrolled (Nov 2025)"]
+        },
+        {
+          "indication": "NMIBC with CIS — BCG-exposed (Cohort 2b)",
+          "highest_phase": "Phase 2",
+          "trial_name": "LEGEND Cohort 2b",
+          "trial_design": "Open-label expansion cohort; high-risk BCG-exposed NMIBC with CIS",
+          "nct_ids": ["NCT04752722"],
+          "trial_status": "RECRUITING — 45 patients enrolled as of 2025-11-11.",
+          "lead_sponsor": "enGene, Inc.",
+          "key_milestones": ["45 patients enrolled (Nov 2025)"]
+        },
+        {
+          "indication": "NMIBC papillary-only — BCG-unresponsive without CIS (Cohort 3)",
+          "highest_phase": "Phase 2",
+          "trial_name": "LEGEND Cohort 3",
+          "trial_design": "Open-label cohort; high-risk BCG-unresponsive NMIBC papillary disease only (no CIS)",
+          "nct_ids": ["NCT04752722"],
+          "trial_status": "RECRUITING — 36 patients enrolled as of 2025-11-11.",
+          "lead_sponsor": "enGene, Inc.",
+          "key_milestones": ["36 patients enrolled (Nov 2025)"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Other DDX-based programs", "stage": "Preclinical pipeline expansion (no IND disclosed)"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 4, "P1": 0, "note": "1 unique asset (detalimogene voraplasmid) with 4 active Phase 2 indications across LEGEND cohorts. All under single trial NCT04752722."}
+}

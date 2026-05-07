@@ -1,0 +1,47 @@
+{
+  "issuer_name": "IRADIMED CORP",
+  "ticker": "IRMD",
+  "exchange": "Nasdaq",
+  "cik": "0001325618",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-024691",
+      "filing_date": "2026-03-06",
+      "doc": "irmd-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://www.iradimed.com",
+      "note": "Corporate site lists commercial MRI-compatible devices only; no clinical pipeline page exists."
+    },
+    "ctgov": {
+      "queried_sponsor": "IRADIMED",
+      "kept_p1_p3": 0,
+      "note": "No company-sponsored interventional drug or device trials registered on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "type": "MRI-compatible medical devices (510(k)-cleared)",
+    "products": [
+      "3870 MRI IV Infusion Pump System",
+      "3880 MRI Patient Monitor System",
+      "3860+ MRI IV Infusion Pump System",
+      "FMD Smart MRI Ferrous Metal Detection System",
+      "MRI clinical accessories"
+    ],
+    "description": "Manufacturer of non-magnetic infusion pumps, patient monitors, and ferromagnetic detection systems for use inside MRI suites. Devices are FDA 510(k)-cleared; no drug development."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Pure medtech device manufacturer (MRI-compatible infusion pumps, patient monitors, ferromagnetic detection). Products are 510(k)-cleared devices, not drugs; no proprietary therapeutic clinical pipeline."
+}

@@ -1,0 +1,80 @@
+{
+  "issuer_name": "Pyxis Oncology, Inc.",
+  "ticker": "PYXS",
+  "exchange": "Nasdaq",
+  "cik": "0001782223",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-23",
+      "accession": "0001193125-26-118532",
+      "url": "https://www.sec.gov/Archives/edgar/data/1782223/000119312526118532/pyxs-20251231.htm"
+    },
+    "website": {
+      "url": "https://pyxisoncology.com/portfolio/",
+      "fetched": "2026-05-06",
+      "note": "Page returned only theme/CSS via WebFetch; corroborated by press releases"
+    },
+    "ctgov": {
+      "sponsor_query": "Pyxis Oncology",
+      "trial_count": 5
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Micvotabart pelidotin",
+      "aka": ["MICVO", "PYX-201"],
+      "modality": "Antibody-drug conjugate (ADC); fully human IgG1 anti-EDB+FN with cleavable linker and optimized auristatin (Aur0101) payload",
+      "target": "Extradomain-B Fibronectin (EDB+FN) in tumor extracellular matrix",
+      "license_origin": "Internal antibody; FACT linker-payload platform exclusively licensed from Pfizer",
+      "indications": [
+        {
+          "indication": "Recurrent/metastatic head and neck squamous cell carcinoma (R/M HNSCC) — 2L+ monotherapy",
+          "highest_phase": "Phase 1 (planned pivotal study; FDA alignment received Q4 2025)",
+          "trial_name": "PYX-201-101 monotherapy dose escalation/expansion",
+          "trial_design": "Open-label, multicenter, dose escalation (Part 1) and dose expansion (Part 2) at 5.4 mg/kg IV Q3W in two arms (post platinum/PD-(L)1; post EGFR/PD-(L)1)",
+          "nct_ids": ["NCT05720117"],
+          "trial_status": "RECRUITING; Part 2 target enrollment ~40 patients completed Q1 2026; updated data expected mid-2026",
+          "lead_sponsor": "Pyxis Oncology, Inc.",
+          "key_milestones": [
+            "FDA Fast Track designation Feb 2025",
+            "Updated Phase 1 monotherapy data mid-2026",
+            "Pivotal monotherapy study planned in 2L+ R/M HNSCC"
+          ]
+        },
+        {
+          "indication": "Advanced solid tumors (1L/2L+ R/M HNSCC, cervical, gastric, HR+/HER2- breast, TNBC) — combination with pembrolizumab",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "PYX-201-102 combination with KEYTRUDA (pembrolizumab)",
+          "trial_design": "Open-label, global, multicenter, dose escalation (3.6-5.4 mg/kg MICVO + 200 mg pembrolizumab Q3W) and dose expansion in selected tumor types",
+          "nct_ids": ["NCT06795412"],
+          "trial_status": "RECRUITING; dose escalation ongoing; updated 1L/2L+ R/M HNSCC data expected H2 2026",
+          "lead_sponsor": "Pyxis Oncology, Inc.",
+          "key_milestones": [
+            "Clinical Trial Collaboration & Supply Agreement with Merck (Nov 2024)",
+            "Updated PYX-201-102 data H2 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "PYX-102", "reason": "Preclinical anti-KLRG1; paused, available for partnership"},
+    {"asset": "PYX-203", "reason": "Preclinical anti-CD123 ADC; paused, available for partnership"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "PYX-106 (Siglec-15 antibody)", "reason": "Deprioritized December 2024; Phase 1 PYX-106-101 not opened for Part 2 dose expansion; clinical investment suspended; available for partnership. Existing Phase 1 study NCT05718557 listed as ACTIVE_NOT_RECRUITING due to follow-up only."},
+    {"asset": "Sotigalimab (PYX-107)", "reason": "Acquired via Apexigen; CD40 agonist; paused, available for partnership"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "APX005M (PYX-107) at MD Anderson and Pediatric Brain Tumor Consortium (NCT02706353, NCT03389802)", "reason": "Investigator-sponsored / collaborator-led; Pyxis is collaborator only; lead asset paused"}
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3_indications": 0,
+    "phase_2_indications": 1,
+    "phase_1_indications": 1
+  }
+}

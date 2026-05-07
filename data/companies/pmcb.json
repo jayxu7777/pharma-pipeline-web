@@ -1,0 +1,37 @@
+{
+  "issuer_name": "PharmaCyte Biotech, Inc.",
+  "ticker": "PMCB",
+  "exchange": "Nasdaq",
+  "cik": "0001157075",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-08-11",
+      "accession": "0001683168-25-005821",
+      "path": "data/pmcb_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.pharmacyte.com/pipeline",
+      "error": "HTTP 500 from server"
+    },
+    "ctgov": {
+      "path": "data/pmcb_ctgov_compact.json",
+      "studies": 0
+    }
+  },
+  "no_active_clinical_pipeline_reason": "Company's only clinical-stage product candidate (CypCaps / Cell-in-a-Box encapsulated cells + ifosfamide for locally advanced pancreatic cancer, LAPC) has been on FDA full clinical hold since October 1, 2020. No active or open Phase 1/2/3 trials. Company is working to address FDA clinical hold requirements.",
+  "pipeline": [],
+  "excluded_preclinical": [
+    "CypCaps (Cell-in-a-Box encapsulated cyp2B1-expressing cells) for LAPC + low-dose ifosfamide — IND on full FDA clinical hold since 2020-10-01"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  }
+}

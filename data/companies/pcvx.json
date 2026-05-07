@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Vaxcyte, Inc.",
+  "ticker": "PCVX",
+  "exchange": "Nasdaq",
+  "cik": "0001649094",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-24", "accession": "0001649094-26-000007", "path": "data/pcvx_10k_pipeline_section.html"},
+    "website": {"path": "https://www.vaxcyte.com/pipeline", "note": "Company pipeline page extracted successfully"},
+    "ctgov": {"path": "data/pcvx_ctgov_compact.json", "trials_found": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "VAX-31",
+      "aka": ["31-valent pneumococcal conjugate vaccine"],
+      "modality": "Carrier-sparing site-specifically conjugated 31-valent pneumococcal conjugate vaccine (PCV) using cell-free protein synthesis platform",
+      "target": "31 Streptococcus pneumoniae serotypes (eCRM carrier)",
+      "license_origin": "Internally developed (Sutro Biopharma cell-free expression platform license)",
+      "indications": [
+        {
+          "indication": "Prevention of invasive pneumococcal disease (IPD) and pneumococcal pneumonia in adults aged 50 and older (and 18-49 immunobridging)",
+          "highest_phase": "Phase 3",
+          "trial_name": "OPUS-1 / OPUS-2 / OPUS-3 (adult Phase 3 program)",
+          "trial_design": "Randomized, double-blind, active-controlled Phase 3 program (OPUS-1 head-to-head vs PCV21 and PCV20; OPUS-3 immunogenicity); pivotal program initiated December 2025",
+          "nct_ids": ["NCT07284654", "NCT07365826", "NCT07425392"],
+          "trial_status": "ACTIVE_NOT_RECRUITING / RECRUITING; topline anticipated Q4 2026",
+          "lead_sponsor": "Vaxcyte, Inc.",
+          "key_milestones": ["Phase 3 topline data Q4 2026", "FDA Breakthrough Therapy Designation for adult IPD"]
+        },
+        {
+          "indication": "Prevention of IPD in healthy infants",
+          "highest_phase": "Phase 2",
+          "trial_name": "VAX-31 Infant Phase 2",
+          "trial_design": "Randomized dose-finding Phase 2 in healthy infants",
+          "nct_ids": ["NCT06720038"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Vaxcyte, Inc.",
+          "key_milestones": ["Infant Phase 2 data H1 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "VAX-24",
+      "aka": ["24-valent pneumococcal conjugate vaccine"],
+      "modality": "Carrier-sparing site-specifically conjugated 24-valent PCV",
+      "target": "24 Streptococcus pneumoniae serotypes",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Prevention of IPD in infants — backup / dose-finding readout informing VAX-31",
+          "highest_phase": "Phase 2",
+          "trial_name": "VAX-24 Infant Phase 2",
+          "trial_design": "Randomized observer-blind Phase 2 dose-finding study in healthy infants (N=803); final positive data Nov 2025",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 completed November 2025; informs VAX-31 infant program (no further independent advancement currently planned)",
+          "lead_sponsor": "Vaxcyte, Inc.",
+          "key_milestones": ["Final Phase 2 data Nov 2025; program de-prioritized in favor of VAX-31"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {},
+  "excluded_preclinical": [
+    "VAX-A1 (Group A Strep vaccine) — preclinical; Phase 1 initiation targeted 2026",
+    "VAX-GI (Shigella vaccine) — preclinical",
+    "VAX-XL (third-generation PCV) — preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 2,
+    "phase_3_indications": 1,
+    "phase_2_indications": 2,
+    "phase_1_indications": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "issuer_name": "Transcode Therapeutics, Inc.",
+  "ticker": "RNAZ",
+  "exchange": "Nasdaq",
+  "cik": "0001829635",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-043810",
+      "filed": "2026-04-15",
+      "doc": "rnaz-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://www.transcodetherapeutics.com/pipeline",
+      "assets": ["TTX-MC138 (lead, anti-miR-10b)", "TTX-siPDL1 (preclinical)", "TTX-RIGA (preclinical)", "TTX-siMYC (preclinical)", "64Cu-TTX-MC138 (companion imaging)"]
+    },
+    "ctgov": {"matches": 1, "note": "TTX-MC138 Phase 1/2 in advanced solid tumors, sponsored by TransCode Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "TTX-MC138",
+      "aka": [],
+      "modality": "RNA therapeutic — anti-microRNA-10b oligonucleotide nanoparticle",
+      "target": "microRNA-10b (miR-10b)",
+      "license_origin": "Internal (proprietary TTX delivery platform)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors with metastatic disease",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Study of TTX-MC138 in Subjects With Advanced Solid Tumors",
+          "trial_design": "First-in-human, open-label, dose-escalation Phase 1/2 study with companion 64Cu-TTX-MC138 PET imaging",
+          "nct_ids": ["NCT06260774"],
+          "trial_status": "ACTIVE_NOT_RECRUITING — start 2024-09-05, primary completion 2025-09-30",
+          "lead_sponsor": "TransCode Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "TTX-siPDL1", "indication": "Solid tumors (PD-L1)", "stage": "preclinical"},
+    {"asset": "TTX-RIGA", "indication": "Cancer (RIG-I innate immunity)", "stage": "preclinical"},
+    {"asset": "TTX-siMYC", "indication": "Cancer (c-MYC)", "stage": "preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0, "P1_P2_combined": 1}
+}

@@ -1,0 +1,43 @@
+{
+  "issuer_name": "VYCOR MEDICAL INC",
+  "ticker": "VYCO",
+  "exchange": "OTC",
+  "cik": "0001424768",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014036",
+      "filed": "2026-03-31",
+      "doc": "form10-k.htm",
+      "note": "10-K downloaded but no pipeline section heading found (medtech device company; no drug pipeline disclosed)."
+    },
+    "website": {
+      "url": "https://vycormedical.com/products/",
+      "note": "Corporate site lists FDA-cleared neurosurgical device VBAS; no clinical drug or device pipeline page exists."
+    },
+    "ctgov": {
+      "sponsor_query": "Vycor Medical",
+      "unique_trials_p1_p3": 0,
+      "note": "No active P1-P3 trials sponsored by Vycor Medical found on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "ViewSite Brain Access System (VBAS)",
+    "modality": "Neurosurgical access device",
+    "regulatory_status": "FDA 510(k) cleared and CE marked (commercialized)",
+    "indication": "Minimally invasive brain access during neurosurgery"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Vycor Medical is a commercial-stage neurosurgical device company. Its main product (ViewSite Brain Access System) is FDA-cleared and marketed; the company does not run an active P1/P2/P3 clinical drug or device trial pipeline."
+}

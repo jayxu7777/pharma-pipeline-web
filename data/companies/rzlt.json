@@ -1,0 +1,68 @@
+{
+  "issuer_name": "Rezolute, Inc.",
+  "ticker": "RZLT",
+  "exchange": "Nasdaq",
+  "cik": "0001509261",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-25-090848", "filed": "2025-09-17", "doc": "rzlt-20250630x10k.htm"},
+    "website": {"url": "http://rezolutebio.com/pipeline", "note": "Pipeline page content largely unrenderable (JS-heavy); details derived from 10-K and ctgov."},
+    "ctgov": {"sponsor_query": "Rezolute", "unique_trials_p1_p3": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "Ersodetug (RZ358)",
+      "aka": ["RZ358"],
+      "modality": "Fully human IgG2 monoclonal antibody (allosteric insulin receptor antagonist)",
+      "target": "Insulin receptor (allosteric, negative modulator)",
+      "license_origin": "In-licensed from XOMA",
+      "indications": [
+        {
+          "indication": "Congenital hyperinsulinism (cHI)",
+          "highest_phase": "P3",
+          "trial_name": "sunRIZE",
+          "trial_design": "Global pivotal Phase 3 randomized, double-blind, placebo-controlled study of ersodetug in patients with congenital hyperinsulinism",
+          "nct_ids": ["NCT06208215"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Rezolute",
+          "key_milestones": ["Primary completion 2025-11-14", "Topline data anticipated"]
+        },
+        {
+          "indication": "Tumor hyperinsulinism (tumor HI)",
+          "highest_phase": "P3",
+          "trial_name": "Ersodetug in tumor HI",
+          "trial_design": "Phase 3 study of ersodetug in patients with tumor hyperinsulinism",
+          "nct_ids": ["NCT06881992"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Rezolute",
+          "key_milestones": ["Primary completion 2027-09"]
+        }
+      ]
+    },
+    {
+      "asset": "RZ402",
+      "aka": [],
+      "modality": "Oral small-molecule plasma kallikrein inhibitor",
+      "target": "Plasma kallikrein",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Diabetic macular edema (DME)",
+          "highest_phase": "P2",
+          "trial_name": "RZ402 Phase 2 in DME",
+          "trial_design": "Randomized, placebo-controlled Phase 2 dose-ranging study of oral RZ402 in DME",
+          "nct_ids": ["NCT05712720"],
+          "trial_status": "Completed (data reported; partnering being pursued)",
+          "lead_sponsor": "Rezolute",
+          "key_milestones": ["Primary completion 2024-04-11", "Topline data reported 2024"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "P3": 1, "P2": 1, "P1": 0}
+}

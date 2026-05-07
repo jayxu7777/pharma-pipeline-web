@@ -1,0 +1,87 @@
+{
+  "issuer_name": "Purple Biotech Ltd.",
+  "ticker": "PPBT",
+  "exchange": "Nasdaq",
+  "cik": "0001614744",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {
+      "url": "https://www.purple-biotech.com/pipeline",
+      "note": "Lists IM1240 (CAPTN-3 trispecific), CM24, NT219."
+    },
+    "ctgov": {
+      "path": "data/ppbt_ctgov_compact.json",
+      "trials_p1_p3": 3,
+      "active_or_active_not_recruiting": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "NT219",
+      "aka": [],
+      "modality": "Small molecule dual inhibitor",
+      "target": "IRS1/2 and STAT3 (first-in-class)",
+      "license_origin": "Purple Biotech / TyrNovo subsidiary",
+      "indications": [
+        {
+          "indication": "Recurrent/metastatic head and neck squamous cell carcinoma (HNSCC)",
+          "highest_phase": "P2",
+          "trial_name": "NT219 combined with standard of care biologic therapy in R/M HNSCC",
+          "trial_design": "Phase 1/2 investigator-initiated study at University of Colorado Denver evaluating NT219 in combination with cetuximab in R/M HNSCC.",
+          "nct_ids": ["NCT06919666"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (started 2025-06-12; primary completion 2030-02).",
+          "lead_sponsor": "University of Colorado, Denver (collaborator: Purple Biotech Ltd.)",
+          "key_milestones": ["Phase 1/2 initiated June 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "CM24",
+      "aka": ["CM-24"],
+      "modality": "First-in-class humanized monoclonal antibody",
+      "target": "CEACAM1",
+      "license_origin": "Purple Biotech (acquired via Famewave Ltd.)",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic pancreatic ductal adenocarcinoma (PDAC)",
+          "highest_phase": "P2",
+          "trial_name": "Phase 2 CM24 + nivolumab + nal-IRI/5-FU/LV in 2L PDAC (planned/follow-on)",
+          "trial_design": "Follow-on Phase 2 randomized study in 2L PDAC based on positive Phase 1/2 NCT04731467 expansion data (CM-24 + nivolumab + nal-IRI/5-FU/LV).",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 1/2 NCT04731467 (Famewave) COMPLETED 2024-09; Purple Biotech has guided to a follow-on Phase 2 study in PDAC; not yet posted on ClinicalTrials.gov as of snapshot.",
+          "lead_sponsor": "Purple Biotech Ltd. (formerly Famewave Ltd.)",
+          "key_milestones": ["Phase 1/2 expansion data; randomized Phase 2 design announced"]
+        }
+      ]
+    },
+    {
+      "asset": "IM1240",
+      "aka": ["CAPTN-3 lead asset"],
+      "modality": "Conditionally activated tri-specific T-cell and NK-cell engager (CAPTN-3 platform)",
+      "target": "CD3 x 5T4 x NKG2A",
+      "license_origin": "Purple Biotech (CAPTN-3 platform, internally developed; in collaboration with Immunorizon)",
+      "indications": [
+        {
+          "indication": "5T4-expressing solid tumors",
+          "highest_phase": "P1",
+          "trial_name": "First-in-human Phase 1 of IM1240 (planned)",
+          "trial_design": "Planned first-in-human Phase 1 study of IM1240 in 5T4-expressing solid tumors.",
+          "nct_ids": [],
+          "trial_status": "PLANNED — IND-enabling; first-in-human initiation guided by Purple Biotech for 2026.",
+          "lead_sponsor": "Purple Biotech Ltd.",
+          "key_milestones": ["IND-enabling activities ongoing"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "NT219 + cetuximab Phase 1/2 (NCT04474470)", "reason": "COMPLETED 2024-05; superseded by NCT06919666 Phase 1/2 in R/M HNSCC."},
+    {"asset": "CM24 + nivolumab Phase 1/2 (NCT04731467)", "reason": "COMPLETED 2024-09; superseded by planned randomized Phase 2."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 2, "P1": 1, "total_assets": 3}
+}

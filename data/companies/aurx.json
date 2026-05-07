@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Nuo Therapeutics, Inc.",
+  "ticker": "AURX",
+  "exchange": "OTC",
+  "cik": "0001091596",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-26-010360",
+      "filed": "2026-03-30",
+      "doc": "aurx20251231_10k.htm",
+      "note": "10-K describes commercial-stage operations centered on the Aurix System (FDA-cleared biodynamic hematogel for chronic wound care) and a US distribution agreement with Smith+Nephew. No active P1/P2/P3 drug development program disclosed."
+    },
+    "website": {
+      "url": "https://www.nuot.com",
+      "note": "Corporate site (nuotherapeutics.com DNS not resolvable; nuot.com is the operating domain). No /pipeline page; product page describes Aurix as the marketed product."
+    },
+    "ctgov": {
+      "sponsor_query": "Nuo Therapeutics",
+      "unique_trials_p1_p3": 0,
+      "compact_path": "data/aurx_ctgov_compact.json",
+      "note": "Historical Aurix studies (e.g. NCT02352467 pressure ulcer; CMS CED chronic diabetic foot ulcer registry) are completed post-market device studies, not active P1/P2/P3 drug trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "devices": [
+      {
+        "name": "Aurix System",
+        "category": "Biodynamic hematogel; autologous platelet/plasma-based wound therapy",
+        "indication": "Chronic wounds (diabetic foot ulcers, venous leg ulcers, pressure ulcers)",
+        "status": "FDA-cleared, marketed in US (private-label distribution via Smith+Nephew agreement signed March 31, 2025)"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Commercial-stage medical device company. Sole product Aurix is an FDA-cleared autologous wound-care device already on market; no active investigational P1/P2/P3 drug or device trials sponsored by Nuo. Prior Aurix studies are completed post-market device evaluations."
+}

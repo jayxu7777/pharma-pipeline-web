@@ -1,0 +1,118 @@
+{
+  "issuer_name": "Wave Life Sciences Ltd.",
+  "ticker": "WVE",
+  "exchange": "Nasdaq",
+  "cik": "0001631574",
+  "region": "Singapore (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-073472", "filing_date": "2026-02-26", "path": "data/wve_10k_pipeline_section.html"},
+    "website": {"error": "403 Forbidden on https://www.wavelifesciences.com/our-pipeline; relied on 10-K + ctgov"},
+    "ctgov": {"path": "data/wve_ctgov_compact.json", "sponsor_query": "Wave Life Sciences"}
+  },
+  "pipeline": [
+    {
+      "asset": "WVE-006",
+      "aka": ["GalNAc-AIMer for AATD"],
+      "modality": "RNA editing oligonucleotide (ADAR-mediated A-to-I) - GalNAc-conjugated",
+      "target": "SERPINA1 mRNA (AAT correction)",
+      "license_origin": "Internal (PRISM platform); GSK collaboration",
+      "indications": [
+        {
+          "indication": "Alpha-1 antitrypsin deficiency (AATD)",
+          "highest_phase": "P2",
+          "trial_name": "RestorAATion-2",
+          "trial_design": "Phase 1b/2a SAD/MAD in AATD patients",
+          "nct_ids": ["NCT06405633"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Wave Life Sciences Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Healthy volunteer SAD",
+          "highest_phase": "P1",
+          "trial_name": "RestorAATion-1",
+          "trial_design": "FIH SAD",
+          "nct_ids": ["NCT06186492"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Wave Life Sciences Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "WVE-N531",
+      "aka": ["FORWARD-53"],
+      "modality": "PN-modified antisense oligonucleotide (exon 53 skipping)",
+      "target": "DMD pre-mRNA exon 53",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Duchenne muscular dystrophy (exon 53 skipping amenable)",
+          "highest_phase": "P2",
+          "trial_name": "FORWARD-53 (open-label) and OLE",
+          "trial_design": "Open-label MAD in DMD; OLE",
+          "nct_ids": ["NCT04906460", "NCT07209332"],
+          "trial_status": "RECRUITING / ENROLLING_BY_INVITATION (OLE)",
+          "lead_sponsor": "Wave Life Sciences Ltd.",
+          "key_milestones": ["Pivotal P2/3 FORWARD-53 planned; potential accelerated approval submission"]
+        }
+      ]
+    },
+    {
+      "asset": "WVE-007",
+      "aka": ["GalNAc-siRNA for INHBE"],
+      "modality": "GalNAc-conjugated siRNA",
+      "target": "INHBE (activin E)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Obesity / overweight",
+          "highest_phase": "P1",
+          "trial_name": "INLIGHT",
+          "trial_design": "FIH SAD/MAD in adults with overweight/obesity",
+          "nct_ids": ["NCT06842186"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Wave Life Sciences Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "WVE-003",
+      "aka": ["SELECT-HD"],
+      "modality": "Allele-selective antisense oligonucleotide (PN chemistry)",
+      "target": "HTT mRNA (mHTT SNP3)",
+      "license_origin": "Internal (Takeda collaboration originally)",
+      "indications": [
+        {
+          "indication": "Huntington's disease (early manifest)",
+          "highest_phase": "P2",
+          "trial_name": "SELECT-HD",
+          "trial_design": "Phase 1b/2a SAD/MAD; advancing toward P2/3 registrational",
+          "nct_ids": ["NCT05032196"],
+          "trial_status": "COMPLETED (P1b/2a; pivotal next stage in planning)",
+          "lead_sponsor": "Wave Life Sciences Ltd.",
+          "key_milestones": ["Pivotal program planning underway"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": ["WVE-008 (DMD exon 44)", "Other GalNAc and AIMer pipeline programs in research"],
+  "excluded_legacy_terminated": [
+    "NCT04931862 / NCT05683860 WVE-004 C9orf72 ALS - TERMINATED",
+    "NCT03225833 / NCT04617847 WVE-120101 HD - TERMINATED",
+    "NCT03225846 / NCT04617860 WVE-120102 HD - TERMINATED",
+    "NCT03508947 / NCT03907072 WVE-210201 (suvodirsen) DMD - TERMINATED/COMPLETED"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "P3": 0,
+    "P2": 3,
+    "P1": 1,
+    "approved_commercial": 0
+  }
+}

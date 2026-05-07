@@ -1,0 +1,33 @@
+{
+  "issuer_name": "Galectin Therapeutics Inc.",
+  "ticker": "GALT",
+  "exchange": "Nasdaq",
+  "cik": "0001133416",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001140361-26-012155", "filed": "2026-03-31", "doc": "ef20060823_10k.htm"},
+    "website": {"url": "https://galectintherapeutics.com/", "note": "Site still references NAVIGATE recruitment but ctgov status is TERMINATED; no new active studies disclosed."},
+    "ctgov": {"sponsor_query": "Galectin Therapeutics", "unique_trials_p1_p3": 12, "all_active_p1_p3": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Galectin's lead pivotal Phase 2b/3 NAVIGATE trial of belapectin in MASH/NASH cirrhosis to prevent esophageal varices (NCT04365868) was Terminated (primary completion 2025-03-11) following negative top-line interim results announced December 2024. The 10-K notes R&D activity is winding down post-NAVIGATE and the company is exploring partnerships/strategic options. No new sponsored P1/P2/P3 trials are currently active per ClinicalTrials.gov as of this snapshot.",
+  "excluded_preclinical": [
+    "Belapectin in cancer immunotherapy combinations (preclinical/early IIT discussions only)"
+  ],
+  "excluded_legacy_terminated": [
+    "Belapectin (GR-MD-02) NAVIGATE Phase 2b/3 in NASH cirrhosis to prevent esophageal varices NCT04365868 — Terminated",
+    "GR-MD-02 Phase 2 in NASH NCT02421094 — Completed",
+    "GR-MD-02 Phase 2a in psoriasis NCT02407041 — Completed",
+    "GR-MD-02 Phase 2 in NASH portal hypertension NCT02462967 — Completed",
+    "Belapectin Phase 1 hepatic impairment PK NCT04332432 — Completed",
+    "GR-MD-02 Phase 1 in NASH NCT01899859 — Completed",
+    "GM-CT-01 oncology Phase 1/2 studies NCT00054977, NCT00388700, NCT00386516, NCT00110721 — Completed/Withdrawn/Terminated"
+  ],
+  "excluded_partner_owned": [
+    "GR-MD-02 + ipilimumab in metastatic melanoma NCT02117362 (Providence-led IIT) — Completed",
+    "GR-MD-02 + pembrolizumab in melanoma/NSCLC/HNSCC NCT02575404 (Providence-led IIT) — Completed"
+  ],
+  "summary_counts": {"assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

@@ -1,0 +1,92 @@
+{
+  "issuer_name": "Intellia Therapeutics, Inc.",
+  "ticker": "NTLA",
+  "exchange": "Nasdaq",
+  "cik": "0001652130",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-076550", "filing_date": "2026-02-26", "path": "data/ntla_10k_pipeline_section.html"},
+    "website": {"url": "https://www.intelliatx.com/our-pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/ntla_ctgov_compact.json", "sponsor_query": "Intellia Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "lonvoguran ziclumeran",
+      "aka": ["NTLA-2002", "lonvo-z"],
+      "modality": "In vivo CRISPR/Cas9 gene editing (LNP)",
+      "target": "KLKB1 (kallikrein B1)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Hereditary angioedema (HAE)",
+          "highest_phase": "P3",
+          "trial_name": "HAELO",
+          "trial_design": "Randomized placebo-controlled pivotal in HAE",
+          "nct_ids": ["NCT06634420"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Intellia Therapeutics",
+          "key_milestones": ["Primary completion 2026-04; BLA submission planned"]
+        },
+        {
+          "indication": "HAE - dose finding (P1/P2)",
+          "highest_phase": "P2",
+          "trial_name": "NTLA-2002 P1/P2",
+          "trial_design": "Open-label dose-finding & expansion",
+          "nct_ids": ["NCT05120830"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Intellia Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "nexiguran ziclumeran",
+      "aka": ["NTLA-2001", "nex-z"],
+      "modality": "In vivo CRISPR/Cas9 gene editing (LNP)",
+      "target": "TTR (transthyretin)",
+      "license_origin": "Internal (Regeneron co-development)",
+      "indications": [
+        {
+          "indication": "Hereditary transthyretin amyloidosis with polyneuropathy (ATTRv-PN)",
+          "highest_phase": "P3",
+          "trial_name": "MAGNITUDE-2",
+          "trial_design": "Randomized placebo-controlled pivotal",
+          "nct_ids": ["NCT06672237"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Intellia Therapeutics",
+          "key_milestones": ["Primary completion 2027-07"]
+        },
+        {
+          "indication": "Transthyretin amyloidosis with cardiomyopathy (ATTR-CM)",
+          "highest_phase": "P3",
+          "trial_name": "MAGNITUDE",
+          "trial_design": "Randomized placebo-controlled pivotal",
+          "nct_ids": ["NCT06128629"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Intellia Therapeutics",
+          "key_milestones": ["Primary completion 2027-12"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": ["Multiple non-liver / extrahepatic delivery research programs"],
+  "excluded_legacy_terminated": [
+    "NCT06622668 NTLA-3001 (AATD lung disease) - WITHDRAWN",
+    "NCT05066165 NTLA-5001 (AML) - TERMINATED",
+    "NCT04601051 NTLA-2001 P1 - COMPLETED"
+  ],
+  "excluded_partner_owned": [
+    "REGV131-LNP1265 hemophilia B (NCT06379789) - Regeneron-led ex vivo program where Intellia is collaborator only",
+    "AVC-201 / AVC-203 - now AvenCell-owned allogeneic CAR-T programs (Intellia divested 2023)"
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 3,
+    "P2": 1,
+    "P1": 0,
+    "approved_commercial": 0
+  }
+}

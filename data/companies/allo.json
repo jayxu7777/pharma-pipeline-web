@@ -1,0 +1,101 @@
+{
+  "issuer_name": "Allogene Therapeutics, Inc.",
+  "ticker": "ALLO",
+  "exchange": "Nasdaq",
+  "cik": "0001737287",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-017242", "filing_date": "2026-03-12", "doc": "allo-20251231.htm"},
+    "website": {"url": "https://www.allogene.com/pipeline/", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Allogene Therapeutics", "trials_returned": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "Cemacabtagene ansegedleucel (cema-cel)",
+      "aka": ["ALLO-501A", "cema-cel"],
+      "modality": "Allogeneic anti-CD19 CAR T cell therapy",
+      "target": "CD19",
+      "license_origin": "Internal (Allogene); Cellectis-licensed TALEN gene editing",
+      "indications": [
+        {
+          "indication": "First-line consolidation in MRD+ large B-cell lymphoma (LBCL) - ALPHA3 registrational trial",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALPHA3 - Consolidation of First-Line MRD+ Remission With Cema-cel in LBCL",
+          "trial_design": "Phase 2 registrational study of cema-cel + lymphodepletion (Flu/Cy) in MRD+ LBCL after first-line therapy; uses Foresight CLARITY MRD test",
+          "nct_ids": ["NCT06500273"],
+          "trial_status": "Recruiting (primary completion 2027-12)",
+          "lead_sponsor": "Allogene Therapeutics",
+          "key_milestones": ["Pivotal readout supports BLA submission"]
+        },
+        {
+          "indication": "Relapsed/refractory large B-cell lymphoma, CLL, SLL - ALPHA2",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ALPHA2 - ALLO-501A in R/R LBCL/CLL/SLL",
+          "trial_design": "Phase 1/2 of ALLO-501A + ALLO-647 (anti-CD52) lymphodepletion",
+          "nct_ids": ["NCT04416984"],
+          "trial_status": "Active, not recruiting (primary completion 2029-02)",
+          "lead_sponsor": "Allogene Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALLO-316",
+      "aka": [],
+      "modality": "Allogeneic anti-CD70 CAR T cell therapy with Dagger technology",
+      "target": "CD70",
+      "license_origin": "Internal (Allogene)",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic clear cell renal cell carcinoma (ccRCC) - TRAVERSE; FDA Fast Track and RMAT designations",
+          "highest_phase": "Phase 1",
+          "trial_name": "TRAVERSE - ALLO-316 in advanced/metastatic ccRCC",
+          "trial_design": "Phase 1 of ALLO-316 + ALLO-647 lymphodepletion",
+          "nct_ids": ["NCT04696731"],
+          "trial_status": "Active, not recruiting (primary completion 2025-10)",
+          "lead_sponsor": "Allogene Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALLO-329",
+      "aka": [],
+      "modality": "Allogeneic dual CD19/CD70 CAR T cell therapy with Dagger technology",
+      "target": "CD19 x CD70",
+      "license_origin": "Internal (Allogene)",
+      "indications": [
+        {
+          "indication": "Autoimmune diseases - SLE (with/without nephritis), idiopathic inflammatory myopathy, systemic sclerosis",
+          "highest_phase": "Phase 1",
+          "trial_name": "RESOLUTION - ALLO-329 in adults with autoimmune disease",
+          "trial_design": "Phase 1 with cyclophosphamide-only lymphodepletion",
+          "nct_ids": ["NCT07085104"],
+          "trial_status": "Recruiting (started 2025-11-13; primary completion 2028-02)",
+          "lead_sponsor": "Allogene Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ALLO-213 (DLL3 for SCLC)", "reason": "IND-enabling preclinical"},
+    {"asset": "ALLO-182 (Claudin 18.2 for gastric/pancreatic)", "reason": "IND-enabling preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "ALLO-715 (BCMA, UNIVERSAL multiple myeloma)", "nct_id": "NCT04093596", "reason": "Phase 1 program deprioritized; trial active for follow-up only"},
+    {"asset": "ALLO-605 (BCMA TurboCAR multiple myeloma)", "nct_id": "NCT05000450", "reason": "Phase 1/2 terminated 2023"},
+    {"asset": "ALLO-501A EXPAND (lymphodepletion P2)", "nct_id": "NCT05714345", "reason": "Phase 2 terminated 2024"},
+    {"asset": "ALLO-501 (parent CD19 CAR-T, ALPHA)", "nct_id": "NCT03939026", "reason": "Phase 1 completed; superseded by ALLO-501A/cema-cel"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_clinical_assets": 3,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 2,
+    "note": "Cema-cel ALPHA3 is Phase 2 registrational (Phase 2 with potential pivotal label); other actives Phase 1."
+  }
+}

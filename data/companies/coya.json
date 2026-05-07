@@ -1,0 +1,60 @@
+{
+  "issuer_name": "Coya Therapeutics, Inc.",
+  "ticker": "COYA",
+  "exchange": "Nasdaq",
+  "cik": "0001835022",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-107281", "filing_date": "2026-03-16", "file": "data/coya_10k_pipeline_section.html"},
+    "website": {"url": "https://coyatherapeutics.com/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"file": "data/coya_ctgov_compact.json", "sponsor_query": "Coya Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "COYA 302",
+      "aka": ["LD rhIL-2 + CTLA-4 Ig", "COYA 301 + DRL_AB"],
+      "modality": "Biologic combination (low-dose IL-2 + abatacept biosimilar) for SC administration",
+      "target": "Treg function enhancement + T effector / activated macrophage suppression",
+      "license_origin": "Internal; abatacept biosimilar (DRL_AB) licensed from Dr. Reddy's Laboratories",
+      "indications": [
+        {
+          "indication": "Amyotrophic lateral sclerosis (ALS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALSTARS",
+          "trial_design": "Phase 2 randomized, multi-center, double-blind, placebo-controlled",
+          "nct_ids": ["NCT07161999"],
+          "trial_status": "RECRUITING; dosing commenced December 2025",
+          "lead_sponsor": "Coya Therapeutics",
+          "key_milestones": ["FDA IND accepted Aug 2025", "First patient dosed Dec 2025"]
+        },
+        {
+          "indication": "Frontotemporal dementia (Non-Fluent Primary Progressive Aphasia subtype)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Planned Phase 2 in FTD",
+          "trial_design": "Planned randomized, double-blind, placebo-controlled study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - FDA IND accepted January 2026; trial not yet initiated",
+          "lead_sponsor": "Coya Therapeutics",
+          "key_milestones": ["FDA IND accepted Jan 2026", "Investigator-initiated POC complete results announced Jan 2026 (n=9)"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "COYA 303", "reason": "LD IL-2 + GLP-1 RA combination; preclinical, no IND yet (animal/in vitro studies through Nov 2025)"},
+    {"asset": "COYA 301 (monotherapy)", "reason": "Investigator-initiated Phase 2 in AD completed/announced; company is not actively running a sponsored Phase 1/2/3 of monotherapy - intended as backbone for combinations"},
+    {"asset": "COYA 201", "reason": "Allogeneic Treg-derived exosome; preclinical only"},
+    {"asset": "COYA 206", "reason": "Antigen-directed Treg exosome (Carnegie Mellon EPH); preclinical/discovery"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 2,
+    "phase_1": 0,
+    "indications_total": 2
+  }
+}

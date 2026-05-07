@@ -1,0 +1,42 @@
+{
+  "issuer_name": "InMode Ltd.",
+  "ticker": "INMD",
+  "exchange": "Nasdaq",
+  "cik": "0001742692",
+  "region": "US-listed; Israel-domiciled",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F instead of 10-K. No 10-K available on EDGAR for CIK 0001742692."
+    },
+    "website": {
+      "error": "no public drug pipeline page found — InMode is a medical aesthetics device company; corporate site (inmodemd.com) returned redirect errors via WebFetch."
+    },
+    "ctgov": {
+      "result_count": 0,
+      "note": "ClinicalTrials.gov returned 27 raw records sponsor-matched to 'InMode' but none in P1/P2/P3 (device studies are typically not phased the same way). No active drug pipeline programs identified."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Medical aesthetics and surgical energy-based devices",
+    "platforms": [
+      "BodyTite / FaceTite / AccuTite (RFAL — radiofrequency-assisted lipolysis)",
+      "Morpheus8 (subdermal microneedling RF)",
+      "EmpowerRF (women's wellness)",
+      "Optimas / Votiva / Triton / Envision multi-application aesthetic platforms"
+    ],
+    "note": "InMode designs, develops, manufactures and markets minimally invasive aesthetic medical products based on its proprietary radiofrequency-based technologies. Products are FDA cleared (510(k)) medical devices, not pharmaceutical assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical aesthetic device company (510(k)-cleared RF-based platforms). No proprietary drug pipeline. Foreign private issuer (Israel) — files Form 20-F, not 10-K."
+}

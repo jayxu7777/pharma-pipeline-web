@@ -1,0 +1,96 @@
+{
+  "issuer_name": "Protara Therapeutics, Inc.",
+  "ticker": "TARA",
+  "exchange": "Nasdaq",
+  "cik": "0001359931",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-10",
+      "accession": "0001213900-26-025433",
+      "path": "data/tara_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.protaratx.com/pipeline",
+      "error": "JS-rendered page; WebFetch could not parse asset list"
+    },
+    "ctgov": {
+      "path": "data/tara_ctgov_compact.json",
+      "trial_count": 6
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "TARA-002",
+      "aka": ["OK-432-derived immunopotentiator"],
+      "modality": "Investigational broad immunopotentiator (genetically distinct strain of group A Streptococcus pyogenes)",
+      "target": "Innate immune activation (TLR/NK/T-cell)",
+      "license_origin": "Licensed from Chugai Pharmaceutical (in-licensed clinical-stage asset).",
+      "indications": [
+        {
+          "indication": "BCG-naive High-grade Non-muscle Invasive Bladder Cancer (NMIBC) with carcinoma in situ",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 ADVANCED-2 (TARA-002 vs investigator's choice intravesical chemotherapy)",
+          "trial_design": "Randomized, controlled, multi-center; investigator's choice intravesical chemotherapy comparator",
+          "nct_ids": ["NCT07480356"],
+          "trial_status": "Not yet recruiting (planned start May 2026)",
+          "lead_sponsor": "Protara Therapeutics",
+          "key_milestones": ["Phase 2 ADVANCED-2 (NCT05951179) ongoing supports Phase 3 design", "Primary completion targeted 2028-04"]
+        },
+        {
+          "indication": "High-grade NMIBC (Phase 2 ADVANCED-2 ongoing)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 ADVANCED-2 of intravesical TARA-002 in NMIBC",
+          "trial_design": "Open-label single-arm Phase 2",
+          "nct_ids": ["NCT05951179"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Protara Therapeutics",
+          "key_milestones": ["Primary completion 2030-05"]
+        },
+        {
+          "indication": "Lymphatic Malformations (pediatric, 6 months to <18 years)",
+          "highest_phase": "Phase 2",
+          "trial_name": "STARBORN-1 (Phase 2 intracystic TARA-002 in lymphatic malformations)",
+          "trial_design": "Open-label, multi-center Phase 2",
+          "nct_ids": ["NCT05871970"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Protara Therapeutics",
+          "key_milestones": ["Primary completion 2025-12"]
+        }
+      ]
+    },
+    {
+      "asset": "IV Choline Chloride",
+      "aka": [],
+      "modality": "Phospholipid substrate replacement (IV choline chloride for injection)",
+      "target": "Choline deficiency in patients on long-term parenteral nutrition",
+      "license_origin": "Internally developed.",
+      "indications": [
+        {
+          "indication": "Intestinal Failure-Associated Liver Disease / Choline deficiency in patients on long-term parenteral support",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "THRIVE (Phase 2/3 of Choline Chloride for Injection in Intestinal Failure)",
+          "trial_design": "Randomized, placebo-controlled Phase 2/3",
+          "nct_ids": ["NCT06910943"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Protara Therapeutics",
+          "key_milestones": ["Primary completion 2027-06"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "TARA-002 NMIBC Phase 1a/1b", "ncts": ["NCT05085977", "NCT05085990"], "reason": "Phase 1 completed; superseded by Phase 2/3"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 2,
+    "P3_indications": 1,
+    "P2_indications": 2,
+    "P2_3_indications": 1,
+    "P1_indications": 0
+  }
+}

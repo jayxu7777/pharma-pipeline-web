@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Protalix BioTherapeutics, Inc.",
+  "ticker": "PLX",
+  "exchange": "NYSE",
+  "cik": "0001006281",
+  "region": "United States (operations in Israel)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/plx_10k_pipeline_section.txt", "filing_date": "2026-03-18", "accession": "0001104659-26-029858"},
+    "website": {"url": "https://www.protalix.com/ (not WebFetched separately — 10-K + ctgov sufficient)"},
+    "ctgov": {"file": "data/plx_ctgov_compact.json", "trial_count": 15, "sponsor_query": "Protalix"}
+  },
+  "pipeline": [
+    {
+      "asset": "PRX-115",
+      "aka": ["PEGylated uricase", "Plant cell-expressed recombinant PEGylated urate oxidase"],
+      "modality": "Plant cell-expressed PEGylated recombinant uricase (IV)",
+      "target": "Uric acid (urate oxidase)",
+      "license_origin": "Internal (Protalix ProCellEx plant cell platform)",
+      "indications": [
+        {
+          "indication": "Uncontrolled / refractory gout",
+          "highest_phase": "Phase 2",
+          "trial_name": "RELEASE",
+          "trial_design": "Multi-arm Phase 2 evaluating PRX-115 IV at different dosing regimens, with and without methotrexate, vs placebo in adults with gout",
+          "nct_ids": ["NCT07280156"],
+          "trial_status": "Recruiting (first patients randomized; FPI Dec 2025)",
+          "lead_sponsor": "Protalix",
+          "key_milestones": ["Phase 1 (NCT05745727) completed Aug 2024 — positive; primary completion of RELEASE targeted Dec 2027"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "Elfabrio (pegunigalsidase alfa, PRX-102)",
+        "indication": "Fabry disease (adults)",
+        "status": "FDA + EC approved May 2023 (1 mg/kg E2W); EU 2 mg/kg E4W approved March 2026",
+        "partner": "Chiesi Farmaceutici (worldwide commercialization)"
+      },
+      {
+        "name": "Elelyso (taliglucerase alfa)",
+        "indication": "Gaucher disease (adults and pediatric ≥4 yrs)",
+        "status": "Approved; commercialized by Pfizer ex-Brazil; Protalix retains Brazil (BioManguinhos alfataliglicerase via Fiocruz)"
+      }
+    ]
+  },
+  "excluded_preclinical": [
+    "PRX-119 — long-acting PEGylated DNase I for NETs-related diseases (preclinical, IND-enabling)",
+    "Secarna ASO collaboration — discovery / lead identification"
+  ],
+  "excluded_legacy_terminated": [
+    "PRX-102 GI Fabry symptoms Phase 3 (NCT02921620) — WITHDRAWN",
+    "AIR DNase Phase 1/2 in cystic fibrosis (NCT02605590, NCT02722122) — completed/UNKNOWN, no active development",
+    "OPRX-106 oral TNFR-Fc Phase 1/2 ulcerative colitis (NCT02107833, NCT02768974) — completed/UNKNOWN, deprioritized",
+    "PRX-112 oral GCD Phase 1/2 in Gaucher (NCT01747980, NCT02107846) — completed, no active development"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

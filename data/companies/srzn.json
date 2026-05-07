@@ -1,0 +1,24 @@
+{
+  "issuer_name": "Surrozen, Inc./DE",
+  "ticker": "SRZN",
+  "exchange": "Nasdaq",
+  "cik": "0001824893",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-119818", "filed": "2026-03-23", "doc": "srzn-20251231.htm"},
+    "website": {"url": "https://www.surrozen.com/", "fetched": "2026-05-06", "note": "Pipeline page rendered dynamically; pipeline detail not extractable via static fetch — relied on 10-K."},
+    "ctgov": {"file": "data/srzn_ctgov_compact.json", "trials_total": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Both lead candidates are pre-IND/preclinical: SZN-8141 (Fzd4 agonist + VEGF antagonist, anticipated IND submission H2 2026 for DME / wet AMD) and SZN-8143 (Fzd4 + VEGF + IL-6, preclinical). Remaining ophthalmology programs are research-stage. No active P1/P2/P3 trials per ClinicalTrials.gov.",
+  "excluded_preclinical": [
+    {"asset": "SZN-8141", "reason": "Anti-VEGF/Fzd4 bispecific for DME and wet AMD; IND anticipated H2 2026."},
+    {"asset": "SZN-8143", "reason": "Trispecific Fzd4/VEGF/IL-6 for DME, wet AMD, UME; preclinical."},
+    {"asset": "Corneal endothelial disease program", "reason": "Research-stage ophthalmic program."}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "P1": 0, "P2": 0, "P3": 0, "indications": 0}
+}

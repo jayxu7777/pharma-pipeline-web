@@ -1,0 +1,81 @@
+{
+  "issuer_name": "Compugen Ltd.",
+  "ticker": "CGEN",
+  "exchange": "Nasdaq",
+  "cik": "0001119774",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"error": "cgen.com/pipeline 404; details corroborated via clinical-trials registry and IR press releases"},
+    "ctgov": {"sponsor_query": "Compugen", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "COM701",
+      "aka": [],
+      "modality": "Anti-PVRIG monoclonal antibody (potential first-in-class)",
+      "target": "PVRIG",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed platinum-sensitive ovarian cancer (maintenance, monotherapy)",
+          "highest_phase": "Phase 2",
+          "trial_name": "MAIA-ovarian (platform trial)",
+          "trial_design": "Blinded, randomized Phase 1/2 platform",
+          "nct_ids": ["NCT06888921"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Compugen Ltd",
+          "key_milestones": ["First patient dosed 2025; primary completion 2027-03"]
+        }
+      ]
+    },
+    {
+      "asset": "COM902",
+      "aka": [],
+      "modality": "Anti-TIGIT monoclonal antibody",
+      "target": "TIGIT",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors / multiple myeloma (mono and combination with COM701 and pembrolizumab)",
+          "highest_phase": "Phase 1",
+          "trial_name": "COM902-001",
+          "trial_design": "Open-label Phase 1 dose escalation and expansion",
+          "nct_ids": ["NCT04354246"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Compugen Ltd",
+          "key_milestones": ["Primary completion 2025-12-30"]
+        }
+      ]
+    },
+    {
+      "asset": "GS-0321 (formerly COM503)",
+      "aka": ["COM503"],
+      "modality": "Anti-IL-18BP monoclonal antibody",
+      "target": "IL-18 binding protein (IL-18BP)",
+      "license_origin": "Out-licensed to Gilead Sciences (Compugen retains co-funding/profit-share option)",
+      "indications": [
+        {
+          "indication": "Advanced solid malignancies (with zimberelimab)",
+          "highest_phase": "Phase 1",
+          "trial_name": "COM503/GS-0321 Phase 1",
+          "trial_design": "Open-label Phase 1",
+          "nct_ids": ["NCT06759649"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Compugen Ltd (Gilead collaborator)",
+          "key_milestones": ["Primary completion 2027-11-22"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "COM701 BMS-collaboration trials", "nct_ids": ["NCT03667716", "NCT04570839"], "reason": "Completed early-phase trials"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Rilvegostomig (PD-1/TIGIT bispecific)", "partner": "AstraZeneca", "reason": "TIGIT arm derived from COM902 but rilvegostomig is AstraZeneca-owned program; multiple Phase 1/2/3 AZ-sponsored trials"}
+  ],
+  "summary_counts": {"total_active_assets": 3, "phase_3": 0, "phase_2": 1, "phase_1": 2}
+}

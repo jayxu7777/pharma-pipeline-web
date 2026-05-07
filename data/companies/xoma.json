@@ -1,0 +1,44 @@
+{
+  "issuer_name": "XOMA Royalty Corporation",
+  "ticker": "XOMA",
+  "exchange": "Nasdaq",
+  "cik": "0000791908",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-030872", "filing_date": "2026-03-18", "doc": "xoma-20251231x10k.htm"},
+    "website": {"url": "https://www.xoma.com", "note": "Royalty aggregator; no internal clinical development"},
+    "ctgov": {"sponsor_query": "XOMA", "trial_count": 27, "note": "All XOMA-named ctgov entries are legacy/terminated/completed; XOMA does not run trials"}
+  },
+  "no_active_clinical_pipeline_reason": "XOMA Royalty Corporation is a royalty aggregator (renamed from XOMA Corporation in July 2024). It transformed its business model in 2017 to acquire economic rights to milestones and royalties from third-party drug developers. XOMA has 14 full-time employees and conducts no internal clinical development. Its portfolio includes economic interests in 120+ third-party assets (partner-owned, excluded per workflow rule). Per the per-company workflow rule #10, this company has no active P1/P2/P3 pipeline of its own.",
+  "pipeline": [],
+  "commercial_product": {
+    "note": "XOMA receives royalties on third-party commercial products including VABYSMO (Roche, retinal), OJEMDA (Day One, pediatric oncology), MIPLYFFA (Zevra, NPC), IXINITY (Medexus, Hemophilia B), DSUVIA (Talphera/Alora, pain), XACIATO (Organon, women's health), DARE to PLAY (Dare). XOMA does not market these products itself."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "Ersodetug (RZ358)", "developer": "Rezolute", "indication": "Congenital hyperinsulinism / tumor HI", "phase": "Phase 3 (failed primary endpoint Dec 2025)"},
+    {"asset": "Ficlatuzumab (AV-299)", "developer": "AVEO/LG Chem", "indication": "HPV-negative head & neck cancer; AML", "phase": "Phase 3"},
+    {"asset": "OHB-607", "developer": "Oak Hill Bio", "indication": "BPD prevention in extremely premature infants", "phase": "Phase 3"},
+    {"asset": "D-Fi (FCX-007)", "developer": "Castle Creek", "indication": "Dystrophic epidermolysis bullosa", "phase": "Phase 3"},
+    {"asset": "Seralutinib", "developer": "Gossamer Bio / Chiesi", "indication": "PAH / PH-ILD", "phase": "Phase 3 (PROSERA missed primary endpoint Feb 2026)"},
+    {"asset": "Cetrelimab (JNJ-63723283)", "developer": "Johnson & Johnson", "indication": "Oncology", "phase": "Late-stage"},
+    {"asset": "Rilvegostomig (AZD2936)", "developer": "AstraZeneca", "indication": "Oncology", "phase": "Late-stage"},
+    {"asset": "Mezagitamab (TAK-079)", "developer": "Takeda", "indication": "Autoimmune", "phase": "Late-stage"},
+    {"asset": "Osavampator", "developer": "Neurocrine", "indication": "MDD adjunct", "phase": "Late-stage"},
+    {"asset": "Volixibat", "developer": "Mirum", "indication": "PSC / PBC", "phase": "Late-stage"},
+    {"asset": "REC-4881", "developer": "Recursion", "indication": "FAP", "phase": "Late-stage"},
+    {"asset": "Ovaprene", "developer": "Dare", "indication": "Contraception", "phase": "Late-stage"},
+    {"asset": "Sildenafil Cream 3.6%", "developer": "Dare", "indication": "Female sexual arousal disorder", "phase": "Late-stage"},
+    {"asset": "JNJ-89853413", "developer": "Johnson & Johnson", "indication": "CD33xVd2 T-cell engager (oncology)", "phase": "Earlier"},
+    {"asset": "PF-08046052 (EGFRd2)", "developer": "Pfizer", "indication": "EGFR solid tumors", "phase": "Earlier"}
+  ],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

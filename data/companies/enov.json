@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Enovis Corporation",
+  "ticker": "ENOV",
+  "exchange": "NYSE",
+  "cik": "0001420800",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001420800-26-000012",
+      "filing_date": "2026-02-26",
+      "doc": "cfx-20251231.htm",
+      "note": "Enovis operates two segments: Prevention & Recovery (P&R) and Reconstructive (Recon). Both are medical device businesses; no drug pipeline disclosed."
+    },
+    "website": {
+      "error": "no public pipeline page found",
+      "tried": ["https://enovis.com/pipeline", "https://www.enovis.com/pipeline", "https://www.enovis.com"]
+    },
+    "ctgov": {
+      "query": "spons:Enovis",
+      "raw_count": 3,
+      "kept_p1_p3": 0,
+      "note": "Three sponsor matches returned, none classified as P1/P2/P3 interventional drug trials. Consistent with medtech device-evaluation studies (e.g., post-market or observational)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Enovis is a medical technology company. Its commercial portfolio comprises orthopedic devices, software, and services across two segments.",
+    "segments": [
+      {
+        "name": "Prevention & Recovery (P&R)",
+        "description": "Orthopedic solutions across the patient care continuum: injury prevention, bracing, supports, recovery sciences, and rehabilitation devices."
+      },
+      {
+        "name": "Reconstructive (Recon)",
+        "description": "Surgical implant business offering reconstructive joint products for hip, knee, shoulder, elbow, foot, ankle, and finger, plus surgical productivity tools."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Pure medtech / orthopedic device manufacturer (Prevention & Recovery and Reconstructive segments). No proprietary drug or biologic pipeline. Device clearances proceed via FDA 510(k)/PMA pathways, not P1/P2/P3 drug trials. No active company-sponsored pivotal IDE drug-equivalent studies surfaced in 10-K or ctgov."
+}

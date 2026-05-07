@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Cognition Therapeutics, Inc.",
+  "ticker": "CGTX",
+  "exchange": "Nasdaq",
+  "cik": "0001455365",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/cgtx_10k_pipeline_section.html", "filing_date": "2026-03-26", "accession": "0001104659-26-034880"},
+    "website": {"url": "https://cogrx.com/pipeline/", "note": "Pipeline page is JS-rendered; details cross-referenced with ctgov and 10-K"},
+    "ctgov": {"path": "data/cgtx_ctgov_compact.json", "trial_count": 13}
+  },
+  "pipeline": [
+    {
+      "asset": "Zervimesine",
+      "aka": ["CT1812"],
+      "modality": "Small molecule (oral)",
+      "target": "Sigma-2 receptor (S2R) complex",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Early Alzheimer's Disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "SHIMMER (ACTC, NIA-supported)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2",
+          "nct_ids": ["NCT05531656"],
+          "trial_status": "Active, not recruiting (started 2023-06-28; primary completion 2027-04)",
+          "lead_sponsor": "Cognition Therapeutics",
+          "key_milestones": ["Prior Phase 2 SHINE in mild-to-moderate AD (NCT03507790) reported topline data 2024"]
+        },
+        {
+          "indication": "Dementia with Lewy Bodies (DLB)",
+          "highest_phase": "Phase 2 (completed)",
+          "trial_name": "SHIMMER",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2",
+          "nct_ids": ["NCT05225415"],
+          "trial_status": "Completed (primary completion 2024-11-25); positive topline; next study in planning",
+          "lead_sponsor": "Cognition Therapeutics",
+          "key_milestones": ["Topline positive data from SHIMMER-DLB reported"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["CT2074 (preclinical sigma-2 program)"],
+  "excluded_legacy_terminated": ["NCT05893537 (zervimesine Phase 2 in Geographic Atrophy / dry AMD) — TERMINATED 2025"],
+  "excluded_partner_owned": ["NCT07523048 (Roger McIntyre / Axsome AXS-05 study) — not Cognition asset"],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

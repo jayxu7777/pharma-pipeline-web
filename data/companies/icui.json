@@ -1,0 +1,36 @@
+{
+  "issuer_name": "ICU MEDICAL INC/DE",
+  "ticker": "ICUI",
+  "exchange": "Nasdaq",
+  "cik": "0000883984",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "10-K fetched (accession via SEC), but standard pipeline-section heading not found — expected for a medical-device issuer; ICU Medical's 10-K describes infusion therapy products and oncology / critical-care devices, not a drug pipeline.",
+      "path": "data/icui_10k_full.htm"
+    },
+    "website": {
+      "error": "ICU Medical is a medical-device manufacturer; corporate site has no drug pipeline page. Product portfolio (Plum 360 / LifeShield / ChemoLock infusion systems, IV consumables, oncology safety devices) is commercial."
+    },
+    "ctgov": {
+      "path": "data/icui_ctgov_compact.json",
+      "note": "ctgov returned 3 raw hits, 0 kept after P1-P3 filter. No company-sponsored interventional drug trials at any phase."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "ICU Medical designs, develops and sells infusion therapy products (LVP infusion pumps including Plum 360 and Plum Duo, dedicated infusion sets, IV solutions), critical-care monitoring (CogentDS, hemodynamic), and oncology / hazardous-drug handling systems (ChemoLock, ChemoClave, Diana). Products are commercial medical devices, not active drug-pipeline assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "ICU Medical is a medical-device company focused on infusion therapy, critical care, and oncology safety / hazardous-drug handling devices. It has no proprietary therapeutic drug pipeline and no active company-sponsored P1/P2/P3 interventional studies of investigational devices in ctgov."
+}

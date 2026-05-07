@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Reviva Pharmaceuticals Holdings, Inc.",
+  "ticker": "RVPH",
+  "exchange": "Nasdaq",
+  "cik": "0001742927",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession_note": "FY2025 10-K (full filing fetched at data/rvph_10k_full.htm)", "form": "10-K"},
+    "website": {"url": "https://revivapharma.com/pipeline/", "note": "Single-asset company — brilaroxazine (RP5063) for schizophrenia and other neuropsychiatric/respiratory indications"},
+    "ctgov": {"sponsor_query": "Reviva Pharmaceuticals", "trials_p1_p3": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "Brilaroxazine",
+      "aka": ["RP5063"],
+      "modality": "Small molecule (oral) — multimodal serotonin-dopamine signaling modulator",
+      "target": "5-HT2A / 5-HT2B / 5-HT7 / D2 / D4 / 5-HT1A receptor activity",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute and maintenance schizophrenia (lead program)",
+          "highest_phase": "Phase 3",
+          "trial_name": "RECOVER (RECOVER-1) and planned RECOVER-2 confirmatory",
+          "trial_design": "RECOVER-1 Phase 3 randomized, double-blind, placebo-controlled (Part 1, 4-week acute, NCT05184335) plus 12-month open-label long-term safety (Part 2 OLE) — both completed with positive results. RECOVER-2 confirmatory Phase 3 protocol cleared by FDA, similar design to RECOVER",
+          "nct_ids": ["NCT05184335"],
+          "trial_status": "RECOVER-1 completed (positive); RECOVER-2 trial-related activities planned to initiate Q2 2026 with US patient enrollment Q3 2026; expected completion Q4 2027",
+          "lead_sponsor": "Reviva Pharmaceuticals",
+          "key_milestones": [
+            "RECOVER-1 Part 1 (acute) and Part 2 (12-month OLE long-term safety) completed",
+            "RECOVER-2 Phase 3 protocol FDA-cleared",
+            "NDA submission planned upon completion of RECOVER-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Brilaroxazine for Bipolar Disorder (BD), Major Depressive Disorder (MDD) and ADHD — Phase 2 plans only, contingent on additional financing, potentially as early as H1 2027",
+    "Brilaroxazine for Pulmonary Arterial Hypertension (PAH) — FDA Orphan Drug designation (2016), preclinical only; Phase 2 contingent on financing",
+    "Brilaroxazine for Idiopathic Pulmonary Fibrosis (IPF) — preclinical; Phase 2 contingent on financing"
+  ],
+  "excluded_legacy_terminated": [
+    "RP5063 Phase 2 in acute schizophrenia/schizoaffective (NCT01490086, completed 2013)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 1, "p2": 0, "p1": 0}
+}

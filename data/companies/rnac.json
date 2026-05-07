@@ -1,0 +1,69 @@
+{
+  "issuer_name": "Cartesian Therapeutics, Inc.",
+  "ticker": "RNAC",
+  "exchange": "Nasdaq",
+  "cik": "0001453687",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001453687-26-000064", "filing_date": "2026-03-09", "doc": "rnac-20251231.htm"},
+    "website": {"url": "https://www.cartesiantherapeutics.com", "note": "Pipeline details from 10-K"},
+    "ctgov": {"sponsor_query": "Cartesian Therapeutics", "trial_count": 12, "active_count": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "Descartes-08",
+      "aka": ["rPRIME"],
+      "modality": "Autologous mRNA-engineered anti-BCMA CAR T-cell therapy (outpatient infusion, no preconditioning lymphodepletion)",
+      "target": "BCMA",
+      "license_origin": "Cartesian proprietary",
+      "indications": [
+        {
+          "indication": "Generalized Myasthenia Gravis (gMG, AChR Ab+)",
+          "highest_phase": "Phase 3 (registrational)",
+          "trial_name": "AURORA",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3; 1:1; ~100 participants AChR Ab+; six weekly outpatient infusions; primary endpoint MG-ADL improvement >=3 points at Month 4 vs placebo",
+          "nct_ids": ["NCT06799247", "NCT04146051"],
+          "trial_status": "RECRUITING (Phase 3 AURORA initiated May 2025); Phase 1/2 (NCT04146051) ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Cartesian Therapeutics",
+          "key_milestones": ["FDA SPA agreement Jan 2025", "AURORA initiated May 2025", "Phase 2b 12-month data published in Nature Medicine Jan 2026", "Orphan Drug Designation"]
+        },
+        {
+          "indication": "Myositis (dermatomyositis and antisynthetase syndrome)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Myositis Phase 2 (potentially pivotal)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2; 1:1; up to 50 multi-refractory dermatomyositis/antisynthetase syndrome patients; six weekly outpatient infusions without preconditioning; primary endpoint at Week 24; blinded interim DSMB analysis after 10 patients",
+          "nct_ids": ["NCT07391605"],
+          "trial_status": "RECRUITING; IND accepted Dec 2025; trial commencing 1H 2026",
+          "lead_sponsor": "Cartesian Therapeutics",
+          "key_milestones": ["IND accepted Dec 2025", "Trial initiation 1H 2026"]
+        },
+        {
+          "indication": "Pediatric autoimmune diseases (juvenile dermatomyositis, juvenile MG, childhood-onset SLE, ANCA vasculitis)",
+          "highest_phase": "Phase 1/2 (basket trial)",
+          "trial_name": "Pediatric basket trial",
+          "trial_design": "Phase 2 pediatric basket; juvenile dermatomyositis, juvenile MG, childhood-onset SLE, ANCA-associated vasculitis",
+          "nct_ids": ["NCT07089121"],
+          "trial_status": "RECRUITING; trial initiation announced Jan 2026",
+          "lead_sponsor": "Cartesian Therapeutics",
+          "key_milestones": ["IND amendment Dec 2024", "Trial initiation Jan 2026", "Rare Pediatric Disease Designation for JDM"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "In-vivo CAR-T platform", "reason": "Feasibility studies; no clinical candidate yet"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Descartes-15 (next-gen anti-BCMA mRNA CAR-T) for multiple myeloma", "reason": "Phase 1 dose escalation completed Nov 2025; further development paused to prioritize Descartes-08 in MG and myositis"},
+    {"asset": "Descartes-08 in SLE (Phase 2 NCT06038474)", "reason": "Cartesian announced cessation of further SLE development in Nov 2025; Phase 2 ongoing for follow-up only (excluded from active pipeline)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "phase_3": 1,
+    "phase_2": 1,
+    "phase_1_2": 1
+  }
+}

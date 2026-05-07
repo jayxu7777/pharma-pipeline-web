@@ -1,0 +1,72 @@
+{
+  "issuer_name": "Erasca, Inc.",
+  "ticker": "ERAS",
+  "exchange": "Nasdaq",
+  "cik": "0001761918",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-104150", "filed": "2026-03-12", "doc": "eras-20251231.htm", "pipeline_section_file": "data/eras_10k_pipeline_section.txt"},
+    "website": {"url": "https://www.erasca.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/eras_ctgov_compact.json", "sponsor_query": "Erasca"}
+  },
+  "pipeline": [
+    {
+      "asset": "ERAS-0015",
+      "aka": [],
+      "modality": "Pan-RAS(ON) inhibitor (small molecule)",
+      "target": "RAS (multi-RAS, including KRAS, NRAS, HRAS in active GTP-bound state)",
+      "license_origin": "Internally developed (RAS franchise)",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic solid tumors with RAS alterations",
+          "highest_phase": "P1",
+          "trial_name": "AURORAS-1",
+          "trial_design": "Phase 1 dose escalation +/- pembrolizumab or panitumumab",
+          "nct_ids": ["NCT06983743"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Erasca, Inc.",
+          "key_milestones": ["Initial clinical data anticipated; monotherapy expansion + combination dose escalation initiation planned"]
+        }
+      ]
+    },
+    {
+      "asset": "ERAS-4001",
+      "aka": [],
+      "modality": "Pan-KRAS inhibitor (small molecule)",
+      "target": "KRAS (pan-mutant)",
+      "license_origin": "Internally developed (RAS franchise)",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic solid tumors with KRAS mutations",
+          "highest_phase": "P1",
+          "trial_name": "BOREALIS-1",
+          "trial_design": "Phase 1 dose escalation +/- pembrolizumab or panitumumab",
+          "nct_ids": ["NCT07021898"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Erasca, Inc.",
+          "key_milestones": ["Initial clinical data 2H 2026 per 10-K guidance"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ERAS-12", "indication": "EGFR D2/D3 biparatopic antibody for EGFR/RAS/MAPK altered tumors (CRC, HNSCC)", "reason": "Pre-IND; no clinical trial registered yet"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Naporafenib (ERAS-254 / LXH254)", "trials": "NCT06346067 (SEACRAFT-2 P3), NCT05907304 (SEACRAFT-1 P1)", "reason": "Erasca terminated Novartis license March 2026 (effective June 3, 2026); program development stopped; existing patients continue access only"},
+    {"asset": "ERAS-007 (ERK1/2 inhibitor)", "trials": "NCT04866134, NCT05039177, NCT04959981, NCT05279859", "reason": "Asana License Agreement terminated November 8, 2025; HERKULES program deprioritized May 2024"},
+    {"asset": "ERAS-601 (SHP2 inhibitor)", "trials": "NCT04670679", "reason": "Active not recruiting; NiKang program deprioritized as part of strategic reprioritization toward RAS franchise"},
+    {"asset": "ERAS-801 (EGFR inhibitor)", "trials": "NCT05222802 (THUNDERBOLT-1)", "reason": "Katmai License Agreement terminated April 1, 2025; THUNDERBOLT-1 deprioritized May 2024; rights returned to Katmai"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3_indications": 0,
+    "p2_indications": 0,
+    "p1_indications": 2,
+    "p1_p2_indications": 0,
+    "active_clinical_indications_total": 2
+  }
+}

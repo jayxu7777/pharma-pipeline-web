@@ -1,0 +1,24 @@
+{
+  "issuer_name": "Scorpius Holdings, Inc.",
+  "ticker": "SCPX",
+  "exchange": "OTC",
+  "cik": "0001476963",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001558370-25-005986", "filing_date": "2025-04-30", "path": "data/scpx_10k_pipeline_section.html"},
+    "website": {"note": "Corporate site is www.scorpiusbiologics.com (CDMO services site, no clinical pipeline page)"},
+    "ctgov": {"path": "data/scpx_ctgov_compact.json", "active_p1_to_p3_trials": 0}
+  },
+  "no_active_clinical_pipeline_reason": "Scorpius Holdings is a contract development and manufacturing organization (CDMO) operating through Scorpius Biomanufacturing, Inc. The company divested all clinical-stage oncology assets (HS-110 and PTX-35) during 2023 and divested Elusys Therapeutics (ANTHIM anthrax antitoxin) in December 2023. As of the FY2024 10-K, the company has no active proprietary clinical pipeline; its operations are services-only (process development and CGMP biomanufacturing for third-party customers). NYSE American suspended trading in April 2025; shares now trade OTC.",
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "HS-110 (viagenpumatucel-L)", "note": "Heat shock protein gp96-Ig vaccine; divested 2023"},
+    {"asset": "PTX-35", "note": "TNFRSF25 agonist antibody; divested 2023"},
+    {"asset": "ANTHIM (obiltoxaximab)", "note": "Anthrax antitoxin; divested with Elusys Therapeutics December 2023"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

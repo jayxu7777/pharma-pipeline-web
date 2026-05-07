@@ -1,0 +1,113 @@
+{
+  "issuer_name": "Grifols SA",
+  "ticker": "GIFLF",
+  "exchange": "OTC",
+  "cik": "0001438569",
+  "region": "EU/Spain (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — Grifols files Form 6-K and Annual Report on Form 20-F (or local Spanish CNMV filings); no 10-K available on EDGAR."},
+    "website": {"note": "Not fetched in this run — Grifols is a large multi-product plasma/biotherapeutics company; pipeline summarized from ctgov active Grifols-sponsored trials."},
+    "ctgov": {"path": "data/giflf_ctgov_compact.json", "total_trials_associated": 88, "active_grifols_led": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "GRF312",
+      "aka": [],
+      "modality": "Topical ophthalmic (5% formulation)",
+      "target": "Not disclosed in registry record",
+      "license_origin": "Internal (Instituto Grifols)",
+      "indications": [
+        {
+          "indication": "Dry Eye Disease (DED)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Evaluating the Safety, Tolerability, and Efficacy of GRF312 5% in Participants With DED",
+          "trial_design": "Phase 2, placebo-controlled",
+          "nct_ids": ["NCT07264517"],
+          "trial_status": "Recruiting (started 2025-11-03; primary completion 2026-06-15)",
+          "lead_sponsor": "Instituto Grifols, S.A.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Alpha-1 MP (Alpha1-Proteinase Inhibitor, modified process)",
+      "aka": ["Alpha-1 15%", "Liquid Alpha1-PI", "Prolastin-C franchise (next-gen)"],
+      "modality": "Plasma-derived protein (IV and SC formulations)",
+      "target": "Replacement of alpha-1 proteinase inhibitor",
+      "license_origin": "Internal (Grifols Therapeutics LLC)",
+      "indications": [
+        {
+          "indication": "Pulmonary emphysema due to Alpha-1 antitrypsin deficiency (AATD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Efficacy and Safety of Alpha-1 MP in Pulmonary Emphysema Due to AATD; Long Term Safety study; SC vs IV Non-inferiority PK study",
+          "trial_design": "Multiple Phase 3 studies — efficacy/safety vs Prolastin-C; long-term safety extension; PK non-inferiority of weekly SC Alpha1-PI 15% vs IV",
+          "nct_ids": ["NCT01983241", "NCT02796937", "NCT07555483"],
+          "trial_status": "NCT01983241 Active, not recruiting (PCD 2026-08); NCT02796937 Enrolling by invitation (PCD 2028-09); NCT07555483 Not yet recruiting (start 2026-04-21)",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Antithrombin III (AT-III) plasma-derived concentrate",
+      "aka": [],
+      "modality": "Plasma-derived protein concentrate",
+      "target": "Antithrombin replacement",
+      "license_origin": "Internal (Grifols Biologicals, LLC)",
+      "indications": [
+        {
+          "indication": "Hereditary Antithrombin III deficiency",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Safety, Pharmacokinetics and Efficacy of an ATIII Concentrate",
+          "trial_design": "Phase 2/3 single-arm, plasma-derived AT-III concentrate",
+          "nct_ids": ["NCT00319228"],
+          "trial_status": "Active, not recruiting (PCD 2028-12)",
+          "lead_sponsor": "Grifols Biologicals, LLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Xembify (Immune Globulin Subcutaneous, Human, 20%)",
+      "aka": ["IGSC 20%"],
+      "modality": "Plasma-derived subcutaneous immune globulin (commercial product, additional indications under study)",
+      "target": "Polyclonal IgG replacement",
+      "license_origin": "Internal (Grifols Therapeutics LLC) — already FDA-approved for primary humoral immunodeficiency; trials below pursue label expansion",
+      "indications": [
+        {
+          "indication": "Secondary hypogammaglobulinemia with recurrent/severe infections in B-CLL, multiple myeloma, NHL",
+          "highest_phase": "Phase 3",
+          "trial_name": "XEMBIFY + Standard Medical Treatment vs Placebo + SMT in HGG patients with hematologic malignancies",
+          "trial_design": "Phase 3 placebo-controlled",
+          "nct_ids": ["NCT05645107"],
+          "trial_status": "Recruiting (PCD 2026-05)",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic Inflammatory Demyelinating Polyradiculoneuropathy (CIDP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PK and Safety of XEMBIFY vs Gamunex-C in CIDP",
+          "trial_design": "Phase 3 PK/safety comparator vs Gamunex-C",
+          "nct_ids": ["NCT07540221"],
+          "trial_status": "Recruiting (start 2026-04-02; PCD 2027-12-31)",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Grifols is a large commercial plasma-products company with marketed franchises including Prolastin-C, Gamunex-C, Xembify, Flebogamma DIF, Albutein, etc. Only ongoing P1/P2/P3 sponsor-led trials are listed above; commercial products are out of scope unless under further clinical development."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"note": "62 completed, 11 terminated, 5 withdrawn legacy trials in ctgov record — excluded per scope rules"}
+  ],
+  "excluded_partner_owned": [
+    {"note": "Several investigator-sponsored trials with academic lead sponsors (Albert Einstein, Cincinnati Children's, Duke, Columbia, etc.) using Grifols products — excluded as not Grifols-led"}
+  ],
+  "summary_counts": {"total_assets": 4, "p3": 5, "p2": 1, "p1": 0, "p2_p3": 1}
+}

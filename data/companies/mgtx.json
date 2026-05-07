@@ -1,0 +1,114 @@
+{
+  "issuer_name": "MeiraGTx Holdings plc",
+  "ticker": "MGTX",
+  "exchange": "Nasdaq",
+  "cik": "0001735438",
+  "region": "United Kingdom (US-listed, files 10-K)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/mgtx_10k_pipeline_section.html", "filing_date": "2026-03-30", "accession": "0001104659-26-036494"},
+    "website": {"url": "https://www.meiragtx.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/mgtx_ctgov_compact.json", "trials_total": 10, "lead_sponsor_filter": "MeiraGTx UK II Ltd / MeiraGTx, LLC"}
+  },
+  "pipeline": [
+    {
+      "asset": "AAV2-hAQP1",
+      "aka": ["AAV-hAQP1"],
+      "modality": "AAV gene therapy (intracanalicular)",
+      "target": "Aquaporin-1 (AQP1)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Radiation-induced xerostomia (Grade 2/3, head and neck cancer survivors)",
+          "highest_phase": "Phase 3",
+          "trial_name": "AQUAx2 (Phase 3) and AQUAx (Phase 2)",
+          "trial_design": "AQUAx Phase 2 (NCT05926765) randomized double-blind placebo-controlled dose-finding; AQUAx2 Phase 3 ongoing per company",
+          "nct_ids": ["NCT05926765", "NCT06544798", "NCT02446249"],
+          "trial_status": "RECRUITING (NCT05926765 Phase 2); ENROLLING_BY_INVITATION (NCT06544798 long-term FU); Phase 3 (AQUAx2) initiated per company website",
+          "lead_sponsor": "MeiraGTx, LLC",
+          "key_milestones": ["FDA Breakthrough Therapy designation", "RMAT designation", "Orphan Drug designation"]
+        }
+      ]
+    },
+    {
+      "asset": "AAV-GAD (AAV-GAD2)",
+      "aka": [],
+      "modality": "AAV gene therapy (subthalamic nucleus delivery)",
+      "target": "Glutamic Acid Decarboxylase (GAD2)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Parkinson's disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "AAV-GAD Parkinson's program",
+          "trial_design": "Phase 1/2 long-term follow-up (NCT05894343); double-blind Phase 1/2 efficacy/safety (NCT05603312, completed Sep 2024)",
+          "nct_ids": ["NCT05894343", "NCT05603312"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (long-term FU); Phase 3-ready per company",
+          "lead_sponsor": "MeiraGTx, LLC",
+          "key_milestones": ["RMAT designation", "Phase 3 ready"]
+        }
+      ]
+    },
+    {
+      "asset": "Botaretigene sparoparvovec (bota-vec)",
+      "aka": ["AAV5-RPGR"],
+      "modality": "AAV gene therapy (subretinal)",
+      "target": "Retinitis Pigmentosa GTPase Regulator (RPGR)",
+      "license_origin": "Originally co-developed with Janssen (Johnson & Johnson); MeiraGTx reacquired full rights in 2024",
+      "indications": [
+        {
+          "indication": "X-linked Retinitis Pigmentosa (XLRP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "LUMEOS (Phase 3) — sponsored by Janssen historically; rights reverted to MeiraGTx",
+          "trial_design": "Phase 3 randomized controlled subretinal AAV5-RPGR; Phase 1/2 (NCT03252847) completed",
+          "nct_ids": ["NCT03252847"],
+          "trial_status": "Phase 3 LUMEOS data reported by Janssen; BLA filing planned by MeiraGTx",
+          "lead_sponsor": "MeiraGTx UK II Ltd",
+          "key_milestones": ["FDA PRIME designation", "Fast Track", "Orphan Drug designation", "BLA submission planned"]
+        }
+      ]
+    },
+    {
+      "asset": "AAV-AIPL1",
+      "aka": [],
+      "modality": "AAV gene therapy (subretinal)",
+      "target": "AIPL1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "AIPL1-associated Leber Congenital Amaurosis type 4 (LCA4) congenital blindness",
+          "highest_phase": "Phase 1",
+          "trial_name": "Specials License compassionate use program",
+          "trial_design": "UK Specials License treatment; clinical use ongoing",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Specials License (UK MHRA) — compassionate use; not on registry",
+          "lead_sponsor": "MeiraGTx UK II Ltd",
+          "key_milestones": ["Rare Pediatric Disease designation", "Orphan Drug designation"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "AAV-hAQP1 in Sjogren's Disease (IND ready)",
+    "AAV-hAQP1 in PSMA radioligand xerostomia",
+    "AAV-UPF1 / AAV-CNTFR in ALS",
+    "AAV-RDH12, AAV-ABCA4, AAV-VEGFR2, BBS10 ophthalmology programs",
+    "RiboLeptin (lipodystrophies)",
+    "GLP-1/GIP combinations (Obesity/MASH)",
+    "Ribo-CAR-T (oncology, autoimmune)",
+    "AAV-BDNF2 (genetic obesity)"
+  ],
+  "excluded_legacy_terminated": [
+    "AAV-CNGB3 Achromatopsia (NCT03001310) — Phase 1/2 completed, partnered with Janssen",
+    "AAV-CNGA3 Achromatopsia (NCT03758404) — Phase 1/2 completed, partnered with Janssen",
+    "AAV-RPE65 LCA (NCT02781480) — Phase 1/2 completed"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase_3": 2,
+    "phase_2": 1,
+    "phase_1": 1
+  }
+}

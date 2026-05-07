@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pharma Pipeline — US-listed biopharma & medtech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tabulator-tables@5.6.1/dist/css/tabulator.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">PHARMA PIPELINE<span class="sub">US-listed biopharma & medtech · active P1/P2/P3</span></div>
+    <nav>
+      <a href="index.html">Companies</a>
+      <a href="https://github.com/jayxu7777/pharma-pipeline-web" target="_blank" rel="noopener">Source</a>
+    </nav>
+  </header>
+
+  <section class="stats" id="stats">
+    <div class="stat-card"><div class="label">Companies</div><div class="value" id="stat-companies">—</div></div>
+    <div class="stat-card"><div class="label">With Pipeline</div><div class="value" id="stat-with-pipeline">—</div></div>
+    <div class="stat-card"><div class="label">Assets</div><div class="value" id="stat-assets">—</div></div>
+    <div class="stat-card p3"><div class="label">P3 Indications</div><div class="value" id="stat-p3">—</div></div>
+    <div class="stat-card p2"><div class="label">P2 Indications</div><div class="value" id="stat-p2">—</div></div>
+    <div class="stat-card p1"><div class="label">P1 Indications</div><div class="value" id="stat-p1">—</div></div>
+  </section>
+
+  <div class="searchbar">
+    <input type="search" id="q" placeholder="Search ticker, issuer, therapeutic area…" autocomplete="off">
+    <span class="hint" id="result-count"></span>
+  </div>
+
+  <div class="layout">
+    <aside class="filters">
+      <div class="group">
+        <h3>Bucket</h3>
+        <label><input type="checkbox" class="f-kind" value="core_biopharma"> Core biopharma <span class="count" id="cnt-kind-core_biopharma"></span></label>
+        <label><input type="checkbox" class="f-kind" value="adjacent"> Adjacent (medtech / dx / services) <span class="count" id="cnt-kind-adjacent"></span></label>
+      </div>
+      <div class="group">
+        <h3>Pipeline</h3>
+        <label><input type="checkbox" id="f-has-pipeline"> Has active P1/P2/P3 only</label>
+      </div>
+      <div class="group">
+        <h3>Phase threshold</h3>
+        <select id="f-phase">
+          <option value="">All</option>
+          <option value="p3">≥1 in P3</option>
+          <option value="p2">≥1 in P2</option>
+          <option value="p1">≥1 in P1</option>
+        </select>
+      </div>
+      <div class="group">
+        <h3>Exchange</h3>
+        <div id="f-exchange-list"></div>
+      </div>
+      <div class="group">
+        <h3>Therapeutic area</h3>
+        <div id="f-area-list"></div>
+      </div>
+      <button class="reset" id="reset-btn">Reset filters</button>
+    </aside>
+    <main class="content">
+      <div id="grid"></div>
+    </main>
+  </div>
+
+  <footer>
+    Snapshot <span id="snapshot-date">—</span> · Data: 10-K + ClinicalTrials.gov + corporate website synthesis · No investment advice.
+  </footer>
+
+  <script src="https://unpkg.com/tabulator-tables@5.6.1/dist/js/tabulator.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

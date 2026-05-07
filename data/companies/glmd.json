@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Galmed Pharmaceuticals Ltd.",
+  "ticker": "GLMD",
+  "exchange": "Nasdaq",
+  "cik": "0001595353",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F, not 10-K"},
+    "website": {"url": "https://www.galmedpharma.com/pipeline"},
+    "ctgov": {"path": "data/glmd_ctgov_compact.json", "trial_count": 13}
+  },
+  "pipeline": [
+    {
+      "asset": "Aramchol",
+      "aka": ["Aramchol Meglumine", "Aramchol free acid"],
+      "modality": "Small molecule (fatty acid bile acid conjugate; SCD1 inhibitor)",
+      "target": "Stearoyl-CoA desaturase 1 (SCD1)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Nonalcoholic Steatohepatitis (NASH) with fibrosis",
+          "highest_phase": "P3",
+          "trial_name": "ARMOR",
+          "trial_design": "Phase 3 clinical study evaluating efficacy and safety of Aramchol in NASH subjects",
+          "nct_ids": ["NCT04104321"],
+          "trial_status": "SUSPENDED (per ctgov; reformulation work to Aramchol Meglumine ongoing via supporting PK bridging studies NCT07251712 and NCT06502561)",
+          "lead_sponsor": "Galmed Research and Development, Ltd.",
+          "key_milestones": ["Bridging PK study NCT07251712 (Aramchol Meglumine tablet) recruiting since Dec 2025", "PK comparison study NCT06502561 active not recruiting since Feb 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "MyBiotics", "indication": "NASH/fibrosis", "status": "Preclinical, gut microbiome"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Aramchol", "nct": "NCT06095986", "indication": "Primary Sclerosing Cholangitis", "phase": "P2", "status": "WITHDRAWN"},
+    {"asset": "Aramchol", "nct": "NCT02325492", "indication": "Cholesterol Gallstones", "phase": "P2", "status": "TERMINATED"},
+    {"asset": "Amilo-5MER", "nct": "NCT05857215", "indication": "Inflammatory disease (FIH)", "phase": "P1", "status": "COMPLETED 2021; no active follow-on study disclosed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 0, "P1": 0}
+}

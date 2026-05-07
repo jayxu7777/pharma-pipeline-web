@@ -1,0 +1,126 @@
+{
+  "issuer_name": "Bausch Health Companies Inc.",
+  "ticker": "BHC",
+  "exchange": "NYSE",
+  "cik": "0000885590",
+  "region": "US/Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000885590-26-000023",
+      "filing_date": "2026-02-19",
+      "doc": "bhc-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.bauschhealth.com/r-d/our-pipeline/",
+      "note": "Pipeline detail behind PDF (BHC-Pipeline-Document-February-2026.pdf) which returned 403; corporate page lists Amiselimod and Rifaximin highlights only."
+    },
+    "ctgov": {
+      "query_sponsor": "Bausch Health",
+      "studies_returned": 192,
+      "active_p123_company_sponsored": 3
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Larsucosterol",
+      "aka": ["DUR-928", "DV-928"],
+      "modality": "Small molecule (endogenous sulfated oxysterol / DNMT inhibitor)",
+      "target": "DNA methyltransferases (epigenetic modulator)",
+      "license_origin": "Acquired via DURECT Corporation acquisition (Sept 2025)",
+      "indications": [
+        {
+          "indication": "Severe Alcohol-associated Hepatitis (AH)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Larsucosterol AH registrational Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT07428538"],
+          "trial_status": "Recruiting (start 2026-01-29; primary completion 2027-06-29)",
+          "lead_sponsor": "Bausch Health Americas, Inc.",
+          "key_milestones": [
+            "FDA Breakthrough Therapy Designation",
+            "Registrational Phase 3 initiated early 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Rifaximin SSD",
+      "aka": ["Rifaximin SSD-40IR", "RED-C program"],
+      "modality": "Small molecule (rifamycin antibiotic, soluble solid dispersion formulation)",
+      "target": "Bacterial RNA polymerase (gut microbiome modulation)",
+      "license_origin": "Internal (Salix franchise; line extension of Xifaxan)",
+      "indications": [
+        {
+          "indication": "Hepatic Encephalopathy decompensation in early-stage cirrhosis",
+          "highest_phase": "Phase 3",
+          "trial_name": "RED-C (Phase 3 program: two global trials)",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT05071716", "NCT05297448"],
+          "trial_status": "Active, not recruiting; topline (Jan 2026) reported both trials missed primary endpoint per 10-K (path forward under review)",
+          "lead_sponsor": "Bausch Health Americas, Inc.",
+          "key_milestones": [
+            "Jan 2026: both Phase 3 RED-C trials missed primary endpoint while remaining safe and well tolerated"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Amiselimod",
+      "aka": ["MT-1303"],
+      "modality": "Oral small molecule",
+      "target": "S1P receptor modulator",
+      "license_origin": "Licensed/internal Salix program",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe ulcerative colitis",
+          "highest_phase": "Phase 2 (end-of-Phase 2 reached; Phase 3 planning)",
+          "trial_name": "Amiselimod UC Phase 2 (completed) / Phase 3 planning",
+          "trial_design": "Randomized, double-blind, placebo-controlled (Phase 2 completed)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "End-of-Phase 2 meeting completed with FDA, EMA, PMDA; regulatory feedback under review for Phase 3 design",
+          "lead_sponsor": "Bausch Health",
+          "key_milestones": [
+            "DDW 2024 Phase 2 trial updates",
+            "End-of-Phase 2 regulatory interactions completed (per 10-K filed Feb 2026)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Lumify Next Generation (low-dose brimonidine)",
+      "aka": ["Lumify NextGen"],
+      "modality": "Topical ophthalmic small molecule (alpha-2 adrenergic agonist)",
+      "target": "Alpha-2 adrenergic receptor (conjunctival vasoconstriction)",
+      "license_origin": "Internal (Bausch + Lomb)",
+      "indications": [
+        {
+          "indication": "Ocular redness (next-generation OTC indication expansion)",
+          "highest_phase": "Phase 3 (complete; NDA-stage)",
+          "trial_name": "Lumify Next Generation Phase 3",
+          "trial_design": "Randomized, controlled (Phase 3 met all primary and secondary endpoints per 10-K)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 met primary and secondary endpoints; NDA submission anticipated H1 2026",
+          "lead_sponsor": "Bausch + Lomb",
+          "key_milestones": [
+            "Phase 3 met primary and secondary endpoints",
+            "NDA submission anticipated H1 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Bausch Health is largely a commercial-stage diversified specialty pharma (Salix GI, Bausch + Lomb eye health, Solta Medical, International, Diversified). Major marketed products include Xifaxan (rifaximin), Trulance, Relistor, Lumify, Blink, enVista IOLs, Thermage, CABTREO. ~80 R&D projects per 10-K; only late-stage clinical assets material to investors are listed above."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase_3": 3,
+    "phase_2": 1,
+    "phase_1": 0
+  }
+}

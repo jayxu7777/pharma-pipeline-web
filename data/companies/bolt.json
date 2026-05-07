@@ -1,0 +1,83 @@
+{
+  "issuer_name": "Bolt Biotherapeutics, Inc.",
+  "ticker": "BOLT",
+  "exchange": "Nasdaq",
+  "cik": "0001641281",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-104121",
+      "filing_date": "2026-03-12",
+      "doc": "bolt-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.boltbio.com/pipeline/",
+      "note": "Confirms BDC-4182 wholly-owned active P1; BDC-3042 P1 dose-escalation complete and seeking partner; CEA ISAC and PD-L1 ISAC preclinical seeking partners."
+    },
+    "ctgov": {
+      "lead_sponsor_searched": "Bolt Biotherapeutics",
+      "trials_returned": 4,
+      "note": "BDC-4182 P1/2 RECRUITING; BDC-3042 P1 TERMINATED; BDC-1001 P1/2 and P2 both TERMINATED."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "BDC-4182",
+      "aka": ["Claudin 18.2 ISAC"],
+      "modality": "Immune-Stimulating Antibody Conjugate (ISAC) - antibody conjugated to TLR7/8 agonist payload",
+      "target": "Claudin 18.2",
+      "license_origin": "Wholly-owned (exclusive worldwide rights secured March 2024 following Innovent collaboration restructuring)",
+      "indications": [
+        {
+          "indication": "Advanced gastric / gastroesophageal junction adenocarcinoma",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "First-in-Human BDC-4182 monotherapy",
+          "trial_design": "First-in-human Phase 1/2 dose-escalation and expansion of BDC-4182 single-agent in advanced gastric / GEJ cancer",
+          "nct_ids": ["NCT06921837"],
+          "trial_status": "RECRUITING; dose-escalation ongoing; clinical data expected Q3 2026",
+          "lead_sponsor": "Bolt Biotherapeutics, Inc.",
+          "key_milestones": ["Initial clinical data Q3 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {
+      "asset": "CEA ISAC",
+      "reason": "Preclinical Boltbody ISAC targeting CEA; on hold seeking partner per 10-K."
+    },
+    {
+      "asset": "PD-L1 ISAC",
+      "reason": "Preclinical Boltbody ISAC targeting PD-L1; on hold seeking partner per 10-K."
+    },
+    {
+      "asset": "BDC-3042 (Dectin-2 agonist antibody)",
+      "reason": "Phase 1 dose-escalation completed (April 2025) but Phase 1 trial NCT06052852 was TERMINATED Aug 2025; development paused seeking partnering or additional funding per 10-K."
+    },
+    {
+      "asset": "Caprin-1 ISAC (Toray collaboration)",
+      "reason": "Preclinical / partner collaboration."
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "BDC-1001 (HER2 ISAC, trastuzumab imbotolimod)",
+      "nct_ids": ["NCT04278144", "NCT05954143"],
+      "reason": "Phase 1/2 monotherapy/combo and Phase 2 with pertuzumab both TERMINATED 2024; previous lead candidate."
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "asset": "Genmab collaboration ISAC candidates",
+      "reason": "Preclinical / early development funded by Genmab."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 1
+  }
+}

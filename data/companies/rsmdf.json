@@ -1,0 +1,59 @@
+{
+  "issuer_name": "ResMed Inc.",
+  "ticker": "RSMDF",
+  "exchange": "OTC",
+  "cik": "0000943819",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-08-08",
+      "accession": "0000943819-25-000035",
+      "url": "https://www.sec.gov/Archives/edgar/data/943819/000094381925000035/rmd-20250630.htm"
+    },
+    "website": {
+      "error": "Medical device / digital health company; no drug pipeline page"
+    },
+    "ctgov": {
+      "query_sponsor": "ResMed",
+      "trials_p1_p3": 11,
+      "note": "All 11 P1/P3 records are device studies (CPAP, VPAP, masks, ventilators) for sleep-disordered breathing. ResMed-led trials are all COMPLETED (NCT01395693 mask, NCT02683772 Astral VAPS, NCT00252252 AutoVPAP). Remaining trials are investigator-initiated studies led by academic institutions (Johns Hopkins, Yale, Adelaide, WashU, Kaiserswerther Diakonie) where ResMed or ResMed Foundation only provides device or grant support; statuses are COMPLETED, TERMINATED, UNKNOWN, or RECRUITING but not ResMed-sponsored. None qualify as active P1/P2/P3 drug development by the company."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Sleep and respiratory care medical devices and digital health software",
+    "core_franchises": [
+      "CPAP / APAP / BiLevel devices for obstructive sleep apnea (e.g., AirSense, AirCurve platforms)",
+      "Masks and accessories (AirFit, AirTouch families)",
+      "Life-support and non-invasive ventilation (Astral, Stellar, Lumis platforms)",
+      "Out-of-hospital software (Brightree, MatrixCare, MEDIFOX DAN)",
+      "Digital health platforms (myAir, AirView)"
+    ],
+    "regulatory_status": "Marketed FDA 510(k)-cleared and CE Mark devices and SaaS platforms. Lifecycle device R&D continues but is not conducted under drug-style P1/P2/P3 INDs."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nctId": "NCT04084990", "reason": "Terminated; investigator-initiated (WashU); ResMed Foundation grant-only"}
+  ],
+  "excluded_partner_owned": [
+    {"nctId": "NCT01482065", "reason": "Investigator-initiated by Johns Hopkins; ResMed Foundation collaborator only; COMPLETED"},
+    {"nctId": "NCT07332442", "reason": "Investigator-initiated by Yale (NHLBI funded); ResMed Foundation collaborator only; recruiting Eszopiclone in OSA"},
+    {"nctId": "NCT01061476", "reason": "Investigator-initiated by Johns Hopkins; ResMed collaborator on Provent device; COMPLETED"},
+    {"nctId": "NCT00990132", "reason": "Investigator-initiated; ResMed Foundation/Respironics collaborators; COMPLETED"},
+    {"nctId": "NCT00251290", "reason": "Investigator-initiated by Yale; ResMed Foundation collaborator only; COMPLETED"},
+    {"nctId": "NCT01303198", "reason": "Investigator-initiated by Kaiserswerther Diakonie; ResMed Foundation collaborator only; UNKNOWN status, started 2001"},
+    {"nctId": "NCT00738179", "reason": "Investigator-initiated by Adelaide Institute for Sleep Health (SAVE study); ResMed device support only; UNKNOWN status, primary completion 2015"},
+    {"nctId": "NCT01395693", "reason": "ResMed-led but COMPLETED (Salt Lake mask system, 2011)"},
+    {"nctId": "NCT02683772", "reason": "ResMed-led but COMPLETED (Astral VAPS AutoEPAP, 2017)"},
+    {"nctId": "NCT00252252", "reason": "ResMed-led but COMPLETED (AutoVPAP, 2007)"}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "no_active_clinical_pipeline_reason": "ResMed is a sleep, respiratory care, and digital health medical device and SaaS company. It has no proprietary drug pipeline. All ctgov P1/P3 hits are device studies; ResMed-sponsored trials in the registry are all completed legacy device studies, and active trials are investigator-initiated (Yale NHLBI, Johns Hopkins, Adelaide, WashU, Kaiserswerther) where ResMed or ResMed Foundation only provides device or grant support. No active P1/P2/P3 drug development by the company."
+}

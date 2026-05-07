@@ -1,0 +1,128 @@
+{
+  "issuer_name": "Fate Therapeutics, Inc.",
+  "ticker": "FATE",
+  "exchange": "Nasdaq",
+  "cik": "0001434316",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-073699", "filing_date": "2026-02-26", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://fatetherapeutics.com/pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Fate Therapeutics", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "FT819",
+      "aka": [],
+      "modality": "iPSC-derived allogeneic CD19-targeted CAR T",
+      "target": "CD19",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lupus nephritis (Class III/IV) and systemic lupus erythematosus",
+          "highest_phase": "Phase 2",
+          "trial_name": "FT819 Lupus Nephritis Phase 2",
+          "trial_design": "Open-label, single-arm Phase 2",
+          "nct_ids": ["NCT07570862"],
+          "trial_status": "Not yet recruiting (start 2026-07-01)",
+          "lead_sponsor": "Fate Therapeutics",
+          "key_milestones": ["FDA RMAT designation; primary completion 2029-07-01"]
+        },
+        {
+          "indication": "B-cell mediated autoimmune disease (SLE, lupus nephritis, ANCA vasculitis, idiopathic inflammatory myopathies, systemic sclerosis)",
+          "highest_phase": "Phase 1",
+          "trial_name": "FT819-202 (autoimmune basket)",
+          "trial_design": "Open-label Phase 1",
+          "nct_ids": ["NCT06308978"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Fate Therapeutics",
+          "key_milestones": ["Primary completion 2027-09-30"]
+        },
+        {
+          "indication": "Relapsed/refractory B-cell malignancies",
+          "highest_phase": "Phase 1",
+          "trial_name": "FT819-101",
+          "trial_design": "Open-label Phase 1",
+          "nct_ids": ["NCT04629729"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Fate Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "FT522",
+      "aka": [],
+      "modality": "iPSC-derived allogeneic CD19/CD20-targeted CAR NK with alloimmune-defense receptor (no lympho-conditioning)",
+      "target": "CD19 (and CD20)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell lymphoma (and pan-indication autoimmune development per company pipeline)",
+          "highest_phase": "Phase 1",
+          "trial_name": "FT522-101",
+          "trial_design": "Open-label Phase 1 with rituximab",
+          "nct_ids": ["NCT05950334"],
+          "trial_status": "Completed (Phase 1 oncology cohort); program advancing to autoimmune Phase 1 per 10-K",
+          "lead_sponsor": "Fate Therapeutics",
+          "key_milestones": ["Primary completion 2025-06-06"]
+        }
+      ]
+    },
+    {
+      "asset": "FT825 / ONO-8250",
+      "aka": [],
+      "modality": "iPSC-derived allogeneic HER2-targeted CAR T with seven synthetic edits",
+      "target": "HER2 (and EGFR-based safety logic per pipeline disclosure)",
+      "license_origin": "Co-developed with Ono Pharmaceutical",
+      "indications": [
+        {
+          "indication": "HER2-expressing advanced solid tumors (with or without monoclonal antibodies)",
+          "highest_phase": "Phase 1",
+          "trial_name": "FT825/ONO-8250-001",
+          "trial_design": "Open-label Phase 1 dose escalation and expansion",
+          "nct_ids": ["NCT06241456"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Fate Therapeutics",
+          "key_milestones": ["Primary completion 2029-05-01"]
+        }
+      ]
+    },
+    {
+      "asset": "FT836",
+      "aka": ["Next-gen MICA/B-targeted CAR T"],
+      "modality": "iPSC-derived allogeneic next-generation CAR T",
+      "target": "MICA/B (with EGFR/HER2 combination per pipeline)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (with or without chemotherapy and/or monoclonal antibodies)",
+          "highest_phase": "Phase 1",
+          "trial_name": "FT836-101",
+          "trial_design": "Open-label Phase 1",
+          "nct_ids": ["NCT07216105"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Fate Therapeutics",
+          "key_milestones": ["Primary completion 2028-01"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "FT839 (NxG CD19/CD38/CD20 or CD19/CD38/BCMA/GPRC5D)", "reason": "Pipeline-disclosed but no registered trial as of snapshot"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "FT538", "nct_ids": ["NCT04614636", "NCT05069935"], "reason": "Terminated"},
+    {"asset": "FT516", "nct_ids": ["NCT04023071", "NCT04551885"], "reason": "Terminated"},
+    {"asset": "FT536 (oncology Fate-sponsored)", "nct_ids": ["NCT05395052"], "reason": "Terminated; investigator-led IST in glioma remains"},
+    {"asset": "FT500", "nct_ids": ["NCT03841110"], "reason": "Completed; deprioritized"},
+    {"asset": "FT576", "nct_ids": ["NCT05182073"], "reason": "Completed Phase 1; deprioritized"},
+    {"asset": "FT596", "nct_ids": ["NCT04245722", "NCT05934097"], "reason": "Terminated / Withdrawn"},
+    {"asset": "ProTmune / ProHema legacy programs", "reason": "Terminated/completed legacy assets"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "FT536 in WHO grade 4 astrocytoma", "nct_ids": ["NCT07560865"], "reason": "Investigator-sponsored by University of Minnesota; not a Fate-sponsored pivotal program"}
+  ],
+  "summary_counts": {"total_active_assets": 4, "phase_3": 0, "phase_2": 1, "phase_1": 4}
+}

@@ -1,0 +1,81 @@
+{
+  "issuer_name": "Lipella Pharmaceuticals Inc.",
+  "ticker": "LIPO",
+  "exchange": "OTC",
+  "cik": "0001347242",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001753926-25-000507", "filed": "2025-03-28", "path": "data/lipo_10k_pipeline_section.html"},
+    "website": {"url": "https://www.lipella.com/pipeline"},
+    "ctgov": {"path": "data/lipo_ctgov_compact.json", "trials_under_lipella_sponsor": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "LP-10",
+      "aka": ["liposomal tacrolimus (intravesical)"],
+      "modality": "Liposomal small molecule (intravesical instillation)",
+      "target": "T-lymphocyte calcineurin (tacrolimus)",
+      "license_origin": "Internal (Lipella liposome platform)",
+      "indications": [
+        {
+          "indication": "Refractory moderate-to-severe hemorrhagic cystitis (HC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Safety, Tolerability and Efficacy of LP-10 in Subjects With Refractory Moderate to Severe Hemorrhagic Cystitis",
+          "trial_design": "Phase 2a, multi-center, intravesical instillation",
+          "nct_ids": ["NCT03129126"],
+          "trial_status": "Completed (positive topline; FDA Orphan Drug Designation granted; advancing toward next development steps)",
+          "lead_sponsor": "Lipella Pharmaceuticals, Inc.",
+          "key_milestones": ["Phase 2a completed Aug 2023", "Orphan Drug Designation granted"]
+        }
+      ]
+    },
+    {
+      "asset": "LP-310",
+      "aka": ["liposomal tacrolimus oral rinse", "LP-10 (Liposomal Tacrolimus) per ctgov record naming"],
+      "modality": "Liposomal small molecule (oral rinse)",
+      "target": "T-lymphocyte calcineurin (tacrolimus)",
+      "license_origin": "Internal (Lipella liposome platform)",
+      "indications": [
+        {
+          "indication": "Symptomatic oral lichen planus (OLP)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Evaluating LP-10 in Subjects With OLP (registered title; intervention is liposomal tacrolimus = LP-310 per 10-K)",
+          "trial_design": "Phase 2a multi-center dose-escalation; topical oral rinse",
+          "nct_ids": ["NCT06233591"],
+          "trial_status": "Active, not recruiting (primary completion June 2025; trial expected to be completed Q2 2025; topline data podium presentation May 15, 2025)",
+          "lead_sponsor": "Lipella Pharmaceuticals, Inc.",
+          "key_milestones": ["Topline data from first two cohorts presented at AAOM/EAOM Joint Meeting May 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "LP-410",
+      "aka": ["oral liposomal tacrolimus formulation"],
+      "modality": "Liposomal small molecule (oral local delivery)",
+      "target": "T-lymphocyte calcineurin (tacrolimus)",
+      "license_origin": "Internal (Lipella liposome platform)",
+      "indications": [
+        {
+          "indication": "Oral graft-versus-host disease (oral GVHD)",
+          "highest_phase": "Phase 1 (IND approved; trial initiation pending per 10-K)",
+          "trial_name": "Not yet initiated",
+          "trial_design": "Trial design pending; IND approved March 5, 2024",
+          "nct_ids": [],
+          "trial_status": "PLANNED — IND approved by FDA on March 5, 2024; FDA Orphan Drug Designation granted Nov 11, 2023; clinical trial not yet started per 10-K filed March 2025; no NCT registered",
+          "lead_sponsor": "Lipella Pharmaceuticals, Inc.",
+          "key_milestones": ["Orphan Drug Designation Nov 2023", "IND approval Mar 2024"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "LP-50", "indication": "Non-muscle invasive bladder cancer (NMIBC)", "reason": "Preclinical per 10-K and corporate website (ASCO 2024 preclinical data)"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "LP-08", "trial": "NCT01393223 (Interstitial Cystitis Phase 2)", "reason": "Legacy completed Phase 2 trial; LP-08 not in current 10-K active pipeline"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 3, "p3": 0, "p2": 2, "p1": 0, "planned": 1}
+}

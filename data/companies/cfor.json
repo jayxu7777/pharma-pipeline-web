@@ -1,0 +1,28 @@
+{
+  "issuer_name": "CapForce Inc. (formerly OpGen, Inc.)",
+  "ticker": "CFOR",
+  "exchange": "OTC",
+  "cik": "0001293818",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001829126-25-006628",
+      "filing_date": "2025-08-21",
+      "doc": "opgeninc_10k.htm",
+      "note": "Issuer formally restructured into a financial services / capital markets advisory business (CapForce subsidiary). Legacy diagnostics subsidiaries Curetis (Germany) and Ares Genetics (Austria) entered insolvency in November 2023 and were sold off in April 2024 (Curetis to Camtech Pte Ltd; Ares Genetics to bioMerieux S.A.). No remaining proprietary drug or diagnostics pipeline at the issuer level."
+    },
+    "website": {"error": "no public pipeline page found - issuer is now a capital markets advisory firm (CapForce International Holdings Ltd.)"},
+    "ctgov": {"unique_trials_p1_3": 0, "note": "No active sponsored trials returned for CapForce"}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Unyvero A50 / Curetis molecular diagnostics platform", "reason": "Curetis GmbH entered insolvency Nov 2023, assets sold to Camtech Pte Ltd Apr 2024 - no longer owned by issuer"},
+    {"asset": "ARES Genetics ARESdb / AREScloud", "reason": "Ares Genetics GmbH entered insolvency Nov 2023, assets sold to bioMerieux S.A. Apr 2024 - no longer owned by issuer"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Issuer fully repositioned in 2024 into a financial services / capital markets advisory business via wholly-owned subsidiary CapForce International Holdings Ltd. All legacy diagnostics subsidiaries (Curetis, Ares Genetics) were divested through insolvency proceedings. No proprietary drug or device clinical pipeline remains."
+}

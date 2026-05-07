@@ -1,0 +1,55 @@
+{
+  "issuer_name": "Milestone Scientific Inc.",
+  "ticker": "MLSS",
+  "exchange": "NYSE",
+  "cik": "0000855683",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014117",
+      "filing_date": "2026-03-31",
+      "path": "data/mlss_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://milestonescientific.com",
+      "note": "Marketed devices listed; no clinical pipeline page (https://milestonescientific.com/pipeline returned 404)."
+    },
+    "ctgov": {
+      "path": "data/mlss_ctgov_compact.json",
+      "trials_p1_p3": 0,
+      "note": "No active P1/P2/P3 trials with Milestone Scientific as lead sponsor."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      {
+        "name": "STA Single Tooth Anesthesia System",
+        "indication": "Computer-controlled local dental anesthesia delivery",
+        "status": "Marketed worldwide"
+      },
+      {
+        "name": "CompuFlo Epidural System",
+        "indication": "Real-time identification of the epidural space using Dynamic Pressure Sensing (DPS) technology",
+        "status": "Marketed; CPT Category III code 0777T effective Jan 1, 2023"
+      },
+      {
+        "name": "CathCheck",
+        "indication": "Epidural catheter verification",
+        "status": "Marketed"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company (dental and medical anesthesia/epidural injection devices). All assets are FDA-cleared/marketed devices using DPS technology; no active proprietary P1/P2/P3 drug or device pivotal trials disclosed in 10-K or ClinicalTrials.gov."
+}

@@ -1,0 +1,20 @@
+{
+  "issuer_name": "BGM Group Ltd.",
+  "ticker": "BGM",
+  "exchange": "Nasdaq",
+  "cik": "0001779578",
+  "region": "China",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F (late filing per Feb 2026 NASDAQ notice)"},
+    "website": {"url": "https://www.bgmgroupltd.com/", "note": "Strategic focus on AI, intelligent robots, cloud computing, and biopharmaceuticals; current pharma products are oxytetracycline veterinary/human products and licorice extracts (commercial, not clinical pipeline)"},
+    "ctgov": {"file": "data/bgm_ctgov_compact.json", "trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "BGM is a Chinese pharmaceutical/AI conglomerate (oxytetracycline animal health products, licorice extracts, AI initiatives). No active P1/P2/P3 human clinical trials identified.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "phase3": 0, "phase2": 0, "phase1": 0}
+}

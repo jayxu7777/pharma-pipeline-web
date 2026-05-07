@@ -1,0 +1,83 @@
+{
+  "issuer_name": "CorMedix Inc.",
+  "ticker": "CRMD",
+  "exchange": "Nasdaq",
+  "cik": "0001410098",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-023889", "filing_date": "2026-03-05", "doc": "ea0278169-10k_cormedix.htm"},
+    "website": {"url": "https://www.cormedix.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/crmd_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "DefenCath (taurolidine + heparin catheter lock solution)",
+      "aka": ["Neutrolin (ex-US)"],
+      "modality": "Catheter lock solution (taurolidine 13.5 mg/mL + heparin 1,000 U/mL)",
+      "target": "Anti-microbial / anti-coagulant lock for central venous catheters",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Reduction of CLABSI in adult patients receiving total parenteral nutrition (TPN) via CVC",
+          "highest_phase": "Phase 3",
+          "trial_name": "DefenCath TPN Phase 3 (label expansion)",
+          "trial_design": "Randomized, double-blind, adaptive, two-arm Phase 3 of DefenCath vs. heparin lock in adult TPN/CVC patients",
+          "nct_ids": ["NCT06822426"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "CorMedix",
+          "key_milestones": ["Initiated Q2 2025", "Primary completion 2027-01"]
+        },
+        {
+          "indication": "Pediatric hemodialysis (CRBSI/CLABSI reduction) — PREA post-marketing requirement",
+          "highest_phase": "Phase 3",
+          "trial_name": "DefenCath pediatric HD post-marketing study",
+          "trial_design": "Pediatric hemodialysis study to fulfill FDA PREA post-marketing requirement",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pediatric HD study initiated/in start-up under PREA per 10-K",
+          "lead_sponsor": "CorMedix",
+          "key_milestones": ["Pediatric exclusivity potential of additional 6 months"]
+        }
+      ]
+    },
+    {
+      "asset": "REZZAYO (rezafungin)",
+      "aka": ["CD101"],
+      "modality": "Echinocandin antifungal (IV, once-weekly)",
+      "target": "Beta-1,3-D-glucan synthase",
+      "license_origin": "US distribution/marketing rights via Melinta acquisition (Aug 2025); originated by Cidara, partnered with Mundipharma",
+      "indications": [
+        {
+          "indication": "Prophylaxis of invasive fungal disease in adults undergoing allogeneic blood and marrow transplantation (BMT)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ReSPECT",
+          "trial_design": "Phase 3 multicenter randomized double-blind trial of once-weekly rezafungin vs. standard antimicrobial regimen for IFD prophylaxis in allo-BMT (400 mg loading then 200 mg weekly x13)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing per 10-K (Mundipharma-sponsored; CorMedix holds US commercial rights)",
+          "lead_sponsor": "Mundipharma (CorMedix US commercial partner)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "DefenCath", "indication": "Reduction of CRBSI in adult hemodialysis patients with CVC", "approval": "FDA Nov 2023; launched 2024"},
+      {"name": "REZZAYO (rezafungin)", "indication": "Candidemia/invasive candidiasis in adults", "approval": "FDA Mar 2023"},
+      {"name": "MINOCIN IV (minocycline)", "approval": "FDA-approved IV antibiotic"},
+      {"name": "VABOMERE (meropenem-vaborbactam)", "indication": "Complicated UTI", "approval": "FDA 2017"},
+      {"name": "KIMYRSA / ORBACTIV (oritavancin)", "indication": "ABSSSI"},
+      {"name": "BAXDELA (delafloxacin)", "indication": "ABSSSI / CABP"},
+      {"name": "TOPROL-XL (metoprolol succinate)", "indication": "Cardiovascular"}
+    ]
+  },
+  "excluded_preclinical": [
+    {"asset": "Taurolidine for neuroblastoma (oncology therapeutic use)", "reason": "Listed on website pipeline but no active company-sponsored P1/P2/P3 study identified in registry or 10-K"}
+  ],
+  "excluded_legacy_terminated": [
+    {"trial": "Deferiprone (CRMD-001) for contrast-induced AKI (NCT01146925, NCT01391520)", "reason": "Legacy program; Phase 3 withdrawn 2013; not active"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "phase_3": 3, "phase_2": 0, "phase_1": 0}
+}

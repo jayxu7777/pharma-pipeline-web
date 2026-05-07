@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Mountain Crest Acquisition Corp. V",
+  "ticker": "MCAGR",
+  "exchange": "OTC",
+  "cik": "0001859035",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001829126-26-002303",
+      "filing_date": "2026-03-16",
+      "path": "data/mcagr_10k_pipeline_section.html",
+      "note": "Issuer is a blank-check / SPAC. 10-K describes only its trust account, IPO and pursuit of a Business Combination (prior targets included AUM Biosciences and CUBEBIO Co., Ltd.)."
+    },
+    "website": {
+      "error": "no public pipeline page found"
+    },
+    "ctgov": {
+      "path": "data/mcagr_ctgov_compact.json",
+      "note": "Zero P1-P3 trials on ClinicalTrials.gov for sponsor 'Mountain Crest Acquisition'."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Mountain Crest Acquisition Corp. V is a special purpose acquisition company (SPAC / blank-check vehicle) with no operations, products, or proprietary clinical assets. Its only activities are holding IPO trust funds and seeking a target Business Combination. No drug or device pipeline applies."
+}

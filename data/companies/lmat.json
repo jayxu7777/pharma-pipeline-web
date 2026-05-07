@@ -1,0 +1,41 @@
+{
+  "issuer_name": "LeMaitre Vascular Inc.",
+  "ticker": "LMAT",
+  "exchange": "Nasdaq",
+  "cik": "0001158895",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-073360",
+      "filing_date": "2026-02-26",
+      "doc": "ck0001158895-20251231.htm"
+    },
+    "website": {
+      "error": "LeMaitre is a peripheral-vascular medical-device company; corporate site lists product portfolio rather than a clinical pipeline."
+    },
+    "ctgov": {
+      "query_sponsor": "LeMaitre Vascular",
+      "studies_returned_p1_p3": 1,
+      "active_p1_p3_company_sponsored": 0,
+      "note": "Only LeMaitre-sponsored P1-3 trial (NCT00131872, Expedial vascular access graft) is TERMINATED (started 2004). No active P1/P2/P3 studies."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "LeMaitre Vascular develops, manufactures, and markets niche medical devices for the open-vascular and endovascular surgical specialty. Product families include the XenoSure biologic patch, ProCol biologic vascular graft, AnastoClip vessel-closure system, Omniflow II biosynthetic vascular graft, embolectomy catheters (e.g., LeMaitre Pruitt occlusion catheters), shunts, valvulotomes (Expandable LeMaitre Valvulotome), carotid shunts, and the Aragon RestoreFlow allografts business. All are FDA-cleared/CE-marked marketed products, not investigational assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT00131872", "reason": "TERMINATED — Expedial vascular access graft vs ePTFE (started 2004); program discontinued."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "LeMaitre Vascular is a peripheral-vascular medical-device company. Growth is driven by tuck-in acquisitions and incremental device approvals (510(k), CE Mark), not investigational P1/P2/P3 drug development. The single historical P2 device trial on file (Expedial) is terminated."
+}

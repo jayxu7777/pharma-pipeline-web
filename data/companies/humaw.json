@@ -1,0 +1,112 @@
+{
+  "issuer_name": "Humacyte, Inc.",
+  "ticker": "HUMAW",
+  "exchange": "Nasdaq",
+  "cik": "0001818382",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001818382-26-000004",
+      "filing_date": "2026-03-27",
+      "doc": "huma-20251231.htm",
+      "path": "data/humaw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://humacyte.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "path": "data/humaw_ctgov_compact.json",
+      "trials_p1_p3": 7
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Acellular Tissue Engineered Vessel (ATEV) / Human Acellular Vessel (HAV)",
+      "aka": ["ATEV", "HAV"],
+      "modality": "Bioengineered acellular human extracellular-matrix vascular conduit (regulated as a biologic)",
+      "target": "Vascular conduit replacement (engineered tissue)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Hemodialysis vascular access in female patients with end-stage renal disease (V007)",
+          "highest_phase": "Phase 3",
+          "trial_name": "V007 — ATEV vs AVF in female ESRD patients requiring hemodialysis",
+          "trial_design": "Randomized, controlled comparison of 6mm ATEV with arteriovenous fistula in female patients with ESRD",
+          "nct_ids": ["NCT05908084"],
+          "trial_status": "Recruiting; primary completion Oct 2026",
+          "lead_sponsor": "Humacyte, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Peripheral artery disease (PAD) — femoro-popliteal bypass",
+          "highest_phase": "Phase 3",
+          "trial_name": "ATEV in PAD (per company pipeline)",
+          "trial_design": "Per Humacyte pipeline page; specific Phase 3 PAD program (Phase 2 NCT02887859 completed 2020)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 per company pipeline page; no active Phase 3 PAD record currently visible on ClinicalTrials.gov (Phase 2 NCT02887859 completed)",
+          "lead_sponsor": "Humacyte, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Coronary artery bypass grafting (CABG)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ATEV (3.5mm small-diameter) in CABG",
+          "trial_design": "Per company pipeline page; small-diameter ATEV for coronary bypass",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 per company pipeline page; not yet posted to ClinicalTrials.gov as of snapshot",
+          "lead_sponsor": "Humacyte, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Biovascular Pancreas (BVP)",
+      "aka": ["Biovascular pancreas"],
+      "modality": "ATEV-based bioengineered construct seeded with pancreatic islets for delivery without immunosuppression",
+      "target": "Endogenous insulin replacement",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Type 1 diabetes",
+          "highest_phase": "Phase 2",
+          "trial_name": "Biovascular Pancreas in Type 1 diabetes",
+          "trial_design": "Per company pipeline page",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 per company pipeline page; not yet on ClinicalTrials.gov",
+          "lead_sponsor": "Humacyte, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Symvess (acellular tissue engineered vessel-tyod)",
+    "indication_approved": "Vascular trauma repair (FDA approved Dec 2024)",
+    "additional_pivotal_trial": {
+      "name": "V005 — ATEV in Vascular Trauma",
+      "nct_ids": ["NCT03005418"],
+      "phase": "Phase 2/3",
+      "status": "Active, not recruiting (ongoing post-approval follow-up)"
+    },
+    "note": "Symvess is also marketed/under approval discussion for dialysis AV access per company pipeline page; pivotal V003 (NCT03183245) and V005 (NCT02644941) are completed."
+  },
+  "excluded_preclinical": [
+    {"asset": "ATEV pediatric heart disease", "reason": "Preclinical per company pipeline"},
+    {"asset": "Lung disease construct", "reason": "Preclinical"},
+    {"asset": "Urinary conduit replacement", "reason": "Preclinical"},
+    {"asset": "Tracheal replacement", "reason": "Preclinical"},
+    {"asset": "Esophageal replacement", "reason": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "ATEV/HAV hemodialysis V003 (NCT03183245)", "reason": "Phase 3 COMPLETED 2024"},
+    {"asset": "ATEV/HAV hemodialysis V005 (NCT02644941)", "reason": "Phase 3 COMPLETED 2019"},
+    {"asset": "HAV PAD Phase 2 (NCT02887859)", "reason": "Phase 2 COMPLETED 2020 — superseded by Phase 3 PAD program"},
+    {"asset": "HAVG Phase 1 hemodialysis (NCT01840956)", "reason": "Phase 1 COMPLETED 2016"},
+    {"asset": "HAV hemodialysis V006 (NCT04135417)", "reason": "Phase 2 COMPLETED 2021"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_total": 2, "p3": 2, "p2": 2, "p1": 0, "indications_total": 4}
+}

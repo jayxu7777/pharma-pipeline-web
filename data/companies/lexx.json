@@ -1,0 +1,63 @@
+{
+  "issuer_name": "Lexaria Bioscience Corp.",
+  "ticker": "LEXX",
+  "exchange": "Nasdaq",
+  "cik": "0001348362",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001640334-25-002225",
+      "filing_date": "2025-11-28",
+      "doc": "lxrp_10k.htm"
+    },
+    "website": {
+      "url": "https://www.lexariabioscience.com",
+      "note": "Pipeline page returned image / no extractable pipeline content; relied on 10-K and ctgov."
+    },
+    "ctgov": {
+      "trial_count": 2,
+      "active_or_recruiting": 0
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "DehydraTECH-CBD (hypertension program)",
+      "aka": ["DehydraTECH-CBD"],
+      "modality": "Oral CBD formulation enhanced with proprietary DehydraTECH drug-delivery technology",
+      "target": "Cannabinoid receptor system (blood pressure reduction)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Hypertension",
+          "highest_phase": "Phase 1b",
+          "trial_name": "Planned Phase 1(b) hypertension study",
+          "trial_design": "Phase 1(b) clinical study (IND-stage; addressing FDA comments)",
+          "nct_ids": [],
+          "trial_status": "PLANNED — IND application addressing FDA comments; pending sufficient funding or collaboration to proceed",
+          "lead_sponsor": "Lexaria Bioscience Corp.",
+          "key_milestones": [
+            "Continuing to address FDA IND comments",
+            "Funding/collaboration required prior to study initiation"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "DehydraTECH-GLP-1/GIP enhancement programs (R&D-stage formulation work, not a clinical drug candidate; technology licensing focus)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT06648031 — DehydraTECH-CBD/GLP-1 Phase 1 PK study (COMPLETED 2025-07)",
+    "NCT05346562 — Oral CBD effect on blood pressure investigator-led Phase 1 (COMPLETED 2022)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 0,
+    "P2": 0,
+    "P1": 1
+  },
+  "no_active_clinical_pipeline_reason": "Lexaria is primarily a drug-delivery technology platform (DehydraTECH) operating an IP-licensing business model. Only one clinical-stage internal program (Phase 1(b) hypertension) is currently planned; no active enrollment as of snapshot."
+}

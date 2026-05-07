@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Bio Essence Corp",
+  "ticker": "BIOE",
+  "exchange": "OTC",
+  "cik": "0001723059",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-035467", "filed": "2026-03-27", "slice": "data/bioe_10k_pipeline_section.html"},
+    "website": {"error": "no public clinical pipeline page - company is health supplement seller / OEM service provider"},
+    "ctgov": {"file": "data/bioe_ctgov_compact.json", "trials_kept": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Bio Essence Corp sells health supplements and provides OEM services; manufacturing operation BEP sold Dec 2023, distribution operation BEH sold Mar 2024, and the prescription-medicine R&D subsidiary McBE Pharma Inc. was dissolved on April 15, 2024 without ever commencing operations. No drug-development programs, no IND/NDA, no Phase 1/2/3 clinical trials. Going-concern note in 10-K.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

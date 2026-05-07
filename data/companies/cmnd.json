@@ -1,0 +1,56 @@
+{
+  "issuer_name": "Clearmind Medicine Inc.",
+  "ticker": "CMND",
+  "exchange": "Nasdaq",
+  "cik": "0001892500",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F (Canadian company); not retrieved by fetch_10k.py"
+    },
+    "website": {
+      "url": "https://www.clearmindmedicine.com",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/cmnd_ctgov_compact.json",
+      "sponsor_query": "Clearmind Medicine",
+      "trials_kept_p1_p3": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CMND-100",
+      "aka": ["MEAI", "5-methoxy-2-aminoindane"],
+      "modality": "Small molecule (psychoactive amphetamine analog)",
+      "target": "Serotonin receptors (proposed mechanism: anti-craving / satiety signaling)",
+      "license_origin": "Internal (in-licensed via Clearmind / Ezekiel Golan founder IP)",
+      "indications": [
+        {
+          "indication": "Alcohol Use Disorder (AUD)",
+          "highest_phase": "P1/P2",
+          "trial_name": "First-in-human study of CMND-100 in healthy and AUD subjects",
+          "trial_design": "First-in-human single/multiple ascending dose study in healthy volunteers and AUD subjects",
+          "nct_ids": ["NCT05913752"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Clearmind Medicine Inc.",
+          "key_milestones": ["Started Apr 2025", "Primary completion target Dec 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Novel psychedelic compounds for PTSD — patent filing stage (May 2026 EU application), not yet in clinical trials",
+    "Other portfolio compounds for cocaine use disorder, binge eating, etc. — preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_indications": 0,
+    "p2_indications": 1,
+    "p1_indications": 0
+  }
+}

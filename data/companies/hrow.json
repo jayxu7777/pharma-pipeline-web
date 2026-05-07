@@ -1,0 +1,69 @@
+{
+  "issuer_name": "HARROW, INC.",
+  "ticker": "HROW",
+  "exchange": "Nasdaq",
+  "cik": "0001360214",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-008562",
+      "filed": "2026-03-02",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1360214/000149315226008562/form10-k.htm"
+    },
+    "website": {"error": "harrow.com/pipeline timed out (>60s) on multiple WebFetch attempts."},
+    "ctgov": {"endpoint": "ClinicalTrials.gov v2 API", "sponsor_query": "Harrow", "unique_p1_p3_trials": 0, "note": "No P1-P3 trials matched Harrow as lead sponsor; MELT-300 trials were sponsored by Melt Pharmaceuticals (acquired/affiliated)."}
+  },
+  "pipeline": [
+    {
+      "asset": "MELT-300",
+      "aka": ["MKO Melt successor"],
+      "modality": "Sublingual / orally-disintegrating tablet (fixed-dose combination of midazolam 3 mg + ketamine 50 mg)",
+      "target": "GABA-A receptor (midazolam) + NMDA receptor (ketamine)",
+      "license_origin": "Melt Pharmaceuticals (Harrow majority-owned affiliate)",
+      "indications": [
+        {
+          "indication": "Procedural sedation (cataract and other outpatient surgery)",
+          "highest_phase": "Phase 3",
+          "trial_name": "MELT-300 pivotal Phase 3 (under FDA Special Protocol Assessment)",
+          "trial_design": "Randomized, double-blind, placebo- and active-controlled pivotal Phase 3 demonstrating statistical superiority to midazolam alone",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 program COMPLETED; one non-clinical animal study and three PK studies underway to support NDA package; NDA submission planned 1H 2027; potential commercial launch 2H 2028",
+          "lead_sponsor": "Melt Pharmaceuticals (Harrow affiliate)",
+          "key_milestones": ["Phase 3 met endpoints", "FDA SPA confirmed", "NDA submission planned 1H 2027", "Launch potential 2H 2028"]
+        }
+      ]
+    },
+    {
+      "asset": "MELT-210",
+      "aka": [],
+      "modality": "Sublingual / orally-disintegrating tablet (midazolam-only)",
+      "target": "GABA-A receptor",
+      "license_origin": "Melt Pharmaceuticals (Harrow affiliate)",
+      "indications": [
+        {
+          "indication": "Procedural sedation / anxiolysis (needle-free)",
+          "highest_phase": "Phase 1",
+          "trial_name": "MELT-210 clinical development (used as comparator arm in MELT-300 Phase 3)",
+          "trial_design": "Clinical-stage development; previously characterized as midazolam-only comparator within MELT-300 program",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Clinical development stage; potential launch 2028",
+          "lead_sponsor": "Melt Pharmaceuticals (Harrow affiliate)",
+          "key_milestones": ["Potential launch 2028"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed": ["IHEEZO (chloroprocaine HCl ophthalmic gel 3%)", "VEVYE (cyclosporine ophthalmic solution 0.1%)", "TRIESENCE (triamcinolone acetonide injectable 40 mg/mL)", "ILEVRO (nepafenac 0.3%)", "NEVANAC (nepafenac 0.1%)", "VERKAZIA", "FLAREX", "NATACYN", "VIGAMOX", "ZERVIATE", "OPUVIZ", "ImprimisRx compounded ophthalmics"]
+  },
+  "excluded_preclinical": [
+    {"asset": "H-N08 (triamcinolone acetonide ophthalmic)", "rationale": "CMC optimization; expected to enter clinic by end of 2026"},
+    {"asset": "CR-01 (conjunctival delivery device for ocular neoplasia)", "rationale": "Proof-of-concept evaluation stage"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "phase_3": 1, "phase_2": 0, "phase_1": 1}
+}

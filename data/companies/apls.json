@@ -1,0 +1,130 @@
+{
+  "issuer_name": "Apellis Pharmaceuticals, Inc.",
+  "ticker": "APLS",
+  "exchange": "Nasdaq",
+  "cik": "0001492422",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-24",
+      "accession": "0001193125-26-065179",
+      "path": "data/apls_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://apellis.com/our-science/our-pipeline/",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/apls_ctgov_compact.json",
+      "lead_sponsor_query": "Apellis Pharmaceuticals"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Pegcetacoplan",
+      "aka": ["APL-2"],
+      "modality": "PEGylated cyclic peptide (C3 complement inhibitor)",
+      "target": "Complement C3 / C3b",
+      "license_origin": "Internal (Apellis); ex-US ophthalmology partnered with Sobi",
+      "indications": [
+        {
+          "indication": "Focal segmental glomerulosclerosis (FSGS)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Sequential Phase 2/3 of APL-2 in FSGS",
+          "trial_design": "Sequential Phase 2/3 study",
+          "nct_ids": ["NCT07213960"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Apellis Pharmaceuticals, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Delayed graft function (DGF) in deceased-donor kidney transplant",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 DGF study",
+          "trial_design": "Randomized, placebo-controlled",
+          "nct_ids": ["NCT07020832"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Apellis Pharmaceuticals, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "C3G / IC-MPGN long-term extension (post-VALIANT, supports approval)",
+          "highest_phase": "Phase 3",
+          "trial_name": "C3G/IC-MPGN open-label extension",
+          "trial_design": "Open-label, multicenter long-term safety/efficacy",
+          "nct_ids": ["NCT05809531"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Apellis Pharmaceuticals, Inc.",
+          "key_milestones": ["EMPAVELI approved for C3G & IC-MPGN; LTE supports continued data"]
+        },
+        {
+          "indication": "Paroxysmal nocturnal hemoglobinuria (PNH), pediatric",
+          "highest_phase": "Phase 2",
+          "trial_name": "Pediatric PNH study",
+          "trial_design": "Open-label pediatric PK/safety/efficacy",
+          "nct_ids": ["NCT04901936"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Apellis Pharmaceuticals, Inc.",
+          "key_milestones": ["Pediatric label expansion"]
+        },
+        {
+          "indication": "PNH long-term safety/efficacy extension (post-PEGASUS / PRINCE)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pegcetacoplan PNH LTE",
+          "trial_design": "Open-label long-term extension",
+          "nct_ids": ["NCT03531255"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Apellis Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "APL-3007 (with SYFOVRE)",
+      "aka": [],
+      "modality": "siRNA (subcutaneous)",
+      "target": "Complement C3 mRNA (hepatic knockdown)",
+      "license_origin": "Internal (Apellis)",
+      "indications": [
+        {
+          "indication": "Geographic atrophy (GA) secondary to AMD — combination with SYFOVRE",
+          "highest_phase": "Phase 2",
+          "trial_name": "APL-3007 + SYFOVRE Phase 2",
+          "trial_design": "Randomized, placebo-controlled, masked Phase 2",
+          "nct_ids": ["NCT07215390"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Apellis Pharmaceuticals, Inc.",
+          "key_milestones": ["Top-line data expected 2027"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "SYFOVRE (pegcetacoplan injection, intravitreal)", "indication": "Geographic atrophy secondary to AMD", "status": "Approved/Commercial (US)"},
+      {"name": "EMPAVELI (pegcetacoplan, subcutaneous)", "indication": "PNH (US, EU, others); C3G; IC-MPGN", "status": "Approved/Commercial"},
+      {"name": "ASPAVELI (pegcetacoplan, ex-US ophthalmology via Sobi)", "indication": "PNH (ex-US partner-marketed)", "status": "Approved/Commercial via Sobi"}
+    ]
+  },
+  "excluded_preclinical": [
+    "APL-1030 (brain-active oral C3 inhibitor) — preclinical",
+    "APL-9099 (FcRn gene-edited therapy) — preclinical",
+    "Gene-edited complement therapies — preclinical",
+    "Oral complement inhibitor — preclinical",
+    "Undisclosed RNA therapies for neurology — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "Two TERMINATED Apellis-sponsored trials (per ctgov filter — historical pegcetacoplan studies)"
+  ],
+  "excluded_partner_owned": [
+    "Sobi-sponsored pegcetacoplan study (collaborator-led ex-US ophthalmology)"
+  ],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "phase_3_indications": 3,
+    "phase_2_indications": 2,
+    "phase_1_indications": 0
+  }
+}

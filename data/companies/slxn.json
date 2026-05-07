@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Silexion Therapeutics Corp",
+  "ticker": "SLXN",
+  "exchange": "Nasdaq",
+  "cik": "0002022416",
+  "region": "Israel/US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001178913-26-000953", "filed": "2026-03-17", "slice": "data/slxn_10k_pipeline_section.html"},
+    "website": {"url": "https://silexion.com", "accessed": "2026-05-06"},
+    "ctgov": {"file": "data/slxn_silenseed_ctgov_compact.json", "sponsor_search": "Silenseed Ltd (legacy)"}
+  },
+  "pipeline": [
+    {
+      "asset": "SIL-204",
+      "aka": ["rSIL204", "second-generation siG12D LODER"],
+      "modality": "siRNA in bioabsorbable PLG microparticles (intratumoral)",
+      "target": "KRAS G12D and G12V mutations",
+      "license_origin": "Internal (next-gen of siG12D-LODER)",
+      "indications": [
+        {
+          "indication": "Locally advanced pancreatic ductal adenocarcinoma (PDAC)",
+          "highest_phase": "P2/3 (planned)",
+          "trial_name": "Planned Phase 2/3 of SIL-204 in KRAS G12D/G12V mutant pancreatic cancer",
+          "trial_design": "Phase 2/3 study; tox package complete H2 2025; ethics committee clearance from major oncology center; submission to Israel MoH made (awaiting response); German MoH submission planned 03/2026.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — regulatory submissions in progress (Israel submitted, Germany planned 03/2026); not yet recruiting",
+          "lead_sponsor": "Silexion Therapeutics",
+          "key_milestones": ["Toxicology package complete H2 2025", "Israel MoH submission filed", "Germany MoH submission planned 03/2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "siG12D-LODER (first-gen)", "reason": "Phase 2 (NCT01676259) status UNKNOWN since 2022; serves as prototype for SIL-204; first-gen no longer the active development asset"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0, "note": "SIL-204 Phase 2/3 planned (counted as P2 highest)"}
+}

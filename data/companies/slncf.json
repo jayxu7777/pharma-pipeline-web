@@ -1,0 +1,68 @@
+{
+  "issuer_name": "Silence Therapeutics plc",
+  "ticker": "SLNCF",
+  "exchange": "OTC (also Nasdaq ADRs as SLN)",
+  "cik": "0001479615",
+  "region": "UK (US-listed via ADRs / OTC)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-092591", "filing_date": "2026-03-05", "path": "data/slncf_10k_pipeline_section.html"},
+    "website": {"url": "https://www.silence-therapeutics.com/pipeline"},
+    "ctgov": {"path": "data/slncf_ctgov_compact.json", "trials_total": 7, "active_or_recruiting": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "Divesiran",
+      "aka": ["SLN124"],
+      "modality": "GalNAc-conjugated siRNA (mRNAi GOLD platform)",
+      "target": "TMPRSS6 (raises hepcidin, lowers iron availability for RBC production)",
+      "license_origin": "In-house (Silence)",
+      "indications": [
+        {
+          "indication": "Polycythemia vera (PV)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SANRECO (Phase 1/2)",
+          "trial_design": "Phase 1/2 study evaluating SLN124 (divesiran) in PV patients; Phase 2 portion testing Q6W and Q12W subcutaneous dosing for HCT control and phlebotomy reduction. Fully enrolled.",
+          "nct_ids": ["NCT05499013"],
+          "trial_status": "Active, not recruiting (fully enrolled). Topline Phase 2 results anticipated Q3 2026. FDA Fast Track and Orphan Drug designations granted; EMA orphan designation also granted.",
+          "lead_sponsor": "Silence Therapeutics plc",
+          "key_milestones": ["Phase 1 readout: durable HCT control, reduced phlebotomy on Q6W dosing in 21 patients", "Phase 2 fully enrolled", "Topline Phase 2 anticipated Q3 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Zerlasiran",
+      "aka": ["SLN360"],
+      "modality": "GalNAc-conjugated siRNA",
+      "target": "LPA gene (lowers apolipoprotein(a) / Lp(a))",
+      "license_origin": "In-house (Silence)",
+      "indications": [
+        {
+          "indication": "Cardiovascular disease in patients with elevated lipoprotein(a) (Lp(a))",
+          "highest_phase": "Phase 3 (planned, partnering required)",
+          "trial_name": "Phase 3 cardiovascular outcomes trial (CVOT) — name not yet disclosed",
+          "trial_design": "Planned Phase 3 cardiovascular outcomes trial in patients with high Lp(a); FDA and EMA have provided positive feedback on study design; manufacturing and supply scale-up completed in 2025.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Zerlasiran is 'Phase 3 ready'; Silence is seeking a third-party partner for Phase 3 development and commercialization. Phase 1 APOLLO and Phase 2 ALPACAR-360 (NCT05537571, NCT04606602) both COMPLETED with up to ~98% Lp(a) reduction; no active Phase 3 trial yet initiated.",
+          "lead_sponsor": "Silence Therapeutics plc (pending partner)",
+          "key_milestones": ["APOLLO Phase 1 single + multiple ascending dose: up to 98% Lp(a) reduction", "ALPACAR-360 Phase 2 (n=178): >80% time-averaged placebo-adjusted Lp(a) reduction over 36 weeks, durable to 60 weeks", "Positive FDA/EMA Phase 3 design feedback", "Phase 3 readiness manufacturing scale-up completed 2025", "Seeking Phase 3 partner"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "SLN548", "target": "CFB (complement factor B)", "indication": "Complement-mediated renal diseases", "stage": "Phase 1 ready (preclinical); seeking third-party partner to initiate clinical development"},
+    {"asset": "SLN365", "target": "GPR146", "indication": "Hypercholesterolemia / HoFH / HeFH", "stage": "Preclinical"},
+    {"asset": "SLN098", "target": "INHBE", "indication": "Obesity", "stage": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Atu027", "indication": "Advanced solid tumors / pancreatic cancer", "highest_phase_reached": "Phase 1/2 (NCT00938574, NCT01808638 both COMPLETED 2012/2015)", "reason": "Legacy program; not in current pipeline"},
+    {"asset": "SLN124 (early thalassemia/MDS)", "trial": "NCT04176653", "reason": "WITHDRAWN"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "SLN312", "target": "ANGPTL3", "indication": "Dyslipidemia", "phase": "Phase 1 (AstraZeneca-sponsored, n=98)", "note": "Trial run by AstraZeneca; on March 4, 2026 AstraZeneca notified Silence it will not pursue further development beyond Phase 1. Silence will regain global rights following Phase 1 completion. Currently not Silence-sponsored."}
+  ],
+  "summary_counts": {"active_assets": 2, "phase_3": 1, "phase_2": 1, "phase_1": 0},
+  "blockers": ["Zerlasiran Phase 3 not yet initiated — listed as PLANNED pending partner; if strict 'active enrollment only' is applied, Phase 3 count becomes 0."]
+}

@@ -1,0 +1,55 @@
+{
+  "issuer_name": "Scienture Holdings, Inc.",
+  "ticker": "SCNX",
+  "exchange": "Nasdaq",
+  "cik": "0001382574",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001493152-26-013475",
+      "path": "data/scnx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.scienture.com/pipeline",
+      "error": "Pipeline details not extractable via WebFetch (corporate landing only)"
+    },
+    "ctgov": {
+      "path": "data/scnx_ctgov_compact.json",
+      "studies": 0
+    }
+  },
+  "no_active_clinical_pipeline_reason": "Specialty pharma focused on commercial-stage 505(b)(2) products. All development-stage candidates (SCN-104 DHE injection pen, SCN-106 tPA biosimilar, SCN-107 long-acting bupivacaine) are pre-IND or IND-planned for 2026; no active Phase 1/2/3 trials in progress. Two FDA-approved commercial products (Arbli/SCN-102 losartan oral suspension; REZENOPY/SCN-110 naloxone 10mg nasal spray, in-licensed).",
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "Arbli (SCN-102)",
+        "active": "Losartan potassium oral suspension 10mg/mL",
+        "indication": "Hypertension",
+        "status": "FDA approved 2025-03-13; commercial launch Q3 2025"
+      },
+      {
+        "name": "REZENOPY (SCN-110)",
+        "active": "Naloxone HCl nasal spray 10mg",
+        "indication": "Opioid overdose reversal",
+        "status": "Commercial — exclusive license from Summit Biosciences/Kindeva; launched Q1 2025"
+      }
+    ]
+  },
+  "excluded_preclinical": [
+    "SCN-104 — DHE multi-dose injection pen for migraine; IND/Phase 1 planned 2026",
+    "SCN-106 — tPA biosimilar (Cathflo Activase reference); preclinical CMC/analytical similarity stage",
+    "SCN-107 — bupivacaine long-acting microsphere for postsurgical pain; IND/Phase 1 planned 2026"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  }
+}

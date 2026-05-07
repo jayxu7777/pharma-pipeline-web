@@ -1,0 +1,79 @@
+{
+  "issuer_name": "AIM ImmunoTech Inc.",
+  "ticker": "AIM",
+  "exchange": "NYSE",
+  "cik": "0000946644",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-013301", "path": "/tmp/aim_10k.htm", "note": "fetch_10k.py could not auto-locate pipeline section; manually downloaded form10-k.htm"},
+    "website": {"url": "https://aimimmuno.com/pipeline/", "note": "Page rendered minimal content via WebFetch (Divi theme)"},
+    "ctgov": {"path": "data/aim_ctgov_compact.json", "trials_found": 15}
+  },
+  "pipeline": [
+    {
+      "asset": "Ampligen (rintatolimod)",
+      "aka": ["poly I : poly C12U"],
+      "modality": "TLR-3 agonist (dsRNA immunomodulator)",
+      "target": "TLR-3",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Metastatic pancreatic ductal adenocarcinoma — combination with durvalumab",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Combining Anti-PD-L1 Durvalumab With TLR-3 Agonist Rintatolimod in mPDAC (DURIPANC)",
+          "trial_design": "Investigator-initiated open-label Phase 1/2 of rintatolimod + durvalumab",
+          "nct_ids": ["NCT05927142"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Joachim Aerts, MD PhD (collaboration with AIM ImmunoTech and AstraZeneca)",
+          "key_milestones": ["Primary completion 2026-04"]
+        },
+        {
+          "indication": "Locally advanced pancreatic cancer (LAPC) — Ampligen + SOC vs SOC after first-line therapy",
+          "highest_phase": "Phase 2",
+          "trial_name": "AMP-270 (Ampligen + SOC vs SOC after First-Line Therapy in LAPC)",
+          "trial_design": "Randomized Phase 2 evaluating maintenance Ampligen vs SOC alone post-first-line therapy",
+          "nct_ids": ["NCT05494697"],
+          "trial_status": "Suspended (per CT.gov); 10-K describes program as planned to advance and references potential pivotal Phase 3",
+          "lead_sponsor": "AIM ImmunoTech Inc.",
+          "key_milestones": ["Start 2026-06 (planned)", "Primary completion 2029-12"]
+        },
+        {
+          "indication": "Localized prostate cancer pre-prostatectomy — aspirin + rintatolimod +/- IFN-alpha 2b",
+          "highest_phase": "Phase 2",
+          "trial_name": "Aspirin and Rintatolimod With or Without IFN-alpha 2b in Prostate Cancer Before Surgery",
+          "trial_design": "Open-label Phase 2 neoadjuvant",
+          "nct_ids": ["NCT03899987"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Roswell Park Cancer Institute (AIM collaborator)",
+          "key_milestones": ["Primary completion 2027-04-30"]
+        },
+        {
+          "indication": "Recurrent ovarian cancer — pembrolizumab + rintatolimod + cisplatin (intraperitoneal)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Systemic Immune Checkpoint Blockade and Intraperitoneal Chemo-Immunotherapy in Recurrent Ovarian Cancer",
+          "trial_design": "Open-label Phase 1/2",
+          "nct_ids": ["NCT03734692"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Robert Edwards (AIM collaborator)",
+          "key_milestones": ["Primary completion 2024-07-01"]
+        },
+        {
+          "indication": "Avian influenza prophylaxis (intranasal Ampligen + AstraZeneca FluMist)",
+          "highest_phase": "Planned (IND-stage)",
+          "trial_name": "Ampligen + FluMist combination study (planned)",
+          "trial_design": "Planned human study following preclinical UAB data",
+          "nct_ids": [],
+          "trial_status": "PLANNED — announced February 2025; IND not filed",
+          "lead_sponsor": "AIM ImmunoTech Inc.",
+          "key_milestones": ["Feb 2025 announcement"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Ampligen broad-spectrum antiviral preclinical work (Ebola, WEEV, Vaccinia, SARS-CoV-2)"],
+  "excluded_legacy_terminated": ["NCT00215800 ME/CFS Phase 3 (Completed 2004)", "NCT05592418 Long COVID Phase 2 (Completed)", "NCT00035893 / NCT00035581 HIV Phase 2 (Completed/Terminated)", "NCT02432378, NCT01591473, NCT04379518, NCT01545141 (Terminated)", "NCT00215826 / NCT00215852 Alferon LDO (Completed/Terminated)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 0, "p2": 3, "p1_p2": 2, "p1": 0, "planned": 1}
+}

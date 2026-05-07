@@ -1,0 +1,708 @@
+{
+  "issuer_name": "Innovent Biologics, Inc. (ADR)",
+  "ticker": "IVBXF",
+  "exchange": "OTC",
+  "cik": "0001774163",
+  "region": "China (HK-listed primary 1801.HK; ADR trades OTC US)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer - no Form 10-K filed with SEC. Files annual results with HKEX (HK:1801)."
+    },
+    "website": {
+      "error": "innoventbio.com pipeline page is JS-rendered; static fetch returned no content. Pipeline reconstructed from ClinicalTrials.gov + 2025 annual results press release."
+    },
+    "ctgov": {
+      "query_sponsor": "Innovent Biologics",
+      "trials_returned": 233,
+      "innovent_lead_active_only": true,
+      "note": "Filtered to lead_sponsor contains 'Innovent' AND status in {RECRUITING, ACTIVE_NOT_RECRUITING, NOT_YET_RECRUITING}. Excluded UNKNOWN/COMPLETED/TERMINATED/WITHDRAWN."
+    },
+    "corporate_press": {
+      "url": "https://www.prnewswire.com/news-releases/innovent-announces-2025-annual-results-and-business-updates-302725990.html",
+      "use": "Cross-reference for late-stage strategic assets (IBI363, IBI343, IBI302/IBI324)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Mazdutide",
+      "aka": ["IBI362", "LY3305677"],
+      "modality": "GLP-1R / glucagon-receptor dual agonist (peptide)",
+      "target": "GLP-1R + GCGR",
+      "license_origin": "In-licensed from Eli Lilly (Greater China rights)",
+      "indications": [
+        {
+          "indication": "Obesity",
+          "highest_phase": "P3",
+          "trial_name": "GLORY-1 / follow-on Phase 3 obesity programs",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06164873", "NCT07469800", "NCT06884293"],
+          "trial_status": "ACTIVE_NOT_RECRUITING / RECRUITING / NOT_YET_RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": ["NMPA approval received in China for adult chronic weight management (2025)"]
+        },
+        {
+          "indication": "Type 2 Diabetes Mellitus",
+          "highest_phase": "P3",
+          "trial_name": "DREAMS-2 head-to-head vs semaglutide",
+          "trial_design": "Randomized, active-controlled (semaglutide comparator)",
+          "nct_ids": ["NCT06184568"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Obstructive Sleep Apnea",
+          "highest_phase": "P3",
+          "trial_name": "Mazdutide OSA Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06931028"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Adolescent obesity / overweight with comorbidities",
+          "highest_phase": "P3",
+          "trial_name": "Mazdutide adolescent obesity Phase 3",
+          "trial_design": "Randomized, placebo-controlled",
+          "nct_ids": ["NCT07255209"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metabolic dysfunction-associated steatohepatitis (MASH)",
+          "highest_phase": "P2",
+          "trial_name": "Mazdutide MASH Phase 2",
+          "trial_design": "Randomized, placebo-controlled biopsy-based PoC",
+          "nct_ids": ["NCT06937749"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI343",
+      "aka": [],
+      "modality": "Anti-CLDN18.2 antibody-drug conjugate (TOP1i payload)",
+      "target": "Claudin 18.2",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Pancreatic ductal adenocarcinoma (CLDN18.2+)",
+          "highest_phase": "P3",
+          "trial_name": "IBI343 pancreatic Ph3",
+          "trial_design": "Randomized, controlled vs chemotherapy",
+          "nct_ids": ["NCT07066098"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Gastric / gastroesophageal junction adenocarcinoma (CLDN18.2+)",
+          "highest_phase": "P3",
+          "trial_name": "IBI343 gastric Ph3 vs irinotecan / paclitaxel / FTD-TPI",
+          "trial_design": "Open-label randomized, active-controlled",
+          "nct_ids": ["NCT06238843"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "CLDN18.2-positive solid tumors (basket / additional cohorts)",
+          "highest_phase": "P2",
+          "trial_name": "IBI343 expansion cohorts",
+          "trial_design": "Open-label expansion",
+          "nct_ids": ["NCT07483554", "NCT07483567", "NCT05458219"],
+          "trial_status": "NOT_YET_RECRUITING / RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI363",
+      "aka": [],
+      "modality": "PD-1 / IL-2alpha-bias bispecific fusion protein",
+      "target": "PD-1 x IL-2Ralpha",
+      "license_origin": "Internally discovered; ex-Greater China rights out-licensed to Takeda",
+      "indications": [
+        {
+          "indication": "IO-resistant squamous NSCLC",
+          "highest_phase": "P2",
+          "trial_name": "IBI363 NSCLC neoadjuvant / IO-resistant programs",
+          "trial_design": "Open-label, multi-cohort",
+          "nct_ids": ["NCT07402070", "NCT07122687"],
+          "trial_status": "NOT_YET_RECRUITING / RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": ["Global MRCT Phase 3 in IO-resistant squamous NSCLC initiated per 2025 annual results (registration on ctgov pending at snapshot date)"]
+        },
+        {
+          "indication": "Melanoma (including IO-pretreated)",
+          "highest_phase": "P2",
+          "trial_name": "IBI363 melanoma cohorts",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT06081920", "NCT06281678", "NCT06797297"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "EGFRm NSCLC and platinum-resistant ovarian cancer",
+          "highest_phase": "P2",
+          "trial_name": "IBI363 expansion",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT07124793"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced solid tumors / lymphomas (FIH dose-finding)",
+          "highest_phase": "P1",
+          "trial_name": "IBI363 FIH",
+          "trial_design": "Open-label dose escalation/expansion",
+          "nct_ids": ["NCT05290597", "NCT06468098"],
+          "trial_status": "ACTIVE_NOT_RECRUITING / RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI354",
+      "aka": [],
+      "modality": "Anti-HER2 antibody-drug conjugate",
+      "target": "HER2",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Platinum-resistant ovarian cancer",
+          "highest_phase": "P3",
+          "trial_name": "IBI354 ovarian Ph3",
+          "trial_design": "Randomized vs paclitaxel / gemcitabine / liposomal doxorubicin",
+          "nct_ids": ["NCT06834672"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Locally advanced / metastatic HER2-expressing solid tumors",
+          "highest_phase": "P2",
+          "trial_name": "IBI354 dose-expansion",
+          "trial_design": "Open-label dose escalation/expansion",
+          "nct_ids": ["NCT05636215"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI311 (Teprotumumab biosimilar / SYCUME)",
+      "aka": ["SYCUME"],
+      "modality": "Anti-IGF-1R monoclonal antibody",
+      "target": "IGF-1R",
+      "license_origin": "Internally developed (teprotumumab analog); approved in China",
+      "indications": [
+        {
+          "indication": "Thyroid Eye Disease (lifecycle / new indications)",
+          "highest_phase": "P3",
+          "trial_name": "IBI311 TED Ph3",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT07113262"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": ["Approved by NMPA for Thyroid Eye Disease in China"]
+        }
+      ]
+    },
+    {
+      "asset": "IBI306 (Tafolecimab / SINTBILO)",
+      "aka": ["Tafolecimab", "SINTBILO"],
+      "modality": "Anti-PCSK9 monoclonal antibody",
+      "target": "PCSK9",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Non-familial hypercholesterolemia and mixed hyperlipidemia",
+          "highest_phase": "P3",
+          "trial_name": "IBI306 hyperlipidemia Ph3",
+          "trial_design": "Randomized, placebo-controlled",
+          "nct_ids": ["NCT07473960"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": ["Approved by NMPA in China for primary hypercholesterolemia and mixed dyslipidemia"]
+        }
+      ]
+    },
+    {
+      "asset": "IBI310 (Ipilimumab N01 / TABOSUN)",
+      "aka": ["TABOSUN", "Ipilimumab N01"],
+      "modality": "Anti-CTLA-4 monoclonal antibody",
+      "target": "CTLA-4",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Resectable MSI-H / dMMR colon cancer (neoadjuvant, with sintilimab)",
+          "highest_phase": "P3",
+          "trial_name": "Neoshot",
+          "trial_design": "Randomized, open-label vs adjuvant chemotherapy",
+          "nct_ids": ["NCT05890742"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": ["NMPA approval (2025) - China's first domestic anti-CTLA-4 mAb"]
+        }
+      ]
+    },
+    {
+      "asset": "Sintilimab",
+      "aka": ["IBI308", "TYVYT"],
+      "modality": "Anti-PD-1 monoclonal antibody",
+      "target": "PD-1",
+      "license_origin": "Co-developed with Eli Lilly originally; multiple approved indications",
+      "indications": [
+        {
+          "indication": "Non-Small Cell Lung Cancer (additional combo lifecycle Ph3)",
+          "highest_phase": "P3",
+          "trial_name": "Sintilimab + chemo lifecycle Ph3",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT05116462"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": ["Multiple NMPA approvals across NSCLC, HCC, ESCC, gastric cancer, classical Hodgkin lymphoma"]
+        }
+      ]
+    },
+    {
+      "asset": "IBI302",
+      "aka": [],
+      "modality": "Anti-VEGF / anti-complement bispecific",
+      "target": "VEGF + complement (C3b/C4b)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Neovascular age-related macular degeneration (wAMD)",
+          "highest_phase": "P3",
+          "trial_name": "IBI302 wAMD Ph3 vs aflibercept",
+          "trial_design": "Randomized, active-controlled (aflibercept comparator)",
+          "nct_ids": ["NCT05972473", "NCT07275840"],
+          "trial_status": "ACTIVE_NOT_RECRUITING / RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Diabetic macular edema",
+          "highest_phase": "P2",
+          "trial_name": "IBI302 DME",
+          "trial_design": "Randomized, controlled",
+          "nct_ids": ["NCT06908876"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI128 (Tigulixostat)",
+      "aka": ["Tigulixostat"],
+      "modality": "Non-purine selective xanthine oxidase inhibitor (small molecule)",
+      "target": "Xanthine oxidase",
+      "license_origin": "In-licensed (LG Chem, Greater China rights)",
+      "indications": [
+        {
+          "indication": "Gout (chronic urate-lowering)",
+          "highest_phase": "P3",
+          "trial_name": "Tigulixostat gout Ph3 (vs febuxostat)",
+          "trial_design": "Randomized, active-controlled",
+          "nct_ids": ["NCT07414394"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI112",
+      "aka": ["Picankibart"],
+      "modality": "Anti-IL-23p19 monoclonal antibody",
+      "target": "IL-23 (p19)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe plaque psoriasis (lifecycle / new cohorts)",
+          "highest_phase": "P3",
+          "trial_name": "IBI112 psoriasis Ph3 (CLEAR programs - earlier readouts complete; lifecycle continues)",
+          "trial_design": "Randomized, placebo-controlled",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - lifecycle indications; earlier pivotal trials NCT05645627 and NCT06049810 completed",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": ["NMPA NDA accepted for plaque psoriasis"]
+        }
+      ]
+    },
+    {
+      "asset": "IBI3002",
+      "aka": [],
+      "modality": "Anti-TSLP / IL-13 bispecific (or related Type-2 inflammation bispecific)",
+      "target": "TSLP x IL-13",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Atopic Dermatitis",
+          "highest_phase": "P2",
+          "trial_name": "IBI3002 AD Ph2",
+          "trial_design": "Randomized, placebo-controlled",
+          "nct_ids": ["NCT07399067"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Asthma",
+          "highest_phase": "P1",
+          "trial_name": "IBI3002 asthma Ph1",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT06947408"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3003",
+      "aka": [],
+      "modality": "BCMA-targeted bispecific / cell engager (oncology)",
+      "target": "BCMA",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Multiple myeloma (relapsed/refractory)",
+          "highest_phase": "P2",
+          "trial_name": "IBI3003 MM Ph1/2",
+          "trial_design": "Open-label dose escalation/expansion",
+          "nct_ids": ["NCT06083207"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3014",
+      "aka": [],
+      "modality": "Oncology bispecific antibody (target undisclosed in public ctgov record)",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Unresectable locally advanced / metastatic solid tumors",
+          "highest_phase": "P2",
+          "trial_name": "IBI3014 FIH dose escalation/expansion",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT06974812"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3016",
+      "aka": [],
+      "modality": "Cardiometabolic small molecule / biologic (target undisclosed)",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Hypertension",
+          "highest_phase": "P2",
+          "trial_name": "IBI3016 hypertension Ph1/2",
+          "trial_design": "Randomized, controlled",
+          "nct_ids": ["NCT07352969", "NCT07556796"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI130",
+      "aka": [],
+      "modality": "Oncology biologic (undisclosed bispecific)",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "P2",
+          "trial_name": "IBI130 FIH",
+          "trial_design": "Open-label dose escalation/expansion",
+          "nct_ids": ["NCT05923008"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI356",
+      "aka": [],
+      "modality": "Immunology biologic (Type-2 inflammation)",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Atopic Dermatitis",
+          "highest_phase": "P2",
+          "trial_name": "IBI356 AD Ph2",
+          "trial_design": "Randomized, controlled",
+          "nct_ids": ["NCT07330934"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI351 (Glecirasib)",
+      "aka": ["Glecirasib", "GFH925"],
+      "modality": "KRAS G12C inhibitor (small molecule)",
+      "target": "KRAS G12C",
+      "license_origin": "In-licensed from GenFleet (Greater China rights)",
+      "indications": [
+        {
+          "indication": "Advanced KRAS G12C-mutant NSCLC",
+          "highest_phase": "P1",
+          "trial_name": "IBI351 NSCLC dose-expansion (pivotal data has supported NDA)",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT05504278"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": ["NMPA NDA accepted for KRAS G12C-mutant NSCLC"]
+        }
+      ]
+    },
+    {
+      "asset": "IBI115",
+      "aka": [],
+      "modality": "Oncology biologic (undisclosed)",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Small cell lung cancer (SCLC)",
+          "highest_phase": "P1",
+          "trial_name": "IBI115 SCLC FIH",
+          "trial_design": "Open-label dose escalation",
+          "nct_ids": ["NCT07559019"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3001",
+      "aka": [],
+      "modality": "Oncology bispecific (undisclosed target)",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Locally advanced solid tumors",
+          "highest_phase": "P1",
+          "trial_name": "IBI3001 FIH",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT06349408"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3005",
+      "aka": [],
+      "modality": "Oncology biologic",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Unresectable solid tumors",
+          "highest_phase": "P1",
+          "trial_name": "IBI3005 FIH",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT06418061"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3009",
+      "aka": [],
+      "modality": "Oncology biologic (likely DLL3-targeted)",
+      "target": "DLL3 (per company disclosures)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Small cell lung cancer",
+          "highest_phase": "P1",
+          "trial_name": "IBI3009 SCLC FIH",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT06613009"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3011",
+      "aka": [],
+      "modality": "Acute gout small molecule / biologic",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Acute gout flare",
+          "highest_phase": "P1",
+          "trial_name": "IBI3011 Ph1",
+          "trial_design": "Randomized",
+          "nct_ids": ["NCT07295496"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3013",
+      "aka": [],
+      "modality": "Investigational biologic (undisclosed)",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "FIH in healthy volunteers (indication TBD)",
+          "highest_phase": "P1",
+          "trial_name": "IBI3013 FIH",
+          "trial_design": "Single ascending dose",
+          "nct_ids": ["NCT07554222"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3020",
+      "aka": [],
+      "modality": "Oncology biologic",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "P1",
+          "trial_name": "IBI3020 FIH",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT06963281"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3027",
+      "aka": [],
+      "modality": "Investigational biologic (undisclosed)",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "FIH in healthy volunteers",
+          "highest_phase": "P1",
+          "trial_name": "IBI3027 FIH",
+          "trial_design": "Single ascending dose",
+          "nct_ids": ["NCT07502534"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3032",
+      "aka": [],
+      "modality": "Cardiometabolic biologic (obesity)",
+      "target": "Undisclosed (incretin-class)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Overweight / obesity",
+          "highest_phase": "P1",
+          "trial_name": "IBI3032 obesity Ph1",
+          "trial_design": "Randomized, placebo-controlled SAD/MAD",
+          "nct_ids": ["NCT07160400", "NCT07170319"],
+          "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBI3033",
+      "aka": [],
+      "modality": "Immunology biologic (undisclosed)",
+      "target": "Undisclosed",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Atopic dermatitis (PoC) / healthy-volunteer Ph1",
+          "highest_phase": "P1",
+          "trial_name": "IBI3033 Ph1 program",
+          "trial_design": "Randomized, placebo-controlled",
+          "nct_ids": ["NCT07549984", "NCT07311226", "NCT07456839"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_marketed_examples": [
+      "TYVYT (sintilimab) - anti-PD-1 mAb (multiple oncology indications, NMPA)",
+      "BYVASDA (bevacizumab biosimilar, IBI305)",
+      "HALPRYZA (rituximab biosimilar, IBI301)",
+      "SULINNO (adalimumab biosimilar, IBI303)",
+      "SYCUME (teprotumumab analog, IBI311) - thyroid eye disease",
+      "Mazdutide (IBI362) - chronic weight management (NMPA 2025)",
+      "SINTBILO (tafolecimab, IBI306) - hyperlipidemia",
+      "TABOSUN (ipilimumab N01, IBI310) - anti-CTLA-4 mAb (NMPA)"
+    ],
+    "note": "Innovent reports 18 commercialized products (oncology, autoimmune, cardiometabolic, ophthalmology) per 2025 annual results."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Phase 3 records with overallStatus COMPLETED/TERMINATED/WITHDRAWN/UNKNOWN excluded from active phase counts (e.g., NCT04289285, NCT04709536, NCT04031742, NCT04179669 - IBI306 completed enabling registrations; NCT02867566 - IBI301 completed; sintilimab pivotals NCT03150875, NCT03607539, NCT03629925, NCT03745170, NCT03748134, NCT03802240, NCT02954172 - completed/registrational; IBI311 NCT05795621, NCT06126783 completed; IBI112 NCT05645627, NCT06049810 completed; IBI310 NCT04720716 completed; IBI362 NCT05607680, NCT05606913, NCT05628311 completed)"
+  ],
+  "excluded_partner_owned": [
+    "Investigator-initiated trials sponsored by Chinese hospitals/universities using Innovent agents as collaborator (e.g., trials led by Shanghai Chest Hospital, Sun Yat-Sen, MDACC, etc.) excluded - asset ownership remains Innovent but lead-sponsor accountability is academic."
+  ],
+  "summary_counts": {
+    "total_assets": 28,
+    "P3": 9,
+    "P2": 8,
+    "P1": 11,
+    "note": "Counted at asset level by highest active phase per indication. Mazdutide alone has 4 P3 indications; IBI343 has 2 P3 indications."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "issuer_name": "Avricore Health Inc.",
+  "ticker": "AVCRF",
+  "exchange": "OTC",
+  "cik": "0001355736",
+  "region": "Canada (cross-listed OTC US)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Pharmacy services / point-of-care diagnostics company. Flagship product HealthTab is a turnkey point-of-care testing platform (cloud-based, ~23 biomarker menu for chronic disease screening such as diabetes and cardiovascular). Not a drug developer; no pharma clinical trials. UK pilot in NHS community pharmacies. Canadian filer (TSXV: AVCR) so no SEC 10-K — files in Canada (SEDAR).",
+  "sources": {
+    "10k": {"error": "Foreign filer (Canada, TSXV) — no SEC 10-K; SEC presence limited to OTC level"},
+    "website": {"url": "https://avricore.com/", "note": "Pharmacy point-of-care testing platform (HealthTab); not drug development"},
+    "ctgov": {"sponsor_query": "Avricore Health", "trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "HealthTab",
+    "type": "Point-of-care diagnostic testing platform deployed in community pharmacies (UK, Canada)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

@@ -1,0 +1,70 @@
+{
+  "issuer_name": "Brainsway Ltd.",
+  "ticker": "BRSYF",
+  "exchange": "OTC",
+  "cik": "0001505065",
+  "region": "IL",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer - files 20-F (no 10-K found via EDGAR submissions API)"
+    },
+    "website": {
+      "url": "https://www.brainsway.com/",
+      "note": "Pipeline subpage returns 404; corporate site enumerates FDA-cleared indications but no active-trial roster"
+    },
+    "ctgov": {
+      "query": "Brainsway",
+      "raw_hits": 41,
+      "kept_p1_p3": 13,
+      "active_kept": 0,
+      "by_status": {
+        "COMPLETED": 7,
+        "UNKNOWN": 4,
+        "TERMINATED": 1,
+        "WITHDRAWN": 1
+      },
+      "local": "data/brsyf_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "Deep_TMS_System": {
+      "type": "Deep transcranial magnetic stimulation device using H-coil technology",
+      "FDA_cleared_indications": [
+        "Major Depressive Disorder (MDD)",
+        "Obsessive-Compulsive Disorder (OCD) - first FDA de novo clearance for noninvasive OCD device",
+        "Short-term smoking cessation in adults - first FDA clearance for TMS in addiction",
+        "Reduction of comorbid anxiety symptoms in adults with depression (Anxious Depression)",
+        "Late-Life Depression",
+        "Accelerated Deep TMS protocol for MDD"
+      ],
+      "CE_marked_indications": ["Bipolar disorder", "PTSD", "Schizophrenia", "Other neurological indications"]
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT01388179", "indication": "Autism (children)", "phase": "P2", "status": "TERMINATED"},
+    {"nct_id": "NCT02053961", "indication": "Tinnitus", "phase": "P2", "status": "WITHDRAWN"},
+    {"nct_id": "NCT00753662", "indication": "Alzheimer's Disease", "phase": "P2", "status": "UNKNOWN (lead: Tel-Aviv Sourasky)"},
+    {"nct_id": "NCT01179373", "indication": "Alzheimer's Disease", "phase": "P2", "status": "COMPLETED"},
+    {"nct_id": "NCT00807105", "indication": "MDD acute/maintenance", "phase": "P2", "status": "COMPLETED (lead: Shalvata)"},
+    {"nct_id": "NCT00445237", "indication": "Major Depression", "phase": "P1", "status": "COMPLETED (lead: Shalvata)"},
+    {"nct_id": "NCT01409304", "indication": "MDD", "phase": "P2/P3", "status": "COMPLETED (lead: Douglas Mental Health)"},
+    {"nct_id": "NCT01409317", "indication": "MDD neural correlates", "phase": "P2/P3", "status": "COMPLETED (lead: Douglas Mental Health)"},
+    {"nct_id": "NCT02126124", "indication": "Smoking Cessation", "phase": "P3", "status": "COMPLETED (supported the FDA clearance)"},
+    {"nct_id": "NCT01196910", "indication": "Adult ADHD", "phase": "P1", "status": "UNKNOWN"},
+    {"nct_id": "NCT01464515", "indication": "Mild Cognitive Impairment", "phase": "P1", "status": "UNKNOWN"},
+    {"nct_id": "NCT02039206", "indication": "Machado-Joseph Disease (SCA3)", "phase": "P2", "status": "COMPLETED"},
+    {"nct_id": "NCT02206516", "indication": "Adult ADD (tDCS, partner-device study)", "phase": "P1", "status": "UNKNOWN (lead: Tel-Aviv Sourasky)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Commercial medical-device company (Deep TMS, H-coil transcranial magnetic stimulation) with multiple FDA-cleared indications (MDD, OCD, smoking addiction, anxious depression, late-life depression, accelerated MDD protocol). All 13 P1/P2/P3 trials retrieved from ClinicalTrials.gov for sponsor 'Brainsway' are COMPLETED, TERMINATED, WITHDRAWN, or UNKNOWN with primary completion dates ranging 2010-2021 - none currently RECRUITING/ACTIVE. Recent FDA clearances were obtained via post-market or label-expansion submissions; no active pivotal/IDE study identified. Brainsway is a foreign private issuer (Israel) and files Form 20-F rather than 10-K, so SEC EDGAR 10-K fetch returned no results."
+}

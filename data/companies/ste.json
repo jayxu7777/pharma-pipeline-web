@@ -1,0 +1,36 @@
+{
+  "issuer_name": "STERIS plc",
+  "ticker": "STE",
+  "exchange": "NYSE",
+  "cik": "0001757898",
+  "region": "US (Ireland-domiciled, US-listed; files 10-K)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "primary_doc_cached": "data/ste_10k_full.htm",
+      "note": "10-K cached. No 'pipeline' section heading present — STERIS reports as a sterilization, infection-prevention, and medical-device-services company organized into Healthcare, Applied Sterilization Technologies (AST), and Life Sciences segments. No drug development pipeline."
+    },
+    "website": {
+      "skipped": "Issuer is a sterilization-services and medical-device company; corporate site does not host a drug pipeline."
+    },
+    "ctgov": {
+      "compact_path": "data/ste_ctgov_compact.json",
+      "note": "Zero ClinicalTrials.gov records with STERIS as lead sponsor. Consistent with services/devices business model."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "STERIS provides sterilization and infection-prevention services (ethylene oxide, gamma, X-ray, e-beam), surgical equipment, endoscopy reprocessing systems, and lab-services support. Revenue is from services, capital equipment, and consumables — no FDA-NDA drugs."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Sterilization-services and medical-device company (adjacent_medtech_dx bucket). No proprietary drug development. ClinicalTrials.gov returns zero studies with STERIS as lead sponsor."
+}

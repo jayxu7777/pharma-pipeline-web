@@ -1,0 +1,81 @@
+{
+  "issuer_name": "Inspire Medical Systems, Inc.",
+  "ticker": "INSP",
+  "exchange": "NYSE",
+  "cik": "0001609550",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-13",
+      "accession": "0001609550-26-000016",
+      "fiscal_year_end": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1609550/000160955026000016/insp-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.inspiresleep.com/pipeline",
+      "note": "No discrete pipeline page; product-information pages cover the marketed Inspire device only. Investor site has no development-pipeline disclosure."
+    },
+    "ctgov": {
+      "query": "sponsor:Inspire Medical Systems, Inc.",
+      "trials_kept_p1_p3": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Inspire Upper Airway Stimulation (UAS) System",
+      "aka": ["Inspire IV", "Inspire V", "hypoglossal nerve stimulation"],
+      "modality": "Implantable neurostimulation device (Class III PMA)",
+      "target": "Hypoglossal nerve",
+      "license_origin": "Internal (originally licensed from Medtronic in 2007)",
+      "indications": [
+        {
+          "indication": "Obstructive sleep apnea in pediatric patients with Down syndrome (label-expansion / cognition and language outcomes)",
+          "highest_phase": "P3",
+          "trial_name": "Effects of Hypoglossal Nerve Stimulation on Cognition and Language in Down Syndrome and Obstructive Sleep Apnea",
+          "trial_design": "Interventional, single-arm post-FDA-authorization study assessing cognitive and language outcomes in adolescents with Down syndrome and OSA implanted with the Inspire UAS system; collaboration with NIH/NIDCD.",
+          "nct_ids": ["NCT04801771"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Inspire Medical Systems, Inc.",
+          "key_milestones": [
+            "Start date 2021-06-24",
+            "Primary completion expected 2027-02-28",
+            "Pediatric Down-syndrome indication already FDA-authorized in 2023; trial supports long-term outcomes evidence"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Inspire IV": {
+      "status": "Approved (FDA PMA 2014; Inspire IV neurostimulator launched 2017 US, 2018 EU; CE marked 2010)",
+      "indication": "Moderate-to-severe obstructive sleep apnea (AHI 15-100) in adults who failed or cannot tolerate PAP; pediatric Down syndrome (FDA 2023)"
+    },
+    "Inspire V": {
+      "status": "FDA approved 2024 (latest-generation neurostimulator with integrated respiratory sensor; no separate sensing lead)",
+      "indication": "Same as Inspire IV"
+    },
+    "SleepSync platform / app / Bluetooth remote": {
+      "status": "FDA approved (programmer 2023, Bluetooth remote 2021); cloud patient-management platform"
+    }
+  },
+  "excluded_preclinical": [
+    "Feasibility studies on next-generation neuromodulation delivery configurations (mentioned in 10-K R&D narrative, no IDE-stage clinical study disclosed)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT01161420 STAR trial (Stimulation Therapy for Apnea Reduction) - PHASE3 COMPLETED in 2013; supported original 2014 PMA; not an active ongoing study"
+  ],
+  "excluded_partner_owned": [],
+  "excluded_other": [
+    "PREDICTOR study (600-patient enrollment completed early 2024) - patient-selection / DISE-screening observational study, not a P1/P2/P3 interventional pivotal trial of a new asset"
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 1,
+    "P2": 0,
+    "P1": 0,
+    "commercial_products": 3
+  },
+  "no_active_clinical_pipeline_reason": null
+}

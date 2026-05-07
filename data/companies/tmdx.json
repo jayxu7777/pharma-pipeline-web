@@ -1,0 +1,45 @@
+{
+  "issuer_name": "TransMedics Group, Inc.",
+  "ticker": "TMDX",
+  "exchange": "Nasdaq",
+  "cik": "0001756262",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-067032",
+      "filed": "2026-02-24",
+      "doc": "tmdx-20251231.htm",
+      "file": "data/tmdx_10k_pipeline_section.html",
+      "note": "TransMedics is a medical device / organ-transplant logistics company; the 10-K describes the OCS device platform and National OCS Program, not drug assets."
+    },
+    "website": {
+      "url": "https://www.transmedics.com/",
+      "note": "Public site presents OCS Heart, OCS Lung, OCS Liver and the National OCS Program; no drug pipeline page."
+    },
+    "ctgov": {
+      "file": "data/tmdx_ctgov_compact.json",
+      "note": "0 sponsored P1-P3 interventional drug trials with TransMedics as sponsor."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "TransMedics develops and commercializes the Organ Care System (OCS), a portable warm-perfusion platform that preserves donor organs in a near-physiologic state for transplantation, plus the National OCS Program (NOP) logistics service.",
+    "products": [
+      {"name": "OCS Heart", "status": "FDA-approved (2021/2022)"},
+      {"name": "OCS Lung", "status": "FDA-approved (2018/2022)"},
+      {"name": "OCS Liver", "status": "FDA-approved (2021)"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medtech / device company \u2014 no proprietary clinical drug pipeline. TransMedics commercializes the FDA-approved OCS organ-preservation device platform and runs a logistics service (NOP); it does not own IND-stage drug assets and has no active P1/P2/P3 drug trials."
+}

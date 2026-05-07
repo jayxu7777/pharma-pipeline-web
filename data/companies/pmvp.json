@@ -1,0 +1,49 @@
+{
+  "issuer_name": "PMV Pharmaceuticals, Inc.",
+  "ticker": "PMVP",
+  "exchange": "Nasdaq",
+  "cik": "0001699382",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-095014", "filing_date": "2026-03-06", "form": "10-K"},
+    "website": {"url": "https://www.pmvpharma.com/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "PMV Pharmaceuticals", "studies_count": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "Rezatapopt",
+      "aka": ["PC14586"],
+      "modality": "Oral small molecule (p53 reactivator)",
+      "target": "p53 Y220C mutant",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors harboring TP53 Y220C mutation (tumor agnostic)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PYNNACLE (PMV-586-101)",
+          "trial_design": "Open-label, multicenter Phase 1/2 with pivotal Phase 2 expansion",
+          "nct_ids": ["NCT04585750"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "PMV Pharmaceuticals, Inc.",
+          "key_milestones": ["FDA Fast Track designation"]
+        },
+        {
+          "indication": "Relapsed/refractory AML/MDS with TP53 Y220C — combination with azacitidine",
+          "highest_phase": "Phase 1",
+          "trial_name": "Rezatapopt + azacitidine Phase 1b",
+          "trial_design": "Phase 1b dose-finding combination",
+          "nct_ids": ["NCT06616636"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "PMV Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Undisclosed early-stage assets in lead optimization"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 0, "phase_2": 1, "phase_1": 1}
+}

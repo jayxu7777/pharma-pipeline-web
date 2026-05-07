@@ -1,0 +1,187 @@
+{
+  "issuer_name": "Axsome Therapeutics, Inc.",
+  "ticker": "AXSM",
+  "exchange": "Nasdaq",
+  "cik": "0001579428",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-064267",
+      "filed": "2026-02-23",
+      "path": "data/axsm_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "https://axsome.com/pipeline returned 403; substituted public press releases and 10-K"
+    },
+    "ctgov": {
+      "sponsor": "Axsome Therapeutics",
+      "path": "data/axsm_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "AXS-05 (dextromethorphan-bupropion)",
+      "aka": ["Auvelity"],
+      "modality": "Small molecule oral combination (NMDA antagonist + sigma-1 agonist + CYP2D6 inhibitor)",
+      "target": "NMDA receptor / sigma-1 receptor",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Alzheimer's Disease Agitation",
+          "highest_phase": "Phase 3 / sNDA filed",
+          "trial_name": "ADVANCE-2 / ACCORD pivotal program",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT05557409", "NCT04947553", "NCT04797715"],
+          "trial_status": "sNDA accepted, Priority Review (PDUFA April 30, 2026)",
+          "lead_sponsor": "Axsome Therapeutics, Inc.",
+          "key_milestones": ["PDUFA action date 2026-04-30"]
+        },
+        {
+          "indication": "Smoking Cessation",
+          "highest_phase": "Phase 2/3 (planned)",
+          "trial_name": "Pivotal Phase 2/3 smoking cessation",
+          "trial_design": "Randomized, controlled pivotal Phase 2/3",
+          "nct_ids": [],
+          "trial_status": "PLANNED — initiation guided for 2Q 2026",
+          "lead_sponsor": "Axsome Therapeutics, Inc.",
+          "key_milestones": ["First patient dosing expected 2Q 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "AXS-07 (meloxicam-rizatriptan, MoSEIC)",
+      "aka": ["Symbravo"],
+      "modality": "Small molecule oral combination (NSAID + 5-HT1B/1D agonist; MoSEIC delivery)",
+      "target": "COX-2 / 5-HT1B/1D",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Acute Migraine",
+          "highest_phase": "Phase 3 / NDA filed (resubmitted)",
+          "trial_name": "MOMENTUM, INTERCEPT, MOVEMENT, EMERGE",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 plus open-label long-term safety",
+          "nct_ids": ["NCT03896009", "NCT04163185", "NCT04068051", "NCT05550207"],
+          "trial_status": "Phase 3 trials COMPLETED; NDA under FDA review",
+          "lead_sponsor": "Axsome Therapeutics, Inc.",
+          "key_milestones": ["FDA review ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "AXS-12 (reboxetine)",
+      "aka": [],
+      "modality": "Small molecule (selective norepinephrine reuptake inhibitor, oral)",
+      "target": "Norepinephrine transporter (NET)",
+      "license_origin": "In-licensed (originally from Pfizer)",
+      "indications": [
+        {
+          "indication": "Narcolepsy / Cataplexy",
+          "highest_phase": "Phase 3 / NDA filed",
+          "trial_name": "SYMPHONY, ENCORE",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 (SYMPHONY) + open-label long-term safety/extension (ENCORE)",
+          "nct_ids": ["NCT05059223", "NCT05113745"],
+          "trial_status": "Phase 3 COMPLETED; NDA submitted to FDA",
+          "lead_sponsor": "Axsome Therapeutics, Inc.",
+          "key_milestones": ["NDA under FDA review"]
+        }
+      ]
+    },
+    {
+      "asset": "AXS-14 (esreboxetine)",
+      "aka": [],
+      "modality": "Small molecule (highly selective norepinephrine reuptake inhibitor, oral)",
+      "target": "Norepinephrine transporter (NET)",
+      "license_origin": "In-licensed (originally from Pfizer)",
+      "indications": [
+        {
+          "indication": "Fibromyalgia",
+          "highest_phase": "Phase 3",
+          "trial_name": "FORWARD",
+          "trial_design": "Randomized withdrawal Phase 3, double-blind, placebo-controlled",
+          "nct_ids": ["NCT07398417"],
+          "trial_status": "Recruiting (started 2026-01-14)",
+          "lead_sponsor": "Axsome Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Solriamfetol",
+      "aka": ["Sunosi"],
+      "modality": "Small molecule (DNRI / TAAR-1 agonist, oral)",
+      "target": "Dopamine and norepinephrine transporters; TAAR-1",
+      "license_origin": "Acquired from Jazz Pharmaceuticals (2022)",
+      "indications": [
+        {
+          "indication": "Major Depressive Disorder (adjunctive)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PARADIGM (and CARE-DSS extension)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT06360419", "NCT07484217"],
+          "trial_status": "PARADIGM Phase 3 COMPLETED; CARE-DSS Phase 3 RECRUITING",
+          "lead_sponsor": "Axsome Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "ADHD",
+          "highest_phase": "Phase 3",
+          "trial_name": "FOCUS",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT05972044"],
+          "trial_status": "Phase 3 COMPLETED (topline reported)",
+          "lead_sponsor": "Axsome Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Binge Eating Disorder",
+          "highest_phase": "Phase 3",
+          "trial_name": "ENGAGE / ENGAGE-2 OLE",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 + open-label safety extension",
+          "nct_ids": ["NCT06413433", "NCT06878976"],
+          "trial_status": "Recruiting / Enrolling by invitation (OLE)",
+          "lead_sponsor": "Axsome Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Shift Work Disorder",
+          "highest_phase": "Phase 3",
+          "trial_name": "SUSTAIN",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT06568367"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Axsome Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "Auvelity (AXS-05)", "indication": "Major Depressive Disorder", "approved": "2022"},
+      {"name": "Sunosi (solriamfetol)", "indication": "Excessive daytime sleepiness in narcolepsy/OSA", "approved": "2019 (acquired 2022)"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT06736509 AXS-05 ADVANCE-2/ACCORD-2 extension (TERMINATED)",
+    "NCT04634669 AXS-05 EVOLVE TRD (TERMINATED)",
+    "NCT02746068 AXS-02 knee OA (UNKNOWN — program de-prioritized)",
+    "NCT02504008 AXS-02 CRPS (UNKNOWN — program de-prioritized)",
+    "NCT04971291 AXS-05 TRD (UNKNOWN)"
+  ],
+  "excluded_partner_owned": [
+    "NCT06170970 Solriamfetol MS fatigue (Johns Hopkins-led, investigator-initiated)",
+    "NCT03471767 AXS-05 smoking (James Davis-led, investigator-initiated)",
+    "NCT07523048 DXM-Bup MDD imaging (Roger McIntyre-led, investigator-initiated)"
+  ],
+  "summary_counts": {
+    "assets": 5,
+    "phase_3_indications": 7,
+    "phase_2_indications": 0,
+    "phase_1_indications": 0,
+    "planned": 1,
+    "notes": "AXS-07 NDA, AXS-12 NDA filed; AXS-05 sNDA for AD agitation under priority review."
+  }
+}

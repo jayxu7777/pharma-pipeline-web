@@ -1,0 +1,50 @@
+{
+  "issuer_name": "20/20 Biolabs, Inc.",
+  "ticker": "AIDX",
+  "exchange": "Nasdaq",
+  "cik": "0001139685",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-037667",
+      "filing_date": "2026-03-31",
+      "doc": "ea0283134-10k_2020bio.htm"
+    },
+    "website": {
+      "url": "https://www.2020biolabs.com",
+      "note": "Pipeline subpage not present (404). Homepage describes commercialized lab tests, not a drug pipeline."
+    },
+    "ctgov": {
+      "sponsor_query": "20/20 Biolabs",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "OneTest_for_Cancer": {
+      "type": "Laboratory developed test (LDT) — multi-cancer early detection (MCED) blood test",
+      "status": "Commercial; CAP-accredited and CLIA-licensed laboratory",
+      "indications": "Detection of lung, pancreatic, ovarian and liver cancers via protein tumor markers"
+    },
+    "OneTest_for_Longevity": {
+      "type": "LDT — inflammation biomarkers panel with lifestyle guidance",
+      "status": "Pre-launch (anticipated spring 2026 launch per company)"
+    },
+    "CLIAx_program": {
+      "type": "CLIA lab services for overseas diagnostic start-ups launching LDTs in the US",
+      "status": "Commercial"
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Diagnostics / clinical-laboratory services company. Sells laboratory developed tests (OneTest) and CLIA lab services (CLIAx). No proprietary therapeutic drug pipeline; no interventional P1/P2/P3 sponsored trials on ClinicalTrials.gov."
+}

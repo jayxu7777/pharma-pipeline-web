@@ -1,0 +1,47 @@
+{
+  "issuer_name": "WATERS CORP /DE/",
+  "ticker": "WAT",
+  "exchange": "NYSE",
+  "cik": "0001000697",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-062604",
+      "filing_date": "2026-02-23",
+      "path": "data/wat_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "No drug/clinical pipeline page — Waters is an analytical instruments company (LC, LC-MS, mass spectrometry, columns, informatics)."
+    },
+    "ctgov": {
+      "path": "data/wat_ctgov_compact.json",
+      "raw_hits": 2,
+      "kept_p1_p3": 0,
+      "note": "Sponsor query returned 2 trials, none in P1-P3 (instrument/method studies, not therapeutic interventions)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Analytical instruments and consumables",
+    "lines": [
+      "Liquid chromatography (LC, UPLC, HPLC) systems",
+      "Mass spectrometry (LC-MS, QTOF, tandem quadrupole) systems",
+      "Thermal analysis instruments (TA Instruments)",
+      "Chromatography columns and consumables",
+      "Informatics software (Empower, NuGenesis, waters_connect)"
+    ],
+    "note": "Tools sold to pharma, biotech, food, environmental, and academic customers. Not a drug developer."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech / lab-tools issuer. Waters Corporation manufactures analytical instruments and consumables (LC, mass spectrometry, thermal analysis, informatics) sold to life-sciences customers. No proprietary therapeutic or device clinical pipeline."
+}

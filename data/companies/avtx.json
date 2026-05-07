@@ -1,0 +1,47 @@
+{
+  "issuer_name": "Avalo Therapeutics, Inc.",
+  "ticker": "AVTX",
+  "exchange": "Nasdaq",
+  "cik": "0001534120",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001534120-26-000011", "filing_date": "2026-03-23", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "http://www.avalotx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Avalo Therapeutics", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Abdakibart",
+      "aka": ["AVTX-009"],
+      "modality": "Humanized IgG monoclonal antibody",
+      "target": "IL-1 beta",
+      "license_origin": "In-licensed (acquired with AlmataBio)",
+      "indications": [
+        {
+          "indication": "Hidradenitis suppurativa (moderate-to-severe)",
+          "highest_phase": "Phase 2",
+          "trial_name": "LOTUS",
+          "trial_design": "Global, randomized, double-blind, placebo-controlled Phase 2",
+          "nct_ids": ["NCT06603077"],
+          "trial_status": "Active (primary completion 2026-02-23; topline reported)",
+          "lead_sponsor": "Avalo Therapeutics, Inc.",
+          "key_milestones": ["Primary completion 2026-02-23"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "AVTX-002 (quisovalimab, anti-LIGHT)", "nct_ids": ["NCT05288504", "NCT04412057"], "reason": "Phase 2 asthma and COVID-ALI completed; no active sponsored trial"},
+    {"asset": "AVTX-007 (CERC-007)", "nct_ids": ["NCT04671251"], "reason": "Completed Phase 1; not currently active"},
+    {"asset": "CERC-006 (lymphatic malformations)", "nct_ids": ["NCT04994002"], "reason": "Withdrawn"},
+    {"asset": "CERC-301", "nct_ids": ["NCT02459236", "NCT01941043"], "reason": "Legacy Cerecor MDD program; completed"},
+    {"asset": "AEVI-001 / NFC-1 (ADHD)", "reason": "Legacy Aevi program; completed/terminated"},
+    {"asset": "MDGN-002 (IBD)", "nct_ids": ["NCT03169894"], "reason": "Terminated"},
+    {"asset": "FP01 (cough)", "reason": "Legacy completed Phase 1/2 lozenges program"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 1, "phase_3": 0, "phase_2": 1, "phase_1": 0}
+}

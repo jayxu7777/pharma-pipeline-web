@@ -1,0 +1,56 @@
+{
+  "issuer_name": "IR-Med, Inc.",
+  "ticker": "IRME",
+  "exchange": "OTC",
+  "cik": "0001839133",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001641172-25-002748",
+      "filed": "2025-04-04",
+      "doc": "form10-k.htm",
+      "note": "10-K parsed; describes two infrared-spectroscopy decision-support devices (PressureSafe, DiaSafe). Neither is a drug; no P1/P2/P3 drug trials disclosed."
+    },
+    "website": {
+      "url": "https://ir-med.com/",
+      "error": "Connection refused on multiple attempts (38.38.183.161:443); relied on 10-K and ctgov."
+    },
+    "ctgov": {
+      "sponsor_query": "IR-Med",
+      "unique_trials_p1_p3": 0,
+      "note": "No P1-P3 drug trials sponsored by IR-Med on ClinicalTrials.gov. PressureSafe observational study at Methodist Healthcare is a non-IDE device usability/clinical study for an FDA Class I listed device."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "PressureSafe",
+        "modality": "Handheld near-infrared spectroscopy decision-support device",
+        "indication": "Early assessment of pressure injuries (PI), including in dark skin tones",
+        "regulatory_status": "FDA listed (Class I); commercial launch initially planned 2H 2025",
+        "ongoing_clinical_activity": "Observational clinical study at Methodist Healthcare; ~294 scans Phase 1 data showed ~90% sensitivity (non-pivotal device study, not a drug P1/P2/P3 trial)"
+      },
+      {
+        "name": "DiaSafe",
+        "modality": "Handheld near-infrared spectroscopy decision-support device (PressureSafe platform extension)",
+        "indication": "Early assessment of diabetic foot ulcers (DFU)",
+        "regulatory_status": "In development; planned clinical study in Israel; Israel Innovation Authority grant ~$500k"
+      }
+    ]
+  },
+  "excluded_preclinical": [
+    "DiaSafe — DFU device still in development; planned algorithm-training clinical study in Israel."
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "IR-Med is a small medical-device company developing infrared-spectroscopy point-of-care decision-support devices (PressureSafe, DiaSafe). No proprietary P1/P2/P3 drug pipeline; ongoing device studies are observational/usability for an FDA Class I listed device, not pivotal IDE trials."
+}

@@ -1,0 +1,106 @@
+{
+  "issuer_name": "Verastem, Inc.",
+  "ticker": "VSTM",
+  "exchange": "Nasdaq",
+  "cik": "0001526119",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-023444", "filing_date": "2026-03-04", "path": "data/vstm_10k_pipeline_section.html"},
+    "website": {"url": "https://www.verastem.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/vstm_ctgov_compact.json", "trial_count": 44}
+  },
+  "pipeline": [
+    {
+      "asset": "Avutometinib + Defactinib (AVMAPKI FAKZYNJA CO-PACK)",
+      "aka": ["VS-6766", "VS-6063", "RO5126766", "CH5126766", "PF-04554878"],
+      "modality": "Small molecule oral combination (RAF/MEK clamp + FAK inhibitor)",
+      "target": "RAF/MEK and FAK",
+      "license_origin": "In-house / licensed (RO5126766 originally Roche/Chugai)",
+      "indications": [
+        {
+          "indication": "KRAS-mutated recurrent low-grade serous ovarian cancer (LGSOC)",
+          "highest_phase": "Approved (US accelerated approval) + Phase 3 confirmatory",
+          "trial_name": "RAMP 301 (ENGOTov60/GOG3052 confirmatory)",
+          "trial_design": "Global randomized confirmatory Phase 3, avutometinib + defactinib vs investigator's choice chemo/hormonal therapy in recurrent LGSOC with/without KRAS mutation; ~299 patients; primary endpoint PFS by BICR",
+          "nct_ids": ["NCT06072781"],
+          "trial_status": "Recruiting / enrollment completed Oct 2025 + 29 added Dec 2025; topline mid-2027",
+          "lead_sponsor": "Verastem, Inc.",
+          "key_milestones": ["FDA accelerated approval May 8, 2025", "EU Orphan Drug Designation Jul 2025", "RAMP 301 enrollment complete Dec 2025", "Topline PFS mid-2027"]
+        },
+        {
+          "indication": "Recurrent LGSOC (Japan)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RAMP 201J",
+          "trial_design": "Phase 2 in Japanese patients with recurrent LGSOC",
+          "nct_ids": ["NCT06682572"],
+          "trial_status": "Active, not recruiting; preliminary data presented IGCS Nov 2025",
+          "lead_sponsor": "Verastem, Inc.",
+          "key_milestones": ["Preliminary safety/efficacy IGCS 2025"]
+        },
+        {
+          "indication": "Front-line metastatic pancreatic ductal adenocarcinoma (PDAC) with gemcitabine + nab-paclitaxel",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "RAMP 205",
+          "trial_design": "Phase 1b/2 avutometinib + defactinib + gemcitabine/nab-paclitaxel in 1L mPDAC; 29-patient RP2D expansion cohort",
+          "nct_ids": ["NCT05669482"],
+          "trial_status": "Active, not recruiting; expansion cohort enrollment complete; update H1 2026",
+          "lead_sponsor": "Verastem, Inc.",
+          "key_milestones": ["83% confirmed ORR (10/12) at dose level 1 reported May 2025", "Update H1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "VS-7375",
+      "aka": ["GFH375"],
+      "modality": "Small molecule oral KRAS G12D (ON/OFF) inhibitor",
+      "target": "KRAS G12D",
+      "license_origin": "Licensed from GenFleet Therapeutics (Jan 2025)",
+      "indications": [
+        {
+          "indication": "KRAS G12D-mutated solid tumors (PDAC, NSCLC, CRC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "VS-7375-101",
+          "trial_design": "US Phase 1/2 monotherapy and combination dose escalation/expansion in advanced KRAS G12D solid tumors; combos with cetuximab, carboplatin/pemetrexed/pembrolizumab, gemcitabine/nab-paclitaxel",
+          "nct_ids": ["NCT07020221"],
+          "trial_status": "Recruiting; first patient dosed Jun 2025; 400/600/900 mg QD cleared",
+          "lead_sponsor": "Verastem, Inc.",
+          "key_milestones": ["FDA Fast Track Designation Jul 2025 (1L and post-1L PDAC)", "Phase 1/2 dose-escalation update H1 2026", "Disease-specific Phase 2 registration-directed trials planned for 2L PDAC, 2L/3L NSCLC, 2L+ CRC + cetuximab"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "AVMAPKI FAKZYNJA CO-PACK (avutometinib + defactinib)",
+    "indication": "KRAS-mutated recurrent LGSOC after prior systemic therapy",
+    "approval": "FDA accelerated approval May 8, 2025",
+    "2025_net_revenue_usd": 30900000
+  },
+  "excluded_preclinical": ["Two undisclosed RAS/MAPK pathway assets at discovery stage (GenFleet collaboration)"],
+  "excluded_legacy_terminated": [
+    "NCT01849744 VS-4718 mono Phase 1 (terminated)",
+    "NCT02651727 VS-4718 + nab-paclitaxel/gem (terminated)",
+    "NCT02372227 VS-5584 + VS-6063 mesothelioma (terminated)",
+    "NCT02004028 VS-6063 mesothelioma window-of-opportunity (terminated)",
+    "NCT01870609 VS-6063 mesothelioma (terminated)",
+    "NCT02943317 defactinib + avelumab ovarian (terminated)",
+    "NCT04720417 defactinib + VS-6766 uveal melanoma (terminated)",
+    "NCT01991938 VS-5584 (terminated)",
+    "NCT02215629 VS-4718 AML/B-ALL (withdrawn)",
+    "RAMP 203 NCT05074810 avutometinib + sotorasib KRAS G12C NSCLC (discontinued Dec 2025)",
+    "RAMP 204 NCT05375994 avutometinib + adagrasib KRAS G12C NSCLC (active not recruiting; KRAS G12C strategic deprioritization)"
+  ],
+  "excluded_partner_owned": [
+    "GFH375 in greater China (GenFleet — partner-owned territory; includes GenFleet Phase 3 in pretreated KRAS G12D mPDAC)",
+    "Investigator-initiated/collaborator-led studies counted as supportive only (e.g. NCT07318324 MD Anderson Phase Ib endometrial; NCT05200442 University of Chicago avutometinib + cetuximab CRC; NCT05608252 DFCI VS-6766+abema+fulv breast; NCT06194929 University of Utah melanoma brain mets; NCT05512208 University of Oklahoma; NCT06394804 MSKCC LGSOC + letrozole; NCT06007924 MSKCC thyroid; NCT05787561 MSKCC mesonephric; NCT04331041 / NCT07126158 WashU SBRT + FAK pancreatic; NCT06487221 Columbia gastric; NCT06630260 ICR/UK glioma 5G-RUBY)"
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 1,
+    "phase_2": 2,
+    "phase_1": 1,
+    "approved_products": 1,
+    "indications_active": 4
+  }
+}

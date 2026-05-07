@@ -1,0 +1,81 @@
+{
+  "issuer_name": "ENvue Medical, Inc.",
+  "ticker": "FEED",
+  "exchange": "Nasdaq",
+  "cik": "0001326706",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-016871",
+      "filing_date": "2026-04-15",
+      "doc": "form10-k.htm",
+      "local_slice": "data/feed_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://envuemedical.com/",
+      "note": "Site loads a redirect lander; no public pipeline page found"
+    },
+    "ctgov": {
+      "query": "ENvue Medical",
+      "kept_p1_p3": 0,
+      "local": "data/feed_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "ENvue_System": {
+      "type": "Electromagnetic navigation platform for enteral feeding tube placement (adults 22+)",
+      "regulatory_status": "FDA 510(k) cleared (February 2019)",
+      "marketed_in": ["United States"]
+    },
+    "NGAT": {
+      "type": "Nasogastric tube device",
+      "regulatory_status": "FDA 510(k) cleared (adult)"
+    },
+    "PainShield_MD": {
+      "type": "Ultrasonic diathermy device for pain management",
+      "regulatory_status": "FDA 510(k) cleared (August 2008)"
+    },
+    "PainShield_Plus_MD_Plus": {
+      "type": "Dual-applicator ultrasonic diathermy device",
+      "regulatory_status": "FDA 510(k) cleared (November 2022); future sales discontinued following self-identified inaccuracies in the 2022 510(k) application"
+    },
+    "UroShield": {
+      "type": "Ultrasonic actuator for urinary catheter biofilm control",
+      "regulatory_status": "Marketed outside the US (UK NHS Drug Tariff Part IX, VA system); FDA clearance/approval pathway under assessment"
+    },
+    "ENfit_Compatible_Syringes": {
+      "type": "ISO 80369-3 enteral feeding syringes (2.5/5/10/60 mL)",
+      "regulatory_status": "Launched January 2026 via U-Deliver distribution (non-acute care channels)"
+    }
+  },
+  "excluded_preclinical": [
+    {
+      "asset": "ENvue Drive",
+      "stage": "Preclinical robotic-arm platform; not yet submitted to FDA"
+    },
+    {
+      "asset": "ENvue Feeding Tube and System for Children and Preterm Infants",
+      "stage": "Initial product development complete; preparing for FDA-clearance clinical trial (not yet initiated)"
+    },
+    {
+      "asset": "Imaging Navigation (ENvue Plus)",
+      "stage": "Product development completed January 2022; clinical trial planned, not yet initiated"
+    },
+    {
+      "asset": "PICC navigation extension",
+      "stage": "Concept / development stage"
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device company (enteral feeding navigation, ultrasonic therapy). Marketed products are FDA 510(k)-cleared commercial devices; the historical ENvue System pivotal trial was completed pre-2019 clearance. Next-generation devices (ENvue Drive robotic arm, pediatric/preterm system, ENvue Plus imaging navigation, PICC) are in preclinical or pre-trial development. No active P1/P2/P3 drug or pivotal device clinical study identified in 10-K or ClinicalTrials.gov."
+}

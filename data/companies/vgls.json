@@ -1,0 +1,24 @@
+{
+  "issuer_name": "VG Life Sciences Inc.",
+  "ticker": "VGLS",
+  "exchange": "OTC",
+  "cik": "0001091326",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001019687-15-001463", "filing_date": "2015-04-15", "path": "data/vgls_10k_pipeline_section.html", "note": "Most recent 10-K is from 2015; no subsequent annual reports filed"},
+    "website": {"url": "https://www.vglifesciences.com/", "note": "Domain serves a WordPress blog with no corporate or pipeline content; no functional /pipeline page"},
+    "ctgov": {"path": "data/vgls_ctgov_compact.json", "p1_p3_trials": 0, "note": "No active or completed P1-P3 trials under sponsor 'VG Life Sciences'"}
+  },
+  "pipeline": [],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    {"asset": "VG1177 (peptide targeting CLIP on B cells)", "reason": "Historical preclinical asset disclosed in 2015 10-K; no clinical-stage advancement evidenced"},
+    {"asset": "Metabolic Disruption Technology (MDT) compounds incl. hydroxychloroquine combinations", "reason": "Preclinical platform, no current clinical program"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"p3": 0, "p2": 0, "p1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Dormant / shell-stage OTC issuer: most recent 10-K filed April 2015, no subsequent SEC annual reports, corporate website replaced by an unrelated WordPress blog, no trials registered on clinicaltrials.gov, no evidence of an active clinical program."
+}

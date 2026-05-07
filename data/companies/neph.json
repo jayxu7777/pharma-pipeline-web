@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Nephros, Inc.",
+  "ticker": "NEPH",
+  "exchange": "Nasdaq",
+  "cik": "0001196298",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-009848",
+      "filing_date": "2026-03-12",
+      "doc": "form10-k.htm",
+      "note": "10-K describes water filtration product lines (Infection Control, Dialysis, Commercial). No drug or therapeutic clinical pipeline."
+    },
+    "website": {
+      "url": "https://www.nephros.com",
+      "note": "Corporate site lists filtration products (point-of-use micro/ultrafilters for healthcare, dialysis water filtration, commercial filtration, 19-Series PFAS filter in development). No /pipeline page; no clinical trial assets."
+    },
+    "ctgov": {
+      "queried_sponsor": "Nephros",
+      "unique_trials_p1_to_p3": 0,
+      "note": "No active P1/P2/P3 trials sponsored by Nephros."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "categories": [
+      "Infection control point-of-use micro/ultrafiltration (FDA-cleared)",
+      "Dialysis water filtration (AAMI-compliant)",
+      "Commercial water filtration (food service / beverage)"
+    ],
+    "in_development": "19-Series Total PFAS Water Filter"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device / water filtration company. Products are FDA-cleared filtration hardware; company has no proprietary drug or therapeutic clinical pipeline and no active P1/P2/P3 trials."
+}

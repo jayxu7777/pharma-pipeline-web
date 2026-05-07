@@ -1,0 +1,105 @@
+{
+  "issuer_name": "Nuvation Bio Inc.",
+  "ticker": "NUVB",
+  "exchange": "NYSE",
+  "cik": "0001811063",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-085584",
+      "filing_date": "2026-03-02",
+      "doc": "nvb-20251231.htm"
+    },
+    "website": {
+      "url": "https://nuvationbio.com/pipeline/",
+      "fetched": "2026-05-06",
+      "note": "Site rendered via JS; supplemented with 8-K and corporate presentation Jan 2026"
+    },
+    "ctgov": {
+      "query": "Nuvation Bio Inc.",
+      "fetched": "2026-05-06",
+      "trials_p1_p3": 15
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Taletrectinib",
+      "aka": ["AB-106", "DS-6051b", "IBTROZI"],
+      "modality": "Small molecule (oral kinase inhibitor)",
+      "target": "ROS1",
+      "license_origin": "AnHeart Therapeutics acquisition (2024)",
+      "indications": [
+        {
+          "indication": "ROS1-positive NSCLC (adjuvant)",
+          "highest_phase": "P3",
+          "trial_name": "TRUST-IV",
+          "trial_design": "Randomized, placebo-controlled Phase 3 adjuvant",
+          "nct_ids": ["NCT07154706"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Nuvation Bio Inc.",
+          "key_milestones": ["Start 2025-08-21; primary completion 2030-08-30"]
+        },
+        {
+          "indication": "ROS1-positive locally advanced or metastatic NSCLC (China Phase 3)",
+          "highest_phase": "P3",
+          "trial_name": "Taletrectinib vs Crizotinib Phase 3",
+          "trial_design": "Randomized active-controlled Phase 3 (vs crizotinib)",
+          "nct_ids": ["NCT06564324"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Nuvation Bio Inc.",
+          "key_milestones": ["Primary completion 2029-01"]
+        },
+        {
+          "indication": "ROS1-positive NSCLC (global Phase 2)",
+          "highest_phase": "P2",
+          "trial_name": "TRUST-II",
+          "trial_design": "Single-arm Phase 2 global registrational",
+          "nct_ids": ["NCT04919811"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Nuvation Bio Inc.",
+          "key_milestones": ["Primary completion 2025-06-11; supported FDA approval"]
+        }
+      ]
+    },
+    {
+      "asset": "Safusidenib",
+      "aka": ["DS-1001b", "AB-218"],
+      "modality": "Small molecule (brain-penetrant IDH1 inhibitor)",
+      "target": "Mutant IDH1",
+      "license_origin": "Daiichi Sankyo (global rights acquired 2026; via AnHeart)",
+      "indications": [
+        {
+          "indication": "IDH1-mutant glioma (maintenance; grade 2/3 astrocytoma high-risk + grade 4)",
+          "highest_phase": "P3",
+          "trial_name": "SIGMA (G203)",
+          "trial_design": "Pivotal global randomized placebo-controlled Phase 3",
+          "nct_ids": ["NCT05303519"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Nuvation Bio Inc.",
+          "key_milestones": ["First patient enrolled Oct 2025; primary completion 2028-12-01"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "IBTROZI (taletrectinib)", "indication": "ROS1+ advanced NSCLC", "regions": ["US"]}
+    ]
+  },
+  "excluded_preclinical": ["Next-generation drug-drug conjugate (DDC) programs"],
+  "excluded_legacy_terminated": [
+    "NUV-422 (TERMINATED/WITHDRAWN; CDK2/4/6 inhibitor)",
+    "NUV-868 (TERMINATED; BD2-selective BET inhibitor)",
+    "NUV-1511 (DISCONTINUED Q1 2026 per company announcement; first DDC)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 2,
+    "indications_active": 4,
+    "p3": 3,
+    "p2": 1,
+    "p1": 0
+  }
+}

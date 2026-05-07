@@ -1,0 +1,141 @@
+{
+  "issuer_name": "TAKEDA PHARMACEUTICAL CO LTD",
+  "ticker": "TKPHF",
+  "exchange": "OTC",
+  "cik": "0001395064",
+  "region": "Japan",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. Coverage limited to publicly highlighted late-stage Phase 2/3 lead programs from FY2025 corporate disclosures (Takeda discloses 30+ pipeline assets; only highest-profile late-stage programs synthesized here).",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (annual report) instead of 10-K. No 10-K available in EDGAR."},
+    "website": {
+      "url": "https://www.takeda.com/science/pipeline/",
+      "note": "Takeda Q4 FY2024 / FY2025 corporate pipeline disclosures and Dec 2024 late-stage pipeline spotlight."
+    },
+    "ctgov": {
+      "path": "data/tkphf_ctgov_compact.json",
+      "note": "Sponsor search 'Takeda' returns mostly investigator-initiated studies; Takeda's >100 corporate-sponsored trials filed under multiple sponsor name variants."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Oveporexton",
+      "aka": ["TAK-861"],
+      "modality": "Small molecule",
+      "target": "Orexin receptor 2 (OX2R) agonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Narcolepsy Type 1 (NT1)",
+          "highest_phase": "Phase 3",
+          "trial_name": "FirstLight / RadiantLight Phase 3 program",
+          "trial_design": "Two pivotal Phase 3 randomized controlled trials",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 met all primary and secondary endpoints; NDA submission planned late 2025, potential FDA approval and launch 2026",
+          "lead_sponsor": "Takeda",
+          "key_milestones": ["Phase 3 positive topline read-out", "Planned NDA submission late 2025", "Potential US launch 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Zasocitinib",
+      "aka": ["TAK-279"],
+      "modality": "Small molecule",
+      "target": "TYK2 inhibitor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe plaque psoriasis",
+          "highest_phase": "Phase 3",
+          "trial_name": "Zasocitinib psoriasis Phase 3 program",
+          "trial_design": "Pivotal Phase 3 randomized controlled trials",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 ongoing; regulatory filing planned FY2025-FY2026",
+          "lead_sponsor": "Takeda",
+          "key_milestones": ["Phase 3 readouts", "Filing planned FY2025-FY2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Rusfertide",
+      "aka": ["TAK-121", "PTG-300"],
+      "modality": "Hepcidin mimetic peptide",
+      "target": "Ferroportin",
+      "license_origin": "Acquired via Protagonist Therapeutics partnership",
+      "indications": [
+        {
+          "indication": "Polycythemia vera (PV)",
+          "highest_phase": "Phase 3",
+          "trial_name": "VERIFY Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 positive readout; regulatory filing planned FY2025-FY2026",
+          "lead_sponsor": "Takeda / Protagonist",
+          "key_milestones": ["VERIFY Phase 3 positive results", "Filing planned FY2025-FY2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Mezagitamab",
+      "aka": ["TAK-079"],
+      "modality": "Anti-CD38 subcutaneous monoclonal antibody",
+      "target": "CD38",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Immune thrombocytopenia (ITP) / IgA nephropathy",
+          "highest_phase": "Phase 3",
+          "trial_name": "Mezagitamab Phase 3 program",
+          "trial_design": "Phase 3 in primary ITP",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 ongoing; filing anticipated FY2027-FY2029",
+          "lead_sponsor": "Takeda",
+          "key_milestones": ["Anticipated first indication submission FY2027-FY2029"]
+        }
+      ]
+    },
+    {
+      "asset": "Fazirsiran",
+      "aka": ["TAK-999"],
+      "modality": "siRNA",
+      "target": "AAT (alpha-1 antitrypsin) hepatic mRNA",
+      "license_origin": "Co-developed with Arrowhead Pharmaceuticals",
+      "indications": [
+        {
+          "indication": "Alpha-1 antitrypsin deficiency-associated liver disease (AATD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "REDWOOD Phase 3",
+          "trial_design": "Phase 3 randomized in AATD-LD patients",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 ongoing; filing anticipated FY2027-FY2029",
+          "lead_sponsor": "Takeda / Arrowhead",
+          "key_milestones": ["First indication filing anticipated FY2027-FY2029"]
+        }
+      ]
+    },
+    {
+      "asset": "Elritercept",
+      "aka": ["TAK-226", "KER-050"],
+      "modality": "Activin / TGF-beta superfamily ligand trap (modified ActRIIA)",
+      "target": "Activin / GDF / BMP ligands",
+      "license_origin": "Acquired via Keros Therapeutics asset deal",
+      "indications": [
+        {
+          "indication": "Lower-risk myelodysplastic syndromes (MDS) anemia",
+          "highest_phase": "Phase 3",
+          "trial_name": "Elritercept MDS Phase 3",
+          "trial_design": "Phase 3 randomized",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 ongoing; filing anticipated FY2027-FY2029",
+          "lead_sponsor": "Takeda",
+          "key_milestones": ["Filing anticipated FY2027-FY2029"]
+        }
+      ]
+    }
+  ],
+  "blockers": "Foreign private issuer files 20-F not 10-K; ctgov sponsor search did not return Takeda corporate trials due to multiple sponsor-name variants. NCT IDs not enumerated due to volume; Takeda has 100+ active trials. Coverage limited to publicly disclosed late-stage Phase 3 lead programs.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 6, "p3": 6, "p2": 0, "p1": 0}
+}

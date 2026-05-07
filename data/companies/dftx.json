@@ -1,0 +1,96 @@
+{
+  "issuer_name": "Definium Therapeutics, Inc.",
+  "ticker": "DFTX",
+  "exchange": "Nasdaq",
+  "cik": "0001813814",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-076742",
+      "filing_date": "2026-02-26",
+      "doc": "dftx-20251231.htm"
+    },
+    "website": {
+      "url": "https://definiumtx.com",
+      "note": "Pipeline page not directly available; details corroborated via investor releases and search snippets (formerly MindMed)."
+    },
+    "ctgov": {
+      "sponsor_query": "Definium Therapeutics",
+      "raw_count": 8,
+      "kept_p1_p3": 7
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "MM120 ODT",
+      "aka": ["DT120", "lysergide D-tartrate", "LSD D-tartrate"],
+      "modality": "Small molecule (serotonergic psychedelic)",
+      "target": "5-HT2A receptor (partial agonist)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Generalized Anxiety Disorder (GAD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Voyage / Panorama",
+          "trial_design": "Two pivotal Phase 3 randomized, double-blind, placebo-controlled studies; Voyage ~200 pts US, Panorama ~250 pts US/EU",
+          "nct_ids": ["NCT06741228", "NCT06809595"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Definium Therapeutics US, Inc.",
+          "key_milestones": [
+            "FDA Breakthrough Therapy Designation (Mar 2024)",
+            "Voyage topline 1H 2026",
+            "Panorama topline 2H 2026"
+          ]
+        },
+        {
+          "indication": "Major Depressive Disorder (MDD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Emerge",
+          "trial_design": "Pivotal Phase 3 randomized double-blind placebo-controlled",
+          "nct_ids": ["NCT06941844"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Definium Therapeutics US, Inc.",
+          "key_milestones": [
+            "Emerge topline mid-2026",
+            "Second Phase 3 (Ascend) planned mid-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "DT402",
+      "aka": ["MM402", "R(-)-MDMA", "R-MDMA"],
+      "modality": "Small molecule (R-enantiomer of MDMA)",
+      "target": "Serotonergic / monoamine release",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Autism Spectrum Disorder (ASD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2A DT402 ASD",
+          "trial_design": "Phase 2a interventional",
+          "nct_ids": ["NCT07303907"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Definium Therapeutics US, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "18-MC (NCT04292197)", "reason": "Phase 1 healthy-volunteer study completed 2021; no active development disclosed."},
+    {"asset": "MM120 ADHD POC (NCT05200936)", "reason": "Phase 2 completed; not part of advancing pivotal program."},
+    {"asset": "MM120 GAD Phase 2 (NCT05407064)", "reason": "Completed dose-finding; superseded by Phase 3 program."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3": 2,
+    "p2": 1,
+    "p1": 0,
+    "indications_total": 3
+  }
+}

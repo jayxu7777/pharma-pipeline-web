@@ -1,0 +1,97 @@
+{
+  "issuer_name": "Adagene Inc.",
+  "ticker": "ADAG",
+  "exchange": "Nasdaq",
+  "cik": "0001818838",
+  "region": "CN/Cayman (cross-listed Nasdaq)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F instead of 10-K"},
+    "website": {"url": "https://www.adagene.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Adagene", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Muzastotug",
+      "aka": ["ADG126"],
+      "modality": "Masked anti-CTLA-4 SAFEbody monoclonal antibody",
+      "target": "CTLA-4",
+      "license_origin": "Internal (SAFEbody platform)",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic solid tumors (notably MSS colorectal cancer) in combination with pembrolizumab",
+          "highest_phase": "Phase 1b/2",
+          "trial_name": "ADG126 + Pembrolizumab in Advanced/Metastatic Solid Tumors",
+          "trial_design": "Phase 1b/2 dose-expansion combination with pembrolizumab vs SoC",
+          "nct_ids": ["NCT05405595", "NCT04645069"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Adagene Inc.",
+          "key_milestones": ["Primary completion 2026-10"]
+        },
+        {
+          "indication": "Locally advanced colorectal cancer (neoadjuvant) in combination with pembrolizumab",
+          "highest_phase": "Phase 2",
+          "trial_name": "Neoadjuvant ADG126 and Pembrolizumab in Locally Advanced Colorectal Cancer",
+          "trial_design": "Phase 2 investigator-sponsored",
+          "nct_ids": ["NCT06846268"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "National University Hospital, Singapore (collaborator: Adagene)",
+          "key_milestones": ["Primary completion 2027-12"]
+        }
+      ]
+    },
+    {
+      "asset": "ADG106",
+      "aka": [],
+      "modality": "Fully human agonist monoclonal antibody",
+      "target": "CD137 (4-1BB)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors / TNBC (combination with pembrolizumab)",
+          "highest_phase": "Phase 1b/2",
+          "trial_name": "Pembrolizumab and ADG106 in Advanced Solid Cancers and TNBC",
+          "trial_design": "Phase 1b/2 investigator-sponsored",
+          "nct_ids": ["NCT05491083"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "National University Hospital, Singapore (collaborator: Adagene)",
+          "key_milestones": ["Primary completion 2026-12"]
+        },
+        {
+          "indication": "HER2-negative breast cancer (neoadjuvant chemotherapy combination)",
+          "highest_phase": "Phase 1b/2",
+          "trial_name": "ADG106 + Neoadjuvant Chemotherapy in HER2-negative Breast Cancer",
+          "trial_design": "Phase 1b safety lead-in followed by Phase 2",
+          "nct_ids": ["NCT05275777"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "National University Hospital, Singapore (collaborator: Adagene)",
+          "key_milestones": ["Primary completion 2027-12"]
+        }
+      ]
+    },
+    {
+      "asset": "ADG206",
+      "aka": [],
+      "modality": "Masked POWERbody anti-CD137 (4-1BB) agonist antibody",
+      "target": "CD137 (4-1BB)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "Study of ADG206 in Subjects With Advanced/Metastatic Solid Tumors",
+          "trial_design": "Phase 1 dose-escalation",
+          "nct_ids": ["NCT05614258"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Adagene Inc.",
+          "key_milestones": ["Primary completion 2025-06"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["ADG116 (anti-CTLA-4) — predominantly preclinical/early"],
+  "excluded_legacy_terminated": ["ADG106 NCT04775680 (terminated)"],
+  "excluded_partner_owned": ["Roche Morpheus-Liver platform NCT04524871 (Roche-led, contains an Adagene asset only as one of many collaborators)"],
+  "summary_counts": {"total_active_assets": 3, "P3": 0, "P2": 3, "P1_or_P1_2": 1}
+}

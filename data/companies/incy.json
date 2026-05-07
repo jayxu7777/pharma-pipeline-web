@@ -1,0 +1,386 @@
+{
+  "issuer_name": "Incyte Corporation",
+  "ticker": "INCY",
+  "exchange": "Nasdaq",
+  "cik": "0000879169",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000879169-26-000010",
+      "filing_date": "2026-02-10",
+      "doc": "incy-20251231.htm"
+    },
+    "website": {
+      "url": "https://incyte.com/what-we-do/pharmaceutical-portfolio",
+      "accessed": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Incyte",
+      "active_p1_p3_lead_or_partnered": 150
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Povorcitinib",
+      "aka": ["INCB054707"],
+      "modality": "Small molecule (oral selective JAK1 inhibitor)",
+      "target": "JAK1",
+      "license_origin": "Internal (Incyte-discovered)",
+      "indications": [
+        {
+          "indication": "Hidradenitis suppurativa (moderate-to-severe)",
+          "highest_phase": "Filed (NDA / MAA submitted; P3 STOP-HS1/STOP-HS2 met endpoints)",
+          "trial_name": "STOP-HS1 / STOP-HS2 (and OLE)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 (2 doses 45/75 mg)",
+          "nct_ids": ["NCT06212999"],
+          "trial_status": "Phase 3 readouts positive (Mar 2025); EMA MAA submitted end-2025; FDA NDA acceptance anticipated Q1 2026",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["EMA approval potential late 2026", "FDA potential approval early 2027"]
+        },
+        {
+          "indication": "Nonsegmental vitiligo (extensive, >5% BSA)",
+          "highest_phase": "Phase 3",
+          "trial_name": "STOP-V1 / STOP-V2",
+          "trial_design": "Randomized Phase 3 in extensive nonsegmental vitiligo",
+          "nct_ids": ["NCT06113471", "NCT06113445"],
+          "trial_status": "Active, not recruiting; Phase 3 data anticipated by mid-2026",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["Phase 3 readout mid-2026"]
+        },
+        {
+          "indication": "Prurigo nodularis (moderate-to-severe)",
+          "highest_phase": "Phase 3",
+          "trial_name": "STOP-PN1 / STOP-PN2",
+          "trial_design": "Randomized Phase 3 in moderate-to-severe PN",
+          "nct_ids": ["NCT06516952", "NCT06516965"],
+          "trial_status": "Recruiting / active not recruiting; data anticipated Q4 2026",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["Phase 3 readout Q4 2026"]
+        },
+        {
+          "indication": "Asthma (moderate-to-severe uncontrolled)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Povorcitinib in moderate-to-severe asthma",
+          "trial_design": "Phase 2 proof-of-concept",
+          "nct_ids": ["NCT05851443"],
+          "trial_status": "Recruiting; PoC data anticipated H2 2026",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["Phase 2 PoC readout H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "INCA033989",
+      "aka": ["mutCALR mAb"],
+      "modality": "Monoclonal antibody (anti-mutant calreticulin)",
+      "target": "Mutant CALR",
+      "license_origin": "Internal (Incyte-discovered)",
+      "indications": [
+        {
+          "indication": "Essential thrombocythemia (mutCALR-positive)",
+          "highest_phase": "Phase 1 (Breakthrough Therapy designation; Phase 3 planned mid-2026)",
+          "trial_name": "INCA033989 monotherapy / + ruxolitinib in MPNs",
+          "trial_design": "Phase 1 dose-escalation, monotherapy and combination",
+          "nct_ids": ["NCT05936359", "NCT06034002", "NCT07448155"],
+          "trial_status": "Recruiting; Phase 3 ET trial initiation anticipated mid-2026",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["FDA Breakthrough Therapy granted Dec 2025", "Phase 3 ET initiation mid-2026"]
+        },
+        {
+          "indication": "Myelofibrosis (mutCALR-positive)",
+          "highest_phase": "Phase 1 (Phase 3 planned H2 2026)",
+          "trial_name": "INCA033989 monotherapy / + ruxolitinib in MPNs",
+          "trial_design": "Phase 1 monotherapy and combination with ruxolitinib",
+          "nct_ids": ["NCT05936359", "NCT06034002"],
+          "trial_status": "Recruiting; Phase 3 MF initiation anticipated H2 2026",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["ASH 2025 Phase 1 data positive", "Phase 3 MF initiation H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "INCA035784",
+      "aka": [],
+      "modality": "T-cell redirecting bispecific antibody (mutCALR x CD3)",
+      "target": "Mutant CALR x CD3",
+      "license_origin": "Internal (Incyte-discovered)",
+      "indications": [
+        {
+          "indication": "mutCALR-positive MPNs (MF, ET)",
+          "highest_phase": "Phase 1",
+          "trial_name": "INCA035784 in MPNs",
+          "trial_design": "Phase 1 dose-escalation",
+          "nct_ids": ["NCT07008118"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["Phase 1 data anticipated 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "INCB160058",
+      "aka": ["JAK2 V617F inhibitor"],
+      "modality": "Small molecule (selective mutant JAK2 V617F inhibitor)",
+      "target": "JAK2 V617F",
+      "license_origin": "Internal (Incyte-discovered)",
+      "indications": [
+        {
+          "indication": "JAK2 V617F-mutated MPNs",
+          "highest_phase": "Phase 1",
+          "trial_name": "INCB160058 in MPNs",
+          "trial_design": "Phase 1 safety/tolerability",
+          "nct_ids": ["NCT06313593"],
+          "trial_status": "Recruiting; Phase 1 results anticipated H2 2026",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["Phase 1 readout H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "INCB123667",
+      "aka": [],
+      "modality": "Small molecule (oral selective CDK2 inhibitor)",
+      "target": "CDK2",
+      "license_origin": "Internal (Incyte-discovered)",
+      "indications": [
+        {
+          "indication": "Platinum-resistant ovarian cancer (Cyclin E1 overexpression) - PROC",
+          "highest_phase": "Phase 3",
+          "trial_name": "MAESTRA-1 (P2 single-arm) and MAESTRA-2 (P3 vs investigator's choice chemo)",
+          "trial_design": "Phase 2 single-arm + Phase 3 randomized open-label vs chemotherapy",
+          "nct_ids": ["NCT07023627", "NCT07214779"],
+          "trial_status": "Recruiting (initiated Q4 2025)",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["Phase 3 first-line maintenance ovarian cancer initiation anticipated 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "INCB161734",
+      "aka": [],
+      "modality": "Small molecule (orally bioavailable KRAS G12D inhibitor)",
+      "target": "KRAS G12D",
+      "license_origin": "Internal (Incyte-discovered)",
+      "indications": [
+        {
+          "indication": "Pancreatic ductal adenocarcinoma (KRAS G12D-mutated, 1L metastatic)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Chemotherapy +/- INCB161734 in 1L KRAS G12D mPDAC",
+          "trial_design": "Phase 3 randomized; combination with SoC chemotherapy",
+          "nct_ids": ["NCT07522073"],
+          "trial_status": "Recruiting (initiated Q1 2026)",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["ESMO 2025 Phase 1 data positive in pretreated PDAC"]
+        },
+        {
+          "indication": "KRAS G12D-mutated advanced/metastatic solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "INCB161734 in solid tumors",
+          "trial_design": "Phase 1 dose-escalation",
+          "nct_ids": ["NCT06179160"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "INCA33890",
+      "aka": ["INCA033890", "TGFbR2 x PD-1 bispecific"],
+      "modality": "Bispecific antibody (Merus platform license)",
+      "target": "TGFbR2 x PD-1",
+      "license_origin": "Incyte-developed using Merus licensed bispecific platform",
+      "indications": [
+        {
+          "indication": "Microsatellite stable colorectal cancer (1L, MSS CRC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "INCA33890 + chemo + bevacizumab in 1L MSS CRC",
+          "trial_design": "Phase 3 randomized; combination with SoC chemotherapy and bevacizumab",
+          "nct_ids": ["NCT07284849"],
+          "trial_status": "Recruiting (initiated Q4 2025)",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["ESMO 2025 Phase 1 data positive in MSS CRC"]
+        },
+        {
+          "indication": "Advanced/metastatic solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "INCA33890 in solid tumors",
+          "trial_design": "Phase 1 dose-escalation, monotherapy and combinations",
+          "nct_ids": ["NCT05836324"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "INCA036873",
+      "aka": ["CD70 x CD3 bispecific"],
+      "modality": "Bispecific T-cell engager",
+      "target": "CD70 x CD3",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "B-cell / T-cell lymphomas, renal cell carcinoma",
+          "highest_phase": "Phase 1 (early-stage per company portfolio disclosure)",
+          "trial_name": "INCA036873 first-in-human",
+          "trial_design": "Phase 1 dose-escalation",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED / early Phase 1 — not yet listed on ctgov.gov as an Incyte-sponsored trial",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Zilurgisertib",
+      "aka": ["INCB00928", "INCB000928"],
+      "modality": "Small molecule (ALK2 inhibitor)",
+      "target": "ALK2 (ACVR1)",
+      "license_origin": "Internal (Incyte-discovered)",
+      "indications": [
+        {
+          "indication": "Fibrodysplasia ossificans progressiva (FOP)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Zilurgisertib in FOP",
+          "trial_design": "Phase 2 efficacy/safety/tolerability",
+          "nct_ids": ["NCT05090891"],
+          "trial_status": "Recruiting (Fast Track + orphan drug designation)",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Axatilimab (NIKTIMVO)",
+      "aka": ["SNDX-6352"],
+      "modality": "Anti-CSF-1R monoclonal antibody",
+      "target": "CSF-1R",
+      "license_origin": "In-licensed from Syndax Pharmaceuticals (Sep 2021); marketed for 3L+ chronic GVHD",
+      "indications": [
+        {
+          "indication": "Chronic GVHD (initial treatment, 1L, with corticosteroids)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Axatilimab + corticosteroids as initial treatment for cGVHD",
+          "trial_design": "Phase 3 randomized, placebo-controlled",
+          "nct_ids": ["NCT06585774"],
+          "trial_status": "Recruiting; results anticipated early 2028",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["Phase 3 readout early 2028"]
+        },
+        {
+          "indication": "Chronic GVHD (vs best available therapy / pediatrics / monotherapy)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Axatilimab vs BAT in cGVHD; pediatric and Chinese bridging studies",
+          "trial_design": "Phase 3 randomized; Phase 2/3 supporting studies",
+          "nct_ids": ["NCT06821542", "NCT07124078", "NCT06263478"],
+          "trial_status": "Active, not recruiting / recruiting",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic GVHD (newly-diagnosed, in combination with ruxolitinib)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Axatilimab + ruxolitinib in newly-diagnosed cGVHD",
+          "trial_design": "Phase 2 combination",
+          "nct_ids": ["NCT06388564"],
+          "trial_status": "Recruiting; results anticipated early 2027",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["Phase 2 readout early 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "Tafasitamab (MONJUVI / MINJUVI)",
+      "aka": ["MOR208"],
+      "modality": "Humanized Fc-modified anti-CD19 monoclonal antibody",
+      "target": "CD19",
+      "license_origin": "Acquired from MorphoSys (Feb 2024 purchase agreement; originally from Xencor)",
+      "indications": [
+        {
+          "indication": "Diffuse large B-cell lymphoma (1L, with R-CHOP + lenalidomide)",
+          "highest_phase": "Phase 3 (frontMIND positive Jan 2026 — sBLA filing planned H1 2026)",
+          "trial_name": "frontMIND (Tafasitamab + lenalidomide + R-CHOP vs R-CHOP)",
+          "trial_design": "Phase 3 randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT04824092"],
+          "trial_status": "Active, not recruiting; topline positive Jan 2026",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["sBLA filing planned H1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Retifanlimab (ZYNYZ)",
+      "aka": ["INCMGA00012", "INCMGA0012"],
+      "modality": "Humanized monoclonal antibody",
+      "target": "PD-1",
+      "license_origin": "In-licensed from MacroGenics (Oct 2017, exclusive worldwide)",
+      "indications": [
+        {
+          "indication": "Non-small cell lung cancer (squamous, 1L with platinum chemo)",
+          "highest_phase": "Phase 3",
+          "trial_name": "POD1UM-304 / platinum chemo +/- retifanlimab in advanced NSCLC",
+          "trial_design": "Phase 3 randomized, placebo-controlled",
+          "nct_ids": ["NCT04205812"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Ruxolitinib cream (OPZELURA)",
+      "aka": [],
+      "modality": "Topical small molecule (JAK1/JAK2 inhibitor cream)",
+      "target": "JAK1/JAK2",
+      "license_origin": "Internal (Incyte-discovered)",
+      "indications": [
+        {
+          "indication": "Hidradenitis suppurativa (mild-to-moderate)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TRuE-HS1 / TRuE-HS2",
+          "trial_design": "Phase 3 randomized, vehicle-controlled",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Initiated Jun 2025; topline anticipated Q4 2026",
+          "lead_sponsor": "Incyte Corporation",
+          "key_milestones": ["Phase 3 readout Q4 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_brands": [
+      "JAKAFI / JAKAVI (ruxolitinib) — MF, PV, GVHD",
+      "ICLUSIG (ponatinib) — CML, Ph+ ALL (EU rights)",
+      "MONJUVI / MINJUVI (tafasitamab) — r/r DLBCL, r/r FL",
+      "NIKTIMVO (axatilimab-csfr) — 3L+ chronic GVHD",
+      "PEMAZYRE (pemigatinib) — cholangiocarcinoma, MLNs with FGFR1 rearrangement",
+      "ZYNYZ (retifanlimab-dlwr) — Merkel cell carcinoma, anal squamous cell carcinoma",
+      "OPZELURA (ruxolitinib cream) — atopic dermatitis, vitiligo",
+      "OLUMIANT (baricitinib, partnered to Lilly) — RA, COVID-19, AD, alopecia areata",
+      "TABRECTA (capmatinib, partnered to Novartis) — METex14 NSCLC",
+      "ruxolitinib XR — pending CRL response (potential launch mid-2026)"
+    ]
+  },
+  "excluded_preclinical": [
+    "INCA034460 (anti-CD122) — development paused",
+    "INCB57643 (BET inhibitor) — development paused"
+  ],
+  "excluded_legacy_terminated": [
+    "Povorcitinib in chronic spontaneous urticaria (CSU) — development paused",
+    "Ruxolitinib cream in prurigo nodularis — development paused (Jan 2026 FDA feedback)"
+  ],
+  "excluded_partner_owned": [
+    "Baricitinib (OLUMIANT) — Lilly fully owns development/commercialization (royalty only to Incyte)",
+    "Capmatinib (TABRECTA) — Novartis fully owns development/commercialization (royalty only to Incyte)",
+    "Ruxolitinib ex-US for hem/onc indications (JAKAVI) — Novartis-owned"
+  ],
+  "summary_counts": {
+    "total_assets": 14,
+    "P3": 8,
+    "P2": 2,
+    "P1": 4
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "issuer_name": "Ensysce Biosciences, Inc.",
+  "ticker": "ENSC",
+  "exchange": "Nasdaq",
+  "cik": "0001716947",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-013633", "filing_date": "2026-03-30", "form": "10-K"},
+    "website": {"error": "skipped — 10-K + ctgov sufficient and current (filed 2026-03-30)"},
+    "ctgov": {"unique_trials_p1_p3": 9, "active": 2, "lead_sponsor": "Ensysce Biosciences"}
+  },
+  "pipeline": [
+    {
+      "asset": "PF614",
+      "aka": ["TAAP oxycodone prodrug"],
+      "modality": "Small-molecule prodrug (TAAP — Trypsin-Activated Abuse Protection)",
+      "target": "Mu-opioid receptor (oxycodone parent)",
+      "license_origin": "Internal (Ensysce TAAP platform)",
+      "indications": [
+        {
+          "indication": "Acute postoperative pain",
+          "highest_phase": "P3",
+          "trial_name": "PF614-301 — PF614 Analgesic Activity in Acute Postoperative Pain",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT06602271"],
+          "trial_status": "RECRUITING (start 2025-12-09)",
+          "lead_sponsor": "Ensysce Biosciences",
+          "key_milestones": ["Primary completion target Aug 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "PF614-MPAR (PF614 + nafamostat)",
+      "aka": ["PF614-MPAR-102", "PRF06104"],
+      "modality": "Combination small-molecule prodrug + trypsin inhibitor (MPAR overdose-protection platform)",
+      "target": "Mu-opioid receptor + trypsin inhibition (nafamostat)",
+      "license_origin": "Internal (Ensysce MPAR platform)",
+      "indications": [
+        {
+          "indication": "Pharmacokinetics / overdose-protection (opioid pain indication)",
+          "highest_phase": "P1",
+          "trial_name": "PF614-MPAR-102 — Single Dose PK of Oxycodone and PF614 Co-Administered With Nafamostat",
+          "trial_design": "Phase 1 single-dose PK across a range of dosages",
+          "nct_ids": ["NCT06500793"],
+          "trial_status": "RECRUITING (start 2024-11-24)",
+          "lead_sponsor": "Ensysce Biosciences",
+          "key_milestones": ["FDA Breakthrough Therapy designation Jan 2024", "Primary completion target Jul 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Additional TAAP prodrug candidates (hydrocodone, hydromorphone, methylphenidate analogs)", "reason": "Preclinical / discovery stage per 10-K"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 1, "P2": 0, "P1": 1}
+}

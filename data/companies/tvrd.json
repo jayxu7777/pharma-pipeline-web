@@ -1,0 +1,73 @@
+{
+  "issuer_name": "Tvardi Therapeutics, Inc.",
+  "ticker": "TVRD",
+  "exchange": "Nasdaq",
+  "cik": "0001346830",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-037729", "filing_date": "2026-03-31", "path": "data/tvrd_10k_pipeline_section.html"},
+    "website": {"url": "https://tvardi.com/pipeline (not separately fetched; 10-K provides authoritative pipeline)"},
+    "ctgov": {"path": "data/tvrd_ctgov_compact.json", "trial_count": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "TTI-101",
+      "aka": [],
+      "modality": "Oral, small-molecule, direct, reversible inhibitor of pY-STAT3",
+      "target": "STAT3 (Src-homology 2 domain; phospho-tyrosine STAT3)",
+      "license_origin": "Internal (worldwide rights)",
+      "indications": [
+        {
+          "indication": "Hepatocellular carcinoma (HCC), advanced/metastatic, mono and combo",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "REVERT LIVER CANCER — TTI-101 monotherapy and in combination with pembrolizumab or atezolizumab+bevacizumab",
+          "trial_design": "Open-label dose escalation/expansion across mono (Cohort A), TTI-101 + pembro (Cohort B), TTI-101 + atezo + bev (Cohort C); protocol amended Feb 2026 to add up to 15 patients to Cohort A modified-dose monotherapy",
+          "nct_ids": ["NCT05440708"],
+          "trial_status": "Recruiting (start 2023-03-23; primary completion 2027-02-01); topline expected 2H 2026",
+          "lead_sponsor": "Tvardi Therapeutics, Inc.",
+          "key_milestones": ["FDA Fast Track for HCC", "FDA Orphan Drug for HCC", "Topline 2H 2026 to inform pivotal strategy"]
+        },
+        {
+          "indication": "Borderline-resectable / locally advanced pancreatic ductal adenocarcinoma (with SBRT)",
+          "highest_phase": "Phase 1",
+          "trial_name": "TTI-101 + stereotactic body radiotherapy (SBRT) in borderline-resectable/LA PDAC",
+          "trial_design": "Investigator-sponsored Phase 1 combination",
+          "nct_ids": ["NCT06141031"],
+          "trial_status": "Active, not recruiting (primary completion 2029-06-30)",
+          "lead_sponsor": "Washington University School of Medicine (collab Tvardi + The V Foundation)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TTI-109",
+      "aka": ["Phosphate prodrug of TTI-101"],
+      "modality": "Oral, small-molecule phosphate prodrug rapidly converted to TTI-101 (direct pY-STAT3 inhibitor)",
+      "target": "STAT3 (via TTI-101 active moiety)",
+      "license_origin": "Internal (worldwide rights)",
+      "indications": [
+        {
+          "indication": "Healthy volunteer SAD/MAD/bioequivalence (next Phase 2 indication TBD; inflammatory/proliferative)",
+          "highest_phase": "Phase 1",
+          "trial_name": "TTI-109 first-in-human three-part Phase 1 (SAD, bioequivalence crossover vs TTI-101, MAD)",
+          "trial_design": "Healthy volunteer single ascending dose, crossover bioequivalence, multiple ascending dose",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing (IND accepted June 2025); topline expected Q2 2026",
+          "lead_sponsor": "Tvardi Therapeutics, Inc.",
+          "key_milestones": ["Phase 1 topline Q2 2026", "Phase 2 indication selection to follow"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "TTI-101 mBC HR+/HER2- (CDK4/6i combo)", "nct_ids": ["NCT05384119"], "status": "TERMINATED"},
+    {"asset": "TTI-101 + pembrolizumab in R/M HNSCC", "nct_ids": ["NCT05668949"], "status": "WITHDRAWN (MDACC investigator-sponsored)"},
+    {"asset": "TTI-101 IPF Phase 2 (REVERT IPF)", "nct_ids": ["NCT05671835"], "status": "COMPLETED — did not meet primary endpoint; informed TTI-109 strategy"},
+    {"asset": "TTI-101 first-in-human oncology Phase 1", "nct_ids": ["NCT03195699"], "status": "COMPLETED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 0, "p2": 0, "p1": 2, "p1_p2": 1}
+}

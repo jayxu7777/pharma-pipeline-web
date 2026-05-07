@@ -1,0 +1,115 @@
+{
+  "issuer_name": "Integra LifeSciences Holdings Corporation",
+  "ticker": "IART",
+  "exchange": "Nasdaq",
+  "cik": "0000917520",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. For this medical device issuer, scope captures active interventional pivotal/IDE studies of Integra-owned devices supporting active PMA submissions. Observational registries (e.g., AERA Pediatric Registry) are excluded.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0000917520-26-000011",
+      "path": "data/iart_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "No public pipeline page found at integralife.com/pipeline or /clinical-trials (404). Pipeline derived from 10-K disclosures and ctgov."
+    },
+    "ctgov": {
+      "path": "data/iart_ctgov_compact.json",
+      "note": "Sponsor query returned 11 P1-P3 trials; all Integra-led trials are TERMINATED, COMPLETED, WITHDRAWN, or UNKNOWN. The active pivotal IDE for DuraSorb breast reconstruction enrolled June 2023 (per 10-K) but is not surfaced under sponsor=Integra in current ctgov state. SurgiMend PMA clinical portion closed by FDA July 2024."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "SurgiMend Collagen Matrix",
+      "aka": ["SurgiMend", "SurgiMend PRS"],
+      "modality": "Acellular dermal matrix (bovine fetal collagen) implantable surgical device",
+      "target": "Soft-tissue reinforcement scaffold (acellular collagen matrix)",
+      "license_origin": "Integra LifeSciences proprietary (acquired via TEI Biosciences, 2015)",
+      "indications": [
+        {
+          "indication": "Post-mastectomy breast reconstruction (PMA-pending specific indication)",
+          "highest_phase": "PHASE3",
+          "trial_name": "SurgiMend PMA pivotal clinical study (post-mastectomy breast reconstruction)",
+          "trial_design": "Pivotal clinical study supporting PMA application filed Q3 2021; received approvable-pending-GMP status from FDA in July 2024 (clinical portion approved/closed). Final PMA approval contingent on operationalization of Braintree, MA manufacturing facility (expected 2026).",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Clinical portion complete and approved by FDA; awaiting GMP/facility approval; full PMA approval anticipated 2026",
+          "lead_sponsor": "Integra LifeSciences Corporation",
+          "key_milestones": [
+            "Q3 2021: PMA application filed",
+            "July 2024: FDA approvable-pending-GMP status; clinical portion closed",
+            "Anticipated 2026: full PMA approval following Braintree facility operationalization"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "DuraSorb Monofilament Mesh",
+      "aka": ["DuraSorb"],
+      "modality": "Resorbable synthetic polymer monofilament surgical mesh",
+      "target": "Temporary mechanical scaffold for tissue healing (P4HB-based bioresorbable mesh)",
+      "license_origin": "Integra LifeSciences proprietary",
+      "indications": [
+        {
+          "indication": "Two-stage implant-based breast reconstruction (IBBR)",
+          "highest_phase": "PHASE3",
+          "trial_name": "DuraSorb U.S. IDE clinical study for two-stage breast reconstruction",
+          "trial_design": "Prospective U.S. investigational device exemption (IDE) clinical study supporting PMA for DuraSorb in implant-based breast reconstruction",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrollment completed June 2023; PMA application advancing; PMA approval targeted in 2026",
+          "lead_sponsor": "Integra LifeSciences Corporation",
+          "key_milestones": [
+            "June 2023: IDE enrollment complete",
+            "Targeted 2026: PMA approval"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Integra LifeSciences markets a broad portfolio of regenerative tissue technologies, neurosurgical devices, and surgical instruments. Two reportable segments: Codman Specialty Surgical (CSS) and Tissue Technologies (TT).",
+    "key_franchises": [
+      "Integra Dermal Regeneration Template (IDRT) and Omnigraft (dermal regeneration)",
+      "DuraGen / DuraSeal / Durepair (dural grafts and sealants)",
+      "Codman neurosurgical portfolio (CSF shunts, ICP monitoring, CUSA ultrasonic aspirator, Mayfield head holders, CereLink)",
+      "SurgiMend / Gentrix / DuraSorb (soft-tissue reinforcement matrices)",
+      "MicroMatrix / Cytal (porcine UBM wound management)",
+      "AERA Eustachian Tube Balloon Dilation System",
+      "MediHoney advanced wound care",
+      "Jarit / Miltex / Padgett surgical instruments",
+      "NeuraGen / NeuraWrap / TenoGlide (peripheral nerve and tendon repair)"
+    ],
+    "recent_launches": [
+      "September 2025: Mayfield Ghost Base Unit Post (U.S. launch)",
+      "October 2025: Durepair Dural Regeneration Matrix (U.S. commercial launch)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT00748124", "reason": "TERMINATED — PleuraSeal Pivotal Study"},
+    {"nct": "NCT01849965", "reason": "TERMINATED — DSC127 P3 diabetic foot ulcer"},
+    {"nct": "NCT01830348", "reason": "TERMINATED — DSC127 P3 diabetic foot ulcer"},
+    {"nct": "NCT01840085", "reason": "TERMINATED — DSC127 open-label P3"},
+    {"nct": "NCT00796744", "reason": "COMPLETED 2010 — DSC127 P2 diabetic ulcer"},
+    {"nct": "NCT00231062", "reason": "COMPLETED 2006 — CLEAR Sinuplasty P3 (Acclarent partnership)"},
+    {"nct": "NCT00246792", "reason": "UNKNOWN status — University of Toronto investigator-initiated, non-device asset"},
+    {"nct": "NCT01970306", "reason": "COMPLETED 2023 — MSK investigator-initiated MatriStem PSM P2"},
+    {"nct": "NCT01202578", "reason": "COMPLETED 2010 — Acclarent tympanostomy tube P2/P3"},
+    {"nct": "NCT05363644", "reason": "WITHDRAWN — AdventHealth investigator-initiated BioDFence G3 P3"}
+  ],
+  "excluded_partner_owned": [
+    {"nct": "NCT05842057", "reason": "Investigator-initiated by University of Miami (lead sponsor); Integra is collaborator only — BioDFence G3 in radical prostatectomy ED, P2 ACTIVE_NOT_RECRUITING"}
+  ],
+  "excluded_observational_registries": [
+    {"name": "AERA Pediatric Registry", "reason": "Observational registry of marketed AERA Eustachian Tube Balloon Dilation device (enrolled July 2025); not interventional pivotal/IDE."},
+    {"nct": "NCT06629506", "reason": "Active not recruiting — MicroMatrix Flex prospective evaluation, observational/post-market"},
+    {"nct": "NCT06760611", "reason": "Observational cohort — Integra Dermal Matrix vs NovoSorb burn outcomes"}
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "total_indications": 2,
+    "by_phase": {"PHASE3": 2, "PHASE2": 0, "PHASE1": 0}
+  },
+  "no_active_clinical_pipeline_reason": null
+}

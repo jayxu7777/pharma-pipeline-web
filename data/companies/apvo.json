@@ -1,0 +1,83 @@
+{
+  "issuer_name": "Aptevo Therapeutics Inc.",
+  "ticker": "APVO",
+  "exchange": "Nasdaq",
+  "cik": "0001671584",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-26",
+      "accession": "0001193125-26-126278",
+      "url": "https://www.sec.gov/Archives/edgar/data/1671584/000119312526126278/apvo-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.aptevotherapeutics.com/pipeline"
+    },
+    "ctgov": {
+      "query": "Aptevo Therapeutics",
+      "interventional_p1_3_count": 10,
+      "note": "Most legacy TRU-016/otlertuzumab and ES414 trials completed/terminated. Active: mipletamig (APVO436) in AML NCT06634394 RAINIER trial; ALG.APV-527 NCT05934539 enrollment complete."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Mipletamig",
+      "aka": ["APVO436"],
+      "modality": "ADAPTIR bispecific antibody (CD123 x CD3)",
+      "target": "CD123 x CD3",
+      "license_origin": "Internally developed (ADAPTIR platform)",
+      "indications": [
+        {
+          "indication": "Frontline acute myeloid leukemia (AML), patients not candidates for intensive chemotherapy",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "RAINIER",
+          "trial_design": "Phase 1b/2 dose-optimization trial of mipletamig in combination with venetoclax and azacitidine in newly diagnosed AML",
+          "nct_ids": ["NCT06634394"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Aptevo Therapeutics",
+          "key_milestones": ["Trial start 2024-10-01", "Primary completion 2027-10"]
+        }
+      ]
+    },
+    {
+      "asset": "ALG.APV-527",
+      "aka": [],
+      "modality": "ADAPTIR bispecific antibody (4-1BB x 5T4)",
+      "target": "4-1BB (CD137) x 5T4 (TPBG)",
+      "license_origin": "Co-developed with Alligator Bioscience AB (collaboration since 2017)",
+      "indications": [
+        {
+          "indication": "Solid tumors expressing 5T4 (NSCLC, renal, pancreas, prostate, breast, colorectal, gastric, ovarian, cervical)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ALG.APV-527 first-in-human",
+          "trial_design": "Multi-center, multi-cohort Phase 1 first-in-human study in advanced 5T4-expressing solid tumors",
+          "nct_ids": ["NCT05934539"],
+          "trial_status": "Enrollment complete (Unknown on ctgov)",
+          "lead_sponsor": "Aptevo Therapeutics",
+          "key_milestones": ["Enrollment complete per company"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "APVO603 (4-1BB x OX40 bispecific) - IND-stage / preclinical",
+    "APVO442 (PSMA x CD3 bispecific) - preclinical",
+    "APVO711 (PD-L1 x CD40 bispecific) - preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "TRU-016 / otlertuzumab (anti-CD37) - multiple Phase 1/1b/2 studies completed/terminated (NCT00614042, NCT01188681, NCT01644253, NCT01317901)",
+    "ES414 / MOR209 (PSMA bispecific) Phase 1 NCT02262910 - completed",
+    "APVO210 (CD86 x IL-10) Phase 1 NCT03768219 - terminated",
+    "APVO436 monotherapy in AML/MDS NCT03647800 - status Unknown; superseded by RAINIER",
+    "APVO436 elderly/unfit AML NCT04973618 - withdrawn"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase3": 0,
+    "phase2": 2,
+    "phase1": 0
+  }
+}

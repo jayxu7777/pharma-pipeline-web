@@ -1,0 +1,99 @@
+{
+  "issuer_name": "Celcuity Inc.",
+  "ticker": "CELC",
+  "exchange": "Nasdaq",
+  "cik": "0001603454",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-012801",
+      "filing_date": "2026-03-26",
+      "file": "data/celc_10k_pipeline_section.html",
+      "note": "Lead therapeutic candidate is gedatolisib, a pan-PI3K (alpha/beta/gamma/delta) and mTORC1/2 kinase inhibitor of the PAM pathway. Phase 3 VIKTORIA-1 in HR+/HER2- ABC has read out (PIK3CA WT cohort meeting PFS endpoint). NDA initiated under FDA Real-Time Oncology Review program in August 2025. Second Phase 3 (VIKTORIA-2) and Phase 1b/2 prostate study (CELC-G-201) ongoing. CELsignia diagnostic platform is also commercialized but not a drug asset."
+    },
+    "website": {
+      "url": "https://www.celcuity.com/",
+      "note": "Pipeline page (https://www.celcuity.com/pipeline) returns 404; pipeline content extracted from corporate homepage. Lead asset gedatolisib in VIKTORIA-1 (P3 breast), VIKTORIA-2 (P3 breast), CELC-G-201 (prostate)."
+    },
+    "ctgov": {
+      "file": "data/celc_ctgov_compact.json",
+      "trials_returned": 10,
+      "note": "Celcuity-sponsored trials: NCT05501886 (VIKTORIA-1, P3, ACTIVE_NOT_RECRUITING), NCT06757634 (VIKTORIA-2, P3, RECRUITING), NCT06190899 (CELC-G-201 mCRPC, P1/2, RECRUITING), NCT02684032 (P1, COMPLETED). Other listings are investigator-initiated where Celcuity is collaborator only."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Gedatolisib",
+      "aka": ["PF-05212384", "PKI-587"],
+      "modality": "Small molecule kinase inhibitor",
+      "target": "Pan-PI3K (class I alpha/beta/gamma/delta isoforms) and mTORC1/2 (PAM pathway)",
+      "license_origin": "In-licensed from Pfizer",
+      "indications": [
+        {
+          "indication": "HR+/HER2- advanced breast cancer, post-CDK4/6 + endocrine therapy (2L+)",
+          "highest_phase": "Phase 3 / NDA submission (RTOR)",
+          "trial_name": "VIKTORIA-1",
+          "trial_design": "Open-label, randomized P3 evaluating gedatolisib + palbociclib + fulvestrant vs gedatolisib + fulvestrant vs fulvestrant (PIK3CA WT cohort) and vs alpelisib + fulvestrant (PIK3CA MT cohort) in HR+/HER2- ABC after CDK4/6 inhibitor + endocrine therapy progression",
+          "nct_ids": ["NCT05501886"],
+          "trial_status": "ACTIVE_NOT_RECRUITING — primary PFS endpoint met in PIK3CA WT cohort; FDA Fast Track and Breakthrough Therapy designations granted; NDA initiated under Real-Time Oncology Review (Aug 2025)",
+          "lead_sponsor": "Celcuity Inc.",
+          "key_milestones": [
+            "Jan 2022: Fast Track designation",
+            "Jul 2022: Breakthrough Therapy designation",
+            "Aug 2025: FDA accepted RTOR pre-submission for PIK3CA WT cohort",
+            "Primary completion: 2026-06-30"
+          ]
+        },
+        {
+          "indication": "HR+/HER2- advanced breast cancer, first-line (1L)",
+          "highest_phase": "Phase 3",
+          "trial_name": "VIKTORIA-2",
+          "trial_design": "Open-label, randomized P3 evaluating gedatolisib + CDK4/6 inhibitor (palbociclib or ribociclib) + fulvestrant vs CDK4/6 inhibitor + fulvestrant in 1L HR+/HER2- ABC; cohorts split by PIK3CA WT vs MT status",
+          "nct_ids": ["NCT06757634"],
+          "trial_status": "RECRUITING (started 2025-07-24)",
+          "lead_sponsor": "Celcuity Inc.",
+          "key_milestones": [
+            "Primary completion: 2027-12-31"
+          ]
+        },
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC), post-AR inhibitor",
+          "highest_phase": "Phase 1b/2",
+          "trial_name": "CELC-G-201",
+          "trial_design": "Phase 1b/2 evaluating gedatolisib in combination with darolutamide in mCRPC patients who progressed after AR inhibitor therapy; up to 54 participants",
+          "nct_ids": ["NCT06190899"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Celcuity Inc.",
+          "key_milestones": [
+            "Feb 2024: First patient dosed",
+            "Jun 2025 / Sep 2025 (ESMO): Preliminary Phase 1b data reported",
+            "Primary completion: 2028-01"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "summary": "CELsignia signaling activity diagnostic platform supports patient-selection biomarker work but is used primarily as a research / companion-diagnostic tool, not as a stand-alone marketed drug."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT05243641", "title": "Neratinib + Capmatinib in MBC", "status": "TERMINATED", "lead_sponsor": "M.D. Anderson"},
+    {"nct": "NCT04901299", "title": "Fulvestrant + Neratinib", "status": "WITHDRAWN", "lead_sponsor": "MGH"}
+  ],
+  "excluded_partner_owned": [
+    {"nct": "NCT03412643", "lead_sponsor": "NSABP", "reason": "Investigator-initiated; uses Celcuity CELx HSF diagnostic, not a Celcuity therapeutic."},
+    {"nct": "NCT03812393", "lead_sponsor": "West Cancer Center", "reason": "Investigator-initiated; Celcuity collaborator only; tests Puma's neratinib selected by CELx."},
+    {"nct": "NCT03675893", "lead_sponsor": "Dana-Farber", "reason": "Investigator-initiated RESOLVE basket trial; Celcuity is collaborator only."},
+    {"nct": "NCT03911973", "lead_sponsor": "Kari Wisinski", "reason": "Investigator-initiated; Celcuity is collaborator (gedatolisib supplied by Pfizer)."}
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 2,
+    "p2": 1,
+    "p1": 0,
+    "note": "Indication-level counts: VIKTORIA-1 and VIKTORIA-2 both Phase 3; CELC-G-201 Phase 1b/2 counted as P2."
+  }
+}

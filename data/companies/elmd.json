@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Electromed, Inc.",
+  "ticker": "ELMD",
+  "exchange": "NYSE",
+  "cik": "0001488917",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-25-027761",
+      "filing_date": "2025-08-26",
+      "doc": "elmd20250630_10k.htm",
+      "local_html": "data/elmd_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.electromed.com",
+      "note": "Site fetch did not return content; no public drug-pipeline page expected for a single-product medical-device manufacturer."
+    },
+    "ctgov": {
+      "query": "spons:Electromed",
+      "raw_count": 2,
+      "kept_p1_p3": 0,
+      "note": "Two registry records as sponsor; none are interventional Phase 1/2/3 drug or pivotal device IDE trials.",
+      "local": "data/elmd_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "devices": [
+      {
+        "name": "SmartVest Airway Clearance System (SmartVest SQL / SmartVest Clearway)",
+        "modality": "High-Frequency Chest Wall Oscillation (HFCWO)",
+        "indication": "Airway clearance therapy (bronchiectasis, cystic fibrosis, neuromuscular disease, other chronic respiratory conditions)",
+        "regulatory_status": "FDA-cleared (510(k)); CE mark in select markets",
+        "status": "Commercially marketed"
+      }
+    ],
+    "note": "Single-product home medical-device company. Revenue from SmartVest sales and rentals."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Single-product Class II medical-device company (SmartVest HFCWO airway-clearance system). Marketed device cleared via 510(k); no proprietary drug pipeline and no active sponsored Phase 1-3 or pivotal IDE clinical studies of new devices identified in 10-K or ClinicalTrials.gov."
+}

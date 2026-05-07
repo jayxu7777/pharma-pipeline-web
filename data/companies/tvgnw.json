@@ -1,0 +1,57 @@
+{
+  "issuer_name": "Tevogen Bio Holdings Inc.",
+  "ticker": "TVGNW",
+  "exchange": "Nasdaq",
+  "cik": "0001860871",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-014326", "filed": "2026-03-31", "form": "10-K"},
+    "website": {"url": "https://www.tevogen.com/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"unique_p1_p3_trials": 1, "self_sponsored": 0, "as_of": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "TVGN 489",
+      "aka": ["TVGN-489"],
+      "modality": "Allogeneic SARS-CoV-2-specific cytotoxic T-lymphocyte (CTL) cell therapy",
+      "target": "SARS-CoV-2 (HLA-A*02:01-restricted peptide epitopes)",
+      "license_origin": "Internal (ExacTcell platform)",
+      "indications": [
+        {
+          "indication": "COVID-19 in high-risk / immunocompromised patients (incl. B-cell malignancies)",
+          "highest_phase": "Phase 1 complete; pivotal trial planned",
+          "trial_name": "Phase 1 POC at Thomas Jefferson University; pivotal Phase 2 / Phase 2-3 planned in COVID-19 patients with B-cell malignancies",
+          "trial_design": "Phase 1 single-arm POC infusion of HLA-A*02:01-matched CTLs in ambulatory high-risk adults with COVID-19; pivotal design pending FDA alignment",
+          "nct_ids": ["NCT04765449"],
+          "trial_status": "Phase 1 COMPLETED January 2023 (sponsored by Thomas Jefferson University, Tevogen collaborator); pivotal trial PLANNED — pending FDA feedback and financing",
+          "lead_sponsor": "Thomas Jefferson University (Phase 1); Tevogen Bio (planned pivotal)",
+          "key_milestones": ["Pivotal trial initiation pending FDA review of direct Phase 1 to pivotal pathway"]
+        },
+        {
+          "indication": "Long COVID",
+          "highest_phase": "Phase 2 in development",
+          "trial_name": "Planned Phase 2 treatment trial in Long COVID sufferers (fatigue/cognitive subsets)",
+          "trial_design": "Phase 2 examining safety and efficacy of TVGN 489 in specific Long COVID phenotypes",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 2 in development per FY2025 10-K; not yet enrolling",
+          "lead_sponsor": "Tevogen Bio Holdings Inc.",
+          "key_milestones": ["Trial initiation / IND-stage activity"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {},
+  "excluded_preclinical": [
+    "TVGN 920 — HPV-related cervical cancer (peptide candidate investigation)",
+    "TVGN 960 — HPV-related oropharyngeal cancer (peptide candidate investigation)",
+    "TVGN 601 — EBV-associated multiple sclerosis (EBV peptide testing underway)",
+    "TVGN 930 — EBV-associated lymphomas (EBV peptide testing underway)",
+    "TVGN 116 — chronic hepatitis B (early investigative work beginning)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 1, "P1": 1, "total_active_assets": 1, "note": "TVGN 489 counted once as one asset spanning two indications"},
+  "blockers": "TVGNW is the warrant ticker (common stock = TVGN). Pivotal COVID-19 trial requires FDA alignment on direct Phase 1 to pivotal pathway and additional financing. Long COVID Phase 2 not yet on public registry."
+}

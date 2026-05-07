@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Aspire Biopharma Holdings, Inc.",
+  "ticker": "ASBP",
+  "exchange": "Nasdaq",
+  "cik": "0001847345",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-013682", "filing_date": "2026-03-30", "path": "data/asbp_10k_pipeline_section.html"},
+    "website": {"url": "https://aspirebiolabs.com/", "note": "No dedicated pipeline page; product/technology page only"},
+    "ctgov": {"path": "data/asbp_ctgov_compact.json", "p1_p3_trials": 0, "note": "No trials found under sponsor 'Aspire Biopharma'"}
+  },
+  "pipeline": [
+    {
+      "asset": "Sublingual high-dose aspirin (Instaprin)",
+      "aka": ["Instaprin"],
+      "modality": "Reformulated small molecule (sublingual delivery)",
+      "target": "COX-1/COX-2 (aspirin)",
+      "license_origin": "Internal (505(b)(2) reformulation)",
+      "indications": [
+        {
+          "indication": "Suspected acute myocardial infarction (emergency aspirin administration)",
+          "highest_phase": "Phase 1 (PK study completed July 2025); next Phase 1 PK study (~32 healthy volunteers) cleared by FDA pre-IND response Nov 13, 2025; targeting 505(b)(2) NDA submission",
+          "trial_name": "Sublingual aspirin PK study (Florida, completed July 2025); follow-on PK trial planned",
+          "trial_design": "Randomized PK comparison of sublingual aspirin formulations vs standard oral aspirin in healthy volunteers; first study enrolled six adults with 14-day washout",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 PK completed (final report Sept 5, 2025); follow-on Phase 1 PK study planned post pre-IND clearance",
+          "lead_sponsor": "Aspire Biopharma Holdings, Inc.",
+          "key_milestones": ["Pre-IND response from FDA Nov 13, 2025", "Targeting 505(b)(2) NDA submission for acute MI indication"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "BUZZ BOMB",
+    "type": "Sublingual caffeine consumer product (nutraceutical, not a drug)",
+    "channel": "Direct-to-consumer via buzzbomb.buzz"
+  },
+  "excluded_preclinical": [
+    {"asset": "Sublingual erectile dysfunction (ED) medication", "reason": "Working formulation in development; clinical testing planned H1 2026"},
+    {"asset": "Needle-free / sublingual semaglutide (diabetes, weight management)", "reason": "Formulation finalization and clinical testing planned H1 2026; pre-clinical / IND-pending"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"p3": 0, "p2": 0, "p1": 1, "total_assets": 1},
+  "no_active_clinical_pipeline_reason": null
+}

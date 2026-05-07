@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Rallybio Corporation",
+  "ticker": "RLYB",
+  "exchange": "Nasdaq",
+  "cik": "0001739410",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-018261", "filing_date": "2026-03-16", "doc": "rlyb-20251231.htm"},
+    "website": {"url": "https://rallybio.com/", "accessed": "2026-05-06", "note": "Pipeline page at /our-science/#pipeline; per-asset pages list RLYB116, RLYB332, RLYB114"},
+    "ctgov": {"compact_path": "data/rlyb_ctgov_compact.json", "trials_p1_p3": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "RLYB116",
+      "aka": [],
+      "modality": "Engineered Affibody-ABD fusion protein (subcutaneous, expressed in E. coli)",
+      "target": "Complement component C5",
+      "license_origin": "In-licensed from Sobi (Swedish Orphan Biovitrum, March 2019); Affibody platform license",
+      "indications": [
+        {
+          "indication": "Complement-mediated diseases (pipeline-in-a-product; planned indications include platelet transfusion refractoriness and antiphospholipid syndrome)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Confirmatory PK/PD MAD Phase 1",
+          "trial_design": "Single-blind multiple-ascending-dose Phase 1 in healthy volunteers; 4-week dosing, 10-week follow-up; two cohorts of 8 (6 active : 2 placebo)",
+          "nct_ids": ["NCT06797375"],
+          "trial_status": "Completed (Feb 2026); achieved tolerability and complete sustained terminal complement inhibition",
+          "lead_sponsor": "Rallybio",
+          "key_milestones": ["Two completed Phase 1 trials (SAD and confirmatory MAD)", "Once-weekly subcutaneous dosing supported"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "RLYB332 — long-acting anti-MTP-2 monoclonal antibody for severe anemia / ineffective erythropoiesis / iron overload (preclinical, ASH 2024 poster)",
+    "RLYB331 — original (short half-life) anti-MTP-2 antibody (preclinical, succeeded by RLYB332)",
+    "RLYB114 — second C5-targeting Affibody-derived asset from Sobi (preclinical)"
+  ],
+  "excluded_legacy_terminated": [
+    "RLYB212 — anti-HPA-1a monoclonal antibody for FNAIT prevention; Phase 2 PK/safety trial (NCT06435845) terminated; company announced discontinuation of RLYB212 development in April 2025"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 1, "P3": 0, "P2": 0, "P1": 1, "indications_total": 1}
+}

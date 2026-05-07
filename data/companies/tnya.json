@@ -1,0 +1,60 @@
+{
+  "issuer_name": "Tenaya Therapeutics, Inc.",
+  "ticker": "TNYA",
+  "exchange": "Nasdaq",
+  "cik": "0001858848",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-03-11", "accession": "0001193125-26-102252", "path": "data/tnya_10k_pipeline_section.html"},
+    "website": {"url": "https://www.tenayatherapeutics.com"},
+    "ctgov": {"path": "data/tnya_ctgov_compact.json", "unique_trials_p1_3": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "TN-201",
+      "aka": [],
+      "modality": "AAV9-based gene therapy delivering MYBPC3 transgene",
+      "target": "MYBPC3 (myosin binding protein C3) — gene replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Symptomatic MYBPC3-mutation-associated hypertrophic cardiomyopathy (HCM)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "MyPEAK-1",
+          "trial_design": "Multi-center, open-label, single-ascending-dose Phase 1b/2 study of TN-201 in adults with symptomatic MYBPC3 mutation-associated HCM",
+          "nct_ids": ["NCT05836259"],
+          "trial_status": "Recruiting (start 2023-08-10; primary completion 2027-08)",
+          "lead_sponsor": "Tenaya Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TN-401",
+      "aka": [],
+      "modality": "AAV9-based gene therapy delivering PKP2 transgene",
+      "target": "PKP2 (plakophilin-2) — gene replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "PKP2-mutation-associated arrhythmogenic right ventricular cardiomyopathy (ARVC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "RIDGE-1",
+          "trial_design": "Open-label dose escalation Phase 1b/2 study of TN-401 safety and preliminary efficacy in adults with PKP2 mutation-associated ARVC",
+          "nct_ids": ["NCT06228924"],
+          "trial_status": "Recruiting (start 2024-03-26; primary completion 2026-05-01)",
+          "lead_sponsor": "Tenaya Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "TN-301 (HDAC6 inhibitor)", "reason": "Preclinical / early-stage program for DMD and cardiac complications per company website"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 0, "P2": 1, "P1": 1}
+}

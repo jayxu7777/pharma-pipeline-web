@@ -1,0 +1,117 @@
+{
+  "issuer_name": "PDS Biotechnology Corp.",
+  "ticker": "PDSB",
+  "exchange": "Nasdaq",
+  "cik": "0001472091",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001140361-26-012030", "filing_date": "2026-03-30", "primary_doc_url": "https://www.sec.gov/Archives/edgar/data/1472091/000114036126012030/ef20060644_10k.htm", "note": "fetch_10k.py heading detection failed; 10-K downloaded out-of-band for review of Versamune/PDS0101/PDS01ADC pipeline narrative."},
+    "website": {"error": "https://pdsbiotech.com/pipeline returned HTTP 403 (bot block) — used 10-K + ctgov API instead"},
+    "ctgov": {"file": "data/pdsb_ctgov_compact.json", "kept_p1_p3_sponsor_search": 3, "supplemental_api_searches": ["IMMUNOCERV", "PDS01ADC", "VERSATILE-002"]}
+  },
+  "pipeline": [
+    {
+      "asset": "PDS0101",
+      "aka": ["Versamune HPV", "Versamune-HPV16"],
+      "modality": "T-cell activator immunotherapy (cationic lipid R-DOTAP + HPV-16 E6/E7 peptides)",
+      "target": "HPV-16 E6/E7 (induces HPV16-specific CD8+ T-cell response)",
+      "license_origin": "Internal (Versamune platform)",
+      "indications": [
+        {
+          "indication": "HPV16-positive recurrent/metastatic head and neck squamous cell carcinoma (R/M HNSCC), first line",
+          "highest_phase": "Phase 3",
+          "trial_name": "VERSATILE-003",
+          "trial_design": "Phase 3 randomized study of PDS0101 + pembrolizumab vs pembrolizumab monotherapy in HPV16+ R/M HNSCC first-line. Primary endpoint OS; Type C meeting requested Oct 2025 to discuss adding PFS as interim primary endpoint.",
+          "nct_ids": ["NCT06790966"],
+          "trial_status": "Active, not recruiting (started 2025-05-30; primary completion target 2029-02)",
+          "lead_sponsor": "PDS Biotechnology Corp.",
+          "key_milestones": [
+            "VERSATILE-003 initiated March 2025",
+            "Type C meeting with FDA requested Oct 2025 for proposed PFS interim endpoint amendment",
+            "VERSATILE-002 Phase 2 final OS topline data Aug 2025; low-CPS subgroup data Sep 2025"
+          ]
+        },
+        {
+          "indication": "Locally advanced cervical cancer (Stage IB3-IVA), with chemoradiation",
+          "highest_phase": "Phase 2",
+          "trial_name": "IMMUNOCERV",
+          "trial_design": "Phase 2 trial of PDS0101 in combination with chemoradiation for stage IB3-IVA cervical cancer; investigator-sponsored at MD Anderson Cancer Center.",
+          "nct_ids": ["NCT04580771"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "M.D. Anderson Cancer Center (PDS0101 is PDS Biotech's asset)",
+          "key_milestones": ["Updated Phase 2 data presented at ASTRO 2024"]
+        }
+      ]
+    },
+    {
+      "asset": "PDS01ADC",
+      "aka": ["IL-12 ADC", "tumor-targeting IL-12 (formerly NHS-IL12 / M9241)"],
+      "modality": "Antibody-drug conjugate / fusion (IL-12 fused to NHS76 antibody targeting necrotic tumor regions)",
+      "target": "DNA/histone necrotic core (NHS76); delivers IL-12 to tumor microenvironment",
+      "license_origin": "In-licensed from Merck KGaA / co-developed via NCI CRADAs",
+      "indications": [
+        {
+          "indication": "Advanced HPV-associated cancers (combination immunotherapy)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Combination immunotherapy for advanced HPV-associated cancers",
+          "trial_design": "Phase 1/2 of PDS01ADC + bintrafusp alfa +/- additional immunotherapy in HPV-associated malignancies.",
+          "nct_ids": ["NCT04708470"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "National Cancer Institute (NCI) — CRADA partner; PDS01ADC is PDS Biotech's asset",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic colorectal cancer (with HAIP and systemic therapy)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PDS01ADC + Hepatic Artery Infusion Pump combination",
+          "trial_design": "Phase 2 of PDS01ADC plus hepatic artery infusion pump (HAIP) and systemic therapy in metastatic CRC.",
+          "nct_ids": ["NCT05286814"],
+          "trial_status": "Recruiting; colorectal cohort met pre-defined criteria for stage 2 expansion (announced Jul 2025).",
+          "lead_sponsor": "National Cancer Institute (NCI) — CRADA partner",
+          "key_milestones": ["Stage-1 expansion criteria met Jul 2025"]
+        },
+        {
+          "indication": "Recurrent prostate cancer (PET+, without testosterone suppression)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Enzalutamide + PDS01ADC in PET-positive recurrent prostate cancer",
+          "trial_design": "Phase 2 of enzalutamide combined with PDS01ADC in PET-positive recurrent prostate cancer without testosterone suppression.",
+          "nct_ids": ["NCT06096870"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "National Cancer Institute (NCI) — CRADA partner",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (with docetaxel + abiraterone)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "PDS01ADC + docetaxel + abiraterone in mCRPC",
+          "trial_design": "Phase 1/2 of PDS01ADC with docetaxel and abiraterone in metastatic castration-resistant prostate cancer.",
+          "nct_ids": ["NCT04633252"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "National Cancer Institute (NCI) — CRADA partner",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced Kaposi sarcoma",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "PDS01ADC monotherapy and with M7824 in advanced Kaposi sarcoma",
+          "trial_design": "Phase 1/2 of PDS01ADC alone and in combination with bintrafusp alfa (M7824) in advanced Kaposi sarcoma.",
+          "nct_ids": ["NCT04303117"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "National Cancer Institute (NCI) — CRADA partner",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Infectimune-based vaccines", "indication": "Infectious diseases (preventive vaccines)", "reason": "Preclinical platform per 2025 10-K narrative; no active P1/P2/P3 trials disclosed."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "PDS0101", "trial_name": "VERSATILE-002", "nct_id": "NCT04260126", "phase": "PHASE2", "reason": "COMPLETED (primary completion 2025-05-14); succeeded by VERSATILE-003 Phase 3."},
+    {"asset": "PDS0101 (early Phase 1)", "nct_id": "NCT02065973", "phase": "PHASE1", "reason": "COMPLETED (2015)."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 1, "P2": 4, "P1": 0, "note": "VERSATILE-003 (PDS0101 P3 in HNSCC) is the lead. Multiple PDS01ADC studies sit at P1/P2 or P2 sponsored by NCI under CRADA — counted under highest phase per indication. P1/P2 indications counted as P2 in the highest_phase tally."}
+}

@@ -1,0 +1,101 @@
+{
+  "issuer_name": "Scholar Rock Holding Corp",
+  "ticker": "SRRK",
+  "exchange": "Nasdaq",
+  "cik": "0001727196",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-022551",
+      "filed": "2026-03-03",
+      "doc": "srrk-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://www.scholarrock.com/our-pipeline/",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Scholar Rock",
+      "trial_count": 8
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Apitegromab",
+      "aka": ["SRK-015"],
+      "modality": "Fully human monoclonal antibody (IV; SC formulation in development)",
+      "target": "Latent myostatin (selective inhibitor of pro/latent myostatin)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Spinal Muscular Atrophy (SMA), ages 2 and older (Type 2/3 non-ambulatory)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SAPPHIRE (pivotal) / ONYX (long-term extension)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 in non-ambulatory Type 2/3 SMA patients on SMN-targeted therapy; ONYX is open-label long-term extension",
+          "nct_ids": ["NCT05156320", "NCT05626855"],
+          "trial_status": "SAPPHIRE Completed (positive topline Oct 2024); ONYX Active, not recruiting; BLA submitted Jan 2025, received CRL Sep 2025 (third-party fill-finish facility issue); BLA resubmission and US launch planned 2026; MAA filed with EMA March 2025",
+          "lead_sponsor": "Scholar Rock, Inc.",
+          "key_milestones": ["Positive Phase 3 SAPPHIRE topline Oct 2024", "BLA submitted Jan 2025 (priority review)", "CRL Sep 2025 (facility-related)", "BLA resubmission anticipated 2026"]
+        },
+        {
+          "indication": "SMA in infants and toddlers (under 2 years)",
+          "highest_phase": "Phase 2",
+          "trial_name": "OPAL",
+          "trial_design": "Phase 2 evaluating apitegromab in infants/toddlers <2 years who received SMN1 gene therapy or SMN2-targeted therapy",
+          "nct_ids": ["NCT07047144"],
+          "trial_status": "Recruiting; patient enrollment and dosing underway",
+          "lead_sponsor": "Scholar Rock, Inc.",
+          "key_milestones": ["Enrollment underway"]
+        },
+        {
+          "indication": "Facioscapulohumeral Muscular Dystrophy (FSHD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "FORGE",
+          "trial_design": "Phase 2 randomized, double-blind, placebo-controlled, ~60 patients ages 18-60 with FSHD1/2; 10 mg/kg IV Q4W vs placebo for 52 weeks; primary endpoint mean lean muscle volume change",
+          "nct_ids": ["NCT07435129"],
+          "trial_status": "Not yet recruiting; trial initiation planned mid-2026",
+          "lead_sponsor": "Scholar Rock, Inc.",
+          "key_milestones": ["IND cleared", "Trial initiation planned mid-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "SRK-439",
+      "aka": [],
+      "modality": "Subcutaneous monoclonal antibody (high-affinity anti-latent myostatin)",
+      "target": "Latent myostatin",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Healthy volunteers (rare, severe, debilitating neuromuscular disease development; potential cardiometabolic/lean-mass preservation use)",
+          "highest_phase": "Phase 1",
+          "trial_name": "SRK-439 first-in-human SAD/MAD",
+          "trial_design": "Single- and multiple-ascending dose study in healthy adults",
+          "nct_ids": ["NCT07444294"],
+          "trial_status": "Recruiting; topline data expected H2 2026",
+          "lead_sponsor": "Scholar Rock, Inc.",
+          "key_milestones": ["Phase 1 topline expected H2 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "SRK-373 (latent TGFβ1, fibrosis) - preclinical",
+    "SRK-256 (RGMc/HJV, iron-restricted anemia) - preclinical",
+    "Undisclosed rare NMD program - preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "SRK-181 (DRAGON; Phase 1; NCT04291079) - COMPLETED, PHASE 1 in immuno-oncology, no further advancement disclosed",
+    "Apitegromab obesity Phase 2 (NCT06445075) - COMPLETED; no further obesity development disclosed by Scholar Rock"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 1,
+    "phase_2": 2,
+    "phase_1": 1,
+    "indications_total": 4
+  }
+}

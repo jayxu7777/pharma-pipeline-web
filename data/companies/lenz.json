@@ -1,0 +1,32 @@
+{
+  "issuer_name": "LENZ Therapeutics, Inc.",
+  "ticker": "LENZ",
+  "exchange": "Nasdaq",
+  "cik": "0001815776",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001815776-26-000011", "filing_date": "2026-03-24", "doc": "lenz-20251231.htm"},
+    "website": {"url": "https://www.lenz-tx.com/pipeline"},
+    "ctgov": {"sponsor_query": "LENZ Therapeutics", "trials_returned": 10}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Lead and only program LNZ100/aceclidine 1.44% ophthalmic solution received FDA approval and is now commercialized as VIZZ for presbyopia. All Phase 1/2/3 trials in ctgov are COMPLETED. No active follow-on or new clinical-stage assets disclosed.",
+  "commercial_product": {
+    "brand": "VIZZ",
+    "active_ingredient": "Aceclidine 1.44% ophthalmic solution",
+    "internal_codes": ["LNZ100"],
+    "indication": "Presbyopia in adults",
+    "approval": "FDA-approved",
+    "completed_trials": ["NCT05728944", "NCT06045299", "NCT05656027", "NCT05753189", "NCT05294328", "NCT05431543", "NCT05936489", "NCT06270030"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "PRX-100 Phase 2 NCT03201562 / NCT02554396 — completed (legacy aceclidine+tropicamide combo, superseded by LNZ100/LNZ101)"
+  ],
+  "excluded_partner_owned": [
+    "NCT06045299 / NCT06270030 — China bridging studies sponsored by Corxel Pharmaceuticals (LENZ China partner)"
+  ],
+  "summary_counts": {"assets": 0, "indications": 0, "P3": 0, "P2": 0, "P1": 0}
+}

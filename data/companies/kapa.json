@@ -1,0 +1,89 @@
+{
+  "issuer_name": "Kairos Pharma, Ltd.",
+  "ticker": "KAPA",
+  "exchange": "NYSE",
+  "cik": "0001962011",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001493152-26-014159",
+      "url": "https://www.sec.gov/Archives/edgar/data/1962011/000149315226014159/form10-k.htm"
+    },
+    "website": {
+      "url": "https://kairospharma.com/pipeline"
+    },
+    "ctgov": {
+      "query": "Kairos Pharma",
+      "interventional_p1_3_count": 1,
+      "note": "Only result (NCT05341947, KROS201 in recurrent glioblastoma) is WITHDRAWN; lead sponsor is investigator (Jeremy Rudnick MD)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "ENV105",
+      "aka": ["carotuximab"],
+      "modality": "Anti-endoglin (CD105) monoclonal antibody",
+      "target": "Endoglin (CD105)",
+      "license_origin": "Held via Enviro Therapeutics, Inc. subsidiary",
+      "indications": [
+        {
+          "indication": "Castrate-resistant prostate cancer (with apalutamide)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ENV105 + apalutamide in CRPC",
+          "trial_design": "Multi-center Phase 2 of ENV105 in combination with apalutamide in androgen-resistant CRPC; conducted at Cedars-Sinai, University of Utah, and City of Hope",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrolling (per company; new Phase 2 initiated after prior Phase 2 readout)",
+          "lead_sponsor": "Kairos Pharma / Enviro Therapeutics",
+          "key_milestones": ["Companion biomarker work funded by NIH grant via Cedars-Sinai (Bhowmick lab)"]
+        },
+        {
+          "indication": "EGFR-mutant non-small cell lung cancer (with osimertinib/Tagrisso)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ENV105 + Tagrisso in EGFR NSCLC",
+          "trial_design": "Phase 1 trial of ENV105 in combination with osimertinib (Tagrisso, AstraZeneca) in EGFR-mutant NSCLC; conducted at Cedars-Sinai",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrolling",
+          "lead_sponsor": "Kairos Pharma",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "KROS201",
+      "aka": [],
+      "modality": "Autologous activated T-cell therapy stimulated by dendritic cells against glioma cancer-stem-cell antigens",
+      "target": "Glioma cancer stem cell antigens",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Recurrent glioblastoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "Activated Autologous T Cells Against Glioma Cancer Stem Cell Antigens",
+          "trial_design": "Investigator-initiated Phase 1 of activated autologous T cells in adults with recurrent glioblastoma",
+          "nct_ids": ["NCT05341947"],
+          "trial_status": "PLANNED - currently Withdrawn on registry; per 10-K disclosed as IND-cleared with drug supply expanded by Kairos; estimated start 2026-06",
+          "lead_sponsor": "Jeremy Rudnick, M.D. (Cedars-Sinai); Kairos Pharma collaborator",
+          "key_milestones": ["IND cleared 2022", "Drug supply secured by Kairos Pharma"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "KROS101 (peptide immunotherapeutic; Phase I planned)",
+    "KROS102 (GITR antagonist, preclinical)",
+    "KROS301 (RelA NF-kB pathway inhibitor, preclinical)",
+    "KROS401 (cyclic peptide IL-4/IL-13 inhibitor, preclinical)",
+    "ENV205 (mitochondrial DNA-targeted biologic, preclinical)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase3": 0,
+    "phase2": 1,
+    "phase1": 2
+  }
+}

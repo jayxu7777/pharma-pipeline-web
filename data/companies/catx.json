@@ -1,0 +1,82 @@
+{
+  "issuer_name": "Perspective Therapeutics, Inc.",
+  "ticker": "CATX",
+  "exchange": "NYSE",
+  "cik": "0000728387",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000728387-26-000004", "filing_date": "2026-03-16", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://www.perspectivetherapeutics.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Perspective Therapeutics", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "VMT-alpha-NET",
+      "aka": ["[212Pb]VMT-alpha-NET", "[203Pb]VMT-alpha-NET"],
+      "modality": "Targeted alpha-particle radiopharmaceutical (Pb-212 / Pb-203 theranostic pair)",
+      "target": "SSTR2 (somatostatin receptor type 2)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Neuroendocrine tumors (SSTR2-positive: GEP-NET, bronchial NET, paraganglioma, pheochromocytoma, meningioma)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Targeted Alpha-Particle Therapy for Advanced SSTR2 Positive Tumors",
+          "trial_design": "Open-label, dose-escalation Phase 1/2a",
+          "nct_ids": ["NCT05636618"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Perspective Therapeutics",
+          "key_milestones": ["Phase 1/2a updates throughout 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "VMT01",
+      "aka": ["[212Pb]VMT01", "[203Pb]VMT01"],
+      "modality": "Targeted alpha-particle radiopharmaceutical (Pb-212 / Pb-203 theranostic pair)",
+      "target": "MC1R (melanocortin 1 receptor)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Metastatic melanoma (monotherapy and combination with nivolumab)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "MC1R-targeted Alpha-particle Monotherapy and Combination Therapy With Nivolumab",
+          "trial_design": "Open-label Phase 1/2a, monotherapy and combination cohorts",
+          "nct_ids": ["NCT05655312"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Perspective Therapeutics",
+          "key_milestones": ["Initial data late 2026 (mono and combo)"]
+        }
+      ]
+    },
+    {
+      "asset": "PSV359",
+      "aka": ["[212Pb]Pb-PSV359", "[203Pb]Pb-PSV359"],
+      "modality": "Targeted alpha-particle radiopharmaceutical (Pb-212 / Pb-203)",
+      "target": "FAP-alpha (fibroblast activation protein)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "FAP-positive solid tumors (PDAC, gastric, esophageal, colorectal, ovarian, head and neck, sarcoma, mesothelioma)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Lead-212 PSV359 Therapy for Patients With Solid Tumors",
+          "trial_design": "Open-label dose-escalation Phase 1/2a",
+          "nct_ids": ["NCT06710756"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Perspective Therapeutics",
+          "key_milestones": ["Initial data late 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "PSV594", "target": "CCK2R", "reason": "Pre-IND / early-stage; first dosing planned"},
+    {"asset": "Undisclosed multiple programs", "reason": "Pre-IND platform assets"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "VMT01 imaging-only Phase 1 (NCT04904120)", "reason": "Completed Phase 1 imaging study; superseded by NCT05655312"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 3, "phase_3": 0, "phase_2": 3, "phase_1": 0, "note": "All three lead assets in Phase 1/2 baskets"}
+}

@@ -1,0 +1,50 @@
+{
+  "issuer_name": "LIGAND PHARMACEUTICALS INC",
+  "ticker": "LGNZZ",
+  "exchange": "OTC",
+  "cik": "0000886163",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000886163-26-000006",
+      "filing_date": "2026-02-27",
+      "doc": "lgnd-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.ligand.com/royalty-portfolio/",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "compact": "data/lgnzz_ctgov_compact.json",
+      "studies_returned": 33,
+      "active_phase_1_2_3_sponsored_by_ligand": 0
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Ligand Pharmaceuticals is a biopharmaceutical royalty/licensing company. Its business model is acquiring economic rights (royalties, milestone payments, equity) in partner-owned drug programs. All clinical assets in Ligand's portfolio are sponsored and developed by partners (Merck, Travere, Amgen, Viking, Agenus, Orchestra BioMed, Castle Creek, Palvella, LeonaBio, etc.) and are excluded under the partner-owned rule. No active Ligand-sponsored Phase 1/2/3 trial appears on ClinicalTrials.gov; the 21 historical Ligand-sponsored studies are all COMPLETED, TERMINATED, or WITHDRAWN.",
+  "royalty_portfolio_partner_owned_excluded": [
+    {"product": "AVIM therapy", "partner": "Orchestra BioMed", "indication": "Cardiology", "phase": "Phase 3"},
+    {"product": "BOT/BAL (botensilimab/balstilimab)", "partner": "Agenus", "indication": "Oncology", "phase": "Phase 3"},
+    {"product": "D-Fi", "partner": "Castle Creek", "indication": "Rare Disease", "phase": "Phase 3"},
+    {"product": "Ensifentrine", "partner": "Merck", "indication": "Respiratory Disease", "phase": "Phase 2"},
+    {"product": "Lasofoxifene", "partner": "LeonaBio (Sermonix)", "indication": "Oncology (breast)", "phase": "Phase 3"},
+    {"product": "QTORIN rapamycin", "partner": "Palvella", "indication": "Rare Disease", "phase": "Phase 1/3"},
+    {"product": "Sparsentan", "partner": "Travere", "indication": "Kidney Disease", "phase": "NDA"},
+    {"product": "VK2809", "partner": "Viking", "indication": "Hepatology / NASH", "phase": "Phase 2"}
+  ],
+  "commercial_product": {
+    "marketed_partner_products_royalties": ["CAPVAXIVE (Merck)", "EVOMELA (Acrotech/CASI)", "FILSPARI (Travere/Chugai/CSL Vifor)", "KYPROLIS (Amgen/Beigene/Ono)", "OHTUVAYRE (Merck)", "VAXNEUVANCE (Merck)", "ZELSUVMI (Pelthos)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": ["See royalty_portfolio_partner_owned_excluded — all clinical-stage assets are partner-sponsored."],
+  "summary_counts": {
+    "total_assets": 0,
+    "total_indications": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

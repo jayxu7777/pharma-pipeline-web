@@ -1,0 +1,131 @@
+{
+  "issuer_name": "Clover Biopharmaceuticals, Ltd.",
+  "ticker": "CBPHF",
+  "exchange": "OTC",
+  "cik": "0001856491",
+  "region": "CN/AU (HKEX 02197; OTC ADR CBPHF)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files annual reports with HKEX, not SEC 10-K. No EDGAR 10-K available."
+    },
+    "website": {
+      "url": "https://www.cloverbiopharma.com/innovation/pipeline",
+      "note": "Pipeline page lists RSV re-vaccination and RSV+hMPV(+/-PIV3) combination vaccine. Phase 2 of combo initiated Jan 2026."
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 22,
+      "active_or_recruiting_p1_p3": 3,
+      "by_phase_all": {"PHASE1": 14, "PHASE3": 4, "PHASE2": 2, "PHASE2_PHASE3": 2},
+      "by_status_all": {"COMPLETED": 10, "WITHDRAWN": 6, "RECRUITING": 2, "TERMINATED": 2, "ACTIVE_NOT_RECRUITING": 1, "UNKNOWN": 1},
+      "lead_sponsors": ["Clover Biopharmaceuticals AUS Pty", "Sichuan Clover Biopharmaceuticals, Inc.", "Clover Biopharmaceuticals USA, LLC", "Zhejiang Clover Biopharmaceuticals, Inc."]
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "SCB-1019T",
+      "aka": ["RSV re-vaccination prefusion F vaccine"],
+      "modality": "Recombinant protein subunit vaccine (Trimer-Tag prefusion F antigen)",
+      "target": "RSV F glycoprotein (prefusion)",
+      "license_origin": "Internal (Clover Trimer-Tag platform)",
+      "indications": [
+        {
+          "indication": "Respiratory Syncytial Virus (RSV) — re-vaccination in healthy adults",
+          "highest_phase": "Phase 1",
+          "trial_name": "Safety and Immunogenicity Study of Revaccination With SCB-1019T in Healthy Adults",
+          "trial_design": "Randomized, controlled vs AREXVY and placebo, healthy adults",
+          "nct_ids": ["NCT06843317"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Clover Biopharmaceuticals USA, LLC",
+          "key_milestones": [
+            "Trial start: 2025-03-21",
+            "Primary completion: 2026-03-03",
+            "Positive Phase 1 re-vaccination data announced Mar 2026 (per company website)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "SCB-1022 / SCB-1033",
+      "aka": ["RSV + hMPV (+/- PIV3) combination respiratory vaccine"],
+      "modality": "Recombinant protein subunit combination vaccine (Trimer-Tag platform)",
+      "target": "RSV F, human metapneumovirus F, parainfluenza virus 3 (PIV3)",
+      "license_origin": "Internal (Clover Trimer-Tag platform)",
+      "indications": [
+        {
+          "indication": "Respiratory viral disease prevention in older adults (RSV/hMPV/PIV3)",
+          "highest_phase": "Phase 2",
+          "trial_name": "First-in-human Safety and Immunogenicity Study of SCB-1022 and SCB-1033 in Healthy Older Adults (Phase 1); Phase 2 initiated Jan 2026 per corporate website",
+          "trial_design": "Randomized first-in-human dose-finding (Phase 1, NCT06984094); Phase 2 design not yet posted to ClinicalTrials.gov",
+          "nct_ids": ["NCT06984094"],
+          "trial_status": "Phase 1 Recruiting (NCT06984094); Phase 2 Initiated (per company release Jan 11, 2026) — Phase 2 not yet on public registry",
+          "lead_sponsor": "Clover Biopharmaceuticals AUS Pty",
+          "key_milestones": [
+            "Phase 1 start: 2025-06-18",
+            "Phase 1 primary completion: 2026-03-03",
+            "Positive Phase 1 data announced Oct 14, 2025 (company release)",
+            "Phase 2 initiation announced Jan 11, 2026 (company release)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "SCB-219M",
+      "aka": ["Recombinant Human Tumor Necrosis Factor Receptor II-Fc-TPO Mimetic Peptide Fusion Protein"],
+      "modality": "Recombinant Fc fusion protein with TPO mimetic peptide",
+      "target": "Thrombopoietin receptor (c-MPL)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chemotherapy-induced thrombocytopenia (CIT)",
+          "highest_phase": "Phase 1",
+          "trial_name": "A Clinical Trial Evaluating SCB-219M in Chemotherapy-induced Thrombocytopenia (CIT)",
+          "trial_design": "Interventional Phase 1 in CIT patients",
+          "nct_ids": ["NCT05426369"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Sichuan Clover Biopharmaceuticals, Inc.",
+          "key_milestones": [
+            "Trial start: 2022-06-14",
+            "Primary completion: 2025-07-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "asset": "SCB-2019 (CpG 1018/Alum-adjuvanted SARS-CoV-2 trimeric S-protein subunit vaccine)",
+    "status": "Authorized in select markets historically (COVID-19); Phase 3 SPECTRA program completed (NCT04672395). No current active P1/P2/P3 in development on company website pipeline focus."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT05012787", "asset": "SCB-2019", "reason": "Terminated"},
+    {"nct": "NCT04047771", "asset": "SCB-313", "reason": "Terminated"},
+    {"nct": "NCT06567457", "asset": "SCB-2023B", "reason": "Withdrawn"},
+    {"nct": "NCT06666179", "asset": "SCB-1019T pediatric", "reason": "Withdrawn"},
+    {"nct": "NCT04950751", "asset": "SCB-2020S", "reason": "Withdrawn"},
+    {"nct": "NCT05193279", "asset": "SCB-2019 pediatric", "reason": "Withdrawn"},
+    {"nct": "NCT04919096", "asset": "SCB-420 (wet AMD)", "reason": "Withdrawn"},
+    {"nct": "NCT05926440", "asset": "SCB-2023", "reason": "Withdrawn"},
+    {"nct": "NCT03443674", "asset": "SCB-313 peritoneal malignancies P1", "reason": "Completed (legacy)"},
+    {"nct": "NCT04123886", "asset": "SCB-313 malignant pleural effusion P1", "reason": "Completed (legacy)"},
+    {"nct": "NCT04051112", "asset": "SCB-313 malignant ascites P1", "reason": "Completed (legacy)"},
+    {"nct": "NCT03869697", "asset": "SCB-313 malignant pleural effusions P1", "reason": "Completed (legacy)"},
+    {"nct": "NCT06194318", "asset": "SCB-1019/SCB-1019T FIH P1", "reason": "Completed (precursor; superseded by NCT06843317 revaccination study)"},
+    {"nct": "NCT05188677", "asset": "SCB-2019 booster P3", "reason": "Completed (legacy COVID)"},
+    {"nct": "NCT04672395", "asset": "SCB-2019 SPECTRA P2/P3", "reason": "Completed (legacy COVID)"},
+    {"nct": "NCT04405908", "asset": "SCB-2019 P1", "reason": "Completed (legacy COVID)"},
+    {"nct": "NCT05228314", "asset": "SCB-2020S P1", "reason": "Completed"},
+    {"nct": "NCT04954131", "asset": "SCB-2019 China P2", "reason": "Status UNKNOWN"},
+    {"nct": "NCT04932824", "asset": "SCB-2019 LTFU P1", "reason": "Completed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 2
+  },
+  "no_active_clinical_pipeline_reason": null,
+  "blockers": "Foreign private issuer — no SEC 10-K (HKEX-listed; OTC ADR). Pipeline reconstructed from corporate website + ClinicalTrials.gov."
+}

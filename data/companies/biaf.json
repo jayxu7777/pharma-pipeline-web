@@ -1,0 +1,45 @@
+{
+  "issuer_name": "bioAffinity Technologies, Inc.",
+  "ticker": "BIAF",
+  "exchange": "Nasdaq",
+  "cik": "0001712762",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-26",
+      "accession": "0001493152-26-010143",
+      "path": "data/biaf_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.bioaffinitytech.com/",
+      "note": "No dedicated drug pipeline page; company is a diagnostics laboratory."
+    },
+    "ctgov": {
+      "path": "data/biaf_ctgov_compact.json",
+      "note": "Sponsor query returned 0 P1-3 trials (only NA-phase diagnostic study NCT07168993 exists)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "CyPath Lung",
+    "type": "Diagnostic test (flow cytometry, sputum-based)",
+    "indication": "Early-stage lung cancer detection in high-risk patients",
+    "status": "Commercialized as a laboratory developed test via subsidiary PPLS; CMS PLA code 0406U effective Jan 2024",
+    "active_clinical_study": {
+      "nct_id": "NCT07168993",
+      "title": "Detection of Early-Stage Lung Cancer in Sputum Using Flow Cytometry and an Automated Analysis Pipeline (FlowPath Lung)",
+      "phase": "NA (diagnostic device performance study)",
+      "status": "RECRUITING",
+      "start_date": "2026-02-25",
+      "lead_sponsor": "bioAffinity Technologies Inc.",
+      "note": "Excluded from pipeline because it is a non-drug diagnostic device study (Phase NA, primary purpose DIAGNOSTIC)."
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Diagnostics-only company. CyPath Lung is a commercialized flow-cytometry sputum diagnostic; the only active clinical study (NCT07168993) is a Phase NA diagnostic device performance trial, not a P1/P2/P3 drug program."
+}

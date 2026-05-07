@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Canton Strategic Holdings, Inc.",
+  "ticker": "CNTN",
+  "exchange": "Nasdaq",
+  "cik": "0001861657",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-013861", "filed": "2026-03-31", "fy": "2025"},
+    "website": {"note": "skipped — company pivoted to crypto treasury Nov 2025; biotech subsidiary Gravitas info adequate from 10-K"},
+    "ctgov": {"sponsor_queries": ["Canton Strategic Holdings", "Gravitas Life Sciences", "Targeted Healthcare", "Cantor Pharma"], "active_pcubed_trials": 0}
+  },
+  "no_active_clinical_pipeline_reason": "In November 2025 the company strategically pivoted to a Canton Network / Canton Coin (CC) digital asset treasury company; biotech operations now exist only via subsidiary Gravitas Life Sciences. Lead asset GV104 (nalmefene buccal film) is past clinical-trial stage — pursuing 505(b)(2) NDA leveraging FDA's prior REVEX findings; no additional clinical trials required (rolling NDA submission planned H1 2027). GV023 (oral infliximab) is preclinical, in-licensed Sept 2024 from Intract. No active company-sponsored P1/P2/P3 clinical trials on ctgov.",
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "GV023 (formerly TH023)", "indication": "Inflammatory bowel disease (oral TNF-alpha mAb infliximab)", "modality": "Oral infliximab via Intract Soteria/Phloral platform", "reason": "Preclinical / formulation development"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "commercial_product": {
+    "near_term_NDA": [
+      {"asset": "GV104 (formerly TH104)", "indication": "Prophylactic protection against synthetic opioid exposure (military / first responders)", "modality": "Nalmefene 16 mg buccal film", "regulatory_pathway": "505(b)(2) referencing REVEX", "status": "No further clinical trials required per March 2025 Type C meeting with FDA; rolling NDA submission planned H1 2027; FDA approval anticipated H1 2028"}
+    ]
+  },
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

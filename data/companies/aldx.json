@@ -1,0 +1,130 @@
+{
+  "issuer_name": "Aldeyra Therapeutics, Inc.",
+  "ticker": "ALDX",
+  "exchange": "Nasdaq",
+  "cik": "0001341235",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-27",
+      "accession": "0001193125-26-083012",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341235/000119312526083012/aldx-20251231.htm"
+    },
+    "website": {
+      "url": "https://aldeyra.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Aldeyra Therapeutics",
+      "trial_count": 35
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Reproxalap",
+      "aka": ["ADX-102"],
+      "modality": "Small molecule (RASP modulator), topical ophthalmic solution",
+      "target": "Reactive aldehyde species (RASP)",
+      "license_origin": "Internal; AbbVie option agreement (US co-exclusive / ex-US exclusive license option, not yet exercised)",
+      "indications": [
+        {
+          "indication": "Dry Eye Disease",
+          "highest_phase": "NDA filed (PDUFA target action date March 16, 2026)",
+          "trial_name": "Second NDA resubmission supported by chamber and field Phase 3 trials (TRANQUILITY series, NCT06493604, NCT06424444, NCT06389214 etc.)",
+          "trial_design": "Multicenter, randomized, double-masked, vehicle-controlled chamber and field trials",
+          "nct_ids": ["NCT06493604", "NCT06424444", "NCT06389214", "NCT05062330", "NCT04674358"],
+          "trial_status": "NDA under FDA review (second resubmission June 17, 2025; PDUFA extended to March 16, 2026 after FDA requested inclusion of field trial)",
+          "lead_sponsor": "Aldeyra Therapeutics, Inc.",
+          "key_milestones": [
+            "FDA PDUFA target action date: March 16, 2026",
+            "Two CRLs previously issued (Nov 2023, April 2025)"
+          ]
+        },
+        {
+          "indication": "Allergic Conjunctivitis",
+          "highest_phase": "Phase 3 complete (positive INVIGORATE and INVIGORATE-2)",
+          "trial_name": "INVIGORATE / INVIGORATE-2",
+          "trial_design": "Randomized, double-masked, vehicle-controlled allergen chamber Phase 3 trials",
+          "nct_ids": ["NCT04207736", "NCT05234554"],
+          "trial_status": "COMPLETED — both Phase 3 trials met primary endpoint; company plans to discuss remaining regulatory requirements with FDA",
+          "lead_sponsor": "Aldeyra Therapeutics, Inc.",
+          "key_milestones": [
+            "INVIGORATE positive 2021",
+            "INVIGORATE-2 positive June 2023"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "ADX-2191",
+      "aka": ["intravitreal methotrexate 0.8%"],
+      "modality": "Novel intravitreal formulation of methotrexate (dihydrofolate reductase inhibitor)",
+      "target": "Dihydrofolate reductase",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Primary Vitreoretinal Lymphoma (PVRL)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SPA-agreed Phase 3 cancer cell clearance trial",
+          "trial_design": "Randomized, double-masked, multicenter; ~20 patients 1:1 randomized to single vs eight intraocular injections of ADX-2191",
+          "nct_ids": ["NCT07402876"],
+          "trial_status": "RECRUITING (started Feb 2026); top-line results expected in 2026; FDA SPA agreement received June 2025; Orphan Drug Designation",
+          "lead_sponsor": "Aldeyra Therapeutics, Inc.",
+          "key_milestones": [
+            "FDA SPA agreement June 2025",
+            "Top-line results expected 2026"
+          ]
+        },
+        {
+          "indication": "Retinitis Pigmentosa",
+          "highest_phase": "Phase 2/3 (planned)",
+          "trial_name": "Planned Phase 2/3 trial of intravitreal ADX-2191",
+          "trial_design": "Randomized, double-masked, multicenter; ~45 patients (15/arm); high vs low dose vs sham over 12 months every 30 days",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiation expected first half of 2026 (Phase 2 NCT05392179 completed June 2023 with positive results); Orphan Drug & Fast Track Designations",
+          "lead_sponsor": "Aldeyra Therapeutics, Inc.",
+          "key_milestones": [
+            "Phase 2/3 initiation H1 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "ADX-248",
+      "aka": [],
+      "modality": "Oral small molecule (next-generation RASP modulator)",
+      "target": "Reactive aldehyde species (RASP)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Atopic Dermatitis (lead) and other systemic immune-mediated diseases",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 trial of ADX-248",
+          "trial_design": "Phase 1 healthy volunteer study (ongoing per 10-K)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 ongoing; Phase 2 initiation in atopic dermatitis expected in 2026",
+          "lead_sponsor": "Aldeyra Therapeutics, Inc.",
+          "key_milestones": [
+            "Phase 2 atopic dermatitis start expected 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ADX-246", "reason": "Preclinical; intravitreal RASP modulator for dry AMD, Phase 1 initiation expected 2027"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "ADX-629", "reason": "Per 10-K: proof-of-concept testing complete; ADX-629 is no longer in development aside from possible investigator-sponsored trials in Sjogren-Larsson Syndrome"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3_or_NDA_indications": 3,
+    "phase_2_indications": 0,
+    "phase_1_indications": 1,
+    "planned_indications": 2
+  }
+}

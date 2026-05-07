@@ -1,0 +1,85 @@
+{
+  "issuer_name": "CytomX Therapeutics, Inc.",
+  "ticker": "CTMX",
+  "exchange": "Nasdaq",
+  "cik": "0001501989",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-107146",
+      "filing_date": "2026-03-16",
+      "doc": "ctmx-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.cytomx.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "query": "CytomX Therapeutics",
+      "fetched": "2026-05-06",
+      "trials_p1_p3": 9
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Varseta-M",
+      "aka": ["CX-2051"],
+      "modality": "Probody Antibody-Drug Conjugate (ADC, Topo-1 payload)",
+      "target": "EpCAM (epithelial cell adhesion molecule)",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Advanced colorectal cancer (3L+ mCRC)",
+          "highest_phase": "P1",
+          "trial_name": "CX-2051 First-in-Human",
+          "trial_design": "Phase 1 dose-escalation; bevacizumab combo arm",
+          "nct_ids": ["NCT06265688"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "CytomX Therapeutics",
+          "key_milestones": ["Positive interim May 2025; additional data anticipated Q1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "CX-801",
+      "aka": [],
+      "modality": "Probody cytokine therapeutic",
+      "target": "Interferon alpha-2b (IFNa-2b)",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Advanced melanoma (and other solid tumors)",
+          "highest_phase": "P1",
+          "trial_name": "CX-801 First-in-Human",
+          "trial_design": "Phase 1 dose-escalation; pembrolizumab combo arm (collaboration with Merck)",
+          "nct_ids": ["NCT06462794"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "CytomX Therapeutics",
+          "key_milestones": ["Initial translational/biomarker data Nov 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CX-908 (P-Cadherin x CD3 TCB)",
+    "Probody TCBs (Regeneron, BMS partnerships)",
+    "Probody mRNAs (Moderna partnership)"
+  ],
+  "excluded_legacy_terminated": [
+    "CX-2009 (PRAEGEMINI ADC — TERMINATED)",
+    "CX-2029 (PROCLAIM ADC — COMPLETED Phase 1/2 development discontinued)",
+    "CX-072 (Pacmilimab — TERMINATED)",
+    "CX-904 (T-cell bispecific — TERMINATED)",
+    "CX-188 (PD-1 Probody — WITHDRAWN)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 2,
+    "indications_active": 2,
+    "p3": 0,
+    "p2": 0,
+    "p1": 2
+  }
+}

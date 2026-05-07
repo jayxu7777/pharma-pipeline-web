@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Skye Bioscience, Inc.",
+  "ticker": "SKYE",
+  "exchange": "Nasdaq",
+  "cik": "0001516551",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-016394",
+      "filing_date": "2026-03-10",
+      "doc": "skye-20251231.htm"
+    },
+    "website": {
+      "url": "https://skyebioscience.com/",
+      "note": "Pipeline integrated on homepage; nimacimab CB1 inhibitor for obesity highlighted as sole clinical asset."
+    },
+    "ctgov": {
+      "lead_sponsor_searched": "Skye Bioscience",
+      "trials_returned": 2,
+      "note": "Two studies: SBI-100 OE Phase 2 in glaucoma (COMPLETED) and Nimacimab/CBeyond Phase 2 in obesity (ACTIVE_NOT_RECRUITING)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Nimacimab",
+      "aka": ["humanized anti-CB1 IgG4 NAM antibody"],
+      "modality": "Monoclonal antibody (humanized IgG4, negative allosteric modulator)",
+      "target": "Cannabinoid receptor 1 (CB1)",
+      "license_origin": "Acquired via Bird Rock Bio acquisition (Aug 2023)",
+      "indications": [
+        {
+          "indication": "Obesity (and metabolic conditions)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CBeyond Phase 2a (nimacimab +/- semaglutide vs placebo)",
+          "trial_design": "Randomized, placebo-controlled Phase 2a; QW nimacimab and QW nimacimab co-administered with semaglutide vs placebo; 26-week treatment with extension",
+          "nct_ids": ["NCT06577090"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; topline data presented Nov 2025 - combo arm showed additional weight loss vs semaglutide alone; full extension data expected Q3 2026",
+          "lead_sponsor": "Skye Bioscience, Inc.",
+          "key_milestones": ["Topline Phase 2a Oct/Nov 2025: combo additive weight loss", "Full Phase 2a extension data Q3 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "SBI-100 Ophthalmic Emulsion",
+      "indication": "Primary open-angle glaucoma / ocular hypertension",
+      "nct_id": "NCT06144918",
+      "reason": "Phase 2 COMPLETED but not mentioned in 10-K Product Candidate section; Skye has pivoted entirely to nimacimab/obesity. Asset appears deprioritized."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 0
+  }
+}

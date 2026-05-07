@@ -1,0 +1,121 @@
+{
+  "issuer_name": "Gyre Therapeutics, Inc.",
+  "ticker": "GYRE",
+  "exchange": "Nasdaq",
+  "cik": "0001124105",
+  "region": "US (operations primarily in PRC via Gyre Pharmaceuticals subsidiary)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-106251", "filing_date": "2026-03-13", "path": "data/gyre_10k_pipeline_section.html"},
+    "website": {"url": "https://www.gyretx.com/pipeline", "note": "Pipeline shown via image only; details from 10-K"},
+    "ctgov": {"path": "data/gyre_ctgov_compact.json", "sponsor_query": "Gyre Therapeutics / Gyre Pharmaceuticals", "result": "0 trials registered on US ClinicalTrials.gov under either sponsor name; trials run in PRC via NMPA registry"}
+  },
+  "pipeline": [
+    {
+      "asset": "Hydronidone",
+      "aka": ["F351"],
+      "modality": "Oral small molecule (pirfenidone derivative)",
+      "target": "TGF-β1 signaling pathway / p38γ kinase",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "CHB-associated liver fibrosis (PRC)",
+          "highest_phase": "Phase 3 (NDA filing)",
+          "trial_name": "Pivotal Phase 3 Hydronidone + Entecavir vs placebo + Entecavir",
+          "trial_design": "Randomized, double-blind, placebo-controlled, multi-center, n=248; primary EP ≥1-stage Ishak fibrosis reduction at Wk 52",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Primary endpoint met May 2025 (52.85% vs 29.84%, p=0.0002); NMPA Breakthrough Therapy designation; conditional NDA submission expected H1 2026",
+          "lead_sponsor": "Gyre Pharmaceuticals (PRC)",
+          "key_milestones": ["BTD Mar 2021", "P3 primary EP met May 2025", "Pre-NDA Dec 2025", "NDA submission H1 2026"]
+        },
+        {
+          "indication": "MASH-associated liver fibrosis (US)",
+          "highest_phase": "Phase 1",
+          "trial_name": "US Phase 1 healthy volunteer SAD/MAD",
+          "trial_design": "Healthy volunteer safety/PK",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 complete; US IND for Phase 2 planned 2026",
+          "lead_sponsor": "Gyre Therapeutics, Inc.",
+          "key_milestones": ["US IND filing 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "F573",
+      "aka": [],
+      "modality": "Small molecule (pan-caspase inhibitor)",
+      "target": "Caspases 1/3/6/7/8/9",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute Liver Failure (ALF) and Acute-on-Chronic Liver Failure (ACLF) — PRC",
+          "highest_phase": "Phase 2",
+          "trial_name": "Multi-stage Phase 2 in liver injury and liver failure",
+          "trial_design": "Multi-stage Phase 2 in patients with liver injury / liver failure",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing (initiated March 2023)",
+          "lead_sponsor": "Gyre Pharmaceuticals (PRC)",
+          "key_milestones": ["P2 initiated Mar 2023"]
+        }
+      ]
+    },
+    {
+      "asset": "F230",
+      "aka": [],
+      "modality": "Oral small molecule (selective endothelin receptor A antagonist)",
+      "target": "Endothelin Receptor A (ETA)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Pulmonary Arterial Hypertension (PAH) — PRC",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 first-in-human (PRC)",
+          "trial_design": "First-in-human dose-escalation",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Recruiting; first subject enrolled June 2025 (NMPA IND approved May 2024)",
+          "lead_sponsor": "Gyre Pharmaceuticals (PRC)",
+          "key_milestones": ["NMPA IND May 2024", "FPI Jun 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "ETUARY (pirfenidone) — label expansion",
+      "aka": [],
+      "modality": "Oral small molecule (anti-fibrotic) — already approved/commercialized in PRC for IPF",
+      "target": "TGF-β1 / PDGF / FGF",
+      "license_origin": "Internal (commercialized in PRC since 2011)",
+      "indications": [
+        {
+          "indication": "Pneumoconiosis (PD) — PRC label expansion",
+          "highest_phase": "Phase 3",
+          "trial_name": "52-week Phase 3 in PD",
+          "trial_design": "52-week placebo-controlled, n=272",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrollment complete",
+          "lead_sponsor": "Gyre Pharmaceuticals (PRC)",
+          "key_milestones": ["Enrollment completed"]
+        },
+        {
+          "indication": "Radiation-Induced Lung Injury (RILI) — PRC label expansion",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Adaptive Phase 2/3 in RILI",
+          "trial_design": "Adaptive Phase 2/3, NMPA IND approved Mar 2025",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiation expected H1 2026",
+          "lead_sponsor": "Gyre Pharmaceuticals (PRC)",
+          "key_milestones": ["NMPA IND Mar 2025", "Initiation H1 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "ETUARY (pirfenidone)": {"status": "Marketed in PRC for IPF since 2011; 2025 sales $106.1M"},
+    "Etorel (nintedanib esilate)": {"status": "Marketed in PRC since June 2025; 2025 sales $4.6M"},
+    "Contiva (avatrombopag maleate)": {"status": "Marketed in PRC since March 2025 for TP-CLD and ITP; 2025 sales $5.5M"}
+  },
+  "excluded_preclinical": ["F528 — anti-inflammatory small molecule for COPD (preclinical)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 4, "p3_indications": 2, "p2_indications": 2, "p1_indications": 2, "note": "RILI counted under P2 since adaptive P2/3 starts at P2"}
+}

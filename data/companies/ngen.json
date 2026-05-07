@@ -1,0 +1,39 @@
+{
+  "issuer_name": "NervGen Pharma Corp.",
+  "ticker": "NGEN",
+  "exchange": "Nasdaq",
+  "cik": "0001751912",
+  "region": "CA (cross-listed Nasdaq)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — no 10-K on EDGAR; Canadian filer (TSX-V/Nasdaq), files annual disclosures via SEDAR+"},
+    "website": {"url": "https://nervgen.com/pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "NervGen Pharma", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "NVG-291",
+      "aka": [],
+      "modality": "Peptide",
+      "target": "PTPsigma (protein tyrosine phosphatase sigma) — mimetic peptide blocking CSPG inhibition of nerve regeneration",
+      "license_origin": "In-licensed (Case Western Reserve University)",
+      "indications": [
+        {
+          "indication": "Spinal cord injury (chronic and subacute)",
+          "highest_phase": "Phase 1b/2a",
+          "trial_name": "CONNECT-SCI: NVG-291 in Spinal Cord Injury Subjects",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 1b/2a in chronic and subacute SCI",
+          "nct_ids": ["NCT05965700"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "NervGen Pharma",
+          "key_milestones": ["Primary completion 2026-03"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["NVG-300 (preclinical; TBI and traumatic hearing loss collaborations with U.S. DoD)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 1, "P3": 0, "P2": 0, "P1_or_P1_2": 1}
+}

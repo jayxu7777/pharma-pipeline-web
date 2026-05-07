@@ -1,0 +1,49 @@
+{
+  "issuer_name": "WEED, INC.",
+  "ticker": "BUDZ",
+  "exchange": "OTC",
+  "cik": "0001393772",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-08",
+      "accession": "0001096906-26-000507",
+      "path": "data/budz_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found (corporate site timeout); company is pre-clinical research stage with no clinical pipeline page"
+    },
+    "ctgov": {
+      "path": "data/budz_ctgov_compact.json",
+      "note": "1 study returned (NCT02544880) is COMPLETED, sponsored by an individual investigator (Donald T. Weed, MD), unrelated to issuer WEED, INC."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {
+      "program": "Cannabis Genomic Study (Sangre AT, LLC subsidiary)",
+      "reason": "Pre-IND research / DNA sequencing and breeding program; no clinical trial initiated, dependent on additional funding"
+    },
+    {
+      "program": "WEED Israel Cannabis Ltd. planned trials with Prof. Elka Touitou",
+      "reason": "Planned but not initiated; pending funding"
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "nct": "NCT02544880",
+      "title": "PDE5 Inhibition Via Tadalafil to Enhance Anti-Tumor MUC1 Vaccine Efficacy in HNSCC",
+      "reason": "Investigator-initiated study by Donald T. Weed, MD (unrelated to issuer); status COMPLETED"
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Issuer is a microcap cannabis genomics / real estate holding company with no active P1/P2/P3 clinical drug programs. All described pharma activities (Cannabis Genomic Study, WEED Israel clinical trials) are pre-clinical research awaiting funding."
+}

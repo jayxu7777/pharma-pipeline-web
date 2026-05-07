@@ -1,0 +1,38 @@
+{
+  "issuer_name": "TherapeuticsMD, Inc.",
+  "ticker": "TXMD",
+  "exchange": "Nasdaq",
+  "cik": "0000025743",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001213900-26-036515",
+      "path": "data/txmd_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.therapeuticsmd.com",
+      "note": "Site lists ANNOVERA, BIJUVA, IMVEXXY (commercialized via Mayne Pharma license). No pipeline page; /pipeline returns 404."
+    },
+    "ctgov": {
+      "path": "data/txmd_ctgov_compact.json",
+      "note": "All 6 TherapeuticsMD-sponsored trials COMPLETED; 1 trial TERMINATED. No active interventional studies."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Commercial assets (ANNOVERA, BIJUVA, IMVEXXY, prenatal vitamins) were licensed/divested to Mayne Pharma in December 2022. TXMD now operates as a pharmaceutical royalty company (8.0% / 7.5% tiered royalty on US net sales for 20 years from 2022 close)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "TXMD converted to a pharmaceutical royalty company in December 2022 via the Mayne Transaction. No internal R&D, no product candidates, no clinical trials.",
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  }
+}

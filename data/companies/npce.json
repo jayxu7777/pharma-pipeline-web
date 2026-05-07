@@ -1,0 +1,107 @@
+{
+  "issuer_name": "NeuroPace, Inc.",
+  "ticker": "NPCE",
+  "exchange": "Nasdaq",
+  "cik": "0001528287",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001528287-26-000011",
+      "filing_date": "2026-03-03",
+      "doc": "npce-20251231.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found (https://www.neuropace.com/pipeline returns 404; homepage describes only the commercial RNS System)"
+    },
+    "ctgov": {
+      "sponsor_query": "NeuroPace",
+      "studies_returned": 5,
+      "active_or_recruiting": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "RNS System (next label expansion: idiopathic generalized epilepsy)",
+      "aka": ["NAUTILUS"],
+      "modality": "Implantable brain-responsive neurostimulation device (Class III)",
+      "target": "Cortical responsive stimulation in seizure focus / generalized network",
+      "license_origin": "Internal (NeuroPace)",
+      "indications": [
+        {
+          "indication": "Drug-resistant idiopathic generalized epilepsy (IGE) with generalized tonic-clonic seizures",
+          "highest_phase": "Phase 3 (IDE pivotal); PMA-S filed Dec 2025",
+          "trial_name": "NAUTILUS",
+          "trial_design": "Prospective, multicenter, randomized, sham-controlled IDE pivotal study; 87 patients implanted across 23 centers; primary safety endpoint at 12 weeks; effectiveness assessed at 1 year; 2-year follow-up ongoing",
+          "nct_ids": ["NCT05147571"],
+          "trial_status": "ACTIVE_NOT_RECRUITING — last patient completed 1-year follow-up Mar 2025; PMA-S submitted Dec 2025; 2-year completion expected H1 2026",
+          "lead_sponsor": "NeuroPace",
+          "key_milestones": [
+            "Feb 2021: FDA Breakthrough Device Designation for IGE",
+            "H2 2021: IDE approval to initiate NAUTILUS",
+            "Mar 2024: Completed enrollment (87 implants)",
+            "May 2025: Preliminary 1-year results — met primary safety endpoint; 77% median GTC seizure reduction at 18 months",
+            "Dec 2025: PMA-S filed for IGE label expansion"
+          ]
+        },
+        {
+          "indication": "Drug-resistant epilepsy associated with Lennox-Gastaut Syndrome (LGS)",
+          "highest_phase": "Phase 2 (feasibility IDE)",
+          "trial_name": "RNS System LGS Feasibility Study",
+          "trial_design": "Open-label feasibility study; collaboration with NINDS and University of Florida",
+          "nct_ids": ["NCT05339126"],
+          "trial_status": "ACTIVE_NOT_RECRUITING — primary completion May 2026",
+          "lead_sponsor": "NeuroPace",
+          "key_milestones": [
+            "Oct 2022: First patient enrolled",
+            "May 2026: Expected primary completion"
+          ]
+        },
+        {
+          "indication": "Drug-resistant focal epilepsy in pediatric patients (ages 12-17)",
+          "highest_phase": "Phase 3 (open-label IDE label-expansion)",
+          "trial_name": "RESPONSE",
+          "trial_design": "Open-label IDE study; supplemented since 2025 by collaboration with MDIC NEST and FDA on real-world data for pediatric labeling",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ONGOING — enrollment began 2021; real-world data efforts continuing into 2026",
+          "lead_sponsor": "NeuroPace",
+          "key_milestones": [
+            "2021: Enrollment began",
+            "2025: Initiated NEST/FDA real-world data collaboration to support pediatric label expansion"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "RNS System",
+    "description": "Brain-responsive neurostimulator (only FDA-approved closed-loop responsive neurostimulation device). Implantable neurostimulator + depth and/or cortical leads + Patient Remote Monitor + Physician Tablet + PDMS / nSight Platform.",
+    "approved_indications": [
+      "Adjunctive therapy for adults with drug-resistant focal-onset (partial-onset) epilepsy"
+    ],
+    "regulatory_status": "FDA PMA approved; PMA-S 2023 expanded prescribing-clinician/center qualification criteria; Seizure ID AI software submitted to FDA fall 2025"
+  },
+  "excluded_preclinical": [
+    "Next-generation neurostimulator (in development)",
+    "Streamlined / remote programming capabilities",
+    "NeuroPace AI software suite beyond Seizure ID"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT00264810 — RNS System Pivotal Study (COMPLETED 2009; supported original PMA approval)",
+    "NCT00079781 — RNS System Feasibility Study (COMPLETED 2006)",
+    "NCT00158067 — External Responsive Neurostimulator System Study (COMPLETED 2007)"
+  ],
+  "excluded_partner_owned": [
+    "Rapport Therapeutics Phase 2a trial — RNS System used only as biomarker-monitoring/data-analysis collaboration; asset is Rapport's, not NeuroPace's",
+    "DIXI Medical Stereo EEG products — distribution agreement expired Sep 30, 2025 (not renewed)"
+  ],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "phase3": 2,
+    "phase2": 1,
+    "phase1": 0,
+    "indications_active": 3
+  },
+  "no_active_clinical_pipeline_reason": null
+}

@@ -1,0 +1,30 @@
+{
+  "issuer_name": "Finch Therapeutics Group, Inc.",
+  "ticker": "FNCHQ",
+  "exchange": "OTC",
+  "cik": "0001733257",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000950170-24-035952", "filed": "2024-03-25", "form": "10-K", "period": "FY2023"},
+    "website": {"error": "company wound down — no active corporate pipeline page maintained"},
+    "ctgov": {"unique_p1_p3_trials_self_sponsored": 0, "as_of": "2026-05-06"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Finch announced January 2023 discontinuation of its Phase 3 PRISM4 trial of CP101 (recurrent CDI), withdrew the IND for CP101, and on November 10, 2022 suspended planned Phase 1 AUSPIRE trial of FIN-211 (ASD). The company wound down development, terminated vendor contracts, reduced headcount to one full-time employee, and is now focused only on monetizing its IP estate. No company-sponsored clinical trials remain active. Ticker suffix 'Q' indicates Chapter 11 / bankruptcy status.",
+  "commercial_product": {},
+  "excluded_preclinical": [
+    "FIN-211 (microbiome candidate for ASD) — Phase 1 AUSPIRE trial suspended November 2022"
+  ],
+  "excluded_legacy_terminated": [
+    "CP101 PRISM4 Phase 3 (recurrent CDI) — discontinued January 2023; IND withdrawn",
+    "Other historical microbiome programs"
+  ],
+  "excluded_partner_owned": [
+    "Investigator-sponsored CP101 study in ulcerative colitis at Brigham and Women's Hospital",
+    "University of Minnesota investigator-sponsored microbiome trials (exclusive license to Finch)"
+  ],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_active_assets": 0},
+  "blockers": "Company wound down to 1 FTE; in bankruptcy (Q ticker); no internally-sponsored clinical activity"
+}

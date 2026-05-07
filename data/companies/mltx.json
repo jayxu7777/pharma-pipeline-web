@@ -1,0 +1,129 @@
+{
+  "issuer_name": "MoonLake Immunotherapeutics",
+  "ticker": "MLTX",
+  "exchange": "Nasdaq",
+  "cik": "0001821586",
+  "region": "US (Swiss-domiciled operating subsidiary)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001821586-26-000002",
+      "filing_date": "2026-02-25",
+      "doc": "mnlk-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.moonlaketx.com/pipeline"
+    },
+    "ctgov": {
+      "sponsor_query": "MoonLake Immunotherapeutics",
+      "raw_count": 10,
+      "kept_p1_p3": 10
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Sonelokimab",
+      "aka": ["M1095", "MLK-1"],
+      "modality": "Tri-specific nanobody (humanized VHH)",
+      "target": "IL-17A and IL-17F (binds both, plus albumin)",
+      "license_origin": "In-licensed from Merck KGaA / originally Avillion (M1095)",
+      "indications": [
+        {
+          "indication": "Hidradenitis Suppurativa (HS) — adults",
+          "highest_phase": "Phase 3",
+          "trial_name": "VELA-1 / VELA-2 (pivotal pair) + open-label extension",
+          "trial_design": "Two pivotal, randomized, double-blind, placebo-controlled Phase 3 trials in moderate-to-severe HS; long-term safety/efficacy OLE",
+          "nct_ids": ["NCT06411379", "NCT06411899", "NCT07007637"],
+          "trial_status": "Pivotals: Active, not recruiting (primary completion Jun 2025); OLE: Enrolling by invitation",
+          "lead_sponsor": "MoonLake Immunotherapeutics AG",
+          "key_milestones": ["Pivotal primary completion 2025-06"]
+        },
+        {
+          "indication": "Hidradenitis Suppurativa — adolescents",
+          "highest_phase": "Phase 3",
+          "trial_name": "VELA-TEEN",
+          "trial_design": "Open-label, single-arm PK/safety in adolescents",
+          "nct_ids": ["NCT06768671"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "MoonLake Immunotherapeutics AG",
+          "key_milestones": ["Primary completion 2026-09"]
+        },
+        {
+          "indication": "Psoriatic Arthritis (PsA) — biologic-naive",
+          "highest_phase": "Phase 3",
+          "trial_name": "IZAR-1",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 in bDMARD-naive PsA",
+          "nct_ids": ["NCT06641076"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "MoonLake Immunotherapeutics AG",
+          "key_milestones": ["Primary completion 2027-02"]
+        },
+        {
+          "indication": "Psoriatic Arthritis (PsA) — anti-TNFalpha inadequate responders",
+          "highest_phase": "Phase 3",
+          "trial_name": "IZAR-2",
+          "trial_design": "Randomized, double-blind, placebo and active (risankizumab) controlled Phase 3 in TNFi-IR PsA",
+          "nct_ids": ["NCT06641089", "NCT07223138"],
+          "trial_status": "IZAR-2 Recruiting; OLE Enrolling by invitation",
+          "lead_sponsor": "MoonLake Immunotherapeutics AG",
+          "key_milestones": ["Primary completion 2027-01"]
+        },
+        {
+          "indication": "Palmoplantar Pustulosis (PPP) — LEDA",
+          "highest_phase": "Phase 2",
+          "trial_name": "LEDA",
+          "trial_design": "Phase 2 randomized study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing per company pipeline page",
+          "lead_sponsor": "MoonLake Immunotherapeutics AG",
+          "key_milestones": []
+        },
+        {
+          "indication": "Axial Spondyloarthritis (axSpA) — S-OLARIS",
+          "highest_phase": "Phase 2",
+          "trial_name": "S-OLARIS",
+          "trial_design": "Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing per company pipeline page",
+          "lead_sponsor": "MoonLake Immunotherapeutics AG",
+          "key_milestones": []
+        },
+        {
+          "indication": "PsA + axSpA combined — P-OLARIS",
+          "highest_phase": "Phase 2",
+          "trial_name": "P-OLARIS",
+          "trial_design": "Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing per company pipeline page",
+          "lead_sponsor": "MoonLake Immunotherapeutics AG",
+          "key_milestones": []
+        },
+        {
+          "indication": "Plaque Psoriasis (PsO)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PLANNED — Phase 3 ready per company pipeline",
+          "trial_design": "Phase 3 program announced as ready",
+          "nct_ids": [],
+          "trial_status": "PLANNED — Phase 3 ready, not yet initiated",
+          "lead_sponsor": "MoonLake Immunotherapeutics AG",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Sonelokimab Phase 1 BE study (NCT06994936)", "reason": "Healthy-volunteer bioequivalence Phase 1 completed Nov 2025; not part of disease pipeline."},
+    {"asset": "Sonelokimab HS Phase 2 MIRA (NCT05322473)", "reason": "Completed; superseded by VELA Phase 3 pivotals."},
+    {"asset": "Sonelokimab PsA Phase 2 ARGO (NCT05640245)", "reason": "Completed; superseded by IZAR Phase 3 pivotals."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 5,
+    "p2": 3,
+    "p1": 0,
+    "indications_total": 8
+  }
+}

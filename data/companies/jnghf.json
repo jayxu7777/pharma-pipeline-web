@@ -1,0 +1,194 @@
+{
+  "issuer_name": "Jiangsu Hengrui Pharmaceuticals Co., Ltd. / ADR",
+  "ticker": "JNGHF",
+  "exchange": "OTC",
+  "cik": "0002071868",
+  "region": "CN (China; ADR with H-share dual listing)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. Highest-phase row reported per asset/indication. Hengrui-sponsored only (lead sponsor name contains 'Hengrui'); investigator-initiated and partner-led trials excluded.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — does not file Form 10-K with SEC. CIK 0002071868 EDGAR submissions contain no 10-K. (Hengrui is a China A-share / Hong Kong listed issuer; ADR program only.)"
+    },
+    "website": {
+      "url": "https://www.hengrui.com/en/pipeline.html",
+      "note": "Pipeline rendered as PNG images; text-based extraction yielded only therapeutic-area summary ('100+ in-house innovative pharmaceuticals under clinical development', '400+ ongoing clinical studies'). Codename-level detail comes from ClinicalTrials.gov."
+    },
+    "ctgov": {
+      "file": "data/jnghf_ctgov_compact.json",
+      "result_count_total": 738,
+      "active_p1_p3_hengrui_sponsored": 103,
+      "phase_distribution_active": {"PHASE1": 42, "PHASE2": 51, "PHASE3": 34},
+      "note": "Aggregated to 41 distinct codenamed assets (SHR-/HRS-/HR-/HRG- series) with at least one active P1/2/3 study where Jiangsu Hengrui (or a Hengrui subsidiary) is lead sponsor. Investigator-initiated trials excluded."
+    }
+  },
+  "pipeline": [
+    {"asset":"SHR-A1811","aka":["Trastuzumab rezetecan"],"modality":"HER2-directed antibody-drug conjugate","target":"HER2","license_origin":"Internal","indications":[
+      {"indication":"HER2-positive metastatic breast cancer (post trastuzumab + taxane)","highest_phase":"P3","trial_name":"SHR-A1811-301","trial_design":"Pivotal randomized","nct_ids":["NCT05424835"],"trial_status":"Active, not recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"HER2-positive recurrent or metastatic breast cancer","highest_phase":"P3","trial_name":"SHR-A1811","trial_design":"Randomized","nct_ids":["NCT06057610"],"trial_status":"Active, not recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"HER2-positive advanced gastric / GEJ adenocarcinoma","highest_phase":"P3","trial_name":"SHR-A1811","trial_design":"Randomized","nct_ids":["NCT06123494"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"HER2-mutant non-small-cell lung cancer","highest_phase":"P3","trial_name":"SHR-A1811","trial_design":"Randomized","nct_ids":["NCT06430437"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Adjuvant HER2-positive primary breast cancer with residual disease","highest_phase":"P3","trial_name":"SHR-A1811","trial_design":"Adjuvant randomized","nct_ids":["NCT06126640"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Early-stage / locally advanced HER2-positive breast cancer","highest_phase":"P3","trial_name":"SHR-A1811","trial_design":"Neoadjuvant","nct_ids":["NCT07196774"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"HER2-low / -positive ovarian cancer","highest_phase":"P3","trial_name":"SHR-A1811","trial_design":"Randomized","nct_ids":["NCT06828354"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Breast cancer (broader basket)","highest_phase":"P3","trial_name":"SHR-A1811","trial_design":"Randomized","nct_ids":["NCT05814354"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"HER2-expressing biliary tract cancer","highest_phase":"P2","trial_name":"SHR-A1811","trial_design":"Single-arm","nct_ids":["NCT06413745"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Recurrent / metastatic cervical cancer","highest_phase":"P2","trial_name":"SHR-A1811","trial_design":"Single-arm","nct_ids":["NCT07051486"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"HER2-mutant advanced NSCLC","highest_phase":"P2","trial_name":"SHR-A1811","trial_design":"Single-arm","nct_ids":["NCT04818333","NCT05482568"],"trial_status":"Active, not recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"HER2-expressing advanced solid tumors (basket)","highest_phase":"P2","trial_name":"SHR-A1811","trial_design":"Basket","nct_ids":["NCT06015048"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-4642","aka":[],"modality":"Small-molecule KRAS G12D inhibitor","target":"KRAS G12D","license_origin":"Internal","indications":[
+      {"indication":"First-line KRAS G12D-mutant advanced/metastatic pancreatic cancer","highest_phase":"P3","trial_name":"HRS-4642","trial_design":"Randomized pivotal","nct_ids":["NCT07232875"],"trial_status":"Not yet recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Advanced KRAS G12D mutant solid tumors","highest_phase":"P2","trial_name":"HRS-4642","trial_design":"Single-arm","nct_ids":["NCT05533463","NCT06385678"],"trial_status":"Active, not recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Advanced solid tumors (combination)","highest_phase":"P2","trial_name":"HRS-4642","trial_design":"Combination","nct_ids":["NCT06520488"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HR070803","aka":["Liposomal irinotecan"],"modality":"Liposomal cytotoxic","target":"Topoisomerase I","license_origin":"Internal","indications":[
+      {"indication":"First-line advanced pancreatic cancer","highest_phase":"P3","trial_name":"HR070803","trial_design":"Randomized","nct_ids":["NCT05751850"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Colorectal cancer","highest_phase":"P3","trial_name":"HR070803","trial_design":"Randomized","nct_ids":["NCT05945901"],"trial_status":"Active, not recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HR091506","aka":[],"modality":"URAT1 / xanthine oxidase","target":"Hyperuricemia targets","license_origin":"Internal","indications":[
+      {"indication":"Gout with hyperuricemia in adults","highest_phase":"P3","trial_name":"HR091506","trial_design":"Randomized","nct_ids":["NCT06414837"],"trial_status":"Not yet recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRG2010","aka":[],"modality":"Sustained-release combination","target":"Dopaminergic","license_origin":"Internal","indications":[
+      {"indication":"Parkinson's disease","highest_phase":"P3","trial_name":"HRG2010 vs sustained-release Carbidopa/Levodopa","trial_design":"Randomized active-control","nct_ids":["NCT06596876"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-4357","aka":[],"modality":"PSMA-targeted radioligand therapy","target":"PSMA","license_origin":"Internal","indications":[
+      {"indication":"PSMA-positive progressive mCRPC","highest_phase":"P3","trial_name":"HRS-4357","trial_design":"Randomized","nct_ids":["NCT07311694"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-8427","aka":[],"modality":"Antibiotic","target":"Bacterial","license_origin":"Internal","indications":[
+      {"indication":"Complicated UTI including acute pyelonephritis","highest_phase":"P3","trial_name":"HRS-8427","trial_design":"Randomized","nct_ids":["NCT06569056"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Hospital-acquired bacterial pneumonia (HABP)","highest_phase":"P2","trial_name":"HRS-8427","trial_design":"Randomized","nct_ids":["NCT06841731"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR-1210","aka":["Camrelizumab","AiRuiKa"],"modality":"Anti-PD-1 monoclonal antibody","target":"PD-1","license_origin":"Internal","indications":[
+      {"indication":"Gastric cancer (additional indication expansion)","highest_phase":"P3","trial_name":"SHR-1210","trial_design":"Randomized","nct_ids":["NCT04342910"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":["Marketed in China for multiple oncology indications"]}
+    ]},
+    {"asset":"SHR-1316","aka":["Adebrelimab"],"modality":"Anti-PD-L1 monoclonal antibody","target":"PD-L1","license_origin":"Internal","indications":[
+      {"indication":"Non-small-cell lung cancer","highest_phase":"P3","trial_name":"SHR-1316","trial_design":"Randomized","nct_ids":["NCT04316364"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Lung cancer (additional setting)","highest_phase":"P2","trial_name":"SHR-1316","trial_design":"Combination","nct_ids":["NCT07241767"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR7280","aka":["Yierding"],"modality":"Small-molecule GnRH antagonist","target":"GnRH receptor","license_origin":"Internal","indications":[
+      {"indication":"Uterine fibroids with menorrhagia","highest_phase":"P3","trial_name":"SHR7280","trial_design":"Randomized","nct_ids":["NCT05442827"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR6390","aka":["Dalpiciclib"],"modality":"CDK4/6 inhibitor","target":"CDK4/6","license_origin":"Internal","indications":[
+      {"indication":"HR+/HER2-, node-positive high-risk early-stage breast cancer (adjuvant)","highest_phase":"P3","trial_name":"SHR6390","trial_design":"Adjuvant randomized","nct_ids":["NCT04842617"],"trial_status":"Active, not recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR3162","aka":["Fluzoparib"],"modality":"PARP inhibitor","target":"PARP","license_origin":"Internal","indications":[
+      {"indication":"Metastatic castration-resistant prostate cancer","highest_phase":"P3","trial_name":"SHR3162","trial_design":"Randomized","nct_ids":["NCT04691804"],"trial_status":"Active, not recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR2554","aka":["Tazemetostat-class EZH2i"],"modality":"EZH2 inhibitor","target":"EZH2","license_origin":"Internal","indications":[
+      {"indication":"Relapsed/refractory peripheral T-cell lymphoma (PTCL) post systemic therapy","highest_phase":"P3","trial_name":"SHR2554 PTCL","trial_design":"Randomized","nct_ids":["NCT06122389"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Follicular lymphoma","highest_phase":"P2","trial_name":"SHR2554","trial_design":"Single-arm","nct_ids":["NCT06368167"],"trial_status":"Not yet recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Peripheral T-cell lymphoma (additional cohort)","highest_phase":"P2","trial_name":"SHR2554","trial_design":"Cohort","nct_ids":["NCT06173999"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Advanced gastric cancer","highest_phase":"P2","trial_name":"SHR2554","trial_design":"Combination","nct_ids":["NCT07102901"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Locally advanced or metastatic NSCLC","highest_phase":"P2","trial_name":"SHR2554","trial_design":"Combination","nct_ids":["NCT07175220"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS9531","aka":[],"modality":"GLP-1/GIP dual receptor agonist (peptide)","target":"GLP-1 / GIP receptors","license_origin":"Internal","indications":[
+      {"indication":"Overweight / obesity (Chinese population)","highest_phase":"P3","trial_name":"GEMINI-1","trial_design":"Randomized placebo-controlled","nct_ids":"Not on public registry","trial_status":"Met both co-primary endpoints at 48 weeks (per Hengrui investor disclosures Aug 2025)","lead_sponsor":"Jiangsu Hengrui","key_milestones":["GEMINI-1 P3 readout positive 2025"]},
+      {"indication":"Type 2 diabetes mellitus","highest_phase":"P3","trial_name":"HRS9531 T2D","trial_design":"Randomized","nct_ids":"Not on public registry","trial_status":"Ongoing in China","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Obstructive sleep apnea","highest_phase":"P3","trial_name":"HRS9531 OSA","trial_design":"Randomized","nct_ids":"Not on public registry","trial_status":"Ongoing in China","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-1893","aka":[],"modality":"Cardiac myosin inhibitor (small molecule)","target":"Cardiac myosin","license_origin":"Internal","indications":[
+      {"indication":"Obstructive hypertrophic cardiomyopathy (oHCM)","highest_phase":"P3","trial_name":"HRS-1893 oHCM P3","trial_design":"Randomized","nct_ids":"Not on public registry","trial_status":"Initiated (per Hengrui disclosure 2025; P1 data presented at ESC 2025)","lead_sponsor":"Jiangsu Hengrui","key_milestones":["ESC Congress 2025 P1 data"]}
+    ]},
+    {"asset":"HRS-9190","aka":[],"modality":"Neuromuscular-blocking agent (small molecule)","target":"Nicotinic acetylcholine receptor (skeletal)","license_origin":"Internal","indications":[
+      {"indication":"Neuromuscular blockade during surgery","highest_phase":"P2","trial_name":"HRS-9190","trial_design":"Randomized","nct_ids":["NCT07404579","NCT07446309"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-1167","aka":[],"modality":"PARP1-selective inhibitor","target":"PARP1","license_origin":"Internal","indications":[
+      {"indication":"Prostate cancer","highest_phase":"P2","trial_name":"HRS-1167","trial_design":"Combination","nct_ids":["NCT06689163"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Advanced solid tumors","highest_phase":"P1","trial_name":"HRS-1167","trial_design":"Dose escalation","nct_ids":["NCT05473624"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-1738","aka":[],"modality":"PSMA-targeted PET imaging tracer","target":"PSMA","license_origin":"Internal","indications":[
+      {"indication":"Prostate cancer PET imaging","highest_phase":"P2","trial_name":"HRS-1738","trial_design":"Diagnostic","nct_ids":["NCT07056439"],"trial_status":"Not yet recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-4508","aka":[],"modality":"Targeted small molecule","target":"Solid-tumor target","license_origin":"Internal","indications":[
+      {"indication":"Solid tumors","highest_phase":"P2","trial_name":"HRS-4508","trial_design":"Basket","nct_ids":["NCT07003321","NCT07140393"],"trial_status":"Not yet recruiting / Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Lung cancer","highest_phase":"P2","trial_name":"HRS-4508","trial_design":"Single-arm","nct_ids":["NCT07232849"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Advanced solid tumors","highest_phase":"P1","trial_name":"HRS-4508","trial_design":"Dose escalation","nct_ids":["NCT06598735"],"trial_status":"Not yet recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-5041","aka":[],"modality":"AR-axis small molecule","target":"Androgen pathway","license_origin":"Internal","indications":[
+      {"indication":"Prostate cancer","highest_phase":"P2","trial_name":"HRS-5041","trial_design":"Single-arm","nct_ids":["NCT06568094"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Advanced prostate cancer","highest_phase":"P1","trial_name":"HRS-5041","trial_design":"Dose escalation","nct_ids":["NCT05942001"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-6209","aka":[],"modality":"Targeted small molecule","target":"Breast-cancer target","license_origin":"Internal","indications":[
+      {"indication":"Breast cancer","highest_phase":"P2","trial_name":"HRS-6209","trial_design":"Single-arm","nct_ids":["NCT06974929"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Advanced unresectable / metastatic breast cancer","highest_phase":"P2","trial_name":"HRS-6209","trial_design":"Combination","nct_ids":["NCT06555068"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Advanced solid tumors","highest_phase":"P1","trial_name":"HRS-6209","trial_design":"Dose escalation","nct_ids":["NCT05781048"],"trial_status":"Active, not recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-6213","aka":[],"modality":"Targeted small molecule","target":"Solid-tumor target","license_origin":"Internal","indications":[
+      {"indication":"Solid tumors","highest_phase":"P2","trial_name":"HRS-6213","trial_design":"Single-arm","nct_ids":["NCT07070349"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-6768","aka":[],"modality":"Targeted small molecule","target":"Solid-tumor target","license_origin":"Internal","indications":[
+      {"indication":"Advanced solid tumors","highest_phase":"P2","trial_name":"HRS-6768","trial_design":"Single-arm","nct_ids":["NCT06925581"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-8364","aka":[],"modality":"Targeted small molecule","target":"Solid-tumor target","license_origin":"Internal","indications":[
+      {"indication":"Solid tumors","highest_phase":"P2","trial_name":"HRS-8364","trial_design":"Single-arm","nct_ids":["NCT07446153"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-9231","aka":[],"modality":"Gadolinium-based MRI contrast agent","target":"CNS contrast imaging","license_origin":"Internal","indications":[
+      {"indication":"Contrast-enhanced MRI of CNS lesions","highest_phase":"P2","trial_name":"HRS-9231","trial_design":"Diagnostic","nct_ids":["NCT06731829"],"trial_status":"Not yet recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR-1209","aka":[],"modality":"PCSK9 monoclonal antibody (subcutaneous)","target":"PCSK9","license_origin":"Internal","indications":[
+      {"indication":"Hypercholesterolemia / hyperlipidemia","highest_phase":"P1","trial_name":"SHR-1209","trial_design":"PK / dose","nct_ids":["NCT06837077"],"trial_status":"Active, not recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR-3167","aka":[],"modality":"GLP-1 receptor agonist","target":"GLP-1R","license_origin":"Internal","indications":[
+      {"indication":"Type 2 diabetes mellitus","highest_phase":"P2","trial_name":"SHR-3167 T2D","trial_design":"Randomized","nct_ids":["NCT06688123","NCT07018453","NCT07032688","NCT07472725"],"trial_status":"Active / Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Diabetes mellitus","highest_phase":"P1","trial_name":"SHR-3167","trial_design":"PK / dose","nct_ids":["NCT07489482"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR-4394","aka":[],"modality":"Targeted small molecule","target":"Prostate-cancer target","license_origin":"Internal","indications":[
+      {"indication":"Prostate cancer","highest_phase":"P2","trial_name":"SHR-4394","trial_design":"Single-arm","nct_ids":["NCT07407283"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]},
+      {"indication":"Prostate cancer (early)","highest_phase":"P1","trial_name":"SHR4394","trial_design":"Dose escalation","nct_ids":["NCT06783829"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR-4602","aka":[],"modality":"Targeted small molecule","target":"HER2","license_origin":"Internal","indications":[
+      {"indication":"HER2-expressing or -mutated unresectable / metastatic solid tumors","highest_phase":"P2","trial_name":"SHR-4602","trial_design":"Basket","nct_ids":["NCT06516926"],"trial_status":"Not yet recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR-9803","aka":[],"modality":"Targeted small molecule","target":"Solid-tumor target","license_origin":"Internal","indications":[
+      {"indication":"Advanced solid tumors","highest_phase":"P2","trial_name":"SHR-9803","trial_design":"Single-arm","nct_ids":["NCT06906731"],"trial_status":"Not yet recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR-A1904","aka":[],"modality":"Antibody-drug conjugate","target":"CLDN18.2","license_origin":"Internal","indications":[
+      {"indication":"Advanced solid tumors","highest_phase":"P2","trial_name":"SHR-A1904","trial_design":"Single-arm","nct_ids":["NCT05277168"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR0302","aka":["Ivarmacitinib"],"modality":"JAK1 inhibitor","target":"JAK1","license_origin":"Internal","indications":[
+      {"indication":"Non-segmental vitiligo","highest_phase":"P2","trial_name":"SHR0302 NSV","trial_design":"Randomized","nct_ids":["NCT06790862","NCT07251595"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR3680","aka":["Rezvilutamide"],"modality":"AR antagonist","target":"Androgen receptor","license_origin":"Internal","indications":[
+      {"indication":"Prostate cancer","highest_phase":"P2","trial_name":"SHR3680","trial_design":"Combination","nct_ids":["NCT07230106"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":["Approved in China for high-volume mHSPC"]}
+    ]},
+    {"asset":"SHR4640","aka":[],"modality":"URAT1 inhibitor","target":"URAT1","license_origin":"Internal","indications":[
+      {"indication":"Primary gout / hyperuricemia","highest_phase":"P2","trial_name":"SHR4640","trial_design":"Randomized","nct_ids":["NCT07362355"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HR011408","aka":[],"modality":"Insulin / diabetes therapeutic","target":"Insulin pathway","license_origin":"Internal","indications":[
+      {"indication":"Diabetes","highest_phase":"P1","trial_name":"HR011408","trial_design":"PK / dose","nct_ids":["NCT06375031"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-2329","aka":[],"modality":"RAS-targeted small molecule","target":"RAS (multi-mutant)","license_origin":"Internal","indications":[
+      {"indication":"Advanced solid tumors with RAS mutations / amplifications","highest_phase":"P1","trial_name":"HRS-2329","trial_design":"Dose escalation","nct_ids":["NCT07189949"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-7172","aka":[],"modality":"RAS-targeted small molecule","target":"RAS (multi-mutant)","license_origin":"Internal","indications":[
+      {"indication":"Advanced solid tumors with RAS mutations / amplifications","highest_phase":"P1","trial_name":"HRS-7172","trial_design":"Dose escalation","nct_ids":["NCT07142980"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-6093","aka":[],"modality":"KRAS G12D-selective small molecule","target":"KRAS G12D","license_origin":"Internal","indications":[
+      {"indication":"Advanced KRAS G12D mutant solid tumors","highest_phase":"P1","trial_name":"HRS-6093","trial_design":"Dose escalation","nct_ids":["NCT07134998"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-3005","aka":[],"modality":"BTK / B-cell targeted","target":"B-cell pathway","license_origin":"Internal","indications":[
+      {"indication":"B-cell malignancy","highest_phase":"P1","trial_name":"HRS-3005","trial_design":"Dose escalation","nct_ids":["NCT07556822"],"trial_status":"Not yet recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"HRS-2183","aka":[],"modality":"Investigational small molecule","target":"Undisclosed","license_origin":"Internal","indications":[
+      {"indication":"Healthy adults (PK / first-in-human)","highest_phase":"P1","trial_name":"HRS-2183","trial_design":"PK / SAD-MAD","nct_ids":["NCT07232758"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]},
+    {"asset":"SHR-1049","aka":[],"modality":"Investigational oncology agent","target":"Solid-tumor target","license_origin":"Internal","indications":[
+      {"indication":"Advanced solid tumor","highest_phase":"P1","trial_name":"SHR-1049","trial_design":"Dose escalation","nct_ids":["NCT07380334"],"trial_status":"Recruiting","lead_sponsor":"Jiangsu Hengrui","key_milestones":[]}
+    ]}
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"reason": "Excluded ~635 ctgov records that were either investigator-initiated, partner-led, observational, or had non-Hengrui lead sponsors. Also excluded ~14 Hengrui-sponsored studies with COMPLETED, TERMINATED, WITHDRAWN, UNKNOWN or SUSPENDED status."}
+  ],
+  "summary_counts": {
+    "P1": 11,
+    "P2": 19,
+    "P3": 13,
+    "total_assets": 41,
+    "total_indication_rows": 67,
+    "active_hengrui_sponsored_trials_in_ctgov": 103
+  },
+  "notes": "Hengrui's full disclosed corporate pipeline exceeds 100 in-house innovative drugs and 400+ ongoing trials. This file enumerates the codenamed assets with at least one ACTIVE, Hengrui-sponsored P1/P2/P3 study on ClinicalTrials.gov, plus two flagship P3 assets (HRS9531, HRS-1893) disclosed in 2025 corporate communications but registered only on Chinese registries. Approved/marketed Hengrui products (e.g. Camrelizumab, Pyrotinib, Rezvilutamide, Apatinib) are out of scope for active P1-3 pipeline."
+}

@@ -1,0 +1,148 @@
+{
+  "issuer_name": "Novo Nordisk A/S",
+  "ticker": "NONOF",
+  "exchange": "OTC",
+  "cik": "0000353278",
+  "region": "DK",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (Danish company)"},
+    "website": {"url": "https://www.novonordisk.com/science-and-technology/r-d-pipeline.html", "error": "Pipeline page is JavaScript-rendered; content not extractable via WebFetch. Pipeline reconstructed from ClinicalTrials.gov active sponsored trials."},
+    "ctgov": {"path": "data/nonof_ctgov_compact.json", "trial_count_total": 1016, "novo_sponsored": 905, "active_sponsored": 75}
+  },
+  "pipeline": [
+    {
+      "asset": "CagriSema",
+      "aka": ["Cagrilintide + semaglutide fixed-dose combination"],
+      "modality": "Subcutaneous peptide combination (long-acting amylin analog + GLP-1 RA)",
+      "target": "Amylin/calcitonin receptors + GLP-1 receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Obesity / overweight (REDEFINE program)", "highest_phase": "Phase 3", "trial_name": "REDEFINE 1/2/3/4 etc.", "trial_design": "Randomised, double-blind, placebo-controlled, multi-arm Phase 3 weight-management studies", "nct_ids": "Multiple — see ctgov compact file (Cagrilintide + Semaglutide active P3)", "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": ["REDEFINE 1 topline reported Dec 2024"]},
+        {"indication": "Type 2 diabetes mellitus", "highest_phase": "Phase 3", "trial_name": "REDEFINE 2 / head-to-head vs tirzepatide", "trial_design": "Randomised active-comparator Phase 3", "nct_ids": "Multiple — see ctgov compact file", "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []},
+        {"indication": "Diabetic peripheral neuropathy", "highest_phase": "Phase 2", "trial_name": "CagriSema in DPN", "trial_design": "Randomised placebo-controlled Phase 2", "nct_ids": "See ctgov compact file", "trial_status": "Active", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Cagrilintide (monotherapy)",
+      "aka": ["AM833", "NN9838"],
+      "modality": "Long-acting amylin analog (subcutaneous peptide)",
+      "target": "Amylin / calcitonin receptors",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Obesity / overweight monotherapy", "highest_phase": "Phase 3", "trial_name": "Cagrilintide monotherapy weight-management Phase 3", "trial_design": "Randomised placebo-controlled Phase 3", "nct_ids": "See ctgov compact file (Cagrilintide vs placebo)", "trial_status": "Active P3 plus supporting P1 PK/PD studies", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []},
+        {"indication": "Cardiovascular outcomes (with semaglutide)", "highest_phase": "Phase 3", "trial_name": "CV outcomes trial cagrilintide + semaglutide", "trial_design": "Event-driven CVOT Phase 3", "nct_ids": "See ctgov compact file", "trial_status": "Active", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Amycretin (NNC0487-0111)",
+      "aka": ["NNC0487-0111", "Unimolecular amylin + GLP-1 dual agonist"],
+      "modality": "Subcutaneous and oral peptide; unimolecular amylin/GLP-1 co-agonist",
+      "target": "Amylin receptors + GLP-1 receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Obesity / overweight", "highest_phase": "Phase 3", "trial_name": "Amycretin Phase 3 weight-management program", "trial_design": "Randomised placebo-controlled Phase 3 (multiple)", "nct_ids": "See ctgov compact file (NNC0487-0111 active P3 trials)", "trial_status": "Recently transitioned to Phase 3 (Mar 2025); multiple active P1/P3 studies", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": ["Phase 3 initiation announced Q1 2025"]},
+        {"indication": "Type 2 diabetes mellitus", "highest_phase": "Phase 3", "trial_name": "Amycretin in T2D", "trial_design": "Randomised placebo-controlled", "nct_ids": "See ctgov compact file", "trial_status": "Active", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []},
+        {"indication": "Obstructive sleep apnoea, knee osteoarthritis, heart failure (obesity-related comorbidities)", "highest_phase": "Phase 3", "trial_name": "Amycretin obesity comorbidity programs", "trial_design": "Randomised placebo-controlled Phase 3", "nct_ids": "See ctgov compact file", "trial_status": "Active", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Semaglutide (lifecycle expansion)",
+      "aka": ["Ozempic / Wegovy / Rybelsus active substance — new indications"],
+      "modality": "GLP-1 receptor agonist (subcutaneous and oral peptide)",
+      "target": "GLP-1 receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Non-alcoholic steatohepatitis (NASH/MASH)", "highest_phase": "Phase 3", "trial_name": "ESSENCE", "trial_design": "Randomised placebo-controlled Phase 3 with biopsy endpoints", "nct_ids": "See ctgov compact file (Semaglutide vs placebo, NASH)", "trial_status": "Phase 3 ongoing; positive Part 1 readout 2025", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": ["ESSENCE Part 1 positive 2025"]},
+        {"indication": "Additional cardiovascular / kidney / Alzheimer indications", "highest_phase": "Phase 3", "trial_name": "EVOKE / EVOKE+, FLOW (completed), SOUL etc.", "trial_design": "Outcomes Phase 3", "nct_ids": "See ctgov compact file", "trial_status": "Various (active, recently read out)", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": ["FLOW (CKD) and SELECT (CV) read out earlier; EVOKE Alzheimer ongoing"]}
+      ]
+    },
+    {
+      "asset": "Concizumab",
+      "aka": ["Alhemo (US/EU brand for haemophilia B with inhibitors)"],
+      "modality": "Anti-TFPI monoclonal antibody, subcutaneous",
+      "target": "Tissue factor pathway inhibitor (TFPI)",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Haemophilia A and B with and without inhibitors (label expansion)", "highest_phase": "Phase 3", "trial_name": "explorer programme (explorer7/8/9/10)", "trial_design": "Open-label Phase 3 prophylaxis", "nct_ids": "See ctgov compact file (Concizumab active P3)", "trial_status": "Multiple active Phase 3", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": ["Approved for haemophilia A/B with inhibitors; expansion ongoing"]}
+      ]
+    },
+    {
+      "asset": "Ziltivekimab",
+      "aka": ["NN6018", "Anti-IL-6 monoclonal antibody"],
+      "modality": "Anti-IL-6 ligand monoclonal antibody, subcutaneous",
+      "target": "Interleukin-6",
+      "license_origin": "Acquired via Corvidia Therapeutics (2020)",
+      "indications": [
+        {"indication": "Cardiovascular risk reduction in atherosclerotic CVD with chronic kidney disease and inflammation", "highest_phase": "Phase 3", "trial_name": "ZEUS", "trial_design": "Event-driven Phase 3 CVOT", "nct_ids": "See ctgov compact file (Ziltivekimab P3)", "trial_status": "Active", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []},
+        {"indication": "Heart failure with preserved EF (HFpEF) / post-MI / systemic inflammation", "highest_phase": "Phase 3", "trial_name": "HERMES, ARTEMIS", "trial_design": "Randomised placebo-controlled Phase 3", "nct_ids": "See ctgov compact file", "trial_status": "RECRUITING", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Etavopivat",
+      "aka": ["FT-4202", "PKR activator"],
+      "modality": "Oral small-molecule pyruvate kinase R activator",
+      "target": "Pyruvate kinase R (PKR)",
+      "license_origin": "Acquired via Forma Therapeutics (2022)",
+      "indications": [
+        {"indication": "Sickle cell disease and thalassemia", "highest_phase": "Phase 3", "trial_name": "Hibiscus (SCD); thalassemia Phase 3", "trial_design": "Randomised placebo-controlled Phase 3", "nct_ids": "See ctgov compact file (Etavopivat P3)", "trial_status": "Active", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Somapacitan",
+      "aka": ["NNC0195-0092", "Sogroya"],
+      "modality": "Long-acting human growth hormone analog (PEGylated, weekly)",
+      "target": "Growth hormone receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Children born small for gestational age (SGA), Turner syndrome, Noonan syndrome, idiopathic short stature (label expansion)", "highest_phase": "Phase 3", "trial_name": "REAL paediatric expansion programme", "trial_design": "Active-comparator vs Norditropin", "nct_ids": "See ctgov compact file (Somapacitan P3)", "trial_status": "Active", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Coramitug (NNC6019-0001)",
+      "aka": ["NNC6019-0001"],
+      "modality": "Anti-transthyretin monoclonal antibody",
+      "target": "Misfolded transthyretin (TTR)",
+      "license_origin": "Acquired via Prothena ATTR cardiomyopathy programme",
+      "indications": [
+        {"indication": "Transthyretin amyloid cardiomyopathy (ATTR-CM)", "highest_phase": "Phase 2", "trial_name": "ATTRibute-CM successor programme", "trial_design": "Randomised placebo-controlled Phase 2", "nct_ids": "See ctgov compact file (NNC6019-0001 / coramitug)", "trial_status": "Active Phase 1/2", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "CDR132L",
+      "aka": ["miR-132 antimiR"],
+      "modality": "Antisense microRNA inhibitor (synthetic locked nucleic acid)",
+      "target": "microRNA-132",
+      "license_origin": "Acquired via Cardior Pharmaceuticals (2024)",
+      "indications": [
+        {"indication": "Heart failure (post-MI / chronic HF)", "highest_phase": "Phase 2", "trial_name": "HF-REVERT successor", "trial_design": "Randomised placebo-controlled Phase 2", "nct_ids": "See ctgov compact file (CDR132L P2)", "trial_status": "RECRUITING", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Mim8 (NNC0365-3769 / denecimig)",
+      "aka": ["Mim8", "Anti-FIXa/X bispecific antibody"],
+      "modality": "Bispecific antibody (FIXa/FX) — subcutaneous prophylaxis",
+      "target": "Factor IXa and Factor X bridging",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Haemophilia A with and without inhibitors", "highest_phase": "Phase 3", "trial_name": "FRONTIER programme", "trial_design": "Open-label Phase 3 prophylaxis", "nct_ids": "See ctgov compact file (Mim8 / denecimig)", "trial_status": "Active Phase 3", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": ["Phase 3 FRONTIER readouts ongoing"]}
+      ]
+    },
+    {
+      "asset": "Other early-stage clinical assets (NNC0662-0419, NNC0581-0001, NNC0194-0499, NNC1679-0001, NNC9733-0001, NNC0537-1482, NNC4005-001, NNC6989-0001, NNC0638-0355, NNC0174-1213)",
+      "aka": ["Various peptides and antibodies in obesity, T2D, hepatic steatosis, T1D, heart failure"],
+      "modality": "Mixed (peptide and antibody)",
+      "target": "Various (incretin / amylin / hepatic / cardiometabolic)",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Obesity / type 2 diabetes / hepatic steatosis / heart failure (early clinical)", "highest_phase": "Phase 1", "trial_name": "Multiple Phase 1 (and one NNC0662-0419 in Phase 2 obesity/T2D)", "trial_design": "FIH dose escalation / SAD-MAD", "nct_ids": "See ctgov compact file", "trial_status": "RECRUITING / ACTIVE", "lead_sponsor": "Novo Nordisk A/S", "key_milestones": []}
+      ]
+    }
+  ],
+  "commercial_product": {"note": "Major commercial franchises (Ozempic, Wegovy, Rybelsus, NovoSeven, NovoEight, Norditropin, Tresiba, Levemir, Saxenda, Victoza, Alhemo) are revenue-generating and excluded from clinical-pipeline list except where lifecycle Phase 3 expansion studies are ongoing"},
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [{"note": "Numerous historical terminated/withdrawn studies present in ctgov; not enumerated individually given pipeline scale"}],
+  "excluded_partner_owned": [{"note": "Investigator-initiated studies of Novo Nordisk drugs sponsored by academic centres (Vastra Gotaland, Mayo, Cedars-Sinai, etc.) are excluded; only Novo-sponsored programs counted"}],
+  "summary_counts": {"total_assets": 12, "P3": 8, "P2": 2, "P1": 1, "note": "Counts are conservative grouping — Novo Nordisk's full active sponsored Phase 1-3 trial count is approximately 75 ongoing as of snapshot"}
+}

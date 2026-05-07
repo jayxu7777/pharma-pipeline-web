@@ -1,0 +1,80 @@
+{
+  "issuer_name": "CAPRICOR THERAPEUTICS, INC.",
+  "ticker": "CAPR",
+  "exchange": "Nasdaq",
+  "cik": "0001133869",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-17",
+      "accession": "0001104659-26-029580",
+      "path": "data/capr_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://capricor.com/pipeline/",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/capr_ctgov_compact.json",
+      "sponsor_query": "Capricor"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Deramiocel",
+      "aka": ["CAP-1002", "Allogeneic Cardiosphere-Derived Cells"],
+      "modality": "Allogeneic cell therapy",
+      "target": "Cardiac inflammation/fibrosis (CDC paracrine signaling)",
+      "license_origin": "Internal (CSMC/JHU/Univ Rome IP); ex-US partnered with Nippon Shinyaku",
+      "indications": [
+        {
+          "indication": "Duchenne muscular dystrophy (DMD)",
+          "highest_phase": "P3",
+          "trial_name": "HOPE-3",
+          "trial_design": "Phase 3 randomized double-blind placebo-controlled IV infusion in ambulatory and non-ambulatory DMD",
+          "nct_ids": ["NCT05126758", "NCT04428476"],
+          "trial_status": "Active, not recruiting; BLA submitted to FDA Dec 2024",
+          "lead_sponsor": "Capricor Inc.",
+          "key_milestones": ["BLA filed Dec 2024", "Futility analysis non-futile (HOPE-3)"]
+        }
+      ]
+    },
+    {
+      "asset": "StealthX SARS-CoV-2 vaccine",
+      "aka": ["StealthX-Spike exosome vaccine"],
+      "modality": "Exosome-based vaccine",
+      "target": "SARS-CoV-2 spike",
+      "license_origin": "Internal (NIH/NIAID Project NextGen collaboration)",
+      "indications": [
+        {
+          "indication": "COVID-19 prevention",
+          "highest_phase": "P1",
+          "trial_name": "NIAID Project NextGen Phase 1",
+          "trial_design": "Phase 1 vaccine safety/immunogenicity (NIAID-sponsored)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per 10-K (NIAID DMID overseeing)",
+          "lead_sponsor": "NIAID (Capricor supplies investigational product)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Deramiocel for Becker muscular dystrophy (preclinical)",
+    "StealthX therapeutic exosomes (preclinical)",
+    "CDC-Exosomes for DMD (preclinical)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT01458405 ALLSTAR myocardial infarction (terminated)",
+    "Cenderitide HF program (NCT02603614, NCT02359227 — completed, deprioritized)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3": 1,
+    "p2": 0,
+    "p1": 1
+  }
+}

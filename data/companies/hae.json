@@ -1,0 +1,40 @@
+{
+  "issuer_name": "HAEMONETICS CORP",
+  "ticker": "HAE",
+  "exchange": "NYSE",
+  "cik": "0000313143",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "fetch_10k.py could not locate standard pipeline section heading - typical for medtech-only filer; full 10-K downloaded but no dedicated drug pipeline section",
+      "note": "Latest 10-K available; Haemonetics is a blood and plasma technology medtech; product pipeline relates to medical devices (apheresis systems, hemostasis monitoring), not drug candidates."
+    },
+    "website": {
+      "error": "Not applicable - medtech/blood-management company; no proprietary drug pipeline page"
+    },
+    "ctgov": {
+      "path": "data/hae_ctgov_compact.json",
+      "note": "Only 2 trials referencing Haemonetics; both COMPLETED. NCT01359878 sponsor is Copenhagen University Hospital (Haemonetics is collaborator). NCT02145507 was an internal blood-additive solution (AS-7/SOLX) feasibility study, COMPLETED 2014; no follow-on active program."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Haemonetics is a medical-technology company providing blood and plasma supply-chain management. Key product franchises: NexSys PCS / NexLynk DMS plasma collection; Cell Saver Elite+ surgical autotransfusion; TEG 6s hemostasis analyzer; VASCADE / VASCADE MVP vascular closure systems (acquired via Cardiva); Vivasure Medical (PerQseal closure devices, acquired 2024). No proprietary therapeutic P1/P2/P3 drug development programs."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT02145507", "reason": "COMPLETED 2014 - SOLX/AS-7 whole blood additive feasibility, no successor program"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT01359878", "reason": "Copenhagen University Hospital sponsor; Haemonetics among many collaborators / funders"}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech (blood and plasma technology) - no proprietary clinical drug pipeline. Haemonetics develops and sells medical devices (apheresis, autotransfusion, hemostasis analyzers, vascular closure devices). Device improvements are validated through 510(k) / IDE pathways and post-market clinical evidence rather than drug-style P1/P2/P3 trials."
+}

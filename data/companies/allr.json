@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Allarity Therapeutics, Inc.",
+  "ticker": "ALLR",
+  "exchange": "Nasdaq",
+  "cik": "0001860657",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-010310", "filing_date": "2026-03-30", "doc": "allr20251231_10k.htm"},
+    "website": {"url": "https://allarity.com/pipeline", "ok": true, "note": "Stenoparib confirmed as sole active asset"},
+    "ctgov": {"trials_returned": 7, "note": "Only 1 RECRUITING (NCT03878849, recurrent ovarian); rest COMPLETED/TERMINATED/SUSPENDED. New 2025 PROC and 2026 SCLC trials not yet appearing as separate ctgov listings."}
+  },
+  "pipeline": [
+    {
+      "asset": "Stenoparib",
+      "aka": ["E7449", "2X-121"],
+      "modality": "Oral small-molecule dual PARP1/2 and tankyrase inhibitor (BBB-penetrant)",
+      "target": "PARP1, PARP2, Tankyrase 1/2 (WNT pathway)",
+      "license_origin": "In-licensed worldwide from Eisai, Inc.",
+      "indications": [
+        {
+          "indication": "Recurrent advanced ovarian cancer (DRP-selected)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Stenoparib in advanced ovarian cancer (3+ prior lines, DRP+)",
+          "trial_design": "Open-label Phase 2; Cohort 1 600 mg QD; Cohort 2 600 mg BID (200 mg AM / 400 mg PM) in DRP+ patients; multi-site US and Europe",
+          "nct_ids": ["NCT03878849"],
+          "trial_status": "RECRUITING (primary completion 2027-03)",
+          "lead_sponsor": "Allarity Therapeutics",
+          "key_milestones": [
+            "1 confirmed complete response (RECIST v1.1)",
+            "1 platinum-refractory patient on therapy >10 months",
+            "2 patients with stable disease on therapy >30 months"
+          ]
+        },
+        {
+          "indication": "Platinum-resistant or platinum-ineligible ovarian cancer (PROC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PROC stenoparib dose-finding with DRP biopsy enrichment",
+          "trial_design": "Phase 2, 2-arm randomized: 600 mg BID (200 AM/400 PM) vs 800 mg BID (400/400); 20 patients per arm (n=40); fresh tumor biopsy for DRP scoring; PROC patients with <=1 line beyond PROC designation",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING — initiated June 2025",
+          "lead_sponsor": "Allarity Therapeutics",
+          "key_milestones": ["Define DRP score cutoff to enable pivotal patient selection"]
+        },
+        {
+          "indication": "Relapsed Small Cell Lung Cancer (SCLC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Stenoparib + Temozolomide in relapsed SCLC (VA-funded)",
+          "trial_design": "Randomized, biomarker-driven Phase 2; stenoparib in combination with temozolomide; fully funded by US Veterans Administration",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING — opened January 2026",
+          "lead_sponsor": "Allarity Therapeutics (VA-funded)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Dovitinib", "indication": "Multiple", "status": "Terminated 2024 (returned to Novartis)"},
+    {"asset": "Irofulven", "indication": "mCRPC", "nct_ids": ["NCT03643107"], "status": "Terminated 2024 (program halted)"},
+    {"asset": "LiPlaCis", "indication": "Various", "nct_ids": ["NCT01861496"], "status": "COMPLETED — out-licensed to Chosa ApS"},
+    {"asset": "APO010", "indication": "Multiple Myeloma", "nct_ids": ["NCT03196947"], "status": "TERMINATED"},
+    {"asset": "Ixabepilone", "indication": "Metastatic Breast Cancer (DRP)", "nct_ids": ["NCT04796324"], "status": "TERMINATED"},
+    {"asset": "Stenoparib + dovitinib combo MTD", "indication": "Advanced solid tumors", "nct_ids": ["NCT05571969"], "status": "SUSPENDED"},
+    {"asset": "Stenoparib mBC DRP", "indication": "Metastatic Breast Cancer", "nct_ids": ["NCT03562832"], "status": "COMPLETED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p1": 0, "p2": 3, "p3": 0}
+}

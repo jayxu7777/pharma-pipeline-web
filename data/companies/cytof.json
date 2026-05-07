@@ -1,0 +1,32 @@
+{
+  "issuer_name": "Altamira Therapeutics Ltd.",
+  "ticker": "CYTOF",
+  "exchange": "OTC",
+  "cik": "0001601936",
+  "region": "BM",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Bermuda) — files 20-F, not 10-K"},
+    "website": {"url": "https://altamiratherapeutics.com", "note": "Pipeline pages list xPhore nucleic-acid delivery platform (preclinical, out-licensing) and Bentrio nasal spray (commercial OTC medical device); no active P1/P2/P3 internal trials disclosed"},
+    "ctgov": {"unique_trials_p1_p3": 10, "active": 0, "lead_sponsors_searched": ["Altamira Therapeutics", "Auris Medical AG", "Auris Medical, Inc."], "note": "All historical trials (Keyzilen/AM-101, Sonsuvi/AM-111, AM-125 betahistine) are COMPLETED or TERMINATED"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Bentrio",
+    "type": "Drug-free preservative-free nasal spray (OTC / medical device)",
+    "indication": "Allergic rhinitis prophylaxis / protection against airborne allergens and viruses",
+    "status": "Commercialized in select markets"
+  },
+  "no_active_clinical_pipeline_reason": "Altamira has wound down its inner-ear clinical programs (Keyzilen/AM-101, Sonsuvi/AM-111, AM-125 betahistine — all completed or terminated) and is now focused on (i) commercializing Bentrio as an OTC nasal spray and (ii) preclinical out-licensing of its xPhore peptide-based nucleic-acid delivery platform (OligoPhore / SemaPhore). No active company-sponsored Phase 1/2/3 trials at snapshot date.",
+  "excluded_preclinical": [
+    {"asset": "xPhore / OligoPhore / SemaPhore platform", "reason": "Preclinical nucleic-acid delivery platform; available for out-licensing"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "AM-101 (Keyzilen, esketamine intratympanic)", "reason": "Phase 3 tinnitus program completed/terminated"},
+    {"asset": "AM-111 (Sonsuvi, brimapitide)", "reason": "Phase 3 sudden sensorineural hearing loss program completed"},
+    {"asset": "AM-125 (intranasal betahistine)", "reason": "Phase 2 vertigo program completed; not advancing internally"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

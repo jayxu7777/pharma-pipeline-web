@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Evotec SE",
+  "ticker": "EVOTF",
+  "exchange": "OTC",
+  "cik": "0001412558",
+  "region": "DE",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (German company); files 20-F or no annual report on SEC EDGAR. fetch_10k.py returned 'No 10-K found in recent filings'."},
+    "website": {"url": "https://www.evotec.com/", "fetched": "2026-05-06", "note": "Evotec public pipeline page (/en/innovate/pipeline) returns 404; corporate site emphasizes contract drug discovery and preclinical services, not company-owned pipeline"},
+    "ctgov": {"sponsor": "Evotec", "trials_returned": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "JST-010",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "Yersinia pestis (pneumonic plague pre-exposure prophylaxis)",
+      "license_origin": "internal (Just-Evotec Biologics)",
+      "indications": [
+        {
+          "indication": "Pre-exposure prophylaxis against pneumonic plague (healthy adults)",
+          "highest_phase": "P1",
+          "trial_name": "Ph1 randomized, double-blind, controlled dose escalation/expansion study of JST-010 in healthy adults",
+          "trial_design": "Phase 1 randomized double-blind placebo-controlled dose-escalation and expansion in healthy adults",
+          "nct_ids": ["NCT06943378"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Just-Evotec Biologics",
+          "key_milestones": ["Started 2025-05-16", "Primary completion expected 2027-04"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT00526968", "asset": "EVT 101 (NMDA NR2B antagonist) P1", "reason": "Completed 2007"},
+    {"nct_id": "NCT00622752", "asset": "EVT 302 P2 smoking cessation", "reason": "Completed 2008"},
+    {"nct_id": "NCT00738595", "asset": "EVT 302 P2 smoking cessation", "reason": "Completed 2009"},
+    {"nct_id": "NCT00380003", "asset": "EVT 201 P2 insomnia", "reason": "Completed"},
+    {"nct_id": "NCT00401284", "asset": "EVT 201 P2 elderly daytime sleepiness", "reason": "Completed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 0, "P1": 1},
+  "blockers": ["Foreign private issuer — no 10-K available", "Public corporate pipeline page returns 404; Evotec is primarily a CRO/CDMO, with most company-owned pipeline assets out-licensed or partner-owned (excluded per scope)"]
+}

@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Adaptive Biotechnologies Corp",
+  "ticker": "ADPT",
+  "exchange": "Nasdaq",
+  "cik": "0001478320",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Adaptive Biotechnologies is an MRD diagnostics company (clonoSEQ FDA-cleared assay) plus an Immune Medicine (TCR/BCR sequencing) platform business. It does not own any internal therapeutic drug candidates in active P1/P2/P3 development. The clinical trials listed on ClinicalTrials.gov where Adaptive appears are investigator-sponsored trials at MSKCC, UCSF, Fox Chase, etc. that use clonoSEQ as an MRD measurement tool — not Adaptive-owned drug assets.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001193125-26-076902",
+      "path": "data/adpt_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.adaptivebiotech.com/pipeline",
+      "note": "Page covers clonoSEQ diagnostic indications only; no therapeutic pipeline displayed."
+    },
+    "ctgov": {
+      "path": "data/adpt_ctgov_compact.json",
+      "note": "5 trials returned; all are investigator-sponsored trials using clonoSEQ as MRD assay, none are Adaptive-owned therapeutic candidates."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "clonoSEQ",
+    "type": "FDA-cleared next-generation sequencing in vitro diagnostic for MRD detection",
+    "indications": ["Multiple myeloma", "B-cell acute lymphoblastic leukemia", "Chronic lymphocytic leukemia", "DLBCL (LDT)", "MCL (LDT)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT06828991", "reason": "MSKCC/Genentech-sponsored DLBCL trial; Adaptive is collaborator providing clonoSEQ MRD measurement only."},
+    {"nct_id": "NCT06557330", "reason": "Fox Chase Cancer Center investigator trial; Adaptive supplies clonoSEQ only."},
+    {"nct_id": "NCT06252675", "reason": "UCSF investigator trial of Glofitamab + Pirtobrutinib; Adaptive collaborator providing clonoSEQ only."},
+    {"nct_id": "NCT04419519", "reason": "MSKCC investigator trial of Venetoclax in CLL; Adaptive provides MRD assay only."},
+    {"nct_id": "NCT02553642", "reason": "Completed MSKCC trial of Nivolumab/Ipilimumab; Adaptive collaborator on TMB analysis only."}
+  ],
+  "summary_counts": {"total_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0}
+}

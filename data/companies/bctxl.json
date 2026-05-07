@@ -1,0 +1,76 @@
+{
+  "issuer_name": "BriaCell Therapeutics Corp.",
+  "ticker": "BCTXL",
+  "exchange": "Nasdaq",
+  "cik": "0001610820",
+  "region": "US/Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-10-16",
+      "accession": "0001493152-25-018212",
+      "path": "data/bctxl_10k_pipeline_section.html"
+    },
+    "website": {"error": "https://briacell.com/pipeline returned only template/CSS via WebFetch — no extractable content"},
+    "ctgov": {"path": "data/bctxl_ctgov_compact.json", "trials_kept": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "Bria-IMT",
+      "aka": ["SV-BR-1-GM"],
+      "modality": "Whole-cell allogeneic targeted immunotherapy (irradiated SV-BR-1-GM cell line)",
+      "target": "GM-CSF-secreting tumor cell vaccine; combined with anti-PD-1 (retifanlimab)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced metastatic breast cancer",
+          "highest_phase": "Phase 3 (pivotal)",
+          "trial_name": "Bria-ABC pivotal study (Bria-IMT regimen + CPI vs Physician's Choice)",
+          "trial_design": "Randomized, open-label pivotal Phase 3 vs treatment of physician's choice; Fast Track Designation by FDA",
+          "nct_ids": ["NCT06072612"],
+          "trial_status": "Recruiting (started 2023-12-05; primary completion 2027-12)",
+          "lead_sponsor": "BriaCell Therapeutics Corporation",
+          "key_milestones": ["Pivotal Phase 3 ongoing", "Primary completion 2027-12"]
+        },
+        {
+          "indication": "Metastatic breast cancer (combination with retifanlimab)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Combination Study of SV-BR-1-GM With Retifanlimab",
+          "trial_design": "Open-label combination study with anti-PD-1 retifanlimab and low-dose cyclophosphamide / interferon",
+          "nct_ids": ["NCT03328026"],
+          "trial_status": "Completed (primary completion 2026-03-24)",
+          "lead_sponsor": "BriaCell Therapeutics Corporation",
+          "key_milestones": ["P1/2a concluded 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "Bria-OTS",
+      "aka": ["BC1 cell line", "Bria-OTS+"],
+      "modality": "Personalized off-the-shelf whole-cell immunotherapy platform",
+      "target": "HLA-matched tumor cell vaccine + immune checkpoint inhibitor (tislelizumab)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Metastatic recurrent breast cancer",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Study of BRIA-OTS Cellular Immunotherapy in Metastatic Recurrent Breast Cancer",
+          "trial_design": "Open-label Phase 1/2 with tislelizumab; expansion cohort planned",
+          "nct_ids": ["NCT06471673"],
+          "trial_status": "Recruiting (started 2024-05-29)",
+          "lead_sponsor": "BriaCell Therapeutics Corporation",
+          "key_milestones": ["Trial initiated August 2024"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Bria-PROS+", "reason": "Personalized off-the-shelf immunotherapy for metastatic prostate cancer; P1/2a trial PLANNED — funded by US$2.05M NCI grant Aug 2025; manufacturing in progress, not yet enrolling"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "SV-BR-1-GM monotherapy", "trial": "NCT03066947", "reason": "Completed Phase 1/2a in 2018; superseded by Bria-IMT combination program"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 1, "P2": 2, "P1": 0}
+}

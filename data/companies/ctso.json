@@ -1,0 +1,74 @@
+{
+  "issuer_name": "Cytosorbents Corp",
+  "ticker": "CTSO",
+  "exchange": "Nasdaq",
+  "cik": "0001175151",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001104659-26-036451",
+      "path": "data/ctso_10k_pipeline_section.html",
+      "note": "Medical device company. CytoSorb hemoperfusion adsorber CE-marked in EU and distributed in 70+ countries. Lead U.S./Canada development asset is DrugSorb-ATR (antithrombotic removal system). STAR-T pivotal IDE completed enrollment in 2023 (140 patients); De Novo submission filed Sept 2024, denied April 2025, appeal upheld denial Aug 2025 with no safety issues; new De Novo submission being prepared in 2026. STAR-D IDE study on hold. PROCYSS (Germany, refractory septic shock) paused pending protocol amendment."
+    },
+    "website": {
+      "error": "no public pipeline page extracted - device-company website (cytosorbents.com) information already captured via 10-K"
+    },
+    "ctgov": {
+      "path": "data/ctso_ctgov_compact.json",
+      "kept_p123": 3,
+      "note": "All three returned trials are non-active: NCT04643639 (sepsis hemoperfusion, COMPLETED, sponsor Radboud UMC), NCT01879176 (cardiopulmonary bypass cytokine removal, COMPLETED, sponsor Med Univ Vienna), NCT02111018 (rhabdomyolysis, WITHDRAWN, sponsor CytoSorbents). No active company-sponsored P1/P2/P3 trials currently enrolling per ctgov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Extracorporeal blood purification medical device (hemoperfusion adsorber)",
+    "lead_product": "CytoSorb",
+    "approval_status": "CE Mark in EU (since 2011) for cytokine removal in critical care; CE Mark label expansions in 2020 for ticagrelor and rivaroxaban removal during cardiopulmonary bypass. Distributed in 70+ countries with >300,000 devices used cumulatively.",
+    "investigational_us_product": {
+      "name": "DrugSorb-ATR Antithrombotic Removal System",
+      "regulatory_status": "FDA Breakthrough Device Designation (ticagrelor and DOACs). De Novo Request submitted Sept 2024; denied April 2025; appeal upheld denial Aug 2025 (no safety issues). New De Novo submission being prepared with additional real-world data; pre-submission FDA meeting held Jan 2026.",
+      "supporting_pivotal_trial": "STAR-T (Safe and Timely Antithrombotic Removal - Ticagrelor): U.S./Canada double-blind RCT, 140 patients, completed enrollment July 2023. Did not meet primary effectiveness endpoint in overall population, but showed significant reduction in perioperative bleeding severity in pre-specified isolated CABG subgroup (>90% of trial). Final results published Jan 2026 in Journal of Thoracic and Cardiovascular Surgery."
+    },
+    "veterinary_product": "VetResQ (formerly CytoSorb-XL) — emergency/critical care use in animals, commercialized primarily in U.S."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "STAR-D (DrugSorb-ATR for DOAC removal)",
+      "trial_status": "On hold for business reasons; resources prioritized to STAR-T completion and FDA submissions. Future label-expansion discussions with FDA pending the ongoing DrugSorb-ATR review.",
+      "nct_ids": []
+    },
+    {
+      "asset": "PROCYSS (CytoSorb in refractory septic shock)",
+      "trial_status": "Paused; protocol amendment in progress due to slow enrollment. Company anticipates redesign completion in 2026.",
+      "country": "Germany",
+      "nct_ids": []
+    },
+    {
+      "asset": "NCT02111018 - CytoSorb rhabdomyolysis Phase 2",
+      "trial_status": "WITHDRAWN per ClinicalTrials.gov."
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "trial": "NCT04643639 (Phase 3 sepsis/hemoperfusion)",
+      "lead_sponsor": "Radboud University Medical Center",
+      "reason": "Investigator-initiated; CytoSorbents Europe is collaborator only. Trial COMPLETED."
+    },
+    {
+      "trial": "NCT01879176 (Phase 3 cardiopulmonary bypass cytokine removal)",
+      "lead_sponsor": "Medical University of Vienna",
+      "reason": "Investigator-initiated; CytoSorbents is collaborator only. Trial COMPLETED."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company (extracorporeal blood purification adsorbers). Lead pivotal IDE study (STAR-T) completed in 2023 and the company is now in FDA De Novo regulatory review for DrugSorb-ATR; no active enrolling company-sponsored P1/P2/P3 interventional studies of CytoSorbents' own devices at the snapshot date. STAR-D and PROCYSS are paused/on hold. Real-world STAR and COSMOS registries are observational, not interventional P1/P2/P3."
+}

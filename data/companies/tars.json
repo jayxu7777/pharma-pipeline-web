@@ -1,0 +1,118 @@
+{
+  "issuer_name": "Tarsus Pharmaceuticals, Inc.",
+  "ticker": "TARS",
+  "exchange": "Nasdaq",
+  "cik": "0001819790",
+  "region": "US (Irvine, CA)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-23",
+      "accession": "0001819790-26-000019",
+      "doc": "tars-20251231.htm",
+      "path": "data/tars_10k_full.htm"
+    },
+    "website": {
+      "url": "https://tarsusrx.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_queried": "Tarsus Pharmaceuticals",
+      "compact_path": "data/tars_ctgov_compact.json",
+      "trial_count": 11
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "TP-03 (lotilaner ophthalmic solution 0.25%)",
+      "aka": ["XDEMVY"],
+      "modality": "Topical ophthalmic small molecule (parasiticide)",
+      "target": "GABA-Cl channel of Demodex mite (parasiticide)",
+      "license_origin": "In-licensed from Elanco (lotilaner; veterinary origin)",
+      "indications": [
+        {
+          "indication": "Demodex blepharitis (China registration)",
+          "highest_phase": "Phase 3",
+          "trial_name": "China bridging Phase 3 (Grand Pharmaceutical Group partnership)",
+          "trial_design": "Pivotal bridging study for China NMPA",
+          "nct_ids": "Not on public registry (Grand Pharma sponsored, possibly Chinese registry only)",
+          "trial_status": "Active per company disclosures",
+          "lead_sponsor": "Grand Pharmaceutical Group / Tarsus",
+          "key_milestones": []
+        },
+        {
+          "indication": "Demodex blepharitis (EU; preservative-free formulation)",
+          "highest_phase": "Phase 2",
+          "trial_name": "TP-03 EU PF program",
+          "trial_design": "Preservative-free formulation development",
+          "nct_ids": "Not on public registry",
+          "trial_status": "In development per company disclosure",
+          "lead_sponsor": "Tarsus Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TP-04 (lotilaner gel 2.0%)",
+      "aka": [],
+      "modality": "Topical dermatologic gel",
+      "target": "Demodex mites / inflammatory pathway",
+      "license_origin": "Internal (lotilaner reformulation)",
+      "indications": [
+        {
+          "indication": "Ocular rosacea (KORE study)",
+          "highest_phase": "Phase 2",
+          "trial_name": "KORE",
+          "trial_design": "Lotilaner ophthalmic gel vs vehicle in ocular rosacea",
+          "nct_ids": ["NCT07443202"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Tarsus Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TP-05 (oral lotilaner)",
+      "aka": [],
+      "modality": "Oral small molecule (parasiticide)",
+      "target": "Tick-borne Borrelia (via tick GABA-Cl) / mosquitoes",
+      "license_origin": "Internal (lotilaner reformulation)",
+      "indications": [
+        {
+          "indication": "Lyme disease prevention (tick exposure)",
+          "highest_phase": "Phase 2",
+          "trial_name": "TP-05 tick exposure",
+          "trial_design": "Low/high dose vs placebo in healthy participants with tick exposure",
+          "nct_ids": ["NCT07562087"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Tarsus Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Malaria prevention (early-stage)",
+          "highest_phase": "Phase 1",
+          "trial_name": "TP-05 PK / food effect studies",
+          "trial_design": "Healthy volunteer PK and food-effect",
+          "nct_ids": ["NCT05138796", "NCT05720364"],
+          "trial_status": "Completed (P1 readouts)",
+          "lead_sponsor": "Tarsus Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "XDEMVY": "Lotilaner ophthalmic solution 0.25% - FDA-approved for Demodex blepharitis (US)"
+  },
+  "excluded_preclinical": ["Earlier-stage formulation/indication candidates"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 1,
+    "phase_2": 2,
+    "phase_1": 0,
+    "note": "TP-03 = commercial XDEMVY in US + China P3; TP-04 P2 (KORE); TP-05 P2 (Lyme tick study). Lotilaner platform across all assets."
+  }
+}

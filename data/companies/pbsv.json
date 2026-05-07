@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Pharma-Bio Serv, Inc.",
+  "ticker": "PBSV",
+  "exchange": "OTC",
+  "cik": "0001304161",
+  "region": "US (Puerto Rico HQ)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001654954-26-000710",
+      "filing_date": "2026-01-29",
+      "path": "data/pbsv_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found - issuer is a technical compliance consulting services firm, not a drug developer"
+    },
+    "ctgov": {
+      "path": "data/pbsv_ctgov_compact.json",
+      "trials_p1_p3": 0,
+      "note": "No active P1/P2/P3 trials with Pharma-Bio Serv as lead sponsor."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Services / consulting company - Pharma-Bio Serv operates three technical compliance consulting segments (Puerto Rico, United States, Europe) providing quality assurance, regulatory compliance, technology transfer, validation, engineering, and manufacturing consulting services to pharmaceutical, biotech, medical device, and chemical manufacturers. No proprietary clinical pipeline."
+}

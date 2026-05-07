@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Stemtech Corp",
+  "ticker": "STEK",
+  "exchange": "OTC",
+  "cik": "0001511820",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession_fetched": "available at data/stek_10k_full.htm",
+      "slice_error": "fetch_10k.py could not locate a Business/Item 1 pipeline section heading \u2014 filing is a small-cap consumer-products 10-K with no drug/device pipeline section",
+      "full_path": "data/stek_10k_full.htm"
+    },
+    "website": {
+      "url": "https://stemtech.com/",
+      "note": "Direct-sales / e-commerce storefront for nutraceutical and skincare products; no clinical pipeline page exists",
+      "error": "no public pipeline page found"
+    },
+    "ctgov": {
+      "unique_trials_p1_3": 0,
+      "compact_path": "data/stek_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Plant-based nutraceuticals, oral care, and skincare (\"stemceuticals\")",
+    "products": [
+      "RCM System",
+      "stemrelease3",
+      "Stemflo MigraStem",
+      "OraStem oral care",
+      "D-Fuze EMF blocker",
+      "StemPets pet nutraceuticals (launched 2025)"
+    ],
+    "regulatory_status": "Dietary supplements / cosmetics; not FDA-approved drugs"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Direct-sales nutraceutical / skincare company (MLM channel plus e-commerce). Products are dietary supplements and cosmetics, not investigational drugs or devices. No proprietary clinical pipeline."
+}

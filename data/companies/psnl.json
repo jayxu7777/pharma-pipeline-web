@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Personalis, Inc.",
+  "ticker": "PSNL",
+  "exchange": "Nasdaq",
+  "cik": "0001527753",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-076615",
+      "filing_date": "2026-02-26",
+      "doc": "psnl-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.personalis.com/",
+      "note": "Corporate site describes diagnostic/testing products (NeXT Personal Dx, NeXT Dx, ImmunoID NeXT). No drug pipeline page exists; /pipeline returns 404."
+    },
+    "ctgov": {
+      "query_sponsor": "Personalis",
+      "unique_trials_p1_p3": 2,
+      "note": "Both ctgov trials (NCT05197322, NCT05414032) list Personalis as collaborator only; lead sponsors are University College London and University Health Network Toronto. Personalis is not the trial sponsor and the interventions are not Personalis-owned assets."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "description": "Genomic testing / precision diagnostics services company. Serves clinicians, patients, and biopharma customers; not a drug developer.",
+    "products": [
+      {
+        "name": "NeXT Personal Dx",
+        "type": "Tumor-informed ctDNA liquid biopsy for molecular residual disease (MRD) detection",
+        "status": "Commercial / clinical use"
+      },
+      {
+        "name": "NeXT Dx",
+        "type": "Comprehensive tumor profiling test",
+        "status": "Commercial"
+      },
+      {
+        "name": "ImmunoID NeXT",
+        "type": "Tissue biomarker / immuno-oncology profiling platform for biopharma",
+        "status": "Commercial / research-use service"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "nct_id": "NCT05197322",
+      "title": "NEOadjuvant PembRolizumab In Stratified Medicine - ColoRectal Cancer (NEOPRISM-CRC)",
+      "phase": "PHASE2",
+      "lead_sponsor": "University College, London",
+      "reason": "Personalis listed only as collaborator providing testing services; intervention (pembrolizumab) is Merck's drug."
+    },
+    {
+      "nct_id": "NCT05414032",
+      "title": "Molecular Residual Disease Interception in LA-HNSCC",
+      "phase": "PHASE2",
+      "lead_sponsor": "University Health Network, Toronto",
+      "reason": "Personalis listed only as collaborator; intervention (AZD2936) is AstraZeneca's drug."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Personalis is a genomic testing / precision diagnostics services company (NeXT Personal Dx MRD liquid biopsy, NeXT Dx, ImmunoID NeXT). It does not develop or own therapeutic drug assets. Its presence on ClinicalTrials.gov is solely as a testing-service collaborator on third-party-sponsored oncology trials, not as a drug sponsor."
+}

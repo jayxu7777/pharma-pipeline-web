@@ -1,0 +1,58 @@
+{
+  "issuer_name": "Chemomab Therapeutics Ltd.",
+  "ticker": "CMMB",
+  "exchange": "Nasdaq",
+  "cik": "0001534248",
+  "region": "Israel (foreign private issuer — files 20-F)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"note": "Latest filing the parser fetched is dated 2023-03-20; Chemomab is an Israeli foreign private issuer (files 20-F), so 10-K coverage is limited"},
+    "website": {"url": "https://chemomab.com/pipeline", "note": "Pipeline page returned mostly CSS — content not extractable via WebFetch; cross-checked with company press releases"},
+    "ctgov": {"trials_returned": 6, "active_p1_p2_p3": 1, "note": "SPRING (NCT04595825) ACTIVE_NOT_RECRUITING; Systemic Sclerosis Phase 2 (NCT06210945) SUSPENDED with planned 2026-09 start; rest COMPLETED"}
+  },
+  "pipeline": [
+    {
+      "asset": "Nebokitug",
+      "aka": ["CM-101", "anti-CCL24 monoclonal antibody"],
+      "modality": "Humanized monoclonal antibody (anti-CCL24 / eotaxin-2)",
+      "target": "CCL24 (chemokine)",
+      "license_origin": "Internal (Chemomab)",
+      "indications": [
+        {
+          "indication": "Primary Sclerosing Cholangitis (PSC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Nebokitug pivotal Phase 3 (PSC)",
+          "trial_design": "Phase 3 pivotal registration trial; primary composite endpoint of clinical events associated with PSC disease progression; design aligned with FDA at Feb-2025 End-of-Phase-2 meeting",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — End-of-Phase-2 FDA alignment Feb 2025; trial start pending strategic partnership",
+          "lead_sponsor": "Chemomab Therapeutics Ltd.",
+          "key_milestones": [
+            "Feb 2025: WHO INN designation nebokitug",
+            "Feb 2025: Successful End-of-Phase-2 FDA meeting with alignment on Phase 3 design",
+            "Mar 2025: Positive open-label-extension results from SPRING",
+            "Dec 2025: SPRING Phase 2 results published in American Journal of Gastroenterology",
+            "Phase 2 SPRING (NCT04595825): completed primary, ACTIVE_NOT_RECRUITING for OLE follow-up"
+          ]
+        },
+        {
+          "indication": "Systemic Sclerosis (SSc)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CM-101 in Systemic Sclerosis",
+          "trial_design": "Phase 2, randomized, placebo-controlled; 10 mg/kg CM-101 vs placebo",
+          "nct_ids": ["NCT06210945"],
+          "trial_status": "SUSPENDED on ctgov (planned start 2026-09, primary completion 2028-06) — currently inactive pending funding/partnership",
+          "lead_sponsor": "ChemomAb Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "CM-101", "indication": "NASH (SPLASH)", "nct_ids": ["NCT05824156"], "status": "COMPLETED — program de-prioritized to focus on PSC"},
+    {"asset": "CM-101", "indication": "Phase 1 healthy/PK studies", "nct_ids": ["NCT06037577", "NCT06044467", "NCT06025851"], "status": "COMPLETED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p1": 0, "p2": 1, "p3": 1}
+}

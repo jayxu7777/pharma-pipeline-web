@@ -1,0 +1,40 @@
+{
+  "issuer_name": "BioNexus Gene Lab Corp",
+  "ticker": "BGLC",
+  "exchange": "Nasdaq",
+  "cik": "0001737523",
+  "region": "US (Wyoming) with Malaysia operating subsidiaries",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-14",
+      "accession": "0001477932-26-002218",
+      "path": "data/bglc_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.bionexusgenelab.com",
+      "note": "No pipeline page attempted because issuer is a chemical distributor (Chemrex) plus genomic screening lab services (MRNA Scientific) — not a drug developer"
+    },
+    "ctgov": {
+      "path": "data/bglc_ctgov_compact.json",
+      "note": "Sponsor 'BioNexus Gene Lab' returned 0 P1-3 trials"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "Chemrex Corporation Sdn. Bhd.": "Industrial chemical raw materials distribution across Malaysia, Indonesia, Vietnam and other Southeast Asia markets",
+    "MRNA Scientific Sdn. Bhd.": "Blood-based genomic screening / lab services for early disease risk assessment",
+    "VitaGuard MRD platform (licensed Nov 2025)": "Exclusive ASEAN commercial rights to Fidelion Diagnostics' AI-enabled minimal residual disease liquid biopsy platform; deployment phase formally commenced Jan 2026 — commercial diagnostic, not a drug clinical-trial program"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Distribution / services / diagnostics company — no proprietary clinical drug pipeline. Operates two Malaysia subsidiaries: Chemrex (industrial chemical distribution) and MRNA Scientific (commercial genomic screening lab services). In Nov 2025 licensed Fidelion's VitaGuard MRD diagnostic platform for ASEAN — commercial diagnostic deployment, not a drug development program."
+}

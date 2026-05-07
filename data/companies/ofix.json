@@ -1,0 +1,47 @@
+{
+  "issuer_name": "Orthofix Medical Inc.",
+  "ticker": "OFIX",
+  "exchange": "Nasdaq",
+  "cik": "0000884624",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-065189",
+      "filed": "2026-02-24",
+      "doc": "ofix-20251231.htm",
+      "note": "10-K downloaded but no drug-pipeline section heading present (medtech filer)."
+    },
+    "website": {
+      "url": "https://www.orthofix.com",
+      "note": "Marketed spine, limb-reconstruction, surgical-navigation, bone-growth, and biologics portfolio. No dedicated drug-pipeline page; no NCT IDs or pivotal IDE studies disclosed on the public site."
+    },
+    "ctgov": {
+      "sponsor_query": "Orthofix",
+      "unique_active_p1_p3_trials": 0,
+      "note": "ClinicalTrials.gov returned 0 active P1-P3 trials sponsored by Orthofix."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Orthofix is a marketed-device medtech company (spine fixation, bone-growth stimulation, limb reconstruction, surgical navigation, biologics).",
+    "categories": [
+      "Spinal fixation and interbody systems (ALIF, LLIF, cervical, thoracolumbar)",
+      "Bone growth therapies (SpinalStim, CervicalStim, AccelStim)",
+      "Surgical navigation (7D FLASH Navigation System, FLASH EVD)",
+      "Limb reconstruction and external fixation",
+      "Biologics (Accell Bone Matrix, IsoTis portfolio, OsteoBallast)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Marketed-device medtech (spine, bone-growth stimulation, surgical navigation). No proprietary drug or active P1/P2/P3 clinical pipeline disclosed in 10-K, on corporate website, or on ClinicalTrials.gov."
+}

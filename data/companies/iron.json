@@ -1,0 +1,135 @@
+{
+  "issuer_name": "Disc Medicine, Inc.",
+  "ticker": "IRON",
+  "exchange": "Nasdaq",
+  "cik": "0001816736",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001193125-26-073602",
+      "slice_html": "data/iron_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "https://www.discmedicine.com/pipeline/ returned 403 (bot protection); 10-K + ctgov used."
+    },
+    "ctgov": {
+      "compact": "data/iron_ctgov_compact.json",
+      "lead_sponsor_query": "Disc Medicine"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Bitopertin",
+      "aka": ["DISC-1459", "RO4917838"],
+      "modality": "Small molecule (oral GlyT1 inhibitor)",
+      "target": "Glycine transporter 1 (GlyT1)",
+      "license_origin": "Exclusive worldwide license (in-licensed from Roche)",
+      "indications": [
+        {
+          "indication": "Erythropoietic Protoporphyria (EPP) and X-Linked Protoporphyria (XLP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "APOLLO Phase 3 + HELIOS open-label long-term extension (Aurora Phase 2 completed)",
+          "trial_design": "APOLLO: randomized, placebo-controlled Phase 3 in EPP/XLP. HELIOS: open-label long-term extension (Phase 2/3). Aurora (Phase 2) completed.",
+          "nct_ids": ["NCT06910358", "NCT05883748", "NCT05308472"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (APOLLO) / ENROLLING_BY_INVITATION (HELIOS extension) / Phase 2 Aurora COMPLETED",
+          "lead_sponsor": "Disc Medicine, Inc.",
+          "key_milestones": ["APOLLO Phase 3 topline data expected as next major catalyst"]
+        },
+        {
+          "indication": "Diamond-Blackfan Anemia (DBA) and other porphyrias (planned expansion)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Bitopertin DBA / additional porphyria programs",
+          "trial_design": "Planned exploratory studies",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - exploratory development planned per 10-K",
+          "lead_sponsor": "Disc Medicine, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "DISC-0974",
+      "aka": [],
+      "modality": "Anti-hemojuvelin (HJV) monoclonal antibody (subcutaneous; hepcidin suppressor)",
+      "target": "Hemojuvelin (HJV)",
+      "license_origin": "Exclusive worldwide license (in-licensed from AbbVie)",
+      "indications": [
+        {
+          "indication": "Anemia of Myelofibrosis (MF)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RALLY-MF Phase 1b/2 in MF and MDS-associated anemia",
+          "trial_design": "Open-label Phase 1b/2 in patients with MF or MDS and anemia",
+          "nct_ids": ["NCT05320198"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Disc Medicine, Inc.",
+          "key_milestones": ["Pivotal Phase 3 in MF anemia planned"]
+        },
+        {
+          "indication": "Anemia of Chronic Kidney Disease (CKD)",
+          "highest_phase": "Phase 1",
+          "trial_name": "DISC-0974 CKD anemia Phase 1",
+          "trial_design": "Single/multiple-dose Phase 1 in CKD patients with anemia",
+          "nct_ids": ["NCT05745883"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Disc Medicine, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Anemia in Inflammatory Bowel Disease (IBD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "DISC-0974-201 in IBD-associated anemia",
+          "trial_design": "Randomized placebo-controlled Phase 2",
+          "nct_ids": ["NCT07368972"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Disc Medicine, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "DISC-3405",
+      "aka": ["9MW3011"],
+      "modality": "Anti-TMPRSS6 monoclonal antibody (subcutaneous; hepcidin inducer)",
+      "target": "TMPRSS6 (matriptase-2)",
+      "license_origin": "Exclusive license outside Greater China and Southeast Asia (in-licensed from Mabwell)",
+      "indications": [
+        {
+          "indication": "Polycythemia Vera (PV)",
+          "highest_phase": "Phase 2",
+          "trial_name": "DISC-3405 Phase 2 in PV",
+          "trial_design": "Open-label Phase 2",
+          "nct_ids": ["NCT06985147"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Disc Medicine, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Sickle Cell Disease (SCD)",
+          "highest_phase": "Phase 1",
+          "trial_name": "DISC-3405 Phase 1b in SCD",
+          "trial_design": "Open-label Phase 1b",
+          "nct_ids": ["NCT07187973"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Disc Medicine, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {},
+  "excluded_preclinical": [
+    {"asset": "DISC-0998", "reason": "Preclinical hepcidin-modulating Fc-fusion / next-generation candidate"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 1,
+    "phase_2": 2,
+    "phase_1": 0,
+    "note": "Counts by highest phase per asset. Bitopertin = Phase 3 (APOLLO). DISC-0974 highest = Phase 2 (RALLY-MF). DISC-3405 highest = Phase 2 (PV)."
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "issuer_name": "Sanofi",
+  "ticker": "SNYNF",
+  "exchange": "OTC",
+  "cik": "0001121404",
+  "region": "France",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. Note: Sanofi is a multinational pharma with ~77 clinical-stage projects per company disclosures (including ~28 Phase 3, ~28 Phase 2, ~15 Phase 1, plus 6 in registration). Detail below covers flagship late-stage assets only; full asset-level enumeration would require parsing the company's complete pipeline tracker.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F instead of 10-K. SEC EDGAR returned no 10-K for CIK 0001121404 in recent filings."
+    },
+    "website": {
+      "url": "https://www.sanofi.com/en/our-science/our-pipeline",
+      "summary": "77 clinical-stage projects, 34 in Phase 3 or submitted to regulatory authorities. Distribution: 15 P1 / 28 P2 / 28 P3 / 6 Registration."
+    },
+    "ctgov": {
+      "query": "Sanofi",
+      "trials_returned": 2415,
+      "active_phase3_recruiting_or_active_not_recruiting": 66,
+      "note": "Aggregate sponsor-level totals; not asset-level."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Itepekimab",
+      "aka": ["SAR440340", "REGN3500"],
+      "modality": "Monoclonal antibody",
+      "target": "IL-33",
+      "license_origin": "Co-developed with Regeneron Pharmaceuticals",
+      "indications": [
+        {
+          "indication": "Chronic obstructive pulmonary disease (COPD), former smokers, type 2 inflammation",
+          "highest_phase": "Phase 3",
+          "trial_name": "AERIFY-1 / AERIFY-2 (Phase 3 COPD program); AERIFY-LT long-term safety extension",
+          "trial_design": "Two pivotal Phase 3 randomized placebo-controlled studies; primary endpoint reduction in moderate/severe acute exacerbations.",
+          "nct_ids": ["NCT06208306"],
+          "trial_status": "AERIFY-1 met primary endpoint; AERIFY-2 did not meet primary endpoint; long-term safety study active.",
+          "lead_sponsor": "Sanofi / Regeneron",
+          "key_milestones": [
+            "AERIFY-1 readout positive (2025).",
+            "AERIFY-2 missed primary endpoint (2025).",
+            "Phase 3 in chronic rhinosinusitis with nasal polyps (CRSwNP) initiated Q1 2025."
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Amlitelimab",
+      "aka": ["SAR445229", "KY1005"],
+      "modality": "Monoclonal antibody",
+      "target": "OX40-Ligand (OX40L)",
+      "license_origin": "Acquired via Kymab acquisition (2021)",
+      "indications": [
+        {
+          "indication": "Atopic dermatitis (AD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SHORE / COAST 2 Phase 3 atopic dermatitis program",
+          "trial_design": "Randomized placebo-controlled Phase 3; primary and key secondary endpoints in moderate-to-severe AD.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Met all primary and key secondary endpoints (SHORE); COAST 2 monotherapy met Week 24 primary endpoint.",
+          "lead_sponsor": "Sanofi",
+          "key_milestones": [
+            "Positive Phase 3 readouts in atopic dermatitis (2025).",
+            "Additional Phase 3 programs in asthma, hidradenitis suppurativa, alopecia areata."
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Tolebrutinib",
+      "aka": ["SAR442168", "PRN2246"],
+      "modality": "Small molecule, brain-penetrant Bruton's tyrosine kinase (BTK) inhibitor",
+      "target": "BTK",
+      "license_origin": "Acquired via Principia Biopharma acquisition (2020)",
+      "indications": [
+        {
+          "indication": "Non-relapsing secondary progressive multiple sclerosis (nrSPMS)",
+          "highest_phase": "Phase 3 / NDA",
+          "trial_name": "HERCULES / GEMINI 1 / GEMINI 2 / PERSEUS Phase 3 program",
+          "trial_design": "Randomized active/placebo-controlled Phase 3 studies in MS subtypes.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "FDA issued Complete Response Letter for nrSPMS NDA. PERSEUS in primary progressive MS did not meet primary endpoint; Sanofi will not pursue PPMS submission. HERCULES (nrSPMS) positive — being addressed.",
+          "lead_sponsor": "Sanofi",
+          "key_milestones": [
+            "PERSEUS missed primary endpoint in PPMS (2025).",
+            "FDA CRL on nrSPMS NDA (2025-2026)."
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Rilzabrutinib",
+      "aka": ["SAR444671", "PRN1008"],
+      "modality": "Small molecule, reversible covalent BTK inhibitor (oral)",
+      "target": "BTK",
+      "license_origin": "Acquired via Principia Biopharma acquisition (2020)",
+      "indications": [
+        {
+          "indication": "Immune thrombocytopenia (ITP)",
+          "highest_phase": "Phase 3 / submitted",
+          "trial_name": "LUNA 3 Phase 3 ITP study",
+          "trial_design": "Randomized placebo-controlled Phase 3 in adults with persistent or chronic ITP.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Filed for approval (per Sanofi pipeline disclosures); Phase 3 met primary endpoint.",
+          "lead_sponsor": "Sanofi",
+          "key_milestones": [
+            "FDA Fast Track Designation for IgG4-related disease.",
+            "FDA Orphan Drug Designation for vaso-occlusive crises in sickle cell disease.",
+            "Additional Phase 3 programs in chronic spontaneous urticaria, asthma."
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "SAR446422",
+      "aka": [],
+      "modality": "Bispecific monoclonal antibody",
+      "target": "CD28 x OX40",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Inflammatory indication (specific indication undisclosed in pipeline summary)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Sanofi pipeline P1 program",
+          "trial_design": "First-in-human Phase 1.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active Phase 1.",
+          "lead_sponsor": "Sanofi",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SAR446959",
+      "aka": [],
+      "modality": "Multi-specific Nanobody (VHH)",
+      "target": "MMP13 x ADAMTS5 x CAP",
+      "license_origin": "Internal (post-Ablynx Nanobody platform)",
+      "indications": [
+        {
+          "indication": "Knee osteoarthritis",
+          "highest_phase": "Phase 1",
+          "trial_name": "Sanofi pipeline P1 program",
+          "trial_design": "First-in-human Phase 1.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active Phase 1.",
+          "lead_sponsor": "Sanofi",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SAR448501",
+      "aka": [],
+      "modality": "Bispecific monoclonal antibody",
+      "target": "CD20 (bispecific)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Inflammatory indication (specific indication undisclosed in pipeline summary)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Sanofi pipeline P1 program",
+          "trial_design": "First-in-human Phase 1.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active Phase 1.",
+          "lead_sponsor": "Sanofi",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Sanofi has an extensive marketed portfolio (Dupixent, Aubagio, Lemtrada, vaccine franchise including Beyfortus, ALTUVIIIO, etc.) outside the scope of this active P1-P3 enumeration."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Tolebrutinib in PPMS (PERSEUS) — failed primary endpoint, will not be submitted."
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets_listed": 7,
+    "phase_3": 4,
+    "phase_2": 0,
+    "phase_1": 3,
+    "note": "Listed assets are flagship/representative. Sanofi disclosed pipeline includes 28 Phase 3, 28 Phase 2, 15 Phase 1, 6 Registration projects (77 total). Full asset-level enumeration was not feasible from the public pipeline page within agent constraints."
+  }
+}

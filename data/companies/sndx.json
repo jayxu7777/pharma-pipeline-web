@@ -1,0 +1,106 @@
+{
+  "issuer_name": "Syndax Pharmaceuticals Inc",
+  "ticker": "SNDX",
+  "exchange": "Nasdaq",
+  "cik": "0001395937",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-076536", "filing_date": "2026-02-26", "doc": "sndx-20251231.htm"},
+    "website": {"url": "https://www.syndax.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/sndx_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Revumenib",
+      "aka": ["SNDX-5613", "Revuforj"],
+      "modality": "Small molecule (menin-KMT2A inhibitor)",
+      "target": "Menin-KMT2A interaction",
+      "license_origin": "Internal (Vitae Pharmaceuticals acquisition)",
+      "indications": [
+        {
+          "indication": "R/R acute leukemia with KMT2A translocation (KMT2Ar) and R/R NPM1m AML",
+          "highest_phase": "Approved/Phase 2",
+          "trial_name": "AUGMENT-101",
+          "trial_design": "Open-label pivotal Phase 1/2 study evaluating revumenib in R/R acute leukemias with KMT2A rearrangement or NPM1 mutation",
+          "nct_ids": ["NCT04065399"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Syndax Pharmaceuticals",
+          "key_milestones": ["FDA approval Revuforj for R/R KMT2Ar acute leukemia in adults and pediatric (Nov 2024)", "sNDA approval anticipated for R/R NPM1m AML"]
+        },
+        {
+          "indication": "Frontline NPM1m AML (with intensive chemotherapy)",
+          "highest_phase": "Phase 3",
+          "trial_name": "EVOLVE-2",
+          "trial_design": "Pivotal randomized Phase 3 trial of revumenib + intensive chemotherapy in newly diagnosed NPM1m AML",
+          "nct_ids": ["NCT07211958"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Syndax Pharmaceuticals",
+          "key_milestones": ["Initiated 2025"]
+        },
+        {
+          "indication": "Frontline KMT2Ar acute leukemia",
+          "highest_phase": "Phase 1",
+          "trial_name": "REVEAL-ND / SNDX-5613 + intensive chemo",
+          "trial_design": "Phase 1 of revumenib in combination with intensive chemotherapy in AML",
+          "nct_ids": ["NCT06226571"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Syndax Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Axatilimab",
+      "aka": ["SNDX-6352", "Niktimvo"],
+      "modality": "Monoclonal antibody (anti-CSF-1R)",
+      "target": "CSF-1R",
+      "license_origin": "Co-developed with Incyte (UCB origin)",
+      "indications": [
+        {
+          "indication": "Chronic graft-versus-host disease (cGVHD), refractory (>=3rd line)",
+          "highest_phase": "Approved/Phase 2",
+          "trial_name": "AGAVE-201",
+          "trial_design": "Pivotal Phase 2 dose-finding study in R/R cGVHD",
+          "nct_ids": ["NCT04710576"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Syndax Pharmaceuticals",
+          "key_milestones": ["FDA approval Niktimvo for cGVHD after 2 prior lines (Aug 2024)"]
+        },
+        {
+          "indication": "Frontline / earlier-line cGVHD (in combination with ruxolitinib or steroids)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Frontline cGVHD program (planned/early)",
+          "trial_design": "Phase 2 evaluating axatilimab in earlier-line cGVHD settings",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — earlier-line cGVHD development per company pipeline",
+          "lead_sponsor": "Syndax Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Idiopathic pulmonary fibrosis (IPF)",
+          "highest_phase": "Phase 2",
+          "trial_name": "MAXPIRe",
+          "trial_design": "Randomized placebo-controlled Phase 2 of axatilimab in IPF",
+          "nct_ids": ["NCT06132256"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Syndax Pharmaceuticals",
+          "key_milestones": ["Primary completion 2026-09"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "Revuforj (revumenib)", "indication": "R/R KMT2Ar acute leukemia", "approval": "FDA Nov 2024"},
+      {"name": "Niktimvo (axatilimab-csfr) — co-commercialized with Incyte", "indication": "cGVHD after >=2 prior lines", "approval": "FDA Aug 2024"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Entinostat (SNDX-275)", "reason": "Legacy HDAC inhibitor; out-licensed to HUYABIO/approved in China; no active company-sponsored P1/P2/P3 in US"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "phase_3": 1, "phase_2": 4, "phase_1": 1}
+}

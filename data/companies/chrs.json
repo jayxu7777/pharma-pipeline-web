@@ -1,0 +1,88 @@
+{
+  "issuer_name": "Coherus Oncology, Inc.",
+  "ticker": "CHRS",
+  "exchange": "Nasdaq",
+  "cik": "0001512762",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-025308", "filing_date": "2026-03-09", "doc": "chrs-20251231x10k.htm"},
+    "website": {"url": "https://www.coherus.com/", "note": "Pipeline confirmed via 10-K and ctgov; web page not separately fetched."},
+    "ctgov": {"sponsor_query": "Coherus BioSciences (also matches Coherus Oncology, Inc.)", "studies_returned": 1, "note": "Supplemented by direct asset-name queries"}
+  },
+  "pipeline": [
+    {
+      "asset": "Casdozokitug",
+      "aka": ["CHS-388", "SRF388"],
+      "modality": "Recombinant human IgG1 monoclonal antibody",
+      "target": "IL-27",
+      "license_origin": "Acquired via Surface Oncology acquisition (2023)",
+      "indications": [
+        {
+          "indication": "Hepatocellular carcinoma (HCC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Casdozokitug + toripalimab + bevacizumab in HCC (randomized Phase 2)",
+          "trial_design": "Randomized Phase 2 evaluating casdozokitug in combination with toripalimab and bevacizumab",
+          "nct_ids": ["NCT06679985"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; FDA orphan drug designation in HCC (Oct 2020)",
+          "lead_sponsor": "Coherus Oncology, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Tagmokitug",
+      "aka": ["CHS-114", "SRF114"],
+      "modality": "Afucosylated human IgG1 monoclonal antibody (cytolytic, ADCC/ADCP)",
+      "target": "CCR8 (regulatory T cells in tumor microenvironment)",
+      "license_origin": "Acquired via Surface Oncology acquisition (2023)",
+      "indications": [
+        {
+          "indication": "Second-line head and neck squamous cell carcinoma (HNSCC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CHS-114 in advanced solid tumors (Phase 1b in 2L HNSCC)",
+          "trial_design": "Phase 1b combination with toripalimab in 2L HNSCC",
+          "nct_ids": ["NCT05635643"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Coherus Oncology, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced solid tumors (upper GI adenocarcinoma, esophageal squamous cell, MSS colorectal)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Tagmokitug Phase 1b/2a combination study",
+          "trial_design": "Phase 1b/2a of tagmokitug combined with toripalimab and/or other agents; first cohorts evaluating upper GI adenocarcinoma, esophageal SCC, and MSS colorectal cancer",
+          "nct_ids": ["NCT06657144"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Coherus Oncology, Inc.",
+          "key_milestones": [
+            "Feb 2026: clinical supply agreement with Janssen to combine tagmokitug with pasritamig in Phase 1b mCRPC"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "LOQTORZI (toripalimab-tpzi)",
+    "mechanism": "Anti-PD-1 monoclonal antibody",
+    "indication": "Recurrent or metastatic nasopharyngeal carcinoma (RM-NPC) — 1L combo with cisplatin/gemcitabine and 2L+ monotherapy",
+    "approvals": ["FDA approval Oct 27, 2023", "Health Canada approval Oct 23, 2025"],
+    "partner": "Junshi Biosciences (license)",
+    "post_marketing_studies": ["NCT06457503 (Phase 4 PMC, Recruiting)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "SRF617 (CD39 inhibitor) Phase 2 mCRPC NCT05177770 — TERMINATED",
+    "CHS-006 + toripalimab Phase 1 NCT05757492 — TERMINATED",
+    "CHS-388 monotherapy Phase 1 NCT04374877 — COMPLETED (superseded by combo Phase 2)",
+    "CHS-1000 Phase 1 NCT06389526 — NOT_YET_RECRUITING and not described in current 10-K pipeline section (apparently deprioritized)"
+  ],
+  "excluded_partner_owned": [
+    "Junshi Biosciences Phase 3 toripalimab + anti-BTLA in LS-SCLC (NCT06095583) — partner-sponsored",
+    "INOVIO INO-3112 + toripalimab Phase 3 HPV16/18+ OPSCC — partner-sponsored",
+    "STORM Therapeutics STC-15 + LOQTORZI Phase 1b/2 (NCT06975293) — partner-sponsored",
+    "CRI/CCTG IPROC ENB-003 + toripalimab Phase 2 (NCT04918186) — partner-sponsored"
+  ],
+  "summary_counts": {"P3": 0, "P2": 2, "P1": 1, "total_assets": 2}
+}

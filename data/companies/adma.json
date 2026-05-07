@@ -1,0 +1,49 @@
+{
+  "issuer_name": "ADMA Biologics, Inc.",
+  "ticker": "ADMA",
+  "exchange": "Nasdaq",
+  "cik": "0001368514",
+  "region": "US (Boca Raton, FL)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-25",
+      "accession": "0001140361-26-006815",
+      "doc": "ef20059416_10-k.htm",
+      "path": "data/adma_10k_full.htm"
+    },
+    "website": {
+      "url_attempted": "https://www.admabiologics.com/pipeline (404)",
+      "fallback": "Used 10-K Overview section as primary source"
+    },
+    "ctgov": {
+      "sponsor_queried": "ADMA Biologics",
+      "compact_path": "data/adma_ctgov_compact.json",
+      "trial_count": 4,
+      "note": "All 4 ADMA-sponsored trials in ctgov are completed/terminated (legacy ASCENIV/RI-002, BIVIGAM, Civacir programs)"
+    }
+  },
+  "no_active_clinical_pipeline_reason": "ADMA is a commercial-stage IVIG/plasma-derived biologics company. Per its 2025 10-K, all three approved products (ASCENIV, BIVIGAM, Nabi-HB) are commercialized. The single forward-looking R&D candidate, SG-001 (S. pneumoniae hyperimmune globulin), is in preclinical animal studies with a pre-IND package planned for FY2026. No active P1/P2/P3 clinical trial is enrolling. Label-expansion sBLA for ASCENIV pediatric is regulatory (post-marketing), not a new clinical trial.",
+  "pipeline": [],
+  "commercial_product": {
+    "ASCENIV": "Immune Globulin Intravenous (Human) slra 10% - approved for PIDD adults/adolescents (FDA Apr 2019); pediatric sBLA filed Jun 2025, anticipated approval H1 FY2026",
+    "BIVIGAM": "IVIG 10% - approved for PI in adults and pediatric patients >=2 years (FDA May 2019; pediatric expansion Dec 2023)",
+    "Nabi-HB": "Hepatitis B Immune Globulin (Human) - approved for acute HBV exposure"
+  },
+  "excluded_preclinical": [
+    "SG-001 - S. pneumoniae hyperimmune globulin; pilot-scale batch produced 2024; animal studies ongoing; pre-IND planned FY2026 (CNPV submitted Sep 2025); company anticipates progressing directly into registrational trial post-IND. Currently preclinical/IND-pending so excluded from active P1/P2/P3 list per workflow rule."
+  ],
+  "excluded_legacy_terminated": [
+    "Civacir (HCV immune globulin) - NCT00473824 P2 terminated",
+    "NABI-IGIV 10% / RI-002 / RI-001 pivotal trials all completed (BLA approved as ASCENIV)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "note": "Commercial-stage company; no active clinical trials. SG-001 in preclinical/IND-prep (excluded). Three FDA-approved IVIG/hyperimmune products generating revenue."
+  }
+}

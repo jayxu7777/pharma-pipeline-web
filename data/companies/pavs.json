@@ -1,0 +1,21 @@
+{
+  "issuer_name": "Paranovus Entertainment Technology Ltd.",
+  "ticker": "PAVS",
+  "exchange": "Nasdaq",
+  "cik": "0001751876",
+  "region": "US-listed (Cayman Islands holding company)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — no 10-K on EDGAR (files 20-F)"},
+    "website": {"error": "no public pipeline page found — paranovus.com/pipeline returns 404; company has no drug pipeline"},
+    "ctgov": {"path": "data/pavs_ctgov_compact.json", "note": "Sponsor query returned 0 trials"}
+  },
+  "pipeline": [],
+  "commercial_product": null,
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Mis-bucketed wide_keyword_match. Paranovus Entertainment Technology is an AI-powered entertainment, gaming, and TikTok e-commerce solutions company (subsidiaries Bomie Wookoo Inc. and 2lab3 Inc.). It is not a biopharma issuer and has no proprietary drug or device clinical pipeline."
+}

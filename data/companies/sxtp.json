@@ -1,0 +1,77 @@
+{
+  "issuer_name": "60 Degrees Pharmaceuticals, Inc.",
+  "ticker": "SXTP",
+  "exchange": "Nasdaq",
+  "cik": "0001946563",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001554855-26-000467",
+      "filing_date": "2026-03-30",
+      "primary_doc": "sxtp-20251231.htm"
+    },
+    "website": {
+      "url": "https://60degreespharma.com/clinical-pipeline/",
+      "fetched": true
+    },
+    "ctgov": {
+      "queries": ["sponsor: 60 Degrees Pharmaceuticals"],
+      "trials_found": 5
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Tafenoquine",
+      "aka": ["ARAKODA", "KODATEF", "SB-252263", "WR238605"],
+      "modality": "Small molecule (8-aminoquinoline)",
+      "target": "Plasmodium parasite (8-aminoquinoline antiparasitic)",
+      "license_origin": "Acquired from GSK / US Army research",
+      "indications": [
+        {
+          "indication": "Babesiosis (acute, presumptive treatment)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Tafenoquine + Standard of Care vs Placebo + SoC for Babesiosis",
+          "trial_design": "Randomized, placebo-controlled Phase 2",
+          "nct_ids": ["NCT06207370"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "60 Degrees Pharmaceuticals LLC",
+          "key_milestones": ["Primary completion 2027-03"]
+        },
+        {
+          "indication": "Chronic Babesiosis",
+          "highest_phase": "Phase 2",
+          "trial_name": "B-FREE Chronic Babesiosis Study",
+          "trial_design": "Open-label Phase 2; ARAKODA regimen over 90 days",
+          "nct_ids": ["NCT06656351"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "60 Degrees Pharmaceuticals LLC",
+          "key_milestones": ["Central site at Mount Sinai opened Nov 2025", "Primary completion 2027-02"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "ARAKODA (tafenoquine)",
+    "indication": "Malaria prevention",
+    "approval": "US FDA approved (2018); commercially available since Q3 2019"
+  },
+  "excluded_preclinical": [
+    {"asset": "Tafenoquine", "indication": "Fungal infections (Pneumocystis, Candida)", "reason": "Preclinical / in vitro stage per company website"},
+    {"asset": "Celgosivir", "indication": "Dengue, RSV, SARS-CoV-2", "reason": "Repositioning candidate; no active enrolling P1-3 trials; prior NCT02569827 was withdrawn"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Tafenoquine", "nct": "NCT04533347", "indication": "COVID-19", "status": "COMPLETED"},
+    {"asset": "Tafenoquine", "nct": "NCT03320174", "indication": "Healthy volunteers long-term safety", "status": "COMPLETED"},
+    {"asset": "Celgosivir/Modipafant", "nct": "NCT02569827", "indication": "Dengue", "status": "WITHDRAWN"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 1,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 0,
+    "indications_active": 2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "issuer_name": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+  "ticker": "CRL",
+  "exchange": "NYSE",
+  "cik": "0001100682",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-18",
+      "accession": "0001100682-26-000022",
+      "path": "data/crl_10k_pipeline_section.html",
+      "note": "10-K describes Charles River as a contract research organization (CRO) providing research models and discovery, safety assessment, manufacturing solutions, and biologics testing services to drug-developer clients. No proprietary therapeutic pipeline."
+    },
+    "website": {
+      "error": "Charles River is a CRO/services company; corporate site has no therapeutic pipeline page. Service portfolio (research models, DSA, manufacturing) is not a drug pipeline."
+    },
+    "ctgov": {
+      "path": "data/crl_ctgov_compact.json",
+      "note": "ctgov hits map to Boston University Charles River Campus (academic) and unrelated client/sponsor trials. None are CRL-proprietary clinical assets."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Charles River Laboratories operates three reportable segments: Research Models and Services (RMS), Discovery and Safety Assessment (DSA), and Manufacturing Solutions. All revenue is service-based work performed for biopharma clients on the clients' molecules; CRL does not own clinical-stage therapeutic assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"reason": "All ctgov entries are either Boston University Charles River Campus academic trials or client-sponsored studies where CRL provided services; per protocol, do not enumerate sponsor's clients' trials for a CRO issuer."}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Charles River Laboratories is a contract research organization (CRO) providing research models, discovery and safety assessment, biologics testing, and manufacturing-support services to drug developers. It does not own proprietary therapeutic assets and has no internal P1/P2/P3 pipeline."
+}

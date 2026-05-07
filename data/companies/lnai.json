@@ -1,0 +1,37 @@
+{
+  "issuer_name": "Lunai Bioworks Inc.",
+  "ticker": "LNAI",
+  "exchange": "Nasdaq",
+  "cik": "0001527728",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "10-K downloaded but pipeline-section heading not detected (form structure differs); company is preclinical-stage post-rebrand (formerly Renovaro Inc., renamed Aug 2025)",
+      "path": "data/lnai_10k_full.htm"
+    },
+    "website": {
+      "error": "no public clinical pipeline page (preclinical company)"
+    },
+    "ctgov": {
+      "path": "data/lnai_ctgov_compact.json",
+      "trials_total": 0
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Preclinical-stage AI-powered drug discovery and biodefense company (formerly Renovaro Inc., renamed to Lunai Bioworks Aug 2025). Programs (ENOB-HV-01/11/12, ENOB-DB-01, ENOB-DC-01/11/21, RENB-DC11 pancreatic, RENB-DC20 breast; KCC2 epilepsy; Parkinson's; alcohol use disorder) are all preclinical / lead-optimization. No active P1/P2/P3 trials on ClinicalTrials.gov.",
+  "excluded_preclinical": [
+    "ENOB-HV-01/11/12 (HIV-related)",
+    "ENOB-DB-01",
+    "ENOB-DC-01/11/21 (dendritic cell vaccines)",
+    "RENB-DC11 (pancreatic cancer)",
+    "RENB-DC20 (breast cancer)",
+    "KCC2 epilepsy program",
+    "Parkinson's disease stratification program",
+    "Alcohol use disorder zebrafish program"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_active": 0, "P3": 0, "P2": 0, "P1": 0}
+}

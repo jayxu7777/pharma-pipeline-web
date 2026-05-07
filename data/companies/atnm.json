@@ -1,0 +1,136 @@
+{
+  "issuer_name": "Actinium Pharmaceuticals, Inc.",
+  "ticker": "ATNM",
+  "exchange": "NYSE",
+  "cik": "0001388320",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-036504",
+      "filing_date": "2026-03-30",
+      "filename": "ea0279291-10k_actinium.htm"
+    },
+    "website": {
+      "url": "https://www.actiniumpharma.com/",
+      "summary": "Pipeline lists Actimab-A, ATNM-400, Iomab-B, Iomab-ACT"
+    },
+    "ctgov": {
+      "query_sponsor": "Actinium Pharmaceuticals",
+      "p1_p3_trials": 9,
+      "by_status": {"COMPLETED": 2, "UNKNOWN": 1, "NOT_YET_RECRUITING": 1, "WITHDRAWN": 1, "ACTIVE_NOT_RECRUITING": 1, "TERMINATED": 1, "RECRUITING": 2}
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Iomab-B",
+      "aka": ["apamistamab-I-131", "131I-apamistamab", "131I-anti-CD45"],
+      "modality": "CD45-targeted radioimmunotherapy (iodine-131 conjugated anti-CD45 antibody)",
+      "target": "CD45",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Targeted conditioning for allogeneic hematopoietic stem cell transplant in relapsed/refractory acute myeloid leukemia (R/R AML)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SIERRA",
+          "trial_design": "Phase 3 randomized, controlled trial of Iomab-B vs conventional care in older subjects with active R/R AML; met primary endpoint of durable complete remission (dCR); secondary OS endpoint not met due to high cross-over from control to Iomab-B arm",
+          "nct_ids": ["NCT02665065"],
+          "trial_status": "Active, not recruiting (Phase 3 SIERRA — enrollment complete; FDA alignment received on follow-on Phase 2/3 trial design in expanded R/R AML population age 18+)",
+          "lead_sponsor": "Actinium Pharmaceuticals",
+          "key_milestones": [
+            "FDA alignment on follow-on Phase 2/3 trial design in expanded age 18+ R/R AML population (NCT07157514, planned start January 2026 — Not Yet Recruiting)",
+            "Actively seeking strategic partner to advance through pivotal development"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Iomab-ACT",
+      "aka": ["131I-apamistamab (low-dose conditioning)"],
+      "modality": "CD45-targeted radioimmunotherapy used as targeted lymphodepletion / conditioning",
+      "target": "CD45",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Conditioning prior to commercial CD19 CAR-T therapy in relapsed/refractory non-Hodgkin lymphoma (specifically DLBCL)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IOMAB-CAR-T followed by CAR-T in R/R DLBCL",
+          "trial_design": "Phase 1/2 evaluating Iomab-ACT/Iomab-B as conditioning prior to commercial CD19 CAR-T cell therapy in R/R DLBCL/NHL; primary endpoint engraftment; secondary endpoints CRS and ICANS incidence",
+          "nct_ids": ["NCT06768905"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "University of Texas Southwestern Medical Center (Actinium collaborator; Actinium-supplied asset, listed by 10-K as company clinical trial)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Conditioning prior to experimental CD19 CAR-T cell therapy in relapsed/refractory B-cell malignancies (NHL, ALL/lymphoma)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Iomab-ACT pre experimental CD19 CAR-T",
+          "trial_design": "Phase 1 evaluating Iomab-ACT as conditioning prior to CD19 CAR-T in R/R B-cell malignancies",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (per 10-K narrative)",
+          "lead_sponsor": "Actinium Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Conditioning for allogeneic bone marrow transplant in advanced sickle cell disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "131I-apamistamab-based conditioning for HSCT in advanced SCD",
+          "trial_design": "Phase 1 evaluating 131I-apamistamab as conditioning for allogeneic HSCT in patients with advanced sickle cell disease",
+          "nct_ids": ["NCT07015684"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Columbia University (Actinium collaborator; Actinium-supplied asset, listed by 10-K as company-sponsored clinical trial in non-malignant hematologic disease)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Actimab-A",
+      "aka": ["Lintuzumab-Ac225", "HuM195-Ac225", "225Ac-lintuzumab"],
+      "modality": "CD33-targeted alpha-emitter radioimmunotherapy (Ac-225 conjugated humanized anti-CD33 mAb)",
+      "target": "CD33",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory acute myeloid leukemia (R/R AML) — backbone therapy in combination with CLAG-M chemotherapy",
+          "highest_phase": "Phase 2",
+          "trial_name": "Actimab-A + CLAG-M Phase 1b (completed) and planned Phase 2/3",
+          "trial_design": "Completed Phase 1b in R/R AML (high-risk including TP53-mutated, prior venetoclax failure) with high MRD-negative CR rates and 24-month median OS in transplant-eligible subgroup; FDA alignment received on Phase 2/3 trial design in first or second salvage R/R AML",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1b completed (Leukemia, Feb 2025); FDA alignment on Phase 2/3 design — actively seeking strategic partner to execute",
+          "lead_sponsor": "Actinium Pharmaceuticals",
+          "key_milestones": ["Phase 1b results published in Leukemia, February 2025"]
+        },
+        {
+          "indication": "Frontline AML (triplet combination with venetoclax + hypomethylating agent) and high-risk MDS — NCI CRADA programs",
+          "highest_phase": "Phase 1",
+          "trial_name": "Actimab-A NCI CRADA programs (frontline AML triplet, high-risk MDS monotherapy, FLT3/IDH/menin combinations, maintenance)",
+          "trial_design": "Multiple Actimab-A clinical programs in collaboration with NCI under CRADA exploring frontline AML triplet, high-risk MDS post-HMA, combinations with FLT3/IDH/menin inhibitors, and maintenance therapy",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active development under NCI CRADA",
+          "lead_sponsor": "Actinium Pharmaceuticals (with National Cancer Institute under CRADA)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "ATNM-400 (first-in-class Ac-225 antibody radioconjugate to undisclosed pan-tumor target) — preclinical/IND-enabling for mCRPC, EGFR-mutant NSCLC, HER2-resistant and tamoxifen-resistant breast cancer",
+    "Actimab-A for solid-tumor MDSC depletion (combination with pembrolizumab/nivolumab in HNSCC, NSCLC, GBM, MSI-H CRC) — Phase 1b basket trial planned, not yet initiated"
+  ],
+  "excluded_legacy_terminated": [
+    "Lintuzumab-Ac225 + Venetoclax + Azacitidine R/R AML Phase 1/2 (NCT03932318) — withdrawn",
+    "Lintuzumab-Ac225 in refractory multiple myeloma Phase 1 (NCT02998047) — terminated",
+    "Lintuzumab-Ac225 + Venetoclax R/R AML Phase 1/2 (NCT03867682) — status unknown (last updated stale)",
+    "Lintuzumab-Ac225 in older AML Phase 1/2 (NCT02575963) — completed",
+    "225Ac-HuM195 advanced myeloid malignancies Phase 1 (NCT00672165) — completed (MSK)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 1,
+    "phase_2": 2,
+    "phase_1": 3,
+    "note": "Counts are per asset-indication pair retained in pipeline (Iomab-B P3 R/R AML; Iomab-ACT P2 commercial CAR-T conditioning; Actimab-A P2 R/R AML CLAG-M; plus three P1 indication tracks)"
+  }
+}

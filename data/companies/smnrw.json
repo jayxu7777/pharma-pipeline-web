@@ -1,0 +1,25 @@
+{
+  "issuer_name": "Semnur Pharmaceuticals, Inc.",
+  "ticker": "SMNRW",
+  "exchange": "OTC",
+  "cik": "0001913577",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "security_note": "SMNRW is the public warrant on Semnur Pharmaceuticals (common SMNR), formed via Denali Capital SPAC merger closed September 22, 2025. Semnur is ~87.5% owned by Scilex Holding (SCLX). Pipeline shown is the underlying issuer's.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-082642", "filed": "2026-02-27", "doc": "smnr-20251231.htm", "file": "data/smnrw_10k_pipeline_section.html"},
+    "website": {"url": "https://semnurpharma.com/sp-102-semdexa/", "fetched": "2026-05-06", "note": "Single-asset company; SP-102 (SEMDEXA) is the lead and only clinical-stage program."},
+    "ctgov": {"sponsor_query": "Semnur Pharmaceuticals", "studies_returned": 2, "active_or_recruiting": 0, "completed": 2, "file": "data/smnrw_ctgov_compact.json", "note": "C.L.E.A.R.-2 Phase 3 confirmatory study not yet listed under Semnur as lead sponsor at time of fetch."}
+  },
+  "pipeline": [
+    {"asset": "SP-102 (SEMDEXA)", "aka": ["dexamethasone sodium phosphate viscous gel"], "modality": "Non-opioid corticosteroid viscous gel injection (epidural)", "target": "Glucocorticoid receptor (anti-inflammatory at nerve root)", "license_origin": "Semnur internal (Scilex majority-owned)",
+     "indications": [
+       {"indication": "Lumbosacral radicular pain (sciatica)", "highest_phase": "P3", "trial_name": "C.L.E.A.R.-2 (confirmatory Phase 3)", "trial_design": "Randomized, double-blind, placebo-controlled epidural injection in patients with chronic LRP", "nct_ids": "Not on public registry", "trial_status": "Funded ($20M PIPE Sept 2025); confirmatory Phase 3 to support NDA filing targeted 2026, potential launch 2027. First Phase 3 (NCT03372161) and Phase 2 repeat-dose (NCT03613662) completed.", "lead_sponsor": "Semnur Pharmaceuticals, Inc.", "key_milestones": ["FDA Fast Track designation", "First Phase 3 met primary endpoint (data published Pain Journal 2024)", "Targeted NDA submission 2026"]}
+     ]}
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 1, "p2": 0, "p1": 0}
+}

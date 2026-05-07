@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Monopar Therapeutics",
+  "ticker": "MNPR",
+  "exchange": "Nasdaq",
+  "cik": "0001645469",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-010025", "filing_date": "2026-03-27", "doc": "mnpr20251231_10k.htm"},
+    "website": {"url": "https://monopartx.com/pipeline"},
+    "ctgov": {"sponsor_query": "Monopar Therapeutics", "trials_returned": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "ALXN1840 (bis-choline tetrathiomolybdate)",
+      "aka": ["ALXN1840", "Tiomolibdate Choline"],
+      "modality": "Small molecule (copper modulator)",
+      "target": "Copper (decoppering agent)",
+      "license_origin": "In-licensed from Alexion / AstraZeneca Rare Disease (October 2024)",
+      "indications": [
+        {
+          "indication": "Wilson Disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "FoCus Phase 3 (legacy Alexion data); Monopar planning regulatory path",
+          "trial_design": "Randomized, controlled Phase 3 (legacy data); Monopar evaluating next-step studies",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 dataset acquired from Alexion; Monopar preparing regulatory submissions / next-step trials",
+          "lead_sponsor": "Monopar Therapeutics (formerly Alexion/AstraZeneca)",
+          "key_milestones": ["Acquired global rights from Alexion in 2024", "Planning regulatory engagement"]
+        }
+      ]
+    },
+    {
+      "asset": "MNPR-101 radiopharmaceutical platform",
+      "aka": ["MNPR-101"],
+      "modality": "uPAR-targeted monoclonal antibody radiopharmaceutical (theranostic)",
+      "target": "Urokinase plasminogen activator receptor (uPAR)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors — therapeutic (177Lu-labeled)",
+          "highest_phase": "Phase 1",
+          "trial_name": "MNPR-101-PCTA-177Lu dose-escalation (Phase 1a)",
+          "trial_design": "Open-label dose-escalation in advanced solid tumors",
+          "nct_ids": ["NCT06617169"],
+          "trial_status": "Recruiting (started 2024-10-08)",
+          "lead_sponsor": "Monopar Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced solid tumors — diagnostic imaging (89Zr-labeled)",
+          "highest_phase": "Phase 1",
+          "trial_name": "MNPR-101-DFO*-89Zr diagnostic imaging study",
+          "trial_design": "Open-label PET/CT diagnostic imaging in solid tumors",
+          "nct_ids": ["NCT06337084"],
+          "trial_status": "Recruiting (started 2024-05-30)",
+          "lead_sponsor": "Monopar Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["MNPR-101-Ac (225Ac alpha-emitter, late preclinical)"],
+  "excluded_legacy_terminated": [
+    "Camsirubicin (NCT05043649) — Phase 1 ASTS, terminated 2023",
+    "Validive/Clonidine HCl MBT (NCT04648020) — Phase 2/3 oral mucositis, terminated 2023"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "indications": 3, "P3": 1, "P2": 0, "P1": 2}
+}

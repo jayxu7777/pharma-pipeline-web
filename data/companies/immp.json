@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Immutep Ltd",
+  "ticker": "IMMP",
+  "exchange": "Nasdaq",
+  "cik": "0001506184",
+  "region": "Australia",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Australia) — files 20-F instead of 10-K; not retrievable via this script"},
+    "website": {"url": "https://www.immutep.com/", "note": "Pipeline confirmed via ctgov; corporate site lists efti and IMP761 as clinical assets"},
+    "ctgov": {"path": "data/immp_ctgov_compact.json", "trial_count": 17}
+  },
+  "pipeline": [
+    {
+      "asset": "Eftilagimod alfa",
+      "aka": ["efti", "IMP321", "LAG-3Ig"],
+      "modality": "Soluble LAG-3 fusion protein (MHC class II agonist / APC activator)",
+      "target": "MHC class II (engages antigen-presenting cells via LAG-3 mimetic)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "First-line metastatic non-small cell lung cancer (NSCLC) — combination with pembrolizumab + chemotherapy",
+          "highest_phase": "Phase 3",
+          "trial_name": "TACTI-004",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of efti + pembrolizumab + chemo vs placebo + pembrolizumab + chemo",
+          "nct_ids": ["NCT06726265"],
+          "trial_status": "Active, not recruiting (started 2025-03-21; primary completion 2027-06)",
+          "lead_sponsor": "Immutep S.A.S.",
+          "key_milestones": ["Collaboration with Merck Sharp & Dohme"]
+        },
+        {
+          "indication": "HR+/HER2- metastatic breast cancer — combination with paclitaxel",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "AIPAC-003",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2/3 of efti + paclitaxel vs placebo + paclitaxel",
+          "nct_ids": ["NCT05747794"],
+          "trial_status": "Active, not recruiting (started 2023-05-22; primary completion 2026-10-31)",
+          "lead_sponsor": "Immutep S.A.S.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Soft-tissue sarcoma (neoadjuvant, with pembrolizumab + radiotherapy)",
+          "highest_phase": "Phase 2",
+          "trial_name": "EFTISARC-NEO",
+          "trial_design": "Investigator-sponsored Phase 2 (Maria Sklodowska-Curie Institute) with Immutep collaboration",
+          "nct_ids": ["NCT06128863"],
+          "trial_status": "Active, not recruiting (started 2023-07-17; primary completion 2025-04-30)",
+          "lead_sponsor": "Maria Sklodowska-Curie National Research Institute of Oncology (Immutep collaborator)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IMP761",
+      "aka": [],
+      "modality": "Agonist anti-LAG-3 monoclonal antibody (immunosuppressive)",
+      "target": "LAG-3 (agonist)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Healthy volunteers (autoimmune indication TBD)",
+          "highest_phase": "Phase 1",
+          "trial_name": "IMP761 FIH",
+          "trial_design": "Single ascending dose / multiple ascending dose first-in-human in healthy volunteers; KLH skin-test challenge",
+          "nct_ids": ["NCT06637865"],
+          "trial_status": "Recruiting (started 2024-07-17; primary completion 2026-08-31)",
+          "lead_sponsor": "Immutep S.A.S.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["NCT04252768 (efti Phase 1 mBC, weekly paclitaxel) — WITHDRAWN", "NCT00365937 / NCT01308294 melanoma vaccine investigator studies — TERMINATED"],
+  "excluded_partner_owned": ["NCT07102940 (efti in HR+/HER2- BC neoadjuvant) — sponsor George Washington University, NOT-YET-RECRUITING; collaborator Immutep but academic-led"],
+  "summary_counts": {"total_assets": 2, "P3": 1, "P2": 2, "P1": 1}
+}

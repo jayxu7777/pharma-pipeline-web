@@ -1,0 +1,47 @@
+{
+  "issuer_name": "HeartSciences Inc.",
+  "ticker": "HSCSW",
+  "exchange": "Nasdaq",
+  "cik": "0001468492",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000950170-25-098326",
+      "filing_date": "2025-07-24",
+      "doc": "hscs-20250430.htm",
+      "note": "Medical-device (AI-ECG) company. MyoVista wav ECG and MyoVista Insights Cloud Platform; no drug assets. Pre-FDA-clearance Class II device (510(k) / De Novo pathway)."
+    },
+    "website": {
+      "url": "https://www.heartsciences.com/",
+      "note": "Corporate site documents the MyoVista wav ECG device and AI-ECG algorithm portfolio (impaired cardiac relaxation, low ejection fraction, hypertrophic cardiomyopathy, aortic stenosis); no investigational drug pipeline page."
+    },
+    "ctgov": {
+      "file": "data/hscsw_ctgov_compact.json",
+      "unique_trials_p1_p3": 0,
+      "note": "No HeartSciences-sponsored P1/P2/P3 drug trials. Past device validation work disclosed only in 10-K, not as drug-trial registrations."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "lead_product": "MyoVista wav ECG (resting 12-lead ECG with embedded AI-ECG impaired cardiac relaxation algorithm)",
+    "platform": "MyoVista Insights Cloud Platform (hardware-agnostic AI-ECG algorithm hosting; planned 510(k) submission for low-ejection-fraction algorithm in 1H CY2026)",
+    "additional_algorithms": [
+      "Aortic stenosis ECG algorithm — FDA Breakthrough Device designation granted June 2025",
+      "Low ejection fraction algorithm (licensed from Mount Sinai, Sept 2023)",
+      "Hypertrophic cardiomyopathy and additional Mount Sinai-licensed algorithms (early-stage)"
+    ],
+    "regulatory_status": "Class II device; no FDA marketing clearance yet. FDA validation study patient recruitment and core-lab work complete; 510(k) submission previously planned for CY2025, now being re-aligned to July-2025 ASE LVDD guidelines before submission."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech / AI-ECG diagnostic device company with no proprietary drug pipeline. Lead asset is the Class II MyoVista wav ECG device pursuing FDA 510(k) clearance, plus a portfolio of AI-ECG algorithms (impaired cardiac relaxation, low EF, hypertrophic cardiomyopathy, aortic stenosis); no sponsor-led P1/P2/P3 drug trials in ClinicalTrials.gov."
+}

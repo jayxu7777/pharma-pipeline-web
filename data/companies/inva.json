@@ -1,0 +1,87 @@
+{
+  "issuer_name": "Innoviva, Inc.",
+  "ticker": "INVA",
+  "exchange": "Nasdaq",
+  "cik": "0001080014",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-071776", "filing_date": "2026-02-25", "doc": "inva-20251231.htm"},
+    "website": {"error": "no public pipeline page found at standard slug variants; company is a holding/royalty firm with commercial portfolio (no consolidated public pipeline page)"},
+    "ctgov": {"file": "data/inva_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Sulbactam-durlobactam (SUL-DUR)",
+      "aka": ["XACDURO", "ETX2514SUL"],
+      "modality": "Beta-lactam / beta-lactamase inhibitor combination",
+      "target": "Penicillin-binding proteins / class A, C, D beta-lactamases",
+      "license_origin": "Internal via Entasis Therapeutics acquisition",
+      "indications": [
+        {
+          "indication": "Acinetobacter baumannii-calcoaceticus complex (ABC) infection in pediatric patients",
+          "highest_phase": "Phase 1",
+          "trial_name": "Pediatric SUL-DUR PK/safety study",
+          "trial_design": "Open-label PK and safety study of SUL-DUR in pediatric patients with ABC infection",
+          "nct_ids": ["NCT06801223"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Innoviva Specialty Therapeutics",
+          "key_milestones": ["Primary completion 2028-05"]
+        }
+      ]
+    },
+    {
+      "asset": "Eravacycline",
+      "aka": ["XERAVA"],
+      "modality": "Fluorocycline antibiotic (IV)",
+      "target": "Bacterial 30S ribosomal subunit",
+      "license_origin": "Internal via Tetraphase Pharmaceuticals subsidiary",
+      "indications": [
+        {
+          "indication": "Complicated intra-abdominal infections (cIAI) in pediatric patients (ages 8-17)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Pediatric eravacycline cIAI study",
+          "trial_design": "Open-label safety/tolerability study of IV eravacycline in pediatric cIAI",
+          "nct_ids": ["NCT06794541"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Tetraphase Pharmaceuticals (Innoviva subsidiary)",
+          "key_milestones": ["Primary completion 2029-02"]
+        }
+      ]
+    },
+    {
+      "asset": "Zoliflodacin",
+      "aka": ["ETX0914"],
+      "modality": "Spiropyrimidinetrione DNA gyrase B inhibitor (oral)",
+      "target": "Bacterial DNA gyrase B / topoisomerase IV (GyrB)",
+      "license_origin": "Internal via Entasis (developed in partnership with GARDP)",
+      "indications": [
+        {
+          "indication": "Uncomplicated gonorrhea (Neisseria gonorrhoeae)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Zoliflodacin pivotal Phase 3 (GARDP-conducted)",
+          "trial_design": "Global multicenter randomized Phase 3 trial of single oral dose zoliflodacin vs. ceftriaxone+azithromycin (n=930) — completed; NDA-supportive data published Nov 2023",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Trial completed; NDA preparation/submission ongoing per 10-K",
+          "lead_sponsor": "GARDP (with Innoviva/Entasis)",
+          "key_milestones": ["Phase 3 top-line data Nov 2023", "NDA filing planned"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "XACDURO (sulbactam-durlobactam)", "indication": "Carbapenem-resistant Acinetobacter pneumonia", "approval": "FDA May 2023; China May 2024"},
+      {"name": "XERAVA (eravacycline)", "indication": "Complicated intra-abdominal infections", "approval": "FDA 2018"},
+      {"name": "GIAPREZA (angiotensin II)", "indication": "Septic/distributive shock", "approval": "FDA 2017"}
+    ],
+    "royalty_portfolio": "Respiratory royalty interests in GSK products (RELVAR/BREO, ANORO, TRELEGY)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"trial": "NCT07485010 FORMaT (NTM/Mycobacterium abscessus)", "reason": "Academic platform trial led by University of Queensland; SUL-DUR included as one arm — Innoviva is collaborator only"}
+  ],
+  "summary_counts": {"total_assets": 3, "phase_3": 1, "phase_2": 1, "phase_1": 1}
+}

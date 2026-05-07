@@ -1,0 +1,173 @@
+{
+  "issuer_name": "IOVANCE BIOTHERAPEUTICS, INC.",
+  "ticker": "IOVA",
+  "exchange": "Nasdaq",
+  "cik": "0001425205",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-24",
+      "accession": "0001104659-26-018899",
+      "path": "data/iova_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.iovance.com/",
+      "error": "Pipeline page not located at common URL variants; relied on 10-K + ctgov."
+    },
+    "ctgov": {
+      "path": "data/iova_ctgov_compact.json",
+      "query_sponsor": "Iovance Biotherapeutics"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Lifileucel (Amtagvi)",
+      "aka": ["LN-144", "LN-145"],
+      "modality": "Autologous tumor-infiltrating lymphocyte (TIL) cell therapy",
+      "target": "Patient-specific tumor neoantigens",
+      "license_origin": "Internal (NIH/NCI license + CRADA)",
+      "indications": [
+        {
+          "indication": "Frontline advanced/unresectable/metastatic melanoma (combination with pembrolizumab)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TILVANCE-301",
+          "trial_design": "Phase 3 multicenter, open-label, randomized (~670 patients) of lifileucel + pembrolizumab vs pembrolizumab alone; dual primary endpoints ORR and PFS by BIRC; confirmatory for accelerated approval",
+          "nct_ids": ["NCT05727904"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Iovance Biotherapeutics, Inc.",
+          "key_milestones": [
+            "Designed with FDA and EMA input",
+            "Supports full U.S. approval for Amtagvi in post-anti-PD-1 advanced melanoma"
+          ]
+        },
+        {
+          "indication": "Previously treated NSQ metastatic non-small-cell lung cancer (NSCLC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IOV-LUN-202",
+          "trial_design": "Single-arm, registrational, global Phase 2 monotherapy trial in previously treated NSQ mNSCLC after ICI + chemo; ~80 patients in registrational cohorts; supports sBLA for accelerated approval",
+          "nct_ids": ["NCT04614103"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Iovance Biotherapeutics, Inc.",
+          "key_milestones": [
+            "Nov 2025: ORR 25.6%, DCR 71.8%, mDOR not reached",
+            "Reduced lymphodepletion regimen implemented after partial clinical hold"
+          ]
+        },
+        {
+          "indication": "Advanced endometrial cancer (post ICI + chemo)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IOV-END-201",
+          "trial_design": "Phase 2 single-arm in advanced endometrial cancer previously treated with ICI and chemotherapy",
+          "nct_ids": ["NCT06481592"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Iovance Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Previously treated advanced melanoma (ex-US)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IOV-MEL-202",
+          "trial_design": "Single-arm multicenter Phase 2 in patients previously treated with anti-PD-1, including 2L lifileucel in BRAF+ patients without prior BRAF/MEK",
+          "nct_ids": ["NCT07288203"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Iovance Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Solid tumor basket (incl. previously treated advanced melanoma, NSCLC frontline)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IOV-COM-202",
+          "trial_design": "Multi-cohort Phase 2 basket of lifileucel +/- pembrolizumab in advanced solid tumors",
+          "nct_ids": ["NCT03645928"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Iovance Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pediatric/AYA solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "Pediatric/AYA TIL study",
+          "trial_design": "Phase 1 of autologous TIL in pediatric, adolescent and young adult solid tumors",
+          "nct_ids": ["NCT06566092"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Iovance Biotherapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Previously treated advanced undifferentiated pleomorphic sarcoma (UPS) and dedifferentiated liposarcoma (DDLPS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lifileucel sarcoma registrational trial (planned)",
+          "trial_design": "Single-arm registrational trial planned to commence Q2 2026; expedited approval path being discussed with FDA",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiation Q2 2026, registrational single-arm",
+          "lead_sponsor": "Iovance Biotherapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IOV-3001",
+      "aka": [],
+      "modality": "Recombinant antibody-cytokine engrafted IL-2 analog (for use in TIL regimen)",
+      "target": "IL-2 receptor",
+      "license_origin": "Licensed from Novartis (Jan 2020)",
+      "indications": [
+        {
+          "indication": "Advanced melanoma (in TIL regimen)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IOV-3001 first-in-human Phase 1/2",
+          "trial_design": "Dose-escalation Phase 1/2 of IOV-3001 modified IL-2 analog in TIL treatment regimen for advanced melanoma",
+          "nct_ids": ["NCT06940739"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Iovance Biotherapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IOV-4001",
+      "aka": ["PD-1 knockout TIL via TALEN"],
+      "modality": "TALEN-edited (PD-1 inactivated) autologous TIL cell therapy",
+      "target": "PD-1 (gene-edited)",
+      "license_origin": "Cellectis TALEN technology (Dec 2019 license)",
+      "indications": [
+        {
+          "indication": "Previously treated advanced melanoma or NSCLC",
+          "highest_phase": "Phase 2",
+          "trial_name": "IOV-GM1-201 (first-in-human, Phase 2 efficacy extension)",
+          "trial_design": "Phase 1/2 first-in-human; Phase 2 efficacy extension underway in previously treated advanced melanoma or NSCLC",
+          "nct_ids": ["NCT05361174"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Iovance Biotherapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Amtagvi (lifileucel)",
+    "indication": "Adult patients with previously treated advanced melanoma (post-PD1; if BRAF V600+, post-BRAF +/- MEK inhibitor)",
+    "approval": "U.S. FDA accelerated approval Feb 2024",
+    "partner_product": "Proleukin (aldesleukin) — IL-2 used in regimen; acquired May 2023"
+  },
+  "excluded_preclinical": [
+    "IOV-5001 (tethered IL-12) — IND submission planned 1H 2026; preclinical until then"
+  ],
+  "excluded_legacy_terminated": [
+    "C-145-03 HNSCC Phase 2 — completed",
+    "C-145-04 cervical cancer Phase 2 — completed; not advanced as standalone program",
+    "PBL therapy in CLL/SLL — completed first-in-human"
+  ],
+  "excluded_partner_owned": [
+    "Investigator-sponsored trials at Dana-Farber, MSKCC, MDACC, NCI/Christian Hinrichs (TCR-T programs) — third-party IND/sponsor"
+  ],
+  "summary_counts": {
+    "total_assets": 3,
+    "indications_total": 9,
+    "p3_indications": 1,
+    "p2_indications": 7,
+    "p1_indications": 1
+  }
+}

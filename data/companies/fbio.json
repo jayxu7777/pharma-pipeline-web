@@ -1,0 +1,90 @@
+{
+  "issuer_name": "Fortress Biotech, Inc.",
+  "ticker": "FBIO",
+  "exchange": "Nasdaq",
+  "cik": "0001429260",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only (controlled subsidiaries >50% ownership).",
+  "sources": {
+    "10k": {"accession": "0001104659-26-037874", "filed": "2026-03-31", "path": "data/fbio_10k_pipeline_section.html"},
+    "website": {"url": "https://www.fortressbiotech.com/programs/pipeline"},
+    "ctgov": {
+      "fortress_direct": {"path": "data/fbio_ctgov_compact.json", "note": "No trials sponsored by Fortress directly"},
+      "subsidiaries": [
+        {"name": "Urica", "path": "data/fbio_urica_ctgov_compact.json"},
+        {"name": "Cyprium", "path": "data/fbio_cyprium_ctgov_compact.json"},
+        {"name": "Helocyte", "path": "data/fbio_helocyte_ctgov_compact.json", "note": "No trials under Helocyte sponsor name; Triplex trials sponsored by City of Hope and other academic partners"}
+      ]
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Dotinurad",
+      "aka": [],
+      "modality": "Small molecule (URAT1 inhibitor)",
+      "target": "URAT1",
+      "license_origin": "Urica Therapeutics (70% owned) — licensed from Fuji Yakuhin",
+      "indications": [
+        {
+          "indication": "Gout / hyperuricemia in chronic kidney disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "Dotinurad Phase 3 program",
+          "trial_design": "Phase 3 registrational program for US/EU; Phase 1/2 PK/PD/DDI completed (NCT06056570)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 in progress per company website; not yet posted on ClinicalTrials.gov as of snapshot",
+          "lead_sponsor": "Urica Therapeutics, Inc.",
+          "key_milestones": ["Phase 1/2 completed 2024-06-27"]
+        }
+      ]
+    },
+    {
+      "asset": "Triplex",
+      "aka": ["CMV vaccine"],
+      "modality": "Modified vaccinia Ankara (MVA) vector vaccine",
+      "target": "CMV pp65, IE1-exon4, IE2-exon5",
+      "license_origin": "Helocyte (83% owned) — licensed from City of Hope",
+      "indications": [
+        {
+          "indication": "Cytomegalovirus (CMV) reactivation prevention in hematopoietic cell transplant",
+          "highest_phase": "Phase 2",
+          "trial_name": "Triplex Phase 2 program (multiple investigator-initiated trials at City of Hope and other academic centers)",
+          "trial_design": "Investigator-initiated and academic-sponsored Phase 2 trials evaluating Triplex MVA vaccine for CMV control in HCT, solid organ transplant, and HIV settings",
+          "nct_ids": ["NCT03560752", "NCT03354728", "NCT03383055", "NCT06075745", "NCT05099965", "NCT06059391", "NCT05432635", "NCT06252402"],
+          "trial_status": "Multiple trials active (mix of recruiting and active not recruiting)",
+          "lead_sponsor": "City of Hope Medical Center / academic centers (Helocyte holds licensed rights)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "ZYCUBO (CUTX-101 / copper histidinate)": {
+      "indication": "Menkes disease",
+      "subsidiary": "Cyprium Therapeutics (80% owned)",
+      "approval": "FDA approved 2026-01-13; commercialized via Sentynl",
+      "notes": "PRV sold for $205M; Cyprium retains royalties and up to $128M sales milestones"
+    },
+    "Emrosi / Qbrexza / Accutane / Amzeeq / Zilxi / Targadox / Exelderm": {
+      "subsidiary": "Journey Medical (DERM, 36% owned, separately listed)",
+      "notes": "Marketed dermatology portfolio"
+    }
+  },
+  "no_active_clinical_pipeline_reason": null,
+  "excluded_preclinical": [
+    {"asset": "ATX-04 (clenbuterol)", "subsidiary": "Avenue (10% owned)", "reason": "Phase 1 status per website but Avenue is minority-owned partner company (ATXI); Duke license signed 2026-02-18; treated as partner-owned"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT05360238", "asset": "MB-106 (Mustang)", "reason": "TERMINATED"},
+    {"nct": "NCT04109482", "asset": "MB-102 (Mustang)", "reason": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "UNLOXCYT (cosibelimab-ipdl)", "reason": "Checkpoint Therapeutics acquired by Sun Pharma in May 2025; Fortress only retains 2.5% royalty"},
+    {"asset": "CAEL-101 (anselamimab)", "reason": "Owned by AstraZeneca/Alexion since Caelum acquisition; Fortress holds only future-proceeds royalty (42% of payments to Caelum legacy holders)"},
+    {"asset": "MB-101 (IL13Rα2 CAR-T) for glioblastoma", "reason": "Mustang Bio (MBIO) is 4% owned, separately publicly listed; trials academic-sponsored at City of Hope"},
+    {"asset": "MB-108 (oncolytic HSV C134) for glioblastoma", "reason": "Mustang Bio (MBIO) — minority partner company"},
+    {"asset": "IV Tramadol", "reason": "Avenue Therapeutics (ATXI) is 10% owned, separately publicly listed"},
+    {"asset": "Journey Medical commercial dermatology portfolio", "reason": "Journey (DERM) is 36% owned, separately publicly listed"}
+  ],
+  "summary_counts": {"assets": 2, "P3": 1, "P2": 1, "P1": 0, "indications": 2}
+}

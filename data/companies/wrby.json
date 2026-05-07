@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Warby Parker Inc.",
+  "ticker": "WRBY",
+  "exchange": "NYSE",
+  "cik": "0001504776",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001504776-26-000006",
+      "filing_date": "2026-02-26",
+      "doc": "wrby-20251231.htm",
+      "slice_html": "data/wrby_10k_pipeline_section.html"
+    },
+    "website": {
+      "skipped": "Warby Parker is a direct-to-consumer eyewear retailer; no clinical pipeline page exists or is expected."
+    },
+    "ctgov": {
+      "compact": "data/wrby_ctgov_compact.json",
+      "kept_p1_p3": 0,
+      "note": "Zero P1-3 trials returned for sponsor 'Warby Parker'."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Warby Parker is a vertically-integrated direct-to-consumer eyewear brand and optical retail chain. Products: prescription eyeglasses, prescription sunglasses, contact lenses (Scout by Warby Parker daily disposable), accessories. Services: in-store and tele-optometry eye exams. Not a drug developer or medical device manufacturer in the clinical-trial sense."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Eyewear retailer / optical services company. No proprietary therapeutic or device clinical-development pipeline. Zero ctgov trials sponsored by Warby Parker."
+}

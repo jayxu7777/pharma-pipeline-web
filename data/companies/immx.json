@@ -1,0 +1,106 @@
+{
+  "issuer_name": "Immix Biopharma, Inc.",
+  "ticker": "IMMX",
+  "exchange": "Nasdaq",
+  "cik": "0001873835",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-25",
+      "accession": "0001493152-26-012714",
+      "path": "data/immx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://immixbio.com (pipeline page not directly accessible; corroborated via PR/news pages)",
+      "note": "Pipeline confirmed via WebSearch on immixbio.com domain"
+    },
+    "ctgov": {
+      "path": "data/immx_ctgov_compact.json",
+      "trial_count": 3
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "NXC-201",
+      "aka": ["HBI0101"],
+      "modality": "BCMA-targeted CAR-T cell therapy",
+      "target": "BCMA",
+      "license_origin": "Developed by subsidiary Nexcella; originated from Hadassah Medical Center (HBI0101)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory AL Amyloidosis",
+          "highest_phase": "Phase 1b/2",
+          "trial_name": "NEXICART-2",
+          "trial_design": "Open-label, single-arm, multi-site U.S. Phase 1b/2; ~40 patients planned",
+          "nct_ids": ["NCT06097832"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Nexcella Inc. (Immix Biopharma subsidiary)",
+          "key_milestones": [
+            "Dec 2025: positive interim Phase 2 safety/efficacy data",
+            "Final readout and BLA submission expected following enrollment completion",
+            "FDA Orphan Drug Designation"
+          ]
+        },
+        {
+          "indication": "Relapsed/refractory multiple myeloma",
+          "highest_phase": "Phase 1b/2a",
+          "trial_name": "NEXICART-1",
+          "trial_design": "Open-label, ex-U.S. Phase 1b/2a",
+          "nct_ids": ["NCT04720313"],
+          "trial_status": "Active",
+          "lead_sponsor": "Hadassah Medical Organization (collaborator)",
+          "key_milestones": [
+            "95% ORR reported in 72-patient dataset (IMS 20th Annual Meeting)",
+            "FDA Orphan Drug Designation"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "IMX-110",
+      "aka": [],
+      "modality": "Tissue-Specific Therapeutic (TSTx) small-molecule nanoparticle (STAT3/NF-kB/MDSC inhibitor)",
+      "target": "STAT3 / NF-kB / tumor microenvironment",
+      "license_origin": "Internal (Immix Biopharma Australia Pty Ltd)",
+      "indications": [
+        {
+          "indication": "Advanced/refractory solid tumors (combination with tislelizumab)",
+          "highest_phase": "Phase 1b/2a",
+          "trial_name": "IMMINENT-01",
+          "trial_design": "Open-label combination study with BeiGene anti-PD-1 tislelizumab",
+          "nct_ids": ["NCT05840835"],
+          "trial_status": "Status uncertain (ctgov: UNKNOWN); trial conducted in Australia and U.S.",
+          "lead_sponsor": "Immix Biopharma, Inc.",
+          "key_milestones": [
+            "FDA Orphan Drug Designation",
+            "FDA Rare Pediatric Disease Designation"
+          ]
+        },
+        {
+          "indication": "Advanced solid tumors (monotherapy; pancreatic, breast, ovarian)",
+          "highest_phase": "Phase 1b/2a",
+          "trial_name": "IMX-110 monotherapy",
+          "trial_design": "Open-label monotherapy",
+          "nct_ids": ["NCT03382340"],
+          "trial_status": "Status uncertain (ctgov: UNKNOWN; primary completion 2023-10-31)",
+          "lead_sponsor": "Immix Biopharma Australia Pty Ltd",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "NXC-201 expansion programs in SLE, myasthenia gravis, multiple sclerosis (planned, no IND/registry yet)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3": 0,
+    "p2": 2,
+    "p1": 0,
+    "indications_total": 4
+  }
+}

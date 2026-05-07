@@ -1,0 +1,20 @@
+{
+  "issuer_name": "AIBOTICS, INC.",
+  "ticker": "AIBT",
+  "exchange": "OTC",
+  "cik": "0001763329",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001096906-26-000555", "filing_date": "2026-04-15", "doc": "tpia-20251231_10k.htm"},
+    "website": {"error": "no public pipeline page found"},
+    "ctgov": {"sponsor_query": "AIBOTICS", "trials_returned": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Aibotics, Inc. (formerly Mycotopia Therapies, Inc., renamed February 2025) shifted focus in November 2024 via acquisition of Philon Labs IP (Phill Robot, Milky Way) to AI-powered massage and wellness robotics. The company does not directly conduct or sponsor any psychedelic or pharmaceutical clinical trials; legacy psilocybin therapy plans are limited to potentially supporting partner-led research. No active P1/P2/P3 drug programs.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["Legacy Mycotopia Therapies psilocybin/psychedelic therapy plans (no Company-sponsored clinical trials initiated)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_active_assets": 0}
+}

@@ -1,0 +1,68 @@
+{
+  "issuer_name": "Lineage Cell Therapeutics, Inc.",
+  "ticker": "LCTX",
+  "exchange": "NYSE",
+  "cik": "0000876343",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-03-05", "accession": "0001193125-26-093992", "path": "data/lctx_10k_pipeline_section.html"},
+    "website": {"url": "https://lineagecell.com/pipeline", "note": "Site is largely password-protected; only program names visible. 10-K used as canonical source."},
+    "ctgov": {"path": "data/lctx_ctgov_compact.json", "unique_trials_p1_3": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "OpRegen",
+      "aka": ["RG6501"],
+      "modality": "Allogeneic RPE (retinal pigment epithelium) cell replacement therapy",
+      "target": "RPE replacement",
+      "license_origin": "Internal; worldwide collaboration with Roche/Genentech (Roche-led development, Lineage receives milestones/royalties)",
+      "indications": [
+        {
+          "indication": "Geographic atrophy secondary to dry age-related macular degeneration (dry AMD)",
+          "highest_phase": "Phase 2a",
+          "trial_name": "GAlette (Roche-sponsored Phase 2a)",
+          "trial_design": "Phase 2a study under Roche/Genentech collaboration; 36-month follow-up of prior Phase 1/2a showed durable BCVA improvement in successfully targeted patients",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active — Phase 2a development under Roche; Lineage achieved a manufacturing/clinical milestone in 2025",
+          "lead_sponsor": "Hoffmann-La Roche / Genentech",
+          "key_milestones": ["First milestone payment under Roche/Genentech collaboration achieved in 2025", "Durable BCVA improvement reported at Clinical Trials at the Summit 2025 (36-month update)"]
+        }
+      ]
+    },
+    {
+      "asset": "OPC1",
+      "aka": ["LCTOPC1", "AST-OPC1", "GRNOPC1"],
+      "modality": "Allogeneic oligodendrocyte progenitor cell therapy",
+      "target": "Spinal cord remyelination / neuroprotection",
+      "license_origin": "Internal (originally Geron, then Asterias, now Lineage)",
+      "indications": [
+        {
+          "indication": "Spinal cord injury (subacute and chronic, cervical and thoracic)",
+          "highest_phase": "Phase 1/2a",
+          "trial_name": "Delivery device safety study (DOSED)",
+          "trial_design": "Open-label safety study of OPC1 delivered via novel parenchymal spinal delivery device in subacute and chronic SCI",
+          "nct_ids": ["NCT06841770"],
+          "trial_status": "Recruiting (start 2025-06-30; primary completion 2027-08-10). First-ever chronic SCI patient treated with novel delivery device in 2025.",
+          "lead_sponsor": "Lineage Cell Therapeutics, Inc.",
+          "key_milestones": ["First chronic SCI patient dosed using novel delivery device (2025)"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ReSonance (ANP1)", "reason": "Preclinical auditory neuron progenitor cell therapy under collaboration with William Demant Invest"},
+    {"asset": "ILT1", "reason": "Research initiative for islet cell production for Type 1 Diabetes"},
+    {"asset": "RND1", "reason": "Research initiative — hypoimmune iPSC line under Factor Biosciences collaboration"},
+    {"asset": "PNC1", "reason": "Preclinical photoreceptor cell therapy research initiative"},
+    {"asset": "LCT-CON", "reason": "Undisclosed allogeneic cell transplant research initiative"},
+    {"asset": "VAC2", "reason": "Cancer immunotherapy program — not clinically active in current 10-K"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "GRNOPC1 (NCT01217008)", "reason": "Phase 1 SCI safety study completed in 2013 (legacy Geron predecessor of OPC1)"},
+    {"asset": "AST-OPC1 (NCT02302157)", "reason": "Phase 1/2a SCI dose escalation completed in 2018 (legacy Asterias predecessor of OPC1)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 0, "P2": 1, "P1": 1}
+}

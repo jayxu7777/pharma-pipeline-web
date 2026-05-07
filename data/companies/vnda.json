@@ -1,0 +1,235 @@
+{
+  "issuer_name": "Vanda Pharmaceuticals Inc.",
+  "ticker": "VNDA",
+  "exchange": "Nasdaq",
+  "cik": "0001347178",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/vnda_10k_pipeline_section.html", "filing_date": "2026-02-12", "accession": "0001628280-26-007460"},
+    "website": {"url": "https://www.vandapharma.com/pipeline", "error": "timeout — relied on 10-K + ctgov"},
+    "ctgov": {"file": "data/vnda_ctgov_compact.json", "trials_returned": 74, "active_p1_p3_count": 16}
+  },
+  "pipeline": [
+    {
+      "asset": "Tasimelteon",
+      "aka": ["HETLIOZ"],
+      "modality": "Small molecule (MT1/MT2 melatonin receptor agonist)",
+      "target": "Melatonin MT1/MT2 receptors",
+      "license_origin": "Internal (Vanda)",
+      "indications": [
+        {
+          "indication": "Pediatric Insomnia",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pediatric Insomnia Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06953869"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Delayed Sleep-Wake Phase Disorder (DSWPD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "DSWPD Phase 3 Program",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06701396", "NCT04652882"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Milsaperidone",
+      "aka": [],
+      "modality": "Small molecule (active metabolite of iloperidone)",
+      "target": "Dopamine/serotonin receptors",
+      "license_origin": "Internal (Vanda)",
+      "indications": [
+        {
+          "indication": "Major Depressive Disorder (adjunctive)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Milsaperidone MDD Adjunctive Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled, adjunctive therapy",
+          "nct_ids": ["NCT06830044"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Ponesimod",
+      "aka": ["PONVORY"],
+      "modality": "Small molecule (S1P1 receptor modulator)",
+      "target": "Sphingosine-1-phosphate receptor 1 (S1P1)",
+      "license_origin": "In-licensed from Janssen",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe Chronic Plaque Psoriasis",
+          "highest_phase": "Phase 3",
+          "trial_name": "Ponesimod Psoriasis Open-Label Phase 3",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT07362017"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Iloperidone",
+      "aka": ["FANAPT"],
+      "modality": "Small molecule (atypical antipsychotic)",
+      "target": "Dopamine D2 / serotonin 5-HT2A receptors",
+      "license_origin": "Internal (Vanda)",
+      "indications": [
+        {
+          "indication": "Uncontrolled Hypertension",
+          "highest_phase": "Phase 2",
+          "trial_name": "Iloperidone Hypertension Phase 2",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT07090161"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Schizophrenia (randomized withdrawal)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Iloperidone Schizophrenia Randomized Withdrawal",
+          "trial_design": "Randomized withdrawal",
+          "nct_ids": ["NCT06961968"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Trichostatin A",
+      "aka": [],
+      "modality": "Small molecule (HDAC inhibitor)",
+      "target": "Histone deacetylase (HDAC)",
+      "license_origin": "Internal (Vanda)",
+      "indications": [
+        {
+          "indication": "Onychomycosis (Toenail)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Trichostatin A Onychomycosis Phase 2",
+          "trial_design": "Safety, tolerability, efficacy in mild-to-severe onychomycosis",
+          "nct_ids": ["NCT07065773"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Relapsed/Refractory Hematologic Malignancies",
+          "highest_phase": "Phase 1",
+          "trial_name": "Trichostatin A Hematologic Malignancies Phase 1",
+          "trial_design": "Tolerability study",
+          "nct_ids": ["NCT03838926"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Tradipitant",
+      "aka": ["VLY-686"],
+      "modality": "Small molecule (NK1 receptor antagonist)",
+      "target": "Neurokinin-1 (NK1) receptor",
+      "license_origin": "In-licensed from Eli Lilly",
+      "indications": [
+        {
+          "indication": "Nausea and Vomiting Induced by GLP-1R Agonists",
+          "highest_phase": "Phase 3",
+          "trial_name": "Tradipitant GLP-1R Nausea/Vomiting Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT07446439"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Motion Sickness",
+          "highest_phase": "Phase 3",
+          "trial_name": "Motion Delos Phase 3",
+          "trial_design": "Open-label safety and efficacy",
+          "nct_ids": ["NCT06138613"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Idiopathic and Diabetic Gastroparesis",
+          "highest_phase": "Phase 3",
+          "trial_name": "Tradipitant Gastroparesis Open Label Safety",
+          "trial_design": "Open-label safety study",
+          "nct_ids": ["NCT06836557"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Severe/Critical COVID-19",
+          "highest_phase": "Phase 3",
+          "trial_name": "ODYSSEY",
+          "trial_design": "Open-label, enrolling by invitation",
+          "nct_ids": ["NCT04326426"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "VSJ-110",
+      "aka": [],
+      "modality": "Topical ophthalmic agent",
+      "target": "Not disclosed",
+      "license_origin": "Internal (Vanda)",
+      "indications": [
+        {
+          "indication": "Dry Eye Disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "VSJ-110 Dry Eye Phase 2",
+          "trial_design": "Eight-week, randomized, placebo-controlled",
+          "nct_ids": ["NCT07179055"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "VQW-765",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Not disclosed",
+      "license_origin": "Internal (Vanda)",
+      "indications": [
+        {
+          "indication": "Social Anxiety Disorder (on-demand)",
+          "highest_phase": "Phase 3",
+          "trial_name": "VQW-765 Social Anxiety Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled, on-demand",
+          "nct_ids": ["NCT07221578"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vanda Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Commercial products: HETLIOZ (tasimelteon), FANAPT (iloperidone), PONVORY (ponesimod), BYSANTI. Out of scope (post-marketing)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["NCT07223632 single-patient CMT2S compassionate-use study (excluded as individual patient access, not a development trial)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 8, "phase_3": 9, "phase_2": 4, "phase_1": 1}
+}

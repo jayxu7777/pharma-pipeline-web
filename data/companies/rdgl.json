@@ -1,0 +1,29 @@
+{
+  "issuer_name": "Vivos Inc.",
+  "ticker": "RDGL",
+  "exchange": "OTC",
+  "cik": "0001449349",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-013701", "filing_date": "2026-03-31", "file": "data/rdgl_10k_full.htm", "note": "Pipeline-section auto-extractor failed (narrative formatted as continuous prose). Manual review of Item 1 Business confirms two divisions: RadioGel (human, FDA Breakthrough Device, IDE rejected Aug 13 2025; pre-submission re-engagement underway) and IsoPet (commercial veterinary product)."},
+    "website": {"url": "https://www.radiogel.com/", "note": "Confirms RadioGel is not FDA approved in U.S.; IDE submission status pending; India-based human treatments referenced; no U.S. NCT IDs."},
+    "ctgov": {"sponsor_query": "Vivos", "raw_count": 0, "kept_p1_p3": 0, "file": "data/rdgl_ctgov_compact.json", "note": "Sponsor name 'Vivos' is shared with multiple unrelated entities; no Vivos Inc. (Y-90 RadioGel) trial currently on ClinicalTrials.gov."}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      {"name": "IsoPet (RadioGel for veterinary use)", "indications_marketed": ["Solid tumors in companion animals (feline sarcoma, canine soft tissue sarcoma, equine ocular squamous cell carcinoma, etc.)"], "regulatory": ["FDA Center for Veterinary Medicine 2018 device classification — premarket approval not required"], "note": "1,200% YoY increase in administered therapies 2024->2025 reported by company; Animal Therapy Division targeting breakeven 2026."}
+    ]
+  },
+  "excluded_preclinical": [
+    {"asset": "RadioGel (Y-90 hydrogel) in human solid tumors", "indications": ["Locoregional / recurrent papillary thyroid carcinoma; head & neck tumors accessible by direct needle injection"], "regulatory_status": "FDA Breakthrough Device Designation granted Dec 2023; IDE submission rejected Aug 13 2025; sterility-focused pre-submission filed Oct 14 2025; planned IDE resubmission early 2026", "reason": "No active US IDE clinical trial; pre-IND-equivalent stage. India-based exploratory human treatments through Vivos Scientific India LLP began Dec 2024 but are not registered on a public clinical trial registry (CTRI/India, CT.gov, EUCT, or jRCT)."}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"context": "Multi-university preclinical/animal studies", "collaborators": ["Washington State University", "Colorado State University", "University of Missouri", "Johns Hopkins University"], "reason": "Investigator-initiated preclinical / veterinary studies, not company-sponsored P1/P2/P3 clinical trials."}
+  ],
+  "summary_counts": {"assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Yttrium-90 brachytherapy device company. RadioGel (human) is at FDA Breakthrough Device / pre-IDE stage — IDE was rejected Aug 2025 and the company is preparing a resubmission for early 2026; no active US pivotal/IDE clinical study and no NCT registration. India human treatments are exploratory and not registered on a public trial registry. IsoPet (veterinary) is commercial and excluded from the human-clinical pipeline."
+}

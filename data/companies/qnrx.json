@@ -1,0 +1,85 @@
+{
+  "issuer_name": "Quoin Pharmaceuticals, Ltd.",
+  "ticker": "QNRX",
+  "exchange": "Nasdaq",
+  "cik": "0001671502",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-26",
+      "accession": "0001104659-26-035251",
+      "path": "data/qnrx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.quoinpharma.com/pipeline",
+      "note": "Pipeline page lists QRX003 (Netherton/Peeling Skin/SAM/Ichthyosis), QRX008 (scleroderma, preclinical), QRX009 (vascular malformations / angiofibroma, preclinical)."
+    },
+    "ctgov": {
+      "path": "data/qnrx_ctgov_compact.json",
+      "note": "Four QRX003 trials in Netherton Syndrome (P2/P3): NCT05521438 ACTIVE_NOT_RECRUITING, NCT05789056 RECRUITING, NCT06953466 RECRUITING, NCT07538583 RECRUITING (pivotal P2/3)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "QRX003",
+      "aka": [],
+      "modality": "topical lotion (broad-spectrum serine protease / kallikrein inhibitor)",
+      "target": "Kallikreins / LEKTI replacement",
+      "license_origin": "Internal (Quoin)",
+      "indications": [
+        {
+          "indication": "Netherton Syndrome (NS)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "QRX003 Lotion in Subjects With Netherton Syndrome (multi-protocol program incl. pivotal Phase 2/3)",
+          "trial_design": "Multiple parallel open-label, vehicle-controlled, and pivotal Phase 2/3 studies of QRX003 2% / 4% lotion in NS",
+          "nct_ids": ["NCT05521438", "NCT05789056", "NCT06953466", "NCT07538583"],
+          "trial_status": "ACTIVE: 3 RECRUITING + 1 ACTIVE_NOT_RECRUITING; pivotal study NCT07538583 commenced 2026-03",
+          "lead_sponsor": "Quoin Pharmaceuticals",
+          "key_milestones": [
+            "Open IND with FDA",
+            "2026 launch of pivotal Phase 2/3 study NCT07538583"
+          ]
+        },
+        {
+          "indication": "Peeling Skin Syndrome",
+          "highest_phase": "Phase 1",
+          "trial_name": "QRX003 in Peeling Skin Syndrome",
+          "trial_design": "Clinical trial initiated per company website",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ONGOING per company disclosure (no ClinicalTrials.gov record found under Quoin sponsorship)",
+          "lead_sponsor": "Quoin Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Ichthyosis (multiple subtypes)",
+          "highest_phase": "Phase 2",
+          "trial_name": "QRX003 in Ichthyosis (planned)",
+          "trial_design": "Per company website, clinical testing to commence in 2026",
+          "nct_ids": [],
+          "trial_status": "PLANNED — clinical testing to commence 2026 per company pipeline page",
+          "lead_sponsor": "Quoin Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "QRX003 in SAM Syndrome — preclinical",
+    "QRX008 — small molecule VLA-4 inhibitor for scleroderma; option to in-license from QUT, early-stage",
+    "QRX009 — topical rapamycin via UCC dissolvable microneedle technology for microcystic lymphatic malformations / venous malformations / angiofibroma; preclinical, IND filings planned 1H 2026",
+    "QRX004 — early-stage research"
+  ],
+  "excluded_legacy_terminated": [
+    "QRX007 — NS program through QUT; Quoin discontinued development in July 2025"
+  ],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": null,
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 0,
+    "p2": 2,
+    "p1": 1
+  }
+}

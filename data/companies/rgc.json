@@ -1,0 +1,52 @@
+{
+  "issuer_name": "Regencell Bioscience Holdings Ltd",
+  "ticker": "RGC",
+  "exchange": "Nasdaq",
+  "cik": "0001829667",
+  "region": "Hong Kong / Cayman Islands",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (or annual report on Form 6-K). No 10-K available."},
+    "website": {"url": "https://www.regencellbioscience.com", "note": "Corporate site discloses therapeutic focus (ADHD, ASD, COVID-19 TCM) but lists no IND-stage drug pipeline with phase designations."},
+    "ctgov": {"sponsor_query": "Regencell Bioscience", "trials_returned": 0, "note": "No registered ClinicalTrials.gov records under sponsor name."}
+  },
+  "no_active_clinical_pipeline_reason": "Regencell Bioscience is a Hong Kong-based traditional Chinese medicine (TCM) research company. Its programs (RGC-COV19, standardized TCM formulae for ADHD/ASD, the 'Sik-Kee Au TCM Brain Theory' formulae) are investigational TCM formulae studied in proprietary efficacy trials in Hong Kong and joint-venture clinics, not FDA IND-stage drug candidates. No active Phase 1/2/3 trials are registered on ClinicalTrials.gov, EU CTIS, or JRCT under the sponsor name. The company does not maintain a conventional drug-pipeline page with NCT IDs and phase designations.",
+  "pipeline": [],
+  "research_programs_disclosed_non_ind": [
+    {
+      "program": "RGC-COV19",
+      "modality": "Standardized liquid TCM formula",
+      "indication": "Mild-to-moderate COVID-19 symptom relief",
+      "status": "Company-sponsored EARTH efficacy trial conducted in Hong Kong (n=37, results announced 2022). Not an IND-stage US/EU/JP regulatory trial."
+    },
+    {
+      "program": "Standardized TCM Formulae (ADHD)",
+      "modality": "Standardized TCM oral formulae",
+      "indication": "Attention-deficit / hyperactivity disorder (ADHD) in children",
+      "status": "Company-sponsored efficacy trial in Hong Kong; uses SKATBT-A3 / VADRS assessment scales. Positive interim results disclosed 2022; further releases through 2025."
+    },
+    {
+      "program": "Standardized TCM Formulae (ASD)",
+      "modality": "Standardized TCM oral formulae",
+      "indication": "Autism Spectrum Disorder (ASD) in children",
+      "status": "Company-sponsored efficacy trial in Hong Kong; ATEC scale assessments. Positive interim results disclosed 2022; further releases through 2025."
+    },
+    {
+      "program": "Personalized TCM Formulae (legacy research study)",
+      "modality": "Practitioner-personalized TCM formulae",
+      "indication": "Neurocognitive disorders (ADHD/ASD)",
+      "status": "First research study completed by Sik-Kee Au TCM Practitioner in Hong Kong; foundation of standardized-formula development."
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "registration_or_marketed": 0
+  }
+}

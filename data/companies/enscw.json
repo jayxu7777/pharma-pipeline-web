@@ -1,0 +1,96 @@
+{
+  "issuer_name": "Ensysce Biosciences, Inc.",
+  "ticker": "ENSCW",
+  "exchange": "OTC",
+  "cik": "0001716947",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001493152-26-013633",
+      "url": "https://www.sec.gov/Archives/edgar/data/1716947/000149315226013633/form10-k.htm",
+      "note": "FY2025 10-K. Lead asset PF614 with TAAP platform; PF614-MPAR adds MPAR overdose protection."
+    },
+    "website": {
+      "url": "https://ensysce.com/our-strategy/#pipeline",
+      "note": "Corporate site landing pages mostly framework HTML; substantive pipeline content sourced from press releases (PF614-301 Phase 3 first patient enrolled Dec 2025; PF614-MPAR-102 Part 2 fully enrolled). Direct pipeline page returned no parseable asset content."
+    },
+    "ctgov": {
+      "sponsor_query": "Ensysce Biosciences",
+      "active_p1_p3_company_sponsored": 2,
+      "note": "9 trials returned; 7 COMPLETED (mostly Phase 1). 2 RECRUITING: NCT06602271 (PF614-301 Phase 3 acute postoperative pain) and NCT06500793 (PF614-MPAR-102 Phase 1 PK with nafamostat)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "PF614",
+      "aka": ["Oxycodone TAAP prodrug"],
+      "modality": "Trypsin-Activated Abuse Protection (TAAP) extended-release oxycodone prodrug; oral capsule",
+      "target": "Mu-opioid receptor (oxycodone payload released by trypsin in GI tract)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe acute postoperative pain (post-abdominoplasty)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PF614-301 (pivotal Phase 3 in acute postoperative pain)",
+          "trial_design": "Multicenter, randomized, double-blind, placebo-controlled Phase 3 in post-abdominoplasty pain (3 US sites)",
+          "nct_ids": ["NCT06602271"],
+          "trial_status": "RECRUITING (start 2025-12-09; primary completion 2026-08); first patient dosed Dec 2025",
+          "lead_sponsor": "Ensysce Biosciences",
+          "key_milestones": [
+            "First patient dosed Dec 2025",
+            "Primary completion expected 2026-08"
+          ]
+        },
+        {
+          "indication": "Acute pain (cold pressor experimental model)",
+          "highest_phase": "Phase 2 completed",
+          "trial_name": "PF614-201 (cold pressor experimental pain)",
+          "trial_design": "Phase 2 experimental pain model evaluating PF614 vs placebo/control",
+          "nct_ids": ["NCT06629402"],
+          "trial_status": "COMPLETED (2023-11-14)",
+          "lead_sponsor": "Ensysce Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PF614-MPAR",
+      "aka": ["PF614 + nafamostat combination"],
+      "modality": "Co-formulated PF614 (TAAP oxycodone prodrug) with nafamostat (trypsin inhibitor) - Multi-Pill Abuse Resistance (MPAR) overdose-protection technology",
+      "target": "Mu-opioid receptor (with overdose 'switch-off' via trypsin inhibition)",
+      "license_origin": "Internal (NIDA grant supports through May 2027); FDA Breakthrough Therapy designation",
+      "indications": [
+        {
+          "indication": "Severe pain requiring opioid analgesia with overdose protection (PK characterization)",
+          "highest_phase": "Phase 1",
+          "trial_name": "PF614-MPAR-102 (single-dose PK of PF614 + nafamostat)",
+          "trial_design": "Single-dose PK study in healthy volunteers (Quotient Sciences)",
+          "nct_ids": ["NCT06500793"],
+          "trial_status": "RECRUITING (start 2024-11-24; Part 2 fully enrolled per Apr 2026 update)",
+          "lead_sponsor": "Ensysce Biosciences",
+          "key_milestones": [
+            "Part 2 fully enrolled Apr 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Additional MPAR/TAAP next-generation analogs (preclinical)",
+    "Methylphenidate/amphetamine TAAP candidates for ADHD (preclinical)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 2,
+    "indications_total": 3,
+    "highest_phase_p3": 1,
+    "highest_phase_p2": 1,
+    "highest_phase_p1": 1,
+    "active_recruiting_or_active_not_recruiting": 2
+  },
+  "no_active_clinical_pipeline_reason": null
+}

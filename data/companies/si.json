@@ -1,0 +1,61 @@
+{
+  "issuer_name": "SHOULDER INNOVATIONS, INC.",
+  "ticker": "SI",
+  "exchange": "NYSE",
+  "cik": "0001699350",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001699350-26-000011",
+      "filing_date": "2026-03-10",
+      "primary_doc": "si-20251231.htm",
+      "path": "data/si_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://shoulderinnovations.com",
+      "note": "No /pipeline page exists. Corporate site lists InSet Glenoid commercial product only; no clinical pipeline disclosed."
+    },
+    "ctgov": {
+      "path": "data/si_ctgov_compact.json",
+      "kept_p1_p3": 0,
+      "note": "Sponsor query returned 1 raw record but 0 active P1-P3 trials sponsored by Shoulder Innovations."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "InSet Anatomic Total Shoulder Arthroplasty (aTSA) System",
+        "description": "Anatomic total shoulder arthroplasty system built around the InSet Glenoid technology designed to address glenoid loosening, the primary failure mode in legacy aTSA implants.",
+        "regulatory_status": "FDA 510(k) cleared; commercially marketed in the U.S."
+      },
+      {
+        "name": "InSet Reverse Total Shoulder Arthroplasty (rTSA) System",
+        "description": "Reverse total shoulder arthroplasty system leveraging InSet Glenoid and InSet humeral stem technologies.",
+        "regulatory_status": "FDA 510(k) cleared; commercially marketed in the U.S."
+      },
+      {
+        "name": "ProVoyance Preoperative Planning Technology",
+        "description": "AI/ML-enabled preoperative planning software that converts planar CT imaging into 3D renderings for patient-specific surgical planning.",
+        "regulatory_status": "Marketed software / planning technology."
+      },
+      {
+        "name": "Two-Tray Efficient Instrument System",
+        "description": "Two-tray instrument system supporting both aTSA and rTSA procedures, reducing operating-room footprint vs. legacy six-to-nine tray systems.",
+        "regulatory_status": "Commercially marketed with the InSet implant ecosystem."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Pure orthopedic medical-device company (shoulder arthroplasty implants and surgical planning software). Products are FDA 510(k) cleared and commercialized; no active proprietary drug pipeline and no active company-sponsored P1/P2/P3 clinical drug trials. The 10-K describes a post-market clinical registry (2/5/10-year follow-up) for adoption support rather than an interventional pivotal trial program."
+}

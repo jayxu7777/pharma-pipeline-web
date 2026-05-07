@@ -1,0 +1,127 @@
+{
+  "issuer_name": "Zenas BioPharma, Inc.",
+  "ticker": "ZBIO",
+  "exchange": "Nasdaq",
+  "cik": "0001953926",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/zbio_10k_pipeline_section.html", "filed": "2026-03-16", "accession": "0001104659-26-027964"},
+    "website": {"note": "Not separately fetched; 10-K + ctgov sufficient (recent IPO, comprehensive S-1/10-K disclosure)"},
+    "ctgov": {"path": "data/zbio_ctgov_compact.json", "n_studies": 10}
+  },
+  "pipeline": [
+    {
+      "asset": "Obexelimab",
+      "aka": ["XmAb5871"],
+      "modality": "Bifunctional monoclonal antibody co-engaging CD19 and FcγRIIb",
+      "target": "CD19 / FcγRIIb",
+      "license_origin": "In-licensed from Xencor; ex-US Asia-Pacific rights to Bristol-Myers Squibb (Japan, S. Korea, Taiwan, HK, Singapore, Australia)",
+      "indications": [
+        {
+          "indication": "IgG4-Related Disease (IgG4-RD)",
+          "highest_phase": "P3",
+          "trial_name": "INDIGO Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT05662241"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2025-11-13)",
+          "lead_sponsor": "Zenas BioPharma (USA), LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Warm Autoimmune Hemolytic Anemia (wAIHA)",
+          "highest_phase": "P3",
+          "trial_name": "SApHiAre",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT05786573"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2026-06-30)",
+          "lead_sponsor": "Zenas BioPharma (USA), LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Systemic Lupus Erythematosus (SLE)",
+          "highest_phase": "P2",
+          "trial_name": "SunStone",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06559163"],
+          "trial_status": "RECRUITING (primary completion 2026-06)",
+          "lead_sponsor": "Zenas BioPharma (USA), LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Relapsing Multiple Sclerosis (RMS)",
+          "highest_phase": "P2",
+          "trial_name": "MoonStone",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06564311"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2025-08-28)",
+          "lead_sponsor": "Zenas BioPharma (USA), LLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Orelabrutinib",
+      "aka": ["ICP-022"],
+      "modality": "Small molecule, BTK inhibitor (CNS-penetrant)",
+      "target": "BTK",
+      "license_origin": "In-licensed from InnoCare (ex-China territories)",
+      "indications": [
+        {
+          "indication": "Primary Progressive Multiple Sclerosis (PPMS)",
+          "highest_phase": "P3",
+          "trial_name": "Phase 3 in PPMS",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT07067463"],
+          "trial_status": "RECRUITING (start 2025-12, primary completion 2030-06)",
+          "lead_sponsor": "Zenas BioPharma (USA), LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Secondary Progressive Multiple Sclerosis (SPMS)",
+          "highest_phase": "P3",
+          "trial_name": "Phase 3 in SPMS",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT07299019"],
+          "trial_status": "RECRUITING (start 2026-03-23, primary completion 2030-06)",
+          "lead_sponsor": "Zenas BioPharma (USA), LLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ZB002",
+      "aka": [],
+      "modality": "Monoclonal antibody (biosimilar/biobetter candidate)",
+      "target": "Disclosed as anti-TNF / autoimmune mechanism",
+      "license_origin": "Internal / in-licensed (pre-IPO portfolio)",
+      "indications": [
+        {
+          "indication": "Rheumatoid Arthritis (PK/safety)",
+          "highest_phase": "P1",
+          "trial_name": "ZB002 PK study",
+          "trial_design": "Randomized, placebo-controlled, healthy volunteers + RA patients",
+          "nct_ids": ["NCT05638854"],
+          "trial_status": "RECRUITING (primary completion 2025-07)",
+          "lead_sponsor": "Zenas BioPharma (USA), LLC",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT05542303", "reason": "ZB001 P1 healthy volunteers COMPLETED 2023-04 — not advanced into a current active trial in the snapshot"},
+    {"nct": "NCT05776121", "reason": "ZB001 P1 thyroid eye disease in Chinese patients COMPLETED 2024-04"},
+    {"nct": "NCT05794516", "reason": "ZB004 P1 healthy participants COMPLETED 2024-03"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 3,
+    "total_active_indications": 7,
+    "P3": 4,
+    "P2": 2,
+    "P1": 1
+  }
+}

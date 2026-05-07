@@ -1,0 +1,69 @@
+{
+  "issuer_name": "NeuroSense Therapeutics Ltd.",
+  "ticker": "NRSN",
+  "exchange": "Nasdaq",
+  "cik": "0001875091",
+  "region": "Israel (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://www.neurosense-tx.com/pipeline", "ok": true},
+    "ctgov": {"trials_returned": 6, "active_p1_p2_p3": 0, "note": "All 6 historical P1/P2 listings are COMPLETED or TERMINATED. Pivotal Phase 3 PARAGON cleared by FDA Nov 2025 but not yet listed on ctgov as Recruiting."}
+  },
+  "pipeline": [
+    {
+      "asset": "PrimeC",
+      "aka": ["ciprofloxacin/celecoxib fixed-dose combination"],
+      "modality": "Oral fixed-dose small-molecule combination (extended-release)",
+      "target": "Microglial neuroinflammation, microRNA dysregulation, iron accumulation",
+      "license_origin": "Internal (NeuroSense)",
+      "indications": [
+        {
+          "indication": "Amyotrophic Lateral Sclerosis (ALS)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PARAGON",
+          "trial_design": "Pivotal, prospective, double-blind, placebo-controlled, 2:1 randomization, ~300 patients, 12-month with open-label extension, adaptive design with interim analyses (US and EU sites)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — FDA cleared the IND/Phase 3 in November 2025; first-patient-in pending strategic financing",
+          "lead_sponsor": "NeuroSense Therapeutics Ltd.",
+          "key_milestones": [
+            "Nov 2025: FDA clearance to initiate Phase 3 PARAGON",
+            "Phase 2b PARADIGM (NCT05357950) showed 65% reduction in risk of death and >14-month median survival benefit; published in JAMA Neurology",
+            "First patient enrollment targeted 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "CogniC",
+      "aka": ["PrimeC (Alzheimer indication)"],
+      "modality": "Oral fixed-dose small-molecule combination",
+      "target": "Neuroinflammation, microRNA modulation",
+      "license_origin": "Internal (NeuroSense)",
+      "indications": [
+        {
+          "indication": "Mild-to-moderate Alzheimer's disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 CogniC (single-center, 20 patients)",
+          "trial_design": "Phase 2, randomized, double-blind, single-center, placebo-controlled, target engagement and efficacy",
+          "nct_ids": ["NCT06185543"],
+          "trial_status": "TERMINATED on ctgov (primaryCompletion 2025-09-30); company communications still describe Alzheimer readout as upcoming. Treated as legacy/wind-down — see excluded_legacy_terminated. Retained here as best-in-class indication only if reactivated.",
+          "lead_sponsor": "NeuroSense Therapeutics Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "StabiliC", "indication": "Parkinson's Disease", "stage": "Pre-clinical (in-vivo)"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "PrimeC", "indication": "Pharmacokinetic studies (healthy volunteers)", "nct_ids": ["NCT05436678", "NCT05232461"], "status": "COMPLETED"},
+    {"asset": "Ciprofloxacin/Celecoxib", "indication": "ALS Phase 1/early Phase 2 historical", "nct_ids": ["NCT04090684", "NCT04165850"], "status": "COMPLETED"},
+    {"asset": "PrimeC PARADIGM Phase 2b", "indication": "ALS", "nct_ids": ["NCT05357950"], "status": "COMPLETED — supports Phase 3 PARAGON"},
+    {"asset": "PrimeC (CogniC)", "indication": "Alzheimer's Disease Phase 2", "nct_ids": ["NCT06185543"], "status": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p1": 0, "p2": 1, "p3": 1}
+}

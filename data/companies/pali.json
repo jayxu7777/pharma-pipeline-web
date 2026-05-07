@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Palisade Bio, Inc.",
+  "ticker": "PALI",
+  "exchange": "Nasdaq",
+  "cik": "0001357459",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-20",
+      "accession": "0001357459-26-000004",
+      "path": "data/pali_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.palisadebio.com/pipeline",
+      "note": "Pipeline page is JavaScript-rendered (Divi); content corroborated via PR pages and PALI-2108 product page"
+    },
+    "ctgov": {
+      "path": "data/pali_ctgov_compact.json",
+      "trial_count": 6
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "PALI-2108",
+      "aka": [],
+      "modality": "Small-molecule oral prodrug; gut-restricted (bacterial beta-glucuronidase activation)",
+      "target": "PDE4 (phosphodiesterase-4) inhibitor",
+      "license_origin": "Exclusively licensed from Giiant Pharma (Sept 2023)",
+      "indications": [
+        {
+          "indication": "Ulcerative Colitis (UC)",
+          "highest_phase": "Phase 1b",
+          "trial_name": "PALI-2108 Phase 1/1b UC program",
+          "trial_design": "Single-center, randomized, double-blind, placebo-controlled SAD/MAD/FE in healthy volunteers plus open-label UC patient cohort",
+          "nct_ids": ["NCT06663605"],
+          "trial_status": "Completed (primary completion 2025-07-07); 100% clinical response in UC cohort; Phase 2 IND submission planned Q2 2026",
+          "lead_sponsor": "Palisade Bio",
+          "key_milestones": [
+            "Q2 2026: Phase 2 UC IND submission to FDA"
+          ]
+        },
+        {
+          "indication": "Fibrostenotic Crohn's Disease (FSCD)",
+          "highest_phase": "Phase 1b",
+          "trial_name": "PALI-2108 exploratory Phase 1b in FSCD",
+          "trial_design": "Open-label 14-day once-daily dosing; paired ileal biopsies, scRNA-seq endpoints",
+          "nct_ids": ["NCT07428096"],
+          "trial_status": "Active, not recruiting (first patients dosed Oct 16, 2025; primary completion Jan 30, 2026)",
+          "lead_sponsor": "Palisade Bio",
+          "key_milestones": [
+            "H2 2026: Phase 2 CD IND submission to FDA"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "LB1148 — Phase 3 in postoperative ileus (NCT05470387) TERMINATED; Palisade ceased LB1148 development August 2023. Phase 2 COVID-19 (NCT04390217) WITHDRAWN; Phase 2 septic shock (NCT02317549) TERMINATED; Phase 2 bowel resection adhesions (NCT02836470) COMPLETED but program discontinued. Newsoara China rights retained for potential milestones only."
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 0,
+    "p2": 0,
+    "p1": 1,
+    "indications_total": 2
+  }
+}

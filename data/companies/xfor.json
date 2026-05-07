@@ -1,0 +1,68 @@
+{
+  "issuer_name": "X4 Pharmaceuticals, Inc.",
+  "ticker": "XFOR",
+  "exchange": "Nasdaq",
+  "cik": "0001501697",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-17",
+      "accession": "0001501697-26-000018",
+      "path": "data/xfor_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.x4pharma.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "path": "data/xfor_ctgov_compact.json",
+      "trial_count": 11
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Mavorixafor",
+      "aka": ["XOLREMDI", "X4P-001", "AMD11070"],
+      "modality": "Small molecule, oral CXCR4 antagonist",
+      "target": "CXCR4",
+      "license_origin": "Internally developed (originally licensed from Genzyme).",
+      "indications": [
+        {
+          "indication": "Chronic Neutropenic Disorders (congenital and acquired primary autoimmune/idiopathic; moderate and severe CN)",
+          "highest_phase": "Phase 3",
+          "trial_name": "4WARD pivotal Phase 3 trial",
+          "trial_design": "Randomized, placebo-controlled, multi-center; targeting 176 patients",
+          "nct_ids": ["NCT06056297"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "X4 Pharmaceuticals",
+          "key_milestones": ["Targeting full enrollment Q3 2026", "Top-line data expected H2 2027"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "XOLREMDI (mavorixafor)",
+    "indication": "WHIM Syndrome (patients 12+)",
+    "fda_approval": "April 2024",
+    "notes": "First FDA-approved therapy for WHIM syndrome. Phase 3 4WHIM trial (NCT03995108) is the registrational study supporting approval; now Active, Not Recruiting. EU MAA under EMA review; commercial partners Norgine (EU) and taiba rare (MENA)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "X4P-001/Mavorixafor", "indication": "Renal Cell Carcinoma", "ncts": ["NCT02923531", "NCT02667886"], "reason": "Terminated/Completed legacy oncology"},
+    {"asset": "Mavorixafor + Ibrutinib", "indication": "Waldenstrom's Macroglobulinemia", "nct": "NCT04274738", "reason": "Phase 1 completed; not active strategic indication"},
+    {"asset": "Mavorixafor + Pembrolizumab", "indication": "Melanoma", "nct": "NCT02823405", "reason": "Phase 1 completed; legacy oncology"},
+    {"asset": "X4P-001 PK/dosing healthy volunteer studies", "ncts": ["NCT02680782", "NCT06914869", "NCT06858696"], "reason": "Healthy volunteer / PK / DDI studies (not pipeline indications)"},
+    {"asset": "Mavorixafor congenital and chronic idiopathic neutropenia P1b/2", "nct": "NCT04154488", "reason": "Phase 1b/2 completed; superseded by 4WARD Phase 3"},
+    {"asset": "Mavorixafor WHIM Phase 2", "nct": "NCT03005327", "reason": "Phase 2 completed; supported initial WHIM development"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 1,
+    "P3_indications": 1,
+    "P2_indications": 0,
+    "P1_indications": 0,
+    "approved_products": 1
+  }
+}

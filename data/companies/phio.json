@@ -1,0 +1,59 @@
+{
+  "issuer_name": "Phio Pharmaceuticals Corp.",
+  "ticker": "PHIO",
+  "exchange": "Nasdaq",
+  "cik": "0001533040",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-05",
+      "accession": "0001437749-26-007078",
+      "url": "https://www.sec.gov/Archives/edgar/data/1533040/000143774926007078/phio20251231_10k.htm"
+    },
+    "website": {
+      "url": "https://phiopharma.com/pipeline",
+      "note": "Page returned mostly CSS/JS without parseable pipeline content; relied on 10-K + ctgov."
+    },
+    "ctgov": {
+      "query": "Phio Pharmaceuticals",
+      "interventional_p1_3_count": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "PH-762",
+      "aka": [],
+      "modality": "INTASYL self-delivering RNAi compound",
+      "target": "PD-1 (PDCD1) mRNA knockdown",
+      "license_origin": "Internally developed (INTASYL platform; Phio formerly RXi Pharmaceuticals)",
+      "indications": [
+        {
+          "indication": "Cutaneous squamous cell carcinoma, melanoma, and Merkel cell carcinoma (intratumoral)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Intratumoral PH-762 for Cutaneous Carcinoma",
+          "trial_design": "Open-label, multi-center, dose-escalation study of intratumoral PH-762 in patients with advanced cutaneous carcinomas",
+          "nct_ids": ["NCT06014086"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Phio Pharmaceuticals Inc.",
+          "key_milestones": ["Primary completion 2025-12-29", "cGMP manufacturing services agreement signed July 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "PH-894 (INTASYL targeting BRD4) - preclinical",
+    "INTASYL ACT applications (TIL/NK cell enhancement) - preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "AgonOx-sponsored adoptive cell therapy trial NCT05902520 (DP CD8 TIL with INTASYL knockdown) - lead sponsor is AgonOx, not Phio's owned asset"
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase3": 0,
+    "phase2": 0,
+    "phase1": 1
+  }
+}

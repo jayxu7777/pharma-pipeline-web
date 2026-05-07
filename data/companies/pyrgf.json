@@ -1,0 +1,20 @@
+{
+  "issuer_name": "PyroGenesis Canada Inc.",
+  "ticker": "PYRGF",
+  "exchange": "OTC",
+  "cik": "0001743344",
+  "region": "CA",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "PyroGenesis is a Canadian advanced plasma-technology / industrial company (plasma torches, additive manufacturing powders, waste-to-energy, hydrogen production). Not a biopharmaceutical issuer. No 10-K on EDGAR (foreign private issuer; limited or 40-F-style filings) and zero clinical trials with PyroGenesis as sponsor on ClinicalTrials.gov.",
+  "sources": {
+    "10k": {"error": "No 10-K found on EDGAR — foreign private issuer (Canadian); not a pharmaceutical company"},
+    "website": {"error": "Skipped — issuer is industrial plasma technology, not pharma"},
+    "ctgov": {"sponsor_query": "PyroGenesis", "raw_count": 0, "kept_p1_p3": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

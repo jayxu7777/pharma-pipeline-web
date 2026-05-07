@@ -1,0 +1,92 @@
+{
+  "issuer_name": "Candel Therapeutics, Inc.",
+  "ticker": "CADL",
+  "exchange": "Nasdaq",
+  "cik": "0001841387",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-103134", "filed": "2026-03-12", "doc": "cadl-20251231.htm"},
+    "website": {"url": "https://www.candeltx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Candel Therapeutics", "trials_returned": 13}
+  },
+  "pipeline": [
+    {
+      "asset": "CAN-2409 (aglatimagene besadenovec) + valacyclovir prodrug",
+      "aka": ["ProstAtak (prostate)", "AdV-tk"],
+      "modality": "Replication-defective adenovirus expressing HSV-thymidine kinase (gene-mediated cytotoxic immunotherapy)",
+      "target": "Intratumoral HSV-tk transgene with prodrug-driven cytotoxicity",
+      "license_origin": "Internal (Candel platform)",
+      "indications": [
+        {
+          "indication": "Localized prostate cancer (intermediate/high-risk) with radiation therapy",
+          "highest_phase": "Phase 3",
+          "trial_name": "ProstAtak Phase 3",
+          "trial_design": "Randomized double-blind placebo-controlled Phase 3 of CAN-2409 + valacyclovir with standard radiation therapy in localized prostate cancer; Special Protocol Assessment with FDA; BLA readiness",
+          "nct_ids": ["NCT01436968"],
+          "trial_status": "Active, not recruiting (primary completion 2024-08); BLA readiness",
+          "lead_sponsor": "Candel Therapeutics, Inc.",
+          "key_milestones": ["Topline positive readout reported; preparing BLA submission", "Fast Track designation"]
+        },
+        {
+          "indication": "Stage III/IV non-small cell lung cancer (NSCLC) with PD-1/PD-L1 inhibitor",
+          "highest_phase": "Phase 2",
+          "trial_name": "CAN-2409 + ICI Phase 2 in NSCLC",
+          "trial_design": "Phase 2 of CAN-2409 plus prodrug + standard-of-care immune checkpoint inhibitor in stage III/IV NSCLC",
+          "nct_ids": ["NCT04495153"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Candel Therapeutics, Inc.",
+          "key_milestones": ["Fast Track designation"]
+        },
+        {
+          "indication": "Borderline resectable pancreatic adenocarcinoma (neoadjuvant)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CAN-2409 neoadjuvant pancreatic Phase 2",
+          "trial_design": "Phase 2 neoadjuvant CAN-2409 + chemoradiation or SBRT in borderline resectable pancreatic adenocarcinoma",
+          "nct_ids": ["NCT02446093"],
+          "trial_status": "Active, not recruiting (enrollment paused pending funding per company website)",
+          "lead_sponsor": "Candel Therapeutics, Inc.",
+          "key_milestones": ["Fast Track designation"]
+        },
+        {
+          "indication": "Localized prostate cancer biomarker study (radiotherapy)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CAN-2409 prostate biomarker Phase 2",
+          "trial_design": "Phase 2 biomarker study of aglatimagene besadenovec + valacyclovir + EBRT in men with localized prostate cancer",
+          "nct_ids": ["NCT07332000"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Candel Therapeutics, Inc.",
+          "key_milestones": ["Trial start 2025-10-30"]
+        }
+      ]
+    },
+    {
+      "asset": "CAN-3110 (rQNestin34.5v.2)",
+      "aka": ["rQNestin"],
+      "modality": "Oncolytic herpes simplex virus (HSV-1) with ICP34.5 expression under nestin promoter",
+      "target": "Direct oncolysis + immune activation",
+      "license_origin": "In-licensed (program with Dana-Farber/Brigham; Candel sponsor; Dana-Farber-led collaboration)",
+      "indications": [
+        {
+          "indication": "Recurrent high-grade glioma / glioblastoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "CAN-3110 Phase 1 in recurrent HGG",
+          "trial_design": "Phase 1 dose-finding of CAN-3110 (rQNestin34.5v.2) +/- cyclophosphamide in adults with recurrent HGG; sponsor Dana-Farber Cancer Institute, Candel collaborator",
+          "nct_ids": ["NCT03152318"],
+          "trial_status": "Active, not recruiting (primary completion 2027-01)",
+          "lead_sponsor": "Dana-Farber Cancer Institute (Candel collaborator)",
+          "key_milestones": ["Fast Track designation"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "enLIGHTEN platform candidate(s)", "reason": "Discovery/preclinical, undisclosed asset"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Multiple older completed CAN-2409/AdV-tk Phase 1/2 studies (NCT00589875, NCT03131037, NCT00634231, NCT01997190, NCT00638612, NCT00751270, NCT03576612, NCT02768363 ULYSSES)", "reason": "Completed or fulfilled their role; not the active P1+ trial driving current development for the listed indications"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 1, "p2": 3, "p1": 1}
+}

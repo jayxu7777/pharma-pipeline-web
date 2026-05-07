@@ -1,0 +1,49 @@
+{
+  "issuer_name": "OKYO Pharma Ltd",
+  "ticker": "OKYO",
+  "exchange": "Nasdaq",
+  "cik": "0001849296",
+  "region": "United Kingdom",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (UK) — files 20-F instead of 10-K; not retrievable via this script"},
+    "website": {"url": "https://www.okyopharma.com/pipeline", "note": "Pipeline page is JS-rendered; supplemental info from press releases on okyopharma.com and Ophthalmology Times coverage"},
+    "ctgov": {"path": "data/okyo_ctgov_compact.json", "trial_count": 2, "note": "Both prior Phase 2 trials TERMINATED or COMPLETED; new registration-enabling trial planned but not yet on registry"}
+  },
+  "pipeline": [
+    {
+      "asset": "Urcosimod",
+      "aka": ["OK-101"],
+      "modality": "Lipid-conjugated chemerin-derived peptide; topical ophthalmic eye drop",
+      "target": "ChemR23 (chemerin receptor 23)",
+      "license_origin": "Internal (in-licensed from Tufts Medical Center)",
+      "indications": [
+        {
+          "indication": "Neuropathic Corneal Pain (NCP)",
+          "highest_phase": "Phase 2b/3 (planned)",
+          "trial_name": "Planned 100-150 patient multi-center registration-enabling trial",
+          "trial_design": "Randomized, double-masked, placebo-controlled multi-center registration trial; planned initiation H1 2026",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — registration-enabling Phase 2b/3 trial announced; FDA Fast Track designation granted; topline data expected 2026",
+          "lead_sponsor": "OKYO Pharma Ltd",
+          "key_milestones": ["Prior Phase 2 at Tufts (NCT06637527) terminated after interim positive readout supporting registration design", "FDA Fast Track designation for NCP", "First IND clearance specifically for NCP"]
+        },
+        {
+          "indication": "Dry Eye Disease (DED)",
+          "highest_phase": "Phase 2 (completed)",
+          "trial_name": "Phase 2 DED study",
+          "trial_design": "Randomized placebo-controlled Phase 2",
+          "nct_ids": ["NCT05759208"],
+          "trial_status": "Completed (primary completion 2023-12-15); program deprioritized in favor of NCP registration path",
+          "lead_sponsor": "OKYO Pharma Ltd",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["NCT06637527 (Phase 2 NCP at Tufts) — TERMINATED after interim positive readout, superseded by registration-enabling trial"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

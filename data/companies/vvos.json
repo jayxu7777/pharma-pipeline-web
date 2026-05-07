@@ -1,0 +1,43 @@
+{
+  "issuer_name": "Vivos Therapeutics, Inc.",
+  "ticker": "VVOS",
+  "exchange": "Nasdaq",
+  "cik": "0001716166",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "full_filing": "data/vvos_10k_full.htm",
+      "note": "10-K downloaded but pipeline-section heading not detected by slicer (no Item 1 'Pipeline' or equivalent); manual grep of full 10-K returned no 'Phase 1/2/3' clinical-trial text, consistent with a medtech (oral-appliance) issuer.",
+      "error": "slice_section heading not found"
+    },
+    "website": {
+      "url": "https://vivos.com",
+      "note": "Marketing/product site for the Vivos System oral appliance; no /pipeline page (404) and no proprietary drug or pivotal trial pipeline disclosed."
+    },
+    "ctgov": {
+      "query_sponsor": "Vivos Therapeutics",
+      "raw_hits": 0,
+      "kept_phase_1_3": 0,
+      "note": "No company-sponsored interventional P1-P3 studies on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "device_family": "Vivos System",
+    "description": "FDA-cleared oral appliance therapy positioned as a non-surgical, non-mask alternative to CPAP for obstructive sleep apnea (OSA).",
+    "regulatory_status": "FDA-cleared (510(k)) oral appliance for mild, moderate and severe OSA",
+    "indications": ["Obstructive sleep apnea (OSA)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medtech / dental-device company. Commercial-stage FDA-cleared Vivos System oral appliance for OSA; no proprietary drug or pivotal P1/P2/P3 device clinical pipeline."
+}

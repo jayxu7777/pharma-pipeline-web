@@ -1,0 +1,765 @@
+{
+  "issuer_name": "Hansoh Pharmaceutical Group Co Limited (ADR)",
+  "ticker": "HNPHY",
+  "exchange": "OTC",
+  "cik": "0002073669",
+  "region": "CN",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer - files 20-F (no 10-K on EDGAR for CIK 0002073669; primary listing is HKEX 3692, ADR is OTC)."
+    },
+    "website": {
+      "url": "https://www.hansoh.cn/en/",
+      "innovation_page": "https://www.hansoh.cn/en/technology/innovative-achievements.htm",
+      "note": "/en/research/pipeline returned 404; innovative-achievements page lists 7 approved innovative drugs but does not enumerate clinical-stage candidates. Pipeline reconstructed from ctgov sponsor search (Jiangsu Hansoh Pharmaceutical Co., Ltd.)."
+    },
+    "ctgov": {
+      "path": "data/hnphy_ctgov_compact.json",
+      "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+      "active_hansoh_led_trials": 76,
+      "note": "Filtered to Hansoh-led trials with status RECRUITING/ACTIVE_NOT_RECRUITING/NOT_YET_RECRUITING/ENROLLING_BY_INVITATION."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Aumolertinib",
+      "aka": ["HS-10296", "Ameile"],
+      "modality": "Small molecule TKI",
+      "target": "EGFR (third-generation)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Non-small cell lung cancer (EGFR-mutant; adjuvant and 1L/late-line settings)",
+          "highest_phase": "PHASE3",
+          "trial_name": "Multiple Phase 3 (adjuvant, 1L combos)",
+          "trial_design": "Randomized P3 studies; some active, some recruiting",
+          "nct_ids": ["NCT06417008", "NCT04687241", "NCT04923906", "NCT04951635"],
+          "trial_status": "Recruiting / Active not recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": ["Already approved in China (Ameile); ongoing P3 expansion into adjuvant and combination settings"]
+        }
+      ]
+    },
+    {
+      "asset": "HS-10374",
+      "aka": [],
+      "modality": "Biologic (antibody)",
+      "target": "IL-17A",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Psoriasis",
+          "highest_phase": "PHASE3",
+          "trial_name": "Phase 3 psoriasis program",
+          "trial_design": "Randomized P3",
+          "nct_ids": ["NCT06672393", "NCT06926582"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20089",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "B7-H4",
+      "license_origin": "Internal (ex-China rights licensed to GSK 2024)",
+      "indications": [
+        {
+          "indication": "Ovarian cancer",
+          "highest_phase": "PHASE3",
+          "trial_name": "Phase 3 ovarian cancer",
+          "trial_design": "Randomized P3",
+          "nct_ids": ["NCT06014190", "NCT06855069"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": ["GSK ex-China license deal 2024"]
+        }
+      ]
+    },
+    {
+      "asset": "HS-20093",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "B7-H3",
+      "license_origin": "Internal (ex-China rights licensed to GSK 2023)",
+      "indications": [
+        {
+          "indication": "Osteosarcoma",
+          "highest_phase": "PHASE3",
+          "trial_name": "P3 osteosarcoma",
+          "trial_design": "Randomized P3",
+          "nct_ids": ["NCT05830123", "NCT06699576", "NCT06935409"],
+          "trial_status": "Active not recruiting / Recruiting / Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Non-small cell lung cancer",
+          "highest_phase": "PHASE3",
+          "trial_name": "P3 NSCLC program",
+          "trial_design": "Randomized P3",
+          "nct_ids": ["NCT06621563", "NCT06963502", "NCT07464327"],
+          "trial_status": "Recruiting / Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Small cell lung cancer (limited and extensive stage)",
+          "highest_phase": "PHASE3",
+          "trial_name": "P3 SCLC",
+          "trial_design": "Randomized P3",
+          "nct_ids": ["NCT06498479", "NCT06526624"],
+          "trial_status": "Recruiting / Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": ["Most-advanced ADC in Hansoh oncology pipeline; flagship asset"]
+        }
+      ]
+    },
+    {
+      "asset": "HS-20094",
+      "aka": [],
+      "modality": "Peptide (GLP-1/GIP dual agonist class)",
+      "target": "GLP-1 / GIP receptors",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Obesity / overweight",
+          "highest_phase": "PHASE3",
+          "trial_name": "P3 weight management",
+          "trial_design": "Randomized P3",
+          "nct_ids": ["NCT06839664"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Type 2 diabetes",
+          "highest_phase": "PHASE3",
+          "trial_name": "P3 T2D",
+          "trial_design": "Randomized P3",
+          "nct_ids": ["NCT07156500", "NCT07156539"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20117",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "Undisclosed (oncology)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Non-squamous non-small cell lung cancer",
+          "highest_phase": "PHASE3",
+          "trial_name": "P3 nsq-NSCLC",
+          "trial_design": "Randomized P3",
+          "nct_ids": ["NCT06417008"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20137",
+      "aka": [],
+      "modality": "Biologic (antibody)",
+      "target": "IL-23 (presumed)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe plaque psoriasis",
+          "highest_phase": "PHASE3",
+          "trial_name": "P3 plaque psoriasis",
+          "trial_design": "Randomized P3",
+          "nct_ids": ["NCT06844799"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10365",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Undisclosed (oncology)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Non-small cell lung cancer",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 NSCLC",
+          "trial_design": "Open-label P2",
+          "nct_ids": ["NCT06147570"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10370",
+      "aka": [],
+      "modality": "Small molecule (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 solid tumors",
+          "trial_design": "Open-label P2",
+          "nct_ids": ["NCT05367778"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10375",
+      "aka": [],
+      "modality": "Small molecule (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic NSCLC",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 NSCLC",
+          "trial_design": "Open-label P2",
+          "nct_ids": ["NCT05435248"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10383",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "P2X3 (presumed antitussive class)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Refractory chronic cough",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 chronic cough",
+          "trial_design": "Randomized P2",
+          "nct_ids": ["NCT06246565"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10390",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Undisclosed (renal)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic kidney disease",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 CKD",
+          "trial_design": "Randomized P2",
+          "nct_ids": ["NCT07555054"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "IgA nephropathy",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 IgAN",
+          "trial_design": "Randomized P2",
+          "nct_ids": ["NCT06635772"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10516",
+      "aka": [],
+      "modality": "Small molecule (oncology)",
+      "target": "Undisclosed (RCC)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced clear-cell renal cell carcinoma",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 ccRCC",
+          "trial_design": "Open-label P2",
+          "nct_ids": ["NCT07097935"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10542",
+      "aka": [],
+      "modality": "Biologic (antibody)",
+      "target": "Complement C5 (presumed; PNH/IgAN profile)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Paroxysmal nocturnal hemoglobinuria",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 PNH",
+          "trial_design": "Open-label P2",
+          "nct_ids": ["NCT07470762"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "IgA nephropathy / glomerular disease",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 IgAN",
+          "trial_design": "Open-label P2",
+          "nct_ids": ["NCT07474636"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10561",
+      "aka": [],
+      "modality": "Biologic (antibody)",
+      "target": "Undisclosed (immunology)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic spontaneous urticaria",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 CSU",
+          "trial_design": "Randomized P2",
+          "nct_ids": ["NCT06864507"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10566",
+      "aka": [],
+      "modality": "Undisclosed (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "High-risk non-muscle-invasive bladder cancer",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 NMIBC",
+          "trial_design": "Open-label P2",
+          "nct_ids": ["NCT07468851"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20105",
+      "aka": [],
+      "modality": "Undisclosed (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 solid tumors",
+          "trial_design": "Open-label P2",
+          "nct_ids": ["NCT06144723"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20106",
+      "aka": [],
+      "modality": "Undisclosed (hematology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Myelodysplastic syndromes / anemia",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 MDS-anemia",
+          "trial_design": "Open-label P2",
+          "nct_ids": ["NCT06594965"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20110",
+      "aka": [],
+      "modality": "Undisclosed (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Colorectal cancer",
+          "highest_phase": "PHASE2",
+          "trial_name": "P2 CRC",
+          "trial_design": "Open-label P2",
+          "nct_ids": ["NCT07283367"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10241",
+      "aka": [],
+      "modality": "Small molecule (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced NSCLC",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 NSCLC",
+          "trial_design": "Open-label P1",
+          "nct_ids": ["NCT06823245"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10382",
+      "aka": [],
+      "modality": "Small molecule TKI",
+      "target": "BCR-ABL (presumed; CML profile)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic myelogenous leukemia (chronic / accelerated phase)",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 CML",
+          "trial_design": "Open-label P1",
+          "nct_ids": ["NCT05367700", "NCT06530810"],
+          "trial_status": "Recruiting / Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10386",
+      "aka": [],
+      "modality": "Undisclosed (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 solid tumors",
+          "trial_design": "Open-label P1",
+          "nct_ids": ["NCT05911464"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10502",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "Undisclosed (broad solid-tumor profile)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Multiple advanced solid tumors (ovarian, breast, prostate, gastric, pancreatic, colorectal)",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 basket",
+          "trial_design": "Open-label P1 dose-finding",
+          "nct_ids": ["NCT05740956", "NCT06769425"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10504",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Undisclosed (NSCLC)",
+      "license_origin": "Internal (subsidiary-developed Class 1)",
+      "indications": [
+        {
+          "indication": "Locally advanced or metastatic NSCLC",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 NSCLC",
+          "trial_design": "Open-label P1",
+          "nct_ids": ["NCT06461156", "NCT07414953"],
+          "trial_status": "Recruiting / Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10506",
+      "aka": [],
+      "modality": "Undisclosed (CNS profile)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "First-in-human (healthy volunteers)",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 FIH",
+          "trial_design": "Single/multiple ascending dose in healthy volunteers",
+          "nct_ids": ["NCT07535970"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10510",
+      "aka": [],
+      "modality": "Undisclosed (cardiometabolic)",
+      "target": "Undisclosed (lipid)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Dyslipidemia",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 dyslipidemia",
+          "trial_design": "P1",
+          "nct_ids": ["NCT07001787"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10518",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Undisclosed (gynecology)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Endometriosis",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 endometriosis",
+          "trial_design": "P1",
+          "nct_ids": ["NCT06554548"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10529",
+      "aka": [],
+      "modality": "Undisclosed (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 solid tumors",
+          "trial_design": "P1 dose-escalation",
+          "nct_ids": ["NCT06963398"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-10587",
+      "aka": [],
+      "modality": "Small molecule (oncology)",
+      "target": "MAT2A or PRMT5 (MTAP-deletion synthetic-lethal class)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "MTAP-deleted advanced solid tumors",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 MTAP-del",
+          "trial_design": "P1 dose-escalation",
+          "nct_ids": ["NCT07567859"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20108",
+      "aka": [],
+      "modality": "Undisclosed (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 solid tumors",
+          "trial_design": "P1 dose-escalation",
+          "nct_ids": ["NCT06936735"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20118",
+      "aka": [],
+      "modality": "Biologic (antibody)",
+      "target": "Undisclosed (immunology)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Psoriasis",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 psoriasis",
+          "trial_design": "P1",
+          "nct_ids": ["NCT06846710", "NCT07033234"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20122",
+      "aka": [],
+      "modality": "Undisclosed (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors / lung cancer",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 solid tumors",
+          "trial_design": "P1 dose-escalation",
+          "nct_ids": ["NCT06927570", "NCT07414953"],
+          "trial_status": "Recruiting / Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20124",
+      "aka": [],
+      "modality": "Undisclosed (oncology)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Solid cancers",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 solid tumors",
+          "trial_design": "P1 dose-escalation",
+          "nct_ids": ["NCT06763159"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20136",
+      "aka": [],
+      "modality": "Undisclosed",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "First-in-human (healthy volunteers)",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 FIH",
+          "trial_design": "SAD/MAD in healthy volunteers",
+          "nct_ids": ["NCT07483437"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HS-20152",
+      "aka": [],
+      "modality": "Undisclosed",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "First-in-human (healthy volunteers)",
+          "highest_phase": "PHASE1",
+          "trial_name": "P1 FIH",
+          "trial_design": "SAD/MAD in healthy volunteers",
+          "nct_ids": ["NCT07503015"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_innovative_drugs_china": [
+      {"name": "Saint Luolai (Pegmolesatide)", "indication": "Renal anemia", "modality": "Long-acting EPO peptide"},
+      {"name": "XINYUE (Inebilizumab)", "indication": "Anti-CD19 B-cell disorders (NMOSD class)", "modality": "Monoclonal antibody"},
+      {"name": "Ameile (Aumolertinib mesylate)", "indication": "EGFR-mutant NSCLC", "modality": "3rd-gen EGFR TKI"},
+      {"name": "Hengmu (Tenofovir amibufenamide)", "indication": "Chronic hepatitis B", "modality": "Nucleotide analog"},
+      {"name": "Hansoh Xinfu (Flumatinib mesylate)", "indication": "Chronic myeloid leukemia", "modality": "BCR-ABL TKI"},
+      {"name": "Fulaimei (PEG-Loxenatide)", "indication": "Type 2 diabetes", "modality": "GLP-1 receptor agonist"},
+      {"name": "Mailingda (Morinidazole)", "indication": "Anaerobic infections", "modality": "Small-molecule antibiotic"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"reason": "Investigator-initiated studies (Cancer Institute and Hospital CAMS, Zhejiang Cancer Hospital, Sun Yat-sen University, etc.) excluded as not Hansoh-led pivotal programs."}
+  ],
+  "summary_counts": {
+    "total_assets": 35,
+    "phase_3": 7,
+    "phase_2": 12,
+    "phase_1": 16
+  },
+  "no_active_clinical_pipeline_reason": null
+}

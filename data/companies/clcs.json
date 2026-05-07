@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Cell Source, Inc.",
+  "ticker": "CLCS",
+  "exchange": "OTC",
+  "cik": "0001569340",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-015359", "filing_date": "2026-04-07", "doc": "form10-k.htm"},
+    "website": {"error": "no public pipeline page resolved (cellsourcelimited.com DNS not found)"},
+    "ctgov": {"sponsor_query": "Cell Source", "results": 0, "note": "ctgov returns no studies under 'Cell Source' sponsor; trial is registered with MD Anderson Cancer Center as lead sponsor though 10-K states the trial is 'sponsored by Cell Source.'"}
+  },
+  "pipeline": [
+    {
+      "asset": "Anti-Viral Central Memory CD8+ Veto Cells",
+      "aka": ["Veto Cell", "Cytokine-Treated Veto Cells"],
+      "modality": "Allogeneic cellular immunotherapy (donor-derived T-cell product)",
+      "target": "Selective immune attenuation; veto cell mechanism enabling haploidentical T-cell-depleted HSCT without GvHD",
+      "license_origin": "Exclusive license from Yeda Research and Development (Weizmann Institute); inventor Prof. Yair Reisner now at MD Anderson",
+      "indications": [
+        {
+          "indication": "Hematologic malignancies receiving haploidentical hematopoietic stem cell transplantation (HSCT)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Cytokine-Treated Veto Cells in Treating Patients With Hematologic Malignancies Following Stem Cell Transplant",
+          "trial_design": "Open-label dose-escalation Phase 1/2 of cytokine-treated anti-viral veto cells administered with reduced-intensity-conditioning haploidentical HSCT; primary objectives engraftment without GvHD and optimal veto-cell dose; pediatric and adult (12-75 yrs)",
+          "nct_ids": ["NCT03622788"],
+          "trial_status": "Active, not recruiting (started Aug 2019; estimated completion Dec 2027). Per 10-K, first 5 cohorts (15 patients each) completed with no Veto-Cell-related toxicity and consistent engraftment.",
+          "lead_sponsor": "M.D. Anderson Cancer Center (10-K states trial is sponsored/funded by Cell Source)",
+          "key_milestones": ["First 10 patients in initial protocol achieved primary endpoints; subsequent cytokine-treated cohorts ongoing"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "VETO CAR-T (Veto Cell + allogeneic CAR-T)", "reason": "Preclinical; not yet in clinic"},
+    {"asset": "Veto Cell for sickle cell anemia / Type 1 diabetes / autoimmune (non-HSCT settings)", "reason": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0, "note": "1 P1/2 asset; counted under P2 as the higher phase"}
+}

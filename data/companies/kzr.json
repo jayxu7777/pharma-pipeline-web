@@ -1,0 +1,64 @@
+{
+  "issuer_name": "Kezar Life Sciences, Inc.",
+  "ticker": "KZR",
+  "exchange": "Nasdaq",
+  "cik": "0001645666",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-27",
+      "accession": "0001628280-26-021737",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645666/000162828026021737/kzr-20251231.htm"
+    },
+    "website": {
+      "url": "https://kezarlifesciences.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Kezar Life Sciences",
+      "trial_count": 7
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Zetomipzomib",
+      "aka": ["KZR-616"],
+      "modality": "Selective small-molecule immunoproteasome inhibitor (LMP7/LMP2); subcutaneous lyophilized for reconstitution",
+      "target": "Immunoproteasome (LMP7 and LMP2)",
+      "license_origin": "Exclusive license from Onyx Therapeutics (Amgen subsidiary) for non-oncology uses; ex-US partial out-license to Everest Medicines (Greater China + select Asia)",
+      "indications": [
+        {
+          "indication": "Autoimmune Hepatitis (AIH) — relapsed and refractory",
+          "highest_phase": "Phase 2 (PORTOLA Phase 2a complete; planned Phase 2b)",
+          "trial_name": "PORTOLA (completed) and planned global Phase 2b registrational study",
+          "trial_design": "PORTOLA: Phase 2a placebo-controlled, double-blind, 24 patients (2:1) 60 mg zetomipzomib SC vs placebo + background steroid taper for 24 weeks. Planned Phase 2b: global, randomized in relapsed/refractory AIH per March 2026 FDA Type C feedback (treatment duration, endpoints, enrollment criteria agreed)",
+          "nct_ids": ["NCT05569759"],
+          "trial_status": "PORTOLA COMPLETED April 2025; topline March 2025 (50% CR vs 37.5% placebo by week 25); FDA alignment on Phase 2b achieved March 2026; company exploring strategic alternatives (announced Oct 2025) and implementing restructuring/wind-down",
+          "lead_sponsor": "Kezar Life Sciences, Inc.",
+          "key_milestones": [
+            "PORTOLA topline March 2025",
+            "Strategic alternatives review announced Oct 2025",
+            "FDA Type C alignment on Phase 2b March 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Zetomipzomib in Lupus Nephritis (PALIZADE)", "reason": "Phase 2b trial (NCT05781750) TERMINATED Oct 2024 after FDA clinical hold based on safety monitoring committee review of 15 SAEs including 4 fatalities"},
+    {"asset": "Zetomipzomib in PM/DM (PRESIDIO)", "reason": "Phase 2 (NCT04033926, OLE NCT04628936) COMPLETED; not in active pipeline"},
+    {"asset": "Zetomipzomib in AIHA/ITP", "reason": "Phase 2 NCT04039477 WITHDRAWN"},
+    {"asset": "KZR-261 (Sec61 inhibitor)", "reason": "Phase 1 NCT05047536 enrollment stopped Aug 2024; Sec-61 program ceased; assets sold to Enodia Therapeutics SAS via asset purchase agreement March 6, 2026"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3_indications": 0,
+    "phase_2_indications": 1,
+    "phase_1_indications": 0
+  },
+  "company_status_note": "Kezar announced Oct 2025 it would explore strategic alternatives focused on maximizing stockholder value after FDA misalignment on registrational AIH trial; implementing restructuring and wind-down. KZR-261 program sold to Enodia March 2026."
+}

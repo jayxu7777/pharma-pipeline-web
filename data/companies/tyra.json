@@ -1,0 +1,107 @@
+{
+  "issuer_name": "Tyra Biosciences, Inc.",
+  "ticker": "TYRA",
+  "exchange": "Nasdaq",
+  "cik": "0001863127",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-085490", "filing_date": "2026-03-02", "doc": "tyra-20251231.htm"},
+    "website": {"url": "https://tyra.bio/pipeline", "note": "page rendered via JS; relied on 10-K + ctgov for asset list"},
+    "ctgov": {"file": "data/tyra_ctgov_compact.json", "trial_count": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "TYRA-300",
+      "aka": ["dabogratinib"],
+      "modality": "Small molecule",
+      "target": "FGFR3",
+      "license_origin": "Internal (Tyra SNAP platform)",
+      "indications": [
+        {
+          "indication": "FGFR3-altered low-grade intermediate-risk non-muscle invasive bladder cancer (NMIBC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SURF302",
+          "trial_design": "Phase 2 single-arm, multi-cohort efficacy/safety study, 60mg/50mg/TBD dose arms",
+          "nct_ids": ["NCT06995677"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Tyra Biosciences, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Achondroplasia (children)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BEACH301",
+          "trial_design": "Phase 2 dose-escalation in pediatric achondroplasia (0.125 / 0.25 / 0.375 / 0.50 mg/kg)",
+          "nct_ids": ["NCT06842355"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Tyra Biosciences, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Low-grade upper tract urothelial carcinoma (UTUC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SURF303",
+          "trial_design": "Phase 2A/B efficacy & safety, 60mg/80mg/TBD dose arms",
+          "nct_ids": ["NCT07265947"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Tyra Biosciences, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "FGFR3-altered advanced urothelial carcinoma and other solid tumors",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "SURF301",
+          "trial_design": "Phase 1/2 dose-escalation/expansion in advanced solid tumors with FGFR3 alterations",
+          "nct_ids": ["NCT05544552"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Tyra Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TYRA-200",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "FGFR2",
+      "license_origin": "Internal (Tyra SNAP platform)",
+      "indications": [
+        {
+          "indication": "Advanced cholangiocarcinoma with activating FGFR2 alterations",
+          "highest_phase": "Phase 1",
+          "trial_name": "SURF201",
+          "trial_design": "Phase 1 dose-escalation (Part A) and dose-expansion (Part B), QD oral, 28-day cycles",
+          "nct_ids": ["NCT06160752"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Tyra Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TYRA-430",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "FGFR4 / FGF19 pathway",
+      "license_origin": "Internal (Tyra SNAP platform)",
+      "indications": [
+        {
+          "indication": "Advanced hepatocellular carcinoma and other FGF/FGFR-aberrant solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "SURF431",
+          "trial_design": "Phase 1 first-in-human dose-escalation/expansion",
+          "nct_ids": ["NCT06915753"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Tyra Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["TYRA-540 and earlier discovery FGFR / RAS-pathway programs (preclinical, not in human trials)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 3, "phase3": 0, "phase2": 3, "phase1_or_1_2": 3, "indications_total": 6}
+}

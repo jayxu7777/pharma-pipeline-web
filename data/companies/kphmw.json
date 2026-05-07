@@ -1,0 +1,92 @@
+{
+  "issuer_name": "Kiora Pharmaceuticals, Inc.",
+  "ticker": "KPHMW",
+  "exchange": "OTC",
+  "cik": "0001372514",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-25",
+      "accession": "0001372514-26-000024",
+      "path": "data/kphmw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://kiorapharma.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "path": "data/kphmw_ctgov_compact.json",
+      "trial_count": 5
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "KIO-301",
+      "aka": [],
+      "modality": "Small molecule photoswitch (intravitreal)",
+      "target": "Retinal ganglion cells (mutation-agnostic vision restoration)",
+      "license_origin": "Out-licensed to Thea Open Innovation (global ex-Asia)",
+      "indications": [
+        {
+          "indication": "Late-stage Retinitis Pigmentosa",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 Study of Intravitreal KIO-301 in Late-stage Retinitis Pigmentosa",
+          "trial_design": "Randomized, double-masked, placebo-controlled (50 ug, 100 ug vs sterile saline placebo)",
+          "nct_ids": ["NCT06628947"],
+          "trial_status": "Recruiting (start 2025-08-29; primary completion 2027-08)",
+          "lead_sponsor": "Kiora Pharmaceuticals, Inc.",
+          "key_milestones": ["FDA Orphan Drug Designation (Mar 2022)"]
+        }
+      ]
+    },
+    {
+      "asset": "KIO-104",
+      "aka": [],
+      "modality": "DHODH inhibitor (intravitreal small molecule)",
+      "target": "DHODH (inhibits T-cell mediated retinal inflammation)",
+      "license_origin": "In-licensed from 4SC Discovery (royalty 3.25% on net sales)",
+      "indications": [
+        {
+          "indication": "Macular Edema (incl. retinal inflammation, posterior non-infectious uveitis)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Safety, Tolerability and Efficacy of Intravitreal KIO-104 in Patients With Macular Edema",
+          "trial_design": "Interventional Phase 2 (KIO-104)",
+          "nct_ids": ["NCT06825702"],
+          "trial_status": "Recruiting (start 2025-05-01; primary completion 2026-11)",
+          "lead_sponsor": "Kiora Pharmaceuticals, Inc.",
+          "key_milestones": ["EU Orphan Drug Designation (May 2015)"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "KIO-101",
+      "indication": "Dry Eye Disease in autoimmune patients",
+      "nct_id": "NCT05629364",
+      "reason": "Phase 2 trial TERMINATED"
+    },
+    {
+      "asset": "KIO-201 (Ocular Bandage Gel)",
+      "indication": "Persistent Corneal Epithelial Defects",
+      "nct_id": "NCT05436288",
+      "reason": "Phase 2 COMPLETED in 2022; not currently active"
+    },
+    {
+      "asset": "KIO-301 (ABACUS Phase 1/2)",
+      "indication": "Retinitis Pigmentosa / Choroideremia",
+      "nct_id": "NCT05282953",
+      "reason": "Phase 1/2 COMPLETED 2023; superseded by current Phase 2 NCT06628947"
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 0,
+    "phase_2": 2,
+    "phase_1": 0
+  }
+}

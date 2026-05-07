@@ -1,0 +1,98 @@
+{
+  "issuer_name": "BioXcel Therapeutics, Inc.",
+  "ticker": "BTAI",
+  "exchange": "Nasdaq",
+  "cik": "0001720893",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-036214", "filed": "2026-03-27", "form": "10-K"},
+    "website": {"url": "https://www.bioxceltherapeutics.com/"},
+    "ctgov": {"query_sponsor": "BioXcel Therapeutics", "results": 18}
+  },
+  "pipeline": [
+    {
+      "asset": "BXCL501",
+      "aka": ["IGALMI (commercial form)", "sublingual dexmedetomidine"],
+      "modality": "Sublingual film, selective alpha-2A adrenergic receptor agonist",
+      "target": "Alpha-2A adrenergic receptor",
+      "license_origin": "Internal AI re-innovation of dexmedetomidine",
+      "indications": [
+        {
+          "indication": "Acute agitation in schizophrenia/bipolar — at-home setting (label expansion)",
+          "highest_phase": "Phase 3 (sNDA filed)",
+          "trial_name": "SERENITY At-Home Pivotal Phase 3 safety trial",
+          "trial_design": "Pivotal safety trial; primary endpoint met Aug 2025; positive exploratory efficacy Sep/Oct 2025",
+          "nct_ids": ["NCT05658510"],
+          "trial_status": "Completed; sNDA submitted to FDA 2026-01-14 for at-home label expansion of IGALMI",
+          "lead_sponsor": "BioXcel Therapeutics Inc",
+          "key_milestones": ["sNDA filed 2026-01-14", "Interim CCO appointed Jan 2026 to support potential at-home launch"]
+        },
+        {
+          "indication": "Agitation associated with Alzheimer's dementia (TRANQUILITY)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TRANQUILITY In-Care Phase 3 (second trial planned)",
+          "trial_design": "Phase 3 evaluating 60-mcg dose of BXCL501 for agitation in Alzheimer's dementia in-care setting; FDA has commented on protocol",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiation pending funding (TRANQUILITY II completed; TRANQUILITY III previously terminated)",
+          "lead_sponsor": "BioXcel Therapeutics Inc",
+          "key_milestones": ["FDA protocol feedback received", "Awaiting funding for trial initiation"]
+        },
+        {
+          "indication": "Agitation in pediatric schizophrenia",
+          "highest_phase": "Phase 1",
+          "trial_name": "BXCL501 pediatric schizophrenia",
+          "trial_design": "Phase 1 PK/safety in pediatric agitation",
+          "nct_ids": ["NCT05025605"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioXcel Therapeutics Inc",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BXCL701",
+      "aka": [],
+      "modality": "Oral small molecule, innate immune activator (DPP8/9 inhibitor)",
+      "target": "DPP8/9",
+      "license_origin": "Internal (OnkosXcel Therapeutics subsidiary)",
+      "indications": [
+        {
+          "indication": "Acute stress reactions (US Department of War-funded study)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BXCL701 Acute Stress Reactions (DoW-funded)",
+          "trial_design": "Government-funded study; first patients enrolled April 2026",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Recruiting (first patients enrolled April 2026); BXCL701 oncology programs deprioritized",
+          "lead_sponsor": "OnkosXcel Therapeutics / BioXcel",
+          "key_milestones": ["First patients enrolled April 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "IGALMI (dexmedetomidine sublingual film)",
+    "indication": "Acute treatment of agitation associated with schizophrenia or bipolar I/II in adults (in-hospital)",
+    "approval_date": "2022-04-06",
+    "fy2025_net_revenue_usd_m": 0.6
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT04251910", "reason": "Completed Ph1/2 dementia agitation"},
+    {"nct_id": "NCT03910660", "reason": "Completed BXCL701+pembro mCRPC (oncology deprioritized)"},
+    {"nct_id": "NCT05665088", "reason": "Terminated TRANQUILITY III (dementia)"},
+    {"nct_id": "NCT05313386", "reason": "Withdrawn BXCL501 ICU delirium"},
+    {"nct_id": "NCT04268303", "reason": "Completed Ph3 BXCL501 schizophrenia agitation (basis for IGALMI approval)"},
+    {"nct_id": "NCT07116694", "reason": "Completed Ph2 acute psychomotor agitation assessment"},
+    {"nct_id": "NCT05271552", "reason": "Completed TRANQUILITY II Ph3 dementia"},
+    {"nct_id": "NCT04010305", "reason": "Completed Ph1 sublingual dexmedetomidine schizophrenia"},
+    {"nct_id": "NCT04276883", "reason": "Completed Ph3 bipolar agitation (basis for IGALMI approval)"},
+    {"nct_id": "NCT05276830", "reason": "Terminated Ph2 BXCL501 dementia agitation"},
+    {"nct_id": "NCT04470050", "reason": "Completed Ph1/2 acute opioid withdrawal"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "(various)", "asset": "BXCL501 IST trials", "reason": "Investigator-sponsored trials (PASUDA Alliance, Jeff Huffman MD, Georgetown, NY State Psychiatric Institute) — academic-led, not company-sponsored"}
+  ],
+  "summary_counts": {"total_assets": 2, "p3": 1, "p2": 1, "p1": 1}
+}

@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Ayr Wellness Inc.",
+  "ticker": "AYRWF",
+  "exchange": "OTC",
+  "cik": "0001847462",
+  "region": "US/Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found — Canadian-domiciled cannabis multi-state operator; files Form 10 / cross-border equivalents and not a 10-K filer"},
+    "website": {"note": "Cannabis cultivation/retail operator (Ayr Wellness) — no drug pipeline"},
+    "ctgov": {"path": "data/ayrwf_ctgov_compact.json", "trials_found": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Ayr Wellness is a vertically integrated US cannabis multi-state operator (cultivation, manufacturing, retail dispensaries). It is not a drug developer and has no clinical-stage assets; no CT.gov sponsored trials."
+}

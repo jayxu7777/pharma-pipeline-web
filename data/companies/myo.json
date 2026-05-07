@@ -1,0 +1,53 @@
+{
+  "issuer_name": "MYOMO, INC.",
+  "ticker": "MYO",
+  "exchange": "NYSE",
+  "cik": "0001369290",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-098531",
+      "filed": "2026-03-09",
+      "doc": "myo-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.myomo.com",
+      "note": "No dedicated /pipeline page; corporate site describes commercial MyoPro device only."
+    },
+    "ctgov": {
+      "query_sponsor": "Myomo",
+      "raw_hits": 6,
+      "kept_phase_1_3": 1,
+      "note": "Sole hit NCT00820638 (PHASE1, 2008 Home Safety Study) is overallStatus=UNKNOWN and far past primary completion (2009-06); not an active P1/P2/P3 study."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "device_family": "MyoPro",
+    "versions": ["MyoPro 2x", "MyoPro 2+", "MyoPro 2"],
+    "description": "Powered upper-limb (myoelectric) orthosis assisting users with paralyzed/weakened arms.",
+    "regulatory_status": "FDA-cleared medical device",
+    "reimbursement": "Medicare DMEPOS codes L8701 / L8702; CMS fee schedule effective April 1, 2025.",
+    "indications": ["Stroke", "Brachial plexus injury", "Cerebral palsy", "Other neuromuscular diseases/injuries"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "nct_id": "NCT00820638",
+      "title": "Myomo e100 NeuroRobotic System Home Safety Study",
+      "phase": "PHASE1",
+      "status": "UNKNOWN (primary completion 2009-06; legacy)",
+      "reason": "Stale legacy device safety study; not active and predates current commercial MyoPro generation."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medtech device company. Commercial-stage FDA-cleared MyoPro powered arm orthosis; no proprietary active P1/P2/P3 drug or pivotal device clinical pipeline disclosed."
+}

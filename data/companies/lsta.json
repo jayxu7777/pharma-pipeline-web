@@ -1,0 +1,40 @@
+{
+  "issuer_name": "LISATA THERAPEUTICS, INC.",
+  "ticker": "LSTA",
+  "exchange": "Nasdaq",
+  "cik": "0000320017",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000320017-26-000023", "filing_date": "2026-03-12", "form": "10-K", "note": "On 2026-03-06 entered into Merger Agreement to be acquired by Kuva Labs Inc. for $5.00/share + CVR tied to certepetide NDA filing."},
+    "website": {"url": "https://www.lisata.com/product-development-pipeline/", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Lisata Therapeutics", "studies_count": 16}
+  },
+  "pipeline": [
+    {
+      "asset": "Certepetide",
+      "aka": ["LSTA1", "CEND-1"],
+      "modality": "Cyclic iRGD peptide (IV)",
+      "target": "Alpha-v beta-3 / alpha-v beta-5 integrins; neuropilin-1 (CendR active transport pathway)",
+      "license_origin": "Acquired (Cend Therapeutics, Sept 2022)",
+      "indications": [
+        {
+          "indication": "Metastatic pancreatic ductal adenocarcinoma (mPDAC) — combination with gemcitabine + nab-paclitaxel",
+          "highest_phase": "Phase 2",
+          "trial_name": "ASCEND (Phase 2b, AGITG/Univ. of Sydney)",
+          "trial_design": "Randomized (2:1), double-blind, placebo-controlled Phase 2b; two cohorts (single vs two-dose certepetide)",
+          "nct_ids": ["NCT05712356"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Australasian Gastrointestinal Trials Group (AGITG) / University of Sydney; Lisata collaborator",
+          "key_milestones": ["Cohort A mOS 12.68 vs 9.72 mo (ASCO GI Jan-2025)", "Cohort B 6MPFS 60.8% vs 25% (ESMO-GI Jul-2025)", "Final report expected 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["XOWNA (CD34+ for CMD) — non-active per 10-K", "HONEDRA / LSTA12 (CD34+ for CLI) — non-active per 10-K", "LSTA201 (CD34+ for DKD) — non-active per 10-K", "OLOGO / LSTA14 (CD34+ for NORDA) — non-active per 10-K"],
+  "excluded_legacy_terminated": ["BOLSTER cholangiocarcinoma trial — completed, no benefit", "CLBS16 CMD Phase 2 (NCT04614467) — terminated", "CLBS119 (NCT04522817) — withdrawn", "Certepetide Phase 1b/2a continuous infusion mPDAC (NCT06592664) — withdrawn"],
+  "excluded_partner_owned": ["Investigator-initiated certepetide trials (iLSTA, CENDIFOX, GBM Phase 2a) — academic-sponsored"],
+  "summary_counts": {"total_assets": 1, "phase_3": 0, "phase_2": 1, "phase_1": 0},
+  "no_active_clinical_pipeline_reason": null
+}

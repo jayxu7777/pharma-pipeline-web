@@ -1,0 +1,112 @@
+{
+  "issuer_name": "UroGen Pharma Ltd.",
+  "ticker": "URGN",
+  "exchange": "Nasdaq",
+  "cik": "0001668243",
+  "region": "Israel/US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-26-006234",
+      "filing_date": "2026-03-02",
+      "doc": "urgn20251231_10k.htm"
+    },
+    "website": {
+      "url": "https://www.urogen.com/pipeline"
+    },
+    "ctgov": {
+      "query_sponsor": "UroGen Pharma",
+      "studies_returned": 13,
+      "active_p123_company_sponsored": 3
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "UGN-103",
+      "aka": ["UTOPIA-trial agent", "next-gen Zusduri"],
+      "modality": "Intravesical mitomycin in RTGel reverse-thermal hydrogel (next-generation 80 mg formulation)",
+      "target": "DNA crosslinking (mitomycin C cytotoxic) — local intravesical delivery",
+      "license_origin": "Mitomycin formulation in-licensed from medac (Jan 2024); RTGel proprietary",
+      "indications": [
+        {
+          "indication": "Recurrent low-grade intermediate-risk non-muscle-invasive bladder cancer (LG-IR-NMIBC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "UTOPIA",
+          "trial_design": "Single-arm, multicenter Phase 3 (75 mg mitomycin intravesical weekly x 6)",
+          "nct_ids": ["NCT06331299"],
+          "trial_status": "Active, not recruiting (enrollment of 99 patients completed Jul 2025; 3-month CR 77.8%)",
+          "lead_sponsor": "UroGen Pharma Ltd.",
+          "key_milestones": [
+            "Apr 2024: FDA accepted IND",
+            "Jul 2025: enrollment complete (n=99)",
+            "Nov 2025: top-line 3-month CR 77.8%",
+            "NDA submission planned"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "UGN-104",
+      "aka": ["next-gen Jelmyto"],
+      "modality": "Pyelocalyceal mitomycin in RTGel reverse-thermal hydrogel (next-generation 80 mg formulation)",
+      "target": "DNA crosslinking (mitomycin C cytotoxic) — local upper tract delivery",
+      "license_origin": "Mitomycin formulation in-licensed from medac (Jan 2024); RTGel proprietary",
+      "indications": [
+        {
+          "indication": "Low-grade upper tract urothelial cancer (LG-UTUC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "UGN-104 Phase 3 (single-arm)",
+          "trial_design": "Single-arm Phase 3",
+          "nct_ids": ["NCT06774131"],
+          "trial_status": "Recruiting (initiated June 2025; enrollment expected to complete end of 2026)",
+          "lead_sponsor": "UroGen Pharma Ltd.",
+          "key_milestones": [
+            "Feb 2025: FDA accepted IND",
+            "Jun 2025: Phase 3 initiated"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "UGN-102 (Zusduri)",
+      "aka": ["mitomycin intravesical solution", "ENVISION agent"],
+      "modality": "Intravesical mitomycin in RTGel reverse-thermal hydrogel",
+      "target": "DNA crosslinking (mitomycin C cytotoxic)",
+      "license_origin": "Internal (RTGel platform); mitomycin commodity API",
+      "indications": [
+        {
+          "indication": "Low-grade intermediate-risk non-muscle-invasive bladder cancer (LG-IR-NMIBC) — long-term follow-up",
+          "highest_phase": "Phase 3",
+          "trial_name": "ENVISION (UGN-102 confirmatory)",
+          "trial_design": "Single-arm Phase 3",
+          "nct_ids": ["NCT05243550"],
+          "trial_status": "Active, not recruiting (FDA approved Zusduri June 2025; long-term follow-up continuing per registry)",
+          "lead_sponsor": "UroGen Pharma Ltd.",
+          "key_milestones": [
+            "FDA approved Zusduri (UGN-102) June 2025"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      "Jelmyto (mitomycin pyelocalyceal solution) — approved for LG-UTUC",
+      "Zusduri (UGN-102, mitomycin intravesical solution) — approved June 2025 for recurrent LG-IR-NMIBC"
+    ]
+  },
+  "excluded_preclinical": [
+    "UGN-501 (formerly ICVB-1042) intravesical oncolytic virus for high-grade NMIBC — IND-enabling/preclinical (acquired Feb 2025 from IconOVir; planned Phase 1 IND filing in 2026)"
+  ],
+  "excluded_legacy_terminated": [
+    "UGN-301 (zalifrelimab anti-CTLA-4 intravesical) — discontinued November 2025; license to Agenus AGEN1884 being terminated"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 3,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

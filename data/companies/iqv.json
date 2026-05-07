@@ -1,0 +1,40 @@
+{
+  "issuer_name": "IQVIA HOLDINGS INC.",
+  "ticker": "IQV",
+  "exchange": "NYSE",
+  "cik": "0001478242",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-008322",
+      "filed": "2026-02-17",
+      "fiscal_year_end": "2025-12-31",
+      "note": "10-K describes IQVIA as a contract research organization (CRO) and provider of advanced analytics, technology, and clinical research services to the life sciences industry. No proprietary drug or device pipeline disclosed."
+    },
+    "website": {
+      "error": "no public pipeline page — IQVIA does not maintain a drug/device pipeline page (CRO/services business)."
+    },
+    "ctgov": {
+      "sponsor_query": "IQVIA",
+      "trials_returned_note": "All trials surfaced for IQVIA-related entities (IQVIA Biotech, IQVIA Pty Ltd, IQVIA RDS, etc.) appear as collaborator / contracted CRO on third-party sponsors' trials (AstraZeneca, Milestone Pharmaceuticals, Hutchison Medipharma, Spero, etc.). No proprietary IQVIA-owned investigational asset identified."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "asset": "Various sponsor-owned trials with IQVIA as contracted CRO/collaborator",
+      "reason": "IQVIA serves as the contract research organization on these trials; the investigational assets are owned by the lead sponsors (e.g., AstraZeneca's Nirsevimab NCT06042049; Milestone Pharmaceuticals' Etripamil NCT04072835). Per workflow rule, partner/sponsor-owned trials are excluded."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Distribution / services company — no proprietary clinical pipeline. IQVIA is a contract research organization (CRO) and life-sciences technology/analytics provider; it conducts trials on behalf of pharma/biotech sponsors but does not develop or own clinical-stage drug or device assets."
+}

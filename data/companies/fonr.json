@@ -1,0 +1,56 @@
+{
+  "issuer_name": "FONAR CORP",
+  "ticker": "FONR",
+  "exchange": "Nasdaq",
+  "cik": "0000355019",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001731122-25-001281",
+      "filed": "2025-09-22",
+      "doc": "e6836_10k.htm",
+      "note": "10-K fetched but no pipeline section heading found (medical device manufacturer, not a drug developer)."
+    },
+    "website": {
+      "url": "https://www.fonar.com",
+      "note": "No /pipeline page exists. Company describes commercial MRI products only; no active clinical drug or device trial pipeline disclosed."
+    },
+    "ctgov": {
+      "sponsor_query": "FONAR",
+      "unique_trials_p1_p3": 0,
+      "compact_path": "data/fonr_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "devices": [
+      {
+        "name": "UPRIGHT Multi-Position MRI",
+        "category": "Magnetic resonance imaging system",
+        "status": "Marketed (FDA-cleared MRI scanner)"
+      },
+      {
+        "name": "FONAR 360",
+        "category": "Magnetic resonance imaging system",
+        "status": "Marketed"
+      },
+      {
+        "name": "OPEN-SKY MRI",
+        "category": "Magnetic resonance imaging system",
+        "status": "Marketed"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device manufacturer (MRI systems). No proprietary drug or device clinical pipeline; sells commercial FDA-cleared MRI scanners. ClinicalTrials.gov returned 0 trials with FONAR as lead sponsor."
+}

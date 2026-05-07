@@ -1,0 +1,52 @@
+{
+  "issuer_name": "Royalty Pharma plc",
+  "ticker": "RPRX",
+  "exchange": "Nasdaq",
+  "cik": "0001802768",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Royalty Pharma is a biopharmaceutical royalty acquirer, not a drug developer. It holds royalty interests in products marketed/developed by third-party partners (e.g., Cytokinetics, Revolution Medicines, Biogen, Sanofi, Novartis, Roche, Teva, Nuvalent, Pharvaris, Theravance, etc.). All clinical trials are partner-sponsored and are therefore excluded under the partner-owned exclusion rule. Royalty Pharma itself runs no clinical trials and has no proprietary drug assets.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-11",
+      "accession": "0001802768-26-000003",
+      "path": "data/rprx_10k_pipeline_section.html",
+      "note": "10-K Item 1 lists royalty-funded product candidates marketed by partners; not Royalty Pharma's proprietary pipeline."
+    },
+    "website": {
+      "error": "no public proprietary pipeline page found; royaltypharma.com presents a portfolio of royalty interests, not company-developed assets"
+    },
+    "ctgov": {
+      "path": "data/rprx_ctgov_compact.json",
+      "trials_found": 0,
+      "note": "Zero trials with Royalty Pharma as lead sponsor — consistent with royalty-acquirer business model."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "Ampreloxetine", "marketer": "Theravance", "indication": "neurogenic orthostatic hypotension (MSA)", "phase": "Phase 3"},
+    {"asset": "CK-586", "marketer": "Cytokinetics", "indication": "HFpEF", "phase": "Phase 2"},
+    {"asset": "Daraxonrasib", "marketer": "Revolution Medicines", "indication": "pancreatic/lung cancer", "phase": "Phase 3"},
+    {"asset": "Deucrictibant", "marketer": "Pharvaris", "indication": "hereditary angioedema", "phase": "FDA filing expected H1 2026"},
+    {"asset": "Ecopipam", "marketer": "Emalex", "indication": "Tourette's syndrome", "phase": "FDA filing expected"},
+    {"asset": "Frexalimab", "marketer": "Sanofi", "indication": "multiple sclerosis", "phase": "Phase 3"},
+    {"asset": "Litifilimab", "marketer": "Biogen", "indication": "lupus", "phase": "Phase 3"},
+    {"asset": "Neladalkib", "marketer": "Nuvalent", "indication": "ALK+ NSCLC", "phase": "FDA filing expected H1 2026"},
+    {"asset": "Obexelimab", "marketer": "Zenas BioPharma", "indication": "IgG4-RD", "phase": "FDA filing expected Q2 2026"},
+    {"asset": "Olpasiran", "marketer": "Amgen", "indication": "elevated Lp(a)", "phase": "Phase 3"},
+    {"asset": "Omecamtiv mecarbil", "marketer": "Cytokinetics", "indication": "HFrEF", "phase": "Phase 3"},
+    {"asset": "Pelabresib", "marketer": "Novartis", "indication": "myelofibrosis", "phase": "EMA filing expected 2026"},
+    {"asset": "Pelacarsen", "marketer": "Novartis", "indication": "elevated Lp(a)", "phase": "Phase 3"},
+    {"asset": "Seltorexant", "marketer": "Johnson & Johnson", "indication": "MDD with insomnia", "phase": "Phase 3"},
+    {"asset": "TEV-749", "marketer": "Teva", "indication": "schizophrenia", "phase": "FDA approval expected H2 2026"},
+    {"asset": "TEV-408", "marketer": "Teva", "indication": "vitiligo / autoimmune", "phase": "Phase 1b"},
+    {"asset": "Tividenofusp alfa", "marketer": "Denali", "indication": "MPS II (Hunter syndrome)", "phase": "PDUFA April 5, 2026"},
+    {"asset": "Trontinemab", "marketer": "Roche", "indication": "Alzheimer's disease", "phase": "Phase 3"},
+    {"asset": "Tulmimetostat", "marketer": "Novartis", "indication": "hematological malignancies / solid tumors", "phase": "Phase 2"},
+    {"asset": "Zidesamtinib", "marketer": "Nuvalent", "indication": "ROS1+ NSCLC", "phase": "PDUFA September 18, 2026"}
+  ],
+  "summary_counts": {"total_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0, "partner_owned_excluded": 20}
+}

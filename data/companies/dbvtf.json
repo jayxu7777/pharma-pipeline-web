@@ -1,0 +1,112 @@
+{
+  "issuer_name": "DBV Technologies S.A.",
+  "ticker": "DBVTF",
+  "exchange": "OTC",
+  "cik": "0001613780",
+  "region": "France (ADR/OTC US)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-021504",
+      "filing_date": "2026-03-26",
+      "doc": "dbvt-20251231.htm",
+      "note": "Annual report (Form 10-K) describing Viaskin EPIT pipeline."
+    },
+    "website": {
+      "note": "Pipeline details cross-checked with 10-K disclosures; corporate site reachable but not fetched directly."
+    },
+    "ctgov": {
+      "query": "DBV Technologies",
+      "trials_returned": 16,
+      "active_recruiting": 1,
+      "active_not_recruiting": 1,
+      "note": "Active studies: COMFORT Toddlers (NCT07003919, RECRUITING) and VITESSE (NCT05741476, ACTIVE_NOT_RECRUITING)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Viaskin Peanut Patch (DBV712)",
+      "aka": ["VP250", "Viaskin Peanut", "DBV712 250 mcg"],
+      "modality": "Epicutaneous immunotherapy (EPIT) patch",
+      "target": "Peanut allergen desensitization",
+      "license_origin": "DBV proprietary",
+      "indications": [
+        {
+          "indication": "Peanut allergy in children ages 1-3 years (toddlers)",
+          "highest_phase": "Phase 3 (BLA-enabling under FDA Accelerated Approval pathway; BLA submission planned)",
+          "trial_name": "COMFORT Toddlers (supplemental safety study) + EPITOPE Phase 3 (efficacy, completed positive 2022) + EPOPEX (open-label extension, ongoing through Year 3 readout Jan 2025)",
+          "trial_design": "COMFORT Toddlers: open-label supplemental safety study aiming for ~300-350 subjects on active treatment using cVP (original square) Viaskin Peanut patch, to bring total active-treatment safety database to ~600 when combined with EPITOPE.",
+          "nct_ids": ["NCT07003919"],
+          "trial_status": "RECRUITING (first subject screened June 25, 2025); supports BLA submission under Accelerated Approval pathway; primary completion Nov 2026.",
+          "lead_sponsor": "DBV Technologies",
+          "key_milestones": [
+            "EPITOPE Phase 3 positive topline June 2022 (67% vs 33.5% responders)",
+            "EPOPEX Year 3 results January 2025 (83.5% reaching ED >=1000 mg)",
+            "FDA Accelerated Approval pathway alignment Dec 2024",
+            "COMFORT Toddlers first patient screened June 2025"
+          ]
+        },
+        {
+          "indication": "Peanut allergy in children ages 4-7 years",
+          "highest_phase": "Phase 3",
+          "trial_name": "VITESSE (Viaskin Peanut Immunotherapy Trial to Evaluate Safety, Simplicity and Efficacy)",
+          "trial_design": "Phase 3 pivotal randomized 2:1 active to placebo, modified circular Viaskin Peanut (mVP) patch 250 mcg vs placebo, daily for 12 months, primary endpoint = percentage of treatment responders at month 12; n=654 enrolled.",
+          "nct_ids": ["NCT05741476"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (screening completed Q3 2024; primary completion Nov 2025); open-label extension ongoing.",
+          "lead_sponsor": "DBV Technologies",
+          "key_milestones": [
+            "First patient screened March 2023",
+            "Enrollment complete Q3 2024",
+            "Topline readout expected late 2025 / early 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Viaskin Milk Patch (DBV135)",
+      "aka": ["DBV135"],
+      "modality": "Epicutaneous immunotherapy (EPIT) patch",
+      "target": "Cow's milk protein allergen desensitization",
+      "license_origin": "DBV proprietary",
+      "indications": [
+        {
+          "indication": "IgE-mediated cow's milk allergy (CMA), ages 2-17",
+          "highest_phase": "Phase 2",
+          "trial_name": "MILES",
+          "trial_design": "Phase 1/2 efficacy and safety study of Viaskin Milk patch in children with IgE-mediated cow's milk allergy.",
+          "nct_ids": ["NCT02223182"],
+          "trial_status": "Listed as ongoing program in 10-K Phase 2; ctgov shows COMPLETED for the original MILES study (NCT02223182). Next-stage MILES program disclosed as planned in 10-K pipeline table.",
+          "lead_sponsor": "DBV Technologies",
+          "key_milestones": []
+        },
+        {
+          "indication": "Eosinophilic esophagitis (EoE), ages 4-17",
+          "highest_phase": "Phase 2 (planned per 10-K pipeline)",
+          "trial_name": "SMILEE",
+          "trial_design": "Planned Phase 2 study of Viaskin Milk patch for EoE in pediatric patients.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - listed in 10-K pipeline table under Phase 2 ongoing/planned column for EoE; no NCT identifier yet.",
+          "lead_sponsor": "DBV Technologies",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "PEPITES (Phase 3 in 4-11 yr olds, NCT02636699) - completed but program superseded by VITESSE in 4-7 yr olds.",
+    "REALISE (NCT02916446) - completed.",
+    "PEOPLE / EPITOPE original (NCT03211247) - completed; ongoing OLE = EPOPEX (NCT03859700) is COMPLETED in ctgov.",
+    "Viaskin Pertussis Vaccine (NCT03035370) - completed Phase 1, no further development disclosed.",
+    "DBV1605 diagnostic for non-IgE CMA (NCT04492683) - status UNKNOWN."
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 2,
+    "phase_2": 2,
+    "phase_1": 0,
+    "note": "Counts by indication: 2 Phase 3 (Viaskin Peanut toddler + 4-7 yr) + 2 Phase 2 (Viaskin Milk CMA + EoE)."
+  }
+}

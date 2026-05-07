@@ -1,0 +1,66 @@
+{
+  "issuer_name": "Creative Medical Technology Holdings, Inc.",
+  "ticker": "CELZ",
+  "exchange": "Nasdaq",
+  "cik": "0001187953",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-20",
+      "accession": "0001477932-26-001517",
+      "path": "data/celz_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page fetched (skipped — 10-K + ctgov coverage adequate)"},
+    "ctgov": {"path": "data/celz_ctgov_compact.json", "trial_count_p1_p3": 2, "active_count": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "AlloStem (CELZ-201-DDT)",
+      "aka": ["StemSpine procedure asset", "AlloStem ADAPT"],
+      "modality": "Allogeneic perinatal tissue-derived cell therapy (intramuscular injection)",
+      "target": "Lumbar paraspinal muscle / disc microenvironment",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic lower back pain (degenerative disc disease)",
+          "highest_phase": "P1/P2",
+          "trial_name": "AlloStemSpine Phase 1/2",
+          "trial_design": "Phase 1/2 randomized placebo-controlled with FDA-cleared dose escalation (Mar 2025); intramuscular injection of CELZ-201-DDT vs placebo",
+          "nct_ids": ["NCT06053242"],
+          "trial_status": "RECRUITING — DSMB endorsed continuation; interim data showed statistically significant pain reduction and improved mobility; primary completion May 2026",
+          "lead_sponsor": "Creative Medical Technology Holdings Inc.",
+          "key_milestones": ["Expanded dose escalation cleared by FDA Mar 2025", "Primary completion May 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "CELZ-201 (Olastrocel)",
+      "aka": ["ADAPT program asset"],
+      "modality": "Allogeneic perinatal tissue-derived cell therapy",
+      "target": "Beta-cell preservation / immune modulation in T1D",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Recent-onset Type 1 diabetes (Brittle Type 1 — Orphan Drug Designation Mar 2024)",
+          "highest_phase": "P1/P2",
+          "trial_name": "ADAPT (Phase 1/2)",
+          "trial_design": "Phase 1/2 safety and efficacy in patients with recent-onset T1D",
+          "nct_ids": ["NCT05626712"],
+          "trial_status": "Patient enrollment COMPLETED Dec 2025; transitioning to follow-up and data analysis; primary completion Jan 2027",
+          "lead_sponsor": "Creative Medical Technology Holdings Inc.",
+          "key_milestones": ["Enrollment complete Dec 2025", "Topline expected ~2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ImmCelz (CELZ-100)", "reason": "Personalized supercharged immune therapy platform — preclinical per 10-K"},
+    {"asset": "OvaStem", "reason": "Preclinical/research stage"},
+    {"asset": "CaverStem", "reason": "Procedural product, not active sponsored P1/P2/P3 candidate"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 2, "P3": 0, "total_assets": 2, "note": "Both assets in Phase 1/2 — counted as P2"}
+}

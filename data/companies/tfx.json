@@ -1,0 +1,32 @@
+{
+  "issuer_name": "TELEFLEX INC",
+  "ticker": "TFX",
+  "exchange": "NYSE",
+  "cik": "0000096943",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/tfx_10k_pipeline_section.txt", "filing_date": "2026-02-27", "accession": "0000096943-26-000019"},
+    "website": {"note": "Teleflex is a medical device company; no drug pipeline page applicable. Public site is product-focused."},
+    "ctgov": {"file": "data/tfx_ctgov_compact.json", "sponsor_query": "Teleflex", "trials_returned": 2}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Teleflex is a global provider of medical technology / single-use medical devices used in high-acuity emergent procedures (vascular access, interventional, anesthesia, surgical, urology including UroLift, emergency medicine, respiratory). Revenue is essentially all from cleared/approved devices, not from drug or biologic candidates."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT04794348 — Phase 2 freeze-dried plasma non-inferiority trial (Teleflex-led) — WITHDRAWN."
+  ],
+  "excluded_partner_owned": [
+    "NCT07292818 — Phase 1 hyaluronic-acid gel spacer in gynecologic malignancies. Investigator-initiated, lead sponsor UNC Lineberger Comprehensive Cancer Center; Teleflex listed only as collaborator. Asset is not a Teleflex proprietary drug candidate."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Teleflex is a medical-device company (single-use surgical, vascular access, urology including UroLift, anesthesia, respiratory, emergency medicine). It has no proprietary drug or biologic pipeline. ClinicalTrials.gov shows only 2 records: one Teleflex-led trial that was WITHDRAWN, and one investigator-initiated study where Teleflex is merely a collaborator. No active proprietary P1/P2/P3 drug or pivotal-IDE device development programs disclosed in the FY2025 10-K."
+}

@@ -1,0 +1,109 @@
+{
+  "issuer_name": "Kura Oncology, Inc.",
+  "ticker": "KURA",
+  "exchange": "Nasdaq",
+  "cik": "0001422143",
+  "region": "USA",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/kura_10k_pipeline_section.html", "filing_date": "2026-03-05", "accession": "0001193125-26-092567"},
+    "website": {"url": "https://kuraoncology.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/kura_ctgov_compact.json", "sponsor": "Kura Oncology", "trial_count": 19}
+  },
+  "pipeline": [
+    {
+      "asset": "Ziftomenib",
+      "aka": ["KOMZIFTI", "KO-539"],
+      "modality": "Oral menin-KMT2A protein-protein interaction inhibitor",
+      "target": "Menin (MLL/KMT2A interaction)",
+      "license_origin": "In-house (Kura); ex-US development/commercialization partnership with Kyowa Kirin",
+      "indications": [
+        {
+          "indication": "Frontline NPM1-mutant or KMT2A-rearranged AML (combo with venetoclax/azacitidine or 7+3)",
+          "highest_phase": "Phase 3",
+          "trial_name": "KOMET-017",
+          "trial_design": "Phase 3 of ziftomenib + Ven/Aza or +7+3 in untreated NPM1-m or KMT2A-r AML",
+          "nct_ids": ["NCT07007312"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Kura Oncology, Inc.",
+          "key_milestones": ["Started 2025-09; primary completion 2031-11"]
+        },
+        {
+          "indication": "Relapsed/refractory NPM1-m or KMT2A-r AML (monotherapy)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "KOMET-001",
+          "trial_design": "First-in-human Phase 1/2 of ziftomenib in R/R AML; pivotal Phase 2 cohort supported FDA approval (KOMZIFTI)",
+          "nct_ids": ["NCT04067336"],
+          "trial_status": "Recruiting (long-term follow-up)",
+          "lead_sponsor": "Kura Oncology, Inc.",
+          "key_milestones": ["Approval as KOMZIFTI in R/R NPM1-m AML"]
+        },
+        {
+          "indication": "R/R AML — combinations (ven/aza, ven, 7+3, 7+3+quizartinib; FLAG-IDA + gilteritinib)",
+          "highest_phase": "Phase 1",
+          "trial_name": "KOMET-007 / KOMET-008",
+          "trial_design": "Phase 1 combination dose-finding studies of ziftomenib in AML",
+          "nct_ids": ["NCT05735184", "NCT06001788"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Kura Oncology, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced gastrointestinal stromal tumors (GIST) — combo with imatinib",
+          "highest_phase": "Phase 1",
+          "trial_name": "KOMET-015",
+          "trial_design": "Phase 1 of ziftomenib + imatinib in advanced GIST",
+          "nct_ids": ["NCT06655246"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Kura Oncology, Inc.",
+          "key_milestones": ["Started 2025-03; primary completion 2027-12"]
+        }
+      ]
+    },
+    {
+      "asset": "KO-2806 (darlifarnib)",
+      "aka": ["darlifarnib"],
+      "modality": "Next-generation oral farnesyl transferase inhibitor (FTI)",
+      "target": "Farnesyl transferase",
+      "license_origin": "In-house (Kura)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors with HRAS alterations; combos in NSCLC, CRC, PDAC, ccRCC",
+          "highest_phase": "Phase 1",
+          "trial_name": "FIT-001",
+          "trial_design": "Phase 1 of KO-2806 monotherapy and combinations (with cabozantinib, adagrasib) in advanced solid tumors",
+          "nct_ids": ["NCT06026410"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Kura Oncology, Inc.",
+          "key_milestones": ["Primary completion 2027-01"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "KOMZIFTI (ziftomenib)",
+    "indication": "Relapsed/refractory NPM1-mutant acute myeloid leukemia (AML)",
+    "status": "FDA-approved (per company website pipeline)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Tipifarnib", "trials": ["NCT04997902 (HNSCC + alpelisib, completed)", "NCT03719690 (HNSCC HRAS, completed)", "NCT02383927 (HNSCC HRAS, completed)", "NCT02779777 (MDS, terminated)", "NCT02464228 (PTCL, completed)", "NCT02807272 (CMML, completed)", "NCT04865159 (CV safety, terminated)", "NCT05693090 (NSCLC + osimertinib, withdrawn)"], "reason": "Tipifarnib monotherapy/legacy program — Kura has deprioritized; no active P1/P2/P3 sponsored trials remain"},
+    {"asset": "KO-947", "trial": "NCT03051035", "reason": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [
+    {"trial": "NCT06448013", "reason": "MD Anderson-sponsored ziftomenib pediatric combo (covered under broader development)"},
+    {"trial": "NCT05848687", "reason": "Tanja Gruber/POETIC-sponsored TINI 2 ALL trial"},
+    {"trial": "NCT06376162", "reason": "PedAL BCU-sponsored ziftomenib pediatric R/R study"},
+    {"trial": "NCT06397027", "reason": "MD Anderson-sponsored ziftomenib pediatric R/R combo"},
+    {"trial": "NCT06930352", "reason": "Investigator-sponsored ziftomenib AML standard-therapy-ineligible study"},
+    {"trial": "NCT07355335", "reason": "Mass General-sponsored ziftomenib + mezigdomide R/R AML"}
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3_indications": 1,
+    "p2_indications": 0,
+    "p1_indications": 3,
+    "p1p2_indications": 1
+  }
+}

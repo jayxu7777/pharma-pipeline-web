@@ -1,0 +1,58 @@
+{
+  "issuer_name": "C4 Therapeutics, Inc.",
+  "ticker": "CCCC",
+  "exchange": "Nasdaq",
+  "cik": "0001662579",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-012000", "filing_date": "2026-02-26", "doc": "cccc-20251231.htm"},
+    "website": {"note": "Skipped live fetch; 10-K and ctgov give complete coverage of clinical pipeline"},
+    "ctgov": {"file": "data/cccc_ctgov_compact.json", "trials_kept": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "Cemsidomide",
+      "aka": ["CFT7455"],
+      "modality": "MonoDAC molecular-glue degrader (oral small molecule)",
+      "target": "IKZF1 / IKZF3 (Ikaros / Aiolos)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory multiple myeloma",
+          "highest_phase": "Phase 2",
+          "trial_name": "Cemsidomide + dexamethasone Phase 2 (relapsed/refractory MM); plus Phase 1 combo with elranatamab; plus original Phase 1 cemsidomide/CFT7455 (NHL & MM)",
+          "trial_design": "Phase 2 randomized: cemsidomide + dexamethasone in r/r MM; Phase 1: cemsidomide + elranatamab combination; original Phase 1 dose escalation in NHL or MM with dexamethasone",
+          "nct_ids": ["NCT07284758", "NCT07280013", "NCT04756726"],
+          "trial_status": "Phase 2 RECRUITING (start 2026-02-18); Phase 1 + elranatamab RECRUITING (start 2026-02-06); original Phase 1 ACTIVE_NOT_RECRUITING (primary completion 2026-09-30)",
+          "lead_sponsor": "C4 Therapeutics, Inc.",
+          "key_milestones": ["FDA Orphan Drug Designation for MM (Aug 2021)", "Phase 1 data presented IMS Sept 2025 and ASH Dec 2024"]
+        }
+      ]
+    },
+    {
+      "asset": "CFT8919",
+      "aka": [],
+      "modality": "Oral allosteric mutant-selective degrader (BiDAC)",
+      "target": "EGFR L858R (and active in T790M / C797S resistance settings)",
+      "license_origin": "Internal; Greater China rights licensed to Betta Pharmaceuticals (May 2023)",
+      "indications": [
+        {
+          "indication": "EGFR L858R-mutant non-small-cell lung cancer (NSCLC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CFT8919 Phase 1 (Greater China, Betta-conducted)",
+          "trial_design": "Phase 1 dose-escalation in EGFR L858R NSCLC, conducted by partner Betta Pharma in Greater China; first patient dosed November 2024",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 ongoing in Greater China (sponsored by Betta Pharma); ex-China clinical strategy informed by these data",
+          "lead_sponsor": "Betta Pharmaceuticals (Greater China); C4 Therapeutics retains ex-China rights",
+          "key_milestones": ["First patient dosed Nov 2024 in China"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Inflammation / neuroinflammation / neurodegeneration discovery programs leveraging TORPEDO platform"],
+  "excluded_legacy_terminated": ["CFT8634 (BRD9 degrader, synovial sarcoma) - Phase 1 TERMINATED 2023-12-19", "CFT1946 (BRAF V600 degrader, solid tumors) - Phase 1 COMPLETED 2025-11-05; no further development announced"],
+  "excluded_partner_owned": ["Targeted-protein-degrader collaborations with Merck KGaA and Roche - partner-controlled discovery, no disclosed clinical-stage assets attributable to C4"],
+  "summary_counts": {"total_assets": 2, "P3": 0, "P2": 1, "P1": 1}
+}

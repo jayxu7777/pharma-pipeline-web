@@ -1,0 +1,63 @@
+{
+  "issuer_name": "Oragenics, Inc.",
+  "ticker": "OGEN",
+  "exchange": "NYSE",
+  "cik": "0001174940",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-010282",
+      "filing_date": "2026-03-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1174940/000149315226010282/form10-k.htm"
+    },
+    "website": {
+      "url": "https://www.oragenics.com/technology-pipeline/pipeline",
+      "extracted_assets": ["ONP-002"]
+    },
+    "ctgov": {
+      "query": "Oragenics",
+      "trials_returned": 2,
+      "active_or_relevant": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "ONP-002",
+      "aka": ["enantiomeric neurosteroid", "intranasal neurosteroid"],
+      "modality": "First-in-class fully synthetic enantiomeric neurosteroid; intranasal spray-dry powder delivery",
+      "target": "Neuroprotective / anti-inflammatory (enantiomer of progesterone-related neurosteroid; does not activate classical progesterone receptor)",
+      "license_origin": "Internal (Oragenics neurology platform)",
+      "indications": [
+        {
+          "indication": "Mild traumatic brain injury (mTBI) / concussion",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase IIa pilot study of ONP-002 in adults with mTBI",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2a; safety, tolerability, PK and PD endpoints; sites in Australia (Mackay Base Hospital, Alfred Hospital).",
+          "nct_ids": ["NCT06870240"],
+          "trial_status": "Recruiting (per company press releases April-May 2026: second site activated; 8 doses administered; readout projected before year-end 2026). ctgov record still shows NOT_YET_RECRUITING.",
+          "lead_sponsor": "Oragenics, Inc.",
+          "key_milestones": [
+            "Phase 1 complete.",
+            "Phase IIa data readout projected before year-end 2026.",
+            "Planned IND submission to FDA targeting Dec 31, 2026 to support a US Phase IIb trial."
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Additional CNS platform assets — exploring acquisitions per March 2026 press release; no IND filed."
+  ],
+  "excluded_legacy_terminated": [
+    "AG013 (NCT03234465) Phase 2 oral mucositis — TERMINATED (legacy mucosal-immune asset)."
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 0
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "issuer_name": "Palatin Technologies, Inc.",
+  "ticker": "PTN",
+  "exchange": "NYSE",
+  "cik": "0000911216",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "fetch_10k.py could not locate pipeline section heading in latest filing; relied on ctgov + press releases instead"},
+    "website": {"url": "https://palatin.com/pipeline/", "fetched": "2026-05-06", "note": "Pipeline page is JS-rendered; primary content not extractable via WebFetch. Cross-referenced via Palatin press releases (PR Newswire, StockTitan)."},
+    "ctgov": {"sponsor": "Palatin Technologies, Inc", "trials_returned": 12}
+  },
+  "pipeline": [
+    {
+      "asset": "PL9643",
+      "aka": [],
+      "modality": "Melanocortin receptor agonist (peptide ophthalmic solution)",
+      "target": "Melanocortin receptors (MC1R/MC5R)",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Dry eye disease",
+          "highest_phase": "P3",
+          "trial_name": "MELODY-1 (completed) and MELODY-2 / MELODY-3 (planned/initiating) Phase 3 program",
+          "trial_design": "Multi-center, randomized, vehicle-controlled Phase 3 in dry eye disease; co-primary endpoints sign + symptom",
+          "nct_ids": ["NCT05201170"],
+          "trial_status": "MELODY-1 Phase 3 completed (primary completion 2023-09-01) with positive symptom data; MELODY-2/MELODY-3 pivotal trials with FDA-agreed protocols, recruitment anticipated 2H CY2025, topline 1H CY2026",
+          "lead_sponsor": "Palatin Technologies, Inc",
+          "key_milestones": ["MELODY-1 met co-primary symptom endpoint of pain (P<0.025)", "Six of 13 symptom endpoints showed significantly higher complete-resolution rates vs placebo", "FDA agreement on remaining two Phase 3 protocols"]
+        }
+      ]
+    },
+    {
+      "asset": "Bremelanotide",
+      "aka": ["BMT", "PT-141", "Vyleesi (commercial in HSDD)"],
+      "modality": "Melanocortin-4 receptor (MC4R) agonist peptide",
+      "target": "MC4R",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Obesity (co-administration with tirzepatide GLP-1/GIP)",
+          "highest_phase": "P2",
+          "trial_name": "Phase 2 study evaluating bremelanotide + tirzepatide for obesity",
+          "trial_design": "Phase 2 multi-arm study of bremelanotide co-administered with tirzepatide vs comparators",
+          "nct_ids": ["NCT06565611"],
+          "trial_status": "Active, not recruiting (enrollment complete); primary completion 2025-02-05; topline showed 4.4% weight reduction vs 1.6% placebo, 19% of patients achieving >=7% weight loss",
+          "lead_sponsor": "Palatin Technologies, Inc",
+          "key_milestones": ["Enrollment completed", "Topline data reported FY2025"]
+        }
+      ]
+    },
+    {
+      "asset": "PL8177",
+      "aka": ["PL-8177"],
+      "modality": "Oral melanocortin-1 receptor (MC1R) agonist peptide",
+      "target": "MC1R",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Ulcerative colitis (active)",
+          "highest_phase": "P2",
+          "trial_name": "Phase 2a to Evaluate PL-8177 in Subjects with Active Ulcerative Colitis",
+          "trial_design": "Phase 2a randomized, placebo-controlled in active ulcerative colitis",
+          "nct_ids": ["NCT05466890"],
+          "trial_status": "Active, not recruiting; primary completion 2025-02-10",
+          "lead_sponsor": "Palatin Technologies, Inc",
+          "key_milestones": ["Primary completion Feb 2025"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Vyleesi (bremelanotide injection)",
+    "indication": "Hypoactive sexual desire disorder (HSDD) in premenopausal women",
+    "approval": "FDA-approved 2019 (first melanocortin therapeutic approved)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT04268069", "asset": "PL9643 P2 dry eye (ORA-led)", "reason": "Completed 2020"},
+    {"nct_id": "NCT02333071", "asset": "Bremelanotide P3 HSDD", "reason": "Completed; led to Vyleesi approval"},
+    {"nct_id": "NCT02338960", "asset": "Bremelanotide P3 HSDD", "reason": "Completed; led to Vyleesi approval"},
+    {"nct_id": "NCT00686803", "asset": "PL-3994 P2 hypertension", "reason": "Completed 2008"},
+    {"nct_id": "NCT01382719", "asset": "Bremelanotide P2 FSAD/HSDD", "reason": "Completed"},
+    {"nct_id": "NCT00425256", "asset": "Bremelanotide P2 FSAD", "reason": "Completed"},
+    {"nct_id": "NCT05709444", "asset": "Bremelanotide P2b diabetic kidney disease", "reason": "Completed 2024-04-26; no successor pivotal program announced for this indication"},
+    {"nct_id": "NCT04318145", "asset": "PL-3994 P2 HFpEF", "reason": "Terminated"},
+    {"nct_id": "NCT01304628", "asset": "PL-3994 P2 asthma", "reason": "Withdrawn"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 3, "P3": 1, "P2": 2, "P1": 0}
+}

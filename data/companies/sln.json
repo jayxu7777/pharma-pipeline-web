@@ -1,0 +1,84 @@
+{
+  "issuer_name": "Silence Therapeutics plc",
+  "ticker": "SLN",
+  "exchange": "Nasdaq",
+  "cik": "0001479615",
+  "region": "UK/US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-092591", "filed": "2026-03-05", "doc": "sln-20251231.htm"},
+    "website": {"url": "https://www.silence-therapeutics.com/our-pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/sln_ctgov_compact.json", "trials_total": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "Divesiran",
+      "aka": ["SLN124"],
+      "modality": "GalNAc-conjugated siRNA (subcutaneous)",
+      "target": "TMPRSS6",
+      "license_origin": "Internal (mRNAi GOLD platform)",
+      "indications": [
+        {
+          "indication": "Polycythemia vera (PV)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SANRECO Phase 1/2",
+          "trial_design": "Global, randomized, double-blind, placebo-controlled trial in 48 PV patients evaluating divesiran 6 mg Q6W vs Q12W vs placebo for 36 weeks, with 3-year double-blind/open-label extension. Primary endpoint: proportion achieving HCT < 45% without phlebotomies between weeks 18-36.",
+          "nct_ids": ["NCT05499013"],
+          "trial_status": "Active, not recruiting; fully enrolled. Topline results anticipated Q3 2026.",
+          "lead_sponsor": "Silence Therapeutics plc",
+          "key_milestones": ["Topline P2 readout Q3 2026", "FDA Fast Track and orphan drug designations; EC orphan drug"]
+        }
+      ]
+    },
+    {
+      "asset": "Zerlasiran",
+      "aka": ["SLN360"],
+      "modality": "GalNAc-conjugated siRNA (subcutaneous)",
+      "target": "LPA (apolipoprotein(a))",
+      "license_origin": "Internal (mRNAi GOLD platform)",
+      "indications": [
+        {
+          "indication": "Atherosclerotic cardiovascular disease in patients with elevated Lp(a)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 cardiovascular outcomes trial (planned; partner sought)",
+          "trial_design": "Phase 3 cardiovascular outcomes trial design has positive FDA and EMA feedback. Core Phase 3 readiness activities (manufacturing, supply scale-up) completed in 2025.",
+          "nct_ids": [],
+          "trial_status": "PLANNED — Phase 3 ready; company seeking third-party partner for Phase 3 development and commercialization. Phase 2 ALPACAR-360 (NCT05537571) reported >80% mean placebo-adjusted Lp(a) reduction; COMPLETED 2024-01.",
+          "lead_sponsor": "Silence Therapeutics plc (partnership pending)",
+          "key_milestones": ["Phase 3 partnering discussions ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "SLN312",
+      "aka": [],
+      "modality": "GalNAc-conjugated siRNA",
+      "target": "ANGPTL3",
+      "license_origin": "Originally licensed to AstraZeneca (March 2020 collab); rights returning to Silence following Phase 1 (AstraZeneca notified 2026-03-04 it would not pursue further development).",
+      "indications": [
+        {
+          "indication": "Dyslipidemia (elevated triglycerides and atherogenic lipoproteins)",
+          "highest_phase": "Phase 1",
+          "trial_name": "AstraZeneca SLN312 Phase 1",
+          "trial_design": "Randomized, single-blind, placebo-controlled Phase 1 in 98 patients with dyslipidemia; AstraZeneca-sponsored. Showed dose-dependent reductions in ANGPTL3, triglycerides and atherogenic lipoproteins.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 ongoing under AstraZeneca; AZ notified 2026-03-04 it will not advance beyond Phase 1. Silence regains global rights post-Phase 1.",
+          "lead_sponsor": "AstraZeneca (rights reverting to Silence)",
+          "key_milestones": ["Phase 1 data presentations planned at 2026 medical congresses", "Global rights revert to Silence post-Phase 1"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "SLN548", "reason": "CFB-targeting siRNA; Phase 1 ready; seeking partner to initiate clinical development."},
+    {"asset": "SLN365", "reason": "GPR146-targeting siRNA for HoFH/HeFH; preclinical (NHP data)."},
+    {"asset": "SLN098", "reason": "INHBE-targeting siRNA for obesity; preclinical (NHP data)."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Atu027", "nct_ids": ["NCT00938574", "NCT01808638"], "reason": "Legacy PKN3 siRNA program in solid tumors; trials COMPLETED 2012-2015; program inactive."},
+    {"asset": "SLN124 (legacy thalassemia/MDS)", "nct_ids": ["NCT04718844", "NCT04176653", "NCT04559971"], "reason": "Earlier divesiran indications COMPLETED or WITHDRAWN; current focus is PV (NCT05499013)."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 3, "P1": 1, "P2": 1, "P3": 1, "indications": 3}
+}

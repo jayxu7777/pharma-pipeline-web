@@ -1,0 +1,30 @@
+{
+  "issuer_name": "QHSLab, Inc.",
+  "ticker": "USAQ",
+  "exchange": "OTC",
+  "cik": "0000856984",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001493152-26-013513",
+      "path": "data/usaq_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page found - digital health SaaS, no drug pipeline"},
+    "ctgov": {
+      "path": "data/usaq_ctgov_compact.json",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Digital health SaaS platform (QHSLab) for primary care practices to perform behavioral-health screening and care management on a per-patient-per-month subscription basis. Also offers AllergiEnd allergy diagnostics-and-treatment service line for primary care practices. Both are commercial services, not investigational drugs or devices."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Digital health SaaS / allergy diagnostics services company. No proprietary drug or device clinical pipeline; no P1/P2/P3 trials registered."
+}

@@ -1,0 +1,66 @@
+{
+  "issuer_name": "Aardvark Therapeutics, Inc.",
+  "ticker": "AARD",
+  "exchange": "Nasdaq",
+  "cik": "0001774857",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-119770", "filed": "2026-03-23", "form": "10-K"},
+    "website": {"url": "https://www.aardvarktherapeutics.com/", "note": "Pipeline page not directly accessible; relied on 10-K"},
+    "ctgov": {"query_sponsor": "Aardvark Therapeutics", "results": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "ARD-101",
+      "aka": ["denatonium acetate monohydrate"],
+      "modality": "Small molecule, oral bitter taste receptor (TAS2R) agonist",
+      "target": "TAS2R / GLP-1 / CCK gut-brain satiety axis",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Hyperphagia associated with Prader-Willi Syndrome (PWS)",
+          "highest_phase": "Phase 3",
+          "trial_name": "HERO",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 over 12 weeks; primary endpoint HQ-CT score",
+          "nct_ids": ["NCT06828861", "NCT07197034"],
+          "trial_status": "Suspended (voluntary pause Feb 2026 due to reversible cardiac observations in healthy volunteer study; FDA review ongoing)",
+          "lead_sponsor": "Aardvark Therapeutics, Inc.",
+          "key_milestones": ["Granted orphan drug designation for PWS", "Topline data no longer expected 3Q 2026 due to pause"]
+        }
+      ]
+    },
+    {
+      "asset": "ARD-201",
+      "aka": [],
+      "modality": "Fixed-dose combination of ARD-101 (TAS2R agonist) and a DPP-4 inhibitor",
+      "target": "TAS2R + DPP-4",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Obesity-related metabolic indications (POWER, STRENGTH programs)",
+          "highest_phase": "Phase 2",
+          "trial_name": "POWER (Phase 2 ongoing); STRENGTH (planned Phase 2)",
+          "trial_design": "Phase 2 fixed-dose combination programs",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED/PAUSED — POWER paused; STRENGTH initiation deferred pending ARD-101 safety review with FDA",
+          "lead_sponsor": "Aardvark Therapeutics, Inc.",
+          "key_milestones": ["No longer anticipating preliminary POWER data in 2H 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Other TAS2R programs", "reason": "Preclinical / undisclosed stage"},
+    {"asset": "Low-dose extended-release naltrexone for autism", "reason": "Earlier-stage clinical program (ARD-501 Phase 2 completed Jan 2025; status of next steps not disclosed as active)"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT05121441", "asset": "ARD-101", "reason": "Completed Phase 2 obesity study"},
+    {"nct_id": "NCT05215847", "asset": "ARD-101", "reason": "Completed Phase 2 bariatric surgery study"},
+    {"nct_id": "NCT05153434", "asset": "ARD-101", "reason": "Completed Phase 2 PWS study"},
+    {"nct_id": "NCT06126653", "asset": "ARD-501", "reason": "Completed Phase 2 autism study; not currently advanced as active development per 10-K"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 1, "p2": 1, "p1": 0}
+}

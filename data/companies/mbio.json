@@ -1,0 +1,96 @@
+{
+  "issuer_name": "Mustang Bio, Inc.",
+  "ticker": "MBIO",
+  "exchange": "Nasdaq",
+  "cik": "0001680048",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-19",
+      "accession": "0001104659-26-032063",
+      "url": "https://www.sec.gov/Archives/edgar/data/1680048/000110465926032063/tmb-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://mustangbio.com/pipeline/"
+    },
+    "ctgov": {
+      "sponsor_query": "Mustang Bio",
+      "trials_returned": 4,
+      "compact_path": "data/mbio_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "MB-101",
+      "aka": ["IL13Ra2-targeted CAR T"],
+      "modality": "Autologous CAR T-cell therapy (lentiviral)",
+      "target": "IL13Ralpha2",
+      "license_origin": "In-licensed from City of Hope (COH)",
+      "indications": [
+        {
+          "indication": "Recurrent / refractory glioblastoma multiforme (GBM) and high-grade astrocytoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "MB-101 GBM Phase 1 (COH-sponsored)",
+          "trial_design": "Phase 1 open-label safety/feasibility of intracranial IL13Ralpha2-targeted CAR T cells in malignant glioma; treatment phase complete, long-term follow-up ongoing",
+          "nct_ids": ["NCT02208362"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (long-term follow-up; sponsored by City of Hope)",
+          "lead_sponsor": "City of Hope (Mustang Bio licensee)",
+          "key_milestones": ["Treatment phase completed; reported promising early response rate"]
+        }
+      ]
+    },
+    {
+      "asset": "MB-108",
+      "aka": ["C134 oncolytic HSV-1"],
+      "modality": "Oncolytic virus (HSV-1)",
+      "target": "Tumor-selective viral lysis",
+      "license_origin": "In-licensed from Nationwide Children's Hospital (Feb 2019)",
+      "indications": [
+        {
+          "indication": "Recurrent glioblastoma multiforme (GBM)",
+          "highest_phase": "Phase 1",
+          "trial_name": "MB-108 GBM Phase 1 (UAB-sponsored)",
+          "trial_design": "Phase 1 of intratumoral C134 oncolytic HSV-1 in recurrent GBM; treatment phase complete, long-term follow-up ongoing",
+          "nct_ids": ["NCT03657576"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (long-term follow-up; sponsored by University of Alabama at Birmingham)",
+          "lead_sponsor": "University of Alabama at Birmingham (Mustang Bio licensee)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MB-109",
+      "aka": ["MB-101 + MB-108 combination"],
+      "modality": "Combination CAR T (MB-101) plus oncolytic virus (MB-108)",
+      "target": "IL13Ralpha2 + oncolytic HSV-1",
+      "license_origin": "Internal combination of in-licensed components",
+      "indications": [
+        {
+          "indication": "IL13Ralpha2+ recurrent GBM and high-grade astrocytoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "MB-109 Phase 1 (planned investigator-sponsored at COH)",
+          "trial_design": "Phase 1 open-label, non-randomized, multicenter study of MB-109 in IL13Ralpha2+ recurrent GBM and high-grade astrocytoma; planned to initiate as investigator-sponsored single-institution study at COH in Q2 2026",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IND cleared Oct 2023; initiation as investigator-sponsored study at COH targeted Q2 2026 following Worcester cell-processing facility lease termination",
+          "lead_sponsor": "City of Hope (planned investigator-sponsored)",
+          "key_milestones": ["FDA safe-to-proceed letter received October 2023"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "MB-106 (CD20 CAR T) — NCT05360238 terminated",
+    "MB-102 (BPDCN CAR T) — NCT04109482 terminated",
+    "MB-105 (Fred Hutch sponsored, NCT03277729) and MB-104 (City of Hope sponsored, NCT02159495) — Mustang has wound down active development of these programs"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 3,
+    "p3": 0,
+    "p2": 0,
+    "p1": 3
+  }
+}

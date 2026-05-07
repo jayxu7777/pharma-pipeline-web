@@ -1,0 +1,22 @@
+{
+  "issuer_name": "VivoSim Labs, Inc.",
+  "ticker": "VIVS",
+  "exchange": "Nasdaq",
+  "cik": "0001497253",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000950170-25-082312", "filing_date": "2025-06-05", "form": "10-K", "fiscal_year_end": "2025-03-31"},
+    "website": {"error": "skipped — no active drug pipeline per 10-K (company pivoted to services in March 2025)"},
+    "ctgov": {"unique_trials_p1_p3": 0, "note": "No active interventional trials sponsored by VivoSim Labs / Organovo found"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Formerly Organovo Holdings. In March 2025 the company pivoted from clinical-stage biotech to a drug-testing services company providing 3D human tissue (NAMkind) liver and intestinal toxicology screening for external partners. The prior lead candidate FXR314 (FXR agonist for IBD/UC) is no longer being advanced internally; planned Phase 2a UC trial was not initiated. Management disclosed substantial doubt about going concern.",
+  "excluded_preclinical": [
+    {"asset": "FXR314", "indication": "IBD / UC / Crohn's", "reason": "Phase 2a planned but never initiated; clinical development discontinued upon March 2025 pivot to services business"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

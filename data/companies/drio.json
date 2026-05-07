@@ -1,0 +1,49 @@
+{
+  "issuer_name": "DarioHealth Corp.",
+  "ticker": "DRIO",
+  "exchange": "Nasdaq",
+  "cik": "0001533998",
+  "region": "US (incorporated Delaware; HQ NY/Israel)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "file": "data/drio_10k_pipeline_section.html",
+      "filing_date": "2026-03-19",
+      "accession": "0001104659-26-031621",
+      "note": "10-K describes Dario as a digital therapeutics / connected health platform; commercial consumer devices and DTx software; no proprietary drug clinical trials."
+    },
+    "website": {
+      "url": "https://dariohealth.com/",
+      "accessed": "2026-05-06",
+      "note": "/pipeline path resolves to product/platform pages; no drug pipeline disclosed."
+    },
+    "ctgov": {
+      "file": "data/drio_ctgov_compact.json",
+      "sponsor_query": "DarioHealth",
+      "trials_returned": 0,
+      "note": "No interventional Phase 1/2/3 drug trials sponsored by DarioHealth on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices_and_dtx": [
+      {"name": "Dario Blood Glucose Monitoring System", "indication": "Diabetes self-management", "regulatory_status": "FDA-cleared / CE-marked consumer-facing BGM"},
+      {"name": "Dario Blood Pressure Monitor", "indication": "Hypertension monitoring", "regulatory_status": "Connected device"},
+      {"name": "Dario Smart Scale", "indication": "Weight management", "regulatory_status": "Connected device"},
+      {"name": "Dario MSK / Upright (Posture & MSK Sensor and Bands)", "indication": "Musculoskeletal health (pain, posture, recovery)", "regulatory_status": "Digital therapeutic / consumer device"},
+      {"name": "Dario Behavioral Health (incl. legacy Twill assets)", "indication": "Anxiety, depression, stress (DTx)", "regulatory_status": "Digital therapeutic"},
+      {"name": "Dario GLP-1 Companion Solution", "indication": "Wraparound coaching for GLP-1 users (not a drug)", "regulatory_status": "Software/services"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "DarioHealth is a digital therapeutics and connected-health-device company. It markets consumer-facing FDA-cleared monitoring devices and digital therapeutic software for cardiometabolic, MSK and behavioral health. It does not develop proprietary pharmaceuticals and sponsors no Phase 1/2/3 drug trials on ClinicalTrials.gov."
+}

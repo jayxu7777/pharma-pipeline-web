@@ -1,0 +1,76 @@
+{
+  "issuer_name": "SELLAS Life Sciences Group, Inc.",
+  "ticker": "SLS",
+  "exchange": "Nasdaq",
+  "cik": "0001390478",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-19",
+      "accession": "0001390478-26-000003",
+      "path": "data/sls_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.sellaslifesciences.com/pipeline",
+      "fetched": "2026-05-06",
+      "error": "WebFetch returned 403 (likely WAF block); used 10-K + ctgov instead"
+    },
+    "ctgov": {
+      "path": "data/sls_ctgov_compact.json",
+      "sponsor_query": "SELLAS Life Sciences"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Galinpepimut-S",
+      "aka": ["GPS", "SLS-001"],
+      "modality": "Heteroclitic peptide cancer vaccine",
+      "target": "WT1 (Wilms tumor 1)",
+      "license_origin": "Licensed from Memorial Sloan Kettering Cancer Center",
+      "indications": [
+        {
+          "indication": "Acute myeloid leukemia (AML) — second complete remission (CR2/CRp2) maintenance",
+          "highest_phase": "P3",
+          "trial_name": "REGAL",
+          "trial_design": "Phase 3 randomized open-label vs investigator's choice of best available therapy in AML CR2/CRp2",
+          "nct_ids": ["NCT04229979"],
+          "trial_status": "Active, not recruiting; primary completion 2025-12",
+          "lead_sponsor": "SELLAS Life Sciences Group",
+          "key_milestones": ["Topline OS readout pending"]
+        }
+      ]
+    },
+    {
+      "asset": "SLS009",
+      "aka": ["GFH009", "Tambiciclib"],
+      "modality": "Small molecule kinase inhibitor",
+      "target": "CDK9 (highly selective)",
+      "license_origin": "Licensed from GenFleet Therapeutics",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory acute myeloid leukemia (AML) — including ASXL1-mutated and MDS/AML with myelodysplasia-related changes",
+          "highest_phase": "P2",
+          "trial_name": "SLS009 + venetoclax + azacitidine in AML",
+          "trial_design": "Phase 1/2 open-label dose escalation/expansion in heme malignancies and high-risk newly diagnosed AML",
+          "nct_ids": ["NCT04588922"],
+          "trial_status": "Recruiting (primary completion 2026-12-30)",
+          "lead_sponsor": "SELLAS Life Sciences Group",
+          "key_milestones": ["Phase 2 expansion ongoing in r/r AML"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NeuVax (nelipepimut-S) HER2+ breast cancer (Phase 2 completed, deprioritized)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3": 1,
+    "p2": 1,
+    "p1": 0
+  }
+}

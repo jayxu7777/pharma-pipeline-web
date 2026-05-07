@@ -1,0 +1,69 @@
+{
+  "issuer_name": "Voyager Therapeutics, Inc.",
+  "ticker": "VYGR",
+  "exchange": "Nasdaq",
+  "cik": "0001640266",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-09",
+      "accession": "0001104659-26-025197",
+      "path": "data/vygr_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.voyagertherapeutics.com/pipeline-overview/",
+      "note": "Pipeline page is JavaScript-rendered (Divi); detail corroborated via WebSearch (10-K, IR releases, CTAD 2025)"
+    },
+    "ctgov": {
+      "path": "data/vygr_ctgov_compact.json",
+      "trial_count": 5
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "VY7523",
+      "aka": ["anti-tau antibody"],
+      "modality": "Monoclonal antibody (anti-tau)",
+      "target": "Tau (pathological/aggregated species)",
+      "license_origin": "Internal (Voyager-discovered, wholly owned)",
+      "indications": [
+        {
+          "indication": "Early Alzheimer's Disease",
+          "highest_phase": "Phase 1b (Phase 1/2)",
+          "trial_name": "VY7523-102 MAD",
+          "trial_design": "Randomized, placebo-controlled, double-blind, multiple ascending dose in early AD",
+          "nct_ids": ["NCT06874621"],
+          "trial_status": "Active, not recruiting; fully enrolled. Tau PET imaging readout expected H2 2026.",
+          "lead_sponsor": "Voyager Therapeutics",
+          "key_milestones": [
+            "H2 2026: Tau PET imaging data readout"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "VY1706 (tau silencing AAV gene therapy, AD/tauopathies) — IND-enabling; clinical initiation expected 2026",
+    "GBA1 gene therapy (Parkinson's / Lewy Body Dementia / Gaucher) — IND-enabling under Neurocrine collaboration",
+    "Friedreich's Ataxia (FA) frataxin AAV gene therapy — IND-enabling under Neurocrine collaboration",
+    "NPC1 AAV (Niemann-Pick C) — preclinical",
+    "TRACER capsid platform / additional CNS programs — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "VY-AADC01 / VY-AADC02 (Parkinson's, AAV2-hAADC) — Neurocrine-led trials NCT01973543, NCT03065192, NCT03562494 all COMPLETED; program no longer Voyager-controlled",
+    "VY-HTT01 (Huntington's disease, NCT04885114) — WITHDRAWN",
+    "VY9323 (SOD1 ALS gene therapy) — discontinued in Feb 2025 due to off-target siRNA payload findings; Voyager pursuing alternate payload"
+  ],
+  "excluded_partner_owned": [
+    "GBA1 and FA gene therapy programs are partnered with Neurocrine Biosciences (license/collaboration); listed as preclinical under partner-led IND filing path"
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 0,
+    "p2": 1,
+    "p1": 0,
+    "indications_total": 1
+  }
+}

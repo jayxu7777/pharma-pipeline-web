@@ -1,0 +1,85 @@
+{
+  "issuer_name": "MiNK Therapeutics, Inc.",
+  "ticker": "INKT",
+  "exchange": "Nasdaq",
+  "cik": "0001840229",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-134813",
+      "filing_date": "2026-03-31",
+      "filename": "inkt-20251231.htm",
+      "summary": "agenT-797 (allogeneic native iNKT cell therapy) is in Phase 2 clinical development across multiple indications constituting a pipeline within a single product candidate: 2L gastroesophageal cancer (Phase 2 investigator-sponsored at MSK), severe pneumonia/AHRF (Phase 2 randomized adaptive placebo-controlled), and HSCT/GvHD. Engineered programs MiNK-413 (BCMA-CAR-iNKT) and MiNK-215 (FAP-CAR-iNKT) are preclinical."
+    },
+    "website": {
+      "url": "https://www.minktherapeutics.com/pipeline",
+      "summary": "Pipeline page is dated (still showing Phase 1 readouts from 2021/2022); 10-K is the canonical and most recent source. Used 10-K for highest phase."
+    },
+    "ctgov": {
+      "query_sponsor": "MiNK Therapeutics",
+      "p1_p3_trials": 3,
+      "by_status": {"COMPLETED": 3},
+      "note": "All three MiNK-sponsored trials are completed (oncology solid tumor NCT05108623, COVID-ARDS NCT04582201, R/R MM NCT04754100). Currently active Phase 2 studies (gastroesophageal investigator-sponsored at MSK; severe pneumonia/AHRF; GvHD) are not yet visible in this sponsor's ctgov pull."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "agenT-797",
+      "aka": ["MiNK iNKT cell therapy", "allogeneic native iNKT cells"],
+      "modality": "Allogeneic native invariant Natural Killer T (iNKT) cell therapy",
+      "target": "CD1d / NK and innate ligands (multimodal tumor and immune microenvironment engagement); when combined: PD-1 / CTLA-4 axes",
+      "license_origin": "Internal (with Agenus License Agreement providing access to immuno-oncology antibodies for combinations)",
+      "indications": [
+        {
+          "indication": "Second-line gastroesophageal / gastric / GEJ adenocarcinoma (combination with botensilimab + balstilimab + ramucirumab + paclitaxel)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 investigator-sponsored study (Memorial Sloan Kettering, Dr. Yelena Janjigian)",
+          "trial_design": "Investigator-sponsored Phase 2 evaluating agenT-797 in combination with botensilimab + balstilimab + ramucirumab + paclitaxel in previously treated advanced esophageal/gastric/GEJ adenocarcinoma",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Underway",
+          "lead_sponsor": "Memorial Sloan Kettering Cancer Center (investigator-sponsored)",
+          "key_milestones": ["Confirmed responses previously reported in chemo and anti-PD-1 refractory gastric cancer"]
+        },
+        {
+          "indication": "Severe pneumonia with moderate-to-severe acute hypoxemic respiratory failure (AHRF)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Randomized adaptive Phase 2 placebo-controlled trial",
+          "trial_design": "Randomized, adaptive, placebo-controlled Phase 2 in severe pneumonia / moderate-to-severe AHRF; follows completed Phase 1/2 in COVID-19 ARDS (NCT04582201)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Advancing",
+          "lead_sponsor": "MiNK Therapeutics",
+          "key_milestones": ["Prior Phase 1/2 ARDS readout: 30-day survival >70% in 21 mechanically ventilated patients"]
+        },
+        {
+          "indication": "Graft-versus-host disease (GvHD) / peri-transplant in HSCT recipients",
+          "highest_phase": "Phase 1",
+          "trial_name": "agenT-797 GvHD/HSCT program",
+          "trial_design": "Development of agenT-797 in peri-transplant setting to improve engraftment and reduce GvHD",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Advancing",
+          "lead_sponsor": "MiNK Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "MiNK-413 (BCMA-CAR-iNKT) — preclinical",
+    "MiNK-215 (FAP-CAR-iNKT) — preclinical, IND-enabling studies underway",
+    "Bispecific iNKT cell engagers — preclinical platform"
+  ],
+  "excluded_legacy_terminated": [
+    "agenT-797 Phase 1 in r/r solid tumors (NCT05108623) — completed",
+    "agenT-797 Phase 1 in COVID-19 ARDS (NCT04582201) — completed (informed advancement to severe pneumonia/AHRF Phase 2)",
+    "agenT-797 Phase 1 in r/r multiple myeloma (NCT04754100) — completed"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 2,
+    "phase_1": 1
+  }
+}

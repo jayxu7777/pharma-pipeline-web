@@ -1,0 +1,42 @@
+{
+  "issuer_name": "HARVARD BIOSCIENCE INC",
+  "ticker": "HBIO",
+  "exchange": "Nasdaq",
+  "cik": "0001123494",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-13",
+      "accession": "0001171843-26-001548",
+      "path": "data/hbio_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.harvardbioscience.com/",
+      "note": "Corporate site describes life-science research instruments only; no drug-pipeline page exists."
+    },
+    "ctgov": {
+      "path": "data/hbio_ctgov_compact.json",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "categories": [
+      "Spectrophotometry (UV/Vis, microvolume, colorimeters, cell density)",
+      "Electrophysiology (patch clamp amplifiers, Ussing chambers, MEA systems)",
+      "Amino acid analysis (Biochrom analyzers)",
+      "Bioprocessing equipment",
+      "Continuous monitoring (implantable telemetry for preclinical research)",
+      "Electroporation and electrofusion systems"
+    ],
+    "brands": ["Biochrom", "BTX", "HEKA", "Warner Instruments", "Multi Channel Systems"],
+    "customer_segments": ["Academic research", "CROs", "Pharma/biotech R&D"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Life-science research instruments and lab equipment manufacturer (multiple brands such as Biochrom, BTX, HEKA). No proprietary therapeutic drug or device clinical pipeline; ClinicalTrials.gov returns zero P1-P3 trials with HBIO as lead sponsor."
+}

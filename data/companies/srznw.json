@@ -1,0 +1,63 @@
+{
+  "issuer_name": "Surrozen, Inc.",
+  "ticker": "SRZNW",
+  "exchange": "Nasdaq",
+  "cik": "0001824893",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-23",
+      "accession": "0001193125-26-119818",
+      "path": "data/srznw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.surrozen.com/pipeline",
+      "fetched": true,
+      "note": "Page is JS-rendered template; pipeline detail not extractable via WebFetch. Relied on 10-K."
+    },
+    "ctgov": {
+      "path": "data/srznw_ctgov_compact.json",
+      "trial_count": 0,
+      "note": "No active trials sponsored by Surrozen on ClinicalTrials.gov"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "All wholly-owned candidates are pre-IND/preclinical as of 2025 10-K (filed Mar 2026). SZN-8141 (Fzd4 agonist + VEGF antagonist) IND submission anticipated 2H 2026 for diabetic macular edema and wet AMD. SZN-8143 (Fzd4/VEGF/IL-6 trispecific) is preclinical for DME, wet AMD and uveitic macular edema. SZN-413 is out-licensed to Boehringer Ingelheim (IND-enabling tox study completed Mar 2026; partner-owned development). SZN-043 in severe alcohol-associated hepatitis was discontinued in Q1 2025.",
+  "excluded_preclinical": [
+    {
+      "asset": "SZN-8141",
+      "indication": "Diabetic macular edema; wet AMD",
+      "phase": "Pre-IND (filing planned 2H 2026)",
+      "modality": "Fzd4 agonist + VEGF antagonist (intravitreal antibody)"
+    },
+    {
+      "asset": "SZN-8143",
+      "indication": "DME; wet AMD; uveitic macular edema",
+      "phase": "Preclinical",
+      "modality": "Fzd4 agonism + VEGF antagonism + IL-6 antagonism"
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "SZN-043",
+      "indication": "Severe alcohol-associated hepatitis",
+      "reason": "Development discontinued Q1 2025 due to insufficient early efficacy signal"
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "asset": "SZN-413",
+      "indication": "Retinal vascular diseases",
+      "partner": "Boehringer Ingelheim (Oct 2022 CLA; $10M milestone Sep 2024; $5M research milestone Mar 2026)",
+      "phase": "IND-enabling (partner-led)"
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

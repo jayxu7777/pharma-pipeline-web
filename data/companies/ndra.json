@@ -1,0 +1,27 @@
+{
+  "issuer_name": "ENDRA Life Sciences Inc.",
+  "ticker": "NDRA",
+  "exchange": "Nasdaq",
+  "cik": "0001681682",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-037617", "filing_date": "2026-03-31", "doc": "ea0283994-10k_endra.htm"},
+    "website": {"url": "https://endrainc.com/", "note": "Corporate site; product-focused, no /pipeline page"},
+    "ctgov": {"sponsor_query": "ENDRA Life Sciences", "trials_returned": 0, "raw_hits": 1, "kept_p1_p3": 0}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "platform": "TAEUS (Thermo-Acoustic Enhanced UltraSound) — RF-pulse-stimulated ultrasound for tissue composition measurement",
+    "products": [
+      {"name": "TAEUS Liver", "type": "Medical device (point-of-care ultrasound accessory)", "indication": "Quantitative assessment of liver fat (hepatic steatosis) for MASLD/MASH", "regulatory_status": "CE-marked in Europe; FDA clearance pending — refining clinical and regulatory strategy after FDA feedback"}
+    ],
+    "future_applications": ["Tissue temperature visualization during energy-based surgery", "Arterial plaque / internal bleeding identification"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Medical device / diagnostics company. Lead product TAEUS Liver is an ultrasound accessory device (CE-marked, pursuing FDA clearance) — not a therapeutic drug. Company has reduced headcount and is prioritizing product/regulatory work over clinical activities. No active company-sponsored P1/P2/P3 drug or pivotal device trials registered on ClinicalTrials.gov."
+}

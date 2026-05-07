@@ -1,0 +1,35 @@
+{
+  "issuer_name": "REFLECT SCIENTIFIC, INC.",
+  "ticker": "RSCF",
+  "exchange": "OTC",
+  "cik": "0001103090",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2024-03-29",
+      "accession": "0001548123-24-000032",
+      "path": "data/rscf_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page found - not a drug developer"},
+    "ctgov": {
+      "path": "data/rscf_ctgov_compact.json",
+      "unique_p1_p3_trials": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {"name": "Cryometrix ultra-low temperature freezers", "category": "Laboratory equipment"},
+      {"name": "Cryometrix blast freezers", "category": "Laboratory equipment"},
+      {"name": "Solvent chillers", "category": "Industrial equipment"},
+      {"name": "Refrigerated transportation units", "category": "Cold-chain equipment"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Reflect Scientific manufactures and distributes laboratory equipment (Cryometrix ultra-low temperature freezers, blast freezers, solvent chillers, refrigerated transport) for life science and industrial markets. It does not develop drugs or clinical-stage devices. No proprietary clinical pipeline."
+}

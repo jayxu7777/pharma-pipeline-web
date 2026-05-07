@@ -1,0 +1,81 @@
+{
+  "issuer_name": "Jasper Therapeutics, Inc.",
+  "ticker": "JSPR",
+  "exchange": "Nasdaq",
+  "cik": "0001788028",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-036426", "filed": "2026-03-30", "doc": "ea0282128-10k_jasper.htm"},
+    "website": {"error": "no public pipeline page checked \u2014 10-K + ctgov sufficient (single-asset company)"},
+    "ctgov": {"file": "data/jspr_ctgov_compact.json", "studies_returned": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "briquilimab",
+      "aka": ["JSP191"],
+      "modality": "Anti-CD117 (KIT) monoclonal antibody (humanized IgG1)",
+      "target": "CD117 (KIT) \u2014 blocks SCF/KIT signaling to deplete mast cells",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic spontaneous urticaria (CSU) \u2014 moderate to severe, refractory to antihistamines",
+          "highest_phase": "Phase 2b/3 (planned); Phase 1b/2a ongoing",
+          "trial_name": "BEACON (Phase 1b/2a) and follow-on Phase 2b/3 (planned)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 1b/2a evaluating multiple SC doses (single-dose 240mg/360mg and repeat dosing 10mg\u2013240mg Q8W); Phase 2b/3 in planning",
+          "nct_ids": ["NCT06162728"],
+          "trial_status": "Active, not recruiting; BEACON Phase 1b/2a positive readouts in Jan 2025, Jul 2025, and Jan 2026; Phase 2b/3 design integrating learnings",
+          "lead_sponsor": "Jasper Therapeutics, Inc.",
+          "key_milestones": ["Phase 1b/2a positive efficacy (rapid onset)", "Planned Phase 2b/3 initiation"]
+        },
+        {
+          "indication": "Chronic spontaneous urticaria \u2014 long-term safety / clinical activity (open-label extension)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BEACON Open-Label Extension",
+          "trial_design": "Phase 2 open-label extension",
+          "nct_ids": ["NCT06736262"],
+          "trial_status": "Active, not recruiting; primary completion Aug 2026",
+          "lead_sponsor": "Jasper Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic inducible urticaria (CIndU) \u2014 cold urticaria and symptomatic dermographism, refractory to antihistamines",
+          "highest_phase": "Phase 1b/2a",
+          "trial_name": "SPOTLIGHT",
+          "trial_design": "Open-label single-dose SC; 27 participants across 40mg, 120mg, 180mg cohorts",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing/data being read out (preliminary data Oct 2024)",
+          "lead_sponsor": "Jasper Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Asthma (proof-of-concept)",
+          "highest_phase": "Phase 1b",
+          "trial_name": "ETESIAN",
+          "trial_design": "Single-dose, double-blind, placebo-controlled allergen-challenge study; single 180mg SC dose; FEV1 endpoint in Early/Late Asthmatic Response",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing \u2014 enrollment / readout from late-2024 initiation",
+          "lead_sponsor": "Jasper Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "briquilimab (JSP191) HSC transplant conditioning programs", "reason": "Hematopoietic stem-cell-conditioning programs (MDS/AML pre-allo-HCT, SCID, LR-MDS) discontinued; company exclusively focused on mast-cell-driven diseases"},
+    {"asset": "NCT06353971 (briquilimab dose-escalation)", "reason": "Terminated"},
+    {"asset": "NCT06592768 (briquilimab Phase 1 placebo-controlled)", "reason": "Terminated"},
+    {"asset": "NCT05903274 (LR-MDS)", "reason": "Terminated"},
+    {"asset": "NCT02963064 (SCID)", "reason": "Terminated"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3_or_planned_p3": 1,
+    "phase_2": 1,
+    "phase_1": 2,
+    "note": "Single-asset (briquilimab) across 4 indications; CSU lead with planned Phase 2b/3"
+  }
+}

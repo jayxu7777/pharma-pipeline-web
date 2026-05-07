@@ -1,0 +1,68 @@
+{
+  "issuer_name": "Werewolf Therapeutics, Inc.",
+  "ticker": "HOWL",
+  "exchange": "Nasdaq",
+  "cik": "0001785530",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001785530-26-000006", "filing_date": "2026-03-27", "path": "data/howl_10k_pipeline_section.html"},
+    "website": {"url": "https://werewolftx.com/our-pipeline/"},
+    "ctgov": {"path": "data/howl_ctgov_compact.json", "trial_count": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "WTX-124",
+      "aka": [],
+      "modality": "Conditionally activated, systemically delivered IL-2 INDUKINE pro-cytokine",
+      "target": "IL-2 receptor (tumor-localized activation by tumor protease cleavage)",
+      "license_origin": "Internal (Werewolf PREDATOR platform)",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic solid tumors (melanoma focus)",
+          "highest_phase": "Phase 1",
+          "trial_name": "WTX-124 monotherapy and in combination with pembrolizumab",
+          "trial_design": "Open-label dose escalation and expansion (mono + pembro combo)",
+          "nct_ids": ["NCT05479812"],
+          "trial_status": "Active, not recruiting (primary completion 2026-07-01)",
+          "lead_sponsor": "Werewolf Therapeutics, Inc. (collab Merck Sharp & Dohme)",
+          "key_milestones": ["Combo arm with pembrolizumab ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "WTX-330",
+      "aka": [],
+      "modality": "Conditionally activated IL-12 INDUKINE pro-cytokine",
+      "target": "IL-12 receptor (tumor-localized activation)",
+      "license_origin": "Internal (Werewolf PREDATOR platform)",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic solid tumors and non-Hodgkin lymphoma",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "WTX-330 Phase 1b/2 multisite dose-finding and expansion",
+          "trial_design": "Multi-site dose-finding and expansion in selected solid tumors and NHL",
+          "nct_ids": ["NCT06939283"],
+          "trial_status": "Active, not recruiting (start 2025-05-07; primary completion 2028-08)",
+          "lead_sponsor": "Werewolf Therapeutics, Inc.",
+          "key_milestones": ["Replaces completed first-in-human Phase 1 NCT05678998"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "WTX-712 (IL-21 INDUKINE)", "stage": "IND-enabling; partnering"},
+    {"asset": "WTX-518 (IL-18 INDUKINE)", "stage": "IND-enabling; partnering"},
+    {"asset": "WTX-921 (IL-10 INDUKINE for IBD)", "stage": "IND-enabling; partnering"},
+    {"asset": "WTX-1011 (STEAP1 INDUCER)", "stage": "IND-enabling; partnering"},
+    {"asset": "WTX-2022 (CDH6 INDUCER)", "stage": "IND-enabling; partnering"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "WTX-330 first-in-human Phase 1", "nct_ids": ["NCT05678998"], "status": "COMPLETED — superseded by Phase 1b/2 NCT06939283"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "JZP898", "modality": "Conditionally activated IFN-alpha INDUKINE", "indication": "Cancer", "phase": "Phase 1", "partner": "Jazz Pharmaceuticals (out-licensed)"}
+  ],
+  "summary_counts": {"total_assets": 2, "p3": 0, "p2": 0, "p1": 1, "p1_p2": 1}
+}

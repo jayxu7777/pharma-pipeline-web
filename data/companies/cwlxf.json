@@ -1,0 +1,20 @@
+{
+  "issuer_name": "C21 Investments Inc.",
+  "ticker": "CWLXF",
+  "exchange": "OTC",
+  "cik": "0000831609",
+  "region": "US/Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "C21 Investments is a vertically integrated cannabis cultivator/retailer (Silver State Relief, Silver State Cultivation in Nevada). Not a drug developer. No therapeutic clinical pipeline.",
+  "sources": {
+    "10k": {"error": "No 10-K found in SEC recent filings (cannabis operator, not a clinical-stage issuer)"},
+    "website": {"note": "Not fetched — issuer is a cannabis operator with no drug pipeline"},
+    "ctgov": {"path": "data/cwlxf_ctgov_compact.json", "trials_kept": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

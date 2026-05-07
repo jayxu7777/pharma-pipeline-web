@@ -1,0 +1,638 @@
+{
+  "issuer_name": "Takeda Pharmaceutical Co Ltd",
+  "ticker": "TAK",
+  "exchange": "NYSE",
+  "cik": "0001395064",
+  "region": "Japan (US-listed ADR)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. Wholly-owned or co-developed Takeda-led programs; partner-led trials excluded.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F instead of 10-K; not retrieved this run"},
+    "website": {"path": "https://www.takeda.com/science/pipeline/", "note": "Pipeline page is a PDF gateway; key late-stage assets confirmed via Takeda press releases (FY2025 Q1) and ctgov"},
+    "ctgov": {"path": "data/tak_ctgov_compact.json", "trials_found": 1324, "note": "Filtered to Takeda-led active P1/P2/P3 only"}
+  },
+  "pipeline": [
+    {
+      "asset": "Oveporexton",
+      "aka": ["TAK-861"],
+      "modality": "Oral orexin receptor 2 (OX2R) selective agonist",
+      "target": "OX2R",
+      "license_origin": "Internal (Takeda Neuroscience)",
+      "indications": [
+        {
+          "indication": "Narcolepsy Type 1 (NT1) / narcolepsy with cataplexy",
+          "highest_phase": "Phase 3",
+          "trial_name": "FirstLight (NCT05816382), RadiantLight (NCT07363720)",
+          "trial_design": "Two pivotal Phase 3 randomized double-blind placebo-controlled trials in adults with NT1; both met primary and all secondary endpoints per FY2025 Q1 disclosure",
+          "nct_ids": ["NCT05816382", "NCT07363720"],
+          "trial_status": "RECRUITING / data positive; NDA preparation",
+          "lead_sponsor": "Takeda",
+          "key_milestones": ["Positive Phase 3 topline reported in FY2025"]
+        }
+      ]
+    },
+    {
+      "asset": "Zasocitinib",
+      "aka": ["TAK-279", "NDI-034858"],
+      "modality": "Oral allosteric TYK2 inhibitor",
+      "target": "TYK2",
+      "license_origin": "Acquired via Nimbus Therapeutics deal",
+      "indications": [
+        {
+          "indication": "Plaque psoriasis",
+          "highest_phase": "Phase 3",
+          "trial_name": "Multiple Phase 3 plaque psoriasis programs",
+          "trial_design": "Pivotal Phase 3 randomized placebo-controlled trials including extension/long-term safety",
+          "nct_ids": ["NCT06550076", "NCT07250802"],
+          "trial_status": "ACTIVE_NOT_RECRUITING / RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        },
+        {
+          "indication": "Psoriatic arthritis",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 PsA program",
+          "trial_design": "Multiple Phase 3 randomized placebo-controlled trials in active PsA",
+          "nct_ids": ["NCT07286058", "NCT06671496", "NCT06671483"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        },
+        {
+          "indication": "Generalized pustular / erythrodermic psoriasis",
+          "highest_phase": "Phase 3",
+          "trial_name": "TAK-279-3001",
+          "trial_design": "Phase 3 in GPP / erythrodermic psoriasis",
+          "nct_ids": ["NCT06323356"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        },
+        {
+          "indication": "Inflammatory bowel disease (UC, Crohn's, IBD broad)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Multiple Phase 2 IBD programs",
+          "trial_design": "Phase 2 randomized placebo-controlled studies in UC and Crohn's",
+          "nct_ids": ["NCT06254950", "NCT07403968", "NCT06764615", "NCT06233461"],
+          "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING / NOT_YET_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        },
+        {
+          "indication": "Hidradenitis suppurativa",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 HS",
+          "trial_design": "Phase 2 randomized placebo-controlled",
+          "nct_ids": ["NCT07244263"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        },
+        {
+          "indication": "Nonsegmental vitiligo",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 vitiligo",
+          "trial_design": "Phase 2 randomized placebo-controlled",
+          "nct_ids": ["NCT07108283"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Rusfertide",
+      "aka": ["TAK-121", "PTG-300"],
+      "modality": "Subcutaneous hepcidin mimetic peptide",
+      "target": "Ferroportin / hepcidin axis",
+      "license_origin": "In-licensed from Protagonist Therapeutics (co-development)",
+      "indications": [
+        {
+          "indication": "Polycythemia vera",
+          "highest_phase": "Phase 3 (NDA filed)",
+          "trial_name": "VERIFY",
+          "trial_design": "Pivotal Phase 3 randomized placebo-controlled in PV (positive topline 2025); long-term extension PHASE3",
+          "nct_ids": ["NCT05210790", "NCT06033586"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; FDA accepted NDA with Priority Review (PDUFA 3Q 2026)",
+          "lead_sponsor": "Protagonist Therapeutics, Inc.",
+          "key_milestones": ["NDA accepted with Priority Review", "Co-developed with Takeda"]
+        }
+      ]
+    },
+    {
+      "asset": "Mezagitamab",
+      "aka": ["TAK-079"],
+      "modality": "Subcutaneous anti-CD38 monoclonal antibody",
+      "target": "CD38",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Immune thrombocytopenic purpura (ITP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 ITP program",
+          "trial_design": "Pivotal Phase 3 placebo-controlled in chronic/persistent ITP",
+          "nct_ids": ["NCT06948318", "NCT06722235"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        },
+        {
+          "indication": "Kidney disease (IgA nephropathy / autoimmune kidney)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 renal program",
+          "trial_design": "Pivotal Phase 3 placebo-controlled",
+          "nct_ids": ["NCT06963827"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Fazirsiran",
+      "aka": ["TAK-999", "ARO-AAT"],
+      "modality": "GalNAc-conjugated siRNA (subcutaneous)",
+      "target": "SERPINA1 (alpha-1 antitrypsin mRNA)",
+      "license_origin": "Co-development with Arrowhead Pharmaceuticals",
+      "indications": [
+        {
+          "indication": "Alpha-1 antitrypsin deficiency-associated liver disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "REDWOOD / RHAPSODY",
+          "trial_design": "Phase 3 randomized placebo-controlled including liver biopsy endpoints",
+          "nct_ids": ["NCT05677971", "NCT06165341", "NCT05899673"],
+          "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Elritercept",
+      "aka": ["TAK-226", "KER-050"],
+      "modality": "Modified activin receptor IIA ligand trap (subcutaneous)",
+      "target": "Activin / TGF-beta superfamily ligands",
+      "license_origin": "Acquired via Keros Therapeutics deal",
+      "indications": [
+        {
+          "indication": "Lower-risk myelodysplastic syndromes (anemia)",
+          "highest_phase": "Phase 3",
+          "trial_name": "RENEW",
+          "trial_design": "Pivotal Phase 3 placebo-controlled in MDS-associated anemia",
+          "nct_ids": ["NCT07422480", "NCT06499285"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        },
+        {
+          "indication": "Myelofibrosis-associated anemia / MDS Phase 2",
+          "highest_phase": "Phase 2",
+          "trial_name": "RESTORE / Phase 2 expansion",
+          "trial_design": "Phase 2 in MF anemia and MDS",
+          "nct_ids": ["NCT04419649", "NCT05037760", "NCT07319845"],
+          "trial_status": "RECRUITING / NOT_YET_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Vedolizumab (subcutaneous + new indications)",
+      "aka": ["MLN0002", "ENTYVIO", "KYNTELES"],
+      "modality": "Anti-alpha4beta7 integrin monoclonal antibody (IV / SC)",
+      "target": "alpha4beta7 integrin",
+      "license_origin": "Internal (Takeda gastroenterology)",
+      "indications": [
+        {
+          "indication": "Pouchitis / Crohn's / Ulcerative Colitis (label expansion + SC formulation Phase 3)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Multiple Phase 3 expansion programs",
+          "trial_design": "Phase 3 randomized placebo-controlled label-expansion / SC bridging",
+          "nct_ids": ["NCT04779320", "NCT06405087", "NCT06100289", "NCT06443502", "NCT05442567", "NCT03221036", "NCT06227910", "NCT05837897", "NCT04738942"],
+          "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Maribavir",
+      "aka": ["TAK-620", "LIVTENCITY"],
+      "modality": "Oral UL97 protein kinase inhibitor (anti-CMV)",
+      "target": "CMV pUL97 kinase",
+      "license_origin": "Internal (acquired via Shire)",
+      "indications": [
+        {
+          "indication": "CMV infection (transplant recipients) - label expansion",
+          "highest_phase": "Phase 3",
+          "trial_name": "AURORA / SOLSTICE expansion",
+          "trial_design": "Phase 3 in CMV infection / prophylaxis",
+          "nct_ids": ["NCT06439342", "NCT05319353"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Vonicog alfa",
+      "aka": ["TAK-577", "VONVENDI", "rVWF"],
+      "modality": "Recombinant von Willebrand factor",
+      "target": "von Willebrand factor replacement",
+      "license_origin": "Internal (Shire legacy)",
+      "indications": [
+        {
+          "indication": "Von Willebrand disease (prophylaxis / expanded population)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 VWD prophylaxis",
+          "trial_design": "Phase 3 in adolescents / pediatric VWD prophylaxis",
+          "nct_ids": ["NCT07129343", "NCT05582993"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-755 (rADAMTS13)",
+      "aka": ["rADAMTS13", "SHP-655", "BAX 930"],
+      "modality": "Recombinant ADAMTS13 enzyme replacement",
+      "target": "ADAMTS13 (von Willebrand factor cleaving protease)",
+      "license_origin": "Internal (Shire legacy)",
+      "indications": [
+        {
+          "indication": "Congenital thrombotic thrombocytopenic purpura (cTTP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 cTTP",
+          "trial_design": "Phase 3 prophylactic enzyme replacement in cTTP",
+          "nct_ids": ["NCT04683003"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        },
+        {
+          "indication": "Acute ischemic stroke",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 AIS",
+          "trial_design": "Phase 2 randomized in acute ischemic stroke",
+          "nct_ids": ["NCT07392450"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-881 (HYQVIA next-gen)",
+      "aka": ["TAK-881"],
+      "modality": "Subcutaneous immunoglobulin 20% with recombinant hyaluronidase rHuPH20",
+      "target": "Immune replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Primary immunodeficiency disease (PID)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 PID",
+          "trial_design": "Phase 3 in PID requiring IgG replacement",
+          "nct_ids": ["NCT06076642"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 CIDP",
+          "trial_design": "Phase 3 in CIDP maintenance",
+          "nct_ids": ["NCT06747351"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-771 (Cuvitru / IGI 10% with rHuPH20)",
+      "aka": ["TAK-771"],
+      "modality": "Subcutaneous immunoglobulin 10% with rHuPH20",
+      "target": "Immune replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "CIDP / Multifocal motor neuropathy (MMN)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 CIDP/MMN",
+          "trial_design": "Phase 3 facilitated SC IgG in CIDP/MMN",
+          "nct_ids": ["NCT05084053"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-339 (immune globulin 10% formulation)",
+      "aka": ["IGI 10%", "Gammagard Liquid"],
+      "modality": "Intravenous / subcutaneous immune globulin",
+      "target": "Immune replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Multiple myeloma / secondary immunodeficiency",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 SID",
+          "trial_design": "Phase 3 in MM-associated secondary immunodeficiency",
+          "nct_ids": ["NCT06980480"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-330 (4F-PCC, octaplex)",
+      "aka": ["TAK-330"],
+      "modality": "4-factor prothrombin complex concentrate",
+      "target": "Coagulation factor replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Coagulation disorder / urgent reversal",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 4F-PCC",
+          "trial_design": "Phase 3 4F-PCC vs SOC for urgent anticoagulation reversal",
+          "nct_ids": ["NCT05156983"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-633 (teduglutide next-gen)",
+      "aka": ["TAK-633", "Teduglutide", "A16AX08"],
+      "modality": "GLP-2 analog (subcutaneous)",
+      "target": "GLP-2 receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Short bowel syndrome (next-gen formulation)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 SBS",
+          "trial_design": "Phase 3 in SBS",
+          "nct_ids": ["NCT06973304"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-003 (QDENGA / TDV)",
+      "aka": ["TAK-003", "TDV", "QDENGA"],
+      "modality": "Live attenuated tetravalent dengue vaccine",
+      "target": "Dengue virus serotypes 1-4",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Dengue fever prevention (label expansion / pediatric / new geographies)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Multiple Phase 3 dengue vaccine studies",
+          "trial_design": "Pivotal Phase 3 in additional populations / geographies",
+          "nct_ids": ["NCT06579755", "NCT07047521", "NCT06665035"],
+          "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Idursulfase-IT",
+      "aka": ["Idursulfase-IT", "Elaprase IT"],
+      "modality": "Intrathecal recombinant iduronate-2-sulfatase",
+      "target": "Iduronate-2-sulfatase enzyme replacement (CNS delivery)",
+      "license_origin": "Internal (Shire legacy)",
+      "indications": [
+        {
+          "indication": "Hunter syndrome (MPS II) with CNS involvement",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 idursulfase-IT",
+          "trial_design": "Phase 3 IT enzyme replacement vs control",
+          "nct_ids": ["NCT06031259"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Mobocertinib",
+      "aka": ["TAK-788", "AP32788"],
+      "modality": "Oral EGFR exon 20 insertion-selective TKI",
+      "target": "EGFR exon 20 insertion mutations",
+      "license_origin": "Acquired via ARIAD",
+      "indications": [
+        {
+          "indication": "EGFR exon 20 insertion non-small cell lung cancer",
+          "highest_phase": "Phase 3",
+          "trial_name": "EXCLAIM-2",
+          "trial_design": "Phase 3 mobocertinib vs platinum chemo in 1L NSCLC EGFRex20ins",
+          "nct_ids": ["NCT04129502", "NCT02716116"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (US accelerated approval withdrawn 2023; Phase 3 readout-driven)",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Vortioxetine (Trintellix - new indication)",
+      "aka": ["Vortioxetine", "Trintellix"],
+      "modality": "Multimodal serotonin modulator (oral)",
+      "target": "5-HT1A/1B/1D/3/7, SERT",
+      "license_origin": "Co-development with Lundbeck",
+      "indications": [
+        {
+          "indication": "Major depressive disorder (Phase 3 expansion / new population)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 MDD expansion",
+          "trial_design": "Phase 3 randomized placebo-controlled in MDD",
+          "nct_ids": ["NCT07204314"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-360",
+      "aka": ["TAK-360"],
+      "modality": "Orexin agonist (next-gen)",
+      "target": "OX2R",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Idiopathic hypersomnia / Narcolepsy Type 2",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 IH / NT2",
+          "trial_design": "Phase 2 randomized placebo-controlled",
+          "nct_ids": ["NCT06812078", "NCT06952699"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-411",
+      "aka": ["TAK-411"],
+      "modality": "Investigational neuroscience asset",
+      "target": "Undisclosed (CIDP)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic inflammatory demyelinating polyradiculoneuropathy",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 CIDP",
+          "trial_design": "Phase 2 randomized in CIDP",
+          "nct_ids": ["NCT06798012"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-007",
+      "aka": ["TAK-007"],
+      "modality": "Off-the-shelf CD19 CAR-NK cell therapy",
+      "target": "CD19",
+      "license_origin": "Licensed from MD Anderson",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell non-Hodgkin lymphoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 CAR-NK",
+          "trial_design": "Phase 2 in r/r B-NHL",
+          "nct_ids": ["NCT05020015"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-188",
+      "aka": ["TAK-188"],
+      "modality": "Oncology investigational",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic solid tumors",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 solid tumors",
+          "trial_design": "Phase 2 dose-expansion",
+          "nct_ids": ["NCT07205718"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-505",
+      "aka": ["TAK-505"],
+      "modality": "Oncology investigational",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Malignant solid tumors",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 solid tumors",
+          "trial_design": "Phase 1/2 dose-escalation/expansion",
+          "nct_ids": ["NCT07436728"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-853",
+      "aka": ["TAK-853"],
+      "modality": "Oncology investigational",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Ovarian cancer / solid tumors",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 ovarian / solid",
+          "trial_design": "Phase 2 expansion",
+          "nct_ids": ["NCT06390995"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TAK-781",
+      "aka": ["TAK-781"],
+      "modality": "Investigational early-stage asset",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Primary sclerosing cholangitis (healthy volunteer + patient PK)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 PSC",
+          "trial_design": "Phase 1 first-in-human / PK",
+          "nct_ids": ["NCT07229911"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Ponatinib",
+      "aka": ["Iclusig"],
+      "modality": "Oral pan-BCR-ABL TKI (3rd generation)",
+      "target": "BCR-ABL incl. T315I",
+      "license_origin": "Acquired via ARIAD",
+      "indications": [
+        {
+          "indication": "Newly diagnosed Ph+ ALL (PhALLCON / front-line)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PhALLCON",
+          "trial_design": "Phase 3 ponatinib + chemo vs imatinib + chemo in 1L Ph+ ALL",
+          "nct_ids": ["NCT03589326"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Takeda",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Takeda has a broad commercial portfolio across GI/I, neuroscience, oncology, rare/hematology and PDT/vaccines (e.g., Entyvio, Takhzyro, Adynovate, Livtencity, QDENGA, Iclusig, Adcetris). Only ongoing P1/P2/P3 active development is captured above."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Mobocertinib accelerated approval withdrawn in US 2023 (Phase 3 ongoing OUS)"
+  ],
+  "excluded_partner_owned": [
+    "Brentuximab vedotin (Adcetris) - Pfizer/Seagen lead in many studies",
+    "Cabozantinib NCT04446117 - Exelixis lead",
+    "Emory / Imperial / Leeds / UCL investigator-initiated studies using Takeda drugs"
+  ],
+  "summary_counts": {
+    "total_assets": 27,
+    "phase_3_assets": 19,
+    "phase_2_assets": 7,
+    "phase_1_assets": 1,
+    "note": "Asset-level count; some assets listed under both P3 and P2 indications (highest phase per asset shown)."
+  }
+}

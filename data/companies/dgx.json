@@ -1,0 +1,38 @@
+{
+  "issuer_name": "QUEST DIAGNOSTICS INCORPORATED",
+  "ticker": "DGX",
+  "exchange": "NYSE",
+  "cik": "0001022079",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "note": "10-K fetched (dgx_10k_full.htm) but no R&D / pipeline section heading present — Quest is a clinical-laboratory diagnostic-services provider and does not develop proprietary therapeutics."
+    },
+    "website": {
+      "error": "no public drug pipeline page — Quest publishes a diagnostic test catalog rather than a therapeutic pipeline."
+    },
+    "ctgov": {
+      "sponsor_query": "Quest Diagnostics",
+      "trials_returned": 4,
+      "note": "All four hits list Quest Diagnostics-Nichols Institute only as a lab/collaborator. Lead sponsors: Bioverativ/Sanofi, Brigham and Women's, Montefiore, Nemours. None proprietary to Quest."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "BIVV009 / sutimlimab", "nct_ids": ["NCT02502903"], "reason": "Sponsor Bioverativ/Sanofi; Quest only central-lab collaborator."},
+    {"asset": "Vitamin D for COVID-19", "nct_ids": ["NCT04536298"], "reason": "Sponsor Brigham and Women's Hospital."},
+    {"asset": "Melatonin third-molar surgery", "nct_ids": ["NCT04791943"], "reason": "Sponsor Montefiore Medical Center."},
+    {"asset": "Atorvastatin in pediatric T1D", "nct_ids": ["NCT01236365"], "reason": "Sponsor Nemours Children's Clinic."}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Distribution / services company — no proprietary clinical pipeline. Quest Diagnostics is a clinical laboratory and diagnostic-information services provider; it does not develop therapeutic drugs or implantable devices."
+}

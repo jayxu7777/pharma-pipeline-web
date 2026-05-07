@@ -1,0 +1,104 @@
+{
+  "issuer_name": "uniQure N.V.",
+  "ticker": "QURE",
+  "exchange": "Nasdaq",
+  "cik": "0001590560",
+  "region": "Netherlands (US-listed; files US 10-K)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-021898", "filing_date": "2026-03-02", "doc": "qure-20251231x10k.htm"},
+    "website": {"url": "https://uniqure.com/programs-pipeline", "note": "page accessible; AMT-130/162/191/260 confirmed"},
+    "ctgov": {"file": "data/qure_ctgov_compact.json", "trial_count": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "AMT-130",
+      "aka": ["rAAV5-miHTT"],
+      "modality": "AAV5 gene therapy with engineered miRNA targeting huntingtin (intra-striatal)",
+      "target": "HTT mRNA (microRNA-mediated knockdown)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Early manifest Huntington's disease",
+          "highest_phase": "Phase 1/2 (pivotal — accelerated-approval pathway based on positive 36-month data; BLA submission in progress per recent disclosures)",
+          "trial_name": "AMT-130-001 (US) and AMT-130-002 (EU)",
+          "trial_design": "Randomized vs sham-surgery (US, two doses) and open-label (EU two doses); intra-striatal MRI-guided one-time delivery; primary endpoints include cUHDRS",
+          "nct_ids": ["NCT04120493", "NCT05243017"],
+          "trial_status": "Both Active, not recruiting; long-term follow-up ongoing through 2029; FDA accelerated-approval BLA pathway agreed",
+          "lead_sponsor": "UniQure Biopharma B.V.",
+          "key_milestones": ["FDA Breakthrough Therapy designation", "Positive 36-month interim cUHDRS data", "BLA filing track underway"]
+        }
+      ]
+    },
+    {
+      "asset": "AMT-162",
+      "aka": [],
+      "modality": "AAVrh10 (intrathecal) gene therapy delivering anti-SOD1 microRNA",
+      "target": "SOD1 (microRNA knockdown)",
+      "license_origin": "Internal (acquired from Apic Bio, 2022)",
+      "indications": [
+        {
+          "indication": "SOD1-amyotrophic lateral sclerosis (SOD1-ALS)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "EPISOD1",
+          "trial_design": "Open-label dose-escalation, intrathecal one-time administration; safety, tolerability, exploratory efficacy",
+          "nct_ids": ["NCT06100276"],
+          "trial_status": "Active, not recruiting (primary completion 2026-09-30)",
+          "lead_sponsor": "UniQure Biopharma B.V.",
+          "key_milestones": ["FDA Fast Track designation", "FDA Orphan Drug designation"]
+        }
+      ]
+    },
+    {
+      "asset": "AMT-260",
+      "aka": ["AAV9-hSyn1-miGRIK2"],
+      "modality": "AAV9 gene therapy delivering microRNA targeting GRIK2 (intra-hippocampal)",
+      "target": "GRIK2 (microRNA knockdown of GluK2 receptor)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Mesial temporal lobe epilepsy (refractory unilateral)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "GenTLE",
+          "trial_design": "Open-label dose-escalation, single intra-hippocampal MRI-guided administration",
+          "nct_ids": ["NCT06063850"],
+          "trial_status": "Recruiting (primary completion 2026-11-30)",
+          "lead_sponsor": "UniQure Biopharma B.V.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AMT-191",
+      "aka": [],
+      "modality": "AAV5 gene therapy (IV) delivering GLA (alpha-galactosidase A) under liver-specific promoter",
+      "target": "GLA enzyme replacement (gene-mediated)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Classic Fabry disease",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "AMT-191-001",
+          "trial_design": "Open-label dose-escalation, IV one-time administration; safety, PK/PD, exploratory efficacy",
+          "nct_ids": ["NCT06270316"],
+          "trial_status": "Recruiting (primary completion 2027-12-01)",
+          "lead_sponsor": "UniQure Biopharma B.V.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed": ["HEMGENIX (etranacogene dezaparvovec) — AAV5 gene therapy for hemophilia B; US/EU approved 2022-2023; commercialized by partner CSL Behring (uniQure receives royalties + milestones)"]
+  },
+  "excluded_preclinical": ["Earlier discovery / next-gen CNS gene-therapy programs"],
+  "excluded_legacy_terminated": [
+    "NCT02904772 — alipogene tiparvovec (Glybera) LPLD Phase 2, Withdrawn (Glybera withdrawn from market 2017)",
+    "NCT03300453 — rAAV2/5-hNAGLU Sanfilippo B Phase 1/2, Completed (program de-prioritized / out-licensed considerations)"
+  ],
+  "excluded_partner_owned": [
+    "NCT02082860 — rAAV2/5-PBGD acute intermittent porphyria, Phase 1, Completed; lead sponsor Digna Biotech (uniQure listed as collaborator)"
+  ],
+  "summary_counts": {"assets": 4, "phase3": 0, "phase2": 0, "phase1_or_1_2": 4, "indications_total": 4}
+}

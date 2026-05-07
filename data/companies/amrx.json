@@ -1,0 +1,95 @@
+{
+  "issuer_name": "Amneal Pharmaceuticals, Inc.",
+  "ticker": "AMRX",
+  "exchange": "Nasdaq",
+  "cik": "0001723128",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-27",
+      "accession": "0001723128-26-000011",
+      "path": "data/amrx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.amneal.com/pipeline",
+      "fetched": "2026-05-06",
+      "note": "Pipeline page lists generics/biosimilars by reference brand and target launch date, not novel-drug clinical phases"
+    },
+    "ctgov": {
+      "path": "data/amrx_ctgov_compact.json",
+      "lead_sponsor_query": "Amneal"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Bimatoprost ophthalmic solution 0.01% (generic ANDA)",
+      "aka": [],
+      "modality": "Generic ophthalmic solution (505(j) bioequivalence)",
+      "target": "Prostaglandin F2-alpha analog",
+      "license_origin": "Amneal generics",
+      "indications": [
+        {
+          "indication": "Open-angle glaucoma / ocular hypertension (BE study to LUMIGAN)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Bioequivalence with clinical endpoint",
+          "trial_design": "Randomized BE study with clinical endpoint",
+          "nct_ids": ["NCT05401357"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Amneal Pharmaceuticals, LLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Generic / biosimilar BE study (multi-dose)",
+      "aka": [],
+      "modality": "Generic 505(j) bioequivalence",
+      "target": "n/a (BE)",
+      "license_origin": "Amneal generics",
+      "indications": [
+        {
+          "indication": "Bioequivalence (multi-dose, multicenter)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Multiple dose BE study",
+          "trial_design": "Randomized, double-blind, parallel-group, multiple dose BE",
+          "nct_ids": ["NCT06267274"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Amneal Pharmaceuticals, LLC",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "CREXONT (IPX203, carbidopa/levodopa ER capsules)", "indication": "Parkinson's disease", "status": "Approved/Commercial (US, Aug 2024)"},
+      {"name": "RYTARY (carbidopa/levodopa ER capsules)", "indication": "Parkinson's disease", "status": "Approved/Commercial"},
+      {"name": "ALYMSYS (bevacizumab-maly biosimilar)", "indication": "Multiple oncology indications", "status": "Approved/Commercial (distributed via Valorum from Dec 2025)"},
+      {"name": "RELEUKO (filgrastim-ayow biosimilar)", "indication": "Neutropenia", "status": "Approved/Commercial"},
+      {"name": "FYLNETRA (pegfilgrastim-pbbk biosimilar)", "indication": "Neutropenia", "status": "Approved/Commercial"},
+      {"name": "Multiple recent generic launches", "indication": "Mesalamine DR, Everolimus, Prednisolone acetate, Iohexol, Eltrombopag, Epinephrine, Lenalidomide, Risperidone ER, Cyclosporine ophthalmic, Beclomethasone (2025-Q1 2026 launches)", "status": "Approved/Commercial"}
+    ]
+  },
+  "no_active_clinical_pipeline_reason": "Amneal is a generics/biosimilars + specialty commercial-stage company. The 10-K does not disclose any novel/NCE clinical-stage program. Active ctgov trials are bioequivalence / generic ANDA-support studies (PHASE3 BE, multi-dose PK). Reported here for completeness as 'Phase 3' per ctgov labeling, but they are not novel-asset clinical development.",
+  "excluded_preclinical": [
+    "AMN1126 / KSHN001126 (Kashiv-licensed) Phase 1 SAD in healthy post-menopausal females (NCT06467201) — Completed",
+    "Discovery / preclinical drug-device combination injectables, peptides (per 10-K Affordable Medicines segment narrative)"
+  ],
+  "excluded_legacy_terminated": [
+    "Beclomethasone Dipropionate Inhalation Aerosol BE (NCT03562949) — Terminated",
+    "Fluticasone/Salmeterol Inhalation Powder BE (NCT03562923) — Unknown status",
+    "Methotrexate tablets BE (NCT02940561) — Unknown status",
+    "Albuterol Sulfate Inhalation BE (NCT03549897) — Unknown status",
+    "Numerous completed historical BE studies (imatinib, diclofenac, estradiol, phenazopyridine, mometasone, testosterone gel)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "phase_3_indications": 1,
+    "phase_2_indications": 0,
+    "phase_1_indications": 1,
+    "note": "All active trials are generic bioequivalence studies, not novel-asset clinical development."
+  }
+}

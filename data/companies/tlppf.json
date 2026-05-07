@@ -1,0 +1,201 @@
+{
+  "issuer_name": "Telix Pharmaceuticals Ltd",
+  "ticker": "TLPPF",
+  "exchange": "OTC",
+  "cik": "0002007191",
+  "region": "AU (US OTC ADR)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Australian) — files annual report on ASX, not 10-K on EDGAR"},
+    "website": {"url": "https://www.telixpharma.com/pipeline/", "extracted": true},
+    "ctgov": {"path": "data/tlppf_ctgov_compact.json", "trials_kept": 27}
+  },
+  "pipeline": [
+    {
+      "asset": "177Lu-TLX591 (rosopatamab tetraxetan)",
+      "aka": ["TLX591-Tx", "177Lu-DOTA-rosopatamab"],
+      "modality": "Radioligand therapy (Lu-177 anti-PSMA mAb)",
+      "target": "PSMA",
+      "license_origin": "Telix in-house",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ProstACT GLOBAL",
+          "trial_design": "Randomized 177Lu-TLX591 + SOC vs SOC alone",
+          "nct_ids": ["NCT06520345"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+          "key_milestones": ["Started 2024-07; primary completion 2027-12"]
+        }
+      ]
+    },
+    {
+      "asset": "89Zr-TLX250 (89Zr-girentuximab) — Zircaix",
+      "aka": ["TLX250-CDx", "89Zr-DFO-girentuximab"],
+      "modality": "PET imaging agent (Zr-89 anti-CAIX mAb)",
+      "target": "CAIX (Carbonic Anhydrase IX)",
+      "license_origin": "Telix in-house",
+      "indications": [
+        {
+          "indication": "Clear cell renal cell carcinoma (ccRCC) — confirmatory Phase 3",
+          "highest_phase": "Phase 3",
+          "trial_name": "ZIRCON-CP",
+          "trial_design": "Confirmatory PET/CT imaging study",
+          "nct_ids": ["NCT06750419"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+          "key_milestones": ["Started 2024-11; primary completion 2026-06"]
+        }
+      ]
+    },
+    {
+      "asset": "68Ga-PSMA-11 (gozetotide) — Illuccix / Gozellix",
+      "aka": ["TLX591-CDx"],
+      "modality": "PET imaging agent (Ga-68 PSMA ligand)",
+      "target": "PSMA",
+      "license_origin": "Telix in-house",
+      "indications": [
+        {
+          "indication": "Biochemical recurrence of prostate cancer (China registration)",
+          "highest_phase": "Phase 3",
+          "trial_name": "68Ga-PSMA-11 BCR China study",
+          "trial_design": "PET/CT diagnostic performance study",
+          "nct_ids": ["NCT05847348"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+          "key_milestones": ["Started 2023-07; primary completion 2025-12"]
+        },
+        {
+          "indication": "PSMA PET + MRI for prostate cancer detection",
+          "highest_phase": "Phase 3",
+          "trial_name": "PSMA PET/MRI for PCa detection",
+          "trial_design": "Diagnostic imaging study",
+          "nct_ids": ["NCT07052214"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+          "key_milestones": ["Started 2025-08; primary completion 2026-06"]
+        }
+      ]
+    },
+    {
+      "asset": "131I-TLX101 (131I-IPA) — Pixclara therapeutic",
+      "aka": ["TLX101-Tx", "131I-iodophenylalanine"],
+      "modality": "Targeted radionuclide therapy (I-131 amino acid analog)",
+      "target": "LAT1/LAT4 amino-acid transporter",
+      "license_origin": "Telix in-house",
+      "indications": [
+        {
+          "indication": "Recurrent glioblastoma (rGBM)",
+          "highest_phase": "Phase 3",
+          "trial_name": "IPAX-Linz / TLX101-Tx + SoC vs SoC",
+          "trial_design": "Randomized TLX101-Tx + lomustine vs lomustine alone",
+          "nct_ids": ["NCT07100730"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+          "key_milestones": ["Started 2025-11; primary completion 2027-07"]
+        },
+        {
+          "indication": "Newly diagnosed glioblastoma (1L)",
+          "highest_phase": "Phase 1",
+          "trial_name": "IPAX-2",
+          "trial_design": "Open-label dose-finding 131I-TLX101 + SoC",
+          "nct_ids": ["NCT05450744"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+          "key_milestones": ["Started 2023-04; primary completion 2026-06"]
+        }
+      ]
+    },
+    {
+      "asset": "177Lu-TLX250 (177Lu-girentuximab)",
+      "aka": ["TLX250-Tx", "177Lu-DOTA-girentuximab"],
+      "modality": "Radioligand therapy (Lu-177 anti-CAIX mAb)",
+      "target": "CAIX",
+      "license_origin": "Telix in-house",
+      "indications": [
+        {
+          "indication": "Advanced relapsed/recurrent ccRCC",
+          "highest_phase": "Phase 3",
+          "trial_name": "STARLITE-3 (177Lu-TLX250 ccRCC)",
+          "trial_design": "Phase 3 efficacy/safety in advanced ccRCC",
+          "nct_ids": ["NCT07197580"],
+          "trial_status": "RECRUITING (start date 2026-03)",
+          "lead_sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+          "key_milestones": ["Primary completion 2027-08"]
+        },
+        {
+          "indication": "CAIX-expressing solid tumors (combo with peposertib)",
+          "highest_phase": "Phase 1",
+          "trial_name": "177Lu-TLX250 + peposertib",
+          "trial_design": "Combination dose-finding with Merck KGaA DDR inhibitor",
+          "nct_ids": ["NCT05868174"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+          "key_milestones": ["Primary completion 2024-12"]
+        }
+      ]
+    },
+    {
+      "asset": "89Zr-TLX300-CDx (89Zr-DFOsq-olaratumab)",
+      "aka": ["TLX300-CDx"],
+      "modality": "PET imaging agent (Zr-89 anti-PDGFRα mAb)",
+      "target": "PDGFRα",
+      "license_origin": "Telix in-house",
+      "indications": [
+        {
+          "indication": "Soft tissue sarcoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "89Zr-olaratumab dosimetry",
+          "trial_design": "Open-label dosimetry/biodistribution",
+          "nct_ids": ["NCT06537596"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Telix Pharmaceuticals (Innovations) Pty Ltd",
+          "key_milestones": ["Primary completion 2026-03"]
+        }
+      ]
+    },
+    {
+      "asset": "153Sm-DOTMP — TLX090-Tx",
+      "aka": ["Samarium-153 DOTMP"],
+      "modality": "Bone-targeted radionuclide therapy",
+      "target": "Bone hydroxyapatite",
+      "license_origin": "Telix in-house",
+      "indications": [
+        {
+          "indication": "Cancer-related end-stage bone pain",
+          "highest_phase": "Phase 1",
+          "trial_name": "SOLACE",
+          "trial_design": "Open-label safety/analgesia in metastatic bone pain",
+          "nct_ids": ["NCT07197645"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+          "key_milestones": ["Primary completion 2027-04"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Illuccix": "68Ga-PSMA-11 PET imaging agent for prostate cancer (FDA approved)",
+    "Gozellix": "68Ga-PSMA-11 PET imaging agent (FDA approved 2025)",
+    "Scintimun": "99mTc-besilesomab (EMA approved, osteomyelitis imaging)"
+  },
+  "excluded_preclinical": [
+    "TLX400-Tx (FAP, bladder)", "TLX300-Tx therapeutic olaratumab (sarcoma)", "TLX592-Tx 225Ac-RADmAb (Phase 0)", "TLX252-Tx 225Ac-girentuximab (Phase 0)", "TLX102-Tx 211At-APA (Phase 0)"
+  ],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT04876651", "reason": "ProstACT SELECT TERMINATED — superseded by ProstACT GLOBAL (NCT06520345)"},
+    {"nct": "NCT05563272", "reason": "89Zr-girentuximab pan-tumor Phase 2 TERMINATED"},
+    {"nct": "NCT05744115", "reason": "Investigator-led Ga-68-PSMA-11 prostate study TERMINATED"}
+  ],
+  "excluded_partner_owned": [
+    {"nct": "NCT07077083", "reason": "MGH-led, Telix collaborator only (post-ablative ccRCC PET)"},
+    {"nct": "NCT04402151", "reason": "Weill Cornell-led, Telix collaborator only (PSMA PET/MR SBRT)"},
+    {"nct": "NCT03762759", "reason": "Emory-led, Telix collaborator only"},
+    {"nct": "NCT06044857", "reason": "UT Southwestern-led, Telix collaborator only"},
+    {"nct": "NCT05663710", "reason": "MD Anderson-led, Telix collaborator only (177Lu-girentuximab + cabo + nivo)"},
+    {"nct": "NCT06447103", "reason": "UCLA Jonsson-led, Telix collaborator only"}
+  ],
+  "summary_counts": {"total_assets": 7, "P3": 5, "P2": 0, "P1": 4, "indication_rows_P3": 5, "indication_rows_P1": 4, "note": "Counts are by indication-row highest-phase; same asset can appear in P3 and P1 for different indications."}
+}

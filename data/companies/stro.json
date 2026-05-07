@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Sutro Biopharma, Inc.",
+  "ticker": "STRO",
+  "exchange": "Nasdaq",
+  "cik": "0001382101",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-119873", "filed": "2026-03-23", "fy": "2025"},
+    "website": {"url": "https://www.sutrobio.com (pipeline page only via PDF and IR releases)", "fetched": "2026-05-06", "note": "Public site has no /pipeline path; details cross-referenced with IR press release on portfolio prioritization"},
+    "ctgov": {"sponsor_query": "Sutro Biopharma", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "STRO-004",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (Tissue Factor exatecan ADC)",
+      "target": "Tissue Factor (TF)",
+      "license_origin": "Internal (Sutro XpressCF platform)",
+      "indications": [
+        {
+          "indication": "Refractory/recurrent metastatic solid tumors (HNSCC, NSCLC, esophageal, gastric, CRC, PDAC, cervical, endometrial, urothelial)",
+          "highest_phase": "Phase 1",
+          "trial_name": "STRO-004 first-in-human (mono and pembrolizumab combo)",
+          "trial_design": "Open-label Phase 1 dose escalation/expansion, monotherapy and in combination with pembrolizumab",
+          "nct_ids": ["NCT07227168"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Sutro Biopharma, Inc.",
+          "key_milestones": ["First patient dosed H2 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "STRO-227", "note": "First dual-payload ADC candidate targeting PTK7; preclinical"},
+    {"asset": "Additional next-gen exatecan and dual-payload ADCs", "note": "Preclinical / discovery"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Luveltamab tazevibulin (STRO-002, Luvelta)", "note": "All FolR-alpha programs terminated/withdrawn following 2025 strategic portfolio review (REFRaME-O1 Phase 2/3 NCT05870748 terminated; NSCLC Phase 2 NCT06555263 withdrawn; pediatric AML Phase 1/2 NCT06679582 terminated; bevacizumab combo NCT05200364 terminated; STRO-002 Phase 1 NCT03748186 completed; Tasly China Phase 1/2 NCT06238687 completed)"},
+    {"asset": "STRO-001 (anti-CD74 ADC)", "note": "Phase 1 NCT03424603 completed; no further development"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 0,
+    "P2": 0,
+    "P1": 1,
+    "indications_active": 1
+  }
+}

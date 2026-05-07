@@ -1,0 +1,63 @@
+{
+  "issuer_name": "CNS Pharmaceuticals, Inc.",
+  "ticker": "CNSP",
+  "exchange": "Nasdaq",
+  "cik": "0001729427",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001683168-26-002550",
+      "filing_date": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1729427/000168316826002550/cns_i10k-123125.htm"
+    },
+    "website": {
+      "url": "https://cnspharma.com/our-pipeline/berubicin",
+      "note": "Direct WebFetch returned 403; data corroborated via WebSearch results from cnspharma.com press releases."
+    },
+    "ctgov": {
+      "query": "CNS Pharmaceuticals",
+      "trials_returned": 1,
+      "active_or_relevant": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Berubicin",
+      "aka": ["WP744", "berubicin hydrochloride"],
+      "modality": "Anthracycline chemotherapy (small molecule) — first anthracycline reported to cross the blood-brain barrier",
+      "target": "Topoisomerase II (induces DNA damage in proliferating cells)",
+      "license_origin": "In-licensed (legacy asset, originally Reata Pharmaceuticals/Houston Pharmaceuticals)",
+      "indications": [
+        {
+          "indication": "Recurrent glioblastoma multiforme (GBM, WHO grade IV) after first-line failure",
+          "highest_phase": "Phase 2",
+          "trial_name": "CNS-201 — potentially pivotal Phase 2 of Berubicin vs lomustine in adult recurrent GBM",
+          "trial_design": "Randomized, controlled Phase 2 superiority trial; Berubicin vs lomustine comparator; 252-patient enrollment completed; primary endpoint overall survival.",
+          "nct_ids": ["NCT04762069"],
+          "trial_status": "ACTIVE_NOT_RECRUITING per ctgov; per 10-K (filed Mar 2026) the trial did not meet primary endpoint at primary analysis; current plan is to complete trial, close sites and prepare CSR; company is exploring out-licensing rather than further internal development.",
+          "lead_sponsor": "CNS Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "Enrollment of 252 patients completed (Q3 2024).",
+            "Primary analysis (H1 2025): outcomes appeared comparable to lomustine but did not meet superiority primary endpoint.",
+            "March 2026: corporate strategy pivot — exploring out-licensing of Berubicin and TPI 287; pursuing acquisitions in neurology/oncology.",
+            "Fast Track Designation (2021) and Orphan Drug Designation for malignant gliomas."
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "TPI 287 (abeotaxane) — legacy in-licensed asset evaluated in prior Phase 1/2 (sponsor-investigator/external) studies; no active Company-sponsored trial; out-licensing being explored."
+  ],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "Company has pivoted strategy in March 2026 to out-licensing legacy assets (Berubicin, TPI 287); only one active Phase 2 trial remains and is winding down with negative readout. New growth strategy targets acquisitions in neurology/oncology not yet executed.",
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 0
+  }
+}

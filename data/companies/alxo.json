@@ -1,0 +1,106 @@
+{
+  "issuer_name": "ALX Oncology Holdings Inc.",
+  "ticker": "ALXO",
+  "exchange": "Nasdaq",
+  "cik": "0001810182",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-03-09", "accession": "0001193125-26-098454", "path": "data/alxo_10k_pipeline_section.html"},
+    "website": {"url": "https://www.alxoncology.com/pipeline"},
+    "ctgov": {"path": "data/alxo_ctgov_compact.json", "unique_trials_p1_3": 13}
+  },
+  "pipeline": [
+    {
+      "asset": "Evorpacept",
+      "aka": ["ALX148"],
+      "modality": "CD47-blocking fusion protein (high-affinity SIRPalpha-Fc)",
+      "target": "CD47",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "HER2-overexpressing 2L/3L advanced gastric / GEJ cancer",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "ASPEN-06",
+          "trial_design": "Phase 2/3 randomized study of evorpacept + trastuzumab + ramucirumab + paclitaxel vs control in HER2+ gastric/GEJ cancer (in collaboration with Eli Lilly)",
+          "nct_ids": ["NCT05002127"],
+          "trial_status": "Active, not recruiting — POC established; company seeking ex-US partner",
+          "lead_sponsor": "ALX Oncology Inc.",
+          "key_milestones": ["Established proof of concept; seeking ex-US partner per company website"]
+        },
+        {
+          "indication": "Advanced head and neck squamous cell carcinoma (HNSCC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ASPEN-04 / ASPEN-03",
+          "trial_design": "ASPEN-04: evorpacept + pembrolizumab + chemotherapy in HNSCC (with Merck); ASPEN-03: evorpacept + pembrolizumab in HNSCC (with Merck)",
+          "nct_ids": ["NCT04675333", "NCT04675294"],
+          "trial_status": "Active, not recruiting (both trials)",
+          "lead_sponsor": "ALX Oncology Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic HER2-positive breast cancer (post-ENHERTU)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ASPEN-09-03 (ASPEN-Breast)",
+          "trial_design": "Evorpacept + trastuzumab + chemotherapy in metastatic HER2+ breast cancer previously treated with ENHERTU",
+          "nct_ids": ["NCT07007559"],
+          "trial_status": "Recruiting (start 2025-12-10; primary completion 2027-12)",
+          "lead_sponsor": "ALX Oncology Inc.",
+          "key_milestones": ["First patient in mid-year 2025"]
+        },
+        {
+          "indication": "Recurrent platinum-resistant ovarian cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALX148 + PLD + pembrolizumab investigator-sponsored study",
+          "trial_design": "Investigator-initiated Phase 2 of evorpacept + pegylated liposomal doxorubicin + pembrolizumab",
+          "nct_ids": ["NCT05467670"],
+          "trial_status": "Active, not recruiting (primary completion 2026-04-22)",
+          "lead_sponsor": "Alexander B Olawaiye, MD (investigator-sponsored; ALX is collaborator)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Relapsed/refractory multiple myeloma",
+          "highest_phase": "Phase 1",
+          "trial_name": "Evorpacept + SARCLISA + dexamethasone in RRMM",
+          "trial_design": "Mid Phase 1 combination study with isatuximab (SARCLISA) and dexamethasone",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Currently enrolling (FPI Q3 2024 per company website); not located in ctgov sponsor pull",
+          "lead_sponsor": "ALX Oncology Inc.",
+          "key_milestones": ["FPI Q3 2024"]
+        }
+      ]
+    },
+    {
+      "asset": "ALX2004",
+      "aka": [],
+      "modality": "EGFR-targeted antibody-drug conjugate (ADC)",
+      "target": "EGFR",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "EGFR-expressing advanced/metastatic solid tumors (NSCLC, HNSCC, CRC, ESCC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "First-in-human ALX2004 study",
+          "trial_design": "First-in-human dose escalation/expansion in selected EGFR-expressing solid tumors",
+          "nct_ids": ["NCT07085091"],
+          "trial_status": "Recruiting (start 2025-08-18; primary completion 2027-06)",
+          "lead_sponsor": "ALX Oncology Inc.",
+          "key_milestones": ["First patient dosed mid-2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Evorpacept ASPEN-02 (NCT04417517)", "reason": "Phase 1 in higher-risk MDS — terminated"},
+    {"asset": "Evorpacept ASPEN-05 (NCT04755244)", "reason": "Phase 1 in AML with venetoclax/azacitidine — terminated"},
+    {"asset": "ASPEN-01 (NCT03013218)", "reason": "Original Phase 1 monotherapy/combination study — completed 2022"},
+    {"asset": "ASPEN-07 (NCT05524545)", "reason": "Phase 1 evorpacept + enfortumab vedotin in urothelial carcinoma — completed 2025"},
+    {"asset": "Zanidatamab + evorpacept (NCT05027139)", "reason": "Jazz-led Phase 1/2 — completed 2025; ALX was collaborator only"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "ASPEN-MSS-CRC (NCT05167409)", "reason": "Investigator-sponsored Phase 2 led by University of Colorado in MSS metastatic CRC; ALX is collaborator and the asset is theirs but trial is academic-led and active not recruiting — listed under indication via investigator-sponsored notation only"}
+  ],
+  "summary_counts": {"total_assets": 2, "P3": 0, "P2": 4, "P1": 2}
+}

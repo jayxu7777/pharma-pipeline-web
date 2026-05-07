@@ -1,0 +1,22 @@
+{
+  "issuer_name": "Skinvisible, Inc.",
+  "ticker": "SKVI",
+  "exchange": "OTC",
+  "cik": "0001085277",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/skvi_10k_full.htm", "note": "Pipeline-section heading not auto-detected; full 10-K reviewed via grep"},
+    "website": {"error": "no public pipeline page found - company is a topical drug-delivery licensor (Invisicare), not a clinical-stage drug developer"},
+    "ctgov": {"path": "data/skvi_ctgov_compact.json", "trial_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Skinvisible is a topical drug-delivery technology platform company (Invisicare polymer). Its business model is to out-license formulations to pharma/consumer-goods partners; the company itself is not a sponsor of any active P1/P2/P3 clinical trials. The lead Invisicare-enabled clinical program (QRX003 in Netherton Syndrome, Phase 2) is sponsored and conducted by partner Quoin Pharmaceuticals (QNRX) and is excluded as partner-owned.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "QRX003 (Invisicare-enabled topical lotion of nitisinone)", "indication": "Netherton Syndrome", "phase": "P2 (sponsor: Quoin Pharmaceuticals)", "note": "Skinvisible is the technology licensor and royalty recipient, not the sponsor"}
+  ],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

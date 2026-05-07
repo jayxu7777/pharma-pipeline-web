@@ -1,0 +1,79 @@
+{
+  "issuer_name": "Curis, Inc.",
+  "ticker": "CRIS",
+  "exchange": "Nasdaq",
+  "cik": "0001108205",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001108205-26-000043", "filing_date": "2026-03-24", "form": "10-K", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://www.curis.com/pipeline/", "note": "Pipeline focused on emavusertib (CA-4948) lead asset"},
+    "ctgov": {"sponsor_query": "Curis", "trials_p1_p3": 13}
+  },
+  "pipeline": [
+    {
+      "asset": "Emavusertib",
+      "aka": ["CA-4948"],
+      "modality": "Small molecule (oral)",
+      "target": "IRAK4 / FLT3 inhibitor",
+      "license_origin": "Licensed from Aurigene under 2015 collaboration (IRAK4 program)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory primary CNS lymphoma (R/R PCNSL), in combination with ibrutinib",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "TakeAim Lymphoma (CA-4948-101)",
+          "trial_design": "Open-label, single-arm dose escalation/expansion of emavusertib + ibrutinib in R/R hematologic malignancies including PCNSL",
+          "nct_ids": ["NCT03328078"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Curis, Inc.",
+          "key_milestones": [
+            "Orphan Drug Designation granted by EMA (Jul 2024) and FDA (Dec 2024) for PCNSL",
+            "Mar 2025: productive CHMP and FDA meetings supporting potential CMA (EU) and Accelerated Approval NDA (US) paths from this single-arm study",
+            "Confirmatory study design alignment required prior to CMA/NDA submission",
+            "Primary completion: Aug 2026"
+          ]
+        },
+        {
+          "indication": "Frontline chronic lymphocytic leukemia (CLL), in combination with zanubrutinib",
+          "highest_phase": "Phase 2",
+          "trial_name": "TakeAim CLL (CA-4948-203)",
+          "trial_design": "Phase 2 open-label combination study of emavusertib + zanubrutinib in frontline CLL",
+          "nct_ids": ["NCT07271667"],
+          "trial_status": "Recruiting (sites activated Q4 2025; dosing initiation H1 2026)",
+          "lead_sponsor": "Curis, Inc.",
+          "key_milestones": [
+            "Aug 2025: study announced",
+            "Initial data expected Q4 2026"
+          ]
+        },
+        {
+          "indication": "Acute myeloid leukemia (AML) / myelodysplastic syndrome (MDS) — monotherapy and combinations",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "TakeAim Leukemia (CA-4948-102)",
+          "trial_design": "Dose escalation/expansion of emavusertib monotherapy and combinations (e.g., venetoclax) in AML/MDS",
+          "nct_ids": ["NCT04278768"],
+          "trial_status": "Suspended — programs substantially complete; further development contingent on additional funding (per Jan 2026 strategic update)",
+          "lead_sponsor": "Curis, Inc.",
+          "key_milestones": [
+            "Jan 2026: company announced focus shift to PCNSL and CLL; AML/MDS work substantially complete pending additional funding"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CA-327 (PD1/TIM3 small molecule antagonist) — early/preclinical Aurigene-licensed program"
+  ],
+  "excluded_legacy_terminated": [
+    "Fimepinostat (CUDC-907) — completed/discontinued lymphoma and solid tumor studies (NCT01742988, NCT02674750, NCT02307240, NCT02909777)",
+    "CUDC-101 — terminated/completed early-stage HDAC/EGFR/HER2 inhibitor (NCT01384799, NCT01702285, NCT00728793, NCT01171924)",
+    "CUDC-427 — terminated (NCT01908413)",
+    "CI-8993 (anti-VISTA antibody) — Phase 1 completed (NCT04475523), no active development disclosed",
+    "CA-170 — partner-controlled (Aurigene worldwide rights, royalty-only to Curis)"
+  ],
+  "excluded_partner_owned": [
+    "CA-170 (oral PD-L1/PD-L2/VISTA antagonist) — Aurigene holds worldwide development/commercialization rights as of Sep 2024 amendment; Curis entitled to royalties only"
+  ],
+  "summary_counts": {"total_assets": 1, "p3": 0, "p2": 1, "p1": 0, "p1_p2": 2}
+}

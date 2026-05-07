@@ -1,0 +1,29 @@
+{
+  "issuer_name": "MaxCyte, Inc.",
+  "ticker": "MXCT",
+  "exchange": "Nasdaq",
+  "cik": "0001287098",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-034557", "filed": "2026-03-25", "primary_doc": "mxct-20251231x10k.htm", "file": "data/mxct_10k_pipeline_section.html"},
+    "website": {"url": "https://maxcyte.com", "note": "No /pipeline page (404). Company positions itself as a non-viral electroporation/transfection platform and licensing partner; no proprietary clinical drug program promoted."},
+    "ctgov": {"sponsor_query": "MaxCyte", "kept_p1_p3": 1, "note": "Only sponsored trial (NCT03608618 MCY-M11 CAR-T Phase 1) is TERMINATED — excluded.", "file": "data/mxct_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "platform_offerings": [
+      {"name": "ExPERT platform", "type": "Flow Electroporation instruments and cartridges", "use": "Non-viral cell engineering for cell and gene therapy development and manufacturing"},
+      {"name": "SeQure DX services", "type": "Gene editing safety / off-target risk assessment services", "use": "Outsourced characterization of gene-edited cell therapy candidates"}
+    ],
+    "business_model": "Strategic Platform Licenses (SPLs) with biopharma partners; revenue from instrument sales, processing assemblies, and milestones/royalties tied to partners' clinical and commercial progress."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "MCY-M11", "modality": "Mesothelin-targeting mRNA CAR (autologous PBMC)", "indication": "Ovarian cancer / peritoneal mesothelioma", "nct_ids": ["NCT03608618"], "phase": "Phase 1", "status": "TERMINATED (primary completion 2021-02-11); MaxCyte exited internal therapeutic development."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Cell-engineering technology and services platform (ExPERT Flow Electroporation, SeQure DX). MaxCyte exited proprietary clinical development; remaining revenue comes from Strategic Platform Licenses with biopharma partners whose clinical programs are not MaxCyte-owned. Only company-sponsored trial (MCY-M11) is terminated."
+}

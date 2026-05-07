@@ -1,0 +1,57 @@
+{
+  "issuer_name": "Zura Bio Ltd",
+  "ticker": "ZURA",
+  "exchange": "Nasdaq",
+  "cik": "0001855644",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-032080",
+      "filed": "2026-03-19",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1855644/000110465926032080/zura-20251231x10k.htm"
+    },
+    "website": {"url": "https://zurabio.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"endpoint": "ClinicalTrials.gov v2 API", "sponsor_query": "Zura Bio", "unique_p1_p3_trials": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "Tibulizumab",
+      "aka": ["ZB-106"],
+      "modality": "Humanized IgG4 single-chain variable fragment bispecific antibody (engineered fusion of ixekizumab and tabalumab)",
+      "target": "IL-17A and BAFF (dual antagonist)",
+      "license_origin": "In-licensed from Eli Lilly and Company",
+      "indications": [
+        {
+          "indication": "Hidradenitis Suppurativa (moderate-to-severe)",
+          "highest_phase": "Phase 2",
+          "trial_name": "TibuSHIELD",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 in approximately 225 adults; 16-week double-blind period with optional OLE; primary endpoint percent change from baseline in abscess + inflammatory nodule count at Week 16",
+          "nct_ids": ["NCT06993610"],
+          "trial_status": "RECRUITING — initiated May 2025; topline 16-week results expected Q4 2026",
+          "lead_sponsor": "Zura Bio Inc",
+          "key_milestones": ["Enrollment expanded to ~225 (Jan 2026 protocol amendment)", "Topline Q4 2026"]
+        },
+        {
+          "indication": "Diffuse Cutaneous Systemic Sclerosis (dcSSc)",
+          "highest_phase": "Phase 2",
+          "trial_name": "TibuSURE",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 in approximately 80 adults with early dcSSc; 24-week double-blind period; primary endpoint modified Rodnan Skin Score at Week 24",
+          "nct_ids": ["NCT06843239"],
+          "trial_status": "RECRUITING — initiated December 2024; topline 24-week results expected 1H 2027",
+          "lead_sponsor": "Zura Bio Inc",
+          "key_milestones": ["Topline 1H 2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Crebankitug (ZB-168)", "rationale": "Anti-IL-7Rα mAb; previously evaluated in three Phase 1/1b trials by Pfizer. Currently between studies — Zura is assessing competitive landscape and disease selection; no active Zura-sponsored Phase 1/2/3 trial."},
+    {"asset": "Torudokimab (ZB-880)", "rationale": "Anti-IL-33 mAb; previously evaluated in three Lilly-sponsored clinical trials. Currently no active Zura-sponsored Phase 1/2/3 trial."}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "phase_3": 0, "phase_2": 2, "phase_1": 0}
+}

@@ -1,0 +1,43 @@
+{
+  "issuer_name": "VASO Corp",
+  "ticker": "VASO",
+  "exchange": "OTC",
+  "cik": "0000839087",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001213900-26-037664",
+      "note": "10-K describes three operational segments (VasoMedical devices, VasoHealthcare GE Healthcare sales rep, VasoTechnology IT services). No proprietary drug or device development pipeline disclosed."
+    },
+    "website": {
+      "url": "https://www.vasocorporation.com",
+      "note": "Corporate site lists current commercial segments only; no /pipeline page exists (404). No clinical-stage assets disclosed."
+    },
+    "ctgov": {
+      "sponsor_query": "VASO Corp",
+      "unique_trials_p1_p3": 0,
+      "note": "No interventional P1-P3 trials sponsored by VASO Corp on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "segments": [
+      "VasoMedical (proprietary noninvasive cardiovascular monitoring/diagnostic/treatment devices, manufactured in China)",
+      "VasoHealthcare (US sales representation for GE Healthcare diagnostic imaging capital equipment, partnership since 2010)",
+      "VasoTechnology (managed IT services and healthcare software solutions)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Commercial medical-device manufacturer, GE Healthcare distribution sales representative, and managed IT services provider. No proprietary drug or device clinical development pipeline disclosed in 10-K, on corporate site, or on ClinicalTrials.gov."
+}

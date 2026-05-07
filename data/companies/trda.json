@@ -1,0 +1,96 @@
+{
+  "issuer_name": "Entrada Therapeutics, Inc.",
+  "ticker": "TRDA",
+  "exchange": "Nasdaq",
+  "cik": "0001689375",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001689375-26-000011", "filing_date": "2026-02-26", "doc": "trda-20251231.htm"},
+    "website": {"url": "https://www.entradatx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/trda_ctgov_compact.json", "n_records": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "ENTR-601-44",
+      "aka": [],
+      "modality": "Endosomal Escape Vehicle (EEV) conjugated phosphorodiamidate morpholino oligonucleotide (PMO)",
+      "target": "DMD exon 44 skipping",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Duchenne Muscular Dystrophy (exon 44 amenable)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ELEVATE-44-201",
+          "trial_design": "Global Phase 1/2 multiple ascending dose (MAD) followed by open-label, in ambulatory DMD patients amenable to exon 44 skipping",
+          "nct_ids": ["NCT07037862"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Entrada Therapeutics, Inc.",
+          "key_milestones": ["Cohort 1 of MAD dosing completed; 6-dose open-label portion ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "ENTR-601-45",
+      "aka": [],
+      "modality": "Endosomal Escape Vehicle (EEV) conjugated PMO",
+      "target": "DMD exon 45 skipping",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Duchenne Muscular Dystrophy (exon 45 amenable)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ELEVATE-45-201",
+          "trial_design": "Global Phase 1/2 MAD study in ambulatory DMD patients amenable to exon 45 skipping",
+          "nct_ids": ["NCT07038824"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Entrada Therapeutics, Inc.",
+          "key_milestones": ["Phase 1/2 enrollment ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "ENTR-601-50",
+      "aka": [],
+      "modality": "EEV-conjugated PMO",
+      "target": "DMD exon 50 skipping",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Duchenne Muscular Dystrophy (exon 50 amenable)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ELEVATE-50-201",
+          "trial_design": "Phase 1/2 MAD clinical study in ambulatory DMD patients amenable to exon 50 skipping (UK MHRA-authorized)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — UK MHRA and Research Ethics Committee authorization received; EU regulatory submissions expected by year-end 2026",
+          "lead_sponsor": "Entrada Therapeutics, Inc.",
+          "key_milestones": ["UK regulatory authorization received", "EU submissions expected end-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "VX-670",
+      "aka": ["Entrada partnered DM1 program"],
+      "modality": "EEV-conjugated oligonucleotide",
+      "target": "DMPK",
+      "license_origin": "Partnered with Vertex Pharmaceuticals (Vertex sponsor)",
+      "indications": [
+        {
+          "indication": "Myotonic Dystrophy Type 1 (DM1)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "VX-670 global Phase 1/2",
+          "trial_design": "Global Phase 1/2 MAD clinical trial assessing safety and splice-correction efficacy",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Recruiting (Vertex-sponsored); enrollment/dosing on track to complete mid-2026",
+          "lead_sponsor": "Vertex Pharmaceuticals",
+          "key_milestones": ["MAD portion enrollment ongoing"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["ENTR-601-51 (DMD exon 51, regulatory submissions planned for 2026)", "ENTR-801 (USH2A, Inherited Retinal Disease, preclinical)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 4, "P3": 0, "P2": 0, "P1_P2": 4, "P1": 0}
+}

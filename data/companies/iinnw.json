@@ -1,0 +1,61 @@
+{
+  "issuer_name": "Inspira Technologies OXY B.H.N. Ltd",
+  "ticker": "IINNW",
+  "exchange": "Nasdaq",
+  "cik": "0001837493",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F"
+    },
+    "website": {
+      "url": "https://inspira-technologies.com",
+      "products_listed": [
+        "INSPIRA ART100 (FDA 510(k) cleared, K232788, cardiopulmonary bypass <=6h)",
+        "INSPIRA ART500 (in development; respiratory support)",
+        "HYLA blood monitoring sensor (in development)"
+      ]
+    },
+    "ctgov": {
+      "trials_p1_p3": 0,
+      "note": "No P1-P3 trials returned for sponsor 'Inspira Technologies'. ART500 development-stage, no registered NCT identified for company-sponsored pivotal study."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "devices": [
+      {
+        "name": "INSPIRA ART100",
+        "indication": "Blood oxygenation for short-duration cardiopulmonary bypass procedures (<=6 hours)",
+        "regulatory_status": "FDA 510(k) cleared (K232788)"
+      }
+    ],
+    "in_development_devices": [
+      {
+        "name": "INSPIRA ART500",
+        "indication": "Acute respiratory support / alternative to mechanical ventilation",
+        "regulatory_status": "Development stage; not yet in registered pivotal trial."
+      },
+      {
+        "name": "HYLA blood monitoring sensor",
+        "indication": "Continuous blood gas monitoring; planned integration with ART100",
+        "regulatory_status": "Development stage."
+      }
+    ]
+  },
+  "excluded_preclinical": [
+    "INSPIRA ART500 (medical device in development, no pivotal IDE/clinical study disclosed)",
+    "HYLA sensor (development stage)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Israeli foreign private issuer (files 20-F, not 10-K). Medical device company developing extracorporeal oxygenation/respiratory support hardware (ART100, ART500, HYLA). ART100 is FDA-cleared and commercial; ART500/HYLA are in development with no registered company-sponsored P1/P2/P3 or pivotal IDE study on ClinicalTrials.gov."
+}

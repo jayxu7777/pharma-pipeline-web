@@ -1,0 +1,66 @@
+{
+  "issuer_name": "Co-Diagnostics, Inc.",
+  "ticker": "CODX",
+  "exchange": "Nasdaq",
+  "cik": "0001692415",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014158",
+      "filing_date": "2026-03-31",
+      "path": "data/codx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://codiagnostics.com/",
+      "note": "Diagnostics company; pipeline page (https://codiagnostics.com/pipeline) returns 404. Home/products page enumerates only IVD diagnostic kits and qPCR instruments, no clinical drug pipeline."
+    },
+    "ctgov": {
+      "path": "data/codx_ctgov_compact.json",
+      "note": "Two trials matched but both are completed third-party academic studies (Emory, Xiamen). Co-Diagnostics is not lead sponsor."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "diagnostic_assays": [
+      "Logix Smart COVID-19 (FDA EUA)",
+      "Logix Smart MTB",
+      "Logix Smart SARS-CoV-2 variants",
+      "Logix Smart ZDC (Zika/Dengue/Chikungunya)",
+      "Logix Smart Zika"
+    ],
+    "instruments": [
+      "Co-Dx PCR Pro point-of-care platform (pending FDA authorization)",
+      "Co-Dx Box qPCR cycler"
+    ],
+    "research_use_only": [
+      "Logix Smart ABC, Mpox, SARS-CoV-2 variants",
+      "Maverick Blue Nucleic Acid Stain"
+    ],
+    "vector_control": [
+      "Vector Smart NAM-e, NAM-w, VZDC"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "nct_id": "NCT02830880",
+      "lead_sponsor": "Emory University",
+      "reason": "Investigator-initiated PET-CT prostate-cancer study; not a Co-Diagnostics asset."
+    },
+    {
+      "nct_id": "NCT01014845",
+      "lead_sponsor": "Xiamen University",
+      "reason": "Hepatitis E vaccine trial (Hecolin); not a Co-Diagnostics asset."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Diagnostics-only company (IVD molecular tests and qPCR instruments). No proprietary drug or therapeutic pipeline. Regulatory work is FDA 510(k)/EUA for diagnostic assays, not P1/P2/P3 clinical trials."
+}

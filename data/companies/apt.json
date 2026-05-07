@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Alpha Pro Tech, Ltd.",
+  "ticker": "APT",
+  "exchange": "NYSE",
+  "cik": "0000884269",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-11",
+      "accession": "0001437749-26-007797",
+      "doc": "apt20251231_10k.htm"
+    },
+    "website": {
+      "url": "https://www.alphaprotech.com",
+      "accessed": "2026-05-06",
+      "error": "Homepage redirected without Location header; product pages confirm consumer/industrial PPE and building-supply products only."
+    },
+    "ctgov": {
+      "query": "spons:Alpha Pro Tech",
+      "kept_p1_3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "segments": [
+      {
+        "name": "Disposable Protective Apparel",
+        "products": "Face masks, face shields, disposable gowns, frocks, lab coats, coveralls, shoecovers, bouffant caps for cleanroom, industrial, pharmaceutical, medical and dental markets."
+      },
+      {
+        "name": "Building Supply",
+        "products": "Housewrap and accessories, synthetic roof underlayment and accessories, woven materials for construction weatherization."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Personal protective equipment (PPE) manufacturer and building-products supplier — no proprietary drug or device clinical pipeline. Products are 510(k)-cleared / commodity disposables and construction weatherization materials, with no company-sponsored P1/P2/P3 trials on ClinicalTrials.gov."
+}

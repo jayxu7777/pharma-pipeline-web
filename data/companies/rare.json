@@ -1,0 +1,220 @@
+{
+  "issuer_name": "Ultragenyx Pharmaceutical Inc.",
+  "ticker": "RARE",
+  "exchange": "Nasdaq",
+  "cik": "0001515673",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-057329", "filing_date": "2026-02-18", "doc": "rare-20251231.htm"},
+    "website": {"error": "Pipeline page is JS-rendered; could not extract via WebFetch"},
+    "ctgov": {"sponsor_query": "Ultragenyx Pharmaceutical", "trial_count": 56}
+  },
+  "pipeline": [
+    {
+      "asset": "Setrusumab",
+      "aka": ["UX143", "BPS804"],
+      "modality": "Anti-sclerostin monoclonal antibody",
+      "target": "Sclerostin (SOST)",
+      "license_origin": "Licensed from Mereo BioPharma",
+      "indications": [
+        {
+          "indication": "Osteogenesis Imperfecta (pediatric, adolescent and young adult)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Orbit",
+          "trial_design": "Randomized vs. bisphosphonates in pediatric subjects",
+          "nct_ids": ["NCT05768854"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": ["Pivotal Phase 3 in pediatric OI; topline expected"]
+        },
+        {
+          "indication": "Osteogenesis Imperfecta (adult/young adult)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Cosmic",
+          "trial_design": "Setrusumab vs. placebo",
+          "nct_ids": ["NCT05125809"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": []
+        },
+        {
+          "indication": "Osteogenesis Imperfecta (Japanese pediatric)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Setrusumab Japan pediatric OI",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT06636071"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "GTX-102 (apazunersen)",
+      "aka": ["GTX-102", "apazunersen"],
+      "modality": "Antisense oligonucleotide (ASO)",
+      "target": "UBE3A-ATS",
+      "license_origin": "Acquired via GeneTx acquisition",
+      "indications": [
+        {
+          "indication": "Angelman Syndrome (pediatric)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Aspire",
+          "trial_design": "Phase 3 efficacy/safety vs. sham-LP",
+          "nct_ids": ["NCT06617429", "NCT06415344"],
+          "trial_status": "Active, not recruiting (pivotal); long-term extension enrolling by invitation",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": []
+        },
+        {
+          "indication": "Angelman Syndrome (deletion/nondeletion type)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Aurora",
+          "trial_design": "Open-label and dose-finding",
+          "nct_ids": ["NCT07157254"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "DTX301 (avalotcagene ontaparvovec)",
+      "aka": ["DTX301", "avalotcagene ontaparvovec", "scAAV8OTC"],
+      "modality": "AAV8 gene therapy",
+      "target": "OTC enzyme replacement",
+      "license_origin": "Internal (Dimension Therapeutics acquisition)",
+      "indications": [
+        {
+          "indication": "Ornithine Transcarbamylase (OTC) Deficiency",
+          "highest_phase": "Phase 3",
+          "trial_name": "DTX301 Pivotal",
+          "trial_design": "Randomized, placebo-controlled gene transfer with corticosteroid regimen",
+          "nct_ids": ["NCT05345171"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "DTX401 (pariglasgene brecaparvovec)",
+      "aka": ["DTX401", "AAV8G6PC", "pariglasgene brecaparvovec"],
+      "modality": "AAV8 gene therapy",
+      "target": "G6PC1 gene transfer",
+      "license_origin": "Internal (Dimension Therapeutics acquisition)",
+      "indications": [
+        {
+          "indication": "Glycogen Storage Disease Type Ia (GSDIa)",
+          "highest_phase": "Phase 3",
+          "trial_name": "DTX401 Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT05139316"],
+          "trial_status": "Completed (BLA preparation)",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "UX111 (rebisufligene etisparvovec)",
+      "aka": ["UX111", "ABO-102", "scAAV9.U1a.hSGSH", "rebisufligene etisparvovec"],
+      "modality": "AAV9 gene therapy",
+      "target": "SGSH (N-sulfoglucosamine sulfohydrolase)",
+      "license_origin": "Acquired from Abeona Therapeutics",
+      "indications": [
+        {
+          "indication": "Mucopolysaccharidosis IIIA (Sanfilippo Syndrome A)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Transpher A and follow-up",
+          "trial_design": "Single-dose IV gene transfer; extension follow-up",
+          "nct_ids": ["NCT02716246", "NCT04360265"],
+          "trial_status": "Recruiting / Enrolling by invitation; CRL received from FDA, BLA resubmission planned",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": ["FDA CRL received; addressing CMC items for BLA resubmission"]
+        }
+      ]
+    },
+    {
+      "asset": "UX701 (rivunatpagene miziparvovec)",
+      "aka": ["UX701", "rivunatpagene miziparvovec"],
+      "modality": "AAV gene therapy",
+      "target": "ATP7B",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Wilson Disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "Cyprus2+ (Phase 1/2/3 seamless)",
+          "trial_design": "Single-arm, dose-escalation/seamless pivotal",
+          "nct_ids": ["NCT04884815"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Triheptanoin (Dojolvi)",
+      "aka": ["UX007", "C7 oil", "Dojolvi"],
+      "modality": "Synthetic medium-odd-chain triglyceride",
+      "target": "Anaplerotic substrate for fatty acid oxidation",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Long-Chain Fatty Acid Oxidation Disorders (LC-FAOD) — pediatric MCE comparator study",
+          "highest_phase": "Phase 3",
+          "trial_name": "Triheptanoin vs. MCT pediatric LC-FAOD",
+          "trial_design": "Comparator vs. even-chain MCT",
+          "nct_ids": ["NCT05933200"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "UX016",
+      "aka": ["UX016"],
+      "modality": "Investigational therapy",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "GNE Myopathy (GNEM)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "First-in-human UX016 in GNEM",
+          "trial_design": "First-in-human, placebo-controlled",
+          "nct_ids": ["NCT07511556"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_products": ["Crysvita (burosumab) — partnered with KKC", "Mepsevii (vestronidase alfa)", "Dojolvi (triheptanoin)", "Evkeeza (evinacumab) — distributed in select markets"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT04088734", "asset": "ABO-102/UX111 (older terminated arm)", "reason": "Terminated"},
+    {"nct": "NCT04990388", "asset": "UX053 (GSD III)", "reason": "Terminated; program ended"},
+    {"nct": "NCT05312697", "asset": "Setrusumab adult OI extension", "reason": "Terminated"},
+    {"nct": "NCT02960217", "asset": "UX007 Glut1 DS", "reason": "Terminated"},
+    {"nct": "NCT02599961", "asset": "UX007 Glut1 DS long-term", "reason": "Terminated"},
+    {"nct": "NCT02736188", "asset": "UX001 Ace-ER GNEM", "reason": "Terminated"},
+    {"nct": "NCT02731690", "asset": "UX001 Ace-ER GNEM ambulatory", "reason": "Terminated"},
+    {"nct": "NCT02618915", "asset": "DTX101 Hemophilia B", "reason": "Terminated; program ended"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 8,
+    "phase_3": 6,
+    "phase_2": 1,
+    "phase_1_2": 1,
+    "phase_1": 0
+  }
+}

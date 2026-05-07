@@ -1,0 +1,44 @@
+{
+  "issuer_name": "Edwards Lifesciences Corp",
+  "ticker": "EW",
+  "exchange": "NYSE",
+  "cik": "0001099800",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001099800-26-000009",
+      "filing_date": "2026-02-25",
+      "doc": "ew-20251231.htm",
+      "slice_html": "data/ew_10k_pipeline_section.html"
+    },
+    "website": {
+      "skipped": "Pure medtech (structural heart devices) — no drug pipeline page expected; product portfolio rather than clinical pipeline."
+    },
+    "ctgov": {
+      "compact": "data/ew_ctgov_compact.json",
+      "kept_p1_p3": 3,
+      "active_p1_p3": 0,
+      "note": "All 3 sponsor-linked P1-3 trials are TERMINATED or WITHDRAWN; remaining Edwards-sponsored trials are post-market device studies (not P1/P2/P3 drug development)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Edwards is a structural heart medical device company. Marketed franchises (per 10-K Overview, FY2025): Transcatheter Aortic Valve Replacement (SAPIEN 3 / SAPIEN 3 Ultra / SAPIEN 3 Ultra RESILIA), Transcatheter Mitral and Tricuspid Therapies (PASCAL Precision, EVOQUE tricuspid valve replacement system), Surgical Structural Heart (INSPIRIS RESILIA, KONECT RESILIA, MITRIS RESILIA). Devices are regulated under PMA/IDE pathways, not the IND/NDA drug pathway."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT01415947", "reason": "TERMINATED — V-Chordal Adjustable System mitral leaflet prolapse"},
+    {"nct_id": "NCT02722551", "reason": "WITHDRAWN — CardiAQ-Edwards TMVR"},
+    {"nct_id": "NCT02387697", "reason": "TERMINATED — TRICAVAL (investigator-initiated by Charite University)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Pure structural heart medical device company. No proprietary therapeutic drug pipeline. Device development is governed by PMA/IDE rather than the IND/NDA P1/P2/P3 drug-development paradigm. All sponsor-linked ctgov P1-3 records are terminated or withdrawn legacy device studies."
+}

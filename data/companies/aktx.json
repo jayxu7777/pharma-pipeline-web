@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Akari Therapeutics Plc",
+  "ticker": "AKTX",
+  "exchange": "Nasdaq",
+  "cik": "0001541157",
+  "region": "UK (incorporated in the United Kingdom)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001493152-26-013664",
+      "path": "data/aktx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://akaritx.com/pipeline",
+      "note": "Pipeline page references advancing 'PH1 payload' as cornerstone of an ADC pipeline against multiple tumors; only image-based pipeline graphic, no asset-level phase / NCT detail disclosed publicly."
+    },
+    "ctgov": {
+      "path": "data/aktx_ctgov_compact.json",
+      "note": "All 9 Akari/Celsus-sponsored historical trials (nomacopan and predecessor compounds) are COMPLETED, TERMINATED, or WITHDRAWN. No active interventional studies."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    "AKTX-101 — lead next-generation ADC asset acquired via Peak Bio merger (Nov 2024); PH1 payload platform; preclinical (intangible asset $34.0M unimpaired on balance sheet, no IND or clinical trial disclosed)",
+    "Additional bifunctional ADC candidates from the Peak Bio platform — preclinical / discovery"
+  ],
+  "excluded_legacy_terminated": [
+    "Nomacopan — HSCT-TMA program suspended under May 2024 program prioritization / restructuring; legacy nomacopan trials COMPLETED or TERMINATED",
+    "PHP-303 — fully impaired in 2025 (intangible asset written down from $5.18M to $0); program effectively discontinued"
+  ],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "Following the November 2024 acquisition of Peak Bio and the May 2024 prioritization that suspended the nomacopan HSCT-TMA program, Akari is now focused entirely on its preclinical ADC platform (AKTX-101 lead asset). No active company-sponsored Phase 1/2/3 trials on any public registry as of the 2025 10-K filing.",
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  }
+}

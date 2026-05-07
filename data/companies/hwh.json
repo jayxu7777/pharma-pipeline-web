@@ -1,0 +1,28 @@
+{
+  "issuer_name": "HWH International Inc.",
+  "ticker": "HWH",
+  "exchange": "Nasdaq",
+  "cik": "0001897245",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-26",
+      "accession": "0001493152-26-012738",
+      "path": "data/hwh_10k_pipeline_section.html",
+      "note": "Business segments: Hapi Cafe (F&B in Singapore), Hapi Marketplace (B2C e-commerce), Hapi Wealth. No drug or device development."
+    },
+    "website": {"error": "Not applicable; non-pharmaceutical issuer."},
+    "ctgov": {
+      "path": "data/hwh_ctgov_compact.json",
+      "note": "Sponsor query returned 0 P1-3 trials."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "HWH International is a food-and-beverage and consumer e-commerce holding company (Hapi Cafe, Hapi Marketplace, Hapi Wealth). It has no proprietary clinical-stage drug or device pipeline."
+}

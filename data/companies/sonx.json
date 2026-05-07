@@ -1,0 +1,43 @@
+{
+  "issuer_name": "Sonendo, Inc.",
+  "ticker": "SONX",
+  "exchange": "OTC",
+  "cik": "0001407973",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000950170-25-045214",
+      "filing_date": "2025-03-26",
+      "doc": "sonx-20241231.htm"
+    },
+    "website": {
+      "url": "https://www.sonendo.com",
+      "note": "No /pipeline page (dental device company); homepage describes GentleWave System only."
+    },
+    "ctgov": {
+      "sponsor_query": "Sonendo",
+      "raw_hits": 4,
+      "p1_p2_p3_kept": 0,
+      "note": "All ctgov hits are device/post-market studies, not drug Phase 1/2/3."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "GentleWave System",
+    "modality": "Multisonic ultracleaning dental device (510(k)-cleared)",
+    "indication": "Root canal therapy / endodontic cleaning and disinfection",
+    "status": "Commercially marketed in the US"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Sonendo is a dental medical-device company; its sole product is the FDA-cleared GentleWave System for root canal therapy. No proprietary drug pipeline; ClinicalTrials.gov hits are post-market device evaluations, not Phase 1/2/3 drug studies."
+}

@@ -1,0 +1,190 @@
+{
+  "issuer_name": "Alpha Tau Medical Ltd.",
+  "ticker": "DRTS",
+  "exchange": "Nasdaq",
+  "cik": "0001871321",
+  "region": "Israel (Foreign private issuer — files 20-F, not 10-K)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active company-sponsored pivotal / IDE / company-sponsored interventional studies of Alpha DaRT (medical device — clinical-trials are FDA Phase NA).",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F (no 10-K available via fetch_10k.py)"
+    },
+    "website": {
+      "error": "alphatau.com pipeline page is a Wix site rendered dynamically; static HTML did not contain pipeline detail. Public press releases on alphatau.com and globenewswire.com used as supplement."
+    },
+    "ctgov": {
+      "path": "data/drts_ctgov_compact.json (compact filtered to 0 since all studies are Phase NA device trials); raw enumerated via direct ctgov API fetch — 30 sponsor studies returned",
+      "sponsor_query": "Alpha Tau Medical"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Alpha DaRT (Diffusing Alpha-emitter Radiation Therapy) — DaRT224 (Radium-224) intratumoral source",
+      "aka": ["Alpha DaRT", "DaRT224", "Diffusing Alpha-emitter Radiation Therapy"],
+      "modality": "Intratumoral interstitial brachytherapy device — Radium-224-loaded source releasing short-range alpha-emitting daughter atoms inside the tumor",
+      "target": "Solid tumor DNA double-strand breaks (alpha-particle radiation, ~2-3 mm diffusion radius)",
+      "license_origin": "Internal (founded on technology from Tel Aviv University)",
+      "indications": [
+        {
+          "indication": "Recurrent cutaneous squamous cell carcinoma (cSCC) — patients not candidates for surgery or standard radiation",
+          "highest_phase": "Pivotal (FDA Phase NA — device study; FDA Breakthrough Device Designation; PMA module 1 submitted Jan 2026)",
+          "trial_name": "ReSTART (Recurrent SCC Treatment with Alpha DaRT Radiation Therapy)",
+          "trial_design": "Multi-center, single-arm pivotal trial assessing efficacy and safety of intratumoral Alpha DaRT in recurrent cSCC; up to 86 patients enrolled in US, Canada, Europe and Israel.",
+          "nct_ids": ["NCT05323253"],
+          "trial_status": "Recruiting (enrollment completion targeted end of Q1 2026); first module of PMA submitted to FDA Jan 2026",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": ["FDA Breakthrough Device Designation granted", "First two patients treated in pivotal cohort", "PMA module 1 submitted Jan 2026", "Enrollment completion targeted Q1 2026"]
+        },
+        {
+          "indication": "Cutaneous squamous cell carcinoma — immunocompromised patients",
+          "highest_phase": "Pivotal-supportive feasibility (Phase NA device)",
+          "trial_name": "Cutaneous SCC for Immunocompromised Patients",
+          "trial_design": "Company-sponsored interventional study of Alpha DaRT224 in immunocompromised patients with cutaneous SCC.",
+          "nct_ids": ["NCT06615635"],
+          "trial_status": "Not yet recruiting (start estimated Dec 2025)",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent / locally advanced head and neck squamous cell carcinoma (HNSCC) — Alpha DaRT in combination with checkpoint inhibitor",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "DaRT + Checkpoint Inhibitor in Recurrent HNSCC",
+          "trial_design": "Company-sponsored interventional study of intratumoral Alpha DaRT + immune checkpoint inhibitor in recurrent HNSCC.",
+          "nct_ids": ["NCT05047094"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Non-metastatic locally recurrent prostate cancer",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "Alpha DaRT224 in Non-metastatic Locally Recurrent Prostate Cancer",
+          "trial_design": "Company-sponsored interventional study of Alpha DaRT224 in men with non-metastatic locally recurrent prostate cancer.",
+          "nct_ids": ["NCT06202248"],
+          "trial_status": "Recruiting (started Mar 2024)",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Locally recurrent prostate cancer (additional study)",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "Alpha DaRT for Locally Recurrent Prostate Cancer",
+          "trial_design": "Company-sponsored interventional study.",
+          "nct_ids": ["NCT07290998"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Primary and recurrent vulva squamous cell carcinoma",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "DaRT in Primary/Recurrent Vulva SCC",
+          "trial_design": "Company-sponsored interventional study of Alpha DaRT in vulva SCC.",
+          "nct_ids": ["NCT06202339"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent lung cancer",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "Alpha DaRT in Recurrent Lung Cancer",
+          "trial_design": "Company-sponsored interventional study of intratumoral Alpha DaRT in recurrent lung cancer.",
+          "nct_ids": ["NCT05632913"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Locally advanced pancreatic cancer (with chemotherapy)",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "DaRT + Chemotherapy in Locally Advanced Pancreatic Cancer",
+          "trial_design": "Company-sponsored interventional study of intratumoral Alpha DaRT combined with chemotherapy in locally advanced pancreatic cancer.",
+          "nct_ids": ["NCT06698458", "NCT06755359", "NCT06026943"],
+          "trial_status": "Recruiting / Not yet recruiting (multiple pancreatic protocols)",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": ["Earlier advanced pancreatic study NCT04002479 active, not recruiting"]
+        },
+        {
+          "indication": "Liver metastases",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "Alpha DaRT in Liver Metastases",
+          "trial_design": "Company-sponsored interventional study of intratumoral Alpha DaRT in liver metastases.",
+          "nct_ids": ["NCT05829291"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Breast carcinoma",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "DaRT for Breast Carcinoma",
+          "trial_design": "Company-sponsored interventional study of Diffusing Alpha Radiation Therapy in patients with breast carcinoma.",
+          "nct_ids": ["NCT06202118"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent glioblastoma",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "Alpha DaRT in Recurrent Glioblastoma",
+          "trial_design": "Company-sponsored interventional study of intratumoral Alpha DaRT in recurrent glioblastoma.",
+          "nct_ids": ["NCT06910306"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cutaneous, mucosal or superficial soft tissue tumors (multi-tumor / target treatments program)",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "Alpha DaRT for Malignant Cutaneous / Mucosal / Soft Tissue Tumors (multi-protocol)",
+          "trial_design": "Multiple ongoing company-sponsored studies of intratumoral Alpha DaRT in cutaneous / mucosal / superficial soft tissue malignancies.",
+          "nct_ids": ["NCT03889899", "NCT04534127", "NCT05657743", "NCT05781555", "NCT04068155", "NCT03737734"],
+          "trial_status": "Recruiting / Active not recruiting (across protocols)",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Locally advanced oral cavity SCC (neoadjuvant)",
+          "highest_phase": "Feasibility (Phase NA device)",
+          "trial_name": "Neoadjuvant DaRT in Locally Advanced Oral Cavity SCC",
+          "trial_design": "Company-sponsored interventional study of neoadjuvant Alpha DaRT in oral cavity SCC.",
+          "nct_ids": ["NCT05065346"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Alpha Tau Medical LTD.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Alpha DaRT (Japan)": "Approved in Japan (per 2025 disclosure; see Alpha Tau Q4 2025 results announcing Japan approval)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT03970967", "name": "DaRT in newly diagnosed breast carcinoma with distant metastases", "reason": "TERMINATED (recruitment difficulties)"},
+    {"nct": "NCT03886181", "name": "DaRT for cutaneous/mucosal/soft tissue", "reason": "TERMINATED (recruitment/resource issues)"},
+    {"nct": "NCT05125354", "name": "Retrospective long-term SCC outcomes with Alpha DaRT", "reason": "Observational / COMPLETED"},
+    {"nct": "NCT04543903", "name": "Neoadjuvant interstitial brachytherapy with DaRT seeds in prostate cancer", "reason": "COMPLETED feasibility"},
+    {"nct": "NCT04377360", "name": "Feasibility trial of DaRT for skin/soft tissue tumors", "reason": "COMPLETED feasibility"},
+    {"nct": "NCT03015883", "name": "Alpha DaRT for SCC", "reason": "COMPLETED early study"},
+    {"nct": "NCT04540588", "name": "Retreatment with intratumoral DaRT", "reason": "COMPLETED"},
+    {"nct": "NCT03353077", "name": "Alpha DaRT for SCC (early study)", "reason": "COMPLETED"}
+  ],
+  "excluded_partner_owned": [
+    {"nct": "NCT04761146", "name": "DaRT in vulva cancer (Cambridge University Hospitals NHS Foundation Trust)", "reason": "Investigator/independent sponsor; UNKNOWN status"}
+  ],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "total_active_indications": 13,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "device_pivotal": 1,
+    "device_feasibility_active": 12,
+    "note": "Alpha DaRT is a medical device — ctgov filings list all interventional trials as Phase NA. The lead pivotal program is ReSTART (recurrent cSCC) with FDA Breakthrough Device Designation and PMA module 1 submitted Jan 2026."
+  },
+  "no_active_clinical_pipeline_reason": null
+}

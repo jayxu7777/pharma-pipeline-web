@@ -1,0 +1,125 @@
+{
+  "issuer_name": "Aclaris Therapeutics, Inc.",
+  "ticker": "ACRS",
+  "exchange": "Nasdaq",
+  "cik": "0001557746",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-020540", "filing_date": "2026-02-26", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://www.aclaristx.com/investigational-drug-candidates/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Aclaris Therapeutics", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Bosakitug",
+      "aka": ["ATI-045"],
+      "modality": "Anti-TSLP monoclonal antibody",
+      "target": "TSLP",
+      "license_origin": "In-licensed from Biosion (ex-Greater China rights)",
+      "indications": [
+        {
+          "indication": "Atopic dermatitis (moderate-to-severe)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ATI-045 vs Placebo in Moderate-to-Severe Atopic Dermatitis",
+          "trial_design": "Randomized, placebo-controlled Phase 2",
+          "nct_ids": ["NCT07011706"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Aclaris Therapeutics, Inc.",
+          "key_milestones": ["Primary completion expected 2026-08"]
+        }
+      ]
+    },
+    {
+      "asset": "Zunsemetinib",
+      "aka": ["ATI-450"],
+      "modality": "Oral small molecule",
+      "target": "MK2 inhibitor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Metastatic pancreatic ductal adenocarcinoma (combination with mFOLFIRINOX)",
+          "highest_phase": "Phase 1",
+          "trial_name": "MK2 Inhibitor in Combination With mFOLFIRINOX for Untreated Metastatic Pancreatic Ductal Adenocarcinoma",
+          "trial_design": "Phase 1 combination, investigator-sponsored",
+          "nct_ids": ["NCT06648434"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Washington University School of Medicine (collaborator: Aclaris)",
+          "key_milestones": ["Primary completion 2027-06"]
+        },
+        {
+          "indication": "HR+/HER2- metastatic breast cancer with bone metastasis (combination with capecitabine)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Zunsemetinib in Combination With Capecitabine in HR+/HER2- MBC With Bone Metastasis",
+          "trial_design": "Phase 1/2 investigator-sponsored combination",
+          "nct_ids": ["NCT06374459"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Washington University School of Medicine (collaborator: Aclaris)",
+          "key_milestones": ["Primary completion 2032-05"]
+        }
+      ]
+    },
+    {
+      "asset": "ATI-2138",
+      "aka": [],
+      "modality": "Oral covalent small molecule",
+      "target": "ITK/JAK3 inhibitor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Atopic dermatitis (moderate-to-severe)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Study of ATI-2138 in Adults with Moderate-to-Severe Atopic Dermatitis",
+          "trial_design": "Phase 2",
+          "nct_ids": ["NCT06585202"],
+          "trial_status": "Completed (results readout phase; further development under partnering)",
+          "lead_sponsor": "Aclaris Therapeutics, Inc.",
+          "key_milestones": ["Primary completion 2025-03"]
+        }
+      ]
+    },
+    {
+      "asset": "ATI-052",
+      "aka": [],
+      "modality": "Humanized bispecific antibody",
+      "target": "anti-TSLP and anti-IL-4R",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Inflammatory respiratory and dermatologic diseases (Phase 1 healthy volunteer)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ATI-052 First-in-Human",
+          "trial_design": "Phase 1 SAD/MAD",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 ongoing per company disclosures",
+          "lead_sponsor": "Aclaris Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Lepzacitinib",
+      "aka": ["ATI-1777"],
+      "modality": "Soft topical small molecule",
+      "target": "JAK1/JAK3 inhibitor",
+      "license_origin": "Internal (out-licensed Greater China to Pediatrix; seeking ex-China partner)",
+      "indications": [
+        {
+          "indication": "Atopic dermatitis",
+          "highest_phase": "Phase 2 (completed)",
+          "trial_name": "ATI-1777 12-65 yo Mild-to-Severe Atopic Dermatitis",
+          "trial_design": "Phase 2 dose-ranging vs vehicle",
+          "nct_ids": ["NCT05432596", "NCT04598269"],
+          "trial_status": "Completed; awaiting partner to advance",
+          "lead_sponsor": "Aclaris Therapeutics, Inc.",
+          "key_milestones": ["Seeking global partner ex-Greater China"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["ATI-9494 (oral covalent ITK/TXK inhibitor, preclinical)"],
+  "excluded_legacy_terminated": ["A-101 (eskata; commercial program discontinued)", "ATI-50002", "ATI-501", "ATI-502", "ATI-2231 (NCT05791474 withdrawn)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 5, "P3": 0, "P2": 2, "P1_or_P1_2": 3}
+}

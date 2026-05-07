@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Lipocine Inc.",
+  "ticker": "LPCN",
+  "exchange": "Nasdaq",
+  "cik": "0001535955",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "fetch_10k.py could not locate pipeline section heading in latest 10-K filing — used website + ctgov as primary"},
+    "website": {"url": "https://www.lipocine.com/", "accessed": "2026-05-06"},
+    "ctgov": {"compact_path": "data/lpcn_ctgov_compact.json", "trials_p1_p3": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "LPCN 1154",
+      "aka": ["BRLIZIO", "LPCN 1154A", "Oral brexanolone"],
+      "modality": "Oral neuroactive steroid (allopregnanolone/brexanolone reformulation)",
+      "target": "GABA-A receptor positive allosteric modulator",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Postpartum depression (PPD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pivotal Phase 3 (LPCN 1154A in severe PPD)",
+          "trial_design": "Phase 3 randomized study of oral LPCN 1154A vs IV brexanolone vs placebo in women with severe postpartum depression",
+          "nct_ids": ["NCT06979544"],
+          "trial_status": "Completed (Last Patient Last Visit Feb 2026; topline results expected April 2026)",
+          "lead_sponsor": "Lipocine Inc.",
+          "key_milestones": ["Enrollment/dosing complete Jan 2026", "LPLV Feb 2026", "Topline expected Apr 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "LPCN 1148",
+      "aka": [],
+      "modality": "Oral testosterone undecanoate prodrug",
+      "target": "Androgen receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Cirrhosis of the liver with sarcopenia (cirrhosis management)",
+          "highest_phase": "Phase 2",
+          "trial_name": "LiFT Phase 2",
+          "trial_design": "Phase 2 randomized, placebo-controlled study of oral LPCN 1148 in male cirrhosis patients with sarcopenia",
+          "nct_ids": ["NCT04874350"],
+          "trial_status": "Completed (primary completion Dec 2023)",
+          "lead_sponsor": "Lipocine Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "LPCN 2201 (oral candidate, Major Depressive Disorder)",
+    "LPCN 2101 (epilepsy)",
+    "LPCN 2203 (essential tremor)",
+    "LPCN 2401 (obesity management)",
+    "LPCN 1107 (prevention of preterm birth)"
+  ],
+  "excluded_legacy_terminated": [
+    "LPCN 1144 (NASH) — Phase 2 LiFT studies completed (NCT04134091, NCT04685993); company website lists no follow-on Phase 3"
+  ],
+  "excluded_partner_owned": [
+    "TLANDO / LPCN 1021 (oral testosterone undecanoate, hypogonadism) — FDA-approved commercial product, multiple completed Phase 3s; not an active clinical-development asset"
+  ],
+  "commercial_product": {
+    "TLANDO": {"indication": "Adult male hypogonadism (testosterone replacement)", "status": "FDA-approved commercial product (oral testosterone undecanoate)"}
+  },
+  "summary_counts": {"total_active_assets": 2, "P3": 1, "P2": 1, "P1": 0, "indications_total": 2}
+}

@@ -1,0 +1,110 @@
+{
+  "issuer_name": "Can-Fite BioPharma Ltd.",
+  "ticker": "CANF",
+  "exchange": "NYSE",
+  "cik": "0001536196",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://www.canfite.com/pipeline"},
+    "ctgov": {
+      "query": "Can-Fite BioPharma",
+      "trials_kept": 22
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Namodenoson",
+      "aka": ["CF102"],
+      "modality": "Oral small-molecule A3 adenosine receptor (A3AR) agonist",
+      "target": "A3 adenosine receptor (A3AR)",
+      "license_origin": "Internal (out-licensed in select territories to Chong Kun Dang and CMS)",
+      "indications": [
+        {
+          "indication": "Advanced hepatocellular carcinoma (HCC) in Child-Pugh B cirrhosis (second-line)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Namodenoson Phase 3 in advanced HCC (Child-Pugh B7)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of oral namodenoson 25 mg BID vs placebo in advanced HCC patients with Child-Pugh B cirrhosis after first-line systemic therapy",
+          "nct_ids": ["NCT05201404"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Can-Fite BioPharma",
+          "key_milestones": [
+            "Enrolling since 2023-03",
+            "Primary completion target 2026-02"
+          ]
+        },
+        {
+          "indication": "Advanced pancreatic adenocarcinoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "Namodenoson Phase 2 in advanced pancreatic cancer",
+          "trial_design": "Phase 2 of oral namodenoson 25 mg in patients with advanced pancreatic adenocarcinoma",
+          "nct_ids": ["NCT06387342"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Can-Fite BioPharma",
+          "key_milestones": [
+            "Started 2024-11",
+            "Primary completion 2026-07"
+          ]
+        },
+        {
+          "indication": "Non-alcoholic steatohepatitis (NASH/MASH)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Namodenoson Phase 2b in NASH",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2b of oral namodenoson in subjects with biopsy-confirmed NASH",
+          "nct_ids": ["NCT04697810"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Can-Fite BioPharma",
+          "key_milestones": [
+            "Started 2021-12",
+            "Primary completion 2025-04 (readout pending)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Piclidenoson",
+      "aka": ["CF101"],
+      "modality": "Oral small-molecule A3 adenosine receptor (A3AR) agonist",
+      "target": "A3 adenosine receptor (A3AR)",
+      "license_origin": "Internal (out-licensed regionally to Cipher, Gebro Pharma, Kyongbo Pharm, CMS)",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe plaque psoriasis",
+          "highest_phase": "Phase 3",
+          "trial_name": "COMFORT — Phase 3 of Piclidenoson in moderate-to-severe plaque psoriasis",
+          "trial_design": "Randomized, placebo-controlled Phase 3 of piclidenoson vs placebo in moderate-to-severe plaque psoriasis",
+          "nct_ids": ["NCT06643260"],
+          "trial_status": "Not yet recruiting (planned start mid-2025; ongoing per company)",
+          "lead_sponsor": "Can-Fite BioPharma",
+          "key_milestones": [
+            "Phase 3 protocol registered",
+            "Primary completion target 2027-12"
+          ]
+        },
+        {
+          "indication": "Lowe syndrome (rare pediatric disease)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Piclidenoson Phase 2 pilot in Lowe syndrome",
+          "trial_design": "Open-label Phase 2 pilot study of piclidenoson efficacy and safety in patients with Lowe syndrome",
+          "nct_ids": ["NCT07410455"],
+          "trial_status": "Not yet recruiting (planned start 2026-06)",
+          "lead_sponsor": "Can-Fite BioPharma",
+          "key_milestones": [
+            "Primary completion target 2027-08"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CF602 (A3AR-related, sexual dysfunction) — preclinical",
+    "Cannabinoid platform — preclinical/research stage"
+  ],
+  "excluded_legacy_terminated": [
+    "Multiple completed/withdrawn historical Phase 2 studies of CF101/CF102 in dry eye, glaucoma, RA, psoriasis (older programs)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 3, "P3": 2, "total_assets": 2}
+}

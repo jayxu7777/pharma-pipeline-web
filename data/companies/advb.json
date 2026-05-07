@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Advanced Biomed Inc.",
+  "ticker": "ADVB",
+  "exchange": "Nasdaq",
+  "cik": "0001941029",
+  "region": "US (Nevada holdco) / Taiwan / HK / China operations",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-25-097465", "filing_date": "2025-10-08", "primary_doc": "ea0257629-10k_advanced.htm"},
+    "website": {"error": "Pipeline-page check skipped — issuer is medical-device / IVD diagnostics, not a drug developer."},
+    "ctgov": {"unique_trials_p1_p3": 0, "note": "Sponsor search returned no records on ClinicalTrials.gov."}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "A+Pre": {"modality": "Microfluidic blood pretreatment device", "indications": ["Sample prep for CTC analysis"], "regulatory_status": "NMPA cleared (China)"},
+    "AC-1000": {"modality": "Microfluidic CTC enrichment device", "indications": ["Circulating tumor cell separation/enrichment"], "regulatory_status": "NMPA cleared (China)"},
+    "A+CellScan / A+SCDrop / A+LCGuard": {"modality": "Microfluidic + fluorescence imaging devices and lung cancer early-screening IVD kit", "indications": ["CTC fluorescent labeling/scanning", "Single-cell sorting", "Lung cancer early screening"], "regulatory_status": "NMPA registration application stage; A+LCGuard clinical research planned to start November 2025"},
+    "A+CTCE / A+CTCM / A+EMT / A+CM": {"modality": "Immunostaining kits (IVD)", "indications": ["Identification of epithelial/mesenchymal/EMT CTCs and tumor-associated macrophages"], "regulatory_status": "Under NMPA registration review"},
+    "A+PerfusC": {"modality": "Perfusion-based 3D cell culture incubator (research instrument)", "indications": ["3D tumor spheroid/organoid culture in vitro"], "regulatory_status": "Research instrument"}
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Medical-device / in-vitro diagnostics (IVD) company developing microfluidic CTC detection devices and a lung-cancer early-screening kit (A+LCGuard). All assets are devices/IVDs pursuing NMPA clearance pathway, not drug candidates. Planned A+LCGuard clinical research (start Nov 2025) is a device validation study, not a drug P1/P2/P3 trial."
+}

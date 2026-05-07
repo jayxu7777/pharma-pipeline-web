@@ -1,0 +1,108 @@
+{
+  "issuer_name": "Generate Biomedicines, Inc.",
+  "ticker": "GENB",
+  "exchange": "Nasdaq",
+  "cik": "0002100782",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found in EDGAR (recent IPO; no annual report yet filed)"},
+    "website": {"url": "https://www.generatebiomedicines.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/genb_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "GB-0895",
+      "aka": [],
+      "modality": "Monoclonal antibody (AI-generated)",
+      "target": "TSLP (thymic stromal lymphopoietin)",
+      "license_origin": "Internal (Generate platform)",
+      "indications": [
+        {
+          "indication": "Severe uncontrolled asthma (adults and adolescents)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SOLAIRIA-1 / SOLAIRIA-2",
+          "trial_design": "Two pivotal randomized placebo-controlled Phase 3 trials of GB-0895 as adjunctive therapy in severe asthma",
+          "nct_ids": ["NCT07276724", "NCT07359846"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Generate Biomedicines",
+          "key_milestones": ["SOLAIRIA-1 primary completion 2028-12", "SOLAIRIA-2 primary completion 2029-01"]
+        },
+        {
+          "indication": "Mild-to-moderate asthma / COPD",
+          "highest_phase": "Phase 1",
+          "trial_name": "GB-0895 P1 asthma/COPD",
+          "trial_design": "Randomized SC dose-finding study in adults with mild-to-moderate asthma or COPD",
+          "nct_ids": ["NCT07116889"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Generate Biomedicines",
+          "key_milestones": ["Primary completion 2027-05"]
+        }
+      ]
+    },
+    {
+      "asset": "GB-4362",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "Free MMAE (binds and neutralizes free MMAE payload to mitigate ADC toxicity)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic urothelial cancer (combination with enfortumab vedotin + pembrolizumab)",
+          "highest_phase": "Phase 1",
+          "trial_name": "GB-4362 P1 urothelial",
+          "trial_design": "Open-label Phase 1 of GB-4362 + EV + pembrolizumab in advanced urothelial carcinoma",
+          "nct_ids": ["NCT07484022"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Generate Biomedicines",
+          "key_milestones": ["Primary completion 2027-06"]
+        }
+      ]
+    },
+    {
+      "asset": "GB-5267",
+      "aka": [],
+      "modality": "IL-18 armored autologous CAR-T cell therapy",
+      "target": "MUC16",
+      "license_origin": "50/50 partnership with Roswell Park Comprehensive Cancer Center",
+      "indications": [
+        {
+          "indication": "Platinum-resistant ovarian, peritoneal, or fallopian tube cancer",
+          "highest_phase": "Phase 1",
+          "trial_name": "GB-5267 P1 ovarian",
+          "trial_design": "Open-label Phase 1 evaluating IV-only and combined IV + IP infusion in platinum-resistant ovarian cancer",
+          "nct_ids": ["NCT07489287"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Roswell Park Cancer Institute",
+          "key_milestones": ["IND cleared Dec 2025", "Trial start 2026-06"]
+        }
+      ]
+    },
+    {
+      "asset": "GB-7624",
+      "aka": [],
+      "modality": "Monoclonal antibody (AI-generated)",
+      "target": "Undisclosed (atopic dermatitis)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Atopic dermatitis",
+          "highest_phase": "Phase 1",
+          "trial_name": "GB-7624 first-in-human",
+          "trial_design": "Phase 1 SAD/MAD safety, tolerability, and PK in healthy adults",
+          "nct_ids": ["NCT06920693"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Generate Biomedicines",
+          "key_milestones": ["Primary completion 2026-08"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "GB-0669 (anti-SARS-CoV-2 mAb)", "reason": "Phase 1 completed 2024-11; no active follow-on trial in registry"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 4, "phase_3": 1, "phase_2": 0, "phase_1": 4}
+}

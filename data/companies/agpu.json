@@ -1,0 +1,37 @@
+{
+  "issuer_name": "Axe Compute Inc.",
+  "ticker": "AGPU",
+  "exchange": "Nasdaq",
+  "cik": "0001446159",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001171843-26-002094",
+      "note": "10-K filed under former name Predictive Oncology (POAI), now rebranded to Axe Compute. Document describes pivot to GPU compute / Aethir (ATH) digital-asset treasury strategy. The legacy AI-driven oncology drug-discovery and Helomics biobank business is being explored for strategic alternatives (sale/divestiture). No proprietary clinical-stage drug assets disclosed."
+    },
+    "website": {
+      "error": "no public pipeline page found"
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 0,
+      "note": "No active P1-P3 trials sponsored by Axe Compute / Predictive Oncology found on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "legacy_services": "Helomics biobank (150,000+ tumor samples) and tumor-specific 3D cell culture models for AI-enabled drug discovery support — being explored for strategic alternatives / divestiture as of February 2026."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Company rebranded from Predictive Oncology to Axe Compute Inc. and pivoted to GPU compute infrastructure and an ATH (Aethir) digital-asset treasury strategy. Legacy oncology drug-discovery services business (Helomics biobank, 3D tumor models) is being divested and never advanced proprietary therapeutic assets into clinical development. No P1/P2/P3 drug or device pipeline."
+}

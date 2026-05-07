@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Greenland Mines Ltd (formerly Klotho Neurosciences, Inc.)",
+  "ticker": "GRMLW",
+  "exchange": "Nasdaq",
+  "cik": "0001907223",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Issuer pivoted in March 2026 via acquisition of Greenland Mines Corp into critical/precious-minerals mining. Legacy biopharma assets are: (a) five already-marketed generic anti-cancer drugs (FOLFOX/FOLFIRI components) acquired Sept 2022 — these are commercial generics in Germany, not pipeline candidates; (b) two off-patent biosimilar antibodies in-licensed from Reliance Life Sciences — also commercial-stage; (c) Klotho gene therapy platform (KLTO-202) — preclinical, no IND filed yet (10-K states 'we have not yet submitted any IND applications in connection with any gene therapies'; partner Jocasta Therapeutics expects to file IND in 2026 for s-KL). No active sponsored P1/P2/P3 clinical trials. CT.gov returns zero records for sponsor 'Greenland Mines'.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-038629",
+      "filing_date": "2026-04-01",
+      "form": "10-K",
+      "fy_end": "2025-12-31"
+    },
+    "website": {
+      "error": "no public pharma pipeline page — corporate identity now mining-focused"
+    },
+    "ctgov": {
+      "query": "spons:Greenland Mines",
+      "unique_trials_p1_p3": 0,
+      "fetched": "2026-05-06"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Five FOLFOX/FOLFIRI cytotoxic generics market-approved in Germany (5-FU, leucovorin, oxaliplatin, irinotecan family for metastatic colorectal/gastric/lung cancer); two biosimilar antibodies in-licensed from Reliance Life Sciences. Commercial generics, not pipeline."
+  },
+  "excluded_preclinical": [
+    "KLTO-202 (Klotho gene therapy) — preclinical, IND-pending; toxicology package planned",
+    "s-KL (secreted Klotho) program — partnered to Jocasta Therapeutics, Jocasta expects IND filing in 2026"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  }
+}

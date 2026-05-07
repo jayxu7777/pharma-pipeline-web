@@ -1,0 +1,66 @@
+{
+  "issuer_name": "Medicus Pharma Ltd.",
+  "ticker": "MDCX",
+  "exchange": "Nasdaq",
+  "cik": "0001997296",
+  "region": "Canada (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "fetch_10k.py could not locate pipeline section heading in 10-K/A; substituted with web/news disclosures and ctgov data",
+      "filings_observed": ["10-K/A filed 2026-04-29 (accession not parsed)"]
+    },
+    "website": {
+      "url": "https://medicuspharma.com",
+      "error": "Pipeline detail page returns 404 / homepage is JS-driven; relying on press releases via WebSearch"
+    },
+    "ctgov": {
+      "path": "data/mdcx_ctgov_compact.json",
+      "studies": 3,
+      "lead_sponsor_used": "SkinJect, Inc. (Medicus subsidiary)"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "SkinJect (D-MNA)",
+      "aka": ["Doxorubicin Microneedle Array", "D-MNA"],
+      "modality": "Dissolvable microneedle array delivering doxorubicin (topical/transdermal)",
+      "target": "Local cytotoxic delivery (doxorubicin)",
+      "license_origin": "Acquired via SkinJect, Inc. subsidiary",
+      "indications": [
+        {
+          "indication": "Nodular basal cell carcinoma (BCC) of the skin",
+          "highest_phase": "Phase 2",
+          "trial_name": "SKNJCT-003",
+          "trial_design": "Randomized, double-blind, placebo-controlled, three-arm (D-MNA 100 ug, D-MNA 200 ug, device-only); 90 patients enrolled across 9 US sites; assessment at days 29 and 57",
+          "nct_ids": ["NCT06608238"],
+          "trial_status": "Completed (primary completion 2026-03-05); positive dose-response topline reported 2026-04 to 2026-05; partnering discussions ongoing",
+          "lead_sponsor": "SkinJect, Inc. (Medicus Pharma subsidiary)",
+          "key_milestones": ["Enrollment complete Dec 2025", "Topline positive Q2 2026", "Expanded Access IND program with Gorlin Syndrome Alliance announced Oct 2025", "Updated Phase 2 protocol submission for next study"]
+        },
+        {
+          "indication": "Basal cell carcinoma (Phase 1/2 supportive study)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "D-MNA in healthy volunteers (Part I) and BCC subjects (Part II)",
+          "trial_design": "Two-part: placebo MNA in healthy volunteers, then D-MNA efficacy/safety in BCC subjects",
+          "nct_ids": ["NCT04928222"],
+          "trial_status": "Active, not recruiting (primary completion 2023-12-30)",
+          "lead_sponsor": "SkinJect, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT03646188 — SkinJect Phase 1 dose escalation (terminated 2021)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 0,
+    "P2": 1,
+    "P1": 0
+  }
+}

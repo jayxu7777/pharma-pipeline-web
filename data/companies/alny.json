@@ -1,0 +1,497 @@
+{
+  "issuer_name": "ALNYLAM PHARMACEUTICALS, INC.",
+  "ticker": "ALNY",
+  "exchange": "Nasdaq",
+  "cik": "0001178670",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-007497", "filing_date": "2026-02-12", "doc": "alny-20251231.htm"},
+    "website": {"url": "https://www.alnylam.com/our-pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/alny_ctgov_compact.json", "lead_sponsor_query": "Alnylam Pharmaceuticals", "total_studies": 72}
+  },
+  "pipeline": [
+    {
+      "asset": "Nucresiran",
+      "aka": ["ALN-TTRSC04"],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "TTR",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "ATTR amyloidosis with cardiomyopathy (ATTR-CM)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TRITON-CM",
+          "trial_design": "Randomized, double-blind, placebo-controlled study of nucresiran in patients with ATTR-CM",
+          "nct_ids": ["NCT07052903"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Hereditary ATTR amyloidosis with polyneuropathy (hATTR-PN)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TRITON-PN",
+          "trial_design": "Randomized study comparing nucresiran versus vutrisiran in hATTR-PN",
+          "nct_ids": ["NCT07223203"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Vutrisiran (line extension)",
+      "aka": ["ALN-TTRSC02", "AMVUTTRA"],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "TTR",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "ATTR amyloidosis with cardiomyopathy (extension)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Vutrisiran ATTR-CM extension",
+          "trial_design": "Open-label extension evaluating vutrisiran in patients with ATTR-CM",
+          "nct_ids": ["NCT06679946"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Zilebesiran",
+      "aka": ["ALN-AGT01"],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "AGT (angiotensinogen)",
+      "license_origin": "Alnylam internal; co-developed with Roche",
+      "indications": [
+        {
+          "indication": "Hypertension with high cardiovascular risk",
+          "highest_phase": "Phase 3",
+          "trial_name": "KARDIA-3 / ZENITH (Phase 3 CV outcomes)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 study of zilebesiran in patients with hypertension and established CVD or high CV risk",
+          "nct_ids": ["NCT07181109"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Zilebesiran REVERSIR (ALN-AGT01 RVR)",
+      "aka": ["ALN-AGT01 RVR"],
+      "modality": "REVERSIR (GalNAc-conjugated)",
+      "target": "Reversal agent for zilebesiran",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Hypertension reversal (zilebesiran-pretreated patients)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALN-AGT01 RVR Phase 2",
+          "trial_design": "Randomized study of ALN-AGT01 RVR in zilebesiran-pretreated hypertensive patients",
+          "nct_ids": ["NCT07553442"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Cemdisiran",
+      "aka": ["ALN-CC5"],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "C5 (complement component 5)",
+      "license_origin": "Alnylam internal; partnered with Regeneron",
+      "indications": [
+        {
+          "indication": "Generalized myasthenia gravis (with pozelimab)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pozelimab + cemdisiran Phase 3 (Regeneron-led)",
+          "trial_design": "Phase 3 study of pozelimab/cemdisiran combination in gMG; lead sponsor Regeneron Pharmaceuticals",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (Regeneron-led, partner program)",
+          "lead_sponsor": "Regeneron Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Paroxysmal nocturnal hemoglobinuria (PNH)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pozelimab + cemdisiran PNH Phase 3 (Regeneron-led)",
+          "trial_design": "Phase 3 evaluation of pozelimab/cemdisiran combination in PNH",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (Regeneron-led, partner program)",
+          "lead_sponsor": "Regeneron Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Geographic atrophy (GA)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Cemdisiran GA Phase 3",
+          "trial_design": "Phase 3 study of cemdisiran in GA secondary to AMD (Regeneron partnered)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Planned/active per company pipeline page",
+          "lead_sponsor": "Regeneron Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Mivelsiran",
+      "aka": ["ALN-APP"],
+      "modality": "CNS-delivered siRNA",
+      "target": "APP (amyloid precursor protein)",
+      "license_origin": "Alnylam internal; partnered with Regeneron",
+      "indications": [
+        {
+          "indication": "Cerebral amyloid angiopathy (CAA)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALN-APP CAA Phase 2",
+          "trial_design": "Randomized, placebo-controlled Phase 2 study of mivelsiran in CAA",
+          "nct_ids": ["NCT06393712"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Early-onset Alzheimer's disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALN-APP EOAD Phase 1",
+          "trial_design": "Phase 1 safety/tolerability study of mivelsiran in early-onset AD",
+          "nct_ids": ["NCT05231785"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Rapirosiran",
+      "aka": ["ALN-HSD"],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "HSD17B13",
+      "license_origin": "Alnylam internal; partnered with Regeneron",
+      "indications": [
+        {
+          "indication": "MASH (metabolic dysfunction-associated steatohepatitis)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Rapirosiran MASH Phase 2 (Regeneron-led)",
+          "trial_design": "Phase 2 study of rapirosiran in MASH",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (Regeneron-led, partner program)",
+          "lead_sponsor": "Regeneron Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-ANG3",
+      "aka": [],
+      "modality": "siRNA",
+      "target": "ANGPTL3",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Diabetic kidney disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALN-ANG3 DKD Phase 2",
+          "trial_design": "Phase 2 study of ALN-ANG3 in diabetic kidney disease",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 2 listed on company pipeline; not yet on ctgov",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-4324",
+      "aka": ["GRB14"],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "GRB14",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Type 2 diabetes mellitus / insulin sensitivity",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALN-4324 T2DM Phase 1/2 and Phase 2",
+          "trial_design": "Randomized Phase 1/2 in obese T2DM and Phase 2 evaluating insulin sensitivity",
+          "nct_ids": ["NCT06845202", "NCT07465224"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-2232",
+      "aka": ["ACVR1C"],
+      "modality": "siRNA",
+      "target": "ACVR1C",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Obesity / weight management",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ALN-2232 Obesity Phase 1/2",
+          "trial_design": "Randomized study of ALN-2232 with tirzepatide active comparator in obesity",
+          "nct_ids": ["NCT07463846"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-PNP",
+      "aka": [],
+      "modality": "siRNA",
+      "target": "PNPLA3",
+      "license_origin": "Alnylam internal; partnered with Regeneron",
+      "indications": [
+        {
+          "indication": "NAFLD",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALN-PNP Phase 1",
+          "trial_design": "Phase 1 study of ALN-PNP in NAFLD (Regeneron-led)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (partner program)",
+          "lead_sponsor": "Regeneron Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-APOC3",
+      "aka": [],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "APOC3",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Dyslipidemia",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALN-APOC3 Phase 1",
+          "trial_design": "Phase 1 first-in-human study of ALN-APOC3",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — listed Phase 1 on company pipeline",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-CIDEB",
+      "aka": [],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "CIDEB",
+      "license_origin": "Alnylam internal; partnered with Regeneron",
+      "indications": [
+        {
+          "indication": "MASH",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALN-CIDEB Phase 1",
+          "trial_design": "Phase 1 first-in-human study (Regeneron-led)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (partner program)",
+          "lead_sponsor": "Regeneron Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-HTT02",
+      "aka": [],
+      "modality": "CNS-delivered siRNA",
+      "target": "HTT (huntingtin)",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Huntington's disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALN-HTT02 Phase 1",
+          "trial_design": "Phase 1 safety/tolerability study of ALN-HTT02 in Huntington's disease",
+          "nct_ids": ["NCT06585449"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-5288",
+      "aka": ["MAPT"],
+      "modality": "CNS-delivered siRNA",
+      "target": "MAPT (tau)",
+      "license_origin": "Alnylam internal; partnered with Regeneron",
+      "indications": [
+        {
+          "indication": "Alzheimer's disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALN-5288 Phase 1",
+          "trial_design": "Phase 1 study of ALN-5288 in Alzheimer's disease",
+          "nct_ids": ["NCT07214727"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-SOD",
+      "aka": [],
+      "modality": "CNS-delivered siRNA",
+      "target": "SOD1",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Amyotrophic lateral sclerosis (ALS)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALN-SOD Phase 1",
+          "trial_design": "Phase 1 first-in-human study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 1 on company pipeline",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-SNCA",
+      "aka": [],
+      "modality": "CNS-delivered siRNA",
+      "target": "SNCA (alpha-synuclein)",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Parkinson's disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALN-SNCA Phase 1",
+          "trial_design": "Phase 1 first-in-human study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 1 on company pipeline",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-6400",
+      "aka": ["PLG"],
+      "modality": "siRNA",
+      "target": "PLG (plasminogen)",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Bleeding disorders / Hereditary hemorrhagic telangiectasia (HHT)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALN-6400 Phase 1/2 in HHT",
+          "trial_design": "Phase 1/2 study in healthy volunteers and HHT patients",
+          "nct_ids": ["NCT06659640"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AG-236 (ALN-TMP)",
+      "aka": ["ALN-TMPRSS6"],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "TMPRSS6",
+      "license_origin": "Out-licensed/partnered with Agios",
+      "indications": [
+        {
+          "indication": "Polycythemia vera",
+          "highest_phase": "Phase 1",
+          "trial_name": "AG-236 Phase 1",
+          "trial_design": "Phase 1 study of AG-236 in polycythemia vera (Agios-led)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (partner program, Agios)",
+          "lead_sponsor": "Agios Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-CFB",
+      "aka": [],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "Complement Factor B",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Paroxysmal nocturnal hemoglobinuria (PNH)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALN-CFB Phase 1",
+          "trial_design": "Phase 1 first-in-human study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 1 on company pipeline",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Elebsiran",
+      "aka": ["ALN-HBV02", "VIR-2218"],
+      "modality": "siRNA (GalNAc-conjugated)",
+      "target": "HBV (Hepatitis B / D)",
+      "license_origin": "Out-licensed to Vir Biotechnology (partner-led)",
+      "indications": [
+        {
+          "indication": "Hepatitis D virus infection",
+          "highest_phase": "Phase 2",
+          "trial_name": "Elebsiran HDV Phase 2 (Vir-led)",
+          "trial_design": "Phase 2 study by Vir in HDV; Alnylam royalty/profit share",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (partner program, Vir)",
+          "lead_sponsor": "Vir Biotechnology, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALN-BCAT",
+      "aka": [],
+      "modality": "siRNA",
+      "target": "Beta-catenin (CTNNB1)",
+      "license_origin": "Alnylam internal",
+      "indications": [
+        {
+          "indication": "Hepatocellular carcinoma (HCC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALN-BCAT HCC Phase 1",
+          "trial_design": "Phase 1 study of ALN-BCAT in advanced/metastatic HCC, with pembrolizumab",
+          "nct_ids": ["NCT06600321"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alnylam Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_products": ["ONPATTRO (patisiran)", "AMVUTTRA (vutrisiran)", "GIVLAARI (givosiran)", "OXLUMO (lumasiran)", "Leqvio (inclisiran, Novartis-licensed)", "Qfitlia (fitusiran, Sanofi-licensed)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ALN-HBV (legacy)", "nct_ids": ["NCT02826018"], "reason": "Terminated"},
+    {"asset": "ALN-AAT / ALN-AAT02", "nct_ids": ["NCT02503683", "NCT03767829"], "reason": "Terminated"},
+    {"asset": "ALN-XDH", "nct_ids": ["NCT05256810"], "reason": "Terminated"},
+    {"asset": "ALN-KHK", "nct_ids": ["NCT05761301"], "reason": "Terminated"},
+    {"asset": "Cemdisiran IgAN", "nct_ids": ["NCT03841448"], "reason": "Terminated"},
+    {"asset": "Lumasiran kidney stones", "nct_ids": ["NCT05161936"], "reason": "Terminated"},
+    {"asset": "Cemdisiran aHUS", "nct_ids": ["NCT03999840", "NCT03303313"], "reason": "Withdrawn"},
+    {"asset": "ALN-RSV01", "nct_ids": ["NCT01065935", "NCT00658086", "NCT00496821"], "reason": "Legacy completed"},
+    {"asset": "ALN-VSP02", "nct_ids": ["NCT00882180", "NCT01158079"], "reason": "Legacy completed"},
+    {"asset": "Revusiran (ALN-TTRSC)", "nct_ids": ["NCT02319005"], "reason": "Discontinued program"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 22,
+    "phase_3_indications": 6,
+    "phase_2_indications": 8,
+    "phase_1_indications": 11
+  }
+}

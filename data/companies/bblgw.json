@@ -1,0 +1,65 @@
+{
+  "issuer_name": "Bone Biologics Corp",
+  "ticker": "BBLGW",
+  "exchange": "Nasdaq",
+  "cik": "0001419554",
+  "region": "US",
+  "snapshot_date": "2026-05-07",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-008564",
+      "filing_date": "2026-03-02",
+      "primary_doc": "form10-k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1419554/000149315226008564/form10-k.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found (WebFetch on https://bonebiologics.com/pipeline timed out / unavailable)"
+    },
+    "ctgov": {
+      "query_sponsor": "Bone Biologics",
+      "trials_p1_p3": 0,
+      "note": "No US ClinicalTrials.gov registry hits; the active pilot study is being conducted in Australia."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "NB1",
+      "aka": ["NELL-1/DBM Fusion Device", "rhNELL-1 + DBM"],
+      "modality": "Combination medical device (recombinant human NELL-1 protein + demineralized bone matrix putty)",
+      "target": "NELL-1 (skeletal-specific osteogenic growth factor) signaling pathway for bone regeneration",
+      "license_origin": "Exclusive worldwide license from UCLA Technology Development Group (NELL-1 for spinal fusion via local administration); DBM Putty supplied by MTF Biologics",
+      "indications": [
+        {
+          "indication": "Lumbar spinal fusion (transforaminal lumbar interbody fusion) in adults with single-level L2-S1 degenerative disc disease, with up to Grade 1 spondylolisthesis or retrolisthesis",
+          "highest_phase": "Pilot first-in-human clinical study (pre-pivotal device study; planned to be followed by US pivotal trial under PMA pathway as Class III device)",
+          "trial_name": "First-in-man pilot clinical study of NB1 (Australia)",
+          "trial_design": "Multi-center, prospective, randomized pilot study; up to 30 subjects; primary endpoints fusion success at 12 months and change from baseline in Oswestry Disability Index pain score",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrolling (subject enrollment began 2024 in Australia per FY2025 10-K filed 2026-03-02)",
+          "lead_sponsor": "Bone Biologics Corp",
+          "key_milestones": [
+            "Subject enrollment commenced 2024 (Australia pilot)",
+            "Trial completion anticipated 12 months after enrolling the 30th subject",
+            "Pilot data intended to enable a future, larger US pivotal clinical study and PMA submission"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "rhNELL-1 systemic administration for osteoporosis / disuse osteoporosis (preclinical only per 10-K)",
+    "Bone fracture / non-union and spaceflight osteopenia indications (preclinical only)",
+    "Cervical spine indication (under consideration, no clinical study)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "device_pilot_clinical": 1,
+    "total_active_assets": 1
+  },
+  "no_active_clinical_pipeline_reason": "Pre-pivotal device-stage company; only one active first-in-human pilot study (Australia) for NB1 spinal-fusion combination device; no US IND-stage drug pipeline."
+}

@@ -1,0 +1,102 @@
+{
+  "issuer_name": "Sight Sciences, Inc.",
+  "ticker": "SGHT",
+  "exchange": "Nasdaq",
+  "cik": "0001531177",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. For this medtech device issuer, report ACTIVE company-sponsored clinical studies of company's own devices (per task rule). Phase tagged 'NA' on ctgov is normal for device studies.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-091558",
+      "filing_date": "2026-03-04",
+      "doc": "sght-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.sightsciences.com",
+      "note": "No /pipeline page (404). /clinical-evidence also 404. Pipeline information taken from 10-K."
+    },
+    "ctgov": {
+      "queries": ["Sight Sciences"],
+      "raw_returned": 21,
+      "kept_in_compact_phase_filter": 0,
+      "note": "Compact filter keeps only Phase 1/2/3; device studies are tagged Phase NA so are excluded by default. Specific NCTs verified directly via ctgov API."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Helix Surgical System",
+      "aka": ["Helix"],
+      "modality": "MIGS (minimally invasive glaucoma surgery) device, next-generation canaloplasty/trabeculotomy device",
+      "target": "Conventional outflow pathway (trabecular meshwork, Schlemm's canal, distal collector channels)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Primary open-angle glaucoma (POAG) with cataract",
+          "highest_phase": "Pivotal/IDE device study (ctgov phase: NA)",
+          "trial_name": "HELIX - First in Human study of the Helix Surgical System",
+          "trial_design": "Interventional study to assess safety of the Helix Surgical System in cataract surgery and gain early evidence of IOP-lowering effectiveness in subjects with mild to moderate POAG and cataracts.",
+          "nct_ids": ["NCT06948773"],
+          "trial_status": "Recruiting (start 2025-05-21; primary completion estimated 2026-09-30)",
+          "lead_sponsor": "Sight Sciences, Inc.",
+          "key_milestones": [
+            "First in Human study"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "OMNI 3.0 / 3.1 Surgical System",
+      "aka": ["OMNI 3.0", "OMNI 3.1"],
+      "modality": "Next-generation MIGS device (canaloplasty + trabeculotomy)",
+      "target": "Conventional outflow pathway",
+      "license_origin": "Internal (next-gen of marketed OMNI Surgical System)",
+      "indications": [
+        {
+          "indication": "Primary open-angle glaucoma (POAG)",
+          "highest_phase": "Pivotal/IDE device study (ctgov phase: NA)",
+          "trial_name": "First in Human for OMNI 3.0 / OMNI 3.1 Surgical System in POAG",
+          "trial_design": "Interventional study to gain early evidence of safety and IOP-lowering effectiveness of the OMNI 3.0/3.1 Surgical System in POAG.",
+          "nct_ids": ["NCT06991270"],
+          "trial_status": "Recruiting (start estimated 2026-02; primary completion estimated 2026-08-31)",
+          "lead_sponsor": "Sight Sciences, Inc.",
+          "key_milestones": [
+            "First in Human study for next-gen OMNI"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "OMNI Surgical System",
+        "status": "FDA-cleared MIGS device. Marketed in U.S. Supported by completed trials ROMEO, ROMEO 2, GEMINI, GEMINI 2, ORION 2, TREY."
+      },
+      {
+        "name": "TearCare System",
+        "status": "FDA-cleared interventional dry-eye device (expanded indication cleared December 2021). Supporting RCTs OLYMPIA (2021) and SAHARA (Phases 1-3 published 2023-2025)."
+      },
+      {
+        "name": "SION Surgical Instrument",
+        "status": "Marketed (manual goniotomy device for trabecular meshwork excision)."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "OMNI / TearCare completed RCTs (ROMEO, ROMEO 2, GEMINI, GEMINI 2, ORION 2, TREY, OLYMPIA, SAHARA, CHEETAH)",
+      "reason": "Completed studies that supported existing FDA clearances of marketed products; not active forward pipeline."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_device_studies": 2,
+    "phase_3_or_pivotal_device": 2,
+    "phase_2": 0,
+    "phase_1": 0,
+    "commercial_products": 3
+  },
+  "no_active_clinical_pipeline_reason": null
+}

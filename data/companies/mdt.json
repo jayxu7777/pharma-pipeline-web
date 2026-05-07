@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Medtronic plc",
+  "ticker": "MDT",
+  "exchange": "NYSE",
+  "cik": "0001613103",
+  "region": "US-listed (Ireland-domiciled)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001613103-25-000091",
+      "filed": "2025-06-20",
+      "doc": "mdt-20250425.htm",
+      "note": "10-K saved at data/mdt_10k_full.htm; pipeline section heading not found by slicer because Medtronic is a medical device company without a drug pipeline narrative."
+    },
+    "website": {
+      "error": "Medtronic does not publish a drug-pipeline page; corporate site features device portfolio, not P1/P2/P3 drug assets."
+    },
+    "ctgov": {
+      "file": "data/mdt_ctgov_compact.json",
+      "note": "All sponsored studies relate to device evaluations (stents, neurostimulation, ablation, pumps). No proprietary new molecular entities in P1/P2/P3."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Medtronic markets a broad portfolio of approved medical devices across Cardiovascular, Medical Surgical, Neuroscience, and Diabetes operating segments.",
+    "examples": [
+      "Resolute Onyx / Resolute Integrity drug-eluting coronary stents",
+      "Micra leadless pacemaker",
+      "HeartWare / HVAD historically (recall) and current cardiac rhythm devices",
+      "Hugo robotic-assisted surgery system",
+      "Deep Brain Stimulation systems (Activa, Percept)",
+      "MiniMed 780G / 770G insulin pump systems with SmartGuard"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medtronic is a diversified medical device manufacturer; its R&D and clinical trials evaluate medical devices and device-drug combinations rather than proprietary new molecular entities. Per agent prompt, device pivotal/IDE trials are recorded in commercial_product context only, and no active P1/P2/P3 drug pipeline exists."
+}

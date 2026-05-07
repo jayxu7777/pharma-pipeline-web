@@ -1,0 +1,44 @@
+{
+  "issuer_name": "KORU Medical Systems, Inc.",
+  "ticker": "KRMD",
+  "exchange": "Nasdaq",
+  "cik": "0000704440",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001161697-26-000052",
+      "filing_date": "2026-03-12",
+      "doc": "form_10-k.htm"
+    },
+    "website": {
+      "error": "No public pipeline page found at korumedical.com/pipeline (HTTP 404); medtech device company without a drug/device pipeline disclosure page."
+    },
+    "ctgov": {
+      "sponsor_query_primary": "KORU Medical",
+      "sponsor_query_alt": "Repro-Med Systems",
+      "studies_returned": 0,
+      "note": "No clinicaltrials.gov studies sponsored by KORU Medical or its predecessor Repro-Med Systems."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "approved_marketed": [
+      {
+        "name": "FREEDOM Infusion System (FREEDOM60 / FreedomEdge syringe drivers, HIgH-Flo and Precision Flow Rate Tubing, needle sets)",
+        "regulatory_status": "FDA-cleared for subcutaneous drug delivery; primary commercial use is delivery of subcutaneous immunoglobulin (SCIg) for Primary Immunodeficiency Disease (PIDD) and Chronic Inflammatory Demyelinating Polyneuropathy (CIDP); also sold to biopharma sponsors as a delivery device for their Phase I-III subcutaneous drug trials"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device company. KORU Medical develops and sells the FREEDOM Infusion System (FDA-cleared subcutaneous drug-delivery devices) and provides infusion-system hardware plus non-recurring engineering (NRE) services to biopharmaceutical sponsors for their own Phase I-III subcutaneous drug programs. KORU does not sponsor or own any drug or device clinical trials of its own; clinicaltrials.gov returns zero KORU/Repro-Med-sponsored studies."
+}

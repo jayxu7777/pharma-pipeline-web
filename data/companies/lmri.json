@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Lumexa Imaging Holdings, Inc.",
+  "ticker": "LMRI",
+  "exchange": "Nasdaq",
+  "cik": "0002071288",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001193125-26-131907",
+      "fiscal_year_end": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071288/000119312526131907/lmri_10k_2025.htm"
+    },
+    "website": {
+      "url": "https://www.lumexaimaging.com",
+      "note": "Corporate site describes outpatient imaging services; no /pipeline page exists."
+    },
+    "ctgov": {
+      "query": "sponsor:Lumexa Imaging",
+      "trials_kept_p1_p3": 0,
+      "note": "No interventional studies sponsored by Lumexa Imaging on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "business_description": "Operator of approximately 185 outpatient diagnostic-imaging centers across 13 states (second-largest US outpatient imaging platform by center count), performing about 30 million scans per year. Modalities include MRI, CT, PET/CT, mammography, ultrasound, and X-ray. Operates Connexia teleradiology service and multiple health-system joint ventures (Baylor Scott & White, Intermountain, Integris, Atrium, Virtua, Tenet, Tucson Medical Center, UPMC).",
+    "regulatory_status": "Service-business model; no proprietary drugs or devices subject to FDA premarket approval."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Outpatient diagnostic-imaging services company (radiology center operator) - no proprietary drug or device clinical pipeline."
+}

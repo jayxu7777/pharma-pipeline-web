@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Spruce Biosciences, Inc.",
+  "ticker": "SPRB",
+  "exchange": "Nasdaq",
+  "cik": "0001683553",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-097558", "filing_date": "2026-03-09", "doc": "sprb-20251231.htm"},
+    "website": {"url": "https://sprucebio.com/pipeline"},
+    "ctgov": {"trials_returned": 6, "lead_sponsor": "Spruce Biosciences", "note": "All historical Spruce-sponsored CTgov trials are TERMINATED or COMPLETED (legacy CAH/PCOS tildacerfont program)."}
+  },
+  "pipeline": [
+    {
+      "asset": "Tralesinidase alfa (TA-ERT)",
+      "aka": ["TA-ERT", "rhNAGLU-IGF2 fusion"],
+      "modality": "Recombinant fusion enzyme replacement therapy (rhNAGLU fused to IGF2 peptide); ICV administered",
+      "target": "N-Acetyl-Alpha-Glucosaminidase (NAGLU) enzyme replacement",
+      "license_origin": "In-licensed from BioMarin (acquired October 2024 via APA with Allievex/AVX (ABC), LLC)",
+      "indications": [
+        {
+          "indication": "Mucopolysaccharidosis Type IIIB (MPS IIIB / Sanfilippo Type B)",
+          "highest_phase": "Phase 3 (BLA-enabling; accelerated approval pathway)",
+          "trial_name": "Confirmatory Phase 3 study (planned) — placebo-controlled, 5-year, 14 patients; supported by integrated Phase 1/2 (250-201) + extensions (250-202, 250-401)",
+          "trial_design": "Confirmatory placebo-controlled Phase 3 study to be initiated during BLA review per FDA guidance. Prior open-label Phase 1/2 dose-escalation study and long-term extensions completed. Surrogate endpoint CSF HS-NRE accepted by FDA as reasonably likely to predict clinical benefit; primary endpoint of post-marketing trial anticipated to be BSID-C cognitive raw score.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — confirmatory Phase 3 to be initiated during BLA review; BLA submission anticipated Q4 2026",
+          "lead_sponsor": "Spruce Biosciences, Inc.",
+          "key_milestones": ["BLA submission Q4 2026", "Initiate confirmatory Phase 3 during BLA review", "FDA designations: Rare Pediatric Disease, Fast Track, Breakthrough Therapy, Orphan Drug"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "SPR202", "modality": "Anti-CRH monoclonal antibody", "indication": "Congenital Adrenal Hyperplasia (CAH)", "reason": "Preclinical; in-licensed from HBM Alpha Therapeutics in January 2025"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Tildacerfont (SPR001) — MDD", "trial": "TAMARIND Phase 2", "reason": "Study discontinued Q1 2026 following SAE (significant elevation of liver enzymes); HMNC-funded; Spruce option to in-license Cortibon not yet exercised"},
+    {"asset": "Tildacerfont (SPR001) — adult CAH Phase 2b", "nct": "NCT04457336", "reason": "TERMINATED"},
+    {"asset": "Tildacerfont (SPR001) — pediatric CAH Phase 2", "nct": "NCT05128942", "reason": "TERMINATED"},
+    {"asset": "Tildacerfont (SPR001) — adult CAH glucocorticoid reduction Phase 2b", "nct": "NCT04544410", "reason": "TERMINATED"},
+    {"asset": "Tildacerfont (SPR001) — PCOS Phase 2", "nct": "NCT05370521", "reason": "TERMINATED"},
+    {"asset": "SPR001 — CAH Phase 2", "nct": "NCT03257462", "reason": "COMPLETED (legacy)"},
+    {"asset": "SPR001 — CAH Phase 2", "nct": "NCT03687242", "reason": "COMPLETED (legacy)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 0, "P1": 0}
+}

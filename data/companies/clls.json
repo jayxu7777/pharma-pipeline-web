@@ -1,0 +1,85 @@
+{
+  "issuer_name": "Cellectis S.A.",
+  "ticker": "CLLS",
+  "exchange": "Nasdaq",
+  "cik": "0001627281",
+  "region": "FR",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://www.cellectis.com/en/products/product-candidates/", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/clls_ctgov_compact.json", "lead_sponsor_query": "Cellectis"}
+  },
+  "pipeline": [
+    {
+      "asset": "Lasme-cel",
+      "aka": ["UCART22"],
+      "modality": "Allogeneic anti-CD22 CAR T-cell therapy (TALEN-edited)",
+      "target": "CD22",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell acute lymphoblastic leukemia (r/r B-ALL)",
+          "highest_phase": "Phase 1/2 (pivotal Phase 2 portion)",
+          "trial_name": "BALLI-01",
+          "trial_design": "Phase 1/2 dose-escalation and pivotal expansion in r/r CD22+ B-ALL",
+          "nct_ids": ["NCT04150497"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Cellectis S.A.",
+          "key_milestones": ["Pivotal Phase 2 first interim analysis expected Q4 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Eti-cel",
+      "aka": ["UCART20x22"],
+      "modality": "Allogeneic dual-targeting CAR T-cell therapy (TALEN-edited)",
+      "target": "CD20 and CD22",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell Non-Hodgkin Lymphoma (r/r B-NHL)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "NatHaLi-01",
+          "trial_design": "Phase 1/2 dose-escalation in r/r B-NHL",
+          "nct_ids": ["NCT05607420"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Cellectis S.A.",
+          "key_milestones": ["Full Phase 1 dataset expected Q4 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "UCART123v1.2",
+      "aka": [],
+      "modality": "Allogeneic anti-CD123 CAR T-cell therapy",
+      "target": "CD123",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory acute myeloid leukemia (AMELI-01)",
+          "highest_phase": "Phase 1",
+          "trial_name": "AMELI-01",
+          "trial_design": "Phase 1 dose-escalation in r/r AML",
+          "nct_ids": ["NCT03190278"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Cellectis S.A.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "UCART123 (BPDCN)", "nct": "NCT03203369", "reason": "Terminated"},
+    {"asset": "UCART123 AML (older)", "nct": "NCT04106076", "reason": "Withdrawn"},
+    {"asset": "UCARTCS1A", "nct": "NCT04142619", "reason": "Terminated (MELANI-01)"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Cemacabtagene ansegedleucel (ALPHA3, NCT06500273)", "partner": "Servier/Allogene", "reason": "Licensed partner program — not Cellectis-sponsored"},
+    {"asset": "ALLO-316 (TRAVERSE, NCT04696731)", "partner": "Allogene", "reason": "Licensed partner program"},
+    {"asset": "IOV-4001 (NCT05361174)", "partner": "Iovance Biotherapeutics", "reason": "Licensed partner program"}
+  ],
+  "summary_counts": {"total_assets": 3, "P3": 0, "P2": 0, "P1": 1, "P1_P2": 2}
+}

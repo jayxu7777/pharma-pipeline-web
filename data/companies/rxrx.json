@@ -1,0 +1,123 @@
+{
+  "issuer_name": "Recursion Pharmaceuticals, Inc.",
+  "ticker": "RXRX",
+  "exchange": "Nasdaq",
+  "cik": "0001601830",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001601830-26-000039", "filed": "2026-02-25", "doc": "rxrx-20251231.htm"},
+    "website": {"url": "https://www.recursion.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Recursion Pharmaceuticals", "trials_returned": 9, "active_p1_3": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "REC-4881",
+      "aka": [],
+      "modality": "Small molecule (oral)",
+      "target": "MEK1/2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Familial adenomatous polyposis (FAP)",
+          "highest_phase": "Phase 2",
+          "trial_name": "TUPELO",
+          "trial_design": "Phase 1b/2 randomized, placebo-controlled study evaluating REC-4881 in participants with FAP",
+          "nct_ids": ["NCT05552755"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Recursion Pharmaceuticals Inc.",
+          "key_milestones": ["Fast Track and US/EU Orphan Drug designations"]
+        }
+      ]
+    },
+    {
+      "asset": "REC-617",
+      "aka": ["GTAEXS617"],
+      "modality": "Small molecule (oral)",
+      "target": "CDK7",
+      "license_origin": "Exscientia (acquired)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (HNSCC, pancreatic, NSCLC, HGSOC, HR+/HER2- breast, TNBC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ELUCIDATE",
+          "trial_design": "First-in-human Phase 1/2 dose-escalation/expansion in advanced solid tumors",
+          "nct_ids": ["NCT05985655"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Exscientia AI Ltd. (Recursion subsidiary)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "REC-1245",
+      "aka": [],
+      "modality": "Small molecule (oral)",
+      "target": "RBM39",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Unresectable / locally advanced / metastatic solid tumors and relapsed/refractory lymphomas",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "DAHLIA",
+          "trial_design": "First-in-human Phase 1/2 dose-escalation/expansion",
+          "nct_ids": ["NCT06678659"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Recursion Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "REC-3565",
+      "aka": ["EXS73565"],
+      "modality": "Small molecule (oral)",
+      "target": "MALT1",
+      "license_origin": "Exscientia (acquired)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell malignancies",
+          "highest_phase": "Phase 1",
+          "trial_name": "EXS73565 dose-determining study",
+          "trial_design": "First-in-human dose-determining study",
+          "nct_ids": ["NCT06980116"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Exscientia AI Ltd. (Recursion subsidiary)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "REC-4539",
+      "aka": ["EXS74539"],
+      "modality": "Small molecule (oral)",
+      "target": "LSD1",
+      "license_origin": "Exscientia (acquired)",
+      "indications": [
+        {
+          "indication": "Select solid tumors (SCLC, NSCLC, neuroendocrine, prostate, ovarian, renal, HNSCC, hepatic, gastric, TNBC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "EXS74539 dose-determining study",
+          "trial_design": "First-in-human dose-determining study",
+          "nct_ids": ["NCT07517198"],
+          "trial_status": "RECRUITING (start 2026-04)",
+          "lead_sponsor": "Exscientia AI Ltd. (Recursion subsidiary)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "REC-7735", "target": "PI3Kalpha H1047R", "stage": "Candidate profiling"},
+    {"asset": "REC-102", "target": "ENPP1", "stage": "Candidate profiling (hypophosphatasia)"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "REC-2282", "indication": "NF2 meningiomas", "nct_ids": ["NCT05130866"], "status": "TERMINATED"},
+    {"asset": "REC-994", "indication": "Cerebral cavernous malformation", "nct_ids": ["NCT05085561"], "status": "COMPLETED (Phase 2 readout)"},
+    {"asset": "REC-4881", "indication": "AXIN1/APC mutant solid tumors", "nct_ids": ["NCT06005974"], "status": "TERMINATED"},
+    {"asset": "REC-3964", "indication": "Recurrent C. difficile infection", "nct_ids": ["NCT06536465"], "status": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 5, "indications_p1": 2, "indications_p2": 3, "indications_p3": 0}
+}

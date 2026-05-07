@@ -1,0 +1,127 @@
+{
+  "issuer_name": "Beam Therapeutics Inc.",
+  "ticker": "BEAM",
+  "exchange": "Nasdaq",
+  "cik": "0001745999",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-065194", "filed": "2026-02-24", "doc": "beam-20251231.htm", "pipeline_section_file": "data/beam_10k_pipeline_section.txt"},
+    "website": {"url": "https://beamtx.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/beam_ctgov_compact.json", "sponsor_query": "Beam Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "BEAM-101 (ristoglogene autogetemcel; risto-cel)",
+      "aka": ["risto-cel", "ristoglogene autogetemcel"],
+      "modality": "Ex vivo base-edited autologous hematopoietic stem cell therapy",
+      "target": "HBG1/HBG2 promoter (mimicking HPFH variant) to reactivate fetal hemoglobin (HbF)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Severe sickle cell disease",
+          "highest_phase": "P1/P2",
+          "trial_name": "BEACON",
+          "trial_design": "Phase 1/2 open-label single-arm of one-time IV infusion of risto-cel after myeloablative conditioning",
+          "nct_ids": ["NCT05456880"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Beam Therapeutics Inc.",
+          "key_milestones": ["Pivotal/registrational data accumulation ongoing; primary completion Feb 2028"]
+        }
+      ]
+    },
+    {
+      "asset": "BEAM-103",
+      "aka": ["ESCAPE program (in vivo HSC editing precursor)"],
+      "modality": "Base-editing therapy (HbF reactivation)",
+      "target": "BCL11A / HBG promoter (HbF activation)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Healthy volunteers (PK/PD/safety prior to SCD/beta-thal)",
+          "highest_phase": "P1",
+          "trial_name": "BEAM-103 in healthy subjects",
+          "trial_design": "Phase 1 randomized single-blind placebo-controlled SAD/MAD",
+          "nct_ids": ["NCT07304791"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Beam Therapeutics Inc.",
+          "key_milestones": ["Initial PK/PD readouts expected from healthy volunteer cohort"]
+        }
+      ]
+    },
+    {
+      "asset": "BEAM-201",
+      "aka": [],
+      "modality": "Quadruplex base-edited allogeneic anti-CD7 CAR-T",
+      "target": "CD7 (with multiplex edits to TRAC/CD7/PDCD1/CD52)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory T-cell acute lymphoblastic leukemia (T-ALL) or T-cell lymphoblastic lymphoma (T-LL)",
+          "highest_phase": "P1/P2",
+          "trial_name": "BEAM-201 in R/R T-ALL/T-LL",
+          "trial_design": "Phase 1/2 open-label dose escalation/expansion",
+          "nct_ids": ["NCT05885464", "NCT06934382"],
+          "trial_status": "Active, not recruiting (NCT05885464); Recruiting (NCT06934382 investigator-led collaboration)",
+          "lead_sponsor": "Beam Therapeutics Inc. (NCT05885464); Stephan Grupp MD PhD/CHOP collaborator (NCT06934382)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BEAM-301",
+      "aka": [],
+      "modality": "LNP-delivered in vivo base-editing therapy (liver-targeted)",
+      "target": "G6PC R83C mutation correction",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Glycogen storage disease type Ia (GSDIa)",
+          "highest_phase": "P1/P2",
+          "trial_name": "BEAM-301 in GSDIa",
+          "trial_design": "Phase 1/2 dose-exploration single IV dose",
+          "nct_ids": ["NCT06735755"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Beam Therapeutics Inc.",
+          "key_milestones": ["Dose escalation/expansion ongoing; primary completion Dec 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "BEAM-302",
+      "aka": [],
+      "modality": "LNP-delivered in vivo base-editing therapy (liver-targeted)",
+      "target": "SERPINA1 E342K (PiZ) correction to wild-type PiM",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Alpha-1 antitrypsin deficiency (AATD) — adults",
+          "highest_phase": "P1/P2",
+          "trial_name": "BEAM-302 in adult AATD",
+          "trial_design": "Phase 1/2 dose-exploration/expansion single IV dose",
+          "nct_ids": ["NCT06389877"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Beam Therapeutics Inc.",
+          "key_milestones": ["First-in-human in vivo base-editing readouts reported; expansion ongoing"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "BEAM-304", "indication": "Phenylketonuria (PAH mutations)", "reason": "Phase 1-enabling per company disclosures; no NCT registered yet"},
+    {"asset": "ESCAPE in vivo HSC editing program", "indication": "Sickle cell disease / beta-thalassemia", "reason": "Research stage; precursor to BEAM-103 in vivo strategy"},
+    {"asset": "Apellis collaboration program", "indication": "Autoimmune disorders", "reason": "Research / Phase 1-enabling"},
+    {"asset": "Pfizer collaboration program", "indication": "Undisclosed", "reason": "Research / Phase 1-enabling"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 5,
+    "p3_indications": 0,
+    "p2_indications": 0,
+    "p1_indications": 1,
+    "p1_p2_indications": 4,
+    "active_clinical_indications_total": 5
+  }
+}

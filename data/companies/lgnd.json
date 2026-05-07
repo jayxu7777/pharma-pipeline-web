@@ -1,0 +1,204 @@
+{
+  "issuer_name": "Ligand Pharmaceuticals Incorporated",
+  "ticker": "LGND",
+  "exchange": "Nasdaq",
+  "cik": "0000886163",
+  "region": "US (San Diego)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. NOTE: Ligand is a royalty/financing company - all clinical trials below are conducted by partners; Ligand holds royalty rights only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-27",
+      "accession": "0000886163-26-000006",
+      "doc": "lgnd-20251231.htm",
+      "path": "data/lgnd_10k_full.htm"
+    },
+    "website": {
+      "url": "https://www.ligand.com/royalty-portfolio/",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_queried": "Ligand Pharmaceuticals",
+      "compact_path": "data/lgnd_ctgov_compact.json",
+      "trial_count": 33,
+      "note": "All Ligand-sponsored trials in ctgov are completed/terminated - Ligand is no longer a clinical-stage operator"
+    }
+  },
+  "no_active_clinical_pipeline_reason": "Ligand transitioned to a royalty/financing business model; it does not run its own clinical trials. The 'pipeline' below reflects partner-led programs in which Ligand holds royalty/economic rights. Per workflow exclusion rules, partner-owned trials would normally be excluded - they are listed here because they constitute the entirety of Ligand's value proposition.",
+  "pipeline": [
+    {
+      "asset": "AVIM therapy / Virtue SAB",
+      "aka": [],
+      "modality": "Device-based cardiology / sirolimus-eluting balloon",
+      "target": "Hypertension / coronary artery disease",
+      "license_origin": "Royalty interest in Orchestra BioMed",
+      "indications": [
+        {
+          "indication": "Hypertension and coronary artery disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "BACKBEAT (AVIM) / Virtue ISR pivotal",
+          "trial_design": "Pivotal device trials run by Orchestra BioMed",
+          "nct_ids": "Not on public registry under Ligand sponsorship",
+          "trial_status": "Active per partner disclosures",
+          "lead_sponsor": "Orchestra BioMed",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BOT/BAL (botensilimab + balstilimab)",
+      "aka": ["AGEN1181", "AGEN2034"],
+      "modality": "Anti-CTLA-4 + anti-PD-1 antibody combination",
+      "target": "CTLA-4 / PD-1",
+      "license_origin": "Royalty interest in Agenus",
+      "indications": [
+        {
+          "indication": "MSS metastatic colorectal cancer (3L+)",
+          "highest_phase": "Phase 3",
+          "trial_name": "BATTMAN (Agenus-led)",
+          "trial_design": "BOT/BAL vs SOC in MSS mCRC",
+          "nct_ids": "Not on public registry under Ligand sponsorship",
+          "trial_status": "Active per partner",
+          "lead_sponsor": "Agenus",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "D-Fi (FCX-007)",
+      "aka": [],
+      "modality": "Gene therapy (autologous fibroblasts engineered for COL7A1)",
+      "target": "Type VII collagen",
+      "license_origin": "Royalty interest in Castle Creek Biosciences",
+      "indications": [
+        {
+          "indication": "Recessive dystrophic epidermolysis bullosa (RDEB)",
+          "highest_phase": "Phase 3",
+          "trial_name": "DEFI-RDEB",
+          "trial_design": "Pivotal gene therapy trial",
+          "nct_ids": "Not on public registry under Ligand sponsorship",
+          "trial_status": "Active per partner",
+          "lead_sponsor": "Castle Creek Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Lasofoxifene",
+      "aka": [],
+      "modality": "Selective estrogen receptor modulator (SERM)",
+      "target": "Estrogen receptor (ESR1-mutant)",
+      "license_origin": "Royalty interest in LeonaBio (Sermonix Pharmaceuticals)",
+      "indications": [
+        {
+          "indication": "ESR1-mutant ER+/HER2- metastatic breast cancer",
+          "highest_phase": "Phase 3",
+          "trial_name": "ELAINE-3",
+          "trial_design": "Lasofoxifene + abemaciclib vs fulvestrant + abemaciclib",
+          "nct_ids": "Not on public registry under Ligand sponsorship",
+          "trial_status": "Active per partner",
+          "lead_sponsor": "Sermonix Pharmaceuticals (LeonaBio)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "QTORIN rapamycin",
+      "aka": [],
+      "modality": "Topical mTOR inhibitor (3.9% gel)",
+      "target": "mTOR",
+      "license_origin": "Royalty interest in Palvella Therapeutics",
+      "indications": [
+        {
+          "indication": "Microcystic lymphatic malformations (MLM)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SELVA",
+          "trial_design": "Topical QTORIN vs vehicle",
+          "nct_ids": "Not on public registry under Ligand sponsorship",
+          "trial_status": "Active per partner",
+          "lead_sponsor": "Palvella Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "VK2809",
+      "aka": [],
+      "modality": "Small molecule (oral)",
+      "target": "Thyroid hormone receptor beta (THR-beta)",
+      "license_origin": "Royalty interest in Viking Therapeutics",
+      "indications": [
+        {
+          "indication": "Non-alcoholic steatohepatitis (NASH/MASH)",
+          "highest_phase": "Phase 2",
+          "trial_name": "VOYAGE",
+          "trial_design": "Phase 2b biopsy-confirmed",
+          "nct_ids": "Not on public registry under Ligand sponsorship",
+          "trial_status": "Topline reported; transitioning to P3 program",
+          "lead_sponsor": "Viking Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Ensifentrine",
+      "aka": ["Ohtuvayre"],
+      "modality": "Inhaled PDE3/PDE4 dual inhibitor",
+      "target": "PDE3/PDE4",
+      "license_origin": "Royalty (originally Verona Pharma; now Merck following acquisition)",
+      "indications": [
+        {
+          "indication": "Asthma / lifecycle expansion",
+          "highest_phase": "Phase 2",
+          "trial_name": "ENHANCE-A asthma program",
+          "trial_design": "Label-expansion in asthma",
+          "nct_ids": "Not on public registry under Ligand sponsorship",
+          "trial_status": "Active per partner",
+          "lead_sponsor": "Merck (Verona Pharma acquisition)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Dinutuximab beta",
+      "aka": ["Qarziba"],
+      "modality": "Anti-GD2 monoclonal antibody",
+      "target": "GD2",
+      "license_origin": "Royalty interest in Recordati",
+      "indications": [
+        {
+          "indication": "High-risk neuroblastoma label expansion (frontline / 1L)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Recordati lifecycle program",
+          "trial_design": "Investigator-led expansion",
+          "nct_ids": "Not on public registry under Ligand sponsorship",
+          "trial_status": "Active per partner",
+          "lead_sponsor": "Recordati",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "CAPVAXIVE": "Merck pneumococcal vaccine - low-single-digit royalty",
+    "FILSPARI": "Travere sparsentan IgA nephropathy / FSGS - 9% royalty",
+    "VAXNEUVANCE / PNEUMOSIL": "Merck/Serum pneumococcal vaccines",
+    "OHTUVAYRE": "Verona/Merck ensifentrine for COPD - 3% royalty",
+    "RYLAZE": "Jazz recombinant Erwinia asparaginase - low-single-digit",
+    "KYPROLIS": "Amgen carfilzomib - 1.5-3% royalty",
+    "EVOMELA": "Acrotech melphalan - 20% royalty",
+    "QARZIBA": "Recordati dinutuximab - tiered mid-teens royalty",
+    "ZELSUVMI": "Pelthos berdazimer - 13% royalty",
+    "Teriparatide": "Alvogen biosimilar - 25-50% profit share"
+  },
+  "excluded_preclinical": ["Numerous early-stage partnered programs across 100+ Captisol-formulated and Ligand-licensed assets"],
+  "excluded_legacy_terminated": ["Lasofoxifene PEARL osteoporosis (completed; not relevant to current partnered indication)", "MB07803, MB07811, MB07133, PS433540, LGD-6972, Aplindore - all Ligand-sponsored programs completed/discontinued"],
+  "excluded_partner_owned": ["See note: as a royalty company, all of Ligand's pipeline IS partner-owned by definition. Listed above for completeness."],
+  "summary_counts": {
+    "total_assets": 8,
+    "phase_3": 5,
+    "phase_2": 2,
+    "phase_1": 1,
+    "note": "All assets are partner-led; Ligand holds royalty/economic rights only. No Ligand-sponsored active clinical trials."
+  }
+}

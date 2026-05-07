@@ -1,0 +1,28 @@
+{
+  "issuer_name": "Mannatech, Incorporated",
+  "ticker": "MTEX",
+  "exchange": "Nasdaq",
+  "cik": "0001056358",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-012430", "filed": "2026-04-15", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://www.mannatech.com", "note": "Consumer e-commerce site for nutritional supplements"},
+    "ctgov": {"records": 0, "note": "ctgov fetch skipped — not a clinical biotech"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Mannatech is a global wellness / nutritional supplement direct-selling company (network marketing) selling proprietary supplements (Ambrotose, Manapol, Glycentials), skin care, and weight-management products in 25 markets. The company operates in the dietary supplement industry, not the regulated pharmaceutical industry. No drug candidates, no IND, no FDA-regulated clinical trials in any phase. Per FY2025 10-K, sole reporting segment is nutritional supplements sold through network marketing channels.",
+  "commercial_product": {
+    "products": [
+      {"name": "Ambrotose / Advanced Ambrotose", "category": "Glyconutrient supplement", "status": "Marketed globally"},
+      {"name": "TruHealth fat-loss system", "category": "Weight management", "status": "Marketed"},
+      {"name": "Uth skin cream", "category": "Anti-aging skin care", "status": "Marketed"},
+      {"name": "MannaBoom / GlycoBOOM", "category": "Immune support supplement", "status": "Marketed"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

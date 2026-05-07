@@ -1,0 +1,44 @@
+{
+  "issuer_name": "Neurogene Inc.",
+  "ticker": "NGNE",
+  "exchange": "Nasdaq",
+  "cik": "0001404644",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001404644-26-000019", "filed": "2026-03-24", "fy": "2025"},
+    "website": {"note": "skipped — 10-K + ctgov sufficient (focused single-asset P3 company)"},
+    "ctgov": {"sponsor_query": "Neurogene", "active_pcubed_trials": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "NGN-401",
+      "aka": [],
+      "modality": "AAV9 gene therapy (full-length human MECP2 with EXACT regulatory element)",
+      "target": "MECP2",
+      "license_origin": "Internal / EXACT platform",
+      "indications": [
+        {
+          "indication": "Rett syndrome (female pediatric)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Embolden",
+          "trial_design": "Pivotal registrational trial, 1E15 vg ICV; 100% enrolled, >50% dosed; dosing completion expected Q2 2026",
+          "nct_ids": ["NCT05898620"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Neurogene Inc.",
+          "key_milestones": ["EMA PRIME designation March 2025", "Updated Phase 1/2 interim safety/efficacy data expected mid-2026", "Phase 1/2 ongoing (NCT not separately listed in ctgov beyond Phase 1/2 entry under NCT05228145 which is CLN5)"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Early-stage discovery programs", "reason": "Have not yet selected clinical candidate"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "NGN-101", "indication": "CLN5 Batten disease", "nct": "NCT05228145", "reason": "Company announced Nov 2024 it does not expect to advance the program; RMAT denied; non-core"},
+    {"asset": "NL-201", "indication": "Solid tumors", "nct": "NCT04659629", "reason": "COMPLETED 2022; legacy oncology asset, no longer advanced"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 1, "p2": 0, "p1": 0}
+}

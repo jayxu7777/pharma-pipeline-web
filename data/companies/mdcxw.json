@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Medicus Pharma Ltd.",
+  "ticker": "MDCXW",
+  "exchange": "Nasdaq",
+  "cik": "0001997296",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/mdcxw_10k_full.htm", "filing_date": "2026-03-25", "accession": "0001062993-26-001606", "note": "Pipeline section heading not auto-detected; relied on press releases and ClinicalTrials.gov data"},
+    "website": {"url": "https://medicuspharma.com/", "note": "Pipeline content rendered dynamically via JavaScript and not directly extractable; supplemented via company press releases"},
+    "ctgov": {"file": "data/mdcxw_ctgov_compact.json", "trials": 0, "note": "No trials listed under sponsor name 'Medicus Pharma'; SkinJect Phase 2 sponsored under SkinJect, Inc. subsidiary, Teverelix under Antev Ltd. subsidiary"}
+  },
+  "pipeline": [
+    {
+      "asset": "SkinJect (D-MNA Doxorubicin)",
+      "aka": ["Doxorubicin Microneedle Array", "D-MNA", "SKNJCT-003"],
+      "modality": "Dissolvable microneedle array delivering doxorubicin (topical/intradermal)",
+      "target": "Local cytotoxic chemotherapy (topoisomerase II) for basal cell carcinoma",
+      "license_origin": "Subsidiary SkinJect, Inc.",
+      "indications": [
+        {
+          "indication": "Nodular Basal Cell Carcinoma (BCC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SKNJCT-003",
+          "trial_design": "Phase 2 randomized, double-blind, placebo-controlled proof-of-concept; 90 patients across 9 US sites; microneedle-mediated delivery of doxorubicin (D-MNA)",
+          "nct_ids": ["NCT06608238"],
+          "trial_status": "COMPLETED (primary completion Mar 5, 2026); positive topline + expanded dataset (positive dose-response) reported Mar/Apr/May 2026; End-of-Phase 2 FDA meeting planned 1H 2026",
+          "lead_sponsor": "SkinJect, Inc. (Medicus Pharma subsidiary)",
+          "key_milestones": ["Enrollment of 90 patients completed Dec 2025", "Topline Phase 2 positive Mar 9, 2026", "Clarified dataset Apr 1, 2026", "Pre-specified expanded analysis positive May 6, 2026", "Expanded Access IND program with Gorlin Syndrome Alliance"]
+        }
+      ]
+    },
+    {
+      "asset": "Teverelix DP",
+      "aka": ["Teverelix TFA"],
+      "modality": "Small molecule GnRH antagonist (parenteral)",
+      "target": "Gonadotropin-releasing hormone (GnRH) receptor",
+      "license_origin": "Subsidiary Antev Ltd.",
+      "indications": [
+        {
+          "indication": "Advanced Prostate Cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "Teverelix DP Phase 2 PK/PD/Efficacy/Safety",
+          "trial_design": "Phase 2 study investigating PK, PD, efficacy and safety of Teverelix DP 180 mg in patients with advanced prostate cancer",
+          "nct_ids": ["NCT07457164"],
+          "trial_status": "NOT_YET_RECRUITING (estimated start Jul 2026)",
+          "lead_sponsor": "Antev Ltd. (Medicus Pharma subsidiary)",
+          "key_milestones": ["Prior Phase 2 NCT04693507 in advanced prostate cancer COMPLETED", "New Phase 2 NCT07457164 to start Jul 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Teverelix TFA Phase 1 healthy male volunteers (NCT03781947)", "reason": "COMPLETED legacy"},
+    {"asset": "Teverelix Phase 2 advanced prostate cancer (NCT04693507)", "reason": "COMPLETED legacy; superseded by NCT07457164"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "phase_3": 0, "phase_2": 2, "phase_1": 0},
+  "blockers": "Foreign Canadian filer; 10-K pipeline section auto-slice failed; ctgov sponsor name 'Medicus Pharma' returns no trials (subsidiaries SkinJect, Inc. and Antev Ltd. hold the trials). Resolved via press releases + targeted ctgov term searches."
+}

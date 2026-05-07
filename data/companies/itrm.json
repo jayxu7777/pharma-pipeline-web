@@ -1,0 +1,66 @@
+{
+  "issuer_name": "Iterum Therapeutics plc",
+  "ticker": "ITRM",
+  "exchange": "Nasdaq",
+  "cik": "0001659323",
+  "region": "Ireland",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/itrm_10k_pipeline_section.html", "filing_date": "2025-02-07", "accession": "0000950170-25-015857"},
+    "website": {"url": "https://www.iterumtx.com/", "note": "Company entered liquidation on March 27, 2026 per home page (High Court appointed liquidators); no live pipeline page"},
+    "ctgov": {"file": "data/itrm_ctgov_compact.json", "trials": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "Sulopenem etzadroxil/probenecid (oral)",
+      "aka": ["ORLYNVAH", "oral sulopenem"],
+      "modality": "Small molecule (oral thiopenem antibiotic + probenecid)",
+      "target": "Gram-negative bacterial cell wall (PBP)",
+      "license_origin": "In-licensed from Pfizer (2015), now wholly owned",
+      "indications": [
+        {
+          "indication": "Uncomplicated urinary tract infection (uUTI) in adult women with limited/no oral options",
+          "highest_phase": "Approved (NDA)",
+          "trial_name": "REASSURE",
+          "trial_design": "Phase 3 non-inferiority vs Augmentin (amoxicillin/clavulanate) in Augmentin-susceptible population, 2,222 patients",
+          "nct_ids": ["NCT05584657"],
+          "trial_status": "COMPLETED — FDA NDA approved Oct 25, 2024 for ORLYNVAH",
+          "lead_sponsor": "Iterum Therapeutics, International Limited",
+          "key_milestones": ["FDA approval Oct 25, 2024", "Company in liquidation as of Mar 27, 2026 — strategic process to license/sell ORLYNVAH"]
+        },
+        {
+          "indication": "Pharmacokinetics of ORLYNVAH in adolescents",
+          "highest_phase": "Phase 1",
+          "trial_name": "Pharmacokinetics of Sulopenem Etzadroxil Plus Probenecid in Adolescents",
+          "trial_design": "Phase 1 PK study in adolescents",
+          "nct_ids": ["NCT07092813"],
+          "trial_status": "RECRUITING (start 2026-04, primary completion 2026-10)",
+          "lead_sponsor": "Iterum Therapeutics, International Limited",
+          "key_milestones": ["Started April 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "ORLYNVAH (sulopenem etzadroxil/probenecid)",
+    "approval": "FDA-approved Oct 25, 2024",
+    "indication": "uUTI in adult women caused by E. coli, K. pneumoniae, P. mirabilis with limited/no alternative oral options",
+    "status": "Awaiting commercial launch / strategic transaction; company entered liquidation Mar 27, 2026"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Azithromycin + hydroxychloroquine for COVID-19", "nct": "NCT05026801", "reason": "WITHDRAWN"},
+    {"asset": "Sulopenem PK in adolescents (prior trial)", "nct": "NCT04700787", "reason": "WITHDRAWN"},
+    {"asset": "Sulopenem cIAI (SURE 3 / NCT03358576) and prior SURE 1 (NCT03354598) and SURE 2 (NCT03357614)", "reason": "COMPLETED legacy Phase 3 trials supporting prior NDA work; not active"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 1,
+    "approved_commercial": 1
+  },
+  "blockers": "Company in liquidation since Mar 27, 2026; ORLYNVAH approved but pre-launch / strategic disposition; only one active P1 PK study."
+}

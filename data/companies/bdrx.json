@@ -1,0 +1,61 @@
+{
+  "issuer_name": "Biodexa Pharmaceuticals Plc",
+  "ticker": "BDRX",
+  "exchange": "Nasdaq",
+  "cik": "0001643918",
+  "region": "UK (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer \u2014 files 20-F instead of 10-K"},
+    "website": {
+      "url": "https://biodexapharma.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "queries": ["sponsor: Biodexa Pharmaceuticals"],
+      "trials_found": 3,
+      "notes": "eRapa P3 NCT06950385 (lead sponsor Rapamycin Holdings, Biodexa collaborator); eRapa P2 NCT04230499 (active not recruiting); MTX110 P1 NCT05324501 terminated"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "eRapa",
+      "aka": ["encapsulated rapamycin", "encapsulated sirolimus"],
+      "modality": "Small molecule (mTOR inhibitor) in proprietary oral encapsulation",
+      "target": "mTOR",
+      "license_origin": "Acquired/licensed via Rapamycin Holdings collaboration",
+      "indications": [
+        {
+          "indication": "Familial Adenomatous Polyposis (FAP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 Trial of eRapa in FAP",
+          "trial_design": "Randomized, placebo-controlled Phase 3 registration trial",
+          "nct_ids": ["NCT06950385", "NCT04230499"],
+          "trial_status": "Recruiting (NCT06950385); Active, not recruiting (NCT04230499 P2)",
+          "lead_sponsor": "Rapamycin Holdings Inc. (Biodexa collaborator)",
+          "key_milestones": [
+            "US Orphan Designation",
+            "Phase 3 primary completion 2030-07",
+            "Phase 2 primary completion 2025-03"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Tolimidone", "indication": "Type 1 Diabetes", "reason": "Lyn kinase activator; clinical-stage but no active P1-3 enrolling trial publicly registered as of 2026-05"},
+    {"asset": "eRapa", "indication": "GIST, diffuse midline glioma, glioblastoma, medulloblastoma", "reason": "Exploratory / preclinical expansion indications per company website"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "MTX110", "nct": "NCT05324501", "indication": "Recurrent glioblastoma", "status": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 1,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 0,
+    "indications_active": 1
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "issuer_name": "Harvard Apparatus Regenerative Technology, Inc.",
+  "ticker": "HRGN",
+  "exchange": "OTC",
+  "cik": "0001563665",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-19",
+      "accession": "0001437749-26-009079",
+      "note": "Clinical-stage regenerative medicine company. Lead asset Cellspan Esophageal Implant (CEI) in P1 first-in-human study; remaining bronchial, tracheal, colon, and uterine patch programs are pre-clinical (excluded)."
+    },
+    "website": {
+      "url": "https://hregen.com/pipeline/",
+      "note": "Pipeline page lists Cellspan Esophageal, Bronchial, and Tracheal Implants as platform programs plus pre-clinical Colon Biodevice (with U Pitt) and Reproductive Patch (with Yale)."
+    },
+    "ctgov": {
+      "sponsor_query": "Harvard Apparatus Regenerative Technology, Inc.",
+      "unique_trials_p1_p3": 1,
+      "by_phase": {"PHASE1": 1},
+      "by_status": {"RECRUITING": 1}
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Cellspan Esophageal Implant",
+      "aka": ["CEI", "Cellspan Esophageal Implant-Adult", "Cellframe/Cellspan esophageal"],
+      "modality": "Autologous-cell-seeded biocompatible tubular scaffold (regenerative organ implant / combination device)",
+      "target": "Esophageal tissue regeneration",
+      "license_origin": "Internal (HRGN proprietary Cellframe/Cellspan platform)",
+      "indications": [
+        {
+          "indication": "Short-segment esophageal replacement (esophageal diseases including cancer-related resection, traumatic injury, caustic burns, chemoradiation damage)",
+          "highest_phase": "P1",
+          "trial_name": "Safety and Feasibility Study of the CELLSPAN Esophageal Implant (CEI) in Patients Requiring Short Segment Esophageal Replacement",
+          "trial_design": "First-in-human, open-label safety and feasibility study; two surgical implantation cohorts (thoracic full-reconstruction and extra-thoracic subdermal in patients with prior partial esophagectomy)",
+          "nct_ids": ["NCT05877300"],
+          "trial_status": "Recruiting (start 2023-07-13; primary completion estimated 2026-07)",
+          "lead_sponsor": "Harvard Apparatus Regenerative Technology, Inc.",
+          "key_milestones": [
+            "Primary completion estimated July 2026",
+            "Strategic collaboration announced October 2024 with Children's Hospital, Capital Institute of Pediatrics (Beijing) for esophageal atresia indication"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Cellspan Bronchial Implant (pre-clinical)",
+    "Cellspan Tracheal Implant (pre-clinical)",
+    "Colon Biodevice (pre-clinical, U Pittsburgh collaboration)",
+    "Reproductive Patch / uterine endometrial patch for Asherman's syndrome (pre-clinical, Yale collaboration)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 0,
+    "P2": 0,
+    "P1": 1
+  }
+}

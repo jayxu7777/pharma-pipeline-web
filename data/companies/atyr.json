@@ -1,0 +1,56 @@
+{
+  "issuer_name": "aTyr Pharma, Inc.",
+  "ticker": "ATYR",
+  "exchange": "Nasdaq",
+  "cik": "0001339970",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001339970-26-000008", "filing_date": "2026-03-05", "path": "data/atyr_10k_pipeline_section.html"},
+    "website": {"url": "https://atyrpharma.com/pipeline/", "note": "Lists Resokine pathway with efzofitimod (ATYR1923) lead and ATYR1940 (Resolaris)/ORCA earlier-stage"},
+    "ctgov": {"path": "data/atyr_ctgov_compact.json", "trial_count": 9}
+  },
+  "pipeline": [
+    {
+      "asset": "Efzofitimod",
+      "aka": ["ATYR1923", "KRP-R120"],
+      "modality": "Recombinant tRNA synthetase-derived Fc fusion biologic immunomodulator (HARS/iMod.Fc)",
+      "target": "Neuropilin-2 (NRP2) on activated myeloid cells",
+      "license_origin": "Internal; partnered with Kyorin Pharmaceutical for Japan",
+      "indications": [
+        {
+          "indication": "Pulmonary sarcoidosis",
+          "highest_phase": "Phase 3",
+          "trial_name": "EFZO-FIT — Efficacy and Safety of IV Efzofitimod in Patients With Pulmonary Sarcoidosis",
+          "trial_design": "Randomized, double-blind, placebo-controlled global Phase 3 (3 mg/kg, 5 mg/kg vs placebo)",
+          "nct_ids": ["NCT05415137"],
+          "trial_status": "Active, not recruiting (primary completion 2025-07-31; topline data expected)",
+          "lead_sponsor": "aTyr Pharma, Inc. (collab Kyorin)",
+          "key_milestones": ["FDA Orphan Drug + Fast Track for pulmonary sarcoidosis", "EMA orphan designation", "Topline readout near term"]
+        },
+        {
+          "indication": "Systemic sclerosis-associated interstitial lung disease (SSc-ILD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "EFZO-CONNECT — Efzofitimod in SSc-ILD",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 (270 mg, 450 mg vs placebo)",
+          "nct_ids": ["NCT05892614"],
+          "trial_status": "Recruiting (primary completion 2026-04)",
+          "lead_sponsor": "aTyr Pharma, Inc.",
+          "key_milestones": ["FDA Orphan Drug + Fast Track designations for SSc-ILD"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Project ORCA", "indication": "Oncology — NRP2 pathway", "stage": "Preclinical/discovery"},
+    {"asset": "tRNA synthetase discovery programs (Scripps, HKUST collaborations)", "stage": "Discovery"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "ATYR1940 (Resolaris)", "nct_ids": ["NCT02603562", "NCT02239224", "NCT02531217", "NCT02579239", "NCT02836418"], "status": "All FSHD/LGMD2B trials COMPLETED; program shelved"},
+    {"asset": "Efzofitimod COVID-19 pneumonia", "nct_ids": ["NCT04412668"], "status": "COMPLETED Phase 2; program not advanced"},
+    {"asset": "Efzofitimod sarcoidosis Phase 1b/2", "nct_ids": ["NCT03824392"], "status": "COMPLETED — superseded by Phase 3 EFZO-FIT"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 1, "p2": 1, "p1": 0}
+}

@@ -1,0 +1,84 @@
+{
+  "issuer_name": "Grace Therapeutics, Inc.",
+  "ticker": "GRCE",
+  "exchange": "Nasdaq",
+  "cik": "0001444192",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001140361-25-023259", "filed": "2025-06-23", "path": "data/grce_10k_pipeline_section.html"},
+    "website": {"url": "https://www.gracetx.com/our-pipeline"},
+    "ctgov": {"path": "data/grce_ctgov_compact.json", "sponsor_query": "Grace Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "GTx-104",
+      "aka": ["IV nimodipine nanoparticle formulation"],
+      "modality": "Reformulated small molecule (IV nanoparticle nimodipine)",
+      "target": "L-type calcium channel (nimodipine)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Aneurysmal subarachnoid hemorrhage (aSAH)",
+          "highest_phase": "Phase 3",
+          "trial_name": "STRIVE-ON pivotal safety trial",
+          "trial_design": "Phase 3 safety/tolerability of GTx-104 IV vs. oral nimodipine in aSAH patients",
+          "nct_ids": ["NCT05995405"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2024-12); NDA preparation underway per company website",
+          "lead_sponsor": "Grace Therapeutics Inc.",
+          "key_milestones": ["Phase 3 primary completion 2024-12"]
+        }
+      ]
+    },
+    {
+      "asset": "GTx-102",
+      "aka": ["betamethasone oral mucosal spray"],
+      "modality": "Reformulated small molecule (betamethasone oral mucosal spray)",
+      "target": "Glucocorticoid receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Ataxia-telangiectasia (A-T)",
+          "highest_phase": "Phase 2",
+          "trial_name": "GTx-102 Phase 2 in A-T",
+          "trial_design": "Phase 2 efficacy/safety of GTx-102 oral mucosal betamethasone spray in pediatric A-T patients (Phase 1 PK completed NCT05531890)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 in progress per company website (not yet posted on ClinicalTrials.gov as of snapshot)",
+          "lead_sponsor": "Grace Therapeutics Inc.",
+          "key_milestones": ["Phase 1 completed 2022-11-24"]
+        }
+      ]
+    },
+    {
+      "asset": "GTx-101",
+      "aka": ["bupivacaine bioadhesive topical spray"],
+      "modality": "Reformulated small molecule (topical bioadhesive bupivacaine spray)",
+      "target": "Sodium channel (bupivacaine local anesthetic)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Postherpetic neuralgia (PHN)",
+          "highest_phase": "Phase 1",
+          "trial_name": "GTx-101 Phase 1 PK program",
+          "trial_design": "Single-dose Phase 1 PK studies of GTx-101 topical bupivacaine spray vs. SC bupivacaine injection in healthy subjects",
+          "nct_ids": ["NCT05517486"],
+          "trial_status": "Phase 1 program in progress per company website (one PK study UNKNOWN status on ctgov; multiple completed per company)",
+          "lead_sponsor": "Grace Therapeutics Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "GTx-201", "reason": "Preclinical, indication undisclosed"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT03398005", "asset": "CaPre TRILOGY 1", "reason": "Phase 3 hypertriglyceridemia program completed; legacy Acasti program no longer pursued"},
+    {"nct": "NCT03361501", "asset": "CaPre TRILOGY 2", "reason": "Legacy Phase 3 completed"},
+    {"nct": "NCT01455844", "asset": "CaPre", "reason": "Legacy Phase 2 completed"},
+    {"nct": "NCT01516151", "asset": "CaPre / NKPL66", "reason": "Legacy Phase 2 completed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 3, "P3": 1, "P2": 1, "P1": 1, "indications": 3}
+}

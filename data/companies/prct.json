@@ -1,0 +1,77 @@
+{
+  "issuer_name": "PROCEPT BioRobotics Corp",
+  "ticker": "PRCT",
+  "exchange": "Nasdaq",
+  "cik": "0001588978",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001588978-26-000009",
+      "path": "data/prct_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "http://www.procept-biorobotics.com/clinical-data/",
+      "note": "Corporate clinical-data page; lists commercial Aquablation/HYDROS/AquaBeam Robotic Systems and historical WATER family studies. No drug pipeline."
+    },
+    "ctgov": {
+      "path": "data/prct_ctgov_compact.json",
+      "note": "Sponsor query returned 0 P1/P2/P3 hits because all PROCEPT-sponsored studies are device studies coded Phase=NA. Confirmed via direct ctgov.gov API query that PROCEPT sponsors NCT06051942 (PRCT001), NCT06054867 (PRCT002), NCT06651632 (WATER IV PCa), NCT04658056 (UK PMS), NCT04308070, NCT03125889 — all Phase=NA device trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "approved_devices": [
+      {
+        "name": "AquaBeam Robotic System",
+        "indication": "Surgical resective treatment of benign prostatic hyperplasia (BPH); 510(k)/De Novo cleared in the US for Aquablation therapy",
+        "status": "Commercially marketed worldwide"
+      },
+      {
+        "name": "HYDROS Robotic System",
+        "indication": "Next-generation Aquablation therapy platform for BPH (prostates 20-150 mL); FDA-cleared",
+        "status": "Commercially launched in the US"
+      }
+    ]
+  },
+  "active_device_clinical_studies": [
+    {
+      "study_name": "PRCT001",
+      "design": "Global, prospective, post-market, multi-center safety study of Aquablation therapy in patients with BPH and localized prostate cancer; n=125; US/HK/Lebanon/Canada/Portugal",
+      "nct_ids": ["NCT06051942"],
+      "status": "Active, not recruiting",
+      "lead_sponsor": "PROCEPT BioRobotics",
+      "regulatory_classification": "Post-market (commercially cleared device)"
+    },
+    {
+      "study_name": "PRCT002",
+      "design": "IDE (G230155), prospective, post-market, multi-center study of Aquablation therapy in patients with localized prostate cancer; enrollment complete across 3 US centers (n=22)",
+      "nct_ids": ["NCT06054867"],
+      "status": "Active, not recruiting",
+      "lead_sponsor": "PROCEPT BioRobotics",
+      "regulatory_classification": "IDE (investigational use of cleared device for new indication)"
+    },
+    {
+      "study_name": "WATER IV PCa",
+      "design": "Global multi-center prospective randomized 3:1 trial of Aquablation therapy vs radical prostatectomy in Grade Group 1-3 localized prostate cancer; planned n up to 280 at up to 50 centers; 10-year follow-up",
+      "nct_ids": ["NCT06651632"],
+      "status": "Active, not recruiting",
+      "lead_sponsor": "PROCEPT BioRobotics",
+      "regulatory_classification": "Pivotal device study for new indication"
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "commercial_devices": 2,
+    "active_device_studies": 3
+  },
+  "no_active_clinical_pipeline_reason": "Medtech/surgical-robotics company. PROCEPT develops the AquaBeam and HYDROS Robotic Systems delivering Aquablation therapy for BPH; the products are FDA-cleared devices (not drugs), so no Phase 1/2/3 drug pipeline exists. Active company-sponsored device studies (PRCT001, PRCT002, WATER IV PCa) are coded Phase=NA on ClinicalTrials.gov and are recorded under active_device_clinical_studies."
+}

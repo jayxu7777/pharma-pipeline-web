@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Clene Inc.",
+  "ticker": "CLNN",
+  "exchange": "Nasdaq",
+  "cik": "0001822791",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-008502", "filing_date": "2026-03-17", "form": "10-K"},
+    "website": {"url": "https://clene.com/pipeline/", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Clene Nanomedicine", "studies_count": 10}
+  },
+  "pipeline": [
+    {
+      "asset": "CNM-Au8",
+      "aka": [],
+      "modality": "Gold nanocrystal suspension (oral)",
+      "target": "Catalytic energetic / NAD+ ratio enhancer (CNS bioenergetics)",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Amyotrophic lateral sclerosis (ALS) — long-term open-label extension",
+          "highest_phase": "Phase 2",
+          "trial_name": "RESCUE-ALS open-label extension",
+          "trial_design": "Open-label long-term extension from Phase 2",
+          "nct_ids": ["NCT05299658"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Clene Nanomedicine, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Multiple sclerosis (visual pathway / remyelination) — long-term extension",
+          "highest_phase": "Phase 2",
+          "trial_name": "VISIONARY-MS LTE",
+          "trial_design": "Open-label long-term extension following VISIONARY-MS Phase 2",
+          "nct_ids": ["NCT04626921"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Clene Nanomedicine, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["CNM-ZnAg, CNM-AgZn17, CNM-PtAu7 — preclinical/development stage"],
+  "excluded_legacy_terminated": ["VISIONARY-MS Phase 2 (NCT03536559) — terminated", "REPAIR-MS / REPAIR-PD imaging biomarker studies (completed)"],
+  "excluded_partner_owned": ["HEALEY ALS Platform Regimen C (NCT04414345) — academic platform sponsored by Massachusetts General Hospital"],
+  "summary_counts": {"total_assets": 1, "phase_3": 0, "phase_2": 2, "phase_1": 0}
+}

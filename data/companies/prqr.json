@@ -1,0 +1,49 @@
+{
+  "issuer_name": "ProQR Therapeutics N.V.",
+  "ticker": "PRQR",
+  "exchange": "Nasdaq",
+  "cik": "0001612940",
+  "region": "Netherlands",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Dutch N.V.) — files 20-F, no 10-K on EDGAR"},
+    "website": {"url": "https://www.proqr.com/pipeline", "method": "WebFetch + WebSearch (press releases)"},
+    "ctgov": {"file": "data/prqr_ctgov_compact.json", "trial_count": 7, "note": "All listed ProQR trials on ctgov are legacy ophthalmology programs; AX-0810 Phase 1 in NL not yet registered on ClinicalTrials.gov"}
+  },
+  "pipeline": [
+    {
+      "asset": "AX-0810",
+      "aka": [],
+      "modality": "ADAR-mediated RNA editing oligonucleotide (EON) — Axiomer platform",
+      "target": "NTCP (sodium taurocholate cotransporting polypeptide) — modulates hepatic bile-acid uptake",
+      "license_origin": "Internal (Axiomer platform)",
+      "indications": [
+        {
+          "indication": "Cholestatic diseases (including biliary atresia)",
+          "highest_phase": "Phase 1",
+          "trial_name": "AX-0810 Phase 1 (healthy volunteers, Netherlands)",
+          "trial_design": "Single-site Phase 1 in healthy adult volunteers; SAD/MAD evaluating safety, tolerability, PK and PD/biomarker target engagement",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Recruiting (CCMO CTA authorized Oct/Nov 2025; dosing initiated; early safety + PK data reported)",
+          "lead_sponsor": "ProQR Therapeutics N.V.",
+          "key_milestones": ["Target engagement readout H1 2026; additional development candidate selections announced"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Additional Axiomer pipeline candidates announced as development candidate selections in late 2025 — preclinical/IND-enabling stage"
+  ],
+  "excluded_legacy_terminated": [
+    "Sepofarsen (QR-110) Phase 2/3 ILLUMINATE for LCA10/CEP290 (NCT03913143, NCT04855045) — discontinued (program halted in 2022 after primary endpoint miss)",
+    "QR-1123 Phase 1/2 in adRP P23H RHO (NCT04123626) — discontinued (out-licensed/divested with ophthalmology pivot)",
+    "QR-421a (ultevursen) Phase 1/2 in USH2A RP (NCT03780257) — divested with the rest of the genetic ophthalmology portfolio",
+    "QR-010 Phase 1/2 in CF ΔF508 (NCT02532764, NCT02564354) — completed/discontinued",
+    "QR-504a Phase 1 in FECD3 (NCT05052554) — WITHDRAWN"
+  ],
+  "excluded_partner_owned": [
+    "Eli Lilly partnership programs in ophthalmology (genetic medicines collaboration) — ProQR receives milestones/royalties; Lilly leads development"
+  ],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 0, "P1": 1}
+}

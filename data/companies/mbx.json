@@ -1,0 +1,85 @@
+{
+  "issuer_name": "MBX Biosciences, Inc.",
+  "ticker": "MBX",
+  "exchange": "Nasdaq",
+  "cik": "0001776111",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-103121", "filing_date": "2026-03-12", "doc": "mbx-20251231.htm"},
+    "website": {"url": "https://www.mbxbio.com/our-pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"unique_p1_p3_trials": 7, "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "canvuparatide",
+      "aka": ["MBX 2109"],
+      "modality": "PTH peptide prodrug (long-acting, once-weekly SC)",
+      "target": "PTH1 receptor (parathyroid hormone replacement)",
+      "license_origin": "Licensed from IURTC (Indiana University Research and Technology Corporation)",
+      "indications": [
+        {
+          "indication": "Chronic hypoparathyroidism (extension/long-term)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Avail OLE",
+          "trial_design": "Open-label extension of Avail Phase 2",
+          "nct_ids": ["NCT06531941"],
+          "trial_status": "Active, not recruiting; Phase 3 initiation planned Q3 2026",
+          "lead_sponsor": "MBX Biosciences",
+          "key_milestones": ["Phase 3 initiation planned Q3 2026", "1-year OLE data Q2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "imapextide",
+      "aka": ["MBX 1416"],
+      "modality": "Long-acting GLP-1 receptor antagonist peptide prodrug",
+      "target": "GLP-1 receptor (antagonist)",
+      "license_origin": "Licensed from IURTC",
+      "indications": [
+        {
+          "indication": "Post-bariatric hypoglycemia (PBH)",
+          "highest_phase": "Phase 2",
+          "trial_name": "STEADI",
+          "trial_design": "Phase 2 dose-response efficacy study",
+          "nct_ids": ["NCT07029412"],
+          "trial_status": "Recruiting (initiated Aug 2025)",
+          "lead_sponsor": "MBX Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MBX 4291",
+      "aka": [],
+      "modality": "GLP-1/GIP co-agonist peptide prodrug (designed for less-than-weekly dosing)",
+      "target": "GLP-1 / GIP receptors",
+      "license_origin": "Licensed from IURTC",
+      "indications": [
+        {
+          "indication": "Obesity",
+          "highest_phase": "Phase 1",
+          "trial_name": "MBX 4291 Phase 1 SAD/MAD",
+          "trial_design": "Phase 1 SAD/MAD safety, PK, PD in adults with obesity",
+          "nct_ids": ["NCT07142707"],
+          "trial_status": "Recruiting (initiated Sept 2025)",
+          "lead_sponsor": "MBX Biosciences",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "MBX 5XXX (amycretin prodrug, candidate nomination expected Q2 2026)",
+    "MBX 6XXX (GLP-1/GIP/GCGR triple agonist prodrug, nomination Q3 2026)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT05158335 (MBX 2109 Phase 1 healthy volunteers — COMPLETED, legacy)",
+    "NCT06036784 (MBX 1416 Phase 1 healthy volunteers — COMPLETED, legacy)",
+    "NCT06465108 (canvuparatide Avail Phase 2 — COMPLETED, supersceded by OLE/Phase 3)",
+    "NCT06496217 (MBX 2109 renal impairment Phase 1 — COMPLETED)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 3, "p3": 0, "p2": 2, "p1": 1}
+}

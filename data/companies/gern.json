@@ -1,0 +1,102 @@
+{
+  "issuer_name": "Geron Corporation",
+  "ticker": "GERN",
+  "exchange": "Nasdaq",
+  "cik": "0000886744",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Pipeline section heading not auto-detected by parser; full filing fetched but not sliced. Pipeline reconstructed from ctgov + corporate website."},
+    "website": {"url": "https://www.geron.com/research-and-development/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Geron", "trials_returned": 23, "active_clinical": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "Imetelstat (RYTELO)",
+      "aka": ["GRN163L"],
+      "modality": "Oligonucleotide telomerase inhibitor",
+      "target": "Telomerase RNA template (hTR)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lower-risk MDS (IPSS Low / Intermediate-1)",
+          "highest_phase": "Approved (post-Phase 3)",
+          "trial_name": "IMerge Phase 3 (long-term follow-up)",
+          "trial_design": "Phase 2/3 randomized placebo-controlled (post-marketing follow-up ongoing)",
+          "nct_ids": ["NCT02598661"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; FDA approval (RYTELO) granted June 2024",
+          "lead_sponsor": "Geron Corporation",
+          "key_milestones": ["FDA approval for transfusion-dependent low-risk MDS"]
+        },
+        {
+          "indication": "Relapsed/refractory myelofibrosis (post-JAKi)",
+          "highest_phase": "Phase 3",
+          "trial_name": "IMpactMF",
+          "trial_design": "Phase 3 randomized, open-label vs best available therapy (overall survival primary endpoint)",
+          "nct_ids": ["NCT04576156"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (started 2021-04-12)",
+          "lead_sponsor": "Geron Corporation",
+          "key_milestones": []
+        },
+        {
+          "indication": "Myelofibrosis frontline / combination with ruxolitinib",
+          "highest_phase": "Phase 1",
+          "trial_name": "IMproveMF (imetelstat + ruxolitinib)",
+          "trial_design": "Phase 1 safety/PK/PD/clinical activity combination",
+          "nct_ids": ["NCT05371964"],
+          "trial_status": "RECRUITING (started 2022-05-04)",
+          "lead_sponsor": "Geron Corporation",
+          "key_milestones": []
+        },
+        {
+          "indication": "High-risk MDS or AML failing HMA-based therapy",
+          "highest_phase": "Phase 2",
+          "trial_name": "Imetelstat in HR-MDS/AML post-HMA failure",
+          "trial_design": "Phase 2 single-arm",
+          "nct_ids": ["NCT05583552"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (started 2023-06-05)",
+          "lead_sponsor": "Geron Corporation",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pediatric AML / MDS / JMML (relapsed/refractory)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Imetelstat + fludarabine/cytarabine pediatric study (COG-led)",
+          "trial_design": "Phase 1 dose-finding combination",
+          "nct_ids": ["NCT06247787"],
+          "trial_status": "RECRUITING (started 2025-02-04)",
+          "lead_sponsor": "Children's Oncology Group (Geron-supplied drug)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Relapsed AML (combinations with azacitidine + venetoclax)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Imetelstat combinations in relapsed AML",
+          "trial_design": "Phase 1 combination",
+          "nct_ids": ["NCT07320235"],
+          "trial_status": "RECRUITING (started 2026-01-02)",
+          "lead_sponsor": "Geron / investigator-led",
+          "key_milestones": []
+        },
+        {
+          "indication": "MDS/MPN overlap neoplasms",
+          "highest_phase": "Phase 2",
+          "trial_name": "Imetelstat in MDS/MPN",
+          "trial_design": "Phase 2 single-arm",
+          "nct_ids": ["NCT07549451"],
+          "trial_status": "NOT_YET_RECRUITING (planned start 2026-10-08)",
+          "lead_sponsor": "Investigator (M.D. Anderson)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "RYTELO (imetelstat)": "FDA-approved June 2024 for transfusion-dependent anemia in adults with lower-risk MDS"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "indications": 7, "phase3": 1, "phase2": 2, "phase1": 3, "approved_followup": 1}
+}

@@ -1,0 +1,48 @@
+{
+  "issuer_name": "ENCISION INC",
+  "ticker": "ECIA",
+  "exchange": "OTC",
+  "cik": "0000930775",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001079973-25-001132",
+      "filed": "2025-07-10",
+      "doc": "ecia_033125-10k.htm",
+      "note": "Pipeline section heading not found by extractor; issuer is a medical-device company with marketed AEM Shield laparoscopic instruments and no drug pipeline."
+    },
+    "website": {
+      "url": "https://www.encision.com",
+      "note": "No /pipeline page exists. Corporate site lists commercial AEM Shield laparoscopic devices; no active clinical trials disclosed."
+    },
+    "ctgov": {
+      "file": "data/ecia_ctgov_compact.json",
+      "result_count": 0,
+      "note": "Zero sponsor-matched studies on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "AEM Shield Laparoscopic Instruments",
+        "description": "Shielded laparoscopic surgical instruments preventing stray-energy burns via Active Electrode Monitoring."
+      },
+      {
+        "name": "AEM enTouch Reposable 2x Scissors",
+        "description": "Reposable laparoscopic scissors with micro-serrated blades and use-cycle indicators."
+      },
+      {
+        "name": "AEM System",
+        "description": "Active Electrode Monitoring system used with AEM-shielded instruments."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Pure medical-device company (laparoscopic surgical instruments). No proprietary drug or device clinical-trial pipeline; commercial AEM Shield product line only."
+}

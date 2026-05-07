@@ -1,0 +1,23 @@
+{
+  "issuer_name": "Instil Bio, Inc.",
+  "ticker": "TIL",
+  "exchange": "Nasdaq",
+  "cik": "0001789769",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001789769-26-000019", "filed": "2026-03-27", "doc": "til-20251231.htm"},
+    "website": {"error": "Pipeline page 404; homepage describes company as actively seeking in-licensing opportunities"},
+    "ctgov": {"path": "data/til_ctgov_compact.json", "note": "All Instil/Axion-sponsored studies TERMINATED or WITHDRAWN"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per 2025 10-K (filed Mar 2026): in January 2026 Instil's wholly owned subsidiary Axion Bio discontinued development of lead candidate AXN-2510 (PD-L1 x VEGF bispecific in-licensed from ImmuneOnco) and terminated the ImmuneOnco license in January 2026. Earlier CoStAR TIL cell-therapy programs were also previously discontinued. Company is now a shell actively seeking to in-license or acquire new therapeutic candidates; no active P1/P2/P3 clinical programs.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "AXN-2510", "reason": "Program discontinued Jan 2026; ImmuneOnco license terminated"},
+    {"asset": "ITIL-168 / ITIL-306 (CoStAR TIL)", "reason": "Cell-therapy programs previously discontinued"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "p3": 0, "p2": 0, "p1": 0, "active_indications": 0}
+}

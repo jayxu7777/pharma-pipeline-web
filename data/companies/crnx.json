@@ -1,0 +1,134 @@
+{
+  "issuer_name": "Crinetics Pharmaceuticals, Inc.",
+  "ticker": "CRNX",
+  "exchange": "Nasdaq",
+  "cik": "0001658247",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001658247-26-000012",
+      "filing_date": "2026-02-26",
+      "primary_doc": "crnx-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.crinetics.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Crinetics Pharmaceuticals",
+      "unique_trials": 19,
+      "file": "data/crnx_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Paltusotine",
+      "aka": ["PALSONIFY", "CRN00808"],
+      "modality": "Small-molecule (oral, once-daily)",
+      "target": "Selective somatostatin receptor type 2 (SST2) agonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acromegaly (EU registration)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PATHFNDR-1 / PATHFNDR-2",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT04837040", "NCT05192382", "NCT04261712"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Crinetics Pharmaceuticals Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Carcinoid syndrome (NETs)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pivotal carcinoid syndrome study",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT07087054"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Crinetics Pharmaceuticals Inc.",
+          "key_milestones": ["Primary completion 2027-08"]
+        }
+      ]
+    },
+    {
+      "asset": "Atumelnant",
+      "aka": ["CRN04894"],
+      "modality": "Small-molecule (oral)",
+      "target": "Melanocortin type 2 receptor (MC2R / ACTH receptor) antagonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Congenital adrenal hyperplasia (adult)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 adult CAH",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT07144163", "NCT06712823"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Crinetics Pharmaceuticals Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Congenital adrenal hyperplasia (pediatric)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Balance-CAH",
+          "trial_design": "Randomized placebo-controlled, pediatric",
+          "nct_ids": ["NCT07159841"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Crinetics Pharmaceuticals Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "ACTH-dependent Cushing's syndrome",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 1/2 Cushing's",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT05804669"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Crinetics Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CRN09682",
+      "aka": [],
+      "modality": "Nonpeptide drug conjugate (NDC)",
+      "target": "SST2-targeted cytotoxin payload",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "SST2-positive neuroendocrine tumors (NETs) / solid tumors",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "First-in-human CRN09682",
+          "trial_design": "Open-label dose escalation/expansion",
+          "nct_ids": ["NCT07129252"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Crinetics Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_products": [
+      {"name": "PALSONIFY (paltusotine)", "indication": "Acromegaly (US-approved)"}
+    ]
+  },
+  "excluded_preclinical": [
+    {"asset": "PTH antagonist", "reason": "IND-enabling / preclinical"},
+    {"asset": "TSH antagonist", "reason": "IND-enabling / preclinical"},
+    {"asset": "SST3 agonist (ADPKD)", "reason": "IND-enabling / preclinical"},
+    {"asset": "Nonpeptide GLP-1 agonist", "reason": "Discovery / preclinical"},
+    {"asset": "Nonpeptide GIP agonist", "reason": "Discovery / preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 3,
+    "phase_3": 2,
+    "phase_2": 2,
+    "phase_1": 1
+  }
+}

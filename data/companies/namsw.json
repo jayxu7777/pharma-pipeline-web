@@ -1,0 +1,117 @@
+{
+  "issuer_name": "NewAmsterdam Pharma Co N.V.",
+  "ticker": "NAMSW",
+  "exchange": "Nasdaq",
+  "cik": "0001936258",
+  "region": "Netherlands / US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-18",
+      "accession": "0001193125-26-056029",
+      "path": "data/namsw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.newamsterdampharma.com/obicetrapibta8995/",
+      "note": "Marketing-style asset pages for obicetrapib monotherapy and obicetrapib/ezetimibe FDC; root /pipeline returns 404"
+    },
+    "ctgov": {"path": "data/namsw_ctgov_compact.json", "trials_kept": 19}
+  },
+  "pipeline": [
+    {
+      "asset": "Obicetrapib",
+      "aka": ["TA-8995"],
+      "modality": "Small molecule, oral, low-dose, highly selective CETP inhibitor (10 mg once daily)",
+      "target": "Cholesteryl ester transfer protein (CETP)",
+      "license_origin": "Internal (originally Dezima Pharma; obicetrapib was previously TA-8995)",
+      "indications": [
+        {
+          "indication": "Heterozygous familial hypercholesterolemia (HeFH) and/or ASCVD with elevated LDL-C on max-tolerated lipid-lowering therapy (monotherapy)",
+          "highest_phase": "NDA/MAA filed (post-Phase 3)",
+          "trial_name": "BROADWAY (pivotal P3 monotherapy) and BROOKLYN (pivotal P3 in HeFH)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of obicetrapib 10 mg as adjunct to maximally tolerated lipid-lowering therapy",
+          "nct_ids": ["NCT05142722", "NCT05425745"],
+          "trial_status": "BROADWAY/BROOKLYN both COMPLETED, met primary endpoints; EMA/UK/Switzerland MAAs accepted for review (Aug 2025) for monotherapy via Menarini partnership; US NDA planned",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": ["Topline BROOKLYN Jul 2024", "Topline BROADWAY Dec 2024", "EMA MAA accepted Aug 2025", "EMA/UK/CH decisions expected H2 2026"]
+        },
+        {
+          "indication": "HeFH / ASCVD / ASCVD risk equivalents on max-tolerated therapy (FDC obicetrapib + ezetimibe)",
+          "highest_phase": "NDA/MAA filed (post-Phase 3)",
+          "trial_name": "TANDEM (pivotal P3 FDC)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of 10 mg obicetrapib + 10 mg ezetimibe FDC vs placebo and component monotherapies",
+          "nct_ids": ["NCT06005597"],
+          "trial_status": "COMPLETED; topline data Nov 2024 (met primary and secondary endpoints, ~52% LDL-C reduction); EMA/UK/CH MAAs accepted for FDC; US NDA planned shortly after monotherapy NDA",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": ["Topline TANDEM Nov 2024", "FDC MAA accepted Aug 2025"]
+        },
+        {
+          "indication": "ASCVD — cardiovascular outcomes (MACE)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PREVAIL CVOT (TA-8995-304)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 CVOT in >9,500 ASCVD patients with elevated LDL-C; primary endpoint MACE (CV death, MI, stroke, coronary revascularization); minimum 2.5-year follow-up",
+          "nct_ids": ["NCT05202509"],
+          "trial_status": "Active, not recruiting (enrollment completed Apr 2024; primary completion Nov 2026 — earliest readout end of 2026 pending event accrual)",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": ["Enrollment complete Apr 2024", "Earliest readout end-2026"]
+        },
+        {
+          "indication": "ASCVD — coronary plaque imaging (CCTA)",
+          "highest_phase": "Phase 3",
+          "trial_name": "REMBRANDT",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 CCTA imaging study in ~300 high-risk ASCVD patients of obicetrapib 10 mg + ezetimibe 10 mg FDC vs placebo",
+          "nct_ids": ["NCT06305559"],
+          "trial_status": "Active, not recruiting (started 2024-05-16; enrollment expected to complete in 2026; primary completion 2027-11)",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": ["Enrollment expected complete 2026"]
+        },
+        {
+          "indication": "Type 2 diabetes and/or metabolic syndrome with elevated LDL-C on guideline-recommended lipid-lowering therapy",
+          "highest_phase": "Phase 3",
+          "trial_name": "RUBENS",
+          "trial_design": "Randomized, double-blind, placebo-controlled 12-week Phase 3 of obicetrapib 10 mg or obicetrapib/ezetimibe FDC vs placebo, with 9-month open-label extension; ~300 patients",
+          "nct_ids": ["NCT07219602"],
+          "trial_status": "Recruiting (started 2025-12-11; topline expected end of 2026; primary completion 2028-03)",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": ["Topline expected end of 2026"]
+        },
+        {
+          "indication": "Mild dyslipidemia — Lp(a) lowering with obicetrapib +/- evolocumab",
+          "highest_phase": "Phase 2",
+          "trial_name": "VINCENT",
+          "trial_design": "Single-arm Phase 2 in two Lp(a) cohorts (n=39 high, n=30 mid); obicetrapib 10 mg x 8 wk then + evolocumab 140 mg Q2W x 8 wk",
+          "nct_ids": ["NCT06496243"],
+          "trial_status": "Recruiting (started 2024-12-02; primary completion 2026-11)",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": []
+        },
+        {
+          "indication": "Antioxidant biomarker effects in healthy volunteers",
+          "highest_phase": "Phase 2",
+          "trial_name": "Antioxidant biomarker study",
+          "trial_design": "Randomized placebo-controlled study of obicetrapib 10 mg effect on antioxidants in plasma and HDL particles",
+          "nct_ids": ["NCT06982508"],
+          "trial_status": "Recruiting (started 2025-09-09; primary completion 2026-09)",
+          "lead_sponsor": "NewAmsterdam Pharma",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Obicetrapib in early Alzheimer's disease", "reason": "Earlier P2a (NCT05161715) completed in 2023; new clinical trial planned to initiate in 2026 — not yet active"},
+    {"asset": "Obicetrapib in Type 2 diabetes prevention", "reason": "Preclinical studies planned; T2DM endpoint embedded in PREVAIL CVOT only"}
+  ],
+  "excluded_legacy_terminated": [
+    {"trial": "NCT05421078 (Japan P2 dose-finding)", "reason": "Completed 2023"},
+    {"trial": "NCT04770389 (P2 + ezetimibe)", "reason": "Completed 2021"},
+    {"trial": "NCT05266586 (ROSE2-style P2)", "reason": "Completed 2022"},
+    {"trial": "NCT04753606 (P2 statin adjunct)", "reason": "Completed 2021"},
+    {"trial": "NCT05161715 (P2a Alzheimer's)", "reason": "Completed 2023; new trial planned 2026"},
+    {"trial": "NCT05972278 (P1 lipoprotein metabolism)", "reason": "Active not recruiting; mechanistic / completed primary"},
+    {"trial": "NCT06048302 / NCT06547359 / NCT06250205 / NCT06081166 / NCT06050291 (P1 PK / DDI / food-effect / hepatic-impairment)", "reason": "Healthy-volunteer / mechanistic Phase 1 studies, all completed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 5, "P2": 2, "P1": 0}
+}

@@ -1,0 +1,70 @@
+{
+  "issuer_name": "Terns Pharmaceuticals, Inc.",
+  "ticker": "TERN",
+  "exchange": "Nasdaq",
+  "cik": "0001831363",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001193125-26-131828",
+      "path": "data/tern_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.ternspharma.com/pipeline/",
+      "fetched": "2026-05-06",
+      "error": "Pipeline page returns 404 (post-Merck acquisition announcement); used 10-K + ctgov + corporate press releases"
+    },
+    "ctgov": {
+      "path": "data/tern_ctgov_compact.json",
+      "lead_sponsor_query": "Terns"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "TERN-701",
+      "aka": [],
+      "modality": "Small molecule (oral allosteric BCR-ABL1 TKI, STAMP inhibitor)",
+      "target": "BCR-ABL1 myristoyl pocket (allosteric)",
+      "license_origin": "Internal (Terns); ex-China rights retained, greater China licensed to Hansoh",
+      "indications": [
+        {
+          "indication": "Chronic myeloid leukemia (CML), 2L+/3L+ previously treated chronic phase",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "CARDINAL",
+          "trial_design": "Phase 1/2 dose escalation and dose expansion, open-label",
+          "nct_ids": ["NCT06163430"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Terns, Inc.",
+          "key_milestones": [
+            "FDA Orphan Drug Designation (Mar 2024) and Fast Track (Dec 2025)",
+            "Pivotal dose selection and EoP2 mid-2026",
+            "Updated CARDINAL data H2 2026",
+            "Phase 3 2L+ initiation late 2026 / early 2027",
+            "Phase 3 1L initiation 6-12 months after 2L+"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    "Discovery-stage small-molecule oncology candidates (undisclosed)",
+    "TERN-801 (GIPR antagonist, obesity) — development candidate, seeking strategic partner"
+  ],
+  "excluded_legacy_terminated": [
+    "TERN-601 (oral GLP-1 RA, obesity) — Phase 2 NCT06854952 completed; program discontinued Oct 2025 (insufficient weight loss / tolerability)",
+    "TERN-101 / cilofexor-like FXR agonist (NASH NCT04328077) — Phase 2 LIFT completed, program no longer active",
+    "TERN-201 (SSAO/VAP-1, NASH NCT04897594) — Phase 1 AVIATION completed, program discontinued",
+    "TERN-501 (THR-beta, MASH/obesity DUET NCT05415722) — Phase 2 completed, seeking strategic partner (no active company-led trial)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "phase_3_indications": 0,
+    "phase_2_indications": 1,
+    "phase_1_indications": 1
+  }
+}

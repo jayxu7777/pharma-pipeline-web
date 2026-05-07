@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Curaleaf Holdings, Inc.",
+  "ticker": "CURLF",
+  "exchange": "OTC",
+  "cik": "0001756770",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found in SEC EDGAR. Curaleaf is a Canadian-domiciled multi-state cannabis operator that files in Canada (SEDAR) rather than filing 10-K/20-F with SEC; reports under TSX/CSE disclosure rules"},
+    "website": {"url": "https://ir.curaleaf.com/", "note": "consumer cannabis (THC/CBD) brand portfolio; no human therapeutic clinical pipeline page"},
+    "ctgov": {"file": "data/curlf_ctgov_compact.json", "trial_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Curaleaf is a vertically integrated cannabis cultivator/processor/retailer (consumer cannabis products and hemp-derived wellness brands). It does not run FDA-registered Phase 1/2/3 clinical drug trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_active_assets": 0}
+}

@@ -1,0 +1,61 @@
+{
+  "issuer_name": "INVO Fertility, Inc.",
+  "ticker": "IVF",
+  "exchange": "Nasdaq",
+  "cik": "0001417926",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001641172-25-006726",
+      "filing_date": "2025-04-30",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1417926/000164117225006726/form10-k.htm"
+    },
+    "website": {
+      "url_tried": ["https://invobio.com/pipeline", "https://invofertility.com/pipeline", "https://invofertility.com"],
+      "result": "No public clinical pipeline page; corporate site describes fertility clinic services and the INVOcell device, not a drug pipeline."
+    },
+    "ctgov": {
+      "sponsor_query": "INVO Fertility",
+      "unique_active_p1_p3_trials": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "INVOcell": {
+      "modality": "Class II medical device (intravaginal culture system)",
+      "indication": "Infertility / in vitro fertilization (IVC procedure)",
+      "regulatory_status": "FDA-cleared (commercially marketed in the U.S.)"
+    },
+    "fertility_clinics": {
+      "description": "Operates INVO Centers and one IVF clinic in the United States offering IVC and IVF services."
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "asset": "NY-303",
+      "owner": "NAYA Therapeutics (NTI)",
+      "indication": "Hepatocellular carcinoma (HCC)",
+      "phase": "Phase 1/2a-ready",
+      "note": "INVO holds a minority equity stake in NTI; assets belong to NAYA, not INVO."
+    },
+    {
+      "asset": "NY-500",
+      "owner": "NAYA Therapeutics (NTI)",
+      "indication": "HCC (PD1 x VEGF)",
+      "note": "Partner-owned; excluded per workflow rule."
+    },
+    {
+      "asset": "NY-338",
+      "owner": "NAYA Therapeutics (NTI)",
+      "indication": "Multiple myeloma (CD38 x NKp46)",
+      "note": "Partner-owned; excluded per workflow rule."
+    }
+  ],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Adjacent medtech / fertility-services company. Core business is the FDA-cleared INVOcell intravaginal culture device and operation of fertility clinics (INVO Centers and an IVF clinic). No proprietary drug or device clinical trials in P1/P2/P3 sponsored by INVO Fertility are active. The 10-K mentions NAYA Therapeutics oncology assets (NY-303, NY-500, NY-338), but these are partner-owned via a minority equity stake and are excluded under the partner-owned rule."
+}

@@ -1,0 +1,110 @@
+{
+  "issuer_name": "Atai Beckley N.V.",
+  "ticker": "ATAI",
+  "exchange": "Nasdaq",
+  "cik": "0001840904",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000950170-25-040244",
+      "filing_date": "2025-03-17",
+      "doc": "atai-20241231.htm",
+      "note": "Filed prior to merger with Beckley Psytech to form Atai Beckley N.V."
+    },
+    "website": {
+      "url": "https://ataibeckley.com/our-work/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "queries": ["Atai Beckley", "Beckley Psytech Limited"],
+      "fetched": "2026-05-06",
+      "trials_p1_p3": 7
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "BPL-003",
+      "aka": ["mebufotenin benzoate", "intranasal 5-MeO-DMT"],
+      "modality": "Small molecule (intranasal psychedelic)",
+      "target": "5-HT2A receptor agonist (5-MeO-DMT)",
+      "license_origin": "Beckley Psytech (merged into Atai Beckley)",
+      "indications": [
+        {
+          "indication": "Treatment-Resistant Depression (TRD)",
+          "highest_phase": "P2",
+          "trial_name": "BPL-003 TRD Phase 2b",
+          "trial_design": "Randomized double-blind dose-ranging Phase 2b",
+          "nct_ids": ["NCT05870540", "NCT05660642"],
+          "trial_status": "COMPLETED (2b primary); open-label extension RECRUITING",
+          "lead_sponsor": "Beckley Psytech Limited",
+          "key_milestones": ["Topline Phase 2b completed 2025-03-28; FDA Breakthrough Therapy designation"]
+        },
+        {
+          "indication": "Alcohol Use Disorder",
+          "highest_phase": "P2",
+          "trial_name": "BPL-003 AUD open-label",
+          "trial_design": "Open-label single-dose Phase 2",
+          "nct_ids": ["NCT05674929"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Beckley Psytech Limited",
+          "key_milestones": ["Primary completion 2024-10-02"]
+        }
+      ]
+    },
+    {
+      "asset": "VLS-01",
+      "aka": ["DMT buccal film", "N,N-Dimethyltryptamine"],
+      "modality": "Small molecule (buccal film psychedelic)",
+      "target": "5-HT2A receptor agonist (DMT)",
+      "license_origin": "internal (legacy atai Life Sciences subsidiary)",
+      "indications": [
+        {
+          "indication": "Treatment-Resistant Depression (TRD)",
+          "highest_phase": "P2",
+          "trial_name": "Elumina",
+          "trial_design": "Randomized, controlled Phase 2 repeated-dose",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing; topline anticipated H2 2026",
+          "lead_sponsor": "atai Life Sciences (Atai Beckley)",
+          "key_milestones": ["Topline H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "EMP-01",
+      "aka": ["R-MDMA oral"],
+      "modality": "Small molecule (oral)",
+      "target": "Monoamine releaser (R-enantiomer of MDMA)",
+      "license_origin": "internal (legacy atai Life Sciences via EmpathBio)",
+      "indications": [
+        {
+          "indication": "Social Anxiety Disorder",
+          "highest_phase": "P2",
+          "trial_name": "EMP-01 SAD exploratory Phase 2",
+          "trial_design": "Randomized, double-blind, placebo-controlled exploratory Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "COMPLETED — positive topline reported Feb 2026",
+          "lead_sponsor": "atai Life Sciences (Atai Beckley)",
+          "key_milestones": ["Positive topline Feb 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Discovery program — non-hallucinogenic 5-HT2A neuroplastogens for OUD/TRD"],
+  "excluded_legacy_terminated": [
+    "ELE-101 (Eleusis; partner-owned/legacy Beckley collaboration)",
+    "Beckley Psytech psilocybin SUNHA Phase 1 (TERMINATED)"
+  ],
+  "excluded_partner_owned": [
+    "Various legacy atai platform companies (Recognify, Perception, GABA Therapeutics) — being divested or wound down post-merger"
+  ],
+  "summary_counts": {
+    "assets": 3,
+    "indications_active": 4,
+    "p3": 0,
+    "p2": 4,
+    "p1": 0
+  }
+}

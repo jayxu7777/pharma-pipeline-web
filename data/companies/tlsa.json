@@ -1,0 +1,67 @@
+{
+  "issuer_name": "Tiziana Life Sciences Ltd",
+  "ticker": "TLSA",
+  "exchange": "Nasdaq",
+  "cik": "0001723069",
+  "region": "UK (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (or 6-K) instead of 10-K"},
+    "website": {"url": "https://www.tizianalifesciences.com"},
+    "ctgov": {"sponsor_query": "Tiziana Life Sciences", "trials_returned": 13}
+  },
+  "pipeline": [
+    {
+      "asset": "Foralumab (intranasal)",
+      "aka": ["TZLS-401", "NI-0401"],
+      "modality": "Fully human anti-CD3 monoclonal antibody (intranasal)",
+      "target": "CD3 (T-cell receptor complex)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Non-Active Secondary Progressive Multiple Sclerosis",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 nasal foralumab in na-SPMS",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06292923", "NCT06890923"],
+          "trial_status": "Recruiting (NCT06292923 started 2023-11; NCT06890923 started 2025-03)",
+          "lead_sponsor": "Tiziana Life Sciences LTD",
+          "key_milestones": ["FDA Expanded Access program ongoing"]
+        },
+        {
+          "indication": "Multiple System Atrophy (MSA)",
+          "highest_phase": "Phase 2a",
+          "trial_name": "Phase 2a nasal foralumab in MSA",
+          "trial_design": "Open-label / placebo-controlled Phase 2a",
+          "nct_ids": ["NCT06868628"],
+          "trial_status": "Recruiting (started 2025-05-19)",
+          "lead_sponsor": "Tiziana Life Sciences LTD",
+          "key_milestones": []
+        },
+        {
+          "indication": "Alzheimer's Disease (microglial activation modulation)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Foralumab in early AD (Brigham-led)",
+          "trial_design": "Investigator-sponsored Phase 2 (Brigham and Women's Hospital lead, Tiziana collaborator and drug provider)",
+          "nct_ids": ["NCT06489548"],
+          "trial_status": "Recruiting (started 2025-09-16)",
+          "lead_sponsor": "Brigham and Women's Hospital (Tiziana collaborator)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT03291249 Foralumab oral NASH/T2DM Phase 2 — withdrawn",
+    "NCT04983446 Foralumab COVID-19 Phase 2 — withdrawn",
+    "NCT05028946 Foralumab oral Crohn's Phase 1 — withdrawn",
+    "NCT05029609 Foralumab Phase 1b PPMS/SPMS — withdrawn",
+    "NCT01301391 / NCT01011439 Milciclib (PHA-848125AC) Phase 2 thymoma/thymic carcinoma — terminated",
+    "NCT05651269 Milciclib + gemcitabine NSCLC Phase 2 — status UNKNOWN, primary completion Dec 2024 with no update",
+    "NCT03109886 Milciclib HCC Phase 2 — completed legacy"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "indications": 3, "P3": 0, "P2": 3, "P1": 0}
+}

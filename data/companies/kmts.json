@@ -1,0 +1,59 @@
+{
+  "issuer_name": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
+  "ticker": "KMTS",
+  "exchange": "Nasdaq",
+  "cik": "0001877184",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000950170-25-096609",
+      "filing_date": "2025-07-17",
+      "fiscal_year_end": "2025-04-30",
+      "path": "data/kmts_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.kestramedical.com",
+      "note": "Corporate site does not host a /pipeline page; company is single-product commercial-stage medical device firm. No /pipeline path returned 404."
+    },
+    "ctgov": {
+      "path": "data/kmts_ctgov_compact.json",
+      "result": "0 P1/P2/P3 trials returned for sponsor 'Kestra Medical' (3 raw hits, all non-P1-3 device studies/registries)"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "primary_device": {
+      "name": "ASSURE WCD",
+      "type": "Wearable Cardioverter Defibrillator (Class III)",
+      "indication": "Adult patients at elevated risk of sudden cardiac arrest (SCA) who are not candidates for, or decline, an ICD",
+      "regulatory_status": "FDA PMA approved 2021-07-27",
+      "platform": "Cardiac Recovery System (includes ASSURE patient app, Kestra CareStation, Heart Alert Services, ASSURE Assist)",
+      "key_studies": [
+        {"name": "ACE-DETECT", "nct": "NCT03887052", "role": "Pivotal IDE — false-positive shock alarm rate", "status": "Completed; results published Poole et al. 2022"},
+        {"name": "ACE-CONVERT", "role": "Pivotal IDE — first/second shock conversion efficacy", "status": "Completed; supported PMA approval"},
+        {"name": "ACE-PAS", "role": "Real-world post-approval registry within ASSURE Patient Registry", "status": "Ongoing — 20,000+ patients enrolled as of 2025-04-30; July 2024 FDA submission included 5,929 patients"}
+      ]
+    },
+    "secondary_device": {
+      "name": "ASSURE wearable ECG",
+      "type": "Non-therapeutic extended cardiac monitor (uses same SensorFit garment)",
+      "indication": "Continued cardiac monitoring for patients no longer indicated for a WCD",
+      "regulatory_status": "FDA cleared 2024-05-07 (510(k))",
+      "commercial_status": "Limited commercial launch began September 2024 in select U.S. markets"
+    },
+    "international": "No regulatory approvals outside U.S. as of FY2025-04-30 10-K. Planning CE Mark (EU); target Western Europe distribution within ~3 years."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "commercial_devices": 2
+  },
+  "no_active_clinical_pipeline_reason": "Single-product commercial-stage medical device company (ASSURE WCD, FDA PMA-approved 2021; ASSURE wearable ECG, FDA-cleared 2024). No active drug pipeline. Ongoing ACE-PAS post-approval real-world registry is regulatory follow-up, not a P1/P2/P3 clinical development program. ClinicalTrials.gov returned no P1/P2/P3 trials for sponsor 'Kestra Medical'."
+}

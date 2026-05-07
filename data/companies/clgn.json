@@ -1,0 +1,56 @@
+{
+  "issuer_name": "CollPlant Biotechnologies Ltd",
+  "ticker": "CLGN",
+  "exchange": "Nasdaq",
+  "cik": "0001631487",
+  "region": "Israel (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F instead of 10-K"
+    },
+    "website": {
+      "url": "https://www.collplant.com",
+      "note": "Pipeline page returned 404; corporate site lists Collage rhCollagen, Collink.3D bioinks, Vergenix STR (commercial), and pipeline candidates regenerative breast implants and dermal fillers. No clinical trial detail page."
+    },
+    "ctgov": {
+      "path": "data/clgn_ctgov_compact.json",
+      "note": "Sponsor 'CollPlant' returned only 2 historic trials, both COMPLETED (NCT02309307 Vergenix STR Tennis Elbow; NCT02598180 Vergenix Flowable Gel Lower Limb Ulcers). 0 active P1-3."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "Vergenix STR": "Marketed tissue repair matrix combined with autologous PRP, indicated for tendinopathy",
+    "Collage (rhCollagen)": "Plant-derived recombinant human type I collagen ingredient",
+    "Collink.3D Bioinks": "rhCollagen-based bioinks (50, 50L, 90 variants) for tissue/organ bioprinting"
+  },
+  "excluded_preclinical": [
+    {
+      "asset": "Regenerative Breast Implant (3D-bioprinted, commercial-size)",
+      "reason": "Preclinical only; positive preclinical results reported late 2025; CollPlant seeking strategic partner before clinical phase"
+    },
+    {
+      "asset": "Photocurable Regenerative Dermal & Soft Tissue Filler (CollPlant-internal)",
+      "reason": "Non-clinical / preclinical scale-up stage as of Sept 2025 positive non-clinical results announcement; production scale-up underway in preparation for clinical study initiation"
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {"trial": "NCT02309307 Vergenix STR Tennis Elbow", "status": "COMPLETED"},
+    {"trial": "NCT02598180 Vergenix Flowable Gel Lower Limb Ulcers", "status": "COMPLETED"}
+  ],
+  "excluded_partner_owned": [
+    {
+      "asset": "AbbVie/Allergan dermal filler (uses CollPlant rhCollagen)",
+      "reason": "Trial sponsored by AbbVie; AbbVie reviewing interim results from first cohort of patients in dermal filler clinical trials initiated 2023. CollPlant disclosed receipt of $2M AbbVie milestone but did not list NCT identifier. Per workflow rule 4, partner-owned trials where the asset is the partner's product are excluded."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "commercial_or_marketed": 3
+  },
+  "no_active_clinical_pipeline_reason": "Israeli rhCollagen / regenerative-medicine company (foreign private issuer, files 20-F). All proprietary pipeline candidates (regenerative breast implant, photocurable dermal filler) remain in preclinical / non-clinical scale-up. The only collagen-based dermal filler currently in clinical study is sponsored by AbbVie (partner-owned). Three CollPlant products (Vergenix STR, Collage rhCollagen, Collink.3D bioinks) are commercial."
+}

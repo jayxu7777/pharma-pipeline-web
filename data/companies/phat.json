@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Phathom Pharmaceuticals, Inc.",
+  "ticker": "PHAT",
+  "exchange": "Nasdaq",
+  "cik": "0001783183",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-073379",
+      "filed": "2026-02-26",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783183/000119312526073379/phat-20251231.htm"
+    },
+    "website": {"url": "https://www.phathompharma.com/our-products", "fetched": "2026-05-06", "note": "/pipeline path returned 404; product page lists VOQUEZNA franchise."},
+    "ctgov": {"endpoint": "ClinicalTrials.gov v2 API", "sponsor_query": "Phathom Pharmaceuticals", "unique_p1_p3_trials": 13}
+  },
+  "pipeline": [
+    {
+      "asset": "Vonoprazan",
+      "aka": ["VOQUEZNA", "TAK-438"],
+      "modality": "Oral small-molecule potassium-competitive acid blocker (P-CAB)",
+      "target": "H+/K+ ATPase (gastric proton pump)",
+      "license_origin": "In-licensed from Takeda Pharmaceutical Company (US/EU/Canada rights)",
+      "indications": [
+        {
+          "indication": "Eosinophilic Esophagitis (EoE)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 vonoprazan 20 mg vs placebo in adult EoE",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2; vonoprazan 20 mg vs placebo at 12 weeks plus open-label up to 24 weeks",
+          "nct_ids": ["NCT06851559"],
+          "trial_status": "RECRUITING — initiated October 30, 2025; primary completion expected December 2026",
+          "lead_sponsor": "Phathom Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion December 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed": ["VOQUEZNA (vonoprazan) tablets — Erosive Esophagitis, Non-Erosive GERD/heartburn", "VOQUEZNA TRIPLE PAK (vonoprazan + amoxicillin + clarithromycin) — H. pylori", "VOQUEZNA DUAL PAK (vonoprazan + amoxicillin) — H. pylori"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Vonoprazan", "indication": "Healthy-volunteer rifampin DDI study NCT04558216", "rationale": "WITHDRAWN"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "phase_3": 0, "phase_2": 1, "phase_1": 0}
+}

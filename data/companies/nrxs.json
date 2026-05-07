@@ -1,0 +1,80 @@
+{
+  "issuer_name": "Neuraxis, Inc.",
+  "ticker": "NRXS",
+  "exchange": "NYSE",
+  "cik": "0001933567",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-19",
+      "accession": "0001493152-26-011505",
+      "path": "data/nrxs_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://neuraxis.com",
+      "note": "Pipeline page at /pipeline returns 404; corporate site lists IB-Stim product and ongoing investigator-initiated studies; no proprietary company-sponsored P1/P2/P3 drug pipeline."
+    },
+    "ctgov": {
+      "sponsor_query": "Neuraxis",
+      "raw_kept": 0,
+      "note": "No P1-P3 trials returned with Neuraxis as lead sponsor. The IB-Stim device studies referenced in the 10-K (NCT04978571, NCT05506878, NCT06415591) are all investigator-initiated (lead sponsors: Children's Hospital of Orange County; Jacques E. Chelly; VA Office of Research and Development) and are classified as Phase NA device studies, not drug Phase 1/2/3."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "IB-Stim": {
+      "modality": "Percutaneous Electrical Nerve Field Stimulation (PENFS) — Class II non-implanted neuromodulation device",
+      "regulatory_status": "FDA De Novo (DEN180057, 2019) and 510(k) (K252024, 2025) — cleared for functional abdominal pain associated with IBS, functional dyspepsia, and FD-related nausea symptoms in patients 8 years and older",
+      "indications_cleared": [
+        "Functional abdominal pain associated with IBS (pediatric, age 8+)",
+        "Functional dyspepsia",
+        "Functional dyspepsia-related nausea"
+      ]
+    },
+    "RED": {
+      "modality": "Rectal expulsion / sensation balloon device for chronic constipation diagnostic workup",
+      "regulatory_status": "Commercial product per 10-K; used in gastroenterology practice for chronic constipation evaluation"
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "asset": "IB-Stim (PENFS) — Post-Concussion Syndrome study",
+      "nct_ids": ["NCT04978571"],
+      "lead_sponsor": "Children's Hospital of Orange County",
+      "phase": "NA (device, investigator-initiated)",
+      "reason": "Investigator-initiated study — not company-sponsored; per device-company rule excluded from pipeline."
+    },
+    {
+      "asset": "IB-Stim (PENFS) — Post-operative opioid sparing study",
+      "nct_ids": ["NCT05506878"],
+      "lead_sponsor": "Jacques E. Chelly (University of Pittsburgh Medical Center)",
+      "phase": "NA (device, investigator-initiated)",
+      "reason": "Investigator-initiated study — not company-sponsored."
+    },
+    {
+      "asset": "IB-Stim (PENFS) — Fibromyalgia in veterans",
+      "nct_ids": ["NCT06415591"],
+      "lead_sponsor": "VA Office of Research and Development (Emory University / VA medical center)",
+      "phase": "NA (device, investigator-initiated)",
+      "reason": "Investigator-initiated VA-funded Merit study — not company-sponsored."
+    },
+    {
+      "asset": "IB-Stim (PENFS) — Cyclic vomiting syndrome (planned 2026)",
+      "nct_ids": "Not on public registry",
+      "lead_sponsor": "Children's Wisconsin / Medical College of Wisconsin",
+      "phase": "Planned device RCT, not yet enrolling",
+      "reason": "Planned investigator-initiated device study; not company-sponsored and not yet on registry."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company (Class II neuromodulation). Lead commercial product IB-Stim is FDA-cleared; ongoing clinical studies referenced in 10-K are investigator-initiated device studies (Phase NA) sponsored by hospitals/VA — not company-sponsored proprietary P1/P2/P3 drug trials. Per workflow rule for device companies, investigator-initiated studies are excluded."
+}

@@ -1,0 +1,63 @@
+{
+  "issuer_name": "COSCIENS Biopharma Inc.",
+  "ticker": "CSCIF",
+  "exchange": "OTC",
+  "cik": "0001113423",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F (Canadian/TSX, dual listed Nasdaq CSCI / OTC CSCIF); no 10-K available via SEC submissions API"},
+    "website": {"url": "https://cosciensbio.com/", "note": "Corporate site has no dedicated /pipeline page; pipeline information sourced from Dec 2024 corporate update / pipeline prioritization press release"},
+    "ctgov": {"file": "data/cscif_ctgov_compact.json", "sponsor_query": "COSCIENS Biopharma", "trials_found": 0, "note": "No active trials sponsored under COSCIENS name on ClinicalTrials.gov; legacy macimorelin trials were sponsored by Aeterna Zentaris"},
+    "press_release": {"url": "https://www.biospace.com/press-releases/cosciens-biopharma-inc-provides-corporate-update-and-highlights-pipeline-prioritization", "date": "2024-12-23", "title": "COSCIENS Biopharma Provides Corporate Update and Highlights Pipeline Prioritization"}
+  },
+  "pipeline": [
+    {
+      "asset": "Avenanthramides Tablets",
+      "aka": ["AVs", "OBG-derived avenanthramides oral"],
+      "modality": "Natural-product small molecule (oral tablet)",
+      "target": "Anti-inflammatory pathways",
+      "license_origin": "Internal (proprietary plant-extraction technology)",
+      "indications": [
+        {
+          "indication": "Inflammation / general anti-inflammatory (Phase 2a indication selection in progress)",
+          "highest_phase": "Phase 1 complete; Phase 2a planned",
+          "trial_name": "Avenanthramides ascending-dose study",
+          "trial_design": "Phase 1 dose-escalation, 72 subjects, ascending oral doses 30-960 mg; no significant adverse events reported",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 completed; Phase 2a initiation targeted Q1 2025 per Dec 2024 update",
+          "lead_sponsor": "COSCIENS Biopharma Inc.",
+          "key_milestones": ["Phase 1 readout (no significant AEs across 30-960 mg)", "Phase 2a start guided Q1 2025"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "macimorelin": {
+      "brand_names": ["Macrilen", "Ghryvelin"],
+      "indication_approved": "Diagnosis of adult growth hormone deficiency (AGHD)",
+      "regulatory_status": "FDA and EMA approved; commercially marketed",
+      "note": "Pediatric (childhood-onset GHD) Phase 3 program failed; company has discontinued further investment in CGHD indication"
+    },
+    "natural_health_products": [
+      {"name": "Oat Beta Glucan (OBG) chewable bar", "status": "Commercial launch targeted Q1 2025"},
+      {"name": "Yeast Beta Glucan (YBG) powder", "status": "Manufacturing complete; commercialization Q2 2025"},
+      {"name": "Enriched oat flour with avenanthramides", "status": "Sold in small batches as cosmeceutical ingredient"},
+      {"name": "JuventeDC skincare line", "status": "Launched Dec 2024"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Macimorelin", "indication": "Childhood-Onset Growth Hormone Deficiency (CGHD)", "reason": "Phase 3 trial failed; company halted further investment per Dec 2024 corporate update"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "P3": 0,
+    "P2": 0,
+    "P1": 1,
+    "marketed_products": 1
+  },
+  "no_active_clinical_pipeline_reason": null
+}

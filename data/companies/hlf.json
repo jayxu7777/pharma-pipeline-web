@@ -1,0 +1,50 @@
+{
+  "issuer_name": "Herbalife Ltd.",
+  "ticker": "HLF",
+  "exchange": "NYSE",
+  "cik": "0001180262",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-057113",
+      "filing_date": "2026-02-18",
+      "doc": "hlf-20251231.htm",
+      "note": "Herbalife is a global nutrition direct-sales company. The 10-K Overview describes weight management, targeted nutrition, energy/sports/fitness, and outer nutrition consumer products sold through independent Members. No proprietary therapeutic pipeline disclosed."
+    },
+    "website": {
+      "error": "no public drug pipeline page — Herbalife is a consumer nutrition company"
+    },
+    "ctgov": {
+      "result_count": 1,
+      "note": "Only result is NCT01030354, a UCLA-led nutrition trial completed in 2005 with Herbalife International of America as collaborator providing meal replacements. Not a Herbalife-sponsored clinical drug program."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Consumer nutrition products",
+    "lines": [
+      "Weight management",
+      "Targeted nutrition",
+      "Energy, sports and fitness",
+      "Outer nutrition"
+    ],
+    "note": "Sold globally through independent Members across North America, Latin America, EMEA, Asia Pacific, and China."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "nct_id": "NCT01030354",
+      "reason": "Investigator-initiated nutrition trial sponsored by UCLA; Herbalife was a collaborator only. Completed 2005."
+    }
+  ],
+  "summary_counts": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Distribution / consumer nutrition company — no proprietary therapeutic clinical pipeline. Sells nutrition products through a direct-sales (multi-level marketing) Member channel."
+}

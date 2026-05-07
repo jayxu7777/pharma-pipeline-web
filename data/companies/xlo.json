@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Xilio Therapeutics, Inc.",
+  "ticker": "XLO",
+  "exchange": "Nasdaq",
+  "cik": "0001840233",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-118550", "filing_date": "2026-03-23", "doc": "xlo-20251231.htm"},
+    "website": {"url": "https://www.xiliotx.com/pipeline", "note": "tumor-activated immuno-oncology biologics (PRO-XTEN-style masking via Xilio Geographe platform)"},
+    "ctgov": {"file": "data/xlo_ctgov_compact.json", "trial_count": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "Vilastobart",
+      "aka": ["XTX101"],
+      "modality": "Tumor-activated, Fc-enhanced anti-CTLA-4 monoclonal antibody",
+      "target": "CTLA-4",
+      "license_origin": "Internal (collaboration with Roche/Genentech for combo with atezolizumab)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (incl. MSS colorectal cancer expansion with atezolizumab)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "XTX101-01",
+          "trial_design": "Phase 1/2 open-label of vilastobart monotherapy and in combination with atezolizumab in advanced solid tumors",
+          "nct_ids": ["NCT04896697"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Xilio Development, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "XTX301",
+      "aka": [],
+      "modality": "Tumor-activated IL-12 cytokine",
+      "target": "IL-12 receptor (immune cells in tumor microenvironment)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "XTX301-01",
+          "trial_design": "Phase 1/2 open-label dose-escalation/expansion of XTX301 in advanced solid tumors",
+          "nct_ids": ["NCT05684965"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Xilio Development, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "XTX501 (PD-1 x IL-2 tumor-activated bispecific) — preclinical / IND-enabling per 10-K"
+  ],
+  "excluded_legacy_terminated": [
+    "XTX202 (tumor-activated IL-2) Phase 1/2 NCT05052268 completed; program de-prioritized"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 2, "total_active_assets": 2}
+}

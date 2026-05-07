@@ -1,0 +1,82 @@
+{
+  "issuer_name": "SeaStar Medical Holding Corp",
+  "ticker": "ICU",
+  "exchange": "Nasdaq",
+  "cik": "0001831868",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-26-009797",
+      "filing_date": "2026-03-25",
+      "path": "data/icu_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://seastarmedical.com/pipeline",
+      "note": "Confirmed QUELIMMUNE (HDE-approved 2024) plus SCD adult AKI pivotal (NEUTRALIZE-AKI, NCT05758077) and CRS feasibility plus other Breakthrough designations (ESRD, HRS, cardiac surgery)."
+    },
+    "ctgov": {
+      "path": "data/icu_ctgov_compact.json",
+      "trials_p1_p3": 0,
+      "note": "Sponsor query returned 7 raw trials but 0 in P1-P3 drug bucket — these are device IDE studies (not classified as drug Phase 1-3 by ctgov.gov phase field). Pipeline reconstructed from 10-K narrative; NCTs verified by issuer disclosure."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Selective Cytopheretic Device (SCD)",
+      "aka": ["SCD adult", "Adult SCD"],
+      "modality": "Extracorporeal immunomodulatory cell-processing device (used inline with CRRT)",
+      "target": "Activated neutrophils and monocytes (selective cytopheresis)",
+      "license_origin": "In-licensed from University of Michigan / Innovative BioTherapies (legacy); developed by SeaStar",
+      "indications": [
+        {
+          "indication": "Adult acute kidney injury (AKI) requiring continuous renal replacement therapy",
+          "highest_phase": "P3",
+          "trial_name": "NEUTRALIZE-AKI",
+          "trial_design": "Prospective, multi-center, open-label, randomized, two-arm pivotal study; 339 subjects planned; composite endpoint of mortality or dialysis dependency at Day 90; conducted under FDA IDE",
+          "nct_ids": ["NCT05758077"],
+          "trial_status": "Active, enrolling — 181 of 339 patients enrolled as of March 21, 2026",
+          "lead_sponsor": "SeaStar Medical, Inc.",
+          "key_milestones": [
+            "FDA Breakthrough Device Designation (BDD) granted April 29, 2022",
+            "FDA protocol approval March 2023",
+            "Enrollment began Q2 2023",
+            "Anticipated enrollment period up to 48 months",
+            "PMA submission planned upon trial completion"
+          ]
+        },
+        {
+          "indication": "Cardiorenal syndrome (CRS) in adults with acute or chronic systolic heart failure with worsening renal function or severe RV failure awaiting LVAD",
+          "highest_phase": "P1",
+          "trial_name": "NEUTRALIZE-CRS (feasibility)",
+          "trial_design": "Multi-center, open-label, feasibility study; 20 subjects; SCD therapy 4 hr/day for up to 6 consecutive days; safety plus mortality, AMI and IV vasopressor endpoints; conducted under FDA IDE",
+          "nct_ids": ["NCT03836482"],
+          "trial_status": "Active, enrolling",
+          "lead_sponsor": "SeaStar Medical, Inc.",
+          "key_milestones": [
+            "FDA Breakthrough Device Designation granted September 2023",
+            "NIH funding ($3.6M) supporting program"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "device": "QUELIMMUNE (SCD-PED, pediatric SCD)",
+    "indication": "Critically ill pediatric patients with life-threatening AKI due to sepsis or septic condition, on CRRT",
+    "regulatory_status": "FDA Humanitarian Device Exemption (HDE) — Approval Order received February 21, 2024"
+  },
+  "excluded_preclinical": [
+    "ESRD chronic systemic inflammation (BDD Nov 2024) — investigational, no active enrolling pivotal/IDE trial disclosed",
+    "Cardiac surgery adult and pediatric (BDD April 2025) — investigational, no active trial disclosed",
+    "Myocardial stunning in hemodialysis (UOM-planned pilot) — pre-launch, no trial active"
+  ],
+  "excluded_legacy_terminated": [
+    "SCD-003 (terminated September 2013 due to nationwide calcium shortage)"
+  ],
+  "excluded_partner_owned": [
+    "NCT04898010 hepatorenal syndrome pilot — investigator-initiated (not a SeaStar-sponsored pivotal device study)"
+  ],
+  "summary_counts": {"P3": 1, "P2": 0, "P1": 1, "total_assets": 1}
+}

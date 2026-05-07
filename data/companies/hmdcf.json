@@ -1,0 +1,285 @@
+{
+  "issuer_name": "HUTCHMED (China) Limited",
+  "ticker": "HMDCF",
+  "exchange": "OTC (also Nasdaq: HCM, HKEX: 13, AIM: HCM)",
+  "cik": "0001648257",
+  "region": "CN/HK",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Cayman Islands) — files 20-F, not 10-K"},
+    "website": {"url": "https://www.hutch-med.com/pipeline-and-products/our-pipeline/", "note": "Cross-referenced via 2025 R&D Updates Event materials and 2025 Full-Year Results (Mar 2026)"},
+    "ctgov": {"unique_trials_p1_p3": 112, "active": 16, "lead_sponsors": ["Hutchison Medipharma Limited", "Hutchmed"]}
+  },
+  "pipeline": [
+    {
+      "asset": "Fruquintinib",
+      "aka": ["HMPL-013", "Fruzaqla", "Elunate"],
+      "modality": "Small molecule (oral selective VEGFR1/2/3 TKI)",
+      "target": "VEGFR1, VEGFR2, VEGFR3",
+      "license_origin": "Internal (HUTCHMED); ex-China rights licensed to Takeda",
+      "indications": [
+        {
+          "indication": "Advanced renal cell carcinoma (2L, + sintilimab)",
+          "highest_phase": "P3",
+          "trial_name": "Fruquintinib + sintilimab vs axitinib/everolimus in 2L RCC (FRUSICA-2)",
+          "trial_design": "Randomized Phase 2/3, fruquintinib + sintilimab vs axitinib or everolimus",
+          "nct_ids": ["NCT05522231"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Hutchison Medipharma Limited",
+          "key_milestones": ["ESMO 2025: PFS 22.2 vs 6.9 months, ORR 60.5% vs 24.3%"]
+        },
+        {
+          "indication": "Advanced endometrial cancer (+ sintilimab)",
+          "highest_phase": "P3",
+          "trial_name": "Fruquintinib + sintilimab in advanced endometrial cancer",
+          "trial_design": "Randomized Phase 3",
+          "nct_ids": ["NCT06584032"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Hutchison Medipharma Limited",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Savolitinib",
+      "aka": ["HMPL-504", "Orpathys"],
+      "modality": "Small molecule (oral selective MET TKI)",
+      "target": "c-MET",
+      "license_origin": "Internal (HUTCHMED); ex-China rights partnered with AstraZeneca",
+      "indications": [
+        {
+          "indication": "EGFR-mutated NSCLC with MET amp/overexpression (2L, + osimertinib) — SAFFRON",
+          "highest_phase": "P3",
+          "trial_name": "SAFFRON: Savolitinib + osimertinib vs platinum-pemetrexed",
+          "trial_design": "Global randomized Phase 3",
+          "nct_ids": ["NCT05015608"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": ["Enrollment completion expected late 2025"]
+        },
+        {
+          "indication": "1L EGFR-mutated NSCLC with MET overexpression — SANOVO",
+          "highest_phase": "P3",
+          "trial_name": "SANOVO China Phase 3 (savolitinib + osimertinib first-line)",
+          "trial_design": "Randomized Phase 3 in China",
+          "nct_ids": ["NCT05009836"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": ["Recruitment completed"]
+        },
+        {
+          "indication": "Gastric / GEJ cancer (MET-amplified)",
+          "highest_phase": "P2",
+          "trial_name": "Savolitinib in MET-amplified gastric cancer",
+          "trial_design": "Phase 2",
+          "nct_ids": ["NCT04923932"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Surufatinib",
+      "aka": ["HMPL-012", "Sulanda"],
+      "modality": "Small molecule (oral VEGFR/FGFR/CSF-1R TKI)",
+      "target": "VEGFR1/2/3, FGFR1, CSF-1R",
+      "license_origin": "Internal (HUTCHMED)",
+      "indications": [
+        {
+          "indication": "Metastatic pancreatic cancer (+ camrelizumab + nab-paclitaxel + gemcitabine)",
+          "highest_phase": "P3",
+          "trial_name": "Surufatinib + camrelizumab + nab-paclitaxel + gemcitabine in metastatic PDAC",
+          "trial_design": "Randomized Phase 2/3 quadruplet",
+          "nct_ids": ["NCT06361888"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Sovleplenib",
+      "aka": ["HMPL-523"],
+      "modality": "Small molecule (oral SYK inhibitor)",
+      "target": "Spleen Tyrosine Kinase (SYK)",
+      "license_origin": "Internal (HUTCHMED)",
+      "indications": [
+        {
+          "indication": "Warm Antibody Autoimmune Hemolytic Anemia (wAIHA)",
+          "highest_phase": "P3",
+          "trial_name": "Sovleplenib 300 mg PO QD vs placebo in wAIHA",
+          "trial_design": "Randomized Phase 2/3 placebo-controlled",
+          "nct_ids": ["NCT05535933"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": ["Data planned for 2025 ASH"]
+        }
+      ]
+    },
+    {
+      "asset": "HMPL-760",
+      "aka": [],
+      "modality": "Small molecule (oral 3rd-gen reversible non-covalent BTK inhibitor)",
+      "target": "BTK (wild-type and C481S-mutant)",
+      "license_origin": "Internal (HUTCHMED)",
+      "indications": [
+        {
+          "indication": "Relapsed/Refractory Diffuse Large B-Cell Lymphoma (DLBCL) — Phase 3",
+          "highest_phase": "P3",
+          "trial_name": "HMPL-760 vs placebo + R-GemOx in R/R DLBCL",
+          "trial_design": "Randomized Phase 3",
+          "nct_ids": ["NCT07409428"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        },
+        {
+          "indication": "R/R DLBCL — Phase 2 dose-finding",
+          "highest_phase": "P2",
+          "trial_name": "HMPL-760 + R-GemOx vs R-GemOx in R/R DLBCL",
+          "trial_design": "Phase 2",
+          "nct_ids": ["NCT06601504"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HMPL-306",
+      "aka": [],
+      "modality": "Small molecule (oral dual IDH1/IDH2 inhibitor)",
+      "target": "IDH1, IDH2 (mutant)",
+      "license_origin": "Internal (HUTCHMED)",
+      "indications": [
+        {
+          "indication": "Acute Myeloid Leukemia (IDH-mutant, R/R)",
+          "highest_phase": "P3",
+          "trial_name": "HMPL-306 vs salvage chemotherapy in R/R AML",
+          "trial_design": "Randomized Phase 3",
+          "nct_ids": ["NCT06387069"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        },
+        {
+          "indication": "Gliomas with IDH1/IDH2 mutations",
+          "highest_phase": "P1",
+          "trial_name": "HMPL-306 in IDH-mutant gliomas",
+          "trial_design": "Phase 1",
+          "nct_ids": ["NCT07025018"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HMPL-453",
+      "aka": [],
+      "modality": "Small molecule (oral selective FGFR1/2/3 inhibitor)",
+      "target": "FGFR1, FGFR2, FGFR3",
+      "license_origin": "Internal (HUTCHMED)",
+      "indications": [
+        {
+          "indication": "Advanced intrahepatic cholangiocarcinoma (FGFR2 fusion)",
+          "highest_phase": "P3",
+          "trial_name": "HMPL-453 in FGFR2-rearranged advanced ICC",
+          "trial_design": "Phase 2/3",
+          "nct_ids": ["NCT04353375"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HMPL-A251",
+      "aka": [],
+      "modality": "Antibody-targeted toxin/conjugate (ATTC) — anti-HER2 IgG1 + PI3K/PIKK inhibitor payload",
+      "target": "HER2 (delivery) + PI3K/PIKK (payload)",
+      "license_origin": "Internal (HUTCHMED, worldwide rights retained)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (HER2-expressing)",
+          "highest_phase": "P2",
+          "trial_name": "HMPL-A251 first-in-human in solid tumors",
+          "trial_design": "Phase 1/2 dose-escalation/expansion",
+          "nct_ids": ["NCT07228247"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HMPL-A580",
+      "aka": [],
+      "modality": "Targeted oncology therapeutic (ATTC; worldwide rights retained)",
+      "target": "Undisclosed (HUTCHMED targeted-delivery program)",
+      "license_origin": "Internal (HUTCHMED, worldwide rights retained)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "P2",
+          "trial_name": "HMPL-A580 first-in-human",
+          "trial_design": "Phase 1/2 dose-escalation/expansion",
+          "nct_ids": ["NCT07396584"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HMPL-506",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Hematology-oncology target (per HUTCHMED disclosures)",
+      "license_origin": "Internal (HUTCHMED)",
+      "indications": [
+        {
+          "indication": "Hematological malignancies",
+          "highest_phase": "P1",
+          "trial_name": "HMPL-506 first-in-human (25 mg / 100 mg tablets)",
+          "trial_design": "Phase 1 dose-escalation",
+          "nct_ids": ["NCT06387082"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "HMPL-415 (HMPL-415S1)",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Undisclosed oncology target",
+      "license_origin": "Internal (HUTCHMED)",
+      "indications": [
+        {
+          "indication": "Advanced malignant solid tumors",
+          "highest_phase": "P1",
+          "trial_name": "HMPL-415S1 first-in-human",
+          "trial_design": "Phase 1 dose-escalation",
+          "nct_ids": ["NCT05886374"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Hutchmed",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Elunate (fruquintinib in China), Sulanda (surufatinib in China), Orpathys (savolitinib in China), Fruzaqla (fruquintinib ex-China via Takeda)",
+    "status": "Approved and commercialized"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"note": "12 prior trials TERMINATED, 4 WITHDRAWN per ctgov; not counted as active pipeline."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 11, "P3": 6, "P2": 2, "P1": 3}
+}

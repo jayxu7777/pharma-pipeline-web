@@ -1,0 +1,23 @@
+{
+  "issuer_name": "The Oncology Institute, Inc.",
+  "ticker": "TOI",
+  "exchange": "Nasdaq",
+  "cik": "0001799191",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/toi_10k_pipeline_section.html", "filing_date": "2026-03-12", "accession": "0001799191-26-000007"},
+    "website": {"error": "Corporate site (theoncologyinstitute.com) describes a community oncology care delivery model; no drug pipeline page exists"},
+    "ctgov": {"file": "data/toi_ctgov_compact.json", "note": "Trials returned by sponsor search are investigator-initiated or industry-sponsored studies in which TOI clinics participate as a site, not assets owned by TOI"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "description": "TOI operates a network of community-based oncology clinics providing medical oncology, hematology, radiation oncology, clinical research site services, dispensary services, and value-based care arrangements with payors. TOI does not develop or own proprietary drug or device assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_active_assets": 0},
+  "no_active_clinical_pipeline_reason": "The Oncology Institute is a community oncology services / clinic operator and clinical-trial site network (medical oncology, radiation oncology, dispensary, value-based care). It does not develop proprietary drug candidates. Trials appearing under its name in ClinicalTrials.gov are investigator-initiated or industry-sponsored studies in which TOI clinics participate as a site."
+}

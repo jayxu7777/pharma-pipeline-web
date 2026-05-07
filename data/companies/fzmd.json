@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Fuse Medical, Inc.",
+  "ticker": "FZMD",
+  "exchange": "OTC",
+  "cik": "0000319016",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001564590-23-005716",
+      "filing_date": "2023-04-14",
+      "doc": "fzmd-10k_20221231.htm",
+      "note": "Distributor / private-label manufacturer of FDA-cleared (510(k)) orthopedic implants and biologics. No proprietary investigational drug or device pipeline disclosed."
+    },
+    "website": {
+      "error": "Not attempted — distributor with no clinical pipeline; medtech 510(k) products only"
+    },
+    "ctgov": {
+      "file": "data/fzmd_ctgov_compact.json",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "categories": [
+      "Foot and Ankle internal/external fixation (CPM screws, FuseFix HammerToe, Fuse TyWedge, Orbitum Compression Staple)",
+      "Orthopedics joint reconstruction (Sterizo Total Knee, Tibial Revision, Total Hip; Arrow shoulder system)",
+      "Sports Medicine (Fuse Suture Anchors, Interference Screws, ACL/RCR fixation)",
+      "Spine (Fuse PSS Pedicle Screw System, Fuse ACP Anterior Cervical Plate, Maxim X-Treme PEEK Cervical Interbody, CPM PEEK Titanium-coated Cervical/Lumbar Interbodies)",
+      "Biologics: FusePure DBM, FuseTrilogy Viable Bone Matrix, FuseChoice placental membrane line, PRP/BMAC concentration systems"
+    ],
+    "regulatory_status": "All marketed products FDA 510(k)-cleared or HCT/P-compliant; no investigational devices/IDE studies disclosed."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device distributor and private-label 510(k) manufacturer of orthopedic implants and biologics. No proprietary investigational drug or IDE/pivotal device clinical studies disclosed in 10-K and no sponsor-led trials in ClinicalTrials.gov."
+}

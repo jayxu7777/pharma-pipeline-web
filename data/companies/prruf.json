@@ -1,0 +1,123 @@
+{
+  "issuer_name": "Immutep Limited",
+  "ticker": "PRRUF",
+  "exchange": "OTC",
+  "cik": "0001506184",
+  "region": "Australia",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F (Australian-headquartered, ASX:IMM, Nasdaq:IMMP, OTC:PRRUF); not retrieved by fetch_10k.py"
+    },
+    "website": {
+      "url": "https://www.immutep.com",
+      "fetched": "2026-05-06",
+      "note": "Pipeline detail page not accessible by simple fetch; relied on company description plus ctgov."
+    },
+    "ctgov": {
+      "path": "data/prruf_ctgov_compact.json",
+      "sponsor_query": "Immutep",
+      "trials_kept_p1_p3": 17
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Eftilagimod alfa",
+      "aka": ["efti", "IMP321", "soluble LAG-3 fusion protein", "LAG-3Ig"],
+      "modality": "Recombinant soluble LAG-3 fusion protein (MHC class II agonist; APC activator)",
+      "target": "MHC class II on antigen-presenting cells (acts as LAG-3 agonist)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "1L metastatic non-small cell lung cancer (NSCLC) — combination with pembrolizumab + chemotherapy",
+          "highest_phase": "P3",
+          "trial_name": "TACTI-004",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of efti + pembrolizumab + chemotherapy vs placebo + pembrolizumab + chemotherapy in 1L metastatic NSCLC",
+          "nct_ids": ["NCT06726265"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Immutep S.A.S. (collaboration with Merck Sharp & Dohme)",
+          "key_milestones": ["Started Mar 2025", "Primary completion target Jun 2027"]
+        },
+        {
+          "indication": "Metastatic HR+/HER2- breast cancer — combination with paclitaxel (AIPAC-003)",
+          "highest_phase": "P2/P3",
+          "trial_name": "AIPAC-003",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2/3 of efti + paclitaxel vs placebo + paclitaxel in metastatic breast cancer",
+          "nct_ids": ["NCT05747794"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Immutep S.A.S.",
+          "key_milestones": ["Started May 2023", "Primary completion target Oct 2026"]
+        },
+        {
+          "indication": "Soft tissue sarcoma — neoadjuvant in combination with pembrolizumab and radiotherapy (EFTISARC-NEO, investigator-sponsored)",
+          "highest_phase": "P2",
+          "trial_name": "EFTISARC-NEO",
+          "trial_design": "Investigator-initiated Phase 2 of efti + pembrolizumab + radiotherapy as neoadjuvant therapy in soft tissue sarcoma",
+          "nct_ids": ["NCT06128863"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Maria Sklodowska-Curie National Research Institute of Oncology (collaborator: Immutep S.A.S.)",
+          "key_milestones": ["Primary completion Apr 2025"]
+        },
+        {
+          "indication": "Advanced solid tumors (peritoneal carcinomatosis, NSCLC adenocarcinoma, urothelial) — combination with avelumab (INSIGHT-003/004, investigator-sponsored)",
+          "highest_phase": "P1",
+          "trial_name": "INSIGHT efti + avelumab",
+          "trial_design": "Investigator-initiated Phase 1 feasibility/safety study of efti + avelumab in advanced solid tumors",
+          "nct_ids": ["NCT03252938"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Institut für Klinische Krebsforschung IKF GmbH (collaborator: Immutep S.A.S.)",
+          "key_milestones": ["Primary completion target Sep 2026"]
+        },
+        {
+          "indication": "Early-stage HR+/HER2- breast cancer — neoadjuvant chemotherapy combination (investigator-sponsored, George Washington University)",
+          "highest_phase": "P2",
+          "trial_name": "Efti in HR+/HER2- breast cancer (GWU)",
+          "trial_design": "Phase 2 investigator-sponsored study of efti in combination with TC or dose-dense AC neoadjuvant chemotherapy in stage 1-3 HR+/HER2- breast cancer",
+          "nct_ids": ["NCT07102940"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "George Washington University (collaborator: Immutep S.A.S.)",
+          "key_milestones": ["Planned start May 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "IMP761",
+      "aka": [],
+      "modality": "Agonist anti-LAG-3 monoclonal antibody (immunosuppressive; for autoimmune disease)",
+      "target": "LAG-3 (agonist)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Autoimmune disease — first-in-human safety in healthy volunteers",
+          "highest_phase": "P1",
+          "trial_name": "First-in-human study of IMP761 in healthy volunteers",
+          "trial_design": "Phase 1 single ascending dose / multiple ascending dose study with KLH challenge in healthy volunteers",
+          "nct_ids": ["NCT06637865"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immutep S.A.S.",
+          "key_milestones": ["Started Jul 2024", "Primary completion target Aug 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "IMP701 (anti-LAG-3 antagonist) — partnered out to Novartis as ieramilimab; partner-owned program",
+    "GSK '781 (anti-LAG-3) — partnered out to GSK; partner-owned program"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT04252768 (efti + paclitaxel weekly schedule) — withdrawn",
+    "NCT00365937, NCT01308294 (academic melanoma vaccine combos with IMP321) — terminated, academic-led",
+    "NCT00349934, NCT00351949, NCT00354263, NCT00354861, NCT02614833, NCT02676869, NCT03625323, NCT04811027 — completed historical Phase 1/2 trials"
+  ],
+  "excluded_partner_owned": [
+    "Ieramilimab (LAG525) — antagonist anti-LAG-3 mAb licensed to Novartis",
+    "GSK '781 anti-LAG-3 — licensed to GSK"
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3_indications": 1,
+    "p2_indications": 3,
+    "p1_indications": 2
+  }
+}

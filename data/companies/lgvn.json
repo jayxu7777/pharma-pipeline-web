@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Longeveron Inc.",
+  "ticker": "LGVN",
+  "exchange": "Nasdaq",
+  "cik": "0001721484",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-110664", "filed": "2026-03-17", "doc": "lgvn-20251231.htm"},
+    "website": {"url": "https://longeveron.com/clinical-pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/lgvn_ctgov_compact.json", "n_studies": 11}
+  },
+  "pipeline": [
+    {
+      "asset": "Laromestrocel",
+      "aka": ["Lomecel-B"],
+      "modality": "Allogeneic medicinal signaling cells (MSCs)",
+      "target": "Multi-mechanism (anti-inflammatory, pro-angiogenic, immunomodulatory)",
+      "license_origin": "Internal (Longeveron)",
+      "indications": [
+        {
+          "indication": "Hypoplastic Left Heart Syndrome (HLHS)",
+          "highest_phase": "Phase 2b (pivotal)",
+          "trial_name": "ELPIS II",
+          "trial_design": "Phase 2b randomized controlled pivotal trial; Lomecel-B injection during Stage II HLHS surgery",
+          "nct_ids": ["NCT04925024"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (fully enrolled; topline expected Q3 2026)",
+          "lead_sponsor": "Longeveron Inc.",
+          "key_milestones": ["Primary completion 2026-06-30", "Topline Q3 2026"]
+        },
+        {
+          "indication": "Mild Alzheimer's Disease",
+          "highest_phase": "Phase 2/3 (planned pivotal)",
+          "trial_name": "CLEAR MIND follow-on pivotal",
+          "trial_design": "Single pivotal adaptive Phase 2/3 trial (per FDA meeting); follows completed Phase 2a CLEAR MIND",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pivotal trial planned post FDA alignment; RMAT and Fast Track designations granted",
+          "lead_sponsor": "Longeveron Inc.",
+          "key_milestones": ["Phase 2a CLEAR MIND results published in Nature Medicine", "FDA Type C meeting alignment"]
+        },
+        {
+          "indication": "Aging Frailty (Japan)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Japan registrational pathway",
+          "trial_design": "Phase 2 registrational program in Japan via Japan SAKIGAKE/conditional approval pathway",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active in Japan (per company website)",
+          "lead_sponsor": "Longeveron Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Laromestrocel in Pediatric Dilated Cardiomyopathy", "reason": "IND approved but no clinical trial yet"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT02398604", "reason": "TERMINATED — early HLHS Phase 1"},
+    {"nct_id": "NCT02587572", "reason": "WITHDRAWN — SIRONA trial"},
+    {"nct_id": "NCT05233774", "reason": "COMPLETED — CLEAR MIND Phase 2a (now superseded by planned pivotal)"},
+    {"nct_id": "NCT02982915", "reason": "COMPLETED — frailty/vaccine response"},
+    {"nct_id": "NCT02065245", "reason": "COMPLETED — frailty CRATUS"},
+    {"nct_id": "NCT02600130", "reason": "COMPLETED — AD Phase 1"},
+    {"nct_id": "NCT03169231", "reason": "COMPLETED — frailty Phase 2b (HERA)"},
+    {"nct_id": "NCT03525418", "reason": "ELPIS I — completed"},
+    {"nct_id": "NCT04629105", "reason": "RECOVER COVID-ARDS — status UNKNOWN, primary completion 2024-06"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "P3": 0, "P2": 3, "P1": 0, "total_active_indications": 3}
+}

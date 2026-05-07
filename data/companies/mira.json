@@ -1,0 +1,59 @@
+{
+  "issuer_name": "MIRA Pharmaceuticals, Inc.",
+  "ticker": "MIRA",
+  "exchange": "Nasdaq",
+  "cik": "0001904286",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-014001", "filed": "2026-03-31", "doc": "form10-k.htm"},
+    "website": {"url": "https://mirapharmaceuticals.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/mira_ctgov_compact.json", "fetched": "2026-05-06", "note": "No active P1-P3 trials registered under MIRA Pharmaceuticals as sponsor"}
+  },
+  "pipeline": [
+    {
+      "asset": "Ketamir-2",
+      "aka": [],
+      "modality": "Oral small molecule NMDA receptor modulator",
+      "target": "NMDA receptor",
+      "license_origin": "Exclusive US/Canada/Mexico rights",
+      "indications": [
+        {
+          "indication": "Neuropathic pain (chemotherapy-induced peripheral neuropathy / CIPN)",
+          "highest_phase": "P2-PLANNED",
+          "trial_name": "PLANNED — Ketamir-2 Phase 2a CIPN",
+          "trial_design": "Phase 2a trial planned in CIPN",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 1 (healthy volunteers) completed; Phase 2a CIPN initiation targeted 1H 2026",
+          "lead_sponsor": "MIRA Pharmaceuticals, Inc.",
+          "key_milestones": ["Phase 1 dosing completed", "Phase 2a initiation 1H 2026"]
+        },
+        {
+          "indication": "Treatment-resistant depression (TRD)",
+          "highest_phase": "PRECLINICAL",
+          "trial_name": "PLANNED — TRD program",
+          "trial_design": "n/a (preclinical)",
+          "nct_ids": [],
+          "trial_status": "PLANNED — pre-IND",
+          "lead_sponsor": "MIRA Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "no_active_clinical_pipeline_reason": "All assets are pre-IND or have only completed an unblinded Phase 1 in healthy volunteers (Ketamir-2). No active Phase 1, Phase 2, or Phase 3 patient trials are listed on ClinicalTrials.gov under MIRA. Phase 2a in CIPN is targeted for 1H 2026 per the 10-K. MIRA-55 and SKNY-1 remain preclinical.",
+  "excluded_preclinical": [
+    "MIRA-55 (CB1/CB2 modulator for anxiety/cognitive decline; IND-enabling)",
+    "SKNY-1 (CB1/CB2 + MAO-B inhibitor for obesity / nicotine dependence; preclinical)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_indications": 0,
+    "p2_indications": 0,
+    "p1_indications": 0,
+    "planned_indications": 1
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "issuer_name": "ProKidney Corp.",
+  "ticker": "PROK",
+  "exchange": "Nasdaq",
+  "cik": "0001850270",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-113881", "filing_date": "2026-03-18", "doc": "prok-20251231.htm"},
+    "website": {"error": "prokidney.com pipeline page returned 404"},
+    "ctgov": {"unique_p1_p3_trials": 8, "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "rilparencel",
+      "aka": ["REACT", "Renal Autologous Cell Therapy", "Neo-Kidney Augment (NKA, legacy)"],
+      "modality": "Autologous selected renal cell therapy (image-guided percutaneous intra-renal injection)",
+      "target": "Renal tubular epithelial cells (regenerative cell therapy)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced chronic kidney disease (CKD Stage 3b/4) with type 2 diabetes",
+          "highest_phase": "Phase 3",
+          "trial_name": "PROACT 1 (REGEN-006)",
+          "trial_design": "Phase 3 randomized, blinded, bilateral kidney dosing, sham-controlled efficacy/safety study; ~80 sites in US, Mexico, Taiwan; eGFR slope as surrogate endpoint per FDA agreement (accelerated approval)",
+          "nct_ids": ["NCT05099770"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ProKidney",
+          "key_milestones": ["FDA agreement on eGFR slope as accelerated-approval surrogate endpoint (Type B meeting July 2025)", "RMAT designation"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT04115345 (REACT in CAKUT Phase 1) — COMPLETED",
+    "NCT02525263 (NKA Phase 2) — TERMINATED legacy",
+    "NCT03270956 (REACT diabetic CKD Phase 2) — COMPLETED",
+    "NCT05694169 (REACT prior-treated Phase 1) — TERMINATED",
+    "NCT05018416 (REGEN-007 Phase 2) — COMPLETED May 2025; results presented",
+    "NCT05286853 (PROACT 2 / REGEN-016 Phase 3 ex-US) — WITHDRAWN/discontinued in favor of PROACT 1 only",
+    "NCT02836574 (REACT Phase 2 T2D-CKD) — COMPLETED"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 1, "p2": 0, "p1": 0}
+}

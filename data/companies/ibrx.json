@@ -1,0 +1,306 @@
+{
+  "issuer_name": "ImmunityBio, Inc.",
+  "ticker": "IBRX",
+  "exchange": "Nasdaq",
+  "cik": "0001326110",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/ibrx_10k_pipeline_section.html", "filing_date": "2026-02-23", "accession": "0001326110-26-000030"},
+    "website": {"url": "https://immunitybio.com/pipeline/", "method": "WebFetch"},
+    "ctgov": {"path": "data/ibrx_ctgov_compact.json", "lead_sponsor_query": "ImmunityBio"}
+  },
+  "pipeline": [
+    {
+      "asset": "Nogapendekin alfa inbakicept (N-803)",
+      "aka": ["ANKTIVA", "ALT-803", "NAI"],
+      "modality": "IL-15 superagonist fusion protein (IL-15/IL-15Rα-Fc)",
+      "target": "IL-15 receptor (NK and CD8+ T-cell expansion)",
+      "license_origin": "ImmunityBio (Altor BioScience acquisition)",
+      "indications": [
+        {
+          "indication": "BCG-naïve / BCG-exposed high-grade non-muscle invasive bladder cancer (NMIBC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ANKTIVA + BCG vs BCG monotherapy",
+          "trial_design": "Randomized Phase 3 of ANKTIVA plus BCG vs BCG monotherapy in BCG-naïve/BCG-exposed high-grade NMIBC papillary disease",
+          "nct_ids": ["NCT07551544"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "BCG-unresponsive NMIBC CIS (post-approval confirmatory)",
+          "highest_phase": "Phase 3",
+          "trial_name": "QUILT-3.032",
+          "trial_design": "Multicenter intravesical BCG + N-803 in BCG-unresponsive NMIBC; supported FDA approval of ANKTIVA (April 2024)",
+          "nct_ids": ["NCT03022825"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": ["FDA approval of ANKTIVA + BCG for NMIBC CIS (April 2024)"]
+        },
+        {
+          "indication": "BCG-naïve NMIBC",
+          "highest_phase": "Phase 2",
+          "trial_name": "QUILT-2.005",
+          "trial_design": "Phase 1/2 of intravesical BCG + N-803 in BCG-naïve NMIBC",
+          "nct_ids": ["NCT02138734"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Intermediate-risk NMIBC (ablation therapy)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Intermediate-risk NMIBC ablation",
+          "trial_design": "Phase 2 of N-803 + BCG and N-803 + gemcitabine in intermediate-risk NMIBC papillary disease",
+          "nct_ids": ["NCT06829823"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Non-small cell lung cancer (post-checkpoint failure, 2L+)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ResQ201A",
+          "trial_design": "Randomized Phase 3 of N-803 + tislelizumab + docetaxel vs docetaxel in NSCLC after prior checkpoint failure",
+          "nct_ids": ["NCT06745908"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "1L advanced/metastatic NSCLC",
+          "highest_phase": "Phase 3",
+          "trial_name": "NAI + SOC vs SOC in 1L NSCLC",
+          "trial_design": "Phase 3 of NAI + pembrolizumab + chemo vs SOC in first-line NSCLC",
+          "nct_ids": ["NCT07524257"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Severe community-acquired pneumonia / sepsis (lymphopenia)",
+          "highest_phase": "Phase 3",
+          "trial_name": "NAI + iNKT in CAP/sepsis",
+          "trial_design": "Phase 3 of nogapendekin alfa inbakicept + iNKT cells (agenT-797) in critically ill adults with severe CAP",
+          "nct_ids": ["NCT07492875"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Severe CAP / ARDS / sepsis (Phase 2 companion)",
+          "highest_phase": "Phase 2",
+          "trial_name": "NAI + iNKT (Phase 2)",
+          "trial_design": "Phase 2 of NAI ± iNKT cells (AgenT-797) in critically ill adults",
+          "nct_ids": ["NCT07492888"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent / progressive glioblastoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "QUILT-3.078",
+          "trial_design": "Phase 2 of N-803 + PD-L1 t-haNK + bevacizumab + TTFields in recurrent GBM",
+          "nct_ids": ["NCT06061809"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Long COVID",
+          "highest_phase": "Phase 2",
+          "trial_name": "ANKTIVA Long COVID",
+          "trial_design": "Phase 2 of ANKTIVA in patients with Long COVID-19",
+          "nct_ids": ["NCT07108036", "NCT07123727"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pancreatic cancer (lethally advanced, combination immunotherapy)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Combination immunotherapy + chemo in pancreatic cancer",
+          "trial_design": "Phase 2 of N-803 + PD-L1 t-haNK + Aldoxorubicin + chemo vs SOC in lethally advanced pancreatic cancer",
+          "nct_ids": ["NCT04390399"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Solid tumors post-checkpoint inhibitor failure",
+          "highest_phase": "Phase 2",
+          "trial_name": "QUILT-3.055",
+          "trial_design": "Phase 2 of combination immunotherapies (N-803 + checkpoint inhibitors ± PD-L1 t-haNK) in patients post-checkpoint failure",
+          "nct_ids": ["NCT03228667"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PD-L1 t-haNK",
+      "aka": [],
+      "modality": "Off-the-shelf engineered NK cell expressing CD16 high-affinity FcR + PD-L1 CAR + IL-2",
+      "target": "PD-L1",
+      "license_origin": "ImmunityBio (NantKwest)",
+      "indications": [
+        {
+          "indication": "Recurrent glioblastoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "QUILT-3.078",
+          "trial_design": "Phase 2 of PD-L1 t-haNK + N-803 + bevacizumab + TTFields in recurrent GBM",
+          "nct_ids": ["NCT06061809"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CD19 t-haNK",
+      "aka": [],
+      "modality": "Off-the-shelf CD19-targeted CAR-NK cell therapy",
+      "target": "CD19",
+      "license_origin": "ImmunityBio",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell non-Hodgkin lymphoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "CD19 t-haNK + NAI + rituximab in iNHL",
+          "trial_design": "Phase 2 of CD19 t-haNK + N-803 + rituximab in indolent NHL; Phase 2 monotherapy CD19 t-haNK in r/r B-NHL",
+          "nct_ids": ["NCT07477366", "NCT07125872"],
+          "trial_status": "Recruiting / Not yet recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Relapsed/refractory NHL (Phase 1)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CD19 t-haNK Phase 1 NHL",
+          "trial_design": "Phase 1 of CD19 t-haNK + ANKTIVA + lymphodepletion + rituximab in r/r NHL",
+          "nct_ids": ["NCT05618925", "NCT06334991"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "B-cell acute lymphoblastic leukemia",
+          "highest_phase": "Phase 1",
+          "trial_name": "CD19 t-haNK B-ALL",
+          "trial_design": "Phase 1 safety/efficacy of CD19 t-haNK in B-cell ALL",
+          "nct_ids": ["NCT07556757"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "M-CENK",
+      "aka": ["Memory cytokine-enriched NK cells"],
+      "modality": "Autologous memory NK-cell adoptive therapy",
+      "target": "Tumor cells via NK cytotoxicity",
+      "license_origin": "ImmunityBio",
+      "indications": [
+        {
+          "indication": "Locally advanced/metastatic solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "QUILT-3.076",
+          "trial_design": "Phase 1 of autologous M-CENK + N-803 in solid tumors",
+          "nct_ids": ["NCT04898543"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Platinum-resistant ovarian cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "ResQ-209",
+          "trial_design": "Phase 2 of M-CENK + N-803 + gemcitabine in platinum-resistant ovarian cancer",
+          "nct_ids": ["NCT06710288"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IBRX-042 (hAd5-HPV E6/E7 vaccine)",
+      "aka": [],
+      "modality": "hAdenovirus type 5 vector-based HPV vaccine",
+      "target": "HPV E6 / E7 antigens",
+      "license_origin": "ImmunityBio",
+      "indications": [
+        {
+          "indication": "HPV-associated tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "IBRX-042 in HPV+ tumors",
+          "trial_design": "Phase 1 of IBRX-042 in HPV-associated carcinoma",
+          "nct_ids": ["NCT05976828"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Recombinant Mycobacterium (rMBCG / ResQ133A)",
+      "aka": ["BCG replacement"],
+      "modality": "Recombinant live attenuated mycobacterium",
+      "target": "Bladder tumor / immune activation",
+      "license_origin": "ImmunityBio",
+      "indications": [
+        {
+          "indication": "NMIBC eligible to receive intravesical BCG",
+          "highest_phase": "Phase 2",
+          "trial_name": "ResQ133A-NMIBC",
+          "trial_design": "Phase 1/2 of intravesical recombinant Mycobacterium (rMBCG) in NMIBC",
+          "nct_ids": ["NCT06800963"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Aldoxorubicin (Aldox) + sotevtamab + zabadinostat (resectable PDAC)",
+      "aka": ["INNO-206 (Aldox)"],
+      "modality": "Albumin-binding doxorubicin prodrug + monoclonal antibody + HDAC inhibitor combo",
+      "target": "Tumor microenvironment",
+      "license_origin": "ImmunityBio",
+      "indications": [
+        {
+          "indication": "Resectable pancreatic cancer (neoadjuvant)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Neoadjuvant NAI + sotevtamab + zabadinostat",
+          "trial_design": "Phase 1 of neoadjuvant NAI + sotevtamab + zabadinostat + nab-paclitaxel/gemcitabine in resectable PDAC",
+          "nct_ids": ["NCT07488884"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "ImmunityBio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "ANKTIVA (nogapendekin alfa inbakicept-pmln)", "indication": "BCG-unresponsive NMIBC with CIS (± papillary disease)", "status": "FDA approved April 2024"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_ids": ["NCT03169738"], "reason": "QUILT-3.044 NSCLC vaccine trial WITHDRAWN"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 7,
+    "phase_3": 4,
+    "phase_2": 8,
+    "phase_1": 5,
+    "indications_total": 17
+  }
+}

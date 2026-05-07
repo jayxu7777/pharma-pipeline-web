@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Streamex Corp.",
+  "ticker": "STEX",
+  "exchange": "Nasdaq",
+  "cik": "0001530766",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001493152-26-014376",
+      "path": "data/stex_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found",
+      "note": "Streamex corporate site centers on tokenized real-world-asset (RWA) financial infrastructure; no drug or device pipeline page exists."
+    },
+    "ctgov": {
+      "path": "data/stex_ctgov_compact.json",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Legacy medical device + tokenization technology",
+    "representative_products": [
+      "PURE EP Platform - FDA 510(k)-cleared (Aug 8, 2018) cardiac electrophysiology signal acquisition system",
+      "GLDY - tokenized gold product (financial technology, not a medical product)"
+    ],
+    "note": "PURE EP is a marketed Class II medical device, not a pipeline drug or pre-approval device candidate."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "merimepodib",
+      "modality": "small molecule (broad-spectrum antiviral)",
+      "indication": "COVID-19",
+      "former_subsidiary": "ViralClear Pharmaceuticals, Inc. (~69.7% owned)",
+      "status": "Development ceased late 2020; ViralClear dormant; STEX evaluating strategic alternatives for legacy subsidiary"
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Streamex Corp. is now primarily a tokenization / digital-asset infrastructure company (Streamex Exchange, GLDY tokenized gold). The legacy biomedical line is the FDA-cleared, commercially marketed PURE EP cardiac signal-processing platform. The only historical drug program (merimepodib via majority-owned ViralClear) was discontinued in late 2020 and ViralClear is dormant. No active P1/P2/P3 drug or device IDE trials disclosed."
+}

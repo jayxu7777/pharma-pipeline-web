@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Adial Pharmaceuticals, Inc.",
+  "ticker": "ADIL",
+  "exchange": "Nasdaq",
+  "cik": "0001513525",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-024175", "filed": "2026-03-05", "path": "data/adil_10k_pipeline_section.html"},
+    "website": {"url": "http://www.adial.com/pipeline", "note": "AD04 listed as Phase 3 in alcohol use disorder; mentions preclinical Purnovate assets (sold 2023, subsidiary merged out in Jan 2025)"},
+    "ctgov": {"path": "data/adil_ctgov_compact.json", "trial_count": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "AD04",
+      "aka": ["ondansetron (genetically targeted low-dose oral)"],
+      "modality": "Small molecule (5-HT3 receptor antagonist)",
+      "target": "Serotonin 5-HT3 receptor (in patients with selected serotonin transporter and 5-HT3 receptor polymorphisms)",
+      "license_origin": "In-licensed from University of Virginia Patent Foundation",
+      "indications": [
+        {
+          "indication": "Alcohol Use Disorder (AUD) in patients with selected serotonin transporter/receptor polymorphisms",
+          "highest_phase": "Phase 3",
+          "trial_name": "ONWARD (completed); next adaptive Phase 3 in planning per July 29, 2025 FDA Type C meeting",
+          "trial_design": "Prior ONWARD: randomized, double-blind, placebo-controlled, 6-month, in genotype-positive heavy-drinking AUD patients. Planned next study: adaptive Phase 3 design discussed with FDA.",
+          "nct_ids": ["NCT04101227"],
+          "trial_status": "ONWARD trial COMPLETED (primary completion 2022-02-18); company actively preparing follow-on adaptive Phase 3 trial; FDA Type C meeting minutes received July 29, 2025; manufacturing demonstration batch completed; European commercialization partnership framework announced",
+          "lead_sponsor": "Adial Pharmaceuticals",
+          "key_milestones": [
+            "ONWARD topline data 2022 — failed primary endpoint in overall ITT but positive in heavy-drinking subgroup",
+            "FDA Type C meeting minutes received July 2025 confirming adaptive Phase 3 path",
+            "European commercialization partnership framework announced (estimated >$60M deal value)"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Purnovate adenosine analog program (non-opioid pain, metastatic breast cancer)", "reason": "Preclinical only; Purnovate assets sold in 2023; subsidiary merged out January 2025"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 0, "P1": 0}
+}

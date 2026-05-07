@@ -1,0 +1,106 @@
+{
+  "issuer_name": "BioLineRx Ltd.",
+  "ticker": "BLRX",
+  "exchange": "Nasdaq",
+  "cik": "0001498403",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {
+      "url": "https://biolinerx.com/pipeline/",
+      "note": "JS-rendered; details extracted from corporate press releases and investor materials."
+    },
+    "ctgov": {
+      "path": "data/blrx_ctgov_compact.json",
+      "trials_p1_p3": 23,
+      "active_or_active_not_recruiting": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "GLIX1",
+      "aka": [],
+      "modality": "Oral small molecule targeting DNA damage response",
+      "target": "DNA damage response (first-in-class)",
+      "license_origin": "Joint venture with Hemispherian AS (announced 2025)",
+      "indications": [
+        {
+          "indication": "Glioblastoma and other solid tumors",
+          "highest_phase": "P1",
+          "trial_name": "Phase 1/2a clinical trial of GLIX1",
+          "trial_design": "Phase 1/2a study expected to initiate in Q1 2026 per company guidance.",
+          "nct_ids": [],
+          "trial_status": "PLANNED — Phase 1/2a initiation guided for Q1 2026; not yet posted on ClinicalTrials.gov as of snapshot.",
+          "lead_sponsor": "BioLineRx Ltd. / Hemispherian AS JV",
+          "key_milestones": ["JV with Hemispherian announced 2025", "Phase 1/2a initiation Q1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Motixafortide",
+      "aka": ["BL-8040", "APHEXDA"],
+      "modality": "CXCR4 antagonist peptide",
+      "target": "CXCR4",
+      "license_origin": "BioLineRx (US commercial rights licensed to Ayrmid Ltd. Nov 2024; BLRX retains development interest in non-stem-cell-mobilization indications via collaborations)",
+      "indications": [
+        {
+          "indication": "Stem cell mobilization for gene therapy in sickle cell disease",
+          "highest_phase": "P1",
+          "trial_name": "Motixafortide for CD34+ HSC mobilization in SCD (St. Jude collaboration; Washington Univ. study)",
+          "trial_design": "Phase 1 evaluating motixafortide for CD34+ HSC mobilization to support gene therapy in SCD; St. Jude clinical trial agreement plus Washington Univ. study.",
+          "nct_ids": ["NCT05618301"],
+          "trial_status": "Washington Univ. study (NCT05618301) COMPLETED 2025-06; St. Jude collaboration ongoing; subsequent SCD HSC mobilization Phase 1 trials supported by BLRX/Ayrmid/Biogen.",
+          "lead_sponsor": "Washington University School of Medicine (collaborator: BioLineRx, Biogen, Ayrmid Pharma)",
+          "key_milestones": ["First patient dosed (announced Jan 2024)", "ASH 2024 oral presentation of Phase 1 data"]
+        },
+        {
+          "indication": "First-line metastatic pancreatic ductal adenocarcinoma (PDAC)",
+          "highest_phase": "P2",
+          "trial_name": "CheMo4METPANC (Phase 2b)",
+          "trial_design": "Randomized Phase 2b combining motixafortide with cemiplimab (PD-1) plus standard chemotherapy in 1L metastatic PDAC, led by Columbia University with Regeneron and BioLineRx support; prespecified interim/futility analysis planned for 2026.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING — enrollment accelerated per BLRX 2025 corporate updates; interim/futility 2026.",
+          "lead_sponsor": "Columbia University (with Regeneron and BioLineRx)",
+          "key_milestones": ["Interim/futility analysis 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "AGI-134",
+      "aka": [],
+      "modality": "Synthetic alpha-Gal glycolipid immunotherapy",
+      "target": "Tumor antigens via natural anti-Gal antibody response",
+      "license_origin": "BioLineRx",
+      "indications": [
+        {
+          "indication": "Metastatic solid tumors",
+          "highest_phase": "P1",
+          "trial_name": "Phase 1/2a study of AGI-134 in metastatic solid tumors",
+          "trial_design": "Phase 1/2a evaluating intratumoral AGI-134 monotherapy and in combination with pembrolizumab.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1/2a results announced; further development pending strategic decision.",
+          "lead_sponsor": "BioLineRx, Ltd.",
+          "key_milestones": ["Phase 1/2a results announced"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Motixafortide multiple myeloma SCM Phase 3 (NCT03246529, GENESIS)", "reason": "Pivotal trial primary completion 2020; led to FDA approval of APHEXDA (2023) — counted as commercial product, not active development trial."},
+    {"asset": "BL-1020", "reason": "Schizophrenia Phase 2 completed 2007; program discontinued."},
+    {"asset": "BL-7010 celiac disease", "reason": "Phase 1/2 completed 2014; not advanced."},
+    {"asset": "BL-1021", "reason": "Phase 1 terminated."},
+    {"asset": "BL-8040 + atezolizumab in AML (NCT03154827)", "reason": "TERMINATED 2020."},
+    {"asset": "BL-8040 + ribavirin/HCQ HCV (NCT01833845)", "reason": "TERMINATED."}
+  ],
+  "excluded_partner_owned": [],
+  "commercial_product": {
+    "name": "APHEXDA (motixafortide)",
+    "indication": "CD34+ stem cell mobilization for autologous transplantation in multiple myeloma",
+    "approval": "FDA approved September 2023; US commercial rights licensed to Ayrmid Ltd. Nov 2024."
+  },
+  "summary_counts": {"P3": 0, "P2": 1, "P1": 3, "total_assets": 3}
+}

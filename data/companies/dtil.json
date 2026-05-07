@@ -1,0 +1,58 @@
+{
+  "issuer_name": "Precision BioSciences, Inc.",
+  "ticker": "DTIL",
+  "exchange": "Nasdaq",
+  "cik": "0001357874",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-017019", "filing_date": "2026-03-12", "doc": "dtil-20251231.htm"},
+    "website": {"note": "Skipped live fetch; 10-K and ctgov give complete coverage"},
+    "ctgov": {"file": "data/dtil_ctgov_compact.json", "trials_kept": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "PBGENE-HBV",
+      "aka": [],
+      "modality": "In vivo ARCUS gene-editing therapy (LNP-delivered)",
+      "target": "HBV cccDNA elimination via ARCUS nuclease",
+      "license_origin": "Internal (wholly-owned)",
+      "indications": [
+        {
+          "indication": "Chronic hepatitis B (HBV)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ELIMINATE-B Phase 1",
+          "trial_design": "First-in-human dose-finding, repeat-administration LNP-delivered gene-editing trial; cohorts evaluating 0.2/0.4/0.8 mg/kg every 8 weeks and 0.4/0.65 mg/kg every 4 weeks",
+          "nct_ids": ["NCT06680232"],
+          "trial_status": "RECRUITING; late-breaking Phase 1 data presented at AASLD Nov 2025; additional clinical/biopsy data expected first half of 2026; Part 2 expansion to follow",
+          "lead_sponsor": "Precision BioSciences, Inc.",
+          "key_milestones": ["AASLD late-breaker Nov 10, 2025: safety + dose-dependent antiviral activity"]
+        }
+      ]
+    },
+    {
+      "asset": "PBGENE-DMD",
+      "aka": [],
+      "modality": "In vivo AAV-delivered dual ARCUS nuclease gene editing (excises exons 45-55 of dystrophin gene)",
+      "target": "Dystrophin gene (DMD)",
+      "license_origin": "Internal (wholly-owned)",
+      "indications": [
+        {
+          "indication": "Duchenne muscular dystrophy (mutations amenable to exon 45-55 excision)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "FUNCTION-DMD Phase 1/2a",
+          "trial_design": "Open-label safety and preliminary efficacy of single IV PBGENE-DMD in ambulatory DMD patients at specialized US sites",
+          "nct_ids": ["NCT07429240"],
+          "trial_status": "RECRUITING (start 2026-04-24); IND cleared Feb 2026; initial data from multiple patients expected by year-end 2026",
+          "lead_sponsor": "Precision BioSciences, Inc.",
+          "key_milestones": ["FDA IND clearance Feb 2026", "Initial multi-patient data expected YE 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["PBGENE-3243 (mitochondrial m.3243G disease) - development paused to prioritize HBV and DMD programs"],
+  "excluded_legacy_terminated": ["PBCAR20A (allogeneic anti-CD20 CAR T) - Phase 1/2 COMPLETED 2021-06-24, no further development", "PBCAR269A (BCMA CAR T, MM) - Phase 1 TERMINATED 2022-10-19", "PBCAR19B (CD19 CAR T) - Phase 1 COMPLETED 2022-12-22"],
+  "excluded_partner_owned": ["ECUR-506 (neonatal onset OTC deficiency, OTC-HOPE study) - sponsored and conducted by partner iECURE; ARCUS nuclease licensed but program is partner-owned", "Azer-cel (DLBCL) - now developed by Imugene under license, partner-owned", "ARCUS in vivo collaborations with Eli Lilly and Novartis - partner-controlled (e.g., Novartis sickle cell / beta thalassemia)"],
+  "summary_counts": {"total_assets": 2, "P3": 0, "P2": 0, "P1_or_1_2": 2}
+}

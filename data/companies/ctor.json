@@ -1,0 +1,33 @@
+{
+  "issuer_name": "Citius Oncology, Inc.",
+  "ticker": "CTOR",
+  "exchange": "Nasdaq",
+  "cik": "0001851484",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Citius Oncology is a single-asset commercial-stage company. LYMPHIR (denileukin diftitox-cxdl) was FDA-approved August 7, 2024 for relapsed/refractory CTCL and launched in December 2025; the pivotal Phase 3 (E7777-G000-302) is COMPLETED. The two ongoing P1/P2 trials of LYMPHIR (NCT04855253 at U Minnesota; NCT05200559 at U Pittsburgh with pembrolizumab) are investigator-initiated with university lead sponsors, not Citius-sponsored — excluded under scope rules.",
+  "sources": {
+    "10k": {"accession": "0001213900-25-125331", "filed": "2025-12-23", "fy": "2025"},
+    "website": {"url": "https://www.citiusonc.com/pipeline", "fetched_via": "WebFetch"},
+    "ctgov": {"sponsor_query": "Citius Oncology", "raw_count": 0, "kept_p1_p3": 0, "supplemental_query": "Citius (returned 3 trials all COMPLETED)"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "LYMPHIR (denileukin diftitox-cxdl)",
+    "aka": ["E7777", "I/ONTAK"],
+    "modality": "Recombinant IL-2-diphtheria toxin fusion protein",
+    "target": "IL-2 receptor on regulatory T cells / CTCL malignant cells",
+    "indication": "Relapsed/refractory cutaneous T-cell lymphoma (CTCL) Stage I-III",
+    "regulatory_status": "FDA-approved August 7, 2024",
+    "launch": "December 2025",
+    "license_origin": "Acquired from Dr. Reddy's; originally licensed from Eisai"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"trial": "NCT04855253", "sponsor": "University of Minnesota", "design": "LYMPHIR Phase I/II prior to CAR-T in B-cell lymphoma", "reason": "Investigator-initiated, lead sponsor not Citius."},
+    {"trial": "NCT05200559", "sponsor": "University of Pittsburgh", "design": "LYMPHIR + pembrolizumab Phase 1 in solid tumors", "reason": "Investigator-initiated, lead sponsor not Citius."}
+  ],
+  "summary_counts": {"assets": 0, "p3": 0, "p2": 0, "p1": 0, "approved_commercial": 1}
+}

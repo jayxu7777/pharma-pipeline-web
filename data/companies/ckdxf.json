@@ -1,0 +1,24 @@
+{
+  "issuer_name": "Opthea Ltd",
+  "ticker": "CKDXF",
+  "exchange": "OTC",
+  "cik": "0001815620",
+  "region": "Australia",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Australia) — files 20-F instead of 10-K"},
+    "website": {"note": "Public sources confirm Phase 3 program terminated; no active clinical assets remain"},
+    "ctgov": {"path": "data/ckdxf_ctgov_compact.json", "trials_found": 5}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "OPT-302 (sozinibercept) — Phase 3 ShORe trial NCT04757610 (Terminated, primary completion 2025-03-31)",
+    "OPT-302 (sozinibercept) — Phase 3 COAST trial NCT04757636 (Terminated, primary completion 2025-03-31)",
+    "OPT-302 Phase 1 NCT02543229, Phase 2 NCT03345082, Phase 1/2 DME NCT03397264 (Completed, legacy)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Opthea's only clinical asset, OPT-302 (sozinibercept), failed both pivotal Phase 3 trials in nAMD (ShORe and COAST) and both studies were terminated; the company entered administration/wind-down in 2025. No remaining active P1/P2/P3 trials. Australian-domiciled foreign private issuer files 20-F not 10-K."
+}

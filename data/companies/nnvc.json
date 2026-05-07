@@ -1,0 +1,59 @@
+{
+  "issuer_name": "NANOVIRICIDES, INC.",
+  "ticker": "NNVC",
+  "exchange": "NYSE",
+  "cik": "0001379006",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/nnvc_10k_full.htm", "note": "10-K full document fetched; pipeline section auto-locator failed but content extracted via grep over full text"},
+    "website": {"error": "https://nanoviricides.com/pipeline and /pipeline/ both 404; content used from 10-K"},
+    "ctgov": {"file": "data/nnvc_ctgov_compact.json", "trials": 0, "sponsor_query": "NanoViricides", "note": "No NCT records under sponsor name"}
+  },
+  "pipeline": [
+    {
+      "asset": "NV-387",
+      "aka": ["NV-CoV-2 Oral Syrup", "NV-CoV-2 Oral Gummies"],
+      "modality": "Nanoviricide (polymeric ligand-decorated nanomicelle mimicking host attachment receptors; broad-spectrum antiviral)",
+      "target": "Heparan sulfate proteoglycan (S-PG) / virus surface attachment proteins (host-receptor mimic)",
+      "license_origin": "Internal (Nanoviricides platform technology)",
+      "indications": [
+        {
+          "indication": "MPox (Monkeypox)",
+          "highest_phase": "P2",
+          "trial_name": "Phase II clinical trial of NV-387 for treatment of MPox in DRC",
+          "trial_design": "Planned Phase II clinical trial in Democratic Republic of Congo for treatment of MPox disease caused by MPXV virus; CRO engaged, sites identified, preliminary ACOREP ethics-committee approval obtained, clinical trial application in development",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — preliminary ethics approval obtained from ACOREP (Africa region); clinical trial application in development; not yet enrolling. Phase Ia/Ib safety trial in healthy subjects already completed (no SAEs).",
+          "lead_sponsor": "NanoViricides, Inc.",
+          "key_milestones": ["File CTA in DRC", "Initiate Phase II MPox enrollment", "Apply for FDA Orphan Drug Designation for MPox and Smallpox"]
+        },
+        {
+          "indication": "Viral acute / severe-acute respiratory infections (Viral-ARI / Viral-SARI; basket: Influenza, RSV, Coronaviruses)",
+          "highest_phase": "P2",
+          "trial_name": "Phase II adaptive basket trial of NV-387 for Viral-ARI/SARI",
+          "trial_design": "Adaptive, basket-type Phase II trial designed to evaluate NV-387 across Influenza, RSV, and Coronaviruses in a single study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — draft clinical protocol developed; in planning stage; clinical trial application not yet filed",
+          "lead_sponsor": "NanoViricides, Inc.",
+          "key_milestones": ["Finalize protocol", "File CTA", "Initiate enrollment"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "NV-HHV-1 (Shingles skin cream)", "reason": "IND-enabling; non-clinical safety/pharmacology completed but no IND filed yet"},
+    {"asset": "NV-HHV-1 oral (HSV-1/HSV-2 systemic)", "reason": "Preclinical"},
+    {"asset": "NV-HIV-1 (HIVCide program)", "reason": "Preclinical; program paused pending resources"},
+    {"asset": "NV-387-Rp / NV-387-Ribvp (Modality 3 nanoviricides)", "reason": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_or_p2_p3": 0,
+    "p2_or_p1_p2": 1,
+    "p1": 0
+  }
+}

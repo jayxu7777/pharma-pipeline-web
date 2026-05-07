@@ -1,0 +1,144 @@
+{
+  "issuer_name": "CORCEPT THERAPEUTICS INC",
+  "ticker": "CORT",
+  "exchange": "Nasdaq",
+  "cik": "0001088856",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-011091", "filing_date": "2026-02-24", "doc": "cort-20251231.htm"},
+    "website": {"error": "Pipeline page returned binary/JPEG image content; relied on 10-K + ctgov"},
+    "ctgov": {"file": "data/cort_ctgov_compact.json", "lead_sponsor_query": "Corcept Therapeutics", "active_corcept_studies": 9}
+  },
+  "pipeline": [
+    {
+      "asset": "Relacorilant",
+      "aka": ["CORT125134"],
+      "modality": "Selective glucocorticoid receptor (cortisol) modulator (oral small molecule)",
+      "target": "Glucocorticoid receptor (selective cortisol modulator)",
+      "license_origin": "Corcept internal",
+      "indications": [
+        {
+          "indication": "Endogenous hypercortisolism (Cushing's syndrome)",
+          "highest_phase": "NDA / CRL — Phase 3 complete",
+          "trial_name": "GRACE (pivotal Phase 3) + GRADIENT (Phase 3) + long-term extension",
+          "trial_design": "GRACE: open-label run-in then randomized withdrawal Phase 3. GRADIENT: randomized double-blind Phase 3 in adrenal etiologies. NDA submitted Dec 2024; CRL Dec 2025; additional efficacy data discussions with FDA ongoing.",
+          "nct_ids": ["NCT03604198"],
+          "trial_status": "NDA filed; CRL received Dec 30, 2025; long-term extension active, not recruiting",
+          "lead_sponsor": "Corcept Therapeutics",
+          "key_milestones": ["CRL Dec 30, 2025 — additional efficacy required"]
+        },
+        {
+          "indication": "Platinum-resistant ovarian cancer (with nab-paclitaxel)",
+          "highest_phase": "NDA filed (Phase 3 complete)",
+          "trial_name": "ROSELLA",
+          "trial_design": "Randomized 1:1 Phase 3, 381 women with recurrent platinum-resistant ovarian cancer; relacorilant 150 mg intermittent + nab-paclitaxel vs nab-paclitaxel alone",
+          "nct_ids": ["NCT05257408"],
+          "trial_status": "Active, not recruiting; PFS HR 0.70 (p=0.008), OS HR 0.65 (p=0.0004); NDA accepted Sept 2025; PDUFA date July 11, 2026",
+          "lead_sponsor": "Corcept Therapeutics",
+          "key_milestones": ["PDUFA July 11, 2026", "EMA MAA Oct 2025"]
+        },
+        {
+          "indication": "Solid tumors / gynecological cancers (endometrial, ovarian — combinations)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BELLA (3-part) + multi-regimen Phase 2",
+          "trial_design": "Phase 2 BELLA evaluating relacorilant + nab-paclitaxel +/- bevacizumab in platinum-resistant ovarian (Part A), platinum-sensitive ovarian post-PARPi (Part B), and endometrial cancer (Part C)",
+          "nct_ids": ["NCT06906341"],
+          "trial_status": "Recruiting (Part A enrollment complete Dec 2025)",
+          "lead_sponsor": "Corcept Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic pancreatic cancer (with nab-paclitaxel + gemcitabine)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Relacorilant + nab-paclitaxel + gemcitabine pancreatic Phase 2",
+          "trial_design": "Phase 2 of relacorilant 150 mg QD + nab-paclitaxel 100 mg/m^2 + gemcitabine in metastatic pancreatic cancer",
+          "nct_ids": ["NCT07259317"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Corcept Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Dazucorilant",
+      "aka": ["CORT113176"],
+      "modality": "Selective cortisol modulator (oral small molecule)",
+      "target": "Glucocorticoid receptor",
+      "license_origin": "Corcept internal",
+      "indications": [
+        {
+          "indication": "Amyotrophic lateral sclerosis (ALS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "DAZALS",
+          "trial_design": "Randomized 1:1:1 Phase 2 of dazucorilant 150 mg, 300 mg, or placebo daily for 24 weeks; long-term open-label extension at 300 mg",
+          "nct_ids": ["NCT05407324"],
+          "trial_status": "Recruiting (extension); primary endpoint not met but significant survival benefit at 300 mg",
+          "lead_sponsor": "Corcept Therapeutics",
+          "key_milestones": ["84% reduction in early death at 300 mg vs placebo (HR 0.16, p=0.0009)"]
+        }
+      ]
+    },
+    {
+      "asset": "Miricorilant",
+      "aka": ["CORT118335"],
+      "modality": "Selective cortisol modulator (oral small molecule)",
+      "target": "Glucocorticoid receptor",
+      "license_origin": "Corcept internal",
+      "indications": [
+        {
+          "indication": "MASH (metabolic dysfunction-associated steatohepatitis)",
+          "highest_phase": "Phase 2b",
+          "trial_name": "MONARCH",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2b in two cohorts: Cohort A (biopsy-confirmed MASH, 82 patients), Cohort B (presumed MASH, 93 patients), 24-48 week treatment",
+          "nct_ids": ["NCT06108219"],
+          "trial_status": "Active, not recruiting (enrollment complete)",
+          "lead_sponsor": "Corcept Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "MASLD (liver fat reduction)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Miricorilant MASLD Phase 1 + PK study",
+          "trial_design": "Phase 1 evaluation of miricorilant on liver fat in MASLD; additional PK/safety study",
+          "nct_ids": ["NCT06947304", "NCT07553663"],
+          "trial_status": "Recruiting / Not yet recruiting",
+          "lead_sponsor": "Corcept Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Nenocorilant",
+      "aka": ["CORT125236"],
+      "modality": "Selective cortisol modulator (oral small molecule)",
+      "target": "Glucocorticoid receptor",
+      "license_origin": "Corcept internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (with nivolumab)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Nenocorilant + nivolumab Phase 1/2",
+          "trial_design": "Two-part Phase 1/2 study of nenocorilant 200 mg/300 mg combined with nivolumab in advanced solid tumors",
+          "nct_ids": ["NCT07276373"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Corcept Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_products": ["Korlym (mifepristone) — for hypercortisolism in Cushing's syndrome with type 2 diabetes/glucose intolerance"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase_3_indications": 2,
+    "phase_2_indications": 4,
+    "phase_1_indications": 2
+  }
+}

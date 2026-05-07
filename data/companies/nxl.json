@@ -1,0 +1,68 @@
+{
+  "issuer_name": "Nexalin Technology, Inc.",
+  "ticker": "NXL",
+  "exchange": "Nasdaq",
+  "cik": "0001527352",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001829126-26-002673",
+      "filing_date": "2026-03-25",
+      "path": "data/nxl_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://nexalin.com",
+      "note": "Marketing site mentions anxiety / insomnia indications and the Nexalin device family; no dedicated /pipeline page (404). Marketing content does not list NCT IDs or trial phases."
+    },
+    "ctgov": {
+      "path": "data/nxl_ctgov_compact.json",
+      "trials_p1_p3": 0,
+      "note": "No active P1/P2/P3 trials with Nexalin Technology as lead sponsor."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      {
+        "name": "Gen-1 Nexalin device (cranial electrotherapy stimulation)",
+        "indication": "Anxiety and insomnia (Class II) and depression (Class III post Dec 2019 FDA reclassification of CES devices)",
+        "status": "FDA-cleared / marketed"
+      }
+    ],
+    "in_development_devices": [
+      {
+        "name": "Gen-2 Console / Gen-2 SYNC (transcranial alternating current stimulation, tACS)",
+        "indication": "Alzheimer's disease, dementia, mild cognitive impairment (MCI)",
+        "status": "FDA Q-Submission accepted October 2025; FDA meeting held November 2025; protocol/strategy under development; no IND/IDE granted, no NCT ID, no active US clinical study yet. Hong Kong joint venture with Wider for Gen-2 commercialization in China."
+      },
+      {
+        "name": "Gen-3 HALO headset",
+        "indication": "Mental health conditions (broad; anxiety/insomnia/depression/mTBI)",
+        "status": "Pre-submission consultations with FDA ongoing; planned future US clinical trials. No active trial."
+      }
+    ]
+  },
+  "excluded_preclinical": [
+    {
+      "asset": "Gen-2 SYNC tACS",
+      "indication": "Alzheimer's disease / dementia / MCI",
+      "reason": "FDA Q-Sub stage only; no IDE-authorized clinical study yet (planned, not started)."
+    },
+    {
+      "asset": "Gen-3 HALO",
+      "indication": "Mental health (anxiety / insomnia / depression / mTBI)",
+      "reason": "FDA pre-submission stage; no IDE-authorized clinical study yet (planned, not started)."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device (neurostimulation) company. Gen-1 device is already FDA-cleared and marketed for anxiety/insomnia (Class II) and depression (Class III). Next-generation Gen-2 SYNC (Alzheimer's/dementia/MCI) and Gen-3 HALO (mental health) are still in pre-submission / Q-Submission interactions with the FDA - no IDE-authorized pivotal clinical studies are active and no trials are listed on ClinicalTrials.gov."
+}

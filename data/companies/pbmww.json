@@ -1,0 +1,47 @@
+{
+  "issuer_name": "Psyence Biomedical Ltd.",
+  "ticker": "PBMWW",
+  "exchange": "Nasdaq",
+  "cik": "0001985062",
+  "region": "Bermuda / Australia (foreign filer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F instead of 10-K; no 10-K on EDGAR"},
+    "website": {"url": "https://psyencebiomed.com", "note": "/pipeline returns 404; details extracted from homepage"},
+    "ctgov": {"file": "data/pbmww_ctgov_compact.json", "trials": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "NPX-5 (psilocybin)",
+      "aka": ["Psilocybin therapy", "Botanical psilocybin"],
+      "modality": "Botanical (nature-derived, non-synthetic) psilocybin — psychedelic-assisted psychotherapy",
+      "target": "Serotonin 5-HT2A receptor agonist",
+      "license_origin": "In-house (Psyence) with GMP supply chain",
+      "indications": [
+        {
+          "indication": "Adjustment Disorder in Cancer Patients (palliative care)",
+          "highest_phase": "Phase 2 (described as Phase IIb on website)",
+          "trial_name": "Psilocybin-Assisted Psychotherapy in Cancer Patients With Adjustment Disorder",
+          "trial_design": "Interventional Phase 2 study evaluating single-dose psilocybin-assisted psychotherapy in cancer patients with adjustment disorder (incl. anxious mood) across multiple cancer types",
+          "nct_ids": ["NCT07072728"],
+          "trial_status": "RECRUITING (start Oct 2025; primary completion Dec 2026); first patient dosed reported by company",
+          "lead_sponsor": "Psyence Australia Pty Ltd",
+          "key_milestones": ["Oct 2025: study start / first patient dosed", "Dec 2026: anticipated primary completion"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Ibogaine", "reason": "Pharmaceutical-grade supply chain established via PsyLabs investment; no active P1-P3 clinical program disclosed."}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 0
+  },
+  "blockers": "Foreign private issuer — no 10-K on EDGAR (files 20-F or Canadian/Bermuda equivalents). Pipeline reconstructed from website + ctgov."
+}

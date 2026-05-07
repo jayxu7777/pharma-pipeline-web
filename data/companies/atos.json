@@ -1,0 +1,77 @@
+{
+  "issuer_name": "Atossa Therapeutics, Inc.",
+  "ticker": "ATOS",
+  "exchange": "Nasdaq",
+  "cik": "0001488039",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-124396", "filed": "2026-03-25", "form": "10-K"},
+    "website": {"url": "https://atossatherapeutics.com/"},
+    "ctgov": {"query_sponsor": "Atossa Therapeutics", "results": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "(Z)-endoxifen",
+      "aka": ["oral Z-endoxifen"],
+      "modality": "Small molecule, oral SERM/SERD (most active metabolite of tamoxifen)",
+      "target": "Estrogen receptor alpha (ER); also PKCbeta1",
+      "license_origin": "Internal (proprietary process; patent through Nov 2038)",
+      "indications": [
+        {
+          "indication": "ER+/HER2- breast cancer (neoadjuvant, premenopausal) — EVANGELINE",
+          "highest_phase": "Phase 2",
+          "trial_name": "EVANGELINE",
+          "trial_design": "Phase 2 (Z)-endoxifen + OFS vs exemestane + OFS as neoadjuvant; Simon 2-stage; primary endpoint Ki-67 response",
+          "nct_ids": ["NCT05607004"],
+          "trial_status": "Recruiting (primary completion 2026-11)",
+          "lead_sponsor": "Atossa Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "ER+/HER2- early breast cancer (neoadjuvant) — I-SPY 2 EOP",
+          "highest_phase": "Phase 2",
+          "trial_name": "I-SPY 2 Endocrine Optimization Pilot",
+          "trial_design": "Neoadjuvant (Z)-endoxifen 40 mg ± abemaciclib (postmeno) or elagolix/GnRH agonist (premeno)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active — enrollment nearly complete; data 2H 2026",
+          "lead_sponsor": "Quantum Leap Healthcare Collaborative (collaborative — Atossa-supplied drug)",
+          "key_milestones": ["Data expected early 2H 2026"]
+        },
+        {
+          "indication": "Mammographic Breast Density (premenopausal women) — Karisma",
+          "highest_phase": "Phase 2",
+          "trial_name": "Karisma-(Z)-endoxifen",
+          "trial_design": "Phase 2 randomized, double-blind, placebo-controlled dose-response; 240 participants; 1 mg vs 2 mg vs placebo for 6 months",
+          "nct_ids": ["NCT05068388"],
+          "trial_status": "Active follow-up — 24-mo durability follow-up; topline 1H 2026; durability end Q2 2026",
+          "lead_sponsor": "Atossa Therapeutics, Inc.",
+          "key_milestones": ["1 mg dose: 17.3% MBD reduction (p<0.01); 2 mg dose: 23.5% reduction (p<0.01)"]
+        },
+        {
+          "indication": "Ductal Carcinoma In Situ (DCIS) — RECAST platform",
+          "highest_phase": "Phase 2",
+          "trial_name": "RECAST DCIS",
+          "trial_design": "Multicenter platform study; 6-month neoadjuvant (Z)-endoxifen with MRI response assessment to identify low-risk DCIS patients suitable for active surveillance; ~100 patients",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrolling",
+          "lead_sponsor": "Quantum Leap Healthcare Collaborative (platform; Atossa-supplied drug)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "(Z)-endoxifen for Duchenne Muscular Dystrophy / DMD carriers / McCune-Albright Syndrome", "reason": "Preclinical exploration"},
+    {"asset": "AT-301 nasal spray", "reason": "Phase 1 completed 2020 (COVID-19 program); not actively advanced"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT02539615", "reason": "Withdrawn — ForeCYTE Breast Aspirator (legacy device program)"},
+    {"nct_id": "NCT02540330", "reason": "Terminated — fulvestrant intraductal Phase 2"},
+    {"nct_id": "NCT04519788", "reason": "Completed Phase 1 AT-301 nasal spray (legacy COVID program)"},
+    {"nct_id": "NCT04616430", "reason": "Completed Phase 2 topical endoxifen (Karolinska collaboration)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 0, "p2": 1, "p1": 0}
+}

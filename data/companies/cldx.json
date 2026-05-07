@@ -1,0 +1,98 @@
+{
+  "issuer_name": "Celldex Therapeutics, Inc.",
+  "ticker": "CLDX",
+  "exchange": "Nasdaq",
+  "cik": "0000744218",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-019652", "filing_date": "2026-02-25", "path": "data/cldx_10k_pipeline_section.html"},
+    "website": {"url": "https://www.celldex.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/cldx_ctgov_compact.json", "sponsor_query": "Celldex Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "Barzolvolimab",
+      "aka": ["CDX-0159"],
+      "modality": "Humanized monoclonal antibody",
+      "target": "KIT receptor tyrosine kinase",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic Spontaneous Urticaria (CSU)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 CSU pivotal program",
+          "trial_design": "Randomized placebo-controlled; enrollment complete Feb 2026",
+          "nct_ids": ["NCT06445023", "NCT06455202", "NCT07256392"],
+          "trial_status": "Active, not recruiting / Recruiting (open-label extension); topline data expected Q4 2026",
+          "lead_sponsor": "Celldex Therapeutics",
+          "key_milestones": ["Enrollment complete Feb 2026", "Topline data Q4 2026"]
+        },
+        {
+          "indication": "Chronic Inducible Urticaria (Cold Urticaria and Symptomatic Dermographism)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 ColdU/SD study",
+          "trial_design": "Randomized placebo-controlled; initiated Dec 2025",
+          "nct_ids": ["NCT07266402"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Celldex Therapeutics",
+          "key_milestones": ["Phase 3 initiated December 2025"]
+        },
+        {
+          "indication": "Prurigo Nodularis (PN)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 PN study",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT06366750"],
+          "trial_status": "Active, not recruiting; enrollment completed Dec 2025; topline summer 2026",
+          "lead_sponsor": "Celldex Therapeutics",
+          "key_milestones": ["Enrollment complete Dec 2025", "Topline data summer 2026"]
+        },
+        {
+          "indication": "Atopic Dermatitis (AD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 AD study",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT06727552"],
+          "trial_status": "Active, not recruiting; enrollment completed Jan 2026; topline late 2026",
+          "lead_sponsor": "Celldex Therapeutics",
+          "key_milestones": ["Enrollment complete Jan 2026", "Topline data late 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "CDX-622",
+      "aka": [],
+      "modality": "Bispecific antibody",
+      "target": "TSLP and SCF",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Healthy volunteers (Phase 1a SAD/MAD)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1a SAD/MAD in healthy volunteers",
+          "trial_design": "Single and multiple ascending dose; enrollment completed Jan 2026",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrollment complete; MAD/subcutaneous data expected Q3 2026",
+          "lead_sponsor": "Celldex Therapeutics",
+          "key_milestones": ["SAD positive data Oct 2025", "MAD/SC data Q3 2026"]
+        },
+        {
+          "indication": "Mild to Moderate Asthma (proof of mechanism)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 PoM in asthma",
+          "trial_design": "Open-label, single-dose",
+          "nct_ids": ["NCT07330778"],
+          "trial_status": "Recruiting; initiated Jan 2026",
+          "lead_sponsor": "Celldex Therapeutics",
+          "key_milestones": ["Initiated January 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Next-generation bispecific antibody platform (additional candidates beyond CDX-622)"],
+  "excluded_legacy_terminated": ["CDX-1135 (NCT01791686, terminated)", "CDX-301/CDX-1140 in pancreatic cancer (NCT04536077, terminated)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "p3_indications": 2, "p2_indications": 2, "p1_indications": 2}
+}

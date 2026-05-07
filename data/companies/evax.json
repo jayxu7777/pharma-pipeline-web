@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Evaxion A/S (Evaxion Biotech A/S)",
+  "ticker": "EVAX",
+  "exchange": "Nasdaq",
+  "cik": "0001828253",
+  "region": "Denmark (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F instead of 10-K"},
+    "website": {"url": "https://evaxion.ai/pipeline"},
+    "ctgov": {"trials_returned": 2, "lead_sponsor": "Evaxion Biotech A/S"}
+  },
+  "pipeline": [
+    {
+      "asset": "EVX-01",
+      "aka": [],
+      "modality": "AI-designed personalized neoantigen peptide-based immunotherapy (lipoplex/peptide formulation)",
+      "target": "Patient-specific tumor neoantigens (in combination with anti-PD-1)",
+      "license_origin": "Internal (Evaxion AI-Immunology platform); Phase 2 conducted in collaboration with Merck (pembrolizumab)",
+      "indications": [
+        {
+          "indication": "Unresectable or metastatic melanoma (Stage IV / unresectable)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Single-arm Phase 2 EVX-01 + pembrolizumab in advanced melanoma",
+          "trial_design": "Single-arm Phase 2 evaluating EVX-01 (personalized neoantigen vaccine) in combination with pembrolizumab in 1L unresectable/metastatic melanoma. Collaboration with Merck Sharp & Dohme.",
+          "nct_ids": ["NCT05309421"],
+          "trial_status": "Active, not recruiting (primary completion September 2025)",
+          "lead_sponsor": "Evaxion Biotech A/S",
+          "key_milestones": ["FDA Fast Track designation", "Primary completion Sept 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "EVX-03", "modality": "Targeted DNA neoantigen + ERV", "indication": "Solid tumors (TBD)", "reason": "Preclinical (CTA/IND ready)"},
+    {"asset": "EVX-04", "modality": "DNA encoding ERV antigens", "indication": "Acute Myeloid Leukemia", "reason": "Preclinical"},
+    {"asset": "EVX-B1", "modality": "Protein vaccine", "indication": "S. aureus skin/soft tissue infection", "reason": "Preclinical (CMC/tox pending)"},
+    {"asset": "EVX-B2", "modality": "Protein and mRNA vaccines", "indication": "N. gonorrhoeae", "reason": "Preclinical"},
+    {"asset": "EVX-B4", "indication": "Group A Streptococcus", "reason": "Preclinical"},
+    {"asset": "EVX-V1", "indication": "Cytomegalovirus (CMV)", "reason": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "EVX-02 (DNA-encoded neoantigen vaccine)", "trial": "Phase 1/2 adjuvant immunotherapy in melanoma stage III/IV with anti-PD-1", "nct": "NCT04455503", "reason": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

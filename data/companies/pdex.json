@@ -1,0 +1,46 @@
+{
+  "issuer_name": "PRO DEX INC",
+  "ticker": "PDEX",
+  "exchange": "Nasdaq",
+  "cik": "0000788920",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001079973-25-001426",
+      "filing_date": "2025-09-04",
+      "doc": "pdex_10k-063025.htm"
+    },
+    "website": {
+      "url": "https://www.pro-dex.com/",
+      "note": "No /pipeline page (404). Homepage describes contract manufacturing services and powered driver portfolio; no clinical trials disclosed."
+    },
+    "ctgov": {
+      "sponsor_query": "Pro-Dex",
+      "result": "Zero P1-P3 trials returned with Pro-Dex as lead sponsor or collaborator."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "business_model": "Vertically integrated contract design, development, and manufacturing of powered surgical and medical devices (autoclavable, battery-powered drivers) for orthopedic, thoracic, and CMF markets",
+    "services": [
+      "Product design and engineering",
+      "Precision machining and finished device assembly",
+      "Regulatory support including 510(k) filings",
+      "Quality testing and DHF management",
+      "ISO 13485-certified facilities (Irvine and Tustin, CA)"
+    ],
+    "secondary": "Sells rotary air motors to industrial customers (de minimis revenue)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Contract manufacturer / OEM of powered surgical drivers. No proprietary therapeutic pipeline; no company-sponsored clinical trials in ClinicalTrials.gov. Customers (medical device OEMs) own their device clearances and any associated IDE studies."
+}

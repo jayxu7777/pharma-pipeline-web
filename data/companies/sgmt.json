@@ -1,0 +1,119 @@
+{
+  "issuer_name": "Sagimet Biosciences Inc.",
+  "ticker": "SGMT",
+  "exchange": "Nasdaq",
+  "cik": "0001400118",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/sgmt_10k_pipeline_section.html", "filing_date": "2026-03-11", "accession": "0001104659-26-026140"},
+    "website": {"url": "https://sagimet.com/programs/", "note": "JS-rendered; details supplemented from press releases."},
+    "ctgov": {"file": "data/sgmt_ctgov_compact.json", "trials_returned": 12, "active_p1_p3_count": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "Denifanstat",
+      "aka": ["TVB-2640", "ASC40 (Ascletis license name)"],
+      "modality": "Small molecule (oral selective FASN inhibitor)",
+      "target": "Fatty acid synthase (FASN)",
+      "license_origin": "Internal (Sagimet); Greater China rights out-licensed to Ascletis",
+      "indications": [
+        {
+          "indication": "Metabolic Dysfunction-Associated Steatohepatitis (MASH) — F2/F3 fibrosis",
+          "highest_phase": "Phase 3",
+          "trial_name": "FASCINATE-3 (planned, Sagimet-sponsored)",
+          "trial_design": "Planned registrational Phase 3 in non-cirrhotic MASH with F2-F3 fibrosis (Breakthrough Therapy Designation granted; end-of-Phase 2 with FDA completed)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Sagimet completed end-of-Phase 2 with FDA; original Phase 3 NCT06594523/NCT06692283 were withdrawn as program design was finalized; new Phase 3 not yet posted",
+          "lead_sponsor": "Sagimet Biosciences Inc.",
+          "key_milestones": ["FDA Breakthrough Therapy Designation"]
+        },
+        {
+          "indication": "MASH with F4 (compensated cirrhosis) — proof-of-concept",
+          "highest_phase": "Phase 2",
+          "trial_name": "Denifanstat MASH F4 POC (planned)",
+          "trial_design": "Phase 2 proof-of-concept efficacy trial in compensated cirrhosis (F4) MASH",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiation targeted 2H 2026",
+          "lead_sponsor": "Sagimet Biosciences Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Moderate-to-Severe Acne (US/global)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Denifanstat Acne Registrational Phase 3 (planned, Sagimet)",
+          "trial_design": "Planned registrational Phase 3 in moderate-to-severe acne",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IND filing targeted mid-2026; Phase 3 start 2H 2026",
+          "lead_sponsor": "Sagimet Biosciences Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TVB-3567",
+      "aka": [],
+      "modality": "Small molecule (next-generation FASN inhibitor)",
+      "target": "Fatty acid synthase (FASN)",
+      "license_origin": "Internal (Sagimet)",
+      "indications": [
+        {
+          "indication": "Acne (healthy volunteer / Phase 1)",
+          "highest_phase": "Phase 1",
+          "trial_name": "TVB-3567 First-in-Human Phase 1",
+          "trial_design": "Phase 1 safety, tolerability, PK, PD in healthy volunteers (acne indication)",
+          "nct_ids": ["NCT06989840"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Sagimet Biosciences Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TVB-2640 (denifanstat) — investigator-initiated oncology studies",
+      "aka": ["denifanstat"],
+      "modality": "Small molecule (FASN inhibitor)",
+      "target": "Fatty acid synthase (FASN)",
+      "license_origin": "Internal (Sagimet) — provided to academic investigators",
+      "indications": [
+        {
+          "indication": "KRAS-Mutant Non-Small Cell Lung Cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "TVB-2640 KRAS-mutant NSCLC Phase 2",
+          "trial_design": "Investigator-initiated Phase 2",
+          "nct_ids": ["NCT03808558"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "David E. Gerber (UT Southwestern; Sagimet supports)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic Castration-Resistant Prostate Cancer",
+          "highest_phase": "Phase 1",
+          "trial_name": "TVB-2640 mCRPC Phase 1",
+          "trial_design": "Investigator-initiated Phase 1",
+          "nct_ids": ["NCT05743621"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Weill Cornell Medicine (Sagimet supports)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT06594523 denifanstat MASH Phase 3 (WITHDRAWN — superseded by revised Phase 3 plan)",
+    "NCT06692283 denifanstat MASLD/MASH Phase 3 (WITHDRAWN — superseded)",
+    "NCT03938246 denifanstat MASLD/MASH Phase 2 FASCINATE-2 (COMPLETED, positive readout)",
+    "NCT04906421 denifanstat NASH/NAFLD Phase 2 (COMPLETED)",
+    "NCT05835180 denifanstat hepatic impairment Phase 1 (COMPLETED)",
+    "NCT07216313 denifanstat Phase 1 healthy volunteers (COMPLETED)",
+    "NCT05657834 denifanstat Phase 1 healthy volunteers (COMPLETED)",
+    "NCT02223247 TVB-2640 solid tumor Phase 1 (COMPLETED)",
+    "NCT02948569 TVB-2640 metabolic syndrome Phase 1/2 (COMPLETED, investigator-led)"
+  ],
+  "excluded_partner_owned": [
+    "Ascletis ASC40 (denifanstat) Phase 3 in moderate-to-severe acne in China (positive readout June 2025; Greater China rights belong to Ascletis)"
+  ],
+  "summary_counts": {"total_assets": 3, "phase_3": 2, "phase_2": 2, "phase_1": 2}
+}

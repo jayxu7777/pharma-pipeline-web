@@ -1,0 +1,82 @@
+{
+  "issuer_name": "MediWound Ltd.",
+  "ticker": "MDWD",
+  "exchange": "Nasdaq",
+  "cik": "0001593984",
+  "region": "IL",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://www.mediwound.com/", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/mdwd_ctgov_compact.json", "lead_sponsor_query": "MediWound"}
+  },
+  "pipeline": [
+    {
+      "asset": "EscharEx",
+      "aka": ["EX-03", "EX-02"],
+      "modality": "Topical bromelain-based proteolytic enzyme biological",
+      "target": "Enzymatic debridement of necrotic tissue",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Venous leg ulcers (VLU) — debridement",
+          "highest_phase": "Phase 3",
+          "trial_name": "VALUE",
+          "trial_design": "Double-blind randomized controlled Phase 3 vs gel vehicle in VLU debridement",
+          "nct_ids": ["NCT06568627"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "MediWound Ltd",
+          "key_milestones": ["Primary completion December 2026"]
+        },
+        {
+          "indication": "Venous leg ulcers (VLU) — Phase 2 vs collagenase",
+          "highest_phase": "Phase 2",
+          "trial_name": "EX-03 Phase 2 vs collagenase",
+          "trial_design": "Phase 2 evaluating EX-03 vs placebo vs collagenase / non-surgical SOC in VLU",
+          "nct_ids": ["NCT06690177"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "MediWound Ltd",
+          "key_milestones": []
+        },
+        {
+          "indication": "Basal cell carcinoma (BCC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "EscharEx in BCC",
+          "trial_design": "Phase 1/2 in superficial and nodular BCC",
+          "nct_ids": ["NCT05157763"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "MediWound Ltd",
+          "key_milestones": []
+        },
+        {
+          "indication": "Diabetic foot ulcers (DFU)",
+          "highest_phase": "Phase 3 (planned)",
+          "trial_name": "EscharEx DFU Phase 3",
+          "trial_design": "Phase 3 in DFU debridement",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiation H2 2026",
+          "lead_sponsor": "MediWound Ltd",
+          "key_milestones": ["Trial planned to initiate H2 2026"]
+        },
+        {
+          "indication": "Pressure ulcers (PU)",
+          "highest_phase": "Investigator-initiated",
+          "trial_name": "EscharEx PU IIT",
+          "trial_design": "Investigator-initiated trial in pressure ulcers",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IIT initiation H2 2026",
+          "lead_sponsor": "MediWound Ltd (IIT)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {"name": "NexoBrid", "indication": "Eschar removal in deep partial and full-thickness thermal burns", "status": "Approved (FDA, EMA, Japan)"},
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "PolyHeal-2", "nct": "NCT01679678", "reason": "Terminated"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 1, "P1": 0, "P1_P2": 1, "indications_active": 5}
+}

@@ -1,0 +1,40 @@
+{
+  "issuer_name": "Bora Pharmaceuticals Co., Ltd. (ADR)",
+  "ticker": "BORAY",
+  "exchange": "OTC",
+  "cik": "0002097461",
+  "region": "TW",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F (Taiwan-listed parent; no US 10-K). EDGAR submissions feed shows no 10-K for CIK 0002097461."
+    },
+    "website": {
+      "url_tried": [
+        "https://www.bora-corp.com/en/pipeline",
+        "https://www.bora-corp.com/en"
+      ],
+      "error": "no public clinical pipeline page found; corporate site returned 404 / image content. Company communications describe a CDMO + Taiwan branded-pharma distribution business (e.g., Lexapro, Lendormin in-license/distribution), with no enumerated proprietary clinical pipeline."
+    },
+    "ctgov": {
+      "queried_sponsor": ["Bora Pharmaceuticals", "Bora"],
+      "unique_trials_p1_p3": 0,
+      "note": "ClinicalTrials.gov returned 0 P1-P3 trials with Bora as lead sponsor."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Bora operates primarily as a global CDMO (oral solid dose, sterile injectables, biologics via Eden Biologics acquisition) with US, Canada, and Taiwan facilities. In Taiwan, Bora also distributes branded CNS products (e.g., Lexapro, Lendormin) under license. No proprietary innovative drug currently disclosed in P1/P2/P3."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "CDMO + branded-pharma distributor (Taiwan). No company-sponsored P1/P2/P3 trials on ClinicalTrials.gov; no proprietary clinical pipeline disclosed on corporate website. Foreign private issuer (no 10-K on file). Manufactures and packages clinical/commercial product on behalf of customer sponsors — those trials are partner-owned and excluded per workflow rules."
+}

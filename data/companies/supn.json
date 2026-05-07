@@ -1,0 +1,134 @@
+{
+  "issuer_name": "Supernus Pharmaceuticals, Inc.",
+  "ticker": "SUPN",
+  "exchange": "Nasdaq",
+  "cik": "0001356576",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-03-02", "accession": "0001356576-26-000011", "path": "data/supn_10k_pipeline_section.html"},
+    "website": {"path": "https://www.supernus.com/pipeline", "trials_listed": "SPN-820/821 (TRD), SPN-817 (epilepsy)"},
+    "ctgov": {"path": "data/supn_ctgov_compact.json", "trials_found": 65}
+  },
+  "pipeline": [
+    {
+      "asset": "SPN-817",
+      "aka": ["BIS-001", "huperzine A extended-release"],
+      "modality": "Oral synthetic huperzine A extended-release - acetylcholinesterase inhibitor",
+      "target": "Acetylcholinesterase (AChE)",
+      "license_origin": "Acquired via Biscayne Neurotherapeutics (2018)",
+      "indications": [
+        {
+          "indication": "Treatment-resistant focal-onset (partial) epilepsy",
+          "highest_phase": "Phase 2",
+          "trial_name": "RENAISSANCE 2 + open-label extension",
+          "trial_design": "Phase 2 randomized double-blind placebo-controlled of 3mg and 4mg BID in adults with treatment-resistant focal seizures (~258 patients); plus open-label extension",
+          "nct_ids": ["NCT05518578", "NCT06798896", "NCT07141329"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Supernus Pharmaceuticals, Inc.",
+          "key_milestones": ["Orphan Drug Designation for Dravet Syndrome and Lennox-Gastaut Syndrome"]
+        },
+        {
+          "indication": "Focal impaired awareness seizures (Phase 1/2)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BIS-001-ER focal seizure study",
+          "trial_design": "Phase 1/2 in adult focal impaired awareness seizures",
+          "nct_ids": ["NCT03474770"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2026-12-30)",
+          "lead_sponsor": "Supernus Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SPN-820 / SPN-821",
+      "aka": ["NV-5138"],
+      "modality": "Oral first-in-class intracellular mTORC1 enhancer (sestrin binder)",
+      "target": "Sestrin / mTORC1",
+      "license_origin": "Co-development / option-to-acquire from Navitor Pharmaceuticals (April 2020); MOU updated May 2025",
+      "indications": [
+        {
+          "indication": "Major depressive disorder (intermittent dosing follow-on)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SPN-821 follow-on Phase 2b",
+          "trial_design": "Phase 2 multi-center randomized double-blind placebo-controlled in ~200 adults with MDD; SPN-821 2400 mg twice weekly adjunctive to baseline antidepressant",
+          "nct_ids": ["NCT07226661"],
+          "trial_status": "RECRUITING (started 2026-01-19; primary completion 2026-12-31)",
+          "lead_sponsor": "Supernus Pharmaceuticals, Inc.",
+          "key_milestones": ["Prior Phase 2b in TRD did not meet primary/secondary endpoints (Feb 2025)", "New intermittent-dosing Phase 2b in MDD ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "SPN-443",
+      "aka": ["SPN-443"],
+      "modality": "Oral triple reuptake inhibitor (NE / DA / 5-HT) - novel stimulant",
+      "target": "Norepinephrine / dopamine / serotonin transporters",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Attention-deficit/hyperactivity disorder (ADHD)",
+          "highest_phase": "Phase 1 (planned SAD/MAD 2H 2026)",
+          "trial_name": "SPN-443 SAD/MAD",
+          "trial_design": "Planned Phase 1 single-ascending and multiple-ascending dose study in healthy adults",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - SAD/MAD initiation 2H 2026 (Phase 1 PK study completed in 2024)",
+          "lead_sponsor": "Supernus Pharmaceuticals, Inc.",
+          "key_milestones": ["Phase 1 PK study (two oral formulations) completed 2024 with adequate bioavailability and tolerability"]
+        }
+      ]
+    },
+    {
+      "asset": "Zuranolone",
+      "aka": ["SAGE-217", "ZURZUVAE"],
+      "modality": "Oral neuroactive steroid - GABA-A positive allosteric modulator",
+      "target": "GABA-A receptor (synaptic + extrasynaptic)",
+      "license_origin": "Acquired via Sage Therapeutics (July 2025); collaboration with Biogen (US ex-Japan) and Shionogi (Japan/SK/Taiwan)",
+      "indications": [
+        {
+          "indication": "Major depressive disorder (Japan post-approval / additional development)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Shionogi-led MDD development in Japan; broader development context",
+          "trial_design": "Shionogi received Japan PMDA approval 4Q 2025 for MDD",
+          "nct_ids": "Not on public registry (Shionogi-led Japan)",
+          "trial_status": "Approved in Japan for MDD (4Q 2025); not approved in US for MDD",
+          "lead_sponsor": "Shionogi (Japan); Biogen (other ex-US ex-Japan)",
+          "key_milestones": ["EMA + UK MHRA approval for PPD 3Q 2025", "Japan PMDA approval for MDD 4Q 2025", "Health Canada PPD authorization 4Q 2025"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "Qelbree (viloxazine ER)", "indication": "ADHD (adults + pediatric 6+)"},
+      {"name": "GOCOVRI (amantadine ER)", "indication": "Dyskinesia in PD; OFF episodes adjunctive"},
+      {"name": "Oxtellar XR (oxcarbazepine)", "indication": "Partial-onset seizure"},
+      {"name": "Trokendi XR (topiramate)", "indication": "Epilepsy + migraine prophylaxis"},
+      {"name": "APOKYN (apomorphine HCl injection)", "indication": "Hypomobility / OFF episodes in advanced PD"},
+      {"name": "ONAPGO (apomorphine HCl SC infusion; formerly SPN-830)", "indication": "Motor fluctuations in advanced PD; FDA approved Feb 2025; launched April 2025"},
+      {"name": "XADAGO (safinamide)", "indication": "OFF episodes adjunct to levodopa/carbidopa"},
+      {"name": "MYOBLOC (rimabotulinumtoxinB)", "indication": "Cervical dystonia + chronic sialorrhea"},
+      {"name": "ZURZUVAE (zuranolone)", "indication": "Postpartum depression; co-promoted with Biogen"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "SPN-810 / molindone (Phase 3 impulsive aggression in ADHD - terminated 2020/2021)",
+    "SAGE-718 / dalzanemdor (Phase 3 Huntington terminated 2025; multiple Phase 2 in MCI/AD/PD-MCI/HD all completed but discontinued by Sage prior to acquisition)",
+    "SAGE-547 (brexanolone IV) Phase 3 PPD/SRSE programs - completed but no longer active development",
+    "SAGE-904 Phase 1 - completed",
+    "SPN-812 Phase 3 ADHD classroom - withdrawn"
+  ],
+  "excluded_partner_owned": [
+    "NCT07125222 Gocovri radiation encephalopathy - Weill Cornell investigator-sponsored",
+    "NCT03280342 Topiramate cognitive effects - University of Minnesota IST"
+  ],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase_3_assets": 1,
+    "phase_2_assets": 2,
+    "phase_1_assets": 1,
+    "note": "Counted at highest active phase per asset; zuranolone post-Sage acquisition is approved/registrational in ex-US Japan."
+  }
+}

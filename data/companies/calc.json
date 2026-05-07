@@ -1,0 +1,69 @@
+{
+  "issuer_name": "CalciMedica, Inc.",
+  "ticker": "CALC",
+  "exchange": "Nasdaq",
+  "cik": "0001534133",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-03",
+      "accession": "0001193125-26-088147",
+      "url": "https://www.sec.gov/Archives/edgar/data/1534133/000119312526088147/ck0001534133-20251231.htm"
+    },
+    "website": {
+      "url": "https://calcimedica.com/pipeline/auxora/",
+      "note": "Pipeline confirmed via 10-K and corporate IR releases."
+    },
+    "ctgov": {
+      "sponsor_query": "CalciMedica",
+      "trials_returned": 8,
+      "compact_path": "data/calc_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Auxora",
+      "aka": ["CM4620", "CM4620-IE", "Zegocractin"],
+      "modality": "IV-administered CRAC (calcium release-activated calcium) channel inhibitor",
+      "target": "ORAI1 / CRAC channel (Orai1)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute pancreatitis (AP) with systemic inflammatory response syndrome (SIRS)",
+          "highest_phase": "Phase 3 (planned pivotal)",
+          "trial_name": "Pivotal Phase 3 AP program (post-CARPO)",
+          "trial_design": "Pivotal Phase 3 program design expected 1H 2026 following constructive FDA engagement after Phase 2b CARPO results",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pivotal Phase 3 design expected 1H 2026",
+          "lead_sponsor": "CalciMedica, Inc.",
+          "key_milestones": ["CARPO Phase 2b (NCT04681066) topline positive — dose-dependent reductions in organ failure and time-to-discharge"]
+        },
+        {
+          "indication": "Acute kidney injury (AKI) with acute hypoxemic respiratory failure (AHRF)",
+          "highest_phase": "Phase 2",
+          "trial_name": "KOURAGE",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 in Stage 2/3 AKI with AHRF; 150-patient target",
+          "nct_ids": ["NCT06374797"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "CalciMedica, Inc.",
+          "key_milestones": ["Topline data expected around end of 2025 / early 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Auxora in COVID-19 pneumonia (CARDEA NCT04345614 completed; NCT04661540 terminated; NCT05171920 withdrawn) — program halted"
+  ],
+  "excluded_partner_owned": [
+    "CM4620 in asparaginase-induced pancreatitis (NCT04195347) — investigator-led at St. Jude (Phase 1/2)"
+  ],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "p3": 1,
+    "p2": 1,
+    "p1": 0
+  }
+}

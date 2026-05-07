@@ -1,0 +1,25 @@
+{
+  "issuer_name": "REST EZ Inc.",
+  "ticker": "RTEZ",
+  "exchange": "OTC",
+  "cik": "0001733861",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "10-K filed but no 'pipeline' / development section — single OTC dietary supplement product"},
+    "website": {"error": "rtez.com domain parked at sedo.com; product site is www.RestEz.net (consumer supplement, no pipeline page)"},
+    "ctgov": {"compact": "data/rtez_ctgov_compact.json", "studies_returned": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "REST EZ Inc. (formerly Amazing Ventures, Inc.) is a consumer dietary-supplement company that markets a single over-the-counter sleep-aid soft-gel capsule (Rest EZ Sleep Aid Supplement: valerian root, melatonin, L-Theanine, etc.). It is not a clinical-stage biotech; it sponsors no Phase 1/2/3 trials and discloses substantial doubt about going concern. No clinical pipeline exists.",
+  "commercial_product": {
+    "name": "Rest EZ Sleep Aid Supplement",
+    "type": "OTC dietary supplement (soft-gel capsule)",
+    "ingredients": ["valerian root", "rosehips extract", "L-Theanine", "L-Threonine", "lecithin", "St. John's Wort extract", "lemon balm leaf extract", "niacin", "melatonin"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "total_indications": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0}
+}

@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Earth Science Tech, Inc.",
+  "ticker": "ETST",
+  "exchange": "OTC",
+  "cik": "0001538495",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Operating company comprising compounding pharmacies (RxCompound, Mister Meds), telemedicine (Peaks, DOConsultations), real estate (Avenvi), brick-and-mortar healthcare (Las Villas) and consumer products (MagneChef). No internal drug development; revenue is from compounded medication sales. No FDA clinical trials disclosed.",
+  "sources": {
+    "10k": {"accession": "0001641172-25-016717", "filing_date": "2025-06-27", "form": "10-K", "fiscal_year_end": "2025-03-31"},
+    "website": {"error": "no public pipeline page found — company is a compounding pharmacy, not a drug developer"},
+    "ctgov": {"sponsor_query": "Earth Science Tech", "trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

@@ -1,0 +1,83 @@
+{
+  "issuer_name": "Zentalis Pharmaceuticals, Inc.",
+  "ticker": "ZNTL",
+  "exchange": "Nasdaq",
+  "cik": "0001725160",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001725160-26-000014", "filed": "2026-03-26", "path": "data/zntl_10k_pipeline_section.html"},
+    "website": {"url": "https://www.zentalis.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/zntl_ctgov_compact.json", "lead_sponsor_query": "Zentalis Pharmaceuticals"}
+  },
+  "pipeline": [
+    {
+      "asset": "Azenosertib",
+      "aka": ["ZN-c3", "KP-2638"],
+      "modality": "Oral small molecule WEE1 kinase inhibitor",
+      "target": "WEE1 kinase",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Cyclin E1-positive platinum-resistant ovarian cancer (PROC) — pivotal monotherapy",
+          "highest_phase": "Phase 3",
+          "trial_name": "DENALI / ASPENOVA (Phase 3 vs investigator's choice chemotherapy)",
+          "trial_design": "Randomized Phase 3 azenosertib vs investigator's choice chemotherapy in CCNE1-high PROC",
+          "nct_ids": ["NCT07546500"],
+          "trial_status": "Not yet recruiting (Phase 3 initiating 2026); FDA Fast Track Designation granted",
+          "lead_sponsor": "K-Group, Beta, Inc. (Zentalis subsidiary)",
+          "key_milestones": ["FDA Fast Track for DENALI registration-intent study"]
+        },
+        {
+          "indication": "Platinum-resistant high-grade serous ovarian cancer — Phase 2",
+          "highest_phase": "Phase 2",
+          "trial_name": "MUIR / ZN-c3 monotherapy Phase 2",
+          "trial_design": "Phase 2 azenosertib monotherapy in platinum-resistant HGSOC",
+          "nct_ids": ["NCT05128825"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "K-Group, Beta, Inc. (Zentalis subsidiary)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Ovarian cancer — Phase 1 dose-escalation/expansion (combinations)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Azenosertib in ovarian cancer (combos with niraparib, bevacizumab)",
+          "trial_design": "Phase 1 dose-escalation/expansion in advanced ovarian cancer; combination with niraparib/bevacizumab",
+          "nct_ids": ["NCT04516447"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "K-Group, Beta, Inc. (Zentalis subsidiary)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic triple-negative breast cancer (mTNBC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ZAP-IT (ZN-c3 + carboplatin + pembrolizumab)",
+          "trial_design": "Phase 1/2 azenosertib + carboplatin + pembrolizumab in mTNBC",
+          "nct_ids": ["NCT06351332"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "K-Group, Beta, Inc. (Zentalis subsidiary)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pancreatic cancer (combo with gemcitabine)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ZN-c3 + Gemcitabine in Pancreatic Cancer",
+          "trial_design": "Phase 2 azenosertib + gemcitabine in pancreatic cancer",
+          "nct_ids": ["NCT06015659"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "K-Group, Beta, Inc. (Zentalis subsidiary)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ZN-d5 (BCL-2 inhibitor)", "ncts": ["NCT04500587", "NCT05199337", "NCT05682170"], "reason": "Program effectively terminated/wound down (latest combo trial NCT05682170 terminated; no active development)"},
+    {"asset": "ZN-c3 in metastatic colorectal cancer (with encorafenib)", "nct": "NCT05743036", "reason": "Terminated"},
+    {"asset": "ZN-c3 + bevacizumab Phase 1", "nct": "NCT05431582", "reason": "Withdrawn"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 2, "P1": 1, "P1_P2": 1, "indications_active": 5}
+}

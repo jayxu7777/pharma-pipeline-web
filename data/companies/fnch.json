@@ -1,0 +1,25 @@
+{
+  "issuer_name": "Finch Therapeutics Group, Inc.",
+  "ticker": "FNCH",
+  "exchange": "OTC (delisted from Nasdaq Oct 2024)",
+  "cik": "0001733257",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000950170-24-035952", "filing_date": "2024-03-25", "path": "data/fnch_10k_pipeline_section.html", "note": "FY2023 10-K is the latest; no subsequent annual filings after delisting/deregistration."},
+    "website": {"url": "https://www.finchtherapeutics.com/", "note": "Company is winding down; no active pipeline page."},
+    "ctgov": {"path": "data/fnch_ctgov_compact.json", "trials_total": 0, "active_or_recruiting": 0, "note": "No active trials sponsored by Finch on ClinicalTrials.gov."}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Finch Therapeutics discontinued all clinical development in early 2023 (laid off ~95% of staff and terminated PRISM4 Phase 3 microbiome study of CP101 for recurrent C. difficile infection). The company subsequently delisted from Nasdaq and deregistered with the SEC in October 2024, and as of March 2026 is conducting a Chapter 11 Section 363 process to sell its ~160-patent microbiome IP portfolio and the $25M Ferring/Rebiotix patent-infringement verdict. There is no active P1/P2/P3 program; the entity is effectively in wind-down/asset-sale mode.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "CP101", "indication": "Recurrent Clostridioides difficile infection (rCDI)", "highest_phase_reached": "Phase 3 (PRISM4)", "reason": "Phase 3 PRISM4 study discontinued early 2023 amid 95% workforce reduction; program terminated"},
+    {"asset": "FIN-211", "indication": "Autism spectrum disorder", "highest_phase_reached": "Discovery / preclinical", "reason": "Program halted with corporate wind-down"},
+    {"asset": "FIN-524 / FIN-525", "indication": "IBD (in collaboration with Takeda, returned)", "highest_phase_reached": "Preclinical", "reason": "Takeda collaboration ended; program terminated"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"active_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0},
+  "blockers": ["Company in Chapter 11 wind-down / asset-sale; no current pipeline; FY2023 10-K is most recent available SEC filing."]
+}

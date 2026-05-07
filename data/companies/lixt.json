@@ -1,0 +1,85 @@
+{
+  "issuer_name": "LIXTE BIOTECHNOLOGY HOLDINGS, INC.",
+  "ticker": "LIXT",
+  "exchange": "Nasdaq",
+  "cik": "0001335105",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014052",
+      "filing_date": "2026-03-31",
+      "path": "data/lixt_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found at lixte.com/pipeline (404)"
+    },
+    "ctgov": {
+      "path": "data/lixt_ctgov_compact.json",
+      "trials_kept": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "LB-100",
+      "aka": [],
+      "modality": "Small molecule (PP2A inhibitor)",
+      "target": "Protein phosphatase 2A (PP2A)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Low/Intermediate-1 risk Myelodysplastic Syndromes (MDS)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "LB-100 in MDS",
+          "trial_design": "Single-agent, open-label",
+          "nct_ids": ["NCT03886662"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Lixte Biotechnology Holdings, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic MSS Colorectal Cancer (combination with atezolizumab)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "LB-100 + atezolizumab (NKI investigator-sponsored)",
+          "trial_design": "Combination with PD-L1 inhibitor",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Open for enrollment Q1 2026 after IRB hold lifted Q4 2025",
+          "lead_sponsor": "Netherlands Cancer Institute (investigator-sponsored, supported by Lixte)",
+          "key_milestones": ["IRB review completed Q4 2025", "Enrollment reopened Q1 2026"]
+        },
+        {
+          "indication": "Ovarian Clear Cell Carcinoma (combination with dostarlimab)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "LB-100 + dostarlimab",
+          "trial_design": "Combination with PD-1 inhibitor (GSK)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing per 10-K",
+          "lead_sponsor": "Investigator-sponsored (Lixte-supported)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced Soft Tissue Sarcoma",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "LB-100 in soft tissue sarcoma",
+          "trial_design": "Per 10-K narrative",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing per 10-K",
+          "lead_sponsor": "Investigator-sponsored",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["LiGHT proton therapy system (Liora subsidiary, prototype/IP asset, non-clinical)"],
+  "excluded_legacy_terminated": ["NCT01837667 LB-100 + Docetaxel solid tumors (COMPLETED 2016)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "total_indications_active": 4,
+    "phase_1": 0,
+    "phase_1_2": 4,
+    "phase_2": 0,
+    "phase_3": 0
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "issuer_name": "Travere Therapeutics, Inc.",
+  "ticker": "TVTX",
+  "exchange": "Nasdaq",
+  "cik": "0001438533",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-19",
+      "accession": "0001438533-26-000014",
+      "path": "data/tvtx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://travere.com/our-science/our-pipeline/",
+      "fetched_via": "WebFetch"
+    },
+    "ctgov": {
+      "path": "data/tvtx_ctgov_compact.json",
+      "trial_count": 13
+    }
+  },
+  "commercial_product": {
+    "name": "FILSPARI (sparsentan)",
+    "approved_indications": [
+      "IgA nephropathy (IgAN) — FDA accelerated approval Feb 2023; full approval following PROTECT confirmatory data",
+      "Focal segmental glomerulosclerosis (FSGS) — FDA full approval Apr 2026"
+    ]
+  },
+  "pipeline": [
+    {
+      "asset": "Sparsentan",
+      "aka": ["RE-021", "FILSPARI"],
+      "modality": "Small molecule, dual endothelin A receptor (ETAR) and angiotensin II type 1 receptor (AT1R) antagonist",
+      "target": "ETAR + AT1R",
+      "license_origin": "Originally licensed from Bristol-Myers Squibb (Retrophin/Travere)",
+      "indications": [
+        {
+          "indication": "Pediatric proteinuric glomerular diseases (FSGS, MCD, IgAN, IgA vasculitis, Alport)",
+          "highest_phase": "Phase 2",
+          "trial_name": "EPPIK",
+          "trial_design": "Open-label Phase 2 sparsentan in pediatric patients with proteinuric glomerular diseases",
+          "nct_ids": ["NCT05003986"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Travere Therapeutics, Inc.",
+          "key_milestones": ["Primary completion 2027-03"]
+        }
+      ]
+    },
+    {
+      "asset": "Pegtibatinase",
+      "aka": ["TVT-058", "OT-58"],
+      "modality": "PEGylated recombinant cystathionine beta-synthase (CBS) enzyme replacement therapy",
+      "target": "Cystathionine beta-synthase (CBS)",
+      "license_origin": "Acquired via Orphan Technologies",
+      "indications": [
+        {
+          "indication": "Classical homocystinuria (HCU) due to CBS deficiency",
+          "highest_phase": "Phase 3",
+          "trial_name": "HARMONY",
+          "trial_design": "Phase 3 randomized, double-blind, placebo-controlled in pts 12-65y with classical HCU on standard of care",
+          "nct_ids": ["NCT06247085"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Travere Therapeutics, Inc.",
+          "key_milestones": ["Primary completion 2025-12"]
+        },
+        {
+          "indication": "Classical HCU - long-term extension",
+          "highest_phase": "Phase 3",
+          "trial_name": "ENSEMBLE",
+          "trial_design": "Phase 3 long-term extension in pts 5-65y",
+          "nct_ids": ["NCT06431893"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Travere Therapeutics, Inc.",
+          "key_milestones": ["Primary completion 2027-01"]
+        },
+        {
+          "indication": "Classical HCU (COMPOSE Phase 1/2 long-term)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "COMPOSE",
+          "trial_design": "Phase 1/2 dose escalation/expansion long-term study",
+          "nct_ids": ["NCT03406611"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Travere Therapeutics, Inc.",
+          "key_milestones": ["Primary completion 2026-06"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Fosmetpantotenate (RE-024) Phase 3 PKAN NCT03041116 — terminated (failed)",
+    "Sparsentan PROTECT Phase 3 IgAN NCT03762850 — active-not-recruiting; supported approval",
+    "Sparsentan DUPLEX Phase 3 FSGS NCT03493685 — completed; supported approval",
+    "Sparsentan oral suspension PK NCT05562362 — completed",
+    "Original FSGS Phase 2 NCT01613118 — completed",
+    "SPARTAN incident IgAN Phase 2 NCT04663204 (U Leicester collab) — active-not-recruiting; investigator-led",
+    "SPARTACUS sparsentan + SGLT2i Phase 2 NCT05856760 — completed"
+  ],
+  "excluded_partner_owned": [
+    "SPARVASC ANCA-vasculitis Phase 2 NCT05630612 — University of Edinburgh-led, Travere collaborator",
+    "VEGF-inhibitor-associated proteinuria Phase 1 NCT07224776 — Brigham and Women's-led, Travere collaborator"
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 1,
+    "phase_2": 1,
+    "phase_1_2": 1,
+    "indications_total": 4
+  }
+}

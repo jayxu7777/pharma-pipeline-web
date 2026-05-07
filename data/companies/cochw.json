@@ -1,0 +1,61 @@
+{
+  "issuer_name": "Envoy Medical, Inc.",
+  "ticker": "COCHW",
+  "exchange": "Nasdaq",
+  "cik": "0001840877",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. (Device company — pivotal IDE study reported under device-company carve-out.)",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-032683",
+      "filed": "2026-03-23",
+      "doc": "ea0280884-10k_envoy.htm"
+    },
+    "website": {"error": "envoymedical.com/pipeline returned 404; pipeline disclosure relied on 10-K and ClinicalTrials.gov"},
+    "ctgov": {
+      "sponsor_query": "Envoy Medical",
+      "raw_trials": 4,
+      "kept_p1_3": 0,
+      "note": "Sponsor trials are device studies with Phase=N/A so no P1-3 entries; pivotal IDE trial NCT06699797 for Acclaim CI was located via ctgov term search and is included under device-company carve-out."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Acclaim CI",
+      "aka": ["Acclaim Cochlear Implant", "Fully Implanted Cochlear Implant"],
+      "modality": "Class III implantable medical device — fully implanted cochlear implant using piezoelectric middle-ear sensor (no external sound processor)",
+      "target": "Severe-to-profound sensorineural hearing loss",
+      "license_origin": "Internal — leverages Envoy's Esteem sensor technology platform",
+      "indications": [
+        {
+          "indication": "Adults with bilateral severe-to-profound sensorineural hearing loss",
+          "highest_phase": "Pivotal IDE (device — Phase N/A)",
+          "trial_name": "Pivotal Clinical Trial Evaluating the Safety and Efficacy of the Fully Implanted Acclaim Cochlear Implant",
+          "trial_design": "Interventional, single-arm pivotal IDE study; 12-month post-activation safety and efficacy follow-up; estimated enrollment 56 participants",
+          "nct_ids": ["NCT06699797"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Envoy Medical Corporation",
+          "key_milestones": [
+            "FDA Breakthrough Device Designation granted in 2019",
+            "Pivotal IDE enrollment completed; trial active, not recruiting",
+            "12-month post-activation primary endpoint readout pending"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Esteem (legacy)",
+    "modality": "Fully implantable middle-ear hearing device (FI-AMEI)",
+    "regulatory_status": "FDA-approved (PMA); commercial focus shifted from Esteem to Acclaim CI in late 2015",
+    "post_approval_studies": ["NCT02689349 (completed)", "NCT02666222 (completed)", "NCT01092910 (completed)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Esteem FI-AMEI", "reason": "Strategic focus shifted to Acclaim CI in late 2015; Esteem post-approval studies all Completed."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P1": 0, "P2": 0, "P3": 0, "device_pivotal_IDE": 1},
+  "no_active_clinical_pipeline_reason": "Envoy Medical is a device company (implantable hearing technology). It has no drug Phase 1/2/3 pipeline. Its sole active investigational asset, Acclaim CI, is a Class III implantable device in an FDA pivotal IDE study (NCT06699797, Active not recruiting), reported above per the device-company carve-out."
+}

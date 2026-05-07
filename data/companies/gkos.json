@@ -1,0 +1,228 @@
+{
+  "issuer_name": "GLAUKOS Corp",
+  "ticker": "GKOS",
+  "exchange": "NYSE",
+  "cik": "0001192448",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-23",
+      "accession": "0001193125-26-061944",
+      "path": "data/gkos_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "Pipeline page not located at common URLs (https://www.glaukos.com/pipeline returns 404); used 10-K Item 1 Products and Pipeline narrative as primary source"
+    },
+    "ctgov": {
+      "path": "data/gkos_ctgov_compact.json",
+      "note": "28 Glaukos-sponsored studies returned; 7 RECRUITING + 1 ACTIVE_NOT_RECRUITING used for active phase classification."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "iDose TREX (Second-generation travoprost intracameral implant)",
+      "aka": ["Gen 2 Travoprost Intracameral Implant", "G2-TR Gen2", "iDose TREX"],
+      "modality": "Intracameral sustained-release drug-device combination implant",
+      "target": "Prostaglandin F2-alpha receptor (travoprost prodrug)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Open-angle glaucoma / ocular hypertension",
+          "highest_phase": "Phase 3",
+          "trial_name": "iDose TREX Phase 2b/3 program",
+          "trial_design": "Randomized, sham-controlled vs. timolol; pivotal Phase 2/3 (NCT07075718) and Phase 3 (NCT07495852)",
+          "nct_ids": ["NCT07075718", "NCT07495852"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Glaukos Corporation",
+          "key_milestones": ["NCT07075718 started 2025-06-12, primary completion 2028-03", "NCT07495852 started 2026-02-17, primary completion 2028-06"]
+        }
+      ]
+    },
+    {
+      "asset": "iDose TRIO (Travoprost intracameral implant + iStent infinite)",
+      "aka": ["iDose TR + iStent infinite combination"],
+      "modality": "Drug-device combination (sustained-release travoprost plus trabecular micro-bypass stents)",
+      "target": "Prostaglandin F2-alpha receptor + trabecular outflow",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Open-angle glaucoma",
+          "highest_phase": "Phase 3",
+          "trial_name": "Travoprost Intraocular Implant + iStent Infinite vs. iStent Infinite Alone",
+          "trial_design": "Randomized, sham-controlled, multicenter Phase 3",
+          "nct_ids": ["NCT06066645"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Glaukos Corporation",
+          "key_milestones": ["Started 2023-09-14; primary completion 2027-05"]
+        }
+      ]
+    },
+    {
+      "asset": "PRESERFLO MicroShunt",
+      "aka": ["Preserflo Microshunt", "Santen-licensed ab-externo glaucoma microshunt"],
+      "modality": "Ab-externo bleb-forming surgical implant (medical device)",
+      "target": "Aqueous outflow / IOP reduction",
+      "license_origin": "Licensed from Santen Pharmaceutical Co., Ltd.",
+      "indications": [
+        {
+          "indication": "Refractory open-angle glaucoma uncontrolled on maximum-tolerated medical therapy",
+          "highest_phase": "Phase 3",
+          "trial_name": "U.S. IDE Phase 3 confirmatory trial",
+          "trial_design": "Randomized controlled pivotal IDE trial supporting future U.S. PMA",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - U.S. IDE Phase 3 commenced 2025 per 10-K; record not yet posted on ClinicalTrials.gov as of snapshot",
+          "lead_sponsor": "Glaukos Corporation",
+          "key_milestones": ["Glaukos assumed clinical development in 2025; IDE pivotal Phase 3 in progress"]
+        }
+      ]
+    },
+    {
+      "asset": "iLink third-generation (Epi-on corneal cross-linking)",
+      "aka": ["NXL", "Third-generation iLink CXL"],
+      "modality": "Riboflavin-based bio-activated pharmaceutical + UVA delivery system",
+      "target": "Corneal collagen cross-linking (CXL)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Progressive keratoconus",
+          "highest_phase": "Phase 2",
+          "trial_name": "Safety and Efficacy of Corneal Cross-linking in Subjects With Keratoconus (NXL Energy 1/2/3)",
+          "trial_design": "Randomized sham-controlled multi-arm Phase 1/2",
+          "nct_ids": ["NCT05314738"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Glaukos Corporation",
+          "key_milestones": ["Started 2022-03-08; primary completion 2025-08"]
+        }
+      ]
+    },
+    {
+      "asset": "GLK-221",
+      "aka": ["GLK-221 Ophthalmic Solution"],
+      "modality": "Ophthalmic small-molecule solution",
+      "target": "Undisclosed (keratoconus mechanism)",
+      "license_origin": "Internal / iVeena partnership (likely)",
+      "indications": [
+        {
+          "indication": "Keratoconus",
+          "highest_phase": "Phase 2",
+          "trial_name": "Placebo-controlled Study to Evaluate the Safety and Efficacy of GLK-221 Ophthalmic Solution in Subjects With Keratoconus",
+          "trial_design": "Randomized placebo-controlled Phase 2",
+          "nct_ids": ["NCT07400952"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Glaukos Corporation",
+          "key_milestones": ["Started 2025-12-23; primary completion 2027-04"]
+        }
+      ]
+    },
+    {
+      "asset": "GLK-321 (iLution Blepharitis program)",
+      "aka": ["Attillaps-licensed Demodex compound", "iLution transdermal cream"],
+      "modality": "Transdermal cream-based eyelid pharmaceutical",
+      "target": "Demodex mite eradication",
+      "license_origin": "Licensed from Attillaps Holdings, Inc.",
+      "indications": [
+        {
+          "indication": "Demodex blepharitis",
+          "highest_phase": "Phase 2",
+          "trial_name": "Evaluation of the Safety and Efficacy of GLK-321 in Subjects With Demodex Blepharitis",
+          "trial_design": "Randomized placebo-controlled multi-dose Phase 2",
+          "nct_ids": ["NCT07400965"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Glaukos Corporation",
+          "key_milestones": ["Started 2025-12-05; primary completion 2026-09"]
+        }
+      ]
+    },
+    {
+      "asset": "GLK-401 (Retinal XR multi-kinase inhibitor)",
+      "aka": ["IVT Multi-Kinase Inhibitor", "Retinal XR MKI"],
+      "modality": "Intravitreal sustained-release small-molecule multi-kinase inhibitor",
+      "target": "Multi-kinase (anti-angiogenic)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Wet AMD, DME, RVO",
+          "highest_phase": "Phase 2",
+          "trial_name": "GLK-401 Phase 2 program (per 10-K)",
+          "trial_design": "Phase 2 clinical trial",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED / EARLY - 10-K describes IVT Multi-Kinase Inhibitor (GLK-401) as Phase 2 program; first-in-human commenced 2023; specific Phase 2 record not located on ClinicalTrials.gov as of snapshot",
+          "lead_sponsor": "Glaukos Corporation",
+          "key_milestones": ["First-in-human IVT MKI started 2023 for wet AMD"]
+        }
+      ]
+    },
+    {
+      "asset": "NEXAGON (lufepirsen) ophthalmic gel",
+      "aka": ["Lufepirsen", "NEXAGON"],
+      "modality": "Antisense oligonucleotide ophthalmic gel",
+      "target": "Connexin 43 (Cx43) mRNA",
+      "license_origin": "Internal (legacy Amber Ophthalmics asset)",
+      "indications": [
+        {
+          "indication": "Persistent corneal epithelial defect (PCED)",
+          "highest_phase": "Phase 2",
+          "trial_name": "A Study to Evaluate the Safety and Efficacy of NEXAGON (Lufepirsen Ophthalmic Gel) in Subjects With PCED",
+          "trial_design": "Randomized vehicle-controlled multi-dose Phase 2",
+          "nct_ids": ["NCT05966493"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Glaukos Corporation",
+          "key_milestones": ["Started 2023-08-17; primary completion 2025-12"]
+        }
+      ]
+    },
+    {
+      "asset": "iVeena program",
+      "aka": ["iVeena-licensed compound"],
+      "modality": "Pharmaceutical (per 10-K)",
+      "target": "Undisclosed",
+      "license_origin": "Licensed from Iveena Delivery Systems, Inc.",
+      "indications": [
+        {
+          "indication": "Undisclosed ophthalmic indication",
+          "highest_phase": "Phase 1",
+          "trial_name": "iVeena Phase 1 clinical program (per 10-K)",
+          "trial_design": "Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED / ACTIVE - 10-K Research & Development pipeline lists iVeena Phase 1 program; specific NCT record not located",
+          "lead_sponsor": "Glaukos Corporation",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_devices_drugs": [
+      "iStent (FDA 2012)",
+      "iStent inject W (FDA 2018)",
+      "iStent infinite (FDA 510(k) 2022; EU MDR 2025)",
+      "iDose TR travoprost intracameral implant (FDA Dec 2023)",
+      "Photrexa / KXL System (FDA 2016, epi-off corneal cross-linking)",
+      "Epioxa (iLink epi-on, FDA Oct 2025)",
+      "Mitosol (acquired 2025 via Mobius Therapeutics)",
+      "PRESERFLO MicroShunt (commercialized in Canada, Australia, Mexico, Brazil; not yet U.S. approved)"
+    ]
+  },
+  "excluded_preclinical": [
+    "Next generations of the iDose platform (pre-clinical)",
+    "Keratoconus screening tool (pre-submission)",
+    "iLution Myopia program (pre-clinical)",
+    "IVT NCE Conjugate (GLK-411) for DME (pre-clinical)"
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT01972854", "reason": "TERMINATED keratoconus CXL P3"},
+    {"nct_id": "NCT01893359", "reason": "TERMINATED hyperopia CXL P1/2"},
+    {"nct_id": "NCT01643252", "reason": "WITHDRAWN corneal ectasia CXL P3"},
+    {"nct_id": "NCT04081103", "reason": "TERMINATED NEXAGON PCED P2 (older protocol; superseded by NCT05966493)"},
+    {"nct_id": "NCT06152861", "reason": "UNKNOWN status; topical travoprost cream P2 (deprioritized)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 9,
+    "p3": 3,
+    "p2": 5,
+    "p1": 1
+  }
+}

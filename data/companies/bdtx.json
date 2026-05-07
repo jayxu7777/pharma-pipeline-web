@@ -1,0 +1,65 @@
+{
+  "issuer_name": "Black Diamond Therapeutics, Inc.",
+  "ticker": "BDTX",
+  "exchange": "Nasdaq",
+  "cik": "0001701541",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001701541-26-000009", "filing_date": "2026-03-16", "doc": "bdtx-20251231.htm"},
+    "website": {"url": "https://blackdiamondtherapeutics.com/pipeline-programs/pipeline"},
+    "ctgov": {"trials_returned": 3, "lead_sponsor": "Black Diamond Therapeutics, Inc."}
+  },
+  "pipeline": [
+    {
+      "asset": "Silevertinib",
+      "aka": ["BDTX-1535"],
+      "modality": "Small molecule (4th-gen brain-penetrant EGFR MasterKey inhibitor)",
+      "target": "EGFR (classical and non-classical mutations, including C797S)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "EGFR-mutant NSCLC (1L, non-classical mutations)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 silevertinib in frontline EGFRm NSCLC",
+          "trial_design": "Single-arm Phase 2; 200 mg oral daily; 43 frontline patients enrolled (fully enrolled). Initial data Q4 2025: 60% ORR, 86% CNS ORR, 91% DCR. Updated DOR/PFS data planned Q2 2026.",
+          "nct_ids": ["NCT05256290"],
+          "trial_status": "Active, not recruiting (fully enrolled)",
+          "lead_sponsor": "Black Diamond Therapeutics, Inc.",
+          "key_milestones": ["Updated DOR/PFS data Q2 2026"]
+        },
+        {
+          "indication": "EGFR-mutant NSCLC (2L/3L, recurrent)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 silevertinib in recurrent EGFRm NSCLC",
+          "trial_design": "Single-arm Phase 2; 83 patients in 2L/3L setting; FDA Fast Track. Final data Q2 2026.",
+          "nct_ids": ["NCT05256290"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Black Diamond Therapeutics, Inc.",
+          "key_milestones": ["Final data Q2 2026"]
+        },
+        {
+          "indication": "Newly diagnosed EGFRvIII-positive, MGMT-unmethylated glioblastoma (GBM)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Randomized Phase 2 silevertinib + temozolomide vs temozolomide in newly diagnosed GBM",
+          "trial_design": "Randomized Phase 2; ~150 patients; safety lead-in of silevertinib + TMZ then randomization to TMZ vs silevertinib + TMZ. Primary endpoint: PFS by RANO BICR. Interim PFS analysis 1H 2028.",
+          "nct_ids": ["NCT07326566"],
+          "trial_status": "Recruiting (initiating Q2 2026)",
+          "lead_sponsor": "Black Diamond Therapeutics, Inc.",
+          "key_milestones": ["Trial initiation Q2 2026", "Interim PFS analysis 1H 2028"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "BDTX-4876", "target": "FGFR2/3", "reason": "Preclinical; partnering opportunity"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "BDTX-189", "nct": "NCT04209465", "reason": "Phase 1 study TERMINATED"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "BDTX-4933 (S241656)", "reason": "Outlicensed to Servier in Q1 2025; Servier leads global development and commercialization across NSCLC and other solid tumors"}
+  ],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 3, "P1": 0}
+}

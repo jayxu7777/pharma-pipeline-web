@@ -1,0 +1,107 @@
+{
+  "issuer_name": "Bausch & Lomb Corp",
+  "ticker": "BLCO",
+  "exchange": "NYSE",
+  "cik": "0001860742",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001860742-26-000007",
+      "filing_date": "2026-02-18",
+      "doc": "blco-20251231.htm",
+      "slice_html": "data/blco_10k_pipeline_section.html",
+      "slice_txt": "data/blco_10k_pipeline_section.txt"
+    },
+    "website": {
+      "skipped": "Bausch & Lomb does not maintain a single dedicated public 'pipeline' page; pharma development disclosures are concentrated in the 10-K Pharmaceuticals section and ctgov filings."
+    },
+    "ctgov": {
+      "compact": "data/blco_ctgov_compact.json",
+      "kept_p1_p3_total": 7,
+      "active_blco_owned": 4,
+      "note": "Filtered to leadSponsor 'Bausch & Lomb Incorporated' only. Bausch Health Americas / Salix-led trials (Rifaximin SSD, Larsucosterol) are EXCLUDED — those belong to the separate Bausch Health Companies (BHC) entity, not Bausch & Lomb (BLCO)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Dual-Action Lifitegrast / Perfluorohexyloctane Fixed-Dose Combination",
+      "aka": ["Lifitegrast/Perfluorohexyloctane FDC", "MIEBO + XIIDRA combination", "Dual-Action Lifitegrast"],
+      "modality": "Topical ophthalmic small-molecule fixed-dose combination eye drop",
+      "target": "LFA-1 / ICAM-1 (lifitegrast) plus tear-film evaporation suppressant (perfluorohexyloctane)",
+      "license_origin": "Internal (combination of two BLCO-marketed assets: XIIDRA acquired from Novartis 2023; MIEBO acquired via Novaliq partnership)",
+      "indications": [
+        {
+          "indication": "Dry eye disease (evaporative + inflammatory)",
+          "highest_phase": "P2",
+          "trial_name": "A Study Evaluating the Safety and Efficacy of a Fixed-Dose Combination for Dry Eye Disease",
+          "trial_design": "Randomized, vehicle-controlled, dose-ranging Phase 2 study comparing the FDC vs. each monotherapy and vehicle",
+          "nct_ids": ["NCT07128628"],
+          "trial_status": "RECRUITING (enrollment started 2025-10-24; primary completion target 2026-11)",
+          "lead_sponsor": "Bausch & Lomb Incorporated",
+          "key_milestones": ["First fixed-dose combination targeting both evaporative and inflammatory dry-eye mechanisms (per FY2025 10-K Pharmaceuticals pipeline narrative)"]
+        }
+      ]
+    },
+    {
+      "asset": "BL1332",
+      "aka": ["Topical Ocular BL1332", "First-in-class neurosensory agent for ocular surface pain"],
+      "modality": "Topical ophthalmic small-molecule (neurosensory agent, ophthalmic solution)",
+      "target": "Ocular surface neurosensory pain pathway (specific target undisclosed)",
+      "license_origin": "Internal pipeline",
+      "indications": [
+        {
+          "indication": "Postoperative ocular pain (post-photorefractive keratectomy) / ocular surface pain",
+          "highest_phase": "P2",
+          "trial_name": "A Study to Evaluate the Use of Topical Ocular BL1332 for the Management of Postoperative Ocular Pain Following Photorefractive Keratectomy (and supporting P1 SAD/MAD)",
+          "trial_design": "Phase 2 dose-ranging (low-dose vs high-dose vs vehicle) in post-PRK patients; supported by completed/active Phase 1 ascending-concentration study in healthy volunteers",
+          "nct_ids": ["NCT07412496", "NCT06978244"],
+          "trial_status": "P2 NOT_YET_RECRUITING (start 2026-04, primary completion 2027-02); P1 ACTIVE_NOT_RECRUITING (primary completion 2026-11)",
+          "lead_sponsor": "Bausch & Lomb Incorporated",
+          "key_milestones": ["Phase 1 completed; Phase 2 readout anticipated H2 2026 per FY2025 10-K"]
+        }
+      ]
+    },
+    {
+      "asset": "BL1107",
+      "aka": ["BL1107 Eye Drops", "Glaucoma neuroprotection candidate"],
+      "modality": "Topical ophthalmic small-molecule eye drop",
+      "target": "Dual mechanism — IOP reduction plus visual-function neuroprotection (specific target undisclosed)",
+      "license_origin": "Internal pipeline",
+      "indications": [
+        {
+          "indication": "Primary open-angle glaucoma / ocular hypertension",
+          "highest_phase": "P2",
+          "trial_name": "Phase 2 Study of BL1107 Eye Drops vs. Timolol in Adults With Primary Open Angle Glaucoma or Ocular Hypertension",
+          "trial_design": "Randomized active-controlled Phase 2 — BL1107 low dose and high dose vs. Timolol maleate 0.5% (active comparator)",
+          "nct_ids": ["NCT07168902"],
+          "trial_status": "RECRUITING (started 2025-10-24; primary completion 2026-05)",
+          "lead_sponsor": "Bausch & Lomb Incorporated",
+          "key_milestones": ["Positioned as 'first glaucoma therapy to lower IOP and improve visual function' per FY2025 10-K; Phase 2 results expected H2 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "BLCO is a global eye-health company across three segments: Vision Care (contact lenses incl. Biotrue ONEday, Bausch + Lomb ULTRA, INFUSE; lens-care products; OTC eye vitamins), Pharmaceuticals (XIIDRA / lifitegrast for dry eye, MIEBO / perfluorohexyloctane for evaporative DED, VYZULTA, LUMIFY, BESIVANCE, PROLENSA, generic ophthalmics), and Surgical (enVista IOL platform incl. enVista Aspire/Envy/Beyond, LuxLife trifocal IOLs, Stellaris Elite phaco, Vitesse vitrectomy, ELIOS minimally-invasive glaucoma surgery — U.S. submission anticipated H1 2026). Surgical/lens products follow 510(k)/PMA device pathways."
+  },
+  "excluded_preclinical": [
+    {"name": "Other unspecified pipeline products", "reason": "FY2025 10-K notes 'a number of other pipeline products in the process of being developed' without P1/P2/P3 status disclosure."}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT00198497", "reason": "COMPLETED — Vitrase (legacy)"},
+    {"nct_id": "NCT03282929", "reason": "COMPLETED — Epinephrine PK study (legacy)"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT05297448", "reason": "Lead sponsor Bausch Health Americas (Salix/BHC, separate company — not BLCO). Rifaximin SSD for hepatic encephalopathy."},
+    {"nct_id": "NCT07428538", "reason": "Lead sponsor Bausch Health Americas (separate BHC entity). Larsucosterol for alcohol-associated hepatitis (DURECT-licensed)."},
+    {"nct_id": "NCT05071716", "reason": "Lead sponsor Bausch Health Americas (separate BHC entity). Rifaximin SSD HE delay."}
+  ],
+  "summary_counts": {
+    "total_assets": 3,
+    "p3": 0,
+    "p2": 3,
+    "p1": 0
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "issuer_name": "Apogee Therapeutics, Inc.",
+  "ticker": "APGE",
+  "exchange": "Nasdaq",
+  "cik": "0001974640",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001974640-26-000002", "filing_date": "2026-03-02", "doc": "apge-20251231.htm"},
+    "website": {"url": "https://apogeetherapeutics.com/pipeline/", "note": "Pipeline page extracted; NCT IDs not on site, cross-referenced via ctgov."},
+    "ctgov": {"sponsor_query": "Apogee Therapeutics", "compact_file": "data/apge_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Zumilokibart",
+      "aka": ["APG777"],
+      "modality": "Half-life-extended monoclonal antibody",
+      "target": "IL-13",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Atopic dermatitis (moderate-to-severe)",
+          "highest_phase": "Phase 2",
+          "trial_name": "APEX (Part A & Part B) plus long-term extension",
+          "trial_design": "Randomized, placebo-controlled (NCT06395948); long-term extension (NCT07003425)",
+          "nct_ids": ["NCT06395948", "NCT07003425"],
+          "trial_status": "Active, not recruiting / Recruiting (LTE)",
+          "lead_sponsor": "Apogee Therapeutics, Inc.",
+          "key_milestones": ["Positive Part A 52-week data; Part B enrollment completed"]
+        },
+        {
+          "indication": "Asthma",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG777 asthma Phase 1b",
+          "trial_design": "Randomized, placebo-controlled PK/PD/safety in asthma adults",
+          "nct_ids": ["NCT06920901"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Apogee Therapeutics, Inc.",
+          "key_milestones": ["Positive Ph1b data reported"]
+        },
+        {
+          "indication": "Eosinophilic esophagitis (EoE)",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG777 EoE program",
+          "trial_design": "Per company pipeline page (in-progress)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "In-progress (per company pipeline)",
+          "lead_sponsor": "Apogee Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "APG279 (zumilokibart + APG990 combination)",
+      "aka": ["APG777 + APG990"],
+      "modality": "Coformulated mAb combination",
+      "target": "IL-13 + OX40L",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Atopic dermatitis",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG777 + APG990 combination Phase 1",
+          "trial_design": "Active-comparator (vs. dupilumab) safety study",
+          "nct_ids": ["NCT07027527"],
+          "trial_status": "Active, not recruiting (fully enrolled)",
+          "lead_sponsor": "Apogee Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "APG808",
+      "aka": [],
+      "modality": "Half-life-extended monoclonal antibody",
+      "target": "IL-4R\u03b1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Mild-to-moderate asthma",
+          "highest_phase": "Phase 1",
+          "trial_name": "APG808 asthma Phase 1b",
+          "trial_design": "Randomized, placebo-controlled in mild-to-moderate asthma",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (interim positive results reported May 2025)",
+          "lead_sponsor": "Apogee Therapeutics, Inc.",
+          "key_milestones": ["Positive Phase 1b interim results May 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "APG273 (zumilokibart + APG333)", "reason": "Preclinical per 10-K and company pipeline (asthma/COPD)"},
+    {"asset": "APG990 monotherapy", "reason": "Combination-only clinical disclosure"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "indications_total": 5,
+    "phase_3_indications": 0,
+    "phase_2_indications": 1,
+    "phase_1_indications": 4
+  }
+}

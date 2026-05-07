@@ -1,0 +1,46 @@
+{
+  "issuer_name": "RenovoRx, Inc.",
+  "ticker": "RNXT",
+  "exchange": "Nasdaq",
+  "cik": "0001574094",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-131928", "filed": "2026-03-30", "fy": "2025"},
+    "website": {"url": "https://www.renovorx.com/pipeline", "fetched_via": "WebFetch"},
+    "ctgov": {"sponsor_query": "RenovoRx", "raw_count": 4, "kept_p1_p3": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "RenovoGem (intra-arterial gemcitabine via RenovoCath)",
+      "aka": ["IAG", "TAMP gemcitabine"],
+      "modality": "Drug-device combination product (small-molecule chemotherapy delivered via Trans-Arterial Micro-Perfusion (TAMP) using the RenovoCath catheter)",
+      "target": "Local-regional delivery of gemcitabine to pancreatic tumor vasculature",
+      "license_origin": "Internally developed; gemcitabine is generic; RenovoCath device is RenovoRx-developed",
+      "indications": [
+        {
+          "indication": "Locally advanced pancreatic cancer (LAPC) following induction chemo/radiotherapy",
+          "highest_phase": "Phase 3",
+          "trial_name": "TIGeR-PaC",
+          "trial_design": "Phase 3 randomized, open-label, multi-center trial of intra-arterial gemcitabine (via RenovoCath) vs IV gemcitabine plus nab-paclitaxel following radiotherapy in LAPC; primary endpoint overall survival.",
+          "nct_ids": ["NCT03257033"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "RenovoRx",
+          "key_milestones": ["FDA Orphan Drug Designation (pancreatic and bile-duct cancer)", "Primary completion June 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "RenovoCath",
+    "status": "FDA 510(k)-cleared device, being commercialized",
+    "indication": "Temporary vessel occlusion (arteriography, preoperative occlusion, chemotherapeutic drug infusion)"
+  },
+  "excluded_preclinical": [
+    {"asset": "TAMP platform expansion (lung, brain, colorectal, soft-tissue sarcoma)", "reason": "Shown on pipeline diagram but no clinical-stage trials yet."}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 1, "p2": 0, "p1": 0}
+}

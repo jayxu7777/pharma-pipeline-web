@@ -1,0 +1,153 @@
+{
+  "issuer_name": "Ascendis Pharma A/S",
+  "ticker": "ASND",
+  "exchange": "Nasdaq",
+  "cik": "0001612042",
+  "region": "Denmark",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://ascendispharma.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"path": "data/asnd_ctgov_compact.json", "lead_sponsor_query": "Ascendis Pharma"}
+  },
+  "pipeline": [
+    {
+      "asset": "Navepegritide",
+      "aka": ["TransCon CNP"],
+      "modality": "Sustained-release prodrug of C-type natriuretic peptide (CNP)",
+      "target": "Natriuretic peptide receptor B (NPR-B)",
+      "license_origin": "Ascendis (TransCon platform)",
+      "indications": [
+        {
+          "indication": "Achondroplasia (children 2 to <12 years)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ApproaCH",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2/3 evaluating once-weekly TransCon CNP vs placebo in children with achondroplasia",
+          "nct_ids": ["NCT05598320"],
+          "trial_status": "Completed (primary completion 2024-08-09); supports BLA/MAA filings",
+          "lead_sponsor": "Ascendis Pharma Growth Disorders A/S",
+          "key_milestones": ["Topline Phase 2/3 data reported", "Long-term extension AttaCH (NCT05929807) ongoing"]
+        },
+        {
+          "indication": "Achondroplasia (infants 0 to <2 years)",
+          "highest_phase": "Phase 2",
+          "trial_name": "reACHin",
+          "trial_design": "Randomized, double-blind, placebo-controlled study evaluating efficacy and safety in infants",
+          "nct_ids": ["NCT06079398"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Ascendis Pharma A/S",
+          "key_milestones": ["Primary completion 2027-12"]
+        },
+        {
+          "indication": "Achondroplasia (adolescents 12-18 years)",
+          "highest_phase": "Phase 2",
+          "trial_name": "teACH",
+          "trial_design": "Phase 2 evaluating efficacy and safety of navepegritide in adolescents",
+          "nct_ids": ["NCT06732895"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Ascendis Pharma A/S",
+          "key_milestones": ["Primary completion 2027-08"]
+        },
+        {
+          "indication": "Achondroplasia (combination with lonapegsomatropin)",
+          "highest_phase": "Phase 2",
+          "trial_name": "COACH",
+          "trial_design": "Phase 2 evaluating combination of navepegritide and lonapegsomatropin in children",
+          "nct_ids": ["NCT06433557"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Ascendis Pharma Growth Disorders A/S",
+          "key_milestones": ["Primary completion 2025-11-14"]
+        }
+      ]
+    },
+    {
+      "asset": "Palopegteriparatide (high-dose program)",
+      "aka": ["TransCon PTH", "Yorvipath"],
+      "modality": "Sustained-release prodrug of parathyroid hormone (PTH 1-34)",
+      "target": "PTH1 receptor",
+      "license_origin": "Ascendis (TransCon platform)",
+      "indications": [
+        {
+          "indication": "Adult hypoparathyroidism (doses >30 µg/day)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PaTHway60",
+          "trial_design": "Randomized Phase 3 evaluating safety and efficacy of palopegteriparatide at doses greater than 30 µg/day vs Yorvipath standard dose",
+          "nct_ids": ["NCT07081997"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Ascendis Pharma Bone Diseases A/S",
+          "key_milestones": ["Primary completion 2027-06"]
+        }
+      ]
+    },
+    {
+      "asset": "Lonapegsomatropin",
+      "aka": ["TransCon hGH", "SKYTROFA"],
+      "modality": "Sustained-release prodrug of somatropin (recombinant human growth hormone)",
+      "target": "Growth hormone receptor",
+      "license_origin": "Ascendis (TransCon platform)",
+      "indications": [
+        {
+          "indication": "Short stature in growth-hormone-sufficient disorders (Turner syndrome, SHOX deficiency, idiopathic short stature, SGA)",
+          "highest_phase": "Phase 3",
+          "trial_name": "HighLiGHts",
+          "trial_design": "Randomized Phase 3 comparing weekly lonapegsomatropin vs daily somatropin in pediatric short-stature indications",
+          "nct_ids": ["NCT07221851"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Ascendis Pharma A/S",
+          "key_milestones": ["Primary completion 2028-02"]
+        },
+        {
+          "indication": "Turner syndrome (dose-finding)",
+          "highest_phase": "Phase 2",
+          "trial_name": "New InsiGHTS",
+          "trial_design": "Phase 2 dose-finding of lonapegsomatropin vs somatropin in Turner syndrome",
+          "nct_ids": ["NCT05690386"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Ascendis Pharma Endocrinology Division A/S",
+          "key_milestones": ["Primary completion 2024-10-18"]
+        }
+      ]
+    },
+    {
+      "asset": "TransCon IL-2 β/γ",
+      "aka": [],
+      "modality": "Sustained-release prodrug of selective IL-2 beta/gamma agonist",
+      "target": "IL-2 Rβ/γ",
+      "license_origin": "Ascendis (TransCon platform)",
+      "indications": [
+        {
+          "indication": "Locally advanced or metastatic solid tumors (multiple combinations)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IL-Believe",
+          "trial_design": "Phase 1/2 multi-cohort, dose-escalation/expansion of TransCon IL-2 β/γ alone or with pembrolizumab and/or TransCon TLR7/8 agonist or other anticancer therapies",
+          "nct_ids": ["NCT05081609"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Ascendis Pharma Oncology Division A/S",
+          "key_milestones": ["Primary completion 2027-08"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "SKYTROFA (lonapegsomatropin-tcgd)", "indication": "Pediatric growth hormone deficiency", "status": "Approved (US, EU, Japan)"},
+      {"name": "Yorvipath (palopegteriparatide)", "indication": "Adult hypoparathyroidism", "status": "Approved (US, EU)"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "TransCon TLR7/8 Agonist", "nct_ids": ["NCT05980598", "NCT04799054"], "reason": "Both oncology TLR7/8 trials TERMINATED"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "TransCon hGH (China)", "nct_ids": ["NCT04326374"], "reason": "Sponsor is Visen Pharmaceuticals (China JV partner); status UNKNOWN"}
+  ],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase_3": 3,
+    "phase_2": 5,
+    "phase_1": 0,
+    "indications_total": 8
+  },
+  "blockers": "Foreign private issuer — files 20-F (no 10-K available)"
+}

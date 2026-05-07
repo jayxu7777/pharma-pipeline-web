@@ -1,0 +1,64 @@
+{
+  "issuer_name": "InflaRx N.V.",
+  "ticker": "IFRX",
+  "exchange": "Nasdaq",
+  "cik": "0001708688",
+  "region": "EU (Germany)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://www.inflarx.com/ (redirects to inflarx.de)", "note": "Pipeline pages returned 404; supplemented with web search of company press releases"},
+    "ctgov": {"path": "data/ifrx_ctgov_compact.json", "trial_count": 16}
+  },
+  "pipeline": [
+    {
+      "asset": "Vilobelimab",
+      "aka": ["IFX-1", "CaCP29", "Gohibic (US emergency use brand for COVID-19)"],
+      "modality": "First-in-class anti-C5a monoclonal antibody (IV)",
+      "target": "Complement factor C5a",
+      "license_origin": "Internal (InflaRx GmbH)",
+      "indications": [
+        {
+          "indication": "Acute respiratory distress syndrome (ARDS) — JUST BREATHE platform",
+          "highest_phase": "Phase 2",
+          "trial_name": "JUST BREATHE master protocol — Cohort A: Vilobelimab",
+          "trial_design": "Randomized, placebo-controlled adaptive platform trial (BARDA-funded; led by PPD Development)",
+          "nct_ids": ["NCT06703073", "NCT06701682"],
+          "trial_status": "RECRUITING (started 2025-06; primary completion 2028-07)",
+          "lead_sponsor": "PPD Development, LP (with InflaRx as collaborator/asset owner)",
+          "key_milestones": ["Enrolling 2025-2028"]
+        }
+      ]
+    },
+    {
+      "asset": "Izicopan",
+      "aka": ["INF904"],
+      "modality": "Oral small molecule C5a receptor (C5aR1) inhibitor",
+      "target": "C5a receptor (C5aR1) signaling",
+      "license_origin": "Internal (InflaRx GmbH)",
+      "indications": [
+        {
+          "indication": "Chronic spontaneous urticaria (CSU) and hidradenitis suppurativa (HS)",
+          "highest_phase": "Phase 2a",
+          "trial_name": "Phase 2a INF904 in CSU and HS",
+          "trial_design": "Multi-cohort dose-finding study in moderate-to-severe CSU and HS",
+          "nct_ids": ["NCT06555328"],
+          "trial_status": "TERMINATED on ctgov as of latest entry (start 2025-01-02; primary completion 2026-01-22) — company has stated INF904 is the prioritized program with Phase 2a readouts in CSU and HS anticipated; status discrepancy may reflect data cut-off or trial restructuring",
+          "lead_sponsor": "InflaRx GmbH",
+          "key_milestones": ["Phase 2a topline data anticipated 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Vilobelimab in Pyoderma Gangrenosum", "reason": "Phase 3 NCT05964413 TERMINATED May 2025 after IDMC futility recommendation; company is discontinuing PG indication despite some encouraging post-hoc signals presented at AAD 2026"},
+    {"asset": "Vilobelimab in cSCC (NCT04812535)", "reason": "Phase 2 terminated"},
+    {"asset": "Vilobelimab in GPA/MPA (NCT03712345)", "reason": "Phase 2 terminated"},
+    {"asset": "Vilobelimab in COVID-19 pneumonia", "reason": "Phase 2/3 (NCT04333420) completed; FDA EUA only — no current active development"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 0, "p2": 2, "p1": 0},
+  "blockers": ["Foreign private issuer — files 20-F instead of 10-K", "Pipeline web pages 404; relied on ctgov + press releases"]
+}

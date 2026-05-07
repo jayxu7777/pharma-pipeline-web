@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Taysha Gene Therapies, Inc.",
+  "ticker": "TSHA",
+  "exchange": "Nasdaq",
+  "cik": "0001806310",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-115202", "filing_date": "2026-03-19", "doc": "tsha-20251231.htm"},
+    "website": {"url": "https://tayshagtx.com/pipeline", "note": "lead asset confirmed; other early-stage candidates not specifically named"},
+    "ctgov": {"file": "data/tsha_ctgov_compact.json", "trial_count": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "TSHA-102",
+      "aka": [],
+      "modality": "AAV9 gene therapy (intrathecal) with miRARE microRNA-responsive auto-regulatory element",
+      "target": "MECP2 gene replacement",
+      "license_origin": "Licensed from UT Southwestern (Sadhana Jackson / Steven Gray lab); miRARE technology in-licensed",
+      "indications": [
+        {
+          "indication": "Rett syndrome (pediatric and adolescent/adult females)",
+          "highest_phase": "Phase 3 (pivotal)",
+          "trial_name": "REVEAL Pivotal (NCT05606614) and REVEAL Pediatric Pivotal (NCT07480564); supportive Phase 1/2 REVEAL Pediatric (NCT06152237)",
+          "trial_design": "Pivotal Phase 1/2/3 program: REVEAL Pivotal (adolescent/adult females); REVEAL Pediatric Pivotal (ages >2 to <4 years); plus open-label Phase 1/2 in pediatric females; intrathecal one-time gene therapy administration",
+          "nct_ids": ["NCT05606614", "NCT07480564", "NCT06152237"],
+          "trial_status": "REVEAL Pivotal Recruiting; REVEAL Pediatric Pivotal Not yet recruiting (start 2026-03); REVEAL Pediatric Phase 1/2 Active not recruiting",
+          "lead_sponsor": "Taysha Gene Therapies, Inc.",
+          "key_milestones": ["U.S. Breakthrough Therapy designation", "RMAT designation", "Fast Track", "Orphan Drug (FDA + EMA)", "Pediatric pivotal expected to enroll starting 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Other early-stage CNS gene-therapy candidates (not individually disclosed; potential partnering)"],
+  "excluded_legacy_terminated": [
+    "TSHA-120 (GAN, giant axonal neuropathy) — program de-prioritized",
+    "TSHA-118 (CLN1) — de-prioritized",
+    "Other previously-disclosed AAV programs reduced as Taysha focused resources on TSHA-102"
+  ],
+  "excluded_partner_owned": [
+    "NCT04798235 — TSHA-101 in infantile GM2 gangliosidosis, Phase 1/2; lead sponsor Dr. Anupam Sehgal (investigator-initiated, Queen's University), Taysha listed as collaborator only"
+  ],
+  "summary_counts": {"assets": 1, "phase3": 1, "phase2": 0, "phase1_or_1_2": 0, "indications_total": 1}
+}

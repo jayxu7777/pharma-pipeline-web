@@ -1,0 +1,94 @@
+{
+  "issuer_name": "AnaptysBio, Inc.",
+  "ticker": "ANAB",
+  "exchange": "Nasdaq",
+  "cik": "0001370053",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-088290", "filing_date": "2026-03-03", "path": "data/anab_10k_pipeline_section.html"},
+    "website": {"url": "https://www.anaptysbio.com", "note": "Site has been refocused as Anaptys Royalty Co; no public asset-pipeline page resolvable. Used 10-K + ctgov."},
+    "ctgov": {"path": "data/anab_ctgov_compact.json", "sponsor_query": "AnaptysBio"}
+  },
+  "pipeline": [
+    {
+      "asset": "Rosnilimab",
+      "aka": ["ANB030"],
+      "modality": "Monoclonal antibody (selective pathogenic T cell depleter)",
+      "target": "PD-1 (agonist/depleter)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe Rheumatoid Arthritis (RA)",
+          "highest_phase": "Phase 2b",
+          "trial_name": "Global 424-patient Phase 2b RA",
+          "trial_design": "Randomized, double-blind, placebo-controlled; 100/400/600mg dosing arms",
+          "nct_ids": ["NCT06041269"],
+          "trial_status": "Active, not recruiting; primary endpoint met (DAS28-CRP, ACR20). Assessing advancement to Phase 3 with update expected H1 2026.",
+          "lead_sponsor": "AnaptysBio, Inc.",
+          "key_milestones": ["Topline initial Feb 2025; updated Jun 2025", "Phase 3 advancement decision H1 2026"]
+        },
+        {
+          "indication": "Ulcerative Colitis (UC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 UC study",
+          "trial_design": "Randomized, placebo-controlled",
+          "nct_ids": ["NCT06127043"],
+          "trial_status": "Active, not recruiting; topline data was not positive per 10-K disclosure",
+          "lead_sponsor": "AnaptysBio, Inc.",
+          "key_milestones": ["Topline data reported (not positive)"]
+        }
+      ]
+    },
+    {
+      "asset": "ANB033",
+      "aka": [],
+      "modality": "Monoclonal antibody (CD122 antagonist)",
+      "target": "CD122 (IL-2/IL-15 receptor beta subunit)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Celiac Disease (CeD) and Eosinophilic Esophagitis (EoE)",
+          "highest_phase": "Phase 1b",
+          "trial_name": "Global Phase 1b in CeD/EoE",
+          "trial_design": "Randomized, placebo-controlled, 60-patient",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing; Phase 1a healthy volunteer data reported Oct 2025 (no safety concerns)",
+          "lead_sponsor": "AnaptysBio, Inc.",
+          "key_milestones": ["Phase 1a HV topline Oct 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "ANB101",
+      "aka": ["CBS004"],
+      "modality": "Monoclonal antibody (BDCA2 modulator)",
+      "target": "BDCA2",
+      "license_origin": "In-licensed from Centessa (Nov 2023)",
+      "indications": [
+        {
+          "indication": "Autoimmune/inflammatory diseases (Phase 1a healthy volunteer)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1a HV study",
+          "trial_design": "Healthy volunteer single/multi-ascending dose",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing Phase 1a",
+          "lead_sponsor": "AnaptysBio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Etokimab (ANB020) — multiple completed Phase 2 studies in CRSwNP, peanut allergy, eosinophilic asthma, atopic dermatitis (NCT03614923, NCT02920021, NCT03469934, NCT03533751); program not active",
+    "ANB032 in Atopic Dermatitis (NCT05935085, terminated)",
+    "Rosnilimab in Alopecia Areata (NCT05205070, status UNKNOWN — discontinued indication)"
+  ],
+  "excluded_partner_owned": [
+    "Jemperli (dostarlimab) — out-licensed to GSK; royalty/milestone only",
+    "Imsidolimab (IL-36R antagonist) — out-licensed to Vanda; BLA accepted by FDA Feb 2026 (PDUFA Dec 12, 2026); royalty/milestone only"
+  ],
+  "summary_counts": {"assets": 3, "p3_indications": 0, "p2_indications": 2, "p1_indications": 2}
+}

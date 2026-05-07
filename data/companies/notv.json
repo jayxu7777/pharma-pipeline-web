@@ -1,0 +1,23 @@
+{
+  "issuer_name": "Inotiv, Inc.",
+  "ticker": "NOTV",
+  "exchange": "Nasdaq",
+  "cik": "0000720154",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/notv_10k_pipeline_section.html", "accession": "0001628280-25-055483", "filed": "2025-12-05", "fiscal_year_end": "2025-09-30"},
+    "website": {"url": "https://www.inotivco.com", "note": "Not fetched in detail — services company has no proprietary drug pipeline page"},
+    "ctgov": {"path": "data/notv_ctgov_compact.json", "note": "0 trials sponsored by Inotiv as lead sponsor"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "services": "Nonclinical and analytical drug discovery / safety assessment CRO services and research models / lab products"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_active_assets": 0},
+  "no_active_clinical_pipeline_reason": "Contract research organization (CRO) and research-models / lab-products supplier — services business with no proprietary clinical drug pipeline. Trials run on behalf of sponsor clients are not enumerated."
+}

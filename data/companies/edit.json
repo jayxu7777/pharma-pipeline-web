@@ -1,0 +1,29 @@
+{
+  "issuer_name": "Editas Medicine, Inc.",
+  "ticker": "EDIT",
+  "exchange": "Nasdaq",
+  "cik": "0001650664",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001650664-26-000017", "filed": "2026-03-09", "fy": "2025"},
+    "website": {"note": "skipped — 10-K confirms all clinical programs discontinued; pipeline is preclinical only"},
+    "ctgov": {"sponsor_query": "Editas Medicine", "active_pcubed_trials": 3, "note": "EDIT-301/reni-cel trials (RUBY NCT04853576 SCD; EdiThal NCT05444894 TDT) are ACTIVE_NOT_RECRUITING in registry but program was DISCONTINUED per 10-K wind-down language; EDIT-101/LCA10 trial NCT03872479 status UNKNOWN, also discontinued"}
+  },
+  "no_active_clinical_pipeline_reason": "Per FY2025 10-K, Editas discontinued the ex vivo reni-cel (EDIT-301) program in 2024 and is winding down clinical/manufacturing activities. The company explicitly states 'All of our ongoing research programs are still in the preclinical or research stage of development.' Lead in vivo candidate EDIT-401 (LDLR upregulation for hyperlipidemia) is preclinical with IND planned mid-2026.",
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "EDIT-401", "indication": "Heterozygous familial hypercholesterolemia (HeFH) / elevated LDL-C", "modality": "in vivo CRISPR LNP, LDLR upregulation", "reason": "Preclinical; IND planned mid-2026; first-in-human topline data expected 2027"},
+    {"asset": "HSC in vivo program", "reason": "Preclinical proof-of-concept in NHPs only"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "EDIT-301 / reni-cel (renizgamglogene autogedtemcel)", "indication": "Sickle cell disease (RUBY NCT04853576), Transfusion-dependent beta-thalassemia (EdiThal NCT05444894)", "reason": "Program discontinued; clinical and manufacturing activities being wound down per FY2025 10-K"},
+    {"asset": "EDIT-101", "indication": "LCA10 (BRILLIANCE NCT03872479)", "reason": "Discontinued; ctgov status UNKNOWN"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "BMS / Juno CD19 HD Allo CAR T (Phase 1)", "reason": "Partner-owned; Editas only provides Cas9/AsCas12a platform license"},
+    {"asset": "Vertex CASGEVY (exa-cel)", "reason": "Partner-owned; Editas only licenses Cas9 IP non-exclusively"}
+  ],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

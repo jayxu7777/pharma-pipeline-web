@@ -1,0 +1,36 @@
+{
+  "issuer_name": "TRINITY BIOTECH PLC",
+  "ticker": "TRIB",
+  "exchange": "Nasdaq",
+  "cik": "0000888721",
+  "region": "Ireland (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F instead of 10-K"
+    },
+    "website": {
+      "url": "https://www.trinitybiotech.com/",
+      "note": "Direct WebFetch of website timed out; corporate description confirmed via WebSearch"
+    },
+    "ctgov": {
+      "trial_count": 0,
+      "active_or_recruiting": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Diagnostics company developing and marketing clinical diagnostic products. Lead pipeline programs are diagnostic devices (CGM+ continuous glucose monitor, EpiCapture, PrePsia), not therapeutic drug candidates."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Trinity Biotech is a clinical-diagnostics / medical-device company (CGM+, EpiCapture, PrePsia). No therapeutic drug assets in P1/P2/P3 clinical development."
+}

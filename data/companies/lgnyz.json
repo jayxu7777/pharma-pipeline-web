@@ -1,0 +1,43 @@
+{
+  "issuer_name": "LIGAND PHARMACEUTICALS INC",
+  "ticker": "LGNYZ",
+  "exchange": "OTC",
+  "cik": "0000886163",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000886163-26-000006", "filed": "2026-02-27", "form": "10-K"},
+    "website": {"url": "https://www.ligand.com/royalty-portfolio/", "accessed": "2026-05-06"},
+    "ctgov": {"unique_p1_p3_trials": 33, "lead_sponsor_self": 21, "as_of": "2026-05-06"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Ligand is a biopharmaceutical royalty aggregator (post-2022 refocus, post-OmniAb 2022 / Pelican 2023 / Pelthos 2025 spin-offs). It does not sponsor its own clinical trials; it holds royalty rights on 90+ partner-developed programs (e.g., AVIM/Orchestra BioMed, BOT/BAL/Agenus, D-Fi/Castle Creek, Lasofoxifene/LeonaBio, QTORIN/Palvella, Sparsentan/Travere, Ensifentrine/Merck, VK2809/Viking, etc.). All clinical development is partner-sponsored, so per pipeline rules these are excluded as partner-owned.",
+  "commercial_product": {
+    "royalty_assets": "12 major commercial-stage royalty assets including Filspari (sparsentan, Travere), Kyprolis (Amgen, via Captisol), Rylaze (JZP-458, Jazz, via Captisol), Teriparatide injection (Alvogen), Vaxneuvance/Capvaxive (Merck, via Captisol), Veklury (Gilead, via Captisol), and others"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "AVIM therapy/Virtue SAB (Orchestra BioMed) — Phase 3 cardiology",
+    "BOT/BAL (Agenus) — Phase 3 oncology",
+    "D-Fi (Castle Creek Biosciences) — Phase 3 rare disease",
+    "Lasofoxifene (LeonaBio) — Phase 3 oncology",
+    "QTORIN rapamycin 3.9% (Palvella Therapeutics) — Phase 3 rare disease",
+    "Sparsentan (Travere Therapeutics) — NDA/approved kidney disease",
+    "Ensifentrine (Merck) — Phase 2 respiratory",
+    "VK2809 (Viking Therapeutics) — Phase 2 hepatology",
+    "ANEB-001 (Anebulo) — Phase 2",
+    "Ciforadenant CPI-444 (Corvus) — Phase 2",
+    "MB07133 (Xi'an Xintong) — Phase 2",
+    "VK5211 (Viking Therapeutics) — Phase 2",
+    "Dinutuximab (Recordati) — Phase 1",
+    "V118 (Merck) — Phase 1",
+    "VK0214 (Viking Therapeutics) — Phase 1",
+    "ACLX-001 (Arcellx) — Phase 1",
+    "ACLX-002 (Arcellx) — Phase 1",
+    "REV-0100 (reVision Therapeutics) — Phase 1"
+  ],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_active_assets": 0},
+  "blockers": "Royalty-aggregator business model — no internally-sponsored clinical pipeline by design"
+}

@@ -1,0 +1,39 @@
+{
+  "issuer_name": "CAMP4 Therapeutics Corporation",
+  "ticker": "CAMP",
+  "exchange": "Nasdaq",
+  "cik": "0001736730",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001736730-26-000016", "filing_date": "2026-03-05", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://camp4tx.com/pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Camp4 Therapeutics", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "CMP-CPS-001",
+      "aka": ["CMP-001"],
+      "modality": "Antisense oligonucleotide (regulatory RNA platform — upregulates CPS1)",
+      "target": "CPS1 (carbamoyl phosphate synthetase 1) regulatory RNA",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Urea cycle disorders (including OTC deficiency, CPS1 deficiency)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Study of CMP-CPS-001 in Healthy Volunteers and Participants With Abnormal Heterozygous OTC Genotype",
+          "trial_design": "Phase 1 SAD/MAD in healthy volunteers and OTC heterozygotes (with optional Phase 1b/2 expansion)",
+          "nct_ids": ["NCT06247670"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "CAMP4 Therapeutics Corporation",
+          "key_milestones": ["Started 2024-02; primary completion 2027-12; company exploring partnership"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["CMP-002 (SYNGAP1; preclinical, IND-enabling, clinical start anticipated H2 2026)", "Multiple CNS discovery programs", "GSK collaboration ASO programs (neurodegeneration/kidney; preclinical)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": ["GSK-partnered ASO discovery programs (multiple targets; preclinical, partner-led)"],
+  "summary_counts": {"total_active_assets": 1, "P3": 0, "P2": 0, "P1_or_P1_2": 1}
+}

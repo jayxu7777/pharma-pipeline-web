@@ -1,0 +1,75 @@
+{
+  "issuer_name": "Jade Biosciences, Inc.",
+  "ticker": "JBIO",
+  "exchange": "Nasdaq",
+  "cik": "0001798749",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-096550", "filing_date": "2026-03-06", "path": "data/jbio_10k_pipeline_section.html"},
+    "website": {"url": "https://www.jadebiosciences.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/jbio_ctgov_compact.json", "sponsor_query": "Jade Biosciences"}
+  },
+  "pipeline": [
+    {
+      "asset": "JADE101",
+      "aka": [],
+      "modality": "Anti-APRIL monoclonal antibody",
+      "target": "APRIL (a proliferation-inducing ligand)",
+      "license_origin": "Internal (in-licensed from Paragon Therapeutics)",
+      "indications": [
+        {
+          "indication": "IgA nephropathy (IgAN)",
+          "highest_phase": "P2",
+          "trial_name": "JADE101 P2 IgAN",
+          "trial_design": "Phase 2 study in IgAN patients",
+          "nct_ids": ["NCT07541287"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jade Biosciences, Inc.",
+          "key_milestones": ["Phase 2 initiation mid-2026"]
+        },
+        {
+          "indication": "Healthy volunteers - PK/PD",
+          "highest_phase": "P1",
+          "trial_name": "JADE101 P1 HV",
+          "trial_design": "Phase 1 SAD/MAD in healthy volunteers; Japanese/Chinese ethnobridging",
+          "nct_ids": ["NCT07059312", "NCT07525947"],
+          "trial_status": "ACTIVE_NOT_RECRUITING / NOT_YET_RECRUITING",
+          "lead_sponsor": "Jade Biosciences, Inc.",
+          "key_milestones": ["Interim data Q2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "JADE201",
+      "aka": [],
+      "modality": "Anti-BAFF-R monoclonal antibody",
+      "target": "BAFF receptor (BAFF-R)",
+      "license_origin": "Internal (Paragon-derived)",
+      "indications": [
+        {
+          "indication": "Rheumatoid arthritis (initial autoimmune indication)",
+          "highest_phase": "P1",
+          "trial_name": "JADE201 P1 RA",
+          "trial_design": "Placebo-controlled Phase 1 in RA patients",
+          "nct_ids": ["NCT07533955"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Jade Biosciences, Inc.",
+          "key_milestones": ["Phase 1 initiation Q2 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": ["JADE301 (undisclosed target) - IND-enabling, P1 initiation projected 1H 2027"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 0,
+    "P2": 1,
+    "P1": 2,
+    "approved_commercial": 0
+  }
+}

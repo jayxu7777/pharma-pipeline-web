@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Revium Rx",
+  "ticker": "RVRC",
+  "exchange": "OTC",
+  "cik": "0001839140",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/rvrc_10k_pipeline_section.html", "filing_date": "2026-03-31", "accession": "0001213900-26-037573"},
+    "website": {"error": "no public pipeline page checked — 10-K is authoritative since both candidates are preclinical"},
+    "ctgov": {"path": "data/rvrc_ctgov_compact.json", "trial_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Both product candidates (Nano-Mupirocin and Nano-Candesartan) are in preclinical development per the FY2025 10-K filed 2026-03-31. Lead candidate Nano-Mupirocin received Israeli MoH approval to initiate a Phase 1 trial in Israel, but the trial has not started; GLP toxicology ongoing, expected to complete around May 2026. Nano-Candesartan is preclinical. No NCT IDs registered.",
+  "excluded_preclinical": ["Nano-Mupirocin (liposomal mupirocin, 505(b)(2) pathway, Israel Phase 1 IND-equivalent approved but not started)", "Nano-Candesartan (intravenous angiotensin receptor blocker)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

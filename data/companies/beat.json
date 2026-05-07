@@ -1,0 +1,50 @@
+{
+  "issuer_name": "HeartBeam, Inc.",
+  "ticker": "BEAT",
+  "exchange": "Nasdaq",
+  "cik": "0001779372",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-104080",
+      "filing_date": "2026-03-12",
+      "doc": "beat-20251231.htm",
+      "path": "data/beat_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "Not pursued — issuer is a medical device company (3D ECG / cardiac monitoring), no drug pipeline page applicable."
+    },
+    "ctgov": {
+      "path": "data/beat_ctgov_compact.json",
+      "trials_returned": 0,
+      "note": "No P1-P3 sponsored interventional drug trials (device company)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "device": "HeartBeam System",
+    "modality": "Credit-card-sized cable-free ambulatory 3D ECG device that synthesizes a 12-lead ECG via a personalized transformation matrix; physician portal and cloud-based algorithms",
+    "regulatory": [
+      "FDA 510(k) clearance — 3D ECG recording device for arrhythmia assessment (December 2024)",
+      "FDA 510(k) clearance — 12-Lead ECG synthesis software for arrhythmia assessment (December 2025)"
+    ],
+    "device_studies_in_progress": [
+      "ALIGN-ACS pilot study — 100-patient ED chest pain study comparing HeartBeam device to standard 12-lead ECG; first patients enrolled March 2026; designed to support future FDA indication expansion for heart attack assessment",
+      "Extended Wear Patch (12L patch) — working prototype; pre-pivotal device development",
+      "Strategic AI collaboration with Mount Sinai (Icahn School of Medicine) for cardiac AI development"
+    ],
+    "first_commercial_customer": "ClearCardio (announced March 4, 2026) — preventive cardiology practice; staged rollout under Letter of Intent"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company — sole product is the FDA 510(k)-cleared HeartBeam System (cable-free ambulatory 3D ECG). No proprietary drug pipeline. The active ALIGN-ACS study is a 100-patient device pilot in support of a future 510(k) indication expansion (heart attack assessment), not a P1/P2/P3 drug trial. 10-K notes substantial doubt regarding going concern."
+}

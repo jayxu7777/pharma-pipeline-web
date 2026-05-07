@@ -1,0 +1,91 @@
+{
+  "issuer_name": "Cue Biopharma, Inc.",
+  "ticker": "CUE",
+  "exchange": "Nasdaq",
+  "cik": "0001645460",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-108287", "filed": "2026-03-16", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://cuebiopharma.com/pipeline"},
+    "ctgov": {"records": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "CUE-101",
+      "aka": [],
+      "modality": "Immuno-STAT (IL-2-based fusion protein selectively activating HPV16 E7-specific T cells)",
+      "target": "HLA-A*0201 + HPV16 E7 tumor-specific T cells",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "HPV16+ recurrent/metastatic head and neck squamous cell carcinoma (R/M HNSCC) - 1L combination with pembrolizumab",
+          "highest_phase": "Phase 1",
+          "trial_name": "CUE-101 + Pembrolizumab in HPV16+ R/M HNSCC",
+          "trial_design": "Phase 1 combination study with KEYTRUDA in 1L setting",
+          "nct_ids": ["NCT03978689"],
+          "trial_status": "Completed (primary completion 2026-01-04)",
+          "lead_sponsor": "Cue Biopharma",
+          "key_milestones": ["Showed clinical activity including tumor reductions and survival benefit per company website"]
+        },
+        {
+          "indication": "Locally advanced HPV16+ oropharyngeal SCC (neoadjuvant)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CUE-101 neoadjuvant before surgery or chemoradiation in LA HPV16+ OPSCC",
+          "trial_design": "Investigator-initiated three-schedule neoadjuvant study (Washington University)",
+          "nct_ids": ["NCT04852328"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Washington University School of Medicine (Cue Biopharma collaborator)",
+          "key_milestones": ["Primary completion 2027-10-31"]
+        },
+        {
+          "indication": "Locally advanced HPV+ HNSCC (CUE-101 + pembrolizumab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CUE-101 with Pembrolizumab for LA-HPV+ HNSCC",
+          "trial_design": "Investigator-initiated Phase 2 (Yale)",
+          "nct_ids": ["NCT07172256"],
+          "trial_status": "Not yet recruiting (planned start 2026-04)",
+          "lead_sponsor": "Yale University (Cue Biopharma + NCI collaborators)",
+          "key_milestones": ["Primary completion 2031-02"]
+        }
+      ]
+    },
+    {
+      "asset": "CUE-102",
+      "aka": [],
+      "modality": "Immuno-STAT bispecific T cell engager",
+      "target": "HLA-A*0201 + WT1 tumor-specific T cells",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "WT1+ recurrent/metastatic solid tumors (colorectal, gastric, pancreatic, ovarian)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CUE-102 in HLA-A*0201+ and WT1+ Recurrent/Metastatic Cancers",
+          "trial_design": "Phase 1 monotherapy",
+          "nct_ids": ["NCT05360680"],
+          "trial_status": "Completed (primary completion 2025-03-12)",
+          "lead_sponsor": "Cue Biopharma",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent glioblastoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "CUE-102 in Recurrent Glioblastoma",
+          "trial_design": "Investigator-initiated Phase 1 (Dana-Farber)",
+          "nct_ids": ["NCT06917885"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "David Reardon, MD (Cue Biopharma collaborator)",
+          "key_milestones": ["Primary completion 2027-01-31"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "CUE-401", "indication": "Autoimmune/inflammatory (FOXP3+ Treg induction)", "stage": "Preclinical"},
+    {"asset": "CUE-501", "indication": "B cell-mediated autoimmune disease (memory T-cell B-cell depletion)", "stage": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 2, "P3": 0, "P2": 2, "P1": 3}
+}

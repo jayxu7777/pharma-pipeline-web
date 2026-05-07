@@ -1,0 +1,58 @@
+{
+  "issuer_name": "Evofem Biosciences, Inc.",
+  "ticker": "EVFM",
+  "exchange": "OTC",
+  "cik": "0001618835",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-009686",
+      "filing_date": "2026-03-11",
+      "path": "data/evfm_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://evofem.com/pipeline/in-development/",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/evfm_ctgov_compact.json",
+      "trials_kept": 0,
+      "note": "Sponsor 'Evofem Biosciences' returned 0 P1/P2/P3 trials. The investigator-led NIH-funded Phase 4 SOLOSEC trichomoniasis trial is post-marketing and not Evofem-sponsored."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "PHEXXI (lactic acid / citric acid / potassium bitartrate)",
+        "indication": "Hormone-free prescription contraceptive",
+        "status": "FDA-approved, marketed in US"
+      },
+      {
+        "name": "SOLOSEC (secnidazole 2g oral granules)",
+        "indication": "Bacterial vaginosis (women >=12 yr); trichomoniasis (>=12 yr)",
+        "status": "FDA-approved, marketed in US"
+      }
+    ]
+  },
+  "no_active_clinical_pipeline_reason": "Evofem is a commercial-stage women's health company. PHEXXI and SOLOSEC are marketed. Pipeline candidates EVO100 (chlamydia/gonorrhea prevention) and EVO200 (recurrent BV prevention) hold FDA QIDP designations but have no Evofem-sponsored active P1/P2/P3 trials registered on clinicaltrials.gov as of the snapshot date. The MPT (Phexxi + OB-002) HIV-prevention candidate is preclinical and partner-dependent (Orion Biotechnology).",
+  "excluded_preclinical": [
+    "EVO200 - recurrent BV prevention (formulation work; no active clinical trial)",
+    "MPT candidate (Phexxi + OB-002 CCR5 antagonist) for HIV prevention - preclinical, partner Orion Biotechnology"
+  ],
+  "excluded_legacy_terminated": [
+    "EVO100 for chlamydia/gonorrhea prevention - prior Phase 3 AMPOWER program completed; no active Evofem-sponsored P3 follow-up registered"
+  ],
+  "excluded_partner_owned": [
+    "NIH-funded investigator-led Phase 4 SOLOSEC vs metronidazole for trichomoniasis (post-marketing, not Evofem-sponsored)"
+  ],
+  "summary_counts": {
+    "assets": 0,
+    "indications_active_p1_p2_p3": 0,
+    "phase3": 0,
+    "phase2": 0,
+    "phase1": 0
+  }
+}

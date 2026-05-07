@@ -1,0 +1,113 @@
+{
+  "issuer_name": "Humacyte, Inc.",
+  "ticker": "HUMA",
+  "exchange": "Nasdaq",
+  "cik": "0001818382",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001818382-26-000004", "filing_date": "2026-03-27", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://www.humacyte.com/our-pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Humacyte", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Acellular Tissue Engineered Vessel (ATEV / SYMVESS)",
+      "aka": ["Human Acellular Vessel (HAV)", "Symvess (acellular tissue engineered vessel-tyod)"],
+      "modality": "Bioengineered acellular tissue engineered vessel (regenerative medicine biologic)",
+      "target": "N/A — vascular conduit",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Hemodialysis vascular access in female ESRD patients (V012 trial)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ATEV vs AVF in Female ESRD Patients Requiring Hemodialysis",
+          "trial_design": "Randomized Phase 3 vs arteriovenous fistula",
+          "nct_ids": ["NCT05908084"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Humacyte, Inc.",
+          "key_milestones": ["Primary completion 2026-10"]
+        },
+        {
+          "indication": "Vascular trauma (extremity arterial injury) — supports Symvess BLA approval",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "HAV in Patients With Vascular Trauma (V005)",
+          "trial_design": "Phase 2/3 single-arm in vascular trauma; supported FDA approval of Symvess (Dec 2024)",
+          "nct_ids": ["NCT03005418"],
+          "trial_status": "Active, not recruiting (long-term follow-up)",
+          "lead_sponsor": "Humacyte, Inc.",
+          "key_milestones": ["Symvess FDA approval Dec 2024 for vascular trauma; primary completion 2027-09"]
+        },
+        {
+          "indication": "Peripheral artery disease (femoro-popliteal bypass)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "HAV for PAD bypass — pivotal program planned",
+          "trial_design": "Phase 3 pivotal planned following completed Phase 2 (NCT02887859)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pivotal Phase 3 announced; not yet enrolling on ctgov",
+          "lead_sponsor": "Humacyte, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Coronary artery bypass grafting (CABG)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ATEV in CABG (planned)",
+          "trial_design": "Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — disclosed in company pipeline",
+          "lead_sponsor": "Humacyte, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Biovascular Pancreas (BVP)",
+      "aka": [],
+      "modality": "Bioengineered tissue construct (ATEV seeded with allogeneic islets)",
+      "target": "Insulin replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Type 1 diabetes mellitus",
+          "highest_phase": "Phase 3 (per company classification)",
+          "trial_name": "Biovascular Pancreas program",
+          "trial_design": "Per company pipeline page; clinical-stage development",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — clinical development per company; no public registry entry",
+          "lead_sponsor": "Humacyte, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Bioengineered Lung",
+      "aka": [],
+      "modality": "Bioengineered tissue construct",
+      "target": "Lung tissue replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lung disease (early clinical)",
+          "highest_phase": "Phase 2 (per company classification)",
+          "trial_name": "Bioengineered lung program",
+          "trial_design": "Per company pipeline page",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — early clinical per company disclosure",
+          "lead_sponsor": "Humacyte, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Symvess (acellular tissue engineered vessel-tyod)",
+    "indication": "Vascular trauma in extremities when synthetic graft is not indicated and autologous vein is not feasible",
+    "approval": "FDA approved December 2024",
+    "launch_status": "U.S. commercial launch underway"
+  },
+  "excluded_preclinical": ["Pediatric heart disease ATEV (preclinical)", "Urinary conduit (preclinical)", "Tracheal replacement (preclinical)", "Esophageal replacement (preclinical)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 3, "P3": 2, "P2": 2, "P1_or_P1_2": 0}
+}

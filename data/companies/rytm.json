@@ -1,0 +1,127 @@
+{
+  "issuer_name": "Rhythm Pharmaceuticals, Inc.",
+  "ticker": "RYTM",
+  "exchange": "Nasdaq",
+  "cik": "0001649904",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001628280-26-012399",
+      "path": "data/rytm_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://rhythmtx.com/clinical-trials/",
+      "fetched_via": "WebFetch"
+    },
+    "ctgov": {
+      "path": "data/rytm_ctgov_compact.json",
+      "trial_count": 24
+    }
+  },
+  "commercial_product": {
+    "name": "IMCIVREE (setmelanotide)",
+    "approved_indications": [
+      "Bardet-Biedl syndrome (BBS) — adults and pediatric >=2y",
+      "POMC, PCSK1, LEPR deficiency obesity — adults and pediatric >=2y",
+      "Acquired hypothalamic obesity (FDA approved Mar 2026; EU MA May 2026)"
+    ]
+  },
+  "pipeline": [
+    {
+      "asset": "Setmelanotide",
+      "aka": ["RM-493", "IMCIVREE"],
+      "modality": "Peptide MC4R agonist (subcutaneous)",
+      "target": "Melanocortin-4 receptor (MC4R)",
+      "license_origin": "Internal (originated from Ipsen MC4R program)",
+      "indications": [
+        {
+          "indication": "Congenital hypothalamic obesity (sub-study of TRANSCEND)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TRANSCEND congenital sub-study",
+          "trial_design": "Phase 3 sparsentan vs placebo in pts with congenital hypothalamic obesity (MPHD, septo-optic dysplasia, etc.)",
+          "nct_ids": ["NCT06760546"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Rhythm Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2027-03"]
+        },
+        {
+          "indication": "Long-term extension across MC4R-pathway obesities",
+          "highest_phase": "Phase 3",
+          "trial_name": "Open-label extension",
+          "trial_design": "OLE for participants from prior setmelanotide trials",
+          "nct_ids": ["NCT06596135"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Rhythm Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2027-10"]
+        },
+        {
+          "indication": "Prader-Willi syndrome",
+          "highest_phase": "Phase 2",
+          "trial_name": "Setmelanotide PWS Phase 2",
+          "trial_design": "Phase 2 in PWS patients with hyperphagia/obesity",
+          "nct_ids": ["NCT06772597"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Rhythm Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2026-10"]
+        }
+      ]
+    },
+    {
+      "asset": "Bivamelagon",
+      "aka": ["LB54640"],
+      "modality": "Small molecule oral MC4R-selective agonist",
+      "target": "MC4R",
+      "license_origin": "In-licensed from LG Chem (2023)",
+      "indications": [
+        {
+          "indication": "Acquired hypothalamic obesity (long-term)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Bivamelagon long-term study",
+          "trial_design": "Phase 2 long-term safety/efficacy of bivamelagon in HO",
+          "nct_ids": ["NCT07156578"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Rhythm Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2028-04", "Pivotal Phase 3 to initiate 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "RM-718",
+      "aka": [],
+      "modality": "Weekly subcutaneous MC4R-specific peptide agonist",
+      "target": "MC4R",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "MC4R pathway impairment (HO, Prader-Willi)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "RM-718-001",
+          "trial_design": "Phase 1/2 single ascending and multiple ascending doses in healthy and patients",
+          "nct_ids": ["NCT06239116"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Rhythm Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2027-11"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Congenital hyperinsulinism small-molecule program — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "Multiple completed Phase 1/2/3 setmelanotide trials in approved indications (NCT02896192, NCT03287960, NCT03746522, NCT04966741, NCT05194124, NCT05774756 [TRANSCEND main], NCT03651765 LTE, NCT04725240, NCT03013543, NCT02311673 PWS Phase 2, NCT01749137, NCT04963231 DAYBREAK, NCT05093634 EMANATE active-not-recruiting/completed, NCT04348175 renal PK, NCT01867437, NCT02041195, NCT02431442, NCT03262610 lipodystrophy n=1)",
+    "Bivamelagon SIGNAL Phase 2 NCT06046443 — completed",
+    "TRANSCEND main Phase 3 NCT05774756 — active-not-recruiting; supported FDA approval"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 2,
+    "phase_2": 2,
+    "phase_1_2": 1,
+    "indications_total": 5
+  }
+}

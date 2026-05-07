@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Cannabis Bioscience International Holdings, Inc.",
+  "ticker": "CBIH",
+  "exchange": "OTC",
+  "cik": "0001411057",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-09-22",
+      "accession": "0001683168-25-007174",
+      "path": "data/cbih_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.cbih.net/",
+      "note": "No public pipeline page; corporate site is informational only (Wix-hosted)."
+    },
+    "ctgov": {
+      "path": "data/cbih_ctgov_compact.json",
+      "unique_trials_p1_p3": 0,
+      "note": "No trials sponsored by Cannabis Bioscience International Holdings on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {
+      "asset": "Planned cannabinoid OTC formulations",
+      "reason": "Company states intent to develop alternative OTC medications and treatments using cannabinoids over the next 5 years; no IND filed and no clinical trials initiated."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "asset": "Sponsor / CRO contracted clinical trials via Alpha Research Institute",
+      "reason": "Trials are conducted on behalf of third-party sponsors; assets are not owned by CBIH."
+    }
+  ],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Services / CRO company. CBIH operates a clinical research site (Alpha Research Institute) and education business (Pharmacology University); it conducts trials for third-party sponsors and has no proprietary drug or device asset in active P1/P2/P3 development. Internal cannabinoid product programs are pre-IND / planning stage."
+}

@@ -1,0 +1,118 @@
+{
+  "issuer_name": "Kyverna Therapeutics, Inc.",
+  "ticker": "KYTX",
+  "exchange": "Nasdaq",
+  "cik": "0001994702",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-126242", "filing_date": "2026-03-26", "doc": "kytx-20251231.htm"},
+    "website": {"url": "https://kyvernatx.com/pipeline", "note": "Page is JS-rendered; pipeline details obtained from 10-K and ctgov."},
+    "ctgov": {"sponsor_query": "Kyverna Therapeutics", "trial_count": 12}
+  },
+  "pipeline": [
+    {
+      "asset": "miv-cel (KYV-101)",
+      "aka": ["KYV-101", "mivelacabtagene autoleucel", "miv-cel"],
+      "modality": "Autologous anti-CD19 CAR T-cell therapy",
+      "target": "CD19",
+      "license_origin": "In-licensed CAR construct from NIH (May 2021)",
+      "indications": [
+        {
+          "indication": "Stiff Person Syndrome (SPS)",
+          "highest_phase": "Phase 2 (registrational); BLA planned 1H 2026",
+          "trial_name": "KYSA-8",
+          "trial_design": "Single-arm, open-label, registrational Phase 2; 26 patients; primary endpoint T25FW at 16 weeks",
+          "nct_ids": ["NCT06588491"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; positive topline reported Dec 2025",
+          "lead_sponsor": "Kyverna Therapeutics",
+          "key_milestones": ["Positive topline Dec 2025 (p=0.0003 on T25FW)", "BLA filing planned 1H 2026", "RMAT designation Jul 2024", "ODD Aug 2024"]
+        },
+        {
+          "indication": "Generalized Myasthenia Gravis (gMG)",
+          "highest_phase": "Phase 2/3 (registrational; Phase 3 portion enrolling)",
+          "trial_name": "KYSA-6",
+          "trial_design": "Phase 2: single-arm open-label multicenter global; Phase 3: open-label randomized 1:1 vs SOC, ~60 patients, co-primary endpoints MG-ADL and QMG at 24 weeks",
+          "nct_ids": ["NCT06193889"],
+          "trial_status": "RECRUITING; first Phase 3 patient enrolled Dec 2025",
+          "lead_sponsor": "Kyverna Therapeutics",
+          "key_milestones": ["Positive interim Phase 2 data Oct 2025", "First Phase 3 patient Dec 2025", "RMAT designation Aug 2024", "ODD FDA Apr 2024", "ODD EMA Nov 2024"]
+        },
+        {
+          "indication": "Lupus Nephritis (LN)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "KYSA-1 (US) and KYSA-3 (Germany)",
+          "trial_design": "Open-label dose-escalation; KYSA-1 US-based, KYSA-3 Germany-based; 9 patients enrolled total, 6 at therapeutic dose",
+          "nct_ids": ["NCT05938725", "NCT06342960"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; enrollment complete",
+          "lead_sponsor": "Kyverna Therapeutics",
+          "key_milestones": ["Phase 1 data publication expected 2026"]
+        },
+        {
+          "indication": "Systemic Sclerosis (SSc)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "KYSA-5",
+          "trial_design": "Open-label, anti-CD19 CAR T cell therapy in systemic sclerosis",
+          "nct_ids": ["NCT06400303"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Kyverna Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Progressive Multiple Sclerosis (IIT)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Stanford and UCSF investigator-initiated trials; CARTIMMUNE",
+          "trial_design": "Open-label Phase 1 IITs in non-relapsing progressive MS",
+          "nct_ids": ["NCT06138132", "NCT06451159"],
+          "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING; data presented 2025-2026; additional readouts expected 2026",
+          "lead_sponsor": "Stanford University; Bruce Cree (UCSF)",
+          "key_milestones": ["83% of patients improved EDSS at last follow-up"]
+        },
+        {
+          "indication": "Rheumatoid Arthritis (RA, IIT)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "COMPARE",
+          "trial_design": "Open-label, randomized Phase 1/2 vs rituximab in ACPA-positive treatment-refractory RA at Charite Berlin",
+          "nct_ids": ["NCT06475495"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; Phase 2 enrollment completed",
+          "lead_sponsor": "Charite University, Berlin, Germany (Kyverna collaborator)",
+          "key_milestones": ["Phase 1 data presented at ACR Convergence Oct 2025", "Phase 2 readout expected 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "KYV-102",
+      "aka": ["Ingenui-T whole-blood manufactured CD19 CAR-T"],
+      "modality": "Autologous anti-CD19 CAR T-cell therapy (whole-blood rapid manufacturing)",
+      "target": "CD19",
+      "license_origin": "NIH license; Kyverna proprietary Ingenui-T process",
+      "indications": [
+        {
+          "indication": "B-cell-driven autoimmune disease (specific indication TBD)",
+          "highest_phase": "PLANNED (IND accepted by FDA Jan 2026)",
+          "trial_name": "Not yet initiated",
+          "trial_design": "TBD; development strategy to be shared 2026",
+          "nct_ids": [],
+          "trial_status": "PLANNED - IND accepted by FDA in January 2026; clinical trials not yet started",
+          "lead_sponsor": "Kyverna Therapeutics",
+          "key_milestones": ["IND filed 2H 2025", "IND accepted Jan 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "KYV-201", "reason": "Allogeneic CD19 CAR-T (Intellia partnership); preclinical stage, no IND disclosed"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "phase_3": 1,
+    "phase_2_3": 1,
+    "phase_2": 1,
+    "phase_1_2": 3,
+    "phase_1": 1,
+    "planned": 1
+  }
+}

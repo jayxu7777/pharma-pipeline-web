@@ -1,0 +1,69 @@
+{
+  "issuer_name": "NeuroSense Therapeutics Ltd.",
+  "ticker": "NRSNW",
+  "exchange": "Nasdaq",
+  "cik": "0001875091",
+  "region": "IL",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Israel) - files 20-F, not 10-K"},
+    "website": {"url": "https://www.neurosense-tx.com/pipeline", "notes": "Lists PrimeC (ALS), CogniC (Alzheimer's), StabiliC (Parkinson's, preclinical)"},
+    "ctgov": {"query": "spons:NeuroSense Therapeutics", "result": "6 P1-P2 trials (5 COMPLETED, 1 TERMINATED)", "file": "data/nrsnw_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "PrimeC",
+      "aka": ["CNM-Au8 alternate", "ciprofloxacin/celecoxib fixed-dose combination"],
+      "modality": "Small-molecule fixed-dose oral combination (ciprofloxacin + celecoxib, extended-release formulation)",
+      "target": "MicroRNA dysregulation, neuroinflammation, iron accumulation",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Amyotrophic Lateral Sclerosis (ALS)",
+          "highest_phase": "Phase 3 (cleared, planned/initiating)",
+          "trial_name": "PARAGON",
+          "trial_design": "Pivotal global Phase 3, randomized 2:1 PrimeC vs. placebo, ~300 patients, US and EU",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - FDA cleared pivotal Phase 3 design (Q4 2025); company advancing toward initiation in 2026 following positive Phase 2b PARADIGM (NCT05357950) results published in JAMA Neurology showing ~65% reduction in risk of death and >14-month median survival benefit",
+          "lead_sponsor": "NeuroSense Therapeutics Ltd.",
+          "key_milestones": [
+            "Phase 2b PARADIGM (NCT05357950) primary completion 2023-11; positive results",
+            "FDA positive feedback on Phase 3 design 2024-12",
+            "JAMA Neurology publication of PARADIGM survival/biomarker data early 2026",
+            "AD/PD 2026 Copenhagen presentation 2026-03-19",
+            "Phase 3 PARAGON initiation expected 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "CogniC",
+      "aka": ["PrimeC for Alzheimer's"],
+      "modality": "Small-molecule fixed-dose oral combination (PrimeC platform)",
+      "target": "MicroRNA dysregulation, neuroinflammation",
+      "license_origin": "Internally developed (PrimeC platform)",
+      "indications": [
+        {
+          "indication": "Mild to Moderate Alzheimer's Disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 randomized, double-blind, placebo-controlled",
+          "trial_design": "Single-center, ~20 patients, evaluating safety, tolerability, target engagement and efficacy",
+          "nct_ids": ["NCT06185543"],
+          "trial_status": "TERMINATED (per ctgov, primary completion 2025-09-30); company website still lists CogniC as part of pipeline derived from PrimeC foundations - status uncertain pending readout/disclosure",
+          "lead_sponsor": "NeuroSense Therapeutics Ltd.",
+          "key_milestones": [
+            "Trial start 2023-11-19",
+            "Primary completion 2025-09-30 (terminated status on ctgov)"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "StabiliC", "indication": "Parkinson's Disease", "reason": "Preclinical / in-vivo models per company website"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 1, "P2": 1, "P1": 0}
+}

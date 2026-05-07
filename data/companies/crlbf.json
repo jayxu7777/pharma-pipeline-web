@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Cresco Labs Inc.",
+  "ticker": "CRLBF",
+  "exchange": "OTC",
+  "cik": "0001832928",
+  "region": "Canada / US (cannabis multi-state operator)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found — Canadian cannabis MSO files Canadian annual disclosure (AIF on SEDAR), not a Form 10-K"},
+    "website": {"error": "no public clinical pipeline page; cannabis cultivator/retailer, not a drug developer"},
+    "ctgov": {"file": "data/crlbf_ctgov_compact.json", "n_records": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Cresco Labs is a US cannabis multi-state operator (cultivation, processing, distribution and retail of cannabis products under brands such as Cresco, High Supply, Sunnyside, Good News, FloraCal). It is not a clinical-stage pharmaceutical company and does not run interventional Phase 1/2/3 clinical trials. ClinicalTrials.gov returned zero P1-P3 trials with Cresco Labs as sponsor.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Sensei Biotherapeutics, Inc.",
+  "ticker": "SNSE",
+  "exchange": "Nasdaq",
+  "cik": "0001829802",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-132014", "filed": "2026-03-30", "fy": "2025"},
+    "website": {"url": "https://www.senseibio.com/pipeline", "fetched_via": "WebFetch"},
+    "ctgov": {"sponsor_query": "Sensei Biotherapeutics", "raw_count": 4, "kept_p1_p3": 4, "active_not_recruiting": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "solnerstotug (SNS-101)",
+      "aka": ["SNS-101", "anti-VISTA"],
+      "modality": "Conditionally-active human IgG1 monoclonal antibody (TMAb platform; pH-selective activation in tumor microenvironment)",
+      "target": "VISTA (V-domain Ig suppressor of T-cell activation)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (monotherapy and in combination with cemiplimab)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "SNS-101-101",
+          "trial_design": "Phase 1/2 dose-escalation and expansion study of SNS-101 monotherapy and in combination with cemiplimab (Regeneron) in patients with advanced solid tumors across multiple tumor types.",
+          "nct_ids": ["NCT05864144"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Sensei Biotherapeutics, Inc.",
+          "key_milestones": ["Primary completion June 2027", "Collaboration with Regeneron supplies cemiplimab"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "SNS-102 (anti-VSIG4)", "reason": "Discovery / preclinical."},
+    {"asset": "SNS-103 (anti-CD39 / ENTPDase1)", "reason": "Discovery / preclinical."},
+    {"asset": "SNS-201 (VISTA x CD28 bispecific)", "reason": "Discovery / preclinical."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "SNS-301 (anti-ASPH cancer vaccine)", "ncts": ["NCT04217720 WITHDRAWN", "NCT04034225 TERMINATED", "NCT03120832 COMPLETED"], "reason": "Program discontinued; all trials WITHDRAWN/TERMINATED/COMPLETED."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 0, "p2": 0, "p1": 0, "p1_p2_combined": 1}
+}

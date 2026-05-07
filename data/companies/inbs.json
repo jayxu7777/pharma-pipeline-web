@@ -1,0 +1,54 @@
+{
+  "issuer_name": "Intelligent Bio Solutions Inc.",
+  "ticker": "INBS",
+  "exchange": "Nasdaq",
+  "cik": "0001725430",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001641172-25-024279",
+      "filing_date": "2025-08-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1725430/000164117225024279/form10-k.htm"
+    },
+    "website": {
+      "url": "https://ibs.inc/",
+      "note": "Medical-technology company providing fingerprint-sweat drug-screening devices and consumables; no drug pipeline page."
+    },
+    "ctgov": {
+      "query_sponsor": "Intelligent Bio Solutions",
+      "active_p1_p3_trials": 0,
+      "raw_hits": 2,
+      "kept": 0,
+      "note": "Two raw matches were not interventional drug P1-P3 studies."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "Intelligent Fingerprinting Drug Screening System": {
+      "type": "In vitro diagnostic device (lateral-flow reader + fingertip-sweat collection cartridge)",
+      "regulatory_status": "Sold internationally; FDA 510(k) submitted December 2024 for US market entry",
+      "indication": "Rapid screening for cannabis, cocaine, opiates, methamphetamine in fingertip sweat",
+      "geography": "Over 450 accounts across 24 countries"
+    },
+    "SmarTest Patch": {
+      "type": "Wearable sweat-collection patch (drug-of-abuse continuous monitoring)",
+      "indication": "7-10 day continuous drug-use detection for justice and rehabilitation settings"
+    },
+    "Biosensor platform (in development)": {
+      "type": "Proprietary biosensor for non-invasive biomarker detection (sweat, saliva, interstitial fluid)",
+      "regulatory_status": "Pre-clearance; not in clinical trials"
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Diagnostic / medical-device company. Core products are fingertip-sweat drug-screening readers and consumables (Intelligent Fingerprinting System, SmarTest Patch); regulatory pathway is FDA 510(k), not drug clinical trials. No proprietary drug therapeutics in P1/P2/P3."
+}

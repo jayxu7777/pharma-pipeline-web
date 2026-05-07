@@ -1,0 +1,59 @@
+{
+  "issuer_name": "EXICURE, INC.",
+  "ticker": "XCUR",
+  "exchange": "Nasdaq",
+  "cik": "0001698530",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-25",
+      "accession": "0001698530-26-000028",
+      "path": "data/xcur_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found (corporate site exicuretx.com SSL/cert error; company in strategic-alternatives mode)"
+    },
+    "ctgov": {
+      "path": "data/xcur_ctgov_compact.json",
+      "note": "Both legacy Exicure trials (AST-008/cavrotolimod) are COMPLETED or TERMINATED. New asset GPC-100 belongs to GPCR Therapeutics — see data/gpc100_ctgov_compact.json (5 GPCR-sponsored trials, all COMPLETED, P1)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "GPC-100",
+      "aka": ["burixafor"],
+      "modality": "small molecule (CXCR4 antagonist)",
+      "target": "CXCR4 chemokine receptor",
+      "license_origin": "Acquired/licensed from GPCR Therapeutics, Inc. (Korea) via January 2025 Share Purchase Agreement and License & Collaboration Agreement; combined with propranolol",
+      "indications": [
+        {
+          "indication": "Stem cell mobilization in multiple myeloma patients eligible for autologous hematopoietic stem cell transplantation",
+          "highest_phase": "Phase 2",
+          "trial_name": "GPC-100 + propranolol for stem cell mobilization in multiple myeloma",
+          "trial_design": "Combination of GPC-100 (CXCR4 antagonist) with propranolol for HSC mobilization",
+          "nct_ids": "Not on public registry",
+          "trial_status": "COMPLETED — GPCR USA completed its Phase 2 clinical trial in January 2026 per XCUR 2025 10-K. XCUR plans $1.0M milestone payment to GPCR in Q2 2026.",
+          "lead_sponsor": "GPCR Therapeutics, Inc. (asset now licensed to Exicure)",
+          "key_milestones": [
+            "January 2026: Phase 2 trial completion announced",
+            "Q2 2026: planned $1.0M milestone payment from XCUR to GPCR"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "AST-008 / cavrotolimod (Phase 1 healthy volunteer NCT03086278 COMPLETED 2018; Phase 1b/2 oncology NCT03684785 TERMINATED 2022) — historical Exicure SNA platform; IP sold Q3 2024"
+  ],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": null,
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 0,
+    "p2": 1,
+    "p1": 0
+  }
+}

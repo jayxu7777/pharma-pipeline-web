@@ -1,0 +1,115 @@
+{
+  "issuer_name": "Immatics N.V.",
+  "ticker": "IMTX",
+  "exchange": "Nasdaq",
+  "cik": "0001809196",
+  "region": "US (Dutch parent / Germany ops)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F"},
+    "website": {"error": "Pipeline page is rendered as a single JPEG image; no machine-readable text. Cross-referenced via ctgov."},
+    "ctgov": {"sponsor_query": "Immatics", "trials_returned": 17}
+  },
+  "pipeline": [
+    {
+      "asset": "IMA203 (anzutresgene autoleucel / anzu-cel)",
+      "aka": ["anzu-cel", "anzutresgene autoleucel", "ACTengine IMA203"],
+      "modality": "Autologous TCR-engineered T cell therapy (ACTengine)",
+      "target": "PRAME (HLA-A*02:01)",
+      "license_origin": "Internal (Immatics US)",
+      "indications": [
+        {
+          "indication": "Previously treated unresectable or metastatic cutaneous melanoma",
+          "highest_phase": "Phase 3",
+          "trial_name": "SUPRAME - ACTengine IMA203 vs. Investigator's Choice in cutaneous melanoma",
+          "trial_design": "Randomized open-label Phase 3 vs. investigator's choice (Opdualag, AMTAGVI, Opdivo, Keytruda, etc.)",
+          "nct_ids": ["NCT06743126"],
+          "trial_status": "Recruiting (started 2025-01-14)",
+          "lead_sponsor": "Immatics US, Inc.",
+          "key_milestones": ["Primary completion 2028-01"]
+        },
+        {
+          "indication": "Recurrent/refractory solid tumors (synovial sarcoma, ovarian, melanoma, etc.) - monotherapy and combinations including IMA203CD8 and nivolumab",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ACTengine IMA203/IMA203CD8 monotherapy or combination with nivolumab",
+          "trial_design": "Phase 1/2 dose escalation/expansion in solid tumors",
+          "nct_ids": ["NCT03686124"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immatics US, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cutaneous melanoma and synovial sarcoma - combination with mRNA-4203 (Moderna PRAME mRNA vaccine)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ACTengine IMA203 combined with mRNA-4203",
+          "trial_design": "Phase 1 of IMA203 + Moderna mRNA-4203",
+          "nct_ids": ["NCT06946225"],
+          "trial_status": "Recruiting (started 2025-07-25)",
+          "lead_sponsor": "Immatics US, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IMA402",
+      "aka": [],
+      "modality": "T Cell-Engaging Receptor (TCER) bispecific",
+      "target": "PRAME x CD3",
+      "license_origin": "Internal (Immatics Biotechnologies GmbH)",
+      "indications": [
+        {
+          "indication": "Recurrent/refractory solid tumors (cutaneous melanoma, NSCLC, others)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "IMA402 TCER in Recurrent and/or Refractory Solid Tumors",
+          "trial_design": "Phase 1a dose escalation, Phase 1b expansion, Phase 2",
+          "nct_ids": ["NCT05958121"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immatics Biotechnologies GmbH",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IMA401",
+      "aka": [],
+      "modality": "T Cell-Engaging Receptor (TCER) bispecific",
+      "target": "MAGEA4/8 x CD3",
+      "license_origin": "Internal (Immatics) - co-developed with Bristol Myers Squibb (option)",
+      "indications": [
+        {
+          "indication": "Recurrent/refractory solid tumors, alone or with checkpoint inhibitor (pembrolizumab)",
+          "highest_phase": "Phase 1",
+          "trial_name": "IMA401 TCER in solid tumors, +/- pembrolizumab",
+          "trial_design": "Phase 1a dose escalation; Phase 1b expansion",
+          "nct_ids": ["NCT05359445"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Immatics Biotechnologies GmbH",
+          "key_milestones": ["Primary completion 2026-03-18"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "IMA901 (Phase 3 RCC)", "nct_id": "NCT01265901", "reason": "Completed; failed program"},
+    {"asset": "IMA950", "nct_id": "NCT01403285", "reason": "Terminated/Completed legacy peptide vaccine"},
+    {"asset": "IMA201", "nct_id": "NCT03441100", "reason": "Phase 1 completed legacy program"},
+    {"asset": "IMA202", "nct_id": "NCT03247309", "reason": "Phase 1 completed legacy program"},
+    {"asset": "IMA101 (ACTolog)", "nct_id": "NCT02876510", "reason": "Phase 1 completed legacy program"},
+    {"asset": "IMA910", "nct_id": "NCT00785122", "reason": "Phase 1/2 completed legacy program"},
+    {"asset": "IMA970A", "nct_id": "NCT03203005", "reason": "Phase 1/2 completed legacy program"},
+    {"asset": "GAPVAC", "nct_id": "NCT02149225", "reason": "Phase 1 completed legacy academic vaccine"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "F16IL2 + paclitaxel (NCT02054884)", "reason": "Philogen-sponsored; Immatics collaborator only"}
+  ],
+  "summary_counts": {
+    "total_clinical_assets": 3,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 2,
+    "note": "IMA203 highest phase = Phase 3 (SUPRAME)"
+  },
+  "blockers": "Foreign private issuer (Dutch N.V.) - files 20-F not 10-K. Pipeline page is image-only."
+}

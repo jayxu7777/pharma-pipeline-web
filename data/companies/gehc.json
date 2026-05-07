@@ -1,0 +1,111 @@
+{
+  "issuer_name": "GE HealthCare Technologies Inc.",
+  "ticker": "GEHC",
+  "exchange": "Nasdaq",
+  "cik": "0001932393",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001932393-26-000007", "filed": "2026-02-04", "doc": "gehc-20251231.htm", "note": "Pipeline section heading not found by automated slicer; medtech-focused 10-K. Imaging-agent pipeline confirmed via ClinicalTrials.gov."},
+    "website": {"error": "https://www.gehealthcare.com/about/innovation/pipeline returned HTTP 403; no public pipeline page successfully fetched."},
+    "ctgov": {"file": "data/gehc_ctgov_compact.json", "sponsor_query": "GE HealthCare", "total_studies_returned": 71, "active_p1_to_p3_company_sponsored": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "Mangaciclanol",
+      "aka": ["GEH200486"],
+      "modality": "Manganese-based MRI contrast agent (small molecule)",
+      "target": "Hepatocyte uptake / extracellular MRI contrast (Mn-based, gadolinium-free)",
+      "license_origin": "Internal (GE HealthCare)",
+      "indications": [
+        {
+          "indication": "Contrast-enhanced MRI of CNS or body lesions in adult patients",
+          "highest_phase": "P2/P3",
+          "trial_name": "Phase 2/3 Mangaciclanol CE-MRI study",
+          "trial_design": "Phase 2/3 efficacy and safety, vs. gadobutrol comparator",
+          "nct_ids": ["NCT07472491"],
+          "trial_status": "RECRUITING (start 2026-04-01; primary completion 2027-11-30)",
+          "lead_sponsor": "GE Healthcare",
+          "key_milestones": ["Primary completion expected Nov 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "GEH300079 (68Ga) Injection",
+      "aka": ["GEH300079"],
+      "modality": "Gallium-68 labeled PET imaging radiotracer",
+      "target": "Peritoneal carcinomatosis-associated target (oncology PET imaging)",
+      "license_origin": "Internal (GE HealthCare)",
+      "indications": [
+        {
+          "indication": "Detection of peritoneal carcinomatosis in colorectal, gastric, ovarian, or pancreatic ductal adenocarcinoma (PERISCOPE)",
+          "highest_phase": "P2/P3",
+          "trial_name": "PERISCOPE",
+          "trial_design": "Phase 2/3 diagnostic performance study of 68Ga PET/CT imaging",
+          "nct_ids": ["NCT07219238"],
+          "trial_status": "RECRUITING (start 2026-05; primary completion 2029-06)",
+          "lead_sponsor": "GE Healthcare",
+          "key_milestones": ["Primary completion 2029-06"]
+        }
+      ]
+    },
+    {
+      "asset": "GEH200520 / GEH200521 (18F) Injection",
+      "aka": ["GEH200520", "GEH200521"],
+      "modality": "Fluorine-18 labeled PET imaging radiotracer",
+      "target": "Solid tumor imaging biomarker (oncology PET tracer)",
+      "license_origin": "Internal (GE HealthCare)",
+      "indications": [
+        {
+          "indication": "PET imaging in patients with solid tumor malignancies (safety, tolerability, dosimetry)",
+          "highest_phase": "P1",
+          "trial_name": "GEH200520/GEH200521 first-in-human",
+          "trial_design": "Phase 1 safety/tolerability with dynamic and static PET/CT scans (Parts A and B)",
+          "nct_ids": ["NCT05629689"],
+          "trial_status": "RECRUITING (start 2023-01-27; primary completion 2029-03-10)",
+          "lead_sponsor": "GE Healthcare",
+          "key_milestones": ["Primary completion 2029-03"]
+        }
+      ]
+    },
+    {
+      "asset": "Regadenoson (pediatric program)",
+      "aka": ["Rapiscan"],
+      "modality": "Selective A2A adenosine receptor agonist (pharmacologic stress agent)",
+      "target": "Adenosine A2A receptor",
+      "license_origin": "Marketed product (Rapiscan/Lexiscan); pediatric label-extension program",
+      "indications": [
+        {
+          "indication": "Pharmacologic stress agent for myocardial perfusion imaging in pediatric patients with myocardial ischemia / coronary artery disease",
+          "highest_phase": "P1/P2",
+          "trial_name": "Pediatric Regadenoson PK/safety study",
+          "trial_design": "Phase 1/2 safety and pharmacokinetics in pediatric patients",
+          "nct_ids": ["NCT04604782"],
+          "trial_status": "RECRUITING (start 2021-05-20; primary completion 2026-12)",
+          "lead_sponsor": "GE Healthcare",
+          "key_milestones": ["Primary completion 2026-12"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "GE HealthCare is a diversified medical-imaging and patient-care company. Major commercial categories include MR, CT, ultrasound, X-ray and molecular imaging systems, patient-care monitoring solutions, and a Pharmaceutical Diagnostics franchise (e.g., Omnipaque, Visipaque iodinated CT contrast; Optison ultrasound contrast; Clariscan/Optimark MRI contrast; Datscan, Vizamyl, Cerianna PET tracers; Myoview SPECT tracer; Rapiscan/Lexiscan stress agent). These approved/marketed products are out of scope for the active P1/P2/P3 pipeline list above."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "12 TERMINATED, 4 WITHDRAWN, 1 UNKNOWN-status historical company-sponsored studies (mostly Visipaque, Omnipaque, Optison, Datscan, Vizamyl post-marketing or label-extension trials)."
+  ],
+  "excluded_partner_owned": [
+    "Investigator-initiated trials and academic-sponsored studies that use GE HealthCare imaging agents but where GEHC is not the lead sponsor (e.g., Duke, MD Anderson, Brigham and Women's, Mass General, NCI, etc.)."
+  ],
+  "summary_counts": {
+    "total_assets": 4,
+    "p3": 0,
+    "p2_p3": 2,
+    "p2": 0,
+    "p1_p2": 1,
+    "p1": 1
+  },
+  "no_active_clinical_pipeline_reason": ""
+}

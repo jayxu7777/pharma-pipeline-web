@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Pasithea Therapeutics Corp.",
+  "ticker": "KTTA",
+  "exchange": "Nasdaq",
+  "cik": "0001841330",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001213900-26-036434",
+      "path": "data/ktta_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.pasithea.com/pipeline",
+      "note": "Public pipeline page describes MEKi development across NF1/ALS/MS/schizophrenia and references Koselugo (selumetinib, Alexion/AstraZeneca, FDA-approved comparator); proprietary candidate names not disclosed on the public page."
+    },
+    "ctgov": {
+      "path": "data/ktta_ctgov_compact.json",
+      "note": "Two active Phase 1 trials of PAS-004 (NCT06299839 advanced solid tumors RECRUITING; NCT06961565 NF1-PN RECRUITING)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "PAS-004",
+      "aka": [],
+      "modality": "small molecule (macrocyclic allosteric MEK 1/2 inhibitor)",
+      "target": "MEK 1/2 (MAPK pathway)",
+      "license_origin": "Internal (Pasithea); FDA orphan-drug designation for NF1",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors with RAS / NF1 / RAF mutations (MAPK pathway-driven)",
+          "highest_phase": "Phase 1",
+          "trial_name": "PAS-004 in Patients With Advanced Solid Tumors",
+          "trial_design": "First-in-human, dose-escalation Phase 1 in adults with advanced solid tumors harboring RAS, NF1, or RAF mutations",
+          "nct_ids": ["NCT06299839"],
+          "trial_status": "RECRUITING (started 2024-02-29; primary completion 2026-02)",
+          "lead_sponsor": "Pasithea Therapeutics Corp.",
+          "key_milestones": [
+            "December 2023: FDA cleared IND",
+            "February 2024: first-in-human Phase 1 opened"
+          ]
+        },
+        {
+          "indication": "Neurofibromatosis type 1 (NF1) with plexiform neurofibromas (NF1-PN)",
+          "highest_phase": "Phase 1",
+          "trial_name": "PAS-004 in Adults Who Have Neurofibromatosis Type 1 With Plexiform Neurofibromas",
+          "trial_design": "Phase 1 in adult NF1-PN patients",
+          "nct_ids": ["NCT06961565"],
+          "trial_status": "RECRUITING (started 2025-05-30; primary completion 2027-09)",
+          "lead_sponsor": "Pasithea Therapeutics Corp.",
+          "key_milestones": [
+            "FDA orphan-drug designation for NF1",
+            "Collaboration with Novotech (Australia) Pty Limited"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "PAS-001 — small molecule C4A inhibitor for schizophrenia, discovery stage; seeking partnerships",
+    "Anti-alpha-5-beta-1 integrin monoclonal antibody for ALS (Alpha-5 Integrin program) — preclinical / grant-funded research"
+  ],
+  "excluded_legacy_terminated": [
+    "PAS-003 — ALS program; development ceased during 2025"
+  ],
+  "excluded_partner_owned": [
+    "Selumetinib (Koselugo) — referenced as approved comparator MEKi marketed by Alexion/AstraZeneca, not a Pasithea asset"
+  ],
+  "no_active_clinical_pipeline_reason": null,
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 0,
+    "p2": 0,
+    "p1": 1
+  }
+}

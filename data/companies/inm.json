@@ -1,0 +1,26 @@
+{
+  "issuer_name": "InMed Pharmaceuticals Inc.",
+  "ticker": "INM",
+  "exchange": "Nasdaq",
+  "cik": "0001728328",
+  "region": "CA",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "All current InMed drug candidates (INM-901 for Alzheimer's disease, INM-089 for dry AMD, INM-088 for glaucoma) are at preclinical / proof-of-concept stage with no active IND or ongoing clinical trials. INM-755 (cannabinol cream for epidermolysis bullosa) completed a Phase 2 trial (NCT04908215, completed 2023-04-03) and further advancement is contingent on identifying a partner; no active sponsored P1/P2/P3 trial.",
+  "sources": {
+    "10k": {"accession": "0001213900-25-090210", "filing_date": "2025-09-23", "form": "10-K"},
+    "website": {"url": "https://www.inmedpharma.com/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor": "InMed Pharmaceuticals Inc.", "trials_returned": 1}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "INM-901", "indication": "Alzheimer's disease", "reason": "Preclinical CB1/CB2 agonist; IND not filed"},
+    {"asset": "INM-089", "indication": "Dry age-related macular degeneration (dry AMD)", "reason": "Preclinical"},
+    {"asset": "INM-088", "indication": "Glaucoma", "reason": "Preclinical ocular program"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT04908215", "asset": "INM-755 (cannabinol) cream for epidermolysis bullosa", "reason": "Phase 2 completed 2023-04-03; awaiting partnership for further development"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

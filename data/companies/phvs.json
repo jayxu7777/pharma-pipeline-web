@@ -1,0 +1,66 @@
+{
+  "issuer_name": "Pharvaris N.V.",
+  "ticker": "PHVS",
+  "exchange": "Nasdaq",
+  "cik": "0001830487",
+  "region": "Netherlands",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F, no 10-K available"},
+    "website": {"url": "https://pharvaris.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/phvs_ctgov_compact.json", "sponsor": "Pharvaris", "trial_count": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "Deucrictibant",
+      "aka": ["PHA-022121", "PHA121", "PHVS416 (IR capsule)", "PHVS719 (XR tablet)"],
+      "modality": "Small-molecule oral bradykinin B2 receptor antagonist",
+      "target": "Bradykinin B2 receptor",
+      "license_origin": "In-house (Pharvaris)",
+      "indications": [
+        {
+          "indication": "Hereditary angioedema (HAE) — on-demand treatment",
+          "highest_phase": "Phase 3",
+          "trial_name": "RAPIDe-3",
+          "trial_design": "Phase 3 pivotal study of deucrictibant IR soft capsule for on-demand treatment of HAE attacks (completed Oct 2025)",
+          "nct_ids": ["NCT06343779"],
+          "trial_status": "Completed (positive topline; NDA-enabling)",
+          "lead_sponsor": "Pharvaris Netherlands B.V.",
+          "key_milestones": ["Pivotal Phase 3 completed 2025-10"]
+        },
+        {
+          "indication": "Hereditary angioedema (HAE) — prophylaxis",
+          "highest_phase": "Phase 3",
+          "trial_name": "CHAPTER-3 + long-term OLE",
+          "trial_design": "Phase 3 study of deucrictibant XR tablet for HAE prophylaxis plus long-term open-label extension",
+          "nct_ids": ["NCT06669754", "NCT06679881"],
+          "trial_status": "Active, not recruiting (pivotal) and Recruiting (OLE)",
+          "lead_sponsor": "Pharvaris Netherlands B.V.",
+          "key_milestones": ["Primary completion 2026-08 (CHAPTER-3)"]
+        },
+        {
+          "indication": "Acquired angioedema due to C1-INH deficiency (AAE-C1-INH)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Deucrictibant XR + IR in AAE-C1-INH",
+          "trial_design": "Phase 3 study evaluating deucrictibant XR tablet for prophylaxis and IR capsule for on-demand treatment in adults with AAE-C1-INH",
+          "nct_ids": ["NCT07266805"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Pharvaris Netherlands B.V.",
+          "key_milestones": ["Started 2025-10-16; primary completion 2027-06"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "Icatibant", "trial": "NCT05834777", "reason": "Vanderbilt-sponsored investigator trial (intradialytic hypotension); icatibant is not a Pharvaris asset"}
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_indications": 3,
+    "p2_indications": 0,
+    "p1_indications": 0
+  }
+}

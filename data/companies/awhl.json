@@ -1,0 +1,24 @@
+{
+  "issuer_name": "Aspira Women's Health Inc.",
+  "ticker": "AWHL",
+  "exchange": "OTC",
+  "cik": "0000926617",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Diagnostics-only commercial-stage company. Develops and commercializes noninvasive AI-powered diagnostic tests (Ova1Plus, OvaSuite) for gynecologic diseases — primarily ovarian cancer triage. Not a drug developer; no FDA drug clinical trials. Diagnostic clinical validation studies are not pharma P1/P2/P3 in scope.",
+  "sources": {
+    "10k": {"accession": "0000926617-26-000020", "filing_date": "2026-04-01", "form": "10-K", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://aspirawh.com/", "note": "Diagnostics company — Ova1Plus / OvaSuite pelvic mass triage"},
+    "ctgov": {"sponsor_query": "Aspira Women's Health", "trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "OvaSuite (Ova1Plus, OvaWatch)",
+    "type": "FDA-cleared diagnostic / LDT for ovarian cancer risk assessment in women with adnexal mass"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

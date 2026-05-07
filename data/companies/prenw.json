@@ -1,0 +1,37 @@
+{
+  "issuer_name": "Prenetics Global Ltd",
+  "ticker": "PRENW",
+  "exchange": "Nasdaq",
+  "cik": "0001876431",
+  "region": "Hong Kong / Cayman — US-listed",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — Prenetics Global Ltd is incorporated in the Cayman Islands and headquartered in Hong Kong; it files Form 20-F with the SEC, not Form 10-K."
+    },
+    "website": {
+      "error": "No drug clinical pipeline page — issuer is a consumer/clinical genomics and diagnostics company (DNA testing, early cancer detection diagnostics, COVID-era testing legacy)."
+    },
+    "ctgov": {
+      "query": "spons:Prenetics",
+      "raw_hits": 3,
+      "trials_p1_p3": 0,
+      "note": "ClinicalTrials.gov shows a small number of Prenetics-sponsored studies, none of which are interventional drug trials in Phase 1/2/3. Studies are diagnostic/observational in nature (e.g. genomic testing, screening)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Prenetics operates in consumer and clinical genomic testing (Circle DNA), early cancer detection diagnostics (via its ColoClear / IM8 / ACT Genomics-related product lines and partnerships), and previously high-throughput diagnostic testing services. These are diagnostics and consumer health products, not therapeutic assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Prenetics Global is a genomics and diagnostics company (consumer DNA testing, early cancer detection, clinical lab services), not a drug developer. ClinicalTrials.gov returns 0 sponsored interventional P1/P2/P3 drug trials; the 3 raw hits are diagnostic/observational studies. SEC 10-K is not applicable (foreign private issuer; files 20-F)."
+}

@@ -1,0 +1,33 @@
+{
+  "issuer_name": "Glass House Brands Inc.",
+  "ticker": "GHBWF",
+  "exchange": "OTC",
+  "cik": "0001848731",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "No 10-K found in SEC EDGAR for CIK 0001848731 (Canadian-domiciled cannabis issuer; files Canadian-style annual reports rather than 10-K)"
+    },
+    "website": {
+      "url": "https://www.glasshousebrands.com",
+      "note": "Cannabis cultivation, manufacturing, retail (Farmacy dispensaries, Natural Healing Center), consumer brands (PLUS Products, REEFORM, Allswell). No drug-development pipeline."
+    },
+    "ctgov": {
+      "file": "data/ghbwf_ctgov_compact.json",
+      "note": "Zero clinical trials registered under Glass House Brands as sponsor"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Glass House Brands is a vertically integrated California cannabis company (cultivation, manufacturing, retail, consumer brands). It does not conduct pharmaceutical drug development and has no P1/P2/P3 clinical pipeline.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  }
+}

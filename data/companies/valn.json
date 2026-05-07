@@ -1,0 +1,112 @@
+{
+  "issuer_name": "Valneva SE",
+  "ticker": "VALN",
+  "exchange": "Nasdaq",
+  "cik": "0001836564",
+  "region": "France",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (France) - files 20-F or local annual report; no 10-K on EDGAR"},
+    "website": {"url": "https://valneva.com/research-development/", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/valn_ctgov_compact.json", "sponsor_query": "Valneva"}
+  },
+  "pipeline": [
+    {
+      "asset": "VLA15",
+      "aka": ["6-valent OspA Lyme vaccine"],
+      "modality": "Recombinant protein vaccine (multivalent OspA)",
+      "target": "Borrelia burgdorferi outer surface protein A (six serotypes)",
+      "license_origin": "Internal (co-developed with Pfizer)",
+      "indications": [
+        {
+          "indication": "Lyme disease prevention",
+          "highest_phase": "P3",
+          "trial_name": "VALOR",
+          "trial_design": "Randomized placebo-controlled efficacy / lot consistency",
+          "nct_ids": ["NCT05477524"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Pfizer",
+          "key_milestones": ["Pivotal efficacy readout expected late 2026; BLA filing planned"]
+        }
+      ]
+    },
+    {
+      "asset": "VLA1553",
+      "aka": ["IXCHIQ"],
+      "modality": "Live-attenuated single-dose vaccine",
+      "target": "Chikungunya virus",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chikungunya - antibody persistence / long-term safety follow-up",
+          "highest_phase": "P3",
+          "trial_name": "VLA1553-303 long-term follow-up",
+          "trial_design": "Long-term safety/persistence follow-up",
+          "nct_ids": ["NCT04838444"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Valneva Austria GmbH",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "S4V2",
+      "aka": ["tetravalent Shigella vaccine"],
+      "modality": "Bioconjugate vaccine",
+      "target": "Shigella sonnei + S. flexneri (4 serotypes)",
+      "license_origin": "Internal (acquired with LimmaTech / via PATH partnership)",
+      "indications": [
+        {
+          "indication": "Shigellosis prevention",
+          "highest_phase": "P2",
+          "trial_name": "S4V2 P2 (per company website)",
+          "trial_design": "Phase 2 immunogenicity/safety",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing per company R&D page; no Valneva-sponsored entry retrieved on ClinicalTrials.gov (likely registered under partner / non-US registry)",
+          "lead_sponsor": "Valneva / partner",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "VLA1601",
+      "aka": [],
+      "modality": "Highly purified inactivated whole-virus vaccine (Vero-cell)",
+      "target": "Zika virus",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Zika virus prevention",
+          "highest_phase": "P1",
+          "trial_name": "VLA1601 P1",
+          "trial_design": "Phase 1 immunogenicity/safety",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED / development paused-resumed - listed as P1 on company R&D page; no current Valneva-sponsored active record on ClinicalTrials.gov",
+          "lead_sponsor": "Valneva",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": ["IXIARO (Japanese encephalitis vaccine)", "DUKORAL (cholera/ETEC vaccine)", "IXCHIQ / VLA1553 (chikungunya vaccine)"],
+    "note": "Three approved travel/endemic vaccines on market"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "VLA2001 COVID-19 inactivated vaccine - commercialization discontinued 2023",
+    "VLA84 C. difficile vaccine - prior program discontinued",
+    "Multiple completed studies for IXIARO/DUKORAL post-marketing"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "P3": 2,
+    "P2": 1,
+    "P1": 1,
+    "approved_commercial": 3
+  },
+  "no_active_clinical_pipeline_reason": null,
+  "blockers": ["Foreign private issuer (France-domiciled) - no 10-K on EDGAR"]
+}

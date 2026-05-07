@@ -1,0 +1,28 @@
+{
+  "issuer_name": "Green Planet Bio Engineering Co. Ltd.",
+  "ticker": "GPLB",
+  "exchange": "OTC",
+  "cik": "0001392449",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001654954-26-003081",
+      "path": "data/gplb_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page found — shell company with no operations"},
+    "ctgov": {
+      "path": "data/gplb_ctgov_compact.json",
+      "lead_sponsor_query": "Green Planet Bio Engineering",
+      "result": "0 trials found"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per the FY2025 10-K, Green Planet Bio Engineering is a public reorganized shell corporation with no current business activity, no revenue, and substantial going-concern doubt. Its stated purpose is to acquire or merge with an existing business. No drug pipeline exists.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

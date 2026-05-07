@@ -1,0 +1,58 @@
+{
+  "issuer_name": "QT Imaging Holdings, Inc.",
+  "ticker": "QTI",
+  "exchange": "Nasdaq",
+  "cik": "0001844505",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-020909",
+      "filed": "2026-03-25",
+      "doc": "qti-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.qtimaging.com/",
+      "note": "https://qtimaging.com/pipeline returns 404; homepage and product pages used."
+    },
+    "ctgov": {
+      "sponsor_query": "QT Imaging",
+      "kept_p1_p3": 0,
+      "note": "No company-sponsored interventional drug trials. Device studies are investigator-/site-sponsored (e.g. Sunnybrook NCT06175078, Mayo NCT07216274) using the FDA-cleared QT Breast Scanner."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "devices": [
+      {
+        "name": "QTI Breast Acoustic CT Scanner (QT Breast Scanner)",
+        "indication": "Breast imaging (cyst vs solid characterization; supplemental imaging for dense breasts)",
+        "regulatory_status": "FDA cleared (510(k)); non-radiation, non-compression ultrasound tomography",
+        "notes": "Company's lead commercial device."
+      },
+      {
+        "name": "QTviewer",
+        "indication": "Cloud-based image viewing/analytics for breast imaging",
+        "regulatory_status": "FDA cleared"
+      },
+      {
+        "name": "QTI Imaging-Olea Viewer",
+        "indication": "Integrated multimodality breast imaging analysis",
+        "regulatory_status": "Commercial; partnership with Olea Medical"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Investigator-initiated observational studies of QT Breast Scanner at Sunnybrook (NCT06175078), Mayo Clinic (NCT07216274), and CMSC Japan — not company-sponsored interventional drug or pivotal device trials."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-imaging device company. Lead product (QT Breast Scanner) and software (QTviewer) are already FDA-cleared and commercially marketed. No proprietary drug pipeline and no active company-sponsored pivotal IDE clinical trials of new devices."
+}

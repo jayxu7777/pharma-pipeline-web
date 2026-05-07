@@ -1,0 +1,127 @@
+{
+  "issuer_name": "Scilex Holding Co",
+  "ticker": "SCLXW",
+  "exchange": "Nasdaq",
+  "cik": "0001820190",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-151455",
+      "filed": "2026-04-10",
+      "doc": "sclx-20251231.htm",
+      "fiscal_year_end": "2025-12-31"
+    },
+    "website": {
+      "url": "https://www.scilexholding.com/",
+      "note": "Pipeline page is JS-rendered; corroborated via 10-K and 2024-2025 press releases."
+    },
+    "ctgov": {
+      "trials_kept": 14,
+      "note": "All 14 ctgov-listed sponsored trials are COMPLETED. Active development tracked via 10-K narrative; second SEMDEXA Phase 3 (initiated Sep 2025) has not yet appeared in compact pull."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "SEMDEXA",
+      "aka": ["SP-102"],
+      "modality": "Viscous gel formulation of dexamethasone sodium phosphate (10 mg) for epidural injection",
+      "target": "Glucocorticoid receptor (corticosteroid)",
+      "license_origin": "Internal (Semnur Pharmaceuticals subsidiary)",
+      "indications": [
+        {
+          "indication": "Lumbosacral radicular pain (sciatica)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Second Phase 3 confirmatory study (post first pivotal Phase 3 completed Mar 2022)",
+          "trial_design": "Confirmatory Phase 3 study initiated September 2025; first pivotal Phase 3 (NCT03372161) achieved primary and secondary endpoints. FDA Fast Track designation granted.",
+          "nct_ids": ["NCT03372161"],
+          "trial_status": "ACTIVE — second Phase 3 initiated September 2025; first pivotal Phase 3 COMPLETED (Mar 2022 final results).",
+          "lead_sponsor": "Scilex Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "Sep 2025: second Phase 3 study initiated",
+            "Potential NDA filing pending second Phase 3 readout"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "SP-103",
+      "aka": ["Lidocaine topical system 5.4%", "Triple-strength ZTlido"],
+      "modality": "Topical lidocaine system (3x ZTlido strength)",
+      "target": "Voltage-gated sodium channels (local anesthetic)",
+      "license_origin": "Internal next-generation of ZTlido",
+      "indications": [
+        {
+          "indication": "Chronic neck pain associated with muscle spasms",
+          "highest_phase": "Phase 3",
+          "trial_name": "Planned pivotal Phase 3 (post Oct 2024 End-of-Phase-2 FDA meeting)",
+          "trial_design": "Phase 3 ready following successful End-of-Phase-2 meeting with FDA (announced Oct 30, 2024) confirming agreed path forward to NDA. Per 10-K (FY2025), SP-103 contracted R&D rose to $5.9M in 2025 vs $2.5M in 2024.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 3 initiation pending; not yet posted to ClinicalTrials.gov.",
+          "lead_sponsor": "Scilex Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "Oct 2024: End-of-Phase-2 FDA meeting; agreed path to NDA",
+            "FDA Fast Track designation for low back pain"
+          ]
+        },
+        {
+          "indication": "Acute lower back pain",
+          "highest_phase": "Phase 2",
+          "trial_name": "SP-103 Phase 2 (acute LBP)",
+          "trial_design": "Randomized study of triple-strength lidocaine topical system in moderate-to-severe acute lower back pain.",
+          "nct_ids": ["NCT05096494"],
+          "trial_status": "COMPLETED (top-line August 2023; positive safety/tolerability/preliminary efficacy)",
+          "lead_sponsor": "Scilex Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "Aug 2023: Phase 2 top-line results announced"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "SP-104",
+      "aka": ["Low-dose delayed-release naltrexone HCl 4.5 mg"],
+      "modality": "Oral delayed-release low-dose naltrexone capsules",
+      "target": "Opioid receptors / TLR4 (low-dose naltrexone immunomodulation)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Fibromyalgia",
+          "highest_phase": "Phase 1",
+          "trial_name": "SP-104 Phase 1 program",
+          "trial_design": "Two completed Phase 1 studies: PK (NCT05002946) and safety (NCT04958876).",
+          "nct_ids": ["NCT05002946", "NCT04958876"],
+          "trial_status": "Phase 1 COMPLETED; next clinical step not yet initiated per FY2025 10-K (SP-104 R&D spend declined to $0.16M in 2025).",
+          "lead_sponsor": "Scilex Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "2021-2022: Phase 1 PK and safety studies completed"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "names": ["ZTlido (lidocaine topical system 1.8%)", "ELYXYB (celecoxib oral solution)", "GLOPERBA (colchicine oral solution)"],
+    "description": "Three FDA-approved non-opioid pain management commercial products."
+  },
+  "excluded_preclinical": [
+    {
+      "name": "KDS2010",
+      "reason": "Mentioned as Scilex Bio early development asset in FY2025 10-K R&D narrative; no clinical-stage detail disclosed."
+    },
+    {
+      "name": "R&D Discovery Project",
+      "reason": "FY2025 line item ($7.3M); preclinical/discovery stage with no Phase 1/2/3 trial disclosed."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 2,
+    "phase_2": 0,
+    "phase_1": 1,
+    "note": "SP-102 active Phase 3 and SP-103 active Phase 3 (planned/not-yet-NCT); SP-104 highest-phase Phase 1. Phase 2 SP-103 LBP indication already completed and excluded from 'highest active' phase counts."
+  }
+}

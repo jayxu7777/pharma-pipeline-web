@@ -1,0 +1,20 @@
+{
+  "issuer_name": "CHINA PHARMA HOLDINGS, INC.",
+  "ticker": "CPHI",
+  "exchange": "NYSE",
+  "cik": "0001106644",
+  "region": "CN",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "China Pharma Holdings (operating as Helpson) is an off-patent branded generics manufacturer in China. The 10-K describes manufacture and Consistency Evaluations of generic drug products under NMPA, not novel drug clinical development. No active P1/P2/P3 sponsor-led trials found on ClinicalTrials.gov.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-038521", "filing_date": "2026-04-01", "form": "10-K"},
+    "website": {"error": "Corporate site https://www.chinapharmaholdings.com SSL certificate expired; could not fetch"},
+    "ctgov": {"sponsor": "China Pharma Holdings", "trials_returned": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

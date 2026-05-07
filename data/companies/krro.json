@@ -1,0 +1,28 @@
+{
+  "issuer_name": "Korro Bio, Inc.",
+  "ticker": "KRRO",
+  "exchange": "Nasdaq",
+  "cik": "0001703647",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-104156", "filing_date": "2026-03-12", "doc": "krro-20251231.htm"},
+    "website": {"url": "https://korrobio.com/", "note": "Pipeline confirmed via 10-K and ctgov."},
+    "ctgov": {"sponsor_query": "Korro Bio", "studies_returned": 1}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per the FY2025 10-K (filed March 2026), all four wholly-owned Korro programs (KRRO-121 hyperammonemia, next-gen GalNAc AATD, AMPK-gamma1 longevity/liver, ALS TDP-43) remain in research or preclinical stage. The company explicitly states all programs are in research or preclinical. The only program that had reached the clinic, KRRO-110 (LNP-based AATD, NCT06677307 Phase 1/2a), was TERMINATED in 2025 after a strategic pivot to GalNAc-conjugated delivery. KRRO-121 first-in-human filing is anticipated H2 2026; AATD development candidate nomination expected Q2 2026. The Novo Nordisk partnership entered a 12-month pause in November 2025.",
+  "excluded_preclinical": [
+    "KRRO-121 hyperammonemia (UCD/HE) — preclinical; first-in-human filing expected H2 2026",
+    "Next-generation GalNAc AATD — preclinical; development candidate nomination expected Q2 2026",
+    "Longevity / liver health AMPK-gamma1 GalNAc program — preclinical",
+    "ALS TDP-43 (intrathecal delivery) — preclinical",
+    "Up to two Novo Nordisk-partnered programs — paused Nov 2025"
+  ],
+  "excluded_legacy_terminated": [
+    "KRRO-110 AATD Phase 1/2a NCT06677307 — TERMINATED 2025; LNP approach abandoned in favor of GalNAc next-generation candidate"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

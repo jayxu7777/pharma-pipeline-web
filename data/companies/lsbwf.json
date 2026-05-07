@@ -1,0 +1,69 @@
+{
+  "issuer_name": "LakeShore Biopharma Co., Ltd.",
+  "ticker": "LSBWF",
+  "exchange": "OTC",
+  "cik": "0001946399",
+  "region": "Cayman Islands holding / Singapore operating (China-affiliated)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer - files 20-F instead of 10-K (no 10-K found in SEC EDGAR recent filings)."
+    },
+    "website": {
+      "error": "no public pipeline page found (corporate domains www.lakeshorebiopharma.com and www.yishengbio.com unresolvable from this environment)"
+    },
+    "ctgov": {
+      "query": "Yisheng Biopharma (Singapore) Pte. Ltd. (legal predecessor sponsor of LakeShore Biopharma)",
+      "trials_returned": 7,
+      "active_recruiting": 0,
+      "note": "All trials are COMPLETED, TERMINATED, or status UNKNOWN; no actively recruiting or active-not-recruiting Phase 1/2/3 studies registered."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "PIKA Rabies Vaccine (Vero Cell, Freeze-dried)",
+      "aka": ["PIKA Rabies Vaccine"],
+      "modality": "Rabies vaccine adjuvanted with proprietary PIKA (polyI:C-based) TLR3 agonist adjuvant",
+      "target": "Rabies virus (prophylaxis)",
+      "license_origin": "Yisheng / LakeShore proprietary PIKA adjuvant platform",
+      "indications": [
+        {
+          "indication": "Rabies prophylaxis (post-exposure)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PIKA Rabies Vaccine (Vero Cell) for Human use, Freeze-dried - Phase 3",
+          "trial_design": "Phase 3 study of PIKA Rabies Vaccine (Vero Cell) for human use, freeze-dried, vs Chirorab comparator.",
+          "nct_ids": ["NCT05667974"],
+          "trial_status": "UNKNOWN on ClinicalTrials.gov (last update predates 2024-03-22 primary completion date; sponsor has not posted updates). Listed here because 10-K equivalent / company disclosures present this as their lead pivotal program; treated as last-known-active Phase 3 pending status confirmation.",
+          "lead_sponsor": "Yisheng Biopharma (Singapore) Pte. Ltd. (LakeShore subsidiary)",
+          "key_milestones": [
+            "Trial start September 2023",
+            "Primary completion target March 2024 (registry status not refreshed since)"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "PIKA COVID-19 Vaccine Phase 1 (NCT05305300) - COMPLETED, no further development disclosed.",
+    "PIKA COVID-19 Vaccine Booster Phase 2/3 (NCT05463419) - COMPLETED, COVID program deprioritized.",
+    "PIKA Rabies Vaccine accelerated regimen Phase 2 (NCT02956421) - COMPLETED.",
+    "PIKA Rabies Vaccine Phase 1 (NCT02657161) - COMPLETED.",
+    "YS-HBV-002 chronic hepatitis B Phase 1 (NCT06162299) - TERMINATED July-Sept 2024.",
+    "YS-ON-001 advanced solid tumors Phase 1 (NCT03131765) - COMPLETED."
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 0,
+    "note": "Only the PIKA Rabies Vaccine Phase 3 (NCT05667974, status UNKNOWN) carried forward as last-known-active program. Foreign filer status and unreachable corporate site limit corroboration."
+  },
+  "blockers": [
+    "Foreign private issuer - no 10-K on SEC EDGAR (files 20-F).",
+    "Corporate websites (lakeshorebiopharma.com, yishengbio.com) DNS-unresolvable from this environment.",
+    "Lead Phase 3 trial NCT05667974 has overallStatus = UNKNOWN on ClinicalTrials.gov."
+  ]
+}

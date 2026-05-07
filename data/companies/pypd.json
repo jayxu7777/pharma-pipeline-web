@@ -1,0 +1,100 @@
+{
+  "issuer_name": "PolyPid Ltd.",
+  "ticker": "PYPD",
+  "exchange": "Nasdaq",
+  "cik": "0001611842",
+  "region": "Israel (HQ Petach Tikva); US listing",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F (no 10-K on EDGAR)"
+    },
+    "website": {
+      "url": "https://www.polypid.com/innovation/",
+      "accessed": "2026-05-06",
+      "note": "Pipeline page extracted via WebFetch (no /pipeline path; content under /innovation/)"
+    },
+    "ctgov": {
+      "file": "data/pypd_ctgov_compact.json",
+      "sponsor_query": "PolyPid",
+      "trials_returned": 5
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "D-PLEX100",
+      "aka": ["D-PLEX", "doxycycline-loaded polymer-lipid matrix"],
+      "modality": "Locally administered antibiotic-eluting polymer-lipid matrix (Kynatrix platform); doxycycline",
+      "target": "Local antimicrobial prophylaxis",
+      "license_origin": "In-house (PolyPid)",
+      "indications": [
+        {
+          "indication": "Prevention of surgical site infection (SSI) following abdominal colorectal surgery",
+          "highest_phase": "Phase 3 (pivotal complete; NDA preparation)",
+          "trial_name": "SHIELD II (D-PLEX 312)",
+          "trial_design": "Multicenter, randomized, controlled Phase 3 evaluating D-PLEX vs standard of care for prevention of post-abdominal-surgery incisional infection",
+          "nct_ids": ["NCT04411199"],
+          "trial_status": "Completed (primary completion 2025-04-14); positive top-line readout supports NDA; PDUFA date guided early 2027 per company website",
+          "lead_sponsor": "PolyPid Ltd.",
+          "key_milestones": [
+            "SHIELD II P3 primary completion April 2025",
+            "Anticipated NDA submission and PDUFA action date early 2027 (per company)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "PP03A",
+      "aka": [],
+      "modality": "Ultra-long-acting GLP-1 receptor agonist depot (Kynatrix platform; targeted >50-day linear release)",
+      "target": "GLP-1 receptor",
+      "license_origin": "In-house (PolyPid)",
+      "indications": [
+        {
+          "indication": "Metabolic disease (obesity / type 2 diabetes; specific indication not yet disclosed)",
+          "highest_phase": "Phase 1",
+          "trial_name": "PP03A first-in-human (not yet on public registry as of snapshot)",
+          "trial_design": "Phase 1 program for ultra-long-acting GLP-1 RA depot; details limited",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED / early Phase 1 — not listed in ClinicalTrials.gov sponsor query as of 2026-05-06",
+          "lead_sponsor": "PolyPid Ltd.",
+          "key_milestones": [
+            "Phase 1 initiation guided by company"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "No marketed product as of snapshot. D-PLEX100 in regulatory preparation (NDA)."
+  },
+  "excluded_preclinical": [
+    {
+      "asset": "PP04A",
+      "indication": "Oncology — intratumoral STING agonist (collaboration with Immunogenesis)",
+      "reason": "Pre-clinical per company website"
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "D-PLEX",
+      "trial": "D-PLEX 302 (NCT03558984) — sternal infection prevention post cardiac surgery",
+      "phase": "Phase 3",
+      "reason": "Terminated"
+    },
+    {
+      "asset": "D-PLEX",
+      "trial": "D-PLEX 310 (NCT03633123, Phase 2); D-PLEX 311 (NCT04233424, Phase 3); NCT02731573 (Phase 1/2 cardiac surgery)",
+      "phase": "Various",
+      "reason": "Completed predecessor studies superseded by SHIELD II (NCT04411199)"
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3_or_filed": 1,
+    "phase_2": 0,
+    "phase_1": 1
+  }
+}

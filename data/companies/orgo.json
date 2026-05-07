@@ -1,0 +1,75 @@
+{
+  "issuer_name": "Organogenesis Holdings Inc.",
+  "ticker": "ORGO",
+  "exchange": "Nasdaq",
+  "cik": "0001661181",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001193125-26-076730",
+      "path": "data/orgo_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.organogenesis.com/",
+      "note": "Primarily a commercial regenerative medicine / wound care company; clinical pipeline summarized via 10-K"
+    },
+    "ctgov": {
+      "path": "data/orgo_ctgov_compact.json",
+      "trial_count": 11
+    }
+  },
+  "no_active_clinical_pipeline_reason": "Organogenesis is a commercial-stage regenerative medicine / wound care company. Most marketed products are FDA-cleared/approved devices and 361 HCT/Ps (Apligraf, Dermagraft, PuraPly, Affinity, NuShield, NovaChor, etc.) and are not active clinical trials. The single late-stage clinical-trial asset is ReNu (amniotic suspension allograft) for knee OA — both Phase 3 trials are completed; rolling BLA submission in progress (initiated post Type B FDA meeting Dec 2025).",
+  "pipeline": [
+    {
+      "asset": "ReNu",
+      "aka": ["Amniotic Suspension Allograft", "ASA"],
+      "modality": "Cryopreserved suspension derived from human amniotic membrane and amniotic fluid cells; intra-articular injection",
+      "target": "Anti-inflammatory / regenerative tissue therapy (placental-derived)",
+      "license_origin": "Internal (acquired via NuTech Medical, 2017)",
+      "indications": [
+        {
+          "indication": "Symptomatic knee osteoarthritis",
+          "highest_phase": "Phase 3 complete; rolling BLA in progress",
+          "trial_name": "ReNu Phase 3 ASA Knee OA program (two pivotal trials)",
+          "trial_design": "Prospective, multicenter, double-blind, randomized, saline-controlled; single IA injection. Trial 1: completed Q2 2024 (met primary, p=0.0177 pain reduction; p<0.0001 function). Trial 2: 594 patients, completed Aug 2025; missed primary (p=0.0393 vs target 0.023) but numerical improvement and favorable safety.",
+          "nct_ids": ["NCT04636229", "NCT06000410"],
+          "trial_status": "Both Phase 3 trials completed; rolling BLA submission initiated; expected complete H1 2026. RMAT designation granted.",
+          "lead_sponsor": "Organogenesis",
+          "key_milestones": [
+            "Dec 2025: FDA Type B meeting confirmed BLA pathway",
+            "H1 2026: Rolling BLA submission completion targeted",
+            "FDA RMAT designation granted"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Substantial commercial portfolio (Apligraf, Dermagraft, PuraPly/PuraPly AM, NuShield, Affinity, Novachor, CYGNUS, SimpliMax, PuraForce, FortiShield 510(k), TransCyte) — outside active P1/P2/P3 scope."
+  },
+  "excluded_preclinical": [
+    "ReNu hip OA — planning stage",
+    "Apligraf and Dermagraft additional-size line extensions (PMA Supplements pending)",
+    "PuraPly / PuraPlyAM line extensions",
+    "Placental portfolio expansion R&D"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT00679081 CelTx/Apligraf gingival recession Phase 1/2 — TERMINATED",
+    "NCT00512538 Apligraf DFU Phase 3 — TERMINATED",
+    "NCT01929954 Gintuit socket grafting — TERMINATED",
+    "NCT00587223 Apligraf in epidermolysis bullosa Phase 3 — TERMINATED",
+    "NCT00587587 Apligraf keloid Phase 1/2 — COMPLETED legacy",
+    "NCT00909870 / NCT01181440 / NCT01181453 / NCT00587834 — historical Phase 3 trials supporting already-marketed products"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 1,
+    "p2": 0,
+    "p1": 0,
+    "indications_total": 1
+  }
+}

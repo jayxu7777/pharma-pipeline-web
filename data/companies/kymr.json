@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Kymera Therapeutics, Inc.",
+  "ticker": "KYMR",
+  "exchange": "Nasdaq",
+  "cik": "0001815442",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-073395", "filing_date": "2026-02-26", "doc": "kymr-20251231.htm"},
+    "website": {"url": "https://www.kymeratx.com/pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Kymera Therapeutics", "studies_total": 11, "active_p1_p3": 3}
+  },
+  "pipeline": [
+    {"asset": "KT-621", "aka": [], "modality": "Heterobifunctional protein degrader (oral)", "target": "STAT6", "license_origin": "Kymera internal",
+     "indications": [
+       {"indication": "Atopic dermatitis", "highest_phase": "Phase 2", "trial_name": "BroADen Phase 2b", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT07217015"], "trial_status": "Recruiting", "lead_sponsor": "Kymera Therapeutics", "key_milestones": ["Phase 2b initiation 2025"]},
+       {"indication": "Eosinophilic asthma", "highest_phase": "Phase 2", "trial_name": "ASCENDA Phase 2b", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT07323654"], "trial_status": "Recruiting", "lead_sponsor": "Kymera Therapeutics", "key_milestones": []},
+       {"indication": "COPD, EoE, CRSwNP, CSU, prurigo nodularis, bullous pemphigoid (Type 2 inflammatory expansion)", "highest_phase": "Phase 1", "trial_name": "Earlier-stage / planned Type 2 expansion", "trial_design": "Various Phase 1/2 studies", "nct_ids": "Not on public registry", "trial_status": "PLANNED — additional indications planned for 2026", "lead_sponsor": "Kymera Therapeutics", "key_milestones": []}
+     ]},
+    {"asset": "KT-579", "aka": [], "modality": "Heterobifunctional protein degrader (oral)", "target": "IRF5", "license_origin": "Kymera internal",
+     "indications": [
+       {"indication": "Healthy volunteers / lupus, Sjogren's, RA, IBD, systemic sclerosis, dermatomyositis (planned)", "highest_phase": "Phase 1", "trial_name": "KT-579 SAD/MAD", "trial_design": "Healthy-volunteer SAD/MAD", "nct_ids": ["NCT07412288"], "trial_status": "Recruiting", "lead_sponsor": "Kymera Therapeutics", "key_milestones": []}
+     ]},
+    {"asset": "KT-485 / SAR447971", "aka": ["SAR447971"], "modality": "Heterobifunctional protein degrader (oral)", "target": "IRAK4", "license_origin": "Sanofi collaboration (Sanofi-led)",
+     "indications": [
+       {"indication": "Hidradenitis suppurativa, atopic dermatitis, RA, asthma, IBD", "highest_phase": "Phase 1", "trial_name": "Sanofi-led IRAK4 degrader program", "trial_design": "Various", "nct_ids": "Not on public registry", "trial_status": "Active (Sanofi-led)", "lead_sponsor": "Sanofi", "key_milestones": []}
+     ]}
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": ["KT-200 (CDK2 molecular-glue, Gilead-partnered) — preclinical / option-stage", "Multiple early MDM2, TYK2 and other degrader programs disclosed in 10-K"],
+  "excluded_legacy_terminated": ["KT-474 (first-generation IRAK4) — Sanofi advancement focus shifted to next-gen KT-485"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 3, "phase_3": 0, "phase_2": 1, "phase_1": 2, "note": "KT-621 spans both Phase 2 (AD, asthma) and Phase 1-stage indication-expansion."}
+}

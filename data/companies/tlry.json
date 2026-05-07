@@ -1,0 +1,30 @@
+{
+  "issuer_name": "Tilray Brands, Inc.",
+  "ticker": "TLRY",
+  "exchange": "Nasdaq",
+  "cik": "0001731348",
+  "region": "Canada / United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "10-K filed but no pipeline section found — Tilray is a consumer-products company (cannabis, beverage alcohol, hemp foods, wellness)"},
+    "website": {"url": "https://www.tilray.com/pipeline", "method": "WebFetch", "note": "URL does not exist as a pharma pipeline page; Tilray is not a clinical-stage pharma"},
+    "ctgov": {"file": "data/tlry_ctgov_compact.json", "lead_sponsor_filter": "Tilray", "note": "Only one historical Phase 2 PTSD cannabis investigator-collaboration trial (NCT02517424, completed 2018)"}
+  },
+  "no_active_clinical_pipeline_reason": "Tilray Brands is a consumer-products company (cannabis cultivator/distributor, craft beverage-alcohol, hemp food, wellness brands). It is not a drug-development pharmaceutical company and has no active company-sponsored P1/P2/P3 clinical-stage drug assets. Investigator-initiated cannabis studies using Tilray product as supply do not constitute company drug-development pipeline.",
+  "pipeline": [],
+  "commercial_product": {
+    "categories": ["Adult-use cannabis", "Medical cannabis", "Beverage alcohol (craft beer, spirits)", "Hemp food", "Wellness CBD"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Cannabis-PTSD Phase 2 (NCT02517424) — completed 2018, investigator-initiated supply"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "issuer_name": "Cerus Corporation",
+  "ticker": "CERS",
+  "exchange": "Nasdaq",
+  "cik": "0001020214",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-085678",
+      "filing_date": "2026-03-02",
+      "doc": "cers-20251231.htm"
+    },
+    "website": {
+      "error": "Cerus pipeline pages return HTTP 403/404 to automated fetch; relied on 10-K and clinicaltrials.gov."
+    },
+    "ctgov": {
+      "sponsor_query": "Cerus",
+      "studies_returned": 16,
+      "lead_sponsor_cerus_count": 14
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "INTERCEPT Blood System for Red Blood Cells",
+      "aka": ["RBC system", "S-303", "amustaline / GSH"],
+      "modality": "Pathogen reduction medical device (small-molecule treatment of donor RBC units)",
+      "target": "Broad-spectrum inactivation of viruses, bacteria, parasites and donor leukocytes in red blood cell units",
+      "license_origin": "Internal (Cerus proprietary INTERCEPT platform)",
+      "indications": [
+        {
+          "indication": "Transfusion of pathogen-reduced red blood cells in patients requiring chronic or acute RBC support",
+          "highest_phase": "P3",
+          "trial_name": "RedeS",
+          "trial_design": "Randomized, controlled study comparing INTERCEPT-treated red blood cells to conventional untreated red blood cells in regions at potential risk for Zika and other transfusion-transmitted infections",
+          "nct_ids": ["NCT03037164"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2026-07-31)",
+          "lead_sponsor": "Cerus Corporation",
+          "key_milestones": [
+            "October 2024: Dutch CBG closed initial MDR application for the RBC system without issuing CE Certificate of Conformity",
+            "July 2025: TUV-SUD completed clinical assessment of resubmitted MDR application; API review transferred from SUKL to ANSM (France)"
+          ]
+        },
+        {
+          "indication": "Recovery and lifespan of INTERCEPT-treated RBCs in AS-1 (process-validation supportive study)",
+          "highest_phase": "P2",
+          "trial_name": "INTERCEPT RBC AS-1 Recovery and Lifespan Study",
+          "trial_design": "Open-label in vivo recovery and survival study of radiolabeled autologous INTERCEPT-treated RBCs prepared with AS-1",
+          "nct_ids": ["NCT07015437"],
+          "trial_status": "RECRUITING (primary completion 2026-07-30)",
+          "lead_sponsor": "Cerus Corporation",
+          "key_milestones": []
+        },
+        {
+          "indication": "Challenge transfusion of INTERCEPT pathogen-reduced RBCs in subjects with or without pre-existing antibodies (immunogenicity / hemolytic transfusion reaction)",
+          "highest_phase": "P2",
+          "trial_name": "INTERCEPT RBC Antibody Challenge Study",
+          "trial_design": "Phase 2 challenge transfusion study evaluating safety in subjects with or without pre-existing antibodies to INTERCEPT RBCs",
+          "nct_ids": ["NCT07152379"],
+          "trial_status": "NOT_YET_RECRUITING (planned start 2026-01-01)",
+          "lead_sponsor": "Cerus Corporation",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_marketed": [
+      {
+        "name": "INTERCEPT Blood System for Platelets",
+        "regulatory_status": "FDA-approved (US); CE Mark (EU under MDR); marketed in US, parts of Europe, CIS, Middle East, Latin America"
+      },
+      {
+        "name": "INTERCEPT Blood System for Plasma",
+        "regulatory_status": "FDA-approved (US); CE Mark (EU under MDR); marketed in US, parts of Europe, CIS, Middle East, Latin America"
+      },
+      {
+        "name": "INTERCEPT Blood System for Cryoprecipitation (produces INTERCEPT Fibrinogen Complex / IFC and pathogen-reduced plasma, cryoprecipitate reduced)",
+        "regulatory_status": "FDA-approved in the US for treatment and control of bleeding (including massive hemorrhage) associated with fibrinogen deficiency"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT02653443", "reason": "TERMINATED (platelet crossover in vivo)"},
+    {"nct_id": "NCT01642563", "reason": "TERMINATED (Italian Platelet Technology Assessment, lead sponsor Centro Nazionale Sangue, Cerus collaborator)"},
+    {"nct_id": "NCT07155031", "reason": "WITHDRAWN (Biotin-Acridine RBC Exchange Kinetics in sickle cell)"},
+    {"nct_id": "NCT02295501", "reason": "TERMINATED (Phase 1 INTERCEPT plasma in Ebola virus disease)"},
+    {"nct_id": "NCT03459287", "reason": "COMPLETED 2023 (Phase 3 INTERCEPT RBCs in complex cardiac surgery) — no longer active"},
+    {"nct_id": "NCT01711346", "reason": "COMPLETED 2014 (Phase 2 S-303 RBC recovery)"},
+    {"nct_id": "NCT06697223", "reason": "COMPLETED 2025 (Phase 2 platelet LED illuminator recovery)"},
+    {"nct_id": "NCT00261924", "reason": "COMPLETED 2009 (Phase 3 platelet 7-day storage) — supports approved platelet system"},
+    {"nct_id": "NCT01740531", "reason": "COMPLETED 2017 (Phase 3 S-303 RBCs in thalassemia major)"},
+    {"nct_id": "NCT04022889", "reason": "COMPLETED 2021 (Phase 2 INTERCEPT platelet 100% plasma 7-day)"},
+    {"nct_id": "NCT01716923", "reason": "COMPLETED 2014 (Phase 3 S-303 RBCs in acute anemia)"},
+    {"nct_id": "NCT02310412", "reason": "COMPLETED 2015 (Phase 2 platelet 7-day pilot)"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT04426591", "reason": "Investigator-initiated (Marianne Yee / NHLBI lead sponsor); Cerus is collaborator only"}
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 1,
+    "p2": 2,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": null
+}

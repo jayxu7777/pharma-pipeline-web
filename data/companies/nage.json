@@ -1,0 +1,24 @@
+{
+  "issuer_name": "Niagen Bioscience, Inc.",
+  "ticker": "NAGE",
+  "exchange": "Nasdaq",
+  "cik": "0001386570",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001386570-26-000013", "filing_date": "2026-03-04", "doc": "cdxc-20251231.htm"},
+    "website": {"note": "Company is consumer-health/dietary-supplement focused; no clinical drug pipeline page"},
+    "ctgov": {"file": "data/nage_ctgov_compact.json", "trials_kept": 7, "note": "Searched ChromaDex (former corporate name); trials are investigator-initiated nutritional studies of nicotinamide riboside (Niagen), not company-sponsored drug development; not company-owned investigational new drugs"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Niagen Bioscience (formerly ChromaDex) is a commercial-stage consumer health and bioscience company selling nicotinamide riboside (NR) products under the Niagen and Tru Niagen brands as dietary supplements and pharmaceutical-grade compounded preparations. The company does not develop investigational new drug candidates; ClinicalTrials.gov shows only investigator-initiated nutritional studies. No active P1/P2/P3 IND-stage drug programs.",
+  "commercial_product": {
+    "products": ["Niagen (food-grade nicotinamide riboside chloride, NR)", "Tru Niagen (consumer dietary supplement)", "Niagen Plus (pharmaceutical-grade NR for 503B outsourcing facilities; compounded Niagen IV / injectable formulations)"],
+    "regulatory_status": "GRAS (food-grade); FDA-permitted for compounding by 503B outsourcing facilities (pharmaceutical-grade)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": ["Investigator-initiated NR studies sponsored by KGK Science, Oslo University Hospital, University of California Davis, University of Colorado Boulder, etc."],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

@@ -1,0 +1,32 @@
+{
+  "issuer_name": "DENTSPLY SIRONA Inc.",
+  "ticker": "XRAY",
+  "exchange": "Nasdaq",
+  "cik": "0000818479",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000818479-26-000075", "filed": "2026-02-26", "doc": "xray-20251231.htm", "note": "10-K is a dental devices and technologies disclosure (Connected Technology Solutions, Essential Dental Solutions, Orthodontic and Implant Solutions, Wellspect Healthcare). No proprietary therapeutic drug pipeline disclosed."},
+    "website": {"error": "Pure dental medtech / consumables; company has no biopharma 'pipeline' page. Did not fetch."},
+    "ctgov": {"file": "data/xray_ctgov_compact.json", "sponsor_query": "Dentsply Sirona", "total_studies_returned": 3, "active_p1_to_p3_company_sponsored": 0, "note": "Only 3 ClinicalTrials.gov records mention Dentsply Sirona. None are sponsored by Dentsply Sirona (sponsors are University of Illinois at Chicago, Nationwide Children's Hospital, and Marcio Zaffalon Casati - investigator-initiated). All three are COMPLETED, WITHDRAWN, or UNKNOWN status."}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Dentsply Sirona is the world's largest manufacturer of professional dental products and technologies. Reporting segments: Connected Technology Solutions (CBCT and 2D imaging, CAD/CAM systems including Primescan / CEREC, treatment centers, instruments), Essential Dental Solutions (endodontic instruments and obturation, restorative consumables, preventive products), Orthodontic and Implant Solutions (SureSmile clear aligners, Byte direct-to-consumer aligners, Astra Tech / Ankylos / Atlantis dental implants and prosthetics), and Wellspect Healthcare (LoFric intermittent catheters and Navina bowel-care products). All approved/marketed devices and consumables - out of scope for an active P1/P2/P3 drug pipeline."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "All three ClinicalTrials.gov records that mention Dentsply Sirona are COMPLETED, WITHDRAWN or UNKNOWN-status investigator-initiated studies and are excluded from the active pipeline."
+  ],
+  "excluded_partner_owned": [
+    "All three ClinicalTrials.gov records are investigator-initiated studies sponsored by academic centers (University of Illinois at Chicago; Nationwide Children's Hospital; an individual investigator) - not Dentsply Sirona-sponsored programs."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Dental medtech and consumables company - no proprietary therapeutic drug pipeline. Dentsply Sirona manufactures dental imaging, CAD/CAM, endodontic, restorative, orthodontic, implant, and Wellspect catheter/bowel-care products. ClinicalTrials.gov shows no company-sponsored active P1/P2/P3 studies."
+}

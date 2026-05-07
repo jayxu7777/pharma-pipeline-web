@@ -1,0 +1,33 @@
+{
+  "issuer_name": "Hepion Pharmaceuticals, Inc.",
+  "ticker": "HEPA",
+  "exchange": "OTC",
+  "cik": "0001583771",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/hepa_10k_pipeline_section.html", "filing_date": "2026-03-12", "accession": "0001493152-26-009755"},
+    "website": {"url": "https://hepionpharma.com/pipeline/", "status": "fetched", "note": "Pipeline page now shows 'Diagnostic Candidates — Updates Coming Soon'"},
+    "ctgov": {"file": "data/hepa_ctgov_compact.json", "active_p1_p3_trials": 0, "note": "Only legacy rencofilstat trials (3 Completed, 1 Active Not Recruiting being wound down)"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per 10-K filed 2026-03-12, Hepion has pivoted to a medical diagnostic company. ASCEND-NASH Phase 2b trial of rencofilstat (CRV431) was wound down beginning April 2024 due to insufficient funding. Rencofilstat IP, clinical data, and drug product were out-licensed to a third party for nominal upfront with milestone/royalty contingencies. Company in-licensed diagnostic test rights from New Day Diagnostics (May 2025) and Cirna Diagnostics (Feb 2026). No active company-sponsored P1/P2/P3 drug therapeutic trials remain.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT05402371 (Rencofilstat ALTITUDE-NASH/ASCEND-NASH P2 — wound down April 2024)",
+    "NCT05461105 (Rencofilstat NASH F3 P2 — Completed)",
+    "NCT04480710 (CRV431 NASH F2/F3 P2 — Completed)",
+    "NCT03596697 (CRV431 healthy volunteers P1 — Completed)"
+  ],
+  "excluded_partner_owned": [
+    "Rencofilstat (out-licensed to undisclosed third party for nominal consideration plus contingent milestones)"
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase3_indications": 0,
+    "phase2_indications": 0,
+    "phase1_indications": 0,
+    "planned": 0
+  }
+}

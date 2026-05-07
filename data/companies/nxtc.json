@@ -1,0 +1,115 @@
+{
+  "issuer_name": "NextCure, Inc.",
+  "ticker": "NXTC",
+  "exchange": "Nasdaq",
+  "cik": "0001661059",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-024137", "filed": "2026-03-05", "file": "data/nxtc_10k_pipeline_section.html"},
+    "website": {"url": "https://www.nextcure.com/pipeline/"},
+    "ctgov": {"file": "data/nxtc_ctgov_compact.json", "kept_p1_p3": 10, "note": "After 2024 restructuring NextCure is focused on SIM0505 and LNCB74; NC410 and NC525 being partnered."}
+  },
+  "pipeline": [
+    {
+      "asset": "SIM0505",
+      "aka": ["Zaiming SIM0505", "CDH6 ADC"],
+      "modality": "Antibody-drug conjugate (mAb + Gly-Gly-Phe-Gly linker + CPT116 TOPO1 inhibitor payload, DAR 8)",
+      "target": "Cadherin-6 (CDH6)",
+      "license_origin": "Licensed from Simcere Zaiming (worldwide ex-Greater China); Zaiming retains Greater China rights",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (ovarian, endometrial, NSCLC, renal)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase I Study of SIM0505 in Participants With Advanced Solid Tumors",
+          "trial_design": "Open-label multicenter Phase 1 dose-escalation, US + China combined",
+          "nct_ids": ["NCT06792552"],
+          "trial_status": "RECRUITING (start 2025-02-26; first US patient dosed Oct 2025; primary completion 2028-02)",
+          "lead_sponsor": "NextCure, Inc. (collaboration with Shanghai Xianxiang Medical Technology / Zaiming)",
+          "key_milestones": ["First US patient dosed Oct 2025", "Phase 1 dose-escalation readout Q2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "LNCB74",
+      "aka": ["B7-H4 ADC"],
+      "modality": "Antibody-drug conjugate (B7-H4 mAb + LigaChem ADC technology, tubulin inhibitor payload)",
+      "target": "B7-H4",
+      "license_origin": "Co-development with LigaChem Biosciences (Nov 2022 agreement); NextCure-originated antibody",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors with high B7-H4 expression (breast, ovarian, endometrial, biliary tract, NSCLC, ACC-1)",
+          "highest_phase": "Phase 1",
+          "trial_name": "A Phase 1 Study of LNCB74 in Advanced Solid Tumors",
+          "trial_design": "Open-label dose-escalation; FDA cleared protocol amendment Nov 2025 enabling higher dose cohorts",
+          "nct_ids": ["NCT06774963"],
+          "trial_status": "RECRUITING (start 2025-01-07; first patient dosed Jan 2025; primary completion 2026-12)",
+          "lead_sponsor": "NextCure, Inc. (collaborator: LigaChem Biosciences)",
+          "key_milestones": ["First patient dosed Jan 2025", "Higher-dose cohort clearance Nov 2025", "Trial update H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "NC410",
+      "aka": ["LAIR-2 fusion protein"],
+      "modality": "LAIR-2 Fc fusion protein (collagen-rich tumor microenvironment modulator)",
+      "target": "LAIR-1 / collagen interaction",
+      "license_origin": "Internal (NextCure seeking partner)",
+      "indications": [
+        {
+          "indication": "Advanced unresectable / metastatic solid tumors (in combo with pembrolizumab)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "NC410 + Pembrolizumab in Advanced Solid Tumors",
+          "trial_design": "Phase 1/2 safety, tolerability and efficacy of NC410 + pembrolizumab",
+          "nct_ids": ["NCT05572684"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (start 2022-10-06; primary completion 2025-07)",
+          "lead_sponsor": "NextCure, Inc. (collaborator: Merck Sharp & Dohme)",
+          "key_milestones": ["Primary completion mid-2025"]
+        },
+        {
+          "indication": "Untreated metastatic pancreatic cancer (with FOLFIRINOX + nivolumab +/- ipilimumab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "NC410 and FOLFIRINOX in Combination With Nivolumab With or Without Ipilimumab in Untreated Metastatic Pancreatic Cancer",
+          "trial_design": "Investigator-initiated Phase 2 randomized combination at Johns Hopkins SKCCC",
+          "nct_ids": ["NCT06941857"],
+          "trial_status": "RECRUITING (start 2025-09-04; primary completion 2028-12)",
+          "lead_sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins (NextCure and Lustgarten Foundation collaborators)",
+          "key_milestones": ["Recruitment started Sep 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "NC318",
+      "aka": ["anti-Siglec-15"],
+      "modality": "Monoclonal antibody",
+      "target": "Siglec-15",
+      "license_origin": "Internal (NextCure seeking partner / not prioritized in 10-K)",
+      "indications": [
+        {
+          "indication": "Advanced NSCLC (alone or in combination with pembrolizumab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Study of NC318 Alone or in Combination With Pembrolizumab in Advanced NSCLC",
+          "trial_design": "Investigator-initiated Phase 2 at Yale University",
+          "nct_ids": ["NCT04699123"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (start 2021-02-04; primary completion 2025-06-30)",
+          "lead_sponsor": "Yale University (NextCure, NCI, Merck collaborators)",
+          "key_milestones": ["Primary completion mid-2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "NC181 — humanized antibody targeting ApoE4 for Alzheimer's disease (preclinical, IND in 12-18 months if partner secured)",
+    "NC605 — antibody targeting Siglec-15 for osteogenesis imperfecta (preclinical)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT04408599 — NC410 monotherapy Phase 1/2 (TERMINATED 2023)",
+    "NCT05787496 — NC525 in advanced myeloid neoplasms Phase 1 (TERMINATED Jan 2025)",
+    "NCT04875806 — NC762 monotherapy Phase 1/2 (TERMINATED Jan 2024)",
+    "NCT04430933 — NC318 + chemotherapy in NSCLC (WITHDRAWN)",
+    "NCT03665285 — NC318 monotherapy Phase 1/2 (COMPLETED Apr 2023)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 2, "P1": 2, "total_assets": 4}
+}

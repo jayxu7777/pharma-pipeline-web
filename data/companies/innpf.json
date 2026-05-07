@@ -1,0 +1,40 @@
+{
+  "issuer_name": "INNOCAN PHARMA Corp",
+  "ticker": "INNPF",
+  "exchange": "OTC",
+  "cik": "0001889791",
+  "region": "Canada (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — no 10-K on EDGAR (Canadian filer; files via SEDAR / 20-F-equivalent foreign forms)."
+    },
+    "website": {
+      "url": "https://innocanpharma.com/",
+      "note": "Pipeline page describes CBD-based delivery systems; LPT-CBD (liposomal CBD) is lead asset. As of 2026 disclosures, LPT-CBD remains in pre-IND alignment with FDA — Phase 1 study design agreed but not yet enrolling humans."
+    },
+    "ctgov": {
+      "trials_kept": 0,
+      "note": "No company-sponsored interventional human trials on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Lead candidate LPT-CBD (liposomal cannabidiol) is in pre-IND/preclinical stage. Per Feb 2026 FDA CVM fee waiver and ongoing CMC work, IND filing for human Phase 1 chronic pain study is targeted but not yet submitted. The published 2026 efficacy/PK study was conducted in dogs (veterinary). No active human Phase 1/2/3 trials.",
+  "excluded_preclinical": [
+    {
+      "name": "LPT-CBD",
+      "modality": "Liposomal synthetic cannabidiol, subcutaneous injection",
+      "indication": "Chronic pain (human program); osteoarthritis pain (veterinary program)",
+      "stage": "Pre-IND; FDA-aligned Phase 1 design under 505(b)(2). Veterinary positive RCT in dogs published Feb 2026."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

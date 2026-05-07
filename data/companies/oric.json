@@ -1,0 +1,77 @@
+{
+  "issuer_name": "ORIC Pharmaceuticals, Inc.",
+  "ticker": "ORIC",
+  "exchange": "Nasdaq",
+  "cik": "0001796280",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/oric_10k_pipeline_section.html", "filing_date": "2026-02-23", "accession": "0001193125-26-064005"},
+    "website": {"url": "https://oricpharma.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/oric_ctgov_compact.json", "trials_total": 9, "lead_sponsor_filter": "ORIC Pharmaceuticals"}
+  },
+  "pipeline": [
+    {
+      "asset": "Rinzimetostat",
+      "aka": ["ORIC-944"],
+      "modality": "Small molecule (oral)",
+      "target": "PRC2 (EED subunit) allosteric inhibitor",
+      "license_origin": "Mirati Therapeutics (license)",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ORIC-944-01 (with novel hormonal agents)",
+          "trial_design": "Phase 1b dose-optimization in combination with apalutamide / darolutamide / enzalutamide / abiraterone",
+          "nct_ids": ["NCT05413421"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ORIC Pharmaceuticals",
+          "key_milestones": ["RP3D 400 mg QD with darolutamide selected (Mar 2026)", "Phase 3 Himalayas-1 trial planned"]
+        }
+      ]
+    },
+    {
+      "asset": "Enozertinib",
+      "aka": ["ORIC-114"],
+      "modality": "Small molecule (oral)",
+      "target": "Brain-penetrant EGFR / HER2 inhibitor",
+      "license_origin": "Voronoi (license)",
+      "indications": [
+        {
+          "indication": "NSCLC with EGFR exon 20 insertion mutations and EGFR PACC mutations",
+          "highest_phase": "Phase 2",
+          "trial_name": "ORIC-114-01",
+          "trial_design": "Phase 1/2 monotherapy and chemotherapy combination (carboplatin + pemetrexed) in advanced solid tumors with EGFR/HER2 alterations",
+          "nct_ids": ["NCT05315700"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ORIC Pharmaceuticals",
+          "key_milestones": ["80 mg QD selected for Phase 3 development"]
+        },
+        {
+          "indication": "EGFR Exon 20 insertion mutant NSCLC (combination)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ORIC-114 + subcutaneous amivantamab",
+          "trial_design": "Phase 1 combination with subcutaneous amivantamab (Janssen collaboration)",
+          "nct_ids": ["NCT06816992"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ORIC Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "ORIC-101 (NCT04033328, NCT03928314) — terminated, GR antagonist program discontinued",
+    "ORIC-533 (NCT05227144, CD73 inhibitor in MM) — completed, no longer on active pipeline"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 2,
+    "indication_lines": 3
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Prime Medicine, Inc.",
+  "ticker": "PRME",
+  "exchange": "Nasdaq",
+  "cik": "0001894562",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-03-03", "accession": "0001628280-26-013569", "path": "data/prme_10k_pipeline_section.html"},
+    "website": {"url": "https://primemedicine.com/pipeline", "note": "Confirms PM359 in Phase 1/2 (currently not enrolling new participants); CF, Wilson, AATD, CAR-T listed as preclinical/IND-enabling."},
+    "ctgov": {"path": "data/prme_ctgov_compact.json", "note": "1 trial returned (PM359 NCT06559176, Phase 1/2, Enrolling by Invitation)."}
+  },
+  "pipeline": [
+    {
+      "asset": "PM359",
+      "aka": [],
+      "modality": "Ex vivo Prime Editing of autologous CD34+ hematopoietic stem cells (autologous HSCT)",
+      "target": "NCF1 gene (deltaGT mutation correction; restores p47phox / NADPH oxidase activity)",
+      "license_origin": "Internal (Prime Medicine)",
+      "indications": [
+        {
+          "indication": "p47phox autosomal recessive chronic granulomatous disease (CGD)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "PM359 CGD Phase 1/2",
+          "trial_design": "Open-label single-arm Phase 1/2 in patients with p47phox autosomal recessive CGD undergoing autologous HSCT with PM359 Prime-Edited cells.",
+          "nct_ids": ["NCT06559176"],
+          "trial_status": "Enrolling by invitation (started Oct 2024; primary completion Jan 2030); positive early data published in NEJM; FDA discussions on accelerated approval path; BLA planned following final regulatory alignment",
+          "lead_sponsor": "Prime Medicine, Inc.",
+          "key_milestones": ["Initial clinical data: rapid and durable NADPH oxidase restoration", "Planned BLA submission post regulatory alignment"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "PM577", "modality": "In vivo LNP-delivered Prime Editor targeting ATP7B H1069Q", "indications": ["Wilson Disease (H1069Q variant)"], "status": "Preclinical; IND/CTA planned 1H 2026; Phase 1/2 expected to start with initial data 2027"},
+    {"asset": "Follow-on Wilson editors (R778L and other ATP7B variants)", "status": "Discovery / preclinical"},
+    {"asset": "PM647", "modality": "In vivo LNP-delivered Prime Editor", "indications": ["Alpha-1 antitrypsin deficiency (AATD)"], "status": "Preclinical / IND-enabling"},
+    {"asset": "Cystic Fibrosis program", "modality": "Prime Editing via LNP and AAV (incl. PASSIGE platform)", "status": "Discovery / preclinical (CFF-supported)"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "Ex vivo CAR-T programs (BMS collaboration, Sep 2024)", "status": "IND-enabling; BMS-led ex vivo T-cell engineering for oncology and immunology — partner-owned"}
+  ],
+  "summary_counts": {"total_assets": 1, "phase_3": 0, "phase_2": 0, "phase_1": 1, "phase_1_2": 1}
+}

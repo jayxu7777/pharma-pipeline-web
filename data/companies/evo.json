@@ -1,0 +1,56 @@
+{
+  "issuer_name": "Evotec SE",
+  "ticker": "EVO",
+  "exchange": "Nasdaq",
+  "cik": "0001412558",
+  "region": "Germany (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F, not 10-K"},
+    "website": {"url": "https://www.evotec.com/co-owned-pipeline/by-research-phase", "method": "WebFetch", "note": "Pipeline page lists phase headers but no specific asset names; Evotec discloses pipeline as aggregated 140+ co-owned partner-led assets"},
+    "ctgov": {"file": "data/evo_ctgov_compact.json", "trials_total": 6, "lead_sponsor_filter": "Evotec Neurosciences GmbH / Just-Evotec Biologics"}
+  },
+  "no_active_clinical_pipeline_reason": "Evotec is primarily a contract research organization (CRO) and drug-discovery partner. Most clinical-stage assets in its 'co-owned pipeline' (140+ programs) are sponsored and developed by partners (Bayer, BMS, Novo Nordisk, Sandoz, Bristol Myers Squibb, etc.) — they appear under partner names on registries and are excluded per task rule (partner-owned trials). Only Just-Evotec Biologics' JST-010 is an Evotec-sponsored active clinical asset.",
+  "pipeline": [
+    {
+      "asset": "JST-010",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "Yersinia pestis (anti-plague mAb)",
+      "license_origin": "Just-Evotec Biologics (Evotec subsidiary) under U.S. government biodefense funding",
+      "indications": [
+        {
+          "indication": "Pre-exposure prophylaxis against pneumonic plague",
+          "highest_phase": "Phase 1",
+          "trial_name": "JST-010 SAD/MAD",
+          "trial_design": "Phase 1 randomized double-blind dose-escalation/expansion in healthy adults",
+          "nct_ids": ["NCT06943378"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Just-Evotec Biologics",
+          "key_milestones": ["Started May 2025; primary completion Apr 2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "EVT 101 (NMDA NR2B antagonist) — Phase 1 completed, not active",
+    "EVT 201 (insomnia) — Phase 2 completed",
+    "EVT 302 (smoking cessation) — Phase 2 completed"
+  ],
+  "excluded_partner_owned": [
+    "Bayer co-developed Alport-syndrome program (Phase 2 initiated Dec 2025)",
+    "Bristol Myers Squibb molecular glue BMS-986506 (Phase 1 RCC, Mar 2026)",
+    "Bristol Myers Squibb CELMoD program (Phase 1 planned 2026)",
+    "Novo Nordisk metabolic disease portfolio",
+    "Other 140+ co-owned partner-led discovery / clinical programs"
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 1
+  },
+  "blockers": "Foreign private issuer (no 10-K). Business model is CRO/co-discovery; pipeline transparency limited because partner sponsors disclose trials under their own names."
+}

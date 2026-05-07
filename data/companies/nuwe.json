@@ -1,0 +1,50 @@
+{
+  "issuer_name": "Nuwellis, Inc.",
+  "ticker": "NUWE",
+  "exchange": "Nasdaq",
+  "cik": "0001506492",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001140361-26-009080",
+      "filing_date": "2026-03-11",
+      "doc": "ef20060639_10k.htm"
+    },
+    "website": {
+      "url_tried": "https://nuwellis.com/pipeline (404); https://nuwellis.com/clinical-evidence/ (publications only, no active trials listed)",
+      "error": "no proprietary pipeline page; clinical-evidence page lists only completed peer-reviewed studies"
+    },
+    "ctgov": {
+      "unique_trials_p1_3": 1,
+      "kept_for_pipeline": 0,
+      "note": "Single P3 hit (NCT00608491 CARRESS) is COMPLETED in 2012 and lead-sponsored by Duke University with Nuwellis as collaborator only \u2014 excluded as completed and not company-led",
+      "compact_path": "data/nuwe_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Ultrafiltration medical device",
+    "products": [
+      "Aquadex SmartFlow System \u2014 FDA-cleared ultrafiltration platform for fluid overload in patients who failed diuretic therapy"
+    ],
+    "regulatory_status": "Commercial; 510(k)-cleared"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "trial": "CARRESS-HF",
+      "nct": "NCT00608491",
+      "reason": "Completed in 2012; lead sponsor Duke University; Nuwellis listed only as collaborator"
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech: Nuwellis sells the FDA-cleared Aquadex ultrafiltration device for fluid overload. No active proprietary P1/P2/P3 drug program and no active company-sponsored pivotal IDE study disclosed in 10-K, on the corporate site, or on ClinicalTrials.gov."
+}

@@ -1,0 +1,26 @@
+{
+  "issuer_name": "LUDWIG ENTERPRISES, INC.",
+  "ticker": "LUDG",
+  "exchange": "OTC",
+  "cik": "0001960262",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-028315", "filed": "2026-03-16", "doc": "ea0279095-10k_ludwig.htm", "slice_path": "data/ludg_10k_pipeline_section.html"},
+    "website": {"url": "https://ludwigenterprises.com/", "error": "Site only serves a JS redirect to /lander; no public pipeline page"},
+    "ctgov": {"sponsor_query": "Ludwig Enterprises", "trials_found": 0, "compact_path": "data/ludg_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Pre-revenue. Subsidiaries mRNA for Life, Inc. and Precision Genomics, Inc. are developing mRNA-based genetic biomarker assays from cheek-swab samples for inflammation-driven diseases (heart disease, diabetes, preeclampsia, autism spectrum disorder, etc.). No FDA-cleared product or registered clinical trial as of the 2025 10-K."
+  },
+  "excluded_preclinical": [
+    {"asset": "mRNA Neuro Panel and Serotonin Assay (Tryptamine Derivatives and mRNA Measurements)", "stage": "Patent application U.S. 18/705375 (April 2024); IP licensed from Nova Mentis Life Science Corp.; no clinical trial registered"},
+    {"asset": "ASD mRNA cheek-swab biomarker (Ambert/Molinaro evaluation, 30-40 patients)", "stage": "Exploratory analytical evaluation, not an IND/clinical trial"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Early-stage mRNA biomarker / molecular-diagnostics development company; all programs are preclinical/IP-stage with no IND filed, no FDA clearance, and no registered ctgov P1/P2/P3 trials. Bucketed as services/CRO/lab; effectively a pre-revenue diagnostic R&D shell."
+}

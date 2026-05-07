@@ -1,0 +1,20 @@
+{
+  "issuer_name": "China Foods Holdings Ltd.",
+  "ticker": "CFOO",
+  "exchange": "OTC",
+  "cik": "0001310630",
+  "region": "Hong Kong / China",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "10-K parser could not find pipeline section; company is a consumer health/wine OTC name (formerly Trafalgar Resources shell), not a drug developer"},
+    "website": {"error": "no public drug pipeline page — company sells nutrition catering, health food, supplements, skincare, and wine"},
+    "ctgov": {"trials_returned": 0, "note": "No trials sponsored under China Foods Holdings"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "China Foods Holdings Ltd. is a consumer health-and-wellness and wine distribution company (Healthcare segment: nutrition catering, special health food, supplements, skincare, meal replacements; Wine segment: wine products). It is not a clinical-stage biotech and has no Phase 1/2/3 drug development programs. Formerly the shell company Trafalgar Resources.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p1": 0, "p2": 0, "p3": 0}
+}

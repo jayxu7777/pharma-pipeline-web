@@ -1,0 +1,52 @@
+{
+  "issuer_name": "Outlook Therapeutics, Inc.",
+  "ticker": "OTLK",
+  "exchange": "Nasdaq",
+  "cik": "0001649989",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-25-123264", "filed": "2025-12-19", "doc": "otlk-20250930x10k.htm"},
+    "website": {"url": "https://outlooktherapeutics.com/pipeline", "fetched": "2026-05-06", "note": "page is navigation-only; details from 10-K"},
+    "ctgov": {"file": "data/otlk_ctgov_compact.json", "n_studies": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "ONS-5010 / LYTENAVA (bevacizumab-vikg, ophthalmic)",
+      "aka": ["LYTENAVA", "ophthalmic bevacizumab"],
+      "modality": "Anti-VEGF humanized mAb (ophthalmic formulation)",
+      "target": "VEGF-A",
+      "license_origin": "Internal (Selexis cell-line license); China rights to Syntone JV",
+      "indications": [
+        {
+          "indication": "Wet (neovascular) age-related macular degeneration — pre-filled syringe line extension and DME/BRVO label expansion (US registration also active via resubmitted BLA after NORSE EIGHT)",
+          "highest_phase": "Phase 3 (registrational)",
+          "trial_name": "NORSE SEVEN",
+          "trial_design": "Randomized 3-month study comparing safety of ONS-5010/LYTENAVA in vials vs pre-filled syringe in subjects with wet AMD, DME or BRVO; ~120 patients",
+          "nct_ids": ["NCT05112861"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2027-12); supports supplemental BLA for PFS",
+          "lead_sponsor": "Outlook Therapeutics, Inc.",
+          "key_milestones": ["EU marketing authorization granted 2024-05-27 (wet AMD)", "UK MHRA approval 2024-07-08", "US BLA resubmitted; PDUFA 2025-12-31"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "LYTENAVA (bevacizumab gamma)",
+    "indication": "Wet AMD",
+    "regions_approved": ["EU/EEA", "United Kingdom"],
+    "us_status": "BLA resubmitted; PDUFA 2025-12-31"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT04516278", "reason": "COMPLETED — NORSE THREE safety study"},
+    {"nct_id": "NCT03844074", "reason": "COMPLETED — NORSE TWO pivotal P3 (supportive of EU/UK approval)"},
+    {"nct_id": "NCT06190093", "reason": "COMPLETED — NORSE EIGHT US confirmatory study (missed week-8 NI endpoint Nov 2024)"},
+    {"nct_id": "NCT03834753", "reason": "COMPLETED — NORSE ONE clinical experience study"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "ONS-3010, ONS-1045, ONS-1050 (legacy biosimilars)", "reason": "No longer in active clinical development"}
+  ],
+  "summary_counts": {"assets": 1, "P3": 1, "P2": 0, "P1": 0, "total_active_indications": 1}
+}

@@ -1,0 +1,88 @@
+{
+  "issuer_name": "Septerna, Inc.",
+  "ticker": "SEPN",
+  "exchange": "Nasdaq",
+  "cik": "0001984086",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/sepn_10k_pipeline_section.html", "filing_date": "2026-03-09", "accession": "0001193125-26-098507"},
+    "website": {"url": "https://www.septerna.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"file": "data/sepn_ctgov_compact.json", "trials_total": 2, "lead_sponsor_filter": "Septerna, Inc."}
+  },
+  "pipeline": [
+    {
+      "asset": "SEP-631",
+      "aka": [],
+      "modality": "Small molecule (oral) — negative allosteric modulator",
+      "target": "MRGPRX2 NAM",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic spontaneous urticaria and mast cell diseases",
+          "highest_phase": "Phase 1",
+          "trial_name": "SEP-631 SAD/MAD",
+          "trial_design": "Phase 1 single and multiple ascending dose study in healthy adult volunteers",
+          "nct_ids": ["NCT07069036"],
+          "trial_status": "COMPLETED (Phase 1 healthy volunteers); company website lists program as advancing to Phase 2",
+          "lead_sponsor": "Septerna, Inc.",
+          "key_milestones": ["Phase 1 SAD/MAD completed Dec 2025", "Phase 2 in patients planned"]
+        }
+      ]
+    },
+    {
+      "asset": "SEP-479",
+      "aka": [],
+      "modality": "Small molecule (oral) — agonist",
+      "target": "PTH1R agonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Hypoparathyroidism",
+          "highest_phase": "Phase 1",
+          "trial_name": "SEP-479 SAD/MAD",
+          "trial_design": "Phase 1 single and multiple ascending dose study in healthy adult participants",
+          "nct_ids": ["NCT07433179"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Septerna, Inc.",
+          "key_milestones": ["Started Mar 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "TSHR program",
+      "aka": [],
+      "modality": "Small molecule — negative allosteric modulator",
+      "target": "TSHR NAM",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Graves' disease / Thyroid eye disease",
+          "highest_phase": "Phase 1 (planned)",
+          "trial_name": "PLANNED — IND-enabling per company website",
+          "trial_design": "First-in-human Phase 1 planned",
+          "nct_ids": [],
+          "trial_status": "PLANNED — IND-enabling stage per company pipeline (20% progress); first-in-human not yet initiated",
+          "lead_sponsor": "Septerna, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Discovery-stage research programs in Neurology, Women's Health, Cardiovascular, Respiratory",
+    "TSHR program — kept in active list as company calls it Phase 1 but not yet on registries"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Novo Nordisk metabolic collaboration (GCGR, GIPR, GLP-1R agonists for obesity/cardiometabolic) — partner-led",
+    "Vertex undisclosed collaboration"
+  ],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 3
+  }
+}

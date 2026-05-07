@@ -1,0 +1,67 @@
+{
+  "issuer_name": "Cumberland Pharmaceuticals Inc.",
+  "ticker": "CPIX",
+  "exchange": "Nasdaq",
+  "cik": "0001087294",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001087294-26-000020", "filing_date": "2026-03-09", "doc": "cpix-20251231.htm"},
+    "website": {"note": "Website check skipped; 10-K provides clear active pipeline narrative"},
+    "ctgov": {"trials_returned": 46, "lead_sponsor": "Cumberland Pharmaceuticals", "note": "Most CTgov entries are legacy completed trials supporting commercial products (Caldolor, Vibativ, Vaprisol, Kristalose, Acetadote, Sancuso). Active development is centered on ifetroban."}
+  },
+  "pipeline": [
+    {
+      "asset": "Ifetroban",
+      "aka": ["CPI-IFE"],
+      "modality": "Oral selective thromboxane-prostanoid receptor (TPr) antagonist",
+      "target": "Thromboxane A2/Prostanoid (TP) receptor",
+      "license_origin": "Internal (Cumberland new chemical entity)",
+      "indications": [
+        {
+          "indication": "Cardiomyopathy associated with Duchenne muscular dystrophy (DMD)",
+          "highest_phase": "Phase 2 complete (regulatory discussions ongoing)",
+          "trial_name": "FIGHT DMD (CPI-IFE-007)",
+          "trial_design": "Phase 2 placebo-controlled; 41 DMD patients randomized to 100 mg/day, 300 mg/day ifetroban or placebo for 12 months. High-dose: +3.3% LVEF vs placebo; +5.4% vs propensity-matched natural history controls (p=0.002). Open-label extension to Month 24/36 ongoing.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 completed Feb 2025; OLE ongoing. End-of-Phase 2 meeting Sept 2025; Type C meeting Jan 2026; Fast Track granted Feb 2026; Orphan Drug + Rare Pediatric designations granted Nov 2024",
+          "lead_sponsor": "Cumberland Pharmaceuticals",
+          "key_milestones": ["Regulatory pathway discussions ongoing for registration trial", "OLE Month 24/36 readouts"]
+        },
+        {
+          "indication": "Idiopathic Pulmonary Fibrosis (IPF)",
+          "highest_phase": "Phase 2",
+          "trial_name": "FIGHTING FIBROSIS (CPI-IFE-008)",
+          "trial_design": "Phase 2 placebo-controlled oral ifetroban in IPF; >70 subjects enrolled across 17 sites; safety interim analysis completed Nov 2025 with no new safety signals.",
+          "nct_ids": ["NCT05571059"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Cumberland Pharmaceuticals",
+          "key_milestones": ["Primary completion Jan 2027"]
+        },
+        {
+          "indication": "Diffuse cutaneous Systemic Sclerosis (SSc) and SSc-associated Pulmonary Arterial Hypertension",
+          "highest_phase": "Phase 2",
+          "trial_name": "Oral ifetroban in SSc (CPI-IFE-004)",
+          "trial_design": "Phase 2; diffuse cutaneous SSc cohort fully enrolled (20 patients, 12-month treatment completed); SSc-PAH cohort enrolled 9 of 14 before closure. Closed to enrollment Feb 2025; cardiac imaging analysis complete.",
+          "nct_ids": ["NCT02682511"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Cumberland Pharmaceuticals",
+          "key_milestones": ["Topline results for diffuse cutaneous arm expected end of Q1 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_brands": ["Kristalose", "Caldolor", "Acetadote", "Vaprisol", "Vibativ", "Sancuso", "RediTrex", "Omeclamox-Pak"],
+    "note": "Cumberland is primarily a commercial-stage specialty pharma; pipeline is centered on ifetroban Phase 2 development. CET subsidiary supports earlier-stage academic collaborations."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Ifetroban — malignant solid tumors at high risk of metastatic recurrence (Phase 2)", "nct": "NCT03694249", "reason": "Investigator-initiated (Vanderbilt-Ingram); status ACTIVE_NOT_RECRUITING with primary completion April 2025; Cumberland is collaborator only, not lead sponsor"},
+    {"asset": "Telavancin S. aureus bacteremia (Phase 3)", "nct": "NCT02208063", "reason": "TERMINATED (legacy Vibativ program)"},
+    {"asset": "Telavancin pediatric PK", "nct": "NCT02013141", "reason": "TERMINATED (legacy)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 3, "P1": 0}
+}

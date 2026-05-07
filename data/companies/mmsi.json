@@ -1,0 +1,63 @@
+{
+  "issuer_name": "MERIT MEDICAL SYSTEMS INC",
+  "ticker": "MMSI",
+  "exchange": "Nasdaq",
+  "cik": "0000856982",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000856982-26-000008",
+      "filed": "2026-02-24",
+      "fiscal_year_end": "2025-12-31",
+      "note": "10-K describes Merit Medical Systems as a manufacturer and marketer of single-use medical devices for interventional cardiology, radiology, oncology, and endoscopy procedures (Cardiovascular and Endoscopy segments). Product portfolio is FDA-cleared / CE-marked commercial devices; no investigational drug pipeline disclosed."
+    },
+    "website": {
+      "error": "no public drug-pipeline page — Merit Medical is a commercial medical-device company; corporate site lists marketed product families (access, angiography, embolization, drainage, biopsy, etc.), not P1/P2/P3 drug clinical trials."
+    },
+    "ctgov": {
+      "sponsor_query": "Merit Medical",
+      "trials_returned": 2,
+      "note": "Both interventional P1-3 trials returned are TERMINATED and therefore excluded: NCT01387932 (HepaSphere/QuadraSphere doxorubicin-eluting microspheres in HCC, lead sponsor Merit Medical, PHASE3 TERMINATED) and NCT03960008 (SBRT vs TACE bridge-to-transplant, lead sponsor Lahey Clinic with Merit as collaborator, PHASE3 TERMINATED)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Merit Medical revenue derives from FDA-cleared / CE-marked commercial single-use medical devices; no proprietary clinical-stage drug under active P1/P2/P3 development.",
+    "marketed_franchises": [
+      "Cardiovascular: peripheral intervention, cardiac intervention, custom procedural solutions, OEM",
+      "Endoscopy: gastroenterology and pulmonology devices",
+      "Embolotherapy / interventional oncology (e.g., HepaSphere/QuadraSphere microspheres, EmboCube, Embosphere)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "HepaSphere/QuadraSphere Microspheres + Doxorubicin (DEB-TACE)",
+      "indication": "Hepatocellular carcinoma",
+      "nct_ids": ["NCT01387932"],
+      "phase": "PHASE3",
+      "status": "TERMINATED",
+      "lead_sponsor": "Merit Medical Systems, Inc.",
+      "reason": "Trial terminated; per workflow rule, terminated/withdrawn studies are excluded from active P1/P2/P3 pipeline."
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "asset": "SBRT vs TACE bridge-to-transplant in HCC",
+      "nct_ids": ["NCT03960008"],
+      "phase": "PHASE3",
+      "status": "TERMINATED",
+      "lead_sponsor": "Lahey Clinic",
+      "reason": "Investigator-initiated study with Lahey Clinic as lead sponsor; Merit Medical is only a collaborator. Also TERMINATED."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medtech / device company — no active proprietary drug or device clinical pipeline. Merit Medical develops and markets FDA-cleared single-use interventional medical devices; the only Merit-sponsored P1/P2/P3 trial in the public registry (NCT01387932, HepaSphere DEB-TACE in HCC) was terminated, and the only collaborator-listed trial (NCT03960008) is investigator-initiated and also terminated."
+}

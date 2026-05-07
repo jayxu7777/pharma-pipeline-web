@@ -1,0 +1,66 @@
+{
+  "issuer_name": "AETHLON MEDICAL INC",
+  "ticker": "AEMD",
+  "exchange": "Nasdaq",
+  "cik": "0000882291",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001683168-25-004780",
+      "filing_date": "2025-06-26",
+      "path": "data/aemd_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.aethlonmedical.com/the-hemopurifier/the-hemopurifier-in-cancer",
+      "note": "/pipeline path returns 404; cancer page used as primary source"
+    },
+    "ctgov": {
+      "path": "data/aemd_ctgov_compact.json",
+      "note": "Sponsor query returned 0 P1-3 records; secondary keyword search showed only terminated US trials (NCT02215902, NCT04453046, NCT04595903). Active oncology trial is registered in Australia."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Hemopurifier",
+      "aka": ["HP"],
+      "modality": "Extracorporeal therapeutic device (lectin-affinity plasmapheresis cartridge using GNA affinity resin)",
+      "target": "Circulating extracellular vesicles (exosomes) and enveloped viruses",
+      "license_origin": "Internal (Aethlon Medical)",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic solid tumors with stable or progressive disease on anti-PD-1 therapy (pembrolizumab or nivolumab); FDA Breakthrough Device designation",
+          "highest_phase": "Phase 1",
+          "trial_name": "Australian safety, feasibility and dose-finding study of the Hemopurifier in solid tumors on anti-PD-1",
+          "trial_design": "Open-label, single-arm, three sequential cohorts (1, 2, or 3 treatments over one week); ~9-18 patients across Royal Adelaide Hospital, Pindara Private Hospital (Gold Coast), and GenesisCare North Shore (Sydney)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Recruiting / ongoing — two of three cohorts completed per company disclosure; DSMB reported no safety concerns; planned similarly designed trial in India (Medanta Medicity Hospital) pending CDSCO no-objection letter and Site Initiation Visit",
+          "lead_sponsor": "Aethlon Medical Australia (subsidiary)",
+          "key_milestones": [
+            "Two of three Australian cohorts completed",
+            "HREC approval obtained at Medanta Medicity Hospital for India trial; awaiting CDSCO no-objection letter"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    "Hemopurifier in Long COVID (preclinical / hypothesis-generation only)",
+    "Hemopurifier in additional viral indications (Ebola, Marburg, Zika, Lassa, MERS-CoV, CMV, EBV, HSV) — preclinical capture data only; no active trial"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT02215902 — Safety Study of the Aethlon Hemopurifier (Terminated)",
+    "NCT04453046 — Depleting Exosomes to Improve Response to Immune Therapy in HNSCC (Terminated)",
+    "NCT04595903 — Treatment of SARS-CoV-2 with Hemopurifier (Terminated; open IDE retained for optionality)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 0,
+    "P2": 0,
+    "P1": 1
+  },
+  "no_active_clinical_pipeline_reason": null
+}

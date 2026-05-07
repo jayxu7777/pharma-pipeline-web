@@ -1,0 +1,98 @@
+{
+  "issuer_name": "Orchestra BioMed Holdings, Inc.",
+  "ticker": "OBIO",
+  "exchange": "Nasdaq",
+  "cik": "0001814114",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-026754",
+      "filing_date": "2026-03-12",
+      "doc": "obio-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://orchestrabiomed.com/pipeline",
+      "note": "Confirms two flagship product candidates (AVIM Therapy, Virtue SAB)"
+    },
+    "ctgov": {
+      "sponsor_query": "Orchestra BioMed",
+      "studies_returned_via_sponsor_search": 0,
+      "note": "Pivotal device studies are sponsored on ClinicalTrials.gov by partner/affiliate entities (BackBeat Medical for BACKBEAT; Caliber Therapeutics/Orchestra for Virtue Trial), so sponsor query returned no rows. NCTs identified via web search and confirmed: NCT06059638 (BACKBEAT), NCT07045194 (Virtue Trial)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "AVIM Therapy (Atrioventricular Interval Modulation)",
+      "aka": ["BackBeat CNT", "AVIM"],
+      "modality": "Bioelectronic therapy delivered via standard dual-chamber cardiac pacemaker (proprietary firmware/algorithm); partnered with Medtronic",
+      "target": "Atrioventricular interval modulation to acutely lower systolic blood pressure",
+      "license_origin": "Internal (BackBeat Medical, LLC, wholly-owned subsidiary); exclusive global development & commercialization license/collaboration with Medtronic (Jun 2022; amended Aug 2025 to add a leadless dual-chamber pacemaker integration framework)",
+      "indications": [
+        {
+          "indication": "Uncontrolled hypertension in patients indicated for a Medtronic dual-chamber cardiac pacemaker despite anti-hypertensive medications",
+          "highest_phase": "Phase 3 (global pivotal IDE)",
+          "trial_name": "BACKBEAT",
+          "trial_design": "Global, multi-center, prospective, randomized 1:1, double-blind pivotal IDE study; enrolling up to ~500 patients; AVIM therapy + medical therapy vs. medical therapy + standard pacing",
+          "nct_ids": ["NCT06059638"],
+          "trial_status": "RECRUITING — first patient randomized late Dec 2023; enrollment completion currently planned for mid-2026",
+          "lead_sponsor": "BackBeat Medical, LLC (Orchestra BioMed wholly-owned subsidiary); Medtronic collaboration",
+          "key_milestones": [
+            "Jun 2022: Exclusive license & collaboration agreement with Medtronic",
+            "Dec 2023: First patient randomized in BACKBEAT pivotal study",
+            "Aug 2025: Medtronic Agreement amendment adding dual-chamber leadless pacemaker integration framework",
+            "Mid-2026 (planned): Enrollment completion"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Virtue SAB (Virtue Sirolimus AngioInfusion Balloon)",
+      "aka": ["SirolimusEFR delivered via AngioInfusion Balloon"],
+      "modality": "Non-coated micro-porous angioplasty balloon delivering proprietary extended-release sirolimus (SirolimusEFR) into the arterial wall",
+      "target": "Local anti-proliferative (mTOR inhibition) at coronary lesion site",
+      "license_origin": "Internal (Caliber Therapeutics, LLC, wholly-owned subsidiary). Prior Terumo collaboration terminated Oct 28, 2025; Terumo retains a right of first refusal for Virtue SAB in coronary artery disease.",
+      "indications": [
+        {
+          "indication": "Coronary artery in-stent restenosis (ISR)",
+          "highest_phase": "Phase 3 (US pivotal IDE)",
+          "trial_name": "Virtue Trial (Virtue SAB in the Treatment of Coronary ISR)",
+          "trial_design": "Prospective, multi-center, single-blind, randomized 1:1, non-inferiority pivotal IDE study; up to 740 patients across ~75 US centers; head-to-head vs. Boston Scientific AGENT paclitaxel drug-coated balloon; primary endpoint = Target Lesion Failure (composite of cardiac death, nonfatal target-vessel MI, ischemia-driven target lesion revascularization) at 12 months",
+          "nct_ids": ["NCT07045194"],
+          "trial_status": "RECRUITING — first patients enrolled Oct 27, 2025; enrollment completion planned for mid-2027",
+          "lead_sponsor": "Orchestra BioMed (Caliber Therapeutics, LLC subsidiary)",
+          "key_milestones": [
+            "Aug 2023: Initial FDA IDE approval for coronary ISR pivotal",
+            "Apr 2025: FDA approval of revised IDE for head-to-head vs. AGENT DCB",
+            "Oct 2025: First patients enrolled",
+            "Mid-2027 (planned): Enrollment completion"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "FreeHold Duo / FreeHold Trio intracorporeal organ retractors",
+    "description": "Intracorporeal organ retractors sold by FreeHold Surgical, LLC (Orchestra BioMed subsidiary)",
+    "regulatory_status": "Marketed in the United States",
+    "fy2025_revenue_usd": 611000
+  },
+  "excluded_preclinical": [
+    "Virtue SAB for de novo coronary small vessel disease (Breakthrough Device Designation; no active pivotal trial yet — 10-K notes plan to leverage data; not yet in active pivotal study)",
+    "Virtue SAB for below-the-knee infrapopliteal peripheral artery disease (Breakthrough Device Designation; no active pivotal trial yet)",
+    "AVIM-therapy integration into Medtronic dual-chamber leadless pacemaker (development framework only)"
+  ],
+  "excluded_legacy_terminated": [
+    "Terumo Agreement for Virtue SAB (terminated Oct 28, 2025; superseded by Termination & ROFR Agreement)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "phase3": 2,
+    "phase2": 0,
+    "phase1": 0,
+    "indications_active": 2
+  },
+  "no_active_clinical_pipeline_reason": null
+}

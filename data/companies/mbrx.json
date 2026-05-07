@@ -1,0 +1,99 @@
+{
+  "issuer_name": "Moleculin Biotech, Inc.",
+  "ticker": "MBRX",
+  "exchange": "Nasdaq",
+  "cik": "0001659617",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-18",
+      "accession": "0001437749-26-008841",
+      "path": "data/mbrx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://moleculin.com/pipeline/",
+      "note": "Cross-validated via 10-K + ctgov."
+    },
+    "ctgov": {
+      "path": "data/mbrx_ctgov_compact.json",
+      "unique_trials_p1_p3": 8
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Annamycin (L-Annamycin / liposomal annamycin)",
+      "aka": ["Naxtarubicin"],
+      "modality": "Liposomal next-generation anthracycline (non-cardiotoxic, non-MDR substrate)",
+      "target": "Topoisomerase II",
+      "license_origin": "MD Anderson (in-licensed)",
+      "indications": [
+        {
+          "indication": "Refractory/relapsed acute myeloid leukemia (AML), 2nd-line, in combination with cytarabine",
+          "highest_phase": "Phase 3",
+          "trial_name": "MIRACLE",
+          "trial_design": "Adaptive randomized double-blind placebo-controlled Phase 2B/3 (annamycin + cytarabine vs placebo + cytarabine)",
+          "nct_ids": ["NCT06788756"],
+          "trial_status": "RECRUITING (start 2025-03-12; primary completion 2029-08)",
+          "lead_sponsor": "Moleculin Biotech, Inc.",
+          "key_milestones": ["FDA Fast Track for AML and STS pulmonary metastases", "Orphan Drug Designation (FDA & EMA) for AML and STS"]
+        },
+        {
+          "indication": "Soft-tissue sarcoma (STS) with pulmonary metastases",
+          "highest_phase": "Phase 2",
+          "trial_name": "Annamycin in STS lung mets",
+          "trial_design": "Phase 1B/2 single-arm completed; pivotal Phase 3 planned",
+          "nct_ids": ["NCT04887298"],
+          "trial_status": "Phase 1B/2 COMPLETED 2022; pivotal trial planned per 10-K",
+          "lead_sponsor": "Moleculin Biotech, Inc.",
+          "key_milestones": ["FDA Fast Track and Orphan Drug Designation"]
+        }
+      ]
+    },
+    {
+      "asset": "WP1066",
+      "aka": [],
+      "modality": "Oral small-molecule immune/transcription modulator (STAT3 inhibitor)",
+      "target": "p-STAT3",
+      "license_origin": "MD Anderson (in-licensed)",
+      "indications": [
+        {
+          "indication": "Newly diagnosed glioblastoma (IDH-wildtype, MGMT-unmethylated)",
+          "highest_phase": "Phase 2",
+          "trial_name": "WP1066 + radiation therapy in newly diagnosed GBM",
+          "trial_design": "Phase 2 investigator-initiated (Northwestern University) with NCI",
+          "nct_ids": ["NCT05879250"],
+          "trial_status": "RECRUITING (start 2024-05-22; primary completion 2027-12-27)",
+          "lead_sponsor": "Northwestern University (collaborator: Moleculin)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "WP1122",
+      "aka": [],
+      "modality": "Oral small-molecule glycolysis/metabolic inhibitor (2-DG prodrug)",
+      "target": "Hexokinase / glycolytic pathway",
+      "license_origin": "MD Anderson",
+      "indications": [
+        {
+          "indication": "Glioblastoma / pancreatic cancer (oncology)",
+          "highest_phase": "Phase 1",
+          "trial_name": "WP1122 oncology Phase 1 (planned)",
+          "trial_design": "Single-ascending dose / multiple-ascending dose Phase 1 in healthy volunteers completed; oncology Phase 1 planned",
+          "nct_ids": ["NCT05195723"],
+          "trial_status": "Phase 1 healthy-volunteer COMPLETED; oncology Phase 1 in planning per 10-K",
+          "lead_sponsor": "Moleculin Biotech, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "WP1220", "indication": "CTCL", "reason": "Phase 1 completed 2019; not actively progressing per recent 10-K"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 3, "P3": 1, "P2": 1, "P1": 1}
+}

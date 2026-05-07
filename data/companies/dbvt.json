@@ -1,0 +1,65 @@
+{
+  "issuer_name": "DBV Technologies S.A.",
+  "ticker": "DBVT",
+  "exchange": "Nasdaq",
+  "cik": "0001613780",
+  "region": "France (US-listed ADR; files 10-K)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-021504", "filing_date": "2026-03-26", "doc": "dbvt-20251231.htm"},
+    "website": {"error": "dbv-technologies.com pipeline page returned no extractable content (WordPress site, dynamic)"},
+    "ctgov": {"unique_p1_p3_trials": 17, "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Viaskin Peanut",
+      "aka": ["DBV712"],
+      "modality": "Epicutaneous immunotherapy (EPIT) patch",
+      "target": "Peanut allergen (epicutaneous desensitization)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Peanut allergy in toddlers (1-3 years) — accelerated approval pathway",
+          "highest_phase": "Phase 3",
+          "trial_name": "COMFORT Toddlers",
+          "trial_design": "Phase 3 supplemental safety study (modified Viaskin Peanut patch, mVP)",
+          "nct_ids": ["NCT07003919"],
+          "trial_status": "Recruiting (initiated June 2025)",
+          "lead_sponsor": "DBV Technologies",
+          "key_milestones": ["FDA Accelerated Approval pathway agreed; supports planned BLA in toddlers ages 1-3"]
+        },
+        {
+          "indication": "Peanut allergy in children 4-7 years",
+          "highest_phase": "Phase 3",
+          "trial_name": "VITESSE",
+          "trial_design": "Pivotal Phase 3 randomized, placebo-controlled (modified Viaskin Peanut patch)",
+          "nct_ids": ["NCT05741476"],
+          "trial_status": "Active, not recruiting (primary completion Nov 2025); OLE ongoing",
+          "lead_sponsor": "DBV Technologies",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Viaskin Milk (DBV135) for EoE — SMILEE study is planned/inactive in 2025 10-K table",
+    "Celiac disease early-stage research"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT02916446 PEPITES Phase 3 (peanut 4-11) — COMPLETED",
+    "NCT03013517 PEOPLE OLE — UNKNOWN/legacy",
+    "NCT03211247 EPITOPE Phase 3 (toddlers 1-3) — COMPLETED",
+    "NCT03859700 EPOPEX OLE — COMPLETED 2025-05-13",
+    "NCT01955109 VIPES OLE Phase 2 — COMPLETED",
+    "NCT01170286, NCT03352726 Phase 1 peanut — COMPLETED",
+    "NCT03035370 Viaskin Pertussis Phase 1 — COMPLETED, no longer active",
+    "NCT02223182 MILES Viaskin Milk Phase 1/2 — COMPLETED",
+    "NCT04492683 DBV1605 diagnostic Phase 2 — UNKNOWN",
+    "NCT01675882, NCT01197053 legacy Phase 2 — COMPLETED"
+  ],
+  "excluded_partner_owned": [
+    "NCT02579876 Viaskin Milk for EoE — sponsored by Children's Hospital of Philadelphia (collaborator only); also legacy COMPLETED"
+  ],
+  "summary_counts": {"assets": 1, "p3": 2, "p2": 0, "p1": 0}
+}

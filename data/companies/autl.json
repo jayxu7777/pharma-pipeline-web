@@ -1,0 +1,113 @@
+{
+  "issuer_name": "Autolus Therapeutics plc",
+  "ticker": "AUTL",
+  "exchange": "Nasdaq",
+  "cik": "0001730463",
+  "region": "UK/US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001730463-26-000038", "filed": "2026-03-27", "doc": "autl-20251231.htm"},
+    "website": {"url": "https://autolus.com/our-programs/", "note": "Public page references obe-cel and broader CAR T pipeline; limited per-asset detail."},
+    "ctgov": {"sponsor_query": "Autolus", "unique_trials_p1_p3": 12}
+  },
+  "pipeline": [
+    {
+      "asset": "Obecabtagene autoleucel (obe-cel / AUCATZYL)",
+      "aka": ["AUTO1", "obe-cel"],
+      "modality": "Autologous CD19-directed CAR T cell therapy (fast off-rate CAR)",
+      "target": "CD19",
+      "license_origin": "Internal (UCL collaboration)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory adult B-cell acute lymphoblastic leukemia (ALL)",
+          "highest_phase": "P2",
+          "trial_name": "FELIX",
+          "trial_design": "Pivotal Phase 1b/2 single-arm study of obe-cel in adult r/r B-ALL (basis for FDA approval of AUCATZYL Nov 2024)",
+          "nct_ids": ["NCT04404660"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Autolus Limited",
+          "key_milestones": ["FDA approval AUCATZYL Nov 2024 (commercial)", "Primary completion 2029-06-30 (long-term follow-up)"]
+        },
+        {
+          "indication": "Pediatric relapsed/refractory B-cell ALL and aggressive mature B-NHL",
+          "highest_phase": "P1",
+          "trial_name": "CARPALL/Pediatric obe-cel study",
+          "trial_design": "Phase 1 study of CD19 CAR T (obe-cel) in pediatric r/r B-ALL and aggressive mature B-NHL",
+          "nct_ids": ["NCT06173518"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Autolus Limited",
+          "key_milestones": ["Primary completion 2027-11"]
+        },
+        {
+          "indication": "Newly diagnosed high-risk B-cell ALL (consolidation)",
+          "highest_phase": "P2",
+          "trial_name": "Obe-cel consolidation in high-risk B-ALL (MDACC)",
+          "trial_design": "Investigator-initiated Phase 2 study of obe-cel as consolidation in newly diagnosed high-risk B-ALL",
+          "nct_ids": ["NCT07053059"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "M.D. Anderson Cancer Center (Autolus collaborator/supplier)",
+          "key_milestones": ["Primary completion 2028-05-31"]
+        },
+        {
+          "indication": "Adult B-cell acute lymphoblastic leukemia (MSK investigator-initiated)",
+          "highest_phase": "P2",
+          "trial_name": "Obe-cel in B-ALL (MSK)",
+          "trial_design": "Phase 2 investigator-initiated study of obe-cel in adult B-ALL at Memorial Sloan Kettering",
+          "nct_ids": ["NCT07400029"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Memorial Sloan Kettering Cancer Center (Autolus collaborator)",
+          "key_milestones": ["Primary completion 2029-02"]
+        },
+        {
+          "indication": "Severe refractory systemic lupus erythematosus (SLE)",
+          "highest_phase": "P1",
+          "trial_name": "CARLYSLE",
+          "trial_design": "Phase 1 dose-finding study of obe-cel in adolescent (UK only) and adult severe refractory SLE",
+          "nct_ids": ["NCT06333483"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Autolus Limited",
+          "key_milestones": ["Primary completion 2027-09"]
+        },
+        {
+          "indication": "Severe refractory SLE with active lupus nephritis",
+          "highest_phase": "P2",
+          "trial_name": "Obe-cel in lupus nephritis",
+          "trial_design": "Phase 2 study of obe-cel in severe, refractory SLE with active lupus nephritis",
+          "nct_ids": ["NCT07053800"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Autolus Limited",
+          "key_milestones": ["Primary completion 2028-08"]
+        },
+        {
+          "indication": "Refractory progressive multiple sclerosis",
+          "highest_phase": "P1",
+          "trial_name": "Obe-cel in progressive MS",
+          "trial_design": "Phase 1 study of obe-cel in refractory progressive forms of multiple sclerosis",
+          "nct_ids": ["NCT07139743"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Autolus Limited",
+          "key_milestones": ["Primary completion 2029-08-15"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "AUCATZYL (obecabtagene autoleucel)",
+    "indication": "Adult relapsed or refractory B-cell precursor acute lymphoblastic leukemia",
+    "status": "FDA approved November 2024"
+  },
+  "excluded_preclinical": [
+    "Next-generation CD19/CD22 dual CAR programs (preclinical)",
+    "Solid tumor CAR T programs (preclinical)"
+  ],
+  "excluded_legacy_terminated": [
+    "AUTO3 in DLBCL (NCT03287817) — Terminated",
+    "AUTO2 (APRIL CAR, BCMA/TACI) in MM (NCT03287804) — Terminated",
+    "AUTO4 (TRBC1) in T-cell lymphoma (NCT03590574) — Terminated",
+    "AUTO3 in pediatric B-ALL (NCT03289455) — Completed (program discontinued)",
+    "Long-term follow-up registry NCT03628612 — non-interventional follow-up only"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "P3": 0, "P2": 4, "P1": 3}
+}

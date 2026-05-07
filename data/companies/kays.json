@@ -1,0 +1,30 @@
+{
+  "issuer_name": "Kaya Holdings, Inc.",
+  "ticker": "KAYS",
+  "exchange": "OTC",
+  "cik": "0001530746",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Kaya Holdings is a vertically integrated cannabis cultivator/retailer (Oregon recreational and medical marijuana) with an early-stage psilocybin services business (Sacred Mushroom Ceremonies in Oregon). It does not develop drug product candidates and has no IND-stage assets, no IRB-registered Phase 1/2/3 clinical trials, and no FDA-regulated drug pipeline. The 10-K (FY2024, filed 2025-04-29) describes only commercial cannabis operations and a psilocybin services subsidiary; ClinicalTrials.gov returns zero trials sponsored by Kaya Holdings.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-04-29",
+      "accession": "0001903596-25-000213",
+      "path": "data/kays_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://kayaholdings.com/",
+      "note": "Cannabis operations and psilocybin services; no drug pipeline page."
+    },
+    "ctgov": {
+      "path": "data/kays_ctgov_compact.json",
+      "trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

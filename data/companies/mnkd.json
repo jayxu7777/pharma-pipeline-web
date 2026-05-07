@@ -1,0 +1,87 @@
+{
+  "issuer_name": "MannKind Corporation",
+  "ticker": "MNKD",
+  "exchange": "Nasdaq",
+  "cik": "0000899460",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/mnkd_10k_pipeline_section.html", "filed": "2026-02-26", "accession": "0001193125-26-073516"},
+    "website": {"note": "Not separately fetched; 10-K disclosure of pipeline (MNKD-201, MNKD-701, partnered MNKD-1501) is comprehensive"},
+    "ctgov": {"path": "data/mnkd_ctgov_compact.json", "n_studies": 51}
+  },
+  "pipeline": [
+    {
+      "asset": "MNKD-201 (inhaled nintedanib dry powder)",
+      "aka": ["Nintedanib DPI"],
+      "modality": "Dry-powder inhaled tyrosine kinase inhibitor (Technosphere platform)",
+      "target": "VEGFR/FGFR/PDGFR (anti-fibrotic)",
+      "license_origin": "Internal (Technosphere reformulation of nintedanib)",
+      "indications": [
+        {
+          "indication": "Idiopathic Pulmonary Fibrosis (IPF)",
+          "highest_phase": "P2",
+          "trial_name": "MNKD-201 Phase 1b (IPF patients) and global Phase 2",
+          "trial_design": "Randomized, placebo-controlled Phase 1b in IPF patients; global Phase 2 (FPI Q2 2026 expected)",
+          "nct_ids": ["NCT07344558", "NCT06532942"],
+          "trial_status": "RECRUITING (Phase 1b in IPF, primary completion 2026-06-15; healthy-volunteer Phase 1 also recruiting). Global Phase 2 first patient expected Q2 2026.",
+          "lead_sponsor": "Mannkind Corporation",
+          "key_milestones": ["Phase 1b topline early 2H 2026", "Phase 2 FPI Q2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Afrezza (insulin human) Inhalation Powder — line extensions",
+      "aka": ["Technosphere Insulin"],
+      "modality": "Dry-powder inhaled human insulin",
+      "target": "Insulin receptor",
+      "license_origin": "Internal — already commercial in adults; new pediatric and gestational indications in development",
+      "indications": [
+        {
+          "indication": "Pediatric Type 1 Diabetes (newly diagnosed youth)",
+          "highest_phase": "P2",
+          "trial_name": "INHALE-1st",
+          "trial_design": "Randomized clinical trial in newly-diagnosed youth with Type 1 diabetes",
+          "nct_ids": ["NCT07224321"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Mannkind Corporation",
+          "key_milestones": []
+        },
+        {
+          "indication": "Gestational Diabetes (post-meal glucose control)",
+          "highest_phase": "P3",
+          "trial_name": "Inhaled Insulin vs Rapid-acting Injections in Gestational Diabetes",
+          "trial_design": "Randomized comparator trial (Phase 2/3)",
+          "nct_ids": ["NCT06535789"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Mannkind Corporation",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "afrezza": "Inhaled human insulin for adult diabetes (Type 1 + Type 2 mealtime control)",
+    "tyvaso_dpi": "Treprostinil DPI for PAH and PH-ILD (commercialized by United Therapeutics; MannKind receives royalties + manufacturing revenue)",
+    "v_go": "Wearable basal insulin delivery device",
+    "furoscix": "Subcutaneous furosemide infusor (distributed via partnership)"
+  },
+  "excluded_preclinical": [
+    {"asset": "MNKD-701 (inhaled bumetanide)", "reason": "Feasibility / formulation stage — pre-clinical"},
+    {"asset": "MNKD-1501", "reason": "Preclinical molecule formulated under expanded United Therapeutics collaboration"}
+  ],
+  "excluded_legacy_terminated": [
+    {"reason": "Multiple historical Afrezza/Technosphere insulin trials COMPLETED (NCT00721344, NCT00662857, NCT00754624, NCT01490762, NCT00626249, NCT00539890, NCT01445951, NCT02470637, NCT00673621, etc.) supporting the already-approved adult Afrezza commercial product"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Tyvaso DPI", "reason": "Commercial product owned by United Therapeutics (MannKind manufactures & receives royalty)"}
+  ],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "total_active_indications": 3,
+    "P3": 1,
+    "P2": 2,
+    "P1": 0
+  }
+}

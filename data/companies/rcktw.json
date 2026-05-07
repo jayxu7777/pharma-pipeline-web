@@ -1,0 +1,130 @@
+{
+  "issuer_name": "Rocket Pharmaceuticals, Inc.",
+  "ticker": "RCKTW",
+  "exchange": "Nasdaq",
+  "cik": "0001281895",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-076551",
+      "filing_date": "2026-02-26",
+      "doc": "rckt-20251231.htm",
+      "path": "data/rcktw_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "rocketpharma.com /pipeline and /our-pipeline returned 404 via WebFetch; status confirmed via FY2025 10-K and corporate press releases."
+    },
+    "ctgov": {
+      "path": "data/rcktw_ctgov_compact.json",
+      "trials_p1_p3": 12
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "RP-A501",
+      "aka": [],
+      "modality": "AAV9 gene therapy delivering full-length human LAMP2B transgene; single IV infusion",
+      "target": "LAMP2 (LAMP2B isoform)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Danon disease (X-linked cardiomyopathy)",
+          "highest_phase": "Phase 2 (pivotal)",
+          "trial_name": "Pivotal Phase 2 of RP-A501 in Danon disease",
+          "trial_design": "Global, single-arm, multi-center, open-label; 12 patients with DD including pediatric safety run-in (n=2); recalibrated dose 3.8e13 GC/kg with natural-history external comparator; co-primary endpoints LAMP2 protein expression and reduction in LVMI",
+          "nct_ids": ["NCT06092034"],
+          "trial_status": "Recruiting (clinical hold from May 2025 lifted Aug 2025; six patients dosed to date; next three to be dosed sequentially with 4-week intervals; further dosing anticipated in 1H 2026)",
+          "lead_sponsor": "Rocket Pharmaceuticals Inc.",
+          "key_milestones": [
+            "FDA RMAT, Fast Track, Rare Pediatric, Orphan Drug; EU ATMP and PRIME",
+            "Aug 2025: FDA lifted clinical hold; recalibrated dose authorized",
+            "Phase 1 long-term safety/efficacy published in NEJM (Nov 2024)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "RP-A601",
+      "aka": [],
+      "modality": "AAVrh74 gene therapy delivering functional human PKP2 transgene; single IV infusion",
+      "target": "PKP2 (Plakophilin-2)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "PKP2 variant-mediated arrhythmogenic cardiomyopathy (PKP2-ACM)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 dose-escalation of RP-A601 in PKP2-ACM",
+          "trial_design": "Single-arm, open-label, multi-center; adult PKP2-ACM patients with ICDs and high arrhythmia risk; starting dose 8e13 GC/kg (selected as dose for further development)",
+          "nct_ids": ["NCT05885412"],
+          "trial_status": "Recruiting; three patients dosed; alignment with FDA on pivotal Phase 2 design ongoing",
+          "lead_sponsor": "Rocket Pharmaceuticals Inc.",
+          "key_milestones": [
+            "FDA RMAT and Fast Track; US and EU Orphan Drug",
+            "May 2025 ASGCT preliminary Phase 1 data: PKP2 protein expression increased in all 3 patients"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "RP-A701",
+      "aka": [],
+      "modality": "AAVrh74 gene therapy delivering functional human BAG3 transgene; single IV infusion",
+      "target": "BAG3 (BCL2-associated Athanogene 3)",
+      "license_origin": "Acquired via Renovacor acquisition (Dec 2022)",
+      "indications": [
+        {
+          "indication": "BAG3-related dilated cardiomyopathy (BAG3-DCM)",
+          "highest_phase": "Phase 1",
+          "trial_name": "First-in-human Phase 1 of RP-A701 in BAG3-DCM",
+          "trial_design": "Multi-center, dose-escalation, open-label; adults with BAG3-DCM; safety, biological activity, preliminary efficacy",
+          "nct_ids": ["NCT07137338"],
+          "trial_status": "Recruiting (per ctgov); first patient dosing anticipated mid-2026 per FY2025 10-K",
+          "lead_sponsor": "Rocket Pharmaceuticals Inc.",
+          "key_milestones": [
+            "Jun 2025: FDA cleared IND",
+            "Jul 2025: FDA Fast Track designation"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "KRESLADI (marnetegragene autotemcel, RP-L201)",
+      "aka": ["RP-L201", "marnetegragene autotemcel"],
+      "modality": "Ex vivo lentiviral-vector-modified autologous CD34+ HSCs delivering functional ITGB2 (CD18) gene",
+      "target": "ITGB2 / CD18 (Beta-2 Integrin)",
+      "license_origin": "In-licensed from CIEMAT, CIBERER and IIS-FJD; LV vector co-developed with University College London",
+      "indications": [
+        {
+          "indication": "Severe Leukocyte Adhesion Deficiency-I (LAD-I)",
+          "highest_phase": "Phase 1/2 (registration-enabling); BLA under FDA review",
+          "trial_name": "Pivotal Phase 1/2 of KRESLADI in severe LAD-I",
+          "trial_design": "Open-label, single-arm, global Phase 1/2 registration-enabling trial; nine patients treated",
+          "nct_ids": ["NCT03812263"],
+          "trial_status": "Pivotal trial completed (2023); BLA resubmission accepted by FDA Oct 2025; PDUFA date 2026-03-28",
+          "lead_sponsor": "Rocket Pharmaceuticals Inc.",
+          "key_milestones": [
+            "FDA RMAT, Rare Pediatric, Fast Track; EU PRIME, ATMP; Orphan Drug US/EU",
+            "Sep 2023: original BLA accepted, priority review",
+            "Jun 2024: FDA CRL requesting limited additional CMC information",
+            "May 2025: clinical outcomes published in NEJM",
+            "Oct 2025: BLA resubmission accepted; PDUFA 2026-03-28",
+            "Eligible for Rare Pediatric Disease Priority Review Voucher"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "RP-L102 (mozafancogene autotemcel, Fanconi Anemia type A)", "nct_ids": ["NCT04069533", "NCT04248439", "NCT03814408"], "reason": "BLA voluntarily withdrawn; program de-prioritized as part of Jul 2025 strategic reorganization (cardiovascular focus); company stopped investing in program as of Jul 2025"},
+    {"asset": "RP-L301 (Pyruvate Kinase Deficiency)", "nct_ids": ["NCT04105166", "NCT06422351"], "reason": "Program de-prioritized; Phase 2 NCT06422351 SUSPENDED per ctgov; Jul 2025 strategic reorganization"},
+    {"asset": "RP-L401 (Infantile Malignant Osteopetrosis)", "nct_ids": ["NCT04525352"], "reason": "Trial TERMINATED per ctgov"},
+    {"asset": "RP-A501 Phase 1 prior LAMP2B trial", "nct_ids": ["NCT03882437"], "reason": "Phase 1 study completed/superseded by ongoing pivotal Phase 2 NCT06092034"},
+    {"asset": "RP-L201 Phase 1 prior LAD-I trial", "nct_ids": ["NCT03825783"], "reason": "WITHDRAWN per ctgov; superseded by pivotal NCT03812263"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_total": 4, "p3": 0, "p2": 1, "p1": 2, "p1_p2_pivotal_bla_under_review": 1}
+}

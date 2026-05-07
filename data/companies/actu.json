@@ -1,0 +1,93 @@
+{
+  "issuer_name": "Actuate Therapeutics, Inc.",
+  "ticker": "ACTU",
+  "exchange": "Nasdaq",
+  "cik": "0001652935",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-26",
+      "accession": "0001683168-26-002257",
+      "path": "data/actu_10k_pipeline_section.html"
+    },
+    "website": {"error": "skipped per agent guidance; relied on 10-K + ctgov"},
+    "ctgov": {"path": "data/actu_ctgov_compact.json", "sponsor_query": "Actuate Therapeutics", "study_count": 10}
+  },
+  "pipeline": [
+    {
+      "asset": "Elraglusib",
+      "aka": ["9-ING-41"],
+      "modality": "Small molecule ATP-competitive GSK-3 beta inhibitor (IV injection; oral formulations in development)",
+      "target": "Glycogen synthase kinase-3 beta (GSK-3 beta)",
+      "license_origin": "Wholly owned (Actuate); originally licensed from a collaboration with University of Illinois.",
+      "indications": [
+        {
+          "indication": "First-line metastatic pancreatic ductal adenocarcinoma (mPDAC)",
+          "highest_phase": "Phase 2 (randomized; awaiting FDA decision on Phase 2 vs Phase 3 registration path)",
+          "trial_name": "Actuate-1801 Part 3B",
+          "trial_design": "Randomized controlled Phase 2 of elraglusib + gemcitabine/nab-paclitaxel (GnP) vs GnP alone; n=286; primary endpoint mOS.",
+          "nct_ids": ["NCT03678883"],
+          "trial_status": "Active, not recruiting (winding down). Positive topline mOS readout (10.1 vs 7.2 mo, HR 0.62, p=0.02). Company seeking FDA Breakthrough Therapy Designation and clarity on registration path (Phase 2 data or Phase 3 trial).",
+          "lead_sponsor": "Actuate Therapeutics Inc.",
+          "key_milestones": [
+            "Positive Phase 2 mOS readout: 10.1 vs 7.2 months",
+            "12-month survival nearly doubled (44.4% vs 22.3%)",
+            "Awaiting FDA decision on registration pathway"
+          ]
+        },
+        {
+          "indication": "Pancreatic adenocarcinoma (combination with retifanlimab + modified FOLFIRINOX)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Elraglusib + retifanlimab + mFOLFIRINOX in advanced PDAC",
+          "trial_design": "Investigator-initiated Phase 1 combination study.",
+          "nct_ids": ["NCT06896188"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Anwaar Saeed (investigator-initiated)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic pancreatic adenocarcinoma (FOLFIRINOX + losartan combo)",
+          "highest_phase": "Phase 2",
+          "trial_name": "FOLFIRINOX + Elraglusib + Losartan",
+          "trial_design": "Investigator-initiated randomized Phase 2.",
+          "nct_ids": ["NCT05077800"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Colin D. Weekes, M.D., PhD (investigator-initiated)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced/metastatic salivary gland carcinoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "Elraglusib + carboplatin in salivary gland carcinoma",
+          "trial_design": "Investigator-initiated Phase 2 of elraglusib + carboplatin.",
+          "nct_ids": ["NCT05010629"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Glenn J. Hanna (investigator-initiated)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Ewing sarcoma and neuroblastoma — identified as new indications for further development; no active P1/P2/P3 trial yet",
+    "Oral elraglusib formulations — formulation development"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT04218071 myelofibrosis (Actuate-1901) — Phase 2 completed",
+    "NCT04239092 pediatric refractory cancers — Phase 1 terminated",
+    "NCT05239182 mPDAC + retifanlimab — Phase 2 terminated",
+    "NCT04906876 sarcoma (Brown) — Phase 2 withdrawn",
+    "NCT04832438 salivary gland — Phase 2 withdrawn",
+    "NCT05116800 sarcoma (Brown) — Phase 2 withdrawn"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "phase_3": 0,
+    "phase_2": 3,
+    "phase_1_or_1_2": 1,
+    "note": "Single asset (elraglusib) being developed across multiple indications/combinations."
+  }
+}

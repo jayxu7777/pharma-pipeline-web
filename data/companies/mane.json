@@ -1,0 +1,80 @@
+{
+  "issuer_name": "Veradermics, Inc.",
+  "ticker": "MANE",
+  "exchange": "NYSE",
+  "cik": "0001827635",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/mane_10k_pipeline_section.html", "filing_date": "2026-03-30", "accession": "0001827635-26-000013"},
+    "website": {"url": "https://www.veradermics.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"path": "data/mane_ctgov_compact.json", "lead_sponsor_query": "Veradermics"}
+  },
+  "pipeline": [
+    {
+      "asset": "VDPHL01",
+      "aka": ["Extended-release oral minoxidil", "ER oral minoxidil"],
+      "modality": "Extended-release oral small molecule (minoxidil reformulation)",
+      "target": "ATP-sensitive potassium channel opener (vasodilator with hair-growth activity)",
+      "license_origin": "Veradermics (proprietary)",
+      "indications": [
+        {
+          "indication": "Pattern hair loss / androgenetic alopecia (males)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Study 304 (males Phase 3)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of VDPHL01 in males with AGA",
+          "nct_ids": ["NCT06972264"],
+          "trial_status": "Active, not recruiting (fully enrolled; 6-month topline anticipated H2 2026)",
+          "lead_sponsor": "Veradermics, Inc.",
+          "key_milestones": ["Phase 2 male readout April 2026 (Study 302)", "Phase 3 male topline H2 2026", "Planned NDA submission post-Phase 3"]
+        },
+        {
+          "indication": "Pattern hair loss / androgenetic alopecia (males) — Phase 2/3",
+          "highest_phase": "Phase 3",
+          "trial_name": "Study 302 (males Phase 2/3)",
+          "trial_design": "Phase 2/3 of VDPHL01 vs placebo in males with AGA",
+          "nct_ids": ["NCT06724614"],
+          "trial_status": "Active, not recruiting (fully enrolled)",
+          "lead_sponsor": "Veradermics, Inc.",
+          "key_milestones": ["6-month readout completed April 2026"]
+        },
+        {
+          "indication": "Pattern hair loss / androgenetic alopecia (females)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Study 306 (females Phase 3)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of VDPHL01 QD or BID vs placebo in females with AGA",
+          "nct_ids": ["NCT07146022"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Veradermics, Inc.",
+          "key_milestones": ["Primary completion 2027-06"]
+        },
+        {
+          "indication": "Pattern hair loss / androgenetic alopecia (males/females Phase 2)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Study 301",
+          "trial_design": "Phase 2 of VDPHL01 in males and females with AGA",
+          "nct_ids": ["NCT06527365"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Veradermics, Inc.",
+          "key_milestones": ["Primary completion 2026-08"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    {"asset": "VDMN (candida-antigen microarray patch)", "reason": "Phase 2 NCT05799157 COMPLETED; per 10-K 'we are not currently advancing these other assets' — no active P1/P2/P3 ongoing"},
+    {"asset": "VDAA (topical squaric acid dibutyl ester for alopecia areata)", "reason": "Per 10-K, not currently being advanced"},
+    {"asset": "VDMC (topical antiviral gel for molluscum contagiosum)", "reason": "Per 10-K, not currently being advanced"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 3,
+    "phase_2": 1,
+    "phase_1": 0,
+    "indications_total": 4
+  }
+}

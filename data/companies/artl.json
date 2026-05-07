@@ -1,0 +1,73 @@
+{
+  "issuer_name": "Artelo Biosciences, Inc.",
+  "ticker": "ARTL",
+  "exchange": "Nasdaq",
+  "cik": "0001621221",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-24",
+      "accession": "0001640334-26-000368",
+      "path": "data/artl_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://artelobio.com/pipeline",
+      "note": "Lists ART27.13, ART26.12, ART12.11; details accessed via 10-K."
+    },
+    "ctgov": {
+      "path": "data/artl_ctgov_compact.json",
+      "trials_p1_p3": 0,
+      "note": "No Artelo-sponsored studies registered under exact 'Artelo Biosciences' sponsor query; CAReS Phase 2a may be registered under a CRO or academic site."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "ART27.13",
+      "aka": ["NEO1940", "AZD1940"],
+      "modality": "Synthetic dual cannabinoid GPCR (CB1/CB2) receptor agonist (oral)",
+      "target": "CB1 and CB2 receptors",
+      "license_origin": "Worldwide exclusive license from NEOMED (Jan 2018); originally developed by AstraZeneca",
+      "indications": [
+        {
+          "indication": "Cancer-related anorexia (cancer anorexia cachexia syndrome)",
+          "highest_phase": "P2",
+          "trial_name": "CAReS (Cancer Appetite Recovery Study) — Phase 1b/2a",
+          "trial_design": "Phase 1b dose-titration plus Phase 2a placebo-controlled assessment in cancer patients (primarily lung and gastrointestinal); top dose 1300 mcg; primary endpoints body weight, lean body mass, activity scores.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ONGOING — Phase 2a interim results announced Sep 3, 2025 (positive: +6.38% mean body weight gain at top dose vs -5.42% placebo); 32 participants enrolled to date in CAReS Phase 2.",
+          "lead_sponsor": "Artelo Biosciences",
+          "key_milestones": ["Phase 2a interim readout Sep 2025", "Continued enrollment ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "ART26.12",
+      "aka": [],
+      "modality": "Small molecule FABP5 inhibitor (oral)",
+      "target": "Fatty Acid Binding Protein 5 (FABP5)",
+      "license_origin": "Worldwide exclusive license from Stony Brook University",
+      "indications": [
+        {
+          "indication": "Chemotherapy-induced peripheral neuropathy (CIPN)",
+          "highest_phase": "P1",
+          "trial_name": "Phase 1 Single Ascending Dose (SAD) study of ART26.12 in healthy volunteers",
+          "trial_design": "First-in-human Phase 1 SAD study; 49 healthy subjects; safety, tolerability, pharmacokinetics endpoints.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 SAD enrollment complete; favorable results announced June 2025 (no drug-related AEs, dose-linear PK). Multiple Ascending Dose / patient studies to follow.",
+          "lead_sponsor": "Artelo Biosciences",
+          "key_milestones": ["IND cleared July 2024", "Phase 1 SAD positive readout June 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ART12.11", "modality": "Synthetic CBD cocrystal (with TMP)", "indication": "Anxiety, depression, PTSD, rare/orphan diseases", "stage": "Preclinical", "reason": "Pre-IND; not in clinical development."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "ART27.13 legacy AstraZeneca Phase 1 (5 trials, 205 subjects, 2007-2008)", "reason": "Historical Phase 1 program under prior sponsor; superseded by current Phase 2a CAReS development."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 1, "P1": 1, "total_assets": 2}
+}

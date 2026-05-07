@@ -1,0 +1,29 @@
+{
+  "issuer_name": "DYADIC INTERNATIONAL INC",
+  "ticker": "DYAI",
+  "exchange": "Nasdaq",
+  "cik": "0001213809",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-012672",
+      "filed": "2026-03-25",
+      "doc": "form10-k.htm"
+    },
+    "website": {"error": "no public pipeline page found at dyadic.com/pipeline (404); homepage describes platform only, not clinical pipeline"},
+    "ctgov": {"matches": 0, "note": "no trials returned for sponsor 'Dyadic International'"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Dyadic is a protein-production platform company (C1 and Dapibus platforms) targeting life sciences, food and nutrition, and bio-industrial markets — not a drug developer. The only clinical-stage candidate, DYAI-100 (C1-produced SARS-CoV-2 vaccine), completed a Phase 1 study and further development is explicitly paused per the FY2025 10-K. All other programs (RSV, H5 trimeric antigen, etc.) are preclinical and partner/grant-funded.",
+  "excluded_preclinical": [
+    {"asset": "RSV prefusion antigen (Scripps collaboration)", "stage": "preclinical"},
+    {"asset": "Clade 2.3.4.4b H5 trimeric antigen (CEPI/FBS program)", "stage": "preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "DYAI-100", "indication": "SARS-CoV-2 vaccine", "phase_completed": "Phase 1", "note": "further development paused per 2025 10-K"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

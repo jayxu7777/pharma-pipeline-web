@@ -1,0 +1,58 @@
+{
+  "issuer_name": "CRISPR Therapeutics AG",
+  "ticker": "CRSP",
+  "exchange": "Nasdaq",
+  "cik": "0001674416",
+  "region": "US (Swiss-domiciled, files 10-K)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-048957", "filing_date": "2026-02-12", "doc": "crsp-20251231.htm"},
+    "website": {"url": "https://crisprtx.com/programs/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "CRISPR Therapeutics", "studies_total": 17, "active_p1_p3": 8}
+  },
+  "pipeline": [
+    {"asset": "Exagamglogene autotemcel (exa-cel / CTX001)", "aka": ["Casgevy", "exa-cel", "CTX001"], "modality": "Autologous ex vivo CRISPR/Cas9-edited HSC therapy", "target": "BCL11A enhancer (re-induces fetal hemoglobin)", "license_origin": "CRISPR/Vertex collaboration",
+     "indications": [
+       {"indication": "Sickle cell disease - long-term follow-up / pediatric expansion", "highest_phase": "Phase 3", "trial_name": "CLIMB SCD-121 / long-term follow-up", "trial_design": "Open-label long-term", "nct_ids": ["NCT05329649", "NCT04208529"], "trial_status": "Active, not recruiting / Enrolling by invitation", "lead_sponsor": "Vertex Pharmaceuticals", "key_milestones": ["Approved as Casgevy (US, EU, UK)"]},
+       {"indication": "Transfusion-dependent beta-thalassemia - long-term follow-up / pediatric expansion", "highest_phase": "Phase 3", "trial_name": "CLIMB THAL-111 / long-term follow-up", "trial_design": "Open-label long-term", "nct_ids": ["NCT05356195", "NCT04208529"], "trial_status": "Active, not recruiting / Enrolling by invitation", "lead_sponsor": "Vertex Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "CTX112", "aka": [], "modality": "Allogeneic CD19-directed CAR-T (CRISPR-edited)", "target": "CD19", "license_origin": "CRISPR internal",
+     "indications": [
+       {"indication": "Relapsed/refractory B-cell lymphoma (DLBCL, FL)", "highest_phase": "Phase 1/2", "trial_name": "CTX112 oncology FIH", "trial_design": "Dose escalation + expansion", "nct_ids": ["NCT05643742"], "trial_status": "Recruiting", "lead_sponsor": "CRISPR Therapeutics AG", "key_milestones": []},
+       {"indication": "Systemic lupus erythematosus (SLE)", "highest_phase": "Phase 1", "trial_name": "CTX112 SLE FIH", "trial_design": "Dose escalation", "nct_ids": ["NCT06925542"], "trial_status": "Recruiting", "lead_sponsor": "CRISPR Therapeutics", "key_milestones": []},
+       {"indication": "Warm autoimmune hemolytic anemia (WAIHA)", "highest_phase": "Phase 1/2", "trial_name": "CTX112 WAIHA", "trial_design": "Dose escalation", "nct_ids": ["NCT07549698"], "trial_status": "Not yet recruiting", "lead_sponsor": "CRISPR Therapeutics AG", "key_milestones": []}
+     ]},
+    {"asset": "CTX310", "aka": [], "modality": "In vivo CRISPR/Cas9 gene editing (LNP, liver)", "target": "ANGPTL3", "license_origin": "CRISPR internal",
+     "indications": [
+       {"indication": "Cardiovascular disease / mixed dyslipidemia", "highest_phase": "Phase 1", "trial_name": "CTX310 FIH", "trial_design": "SAD/MAD dose escalation", "nct_ids": ["NCT07491172"], "trial_status": "Recruiting", "lead_sponsor": "CRISPR Therapeutics AG", "key_milestones": []}
+     ]},
+    {"asset": "CTX320", "aka": [], "modality": "In vivo CRISPR/Cas9 gene editing (LNP, liver)", "target": "LPA (Lp(a))", "license_origin": "CRISPR internal",
+     "indications": [
+       {"indication": "Cardiovascular disease driven by elevated Lp(a)", "highest_phase": "Phase 1", "trial_name": "CTX320 FIH", "trial_design": "SAD/MAD dose escalation", "nct_ids": "Not on public registry", "trial_status": "Recruiting", "lead_sponsor": "CRISPR Therapeutics AG", "key_milestones": []}
+     ]},
+    {"asset": "CTX340", "aka": [], "modality": "In vivo CRISPR/Cas9 gene editing (LNP, liver)", "target": "Angiotensinogen (AGT)", "license_origin": "CRISPR internal",
+     "indications": [
+       {"indication": "Refractory hypertension", "highest_phase": "Phase 1", "trial_name": "CTX340 FIH", "trial_design": "SAD/MAD dose escalation", "nct_ids": "Not on public registry", "trial_status": "PLANNED — IND-cleared, FIH initiating", "lead_sponsor": "CRISPR Therapeutics AG", "key_milestones": []}
+     ]},
+    {"asset": "CTX450", "aka": [], "modality": "In vivo CRISPR/Cas9 gene editing (LNP, liver)", "target": "ALAS1", "license_origin": "CRISPR internal",
+     "indications": [
+       {"indication": "Acute hepatic porphyria", "highest_phase": "Phase 1", "trial_name": "CTX450 FIH", "trial_design": "SAD/MAD dose escalation", "nct_ids": "Not on public registry", "trial_status": "PLANNED — IND-cleared, FIH initiating", "lead_sponsor": "CRISPR Therapeutics AG", "key_milestones": []}
+     ]},
+    {"asset": "VCTX211 / CTX211", "aka": ["VCTX211"], "modality": "Encapsulated allogeneic gene-edited pancreatic beta-cell therapy", "target": "Insulin replacement (beta-cell)", "license_origin": "ViaCyte/Vertex collaboration",
+     "indications": [
+       {"indication": "Type 1 diabetes mellitus", "highest_phase": "Phase 1/2", "trial_name": "VCTX211 FIH", "trial_design": "Open-label dose escalation", "nct_ids": ["NCT05565248"], "trial_status": "Recruiting", "lead_sponsor": "CRISPR Therapeutics AG", "key_milestones": []}
+     ]},
+    {"asset": "CTX213", "aka": [], "modality": "Deviceless allogeneic gene-edited pancreatic beta-cell therapy", "target": "Insulin replacement (beta-cell)", "license_origin": "CRISPR internal",
+     "indications": [
+       {"indication": "Type 1 diabetes mellitus", "highest_phase": "Phase 1", "trial_name": "CTX213 FIH", "trial_design": "Open-label dose escalation", "nct_ids": "Not on public registry", "trial_status": "PLANNED — IND-cleared, FIH initiating", "lead_sponsor": "CRISPR Therapeutics AG", "key_milestones": []}
+     ]}
+  ],
+  "commercial_product": {
+    "marketed": ["Casgevy (exagamglogene autotemcel) — sickle cell disease, transfusion-dependent beta-thalassemia (US/EU/UK approvals; commercialized by Vertex with CRISPR co-economics)"]
+  },
+  "excluded_preclinical": ["CTX460 (SERPINA1 / AATD) — IND-enabling", "SRSD107 (Factor XI siRNA, Sirius collaboration) — IND-enabling", "Next-gen conditioning (CD117 ADC) for in vivo HSC editing — preclinical", "Vertex-owned DMD, DM1, CF gene-editing programs — preclinical"],
+  "excluded_legacy_terminated": ["CTX110 (autoimmune CD19) — superseded by CTX112", "CTX130 (CD70) — superseded by CTX131"],
+  "excluded_partner_owned": ["Vertex-led DMD/DM1/CF gene-editing programs"],
+  "summary_counts": {"total_assets": 8, "phase_3": 1, "phase_2": 0, "phase_1": 7, "note": "Phase 1/2 indications counted under Phase 1 unless majority Phase 2."}
+}

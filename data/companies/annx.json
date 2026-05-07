@@ -1,0 +1,97 @@
+{
+  "issuer_name": "Annexon, Inc.",
+  "ticker": "ANNX",
+  "exchange": "Nasdaq",
+  "cik": "0001528115",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-131782", "filed": "2026-03-30", "form": "10-K"},
+    "website": {"url": "https://www.annexonbio.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Annexon", "trials_returned": 15, "active_clinical": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "Tanruprubart",
+      "aka": ["ANX005"],
+      "modality": "IV monoclonal antibody",
+      "target": "C1q (classical complement pathway)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Guillain-Barré Syndrome (GBS)",
+          "highest_phase": "Phase 3 / MAA filed",
+          "trial_name": "FORWARD (open-label confirmatory) and prior pivotal Phase 3",
+          "trial_design": "Phase 3 open-label safety/efficacy in GBS",
+          "nct_ids": ["NCT07020819"],
+          "trial_status": "RECRUITING (started 2025-09-12); EU MAA filed Jan 2026; FDA discussions ongoing.",
+          "lead_sponsor": "Annexon, Inc.",
+          "key_milestones": ["FDA Fast Track + Orphan Drug; EMA Orphan Drug; MAA filing Jan 2026"]
+        },
+        {
+          "indication": "Huntington's Disease (HD)",
+          "highest_phase": "Phase 2 (completed) — poised for Phase 2b/3",
+          "trial_name": "ANX005 HD open-label Phase 2 (completed)",
+          "trial_design": "Phase 2 open-label",
+          "nct_ids": ["NCT04514367"],
+          "trial_status": "Phase 2 COMPLETED; next-stage Phase 2b/3 in planning per pipeline page.",
+          "lead_sponsor": "Annexon, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Amyotrophic Lateral Sclerosis (ALS)",
+          "highest_phase": "Phase 2 (completed) — poised for Phase 2b/3",
+          "trial_name": "ANX005 ALS Phase 2 (completed)",
+          "trial_design": "Phase 2 open-label",
+          "nct_ids": ["NCT04569435"],
+          "trial_status": "Phase 2 COMPLETED; next-stage Phase 2b/3 planning per pipeline page.",
+          "lead_sponsor": "Annexon, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Vonaprument",
+      "aka": ["ANX007"],
+      "modality": "Intravitreal Fab antibody fragment",
+      "target": "C1q (classical complement pathway)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Geographic Atrophy (GA) secondary to dry AMD",
+          "highest_phase": "Phase 3",
+          "trial_name": "ARCHER II",
+          "trial_design": "Phase 3 randomized, sham-controlled intravitreal injection",
+          "nct_ids": ["NCT06510816"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (started 2024-07-30); enrollment completed; Phase 3 data 2H 2026.",
+          "lead_sponsor": "Annexon, Inc.",
+          "key_milestones": ["EMA Priority Medicines (PRIME) designation"]
+        }
+      ]
+    },
+    {
+      "asset": "ANX1502",
+      "aka": [],
+      "modality": "Oral small molecule",
+      "target": "Classical complement pathway",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Cold agglutinin disease (CAD) — proof-of-concept",
+          "highest_phase": "Phase 2 (POC)",
+          "trial_name": "ANX1502 CAD POC study",
+          "trial_design": "Proof-of-concept oral dosing in CAD patients",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Per pipeline page: update upon CAD study completion in 2026 (only Phase 1 healthy-volunteer NCT05521269 visible on ctgov).",
+          "lead_sponsor": "Annexon, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["ANX009 lupus nephritis program — early development, evaluating options per pipeline page"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 3, "indications": 5, "phase3": 2, "phase2": 3, "phase1": 0}
+}

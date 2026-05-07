@@ -1,0 +1,256 @@
+{
+  "issuer_name": "Sinovac Biotech Ltd.",
+  "ticker": "SVA",
+  "exchange": "Nasdaq",
+  "cik": "0001084201",
+  "region": "China — US-listed",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"error": "no public pipeline page found (sinovac.com/en/products returns 404)"},
+    "ctgov": {"sponsor_query": "Sinovac", "trials_returned": 85, "active_clinical": 22, "note": "Sponsor entities include Sinovac Biotech, Sinovac Life Sciences, Sinovac R&D, Sinovac Dalian"}
+  },
+  "pipeline": [
+    {
+      "asset": "Sinovac PCV13 (13-valent pneumococcal conjugate vaccine)",
+      "aka": [],
+      "modality": "Conjugate vaccine",
+      "target": "Streptococcus pneumoniae (13 serotypes)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Pneumococcal infectious disease (infants/children)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Sinovac PCV13 vs Prevnar Phase 3",
+          "trial_design": "Phase 3 randomized non-inferiority vs Prevnar",
+          "nct_ids": ["NCT06617715"],
+          "trial_status": "RECRUITING (started 2024-10-23)",
+          "lead_sponsor": "Sinovac Biotech Co., Ltd",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Sinovac PCV24 (24-valent pneumococcal conjugate vaccine)",
+      "aka": [],
+      "modality": "Conjugate vaccine",
+      "target": "Streptococcus pneumoniae (24 serotypes)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Pneumococcal infectious disease — children 2 mo to 5 yr",
+          "highest_phase": "Phase 2",
+          "trial_name": "PCV24 in infants and children",
+          "trial_design": "Phase 2 randomized controlled vs Prevnar",
+          "nct_ids": ["NCT07300644", "NCT06800261"],
+          "trial_status": "Phase 2 RECRUITING (start 2025-11-25); Phase 1 in infants RECRUITING (start 2025-05-08).",
+          "lead_sponsor": "Sinovac Biotech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Bivalent inactivated enterovirus (EV71/CA16) vaccine",
+      "aka": [],
+      "modality": "Inactivated viral vaccine (Vero cell)",
+      "target": "Enterovirus 71 + Coxsackievirus A16",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Hand, foot, and mouth disease (HFMD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Bivalent enterovirus vaccine Phase 3",
+          "trial_design": "Phase 3 randomized vs single-valent EV71",
+          "nct_ids": ["NCT06734832", "NCT06063057"],
+          "trial_status": "Phase 3 RECRUITING (start 2024-12-13); Phase 1/2 ACTIVE_NOT_RECRUITING.",
+          "lead_sponsor": "Sinovac Biotech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Group ACYW135 meningococcal conjugate vaccine",
+      "aka": [],
+      "modality": "Conjugate vaccine",
+      "target": "Neisseria meningitidis serogroups A, C, Y, W135",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Epidemic meningitis prevention (pediatric, multiple age strata)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ACYW135 meningococcal conjugate Phase 3 (4 age-stratified studies)",
+          "trial_design": "Phase 3 randomized active-controlled in children 3-5 mo, 6-11 mo, 12-23 mo, 2-6 yr",
+          "nct_ids": ["NCT07505810", "NCT07505823", "NCT07505836", "NCT07505888"],
+          "trial_status": "NOT_YET_RECRUITING (planned start 2026-03-22)",
+          "lead_sponsor": "Sinovac Biotech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Group ACYW135X meningococcal conjugate vaccine (next-gen)",
+      "aka": [],
+      "modality": "Conjugate vaccine",
+      "target": "N. meningitidis A, C, Y, W135 + X serogroup",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Meningococcal meningitis (next-generation pentavalent)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ACYW135X Phase Ia",
+          "trial_design": "Phase 1 dose-finding",
+          "nct_ids": ["NCT07374510"],
+          "trial_status": "NOT_YET_RECRUITING (planned start 2026-01-21)",
+          "lead_sponsor": "Sinovac Biotech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Rabies vaccine (serum-free Vero cell), freeze-dried",
+      "aka": [],
+      "modality": "Inactivated viral vaccine",
+      "target": "Rabies virus",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Rabies post-exposure and pre-exposure prophylaxis",
+          "highest_phase": "Phase 3",
+          "trial_name": "Sinovac rabies vaccine Phase 3 (PEP, PrEP, lot-to-lot consistency)",
+          "trial_design": "Phase 3 randomized non-inferiority vs Verorab; Phase IIIb lot-to-lot consistency",
+          "nct_ids": ["NCT07055893", "NCT07055295", "NCT07416110", "NCT07055880"],
+          "trial_status": "NOT_YET_RECRUITING / RECRUITING (planned starts 2026)",
+          "lead_sponsor": "Sinovac Biotech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Varicella vaccine (live attenuated)",
+      "aka": ["PROVARIX"],
+      "modality": "Live attenuated viral vaccine",
+      "target": "Varicella-zoster virus",
+      "license_origin": "Internal (Sinovac Dalian)",
+      "indications": [
+        {
+          "indication": "Varicella prevention — second-dose schedule, Vietnamese bridging, ≥13 yr",
+          "highest_phase": "Phase 3",
+          "trial_name": "PROVARIX second-dose; Vietnamese bridging; adolescent/adult bridging",
+          "trial_design": "Phase 3 randomized / single-arm bridging",
+          "nct_ids": ["NCT07475000", "NCT07473427", "NCT05015686"],
+          "trial_status": "RECRUITING / NOT_YET_RECRUITING / ENROLLING_BY_INVITATION",
+          "lead_sponsor": "Sinovac (Dalian) Vaccine Technology",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Quadrivalent inactivated influenza vaccine (QIV) — pregnancy indication",
+      "aka": [],
+      "modality": "Split-virion inactivated vaccine",
+      "target": "Influenza A/B (4 strains)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Influenza prevention in pregnant women",
+          "highest_phase": "Phase 3",
+          "trial_name": "Sinovac QIV in pregnant women",
+          "trial_design": "Phase 3 randomized vs Vaxigrip",
+          "nct_ids": ["NCT07211152"],
+          "trial_status": "RECRUITING (started 2025-10-13)",
+          "lead_sponsor": "Sinovac Biotech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SNA02-48 (anti-tetanus monoclonal antibody)",
+      "aka": ["SNA02-48"],
+      "modality": "Monoclonal antibody",
+      "target": "Tetanus toxin",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Tetanus prophylaxis/treatment",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "SNA02-48 Phase 1/2 in Chinese adults",
+          "trial_design": "Phase 1/2 safety, tolerability, PK/PD vs HTIG / tetanus toxoid",
+          "nct_ids": ["NCT06939777"],
+          "trial_status": "NOT_YET_RECRUITING (planned start 2025-04)",
+          "lead_sponsor": "Sinovac Biotech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Hexavalent reassortant rotavirus attenuated live vaccine",
+      "aka": [],
+      "modality": "Live attenuated reassortant viral vaccine (Vero cell)",
+      "target": "Rotavirus (6 serotypes)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Rotavirus gastroenteritis prevention (oral)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Hexavalent rotavirus oral attenuated vaccine Phase 2",
+          "trial_design": "Phase 2 randomized vs pentavalent comparator",
+          "nct_ids": ["NCT06967272"],
+          "trial_status": "RECRUITING (started 2025-01-20)",
+          "lead_sponsor": "Sinovac Biotech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Lyophilized herpes zoster mRNA vaccine",
+      "aka": [],
+      "modality": "mRNA vaccine (lyophilized)",
+      "target": "Varicella-zoster virus glycoprotein E",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Herpes zoster (shingles) prevention",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "HZ mRNA vaccine Phase 1/2",
+          "trial_design": "Phase 1/2 randomized active-controlled, placebo arm",
+          "nct_ids": ["NCT07400003"],
+          "trial_status": "RECRUITING (started 2026-01-06)",
+          "lead_sponsor": "Sinovac Biotech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Lyophilized RSV mRNA vaccine",
+      "aka": [],
+      "modality": "mRNA vaccine (lyophilized)",
+      "target": "RSV F glycoprotein",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "RSV prevention",
+          "highest_phase": "Phase 1",
+          "trial_name": "RSV mRNA vaccine Phase 1 safety",
+          "trial_design": "Phase 1 dose-escalation vs placebo",
+          "nct_ids": ["NCT07418229"],
+          "trial_status": "NOT_YET_RECRUITING (planned start 2026-03-09)",
+          "lead_sponsor": "Sinovac Biotech",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Healive": "Hepatitis A vaccine (approved)",
+    "Bilive": "Combined hepatitis A&B (approved)",
+    "Anflu": "Influenza vaccine (approved)",
+    "Panflu": "Pandemic influenza vaccine (approved)",
+    "Inlive": "Enterovirus 71 vaccine (approved)",
+    "CoronaVac": "COVID-19 inactivated vaccine (approved/EUA in many markets)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 12, "indications": 12, "phase3": 7, "phase2": 2, "phase1": 3}
+}

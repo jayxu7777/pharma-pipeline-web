@@ -1,0 +1,172 @@
+{
+  "issuer_name": "Viatris Inc",
+  "ticker": "VTRS",
+  "exchange": "Nasdaq",
+  "cik": "0001792044",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001792044-26-000013", "filed": "2026-02-26", "doc": "vtrs-20251231.htm", "note": "Pipeline section heading not auto-detected; pipeline data taken from corporate website + ctgov."},
+    "website": {"url": "https://www.viatris.com/en/science", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/vtrs_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Cenerimod",
+      "aka": ["ACT-334441"],
+      "modality": "Small molecule (S1P1 receptor modulator)",
+      "target": "S1P1 receptor",
+      "license_origin": "In-licensed from Idorsia (now wholly owned program)",
+      "indications": [
+        {
+          "indication": "Systemic Lupus Erythematosus (SLE)",
+          "highest_phase": "P3",
+          "trial_name": "OPUS-1 / OPUS-2",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 in adults with SLE",
+          "nct_ids": ["NCT05648500", "NCT05672576", "NCT06475742"],
+          "trial_status": "Active, not recruiting / enrollment complete; Phase 3 readout targeted H1 2027",
+          "lead_sponsor": "Viatris Innovation GmbH",
+          "key_milestones": ["OPUS-1 and OPUS-2 enrollment complete", "Phase 3 readout targeted H1 2027"]
+        },
+        {
+          "indication": "Lupus Nephritis (LN)",
+          "highest_phase": "P3",
+          "trial_name": "Cenerimod LN Phase 3",
+          "trial_design": "Phase 3 in adults with active lupus nephritis",
+          "nct_ids": ["NCT07201129"],
+          "trial_status": "Recruiting; enrollment completion targeted H1 2028",
+          "lead_sponsor": "Viatris Innovation GmbH",
+          "key_milestones": ["Phase 3 enrollment ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "Selatogrel",
+      "aka": ["ACT-246475"],
+      "modality": "Small molecule (P2Y12 receptor antagonist), self-administered subcutaneous",
+      "target": "P2Y12 receptor",
+      "license_origin": "In-licensed from Idorsia",
+      "indications": [
+        {
+          "indication": "Suspected Acute Myocardial Infarction (AMI)",
+          "highest_phase": "P3",
+          "trial_name": "SOS-AMI",
+          "trial_design": "Phase 3 outcome study in patients at risk of recurrent AMI",
+          "nct_ids": ["NCT04957719"],
+          "trial_status": "Enrolling by invitation; enrollment completion targeted 2026",
+          "lead_sponsor": "Viatris Innovation GmbH",
+          "key_milestones": ["Phase 3 enrollment ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "Influvac High Dose",
+      "aka": [],
+      "modality": "Inactivated subunit influenza vaccine (high-dose)",
+      "target": "Influenza HA",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Seasonal Influenza (older adults)",
+          "highest_phase": "P3",
+          "trial_name": "Influvac High Dose Phase 3",
+          "trial_design": "Phase 3 immunogenicity/safety study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 enrollment complete; readout targeted H1 2026",
+          "lead_sponsor": "Viatris",
+          "key_milestones": ["Phase 3 readout H1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Nefecon",
+      "aka": ["VR-205", "TARPEYO/Kinpeygo (ex-US/JP rights)"],
+      "modality": "Targeted-release oral budesonide",
+      "target": "Mucosal immune system / Peyer's patches",
+      "license_origin": "In-licensed (Calliditas/Idorsia territory rights)",
+      "indications": [
+        {
+          "indication": "IgA Nephropathy",
+          "highest_phase": "P3",
+          "trial_name": "Nefecon Phase 3 (regional)",
+          "trial_design": "Phase 3 confirmatory study in IgA nephropathy",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 enrollment complete; readout targeted H1 2026",
+          "lead_sponsor": "Viatris",
+          "key_milestones": ["Phase 3 readout H1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Norelgestromin Weekly Patch",
+      "aka": ["MR-130A-01"],
+      "modality": "Transdermal patch (progestin)",
+      "target": "Progesterone receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Contraception",
+          "highest_phase": "P3",
+          "trial_name": "MR-130A-01 Phase 3",
+          "trial_design": "Phase 3 efficacy/safety study",
+          "nct_ids": ["NCT07365904"],
+          "trial_status": "Recruiting (Phase 2 dose-finding listed; Phase 3 enrollment ongoing per company); Phase 3 enrollment completion targeted H1 2026",
+          "lead_sponsor": "Mylan Pharmaceuticals Inc / Viatris",
+          "key_milestones": ["Phase 3 enrollment ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "Phentolamine Ophthalmic Solution",
+      "aka": ["MR-142"],
+      "modality": "Small molecule eye drop (alpha-adrenergic antagonist)",
+      "target": "Alpha-adrenergic receptors (iris dilator)",
+      "license_origin": "Partnered with Ocuphire Pharma",
+      "indications": [
+        {
+          "indication": "Visual Loss after Keratorefractive Surgery",
+          "highest_phase": "P3",
+          "trial_name": "MR-142 Phase 3",
+          "trial_design": "Phase 3 in post-keratorefractive visual disturbance",
+          "nct_ids": ["NCT06349759"],
+          "trial_status": "First Phase 3 completed positive; second Phase 3 enrollment targeted H2 2026",
+          "lead_sponsor": "Ocuphire Pharma, Inc. / Viatris",
+          "key_milestones": ["Positive first Phase 3 readout", "Second Phase 3 to start H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Fast-Acting Meloxicam",
+      "aka": ["MR-107A-02"],
+      "modality": "Small molecule (NSAID, fast-acting oral formulation)",
+      "target": "COX-2",
+      "license_origin": "Internal/Mylan-Respi heritage",
+      "indications": [
+        {
+          "indication": "Acute Pain (NDA filed)",
+          "highest_phase": "P3",
+          "trial_name": "MR-107A-02 Phase 3 program",
+          "trial_design": "Phase 3 acute pain trials supporting NDA",
+          "nct_ids": "Not on public registry",
+          "trial_status": "FDA NDA filed; decision anticipated H2 2026",
+          "lead_sponsor": "Viatris",
+          "key_milestones": ["NDA filed", "PDUFA H2 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Viatris is primarily a commercial-stage diversified pharma; major launched/regulatory assets include Spydia (status epilepticus, launched Japan 2025), Sotagliflozin (heart failure, launched UAE), Pitolisant (Japan NDAs filed for narcolepsy/OSA), Effexor Japan (GAD NDA filed), Phentolamine Ophthalmic Solution (presbyopia sNDA, MR-141), Norelgestromin/Low-EE Weekly Patch (NDA accepted)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 7,
+    "P3": 7,
+    "P2": 0,
+    "P1": 0,
+    "regulatory_or_launched_separately_listed": true
+  }
+}

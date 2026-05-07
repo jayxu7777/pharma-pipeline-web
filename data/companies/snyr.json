@@ -1,0 +1,25 @@
+{
+  "issuer_name": "Synergy CHC Corp.",
+  "ticker": "SNYR",
+  "exchange": "Nasdaq",
+  "cik": "0001562733",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-037883",
+      "filed": "2026-04-01",
+      "doc": "ea0283513-10k_synergy.htm",
+      "note": "10-K covers consumer health products only — no drug clinical programs"
+    },
+    "website": {"error": "no public drug pipeline page; synergychc.com/pipeline returns 404 — site lists consumer brands only"},
+    "ctgov": {"matches": 0, "note": "no trials returned for sponsor 'Synergy CHC'"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Synergy CHC Corp. is a consumer healthcare company that markets and distributes over-the-counter health and beauty products. Brands include Focus Factor (cognitive supplement), Flat Tummy Co (weight management), and Hand MD (hand care). The issuer does not develop investigational drugs and sponsors no FDA IND/clinical-trial programs.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

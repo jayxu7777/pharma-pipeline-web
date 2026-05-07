@@ -1,0 +1,90 @@
+{
+  "issuer_name": "Context Therapeutics Inc.",
+  "ticker": "CNTX",
+  "exchange": "Nasdaq",
+  "cik": "0001842952",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-020498", "filing_date": "2026-03-23", "path": "data/cntx_10k_pipeline_section.html"},
+    "website": {"url": "https://www.contexttherapeutics.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/cntx_ctgov_compact.json", "trial_count": 9}
+  },
+  "pipeline": [
+    {
+      "asset": "CTIM-76",
+      "aka": [],
+      "modality": "T-cell engaging bispecific antibody (IgG with silenced Fc)",
+      "target": "Claudin 6 (CLDN6) x CD3",
+      "license_origin": "In-house (worldwide rights)",
+      "indications": [
+        {
+          "indication": "CLDN6-positive gynecologic (platinum-resistant ovarian, endometrial) and testicular cancers",
+          "highest_phase": "Phase 1",
+          "trial_name": "CTIM-76 Phase 1 dose escalation and expansion",
+          "trial_design": "Phase 1a/1b dose escalation + expansion in CLDN6-positive recurring ovarian, testicular, endometrial cancers",
+          "nct_ids": ["NCT06515613"],
+          "trial_status": "Recruiting; first patient dosed Jan 2025",
+          "lead_sponsor": "Context Therapeutics Inc.",
+          "key_milestones": ["FDA IND clearance May 2024", "Phase 1a interim data June 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "CT-95",
+      "aka": [],
+      "modality": "T-cell engaging bispecific antibody (IgG with silenced Fc)",
+      "target": "Mesothelin (MSLN) x CD3",
+      "license_origin": "In-house (worldwide rights)",
+      "indications": [
+        {
+          "indication": "Mesothelin-expressing advanced solid tumors (ovarian, mesothelioma, pancreatic, NSCLC, cholangiocarcinoma, CRC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CT-95 Phase 1",
+          "trial_design": "Phase 1 first-in-human dose escalation/expansion in mesothelin-expressing advanced cancers",
+          "nct_ids": ["NCT06756035"],
+          "trial_status": "Recruiting; first patient dosed Apr 2025",
+          "lead_sponsor": "Context Therapeutics Inc.",
+          "key_milestones": ["Phase 1a interim data September 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "CT-202",
+      "aka": [],
+      "modality": "pH-dependent T-cell engaging bispecific antibody (IgG)",
+      "target": "Nectin-4 x CD3",
+      "license_origin": "In-house (worldwide rights to certain patents)",
+      "indications": [
+        {
+          "indication": "Nectin-4 expressing solid tumors (TNBC, colorectal, urothelial)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CT-202 Phase 1a/1b first-in-human",
+          "trial_design": "Phase 1a/1b first-in-human dose escalation/expansion in TNBC, CRC, urothelial",
+          "nct_ids": ["NCT07545122"],
+          "trial_status": "PLANNED — HREC submission Mar 2026; first patient expected Q3 2026; ctgov status NOT_YET_RECRUITING",
+          "lead_sponsor": "Context Therapeutics Inc.",
+          "key_milestones": ["Australia HREC submission Mar 2026", "First patient Q3 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT04872608 letrozole+palbociclib+onapristone P1 MBC (withdrawn)",
+    "NCT04738292 SMILE onapristone+fulvestrant P2 (terminated)",
+    "NCT05618613 elacestrant+onapristone P1/2 (terminated; legacy onapristone program)",
+    "NCT06938711 rollover elacestrant+onapristone (withdrawn)",
+    "NCT04719273 onapristone+anastrozole endometrial P2 (active not recruiting; legacy onapristone program — discontinued strategically)",
+    "NCT03909152 onapristone ER MSKCC P2 (completed)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 3,
+    "indications_active": 3
+  }
+}

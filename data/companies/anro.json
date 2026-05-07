@@ -1,0 +1,118 @@
+{
+  "issuer_name": "Alto Neuroscience, Inc.",
+  "ticker": "ANRO",
+  "exchange": "NYSE",
+  "cik": "0001999480",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001999480-26-000002", "filing_date": "2026-03-16", "doc": "alto-20251231.htm"},
+    "website": {"url": "https://www.altoneuroscience.com/pipeline", "fetched": "2026-05-06", "note": "Pipeline page rendered via JS; details corroborated from 10-K and ctgov"},
+    "ctgov": {"file": "data/anro_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "ALTO-300",
+      "aka": ["agomelatine"],
+      "modality": "Small molecule (oral) — MT1/MT2 melatonergic agonist + 5-HT2C antagonist",
+      "target": "MT1/MT2 + 5-HT2C",
+      "license_origin": "Repositioning of agomelatine for US market with EEG biomarker",
+      "indications": [
+        {
+          "indication": "Major depressive disorder (MDD), adjunctive to SSRI/SNRI, biomarker-selected",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALTO-300-201 (Phase 2b)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2b adjunctive study in biomarker-selected MDD",
+          "nct_ids": ["NCT05922878"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Alto Neuroscience",
+          "key_milestones": ["Primary completion 2026-12"]
+        }
+      ]
+    },
+    {
+      "asset": "ALTO-101",
+      "aka": [],
+      "modality": "PDE4 inhibitor (transdermal delivery system)",
+      "target": "Phosphodiesterase-4 (PDE4)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Cognitive impairment associated with schizophrenia (CIAS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALTO-101 schizophrenia P2",
+          "trial_design": "Randomized placebo-controlled Phase 2 of ALTO-101 transdermal in schizophrenia patients with cognitive impairment",
+          "nct_ids": ["NCT06502964"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Alto Neuroscience",
+          "key_milestones": ["Primary completion 2026-02"]
+        }
+      ]
+    },
+    {
+      "asset": "ALTO-207",
+      "aka": [],
+      "modality": "Small molecule (CNS)",
+      "target": "Undisclosed (CNS)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Treatment-resistant depression (TRD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALTO-207 TRD P2",
+          "trial_design": "Randomized placebo-controlled Phase 2 in adults with TRD",
+          "nct_ids": ["NCT07553637"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Alto Neuroscience",
+          "key_milestones": ["Primary completion 2027-11"]
+        }
+      ]
+    },
+    {
+      "asset": "ALTO-203",
+      "aka": [],
+      "modality": "Small molecule (oral) — histamine H3 receptor inverse agonist",
+      "target": "Histamine H3R",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "MDD with anhedonia",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALTO-203 PD/PK/safety in MDD",
+          "trial_design": "PD/PK/safety Phase 2 of ALTO-203 25 ug and 75 ug vs placebo in MDD patients with anhedonia",
+          "nct_ids": ["NCT06391593"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Alto Neuroscience",
+          "key_milestones": ["Completed 2025-04; supports next-stage Phase 2 development"]
+        }
+      ]
+    },
+    {
+      "asset": "ALTO-100",
+      "aka": [],
+      "modality": "Small molecule (oral) — pro-neurogenesis/neuroplasticity",
+      "target": "Undisclosed (novel CNS receptor)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Bipolar I/II depression (BD-D)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALTO-100 BD-D P2",
+          "trial_design": "Randomized placebo-controlled Phase 2 of ALTO-100 in bipolar disorder I/II with major depressive episode",
+          "nct_ids": ["NCT06656416"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Alto Neuroscience",
+          "key_milestones": ["Primary completion 2026-08"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"trial": "ALTO-100 P2b in MDD (NCT05712187)", "reason": "Phase 2b in MDD missed primary endpoint (Cohen's d 0.05, p>0.1); MDD development paused — asset repositioned to BD-D"},
+    {"trial": "Earlier completed ALTO-300 / ALTO-100 Phase 2a studies (NCT05157945, NCT05117632, NCT05118750, NCT05419869)", "reason": "Earlier completed Phase 2 studies superseded by ongoing programs"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 5, "phase_3": 0, "phase_2": 5, "phase_1": 0}
+}

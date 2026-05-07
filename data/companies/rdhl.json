@@ -1,0 +1,123 @@
+{
+  "issuer_name": "RedHill Biopharma Ltd.",
+  "ticker": "RDHL",
+  "exchange": "Nasdaq",
+  "cik": "0001553846",
+  "region": "Israel/US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://www.redhillbio.com/pipeline", "status": "fetched"},
+    "ctgov": {"file": "data/rdhl_ctgov_compact.json", "active_p1_p3_trials": 0, "note": "All RedHill-sponsored P1-P3 trials in registry are Completed/Terminated/Withdrawn/Unknown"}
+  },
+  "pipeline": [
+    {
+      "asset": "Opaganib",
+      "aka": ["ABC294640", "Yeliva"],
+      "modality": "Small molecule (oral SPHK2 inhibitor)",
+      "target": "Sphingosine kinase-2 (SPHK2)",
+      "license_origin": "In-licensed from Apogee Biotechnology",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Investigator-led Phase 2",
+          "trial_design": "Open-label Phase 2 in mCRPC patients",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing per company website (not registered as RedHill-sponsored)",
+          "lead_sponsor": "Investigator/RedHill",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cholangiocarcinoma",
+          "highest_phase": "Phase 2a",
+          "trial_name": "Opaganib + HCQ in advanced cholangiocarcinoma",
+          "trial_design": "Single-arm Phase 2a",
+          "nct_ids": ["NCT03377179"],
+          "trial_status": "Completed (June 2022); company exploring next steps",
+          "lead_sponsor": "RedHill Biopharma Limited",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RHB-107",
+      "aka": ["Upamostat", "WX-671"],
+      "modality": "Small molecule (oral serine protease inhibitor)",
+      "target": "Serine proteases (uPA family)",
+      "license_origin": "In-licensed from Wilex/Heidelberg Pharma",
+      "indications": [
+        {
+          "indication": "COVID-19 (early treatment / post-exposure prophylaxis)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PROTECT-APT 1",
+          "trial_design": "Randomized placebo-controlled Phase 2 (US DoD/HJF sponsored, RedHill collaborator)",
+          "nct_ids": ["NCT05954286"],
+          "trial_status": "Completed (April 2025)",
+          "lead_sponsor": "Henry M. Jackson Foundation for the Advancement of Military Medicine",
+          "key_milestones": ["Topline data readout"]
+        }
+      ]
+    },
+    {
+      "asset": "RHB-102",
+      "aka": ["BEKINDA", "ondansetron bimodal release tablet"],
+      "modality": "Reformulation (extended-release ondansetron)",
+      "target": "5-HT3 receptor antagonist",
+      "license_origin": "Internal reformulation",
+      "indications": [
+        {
+          "indication": "GLP-1/GIP-related GI intolerance (nausea/vomiting from incretin therapy)",
+          "highest_phase": "Phase 2 (planned)",
+          "trial_name": "Planned Phase 2",
+          "trial_design": "PLANNED",
+          "nct_ids": [],
+          "trial_status": "PLANNED — company-disclosed program; IND/registry filing pending",
+          "lead_sponsor": "RedHill Biopharma",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RHB-204",
+      "aka": [],
+      "modality": "Fixed-dose oral antibiotic combination",
+      "target": "Mycobacterium avium paratuberculosis (MAP)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Crohn's disease",
+          "highest_phase": "Phase 2 (planned)",
+          "trial_name": "Planned Crohn's Phase 2",
+          "trial_design": "PLANNED",
+          "nct_ids": [],
+          "trial_status": "PLANNED — disclosed on company pipeline; not yet on registry",
+          "lead_sponsor": "RedHill Biopharma",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Talicia": "FDA-approved triple-therapy for H. pylori infection",
+    "Aemcolo": "FDA-approved rifamycin SV-MMX for travelers' diarrhea (US adults)",
+    "Movantik": "Previously commercialized; rights returned"
+  },
+  "excluded_preclinical": ["Opaganib in Ebola virus, diabetes/obesity, GI ARS"],
+  "excluded_legacy_terminated": [
+    "NCT04616924 (RHB-204 in pulmonary MAC, Phase 3, Terminated)",
+    "NCT04723537 (Upamostat COVID-19 P2/3, Terminated)",
+    "NCT02229981 (ABC294640 in DLBCL/KS, Withdrawn)",
+    "NCT04502069 (Opaganib COVID-19 P1/2, Withdrawn)",
+    "NCT02757326 (Opaganib in MM, Terminated)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase3_indications": 0,
+    "phase2_indications": 4,
+    "phase1_indications": 0,
+    "planned": 2
+  }
+}

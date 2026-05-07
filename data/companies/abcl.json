@@ -1,0 +1,83 @@
+{
+  "issuer_name": "AbCellera Biologics Inc.",
+  "ticker": "ABCL",
+  "exchange": "Nasdaq",
+  "cik": "0001703057",
+  "region": "US (Canada-headquartered)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001703057-26-000012",
+      "filing_date": "2026-02-24",
+      "doc": "abcl-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.abcellera.com/pipeline"
+    },
+    "ctgov": {
+      "sponsor_query": "AbCellera",
+      "raw_count": 8,
+      "kept_p1_p3": 7
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "ABCL575",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "OX40L",
+      "license_origin": "Internal (AbCellera-owned)",
+      "indications": [
+        {
+          "indication": "Atopic Dermatitis (AD)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ABCL575 first-in-human SAD",
+          "trial_design": "Phase 1, single-ascending dose, healthy volunteers",
+          "nct_ids": ["NCT07108894"],
+          "trial_status": "Recruiting (initiated Q3 2025)",
+          "lead_sponsor": "AbCellera Biologics Inc.",
+          "key_milestones": ["Primary completion 2027-04"]
+        }
+      ]
+    },
+    {
+      "asset": "ABCL635",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "NK3R (GPCR)",
+      "license_origin": "Internal (AbCellera-owned)",
+      "indications": [
+        {
+          "indication": "Vasomotor Symptoms of Menopause",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ABCL635 Phase 1/2",
+          "trial_design": "Phase 1/2 safety, tolerability, PK/PD with placebo control",
+          "nct_ids": ["NCT07118891"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "AbCellera Biologics Inc.",
+          "key_milestones": ["Primary completion 2027-02"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ABCL688 (autoimmunity, GPCR/Ion Channel)", "reason": "IND-enabling per company pipeline; not yet clinical."},
+    {"asset": "ABCL386 (oncology)", "reason": "Discovery stage."},
+    {"asset": "20+ undisclosed discovery programs", "reason": "Discovery / preclinical."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Bamlanivimab (LY-CoV555 / LY3819253) — COVID-19", "reason": "Lilly-sponsored mAb co-discovered by AbCellera; EUA revoked due to variant resistance; all trials completed; not part of forward-looking pipeline."},
+    {"asset": "Bebtelovimab (LY-CoV1404 / LY3853113)", "reason": "Lilly-sponsored COVID mAb; no longer authorized."}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "All Lilly-sponsored COVID mAb trials (NCT04411628, NCT04701658, NCT04634409, NCT04497987, NCT04427501)", "reason": "Eli Lilly is lead sponsor; AbCellera was discovery collaborator only and these are completed/legacy COVID programs."}
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3": 0,
+    "p2": 1,
+    "p1": 2,
+    "indications_total": 2
+  }
+}

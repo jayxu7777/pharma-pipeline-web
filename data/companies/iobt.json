@@ -1,0 +1,136 @@
+{
+  "issuer_name": "IO Biotech, Inc.",
+  "ticker": "IOBT",
+  "exchange": "Nasdaq",
+  "cik": "0001865494",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000950170-25-047744",
+      "filing_date": "2025-03-31",
+      "doc": "iobt-20241231.htm"
+    },
+    "website": {
+      "url": "https://iobiotech.com/our-clinical-pipeline/",
+      "note": "Pipeline rendered as image (6-October-25-IOBT-Pipeline-only-v2.jpg) and not text-extractable. Used 10-K + ctgov for canonical detail."
+    },
+    "ctgov": {
+      "lead_sponsor_searched": "IO Biotech",
+      "trials_returned": 9,
+      "note": "Includes Phase 3 IOB-013/KN-D18 melanoma, Phase 2 basket trials IOB-022/KN-D38 and IOB-032/PN-E40, and several investigator-sponsored studies."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Cylembio (IO102-IO103)",
+      "aka": ["IO102/IO103", "IDO/PD-L1 peptide vaccine", "T-win therapeutic cancer vaccine"],
+      "modality": "Off-the-shelf peptide-based therapeutic cancer vaccine (T-win platform)",
+      "target": "IDO (IO102) and PD-L1 (IO103)",
+      "license_origin": "Inventions assigned/licensed from Herlev Hospital",
+      "indications": [
+        {
+          "indication": "Advanced/unresectable metastatic melanoma (1L, in combination with pembrolizumab)",
+          "highest_phase": "Phase 3",
+          "trial_name": "IOB-013 / KN-D18",
+          "trial_design": "Phase 3 randomized: IO102-IO103 + pembrolizumab vs pembrolizumab alone in advanced melanoma",
+          "nct_ids": ["NCT05155254"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; primary completion May 2025",
+          "lead_sponsor": "IO Biotech (collaboration with Merck)",
+          "key_milestones": ["Pivotal Phase 3 readout"]
+        },
+        {
+          "indication": "Metastatic NSCLC, SCCHN, or urothelial carcinoma (basket, 1L with pembrolizumab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IOB-022 / KN-D38",
+          "trial_design": "Phase 1/2 basket study of IO102-IO103 + pembrolizumab in three solid-tumor cohorts",
+          "nct_ids": ["NCT05077709"],
+          "trial_status": "COMPLETED (primary completion Nov 2025); SCCHN cohort met primary endpoint with ORR 44.4% (ESMO 2024)",
+          "lead_sponsor": "IO Biotech",
+          "key_milestones": ["SCCHN cohort positive (ESMO 2024)"]
+        },
+        {
+          "indication": "Resectable melanoma and SCCHN (neoadjuvant/adjuvant with pembrolizumab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IOB-032 / PN-E40",
+          "trial_design": "Phase 2 neoadjuvant/adjuvant basket of IO102-IO103 + pembrolizumab in resectable tumors",
+          "nct_ids": ["NCT05280314"],
+          "trial_status": "RECRUITING; enrollment completed across cohorts as of Jan 2025; data readouts expected 2025",
+          "lead_sponsor": "IO Biotech",
+          "key_milestones": ["Enrollment complete; data 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "IO112",
+      "aka": ["Arginase 1 peptide vaccine"],
+      "modality": "Off-the-shelf peptide therapeutic cancer vaccine (T-win platform)",
+      "target": "Arginase 1",
+      "license_origin": "Inventions assigned/licensed from Herlev Hospital",
+      "indications": [
+        {
+          "indication": "Solid tumors (Arginase 1-expressing)",
+          "highest_phase": "PLANNED (preclinical/IND-enabling)",
+          "trial_name": "IO112 first-in-human (planned)",
+          "trial_design": "First-in-human study planned post IND",
+          "nct_ids": [],
+          "trial_status": "PLANNED - Company anticipated filing IND in 2025 per 10-K (filed FY2024). Excluded from active P1/P2/P3 list.",
+          "lead_sponsor": "IO Biotech",
+          "key_milestones": ["IND filing targeted 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {
+      "asset": "IO112 (Arginase 1)",
+      "reason": "IND-enabling per 10-K (FY2024); not yet in clinical trials."
+    },
+    {
+      "asset": "IO170",
+      "reason": "Listed only as candidate for which IO Biotech has obtained inventions; not in clinical trials."
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "IO102 NSCLC monotherapy/combo",
+      "nct_id": "NCT03562871",
+      "reason": "Phase 1/2 COMPLETED 2021; superseded by IO102-IO103 program."
+    },
+    {
+      "asset": "PD-L1 peptide in smoldering myeloma",
+      "nct_id": "NCT03850522",
+      "reason": "Phase 2 TERMINATED 2021."
+    },
+    {
+      "asset": "PD-L1/PD-L2 peptide in CLL",
+      "nct_id": "NCT03939234",
+      "reason": "Phase 2 COMPLETED 2021 (investigator-sponsored)."
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "asset": "IO102/IO103 + nivolumab/relatlimab in melanoma",
+      "nct_id": "NCT05912244",
+      "reason": "Investigator-sponsored by Memorial Sloan Kettering (IO Biotech is collaborator only)."
+    },
+    {
+      "asset": "IO102-IO103 + pembrolizumab in NMIBC",
+      "nct_id": "NCT05843448",
+      "reason": "Investigator-sponsored by UC Davis (IO Biotech is collaborator only)."
+    },
+    {
+      "asset": "Neoadjuvant pembrolizumab + IO102-103 in SCCHN",
+      "nct_id": "NCT05977907",
+      "reason": "Investigator-sponsored by Sidney Kimmel/Johns Hopkins (IO Biotech is collaborator only)."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 1,
+    "phase_2": 2,
+    "phase_1": 0,
+    "note": "Counts indications, not assets. Cylembio is single asset spanning P3 (melanoma) and P2 basket (SCCHN/NSCLC/UC; neoadjuvant)."
+  }
+}

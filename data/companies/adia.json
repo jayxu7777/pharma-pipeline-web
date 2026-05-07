@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Adia Nutrition, Inc.",
+  "ticker": "ADIA",
+  "exchange": "OTC",
+  "cik": "0001160420",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "path": "data/adia_10k_full.htm",
+      "note": "10-K downloaded but no pipeline section heading found; company has no clinical drug pipeline."
+    },
+    "website": {
+      "url": "https://adianutrition.com/",
+      "note": "Company describes itself as a regenerative medicine clinic and supplement-industry holding company."
+    },
+    "ctgov": {
+      "path": "data/adia_ctgov_compact.json",
+      "trial_count": 0,
+      "note": "No clinicaltrials.gov registrations as sponsor."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Adia Nutrition is a holding company operating ADIA Med (a Florida stem-cell clinic offering autologous stem cell, AHSCT, and PRP services under Florida Stem Cell Law — not FDA-approved drug development) and ADIA Labs (R&D subsidiary). It has no investigational drug candidates in Phase 1/2/3 clinical trials and is not a sponsor on clinicaltrials.gov.",
+  "commercial_product": {
+    "categories": ["Regenerative medicine clinical services (stem cell therapy, AHSCT, PRP) under Florida state law", "Nutritional supplements"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "active_trials": 0
+  }
+}

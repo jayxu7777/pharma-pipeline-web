@@ -1,0 +1,32 @@
+{
+  "issuer_name": "IMPACT BIOMEDICAL INC.",
+  "ticker": "IBO",
+  "exchange": "NYSE",
+  "cik": "0001834105",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Impact Biomedical is a discovery/IP-licensing company. All assets (Linebacker polyphenol/Myricetin platform, Laetose sugar-substitute, 3F functional fragrances, Equivir, Equivir-G, BAM, etc.) are preclinical or consumer-wellness; the company licenses to partners (e.g., Linebacker-1/-2 to ProPhase Laboratories) for milestone/royalty income. No company-sponsored Phase 1/2/3 human clinical trials are active.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-009711", "filing_date": "2026-03-11", "file": "data/ibo_10k_pipeline_section.html"},
+    "website": {"error": "no public pipeline page checked - issuer-licensing model"},
+    "ctgov": {"file": "data/ibo_ctgov_compact.json", "sponsor_query": "Impact Biomedical", "result": "no trials returned"}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "Linebacker (Linebacker-1, Linebacker-2)", "reason": "Modified Myricetin polyphenols; PIM kinase inhibitor; licensed to ProPhase Laboratories for development"},
+    {"asset": "Laetose", "reason": "Sugar substitute / TNF-alpha inhibitor; consumer/biopharm partnership stage"},
+    {"asset": "3F (Functional Fragrance Formulation)", "reason": "Consumer/antimicrobial fragrance technology, not a clinical drug program"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "Linebacker-1, Linebacker-2", "partner": "ProPhase Laboratories (NASDAQ: PRPH)", "reason": "Out-licensed for development and commercialization worldwide"}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "indications_total": 0
+  }
+}

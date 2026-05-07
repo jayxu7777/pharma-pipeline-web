@@ -1,0 +1,68 @@
+{
+  "issuer_name": "Prothena Corporation plc",
+  "ticker": "PRTA",
+  "exchange": "Nasdaq",
+  "cik": "0001559053",
+  "region": "Ireland (US 10-K filer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001559053-26-000008", "filing_date": "2026-02-27", "doc": "prta-20251231.htm"},
+    "website": {"url": "https://www.prothena.com/our-science/pipeline", "note": "confirms prasinezumab, BMS-986446, PRX019; coramitug shown but is now Novo Nordisk-owned"},
+    "ctgov": {"file": "data/prta_ctgov_compact.json", "trial_count": 15, "active": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "Prasinezumab",
+      "aka": ["PRX002", "RO7046015", "RG7935"],
+      "modality": "Humanized monoclonal antibody (IV)",
+      "target": "Aggregated alpha-synuclein",
+      "license_origin": "Internal (Prothena-discovered); worldwide license/collaboration with Roche; Prothena retains US co-promotion option, milestones and royalties",
+      "indications": [
+        {
+          "indication": "Early-stage Parkinson's disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "PADOVA (Phase 2b) and Phase 3 confirmatory IV study; supportive PASADENA Phase 2",
+          "trial_design": "Phase 3 randomized, double-blind, placebo-controlled IV in early Parkinson's; supported by Phase 2b PADOVA (NCT04777331) and Phase 2 PASADENA OLE (NCT03100149)",
+          "nct_ids": ["NCT07174310", "NCT04777331", "NCT03100149"],
+          "trial_status": "Phase 3 NCT07174310 Recruiting; PADOVA and PASADENA Active, not recruiting",
+          "lead_sponsor": "Hoffmann-La Roche (Prothena partnered)",
+          "key_milestones": ["PADOVA milestones earned from Roche; Phase 3 IV start triggered additional milestone events"]
+        }
+      ]
+    },
+    {
+      "asset": "PRX019",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "Undisclosed neurodegenerative target (anti-tau MTBR family per disclosures)",
+      "license_origin": "Internal (Prothena-discovered); global Neurodegenerative License Agreement with Bristol Myers Squibb — Prothena conducts the Phase 1; BMS holds option to advance",
+      "indications": [
+        {
+          "indication": "Neurodegenerative disease (healthy-volunteer Phase 1)",
+          "highest_phase": "Phase 1",
+          "trial_name": "PRX019-101",
+          "trial_design": "Phase 1 SAD/MAD safety, tolerability, PK in healthy adult volunteers",
+          "nct_ids": ["NCT06699680"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Prothena Biosciences Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "PRX012 — wholly-owned anti-Abeta antibody for Alzheimer's, in preclinical TfR-shuttle reformulation (not in active human trials per latest 10-K)",
+    "PRX123 — Alzheimer's vaccine; IND cleared and Fast Track granted, but no dosed clinical trial yet; partnership being sought",
+    "TDP-43 CYTOPE program for ALS; additional undisclosed CYTOPE platform discovery programs"
+  ],
+  "excluded_legacy_terminated": [
+    "Birtamimab (AL amyloidosis) — Phase 3 AFFIRM-AL failed primary/secondary endpoints; development discontinued May 2025",
+    "Other historical Phase 1/2 trials in the 15-trial ctgov set (NEOD001, etc.) — completed/terminated"
+  ],
+  "excluded_partner_owned": [
+    "Coramitug (formerly PRX004) for ATTR amyloidosis — sold to Novo Nordisk in July 2021; no longer a Prothena pipeline asset",
+    "BMS-986446 (formerly PRX005) for early Alzheimer's disease — sold/optioned to Bristol Myers Squibb under Neurodegenerative License Agreement; BMS is now sole sponsor of TargetTau-1 Phase 2 (Fast Track granted Oct 2025); Prothena receives milestones/royalties only"
+  ],
+  "summary_counts": {"assets": 2, "phase3": 1, "phase2": 0, "phase1_or_1_2": 1, "indications_total": 2}
+}

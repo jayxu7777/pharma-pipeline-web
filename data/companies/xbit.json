@@ -1,0 +1,131 @@
+{
+  "issuer_name": "XBiotech Inc.",
+  "ticker": "XBIT",
+  "exchange": "Nasdaq",
+  "cik": "0001626878",
+  "region": "US-listed (incorporated in Canada; files Form 10-K)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-13",
+      "accession": "0001171843-26-001561",
+      "url": "https://www.sec.gov/Archives/edgar/data/1626878/000117184326001561/xbit20251231_10k.htm"
+    },
+    "website": {
+      "url": "https://xbiotech.com/pipeline",
+      "fetched": "2026-05-06",
+      "note": "Page describes IL-1a anti-inflammatory and infectious disease categories without specific asset details"
+    },
+    "ctgov": {
+      "sponsor_query": "XBiotech",
+      "trial_count": 8
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Natrunix",
+      "aka": ["True Human anti-IL-1a antibody"],
+      "modality": "True Human IgG monoclonal antibody",
+      "target": "Interleukin-1 alpha (IL-1a)",
+      "license_origin": "Internal (post-2019 Janssen sale of Bermekimab; Natrunix is a separately developed True Human anti-IL-1a antibody)",
+      "indications": [
+        {
+          "indication": "Advanced pancreatic cancer (in combination with ONIVYDE + 5-FU/LV)",
+          "highest_phase": "Phase 1/2 (completed; FDA discussions ongoing for path forward)",
+          "trial_name": "Natrunix + ONIVYDE + 5-FU/LV in advanced pancreatic cancer",
+          "trial_design": "Randomized, double-blind, placebo-controlled; 60 subjects",
+          "nct_ids": ["NCT04825288"],
+          "trial_status": "ACTIVE_NOT_RECRUITING per ctgov; last subject completed 120 weeks dosing in April 2025; preliminary data announced June 2024 (reduced hospitalization, fewer SAEs, longer PFS); regulatory path being discussed with FDA",
+          "lead_sponsor": "XBiotech, Inc.",
+          "key_milestones": [
+            "Preliminary data announced June 18, 2024",
+            "Last open-label extension dose April 2025",
+            "Ongoing FDA discussions on regulatory path"
+          ]
+        },
+        {
+          "indication": "Rheumatoid Arthritis (with methotrexate)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Natrunix in Combination With Methotrexate for RA Treatment",
+          "trial_design": "Randomized, double-blind, placebo-controlled; Natrunix 400 mg + MTX vs placebo + MTX",
+          "nct_ids": ["NCT06590090"],
+          "trial_status": "NOT_YET_RECRUITING (planned start July 15, 2026); follows prior 233-subject study (NCT05363891) whose data company deemed uninterpretable due to enrollment irregularities",
+          "lead_sponsor": "XBiotech, Inc.",
+          "key_milestones": [
+            "Prior Phase 2 (NCT05363891) data deemed uninterpretable Dec 2024",
+            "New Phase 2 planned start mid-2026"
+          ]
+        },
+        {
+          "indication": "Axial Spondyloarthritis (HLA-B27 positive)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Natrunix in HLA-B27 Positive Subjects With Axial Spondyloarthritis",
+          "trial_design": "Randomized; Natrunix vs vilamakitug vs placebo",
+          "nct_ids": ["NCT06526377"],
+          "trial_status": "NOT_YET_RECRUITING (planned start Aug 15, 2026)",
+          "lead_sponsor": "XBiotech, Inc.",
+          "key_milestones": [
+            "Planned start Aug 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Hutrukin",
+      "aka": [],
+      "modality": "True Human monoclonal antibody",
+      "target": "IL-1a (anti-IL-1a candidate; second parallel anti-IL-1a antibody)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Brain reperfusion injury after stroke reperfusion procedures",
+          "highest_phase": "Phase 1 complete; Phase 2 on hold",
+          "trial_name": "Hutrukin to Analyze Safety and PK in Healthy Volunteers",
+          "trial_design": "Phase 1 healthy volunteer SAD/MAD",
+          "nct_ids": ["NCT05098080"],
+          "trial_status": "Phase 1 COMPLETED Q1 2024; planned Phase 2 stroke study placed on hold pending FDA clarification of cancer/arthritis regulatory paths",
+          "lead_sponsor": "XBiotech, Inc.",
+          "key_milestones": [
+            "Phase 1 readout Q1 2024",
+            "Phase 2 stroke initiation on hold"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "514G3",
+      "aka": [],
+      "modality": "True Human monoclonal antibody",
+      "target": "Staphylococcus aureus",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Staphylococcus aureus bacteremia (MRSA)",
+          "highest_phase": "Phase 1/2 (completed)",
+          "trial_name": "Safety & Efficacy of True Human Antibody, 514G3, in S. aureus Bacteremia",
+          "trial_design": "Randomized, placebo-controlled (2/10/40 mg/kg + standard antibiotics)",
+          "nct_ids": ["NCT02357966"],
+          "trial_status": "COMPLETED 2016; remains a clinical-stage asset per 10-K but no active or planned next study disclosed",
+          "lead_sponsor": "XBiotech, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Anti-C. difficile oral antibody", "reason": "Preclinical"},
+    {"asset": "Anti-varicella zoster (shingles) antibody", "reason": "Preclinical; IND-pending"},
+    {"asset": "Anti-influenza antibody", "reason": "Preclinical; IND-pending"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Bermekimab", "reason": "Sold to Janssen/J&J in 2019 for $750M cash; XBiotech no longer develops it"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3_indications": 0,
+    "phase_2_indications": 2,
+    "phase_1_or_1_2_indications": 3
+  }
+}

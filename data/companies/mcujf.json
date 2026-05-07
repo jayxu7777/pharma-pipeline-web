@@ -1,0 +1,68 @@
+{
+  "issuer_name": "MEDICURE INC",
+  "ticker": "MCUJF",
+  "exchange": "OTC",
+  "cik": "0001133519",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F instead of 10-K"
+    },
+    "website": {
+      "url": "https://www.medicure.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "file": "data/mcujf_ctgov_compact.json",
+      "trial_count": 8,
+      "active_trials": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "MC-1",
+      "aka": ["Pyridoxal 5'-Phosphate", "PLP", "Oral PLP"],
+      "modality": "Small molecule oral active vitamin B6 metabolite",
+      "target": "Pyridox(am)ine 5'-phosphate oxidase (PNPO) deficiency replacement therapy",
+      "license_origin": "Internal (Medicure)",
+      "indications": [
+        {
+          "indication": "PNPO Deficiency (Pyridox(am)ine 5'-Phosphate Oxidase Deficiency, a rare neonatal epileptic encephalopathy)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Oral Pyridoxal 5'-Phosphate for the Treatment of Patients With PNPO Deficiency",
+          "trial_design": "Phase 3 open-label study evaluating oral PLP in patients with PNPO deficiency",
+          "nct_ids": ["NCT04706013"],
+          "trial_status": "RECRUITING (start 2024-02-16, primary completion 2026-11)",
+          "lead_sponsor": "Medicure",
+          "key_milestones": [
+            "Phase 3 enrollment ongoing",
+            "Primary completion expected November 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "AGGRASTAT (tirofiban HCl injection)": "Marketed for Acute Coronary Syndrome",
+    "Zypitamag (pitavastatin magnesium)": "Marketed for lipid management"
+  },
+  "excluded_preclinical": [
+    "TARDOXAL — listed by company as Phase 2 for tardive dyskinesia, but no clinical trial has been registered on ClinicalTrials.gov; treated as PLANNED/early-stage and excluded for consistency with active P1/P2/P3 scope"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT00402506 — MC-1 high-risk CABG Phase 3 (COMPLETED, missed primary endpoint)",
+    "NCT00157729 — MC-1 MATCHED hypertension/diabetes Phase 2 (COMPLETED)",
+    "NCT00157716 — MC-1 MEND-CABG Phase 2 (COMPLETED)",
+    "NCT01522417 — Tirofiban SAVI-PCI Phase 2 (COMPLETED)",
+    "NCT01245725 — Aggrastat truncated PCI Phase 3 (WITHDRAWN)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

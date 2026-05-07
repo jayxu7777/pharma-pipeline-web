@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Immuron Ltd",
+  "ticker": "IMRN",
+  "exchange": "Nasdaq",
+  "cik": "0001660046",
+  "region": "Australia (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F instead of 10-K"
+    },
+    "website": {
+      "url": "https://www.immuron.com.au/pipeline/",
+      "fetched": true,
+      "note": "Pipeline page references clinical-stage Traveller's Diarrhoea and C. difficile candidates without specific phase or NCT details."
+    },
+    "ctgov": {
+      "trial_count": 6,
+      "active_or_recruiting": 0,
+      "note": "All Immuron-sponsored or collaborator trials in registry are COMPLETED, TERMINATED or WITHDRAWN."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Travelan (over-the-counter traveller's diarrhoea prevention) and ProIBS (IBS symptom relief) are commercially marketed oral hyperimmune bovine colostrum products."
+  },
+  "excluded_preclinical": [
+    "Next-generation Traveller's Diarrhoea oral hyperimmune candidate (clinical-stage per website but no active registered trial in P1/P2/P3)",
+    "C. difficile oral hyperimmune candidate (IMM-529 program — prior Phase 1/2 NCT03065374 TERMINATED; no active successor trial in registry)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT02316717 — IMM-124E NASH Phase 2 (COMPLETED 2017)",
+    "NCT05933525 — IMM-124E (Travelan) controlled human infection model Phase 2 (COMPLETED 2024)",
+    "NCT01968382 — IMM-124E severe alcoholic hepatitis Phase 2 (COMPLETED 2018)",
+    "NCT03065374 — IMM-529 C. difficile Phase 1/2 (TERMINATED 2019)",
+    "NCT01466894 — IMM-124E NASH Phase 2 (WITHDRAWN)",
+    "NCT03042767 — IMM-124E pediatric NAFLD Phase 2 investigator-led (COMPLETED 2019)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Immuron's commercial business is OTC/nutraceutical hyperimmune bovine colostrum products (Travelan, ProIBS). All previously registered Phase 1/2 IMM-124E and IMM-529 studies are COMPLETED, TERMINATED or WITHDRAWN, and no active P1/P2/P3 sponsor-initiated successor trial is currently listed on public registries."
+}

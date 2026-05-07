@@ -1,0 +1,73 @@
+{
+  "issuer_name": "Vericel Corporation",
+  "ticker": "VCEL",
+  "exchange": "Nasdaq",
+  "cik": "0000887359",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-012013",
+      "filing_date": "2026-02-26",
+      "doc": "vcel-20251231.htm"
+    },
+    "website": {
+      "url": "https://vcel.com/clinical-development"
+    },
+    "ctgov": {
+      "sponsor_query": "Vericel",
+      "raw_count": 15,
+      "kept_p1_p3": 12
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "MACI",
+      "aka": ["matrix-applied characterized autologous cultured chondrocytes", "autologous cultured chondrocytes on porcine collagen membrane"],
+      "modality": "Autologous cell therapy (chondrocytes on porcine collagen membrane)",
+      "target": "Articular cartilage repair",
+      "license_origin": "Internal (commercial product, life-cycle expansion)",
+      "indications": [
+        {
+          "indication": "Symptomatic chondral / osteochondral defects of the knee in pediatric/adolescent patients (ages 10-17) — PEAK trial",
+          "highest_phase": "Phase 3",
+          "trial_name": "PEAK (55-1702-1)",
+          "trial_design": "Prospective, multicenter, randomized, open-label, active-controlled vs microfracture",
+          "nct_ids": ["NCT03588975"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vericel Corporation",
+          "key_milestones": ["Primary completion 2027-06"]
+        },
+        {
+          "indication": "Symptomatic chondral / osteochondral defects of the ankle (talar lesions, ages 17-65) — MASCOT trial",
+          "highest_phase": "Phase 3",
+          "trial_name": "MASCOT (55-2410-01)",
+          "trial_design": "Prospective, multicenter, randomized, open-label, active-controlled vs bone marrow stimulation",
+          "nct_ids": ["NCT06915233"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vericel Corporation",
+          "key_milestones": ["Primary completion 2030-07"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": ["MACI (knee cartilage repair, FDA approved; MACI Arthro recently approved for arthroscopic delivery)", "Epicel (severe burns)", "NexoBrid (anacaulase-bcdb; eschar removal in thermal burns; licensed from MediWound)"],
+    "note": "Commercial-stage specialty cell-therapy/burn care company; clinical pipeline limited to MACI label-expansion Phase 3 trials."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Ixmyelocel-T (multiple programs: IDCM, DCM, CLI, CLI Phase 3 RESTORE-CLI, osteonecrosis)", "reason": "Legacy Aastrom cell therapy programs all completed/discontinued; no longer in active development."},
+    {"asset": "TRC / Bone Repair Cells (NCT00424567, NCT00797550)", "reason": "Terminated legacy Aastrom programs."},
+    {"asset": "MACI vs microfracture knee (NCT00719576)", "reason": "Pivotal Phase 3 completed (registrational study supporting approval)."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3": 1,
+    "p2": 0,
+    "p1": 0,
+    "indications_total": 2
+  }
+}

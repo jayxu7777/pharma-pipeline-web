@@ -1,0 +1,63 @@
+{
+  "issuer_name": "Caribou Biosciences, Inc.",
+  "ticker": "CRBU",
+  "exchange": "Nasdaq",
+  "cik": "0001619856",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-03-05", "accession": "0001619856-26-000008", "path": "data/crbu_10k_pipeline_section.html"},
+    "website": {"url": "https://www.cariboubio.com/pipeline"},
+    "ctgov": {"path": "data/crbu_ctgov_compact.json", "unique_trials_p1_3": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "Vispa-cel",
+      "aka": ["CB-010"],
+      "modality": "CRISPR-edited allogeneic anti-CD19 CAR-T cell therapy",
+      "target": "CD19",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell non-Hodgkin lymphoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "ANTLER",
+          "trial_design": "Open-label, multicenter Phase 1 dose escalation/expansion of CB-010 with cyclophosphamide/fludarabine lymphodepletion in r/r B-NHL",
+          "nct_ids": ["NCT04637763"],
+          "trial_status": "Recruiting (start 2021-05-26; primary completion 2025-08)",
+          "lead_sponsor": "Caribou Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CB-011",
+      "aka": [],
+      "modality": "CRISPR-edited allogeneic anti-BCMA CAR-T cell therapy",
+      "target": "BCMA",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory multiple myeloma",
+          "highest_phase": "Phase 1",
+          "trial_name": "CaMMouflage",
+          "trial_design": "Open-label, multicenter Phase 1 dose escalation/expansion of CB-011 with cyclophosphamide/fludarabine lymphodepletion in r/r MM",
+          "nct_ids": ["NCT05722418"],
+          "trial_status": "Recruiting (start 2023-02-06; primary completion 2027-12)",
+          "lead_sponsor": "Caribou Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "CB-020", "reason": "Preclinical per company website"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "CB-012 (NCT06128044)", "reason": "Phase 1 anti-CLL-1 CAR-T in r/r AML — terminated 2025"},
+    {"asset": "CB-010 GALLOP (NCT06752876)", "reason": "Phase 1 in refractory SLE — withdrawn (study never initiated)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 0, "P2": 0, "P1": 2}
+}

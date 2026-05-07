@@ -1,0 +1,52 @@
+{
+  "issuer_name": "CERo Therapeutics Holdings, Inc.",
+  "ticker": "CEROW",
+  "exchange": "OTC",
+  "cik": "0001870404",
+  "region": "USA",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/cerow_10k_pipeline_section.html", "filing_date": "2026-04-15", "accession": "0001213900-26-044040"},
+    "website": {"url": "https://www.cerotherapeutics.com/", "note": "Site redirects to /lander; pipeline content not accessible via fetch — public corporate updates from press releases used"},
+    "ctgov": {"file": "data/cerow_ctgov_compact.json", "trials": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "CER-1236",
+      "aka": ["CER-T autologous cell therapy"],
+      "modality": "Autologous engineered T-cell therapy (Chimeric Engulfment Receptor T cells / CER-T) targeting TIM-4 ligand",
+      "target": "TIM-4 ligand (phagocytic engulfment)",
+      "license_origin": "In-house (CERo platform)",
+      "indications": [
+        {
+          "indication": "Acute Myeloid Leukemia (AML), MDS, Myelofibrosis",
+          "highest_phase": "Phase 1",
+          "trial_name": "CertainT-1 (CER-1236 in AML/MDS/MF)",
+          "trial_design": "First-in-human, multi-center, open-label Phase 1/1b dose-escalation evaluating safety and preliminary efficacy of CER-1236 in hematologic malignancies (AML, transfusion-dependent and high-risk MDS, post-JAK inhibitor myelofibrosis)",
+          "nct_ids": ["NCT06834282"],
+          "trial_status": "RECRUITING (cohort 2 dosing as of Apr 14, 2026; 6th patient dosed)",
+          "lead_sponsor": "CERo Therapeutics Holdings, Inc.",
+          "key_milestones": ["FDA Orphan Drug + Fast Track designations for AML", "First patient dosed 2025", "Cohort 2 dosing Mar-Apr 2026", "Clinical update Jan 7, 2026 (no CRS/ICANS, no DLTs in 28-day window; 72-day platelet transfusion-free interval in MDS/AML patient)"]
+        },
+        {
+          "indication": "Solid tumors (preclinical/IND-pending)",
+          "highest_phase": "Preclinical",
+          "trial_name": null,
+          "trial_design": "Platform extension, not yet in clinical trials",
+          "nct_ids": [],
+          "trial_status": "PRECLINICAL — excluded from active P1/P2/P3 count",
+          "lead_sponsor": "CERo Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "CER-1236 solid tumor extension", "reason": "Preclinical / IND not filed"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 0, "phase_2": 0, "phase_1": 1},
+  "blockers": "Pipeline page on website returns redirect-only; relied on 10-K and press releases."
+}

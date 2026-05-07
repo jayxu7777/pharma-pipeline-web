@@ -1,0 +1,70 @@
+{
+  "issuer_name": "ALCON INC",
+  "ticker": "ALC",
+  "exchange": "NYSE",
+  "cik": "0001167379",
+  "region": "US-listed (Swiss-domiciled)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (no 10-K)"},
+    "website": {"error": "no public pipeline page found at alcon.com/pipeline or alcon.com/research-development/our-pipeline"},
+    "ctgov": {"file": "data/alc_ctgov_compact.json", "sponsor_query": "Alcon", "trials_returned": 194}
+  },
+  "pipeline": [
+    {
+      "asset": "AR-14034",
+      "aka": [],
+      "modality": "Sustained-release intravitreal implant",
+      "target": "Undisclosed (acquired via Aerie Pharmaceuticals)",
+      "license_origin": "Acquired via Aerie Pharmaceuticals (2022)",
+      "indications": [
+        {
+          "indication": "Neovascular Age-related Macular Degeneration (nAMD)",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "Study of AR-14034 in Participants With nAMD",
+          "trial_design": "Interventional, multi-arm (low/high dose AR-14034 SR implant vs aflibercept vs sham procedure)",
+          "nct_ids": ["NCT05769153"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alcon Research",
+          "key_milestones": ["Primary completion expected 2027-10"]
+        }
+      ]
+    },
+    {
+      "asset": "FID 123472",
+      "aka": [],
+      "modality": "Ophthalmic solution (small molecule)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Ocular Hyperemia (ocular redness)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Evaluation of the Efficacy and Safety of FID 123472 Ophthalmic Solution for the Reduction of Ocular Redness",
+          "trial_design": "Interventional, comparator vs apraclonidine 0.125% UDPF and vehicle",
+          "nct_ids": ["NCT07531043"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Alcon Research",
+          "key_milestones": ["Start expected 2026-10", "Primary completion expected 2027-02"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Alcon is a global ophthalmology leader with two segments: Surgical (IOLs, vitreoretinal, cataract equipment) and Vision Care (contact lenses, ocular health). Recent FDA approval: TRYPTYR (acoltremon, formerly AR-15512) ophthalmic solution 0.003% for Dry Eye Disease (TRPM8 receptor agonist). Other approved pharmaceuticals from Aerie acquisition: Rocklatan, Rhopressa (glaucoma)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Investigator-initiated and academic-led studies where Alcon is only a collaborator (e.g., NCT00211315 lead by Manhattan Eye Ear & Throat Hospital)."
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 0,
+    "phase_1_2": 1
+  },
+  "no_active_clinical_pipeline_reason": null
+}

@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Voyager Acquisition Corp.",
+  "ticker": "VACHU",
+  "exchange": "Nasdaq",
+  "cik": "0002006815",
+  "region": "Cayman Islands",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001829126-26-002162",
+      "filed": "2026-03-10",
+      "doc": "voyageracq_10k.htm",
+      "note": "Blank-check / SPAC formed for the purpose of effecting a business combination; no operating drug pipeline."
+    },
+    "website": {
+      "error": "no public pipeline page found — entity is a SPAC, not an operating biotech."
+    },
+    "ctgov": {
+      "trials_kept": 0,
+      "note": "No sponsored interventional trials on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Voyager Acquisition Corp. is a Cayman Islands special-purpose acquisition company (SPAC / blank-check entity) without any operating business, drug candidates, or clinical trials. Pipeline applies only post-business-combination.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

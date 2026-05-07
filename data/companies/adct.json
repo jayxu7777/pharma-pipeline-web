@@ -1,0 +1,173 @@
+{
+  "issuer_name": "ADC Therapeutics SA",
+  "ticker": "ADCT",
+  "exchange": "NYSE",
+  "cik": "0001771910",
+  "region": "Switzerland",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-016491", "filed": "2026-03-10", "fy": "2025"},
+    "website": {"url": "https://adctherapeutics.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "ADC Therapeutics", "fetched": "2026-05-06"}
+  },
+  "commercial_product": {
+    "asset": "ZYNLONTA (loncastuximab tesirine-lpyl)",
+    "status": "FDA accelerated approval (3L+ DLBCL); EMA, China, Canada conditional approvals",
+    "target": "CD19"
+  },
+  "pipeline": [
+    {
+      "asset": "Loncastuximab tesirine (ZYNLONTA)",
+      "aka": ["ADCT-402", "Lonca"],
+      "modality": "Antibody-drug conjugate (CD19 PBD dimer)",
+      "target": "CD19",
+      "license_origin": "Internal; PBD payload licensed from MedImmune/AstraZeneca",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory DLBCL (2L/2L+ confirmatory)",
+          "highest_phase": "Phase 3",
+          "trial_name": "LOTIS-5",
+          "trial_design": "Randomized, open-label Phase 3 of loncastuximab + rituximab vs. immunochemotherapy",
+          "nct_ids": ["NCT04384484"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "ADC Therapeutics S.A.",
+          "key_milestones": ["sBLA conversion to full approval and 2L expansion targeted"]
+        },
+        {
+          "indication": "Relapsed/refractory B-cell NHL (combination)",
+          "highest_phase": "Phase 1",
+          "trial_name": "LOTIS-7",
+          "trial_design": "Phase 1b of loncastuximab in combination with bispecifics (glofitamab, mosunetuzumab, epcoritamab) and others",
+          "nct_ids": ["NCT04970901"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ADC Therapeutics S.A.",
+          "key_milestones": []
+        },
+        {
+          "indication": "R/R DLBCL or HGBCL with hepatic impairment (PK/safety)",
+          "highest_phase": "Phase 1",
+          "trial_name": "LOTIS-10",
+          "trial_design": "Phase 1 PK and safety study in hepatic impairment",
+          "nct_ids": ["NCT05660395"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ADC Therapeutics S.A.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Relapsed/refractory marginal zone lymphoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "Investigator-initiated MZL study",
+          "trial_design": "Open-label Phase 2 of loncastuximab tesirine",
+          "nct_ids": ["NCT05296070"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "University of Miami (collaborator: ADC Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Relapsed/refractory follicular lymphoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lonca + rituximab IIT in FL",
+          "trial_design": "Phase 2 of loncastuximab + rituximab in r/r FL",
+          "nct_ids": ["NCT04998669"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Juan P. Alderuccio, MD (collaborator: ADC Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Waldenstrom Macroglobulinemia",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lonca in WM",
+          "trial_design": "Phase 2 of loncastuximab tesirine in WM",
+          "nct_ids": ["NCT05190705"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Shayna Sarosiek, MD (collaborator: ADC Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "High-risk DLBCL (front-line, IIT)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lonca-R + DA-EPOCH-R IIT",
+          "trial_design": "Phase 2 of loncastuximab + rituximab followed by DA-EPOCH-R",
+          "nct_ids": ["NCT05600686"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Joseph Tuscano (collaborator: NCI, ADC Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic lymphocytic leukemia (combination IIT)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Lonca + acalabrutinib in CLL",
+          "trial_design": "Phase 1 of loncastuximab + acalabrutinib",
+          "nct_ids": ["NCT05971251"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "University of Alabama at Birmingham (collaborator: ADC Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pediatric/adolescent r/r B-cell NHL",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Global pediatric B-NHL platform",
+          "trial_design": "Multi-arm platform Phase 2/3",
+          "nct_ids": ["NCT05991388"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "University of Birmingham (collaborator: ADC Therapeutics, Regeneron)",
+          "key_milestones": []
+        },
+        {
+          "indication": "CNS lymphoma (post SRS)",
+          "highest_phase": "Phase 1",
+          "trial_name": "SOLAR",
+          "trial_design": "Phase 1 of Lonca-R after stereotactic radiosurgery",
+          "nct_ids": ["NCT06607549"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "University of Utah (collaborator: ADC Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Bridging therapy before CAR-T in LBCL",
+          "highest_phase": "Phase 2",
+          "trial_name": "CORAL",
+          "trial_design": "Phase 2 of Lonca-R as bridging before CAR-T",
+          "nct_ids": ["NCT06788964"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "University of Utah (collaborator: ADC Therapeutics)",
+          "key_milestones": []
+        },
+        {
+          "indication": "R/R LBCL (epcoritamab combo IIT)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Epcoritamab + Lonca",
+          "trial_design": "Phase 2 of epcoritamab + loncastuximab",
+          "nct_ids": ["NCT06919939"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "University of Miami (collaborator: ADC Therapeutics, Genmab)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ADCT-241", "note": "PSMA-targeting exatecan ADC, IND-enabling activities completed end 2025; partnering being explored"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Camidanlumab tesirine (ADCT-301)", "note": "Phase 1/2 programs terminated/completed (NCT02432235, NCT02588092, NCT04052997, NCT04639024, NCT03621982)"},
+    {"asset": "Mipasetamab uzoptirine (ADCT-601)", "note": "Phase 1 terminated (NCT05389462, NCT03700294)"},
+    {"asset": "ADCT-602", "note": "Phase 1/2 terminated (NCT03698552)"},
+    {"asset": "ADCT-901", "note": "Phase 1 completed, no further development disclosed (NCT04972981)"},
+    {"asset": "ADCT-502", "note": "Phase 1 terminated (NCT03125200)"},
+    {"asset": "Loncastuximab Phase 2 in r/r FL vs. idelalisib", "note": "NCT04699461 terminated"},
+    {"asset": "LOTIS-8 (front-line Lonca + R-CHOP)", "note": "NCT04974996 withdrawn"},
+    {"asset": "Lonca-R unfit/frail DLBCL", "note": "NCT05144009 terminated"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Imvotamab (IGM Biosciences)", "note": "NCT04082936 terminated; ADCT was collaborator only"}
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 1,
+    "P2": 7,
+    "P1": 4,
+    "indications_active": 12
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "issuer_name": "MCKESSON CORPORATION",
+  "ticker": "MCK",
+  "exchange": "NYSE",
+  "cik": "0000927653",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000927653-25-000036",
+      "filed": "2025-05-09",
+      "fiscal_year_end": "2025-03-31",
+      "note": "10-K fetched but no pipeline / R&D section heading present — McKesson is a pharmaceutical distributor and does not develop its own drug or device assets."
+    },
+    "website": {
+      "error": "no public pipeline page — McKesson does not maintain a drug pipeline page (distribution business)."
+    },
+    "ctgov": {
+      "sponsor_query": "McKesson",
+      "trials_returned": 1,
+      "note": "Only result is NCT01569243, a 2012 PHASE2 SMS-for-diabetes study sponsored by Massachusetts General Hospital with the McKesson Foundation as a non-drug collaborator. Excluded as partner/non-proprietary and completed."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "asset": "Text-message diabetes intervention (TTM)",
+      "nct_ids": ["NCT01569243"],
+      "reason": "Lead sponsor Massachusetts General Hospital; McKesson Foundation only a charitable collaborator. Completed 2013."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Distribution / services company — no proprietary clinical pipeline. McKesson is a pharmaceutical wholesaler and healthcare services provider; it does not develop or own clinical-stage drug or device assets."
+}

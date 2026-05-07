@@ -1,0 +1,60 @@
+{
+  "issuer_name": "Milestone Pharmaceuticals Inc.",
+  "ticker": "MIST",
+  "exchange": "Nasdaq",
+  "cik": "0001408443",
+  "region": "US/Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-032415", "filed": "2026-03-20", "note": "10-K fetched but pipeline section heading not auto-detected; relied on website + ctgov"},
+    "website": {"url": "https://www.milestonepharma.com/pipeline", "note": "CARDAMYST (etripamil) approved for PSVT; AFib-RVR in development"},
+    "ctgov": {"file": "data/mist_ctgov_compact.json", "trials_p1_p3": 10}
+  },
+  "pipeline": [
+    {
+      "asset": "Etripamil",
+      "aka": ["MSP-2017", "CARDAMYST"],
+      "modality": "Small molecule (intranasal nasal spray)",
+      "target": "L-type calcium channel blocker",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Atrial Fibrillation with Rapid Ventricular Rate (AFib-RVR)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ReVeRA-301",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 study of self-administered etripamil nasal spray in patients with AFib-RVR",
+          "nct_ids": ["NCT06716021"],
+          "trial_status": "Not yet recruiting (start 2027-01)",
+          "lead_sponsor": "Milestone Pharmaceuticals Inc.",
+          "key_milestones": ["Phase 2 ReVeRA-201 (NCT04467905) completed Aug 2023"]
+        },
+        {
+          "indication": "Pediatric Paroxysmal Supraventricular Tachycardia (PSVT)",
+          "highest_phase": "Phase 2",
+          "trial_name": "NODE-202",
+          "trial_design": "Open-label Phase 2 study in pediatric PSVT patients",
+          "nct_ids": ["NCT05763953"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Milestone Pharmaceuticals Inc.",
+          "key_milestones": ["Primary completion target 2027-06"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "CARDAMYST (etripamil nasal spray)",
+    "indication": "Adult PSVT termination",
+    "status": "FDA approved / commercial"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT03464019", "reason": "TERMINATED - NODE-301"},
+    {"nct": "NCT03635996", "reason": "TERMINATED - NODE-302"}
+  ],
+  "excluded_partner_owned": [
+    {"nct": "NCT05511870", "reason": "Corxel Pharmaceuticals lead sponsor (Greater China partner)"},
+    {"nct": "NCT05410860", "reason": "Corxel Pharmaceuticals lead sponsor (Greater China partner)"}
+  ],
+  "summary_counts": {"assets": 1, "phase3": 1, "phase2": 1, "phase1": 0}
+}

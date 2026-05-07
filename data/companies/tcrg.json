@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Cannaisseur Group Inc.",
+  "ticker": "TCRG",
+  "exchange": "OTC",
+  "cik": "0001879270",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001185185-26-001012", "filing_date": "2026-03-23", "path": "data/tcrg_10k_pipeline_section.html"},
+    "website": {"url": "https://innomedicinals.com", "note": "Consumer hemp/CBD retail brand of subsidiary Atlanta CBD; no drug pipeline."},
+    "ctgov": {"path": "data/tcrg_ctgov_compact.json", "trials_total": 0, "active_or_recruiting": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "TCRG is a consumer hemp/CBD retail and health-and-wellness company. Its only operating asset is a 51% interest in Atlanta CBD, Inc., which sells hemp-derived CBD consumer products under the INNO Medicinals brand. The company conducts no FDA-regulated drug development, has no clinical-stage assets, and runs no Phase 1/2/3 trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"active_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0}
+}

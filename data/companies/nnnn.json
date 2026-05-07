@@ -1,0 +1,24 @@
+{
+  "issuer_name": "Anbio Biotechnology",
+  "ticker": "NNNN",
+  "exchange": "Nasdaq",
+  "cik": "0001982708",
+  "region": "Germany (HQ Frankfurt) — US-listed foreign private issuer",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Anbio Biotechnology is an in vitro diagnostics (IVD) and medical device company commercializing SARS-CoV-2 / influenza antigen rapid tests, lateral flow / fluorescence / chemiluminescence immunoassays, LAMP and RT-PCR products, plus the AP-100 ultra-fast PCR platform. It does not develop therapeutic drug candidates. There is no internal P1/P2/P3 drug pipeline.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (no 10-K on EDGAR for CIK 0001982708 at snapshot date)"},
+    "website": {"url": "https://www.anbio.com/", "note": "/pipeline path returns 404; site describes IVD product portfolio rather than drug pipeline."},
+    "ctgov": {"path": "data/nnnn_ctgov_compact.json", "note": "0 trials returned for sponsor 'Anbio'."}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "type": "IVD diagnostic tests and medical devices",
+    "examples": ["SARS-CoV-2 antigen rapid test", "SARS-CoV-2 / Influenza A/B combo antigen test", "Chikungunya IgM/IgG rapid test", "AP-100 Ultra-Fast PCR system", "Lateral flow / fluorescence / chemiluminescence immunoassay panels covering infectious disease, cardiovascular, inflammation, oncology, endocrine, renal, diabetes, pharmacogenomics and drugs of abuse markers"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0}
+}

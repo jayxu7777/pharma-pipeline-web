@@ -1,0 +1,37 @@
+{
+  "issuer_name": "Escalon Medical Corp.",
+  "ticker": "ESMC",
+  "exchange": "OTC",
+  "cik": "0000862668",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "file": "data/esmc_10k_full.htm",
+      "note": "10-K downloaded; pipeline-section heuristic did not match (no R&D pipeline section — issuer is a commercial-stage ophthalmic device/distribution company)."
+    },
+    "website": {
+      "url": "https://www.escalonmedical.com/",
+      "note": "Corporate site reachable but no clinical pipeline page; site describes commercial ophthalmic device portfolio (e.g., Sonomed ultrasound, Trek Medical Products distribution)."
+    },
+    "ctgov": {
+      "queried_sponsor": "Escalon Medical",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Escalon Medical markets ophthalmic ultrasound A/B-scan systems (Sonomed brand) and distributes ophthalmic surgical/diagnostic products via its Trek Medical Products subsidiary. These are 510(k)-cleared commercial devices, not pipeline assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech / device distributor. Escalon is a small commercial ophthalmic-device and distribution company (Sonomed ultrasound, Trek Medical Products); no active company-sponsored P1/P2/P3 clinical trials and no proprietary drug pipeline."
+}

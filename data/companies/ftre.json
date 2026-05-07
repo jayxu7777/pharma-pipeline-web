@@ -1,0 +1,37 @@
+{
+  "issuer_name": "Fortrea Holdings Inc.",
+  "ticker": "FTRE",
+  "exchange": "Nasdaq",
+  "cik": "0001965040",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001628280-26-012244",
+      "path": "data/ftre_10k_pipeline_section.html",
+      "note": "10-K Item 1 confirms Fortrea is a contract research organization (CRO) providing Phase I-IV clinical trial management, clinical pharmacology, and consulting services to biopharma and medtech customers. One reporting segment: Clinical Services. No proprietary drug or device assets owned by the company."
+    },
+    "website": {
+      "error": "No corporate pipeline page exists for a CRO; Fortrea.com lists service offerings only."
+    },
+    "ctgov": {
+      "path": "data/ftre_ctgov_compact.json",
+      "note": "Sponsor query returns 0 P1-3 trials lead-sponsored by Fortrea. Hits associated with Fortrea (Italfarmaco, Innovent, Vifor, D3 Bio, Anbogen, Alebund, LeonaBio) are client-sponsored studies where Fortrea provides services; per workflow rules these are excluded from a CRO's pipeline."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "All trials in which Fortrea appears in ClinicalTrials.gov are client-sponsored (Italfarmaco, Innovent Biologics, Vifor International, D3 Bio, Anbogen Therapeutics, Alebund Pharmaceuticals, LeonaBio); Fortrea acts as CRO service provider, not as asset owner."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Services / CRO company - no proprietary clinical pipeline. Fortrea Holdings (spun off from Labcorp on 2023-06-29) is a global contract research organization providing Phase I-IV trial management, clinical pharmacology (CRUs in Leeds, Dallas, Daytona, Madison), and consulting services to pharmaceutical, biotechnology and medical device customers across ~100 countries. Single reporting segment (Clinical Services). The company does not own or develop drug or device assets."
+}

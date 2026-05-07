@@ -1,0 +1,40 @@
+{
+  "issuer_name": "Indaptus Therapeutics, Inc.",
+  "ticker": "INDP",
+  "exchange": "Nasdaq",
+  "cik": "0001857044",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-010585", "filing_date": "2026-03-17", "path": "data/indp_10k_pipeline_section.html"},
+    "website": {"error": "https://www.indaptusrx.com/pipeline returned 503; not accessible"},
+    "ctgov": {"path": "data/indp_ctgov_compact.json", "trials_found": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "Decoy20",
+      "aka": [],
+      "modality": "Killed multiple TLR-agonist Gram-negative bacteria (immunotherapy)",
+      "target": "Multiple TLR / NOD pathway agonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (HCC, CRC, pancreatic adenocarcinoma, NSCLC, SCCHN, urothelial, MSI-H) — combination with tislelizumab",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Decoy20 +/- Tislelizumab in Advanced Solid Tumors (Combination Study)",
+          "trial_design": "Open-label, dose-escalation Phase 1/2 study of weekly Decoy20 with BeOne anti-PD-1 antibody tislelizumab",
+          "nct_ids": ["NCT05651022"],
+          "trial_status": "Active, not recruiting (per CT.gov); 10-K (Mar 2026) reports enrollment discontinued in Combination Study and no participants remaining; Supply Agreement with BeOne terminated. No current plans to initiate new clinical trial.",
+          "lead_sponsor": "Indaptus Therapeutics, Inc.",
+          "key_milestones": ["May 2025: concluded enrollment in Decoy20 monotherapy weekly dosing", "2026 10-K: discontinued enrollment in Combination Study"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["HBV/HIV preclinical antiviral programs"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 0, "p2": 0, "p1_p2": 1, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Company is winding down its only clinical program (Decoy20 Combination Study) per Mar 2026 10-K — kept in pipeline as currently still listed Active/Not Recruiting on CT.gov; reader should note discontinuation of new enrollment."
+}

@@ -1,0 +1,42 @@
+{
+  "issuer_name": "BAXTER INTERNATIONAL INC",
+  "ticker": "BAX",
+  "exchange": "NYSE",
+  "cik": "0000010456",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "note": "10-K fetched (bax_10k_full.htm) but the parser found no R&D / pipeline section heading — Baxter is a medical-products and hospital-supplies company (IV therapies, infusion systems, surgical, advanced surgery, pharmaceuticals). It markets approved products rather than running a drug discovery pipeline; following the 2024 Vantive (kidney care) divestiture the remaining business is chiefly devices and approved injectables."
+    },
+    "website": {
+      "error": "no public drug pipeline page — Baxter publishes product portfolios (Medical Products & Therapies, Healthcare Systems & Technologies, Pharmaceuticals) but not a clinical-stage pipeline."
+    },
+    "ctgov": {
+      "sponsor_query": "Baxter",
+      "trials_returned": 92,
+      "baxter_led": 30,
+      "baxter_led_active": 0,
+      "note": "All 30 Baxter-led studies are COMPLETED (29) or WITHDRAWN (1). The remaining 62 hits are investigator-initiated or other-sponsor trials that merely list a Baxter affiliate as collaborator. No active P1/P2/P3 trial is sponsored by Baxter."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Baxter sells approved hospital products: PD/HD dialysis solutions and devices (legacy, partly divested to Vantive 2024), Spectrum IQ infusion pumps, Hillrom hospital beds and connected-care platforms, parenteral nutrition (Clinimix, Clinolipid), inhaled anesthetics (Suprane, Brevibloc), generic injectables, hemostats and sealants (Floseal, Tisseel, Hemopatch). These are marketed products, not clinical-stage pipeline assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"reason": "All 30 Baxter-sponsored ctgov studies are COMPLETED or WITHDRAWN; not enumerated individually."}
+  ],
+  "excluded_partner_owned": [
+    {"reason": "62 ctgov hits with Baxter as collaborator only (lead sponsor is an academic center or other pharma); not proprietary."}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech / hospital-products company with no active proprietary P1/P2/P3 clinical trials in the public registry as of snapshot. Baxter's R&D output is incremental device and approved-injectable line extensions, not investigational new molecular entities."
+}

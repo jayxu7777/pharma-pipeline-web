@@ -1,0 +1,70 @@
+{
+  "issuer_name": "Genelux Corporation",
+  "ticker": "GNLX",
+  "exchange": "Nasdaq",
+  "cik": "0001231457",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-011616", "filed": "2026-03-19", "path": "data/gnlx_10k_pipeline_section.html"},
+    "website": {"url": "https://genelux.com/our-program/"},
+    "ctgov": {"path": "data/gnlx_ctgov_compact.json", "sponsor_query": "Genelux"}
+  },
+  "pipeline": [
+    {
+      "asset": "Olvi-Vec",
+      "aka": ["olvimulogene nanivacirepvec", "GL-ONC1", "GLV-1h68"],
+      "modality": "Oncolytic vaccinia virus immunotherapy",
+      "target": "Tumor-selective oncolysis (vaccinia virus)",
+      "license_origin": "Internal (Genelux CHOICE platform)",
+      "indications": [
+        {
+          "indication": "Platinum-resistant/refractory ovarian cancer (PRROC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "OnPrime / GOG-3076",
+          "trial_design": "Randomized Phase 3 of Olvi-Vec + platinum-doublet + bevacizumab vs. physician's choice chemotherapy + bevacizumab",
+          "nct_ids": ["NCT05281471"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Genelux Corporation",
+          "key_milestones": ["Primary completion expected 2026-06"]
+        },
+        {
+          "indication": "Non-small cell lung cancer (NSCLC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Olvi-Vec NSCLC Phase 2",
+          "trial_design": "Olvi-Vec + platinum-doublet + physician's choice immune checkpoint inhibitor vs. docetaxel",
+          "nct_ids": ["NCT06463665"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Genelux Corporation",
+          "key_milestones": ["Started 2024-09-26", "Primary completion expected 2027-02"]
+        },
+        {
+          "indication": "Extensive-stage small cell lung cancer (ES-SCLC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Olvi-Vec + platinum/etoposide in late-phase SCLC",
+          "trial_design": "Olvi-Vec combined with platinum (cisplatin or carboplatin) and etoposide",
+          "nct_ids": ["NCT07136285"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Newsoara HYK Biopharmaceutical (Shanghai) Co., Ltd. (Genelux collaborator)",
+          "key_milestones": ["Started 2023-07-24", "Primary completion expected 2026-12"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "V2ACT immunotherapy", "reason": "Phase 1/2a planned; IND active but trial not yet started per company website"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT02714374", "reason": "TERMINATED"},
+    {"nct": "NCT01443260", "reason": "COMPLETED legacy Phase 1/2"},
+    {"nct": "NCT01584284", "reason": "COMPLETED legacy Phase 1"},
+    {"nct": "NCT00794131", "reason": "COMPLETED legacy Phase 1"},
+    {"nct": "NCT01766739", "reason": "COMPLETED legacy Phase 1 (MSKCC-led)"},
+    {"nct": "NCT02759588", "reason": "COMPLETED legacy Phase 1/2"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "V-VET1", "reason": "Veterinary; out-licensed to ELIAS Animal Health"}
+  ],
+  "summary_counts": {"assets": 1, "P3": 1, "P2": 1, "P1": 1, "indications": 3}
+}

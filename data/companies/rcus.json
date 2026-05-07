@@ -1,0 +1,243 @@
+{
+  "issuer_name": "Arcus Biosciences, Inc.",
+  "ticker": "RCUS",
+  "exchange": "NYSE",
+  "cik": "0001724521",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001724521-26-000009",
+      "filed": "2026-02-25",
+      "path": "data/rcus_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.arcusbio.com/pipeline/",
+      "fetched_via": "WebFetch"
+    },
+    "ctgov": {
+      "sponsor": "Arcus Biosciences",
+      "path": "data/rcus_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Casdatifan",
+      "aka": ["AB521"],
+      "modality": "Small molecule (oral HIF-2α inhibitor)",
+      "target": "HIF-2α",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Clear Cell Renal Cell Carcinoma (post-IO 2L+)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PEAK-1",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of casdatifan + cabozantinib vs placebo + cabozantinib",
+          "nct_ids": ["NCT07011719"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Arcus Biosciences, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Clear Cell Renal Cell Carcinoma (1L, combination)",
+          "highest_phase": "Phase 3",
+          "trial_name": "eVOLVE-RCC (volrustomig +/- casdatifan vs nivo+ipi)",
+          "trial_design": "Randomized open-label Phase 3 (AstraZeneca-sponsored, Arcus collaborator)",
+          "nct_ids": ["NCT07000149"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "AstraZeneca",
+          "key_milestones": []
+        },
+        {
+          "indication": "Solid tumors (RCC, ccRCC, other) — dose-finding/combinations",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ARC-20",
+          "trial_design": "Phase 1 monotherapy and combinations (Arcus-sponsored)",
+          "nct_ids": ["NCT05536141"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Arcus Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Quemliclustat",
+      "aka": ["AB680"],
+      "modality": "Small molecule (CD73 inhibitor, IV)",
+      "target": "CD73 (extracellular adenosine pathway)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Metastatic Pancreatic Ductal Adenocarcinoma (1L)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PRISM-1",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 (quemli + gem/nab-pac)",
+          "nct_ids": ["NCT06608927"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Arcus Biosciences, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "GI Malignancies (combination platform: PDAC, biliary, etc.)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ARC-8 / supporting Phase 1/2",
+          "trial_design": "Open-label Phase 1/2 combinations",
+          "nct_ids": ["NCT04104672"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Arcus Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Domvanalimab",
+      "aka": ["AB154"],
+      "modality": "Biologic (Fc-silent anti-TIGIT monoclonal antibody, IV)",
+      "target": "TIGIT",
+      "license_origin": "Internally discovered; co-developed with Gilead Sciences (option exercised)",
+      "indications": [
+        {
+          "indication": "Stage III Unresectable NSCLC (post-CRT)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PACIFIC-8",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of durvalumab + domvanalimab (AstraZeneca-sponsored)",
+          "nct_ids": ["NCT05211895"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "AstraZeneca",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic NSCLC (1L)",
+          "highest_phase": "Phase 3",
+          "trial_name": "STAR-121",
+          "trial_design": "Randomized, open-label Phase 3 of zim + dom + chemo vs pembro + chemo (Gilead-sponsored)",
+          "nct_ids": ["NCT05502237"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Gilead Sciences",
+          "key_milestones": []
+        },
+        {
+          "indication": "Upper GI Adenocarcinoma (advanced, 1L)",
+          "highest_phase": "Phase 3",
+          "trial_name": "STAR-221",
+          "trial_design": "Randomized, open-label Phase 3 of zim + dom + chemo vs nivo + chemo",
+          "nct_ids": ["NCT05568095"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Arcus Biosciences, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Upper GI / NSCLC / HNSCC (Phase 2 platform)",
+          "highest_phase": "Phase 2",
+          "trial_name": "EDGE-Gastric, EDGE-Lung and Gilead substudies",
+          "trial_design": "Open-label Phase 2 combinations",
+          "nct_ids": ["NCT05329766", "NCT05633667", "NCT05676931", "NCT06727565", "NCT04736173"],
+          "trial_status": "Recruiting / Active, not recruiting",
+          "lead_sponsor": "Arcus Biosciences, Inc. / Gilead Sciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Zimberelimab",
+      "aka": ["AB122", "GLS-010"],
+      "modality": "Biologic (anti-PD-1 monoclonal antibody, IV)",
+      "target": "PD-1",
+      "license_origin": "In-licensed from WuXi Biologics/Gloria Biosciences for ex-China territories",
+      "indications": [
+        {
+          "indication": "Backbone PD-1 used across Arcus combination trials (NSCLC, GI, RCC)",
+          "highest_phase": "Phase 3 (as combination component)",
+          "trial_name": "Used in PRISM-1, STAR-221, STAR-121 backbone",
+          "trial_design": "Combination backbone in pivotal Phase 3 programs and Phase 2 EDGE platform",
+          "nct_ids": ["NCT05568095", "NCT05502237", "NCT06608927"],
+          "trial_status": "Active across multiple Phase 3",
+          "lead_sponsor": "Arcus Biosciences, Inc. / Gilead Sciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Etrumadenant",
+      "aka": ["AB928"],
+      "modality": "Small molecule (dual A2a/A2b adenosine receptor antagonist, oral)",
+      "target": "A2a / A2b adenosine receptors",
+      "license_origin": "Internally developed; co-developed with Gilead Sciences",
+      "indications": [
+        {
+          "indication": "Solid tumors (combination Phase 2 in CRC and others, investigator-led platform)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Multiple investigator-initiated combinations",
+          "trial_design": "Open-label Phase 2 combinations",
+          "nct_ids": ["NCT05024097"],
+          "trial_status": "Recruiting (Cornell rectal cancer)",
+          "lead_sponsor": "Investigator-led with Arcus collaboration",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AB598",
+      "aka": [],
+      "modality": "Biologic (anti-CD39 monoclonal antibody, IV)",
+      "target": "CD39 (extracellular adenosine pathway)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (multi-tumor expansion)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ARC-25",
+          "trial_design": "Phase 1 monotherapy and combination dose-expansion",
+          "nct_ids": ["NCT05891171"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Arcus Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AB801",
+      "aka": [],
+      "modality": "Small molecule (selective AXL inhibitor, oral)",
+      "target": "AXL receptor tyrosine kinase",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Advanced cancers (NSCLC focus, with docetaxel)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ARC-27",
+          "trial_design": "Phase 1 monotherapy and combination",
+          "nct_ids": ["NCT06120075"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Arcus Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {},
+  "excluded_preclinical": [
+    "AB102 MRGPRX2 antagonist (atopic dermatitis, urticaria) — preclinical / I&I expansion",
+    "Small-molecule TNF inhibitor (RA, psoriasis, IBD) — preclinical",
+    "CCR6 antagonist (psoriasis) — preclinical",
+    "Anti-CD89 mAb (RA) — preclinical",
+    "CD40L inhibitor (MS, SLE) — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT06191796 STELLAR-009 zanzalintinib + AB521 (TERMINATED)",
+    "NCT07283848 zim+dom in GE adenocarcinoma (WITHDRAWN)",
+    "NCT04892875 zim/etrumadenant in HNSCC (WITHDRAWN)",
+    "NCT05177770 SRF617 in mCRPC (TERMINATED, Coherus-led)",
+    "NCT05419479 switch-maintenance pancreatic (SUSPENDED, investigator-led)",
+    "Various COMPLETED Phase 1/2 etrumadenant/zimberelimab/AB680 platform studies"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 7,
+    "phase_3_indications": 5,
+    "phase_2_indications": 2,
+    "phase_1_indications": 2,
+    "notes": "Multiple Phase 3 reflect partnered registrational programs (Gilead, AstraZeneca) where Arcus retains material economics. Zimberelimab counted as a backbone, not standalone indication."
+  }
+}

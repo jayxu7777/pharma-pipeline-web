@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Kewaunee Scientific Corp",
+  "ticker": "KEQU",
+  "exchange": "Nasdaq",
+  "cik": "0000055529",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000055529-25-000026",
+      "filed": "2025-07-02",
+      "doc": "kequ-20250430.htm",
+      "note": "10-K downloaded but no pipeline section found — issuer is a laboratory furniture / casework manufacturer, not a drug or device developer."
+    },
+    "website": {
+      "error": "no public pipeline page — issuer is a laboratory furniture manufacturer (kewaunee.com markets casework, fume hoods, lab furniture); no drug or clinical pipeline exists."
+    },
+    "ctgov": {
+      "queries": ["spons:Kewaunee Scientific"],
+      "raw_total": 0,
+      "kept_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Designer and manufacturer of laboratory, healthcare, and technical furniture (casework, fume hoods, biological safety cabinets, adaptable benching, workstations). No therapeutic products."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Laboratory furniture and casework manufacturer (fume hoods, lab benches, biosafety cabinets). No proprietary drug or clinical-stage device pipeline. Mis-bucketed under wide_keyword_match."
+}

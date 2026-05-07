@@ -1,0 +1,59 @@
+{
+  "issuer_name": "Inhibitor Therapeutics, Inc.",
+  "ticker": "INTI",
+  "exchange": "OTC",
+  "cik": "0001042418",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-012751",
+      "filing_date": "2026-03-26",
+      "path": "data/inti_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found; inhibitortx.com referenced in 10-K but not crawled"
+    },
+    "ctgov": {
+      "path": "data/inti_ctgov_compact.json",
+      "trials_kept": 0,
+      "note": "Zero ctgov hits under Inhibitor Therapeutics sponsor name"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Itraconazole (Micro-ITRA)",
+      "aka": ["Avior micronized/amorphous itraconazole", "HP2001 program"],
+      "modality": "Small molecule (repurposed antifungal, anti-angiogenic via VEGFR2/VDAC1-AMPK-mTORC1)",
+      "target": "VEGFR2 trafficking; VDAC1/AMPK/mTORC1 endothelial axis",
+      "license_origin": "Exclusive license from Johns Hopkins University (US Patent 8,980,930); proprietary Avior formulation",
+      "indications": [
+        {
+          "indication": "Basal Cell Carcinoma Nevus Syndrome (BCCNS / Gorlin Syndrome)",
+          "highest_phase": "Phase 2 (Phase IIb data complete; pre-NDA stage)",
+          "trial_name": "Study HP2001",
+          "trial_design": "Phase IIb open-label, 38 patients, 477 surgically eligible target lesions; per-lesion ORR 57.7%, patient-level disease control 97.4%",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase IIb dataset complete; FDA Type C meeting granted Feb 2026, written responses expected May 2026; pursuing 505(b)(2) NDA pathway",
+          "lead_sponsor": "Inhibitor Therapeutics, Inc.",
+          "key_milestones": [
+            "Type C meeting granted (granted Feb 2026)",
+            "FDA written responses expected May 2026",
+            "Holds orphan-drug designation for itraconazole in BCCNS",
+            "Avior PK bridging work in progress"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_1": 0,
+    "phase_2": 1,
+    "phase_3": 0
+  }
+}

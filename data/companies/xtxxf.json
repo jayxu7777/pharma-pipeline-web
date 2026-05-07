@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Adastra Holdings Ltd.",
+  "ticker": "XTXXF",
+  "exchange": "OTC",
+  "cik": "0001891512",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Canada) — no 10-K filed; reports under Canadian/cross-border framework"},
+    "website": {"note": "Adastra is a cannabis and psilocybin processor/extractor; not a clinical drug developer"},
+    "ctgov": {"path": "data/xtxxf_ctgov_compact.json", "trials_found": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Adastra Holdings is a Canadian cannabis and psychedelic-substances processor/extractor (Health Canada-licensed dealer for cocaine, psilocybin, MDMA used in Canadian SAP). It supplies bulk active substances to third parties; it does not run its own drug-development clinical trials. Zero CT.gov sponsored trials."
+}

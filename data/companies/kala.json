@@ -1,0 +1,41 @@
+{
+  "issuer_name": "KALA BIO, Inc.",
+  "ticker": "KALA",
+  "exchange": "Nasdaq",
+  "cik": "0001479419",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-15",
+      "accession": "0001104659-26-043782",
+      "path": "data/kala_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://kalarx.com/pipeline",
+      "error": "Page returned only the company name; no rendered pipeline content"
+    },
+    "ctgov": {
+      "path": "data/kala_ctgov_compact.json",
+      "trial_count": 9,
+      "note": "Searched as Kala Pharmaceuticals (legacy name). All trials are completed or terminated."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "On Sep 28, 2025, board determined to cease development of KPI-012 and the entire MSC-S platform after the Phase 2b CHASE trial in PCED missed its primary and key secondary endpoints. Workforce reduced ~51%, then in Sep/Oct 2025 substantially all remaining staff terminated following Oxford Finance default notice. Per the FY2025 10-K (filed April 2026): 'We do not have any ongoing clinical trials as of the date of this filing.' Company is in strategic transition, evaluating sale/license of legacy MSC-S assets (KPI-012, KPI-014) and developing an on-premises AI platform-as-a-service (Researgency, exclusively licensed from Younet AI on March 3, 2026).",
+  "excluded_preclinical": [
+    {"asset": "KPI-014", "modality": "MSC-S", "status": "Preclinical; available for out-licensing"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "KPI-012", "indication": "Persistent Corneal Epithelial Defect (PCED)", "ncts": ["NCT05727878"], "reason": "Phase 2b CHASE trial failed primary endpoint Sep 2025; development discontinued; seeking out-licensing"},
+    {"asset": "KPI-121 (loteprednol etabonate ophthalmic suspension; legacy products EYSUVIS / INVELTYS)", "ncts": ["NCT02218489", "NCT02163824", "NCT02819284", "NCT02188160", "NCT03596723", "NCT03616899", "NCT02793817", "NCT02813265"], "reason": "Legacy commercial ophthalmic products divested in 2022; trials completed/terminated"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 0,
+    "P3_indications": 0,
+    "P2_indications": 0,
+    "P1_indications": 0
+  }
+}

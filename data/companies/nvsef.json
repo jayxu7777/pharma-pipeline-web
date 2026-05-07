@@ -1,0 +1,120 @@
+{
+  "issuer_name": "Novartis AG",
+  "ticker": "NVSEF",
+  "exchange": "OTC",
+  "cik": "0001114448",
+  "region": "Switzerland (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. Coverage focused on disclosed late-stage (Phase 3 / Registration) novel-asset candidates from corporate pipeline page; full mid/early pipeline contains hundreds of indications and is summarized only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer \u2014 files 20-F instead of 10-K"},
+    "website": {
+      "url": "https://www.novartis.com/research-development/novartis-pipeline",
+      "fetched": true,
+      "notes": "Late-stage table extracted (Phase 3 + Registration); NCT IDs not displayed on pipeline page"
+    },
+    "ctgov": {
+      "queries": ["sponsor: Novartis"],
+      "trials_found": "hundreds (compact JSON ~80k lines); not enumerated per-trial in this synthesis due to scale"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Pluvicto",
+      "aka": ["AAA617", "177Lu-PSMA-617"],
+      "modality": "Radioligand therapy (Lu-177)",
+      "target": "PSMA",
+      "license_origin": "Internal (Advanced Accelerator Applications)",
+      "indications": [
+        {"indication": "Metastatic hormone-sensitive prostate cancer (mHSPC)", "highest_phase": "Registration", "trial_name": "PSMAddition", "trial_design": "Randomized Phase 3", "nct_ids": ["NCT04720157"], "trial_status": "Active", "lead_sponsor": "Novartis", "key_milestones": ["Filed for regulatory approval"]},
+        {"indication": "Oligometastatic prostate cancer", "highest_phase": "Phase 3", "trial_name": "Late-stage program", "trial_design": "Phase 3", "nct_ids": "Not on public registry", "trial_status": "Ongoing per pipeline page", "lead_sponsor": "Novartis", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "225Ac-PSMA-617",
+      "aka": ["AAA817"],
+      "modality": "Radioligand therapy (Ac-225)",
+      "target": "PSMA",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Metastatic castration-resistant prostate cancer (mCRPC, post-Lu and earlier line)", "highest_phase": "Phase 3", "trial_name": "AcTION program", "trial_design": "Phase 3", "nct_ids": "Not on public registry", "trial_status": "Ongoing per pipeline page", "lead_sponsor": "Novartis", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Lutathera",
+      "aka": ["AAA601", "177Lu-DOTATATE"],
+      "modality": "Radioligand therapy (Lu-177)",
+      "target": "Somatostatin receptor",
+      "license_origin": "Internal (AAA)",
+      "indications": [
+        {"indication": "Gastroenteropancreatic neuroendocrine tumors (line-extension Phase 3)", "highest_phase": "Phase 3", "trial_name": "NETTER-2 / additional GEP-NET expansion", "trial_design": "Phase 3", "nct_ids": ["NCT03972488"], "trial_status": "Ongoing", "lead_sponsor": "Novartis", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Vijoyce (alpelisib)",
+      "aka": ["BYL719"],
+      "modality": "Small molecule (PI3K\u03b1 inhibitor)",
+      "target": "PI3K\u03b1",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Lymphatic malformations", "highest_phase": "Phase 3", "trial_name": "Phase 3 program", "trial_design": "Phase 3", "nct_ids": "Not on public registry", "trial_status": "Ongoing per pipeline page", "lead_sponsor": "Novartis", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Pelabresib",
+      "aka": ["DAK539", "CPI-0610"],
+      "modality": "Small molecule (BET inhibitor)",
+      "target": "BET (BRD4)",
+      "license_origin": "Acquired via MorphoSys",
+      "indications": [
+        {"indication": "Myelofibrosis (combo with ruxolitinib)", "highest_phase": "Phase 3", "trial_name": "MANIFEST-2", "trial_design": "Randomized Phase 3", "nct_ids": ["NCT04603495"], "trial_status": "Active", "lead_sponsor": "Novartis (formerly MorphoSys)", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Del-brax (delpacibart braxlosiran)",
+      "aka": ["DWH213"],
+      "modality": "siRNA",
+      "target": "DUX4",
+      "license_origin": "Acquired via Avidity / Dyne / partner (per Novartis pipeline)",
+      "indications": [
+        {"indication": "Facioscapulohumeral muscular dystrophy (FSHD)", "highest_phase": "Phase 3", "trial_name": "Phase 3 program", "trial_design": "Phase 3", "nct_ids": "Not on public registry", "trial_status": "Ongoing per pipeline page", "lead_sponsor": "Novartis", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Cosentyx (secukinumab)",
+      "aka": ["AIN457"],
+      "modality": "Monoclonal antibody",
+      "target": "IL-17A",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Polymyalgia rheumatica (line-extension)", "highest_phase": "Registration", "trial_name": "REPLENISH", "trial_design": "Phase 3", "nct_ids": ["NCT05767034"], "trial_status": "Filed", "lead_sponsor": "Novartis", "key_milestones": []}
+      ]
+    },
+    {
+      "asset": "Mayzent (siponimod)",
+      "aka": ["BAF312"],
+      "modality": "Small molecule (S1P modulator)",
+      "target": "S1P1/5",
+      "license_origin": "Internal",
+      "indications": [
+        {"indication": "Pediatric multiple sclerosis", "highest_phase": "Phase 3", "trial_name": "NEOS", "trial_design": "Phase 3 pediatric MS", "nct_ids": ["NCT04926818"], "trial_status": "Ongoing", "lead_sponsor": "Novartis", "key_milestones": []}
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Novartis markets a broad portfolio of approved drugs (Entresto, Cosentyx, Kisqali, Pluvicto, Kesimpta, Leqvio, Lutathera, Scemblix, Tafinlar+Mekinist, Promacta, etc.). Listing is non-exhaustive and out of scope for this active-clinical pipeline snapshot."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 8,
+    "phase_3": 8,
+    "phase_2": 0,
+    "phase_1": 0,
+    "indications_active": 9,
+    "notes": "Counts reflect disclosed late-stage novel-asset programs only; Novartis has many more Phase 1/2 programs not enumerated here."
+  },
+  "no_active_clinical_pipeline_reason": null,
+  "synthesis_caveat": "Novartis is a global mega-cap pharma with hundreds of active P1/P2/P3 trials across dozens of assets. This file enumerates only the late-stage (Phase 3 / Registration) novel-asset programs disclosed on the corporate pipeline page. A full per-trial cross-reference against ctgov is infeasible at this granularity; per-NCT details are available in data/nvsef_ctgov_compact.json (~80k lines)."
+}

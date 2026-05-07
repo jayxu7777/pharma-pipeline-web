@@ -1,0 +1,87 @@
+{
+  "issuer_name": "Molecular Partners AG",
+  "ticker": "MOLN",
+  "exchange": "Nasdaq",
+  "cik": "0001745114",
+  "region": "Switzerland",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://www.molecularpartners.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/moln_ctgov_compact.json", "n_records": 16}
+  },
+  "pipeline": [
+    {
+      "asset": "MP0533",
+      "aka": [],
+      "modality": "Multispecific DARPin CD3 engager",
+      "target": "CD33 x CD123 x CD70 x CD3",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory Acute Myeloid Leukemia and AML/Myelodysplastic Syndrome",
+          "highest_phase": "Phase 1/2a",
+          "trial_name": "MP0533 first-in-human Phase 1/2a",
+          "trial_design": "Phase 1/2a monotherapy, dose escalation/expansion in r/r AML and high-risk MDS",
+          "nct_ids": ["NCT05673057"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Molecular Partners AG",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MP0712",
+      "aka": ["[212Pb]Pb-DOTAM-MAM279", "[212Pb]Pb-MP0712"],
+      "modality": "212Pb-radiolabeled DARPin radioconjugate (alpha-particle radioligand therapy)",
+      "target": "DLL3",
+      "license_origin": "Co-developed with Orano Med",
+      "indications": [
+        {
+          "indication": "Small Cell Lung Cancer and large-cell pulmonary neuroendocrine carcinoma (LCNEC)",
+          "highest_phase": "Phase 1/2a",
+          "trial_name": "MP0712 first-in-human Phase 1/2a",
+          "trial_design": "Phase 1/2a in patients with SCLC and neuroendocrine tumors; uses [203Pb]Pb-MP0712 as imaging agent and [212Pb]Pb-MP0712 as therapeutic",
+          "nct_ids": ["NCT07278479"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Molecular Partners AG",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MP0317",
+      "aka": [],
+      "modality": "Tri-specific FAP-conditional CD40 agonist DARPin",
+      "target": "Fibroblast Activation Protein (FAP) x CD40",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced biliary tract carcinoma (first-line, in combination with chemoimmunotherapy)",
+          "highest_phase": "Phase 2",
+          "trial_name": "MP0317 + Gem/Cis + Durvalumab Phase 2 (investigator-initiated)",
+          "trial_design": "Phase 2 investigator-initiated trial in combination with gemcitabine, cisplatin and durvalumab in first-line advanced biliary tract carcinoma",
+          "nct_ids": ["NCT07036380"],
+          "trial_status": "Recruiting (investigator-initiated; sponsored by CHU Besancon)",
+          "lead_sponsor": "Centre Hospitalier Universitaire de Besancon",
+          "key_milestones": ["Earlier company-sponsored Phase 1 (NCT05098405) terminated; asset advanced through investigator-initiated combination study"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "MP0726 (212Pb x MSLN; ovarian cancer; preclinical, co-developed with Orano Med)",
+    "Radio C / D / E / F undisclosed radio-DARPin programs (research)",
+    "Switch-DARPin (CD3 x CD2 x MSLN x EpCAM; research)",
+    "MP0621 (cKIT x CD16a x CD47; HSC conditioning; preclinical)"
+  ],
+  "excluded_legacy_terminated": [
+    "MP0250 (VEGF/HGF DARPin; NCT02194426 Phase 1/2 COMPLETED, NCT03136653 Phase 1/2 COMPLETED, NCT03418532 Phase 1 TERMINATED) — discontinued",
+    "MP0317 NCT05098405 company-sponsored Phase 1 TERMINATED (asset continues via investigator-initiated study)"
+  ],
+  "excluded_partner_owned": [
+    "Ensovibep / MP0420 (SARS-CoV-2 DARPin; out-licensed to Novartis): NIAID-sponsored Phase 3 NCT05780463 COMPLETED; NIAID Phase 3 NCT04501978 COMPLETED; Novartis Phase 2/3 NCT04828161 TERMINATED; company-sponsored Phase 2 NCT04834856 COMPLETED — no active company-sponsored development"
+  ],
+  "summary_counts": {"total_assets": 3, "P3": 0, "P2": 1, "P1_P2": 2, "P1": 0}
+}

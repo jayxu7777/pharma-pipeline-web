@@ -1,0 +1,100 @@
+{
+  "issuer_name": "LEXICON PHARMACEUTICALS, INC.",
+  "ticker": "LXRX",
+  "exchange": "Nasdaq",
+  "cik": "0001062822",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001062822-26-000050",
+      "filed": "2026-03-05",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1062822/000106282226000050/lxrx-20251231.htm"
+    },
+    "website": {"error": "https://www.lexpharma.com/pipeline returned TLS cert error and lexicon.com returned 410; relied on 10-K + ctgov + corporate press releases."},
+    "ctgov": {"endpoint": "ClinicalTrials.gov v2 API", "sponsor_query": "Lexicon Pharmaceuticals", "unique_p1_p3_trials": 61}
+  },
+  "pipeline": [
+    {
+      "asset": "Sotagliflozin",
+      "aka": ["INPEFA", "ZYNQUISTA", "LX4211", "SAR439954"],
+      "modality": "Oral small-molecule dual SGLT1/SGLT2 inhibitor",
+      "target": "SGLT1 (intestinal) and SGLT2 (renal) glucose co-transporters",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Hypertrophic Cardiomyopathy (obstructive and non-obstructive HCM)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SONATA-HCM",
+          "trial_design": "Pivotal Phase 3 randomized, double-blind, placebo-controlled in symptomatic obstructive and non-obstructive HCM",
+          "nct_ids": ["NCT06481891"],
+          "trial_status": "RECRUITING — initiated September 24, 2024",
+          "lead_sponsor": "Lexicon Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Type 1 Diabetes with Diabetic Kidney Disease (slow kidney function decline)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SCORED-T1D-DKD (Sotagliflozin to Slow Kidney Function Decline in T1D)",
+          "trial_design": "Phase 3 randomized, placebo-controlled study",
+          "nct_ids": ["NCT06217302"],
+          "trial_status": "RECRUITING — initiated October 31, 2024",
+          "lead_sponsor": "Lexicon Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Type 1 Diabetes (safe-use with continuous ketone monitoring)",
+          "highest_phase": "Phase 3",
+          "trial_name": "CKM safe-use Phase 3",
+          "trial_design": "Phase 3 evaluating low- and high-dose sotagliflozin alongside dual continuous glucose and ketone monitoring",
+          "nct_ids": ["NCT07211802"],
+          "trial_status": "NOT_YET_RECRUITING — planned start July 1, 2026",
+          "lead_sponsor": "Lexicon Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Heart Failure Symptoms in Type 1 Diabetes",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 Sotagliflozin in HF symptoms + T1D",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2",
+          "nct_ids": ["NCT06435156"],
+          "trial_status": "RECRUITING — initiated January 28, 2025",
+          "lead_sponsor": "Lexicon Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Pilavapadin",
+      "aka": ["LX9211"],
+      "modality": "Oral small-molecule AAK1 inhibitor (adapter-associated kinase 1)",
+      "target": "AAK1",
+      "license_origin": "Internally discovered (originated from collaboration with Bristol-Myers Squibb)",
+      "indications": [
+        {
+          "indication": "Diabetic Peripheral Neuropathic Pain (DPNP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pilavapadin Phase 3 DPNP program (PROGRESS Phase 2 completed)",
+          "trial_design": "Pivotal Phase 3 program at 10 mg dose; FDA agreed no additional addiction studies required",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 3 development; advancing third-party collaboration discussions for further development/commercialization",
+          "lead_sponsor": "Lexicon Pharmaceuticals",
+          "key_milestones": ["Positive PROGRESS Phase 2 readout supporting 10 mg dose", "FDA agreement on Phase 3 design with no addiction studies required"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed": ["INPEFA (sotagliflozin) — heart failure / type 2 diabetes with CKD and CV risk factors (US, approved May 2023)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ZYNQUISTA (sotagliflozin) — Type 1 Diabetes glycemic-control NDA", "rationale": "FDA Complete Response Letters issued March 2019 and December 2024; NOOH proceedings ongoing — not an active clinical trial program."}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "LX9851", "rationale": "Out-licensed exclusively, worldwide to Novo Nordisk in March 2025; Novo Nordisk now responsible for all clinical development. Phase 1 obesity trial initiated by Novo March 2026 — partner-owned, not a Lexicon-sponsored clinical trial."}
+  ],
+  "summary_counts": {"assets": 2, "phase_3": 4, "phase_2": 1, "phase_1": 0}
+}

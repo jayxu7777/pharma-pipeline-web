@@ -1,0 +1,50 @@
+{
+  "issuer_name": "Revelation Biosciences, Inc.",
+  "ticker": "REVBW",
+  "exchange": "Nasdaq",
+  "cik": "0001810560",
+  "region": "USA",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/revbw_10k_pipeline_section.html", "filing_date": "2026-02-26", "accession": "0001193125-26-076552"},
+    "website": {"url": "https://revelationbiosciences.com/", "note": "PRIME study referenced; positive CRRT poster data Mar 30, 2026; AKI Advisory Board formed"},
+    "ctgov": {"file": "data/revbw_ctgov_compact.json", "trials": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "Gemini",
+      "aka": ["PHAD formulation", "Phosphorylated hexaacyl disaccharide"],
+      "modality": "Small-molecule TLR4 agonist (synthetic MPLA/PHAD) intravenous formulation",
+      "target": "Toll-like receptor 4 (TLR4) — innate immune modulation",
+      "license_origin": "In-house",
+      "indications": [
+        {
+          "indication": "Acute Kidney Injury (AKI)",
+          "highest_phase": "Phase 2/3 (planned adaptive)",
+          "trial_name": "GEM-AKI Phase 2/3 adaptive design study",
+          "trial_design": "Single Phase 2/3 adaptive design with primary composite endpoint of death and/or dialysis (FDA agreement reached end-2025)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — infrastructure build during 2026 (CRO engagement, blinded drug/placebo manufacturing); company intends to start as soon as feasible",
+          "lead_sponsor": "Revelation Biosciences, Inc.",
+          "key_milestones": ["FDA Type B end-2025 agreement on Phase 2/3 adaptive design", "Phase 1/2 CKD safety/tolerability completed Jul 2025 (NCT06863467)", "Positive CRRT poster Mar 30, 2026"]
+        },
+        {
+          "indication": "Chronic Kidney Disease (CKD)",
+          "highest_phase": "Phase 1/2 (completed); Phase 2 planned",
+          "trial_name": "Evaluation of the Safety and Tolerability of Gemini in Subjects With Stage 3-4 CKD",
+          "trial_design": "Phase 1/2 placebo-controlled safety/tolerability of intravenous Gemini in stage 3-4 CKD",
+          "nct_ids": ["NCT06863467"],
+          "trial_status": "COMPLETED (Jul 2025); 2026 preclinical tox to support repeat-dose Phase 2",
+          "lead_sponsor": "Revelation Biosciences, Inc",
+          "key_milestones": ["Completed Jul 22, 2025", "Repeat-dose Phase 2 planned after 2026 preclinical tox"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 0, "phase_2": 1, "phase_1": 0, "planned_phase_2_3": 1},
+  "blockers": "AKI Phase 2/3 not yet on registry (planned 2026 start); CKD Phase 1/2 completed and next study still pre-IND/preclinical tox."
+}

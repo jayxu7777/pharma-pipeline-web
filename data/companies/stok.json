@@ -1,0 +1,68 @@
+{
+  "issuer_name": "Stoke Therapeutics, Inc.",
+  "ticker": "STOK",
+  "exchange": "Nasdaq",
+  "cik": "0001623526",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-108362", "filing_date": "2026-03-16", "doc": "stok-20251231.htm"},
+    "website": {"url": "https://www.stoketherapeutics.com/pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"unique_p1_p3_trials": 3, "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "zorevunersen",
+      "aka": ["STK-001"],
+      "modality": "Antisense oligonucleotide (ASO, TANGO platform)",
+      "target": "SCN1A (upregulation of wild-type allele)",
+      "license_origin": "Internal; ex-US/Canada/Mexico licensed to Biogen",
+      "indications": [
+        {
+          "indication": "Dravet syndrome",
+          "highest_phase": "Phase 3",
+          "trial_name": "EMPEROR",
+          "trial_design": "Global pivotal Phase 3 double-blind, sham-controlled, ~150 patients",
+          "nct_ids": ["NCT06872125"],
+          "trial_status": "Recruiting (initiated May 2025; first patient dosed Aug 2025; enrollment expected to complete Q2 2026; pivotal data mid-2027)",
+          "lead_sponsor": "Stoke Therapeutics, Inc.",
+          "key_milestones": ["Enrollment completion Q2 2026", "Pivotal Phase 3 data mid-2027", "NDA submission to follow"]
+        },
+        {
+          "indication": "Dravet syndrome (open-label extension)",
+          "highest_phase": "Phase 2",
+          "trial_name": "OLE (Open-Label Extension)",
+          "trial_design": "Open-label extension for prior trial participants",
+          "nct_ids": ["NCT04740476"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Stoke Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "STK-002",
+      "aka": [],
+      "modality": "Antisense oligonucleotide (ASO, TANGO platform)",
+      "target": "OPA1 (upregulation of wild-type allele)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Autosomal dominant optic atrophy (ADOA)",
+          "highest_phase": "Phase 1",
+          "trial_name": "OSPREY",
+          "trial_design": "Phase 1 study in children and adults ages 6 to 55 with genetic OPA1 mutation",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing Phase 1",
+          "lead_sponsor": "Stoke Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Multiple undisclosed preclinical TANGO programs across CNS and other disease areas"],
+  "excluded_legacy_terminated": ["NCT04442295 (STK-001 Phase 1/2 SAD/MAD in Dravet — COMPLETED, legacy)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "p3": 1, "p2": 1, "p1": 1}
+}

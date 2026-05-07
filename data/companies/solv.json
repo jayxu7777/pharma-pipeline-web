@@ -1,0 +1,36 @@
+{
+  "issuer_name": "Solventum Corp",
+  "ticker": "SOLV",
+  "exchange": "NYSE",
+  "cik": "0001964738",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/solv_10k_pipeline_section.html", "filing_date": "2026-02-27", "accession": "0001964738-26-000007", "note": "Spin-off from 3M Health Care; medical solutions, dental solutions, health information systems, purification & filtration. Pharmaceutical products are OTC monograph (e.g. CHG/IPA skin preps); no novel drug pipeline."},
+    "website": {"error": "Medtech / health technology company - no drug pipeline page applicable"},
+    "ctgov": {"path": "data/solv_ctgov_compact.json", "note": "11 trials all COMPLETED or TERMINATED bioequivalence/skin prep device studies; 1 NOT_YET_RECRUITING (NCT07048184) is NHS-led with Solventum as collaborator only - excluded as partner-led wound dressing comparison"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Marketed wound care dressings (Tegaderm, Coban), surgical skin preps (CHG/IPA, ChloraPrep), dental restoratives, IV therapy, sterilization, health information systems software. No novel investigational drug or device PMA pipeline."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT01968356", "reason": "TERMINATED Phase 3 skin prep study"},
+    {"nct_id": "NCT03681990", "reason": "COMPLETED Phase 2 skin prep study"},
+    {"nct_id": "NCT01968707", "reason": "COMPLETED Phase 3 skin prep study"},
+    {"nct_id": "NCT04756154", "reason": "COMPLETED Phase 3 skin prep study"},
+    {"nct_id": "NCT00516906", "reason": "COMPLETED Phase 2/3 dressing study"},
+    {"nct_id": "NCT02447497", "reason": "COMPLETED Phase 2 skin prep study"},
+    {"nct_id": "NCT03155178", "reason": "COMPLETED Phase 2 skin prep study"},
+    {"nct_id": "NCT02627625", "reason": "COMPLETED Phase 1 tiotropium bioequivalence"},
+    {"nct_id": "NCT02676297", "reason": "COMPLETED Phase 1 tiotropium bioequivalence"},
+    {"nct_id": "NCT03302065", "reason": "COMPLETED Phase 1 tiotropium bioequivalence"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT07048184", "reason": "NOT_YET_RECRUITING; lead sponsor NHS Greater Glasgow and Clyde - Solventum is collaborator only, comparing NPWT vs standard dressings"}
+  ],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_active": 0},
+  "no_active_clinical_pipeline_reason": "Healthcare devices, dental, health-information-systems, and purification/filtration company spun off from 3M. No proprietary novel drug or PMA-class device pipeline; pharmaceutical products are OTC monograph and bioequivalence-only."
+}

@@ -1,0 +1,53 @@
+{
+  "issuer_name": "Microbot Medical Inc.",
+  "ticker": "MBOT",
+  "exchange": "Nasdaq",
+  "cik": "0000883975",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-012935",
+      "filed": "2026-03-26",
+      "doc": "form10-k.htm",
+      "note": "10-K describes FDA 510(k) clearance (Sept 2025) and U.S. limited market release (Nov 2025) of the LIBERTY Endovascular Robotic Surgical System. Telesurgery feasibility work with Corewell Health is exploratory and not under an active IDE pivotal study."
+    },
+    "website": {
+      "url": "https://www.microbotmedical.com",
+      "note": "Single-product commercial site for LIBERTY Endovascular Robotic System; no active NCT IDs or pivotal IDE study pages."
+    },
+    "ctgov": {
+      "sponsor_query": "Microbot Medical",
+      "raw_hits": 1,
+      "unique_active_p1_p3_trials": 0,
+      "note": "ClinicalTrials.gov returned no active P1-P3 sponsor-initiated trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Microbot Medical is a single-product commercial-stage medical-robotics company.",
+    "products": [
+      {
+        "name": "LIBERTY Endovascular Robotic Surgical System",
+        "indication": "Remote delivery and manipulation of guidewires, microcatheters and guide catheters for endovascular interventional procedures (peripheral vasculature)",
+        "regulatory_status": "FDA 510(k) clearance granted 2025-09-08; U.S. limited market release Nov 2025; full market release planned April 2026 (SIR conference); CE Mark pursuit ongoing"
+      }
+    ]
+  },
+  "excluded_preclinical": [
+    {
+      "asset": "LIBERTY telesurgery extension (multi-site remote operation)",
+      "reason": "Feasibility evaluation with Corewell Health in coronary simulation model; not covered by current 510(k) clearance and not in a registered pivotal clinical trial."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Single-product commercial-stage medical-device company. LIBERTY Endovascular Robotic Surgical System received FDA 510(k) clearance in September 2025 and is in U.S. limited market release. No active P1/P2/P3 drug or device pivotal IDE clinical trial disclosed in 10-K, on the corporate website, or on ClinicalTrials.gov."
+}

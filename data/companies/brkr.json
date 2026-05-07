@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Bruker Corporation",
+  "ticker": "BRKR",
+  "exchange": "Nasdaq",
+  "cik": "0001109354",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-082523",
+      "filing_date": "2026-02-27",
+      "doc": "brkr-20251231.htm"
+    },
+    "website": {
+      "error": "Bruker is a scientific-instruments and analytical-systems vendor; the corporate site does not maintain a clinical pipeline page (product catalog only)."
+    },
+    "ctgov": {
+      "query_sponsor": "Bruker",
+      "studies_returned_p1_p3": 0,
+      "active_p1_p3_company_sponsored": 0,
+      "note": "No interventional P1/P2/P3 trials sponsored by Bruker. The 3 raw hits were observational, expanded-access, or did not match P1-3 criteria."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Bruker is a global maker of high-performance scientific instruments and analytical/diagnostic solutions. Marketed product families include mass spectrometry (timsTOF, MALDI Biotyper for clinical microbiology), magnetic resonance (NMR, EPR, preclinical MRI), X-ray (XRD/XRF, microCT), molecular and surface analysis, semiconductor metrology (Bruker Nano), Bruker Optics (FT-IR, Raman), and Luxendo light-sheet microscopy. Outputs are research/clinical-lab capital equipment and consumables, not investigational drugs or implantable devices."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Bruker is a scientific-instrument and analytical-systems company (mass spec, NMR, X-ray, microscopy, IVD MALDI Biotyper). It has no proprietary drug or therapeutic-device clinical pipeline. Some products (e.g., MALDI Biotyper) are FDA-cleared IVDs; their lifecycle does not produce P1/P2/P3 trial entries."
+}

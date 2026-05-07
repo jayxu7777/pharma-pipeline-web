@@ -1,0 +1,28 @@
+{
+  "issuer_name": "10x Genomics, Inc.",
+  "ticker": "TXG",
+  "exchange": "Nasdaq",
+  "cik": "0001770787",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/txg_10k_pipeline_section.txt", "filing_date": "2026-02-13", "accession": "0001628280-26-007822"},
+    "website": {"note": "Life-sciences research-tools / instruments company; no clinical drug pipeline page applicable."},
+    "ctgov": {"file": "data/txg_ctgov_compact.json", "sponsor_query": "10x Genomics", "trials_returned": 0}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "10x Genomics develops and sells life-sciences research instruments, consumables, and software for single-cell analysis (Chromium platform), spatial gene expression and proteomics (Visium, Xenium platforms). Customers are academic, government, and biopharma research labs. Revenue is from instruments, consumables and services — not from therapeutic drug or device candidates."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "10x Genomics is a research-tools / life-sciences instruments company (single-cell and spatial genomics platforms: Chromium, Visium, Xenium). It does not develop proprietary therapeutic drugs, biologics, or clinical-stage medical devices. ClinicalTrials.gov returns zero records with 10x Genomics as sponsor; FY2025 10-K describes a tools/consumables business model with no clinical pipeline."
+}

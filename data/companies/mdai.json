@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Spectral AI, Inc.",
+  "ticker": "MDAI",
+  "exchange": "Nasdaq",
+  "cik": "0001833498",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-033808",
+      "filing_date": "2026-03-25",
+      "doc": "ea0282879-10k_spectral.htm"
+    },
+    "website": {
+      "url": "https://spectral-ai.com",
+      "note": "Pipeline subpage not present; product info parsed from main site."
+    },
+    "ctgov": {
+      "sponsor_query": "Spectral AI",
+      "unique_trials": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "DeepView Wound Imaging System",
+    "modality": "AI-enabled multispectral imaging medical device (SaMD + hardware)",
+    "indications_under_review": [
+      "Burn wound healing assessment (FDA De Novo submission filed; pivotal validation study completed with 164 patients including 49 pediatric)"
+    ],
+    "regulatory_status": "Investigational in US; FDA De Novo submission under review. UK commercialization expected to begin in 2026."
+  },
+  "excluded_preclinical": [
+    "DeepView for diabetic foot ulcers (DFU) and other chronic wounds — earlier-stage research/development, no active pivotal study disclosed."
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device / AI diagnostics company (not a drug developer). The DeepView pivotal validation study has completed enrollment and the company has filed a De Novo submission with FDA; no additional active P1/P2/P3 drug or pivotal IDE clinical studies are ongoing. Per scope rules for device companies, only active pivotal/IDE studies of the company's own devices would be reported."
+}

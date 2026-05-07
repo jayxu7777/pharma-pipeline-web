@@ -1,0 +1,55 @@
+{
+  "issuer_name": "ACHIEVE LIFE SCIENCES, INC.",
+  "ticker": "ACHV",
+  "exchange": "Nasdaq",
+  "cik": "0000949858",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/achv_10k_pipeline_section.html", "filing_date": "2026-03-24", "accession": "0001193125-26-120690"},
+    "website": {"url": "https://achievelifesciences.com/", "note": "Pipeline page returned 404; status confirmed via homepage and press releases."},
+    "ctgov": {"file": "data/achv_ctgov_compact.json", "trials_returned": 31, "active_p1_p3_count": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "Cytisinicline",
+      "aka": ["cytisine", "Tabex (legacy)"],
+      "modality": "Small molecule (alpha4-beta2 nicotinic acetylcholine receptor partial agonist)",
+      "target": "Alpha4-beta2 nicotinic acetylcholine receptor",
+      "license_origin": "Internal (Achieve Life Sciences); originally cytisine isolated from Cytisus laburnum",
+      "indications": [
+        {
+          "indication": "Smoking Cessation (nicotine dependence in adults)",
+          "highest_phase": "NDA filed (post-Phase 3)",
+          "trial_name": "ORCA-2, ORCA-3, ORCA-OL (long-term open-label safety)",
+          "trial_design": "Two pivotal Phase 3 randomized placebo-controlled trials (6- and 12-week dosing) plus long-term open-label safety study",
+          "nct_ids": ["NCT04576949", "NCT05206370", "NCT06435221"],
+          "trial_status": "NDA accepted by FDA (Sept 2025); PDUFA action date June 20, 2026",
+          "lead_sponsor": "Achieve Life Sciences",
+          "key_milestones": ["NDA submitted June 2025", "NDA accepted September 2025", "120-day safety update submitted Nov 2025", "PDUFA 2026-06-20"]
+        },
+        {
+          "indication": "Vaping Cessation (e-cigarette nicotine dependence)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ORCA-V2 (Phase 3 vaping cessation)",
+          "trial_design": "Phase 3 randomized, placebo-controlled trial of cytisinicline for vaping cessation",
+          "nct_ids": ["NCT07392125"],
+          "trial_status": "Not yet recruiting (planned start 2026-05-15)",
+          "lead_sponsor": "Achieve Life Sciences",
+          "key_milestones": ["FDA Commissioner's National Priority Voucher granted for vaping cessation"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT00251095 TOCOSOL Paclitaxel breast cancer P3 (TERMINATED, legacy oncology asset)",
+    "NCT01083615 Custirsen (OGX-011) prostate cancer P3 (TERMINATED, legacy)",
+    "NCT01630733, NCT01188187 custirsen P3 (COMPLETED, legacy oncology)",
+    "NCT03303911 cytisine smoking cessation P1/2 (TERMINATED)",
+    "Multiple completed legacy P1/P2 oncology and supportive cytisinicline studies (>20 trials)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 1, "phase_2": 0, "phase_1": 0, "nda_filed": 1}
+}

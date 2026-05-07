@@ -1,0 +1,125 @@
+{
+  "issuer_name": "Bicycle Therapeutics plc",
+  "ticker": "BCYC",
+  "exchange": "Nasdaq",
+  "cik": "0001761612",
+  "region": "UK (US-listed ADS)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-028971", "filing_date": "2026-03-17", "doc": "bcyc-20251231x10k.htm"},
+    "website": {"url": "https://www.bicycletherapeutics.com/", "note": "Pipeline confirmed via 10-K and ctgov; web page not separately fetched (graphic-based)."},
+    "ctgov": {"sponsor_query": "BicycleTx Limited", "studies_returned": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "Zelenectide pevedotin",
+      "aka": ["BT8009"],
+      "modality": "Bicycle Drug Conjugate (BDC) — bicyclic peptide-MMAE conjugate",
+      "target": "Nectin-4",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Locally advanced or metastatic urothelial cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "Duravelo-2 (BT8009-230)",
+          "trial_design": "Originally Phase 2/3 registrational; per March 2026 strategic reprioritization, being converted to randomized Phase 2 and deprioritized for internal development",
+          "nct_ids": ["NCT06225596"],
+          "trial_status": "ACTIVE_NOT_RECRUITING — converting to randomized Phase 2; program deprioritized while company evaluates next steps",
+          "lead_sponsor": "BicycleTx Limited",
+          "key_milestones": ["March 2026: announced conversion to Phase 2 and deprioritization"]
+        },
+        {
+          "indication": "Nectin-4 expressing advanced malignancies (urothelial, breast, NSCLC, ovarian, others)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BT8009-100 (Duravelo-1)",
+          "trial_design": "Phase 1/2 dose-escalation/expansion in Nectin-4 expressing advanced solid tumors, monotherapy and in combination with pembrolizumab",
+          "nct_ids": ["NCT04561362"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "BicycleTx Limited",
+          "key_milestones": []
+        },
+        {
+          "indication": "NECTIN4 amplified advanced or metastatic NSCLC",
+          "highest_phase": "Phase 2",
+          "trial_name": "Zelenectide pevedotin NSCLC study",
+          "trial_design": "Phase 2 single-arm in NECTIN4-amplified advanced/metastatic NSCLC",
+          "nct_ids": ["NCT06933329"],
+          "trial_status": "ACTIVE_NOT_RECRUITING — discontinuation planned per March 2026 reprioritization",
+          "lead_sponsor": "BicycleTx Limited",
+          "key_milestones": ["March 2026: discontinuation announced"]
+        },
+        {
+          "indication": "NECTIN4 amplified advanced breast cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "Zelenectide pevedotin breast cancer study",
+          "trial_design": "Phase 2 in NECTIN4 amplified advanced breast cancer",
+          "nct_ids": ["NCT06840483"],
+          "trial_status": "ACTIVE_NOT_RECRUITING — discontinuation planned per March 2026 reprioritization",
+          "lead_sponsor": "BicycleTx Limited",
+          "key_milestones": ["March 2026: discontinuation announced"]
+        }
+      ]
+    },
+    {
+      "asset": "Nuzefatide pevedotin",
+      "aka": ["BT5528"],
+      "modality": "Bicycle Drug Conjugate (BDC) — bicyclic peptide-MMAE conjugate",
+      "target": "EphA2",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors with high EphA2 expression (urothelial, ovarian, NSCLC, head & neck, TNBC, gastric/upper GI)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BT5528-100",
+          "trial_design": "Phase 1/2 dose-escalation/expansion as monotherapy and in combination with nivolumab",
+          "nct_ids": ["NCT04180371"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; FDA Fast Track for previously treated locally advanced/metastatic urothelial cancer",
+          "lead_sponsor": "BicycleTx Limited",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic pancreatic ductal adenocarcinoma (PDAC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Nuzefatide pevedotin PDAC study",
+          "trial_design": "Phase 2 in adult patients with metastatic PDAC",
+          "nct_ids": ["NCT07450859"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "BicycleTx Limited",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BT7480",
+      "aka": [],
+      "modality": "Bicycle TICA (tumor-targeted immune cell agonist)",
+      "target": "Nectin-4 / CD137",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Nectin-4 expressing advanced malignancies (immuno-oncology)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BT7480-100",
+          "trial_design": "Phase 1/2 monotherapy and in combination with nivolumab",
+          "nct_ids": ["NCT05163041"],
+          "trial_status": "ACTIVE_NOT_RECRUITING; company exploring partnership opportunities for the program",
+          "lead_sponsor": "BicycleTx Limited",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "BT1702 (MT1-MMP BRC) — IND-enabling",
+    "MT1-MMP BIA / EphA2 BIA — radiopharmaceutical imaging agents (preclinical / human imaging)",
+    "EphA2 BRC — preclinical lead optimization",
+    "Ionis CNS / neuromuscular targets — preclinical (partnered)",
+    "Bayer-partnered radiopharmaceutical — preclinical (partnered)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "ION826 (AZD4063) — partnered with Ionis (cardiometabolic Phase 1 sponsored by partner)"
+  ],
+  "summary_counts": {"P3": 0, "P2": 3, "P1": 0, "total_assets": 3}
+}

@@ -1,0 +1,73 @@
+{
+  "issuer_name": "Cybin Inc. (rebranded as Helus Pharma)",
+  "ticker": "HELP",
+  "exchange": "Nasdaq",
+  "cik": "0001833141",
+  "region": "Canada/Ireland",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Canadian) — files 40-F instead of 10-K; not retrieved by 10-K script"},
+    "website": {"url": "https://www.helus.com/", "note": "Cybin rebranded to Helus; pipeline page returns 404 (likely under reorganization). Asset detail derived from ctgov."},
+    "ctgov": {"sponsor_query": "Cybin", "unique_trials_p1_p3": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "CYB003 (deuterated psilocin analog)",
+      "aka": ["deuterated psilocin"],
+      "modality": "Small-molecule serotonergic psychedelic (deuterated psilocin analog)",
+      "target": "Serotonin 5-HT2A receptor agonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Major Depressive Disorder (MDD) — pivotal program",
+          "highest_phase": "P3",
+          "trial_name": "APPROACH (CYB003-PIV-MDD-001)",
+          "trial_design": "Pivotal Phase 3 randomized, double-blind, placebo-controlled study of CYB003 in adults with MDD",
+          "nct_ids": ["NCT06564818", "NCT06793397"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Cybin IRL Limited",
+          "key_milestones": ["Primary completion 2026-08 (NCT06564818)", "Primary completion 2027-03-18 (NCT06793397)"]
+        },
+        {
+          "indication": "Major Depressive Disorder (MDD) — long-term safety extension",
+          "highest_phase": "P3",
+          "trial_name": "EXTEND",
+          "trial_design": "Phase 3 long-term extension safety/efficacy study of CYB003 in MDD",
+          "nct_ids": ["NCT06605105"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Cybin IRL Limited",
+          "key_milestones": ["Primary completion 2028-03-15"]
+        }
+      ]
+    },
+    {
+      "asset": "CYB004 (deuterated DMT analog)",
+      "aka": ["deuterated DMT"],
+      "modality": "Small-molecule serotonergic psychedelic (deuterated N,N-DMT analog)",
+      "target": "Serotonin 5-HT2A receptor agonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Generalized Anxiety Disorder (GAD)",
+          "highest_phase": "P2",
+          "trial_name": "CYB004 Phase 2 in GAD",
+          "trial_design": "Phase 2 study of intravenous CYB004 in adults with generalized anxiety disorder",
+          "nct_ids": ["NCT06051721"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Cybin IRL Limited",
+          "key_milestones": ["Primary completion 2025-10-14"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CYB005 (phenethylamine derivatives, preclinical)"
+  ],
+  "excluded_legacy_terminated": [
+    "Psilocybin/SSRI interaction study NCT05594667 — Withdrawn",
+    "CYB003 Phase 1/2 in healthy volunteers/MDD NCT05385783 — Completed (early-stage, superseded by Phase 3)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "P3": 1, "P2": 1, "P1": 0}
+}

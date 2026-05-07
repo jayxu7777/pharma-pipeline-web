@@ -1,0 +1,74 @@
+{
+  "issuer_name": "Structure Therapeutics Inc.",
+  "ticker": "GPCR",
+  "exchange": "Nasdaq",
+  "cik": "0001888886",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-020562", "filed": "2026-02-26", "doc": "gpcr-20251231x10k.htm"},
+    "website": {"url": "https://structuretx.com/#pipeline-section", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/gpcr_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Aleniglipron",
+      "aka": ["GSBR-1290"],
+      "modality": "Small molecule (oral GLP-1 receptor agonist)",
+      "target": "GLP-1 receptor",
+      "license_origin": "Internal (structure-based discovery)",
+      "indications": [
+        {
+          "indication": "Obesity / Overweight",
+          "highest_phase": "P2",
+          "trial_name": "Aleniglipron obesity Phase 2 program (incl. dose-range and body composition studies)",
+          "trial_design": "Phase 2b dose-range finding and body composition Phase 2 in adults with obesity/overweight",
+          "nct_ids": ["NCT06693843", "NCT07169942", "NCT06703021"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+          "key_milestones": ["Phase 3 obesity program planned"]
+        },
+        {
+          "indication": "Type 2 Diabetes Mellitus (T2DM)",
+          "highest_phase": "P2",
+          "trial_name": "Aleniglipron Phase 2 T2DM",
+          "trial_design": "Phase 2 in adults with type 2 diabetes",
+          "nct_ids": ["NCT07400588"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ACCG-2671",
+      "aka": [],
+      "modality": "Small molecule (oral dual amylin and calcitonin receptor agonist, DACRA)",
+      "target": "Amylin / Calcitonin receptors",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Obesity (mono and combo with GLP-1RA)",
+          "highest_phase": "P1",
+          "trial_name": "ACCG-2671 Phase 1",
+          "trial_design": "Phase 1 first-in-human",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company pipeline disclosure",
+          "lead_sponsor": "Structure Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {},
+  "excluded_preclinical": ["ACCG-3535 (DACRA, IND-enabling)", "GIPR selective agonist (Discovery)", "GCGR agonist (Discovery)", "GLP-1RA + Amylin combination (IND-enabling)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 0,
+    "P2": 1,
+    "P1": 1
+  }
+}

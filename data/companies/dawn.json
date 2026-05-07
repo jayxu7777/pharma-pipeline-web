@@ -1,0 +1,109 @@
+{
+  "issuer_name": "Day One Biopharmaceuticals, Inc.",
+  "ticker": "DAWN",
+  "exchange": "Nasdaq",
+  "cik": "0001845337",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/dawn_10k_pipeline_section.html", "filing_date": "2026-02-24", "accession": "0001193125-26-066956"},
+    "website": {"url": "https://www.dayonebio.com/pipeline", "note": "Confirmed assets via WebFetch"},
+    "ctgov": {"file": "data/dawn_ctgov_compact.json", "trial_count": 8, "sponsor_query": "Day One Biopharmaceuticals"}
+  },
+  "pipeline": [
+    {
+      "asset": "Tovorafenib (OJEMDA)",
+      "aka": ["DAY101", "MLN2480", "TAK-580"],
+      "modality": "Small molecule, oral once-weekly type-II pan-RAF kinase inhibitor",
+      "target": "Type II RAF kinase (BRAF/CRAF dimer)",
+      "license_origin": "In-licensed (Takeda asset purchase 2019; Viracta/XOMA royalty)",
+      "indications": [
+        {
+          "indication": "Frontline pediatric low-grade glioma (pLGG, RAF-altered)",
+          "highest_phase": "P3",
+          "trial_name": "FIREFLY-2",
+          "trial_design": "Phase 3 tovorafenib vs SoC chemotherapy (carboplatin/vinblastine) in pediatric pLGG",
+          "nct_ids": ["NCT05566795"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Day One Biopharmaceuticals, Inc.",
+          "key_milestones": ["Enrollment expected to complete H1 2026"]
+        },
+        {
+          "indication": "Relapsed/refractory pediatric low-grade glioma (FIREFLY-1 LTE)",
+          "highest_phase": "P2",
+          "trial_name": "FIREFLY-1",
+          "trial_design": "Phase 2 tovorafenib in relapsed/refractory pLGG and other pediatric tumors",
+          "nct_ids": ["NCT04775485"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Day One Biopharmaceuticals, Inc.",
+          "key_milestones": ["FDA accelerated approval Apr 2024 (OJEMDA); long-term follow-up ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "Emiltatug Ledadotin (Emi-Le)",
+      "aka": ["DAY501", "XMT-1660"],
+      "modality": "B7-H4-targeted antibody-drug conjugate (auristatin F-HPA payload, DAR6, GlycoConnect linker)",
+      "target": "B7-H4 (VTCN1)",
+      "license_origin": "Acquired via Mersana Therapeutics acquisition (closed Jan 6, 2026)",
+      "indications": [
+        {
+          "indication": "Adenoid cystic carcinoma (ACC) and B7-H4+ solid tumors (incl. TNBC)",
+          "highest_phase": "P1",
+          "trial_name": "Emi-Le Phase 1 dose escalation/expansion",
+          "trial_design": "Phase 1 dose-escalation and expansion in advanced solid tumors; backfill cohorts in aggressive ACC",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing — updated ACC clinical data expected mid-2026",
+          "lead_sponsor": "Day One Biopharmaceuticals, Inc.",
+          "key_milestones": ["ASCO 2025 / ESMO Breast 2025 interim TNBC and ACC data; mid-2026 data update planned"]
+        }
+      ]
+    },
+    {
+      "asset": "DAY301",
+      "aka": [],
+      "modality": "PTK7-targeted antibody-drug conjugate (humanized IgG1 + exatecan mesylate Topo-I payload, modified VA cleavable linker)",
+      "target": "PTK7",
+      "license_origin": "In-licensed from MabCare Therapeutics (Jun 2024, ex-Greater China)",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic solid tumors with high PTK7 expression",
+          "highest_phase": "P1",
+          "trial_name": "DAY301-001",
+          "trial_design": "Phase 1a/b dose-escalation and cohort expansion in PTK7-expressing solid tumors",
+          "nct_ids": ["NCT06752681"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Day One Biopharmaceuticals, Inc.",
+          "key_milestones": ["First patient cleared accelerated-titration cohort Jan 2025; initial data H2 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "OJEMDA (tovorafenib)",
+    "approved_indications": ["Relapsed/refractory pediatric low-grade glioma with BRAF fusion/rearrangement or BRAF V600 mutation, ages >=6 months"],
+    "regions": ["US (FDA accelerated approval Apr 2024)"],
+    "ex_us_partner": "Ipsen (commercialization ex-US per Jul 2024 license)"
+  },
+  "excluded_preclinical": [
+    "Earlier-stage research programs not disclosed by codename"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT07121829 tovorafenib + pimasertib in melanoma/solid tumors (P1) — TERMINATED",
+    "NCT04985604 tovorafenib monotherapy in melanoma/solid tumors (P2) — TERMINATED"
+  ],
+  "excluded_partner_owned": [
+    "NCT05465174 tovorafenib in craniopharyngioma (Pacific Pediatric Neuro-Oncology Consortium investigator-led P2)",
+    "NCT07206849 tovorafenib in HGG/DIPG (Nationwide Children's investigator-led P2)",
+    "NCT03429803 DAY101 in gliomas (Karen D. Wright/DFCI investigator-led P1)"
+  ],
+  "summary_counts": {
+    "total_assets": 3,
+    "p3_indications": 1,
+    "p2_indications": 1,
+    "p1_indications": 2,
+    "commercial_products": 1
+  },
+  "notes": "Active company-sponsored P1-P3 indications: 1 P3 (FIREFLY-2 frontline pLGG), 1 P2 (FIREFLY-1 R/R pLGG), 2 P1 (Emi-Le solid tumors and DAY301 solid tumors). Emi-Le NCT not on ctgov as of snapshot — listed as 'Not on public registry'. Mersana acquisition closed Jan 6 2026 added Emi-Le."
+}

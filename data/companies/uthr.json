@@ -1,0 +1,145 @@
+{
+  "issuer_name": "United Therapeutics Corporation",
+  "ticker": "UTHR",
+  "exchange": "Nasdaq",
+  "cik": "0001082554",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-25", "accession": "0001082554-26-000006", "path": "data/uthr_10k_pipeline_section.html"},
+    "website": {"path": "https://pipeline.unither.com/", "note": "Official corporate pipeline page used to confirm trial-by-trial phase and study names"},
+    "ctgov": {"path": "data/uthr_ctgov_compact.json", "trials_found": 116, "active_p1_p3_own_sponsor": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "Inhaled Treprostinil (Tyvaso) line extension",
+      "aka": ["TETON", "Tyvaso DPI in IPF/PPF"],
+      "modality": "Inhaled prostacyclin analog",
+      "target": "Prostacyclin (IP) receptor",
+      "license_origin": "Internally developed (treprostinil franchise)",
+      "indications": [
+        {
+          "indication": "Idiopathic pulmonary fibrosis (IPF)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TETON-1 / TETON-2 (NDA-enabling)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 trials of inhaled treprostinil in IPF (TETON-1 in U.S./Canada, TETON-2 global)",
+          "nct_ids": ["NCT04708782", "NCT05255991"],
+          "trial_status": "Both Phase 3 trials met primary endpoint (TETON-2 Sep 2025, TETON-1 Mar 2026); supplemental NDA submission planned",
+          "lead_sponsor": "United Therapeutics Corporation",
+          "key_milestones": ["TETON-2 positive topline Sep 2025", "TETON-1 positive topline Mar 2026", "sNDA submission expected 2026"]
+        },
+        {
+          "indication": "Progressive pulmonary fibrosis (PPF)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TETON-PPF",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of inhaled treprostinil in subjects with progressive pulmonary fibrosis",
+          "nct_ids": ["NCT05943535"],
+          "trial_status": "RECRUITING (started 2023-10-30; primary completion 2027-11)",
+          "lead_sponsor": "United Therapeutics Corporation",
+          "key_milestones": ["Enrollment ongoing; topline expected 2027/2028"]
+        }
+      ]
+    },
+    {
+      "asset": "Ralinepag",
+      "aka": ["APD811"],
+      "modality": "Oral, sustained-release IP-receptor agonist (next-gen prostacyclin)",
+      "target": "Prostacyclin (IP) receptor",
+      "license_origin": "Acquired from Arena Pharmaceuticals (2018)",
+      "indications": [
+        {
+          "indication": "Pulmonary arterial hypertension (PAH)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ADVANCE OUTCOMES / ADVANCE EXTENSION",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 (ADVANCE OUTCOMES) plus open-label long-term extension (ADVANCE EXTENSION) of oral ralinepag in PAH",
+          "nct_ids": ["NCT03626688", "NCT03683186"],
+          "trial_status": "ADVANCE OUTCOMES met primary endpoint (Mar 2026); long-term extension ENROLLING_BY_INVITATION (primary completion 2026-12)",
+          "lead_sponsor": "United Therapeutics Corporation",
+          "key_milestones": ["ADVANCE OUTCOMES positive Phase 3 topline Mar 2026", "NDA submission planned 2026/2027"]
+        }
+      ]
+    },
+    {
+      "asset": "UKidney (10 GE xenokidney)",
+      "aka": ["10-gene-edited porcine xenokidney", "EXPAND"],
+      "modality": "Genetically engineered porcine xenotransplant kidney",
+      "target": "Renal replacement (xenotransplantation)",
+      "license_origin": "Internally developed (Revivicor subsidiary)",
+      "indications": [
+        {
+          "indication": "End-stage renal disease (ESRD)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "EXPAND",
+          "trial_design": "Open-label, single-arm Phase 1/2 first-in-human study of the 10 gene-edited porcine xenokidney transplanted into ESRD patients",
+          "nct_ids": ["NCT06878560"],
+          "trial_status": "RECRUITING (started 2025-10-29; first transplant Nov 2025; primary completion 2028-10)",
+          "lead_sponsor": "United Therapeutics Corporation",
+          "key_milestones": ["First xenokidney transplant Nov 2025", "Initial cohort readouts expected 2026/2027"]
+        }
+      ]
+    },
+    {
+      "asset": "UThymoKidney (GGTA1 KO Thymokidney)",
+      "aka": ["EXTEND"],
+      "modality": "Genetically engineered porcine thymokidney xenotransplant",
+      "target": "Renal replacement plus immunomodulatory thymus tissue",
+      "license_origin": "Internally developed (Revivicor)",
+      "indications": [
+        {
+          "indication": "End-stage renal disease (ESRD)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "EXTEND",
+          "trial_design": "Open-label, single-arm Phase 1/2 study of GGTA1 knockout porcine thymokidney transplanted into ESRD patients",
+          "nct_ids": ["NCT07224763"],
+          "trial_status": "RECRUITING (start 2026-03; primary completion 2029-03)",
+          "lead_sponsor": "United Therapeutics Corporation",
+          "key_milestones": ["First patient enrollment expected 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "miroliver ELAP",
+      "aka": ["External Liver Assist Product"],
+      "modality": "Ex-vivo perfused bioengineered liver assist device",
+      "target": "Hepatic support / detoxification",
+      "license_origin": "Internally developed (Miromatrix subsidiary)",
+      "indications": [
+        {
+          "indication": "Acute liver failure",
+          "highest_phase": "Phase 1",
+          "trial_name": "miroliver ELAP first-in-human",
+          "trial_design": "Open-label, first-in-human Phase 1 of miroliver ELAP in patients with acute liver failure",
+          "nct_ids": ["NCT06285253"],
+          "trial_status": "Met primary endpoint (Jan 2026); Phase 2 planning",
+          "lead_sponsor": "United Therapeutics Corporation",
+          "key_milestones": ["Phase 1 primary endpoint met Jan 2026", "Phase 2 design discussions with FDA"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_products": ["Tyvaso (inhaled treprostinil)", "Tyvaso DPI", "Remodulin (parenteral treprostinil)", "Orenitram (oral treprostinil)", "Adcirca (tadalafil)", "Unituxin (dinutuximab)", "Yutrepia (treprostinil inhalation powder)", "RemUnity pump"],
+    "primary_franchise": "Treprostinil (PAH/PH-ILD)"
+  },
+  "excluded_preclinical": [
+    "UHeart (xenotransplant heart) — preclinical",
+    "ULobe (allogeneic regenerative lung) — preclinical",
+    "ULung (autologous regenerative lung) — preclinical",
+    "IVIVA Kidney (autologous regenerative kidney) — preclinical",
+    "miroliver implantable (allogeneic regenerative liver) — preclinical",
+    "mirokidney (allogeneic regenerative kidney) — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "Multiple completed treprostinil PK / line-extension Phase 1/2 trials (legacy)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_with_active_clinical": 5,
+    "indications_active": 6,
+    "phase_3": 3,
+    "phase_2": 0,
+    "phase_1_2": 2,
+    "phase_1": 1
+  }
+}

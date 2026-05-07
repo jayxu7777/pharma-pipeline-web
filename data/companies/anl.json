@@ -1,0 +1,124 @@
+{
+  "issuer_name": "Adlai Nortye Ltd.",
+  "ticker": "ANL",
+  "exchange": "Nasdaq",
+  "cik": "0001944552",
+  "region": "China/US (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (no 10-K on EDGAR)"},
+    "website": {"url": "https://www.adlainortye.com/index.php/products", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/anl_ctgov_compact.json", "trials_total": 9, "lead_sponsor_anl": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "AN2025 (buparlisib)",
+      "aka": ["BKM120"],
+      "modality": "Small molecule",
+      "target": "Pan-PI3K",
+      "license_origin": "In-licensed from Novartis",
+      "indications": [
+        {
+          "indication": "Recurrent or metastatic head and neck squamous cell carcinoma (post-immunotherapy)",
+          "highest_phase": "Phase 3",
+          "trial_name": "BURAN",
+          "trial_design": "Buparlisib + paclitaxel vs paclitaxel in r/m HNSCC after prior anti-PD-1/PD-L1 therapy",
+          "nct_ids": ["NCT04338399"],
+          "trial_status": "Pivotal Phase 3 primary completion 2025-11-02 (COMPLETED on ctgov); company website still lists as Phase III active — readout/regulatory phase.",
+          "lead_sponsor": "Adlai Nortye Biopharma Co., Ltd.",
+          "key_milestones": ["BURAN topline data anticipated post-2025-11 primary completion"]
+        }
+      ]
+    },
+    {
+      "asset": "AN0025 (palupiprant)",
+      "aka": ["E7046"],
+      "modality": "Small molecule",
+      "target": "EP4 antagonist",
+      "license_origin": "In-licensed from Eisai",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (TNBC, NSCLC, urothelial carcinoma, MSS CRC, cervical cancer) in combination with pembrolizumab",
+          "highest_phase": "Phase 2",
+          "trial_name": "AN0025 + pembrolizumab combination",
+          "trial_design": "Open-label combination of AN0025 with pembrolizumab in advanced solid tumors (multi-cohort, dose expansion)",
+          "nct_ids": ["NCT04432857"],
+          "trial_status": "Active, not recruiting (primary completion 2024-05-31). Company website lists program as Phase II/III.",
+          "lead_sponsor": "Adlai Nortye Biopharma Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AN9025",
+      "aka": [],
+      "modality": "Oral small molecule",
+      "target": "Pan-RAS(ON) inhibitor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced or metastatic solid tumors with RAS mutations",
+          "highest_phase": "Phase 1",
+          "trial_name": "AN9025 first-in-human dose escalation",
+          "trial_design": "Open-label first-in-human evaluation of oral AN9025 in RAS-mutated advanced/metastatic solid tumors",
+          "nct_ids": ["NCT07252479"],
+          "trial_status": "Recruiting (started 2026-01-28; primary completion 2028-01). Company website lists as Phase II — likely forward-looking.",
+          "lead_sponsor": "Adlai Nortye Biopharma Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AN4005",
+      "aka": [],
+      "modality": "Oral small molecule",
+      "target": "PD-L1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors and lymphoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "First-in-human dose escalation of AN4005",
+          "trial_design": "Open-label dose-escalation evaluating safety, PK, and efficacy in advanced solid tumors and lymphoma",
+          "nct_ids": ["NCT04999384"],
+          "trial_status": "Recruiting (started 2021-09; primary completion 2026-11). Company website lists program as Phase II — forward-looking.",
+          "lead_sponsor": "Adlai Nortye Biopharma Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AN8025",
+      "aka": [],
+      "modality": "Tri-functional fusion protein",
+      "target": "anti-PD-L1 x CD86 variant x LAG3 variant",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "AN8025 first-in-human (early clinical)",
+          "trial_design": "Per company website: in clinical evaluation as a T-cell/APC modulator in advanced tumors",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Per company website: Phase II clinical evaluation; not located on ClinicalTrials.gov, EU CTIS, or JRCT under sponsor name.",
+          "lead_sponsor": "Adlai Nortye Biopharma Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "AN4035", "reason": "CEACAM5-targeting ADC delivering pan-RAS(ON) inhibitor; IND-enabling per company website."},
+    {"asset": "AN3025", "reason": "Anti-hTNFR2; preclinical (Frontiers in Immunology publication)."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "AN0025", "nct_ids": ["NCT05358691"], "reason": "Rutgers-sponsored P1 in stage III NSCLC WITHDRAWN."},
+    {"asset": "AN0025", "nct_ids": ["NCT05191667"], "reason": "P1 esophageal cancer combination SUSPENDED."},
+    {"asset": "AN0025/AN2025", "nct_ids": ["NCT04975958"], "reason": "P1 double/triple combination COMPLETED 2025-01."},
+    {"asset": "Pelareorep", "nct_ids": ["NCT05519059"], "reason": "P1 in Chinese MBC patients COMPLETED 2022; in-licensed from Oncolytics — not Adlai Nortye proprietary."},
+    {"asset": "E7046 (AN0025)", "nct_ids": ["NCT03152370"], "reason": "Investigator P1 in rectal cancer COMPLETED 2021."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 5, "P1": 3, "P2": 1, "P3": 1, "indications": 5}
+}

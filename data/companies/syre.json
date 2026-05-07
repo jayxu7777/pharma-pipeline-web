@@ -1,0 +1,147 @@
+{
+  "issuer_name": "Spyre Therapeutics, Inc.",
+  "ticker": "SYRE",
+  "exchange": "Nasdaq",
+  "cik": "0001636282",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-19", "accession": "0001636282-26-000020", "path": "data/syre_10k_pipeline_section.html"},
+    "website": {"path": "https://spyre.com/pipeline/", "fetched": true},
+    "ctgov": {"path": "data/syre_ctgov_compact.json", "trials_found": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "SPY001",
+      "aka": ["SPY001-001"],
+      "modality": "Half-life-extended monoclonal antibody (subcutaneous)",
+      "target": "Integrin alpha4-beta7 (anti-α4β7)",
+      "license_origin": "In-licensed from Paragon Therapeutics",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe ulcerative colitis (monotherapy and combination basket)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SKYLINE-UC (Spyre platform Phase 2 basket)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 of long-acting antibodies (SPY001, SPY002, SPY003) alone and in combinations in moderate-to-severe UC",
+          "nct_ids": ["NCT07012395"],
+          "trial_status": "RECRUITING (started 2025-05-27; primary completion 2026-06)",
+          "lead_sponsor": "Spyre Therapeutics, Inc.",
+          "key_milestones": ["SPY001 Part A UC topline expected Q2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "SPY002",
+      "aka": ["SPY002-091", "SPY002-072"],
+      "modality": "Half-life-extended monoclonal antibody (subcutaneous)",
+      "target": "TL1A (TNFSF15)",
+      "license_origin": "In-licensed from Paragon Therapeutics",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe ulcerative colitis",
+          "highest_phase": "Phase 2",
+          "trial_name": "SKYLINE-UC",
+          "trial_design": "Phase 2 SPY002 monotherapy and combination arms in UC basket",
+          "nct_ids": ["NCT07012395"],
+          "trial_status": "RECRUITING (started 2025-05-27; primary completion 2026-06)",
+          "lead_sponsor": "Spyre Therapeutics, Inc.",
+          "key_milestones": ["SPY002 Part A UC topline expected mid-2026"]
+        },
+        {
+          "indication": "Healthy-volunteer Phase 1 PK/safety (SPY002-091)",
+          "highest_phase": "Phase 1",
+          "trial_name": "SPY002-091 SAD/MAD",
+          "trial_design": "Randomized, double-blind, placebo-controlled SAD/MAD in healthy volunteers",
+          "nct_ids": ["NCT06672718"],
+          "trial_status": "RECRUITING (primary completion 2026-02-18)",
+          "lead_sponsor": "Spyre Therapeutics, Inc.",
+          "key_milestones": ["Supports SPY002 program advancement"]
+        }
+      ]
+    },
+    {
+      "asset": "SPY072",
+      "aka": ["SPY002-072"],
+      "modality": "Half-life-extended anti-TL1A monoclonal antibody (subcutaneous)",
+      "target": "TL1A",
+      "license_origin": "In-licensed from Paragon Therapeutics",
+      "indications": [
+        {
+          "indication": "Rheumatoid arthritis, psoriatic arthritis, axial spondyloarthritis",
+          "highest_phase": "Phase 2",
+          "trial_name": "SKWAY-RD",
+          "trial_design": "Randomized, placebo-controlled Phase 2 in rheumatic diseases (RA, PsA, axSpA)",
+          "nct_ids": ["NCT07148414"],
+          "trial_status": "RECRUITING (started 2025-08-21; primary completion 2026-10-31)",
+          "lead_sponsor": "Spyre Therapeutics, Inc.",
+          "key_milestones": ["RA topline expected Q3 2026; PsA/axSpA topline Q4 2026"]
+        },
+        {
+          "indication": "Healthy-volunteer Phase 1 PK/safety",
+          "highest_phase": "Phase 1",
+          "trial_name": "SPY002-072 SAD/MAD",
+          "trial_design": "Phase 1 SAD/MAD in healthy volunteers",
+          "nct_ids": ["NCT06622070"],
+          "trial_status": "RECRUITING (primary completion 2026-04-03)",
+          "lead_sponsor": "Spyre Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SPY003",
+      "aka": ["SPY003-207"],
+      "modality": "Half-life-extended monoclonal antibody (subcutaneous)",
+      "target": "IL-23 (p19)",
+      "license_origin": "In-licensed from Paragon Therapeutics",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe ulcerative colitis (monotherapy and combination)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SKYLINE-UC",
+          "trial_design": "Phase 2 SPY003 alone and in combinations in UC basket",
+          "nct_ids": ["NCT07012395"],
+          "trial_status": "RECRUITING (started 2025-05-27; primary completion 2026-06)",
+          "lead_sponsor": "Spyre Therapeutics, Inc.",
+          "key_milestones": ["SPY003 Part A UC topline expected Q3 2026"]
+        },
+        {
+          "indication": "Healthy-volunteer Phase 1 PK/safety",
+          "highest_phase": "Phase 1",
+          "trial_name": "SPY003-207 SAD/MAD",
+          "trial_design": "Phase 1 SAD/MAD in healthy volunteers",
+          "nct_ids": ["NCT06873724"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2026-11-18)",
+          "lead_sponsor": "Spyre Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SPY120 / SPY130 / SPY230 (combination regimens)",
+      "aka": ["SPY120 = SPY001+SPY002 (α4β7+TL1A)", "SPY130 = SPY001+SPY003 (α4β7+IL-23)", "SPY230 = SPY002+SPY003 (TL1A+IL-23)"],
+      "modality": "Combination of long-acting subcutaneous antibodies",
+      "target": "Multi-target combinations (α4β7 / TL1A / IL-23)",
+      "license_origin": "Internally combined from licensed Paragon antibodies",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe ulcerative colitis",
+          "highest_phase": "Phase 2",
+          "trial_name": "SKYLINE-UC Part B (combinations)",
+          "trial_design": "Combination arms within Phase 2 SKYLINE-UC basket",
+          "nct_ids": ["NCT07012395"],
+          "trial_status": "RECRUITING (Part B combinations within ongoing study)",
+          "lead_sponsor": "Spyre Therapeutics, Inc.",
+          "key_milestones": ["Part B combination topline expected 2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "SPY001-001 healthy-volunteer Phase 1", "nct_ids": ["NCT06448247"], "status": "COMPLETED — supersession by Phase 2"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 5, "phase_3": 0, "phase_2": 5, "phase_1": 3, "indications_in_active_clinical_dev": 7}
+}

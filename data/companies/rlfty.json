@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Relief Therapeutics Holding SA",
+  "ticker": "RLFTY",
+  "exchange": "OTC",
+  "cik": "0001854078",
+  "region": "EU/Switzerland",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer (Swiss). No 10-K on EDGAR; files local Swiss/EU disclosures and US ADR-related forms only."
+    },
+    "website": {
+      "url": "https://www.relieftherapeutics.com/pipeline",
+      "note": "Site redirected to mindmazetherapeutics.com (post-merger landing). Pipeline data sourced from public 2025 H1 corporate update and press releases."
+    },
+    "ctgov": {
+      "sponsor_query": "Relief Therapeutics",
+      "trials_returned": 0,
+      "note": "No trials registered on ClinicalTrials.gov under Relief Therapeutics as lead sponsor (registry-empty fallback applied)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "RLF-OD032",
+      "aka": ["Liquid sapropterin"],
+      "modality": "Small molecule (next-generation liquid sapropterin formulation)",
+      "target": "Phenylalanine hydroxylase cofactor (BH4)",
+      "license_origin": "Internal (APR Applied Pharma Research subsidiary)",
+      "indications": [
+        {
+          "indication": "Phenylketonuria (PKU)",
+          "highest_phase": "Phase 3",
+          "trial_name": "RLF-OD032 pivotal bioequivalence/registrational trial",
+          "trial_design": "Pivotal trial supporting US regulatory submission",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pivotal trial expected to commence Q3 2025 per H1 2025 corporate update; positive bioequivalence data already reported.",
+          "lead_sponsor": "Relief Therapeutics Holding SA",
+          "key_milestones": ["Positive bioequivalence study reported 2025", "US regulatory submission targeted post-trial completion"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {
+      "asset": "RLF-TD011",
+      "modality": "Topical (acid-oxidizing wound-care solution)",
+      "indications": ["Epidermolysis bullosa"],
+      "status": "Pre-IND. Productive Type B FDA pre-IND meeting completed; Rare Pediatric Disease designation granted."
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "RLF-100 (aviptadil) injectable",
+      "indications": ["COVID-19 respiratory failure"],
+      "status": "Phase 2b/3 ACTIV-3b/COVID-AIV trial concluded; program de-prioritized post-COVID."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "commercial_product": {
+    "name": "PKU GOLIKE",
+    "description": "Prolonged-release medical food for dietary management of PKU; commercialized by Eton Pharmaceuticals in the US under license from Relief; ex-US rights held by Nutrisens since Jan 2025."
+  },
+  "summary_counts": {
+    "assets": 1,
+    "indications": 1,
+    "p1_count": 0,
+    "p2_count": 0,
+    "p3_count": 1
+  }
+}

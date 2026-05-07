@@ -1,0 +1,38 @@
+{
+  "issuer_name": "Psychemedics Corporation",
+  "ticker": "PMDI",
+  "exchange": "OTC",
+  "cik": "0000806517",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001171843-25-001658",
+      "filing_date": "2025-03-24",
+      "doc": "pmd20241231_10k.htm",
+      "path": "data/pmdi_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public drug pipeline page — Psychemedics is a hair drug-testing services lab; site lists testing services, not drug assets"
+    },
+    "ctgov": {
+      "path": "data/pmdi_ctgov_compact.json",
+      "trial_count": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Patented hair analysis testing service for drugs of abuse using digestion of hair, enzyme immunoassay screening, and mass spectrometry confirmation; sold to Fortune 500 companies, SMBs, schools, and government entities in the US and internationally."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Lab-services / diagnostics company (hair drug-of-abuse testing). No proprietary drug or device clinical pipeline; revenue is 100% testing services."
+}

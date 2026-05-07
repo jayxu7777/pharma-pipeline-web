@@ -1,0 +1,58 @@
+{
+  "issuer_name": "Eupraxia Pharmaceuticals Inc.",
+  "ticker": "EPRX",
+  "exchange": "Nasdaq",
+  "cik": "0001581178",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Canadian) — files 20-F or local equivalents, no 10-K on EDGAR"},
+    "website": {"url": "https://eupraxiapharma.com/clinical-research/", "method": "WebFetch"},
+    "ctgov": {"file": "data/eprx_ctgov_compact.json", "trial_count": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "EP-104GI",
+      "aka": [],
+      "modality": "Long-acting injectable fluticasone propionate (Diffusphere extended-release)",
+      "target": "Glucocorticoid receptor (local tissue corticosteroid)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Eosinophilic Esophagitis (EoE)",
+          "highest_phase": "Phase 1b/2",
+          "trial_name": "RESOLVE",
+          "trial_design": "Multicenter, open-label dose-escalation/optimization with Phase 2b placebo-controlled portion underway",
+          "nct_ids": ["NCT05608681"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Eupraxia Pharmaceuticals Inc.",
+          "key_milestones": ["Phase 2b topline data expected H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "EP-104IAR",
+      "aka": [],
+      "modality": "Long-acting intra-articular injectable fluticasone propionate (Diffusphere)",
+      "target": "Glucocorticoid receptor (local intra-articular corticosteroid)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Knee Osteoarthritis",
+          "highest_phase": "Phase 2",
+          "trial_name": "SPRINGBOARD",
+          "trial_design": "Randomized, vehicle-controlled, double-blind Phase 2",
+          "nct_ids": ["NCT04120402"],
+          "trial_status": "Completed",
+          "lead_sponsor": "Eupraxia Pharmaceuticals Inc.",
+          "key_milestones": ["Trial completed; further OA development plans pending"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Other Diffusphere applications in inflammation, pain, oncology — preclinical exploratory"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 0, "P2": 2, "P1": 0}
+}

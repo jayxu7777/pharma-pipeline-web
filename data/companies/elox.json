@@ -1,0 +1,91 @@
+{
+  "issuer_name": "Eloxx Pharmaceuticals, Inc.",
+  "ticker": "ELOX",
+  "exchange": "OTC",
+  "cik": "0001035354",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-108687",
+      "filing_date": "2026-03-17",
+      "form": "10-K",
+      "fy_end": "2025-12-31"
+    },
+    "website": {
+      "url": "https://eloxx.com/pipeline",
+      "note": "WebFetch timed out; relied on 10-K + ctgov which are sufficient and more authoritative."
+    },
+    "ctgov": {
+      "query": "spons:Eloxx Pharmaceuticals",
+      "unique_trials_p1_p3": 9,
+      "fetched": "2026-05-06"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "exaluren",
+      "aka": ["ELX-02", "NB124"],
+      "modality": "Small molecule (ERSG, eukaryotic ribosomal selective glycoside) — premature termination codon readthrough",
+      "target": "Human ribosome (PTC readthrough)",
+      "license_origin": "In-licensed from Technion Research and Development Foundation (TRDF), 2013",
+      "indications": [
+        {
+          "indication": "Nonsense-mutation Alport Syndrome (NMAS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "EXACT Study (Phase 2b)",
+          "trial_design": "Randomized, double-blind, placebo-controlled, delayed-start; ~24 NMAS patients aged 12+ with COL4A3/4/5 LoF NM; 2:1 exaluren:placebo for 16 weeks then placebo crosses to exaluren for additional 16 weeks",
+          "nct_ids": ["NCT07523581"],
+          "trial_status": "Not yet recruiting (planned start H1 2026; topline mid-2027, final readout end-2027); FDA IND allowed; UK MHRA CTA obtained; FDA Orphan Drug Designation",
+          "lead_sponsor": "Eloxx Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "Phase 2b initiation H1 2026",
+            "Topline 16-week placebo-controlled data mid-2027",
+            "Final readout end-2027"
+          ]
+        },
+        {
+          "indication": "Nonsense-mutation autosomal dominant polycystic kidney disease (nmADPKD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Planned Phase 2 in nmADPKD",
+          "trial_design": "Phase 2 trial in nmADPKD; details pending IND",
+          "nct_ids": [],
+          "trial_status": "PLANNED — initiation in 2027 following IND clearance by FDA; topline expected mid-2028",
+          "lead_sponsor": "Eloxx Pharmaceuticals, Inc.",
+          "key_milestones": [
+            "IND submission in 2027",
+            "Trial initiation 2027",
+            "Topline mid-2028"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "ELX-03 (NB84) — discovery/preclinical",
+    "ELX-10 (NB157) — discovery/preclinical",
+    "Other ERSG/RMA library compounds — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "ELX-02 in nephropathic cystinosis (NCT04069260, Phase 2, TERMINATED 2019)",
+    "ELX-02 in Alport Syndrome Phase 2a (NCT05448755, COMPLETED 2023; data informed Phase 2b)",
+    "ELX-02 in CF G542X (NCT04135495, Phase 2, COMPLETED 2022)",
+    "ELX-02 in CF G542X (NCT04126473, Phase 2, COMPLETED 2022)",
+    "ELX-02 PK in renal impairment (NCT03776539, Phase 1, COMPLETED 2019)",
+    "ELX-02 SAD/MAD healthy volunteers (NCT02807961, Phase 1, TERMINATED 2017)",
+    "ELX-02 healthy adults Phase 1 (NCT03309605, COMPLETED 2019)",
+    "ELX-02 healthy adults Phase 1 (NCT03292302, COMPLETED 2017)"
+  ],
+  "excluded_partner_owned": [
+    "ZKN-013 (RMA for RDEB/JEB) — sublicensed to Almirall under March 2024 License Agreement; Almirall conducting Phase 1 in healthy volunteers; Almirall declined research-services option in March 2025 but retains development/commercialization rights. Asset is partner-controlled clinical program."
+  ],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "p3": 0,
+    "p2": 2,
+    "p1": 0,
+    "planned_pre_ind": 1,
+    "indications_count": 2
+  }
+}

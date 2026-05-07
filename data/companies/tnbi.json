@@ -1,0 +1,43 @@
+{
+  "issuer_name": "Tanke Biosciences Corp",
+  "ticker": "TNBI",
+  "exchange": "OTC",
+  "cik": "0001452011",
+  "region": "US (China-based historically; reincorporated as Florida investment vehicle in 2025)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2013-04-15",
+      "accession": "0001213900-13-001814",
+      "note": "Latest available 10-K is from 2013 covering FY2012. Company was a Chinese animal nutrition / feed additive manufacturer (Guangzhou Tanke). No drug development pipeline disclosed; revenue derived from organic trace mineral additives, functional regulation additives, and herbal medicinal additives sold to Chinese livestock and poultry feed producers. R&D spend FY2012 was ~$291k (process technology, not pharmaceuticals)."
+    },
+    "website": {
+      "error": "no public pipeline page found",
+      "note": "https://tnbi.com/pipeline returns 404. No corporate biopharma pipeline page exists."
+    },
+    "ctgov": {
+      "query": "spons:Tanke Biosciences",
+      "raw_count": 0,
+      "kept_p1_p3": 0,
+      "note": "No clinical trials registered."
+    },
+    "secondary_research": {
+      "note": "Per public 2025 disclosures (GlobeNewswire, OTC Markets), Tanke Biosciences was repurposed in Q1 2025 as a diversified investment vehicle (previously briefly an energy monitoring shell). New CEO Vincent Renz (Feb 2025) and Executive Chairman John P. Hopkins (Mar 2025). No therapeutic or device development program announced."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "legacy_business": "Animal feed additives sold in China (Organic Trace Mineral Additives ~86%, Functional Regulation Additives ~11%, Herbal Medicinal Additives ~1%). Operations were discontinued / divested as part of the 2024-2025 corporate restructuring."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Mis-bucketed via wide keyword match. Tanke Biosciences is not a biopharmaceutical company. Historically a Chinese animal feed additive manufacturer (per 2013 10-K, the most recent available SEC filing). Repurposed in 2025 as a diversified holding/investment vehicle. No proprietary drug, biologic, or device development program disclosed. No clinical trials on ClinicalTrials.gov."
+}

@@ -1,0 +1,36 @@
+{
+  "issuer_name": "BetterLife Pharma Inc.",
+  "ticker": "BETRF",
+  "exchange": "OTC",
+  "cik": "0001464165",
+  "region": "Canada (cross-listed CSE:BETR / OTCQB:BETRF)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer (Canadian) — fetch_10k.py could not locate pipeline section heading; company files Canadian disclosures rather than standard US 10-K"
+    },
+    "website": {
+      "error": "not fetched (avoided slow Playwright fallback)"
+    },
+    "ctgov": {
+      "path": "data/betrf_ctgov_compact.json",
+      "trials_kept": 0,
+      "note": "Zero hits under BetterLife Pharma sponsor on clinicaltrials.gov"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per public reporting through 2026, BetterLife's lead asset TD-0148A (2-bromo-LSD analog for depression / cluster headaches / PTSD) remains in IND-enabling preclinical stage; planned Phase 1/2 has not commenced on public registries. Legacy AP-003 (inhaled interferon alpha-2b for COVID-19) program has not produced active enrolling trials. No BetterLife-sponsored Phase 1/2/3 trials are recruiting or active per ctgov.",
+  "excluded_preclinical": [
+    "TD-0148A (2-bromo-LSD non-hallucinogenic analog) for major depressive disorder, PTSD, cluster headaches — preclinical / IND-enabling",
+    "AP-003 (inhaled recombinant interferon alpha-2b) for COVID-19 — no active trials"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  }
+}

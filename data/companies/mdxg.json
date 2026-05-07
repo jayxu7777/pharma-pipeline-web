@@ -1,0 +1,69 @@
+{
+  "issuer_name": "MIMEDX GROUP, INC.",
+  "ticker": "MDXG",
+  "exchange": "Nasdaq",
+  "cik": "0001376339",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001376339-26-000011",
+      "filing_date": "2026-02-25",
+      "document": "mdxg-20251231.htm",
+      "path": "data/mdxg_10k_pipeline_section.html",
+      "note": "10-K Business section describes commercial placental allograft / xenograft product portfolio (EPIFIX, EPICORD, EPIEFFECT, EPIXPRESS, AMNIOFIX, AMNIOEFFECT, AXIOFILL, HELIOGEN). The only ongoing trial mentioned is the EPIEFFECT randomized controlled trial enrolling for evidence-generation / payer-coverage purposes (see ctgov NCT06600724), which is registered as Phase = Not Applicable (HCT/P device-style RCT), not a P1/P2/P3 drug trial."
+    },
+    "website": {
+      "url": "https://www.mimedx.com",
+      "note": "Corporate site is JS-heavy; no /pipeline page exists. Site emphasizes commercial wound-care and surgical product franchises ('Helping Humans Heal'). No drug-style pipeline disclosed."
+    },
+    "ctgov": {
+      "path": "data/mdxg_ctgov_compact.json",
+      "sponsor_query": "MiMedx",
+      "raw_hits": 37,
+      "kept_p1_p3": 6,
+      "note": "All six P1-3 records in compact file are COMPLETED (4) / TERMINATED (1) / WITHDRAWN (1) — none active. The currently RECRUITING / ENROLLING MiMedx studies (NCT06600724 CAMPAIGN/PpLHACM in DFU; NCT06236750 EFIIX dHACM post-market; NCT07173621 AMNIOEFFECT in thyroid/parathyroid surgery as collaborator) are all registered Phase = Not Applicable, i.e. HCT/P device-class RCTs / post-market evidence — outside this scope's P1/P2/P3 definition."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Placental tissue allografts (HCT/P) and one bovine xenograft; FDA-regulated as Section 361 HCT/Ps or 510(k)-cleared device.",
+    "wound_care": [
+      {"name": "EPIFIX", "description": "Dehydrated Human Amnion/Chorion Membrane (dHACM) sheet allograft for chronic wounds incl. DFU, VLU."},
+      {"name": "EPICORD", "description": "Dehydrated human umbilical cord allograft for larger / deeper wounds."},
+      {"name": "EPIEFFECT", "description": "Lyophilized placental membrane allograft (PpLHACM); current company-sponsored RCT NCT06600724 (CAMPAIGN, RECRUITING, Phase=NA) generating Level-1 evidence in DFU."},
+      {"name": "EPIXPRESS", "description": "Wound product launched late 2025."},
+      {"name": "HELIOGEN", "description": "Bovine collagen matrix; first 510(k)-cleared product in MIMEDX portfolio (launched 2024) for moderately to heavily exudating wounds and minor bleeding control."}
+    ],
+    "surgical": [
+      {"name": "AMNIOFIX", "description": "dHACM for surgical applications; recent 2025 GI-conference data on reduced anastomotic leak rates."},
+      {"name": "AMNIOEFFECT", "description": "Surgical placental allograft (lower-extremity repair, plastic / vascular / orthopedic surgery)."},
+      {"name": "AXIOFILL", "description": "Tissue replacement / supplementation; subject of ongoing FDA-classification dispute (RFD determination challenged in N.D. Ga.); permitted to continue marketing during proceedings."}
+    ],
+    "international": "EPIFIX is the first and only amniotic tissue product approved for wound treatment in Japan; reimbursed by JMHLW at JPY 35,100/cm^2; distributed by Gunze Medical."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT05796765", "asset": "Micronized DHACM", "indication": "Knee osteoarthritis", "phase": "PHASE2", "status": "TERMINATED"},
+    {"nct_id": "NCT02427191", "asset": "AmnioFix Injectable (mDHACM)", "indication": "Plantar fasciitis", "phase": "PHASE2/PHASE3", "status": "COMPLETED"},
+    {"nct_id": "NCT03485157", "asset": "Micronized dHACM", "indication": "Knee osteoarthritis", "phase": "PHASE2", "status": "COMPLETED"},
+    {"nct_id": "NCT03414255", "asset": "Micronized dHACM", "indication": "Achilles tendonitis", "phase": "PHASE3", "status": "COMPLETED"},
+    {"nct_id": "NCT03414268", "asset": "Micronized dHACM", "indication": "Plantar fasciitis", "phase": "PHASE3", "status": "COMPLETED"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT02645591", "asset": "AmnioFix (dHACM)", "indication": "Prostate cancer (radical prostatectomy)", "phase": "PHASE2", "status": "WITHDRAWN", "lead_sponsor": "M.D. Anderson Cancer Center", "reason": "Investigator-initiated; MiMedx only collaborator; withdrawn."}
+  ],
+  "excluded_other_active_non_p1_p3": [
+    {"nct_id": "NCT06600724", "asset": "PpLHACM (EPIEFFECT)", "indication": "Diabetic foot ulcer", "phase": "NA", "status": "RECRUITING", "reason": "Active company-sponsored RCT but registered as Phase = Not Applicable (HCT/P RCT for evidence / reimbursement); outside P1/P2/P3 scope."},
+    {"nct_id": "NCT06236750", "asset": "dHACM (EPIFIX/EFIIX)", "indication": "DFU and VLU post-market surveillance", "phase": "NA", "status": "RECRUITING", "reason": "Post-marketing surveillance; non-P1-3."},
+    {"nct_id": "NCT07173621", "asset": "AMNIOEFFECT", "indication": "Thyroid/parathyroid surgery wounds", "phase": "NA", "status": "ENROLLING_BY_INVITATION", "reason": "Investigator-initiated (Sarasota Memorial Health Care System); MiMedx collaborator; non-P1-3."}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "MIMEDX is a placental-biologics medtech company commercializing FDA-regulated HCT/P tissue allografts (EPIFIX, EPICORD, EPIEFFECT, AMNIOFIX, AMNIOEFFECT, AXIOFILL) and one 510(k) bovine collagen device (HELIOGEN) for wound care and surgical applications. It has no proprietary drug pipeline. Its currently active company-sponsored RCT (NCT06600724 EPIEFFECT/PpLHACM in DFU, RECRUITING) and post-market surveillance studies are all registered Phase = Not Applicable on ClinicalTrials.gov, and therefore fall outside the active-P1/P2/P3 scope of this pipeline."
+}

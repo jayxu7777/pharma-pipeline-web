@@ -1,0 +1,76 @@
+{
+  "issuer_name": "Revelation Biosciences, Inc.",
+  "ticker": "REVB",
+  "exchange": "Nasdaq",
+  "cik": "0001810560",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-076552",
+      "filing_date": "2026-02-26",
+      "path": "data/revb_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.revbiosciences.com/pipeline-0",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/revb_ctgov_compact.json",
+      "trials_kept": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Gemini",
+      "aka": ["PHAD", "REVTx-99", "Phosphorylated hexaacyl disaccharide"],
+      "modality": "Small molecule (TLR4 agonist, MPLA analog)",
+      "target": "Toll-like receptor 4 (TLR4)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute Kidney Injury (AKI)",
+          "highest_phase": "Phase 2/3 (planned)",
+          "trial_name": "GEM-AKI Phase 2/3 adaptive design",
+          "trial_design": "Single Phase 2/3 adaptive design study, ~300 patients, composite primary endpoint of death and/or need for dialysis; FDA agreed in late 2025 that positive data would be sufficient for NDA submission",
+          "nct_ids": [],
+          "trial_status": "PLANNED - infrastructure build during 2026 (CRO selection, advisory board, drug supply manufacturing); company intends to start as soon as feasible",
+          "lead_sponsor": "Revelation Biosciences, Inc.",
+          "key_milestones": [
+            "FDA alignment on Phase 2/3 adaptive NDA pathway (late 2025)",
+            "AKI Advisory Board formed (April 2026)",
+            "Phase 2/3 study initiation targeted in 2026"
+          ]
+        },
+        {
+          "indication": "Chronic Kidney Disease (CKD), stage 3-4",
+          "highest_phase": "Phase 1/2 (completed Phase 1b)",
+          "trial_name": "Evaluation of the Safety and Tolerability of Gemini in Subjects With Stage 3-4 Chronic Kidney Disease",
+          "trial_design": "Randomized, placebo-controlled Phase 1/2 study of intravenous Gemini in CKD stage 3-4 patients",
+          "nct_ids": ["NCT06863467"],
+          "trial_status": "COMPLETED (primary completion 2025-07-22). Company plans repeat-dose Phase 2 study in 2026 pending preclinical toxicology",
+          "lead_sponsor": "Revelation Biosciences, Inc.",
+          "key_milestones": [
+            "Phase 1b in CKD completed July 2025",
+            "Repeat-dose Phase 2 planned, contingent on toxicology"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "GEM-PSI (post-surgical infection prevention) - preclinical/development",
+    "Gemini for severe burn / hyperinflammation - preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 1,
+    "indications_active_p1_p2_p3": 2,
+    "phase3": 0,
+    "phase2": 1,
+    "phase1": 1,
+    "phase2_3_planned": 1
+  }
+}

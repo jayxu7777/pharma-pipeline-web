@@ -1,0 +1,36 @@
+{
+  "issuer_name": "Meihua International Medical Technologies Co., Ltd.",
+  "ticker": "MHUAF",
+  "exchange": "OTC",
+  "cik": "0001835615",
+  "region": "CN",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F (no 10-K found in EDGAR recent filings)"
+    },
+    "website": {
+      "url_tried": ["https://meihuamed.com/pipeline", "http://www.meihuamed.com/"],
+      "result": "Corporate site has SSL/cert issues and no clinical pipeline page; product catalog confirms Class I/II/III disposable medical devices only."
+    },
+    "ctgov": {
+      "sponsor_query": "Meihua",
+      "unique_active_p1_p3_trials": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "disposable_medical_devices": {
+      "description": "Manufactures and distributes 800+ disposable medical devices for the China market and 120+ for export, across Class I, II, and III categories.",
+      "class_I_examples": ["medical X-ray films", "dry laser imagers", "gauze bandages", "examination gloves", "pharmaceutical packaging (LDPE/HDPE bottles)"],
+      "class_II_examples": ["full anesthesia kits", "urethral catheterization kits", "gynecological examination kits", "endotracheal intubation", "medical masks"],
+      "class_III_examples": ["disposable infusion pumps", "anesthesia puncture kits", "electronic pumps"]
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Adjacent medtech company — China-based manufacturer of disposable Class I/II/III medical devices (operating since 1991). No proprietary drug or pivotal device clinical trials sponsored by Meihua are active on ClinicalTrials.gov. Foreign private issuer files 20-F rather than 10-K; SEC 10-K fetch returned no result."
+}

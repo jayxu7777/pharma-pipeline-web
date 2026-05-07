@@ -1,0 +1,73 @@
+{
+  "issuer_name": "BiomX Inc.",
+  "ticker": "PHGE",
+  "exchange": "NYSE",
+  "cik": "0001739174",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-018231",
+      "filing_date": "2026-02-19",
+      "path": "data/phge_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page fetched; relied on 10-K + ctgov"
+    },
+    "ctgov": {
+      "path": "data/phge_ctgov_compact.json",
+      "trials_total": 4
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "BX004",
+      "aka": ["BX004-A"],
+      "modality": "Inhaled (nebulized) fixed multi-phage cocktail therapy (bacteriophage)",
+      "target": "Pseudomonas aeruginosa",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Cystic Fibrosis with chronic Pseudomonas aeruginosa lung infection",
+          "highest_phase": "Phase 2",
+          "trial_name": "BX004 Phase 2 (CF / Pseudomonas)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 evaluating nebulized BX004 cocktail in CF subjects with chronic Pseudomonas aeruginosa lung infection.",
+          "nct_ids": ["NCT06998043"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BiomX Ltd",
+          "key_milestones": ["Primary completion expected Mar 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "BX211",
+      "aka": [],
+      "modality": "Personalized phage therapy from proprietary phage bank",
+      "target": "Staphylococcus aureus",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Diabetic Foot Osteomyelitis (DFO) associated with S. aureus",
+          "highest_phase": "Phase 2",
+          "trial_name": "DFO Trial (BX211)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 trial evaluating BX211 personalized phage therapy for diabetic foot osteomyelitis associated with S. aureus.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per 10-K (recently rebranded; primary registry not yet linked to current sponsor entity)",
+          "lead_sponsor": "BiomX Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "BX011 (CF / fixed multi-phage; Phase 2a planned with U.S. Defense Health Agency, IND-pending)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT05240300 BX005-A (atopic dermatitis) — Withdrawn",
+    "NCT05010577 BX004-A CF Phase 1/2 — Completed",
+    "NCT04737876 BX002-A Phase 1 healthy volunteers — Completed"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_active": 2, "P3": 0, "P2": 2, "P1": 0}
+}

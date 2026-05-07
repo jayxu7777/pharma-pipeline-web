@@ -1,0 +1,173 @@
+{
+  "issuer_name": "Tonix Pharmaceuticals Holding Corp.",
+  "ticker": "TNXP",
+  "exchange": "Nasdaq",
+  "cik": "0001430306",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-12",
+      "accession": "0001999371-26-005730",
+      "path": "data/tnxp_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page fetched (10-K pipeline table is current)"},
+    "ctgov": {"path": "data/tnxp_ctgov_compact.json", "trials_kept": 36}
+  },
+  "pipeline": [
+    {
+      "asset": "TNX-102 SL (cyclobenzaprine HCl sublingual)",
+      "aka": ["TONMYA", "Tonmya"],
+      "modality": "Sublingual small molecule (cyclobenzaprine, 5-HT2A/alpha-1/M1/H1 antagonist)",
+      "target": "Serotonin 2A, alpha-1 adrenergic, muscarinic M1, histamine H1 receptors",
+      "license_origin": "Tonix internal (worldwide rights)",
+      "indications": [
+        {
+          "indication": "Major depressive disorder (MDD)",
+          "highest_phase": "P2",
+          "trial_name": "TNX-102 SL MDD Phase 2 (planned)",
+          "trial_design": "Phase 2 trial in MDD, expected to commence mid-2026 following Sept 2025 successful Pre-IND Type B meeting",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — expected to commence mid-2026",
+          "lead_sponsor": "Tonix Pharmaceuticals",
+          "key_milestones": ["Mid-2026 expected initiation"]
+        },
+        {
+          "indication": "Acute stress reaction / Acute stress disorder (prevention of PTSD)",
+          "highest_phase": "P2",
+          "trial_name": "RECOVER (UNC-led DoD study)",
+          "trial_design": "Phase 2 randomized, placebo-controlled investigator-initiated study in ASR prevention/PTSD",
+          "nct_ids": ["NCT06636786"],
+          "trial_status": "Recruiting (primary completion Sept 2026)",
+          "lead_sponsor": "University of North Carolina, Chapel Hill (Tonix collaborator/drug supplier)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TNX-1500",
+      "aka": ["anti-CD40L mAb (Fc-engineered)"],
+      "modality": "Anti-CD40L IgG1 monoclonal antibody (Fc-modified)",
+      "target": "CD40 Ligand (CD154)",
+      "license_origin": "Tonix internal",
+      "indications": [
+        {
+          "indication": "Kidney transplant rejection prevention",
+          "highest_phase": "P2",
+          "trial_name": "Investigator-initiated Phase 2 of TNX-1500 in kidney transplant recipients",
+          "trial_design": "Phase 2 study in de novo kidney transplant recipients",
+          "nct_ids": ["NCT07204080"],
+          "trial_status": "Not yet recruiting (planned start July 2026)",
+          "lead_sponsor": "Ayman Al Jurdi, MD (investigator-initiated; Tonix collaborator)",
+          "key_milestones": ["Phase 1 SAD in healthy volunteers completed (NCT07473752)"]
+        }
+      ]
+    },
+    {
+      "asset": "TNX-1300",
+      "aka": ["double-mutant cocaine esterase"],
+      "modality": "Recombinant enzyme (cocaine esterase)",
+      "target": "Cocaine (substrate hydrolysis)",
+      "license_origin": "Tonix internal",
+      "indications": [
+        {
+          "indication": "Acute cocaine intoxication (emergency department setting)",
+          "highest_phase": "P2",
+          "trial_name": "CATALYST (continuation planned)",
+          "trial_design": "Phase 2 randomized vs usual care in ED-presenting acute cocaine intoxication; original CATALYST (NCT06045793) terminated 2025; mid-Phase 2 program continues per 10-K",
+          "nct_ids": ["NCT06045793"],
+          "trial_status": "Mid-Phase 2 (CATALYST terminated April 2025; program continuing per 10-K pipeline disclosure)",
+          "lead_sponsor": "Tonix Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TNX-1900",
+      "aka": ["intranasal oxytocin (potentiated)"],
+      "modality": "Intranasal oxytocin (peptide)",
+      "target": "Oxytocin receptor",
+      "license_origin": "Tonix internal",
+      "indications": [
+        {
+          "indication": "Adolescent obesity, binge eating disorder, bone health in pediatric autism, arginine-vasopressin deficiency",
+          "highest_phase": "P2",
+          "trial_name": "Investigator-initiated Phase 2 (multiple indications)",
+          "trial_design": "Multiple investigator-initiated Phase 2 studies including AVP deficiency (Mass General — E. Lawson)",
+          "nct_ids": ["NCT04789148"],
+          "trial_status": "Recruiting (AVP deficiency study active)",
+          "lead_sponsor": "Investigator-initiated (Tonix supplies drug)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TNX-2900",
+      "aka": ["intranasal oxytocin formulation for Prader-Willi"],
+      "modality": "Intranasal oxytocin (peptide)",
+      "target": "Oxytocin receptor",
+      "license_origin": "Tonix internal",
+      "indications": [
+        {
+          "indication": "Prader-Willi syndrome",
+          "highest_phase": "P2",
+          "trial_name": "TNX-2900 Phase 2 (planned)",
+          "trial_design": "Phase 2 trial in Prader-Willi syndrome",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — expected to commence Q1 2027",
+          "lead_sponsor": "Tonix Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TNX-4800",
+      "aka": ["seasonal Lyme disease vaccine"],
+      "modality": "Vaccine (seasonal preventive for Lyme disease)",
+      "target": "Borrelia burgdorferi antigens",
+      "license_origin": "Tonix internal",
+      "indications": [
+        {
+          "indication": "Lyme disease prevention (seasonal)",
+          "highest_phase": "P2",
+          "trial_name": "TNX-4800 Phase 2 field study and human challenge study (planned)",
+          "trial_design": "Phase 2 field study planned H1 2027; Phase 2 human challenge study planned 2028 (pending FDA clearances)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pending FDA clearances",
+          "lead_sponsor": "Tonix Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "TONMYA (TNX-102 SL, cyclobenzaprine HCl sublingual)",
+    "approvals": ["FDA approval for fibromyalgia (US, per 10-K disclosure)"],
+    "note": "Tonix announced in 10-K that TNX-102 SL is approved as TONMYA for fibromyalgia in the US"
+  },
+  "excluded_preclinical": [
+    "TNX-801 (smallpox/mpox vaccine — pre-IND)",
+    "TNX-4200 (antiviral — pre-IND)",
+    "TNX-4900 (neuropathic pain — pre-IND)",
+    "TNX-1700 (gastric/colorectal cancer — pre-IND)"
+  ],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT03841773", "reason": "TNX-102 SL PTSD Phase 3 — Terminated"},
+    {"nct": "NCT02829814", "reason": "TNX-102 SL fibromyalgia Phase 3 — Terminated"},
+    {"nct": "NCT03062540", "reason": "TNX-102 SL military PTSD Phase 3 — Terminated"},
+    {"nct": "NCT03110575", "reason": "TNX-102 SL PTSD OLE Phase 3 — Terminated"},
+    {"nct": "NCT06045793", "reason": "TNX-1300 CATALYST Phase 2 — Terminated April 2025 (program continues per 10-K)"},
+    {"nct": "NCT05372887", "reason": "TNX-102 SL PTSD Phase 2 — Withdrawn"},
+    {"nct": "NCT04996056", "reason": "TNX-1300 cocaine Phase 2 pilot — Withdrawn"},
+    {"nct": "NCT05216510", "reason": "TNX-2110/2120/2130 SARS-CoV-2 DTH Phase 1 — Terminated"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 6,
+    "p1": 0,
+    "p2": 6,
+    "p3": 0,
+    "note": "TNX-102 SL highest = P2 (multiple new indications); plus commercial TONMYA in fibromyalgia"
+  }
+}

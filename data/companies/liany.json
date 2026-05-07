@@ -1,0 +1,46 @@
+{
+  "issuer_name": "LianBio",
+  "ticker": "LIANY",
+  "exchange": "OTC",
+  "cik": "0001831283",
+  "region": "US (China-focused operations)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "LianBio announced wind-down of operations in late 2023 / early 2024; the company terminated remaining licenses (mavacamten with Bristol-Myers Squibb, infigratinib with BridgeBio, BBP-398 with Navire/BridgeBio, lotilaner/TP-03 with Tarsus) and returned rights to licensors. Latest 10-K on file is FY2022 (filed 2023-03-28). All sponsored P1-P3 trials in CT.gov are COMPLETED, TERMINATED, or UNKNOWN status. No active proprietary clinical-stage pipeline remains.",
+  "sources": {
+    "10k": {
+      "accession": "0001831283-23-000041",
+      "filing_date": "2023-03-28",
+      "form": "10-K",
+      "fy_end": "2022-12-31",
+      "note": "Latest available; LianBio became delinquent / wound down after this filing."
+    },
+    "website": {
+      "error": "no public pipeline page found — corporate website discontinued following wind-down"
+    },
+    "ctgov": {
+      "query": "spons:LianBio",
+      "unique_trials_p1_p3": 7,
+      "all_inactive": true,
+      "fetched": "2026-05-06"
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Mavacamten in Chinese obstructive HCM (NCT05174416, Phase 3, COMPLETED 2023; rights returned to BMS)",
+    "Mavacamten Chinese PK study (NCT05135871, Phase 1, COMPLETED 2022)",
+    "TP-03 (lotilaner) LIBRA in blepharitis (NCT05629390, Phase 3, COMPLETED 2023; rights returned to Tarsus)",
+    "BBP-398 + osimertinib in EGFR NSCLC (NCT06032936, Phase 1, TERMINATED 2024)",
+    "BBP-398 in solid tumors (NCT05621525, Phase 1, TERMINATED 2024)",
+    "Infigratinib in GC/GEJ FGFR2 (NCT05019794, Phase 2, UNKNOWN status)",
+    "Infigratinib in advanced GC/GEJ (NCT06206278, Phase 2, TERMINATED 2024)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  }
+}

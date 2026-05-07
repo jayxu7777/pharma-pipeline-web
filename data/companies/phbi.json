@@ -1,0 +1,25 @@
+{
+  "issuer_name": "Pharmagreen Biotech Inc.",
+  "ticker": "PHBI",
+  "exchange": "OTC",
+  "cik": "0001435181",
+  "region": "US/Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001477932-23-000296",
+      "filed": "2023-01-17",
+      "doc": "phbi_10k.htm",
+      "note": "10-K fetched but no recognizable pipeline section heading; issuer is nutraceutical/cannabis, not a clinical-stage drug developer."
+    },
+    "website": {"error": "no public pipeline page found"},
+    "ctgov": {"unique_trials_p1_3": 0, "sponsor_query": "Pharmagreen Biotech"}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P1": 0, "P2": 0, "P3": 0},
+  "no_active_clinical_pipeline_reason": "Pharmagreen Biotech is a nutraceutical / cannabis cultivation and extraction company (MaxGenomic supplement, Live Rosin cannabis concentrate). No proprietary drug candidates in P1/P2/P3 clinical trials; no records found in ClinicalTrials.gov for sponsor 'Pharmagreen Biotech'."
+}

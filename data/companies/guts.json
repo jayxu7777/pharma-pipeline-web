@@ -1,0 +1,70 @@
+{
+  "issuer_name": "Fractyl Health, Inc.",
+  "ticker": "GUTS",
+  "exchange": "Nasdaq",
+  "cik": "0001572616",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-24",
+      "accession": "0001193125-26-121793",
+      "path": "data/guts_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://fractyl.com/",
+      "note": "Homepage describes Revita and Rejuva at high level; no dedicated /pipeline page returned content (404). Investor portal ir.fractyl.com timed out."
+    },
+    "ctgov": {
+      "path": "data/guts_ctgov_compact.json",
+      "note": "Sponsor lookup with 'Fractyl' and 'Fractyl Health' returned 0 trials in the cached compact file. REMAIN-1 NCT was identified via web search (NCT06484114) and added manually."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Revita",
+      "aka": ["Revita DMR", "Revita DMR System", "duodenal mucosal resurfacing"],
+      "modality": "Endoscopic medical device (duodenal mucosal resurfacing)",
+      "target": "Duodenal mucosa (root-cause metabolic signaling)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Maintenance of weight loss after GLP-1 based therapy discontinuation in obesity",
+          "highest_phase": "Pivotal (device, Phase 3 equivalent)",
+          "trial_name": "REMAIN-1 Pivotal Cohort",
+          "trial_design": "Randomized, double-blind, sham-controlled pivotal study; randomization completed February 2026; co-primary endpoints: weight regain at 6 months and responder rate at 1 year",
+          "nct_ids": ["NCT06484114"],
+          "trial_status": "Active, not recruiting (enrollment completed July 2025; randomization completed February 2026; topline 6-month data expected early Q4 2026)",
+          "lead_sponsor": "Fractyl Health, Inc.",
+          "key_milestones": [
+            "One-year REVEAL-1 Cohort data Q2 2026",
+            "One-year REMAIN-1 Midpoint Cohort randomized data Q3 2026",
+            "Topline six-month REMAIN-1 Pivotal Cohort data early Q4 2026",
+            "Potential FDA De Novo marketing application submission late Q4 2026 (post-GLP-1 weight maintenance)"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Revita",
+    "status": "Limited pilot commercial launch in Germany since Q1 2023; investment paused under Strategic Reprioritization (Jan 2025); no 2025 revenue recognized."
+  },
+  "excluded_preclinical": [
+    "RJVA-001 (Rejuva pancreatic AAV gene therapy for T2D) — CTAs submitted in EU (Netherlands) and Australia in H2 2025; first-in-human dosing not yet initiated as of 10-K filing date; classified as IND/CTA-pending, not yet in active P1.",
+    "RJVA-002 (dual GIP/GLP-1 gene therapy) — preclinical development."
+  ],
+  "excluded_legacy_terminated": [
+    "REVITALIZE-1 (Revita for Type 2 Diabetes) — investment paused under Strategic Reprioritization announced January 31, 2025 (not driven by safety/efficacy concerns; existing participants followed per protocol).",
+    "Germany Real-World Registry study (Revita for T2D) — investment paused under Strategic Reprioritization."
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "phase_3_or_pivotal": 1,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": null
+}

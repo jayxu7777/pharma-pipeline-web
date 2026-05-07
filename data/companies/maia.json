@@ -1,0 +1,57 @@
+{
+  "issuer_name": "MAIA Biotechnology, Inc.",
+  "ticker": "MAIA",
+  "exchange": "NYSE",
+  "cik": "0001878313",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/maia_10k_pipeline_section.html", "filing_date": "2026-03-23", "accession": "0001493152-26-012088"},
+    "website": {"url": "https://www.maiabiotech.com/pipeline", "note": "Pipeline page is high-level marketing"},
+    "ctgov": {"file": "data/maia_ctgov_compact.json", "unique_p1_p3_trials": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "Ateganosine",
+      "aka": ["THIO", "6-thio-2'-deoxyguanosine", "6-thio-dG"],
+      "modality": "Small molecule telomere-targeting nucleoside analogue",
+      "target": "Telomerase / telomeres (cancer-cell selective)",
+      "license_origin": "MAIA proprietary (in-licensed from research origins; cemiplimab supplied by Regeneron under clinical supply agreement)",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic non-small cell lung cancer (NSCLC), 3rd line, post-checkpoint resistant",
+          "highest_phase": "Phase 3",
+          "trial_name": "THIO-104",
+          "trial_design": "Phase 3 pivotal, randomized study of ateganosine + cemiplimab vs chemotherapy (docetaxel, vinorelbine, gemcitabine) as 3rd-line treatment in advanced/metastatic NSCLC",
+          "nct_ids": ["NCT06908304"],
+          "trial_status": "RECRUITING (initiated December 2025)",
+          "lead_sponsor": "Maia Biotechnology",
+          "key_milestones": ["Primary completion July 2027", "FDA Fast Track designation"]
+        },
+        {
+          "indication": "Advanced NSCLC (2nd/3rd line, sequential with checkpoint inhibitor)",
+          "highest_phase": "Phase 2",
+          "trial_name": "THIO-101",
+          "trial_design": "Phase 2 evaluation of ateganosine sequenced with cemiplimab in advanced NSCLC; expanded in July 2025 to focus on 3rd-line checkpoint-resistant patients",
+          "nct_ids": ["NCT05208944"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Maia Biotechnology",
+          "key_milestones": ["Primary completion September 2027", "Expansion cohort initiated July 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "THIO-102 program planned for HCC, CRC, SCLC indications - not yet initiated",
+    "Second-generation telomere-targeting analogues (e.g., phosphatidyl-THIO conjugates) - preclinical/IP-stage"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 1,
+    "phase_2": 1,
+    "phase_1_or_1_2": 0
+  }
+}

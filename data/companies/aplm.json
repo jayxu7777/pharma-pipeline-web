@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Apollomics Inc.",
+  "ticker": "APLM",
+  "exchange": "Nasdaq",
+  "cik": "0001944885",
+  "region": "US/China (Cayman Islands)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found in EDGAR recent filings (likely foreign private issuer or transitioning filer; 20-F was not retrieved by current fetcher)."},
+    "website": {"error": "not fetched - relied on ctgov for active trials"},
+    "ctgov": {"file": "data/aplm_ctgov_compact.json", "kept_p1_p3": 9}
+  },
+  "pipeline": [
+    {
+      "asset": "APL-101",
+      "aka": ["vebreltinib", "bozitinib", "PLB-1001", "CBI-3103", "CBT-101"],
+      "modality": "Small molecule (oral c-Met inhibitor)",
+      "target": "c-Met",
+      "license_origin": "In-licensed (originally PLB-1001 / CBT-101)",
+      "indications": [
+        {
+          "indication": "Non-Small Cell Lung Cancer (NSCLC) with c-Met EXON 14 skipping mutations and c-Met dysregulated advanced solid tumors",
+          "highest_phase": "Phase 2",
+          "trial_name": "SPARTA (APL-101 Phase 2 in NSCLC c-MET EXON 14 skip / c-MET dysregulation)",
+          "trial_design": "Open-label Phase 2 multi-cohort study in NSCLC c-MET EXON 14 skipping mutations and other c-Met dysregulated advanced solid tumors (renal, gastric, GEJ, brain/glioblastoma, thyroid, pancreatic, colon).",
+          "nct_ids": ["NCT03175224"],
+          "trial_status": "Recruiting (primary completion target 2026-03-30)",
+          "lead_sponsor": "Apollomics Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Uproleselan (GMI-1271)", "indication": "Relapsed/Refractory AML (Chinese pts)", "nct_id": "NCT05054543", "phase": "PHASE3", "reason": "Status TERMINATED (primary completion 2024-08-22)."},
+    {"asset": "Uproleselan", "indication": "R/R AML PK/safety (Chinese pts)", "nct_id": "NCT04839341", "phase": "PHASE1", "reason": "COMPLETED."},
+    {"asset": "APL-102", "indication": "Advanced solid tumors", "nct_id": "NCT05055518", "phase": "PHASE1", "reason": "Status SUSPENDED."},
+    {"asset": "APL-501 / APL-101 combo", "indication": "HCC and RCC", "nct_id": "NCT03655613", "phase": "PHASE1/PHASE2", "reason": "TERMINATED."},
+    {"asset": "APL-501", "indication": "Select advanced/relapsed solid tumors", "nct_id": "NCT03053466", "phase": "PHASE1", "reason": "COMPLETED."},
+    {"asset": "APL-101 vs PLB-1001 capsules bioequivalence", "indication": "Bioequivalence (healthy volunteers)", "nct_id": "NCT05367388", "phase": "PHASE1", "reason": "Status UNKNOWN; bioequivalence not a clinical efficacy program."}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "APL-101 + Osimertinib", "indication": "EGFR-mutated metastatic NSCLC", "nct_id": "NCT04743505", "phase": "PHASE1/PHASE2", "lead_sponsor": "Washington University School of Medicine", "reason": "Investigator-initiated; Apollomics is collaborator, not sponsor."}
+  ],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

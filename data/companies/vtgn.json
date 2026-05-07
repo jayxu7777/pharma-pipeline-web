@@ -1,0 +1,157 @@
+{
+  "issuer_name": "Vistagen Therapeutics, Inc.",
+  "ticker": "VTGN",
+  "exchange": "Nasdaq",
+  "cik": "0001411685",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-06-17",
+      "accession": "0001411685-25-000041",
+      "path": "data/vtgn_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.vistagen.com/pipeline",
+      "note": "Not fetched directly; pipeline cross-validated via 10-K and ctgov."
+    },
+    "ctgov": {
+      "path": "data/vtgn_ctgov_compact.json",
+      "unique_trials_p1_p3": 12
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Fasedienol",
+      "aka": ["PH94B", "Aloradine"],
+      "modality": "Pherine nasal spray (synthetic neuroactive steroid)",
+      "target": "Nasal chemosensory neurons (peripheral mechanism, no systemic absorption)",
+      "license_origin": "Pherin Pharmaceuticals (in-licensed); AffaMed greater China license partnership",
+      "indications": [
+        {
+          "indication": "Social Anxiety Disorder (SAD) — acute treatment",
+          "highest_phase": "Phase 3",
+          "trial_name": "PALISADE Phase 3 program (PALISADE-3, PALISADE-4)",
+          "trial_design": "Randomized, double-blind, placebo-controlled public-speaking-challenge trials",
+          "nct_ids": ["NCT06358651", "NCT06615557", "NCT06809179"],
+          "trial_status": "PALISADE-3 ACTIVE_NOT_RECRUITING (primary completion 2025-10-31); PALISADE-4 RECRUITING (primary completion 2026-04); repeat-dose Phase 2 RECRUITING (NCT06809179)",
+          "lead_sponsor": "Vistagen Therapeutics, Inc.",
+          "key_milestones": ["Fast Track designation (FDA)", "PALISADE-3 topline data expected late 2025/early 2026", "PALISADE-4 topline expected 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Itruvone",
+      "aka": ["PH10"],
+      "modality": "Pherine nasal spray",
+      "target": "Nasal chemosensory neurons",
+      "license_origin": "Pherin Pharmaceuticals (in-licensed)",
+      "indications": [
+        {
+          "indication": "Major Depressive Disorder (MDD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2A exploratory completed; next Phase 2 planned",
+          "trial_design": "Randomized double-blind placebo-controlled (per 10-K)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — next Phase 2B trial in MDD planned per FY25 10-K (positive Phase 2A reported earlier)",
+          "lead_sponsor": "Vistagen Therapeutics, Inc.",
+          "key_milestones": ["Positive exploratory Phase 2A results reported"]
+        }
+      ]
+    },
+    {
+      "asset": "PH80",
+      "aka": [],
+      "modality": "Pherine nasal spray",
+      "target": "Nasal chemosensory neurons",
+      "license_origin": "Pherin Pharmaceuticals (in-licensed)",
+      "indications": [
+        {
+          "indication": "Vasomotor symptoms (hot flashes) due to menopause",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2A exploratory completed",
+          "trial_design": "Exploratory Phase 2A",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 2B trial planned; exclusive negotiation period with partner per 10-K",
+          "lead_sponsor": "Vistagen Therapeutics, Inc.",
+          "key_milestones": ["Positive exploratory Phase 2A reported"]
+        },
+        {
+          "indication": "Premenstrual dysphoric disorder (PMDD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Exploratory Phase 2A completed",
+          "trial_design": "Exploratory",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — next Phase 2 to follow",
+          "lead_sponsor": "Vistagen Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PH15",
+      "aka": [],
+      "modality": "Pherine nasal spray",
+      "target": "Nasal chemosensory neurons",
+      "license_origin": "Pherin Pharmaceuticals",
+      "indications": [
+        {
+          "indication": "Psychomotor impairment due to mental fatigue",
+          "highest_phase": "Phase 2",
+          "trial_name": "Pilot Phase 2A",
+          "trial_design": "Pilot exploratory",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Pilot Phase 2A completed; further development TBD",
+          "lead_sponsor": "Vistagen Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PH284",
+      "aka": [],
+      "modality": "Pherine nasal spray",
+      "target": "Nasal chemosensory neurons",
+      "license_origin": "Pherin Pharmaceuticals",
+      "indications": [
+        {
+          "indication": "Cancer cachexia",
+          "highest_phase": "Phase 2",
+          "trial_name": "Exploratory Phase 2A",
+          "trial_design": "Exploratory",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Exploratory Phase 2A completed",
+          "lead_sponsor": "Vistagen Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AV-101",
+      "aka": ["L-4-chlorokynurenine"],
+      "modality": "Oral small-molecule NMDA receptor glycine-B antagonist prodrug",
+      "target": "NMDA receptor (glycine-B site)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Levodopa-induced dyskinesia in Parkinson's disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "AV-101 in PD-LID",
+          "trial_design": "Phase 2 exploratory",
+          "nct_ids": ["NCT04147949"],
+          "trial_status": "UNKNOWN on ctgov (primary completion 2023-12); program de-prioritized in favor of pherines",
+          "lead_sponsor": "Vistagen Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "PH94B", "indication": "SAD open-label safety", "nct": "NCT05030350", "reason": "TERMINATED"},
+    {"asset": "PH94B", "indication": "SAD public-speaking-2", "nct": "NCT05011396", "reason": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 6, "P3": 1, "P2": 5, "P1": 0}
+}

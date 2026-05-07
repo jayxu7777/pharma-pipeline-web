@@ -1,0 +1,99 @@
+{
+  "issuer_name": "INOVIO Pharmaceuticals, Inc.",
+  "ticker": "INO",
+  "exchange": "Nasdaq",
+  "cik": "0001055726",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001055726-26-000008", "filed": "2026-03-12", "doc": "ino-20251231.htm"},
+    "website": {"url": "https://www.inovio.com/our-focus/dna-medicines-pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/ino_ctgov_compact.json", "studies_returned": 50}
+  },
+  "pipeline": [
+    {
+      "asset": "INO-3107",
+      "aka": [],
+      "modality": "DNA immunotherapy (plasmid + CELLECTRA electroporation)",
+      "target": "HPV-6 / HPV-11 antigens",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Recurrent respiratory papillomatosis (RRP) in adults",
+          "highest_phase": "BLA filed (post-Phase 2)",
+          "trial_name": "Phase 1/2 pivotal (HPV-6/-11 RRP)",
+          "trial_design": "Open-label, single-arm Phase 1/2",
+          "nct_ids": ["NCT04398433"],
+          "trial_status": "Phase 1/2 completed; BLA accepted by FDA Dec 2025 under accelerated approval; PDUFA Oct 30, 2026",
+          "lead_sponsor": "Inovio Pharmaceuticals",
+          "key_milestones": ["BLA submission completed Nov 2025", "FDA acceptance Dec 2025", "PDUFA target action date Oct 30, 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "INO-3112",
+      "aka": ["VGX-3100 + INO-9012"],
+      "modality": "DNA immunotherapy (HPV-16/-18 plasmid + IL-12 plasmid + electroporation)",
+      "target": "HPV-16 / HPV-18 antigens; IL-12 immune adjuvant",
+      "license_origin": "Internal (combo with Coherus LOQTORZI / toripalimab)",
+      "indications": [
+        {
+          "indication": "HPV-16/-18 positive locoregionally advanced oropharyngeal squamous cell carcinoma (OPSCC)",
+          "highest_phase": "Phase 3 (planned)",
+          "trial_name": "Planned Phase 3 INO-3112 + LOQTORZI in OPSCC",
+          "trial_design": "Phase 3 combination (with toripalimab-tpzi); design aligned with FDA",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED \u2014 FDA design alignment achieved; initial EU regulatory feedback received; trial not yet started",
+          "lead_sponsor": "Inovio Pharmaceuticals",
+          "key_milestones": ["Coherus clinical collaboration & supply agreement for LOQTORZI"]
+        }
+      ]
+    },
+    {
+      "asset": "INO-5401",
+      "aka": ["with INO-9012"],
+      "modality": "DNA immunotherapy (multi-antigen plasmid encoding hTERT/WT1/PSMA + IL-12 plasmid + electroporation)",
+      "target": "hTERT, WT1, PSMA tumor antigens; IL-12",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Newly-diagnosed glioblastoma (GBM) in combination with cemiplimab (REGN2810) and standard radio/chemotherapy",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "INO-5401 + INO-9012 + cemiplimab in newly-diagnosed GBM",
+          "trial_design": "Open-label Phase 1/2",
+          "nct_ids": ["NCT03491683"],
+          "trial_status": "Active, not recruiting; primary completion Dec 2026",
+          "lead_sponsor": "Inovio Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "BRCA1/2 mutation carriers (cancer prevention/immunotherapy)",
+          "highest_phase": "Phase 1",
+          "trial_name": "INO-5401 vaccination in BRCA1/2 mutation carriers",
+          "trial_design": "Investigator-sponsored Phase 1",
+          "nct_ids": ["NCT04367675"],
+          "trial_status": "Active, not recruiting; primary completion Dec 2026",
+          "lead_sponsor": "Abramson Cancer Center at Penn Medicine (Inovio collaborator)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "VGX-3100", "reason": "Out-licensed to ApolloBio for cervical/anal/vulvar HSIL; REVEAL-1/2 Phase 3 completed; no active Inovio-sponsored development"},
+    {"asset": "INO-4800", "reason": "COVID-19 program; pivotal Phase 2/3 NCT04642638 terminated"},
+    {"asset": "INO-4500 (Lassa)", "reason": "Phase 1 program with CEPI; no active P1/P2/P3"},
+    {"asset": "INO-4700 (MERS-CoV)", "reason": "Phase 2 completed Jan 2023; no successor active trial disclosed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3_or_filed": 2,
+    "phase_2": 0,
+    "phase_1_2": 1,
+    "phase_1": 1,
+    "note": "INO-3107 counted as filed/BLA; INO-3112 as planned Phase 3"
+  }
+}

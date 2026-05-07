@@ -1,0 +1,104 @@
+{
+  "issuer_name": "Absci Corp",
+  "ticker": "ABSI",
+  "exchange": "Nasdaq",
+  "cik": "0001672688",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001672688-26-000068",
+      "filing_date": "2026-03-24",
+      "doc": "absi-20251231.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found (https://absci.com/pipeline and https://www.absci.com/pipeline both 404)"
+    },
+    "ctgov": {
+      "queried_sponsor": "Absci",
+      "active_studies": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "ABS-201",
+      "aka": [],
+      "modality": "Anti-PRLR monoclonal antibody",
+      "target": "PRLR (prolactin receptor)",
+      "license_origin": "Internally discovered via Absci AI platform",
+      "indications": [
+        {
+          "indication": "Androgenetic alopecia (AGA)",
+          "highest_phase": "Phase 1/2a",
+          "trial_name": "HEADLINE (ABS-201 SAD/MAD in healthy adults with and without AGA)",
+          "trial_design": "Single ascending dose IV and multiple ascending dose SC, placebo-controlled, in healthy volunteers and AGA participants; conducted in Australia",
+          "nct_ids": ["NCT07317544"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Absci Pty Ltd.",
+          "key_milestones": [
+            "First participants dosed Dec 2025",
+            "Initial proof-of-concept data expected 2H 2026",
+            "Primary completion Jul 2028"
+          ]
+        },
+        {
+          "indication": "Endometriosis",
+          "highest_phase": "PLANNED Phase 2",
+          "trial_name": "ABS-201 Phase 2 in endometriosis (planned)",
+          "trial_design": "Phase 2 planned to leverage HEADLINE Phase 1 safety/PK data",
+          "nct_ids": [],
+          "trial_status": "PLANNED — Phase 2 initiation anticipated Q4 2026; potential proof-of-concept data 2H 2027",
+          "lead_sponsor": "Absci Corp",
+          "key_milestones": [
+            "Phase 2 initiation anticipated Q4 2026",
+            "POC data 2H 2027"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "ABS-101",
+      "aka": [],
+      "modality": "Anti-TL1A monoclonal antibody",
+      "target": "TL1A",
+      "license_origin": "Internally discovered via Absci AI platform",
+      "indications": [
+        {
+          "indication": "Inflammatory bowel disease (IBD)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ABS-101 first-in-human Phase 1 in healthy volunteers",
+          "trial_design": "Single/multiple ascending dose Phase 1 in healthy volunteers; conducted ex-US",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 initiated May 2025; positive interim Phase 1 results announced Nov 2025; Absci will not advance ABS-101 internally beyond current Phase 1 and is seeking a partner for further development",
+          "lead_sponsor": "Absci Corp",
+          "key_milestones": [
+            "Phase 1 initiated May 2025",
+            "Interim Phase 1 results Nov 2025",
+            "Seeking partner for further development"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {
+      "asset": "ABS-301",
+      "rationale": "Preclinical-stage oncology program (reverse immunology platform)"
+    },
+    {
+      "asset": "ABS-501",
+      "rationale": "Preclinical-stage HER2 program"
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_1": 1,
+    "phase_1_2": 1,
+    "phase_2": 0,
+    "phase_3": 0,
+    "planned_phase_2": 1
+  }
+}

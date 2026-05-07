@@ -1,0 +1,41 @@
+{
+  "issuer_name": "LAKELAND INDUSTRIES INC",
+  "ticker": "LAKE",
+  "exchange": "Nasdaq",
+  "cik": "0000798081",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-16",
+      "accession": "0001193125-26-159176",
+      "path": "data/lake_10k_pipeline_section.html",
+      "note": "Lakeland Industries is a manufacturer of protective clothing and industrial workwear (chemical, fire, heat, clean room PPE). No drug development activities discussed."
+    },
+    "website": {
+      "error": "no public pipeline page found - PPE manufacturer, no drug pipeline page exists"
+    },
+    "ctgov": {
+      "path": "data/lake_ctgov_compact.json",
+      "kept_p123": 0,
+      "note": "No clinical trials sponsored by Lakeland Industries on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Protective apparel and PPE",
+    "examples": ["ChemMax", "Pyrolon", "Interceptor Plus", "MicroMax", "CleanMax", "Lakeland fire service turnout gear"],
+    "note": "Lakeland Industries manufactures and sells industrial protective clothing, fire service apparel, chemical/biohazard suits and clean-room garments. Not a pharmaceutical or biotech issuer."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Industrial protective apparel and PPE manufacturer; no proprietary drug or therapeutic pipeline."
+}

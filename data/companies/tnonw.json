@@ -1,0 +1,75 @@
+{
+  "issuer_name": "Tenon Medical, Inc.",
+  "ticker": "TNONW",
+  "exchange": "Nasdaq",
+  "cik": "0001560293",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-27",
+      "accession": "0001213900-26-035707",
+      "note": "Tenon Medical is a commercial-stage medical device company focused on sacroiliac (SI) joint fusion. The Catamaran SI Joint Fusion System received FDA 510(k) clearance in 2018 and was nationally launched October 2022. In August 2025 the Company acquired SiVantage / SIMPL Medical assets, including the SImmetry+ SI Joint Fusion System. No proprietary drug pipeline; revenue derived from device sales."
+    },
+    "website": {
+      "url": "https://tenonmed.com",
+      "note": "Company site describes Catamaran SI Joint Fusion System and the post-market MAINSAIL Study (33 patients, 6-month interim: 80% success, 61.6% pain reduction VAS, 43% ODI improvement). No drug pipeline page; pipeline path returns 404."
+    },
+    "ctgov": {
+      "query": "spons:Tenon Medical",
+      "raw_count": 2,
+      "kept_p1_p3": 0,
+      "note": "Both registered studies are device studies (Phase: Not Applicable), excluded from P1/P2/P3 drug pipeline scope. NCT05628142 (Catamaran SI Joint Fusion CT Scan Study, Enrolling by invitation) and NCT05633888 (Post-Market Feasibility Study, Recruiting). Documented in commercial_product section."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "Catamaran SI Joint Fusion System",
+        "indication": "Sacroiliac joint fusion (SI joint disruptions, degenerative sacroiliitis)",
+        "regulatory_status": "FDA 510(k) cleared (2018); national launch October 2022",
+        "active_post_market_studies": [
+          {
+            "nct_id": "NCT05628142",
+            "title": "Tenon Medical CATAMARAN SI Joint Fusion System CT Scan Study",
+            "phase": "Not Applicable (device)",
+            "status": "Enrolling by invitation",
+            "lead_sponsor": "Tenon Medical"
+          },
+          {
+            "nct_id": "NCT05633888",
+            "title": "Post-Market Feasibility Study of the Tenon Medical CATAMARAN SI Joint Fusion System",
+            "phase": "Not Applicable (device)",
+            "status": "Recruiting",
+            "lead_sponsor": "Tenon Medical"
+          },
+          {
+            "name": "MAINSAIL Study",
+            "design": "Prospective, single-arm, multi-center post-market",
+            "n": 33,
+            "status": "Interim 6-month data reported; 12-month radiographic follow-up complete",
+            "nct_id": "Not on public registry"
+          }
+        ]
+      },
+      {
+        "name": "SImmetry+ SI Joint Fusion System",
+        "indication": "Sacroiliac joint fusion via minimally invasive lateral access",
+        "regulatory_status": "Acquired August 2025 from SiVantage / SIMPL Medical (previously cleared)",
+        "active_post_market_studies": []
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech / device company. Tenon Medical sells FDA-cleared SI joint fusion implants (Catamaran, SImmetry+). All registered ClinicalTrials.gov studies are post-market device evaluations of already-cleared products (Phase: Not Applicable) and therefore fall outside the active P1/P2/P3 drug pipeline scope. Documented under commercial_product."
+}

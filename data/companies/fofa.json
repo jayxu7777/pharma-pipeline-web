@@ -1,0 +1,34 @@
+{
+  "issuer_name": "Family Office of America, Inc.",
+  "ticker": "FOFA",
+  "exchange": "OTC",
+  "cik": "0001871181",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "note": "10-K filing exists and was downloaded, but no drug/device pipeline section is present. Issuer is a financial-services roll-up (CPA firms and family office services), not a pharma/biotech company. Renamed from 'Qualis Innovations, Inc.' (QLIS) to 'Family Office of America, Inc.' (FOFA) on 2024-12-17.",
+      "path": "data/fofa_10k_full.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found — issuer is a financial-services holding company"
+    },
+    "ctgov": {
+      "sponsor_query": "Family Office of America",
+      "raw_kept": 0,
+      "note": "No clinical trials returned, as expected."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Not a biopharma or medtech company. FOFA is an early-stage financial-services roll-up acquiring CPA firms and providing family-office services (wealth management, tax planning, estate planning, insurance consulting, investment banking). Mis-bucketed as adjacent_medtech_dx; has no drug or medical-device clinical pipeline."
+}

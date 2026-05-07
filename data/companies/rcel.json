@@ -1,0 +1,66 @@
+{
+  "issuer_name": "AVITA Medical, Inc.",
+  "ticker": "RCEL",
+  "exchange": "Nasdaq",
+  "cik": "0001762303",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-12",
+      "accession": "0001193125-26-049031",
+      "slice_html": "data/rcel_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://avitamedical.com/pipeline",
+      "note": "Page returned mostly framework markup; no clinical pipeline table beyond marketed RECELL device."
+    },
+    "ctgov": {
+      "compact": "data/rcel_ctgov_compact.json",
+      "trials_returned": 0,
+      "note": "No P1/P2/P3 sponsored trials returned for AVITA Medical. Company conducts post-market clinical studies for already-approved devices."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      {
+        "name": "RECELL (RECELL 1920, RECELL EOU, RECELL GO, RECELL GO mini)",
+        "modality": "Autologous cell harvesting device (Spray-On Skin Cells)",
+        "indications": [
+          "Acute thermal burns (PMA Sep 2018; pediatric expansion Jun 2021)",
+          "Full-thickness skin defects (PMA supplement Jun 2023)",
+          "Repigmentation of stable depigmented vitiligo (PMA Jun 2023; commercial investment paused)"
+        ],
+        "regulatory": "FDA PMA approved; CE Mark for RECELL GO Sep 2025; PMDA Japan (burns); TGA Australia"
+      },
+      {
+        "name": "Cohealyx",
+        "modality": "Bovine collagen-based dermal matrix (distributed under Regenity agreement)",
+        "indications": ["Wound bed preparation for full-thickness wounds"],
+        "regulatory": "FDA 510(k) cleared Dec 19, 2024; US launch Apr 1, 2025"
+      },
+      {
+        "name": "PermeaDerm",
+        "modality": "Biosynthetic wound matrix (manufactured and distributed under Stedical agreement)",
+        "indications": ["Treatment of various wound types until healing"],
+        "regulatory": "FDA 510(k) cleared"
+      }
+    ],
+    "ongoing_post_market_studies": [
+      "Cohealyx 40-patient post-market study (time-to-graft reduction in full-thickness wounds and burns)",
+      "PermeaDerm post-market study, ~40 patients, health economic comparison vs human cadaveric allograft"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device (medtech) company. All proprietary products (RECELL platform, Cohealyx, PermeaDerm) are FDA-approved or 510(k)-cleared and commercially marketed. Ongoing clinical activity is limited to post-market evidence-generation studies for already-approved devices, which are not pre-approval P1/P2/P3 drug trials."
+}

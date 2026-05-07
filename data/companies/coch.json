@@ -1,0 +1,54 @@
+{
+  "issuer_name": "Envoy Medical, Inc.",
+  "ticker": "COCH",
+  "exchange": "Nasdaq",
+  "cik": "0001840877",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-032683", "filing_date": "2026-03-23", "file": "data/coch_10k_pipeline_section.html"},
+    "website": {"note": "Skipped - 10-K + ctgov sufficient; single product candidate Acclaim CI well-characterized"},
+    "ctgov": {"sponsor_query": "Envoy Medical", "raw_count": 4, "kept_p1_p3": 0, "note": "Trials are Class III medical device studies (no drug Phase classification); pivotal IDE study NCT06699797 confirmed via ctgov API search by intervention.", "file": "data/coch_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Acclaim CI (Acclaim Cochlear Implant)",
+      "aka": ["Acclaim", "Acclaim Cochlear Implant System"],
+      "modality": "Class III implantable medical device (fully implanted cochlear implant; piezoelectric middle-ear sensor + implanted sound processor + rechargeable implanted battery)",
+      "target": "Severe-to-profound sensorineural hearing loss (auditory nerve stimulation via cochlear electrode array)",
+      "license_origin": "Internal (Envoy Medical, building on prior Esteem FI-AMEI implantable sensor technology)",
+      "indications": [
+        {
+          "indication": "Severe-to-profound sensorineural hearing loss (adults >=18 yrs)",
+          "highest_phase": "Pivotal IDE study (device equivalent of P3); FDA Breakthrough Device Designation 2019",
+          "trial_name": "Pivotal Clinical Trial Evaluating the Safety and Efficacy of the Fully Implanted Acclaim Cochlear Implant",
+          "trial_design": "Prospective, multicenter, non-randomized, open-label IDE pivotal study; 56 patients enrolled and followed 12 months; primary efficacy endpoint = CNC word speech-perception change from baseline to 12 months; staged design (FDA approval to advance to Stage 2 received Oct 3 2025); enrollment of all 56 patients completed Mar 10 2025; total study duration ~2.5 years",
+          "nct_ids": ["NCT06699797"],
+          "trial_status": "Active, not recruiting (enrollment complete; in 12-month follow-up)",
+          "lead_sponsor": "Envoy Medical Corporation",
+          "key_milestones": [
+            "2010: predecessor Esteem FI-AMEI received FDA approval (~1,000 devices implanted)",
+            "2019: Acclaim CI received FDA Breakthrough Device Designation",
+            "2022: FDA-approved IDE for Early Feasibility Study at Mayo Clinic (3 patients implanted Q4)",
+            "Mar 10 2025: pivotal study enrollment of 56 patients completed",
+            "Oct 3 2025: FDA approval to advance from Stage 1 to Stage 2 of pivotal study",
+            "Next: 12-month follow-up readout, then PMA submission to FDA (review 6-12 months); CE Mark planned shortly after FDA approval"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_devices": [
+      {"name": "Esteem FI-AMEI", "indications_marketed": ["Sensorineural hearing loss (fully implanted active middle ear implant)"], "regulatory": ["FDA approved 2010"], "note": "Predecessor product; Envoy seeks reclassification as Fully Implanted Active Middle Ear Implant"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Acclaim CI Early Feasibility Study (EFS)", "reason": "EFS at Mayo Clinic (3 subjects, Q4 2022) completed; superseded by ongoing pivotal study NCT06699797"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 1, "p2": 0, "p1": 0, "note": "Pivotal IDE study reported as P3-equivalent for medical device"},
+  "no_active_clinical_pipeline_reason": ""
+}

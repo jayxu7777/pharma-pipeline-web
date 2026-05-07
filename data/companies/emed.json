@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Electromedical Technologies, Inc",
+  "ticker": "EMED",
+  "exchange": "OTC",
+  "cik": "0001715819",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001410578-24-000581",
+      "filing_date": "2024-05-01",
+      "doc": "elcq-20231231x10k.htm"
+    },
+    "website": {"error": "no public pipeline page found"},
+    "ctgov": {"unique_trials_p1_p3": 0, "sponsor_query": "Electromedical Technologies"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      {
+        "name": "WellnessPro Plus",
+        "type": "TENS device",
+        "regulatory_status": "FDA cleared (de novo classification, subsequent 510(k) clearances)",
+        "indication": "Pain management (chronic and acute pain)"
+      }
+    ],
+    "in_development_devices": [
+      {
+        "name": "Wellness Pro Plus Infinity",
+        "status": "Provisional utility patent filed; design patent registered; market entry targeted for fiscal 2024"
+      },
+      {
+        "name": "WellnessPro POD",
+        "status": "Planned wearable bioelectronics device for chronic pain, PTSD, anxiety, depression, insomnia"
+      },
+      {
+        "name": "Wellness ION Pen",
+        "status": "Planned interferential cold laser product"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Bioelectronics medical-device company (FDA-cleared TENS devices for pain). No proprietary drug pipeline; no active P1/P2/P3 clinical trials sponsored by company on ClinicalTrials.gov."
+}

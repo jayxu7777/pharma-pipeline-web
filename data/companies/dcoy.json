@@ -1,0 +1,36 @@
+{
+  "issuer_name": "Decoy Therapeutics Inc.",
+  "ticker": "DCOY",
+  "exchange": "Nasdaq",
+  "cik": "0001615219",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-134897",
+      "filing_date": "2026-03-31",
+      "path": "data/dcoy_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://decoytx.com/",
+      "note": "Pipeline page returns 404; main site confirms preclinical antiviral programs."
+    },
+    "ctgov": {
+      "path": "data/dcoy_ctgov_compact.json",
+      "note": "No Decoy-sponsored trials registered (formerly Salarius, merger closed Nov 2025)."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Decoy Therapeutics (post-merger with Salarius, Jan 2026) is a preclinical-stage biotechnology company. Lead program DCOY101 (pan-Coronavirus prophylactic) is in late lead optimization with planned IND filing in H1 2027. TRI program (Flu/COVID/RSV) and P-PROTAC program are exploratory/discovery stage. Legacy Salarius asset SP-2577 (LSD-1 inhibitor) MD Anderson investigator-initiated trial enrollment ended Jan 2026; company seeking out-licensing. SP-3164 protein degrader is integrated into platform but not in active trials.",
+  "excluded_preclinical": [
+    {"asset": "DCOY101", "indication": "COVID-19 prophylaxis (immunocompromised)", "stage": "Late lead optimization; IND planned H1 2027"},
+    {"asset": "TRI D-MAV", "indication": "Flu/COVID-19/RSV", "stage": "Discovery"},
+    {"asset": "P-PROTAC (SP-3164 + peptide)", "indication": "Antiviral / undruggable targets", "stage": "Exploratory"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "SP-2577 (seclidemstat)", "indication": "MDS / CMML", "reason": "Legacy Salarius asset; investigator-initiated MDACC Phase 1/2 enrollment ended Jan 2026, seeking out-licensing"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

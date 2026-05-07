@@ -1,0 +1,32 @@
+{
+  "issuer_name": "Aclarion, Inc.",
+  "ticker": "ACONW",
+  "exchange": "Nasdaq",
+  "cik": "0001635077",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001683168-26-001986",
+      "filed": "2026-03-18",
+      "doc": "aclarion_i10k-123125.htm"
+    },
+    "website": {"error": "no public pipeline page found (aclarion.com/pipeline returns 404 — diagnostic-imaging company has no drug pipeline page)"},
+    "ctgov": {"sponsor_query": "Aclarion", "raw_trials": 2, "kept_p1_3": 0, "note": "Sponsor trials are device/imaging studies, not drug Phase 1/2/3."}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Nociscan",
+    "components": ["NOCICALC", "NOCIGRAM"],
+    "modality": "Magnetic Resonance Spectroscopy (MRS) software / AI-assisted diagnostic platform",
+    "indication": "Identification of intervertebral discs consistent with chronic low back pain to aid surgical planning",
+    "regulatory_status": "FDA-registered, CE-marked; commercially marketed in US, EU, UK",
+    "key_partners": ["RadNet (imaging center distribution)", "Alphatec (ATEC) co-marketing partnership", "Siemens (MRI equipment collaboration)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P1": 0, "P2": 0, "P3": 0},
+  "no_active_clinical_pipeline_reason": "Aclarion is a diagnostic-imaging / SaaS medtech company. Its sole product, Nociscan, is an FDA-registered MRS software platform (already commercial), not a drug. Clinical activities are post-market evidence-generation studies (e.g. Gornet Study published in European Spine Journal) rather than P1/P2/P3 drug trials. No proprietary drug or device pipeline assets in active P1/P2/P3 clinical trials."
+}

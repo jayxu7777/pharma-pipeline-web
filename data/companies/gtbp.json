@@ -1,0 +1,67 @@
+{
+  "issuer_name": "GT Biopharma, Inc.",
+  "ticker": "GTBP",
+  "exchange": "Nasdaq",
+  "cik": "0000109657",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-008443",
+      "filing_date": "2026-03-02",
+      "path": "data/gtbp_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page fetched"
+    },
+    "ctgov": {
+      "path": "data/gtbp_ctgov_compact.json",
+      "trials_total": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "GTB-3650",
+      "aka": [],
+      "modality": "Tri-specific Killer Engager (TriKE) recombinant fusion protein (CD16/IL-15/CD33)",
+      "target": "CD16 (NK cells) x IL-15 x CD33 (tumor)",
+      "license_origin": "Licensed from University of Minnesota (2016 Exclusive Patent License Agreement)",
+      "indications": [
+        {
+          "indication": "High-risk myelodysplastic syndromes (MDS) / refractory acute myeloid leukemia (AML)",
+          "highest_phase": "Phase 1",
+          "trial_name": "GTB-3650 (CD16/IL-15/CD33) TriKE Phase 1 (investigator-sponsored, U. Minnesota)",
+          "trial_design": "Phase 1 dose-escalation study of GTB-3650 TriKE for the treatment of high-risk MDS / refractory AML; sponsor-investigator at Masonic Cancer Center, U. Minnesota under IND 165546.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrollment began early 2025 per 10-K",
+          "lead_sponsor": "Masonic Cancer Center, University of Minnesota (sponsor-investigator)",
+          "key_milestones": ["IND cleared Jun 2024", "Enrollment initiated early 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "GTB-5550",
+      "aka": ["camB7-H3 TriKE"],
+      "modality": "Camelid nanobody Tri-specific Killer Engager (TriKE) targeting B7-H3",
+      "target": "CD16 x IL-15 x B7-H3",
+      "license_origin": "Licensed from University of Minnesota (B7-H3 TriKE patent license)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors expressing B7-H3",
+          "highest_phase": "Phase 1",
+          "trial_name": "GTB-5550 in Advanced Solid Tumors",
+          "trial_design": "Phase 1 dose-escalation study of GTB-5550 camB7-H3 TriKE in patients with advanced/B7-H3-expressing solid tumors.",
+          "nct_ids": ["NCT07541573"],
+          "trial_status": "Recruiting (start Apr 2026)",
+          "lead_sponsor": "Masonic Cancer Center, University of Minnesota (collaborator: GT Biopharma, Inc.)",
+          "key_milestones": ["IND cleared Jan 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Other TriKE / Dual Targeting (Tetra-specific) TriKE platform candidates"],
+  "excluded_legacy_terminated": ["NCT03214666 GTB-3550 TriKE Phase 1/2 — Terminated"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_active": 2, "P3": 0, "P2": 0, "P1": 2}
+}

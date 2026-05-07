@@ -1,0 +1,50 @@
+{
+  "issuer_name": "Protagenic Therapeutics, Inc.",
+  "ticker": "PTIXW",
+  "exchange": "OTC",
+  "cik": "0001022899",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001641172-25-001600", "filing_date": "2025-03-31", "file": "data/ptixw_10k_pipeline_section.html"},
+    "website": {"url": "https://www.protagenic.com", "note": "no dedicated /pipeline page; assets disclosed on homepage"},
+    "ctgov": {"file": "data/ptixw_ctgov_compact.json", "trials": 0, "note": "No trials found under sponsor 'Protagenic Therapeutics'"}
+  },
+  "pipeline": [
+    {
+      "asset": "PT00114",
+      "aka": ["TCAP-1", "Teneurin C-terminal Associated Peptide-1"],
+      "modality": "Synthetic neuropeptide (first-in-class)",
+      "target": "Teneurin C-terminal Associated Peptide (TCAP) pathway / stress-control system",
+      "license_origin": "In-licensed (University of Toronto)",
+      "indications": [
+        {
+          "indication": "Stress & mood disorders (e.g., anxiety, PTSD, depression)",
+          "highest_phase": "Phase 1 (multiple-dose) / advancing toward Phase 2",
+          "trial_name": "Phase 1 multiple-dose study of PT00114",
+          "trial_design": "Single ascending dose completed May 2024; multiple-dose Phase 1 initiated 2025; Phase 2a planned",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 multiple-dose ongoing per Aug 2025 press release; Phase 1 results released Dec 2025; Phase 2a initiation anticipated",
+          "lead_sponsor": "Protagenic Therapeutics, Inc.",
+          "key_milestones": [
+            "May 22, 2024: Single-dose Phase 1 results announced",
+            "2025: Multiple-dose Phase 1 study commenced",
+            "Dec 2025: Phase 1 multiple-dose results released",
+            "Anticipated Q3 2025 (per 10-K filed Mar 2025): Phase 2a initiation"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 1
+  },
+  "blockers": "PT00114 has no NCT registration on ClinicalTrials.gov despite Phase 1 trials being conducted. Phase status uncertain — 10-K (Mar 2025) anticipates Phase 2a in Q3 2025, but website notes 'entering Phase 2'."
+}

@@ -1,0 +1,49 @@
+{
+  "issuer_name": "RadNet, Inc.",
+  "ticker": "RDNT",
+  "exchange": "Nasdaq",
+  "cik": "0000790526",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-013337",
+      "filing_date": "2026-03-02",
+      "path": "data/rdnt_10k_pipeline_section.html",
+      "note": "10-K describes outpatient diagnostic-imaging center network (MRI, CT, PET/CT, mammography, ultrasound, X-ray) plus AI-driven image analysis subsidiaries (DeepHealth, Aidence, Quantib, iCAD). No therapeutic drug or device clinical pipeline; revenue is fee-for-service imaging."
+    },
+    "website": {
+      "error": "No drug/clinical pipeline page — RadNet operates imaging centers and AI/SaaS imaging software. Roadmap under product / DeepHealth pages, not a P1/P2/P3 pipeline."
+    },
+    "ctgov": {
+      "path": "data/rdnt_ctgov_compact.json",
+      "raw_hits": 0,
+      "kept_p1_p3": 0,
+      "note": "Sponsor query returned 0 trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Outpatient diagnostic imaging services and AI imaging software",
+    "lines": [
+      "Outpatient imaging centers (MRI, CT, PET/CT, mammography, ultrasound, X-ray, fluoroscopy, nuclear medicine)",
+      "DeepHealth AI cancer-screening platform (mammography, lung)",
+      "Aidence (AI lung-nodule analysis)",
+      "Quantib (AI prostate / brain MRI analysis)",
+      "iCAD (acquired AI breast / prostate cancer detection)",
+      "Enhanced Breast Cancer Detection (EBCD) screening program"
+    ],
+    "regulatory_status": "Imaging center operations licensed by state agencies; AI software products carry FDA 510(k) clearances and CE marks."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Services / diagnostic-imaging issuer. RadNet runs outpatient imaging centers and develops AI-based image-analysis software. No proprietary therapeutic drug or implantable-device clinical pipeline."
+}

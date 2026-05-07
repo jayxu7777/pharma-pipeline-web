@@ -1,0 +1,136 @@
+{
+  "issuer_name": "ARVINAS, INC.",
+  "ticker": "ARVN",
+  "exchange": "Nasdaq",
+  "cik": "0001655759",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-24",
+      "accession": "0001628280-26-011226",
+      "path": "data/arvn_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.arvinas.com/pipeline",
+      "fetched": "2026-05-06",
+      "note": "JS-rendered; pipeline detail not fully extractable via WebFetch — used 10-K + ctgov."
+    },
+    "ctgov": {
+      "path": "data/arvn_ctgov_compact.json",
+      "sponsor_query": "Arvinas"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Vepdegestrant",
+      "aka": ["ARV-471", "PF-07850327"],
+      "modality": "PROTAC oral protein degrader",
+      "target": "Estrogen receptor (ER) alpha",
+      "license_origin": "Internal; co-developed with Pfizer (50/50 global)",
+      "indications": [
+        {
+          "indication": "ER+/HER2- locally advanced/metastatic breast cancer (2L+ monotherapy)",
+          "highest_phase": "P3",
+          "trial_name": "VERITAC-2",
+          "trial_design": "Phase 3 randomized vs fulvestrant in 2L+ ER+/HER2- mBC after CDK4/6i + ET",
+          "nct_ids": ["NCT05654623"],
+          "trial_status": "Active, not recruiting; topline reported (PFS benefit in ESR1-mutant subgroup)",
+          "lead_sponsor": "Pfizer (Arvinas Estrogen Receptor, Inc. collaborator)",
+          "key_milestones": ["Topline VERITAC-2 reported 2025"]
+        },
+        {
+          "indication": "1L ER+/HER2- advanced breast cancer (combo with palbociclib)",
+          "highest_phase": "P3",
+          "trial_name": "VERITAC-3",
+          "trial_design": "Phase 3 vepdegestrant + palbociclib vs letrozole + palbociclib in 1L ER+/HER2- aBC",
+          "nct_ids": ["NCT05909397"],
+          "trial_status": "Active, not recruiting (primary completion 2026-12-30)",
+          "lead_sponsor": "Pfizer (Arvinas collaborator)",
+          "key_milestones": []
+        },
+        {
+          "indication": "ER+/HER2- mBC combo platform (with abemaciclib / ribociclib / samuraciclib)",
+          "highest_phase": "P2",
+          "trial_name": "TACTIVE-U Sub-Studies A/B/C",
+          "trial_design": "Phase 1b/2 umbrella combo studies",
+          "nct_ids": ["NCT05548127", "NCT05573555", "NCT06125522"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Pfizer (Arvinas collaborator)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ARV-102",
+      "aka": [],
+      "modality": "Oral PROTAC degrader",
+      "target": "LRRK2 (BBB-penetrant)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Parkinson's disease and progressive supranuclear palsy (PSP)",
+          "highest_phase": "P1",
+          "trial_name": "ARV-102 Phase 1 SAD/MAD + PD patient cohort",
+          "trial_design": "Phase 1 SAD/MAD in healthy volunteers; Phase 1 in PD patients initiated Q2 2025",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per 10-K; substantial CSF LRRK2 reduction shown in HVs",
+          "lead_sponsor": "Arvinas Inc.",
+          "key_milestones": ["HV data presented MDS 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "ARV-393",
+      "aka": [],
+      "modality": "PROTAC oral protein degrader",
+      "target": "BCL6",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory non-Hodgkin lymphoma (mature B-cell NHL incl. DLBCL; AITL)",
+          "highest_phase": "P1",
+          "trial_name": "ARV-393-101",
+          "trial_design": "Phase 1 dose escalation/expansion mono and combo with glofitamab",
+          "nct_ids": ["NCT06393738"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Arvinas Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ARV-806",
+      "aka": [],
+      "modality": "PROTAC oral protein degrader",
+      "target": "KRAS G12D",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors with KRAS G12D mutation",
+          "highest_phase": "P1",
+          "trial_name": "ARV-806-101",
+          "trial_design": "Phase 1/2 dose escalation/expansion in KRAS G12D+ tumors",
+          "nct_ids": ["NCT07023731"],
+          "trial_status": "Recruiting (start 2025-05-29)",
+          "lead_sponsor": "Arvinas Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "ARV-027 and additional discovery PROTACs"
+  ],
+  "excluded_legacy_terminated": [
+    "Bavdegalutamide (ARV-110) AR PROTAC for mCRPC (P1/2 NCT03888612 completed; program discontinued)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "p3": 1,
+    "p2": 0,
+    "p1": 3
+  }
+}

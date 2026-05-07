@@ -1,0 +1,111 @@
+{
+  "issuer_name": "Fulgent Genetics, Inc.",
+  "ticker": "FLGT",
+  "exchange": "Nasdaq",
+  "cik": "0001674930",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-079169",
+      "filing_date": "2026-02-27",
+      "fiscal_year_end": "2025-12-31",
+      "file": "data/flgt_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://fulgentgenetics.com",
+      "note": "Fulgent Genetics public site is laboratory-services oriented; no consolidated drug pipeline page. Therapeutic candidates are developed under the Fulgent Pharma subsidiary (acquired 2022; ANP Technologies fully acquired July 2025)."
+    },
+    "ctgov": {
+      "sponsor_query": "Fulgent",
+      "compact_file": "data/flgt_ctgov_compact.json",
+      "phase_p1_p3_count": 2,
+      "lead_sponsor": "Fulgent Pharma LLC."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "FID-007",
+      "aka": ["Nanoencapsulated paclitaxel", "Paclitaxel in Polyethyloxazoline Polymer"],
+      "modality": "Nano-drug delivery formulation of paclitaxel (small molecule cytotoxic in PEOZ polymer nanoparticle)",
+      "target": "Microtubule (paclitaxel mechanism)",
+      "license_origin": "Originally exclusively licensed from ANP Technologies, Inc. (June 2017); Fulgent acquired 100% of ANP in July 2025 securing full ownership of the patent estate.",
+      "indications": [
+        {
+          "indication": "Recurrent or metastatic head and neck squamous cell carcinoma (HNSCC), 2nd/3rd line, in combination with cetuximab",
+          "highest_phase": "Phase 2",
+          "trial_name": "FID-007 + Cetuximab in Advanced HNSCC",
+          "trial_design": "Phase 2, randomized, multi-center, open-label; up to 46 patients 1:1 to FID-007 75 mg/m2 + cetuximab vs FID-007 125 mg/m2 + cetuximab",
+          "nct_ids": ["NCT06332092"],
+          "trial_status": "Active, not recruiting (enrollment complete; preliminary data on 39 patients presented at ESMO October 2025; interim findings expected June 2026; full readout expected 2H 2027). Planned Phase 3 registrational trial in HNSCC as early as 1H 2027 via 505(b)(2) pathway.",
+          "lead_sponsor": "Fulgent Pharma LLC.",
+          "key_milestones": [
+            "Preliminary Phase 2 data ESMO October 2025",
+            "Interim findings expected June 2026",
+            "Full Phase 2 readout expected 2H 2027",
+            "Planned Phase 3 registrational initiation as early as 1H 2027"
+          ]
+        },
+        {
+          "indication": "Advanced solid tumors (including head and neck, ampullary, pancreatic)",
+          "highest_phase": "Phase 1",
+          "trial_name": "FID-007 Phase 1/1b dose escalation/expansion",
+          "trial_design": "Phase 1/1b dose escalation and expansion in advanced solid tumors; 50 patients enrolled at US sites",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrollment complete; manageable safety profile reported, preliminary anti-tumor activity observed; PK linear and dose-proportional, comparable to nab-paclitaxel; no neuropathy above grade 2",
+          "lead_sponsor": "Fulgent Pharma LLC.",
+          "key_milestones": [
+            "Phase 1/1b enrollment of 50 patients complete"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "FID-022",
+      "aka": ["Nanoencapsulated SN38"],
+      "modality": "Nano-drug delivery formulation of SN38 (active metabolite of irinotecan; topoisomerase I inhibitor)",
+      "target": "Topoisomerase I",
+      "license_origin": "Originally exclusively licensed from ANP Technologies, Inc.; Fulgent acquired 100% of ANP in July 2025 securing full ownership of the patent estate.",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (preclinical efficacy shown in colon, bile duct, ovarian, pancreatic xenografts)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Study of FID-022 in Participants With Advanced Solid Tumors",
+          "trial_design": "Phase 1/1b safety and tolerability dose-escalation; planned enrollment 42 patients at US sites; dose-finding to determine MTD",
+          "nct_ids": ["NCT06694480"],
+          "trial_status": "Recruiting; first dose level completed December 2025, second dose level completed January 2026, third dose level commenced February 2026; primary completion date 2027-12-31",
+          "lead_sponsor": "Fulgent Pharma LLC.",
+          "key_milestones": [
+            "First dose level completed December 2025",
+            "Second dose level completed January 2026",
+            "Third dose level dosing began February 2026",
+            "MTD determination targeted within next year"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "laboratory_services": [
+      "Genetic and genomic testing (germline NGS, FulgentExome, Pipeline Manager / PLM, Ultra Rapid Whole Genome Sequencing launched 2025)",
+      "Pathology and oncology testing services",
+      "Reproductive / hereditary panels"
+    ]
+  },
+  "excluded_preclinical": [
+    {
+      "asset": "ADC platform",
+      "reason": "Antibody-drug conjugates using novel linker/payload platform are in preclinical development; no IND/clinical trial yet."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3": 0,
+    "p2": 1,
+    "p1": 1
+  },
+  "no_active_clinical_pipeline_reason": null
+}

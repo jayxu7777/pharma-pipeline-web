@@ -1,0 +1,40 @@
+{
+  "issuer_name": "REVVITY, INC.",
+  "ticker": "RVTY",
+  "exchange": "NYSE",
+  "cik": "0000031791",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000031791-26-000012",
+      "doc": "revv-20251228.htm",
+      "filed": "2026-02-24",
+      "file": "data/rvty_10k_pipeline_section.html",
+      "note": "10-K Overview captured. Revvity (rebranded from PerkinElmer's Discovery & Analytical Solutions) is a life sciences and diagnostics company providing reagents, instruments, software, and newborn screening — no proprietary drug pipeline."
+    },
+    "website": {
+      "error": "no public pipeline page found (Revvity is a life-sciences/diagnostics tools company, no drug pipeline page exists)"
+    },
+    "ctgov": {
+      "file": "data/rvty_ctgov_compact.json",
+      "study_count": 0,
+      "note": "Zero ClinicalTrials.gov records list 'Revvity' as a sponsor; consistent with a tools/diagnostics business."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Revvity sells diagnostics and life-sciences solutions: newborn screening, reproductive health, applied genomics, immunodiagnostics, reagents (PerkinElmer-legacy lines), automation, and software (Signals). Out of scope for this drug-pipeline tracker."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Revvity is a life-sciences and diagnostics tools company (the post-2023 rebrand of PerkinElmer's Discovery & Analytical Solutions business). It has no proprietary therapeutic pipeline. ClinicalTrials.gov returns zero studies sponsored by Revvity."
+}

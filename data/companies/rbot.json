@@ -1,0 +1,38 @@
+{
+  "issuer_name": "Vicarious Surgical Inc.",
+  "ticker": "RBOT",
+  "exchange": "OTC",
+  "cik": "0001812173",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-09",
+      "accession": "0001213900-26-025189",
+      "path": "data/rbot_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.vicarioussurgical.com",
+      "pipeline_page": "not present (404 on /pipeline)",
+      "summary": "Single product: Vicarious Surgical Robotic System (single-port MIS robot). FDA Breakthrough Device Designation; not FDA cleared; pre-commercial. No clinical trial enrollment disclosed on site."
+    },
+    "ctgov": {
+      "sponsor_query": "Vicarious Surgical",
+      "unique_trials_p1_p3": 0,
+      "path": "data/rbot_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Vicarious Surgical Robotic System",
+    "modality": "Single-port minimally invasive surgical robot (1.5 cm incision)",
+    "regulatory_status": "FDA Breakthrough Device Designation; not yet FDA cleared; pre-commercial development",
+    "clinical_studies": "No active pivotal/IDE clinical study disclosed in 10-K or on company website as of snapshot date"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Medtech / surgical robotics company in pre-commercial development. No active P1/P2/P3 drug clinical trials; no active pivotal IDE clinical study disclosed."
+}

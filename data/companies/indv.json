@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Indivior PLC",
+  "ticker": "INDV",
+  "exchange": "Nasdaq",
+  "cik": "0001625297",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-26", "accession": "0001628280-26-012237", "path": "data/indv_10k_pipeline_section.html", "note": "Pipeline slice extracted from 10-K is short (table-of-contents lead-in); asset details parsed from full 10-K narrative"},
+    "website": {"error": "no public pipeline page found via direct WebFetch (Cloudflare/JS challenge)"},
+    "ctgov": {"path": "data/indv_ctgov_compact.json", "trials_found": 33, "active_p1_p3_own_sponsor": 0, "note": "All historical Indivior-sponsored Phase 1-3 trials show COMPLETED in ctgov; the two current Phase 2 OUD assets reached LPLV in Q4 2025 with topline results expected H1 2026"}
+  },
+  "pipeline": [
+    {
+      "asset": "INDV-6001",
+      "aka": ["3-month LAI buprenorphine prodrug"],
+      "modality": "Sustained-release long-acting injectable buprenorphine prodrug",
+      "target": "Mu-opioid receptor (partial agonist)",
+      "license_origin": "Licensed from Alar Pharmaceuticals (2023; global ex-Greater China)",
+      "indications": [
+        {
+          "indication": "Opioid use disorder (OUD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "INDV-6001 multiple-dose pharmacokinetic study",
+          "trial_design": "Open-label multiple-dose Phase 2 PK study comparing INDV-6001 to Suboxone and Sublocade in OUD patients",
+          "nct_ids": ["NCT06576843"],
+          "trial_status": "COMPLETED on ctgov (LPLV Q4 2025); topline results expected Q2 2026 per 10-K; further development decisions pending data review under Indivior Action Agenda",
+          "lead_sponsor": "Indivior Inc.",
+          "key_milestones": ["Initiated Sep 2024", "LPLV Q4 2025", "Topline data Q2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "INDV-2000",
+      "aka": ["C4X_3256"],
+      "modality": "Oral selective small-molecule orexin-1 receptor antagonist",
+      "target": "Orexin-1 receptor (OX1R)",
+      "license_origin": "Licensed from C4X Discovery",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe opioid use disorder (non-opioid treatment)",
+          "highest_phase": "Phase 2",
+          "trial_name": "INDV-2000 Proof-of-Concept and Dose-Ranging Study",
+          "trial_design": "Phase 2 double-blind, placebo-controlled, randomized dose-ranging study of INDV-2000 over 3 months in treatment-seeking individuals with moderate-to-severe OUD",
+          "nct_ids": ["NCT06384157"],
+          "trial_status": "COMPLETED on ctgov (LPLV Nov 3, 2025); topline results expected Q2 2026 per 10-K",
+          "lead_sponsor": "Indivior Inc.",
+          "key_milestones": ["First subject dosed Jun 2024", "LPLV Nov 3, 2025", "Topline data Q2 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_products": ["SUBLOCADE (extended-release buprenorphine, monthly LAI)", "SUBOXONE Film (buprenorphine/naloxone)", "SUBUTEX (buprenorphine sublingual tablets)", "PERSERIS (risperidone monthly LAI) — divested historically", "OPVEE (nalmefene nasal spray) — opioid overdose reversal"],
+    "primary_franchise": "Opioid use disorder treatment (buprenorphine franchise)"
+  },
+  "excluded_preclinical": [
+    "Earlier-stage discovery programs not disclosed by name in 10-K"
+  ],
+  "excluded_legacy_terminated": [
+    "RBP-7000 / PERSERIS — previously approved, divested",
+    "RBP-6300 (buprenorphine hemiadipate / naloxone, Phase 2 completed 2012)",
+    "Arbaclofen Placarbil program (Phase 2 completed; not pursued)",
+    "RBP-8000 (cocaine esterase, Phase 2 completed 2013)",
+    "INDV-6200 (Phase 1 SC depot buprenorphine completed 2018; not advanced)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_with_active_clinical": 2,
+    "indications_active": 2,
+    "phase_3": 0,
+    "phase_2": 2,
+    "phase_1_2": 0,
+    "phase_1": 0,
+    "note": "Both Phase 2 trials reached LPLV in Q4 2025; data readout pending Q2 2026. No active Phase 3 programs."
+  }
+}

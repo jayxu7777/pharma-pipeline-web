@@ -1,0 +1,33 @@
+{
+  "issuer_name": "Gelteq Ltd",
+  "ticker": "GELS",
+  "exchange": "Nasdaq",
+  "cik": "0001920092",
+  "region": "AU (foreign private issuer; Australia)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer (Gelteq Ltd is incorporated in Australia per SEC EDGAR); files annual reports on Form 20-F rather than 10-K. fetch_10k.py returned 'No 10-K found in recent filings'."
+    },
+    "website": {
+      "url": "https://www.gelteq.com",
+      "note": "Gelteq is a Melbourne-based pharmaceutical/nutraceutical formulation technology company with a proprietary oral gel delivery platform developed with Monash University. The company partners with third parties (pharma, nutraceutical, animal health) and reformulates partner compounds; does not develop new chemical entities or sponsor clinical-stage drug candidates of its own. /pipeline page returns 404."
+    },
+    "ctgov": {
+      "path": "data/gels_ctgov_compact.json",
+      "note": "Zero ClinicalTrials.gov records under sponsor 'Gelteq'."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "Gelteq is a drug-delivery formulation technology platform company (oral gel delivery developed with Monash University). It partners with pharma, nutraceutical, and animal-health companies to reformulate existing compounds rather than developing its own clinical-stage drug candidates. No company-sponsored clinical trials on ClinicalTrials.gov.",
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  }
+}

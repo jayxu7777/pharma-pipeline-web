@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Greenwich LifeSciences, Inc.",
+  "ticker": "GLSI",
+  "exchange": "Nasdaq",
+  "cik": "0001799788",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001641172-25-004819", "filed": "2025-04-15", "fy": "2024"},
+    "website": {"url": "https://greenwichlifesciences.com/", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Greenwich LifeSciences", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "GLSI-100 (GP2 + GM-CSF)",
+      "aka": ["GP2"],
+      "modality": "HER2/neu-derived peptide immunotherapy plus GM-CSF",
+      "target": "HER2/neu",
+      "license_origin": "Internal (Greenwich LifeSciences)",
+      "indications": [
+        {
+          "indication": "Prevention of breast cancer recurrence in HER2/neu-positive patients post-trastuzumab",
+          "highest_phase": "Phase 3",
+          "trial_name": "Flamingo-01",
+          "trial_design": "Randomized, double-blind, placebo-controlled global Phase 3 (~150 sites, up to 750 patients)",
+          "nct_ids": ["NCT05232916"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Greenwich LifeSciences, Inc.",
+          "key_milestones": ["Primary completion December 2026; interim analysis powered for 70% recurrence reduction"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 1,
+    "P2": 0,
+    "P1": 0,
+    "indications_active": 1
+  }
+}

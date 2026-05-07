@@ -1,0 +1,331 @@
+{
+  "issuer_name": "argenx SE",
+  "ticker": "ARGX",
+  "exchange": "Nasdaq",
+  "cik": "0001697862",
+  "region": "EU/Belgium (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://www.argenx.com/pipeline", "note": "Official pipeline page; populated via JS template, partial info captured via WebFetch"},
+    "ctgov": {"file": "data/argx_ctgov_compact.json", "trial_count": 78, "sponsor_query": "argenx"}
+  },
+  "pipeline": [
+    {
+      "asset": "Efgartigimod (VYVGART / VYVGART Hytrulo)",
+      "aka": ["ARGX-113", "efgartigimod alfa", "efgartigimod PH20 SC"],
+      "modality": "FcRn-blocking IgG1 Fc fragment (antibody fragment)",
+      "target": "Neonatal Fc receptor (FcRn)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Generalized myasthenia gravis (gMG) — seronegative",
+          "highest_phase": "P3",
+          "trial_name": "ADAPT SERON",
+          "trial_design": "Phase 3 IV efgartigimod vs placebo in AChR-Ab seronegative gMG",
+          "nct_ids": ["NCT06298552"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2025-06"]
+        },
+        {
+          "indication": "Ocular myasthenia gravis",
+          "highest_phase": "P3",
+          "trial_name": "ADAPT OCULAR",
+          "trial_design": "Phase 3 efgartigimod PH20 SC vs placebo",
+          "nct_ids": ["NCT06558279"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2026-01"]
+        },
+        {
+          "indication": "Pediatric gMG (2-<18y)",
+          "highest_phase": "P2/P3",
+          "trial_name": "Pediatric gMG",
+          "trial_design": "Phase 2/3 efgartigimod PH20 SC in children",
+          "nct_ids": ["NCT06392386", "NCT04833894", "NCT05374590"],
+          "trial_status": "RECRUITING / ENROLLING_BY_INVITATION",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2026-09"]
+        },
+        {
+          "indication": "Primary immune thrombocytopenia (ITP) — adult IV",
+          "highest_phase": "P3",
+          "trial_name": "ADVANCE-NXT IV",
+          "trial_design": "Phase 3 efgartigimod IV vs placebo in adult ITP",
+          "nct_ids": ["NCT06544499"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2028-06"]
+        },
+        {
+          "indication": "Primary immune thrombocytopenia (ITP) — adult SC",
+          "highest_phase": "P3",
+          "trial_name": "ADVANCE-SC+",
+          "trial_design": "Phase 3 efgartigimod PH20 SC in adult ITP",
+          "nct_ids": ["NCT04812925"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2026-10"]
+        },
+        {
+          "indication": "Pediatric ITP (12-<18y)",
+          "highest_phase": "P2/P3",
+          "trial_name": "Pediatric ITP",
+          "trial_design": "Phase 2/3 efgartigimod IV in adolescents with chronic ITP",
+          "nct_ids": ["NCT07194850"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2028-10"]
+        },
+        {
+          "indication": "Idiopathic inflammatory myopathy (myositis)",
+          "highest_phase": "P3",
+          "trial_name": "ALKIVIA / OLE",
+          "trial_design": "Phase 2/3 efgartigimod PH20 SC + Phase 3 long-term OLE",
+          "nct_ids": ["NCT05523167", "NCT05979441"],
+          "trial_status": "ACTIVE_NOT_RECRUITING / ENROLLING_BY_INVITATION",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2026-12 (pivotal)"]
+        },
+        {
+          "indication": "Chronic inflammatory demyelinating polyneuropathy (CIDP)",
+          "highest_phase": "P2",
+          "trial_name": "ADHERE OLE",
+          "trial_design": "Phase 2 long-term safety/efficacy efgartigimod PH20 SC in CIDP",
+          "nct_ids": ["NCT04280718"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2027-04"]
+        },
+        {
+          "indication": "Primary Sjögren's syndrome",
+          "highest_phase": "P3",
+          "trial_name": "UNITY",
+          "trial_design": "Phase 3 efgartigimod in primary Sjögren's",
+          "nct_ids": ["NCT06684847"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2027-07"]
+        },
+        {
+          "indication": "Antibody-mediated rejection (kidney transplant)",
+          "highest_phase": "P2",
+          "trial_name": "AMR PFS",
+          "trial_design": "Phase 2 efgartigimod PH20 SC PFS in kidney transplant AMR",
+          "nct_ids": ["NCT06503731"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2027-09"]
+        },
+        {
+          "indication": "Systemic sclerosis",
+          "highest_phase": "P2",
+          "trial_name": "UNITE-SSc",
+          "trial_design": "Phase 2 efgartigimod PH20 SC vs placebo in systemic sclerosis",
+          "nct_ids": ["NCT06655155"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2027-02"]
+        },
+        {
+          "indication": "Graves' disease",
+          "highest_phase": "P3",
+          "trial_name": "GD pivotal",
+          "trial_design": "Phase 3 efgartigimod PH20 SC PFS in Graves' disease",
+          "nct_ids": ["NCT07570316"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Start 2026-06; primary completion 2028-06"]
+        }
+      ]
+    },
+    {
+      "asset": "Empasiprubart",
+      "aka": ["ARGX-117"],
+      "modality": "Anti-C2 monoclonal antibody (complement inhibitor)",
+      "target": "Complement C2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Multifocal motor neuropathy (MMN)",
+          "highest_phase": "P3",
+          "trial_name": "ARDA",
+          "trial_design": "Phase 3 empasiprubart vs IVIg in MMN; plus Phase 2 LTE",
+          "nct_ids": ["NCT06742190", "NCT05405361"],
+          "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Phase 3 primary completion 2026-09"]
+        },
+        {
+          "indication": "Chronic inflammatory demyelinating polyneuropathy (CIDP)",
+          "highest_phase": "P3",
+          "trial_name": "ARDA-CIDP / placebo-controlled",
+          "trial_design": "Phase 3 empasiprubart vs IVIg + Phase 3 placebo-controlled",
+          "nct_ids": ["NCT06920004", "NCT07091630"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2027-09 / 2027-10"]
+        },
+        {
+          "indication": "Dermatomyositis (myositis)",
+          "highest_phase": "P2",
+          "trial_name": "EMERGE-DM",
+          "trial_design": "Phase 2 empasiprubart vs placebo in dermatomyositis",
+          "nct_ids": ["NCT06284954"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2026-11"]
+        },
+        {
+          "indication": "Delayed graft function (kidney transplant)",
+          "highest_phase": "P2",
+          "trial_name": "DGF",
+          "trial_design": "Phase 2 ARGX-117 in deceased-donor kidney transplant recipients",
+          "nct_ids": ["NCT05907096"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2025-10"]
+        },
+        {
+          "indication": "AChR-Ab seropositive gMG (add-on to efgartigimod)",
+          "highest_phase": "P2",
+          "trial_name": "ADAPT Forward 1 — ISA1",
+          "trial_design": "Phase 2 empasiprubart IV add-on to efgartigimod in partial responders",
+          "nct_ids": ["NCT07284420"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2028-03"]
+        }
+      ]
+    },
+    {
+      "asset": "ARGX-119",
+      "aka": [],
+      "modality": "Agonist monoclonal antibody",
+      "target": "MuSK (Muscle-Specific Kinase) / DOK7 axis",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "DOK7-Congenital myasthenic syndrome (CMS)",
+          "highest_phase": "P1",
+          "trial_name": "ARGX-119 CMS",
+          "trial_design": "Phase 1b ARGX-119 in adult DOK7-CMS",
+          "nct_ids": ["NCT06436742"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2027-08"]
+        },
+        {
+          "indication": "Amyotrophic lateral sclerosis (ALS)",
+          "highest_phase": "P2",
+          "trial_name": "ARGX-119 ALS",
+          "trial_design": "Phase 2 ARGX-119 in adult ALS",
+          "nct_ids": ["NCT06441682"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2026-08"]
+        },
+        {
+          "indication": "Spinal muscular atrophy (pediatric SMA)",
+          "highest_phase": "P2",
+          "trial_name": "ARGX-119 SMA peds",
+          "trial_design": "Phase 2 ARGX-119 IV in pediatric SMA (5-<18y)",
+          "nct_ids": ["NCT07287982"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2029-05"]
+        }
+      ]
+    },
+    {
+      "asset": "ARGX-109",
+      "aka": [],
+      "modality": "Monoclonal antibody (early-stage, undisclosed target per public sources)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Healthy-volunteer SAD (autoimmune indication TBD)",
+          "highest_phase": "P1",
+          "trial_name": "ARGX-109 FIH",
+          "trial_design": "Phase 1 SAD in healthy volunteers",
+          "nct_ids": ["NCT06799416"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["FIH completed 2025-08"]
+        }
+      ]
+    },
+    {
+      "asset": "ARGX-124",
+      "aka": [],
+      "modality": "Monoclonal antibody (FIH stage)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Healthy-volunteer FIH (immunology TBD)",
+          "highest_phase": "P1",
+          "trial_name": "ARGX-124 FIH",
+          "trial_design": "Phase 1 SAD/MAD in healthy volunteers",
+          "nct_ids": ["NCT07377396"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Primary completion 2026-12"]
+        }
+      ]
+    },
+    {
+      "asset": "ARGX-213",
+      "aka": [],
+      "modality": "Monoclonal antibody / Fc-engineered (early-stage)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Healthy-volunteer FIH",
+          "highest_phase": "P1",
+          "trial_name": "ARGX-213 FIH",
+          "trial_design": "Phase 1 SAD in healthy volunteers",
+          "nct_ids": ["NCT06968338"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "argenx",
+          "key_milestones": ["Completed 2026-03"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "VYVGART / VYVGART Hytrulo (efgartigimod alfa, efgartigimod alfa-fcab/PH20 SC)",
+    "approved_indications": ["Generalized myasthenia gravis (AChR+)", "Chronic inflammatory demyelinating polyneuropathy (CIDP)"],
+    "regions": ["US", "EU", "Japan", "China"]
+  },
+  "excluded_preclinical": ["ARGX-118 (preclinical, complement)", "Cusatuzumab/ARGX-110 partner-controlled (OncoVerity/Janssen)"],
+  "excluded_legacy_terminated": [
+    "NCT04598477 (efgartigimod PH20 SC pemphigus OLE) — TERMINATED",
+    "NCT05681481 (efgartigimod PH20 SC bullous pemphigoid LTE P3) — TERMINATED",
+    "NCT06307613/NCT06307626 (efgartigimod TED) — TERMINATED",
+    "NCT05810961 (Zai Lab membranous nephropathy P2) — TERMINATED",
+    "NCT05918978 (POTS OLE P2) — TERMINATED",
+    "NCT04274452 (efgartigimod ITP P3) — WITHDRAWN",
+    "NCT05701189 (Guillain-Barré investigator-led P2) — WITHDRAWN",
+    "NCT04264806 (Janssen-led cusatuzumab MDS P2) — WITHDRAWN"
+  ],
+  "excluded_partner_owned": [
+    "AGMB-101 / ARGX-114 (AgomAb-led, MET)",
+    "ABBV-151 / ARGX-115 (AbbVie-led, GARP-TGFβ1)",
+    "LP0145 / ARGX-112 (LEO Pharma-led, IL-22R)",
+    "Cusatuzumab AML/MDS programs (OncoVerity/Janssen)"
+  ],
+  "summary_counts": {
+    "total_assets": 6,
+    "p3_indications": 7,
+    "p2_indications": 8,
+    "p2_p3_combined": 3,
+    "p1_indications": 4,
+    "commercial_products": 1
+  },
+  "notes": "argenx is a foreign private issuer (Belgium) and files Form 20-F, not 10-K. Pipeline assembled from ctgov + argenx.com/pipeline WebFetch. P2/P3 entries dual-counted where studies span both phases. Partner-owned programs (AgomAb, AbbVie, LEO, OncoVerity/Janssen) excluded per workflow rules."
+}

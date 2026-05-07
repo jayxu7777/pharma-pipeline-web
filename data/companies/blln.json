@@ -1,0 +1,56 @@
+{
+  "issuer_name": "BillionToOne, Inc.",
+  "ticker": "BLLN",
+  "exchange": "Nasdaq",
+  "cik": "0002070849",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0002070849-26-000017",
+      "filed": "2026-03-11",
+      "primary_doc_cached": "data/blln_10k_full.htm",
+      "pipeline_section_cached": "data/blln_10k_pipeline_section.html",
+      "note": "10-K describes molecular-diagnostics business: smNGS platform with QCT technology powering UNITY (prenatal NIPT for recessive conditions, aneuploidy, RhD, fetal antigen) and Northstar (Select / Response / PGx / Select CH) pan-cancer liquid biopsy tests. No proprietary therapeutic pipeline."
+    },
+    "website": {
+      "skipped": "Diagnostics company; corporate site lists assays/products, not a drug pipeline."
+    },
+    "ctgov": {
+      "compact_path": "data/blln_ctgov_compact.json",
+      "note": "Two records list BillionToOne as collaborator: NCT07096362 (Univ of Miami sponsor; ctDNA-guided FOLFIRINOX switch in mPDAC, Phase 2) and NCT05733689 (UC Irvine sponsor; RANT-GC, Phase 1). In both, BillionToOne provides the ctDNA assay; the drugs (FOLFIRINOX, FOLFOX, FOLFIRI, FLOT, nivolumab, pembrolizumab, durvalumab, trastuzumab, etc.) are not BillionToOne assets. Excluded as partner-owned / investigator-initiated."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "prenatal": [
+      "UNITY Fetal Risk Screen (sgNIPT for recessive conditions including SCD, alpha/beta thalassemia, CF, SMA; up to 14 conditions)",
+      "UNITY Aneuploidy Screen (with 22q11.2 microdeletion add-on)",
+      "UNITY Fetal RhD NIPT",
+      "UNITY Fetal Antigen NIPT (D, C, c, E, K, Fya); expanded RBC + first-and-only Platelet Fetal Antigen NIPT (announced Feb 2026)",
+      "UNITY Fetal Antigen CTA NIPT (companion diagnostic for J&J nipocalimab AZALEA Phase 3; FDA IDE granted Apr 2023)"
+    ],
+    "oncology": [
+      "Northstar Select (pan-cancer ctDNA therapy-selection liquid biopsy; MolDX coverage 2025)",
+      "Northstar Response (methylation-based pan-cancer therapy monitoring; updated May 2025 to >2,200 loci, 0.01% LOD)",
+      "Northstar PGx (launched Jan 2026; chemotherapy pharmacogenomics add-on)",
+      "Northstar Select CH (launched Feb 2026; clonal hematopoiesis add-on)",
+      "MRD test in development; expected commercial availability Q4 2026"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "NCT07096362 (mFOLFIRINOX in mPDAC — Univ of Miami sponsor; BillionToOne provides ctDNA assay)",
+    "NCT05733689 (RANT-GC neoadjuvant gastroesophageal — UC Irvine sponsor; BillionToOne is collaborator)",
+    "J&J AZALEA Phase 3 of nipocalimab (BillionToOne provides UNITY Fetal Antigen CTA companion diagnostic only)"
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Molecular-diagnostics / lab-services company (services_cro_lab bucket). BillionToOne develops and markets cfDNA-based diagnostic assays (UNITY prenatal, Northstar oncology) but owns no therapeutic drug INDs. Trials in which the company appears are sponsor-client / investigator-initiated studies that use its assays as the test article or as a companion diagnostic; per scope rules these are excluded from the drug pipeline."
+}

@@ -1,0 +1,49 @@
+{
+  "issuer_name": "ImageneBio, Inc.",
+  "ticker": "IMA",
+  "exchange": "Nasdaq",
+  "cik": "0001835579",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-099434", "filed": "2026-03-10", "path": "data/ima_10k_pipeline_section.html"},
+    "website": {"url": "https://imagenebio.com", "note": "No public pipeline page found at /pipeline; assets described on home page"},
+    "ctgov": {"path": "data/ima_inmagene_ctgov_compact.json", "sponsor_query": "Inmagene LLC (predecessor sponsor name)"}
+  },
+  "pipeline": [
+    {
+      "asset": "IMG-007",
+      "aka": ["non-depleting anti-OX40 mAb"],
+      "modality": "Monoclonal antibody (anti-OX40, non-depleting, ~5-week half-life)",
+      "target": "OX40 (CD134)",
+      "license_origin": "Internal (Inmagene/ImageneBio)",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe atopic dermatitis (AD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IMG-007 Phase 2b dose-finding AD",
+          "trial_design": "Multi-country randomized placebo-controlled Phase 2b dose-finding study; protocol amendment submitted to FDA and Health Canada",
+          "nct_ids": ["NCT07037901"],
+          "trial_status": "RECRUITING (started 2025-06-17; primary completion expected 2026-11; topline data expected 2027)",
+          "lead_sponsor": "Inmagene LLC (ImageneBio)",
+          "key_milestones": ["Phase 1b/2a POC: 54% EASI-75, 31% EASI-90 at week 16"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "IMG-007 expansion indications (alopecia areata, asthma, RA, hidradenitis suppurativa)", "reason": "Future planned indications; AA Phase 1/2 (NCT06060977) completed but no active trial in expansion indications as of snapshot"},
+    {"asset": "IMG-004", "reason": "Phase 1 in healthy volunteers completed 2024-05-02; not currently advancing in any active P1/P2/P3 trial under ImageneBio"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT05984784", "asset": "IMG-007 Phase 1b/2a AD", "reason": "TERMINATED (POC trial completed; superseded by Phase 2b NCT07037901)"},
+    {"nct": "NCT06304740", "asset": "IMG-007 SC PK", "reason": "TERMINATED Phase 1 healthy-volunteer SC PK"},
+    {"nct": "NCT04795141", "asset": "ABY-035 / izokibep ankylosing spondylitis", "reason": "TERMINATED; out-licensed from Affibody — partner-owned"},
+    {"nct": "NCT05353972", "asset": "IMG-007 healthy volunteers", "reason": "Phase 1 healthy volunteer study COMPLETED"},
+    {"nct": "NCT05349097", "asset": "IMG-004 healthy volunteers", "reason": "Phase 1 healthy volunteer COMPLETED"},
+    {"nct": "NCT06060977", "asset": "IMG-007 alopecia areata", "reason": "Phase 1/2 COMPLETED 2025-01-14; no active follow-on trial in AA per company filings"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "P3": 0, "P2": 1, "P1": 0, "indications": 1}
+}

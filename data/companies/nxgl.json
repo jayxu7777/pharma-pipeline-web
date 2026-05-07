@@ -1,0 +1,36 @@
+{
+  "issuer_name": "NEXGEL, INC.",
+  "ticker": "NXGL",
+  "exchange": "Nasdaq",
+  "cik": "0001468929",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014377",
+      "filing_date": "2026-03-31",
+      "form": "10-K",
+      "fiscal_year_end": "2025-12-31"
+    },
+    "website": {
+      "url": "https://www.nexgel.com/",
+      "note": "/pipeline 404; company has no clinical pipeline page"
+    },
+    "ctgov": {
+      "sponsor_query": "NexGel",
+      "trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "business_segments": ["Contract Manufacturing", "Custom & White Label", "Consumer Branded Products", "Medical Devices/Other"],
+    "branded_consumer": ["MedaGel (OTC blister/pain hydrogels)", "Kenkoderm (psoriasis skincare)", "Silly George (eyelashes/beauty)"],
+    "core_technology": "Electron-beam cross-linked aqueous polymer hydrogels for wound care, medical diagnostics, transdermal drug delivery, cosmetics"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_active_assets": 0},
+  "no_active_clinical_pipeline_reason": "Adjacent medtech / consumer hydrogel CDMO. Sells contract-manufactured hydrogels and OTC consumer brands; no proprietary drug or device in P1/P2/P3 clinical trials. Zero trials on ClinicalTrials.gov for sponsor."
+}

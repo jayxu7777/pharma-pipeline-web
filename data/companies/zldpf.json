@@ -1,0 +1,144 @@
+{
+  "issuer_name": "Zealand Pharma A/S (ADR)",
+  "ticker": "ZLDPF",
+  "exchange": "OTC",
+  "cik": "0002068427",
+  "region": "DK (ADR on OTC)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F / Danish annual report; no 10-K available on SEC EDGAR"
+    },
+    "website": {
+      "error": "https://www.zealandpharma.com/pipeline returned HTTP 403 (bot-blocked); pipeline reconstructed from ctgov + public-knowledge of Zealand programs"
+    },
+    "ctgov": {
+      "path": "data/zldpf_ctgov_compact.json",
+      "note": "44 trials returned; 38 with Zealand Pharma as lead sponsor"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Glepaglutide",
+      "aka": ["ZP1848"],
+      "modality": "Long-acting GLP-2 receptor agonist (peptide)",
+      "target": "GLP-2 receptor",
+      "license_origin": "Internal (Zealand)",
+      "indications": [
+        {
+          "indication": "Short Bowel Syndrome (SBS)",
+          "highest_phase": "P3",
+          "trial_name": "EASE program (pivotal + extension)",
+          "trial_design": "Pivotal Phase 3 efficacy/safety with long-term extension trials (subcutaneous dosing)",
+          "nct_ids": ["NCT07197944", "NCT07228403", "NCT04881825", "NCT03905707"],
+          "trial_status": "Mix of RECRUITING (NCT07197944), ENROLLING_BY_INVITATION (NCT07228403), and ACTIVE_NOT_RECRUITING extension trials (NCT04881825, NCT03905707)",
+          "lead_sponsor": "Zealand Pharma",
+          "key_milestones": ["Pivotal Phase 3 read-out and extension trials ongoing through 2028"]
+        }
+      ]
+    },
+    {
+      "asset": "Dasiglucagon",
+      "aka": ["ZP4207"],
+      "modality": "Stable glucagon analog (peptide)",
+      "target": "Glucagon receptor",
+      "license_origin": "Internal (Zealand)",
+      "indications": [
+        {
+          "indication": "Congenital Hyperinsulinism (CHI)",
+          "highest_phase": "P3",
+          "trial_name": "CHI long-term extension",
+          "trial_design": "Phase 3 extension evaluating long-term safety and efficacy of continuous subcutaneous dasiglucagon infusion in pediatric CHI",
+          "nct_ids": ["NCT03941236"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Zealand Pharma",
+          "key_milestones": ["Phase 3 program supporting CHI regulatory submission"]
+        }
+      ]
+    },
+    {
+      "asset": "Petrelintide",
+      "aka": ["ZP8396"],
+      "modality": "Long-acting amylin analog (peptide)",
+      "target": "Amylin / calcitonin receptor",
+      "license_origin": "Internal (Zealand); global commercialization partnership with Roche announced 2025",
+      "indications": [
+        {
+          "indication": "Overweight / Obesity with Type 2 Diabetes",
+          "highest_phase": "P2",
+          "trial_name": "ZUPREME 2",
+          "trial_design": "Randomized, placebo-controlled Phase 2 evaluating efficacy and safety of petrelintide in overweight/obese T2D",
+          "nct_ids": ["NCT06926842"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Zealand Pharma",
+          "key_milestones": ["ZUPREME 2 read-out expected 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Dapiglutide",
+      "aka": ["ZP7570"],
+      "modality": "Long-acting dual GLP-1 / GLP-2 receptor agonist (peptide)",
+      "target": "GLP-1 receptor + GLP-2 receptor",
+      "license_origin": "Internal (Zealand)",
+      "indications": [
+        {
+          "indication": "Obesity",
+          "highest_phase": "P2",
+          "trial_name": "Investigator-initiated Phase 2 (Gentofte)",
+          "trial_design": "Phase 2 RCT of dapiglutide vs placebo in obesity (lead investigator: University Hospital Gentofte, Copenhagen, with Zealand collaboration)",
+          "nct_ids": ["NCT05788601"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "University Hospital, Gentofte, Copenhagen (collaboration with Zealand)",
+          "key_milestones": ["Investigator-led Phase 2 obesity read-out"]
+        }
+      ]
+    },
+    {
+      "asset": "ZP9830",
+      "aka": [],
+      "modality": "Undisclosed peptide therapeutic (early-stage)",
+      "target": "Undisclosed",
+      "license_origin": "Internal (Zealand)",
+      "indications": [
+        {
+          "indication": "First-in-human (Healthy Volunteers)",
+          "highest_phase": "P1",
+          "trial_name": "ZP9830 SAD/MAD",
+          "trial_design": "Single ascending dose / multiple ascending dose Phase 1 in healthy participants",
+          "nct_ids": ["NCT06682975"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Zealand Pharma",
+          "key_milestones": ["Phase 1 SAD/MAD completion expected 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Zegalogue (dasiglucagon)": "FDA-approved (2021) for severe hypoglycemia in diabetes; commercial product, separate from CHI Phase 3 program above"
+  },
+  "excluded_preclinical": [
+    {
+      "program": "Multiple early peptide discovery programs",
+      "reason": "Pre-IND / discovery stage — not in active P1-P3"
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {"nct": "varies", "reason": "TERMINATED (2) and WITHDRAWN (1) Zealand-led trials excluded per scope"}
+  ],
+  "excluded_partner_owned": [
+    {
+      "asset": "Survodutide (BI 456906)",
+      "modality": "GLP-1 / glucagon dual agonist",
+      "partner": "Boehringer Ingelheim",
+      "reason": "Asset originated at Zealand but global development and Phase 3 trials (obesity, MASH) are owned and run by Boehringer Ingelheim; Zealand entitled to milestones/royalties only. Per scope, partner-owned trials not enumerated."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 5,
+    "phase_3": 2,
+    "phase_2": 2,
+    "phase_1": 1
+  }
+}

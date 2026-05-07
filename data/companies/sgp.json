@@ -1,0 +1,88 @@
+{
+  "issuer_name": "SpyGlass Pharma, Inc.",
+  "ticker": "SGP",
+  "exchange": "Nasdaq",
+  "cik": "0001778922",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001778922-26-000020",
+      "filing_date": "2026-03-26",
+      "doc": "sgp-20251231.htm"
+    },
+    "website": {
+      "url": "https://spyglasspharma.com/pipeline",
+      "note": "Confirms BIM-IOL System lead candidate in two Phase 3 trials; BIM-DRS preclinical (FIH planned 2026, excluded as not yet clinical)."
+    },
+    "ctgov": {
+      "sponsor_query": "SpyGlass Pharma, Inc.",
+      "unique_trials_p1_p3": 3,
+      "by_phase": {"PHASE3": 2, "PHASE1/PHASE2": 1},
+      "by_status": {"RECRUITING": 2, "ACTIVE_NOT_RECRUITING": 1}
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "BIM-IOL System",
+      "aka": ["Bimatoprost Implant System + SpyGlass IOL", "Drug Pad-IOL System (bimatoprost)"],
+      "modality": "Drug-device combination (non-bioerodible drug pads attached to intraocular lens)",
+      "target": "Prostaglandin F2-alpha receptor (bimatoprost prostaglandin analogue) for sustained intraocular pressure (IOP) reduction",
+      "license_origin": "Internal (SpyGlass Platform)",
+      "indications": [
+        {
+          "indication": "Reduction of IOP in patients with open-angle glaucoma (OAG) or ocular hypertension (OHT) undergoing cataract surgery",
+          "highest_phase": "P3",
+          "trial_name": "Rhine (NCT07218783) and Rhone (NCT07218796) — pivotal Phase 3 program",
+          "trial_design": "Prospective, multicenter, randomized, double-masked, controlled trials evaluating BIM-IOL System (Bimatoprost Implant System + SpyGlass IOL) versus timolol maleate ophthalmic solution 0.5% plus a commercial IOL, in OAG / OHT cataract-surgery patients",
+          "nct_ids": ["NCT07218783", "NCT07218796"],
+          "trial_status": "Recruiting (Rhine started 2025-10-15; Rhone started 2025-10-28; primary completion 2029-03 / 2029-05)",
+          "lead_sponsor": "SpyGlass Pharma, Inc.",
+          "key_milestones": [
+            "Phase 3 Rhine first patient dosed Q4 2025",
+            "Phase 3 Rhone first patient dosed Q4 2025",
+            "Primary completion targeted 2029"
+          ]
+        },
+        {
+          "indication": "OAG / OHT with concomitant cataract — Phase 1/2 dose-ranging (high vs low dose)",
+          "highest_phase": "P1/P2",
+          "trial_name": "Phase 1/2 BIM-IOL dose-ranging trial",
+          "trial_design": "Prospective, multicenter, randomized, double-masked, controlled trial of BIM-IOL System (high dose and low dose) versus timolol maleate 0.5% plus commercial monofocal IOL in patients with OAG/OHT and concomitant cataract; conducted in US, New Zealand and Asia",
+          "nct_ids": ["NCT06120842"],
+          "trial_status": "Active, not recruiting (started 2023-10-13; primary completion 2025-01-31; long-term follow-up ongoing — 12-month safety/efficacy reported)",
+          "lead_sponsor": "SpyGlass Pharma, Inc.",
+          "key_milestones": [
+            "Enrollment complete",
+            "12-month safety and efficacy data reported supporting Phase 3 progression",
+            "Long-term follow-up continues"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "No approved/marketed products. SpyGlass Pharma is a clinical-stage ophthalmic drug-device company."
+  },
+  "excluded_preclinical": [
+    {
+      "asset": "BIM-DRS (Bimatoprost Drug Ring System)",
+      "reason": "Preclinical / animal studies; first-in-human trial planned for 2026 but not yet initiated."
+    },
+    {
+      "asset": "SpyGlass Platform feasibility programs (AMD, chronic uveitis, postoperative eye care)",
+      "reason": "Feasibility / discovery stage, no IND."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 1,
+    "P2": 0,
+    "P1": 0,
+    "P1_P2": 1,
+    "note": "BIM-IOL System counted once at highest phase (P3); same asset also has an ongoing Phase 1/2 dose-ranging study reported as a separate indication entry."
+  }
+}

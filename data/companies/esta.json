@@ -1,0 +1,86 @@
+{
+  "issuer_name": "Establishment Labs Holdings Inc.",
+  "ticker": "ESTA",
+  "exchange": "Nasdaq",
+  "cik": "0001688757",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001688757-26-000022",
+      "filing_date": "2026-02-27",
+      "fiscal_year_end": "2025-12-31",
+      "file": "data/esta_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.establishmentlabs.com/",
+      "note": "No drug pipeline page; corporate site lists marketed devices (Motiva SmoothSilk Round, Ergonomix, Mia Femtech, Motiva Flora). /pipeline path returns 404 (medical device company, not biopharma)."
+    },
+    "ctgov": {
+      "sponsor_query": "Establishment Labs",
+      "compact_file": "data/esta_ctgov_compact.json",
+      "phase_p1_p3_count": 0,
+      "note": "All Establishment Labs ctgov studies are device/PMCF studies with no drug Phase classification (Phase = NA). Active studies: NCT07135011 (Motiva minimally invasive), NCT05447988 (Motiva Flora Tissue Expander PMCF), NCT06146231 (Motiva Flora Aesthetic Breast Recon), NCT06274736 (Motiva Sizers)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      {
+        "name": "Motiva SmoothSilk Round Breast Implants",
+        "regulatory_status": "FDA PMA approved September 2024 (US, primary augmentation cohort); CE-marked / approved in 100+ countries"
+      },
+      {
+        "name": "Motiva SmoothSilk Ergonomix Round Breast Implants",
+        "regulatory_status": "FDA PMA approved September 2024 (US, primary augmentation cohort); CE-marked / approved in 100+ countries"
+      },
+      {
+        "name": "Mia Femtech (Motiva Ergonomix2 Diamond)",
+        "regulatory_status": "Commercially available outside the US; US clinical study ongoing"
+      },
+      {
+        "name": "Motiva Flora Tissue Expander",
+        "regulatory_status": "CE-marked; commercially available in select markets; PMCF studies ongoing"
+      },
+      {
+        "name": "Qid / ZEN RFID microtransponder",
+        "regulatory_status": "FDA 510(k) cleared as a system"
+      }
+    ],
+    "active_device_clinical_studies": [
+      {
+        "study": "Motiva US IDE Study (reconstruction cohort)",
+        "device": "Motiva Round / Motiva Ergonomix Round",
+        "status": "Ongoing follow-up; reconstruction cohort completed 3-year follow-up; supports planned PMA supplement for reconstruction indication",
+        "nct_ids": "Not on public registry"
+      },
+      {
+        "study": "NCT07135011 — Adaptive Study on Minimally Invasive Motiva devices",
+        "status": "Recruiting"
+      },
+      {
+        "study": "NCT05447988 — Motiva Flora Tissue Expander PMCF",
+        "status": "Recruiting"
+      },
+      {
+        "study": "NCT06146231 — Motiva Flora Aesthetic Breast Reconstruction Clinical Study",
+        "status": "Recruiting"
+      },
+      {
+        "study": "NCT06274736 — Safety and Performance of Motiva Sizers",
+        "status": "Recruiting"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Establishment Labs is a medical device company (silicone breast implants and aesthetic/reconstruction devices). It has no drug pipeline and no Phase 1/2/3 clinical drug programs. Active clinical activity consists of device PMCF/IDE studies for already-marketed or CE-marked products, captured under commercial_product."
+}

@@ -1,0 +1,141 @@
+{
+  "issuer_name": "Oculis Holding AG",
+  "ticker": "OCSAW",
+  "exchange": "Nasdaq",
+  "cik": "0001953530",
+  "region": "Switzerland (foreign private issuer; Nasdaq:OCS)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer - files 20-F instead of 10-K",
+      "note": "Oculis Holding AG is a Swiss company; SEC registrant via 20-F annual reports. Pipeline content sourced from clinicaltrials.gov and corporate press releases."
+    },
+    "website": {
+      "url": "https://oculis.com/our-areas-of-focus/",
+      "note": "oculis.com pipeline pages returned 404/HTTP errors for several variants. Pipeline reconstructed from corporate press releases and ctgov registry."
+    },
+    "ctgov": {
+      "sponsor_query": "Oculis",
+      "active_p1_p3_company_sponsored": 3,
+      "note": "10 sponsor-led trials returned. Active P1-P3: NCT07548632 (Phase 2/3 licaminlimab DED, RECRUITING), NCT05608837 (Phase 2 OCS-01 in uveitic CME, ACTIVE_NOT_RECRUITING; Quan Dong Nguyen IIS), NCT05066997 (Phase 2/3 OCS-01 DIAMOND-1 DME, COMPLETED 2026-04). NCT06172257 (DIAMOND-2 Phase 3 DME, COMPLETED). NCT06128369 (OCS-01 cataract Phase 3) was TERMINATED."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "OCS-01",
+      "aka": ["Dexamethasone cyclodextrin nanoparticle ophthalmic suspension"],
+      "modality": "Topical eye drop; preservative-free dexamethasone solubilized via gamma-cyclodextrin nanoparticles (OPTIREACH platform)",
+      "target": "Glucocorticoid receptor (anti-inflammatory)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Diabetic macular edema (DME)",
+          "highest_phase": "Phase 3 (DIAMOND program completed)",
+          "trial_name": "DIAMOND-1 / DIAMOND-2 (OCS-01 in DME)",
+          "trial_design": "Two pivotal Phase 3 randomized, double-masked, multicenter studies; 119 sites; >800 patients; 52-week treatment",
+          "nct_ids": ["NCT05066997", "NCT06172257"],
+          "trial_status": "COMPLETED (last patient visit Apr 2026); topline expected June 2026; potential NDA Q4 2026",
+          "lead_sponsor": "Oculis",
+          "key_milestones": [
+            "Topline Phase 3 readout June 2026",
+            "Potential NDA Q4 2026"
+          ]
+        },
+        {
+          "indication": "Uveitic / postoperative cystoid macular edema",
+          "highest_phase": "Phase 2",
+          "trial_name": "OCS-01 in uveitis-related CME",
+          "trial_design": "Multicenter Phase 2 (investigator-sponsored)",
+          "nct_ids": ["NCT05608837"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2026-06)",
+          "lead_sponsor": "Quan Dong Nguyen (with Oculis collaborator)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Licaminlimab",
+      "aka": ["OCS-02"],
+      "modality": "Topical biologic eye drop; anti-TNF-alpha single-domain antibody fragment",
+      "target": "TNF-alpha",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Dry eye disease (DED) - genotype-targeted (precision medicine plan)",
+          "highest_phase": "Phase 2/3 (registrational)",
+          "trial_name": "Licaminlimab Phase 2/3 in DED (genotype-based registrational program)",
+          "trial_design": "Randomized Phase 2/3 with artificial-tear run-in vs vehicle vs licaminlimab",
+          "nct_ids": ["NCT07548632"],
+          "trial_status": "RECRUITING (start 2026-04-16; primary completion 2026-12)",
+          "lead_sponsor": "Oculis",
+          "key_milestones": [
+            "Registrational trial initiated Q4 2025/Q2 2026 following 3 positive Phase 2 studies",
+            "Primary completion 2026-12"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Privosegtor",
+      "aka": ["OCS-05"],
+      "modality": "Small molecule peptoid; serum/glucocorticoid-regulated kinase 2 (SGK-2) activator with blood-brain/retinal barrier penetration; IV administration",
+      "target": "SGK-2 (neuroprotection)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute optic neuritis (AON) - including MS-associated and non-MS",
+          "highest_phase": "Phase 3 (PIONEER program registrational; PLANNED/INITIATING)",
+          "trial_name": "PIONEER-1 / PIONEER-2 (privosegtor in AON)",
+          "trial_design": "Two pivotal randomized, double-blind, placebo-controlled Phase 3 trials in acute optic neuritis (broad MS and non-MS population)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - PIONEER-1 initiation Q4 2025; PIONEER-2 initiation H1 2026; FDA Breakthrough Therapy Designation granted Jan 2026",
+          "lead_sponsor": "Oculis",
+          "key_milestones": [
+            "FDA Breakthrough Therapy Designation Jan 2026",
+            "PIONEER-1 initiation Q4 2025; PIONEER-2 H1 2026"
+          ]
+        },
+        {
+          "indication": "Non-arteritic anterior ischemic optic neuropathy (NAION)",
+          "highest_phase": "Phase 3 (PIONEER-3 PLANNED)",
+          "trial_name": "PIONEER-3 (privosegtor in NAION)",
+          "trial_design": "Pivotal Phase 3 in acute NAION",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - initiation mid-2026",
+          "lead_sponsor": "Oculis",
+          "key_milestones": [
+            "Trial start mid-2026"
+          ]
+        },
+        {
+          "indication": "Acute optic neuritis (Phase 2 prior)",
+          "highest_phase": "Phase 2 completed",
+          "trial_name": "ACUITY (OCS-05 in optic neuritis)",
+          "trial_design": "Randomized Phase 2 with corticosteroid SoC backbone",
+          "nct_ids": ["NCT04762017"],
+          "trial_status": "COMPLETED (2024-09-16)",
+          "lead_sponsor": "Oculis",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Earlier-stage discovery / OPTIREACH platform extensions"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT06128369 OCS-01 Phase 3 in postoperative cataract inflammation/pain - TERMINATED"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 3,
+    "indications_total": 6,
+    "highest_phase_p3": 4,
+    "highest_phase_p2": 2,
+    "highest_phase_p1": 0,
+    "active_recruiting_or_active_not_recruiting": 2,
+    "planned_or_pre_launch": 3
+  },
+  "no_active_clinical_pipeline_reason": null
+}

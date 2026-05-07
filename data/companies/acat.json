@@ -1,0 +1,30 @@
+{
+  "issuer_name": "NP Life Sciences Health Industry Group Inc.",
+  "ticker": "ACAT",
+  "exchange": "OTC",
+  "cik": "0001781726",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-24-014774",
+      "filing_date": "2024-04-16",
+      "slice_path": "data/acat_10k_pipeline_section.txt",
+      "note": "10-K describes online career consulting, mental-health consulting, and classical Chinese studies education business lines; no drug/device research disclosed despite the 'Life Sciences' company name."
+    },
+    "website": {
+      "error": "No public pipeline page - company is a small consulting/education shell, not a biopharma"
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 0,
+      "compact_path": "data/acat_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p1": 0, "p2": 0, "p3": 0},
+  "no_active_clinical_pipeline_reason": "Despite the name 'NP Life Sciences Health Industry Group', the 10-K (fiscal 2023) discloses business lines limited to online career consulting, planned mental-health consulting (subsidiary GW), and classical Chinese studies education/study-tour services. No drug, device, or diagnostic R&D programs. Zero ClinicalTrials.gov records. Misclassified by wide_keyword_match."
+}

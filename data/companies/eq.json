@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Equillium, Inc.",
+  "ticker": "EQ",
+  "exchange": "Nasdaq",
+  "cik": "0001746466",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-124143", "filing_date": "2026-03-25", "path": "data/eq_10k_pipeline_section.html"},
+    "website": {"url": "https://equilliumbio.com/pipeline", "note": "Pipeline page lists only EQ504 and EQ302 with no clinical phases"},
+    "ctgov": {"path": "data/eq_ctgov_compact.json", "note": "All 7 sponsored trials are WITHDRAWN, TERMINATED, or COMPLETED"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per latest 10-K (filed 2026-03-25), both lead assets EQ504 (AhR modulator for UC/GI) and EQ302 (oral IL-15/IL-21 bi-specific inhibitor for celiac disease) are preclinical-stage; neither has an active IND or clinical trial. Legacy assets EQ001/itolizumab and EQ101 trials have all completed, terminated, or been withdrawn.",
+  "excluded_preclinical": [
+    {"asset": "EQ504", "modality": "Small molecule (AhR modulator)", "indication": "Ulcerative colitis and other GI/inflammatory diseases", "stage": "Preclinical"},
+    {"asset": "EQ302", "modality": "Oral bi-specific peptide inhibitor of IL-15 and IL-21", "indication": "Celiac disease and other GI indications", "stage": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Itolizumab (EQ001)", "nct_ids": ["NCT04605926", "NCT03763318", "NCT05263999", "NCT04128579", "NCT04007198"], "status": "WITHDRAWN/COMPLETED/TERMINATED across COVID-19, aGVHD, lupus, asthma"},
+    {"asset": "EQ101", "nct_ids": ["NCT05589610"], "status": "COMPLETED Phase 2 in alopecia areata"},
+    {"asset": "BNZ-1", "nct_ids": ["NCT03532958"], "status": "WITHDRAWN Phase 2 in alopecia areata"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

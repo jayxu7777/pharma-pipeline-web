@@ -1,0 +1,73 @@
+{
+  "issuer_name": "Ceribell, Inc.",
+  "ticker": "CBLL",
+  "exchange": "Nasdaq",
+  "cik": "0001861107",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-067238",
+      "filing_date": "2026-02-24",
+      "doc": "cbll-20251231.htm",
+      "path": "data/cbll_10k_pipeline_section.html"
+    },
+    "website": {
+      "url_tried": [
+        "https://www.ceribell.com/pipeline",
+        "https://ceribell.com/"
+      ],
+      "note": "No /pipeline page exists. Corporate site lists three commercial products: Point-of-Care EEG (Ceribell System hardware: Wearables headband/headcap + recorder), Clarity (AI seizure detection algorithm), and EEG Portal (cloud-based EEG data management)."
+    },
+    "ctgov": {
+      "query": "spons=Ceribell",
+      "raw_results": 4,
+      "kept_p1_p3": 0,
+      "path": "data/cbll_ctgov_compact.json",
+      "note": "All 4 sponsored studies are device/observational studies with no Phase classification (NA or empty). Active studies: NCT07485244 EEG Abnormalities in ICU patients with delirium risk (RECRUITING); NCT04962815 Ceribell Delirium Data Collection Study (RECRUITING); NCT07449416 Ceribell Delirium Monitor Outcomes Pilot (NOT_YET_RECRUITING). NCT03534258 (rapid-response EEG impact on clinical decision making) COMPLETED."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "AI-powered point-of-care EEG medical device platform",
+    "marketed_platforms": [
+      "Ceribell System - point-of-care EEG hardware (disposable Wearables headband and infant headcap + pocket-sized recorder)",
+      "Clarity seizure detection algorithm - FDA 510(k)-cleared May 2023 (adults with electrographic status epilepticus); pediatric clearance April 2025; neonatal clearance November 2025; latest-generation algorithm released October 2025; CMS NTAP awarded August 2023",
+      "Delirium Monitoring Solution - FDA 510(k)-cleared December 2025 (first and only FDA-cleared delirium screening/continuous monitoring device); FDA Breakthrough Device Designation 2022; NTAP application submitted October 2025",
+      "EEG Portal - cloud-based remote review platform",
+      "CE Mark for Ceribell System in Europe (commercial focus is US; >600 hospitals deployed as of 2025-12-31)"
+    ],
+    "investigational_devices": [
+      {
+        "device": "Large Vessel Occlusion (LVO) Stroke Detection and Monitoring Solution",
+        "indication": "Adult LVO stroke detection and monitoring in hospitalized patients (uses existing Ceribell hardware + new AI-based EEG algorithm)",
+        "study_status": "Pre-marketing; FDA Breakthrough Device Designation announced January 2026. Ceribell expects to apply for FDA marketing authorization within next three years. No commercialization timeline.",
+        "nct_ids": "Not on public registry",
+        "milestones": "Validation through prospective multi-center studies using EEG data and clinical assessments planned."
+      },
+      {
+        "device": "Ceribell Delirium Monitor (post-market clinical evidence)",
+        "indication": "ICU adult delirium detection and monitoring",
+        "study_status": "Post-market evidence-generation. NCT04962815 RECRUITING; NCT07485244 RECRUITING (delirium-risk ICU EEG abnormalities); NCT07449416 NOT_YET_RECRUITING (Delirium Monitor Outcomes Pilot).",
+        "nct_ids": ["NCT04962815", "NCT07485244", "NCT07449416"],
+        "milestones": "FDA 510(k) clearance December 2025 already secured; studies are post-market outcome / utility studies, not pre-approval pivotal trials."
+      }
+    ],
+    "regulatory_status": "Multiple FDA 510(k) clearances (Clarity adults May 2023, pediatrics April 2025, neonates November 2025; Delirium Monitor December 2025); CE Mark in EU; FDA Breakthrough Device Designation for delirium (2022) and LVO stroke (January 2026); CMS NTAP for Clarity (August 2023). FY2025 revenue $89.1M (+36% y/y), 88% gross margin, net loss $53.4M."
+  },
+  "excluded_preclinical": [
+    "Future biomarker development for non-acute neurological and psychiatric conditions (early R&D, no defined program)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT03534258 - Does Use of Rapid Response EEG Impact Clinical Decision Making (COMPLETED)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Ceribell is a pure-play medical device / AI software company (point-of-care EEG hardware + AI seizure / delirium detection algorithms regulated as Class II 510(k) devices). It does not develop drugs - no Phase 1/2/3 drug trials exist. All four ClinicalTrials.gov entries are Phase=NA device or observational studies. The single investigational pipeline device program (LVO Stroke detection algorithm with FDA Breakthrough Device Designation) is documented under commercial_product.investigational_devices."
+}

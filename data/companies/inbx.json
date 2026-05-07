@@ -1,0 +1,91 @@
+{
+  "issuer_name": "Inhibrx Biosciences, Inc.",
+  "ticker": "INBX",
+  "exchange": "Nasdaq",
+  "cik": "0002007919",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0002007919-26-000006", "filing_date": "2026-03-19", "doc": "inbx-20251231.htm"},
+    "website": {"url": "https://www.inhibrx.com/pipeline/", "note": "post-Sanofi-spinoff entity retains INBRX-106 (ozekibart) and INBRX-109 (DR5 agonist) clinical programs"},
+    "ctgov": {"file": "data/inbx_ctgov_compact.json", "trial_count": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "INBRX-109",
+      "aka": ["ozekibart"],
+      "modality": "Tetravalent agonist antibody",
+      "target": "Death Receptor 5 (DR5)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Unresectable or metastatic conventional chondrosarcoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "CHONDRO-101",
+          "trial_design": "Phase 2 randomized, placebo-controlled, registrational study of INBRX-109 monotherapy in conventional chondrosarcoma",
+          "nct_ids": ["NCT04950075"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Inhibrx Biosciences, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Ewing sarcoma and other advanced solid tumors (chemo combos)",
+          "highest_phase": "Phase 1",
+          "trial_name": "INBRX-109-101",
+          "trial_design": "Phase 1 dose-escalation/expansion in advanced solid tumors including Ewing sarcoma; mono and combos with irinotecan/temozolomide, FOLFIRI/carboplatin/pemetrexed",
+          "nct_ids": ["NCT03715933"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Inhibrx Biosciences, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "INBRX-106",
+      "aka": ["ozekibart-lookalike (note: distinct from -109)"],
+      "modality": "Hexavalent agonist antibody",
+      "target": "OX40 (TNFRSF4)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "First-line PD-L1 CPS>=20 head and neck squamous cell carcinoma (HNSCC)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "INBRX-106-201/301",
+          "trial_design": "Phase 2/3 randomized of INBRX-106 + pembrolizumab vs pembrolizumab in 1L PD-L1 CPS>=20 HNSCC",
+          "nct_ids": ["NCT06295731"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Inhibrx Biosciences, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Locally advanced or metastatic solid tumors (NSCLC, HNSCC, melanoma, gastric, RCC, urothelial)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "INBRX-106-101",
+          "trial_design": "Phase 1/2 dose-escalation/expansion of INBRX-106 mono and with pembrolizumab and chemotherapy",
+          "nct_ids": ["NCT04198766"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Inhibrx Biosciences, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Stage II/III triple-negative breast cancer (TNBC), neoadjuvant",
+          "highest_phase": "Phase 2",
+          "trial_name": "Investigator-sponsored neoadjuvant TNBC",
+          "trial_design": "Phase 2 neoadjuvant INBRX-106 + pembrolizumab in stage II/III TNBC",
+          "nct_ids": ["NCT06353997"],
+          "trial_status": "Recruiting (investigator-sponsored, Providence)",
+          "lead_sponsor": "Providence Health & Services (Inhibrx collaborator)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "INBRX-105 (PD-L1 x 4-1BB) — Phase 1 NCT03809624 terminated 2024",
+    "INBRX-101 (alpha-1 antitrypsin) — transferred to Sanofi via 2024 acquisition; not part of INBX SpinCo"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 1, "P2": 1, "P1": 1, "total_active_assets": 2}
+}

@@ -1,0 +1,60 @@
+{
+  "issuer_name": "ZyVersa Therapeutics, Inc.",
+  "ticker": "ZVSA",
+  "exchange": "OTC",
+  "cik": "0001859007",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014271",
+      "filing_date": "2026-03-31",
+      "primary_doc": "form10-k.htm"
+    },
+    "website": {
+      "url": "https://zyversa.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "queries": ["sponsor: ZyVersa Therapeutics"],
+      "trials_found": 1,
+      "notes": "Sole registered trial NCT06489340 (DKD Phase 2a) was withdrawn"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "VAR 200",
+      "aka": ["2-hydroxypropyl-beta-cyclodextrin", "2HP\u03b2CD", "Cholesterol Efflux Mediator"],
+      "modality": "Small molecule (cyclodextrin) - injectable",
+      "target": "Renal lipotoxicity / cholesterol efflux from podocytes",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Focal Segmental Glomerulosclerosis (FSGS) and Alport Syndrome",
+          "highest_phase": "Phase 2",
+          "trial_name": "Planned Phase 2a in FSGS and Alport syndrome",
+          "trial_design": "Phase 2a, small open-label trial in FSGS and Alport syndrome patients",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED \u2014 company plans to initiate Q2-2026 per 10-K; not yet registered on ClinicalTrials.gov",
+          "lead_sponsor": "ZyVersa Therapeutics, Inc.",
+          "key_milestones": ["FDA cleared progression to Phase 2", "Trial initiation targeted Q2-2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "IC 100", "indication": "Cardiometabolic / inflammatory diseases", "reason": "Inflammasome ASC inhibitor mAb still in preclinical development; IND planned (not yet filed) per 10-K"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "VAR 200", "nct": "NCT06489340", "indication": "Diabetic kidney disease", "status": "WITHDRAWN"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 1,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 0,
+    "indications_active": 1
+  }
+}

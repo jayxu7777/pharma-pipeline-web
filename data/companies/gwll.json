@@ -1,0 +1,37 @@
+{
+  "issuer_name": "Goldenwell Biotech, Inc.",
+  "ticker": "GWLL",
+  "exchange": "OTC",
+  "cik": "0001800373",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-05-15",
+      "accession": "0001477932-25-003784",
+      "note": "10-K (fiscal year 2024) describes an early-stage Nevada corporation in the nutraceutical / dietary supplements business with $139 of revenue in 2024, $49,404 in cash, going-concern doubt, and no manufacturing facilities yet built. Despite 'Biotech' in the corporate name, the issuer markets dietary supplements (a non-FDA-approved product class) and discloses no clinical-stage drug or device development, no IND, no NCT trial, and no regulated therapeutic pipeline."
+    },
+    "website": {
+      "error": "no public pipeline page found — non-pharma issuer (dietary supplements micro-shell)"
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 0,
+      "note": "No trials sponsored by Goldenwell Biotech on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": "Nutraceutical and dietary supplement products (very limited commercial sales; $139 of revenue in FY2024)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Non-pharma issuer despite 'Biotech' branding. Goldenwell Biotech is an early-stage nutraceutical / dietary supplement micro-shell with $139 of FY2024 revenue, going-concern doubt, and no manufacturing facilities. Dietary supplements are not FDA-regulated drugs and the company has no IND, NCT trial, or clinical-stage therapeutic asset. Mis-bucketed by wide_keyword_match on 'Biotech' in the corporate name."
+}

@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Coeptis Therapeutics Holdings, Inc.",
+  "ticker": "COEPW",
+  "exchange": "Nasdaq",
+  "cik": "0001759186",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001683168-26-002026",
+      "filing_date": "2026-03-19",
+      "path": "data/coepw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://coeptis.com/",
+      "note": "Pipeline subpath returned 404; root site lists SNAP-CAR and stem cell expansion as platforms without specific clinical-stage assets, NCTs, or phase callouts."
+    },
+    "ctgov": {
+      "path": "data/coepw_ctgov_compact.json",
+      "note": "Two Phase 1 trials (NCT04900454, NCT04901416) for DVX201 unmodified allogeneic NK cells, both COMPLETED in 2022-2023; excluded as legacy."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    "GEAR-NK / GEAR Cell Therapy Platform (anti-CD38 program with VyGen-Bio) — preclinical, no active IND or trial",
+    "SNAP-CAR T-cell platform targeting HER2 (SNAP Biosciences subsidiary, sponsored research with University of Pittsburgh and Karolinska Institutet) — preclinical",
+    "SNAP-CAR NK-cell program (Monarch Therapeutics adaptor + Deverra NK platform) — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "DVX201 in COVID-19 pneumonia (NCT04900454, Phase 1) — COMPLETED 2022-06; legacy Vy-Gen NK program",
+    "DVX201 in relapsed/refractory AML and high-risk MDS (NCT04901416, Phase 1) — COMPLETED 2023-10; legacy"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Coeptis is a small holding company whose active programs (GEAR and SNAP-CAR cell-therapy platforms via subsidiaries SNAP Biosciences and GEAR Therapeutics) remain at the preclinical / IND-enabling stage. The only registered ClinicalTrials.gov entries are two completed Phase 1 NK-cell studies of DVX201 from the legacy Vy-Gen relationship; no active P1/P2/P3 sponsored trials exist as of the FY2025 10-K (filed 2026-03-19)."
+}

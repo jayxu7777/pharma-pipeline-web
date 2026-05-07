@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Quince Therapeutics, Inc.",
+  "ticker": "QNCX",
+  "exchange": "Nasdaq",
+  "cik": "0001662774",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-151364", "filing_date": "2026-04-10", "doc": "qncx-20251231.htm"},
+    "website": {"url": "https://quincetx.com/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Quince Therapeutics", "trials_returned": 9}
+  },
+  "pipeline": [
+    {
+      "asset": "eDSP (dexamethasone sodium phosphate encapsulated in autologous red blood cells)",
+      "aka": ["EryDex", "EryDex System"],
+      "modality": "Cellular drug delivery (autologous RBC encapsulated corticosteroid) via AIDE technology",
+      "target": "Glucocorticoid receptor (corticosteroid anti-inflammatory)",
+      "license_origin": "Internal (acquired via EryDel S.p.A. acquisition)",
+      "indications": [
+        {
+          "indication": "Ataxia-Telangiectasia (A-T)",
+          "highest_phase": "P3",
+          "trial_name": "NEAT (IEDAT-04-2022)",
+          "trial_design": "Randomized, placebo-controlled Phase 3 evaluating neurological effects of eDSP in A-T patients",
+          "nct_ids": ["NCT06193200", "NCT06664853"],
+          "trial_status": "Phase 3 NEAT trial COMPLETED 2025-12-17; topline announced 2026-01-29 missed primary endpoint. Open-label extension NCT06664853 TERMINATED.",
+          "lead_sponsor": "Quince Therapeutics S.p.A.",
+          "key_milestones": ["Topline NEAT results 2026-01-29: did not meet primary endpoint", "Strategic review ongoing"]
+        },
+        {
+          "indication": "Duchenne Muscular Dystrophy (DMD)",
+          "highest_phase": "P2",
+          "trial_name": "Phase 2 DMD program (planned)",
+          "trial_design": "Phase 2 study designs finalized; considering investigator-initiated trials",
+          "nct_ids": [],
+          "trial_status": "PLANNED — Phase 2 study designs finalized; not yet enrolling",
+          "lead_sponsor": "Quince Therapeutics S.p.A.",
+          "key_milestones": ["Investigator-initiated trial planning"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["11 additional rare disease indications under consideration (preclinical scoping)"],
+  "excluded_legacy_terminated": ["Crohn's disease P3 NCT01277289 TERMINATED 2011", "Ulcerative colitis P2 NCT01171807 completed 2007 (legacy)", "COPD, cystic fibrosis (historical)", "Phase 1 PK studies in healthy volunteers (NCT01925859, NCT02380924) completed legacy", "Earlier A-T P3 NCT02770807 and ext NCT03563053"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 1, "P2": 1, "P1": 0, "total_active_assets": 1}
+}

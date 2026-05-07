@@ -1,0 +1,65 @@
+{
+  "issuer_name": "Celularity Inc.",
+  "ticker": "CELUW",
+  "exchange": "Nasdaq",
+  "cik": "0001752828",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "All 17 ctgov registry trials are TERMINATED (8), COMPLETED (5), WITHDRAWN (2), UNKNOWN (1), or ACTIVE_NOT_RECRUITING with primary completion date 2021-12-30 (1, effectively dormant CYNK-001 COVID-19 study). Per the FY2025 10-K (filed 2026-04-30), the company has refocused on health longevity using placental-derived therapies; cenplacel-L (PDA-001/PDA-002) Phase 2 program is complete and pending an FDA End-of-Phase-2 meeting, with no new actively enrolling trial reported. Pipeline page lists PDA-002 for FSHD as Phase 1 'Ready' (not initiated). CAR-T (pT) and pT/pNK programs are at discovery stage. The company also licensed/divested major cell-therapy and biomaterial programs (Celeniv license; April 2026 NexGel divestiture of biomaterials business).",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-30",
+      "accession": "0001493152-26-020424",
+      "path": "data/celuw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.celularity.com/pipeline",
+      "note": "Lists MLASC PDA-001/002 (Phase 2 complete, awaiting FDA EOP-2), PDA-002 FSHD (Phase 1 Ready/not started), pT and pT/pNK (Discovery). No active enrolling trials with NCT IDs."
+    },
+    "ctgov": {
+      "path": "data/celuw_ctgov_compact.json",
+      "trials_returned": 17,
+      "note": "All terminated/withdrawn/completed/unknown. NCT04365101 (CYNK-001 COVID-19) is ACTIVE_NOT_RECRUITING but primary completion 2021-12-30 — long-term follow-up only, not active enrollment."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "PDA-002 / cenplacel-L (MLASC)", "modality": "Placental-derived mesenchymal-like adherent stromal cells", "indication": "Facioscapulohumeral muscular dystrophy (FSHD)", "stage": "Phase 1 'Ready' on company pipeline page; trial not yet initiated, no IND/NCT disclosed."},
+    {"asset": "Engineered T cell (pT)", "modality": "CAR-T", "indication": "Solid tumor", "stage": "Discovery"},
+    {"asset": "pT/pNK", "modality": "Modified T/NK cell", "indication": "Autoimmune disease", "stage": "Discovery"},
+    {"asset": "PSC-100, pEXO-001, APPL-001", "stage": "Preclinical / regenerative indications"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "CYNK-001 (NK cell) — recurrent GBM IV/IC + IL2 (NCT05218408)", "phase": "PHASE1/PHASE2", "status": "WITHDRAWN"},
+    {"asset": "CYNK-001 — COVID-19 (NCT04365101)", "phase": "PHASE1/PHASE2", "status": "ACTIVE_NOT_RECRUITING (primary completion 2021-12-30; dormant)"},
+    {"asset": "PNK-007 — relapsed/refractory AML (NCT02781467)", "phase": "PHASE1", "status": "TERMINATED"},
+    {"asset": "PDA-002 — DFU+PAD (NCT02264288)", "phase": "PHASE2", "status": "TERMINATED"},
+    {"asset": "PDA-002 — PAD/DFU (NCT01859117)", "phase": "PHASE1", "status": "COMPLETED"},
+    {"asset": "PDA-001 — Rheumatoid arthritis (NCT01261403)", "phase": "PHASE2", "status": "TERMINATED"},
+    {"asset": "CYNK-001 — recurrent GBM (NCT04489420)", "phase": "PHASE1", "status": "TERMINATED"},
+    {"asset": "PDA-002 hemodynamic — DFU/PAD (NCT02460081)", "phase": "PHASE2", "status": "WITHDRAWN"},
+    {"asset": "PNK-007 — multiple myeloma post-ASCT (NCT02955550)", "phase": "PHASE1", "status": "COMPLETED"},
+    {"asset": "PDA-001 — pulmonary sarcoidosis (NCT01440192)", "phase": "PHASE1", "status": "TERMINATED"},
+    {"asset": "CYNK-001 — multiple myeloma (NCT04309084)", "phase": "PHASE1", "status": "UNKNOWN"},
+    {"asset": "PDA-002 — diabetic peripheral neuropathy (NCT02552277)", "phase": "PHASE2", "status": "COMPLETED"},
+    {"asset": "PDA001 — Crohn's (NCT01769755)", "phase": "PHASE1", "status": "COMPLETED"},
+    {"asset": "CYNK-101 + Trastuzumab + Pembrolizumab — HER2+ G/GEJ (NCT05207722)", "phase": "PHASE1/PHASE2", "status": "TERMINATED"},
+    {"asset": "CYNK-001 — AML (NCT04310592)", "phase": "PHASE1", "status": "TERMINATED"},
+    {"asset": "PDA001 — moderate-severe Crohn's (NCT01155362)", "phase": "PHASE2", "status": "COMPLETED"},
+    {"asset": "PDA001 — ischemic stroke (NCT01310114)", "phase": "PHASE2", "status": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "commercial_product": {
+    "products": [
+      "Biovance (human amniotic membrane allograft)",
+      "Biovance 3L (Tri-Layer)",
+      "Biovance 3L Ocular",
+      "Interfyl (decellularized placental connective tissue matrix)",
+      "CentaFlex (umbilical cord matrix)",
+      "Rebound (full-thickness placental matrix)"
+    ],
+    "note": "Biomaterials business divested to NexGel, Inc. announced April 2026; Celeniv license also covers certain biomaterials and pipeline programs."
+  },
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

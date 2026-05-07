@@ -1,0 +1,190 @@
+{
+  "issuer_name": "Cullinan Therapeutics, Inc.",
+  "ticker": "CGEM",
+  "exchange": "Nasdaq",
+  "cik": "0001789972",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-10",
+      "accession": "0001193125-26-099362",
+      "path": "data/cgem_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.cullinantherapeutics.com/pipeline",
+      "error": "Redirect/page fetch returned no extractable content; relied on 10-K + ctgov."
+    },
+    "ctgov": {
+      "path": "data/cgem_ctgov_compact.json",
+      "query_sponsor": "Cullinan Therapeutics"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CLN-978",
+      "aka": [],
+      "modality": "Half-life extended humanized single-chain bispecific T cell engager (CD19 x CD3 x HSA), subcutaneous",
+      "target": "CD19 x CD3",
+      "license_origin": "Internal (Adimab antibody discovery collaboration)",
+      "indications": [
+        {
+          "indication": "Systemic lupus erythematosus (SLE)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CLN-978 SLE Phase 1",
+          "trial_design": "Phase 1 first-in-human of subcutaneous CD19xCD3 TCE in active SLE",
+          "nct_ids": ["NCT06613360"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Cullinan Therapeutics Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Rheumatoid arthritis (RA)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CLN-978 RA Phase 1",
+          "trial_design": "Phase 1 of subcutaneous CLN-978 in active RA",
+          "nct_ids": ["NCT06994143"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Cullinan Therapeutics Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Sjögren's disease (and other B-cell-mediated autoimmune)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CLN-978 autoimmune Phase 1",
+          "trial_design": "Phase 1 of subcutaneous CLN-978 in additional B-cell mediated autoimmune disease(s)",
+          "nct_ids": ["NCT07041099"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Cullinan Therapeutics Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Relapsed/refractory B-cell non-Hodgkin lymphoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "CLN-978 NHL Phase 1",
+          "trial_design": "Phase 1 of CLN-978 in r/r B-cell NHL (oncology origin study)",
+          "nct_ids": ["NCT05879744"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Cullinan Therapeutics Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CLN-049",
+      "aka": [],
+      "modality": "Humanized FLT3 x CD3 bispecific T cell engager, IV (subcutaneous discontinued)",
+      "target": "FLT3 x CD3",
+      "license_origin": "Licensed from DKFZ / University of Tübingen (Cullinan Florentine subsidiary)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory acute myeloid leukemia (AML) and MDS",
+          "highest_phase": "Phase 1",
+          "trial_name": "CLN-049 Phase 1 dose escalation",
+          "trial_design": "Phase 1 dose escalation of IV CLN-049 in r/r AML and refractory MDS; planned dose-expansion cohorts in r/r AML and TP53-mutated AML in Q2 2026; pivotal single-arm registrational trial expected after RP2D",
+          "nct_ids": ["NCT05143996"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Cullinan Therapeutics Inc.",
+          "key_milestones": [
+            "FDA Fast Track designation Dec 2025 for r/r AML",
+            "ASH 2025: CR+CRh 25% at >6 mcg/kg; 31% at 12 mcg/kg target dose",
+            "Dose expansion enrollment expected complete by Q4 2026"
+          ]
+        },
+        {
+          "indication": "AML with measurable residual disease (post-induction)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CLN-049 AML MRD Phase 1",
+          "trial_design": "Phase 1 of CLN-049 in AML patients with MRD following induction therapy",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING (per 10-K; no separate NCT identified in compact)",
+          "lead_sponsor": "Cullinan Therapeutics Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Frontline AML (combination with SOC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CLN-049 frontline AML Phase 1/2 (planned)",
+          "trial_design": "Phase 1/2 in combination with current standard-of-care for newly diagnosed AML; planned initiation Q4 2026",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiation Q4 2026",
+          "lead_sponsor": "Cullinan Therapeutics Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Zipalertinib",
+      "aka": ["TAS6417", "CLN-081"],
+      "modality": "Oral irreversible covalent EGFR ex20ins inhibitor (small molecule)",
+      "target": "EGFR exon 20 insertion mutation (and other uncommon EGFR mutations)",
+      "license_origin": "Co-developed with Taiho (50/50 U.S. profit share); Taiho commercializes",
+      "indications": [
+        {
+          "indication": "Locally advanced/metastatic EGFR ex20ins NSCLC (post-platinum chemo)",
+          "highest_phase": "Phase 3",
+          "trial_name": "REZILIENT1 (pivotal Phase 2b → NDA) and REZILIENT3 frontline Phase 3",
+          "trial_design": "REZILIENT1 Phase 2b 100 mg BID monotherapy met primary ORR endpoint (NDA submitted Feb 2026 by Taiho for accelerated approval). REZILIENT3 Phase 3 randomizing ~272 patients to zipalertinib + SOC chemo vs SOC chemo alone in 1L EGFR ex20ins NSCLC; enrollment complete Feb 2026, topline expected end of 2026.",
+          "nct_ids": ["NCT04036682"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (Phase 2b portion); Phase 3 REZILIENT3 enrolled and pending readout",
+          "lead_sponsor": "Cullinan Therapeutics Inc. (REZILIENT1) / Taiho (REZILIENT3, REZILIENT2, additional Phase 3)",
+          "key_milestones": [
+            "FDA Breakthrough Therapy 2022",
+            "NDA submitted by Taiho Feb 2026 for accelerated approval",
+            "REZILIENT3 topline expected end of 2026",
+            "Taiho-initiated additional global Phase 3 in another NSCLC indication (Nov 2025)"
+          ]
+        },
+        {
+          "indication": "Uncommon non-ex20ins EGFR-mutant NSCLC (incl. CNS metastases)",
+          "highest_phase": "Phase 2",
+          "trial_name": "REZILIENT2 (Taiho)",
+          "trial_design": "Global Phase 2 parallel-cohort trial in NSCLC patients with ex20ins or uncommon non-ex20ins EGFR mutations",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING (per 10-K)",
+          "lead_sponsor": "Taiho Oncology",
+          "key_milestones": [
+            "WCLC/ESMO 2025: 30% confirmed ORR in uncommon non-ex20ins; 31.3% intracranial ORR in patients with CNS mets"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Velinotamig",
+      "aka": [],
+      "modality": "BCMA x CD3 bispecific T cell engager",
+      "target": "BCMA x CD3",
+      "license_origin": "Licensed from Genrix (June 2025; ex-Greater China, exclusive global)",
+      "indications": [
+        {
+          "indication": "B-cell mediated autoimmune disease (development planned)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Velinotamig autoimmune development (planned)",
+          "trial_design": "Cullinan-sponsored development planned in autoimmune indications",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IND/CTA-enabling stage; ex-China rights acquired June 2025",
+          "lead_sponsor": "Cullinan Therapeutics Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Multiple discovery-stage autoimmune and oncology programs"
+  ],
+  "excluded_legacy_terminated": [
+    "CLN-619 (anti-MICA/MICB mAb) — discontinued May 2025 (gyn cancers) and Nov 2025 (NSCLC, MM); NCT05117476 / NCT06381141 ACTIVE_NOT_RECRUITING per ctgov but program discontinued",
+    "CLN-617 (IL-2/IL-12 fusion) — discontinued Nov 2025 (NCT06035744)",
+    "CLN-418 (B7H4x4-1BB bispecific) — license returned to Harbour Nov 2024",
+    "VK-2019 (EBV+ NPC) — Phase 1/2a NCT03682055 terminated"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "indications_total": 10,
+    "p3_indications": 1,
+    "p2_indications": 1,
+    "p1_indications": 8
+  }
+}

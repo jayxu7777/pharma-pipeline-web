@@ -1,0 +1,57 @@
+{
+  "issuer_name": "GRAIL, Inc.",
+  "ticker": "GRAL",
+  "exchange": "Nasdaq",
+  "cik": "0001699031",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-017319",
+      "filing_date": "2026-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026017319/gral-20251231.htm"
+    },
+    "website": {
+      "url": "https://grail.com/clinical-studies/",
+      "note": "Pipeline page (/pipeline) not present; clinical studies page covers diagnostic LDT clinical program only."
+    },
+    "ctgov": {
+      "sponsor_query": "GRAIL",
+      "raw_returned": 10,
+      "kept_p1_p3": 0,
+      "note": "All sponsor records on ClinicalTrials.gov are observational diagnostic-test studies for Galleri (multi-cancer early detection); none are interventional drug trials with Phase 1/2/3 designations."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Galleri",
+    "modality": "Multi-cancer early detection (MCED) blood test",
+    "technology": "Genome-wide cfDNA methylation sequencing with machine learning",
+    "regulatory_status": "US laboratory developed test (LDT); PMA submission completed January 2026 (last module). Not yet FDA approved.",
+    "commercial_status": "Commercially available in the US since mid-2021; ~475,000 commercial tests sold through Dec 31, 2025 (>185,000 in 2025).",
+    "key_studies": [
+      "PATHFINDER 2 (interventional, ~35,000 participants, results presented ESMO Oct 2025)",
+      "NHS-Galleri Trial (randomized controlled, UK; topline announced 2025)",
+      "REACH / Galleri-Medicare",
+      "REFLECTION",
+      "SUMMIT",
+      "STRIVE",
+      "CCGA",
+      "PATHFINDER"
+    ]
+  },
+  "excluded_preclinical": [
+    "Diagnostic Aid for Cancer (DAC) program - investment substantially decreased per Aug 2024 restructuring",
+    "Minimal Residual Disease (MRD) program - investment substantially decreased per Aug 2024 restructuring"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "GRAIL is a commercial-stage diagnostics company focused on a single multi-cancer early detection (MCED) blood test (Galleri). It has no proprietary therapeutic drug candidates; clinical studies (PATHFINDER 2, NHS-Galleri, etc.) evaluate the diagnostic test, not drugs/devices on a P1/P2/P3 IND/IDE pathway. Beyond-Galleri programs (DAC, MRD) were de-prioritized in the Aug 2024 restructuring."
+}

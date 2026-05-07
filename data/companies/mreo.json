@@ -1,0 +1,64 @@
+{
+  "issuer_name": "Mereo BioPharma Group plc",
+  "ticker": "MREO",
+  "exchange": "Nasdaq",
+  "cik": "0001719714",
+  "region": "UK / US-listed",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-115226", "filing_date": "2026-03-19", "path": "data/mreo_10k_pipeline_section.html"},
+    "website": {"url": "https://www.mereobiopharma.com/our-pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/mreo_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Setrusumab",
+      "aka": ["BPS-804", "UX143"],
+      "modality": "Anti-sclerostin monoclonal antibody (IV)",
+      "target": "Sclerostin",
+      "license_origin": "Licensed from Novartis to Mereo; Mereo retains commercial rights in Europe and UK; exclusive license to Ultragenyx for development and commercialization in rest of world (including US)",
+      "indications": [
+        {
+          "indication": "Osteogenesis Imperfecta (OI)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Orbit (pediatric/young adult ages 5-25) and Cosmic (ages 2-6) — pivotal Phase 3 program",
+          "trial_design": "Randomized Phase 2/3 vs placebo measuring fracture rate; Orbit pivotal Phase 3 portion ongoing",
+          "nct_ids": ["NCT05125809"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (Phase 2/3 Orbit; primary completion 2025-10-20). Cosmic pediatric Phase 3 also ongoing.",
+          "lead_sponsor": "Ultragenyx Pharmaceutical Inc (Mereo collaborator/EU rights holder)",
+          "key_milestones": ["Orbit Phase 2 portion data 2023 showed reduced fracture rate", "Phase 3 readouts expected", "Potential ex-US partnering for EU rights"]
+        }
+      ]
+    },
+    {
+      "asset": "Alvelestat",
+      "aka": ["MPH966"],
+      "modality": "Oral small molecule neutrophil elastase (NE) inhibitor",
+      "target": "Neutrophil elastase",
+      "license_origin": "Internal (Mereo holds global commercial rights)",
+      "indications": [
+        {
+          "indication": "Alpha-1 antitrypsin deficiency-associated lung disease (AATD-LD)",
+          "highest_phase": "Phase 2 (next IND for further study planned H2 2026)",
+          "trial_name": "Prior Phase 2 ASTRAEUS (NCT03636347) and ATALANTa (NCT03679598) completed; new IND planned H2 2026",
+          "trial_design": "Randomized placebo-controlled Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — new IND H2 2026 per company website",
+          "lead_sponsor": "Mereo BioPharma",
+          "key_milestones": ["IND filing planned H2 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Vantictumab (anti-Frizzled mAb)", "reason": "Currently listed as preclinical/Phase 1 stage for new indication; no active P1/P2/P3 trial registered as of this snapshot"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Acumapimod (BCT197)", "reason": "Phase 2 in COPD exacerbations — completed; not actively progressing"},
+    {"asset": "BGS649 (leflutrozole)", "reason": "Phase 2 terminated"},
+    {"asset": "Etigilimab (anti-TIGIT)", "reason": "Legacy oncology program — out-licensed/divested"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 1, "p2": 1, "p1": 0}
+}

@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Amarin Corporation plc",
+  "ticker": "AMRN",
+  "exchange": "Nasdaq",
+  "cik": "0000897448",
+  "region": "UK/IE (commercial in US, EU, Canada, etc.)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-085818", "filing_date": "2026-03-02", "path": "data/amrn_10k_pipeline_section.html"},
+    "website": {"note": "Amarin is commercial-stage; no active development pipeline page"},
+    "ctgov": {"path": "data/amrn_ctgov_compact.json", "trial_count": 8}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Amarin is a commercial-stage pharmaceutical company focused on commercializing VASCEPA / VAZKEPA (icosapent ethyl) for cardiovascular risk reduction and severe hypertriglyceridemia. No active company-sponsored Phase 1/2/3 development trials per ctgov (only completed REDUCE-IT, MARINE, ANCHOR, TREND-HD, PREPARE-IT registrational/post-marketing studies) or 10-K. The only active trial (NCT03428477 EPA for Metastasis Trial 2 / seAFOod) is investigator-led colorectal liver-metastasis study sponsored by Mark Hull (Univ of Leeds), not Amarin-developed; classified as partner/collaborator-supplied drug.",
+  "commercial_product": {
+    "name": "VASCEPA / VAZKEPA (icosapent ethyl)",
+    "indications": ["Severe hypertriglyceridemia (TG >=500 mg/dL) MARINE indication", "Cardiovascular risk reduction in high-risk statin-treated patients (REDUCE-IT indication)"],
+    "approvals": ["US FDA July 2012 (MARINE)", "US FDA Dec 2019 (REDUCE-IT label expansion)", "EU EC Mar 2021 (VAZKEPA)", "UK MHRA Apr 2021"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT01047501 MARINE-style P3 (completed)",
+    "NCT01492361 REDUCE-IT P3 (completed)",
+    "NCT01047683 ANCHOR-style P3 (completed)",
+    "NCT00146211 TREND-HD Huntington (completed; legacy Amarin Neuroscience)",
+    "NCT03885661 Penn lipoprotein P1 (completed)",
+    "NCT04460651 PREPARE-IT COVID P3 (completed)",
+    "NCT04412018 COVID inflammatory biomarkers P2 (completed)"
+  ],
+  "excluded_partner_owned": [
+    "NCT03428477 EPA for Metastasis Trial 2 (seAFOod 2) — investigator-led Phase 3 colon cancer liver metastases, sponsored by Mark Hull (University of Leeds) with Amarin drug supply only"
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "approved_products": 1,
+    "indications_active": 0
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "issuer_name": "Denali Therapeutics Inc.",
+  "ticker": "DNLI",
+  "exchange": "Nasdaq",
+  "cik": "0001714899",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001714899-26-000021", "filing_date": "2026-02-26", "doc": "dnli-20251231.htm"},
+    "website": {"note": "Pipeline confirmed via 10-K 'Product Candidate' / pipeline diagram and milestone disclosures; mirrored on denalitherapeutics.com."},
+    "ctgov": {"sponsor_query": "Denali Therapeutics", "trials_returned": 23, "active_p1_p3": 8, "completed_or_terminated_excluded": 15}
+  },
+  "pipeline": [
+    {
+      "asset": "tividenofusp alfa",
+      "aka": ["DNL310", "ETV:IDS"],
+      "modality": "Brain-penetrant enzyme transport vehicle (ETV) fused to iduronate-2-sulfatase (IDS)",
+      "target": "TfR-mediated transcytosis; replaces deficient IDS",
+      "license_origin": "Internal (TV platform)",
+      "indications": [
+        {
+          "indication": "Mucopolysaccharidosis Type II (Hunter syndrome) — neuronopathic and non-neuronopathic",
+          "highest_phase": "Registration / BLA filed (PDUFA 2026-04-05)",
+          "trial_name": "Phase 1/2 (DNLI-E-0002) + extension (DNLI-E-0007); pivotal Phase 2/3 COMPASS",
+          "trial_design": "Phase 1/2 open-label dose-escalation (n=47 primary analysis); extension study; pivotal Phase 2/3 COMPASS comparing tividenofusp alfa vs idursulfase in pediatric/young-adult MPS II",
+          "nct_ids": ["NCT04251026", "NCT06075537", "NCT05371613"],
+          "trial_status": "Phase 1/2 active not recruiting (NCT04251026); Extension enrolling-by-invitation (NCT06075537); COMPASS Phase 2/3 recruiting (NCT05371613); BLA accelerated approval pathway with PDUFA 2026-04-05",
+          "lead_sponsor": "Denali Therapeutics Inc.",
+          "key_milestones": [
+            "FDA Breakthrough Therapy Designation, January 2025",
+            "Rolling BLA submission complete, May 2025",
+            "FDA priority review acceptance, July 2025; PDUFA originally Jan 5 2026, extended to April 5 2026",
+            "NEJM publication of Phase 1/2 results, December 2025",
+            "Royalty Pharma synthetic royalty agreement up to $275M, December 2025",
+            "COMPASS Cohort A (neuronopathic) enrollment completed December 2025",
+            "Commercial launch preparation underway; FDA Late Cycle Meeting completed and labeling discussions"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "DNL126",
+      "aka": ["ETV:SGSH"],
+      "modality": "Brain-penetrant ETV fused to sulfamidase (SGSH)",
+      "target": "TfR-mediated transcytosis; replaces deficient SGSH",
+      "license_origin": "Internal (TV platform)",
+      "indications": [
+        {
+          "indication": "Sanfilippo syndrome Type A (MPS IIIA) — pediatric",
+          "highest_phase": "Phase 1/2 (with planned Phase 3 confirmatory; potential accelerated approval pathway)",
+          "trial_name": "Phase 1/2 open-label study of DNL126",
+          "trial_design": "Open-label Phase 1/2 in pediatric MPS IIIA participants; CSF heparan sulfate (CSF HS) accepted by FDA as reasonably likely surrogate endpoint",
+          "nct_ids": ["NCT06181136"],
+          "trial_status": "Active, not recruiting (enrollment completed September 2025; primary completion 2028-08; Phase 1/2 on track for completion in 2026)",
+          "lead_sponsor": "Denali Therapeutics Inc.",
+          "key_milestones": [
+            "FDA START program collaboration, April 2025",
+            "FDA alignment on CSF HS as reasonably likely surrogate endpoint, August 2025",
+            "Enrollment completed September 2025; potential commercial launch H2 2027",
+            "Phase 3 confirmatory study planning underway",
+            "WORLD Symposium 2026 update: substantial reductions in CSF and urine HS"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "TAK-594 / DNL593",
+      "aka": ["DNL593", "PTV:PGRN"],
+      "modality": "Brain-penetrant protein transport vehicle (PTV) fused to progranulin (PGRN)",
+      "target": "TfR transcytosis; supplements PGRN",
+      "license_origin": "Joint development with Takeda (ATV/PTV collaboration)",
+      "indications": [
+        {
+          "indication": "Frontotemporal dementia with GRN mutations (FTD-GRN)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Phase 1/2 study of DNL593 in healthy volunteers and FTD-GRN",
+          "trial_design": "Phase 1/2 multi-part healthy-volunteer + FTD-GRN patient study, placebo-controlled",
+          "nct_ids": ["NCT05262023"],
+          "trial_status": "Active, not recruiting (initiated 2022-02-01; primary completion 2026-12)",
+          "lead_sponsor": "Denali Therapeutics Inc. (collaborator: Takeda)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "DNL952",
+      "aka": ["ETV:GAA"],
+      "modality": "Brain-penetrant ETV fused to acid alpha-glucosidase (GAA)",
+      "target": "TfR transcytosis; replaces deficient GAA",
+      "license_origin": "Internal (TV platform)",
+      "indications": [
+        {
+          "indication": "Late-onset Pompe disease (adults)",
+          "highest_phase": "Phase 1",
+          "trial_name": "DNL952 Phase 1",
+          "trial_design": "Phase 1 in adults with late-onset Pompe disease evaluating safety, PK, PD",
+          "nct_ids": ["NCT07354724"],
+          "trial_status": "Not yet recruiting (start expected March 2026; FDA clinical hold lifted January 2026)",
+          "lead_sponsor": "Denali Therapeutics Inc.",
+          "key_milestones": [
+            "IND submitted October 2025",
+            "FDA clinical hold placed December 2025; lifted January 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "DNL628",
+      "aka": ["OTV:MAPT"],
+      "modality": "Brain-penetrant oligonucleotide transport vehicle (OTV) targeting MAPT (tau)",
+      "target": "MAPT/tau (oligonucleotide knockdown via TfR-enabled CNS delivery)",
+      "license_origin": "Internal (TV platform)",
+      "indications": [
+        {
+          "indication": "Early Alzheimer's disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "DNL628 Phase 1",
+          "trial_design": "Phase 1, randomized, placebo-controlled in early AD evaluating safety, PK, PD",
+          "nct_ids": ["NCT07328451"],
+          "trial_status": "Recruiting (initiated 2026-01-30; primary completion 2027-02)",
+          "lead_sponsor": "Denali Therapeutics Inc.",
+          "key_milestones": [
+            "CTA approved January 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "BIIB122 / DNL151",
+      "aka": ["BIIB122", "DNL151"],
+      "modality": "Oral small-molecule LRRK2 kinase inhibitor",
+      "target": "Leucine-rich repeat kinase 2 (LRRK2)",
+      "license_origin": "Internal (Denali); co-developed with Biogen since October 2020",
+      "indications": [
+        {
+          "indication": "Parkinson's disease — LRRK2-associated (Phase 2a, Denali-led)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Safety and Pharmacodynamic Effects of BIIB122 in LRRK2-PD",
+          "trial_design": "Phase 2a in LRRK2-associated Parkinson's patients",
+          "nct_ids": ["NCT06602193"],
+          "trial_status": "Recruiting (initiated 2024-10-24; primary completion 2026-04-30)",
+          "lead_sponsor": "Denali Therapeutics Inc. (collaborator: Biogen)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Early-stage Parkinson's disease (Phase 2b LUMA, Biogen-led)",
+          "highest_phase": "Phase 2",
+          "trial_name": "LUMA",
+          "trial_design": "Phase 2b randomized placebo-controlled in early-stage PD adults aged 30-80",
+          "nct_ids": ["NCT05348785"],
+          "trial_status": "Active, not recruiting (enrollment completed May 2025; readout expected 2026)",
+          "lead_sponsor": "Biogen (collaborator: Denali Therapeutics)",
+          "key_milestones": [
+            "Enrollment completed May 2025",
+            "Readout expected 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "eclitasertib (SAR443122 / DNL758)",
+      "aka": ["SAR443122", "DNL758"],
+      "modality": "Peripheral RIPK1 inhibitor (oral small molecule)",
+      "target": "RIPK1 (peripheral)",
+      "license_origin": "Out-licensed to Sanofi for peripheral indications",
+      "indications": [
+        {
+          "indication": "Ulcerative colitis (UC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Sanofi-led Phase 2 in UC",
+          "trial_design": "Phase 2 in moderate-to-severe ulcerative colitis",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing under Sanofi sponsorship",
+          "lead_sponsor": "Sanofi",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Multiple TV platform discovery and preclinical programs",
+    "OTV:MAPT, ETV:GAA, ETV:PPT1 and other TV cargoes (early/preclinical)"
+  ],
+  "excluded_legacy_terminated": [
+    "DNL343 (eIF2B activator) for ALS — HEALEY ALS Platform Trial Regimen G failed primary endpoint January 2025; active treatment extension discontinued March 2025",
+    "ATV:TREM2 (DNL919 / TAK-920) — Takeda terminated program effective April 2025; Phase 1 trial NCT05450549 completed",
+    "SAR443820 / DNL788 (CNS RIPK1) — Sanofi side letter terminated CNS RIPK1 license February 2025",
+    "BIIB122 LIGHTHOUSE Phase 3 in early-stage LRRK2-PD (NCT05418673) — terminated by Biogen",
+    "Multiple completed Phase 1 SAD/MAD healthy-volunteer studies"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 7,
+    "phase_3": 0,
+    "phase_2": 2,
+    "phase_1": 5,
+    "registration_or_marketed": 1,
+    "note": "Counts by distinct asset (highest active phase across indications). tividenofusp alfa = Registration (BLA filed, accelerated approval pathway, also has Phase 2/3 COMPASS active). DNL126 = Phase 1/2 with surrogate-endpoint accelerated approval path. DNL593 (TAK-594) = Phase 1/2. DNL952 = Phase 1 (start pending). DNL628 = Phase 1. BIIB122/DNL151 = Phase 2 (LUMA Phase 2b active not recruiting; Phase 2a LRRK2-PD recruiting). eclitasertib = Phase 2 (Sanofi-led UC)."
+  }
+}

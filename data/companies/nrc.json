@@ -1,0 +1,46 @@
+{
+  "issuer_name": "National Research Corp",
+  "ticker": "NRC",
+  "exchange": "Nasdaq",
+  "cik": "0000070487",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-26-007002",
+      "filing_date": "2026-03-05",
+      "doc": "nrc20251231_10k.htm"
+    },
+    "website": {
+      "url": "https://nrchealth.com/",
+      "note": "Healthcare intelligence / AI services provider — no drug pipeline page exists."
+    },
+    "ctgov": {
+      "sponsor_query": "National Research Corp",
+      "matches": 1,
+      "note": "Sole match (NCT02239211, BTT1023 in PSC) is led by University of Birmingham; sponsor name collision — not an NRC asset."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "description": "NRC Health provides patient and employee experience measurement, customer intelligence, and healthcare analytics SaaS to US health systems."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "asset": "BTT1023",
+      "nct_id": "NCT02239211",
+      "lead_sponsor": "University of Birmingham",
+      "reason": "Name collision — investigator-initiated trial, not sponsored by National Research Corp (NRC ticker)."
+    }
+  ],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "total": 0
+  },
+  "no_active_clinical_pipeline_reason": "Healthcare services / customer-experience analytics company (patient experience SaaS for US health systems) — no proprietary drug or device clinical pipeline."
+}

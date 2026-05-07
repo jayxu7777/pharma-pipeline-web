@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Unicycive Therapeutics, Inc.",
+  "ticker": "UNCY",
+  "exchange": "Nasdaq",
+  "cik": "0001766140",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-035903", "filing_date": "2026-03-30", "doc": "ea0281982-10k_unicycive.htm"},
+    "website": {"url": "https://www.unicycive.com/pipeline", "note": "Page rendered client-side; details extracted from 10-K"},
+    "ctgov": {"sponsor_query": "Unicycive Therapeutics", "trials_returned": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "Oxylanthanum Carbonate (OLC)",
+      "aka": ["OLC", "lanthanum dioxycarbonate"],
+      "modality": "Small molecule oral phosphate binder",
+      "target": "Dietary phosphate (gut binding)",
+      "license_origin": "Internal (505(b)(2) pathway referencing lanthanum carbonate)",
+      "indications": [
+        {
+          "indication": "Hyperphosphatemia in chronic kidney disease patients on dialysis",
+          "highest_phase": "NDA filed (post-Phase 2 / 505(b)(2))",
+          "trial_name": "OLC tolerability study in CKD dialysis patients",
+          "trial_design": "Open-label tolerability/PK Phase 2",
+          "nct_ids": ["NCT06218290"],
+          "trial_status": "Phase 2 completed (May 2024). NDA submitted Sept 2024; CRL issued; resubmission accepted as Class II by FDA January 2026 — PDUFA pending.",
+          "lead_sponsor": "Unicycive Therapeutics, Inc.",
+          "key_milestones": ["NDA accepted Nov 2024", "CRL received 2025", "Resubmission accepted as Class II Jan 2026", "PDUFA target date pending"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "UNI-494 (nicorandil prodrug) — preclinical / IND-enabling for delayed graft function (DGF) and acute kidney injury (AKI). FDA recommended additional studies before clinical program; no active P1/P2/P3 trials yet."
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "indications": 1, "P3": 0, "P2": 1, "P1": 0, "NDA_filed": 1}
+}

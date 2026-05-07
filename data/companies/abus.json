@@ -1,0 +1,74 @@
+{
+  "issuer_name": "Arbutus Biopharma Corporation",
+  "ticker": "ABUS",
+  "exchange": "Nasdaq",
+  "cik": "0001447028",
+  "region": "US-listed (Canada domiciled)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/abus_10k_pipeline_section.html", "filed": "2026-03-23", "accession": "0001447028-26-000017"},
+    "website": {"note": "Not separately fetched; 10-K disclosure of two-asset pipeline is comprehensive"},
+    "ctgov": {"path": "data/abus_ctgov_compact.json", "n_studies": 12}
+  },
+  "pipeline": [
+    {
+      "asset": "Imdusiran",
+      "aka": ["AB-729"],
+      "modality": "GalNAc-conjugated single-trigger RNAi therapeutic, subcutaneous",
+      "target": "HBV transcripts (silences all HBV mRNA)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic hepatitis B (cHBV) — combination with peg-IFNα-2a (IM-PROVE I) and with Barinthus' VTP-300 (IM-PROVE II)",
+          "highest_phase": "P2",
+          "trial_name": "IM-PROVE I (AB-729 + Peg-IFN + NA), IM-PROVE II (AB-729 + VTP-300), and investigator-initiated intrahepatic immune response study",
+          "trial_design": "Open-label, multicenter Phase 2a proof-of-concept trials",
+          "nct_ids": ["NCT04980482", "NCT06154278"],
+          "trial_status": "IM-PROVE I COMPLETED 2025-03; intrahepatic study (UMD-led) RECRUITING (primary completion 2026-12)",
+          "lead_sponsor": "Arbutus Biopharma Corporation (and University of Maryland, Baltimore for NCT06154278)",
+          "key_milestones": ["Cumulative imdusiran data presented at AASLD Nov 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "AB-101",
+      "aka": [],
+      "modality": "Small molecule, oral PD-L1 inhibitor",
+      "target": "PD-L1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic hepatitis B (immune reawakening)",
+          "highest_phase": "P1",
+          "trial_name": "AB-101-001 (Phase 1a/1b)",
+          "trial_design": "Randomized, double-blind, placebo-controlled, single + multiple ascending dose in healthy and cHBV subjects",
+          "nct_ids": ["NCT05960240"],
+          "trial_status": "COMPLETED 2025-12-04",
+          "lead_sponsor": "Arbutus Biopharma Corporation",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT04775797", "reason": "AB-836 capsid inhibitor P1 TERMINATED 2022"},
+    {"nct": "NCT06245291", "reason": "AB-729 + durvalumab P2 WITHDRAWN"},
+    {"nct": "NCT04820686", "reason": "Vebicorvir + AB-729 P2 TERMINATED (Assembly-led)"},
+    {"nct": "NCT01518881", "reason": "TKM-Ebola P1 TERMINATED legacy"},
+    {"nct": "NCT02041715", "reason": "TKM-100802 Ebola P1 TERMINATED legacy"},
+    {"nct": "NCT00927459", "reason": "PRO-040201 LDL siRNA P1 TERMINATED legacy"},
+    {"nct": "NCT01262235", "reason": "TKM-080301 NET/ACC P1/P2 COMPLETED legacy oncology"},
+    {"nct": "NCT02191878", "reason": "TKM-080301 HCC P1/P2 COMPLETED legacy oncology"},
+    {"nct": "NCT02631096", "reason": "ARB-001467 cHBV P2 COMPLETED 2018, no further development"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "total_active_indications": 2,
+    "P3": 0,
+    "P2": 1,
+    "P1": 1
+  }
+}

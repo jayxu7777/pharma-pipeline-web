@@ -1,0 +1,46 @@
+{
+  "issuer_name": "GRI Bio, Inc.",
+  "ticker": "GRI",
+  "exchange": "Nasdaq",
+  "cik": "0001824293",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001824293-26-000033", "filing_date": "2026-01-30", "path": "data/gri_10k_pipeline_section.html"},
+    "website": {"url": "https://gribio.com/", "note": "Pipeline page URL returned 404 in WebFetch; corporate news pages confirmed pipeline composition"},
+    "ctgov": {"path": "data/gri_ctgov_compact.json", "p1_p3_trials": 2, "note": "1 COMPLETED Phase 2a (NCT06331624 IPF); 1 TERMINATED Phase 2 (NCT02949375 chronic liver disease) — terminated trial excluded"}
+  },
+  "pipeline": [
+    {
+      "asset": "GRI-0621",
+      "aka": ["Tazarotene (oral reformulation as iNKT inhibitor)"],
+      "modality": "Oral small molecule (iNKT cell activity inhibitor)",
+      "target": "Invariant Natural Killer T (iNKT) cell activity",
+      "license_origin": "Internal (global rights retained)",
+      "indications": [
+        {
+          "indication": "Idiopathic Pulmonary Fibrosis (IPF)",
+          "highest_phase": "Phase 2a (completed Sept 2025; positive topline data reported, advancing toward next study)",
+          "trial_name": "Biomarker Modulation and the Inhibition of NKT1 Cells by Oral GRI-0621 in Patients With IPF",
+          "trial_design": "Phase 2a interventional study evaluating biomarker modulation and inhibition of NKT1 cells; placebo-controlled",
+          "nct_ids": ["NCT06331624"],
+          "trial_status": "COMPLETED (primary completion 2025-09-30); positive Phase 2a safety and early FVC signals reported Feb 2026",
+          "lead_sponsor": "GRI Bio Operations, Inc.",
+          "key_milestones": ["Phase 2a topline data reported", "Planning next clinical step in IPF"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    {"asset": "GRI-0803", "reason": "Novel activator of human type 2 NKT cells for SLE — IND-enabling studies; not yet in Phase 1"},
+    {"asset": "GRI-0124 (miltefosine analog) library (500+ compounds)", "reason": "Discovery / preclinical library"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "GRI-0621 in chronic liver disease (NCT02949375)", "reason": "TERMINATED Phase 2 trial (started 2015)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"p3": 0, "p2": 1, "p1": 0, "total_assets": 1},
+  "no_active_clinical_pipeline_reason": null
+}

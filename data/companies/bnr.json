@@ -1,0 +1,55 @@
+{
+  "issuer_name": "Burning Rock Biotech Ltd",
+  "ticker": "BNR",
+  "exchange": "Nasdaq",
+  "cik": "0001792267",
+  "region": "CN",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F instead of 10-K; fetch_10k.py returned no 10-K."
+    },
+    "website": {
+      "url": "https://www.brbiotech.com",
+      "note": "No /pipeline page. Corporate site describes NGS-based oncology diagnostics (OncoScreen Plus, OncoGuide OncoScreen Plus CDx) and biomarker / companion-diagnostic services for pharma partners. No proprietary therapeutic pipeline."
+    },
+    "ctgov": {
+      "path": "data/bnr_ctgov_compact.json",
+      "kept_p1_p3": 1,
+      "note": "Single PHASE1/PHASE2 record (NCT05079022) is led by Peking University People's Hospital; Burning Rock affiliate appears only as a collaborator providing ctDNA-MRD testing. Excluded as partner-owned / non-Burning-Rock-sponsored."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "OncoScreen Plus",
+        "description": "NGS-based multi-gene tumor profiling system for solid tumors.",
+        "regulatory_status": "Commercially offered diagnostic test."
+      },
+      {
+        "name": "OncoGuide OncoScreen Plus CDx",
+        "description": "Companion diagnostic for AstraZeneca capivasertib in HR+/HER2- metastatic breast cancer with PIK3CA/AKT1/PTEN alterations.",
+        "regulatory_status": "Approved in Japan (2025); breast-cancer NGS CDx kit entered CMDE priority review in China (2026)."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "nct_id": "NCT05079022",
+      "title": "ctDNA-MRD Based Adjuvant Targeted Therapy for EGFR Positive Stage I Lung Adenocarcinomas",
+      "lead_sponsor": "Peking University People's Hospital",
+      "burning_rock_role": "Collaborator (ctDNA-MRD testing service via Guangzhou Burning Rock Medical Examination Institute Co., Ltd.); investigational drugs (Furmonertinib / AST2818 / AST5902) are owned by Shanghai Allist Pharmaceutical."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Oncology diagnostics / NGS testing services and companion-diagnostic developer (services_cro_lab bucket). Burning Rock develops and commercializes diagnostic kits and provides biomarker / CDx services to pharma partners; it does not own or sponsor proprietary therapeutic drug assets. The single ctgov match is partner-/investigator-led with Burning Rock acting only as a testing-service collaborator."
+}

@@ -1,0 +1,31 @@
+{
+  "issuer_name": "ROCKWELL MEDICAL, INC.",
+  "ticker": "RMTI",
+  "exchange": "Nasdaq",
+  "cik": "0001041024",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-021186", "filing_date": "2026-03-26", "path": "data/rmti_10k_pipeline_section.html"},
+    "website": {"url": "https://www.rockwellmed.com/", "note": "No active clinical pipeline page; commercial-stage hemodialysis company"},
+    "ctgov": {"path": "data/rmti_ctgov_compact.json", "trial_count": 18}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      "Liquid and dry hemodialysis acid and bicarbonate concentrates (commercial)",
+      "Single-use bicarbonate cartridge (FDA 510(k) cleared Feb 2025)",
+      "Triferic / Triferic AVNU (ferric pyrophosphate citrate) — US NDAs voluntarily discontinued Q4 2022; still commercialized internationally via partners (e.g., Jeil Pharmaceutical in South Korea; Drogsan filed in Turkey)"
+    ],
+    "note": "Rockwell is a commercial-stage hemodialysis products supplier"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Triferic / Triferic AVNU US clinical development", "reason": "US NDAs discontinued Q4 2022; product is now commercial via international partners only"},
+    {"asset": "FPC pediatric Phase 3 (NCT04239391)", "reason": "Status UNKNOWN on ctgov; aligned with US NDA discontinuation"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Rockwell Medical is a commercial-stage hemodialysis concentrates manufacturer/distributor. Its only drug NDAs (Triferic / Triferic AVNU) were voluntarily discontinued in the US in Q4 2022; remaining clinical-trial records on ctgov are completed/legacy studies supporting prior approvals. No active P1/P2/P3 clinical-stage drug pipeline as of 2025 10-K filing."
+}

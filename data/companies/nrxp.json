@@ -1,0 +1,68 @@
+{
+  "issuer_name": "NRX Pharmaceuticals, Inc.",
+  "ticker": "NRXP",
+  "exchange": "Nasdaq",
+  "cik": "0001719406",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-009418", "filed": "2026-03-23", "doc": "nrxp20251231_10k.htm"},
+    "website": {"url": "https://www.nrxpharma.com/pipeline", "fetched": "2026-05-06", "note": "Page is heavy JS; minimal asset detail extractable"},
+    "ctgov": {"file": "data/nrxp_ctgov_compact.json", "studies_returned": 0, "note": "No active studies returned for NRx Pharmaceuticals as lead sponsor"}
+  },
+  "pipeline": [
+    {
+      "asset": "NRX-101",
+      "aka": ["D-cycloserine + lurasidone fixed-dose combination"],
+      "modality": "Oral fixed-dose combination (NMDA modulator + atypical antipsychotic)",
+      "target": "NMDA receptor (glycine site partial agonist) + 5-HT2A/D2",
+      "license_origin": "In-licensed (Sinai Health / Mount Sinai SHMH)",
+      "indications": [
+        {
+          "indication": "Bipolar depression with acute or sub-acute suicidal ideation/behavior",
+          "highest_phase": "Phase 3 (planned) / NDA submission planned (accelerated approval pathway)",
+          "trial_name": "Phase 3 (post Phase II completion)",
+          "trial_design": "Phase 3 design not disclosed in filings; FDA accelerated approval pathway",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED \u2014 Phase II completed; in process of NDA submission with FDA. No actively enrolling Phase 3 trial registered.",
+          "lead_sponsor": "NRx Pharmaceuticals",
+          "key_milestones": ["Phase II completion milestone paid", "Pursuing accelerated approval"]
+        }
+      ]
+    },
+    {
+      "asset": "NRX-100",
+      "aka": ["preservative-free IV ketamine"],
+      "modality": "IV preservative-free ketamine (505(b)(2))",
+      "target": "NMDA receptor antagonist",
+      "license_origin": "Internal reformulation",
+      "indications": [
+        {
+          "indication": "Suicidal depression / acute treatment of depressive symptoms",
+          "highest_phase": "NDA submission (505(b)(2))",
+          "trial_name": "n/a (505(b)(2) regulatory pathway, leverages prior Phase 2 data)",
+          "trial_design": "n/a",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED/SUBMISSION \u2014 In process of NDA submission to FDA; no new pivotal Phase 3 ongoing",
+          "lead_sponsor": "NRx Pharmaceuticals",
+          "key_milestones": ["NDA submission in progress"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "asset": "KETAFREE (generic preservative-free ketamine)",
+    "status": "NDA submission in process; not yet marketed"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3_or_filed": 2,
+    "phase_2": 0,
+    "phase_1": 0,
+    "note": "Both lead assets at NDA-submission/planned-Phase-3 stage; no actively enrolling P1/P2/P3 trials sponsored by NRx on ClinicalTrials.gov"
+  }
+}

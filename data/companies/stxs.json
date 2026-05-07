@@ -1,0 +1,38 @@
+{
+  "issuer_name": "Stereotaxis, Inc.",
+  "ticker": "STXS",
+  "exchange": "NYSE",
+  "cik": "0001289340",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/stxs_10k_pipeline_section.html", "filing_date": "2026-03-12", "accession": "0001493152-26-009881"},
+    "website": {"error": "Corporate site (stereotaxis.com) describes commercial robotic magnetic navigation systems and catheters; no drug/biologic pipeline page exists"},
+    "ctgov": {"file": "data/stxs_ctgov_compact.json", "unique_trials_p1_p3": 2, "note": "Both Stereotaxis-sponsored ctgov studies (NCT01131793 PowerAssert RF, NCT01656772 Vdrive) are COMPLETED (last primary completion 2013); no active P1/P2/P3 trials"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "description": "Stereotaxis is a medical device company that designs, manufactures and markets a robotic magnetic navigation (RMN) platform for minimally invasive endovascular interventions, primarily cardiac electrophysiology ablation.",
+    "marketed_products": [
+      {"name": "Genesis RMN System", "description": "Next-generation robotic magnetic navigation system for remotely steering catheter tips with externally applied magnetic fields"},
+      {"name": "Niobe ES", "description": "Prior-generation RMN system, installed base in ~100+ hospitals globally"},
+      {"name": "MAGiC catheter", "description": "Proprietary robotically navigated magnetic ablation catheter; received regulatory clearance in Europe in 2025 and U.S. approval in early 2026 as replacement for legacy Biosense Webster J&J catheters"},
+      {"name": "MAGiC Sweep", "description": "First robotically navigated high-density EP mapping catheter; received FDA 510(k) clearance"},
+      {"name": "Map-iT diagnostic catheters", "description": "Portfolio of differentiated diagnostic mapping catheters acquired via APT, cleared in U.S. and Europe"},
+      {"name": "Cardiodrive / QuikCAS", "description": "Automated catheter advancement system used with the RMN System"},
+      {"name": "Odyssey / Synchrony & SynX", "description": "Information and integration solutions for the EP lab"}
+    ],
+    "regulatory_in_progress": [
+      {"name": "EMAGIN 5F catheter guide", "status": "Seeking regulatory clearance; designed to robotically navigate tortuous venous anatomy. Regulatory submission only — not a P1/P2/P3 clinical study."}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"trial": "NCT01131793 PowerAssert RF Guidewire (Phase 2, coronary CTO)", "status": "COMPLETED 2011"},
+    {"trial": "NCT01656772 Vdrive Lasso EP (Phase 3, atrial fibrillation)", "status": "COMPLETED 2013"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_active_assets": 0},
+  "no_active_clinical_pipeline_reason": "Stereotaxis is a commercial-stage medical device company (robotic magnetic navigation systems and ablation/mapping catheters for cardiac electrophysiology). Its product portfolio is FDA-cleared/approved and marketed; there are no active company-sponsored P1/P2/P3 clinical studies. The two Stereotaxis-sponsored ctgov trials both completed over a decade ago. Ongoing regulatory work (e.g., EMAGIN 5F) is 510(k)/clearance work rather than a phased clinical trial."
+}

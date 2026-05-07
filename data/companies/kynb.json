@@ -1,0 +1,72 @@
+{
+  "issuer_name": "Kyntra Bio, Inc. (formerly FibroGen, Inc.)",
+  "ticker": "KYNB",
+  "exchange": "Nasdaq",
+  "cik": "0000921299",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-16",
+      "accession": "0001193125-26-108346",
+      "url": "https://www.sec.gov/Archives/edgar/data/921299/000119312526108346/kynb-20251231.htm"
+    },
+    "website": {
+      "error": "Corporate site (kyntra.com) returned a Bluehost suspension notice; pipeline data confirmed via 10-K and corporate press releases."
+    },
+    "ctgov": {
+      "sponsor_query": "Kyntra Bio",
+      "trials_returned": 56,
+      "compact_path": "data/kynb_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "FG-3246",
+      "aka": ["FOR46"],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "CD46",
+      "license_origin": "In-licensed from Fortis Therapeutics",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC) — monotherapy",
+          "highest_phase": "Phase 2",
+          "trial_name": "Company-sponsored Phase 2 monotherapy study",
+          "trial_design": "Phase 2 single-arm monotherapy of FG-3246 in mCRPC; interim analysis planned 2H 2026",
+          "nct_ids": ["NCT06842498"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Kyntra Bio",
+          "key_milestones": ["Interim analysis planned 2H 2026"]
+        },
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC) — combination with enzalutamide",
+          "highest_phase": "Phase 1b/Phase 2",
+          "trial_name": "Investigator-sponsored FG-3246 + enzalutamide study",
+          "trial_design": "Investigator-sponsored Phase 1b/2 of FG-3246 in combination with enzalutamide in mCRPC",
+          "nct_ids": ["NCT05011188"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Rahul Aggarwal (UCSF) — Kyntra Bio collaborator",
+          "key_milestones": ["Positive data presented at ASCO GU 2026; ~10.1 months rPFS in patients with one prior ARPI"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Roxadustat (Evrenzo)",
+    "status": "Approved and marketed outside US by partners (AstraZeneca, Astellas); not approved in US"
+  },
+  "excluded_preclinical": ["FG-3180 (CD46-directed PET imaging companion biomarker)"],
+  "excluded_legacy_terminated": [
+    "Pamrevlumab (FG-3019) — IPF (Zephyrus I NCT03955146, Zephyrus II NCT04419558), DMD (NCT04632940, NCT04371666, NCT02606136), pancreatic cancer (NCT03941093 completed but program halted), COVID-19 (NCT04432298) — all terminated or development discontinued"
+  ],
+  "excluded_partner_owned": [
+    "Roxadustat trials led by Astellas / AstraZeneca (multiple NCTs) — partner-owned/marketed; commercial only"
+  ],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "p3": 0,
+    "p2": 1,
+    "p1": 0
+  }
+}

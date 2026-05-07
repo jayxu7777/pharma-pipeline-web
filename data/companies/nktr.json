@@ -1,0 +1,124 @@
+{
+  "issuer_name": "NEKTAR THERAPEUTICS",
+  "ticker": "NKTR",
+  "exchange": "Nasdaq",
+  "cik": "0000906709",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-13",
+      "accession": "0001193125-26-104547",
+      "path": "data/nktr_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.nektar.com/our-pipeline/",
+      "note": "Page returned client-rendered shell with no extractable pipeline content; relied on 10-K + ctgov + recent press releases."
+    },
+    "ctgov": {
+      "path": "data/nktr_ctgov_compact.json",
+      "query_sponsor": "Nektar Therapeutics"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Rezpegaldesleukin",
+      "aka": ["REZPEG", "NKTR-358", "LY3471851"],
+      "modality": "PEGylated IL-2 receptor agonist (regulatory T cell agent)",
+      "target": "IL-2 receptor (CD25-biased)",
+      "license_origin": "Internal (rights returned from Eli Lilly in 2023)",
+      "indications": [
+        {
+          "indication": "Severe-to-very-severe alopecia areata",
+          "highest_phase": "Phase 2b",
+          "trial_name": "REZOLVE-AA",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2b in adults with severe-to-very-severe alopecia areata; primary endpoint SALT score change",
+          "nct_ids": ["NCT06340360"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Nektar Therapeutics",
+          "key_milestones": [
+            "FDA Fast Track designation granted July 2025",
+            "52-week topline results reported; deepening of responses observed",
+            "Phase 3 advancement planned"
+          ]
+        },
+        {
+          "indication": "Moderate-to-severe atopic dermatitis",
+          "highest_phase": "Phase 2b",
+          "trial_name": "REZOLVE-AD",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2b in adults with moderate-to-severe atopic dermatitis; primary endpoint EASI-75 / vIGA-AD",
+          "nct_ids": ["NCT06136741"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Nektar Therapeutics",
+          "key_milestones": [
+            "FDA Fast Track designation granted February 2025",
+            "Phase 2b met primary and key secondary endpoints",
+            "Phase 3 ZENITH-AD program planned to initiate Q2 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "NKTR-255",
+      "aka": ["NKTR255"],
+      "modality": "Polymer-conjugated IL-15 receptor agonist",
+      "target": "IL-15 receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory large B-cell lymphoma (post CD19 CAR-T)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Investigator-sponsored combination with lisocabtagene maraleucel",
+          "trial_design": "Phase 1 of NKTR-255 combined with CD19 CAR-T (liso-cel) in relapsed/refractory LBCL",
+          "nct_ids": ["NCT05359211"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Fred Hutchinson Cancer Center",
+          "key_milestones": []
+        },
+        {
+          "indication": "Lung cancer (post chemoradiotherapy)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RESCUE",
+          "trial_design": "Phase 2 of NKTR-255 + durvalumab in solid tumors after chemoradiotherapy",
+          "nct_ids": ["NCT05632809"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "M.D. Anderson Cancer Center",
+          "key_milestones": []
+        },
+        {
+          "indication": "Locally advanced or metastatic urothelial carcinoma (combination)",
+          "highest_phase": "Phase 2",
+          "trial_name": "JAVELIN Bladder Medley",
+          "trial_design": "Phase 2 of avelumab + various combinations including NKTR-255 in advanced urothelial carcinoma",
+          "nct_ids": ["NCT05327530"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "EMD Serono Research & Development Institute, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "NKTR-0165 (TNFR2 agonist) — preclinical per 2025 10-K"
+  ],
+  "excluded_legacy_terminated": [
+    "Bempegaldesleukin (NKTR-214) — all Phase 3 PIVOT-IO programs terminated 2022",
+    "NKTR-262 (TLR7/8 agonist) — REVEAL terminated",
+    "NKTR-181 (oxycodegol) — discontinued post FDA AdCom",
+    "NKTR-102 (etirinotecan pegol) — BEACON, ATTAIN completed; not advanced",
+    "NKTR-358 SLE Phase 2 (NCT04433585) — Lilly partnership ended; SLE arm not advanced",
+    "NKTR-358 ulcerative colitis Phase 2 (NCT04677179) — terminated",
+    "NKTR-255 in DLBCL post-CAR-T Phase 2/3 (NCT05664217) — terminated"
+  ],
+  "excluded_partner_owned": [
+    "Inhaled amikacin (BAY41-6551) — Bayer-sponsored, partner-owned"
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "indications_total": 5,
+    "p3_indications": 0,
+    "p2_indications": 4,
+    "p1_indications": 1
+  }
+}

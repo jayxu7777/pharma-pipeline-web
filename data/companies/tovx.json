@@ -1,0 +1,115 @@
+{
+  "issuer_name": "Theriva Biologics, Inc.",
+  "ticker": "TOVX",
+  "exchange": "NYSE",
+  "cik": "0000894158",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-026767",
+      "filing_date": "2026-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/894158/000110465926026767/tmb-20251231x10k.htm"
+    },
+    "website": {
+      "url": "https://www.therivabio.com",
+      "note": "Pipeline rendered dynamically; details corroborated from 10-K and ClinicalTrials.gov."
+    },
+    "ctgov": {
+      "query": "Theriva Biologics",
+      "trials_kept": 15
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "VCN-01 (zabilugene almadenorepvec)",
+      "aka": ["zabilugene almadenorepvec"],
+      "modality": "Systemically administered oncolytic human adenovirus, tumor-selective replication, expressing PH20 hyaluronidase",
+      "target": "Tumor stromal hyaluronan (PH20-mediated degradation) plus oncolysis of tumor cells",
+      "license_origin": "Internal (acquired via Theriva Biologics S.L. / VCN Biosciences 2022)",
+      "indications": [
+        {
+          "indication": "First-line metastatic pancreatic ductal adenocarcinoma (mPDAC) in combination with gemcitabine/nab-paclitaxel",
+          "highest_phase": "Phase 2",
+          "trial_name": "VIRAGE",
+          "trial_design": "Randomized, open-label, multicenter Phase 2b of intravenous VCN-01 (two doses) plus gemcitabine/nab-paclitaxel SoC vs SoC alone in newly diagnosed mPDAC; ~17 sites US/EU; 96-112 patients dosed",
+          "nct_ids": ["NCT05673811"],
+          "trial_status": "Phase 2b completed; positive topline May 2025; expanded results at ESMO Oct 2025; preparing pivotal Phase 3 (FDA End-of-Phase 2 meeting planned 1H 2026; CHMP Scientific Advice received Dec 2025)",
+          "lead_sponsor": "Theriva Biologics SL",
+          "key_milestones": [
+            "FDA Fast Track designation May 2024",
+            "Positive Phase 2b topline May 2025 (mOS 10.8 vs 8.6 mo, HR 0.57)",
+            "ESMO 2025 oral presentation Oct 2025",
+            "EMA/CHMP Additional Scientific Advice Dec 2025 supports single Phase 3",
+            "Phase 3 design finalization targeted 1H 2026"
+          ]
+        },
+        {
+          "indication": "Pediatric advanced retinoblastoma (intravitreal VCN-01)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Investigator-sponsored Phase 1 intravitreal VCN-01 in retinoblastoma (Hospital Sant Joan de Deu, Barcelona)",
+          "trial_design": "Investigator-sponsored Phase 1 of two intravitreal injections of VCN-01 (2x10^9 or 2x10^10 vp/eye) in patients with intraocular retinoblastoma refractory to standard therapy; n=9",
+          "nct_ids": ["NCT03284268"],
+          "trial_status": "Phase 1 concluded with positive outcome (Apr 2024); FDA RPDD granted Jul 2024; EU Orphan designation Oct 2024; advancing toward US IND for adjunct therapy",
+          "lead_sponsor": "Hospital Sant Joan de Deu / Theriva Biologics SL",
+          "key_milestones": [
+            "FDA Orphan Drug Designation Feb 2022",
+            "Positive Phase 1 topline Apr 2024",
+            "FDA Rare Pediatric Drug Designation Jul 2024",
+            "EU Orphan Medicinal Product Designation Oct 2024"
+          ]
+        },
+        {
+          "indication": "Pancreatic and ovarian cancer (combination with huCART-meso)",
+          "highest_phase": "Phase 1",
+          "trial_name": "huCART-meso + VCN-01 in pancreatic and ovarian cancer (UPenn-sponsored)",
+          "trial_design": "Investigator-initiated Phase 1 of intravenous VCN-01 with huCART-meso CAR-T cells in pancreatic and serous ovarian cancer",
+          "nct_ids": ["NCT05057715"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "University of Pennsylvania (Theriva collaborator; VCN-01 supplied by Theriva)",
+          "key_milestones": [
+            "Started 2022-03",
+            "Primary completion 2038-09"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "SYN-004 (ribaxamase)",
+      "aka": ["ribaxamase"],
+      "modality": "Oral beta-lactamase enzyme",
+      "target": "Degrades excreted IV beta-lactam antibiotics in the upper GI tract",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Prevention of acute graft-versus-host disease (aGVHD) and Clostridioides difficile infection in allogeneic hematopoietic cell transplant recipients receiving IV beta-lactams",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "SYN-004 Safety and Tolerability in Allo-HCT Subjects",
+          "trial_design": "Phase 1b/2a safety, tolerability and PK study of oral SYN-004 in allogeneic HCT subjects receiving IV beta-lactam antibiotics; collaboration with Washington University",
+          "nct_ids": ["NCT04692181"],
+          "trial_status": "Active, not recruiting; company exploring out-licensing/partnering for SYN-004",
+          "lead_sponsor": "Theriva Biologics, Inc.",
+          "key_milestones": [
+            "Started 2021-02",
+            "Primary completion 2029-09",
+            "Strategic review under way; non-core to oncology pivot"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Albumin Shield platform (preclinical/discovery)"
+  ],
+  "excluded_legacy_terminated": [
+    "SYN-010 IBS-C Phase 2 (Cedars-Sinai, NCT03763175) — terminated",
+    "Earlier completed SYN-004 PK and Phase 2b CDI studies (NCT02419001, NCT02473640, NCT02563106)",
+    "Completed VCN-01 Phase 1 monotherapy/HNSCC studies (NCT02045589, NCT02045602, NCT03799744)",
+    "Completed SYN-020 Phase 1 PK studies (NCT04815993, NCT05045833) — SYN-020 licensed to Rasayana Feb 2026"
+  ],
+  "excluded_partner_owned": [
+    "SYN-020 (intestinal alkaline phosphatase) — licensed to Rasayana Feb 2026; no longer Theriva-led clinical program"
+  ],
+  "summary_counts": {"P1": 2, "P2": 1, "P3": 0, "P1/P2": 1, "total_assets": 2}
+}

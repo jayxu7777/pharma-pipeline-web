@@ -1,0 +1,85 @@
+{
+  "issuer_name": "TScan Therapeutics, Inc.",
+  "ticker": "TCRX",
+  "exchange": "Nasdaq",
+  "cik": "0001783328",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-089884", "filed": "2026-03-04", "doc": "tcrx-20251231.htm"},
+    "website": {"url": "https://www.tscan.com/pipeline", "fetched": "2026-05-06", "note": "Page is JS-driven; minimal asset detail extractable from main page"},
+    "ctgov": {"file": "data/tcrx_ctgov_compact.json", "studies_returned": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "TSC-101",
+      "aka": ["ALLOHA program lead"],
+      "modality": "Autologous TCR-engineered T-cell therapy (TCR-T)",
+      "target": "HA-1 minor histocompatibility antigen (HLA-A*02:01-restricted)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Residual disease / relapse prevention in AML, ALL, MDS post allogeneic HCT",
+          "highest_phase": "Phase 1",
+          "trial_name": "ALLOHA",
+          "trial_design": "Phase 1 open-label; SOC + TSC-100 or TSC-101 vs control following allo-HCT",
+          "nct_ids": ["NCT05473910"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "TScan Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "TSC-102",
+      "aka": ["TSC-102-A01", "TSC-102-A03"],
+      "modality": "Autologous TCR-T (anti-CD45) for heme malignancies",
+      "target": "CD45 minor antigens across additional HLA types",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Heme malignancies (AML/ALL/MDS) post allo-HCT \u2014 expansion across HLA types",
+          "highest_phase": "Phase 1 (planned)",
+          "trial_name": "Heme expansion (post-ALLOHA)",
+          "trial_design": "Phase 1 (TBD)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED \u2014 next-generation TCR-T candidates expanding ALLOHA framework",
+          "lead_sponsor": "TScan Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Solid Tumor Multiplex TCR-T (TSC-200 / TSC-201 / TSC-202 / TSC-203 / TSC-204)",
+      "aka": ["TSC-200-A0201 (HPV16)", "TSC-201 (MAGE-C2)", "TSC-202 (MAGE-A4)", "TSC-203 (PRAME)", "TSC-204 (MAGE-A1)"],
+      "modality": "Customized autologous multiplex TCR-T cell therapy",
+      "target": "HPV16-E7, MAGE-C2, MAGE-A4, PRAME, MAGE-A1 (multiple HLA types)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Locally advanced / metastatic solid tumors (head and neck cancer, cervical cancer, NSCLC, others)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Solid tumor basket (customized multiplex)",
+          "trial_design": "Phase 1 basket of customized autologous TCR-T therapies",
+          "nct_ids": ["NCT05973487"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "TScan Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "In vivo TCR-T off-the-shelf platform", "stage": "Preclinical"},
+    {"asset": "Autoimmune TCR program (e.g., ankylosing spondylitis)", "stage": "Preclinical / target ID"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 3
+  }
+}

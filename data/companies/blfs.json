@@ -1,0 +1,51 @@
+{
+  "issuer_name": "BioLife Solutions, Inc.",
+  "ticker": "BLFS",
+  "exchange": "Nasdaq",
+  "cik": "0000834365",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-012294",
+      "filing_date": "2026-02-26",
+      "doc": "blfs-20251231.htm",
+      "path": "data/blfs_10k_pipeline_section.html"
+    },
+    "website": {
+      "url_tried": ["https://biolifesolutions.com/"],
+      "note": "Corporate site lists biopreservation media, cell processing tools, cryogenic storage, and thawing equipment. No drug or therapy pipeline is disclosed; BioLife is positioned as a bioproduction tools/ancillary supplier to cell-and-gene therapy developers."
+    },
+    "ctgov": {
+      "query": "spons=BioLife Solutions",
+      "raw_results": 0,
+      "kept_p1_p3": 0,
+      "path": "data/blfs_ctgov_compact.json",
+      "note": "BioLife Solutions sponsors no interventional clinical trials on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Bioproduction tools and ancillary materials for cell and gene therapy manufacturing",
+    "marketed_platforms": [
+      "Biopreservation Media: CryoStor, HypoThermosol FRS, BloodStor, Cell Thawing Media",
+      "Cell Performance Solutions: Stemulate-CP, nLiven PR, T-Liven PR human platelet lysates",
+      "Cryogenic storage vials and CellSeal Connect / CellSeal CryoCase containers",
+      "Signata CT-5 fill-and-finish fluid management",
+      "ThawSTAR vial and bag automated thawing systems",
+      "evo cold-chain shippers and CryoCase rigid CGT containers"
+    ],
+    "regulatory_status": "Manufacturing tools and ancillary biopreservation reagents sold to pharma/biotech customers (not regulated as therapeutics)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "BioLife Solutions is a bioproduction tools and ancillary materials supplier (biopreservation media, cryogenic storage, automated thawing) for cell-and-gene-therapy manufacturers. It develops no proprietary therapeutics and sponsors no P1/P2/P3 clinical trials."
+}

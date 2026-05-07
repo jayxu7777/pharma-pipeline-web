@@ -1,0 +1,34 @@
+{
+  "issuer_name": "Damora Therapeutics, Inc.",
+  "ticker": "DMRA",
+  "exchange": "Nasdaq",
+  "cik": "0001800315",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "All Damora assets (DMR-001 anti-mutCALR mAb for ET/MF; DMR-002, DMR-003) are preclinical / IND-enabling. Per FY2025 10-K filed 2026-03-19, Damora plans to file U.S. IND or ex-US CTA for DMR-001 in mid-2026 with first-in-human Phase 1 to follow. DMR-002 IND planned 2H 2026; DMR-003 in 2027. No active P1/P2/P3 trials at snapshot date 2026-05-06. (Damora is the rebranded entity formed from Galecto's November 2025 acquisition of private Damora; legacy Galecto galectin programs were discontinued.)",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-19",
+      "accession": "0001193125-26-115922",
+      "path": "data/dmra_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://damoratx.com/",
+      "note": "Pipeline page confirms DMR-001 is preclinical/IND-enabling; no NCT IDs disclosed."
+    },
+    "ctgov": {
+      "path": "data/dmra_ctgov_compact.json",
+      "note": "0 trials returned for sponsor 'Damora Therapeutics'."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "DMR-001", "modality": "Anti-mutCALR monoclonal antibody (subcutaneous)", "indications": ["Essential thrombocythemia (ET)", "Myelofibrosis (MF)"], "status": "Preclinical; IND/CTA filing planned mid-2026; Phase 1 to follow"},
+    {"asset": "DMR-002", "modality": "Anti-mutCALR (next-generation)", "indications": ["mutCALR-driven MPNs"], "status": "Preclinical; IND/CTA planned 2H 2026"},
+    {"asset": "DMR-003", "modality": "Anti-mutCALR (next-generation)", "indications": ["mutCALR-driven MPNs"], "status": "Preclinical; IND/CTA planned 2027"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0}
+}

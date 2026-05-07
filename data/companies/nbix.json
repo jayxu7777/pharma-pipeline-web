@@ -1,0 +1,320 @@
+{
+  "issuer_name": "Neurocrine Biosciences, Inc.",
+  "ticker": "NBIX",
+  "exchange": "Nasdaq",
+  "cik": "0000914475",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-11",
+      "accession": "0000914475-26-000007",
+      "slice_html": "data/nbix_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "https://www.neurocrine.com/pipeline returned 403 (bot protection); 10-K + ctgov used."
+    },
+    "ctgov": {
+      "compact": "data/nbix_ctgov_compact.json",
+      "lead_sponsor_query": "Neurocrine Biosciences"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Osavampator",
+      "aka": ["NBI-1065845", "TAK-653"],
+      "modality": "Small molecule (AMPA receptor potentiator)",
+      "target": "AMPA receptor",
+      "license_origin": "In-licensed from Takeda (2020); ex-Japan rights",
+      "indications": [
+        {
+          "indication": "Major Depressive Disorder (adjunctive, inadequate responders)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Osavampator MDD Phase 3 program (acute MDD3025 / MDD3026, maintenance, long-term safety)",
+          "trial_design": "Randomized, double-blind, placebo-controlled acute studies + randomized-withdrawal maintenance + open-label long-term safety",
+          "nct_ids": ["NCT06911112", "NCT06963021", "NCT06786624", "NCT07196501", "NCT06966401"],
+          "trial_status": "RECRUITING (initial topline expected 2027)",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": ["Initial Phase 3 topline data expected 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "Direclidine",
+      "aka": ["NBI-1117568"],
+      "modality": "Small molecule (selective M4 muscarinic agonist)",
+      "target": "Muscarinic M4 receptor",
+      "license_origin": "In-licensed from Nxera Pharma UK (2021); global rights",
+      "indications": [
+        {
+          "indication": "Schizophrenia (acute relapse and long-term)",
+          "highest_phase": "Phase 3",
+          "trial_name": "NBI-1117568 schizophrenia Phase 3 program (SCZ3029 / SCZ3030 / SCZ3032 relapse prevention)",
+          "trial_design": "Randomized placebo-controlled inpatient acute studies + long-term open-label safety/relapse prevention",
+          "nct_ids": ["NCT06963034", "NCT07105098", "NCT07227818", "NCT07114874"],
+          "trial_status": "RECRUITING (initial topline expected 2027)",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": ["Initial Phase 3 topline data expected 2027"]
+        },
+        {
+          "indication": "Bipolar I Disorder with mania",
+          "highest_phase": "Phase 2",
+          "trial_name": "NBI-1117568 bipolar mania Phase 2",
+          "trial_design": "Randomized, placebo-controlled efficacy/safety/PK study in adults with bipolar I with current mania",
+          "nct_ids": ["NCT07288320"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": ["Initiated Q4 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "Crinecerfont",
+      "aka": ["NBI-74788", "CRENESSITY"],
+      "modality": "Small molecule (CRF-1 receptor antagonist)",
+      "target": "Corticotropin-releasing factor type 1 (CRF-1) receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Congenital Adrenal Hyperplasia in pediatric patients <2 years and <4 years (life-cycle expansion of approved drug)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Crinecerfont pediatric CAH PK/safety studies",
+          "trial_design": "Open-label and PK/PD studies in young pediatric CAH patients",
+          "nct_ids": ["NCT07187375", "NCT07536269"],
+          "trial_status": "RECRUITING / NOT_YET_RECRUITING",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NBI-1117570",
+      "aka": [],
+      "modality": "Small molecule (dual M1/M4 muscarinic agonist)",
+      "target": "Muscarinic M1/M4 receptors",
+      "license_origin": "Internal / collaboration with Nxera",
+      "indications": [
+        {
+          "indication": "Schizophrenia",
+          "highest_phase": "Phase 2",
+          "trial_name": "NBI-1117570 inpatient schizophrenia Phase 2",
+          "trial_design": "Randomized placebo-controlled efficacy/safety study in inpatient adults with schizophrenia",
+          "nct_ids": ["NCT07288333"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": ["LAI formulation under evaluation"]
+        }
+      ]
+    },
+    {
+      "asset": "NBI-1065890",
+      "aka": [],
+      "modality": "Small molecule (next-generation VMAT2 inhibitor)",
+      "target": "Vesicular monoamine transporter 2 (VMAT2)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Tardive Dyskinesia",
+          "highest_phase": "Phase 2",
+          "trial_name": "NBI-1065890 tardive dyskinesia Phase 2",
+          "trial_design": "Randomized placebo-controlled efficacy, safety, tolerability study in adults with TD",
+          "nct_ids": ["NCT07365462"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Valbenazine (life-cycle expansion)",
+      "aka": ["NBI-98854", "INGREZZA", "DYSVAL", "REMLEAS"],
+      "modality": "Small molecule (selective VMAT2 inhibitor)",
+      "target": "Vesicular monoamine transporter 2 (VMAT2)",
+      "license_origin": "Internal (approved as INGREZZA; ex-US Asia rights with Tanabe Pharma)",
+      "indications": [
+        {
+          "indication": "Dyskinesia due to Cerebral Palsy",
+          "highest_phase": "Phase 3",
+          "trial_name": "Valbenazine dyskinesia in cerebral palsy Phase 3",
+          "trial_design": "Randomized placebo-controlled efficacy, safety, tolerability study",
+          "nct_ids": ["NCT05206513"],
+          "trial_status": "COMPLETED (primary completion 2025-10-16)",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chorea associated with Huntington's disease (long-term safety, Canada)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Valbenazine HD chorea long-term safety (Canada)",
+          "trial_design": "Open-label rollover / long-term safety extension",
+          "nct_ids": ["NCT06312189", "NCT04400331"],
+          "trial_status": "ENROLLING_BY_INVITATION / ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NBI-921352",
+      "aka": [],
+      "modality": "Small molecule (selective Nav1.6 sodium channel inhibitor)",
+      "target": "Voltage-gated sodium channel Nav1.6",
+      "license_origin": "In-licensed from Xenon Pharmaceuticals (2019)",
+      "indications": [
+        {
+          "indication": "SCN8A Developmental and Epileptic Encephalopathy (extension)",
+          "highest_phase": "Phase 2",
+          "trial_name": "NBI-921352 SCN8A-DEE extension",
+          "trial_design": "Open-label long-term safety/tolerability extension in pediatric SCN8A-DEE",
+          "nct_ids": ["NCT05226780"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NBI-1117569",
+      "aka": [],
+      "modality": "Small molecule (M1/M4 muscarinic agonist)",
+      "target": "Muscarinic M1/M4 receptors",
+      "license_origin": "Internal / collaboration with Nxera",
+      "indications": [
+        {
+          "indication": "Alzheimer's disease-related psychosis",
+          "highest_phase": "Phase 1",
+          "trial_name": "NBI-1117569 Phase 1",
+          "trial_design": "First-in-human Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE - in Phase 1 development per 10-K",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NBI-1140675",
+      "aka": [],
+      "modality": "Small molecule (next-generation VMAT2 inhibitor)",
+      "target": "Vesicular monoamine transporter 2 (VMAT2)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Movement disorders / hyperkinetic disorders (LAI candidate)",
+          "highest_phase": "Phase 1",
+          "trial_name": "NBI-1140675 Phase 1",
+          "trial_design": "First-in-human Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE - in Phase 1 development per 10-K",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NBI-1076986",
+      "aka": [],
+      "modality": "Small molecule (selective M4 muscarinic antagonist)",
+      "target": "Muscarinic M4 receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Movement disorders (e.g. dystonia)",
+          "highest_phase": "Phase 1",
+          "trial_name": "NBI-1076986 Phase 1",
+          "trial_design": "First-in-human Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE - in Phase 1 development per 10-K",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NBI-1117567",
+      "aka": [],
+      "modality": "Small molecule (M1-preferring muscarinic agonist)",
+      "target": "Muscarinic M1 receptor",
+      "license_origin": "Internal / collaboration with Nxera",
+      "indications": [
+        {
+          "indication": "Alzheimer's disease (cognition)",
+          "highest_phase": "Phase 1",
+          "trial_name": "NBI-1117567 Phase 1",
+          "trial_design": "First-in-human Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE - in Phase 1 development per 10-K",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NBI-921355",
+      "aka": [],
+      "modality": "Small molecule (selective Nav1.2/Nav1.6 inhibitor)",
+      "target": "Voltage-gated sodium channels Nav1.2 and Nav1.6",
+      "license_origin": "In-licensed from Xenon Pharmaceuticals (2019)",
+      "indications": [
+        {
+          "indication": "Epilepsy (selected syndromes)",
+          "highest_phase": "Phase 1",
+          "trial_name": "NBI-921355 Phase 1",
+          "trial_design": "First-in-human Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE - in Phase 1 development per 10-K",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NBIP-01435",
+      "aka": [],
+      "modality": "Peptide (long-acting CRF-1 antagonist, subcutaneous)",
+      "target": "Corticotropin-releasing factor type 1 (CRF-1) receptor",
+      "license_origin": "Internal discovery collaboration with Sentia Medical Sciences",
+      "indications": [
+        {
+          "indication": "Congenital Adrenal Hyperplasia",
+          "highest_phase": "Phase 1",
+          "trial_name": "NBIP-01435 Phase 1",
+          "trial_design": "First-in-human Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE - in Phase 1 development per 10-K",
+          "lead_sponsor": "Neurocrine Biosciences",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "INGREZZA (valbenazine)": "Approved US for tardive dyskinesia (2017) and chorea associated with Huntington's disease (2023); 2025 net sales $2.51B",
+    "CRENESSITY (crinecerfont)": "Approved US Dec 2024 for classic CAH; first-in-class; 2025 net sales $301.2M",
+    "ORILISSA / ORIAHNN (elagolix)": "Partnered with AbbVie for endometriosis and uterine fibroids (AbbVie holds global commercial rights)"
+  },
+  "excluded_preclinical": [
+    {"asset": "NBIP-2118", "reason": "CRF-2 agonist for obesity; IND/Phase 1 planned 1H 2026 (preclinical/IND-pending at snapshot date)"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "NBI-827104", "reason": "Programs in epileptic encephalopathy (NCT04625101 ext NCT05301894) and essential tremor (NCT04880616) appear inactive; extension terminated"},
+    {"asset": "Luvadaxistat (NBI-1065844 / TAK-831)", "reason": "Phase 2 schizophrenia studies completed/terminated; not advanced to Phase 3 per 10-K"},
+    {"asset": "NBI-1065846", "reason": "Phase 2 anhedonia/MDD completed; not advanced per 10-K"},
+    {"asset": "NBI-1070770", "reason": "Phase 2 MDD completed 2025; not advanced per 10-K"},
+    {"asset": "TAK-041", "reason": "GPR139 schizophrenia program; Phase 2 completed; not advanced"},
+    {"asset": "VY-AADC01/02", "reason": "Voyager-partnered Parkinson's gene therapy; collaboration ended"},
+    {"asset": "Indiplon (NBI-34060)", "reason": "Insomnia program terminated"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Elagolix", "reason": "AbbVie owns global commercialization rights"},
+    {"asset": "Valbenazine in Japan / Asia", "reason": "Tanabe Pharma holds commercialization rights in those markets (DYSVAL, REMLEAS)"}
+  ],
+  "summary_counts": {
+    "total_assets": 13,
+    "phase_3": 3,
+    "phase_2": 5,
+    "phase_1": 6,
+    "note": "Some assets have indications spanning multiple phases; counts are by highest phase per asset."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "issuer_name": "Healthy Extracts Inc.",
+  "ticker": "HYEX",
+  "exchange": "OTC",
+  "cik": "0001630176",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001096906-26-000515",
+      "filing_date": "2026-04-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1630176/000109690626000515/hyex-20251231_10k.htm"
+    },
+    "website": {
+      "url": "https://healthyextractsinc.com",
+      "note": "Consumer/nutraceutical brand pages, no drug pipeline."
+    },
+    "ctgov": {
+      "query": "Healthy Extracts",
+      "trials_kept": 0,
+      "note": "No clinical trials registered."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Plant-based nutraceuticals / contract manufacturer (Gummy USA acquisition). Products marketed as dietary supplements; per their own 10-K disclosure, products have not been evaluated by FDA for safety or efficacy. No drug development programs or IND-stage assets.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_assets": 0}
+}

@@ -1,0 +1,48 @@
+{
+  "issuer_name": "Bluejay Diagnostics, Inc.",
+  "ticker": "BJDX",
+  "exchange": "Nasdaq",
+  "cik": "0001704287",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-024616",
+      "filing_date": "2026-03-06",
+      "doc": "ea0279152-10k_bluejay.htm"
+    },
+    "website": {
+      "url": "https://bluejaydx.com",
+      "note": "Dedicated /pipeline page returns 404; product/Symphony technology described on main site."
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 0,
+      "note": "No P1/P2/P3 sponsored trials returned for sponsor 'Bluejay Diagnostics' (in vitro diagnostic device — typically not registered as drug-style P1/P2/P3 trials)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": null,
+  "investigational_device_programs": [
+    {
+      "asset": "Symphony IL-6 Test",
+      "modality": "In vitro diagnostic (fluorescence immunoassay analyzer + single-use cartridge for whole-blood IL-6 measurement)",
+      "lead_indication": "Monitoring disease progression in critical care, focus on sepsis triage",
+      "current_stage": "Pre-clearance; analytical validation and manufacturing transfer ongoing",
+      "regulatory_pathway": "FDA clearance/authorization required before US marketing; not yet cleared",
+      "nct_ids": "Not on public registry",
+      "trial_status": "PLANNED — clinical/validation studies completed per company website; FDA submission not yet filed at last 10-K"
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "investigational_device_programs": 1
+  },
+  "no_active_clinical_pipeline_reason": "In vitro diagnostics (IVD) company. Lead product Symphony IL-6 Test is a near-patient diagnostic device pursuing FDA clearance, not a therapeutic with P1/P2/P3 drug trials. No NCT-registered company-sponsored interventional P1/P2/P3 studies."
+}

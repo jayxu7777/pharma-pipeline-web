@@ -1,0 +1,53 @@
+{
+  "issuer_name": "Butterfly Network, Inc.",
+  "ticker": "BFLY",
+  "exchange": "NYSE",
+  "cik": "0001804176",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001804176-26-000009",
+      "filing_date": "2026-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1804176/000180417626000009/bfly-20251231.htm"
+    },
+    "website": {
+      "error": "Pipeline page not applicable - device-only commercial company"
+    },
+    "ctgov": {
+      "sponsor_query": "Butterfly Network",
+      "raw_returned": 4,
+      "kept_p1_p3": 0,
+      "note": "ClinicalTrials.gov returned 4 sponsor records, none of which are interventional drug Phase 1/2/3 trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Butterfly Ultrasound-on-Chip platform",
+    "modality": "Handheld point-of-care ultrasound (POCUS) device with semiconductor (CMUT) transducer + cloud/mobile software",
+    "marketed_devices": [
+      "Butterfly iQ+ (2nd gen, ~$2,700)",
+      "Butterfly iQ3 (3rd gen, P4.3 chip, ~$3,900) - FDA-cleared and CE-marked",
+      "Butterfly iQ+ Bladder",
+      "Butterfly Move",
+      "Butterfly iQ+/iQ3 Vet (veterinary)",
+      "Compass AI enterprise software",
+      "Butterfly HomeCare Services"
+    ],
+    "regulatory_status": "Multiple FDA 510(k) clearances; CE mark in EU; sold in 30+ countries.",
+    "commercial_status": "Revenue $97.6M (2025) vs $82.1M (2024); ~145,000+ unique users; ~220 employees."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Butterfly Embedded co-development engagements (BCI, surgical robotics, liver assessment) - third-party owned, not Butterfly clinical assets."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Butterfly Network is a commercial-stage medical device (handheld ultrasound) company with FDA-cleared and CE-marked products. It has no proprietary therapeutic drug candidates and no active interventional pivotal/IDE device clinical trials of its own - new clinical validation work for HomeCare extensions is described as a future need, not currently active per the FY2025 10-K."
+}

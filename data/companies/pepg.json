@@ -1,0 +1,56 @@
+{
+  "issuer_name": "PepGen Inc.",
+  "ticker": "PEPG",
+  "exchange": "Nasdaq",
+  "cik": "0001835597",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-04",
+      "accession": "0001193125-26-091536",
+      "path": "data/pepg_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.pepgen.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "path": "data/pepg_ctgov_compact.json",
+      "trial_count": 5
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "PGN-EDODM1",
+      "aka": [],
+      "modality": "EDO peptide-conjugated phosphorodiamidate morpholino oligomer (PPMO); splice modulator",
+      "target": "DMPK CUG-repeat expansion (DM1 splicing defect)",
+      "license_origin": "Internally developed (EDO platform from MRC Cambridge / University of Oxford founders).",
+      "indications": [
+        {
+          "indication": "Myotonic Dystrophy Type 1 (DM1)",
+          "highest_phase": "Phase 2",
+          "trial_name": "FREEDOM2-DM1 (Phase 2) and FREEDOM-OLE (open-label extension)",
+          "trial_design": "Phase 2 randomized, double-blind, placebo-controlled multiple-ascending dose; open-label extension follow-on",
+          "nct_ids": ["NCT06667453", "NCT07220603"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "PepGen Inc",
+          "key_milestones": ["FREEDOM Phase 1 (NCT06204809) completed Oct 2025 with robust splicing correction at 5/10/15 mg/kg", "FREEDOM2 readouts from 5 and 10 mg/kg cohorts expected in 2026", "FREEDOM-OLE start Dec 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "PGN-EDO51", "indication": "Duchenne Muscular Dystrophy (exon 51 skipping)", "ncts": ["NCT06079736", "NCT06833931"], "reason": "CONNECT1-EDO51 Phase 2 terminated; CONNECT2 placebo-controlled study withdrawn. Program de-prioritized; company devoting majority of resources to PGN-EDODM1 per 2025 10-K"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 1,
+    "P3_indications": 0,
+    "P2_indications": 1,
+    "P1_indications": 0
+  }
+}

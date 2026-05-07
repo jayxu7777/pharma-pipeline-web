@@ -1,0 +1,86 @@
+{
+  "issuer_name": "Vor Biopharma Inc.",
+  "ticker": "VOR",
+  "exchange": "Nasdaq",
+  "cik": "0001817229",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-130451", "filing_date": "2026-03-30", "doc": "vor-20251231.htm"},
+    "website": {"url": "https://www.vorbio.com/", "extracted": true},
+    "ctgov": {"sponsor_query": "Vor Biopharma", "trial_count": 6, "active_count": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "Telitacicept",
+      "aka": ["RC18", "RC18-L", "Telitacicept"],
+      "modality": "Recombinant TACI-Fc fusion protein (dual BAFF/APRIL inhibitor)",
+      "target": "BAFF (BLyS) and APRIL",
+      "license_origin": "In-licensed from RemeGen for ex-Greater China territories (2025 corporate strategy pivot)",
+      "indications": [
+        {
+          "indication": "Generalized Myasthenia Gravis (gMG)",
+          "highest_phase": "Phase 3",
+          "trial_name": "UPSTREAM MG",
+          "trial_design": "Global Phase 3 randomized trial",
+          "nct_ids": ["NCT06456580"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vor Biopharma",
+          "key_milestones": ["Approved in China for MG (2025); global pivotal recruiting"]
+        },
+        {
+          "indication": "Active primary Sjögren's Disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "Telitacicept Phase 3 in pSjD",
+          "trial_design": "Global Phase 3",
+          "nct_ids": ["NCT07404865"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vor Biopharma",
+          "key_milestones": ["BLA filed in China (2025)"]
+        },
+        {
+          "indication": "Systemic Lupus Erythematosus (SLE) — global development planned",
+          "highest_phase": "Phase 3",
+          "trial_name": "Telitacicept SLE program (global)",
+          "trial_design": "Global Phase 3 (one trial withdrawn NCT06456567 / one terminated NCT05306574 — re-strategized under Vor)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Global pivotal restart under Vor; approved in China for SLE 2023",
+          "lead_sponsor": "Vor Biopharma",
+          "key_milestones": []
+        },
+        {
+          "indication": "IgA Nephropathy",
+          "highest_phase": "Phase 3",
+          "trial_name": "Telitacicept IgAN program",
+          "trial_design": "Phase 3 (China BLA filed; global development planned)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — global pivotal under Vor; China BLA filed 2025",
+          "lead_sponsor": "Vor Biopharma / RemeGen (China)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_products_partner_china": [
+      "Telitacicept (TAI'AI) — approved in China by RemeGen for SLE (2023), RA (2024), MG (2025)"
+    ],
+    "note": "Vor holds ex-Greater China rights via 2025 license deal; commercial sales currently exclusively through partner RemeGen in China."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT05984199", "asset": "VCAR33 (donor-derived anti-CD33 CAR-T)", "reason": "Terminated; Vor discontinued CAR-T programs in 2025 strategic pivot"},
+    {"nct": "NCT04849910", "asset": "trem-cel (CD33-deleted allogeneic HSCT)", "reason": "Terminated; legacy 'tremtelectogene empogeditemcel' program discontinued"},
+    {"nct": "NCT05306574", "asset": "Telitacicept SLE (RemeGen-sponsored)", "reason": "Terminated under prior sponsor"},
+    {"nct": "NCT06456567", "asset": "Telitacicept SLE", "reason": "Withdrawn"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 4,
+    "phase_2": 0,
+    "phase_1": 0,
+    "note": "Single in-licensed asset (telitacicept) being developed across multiple indications globally."
+  }
+}

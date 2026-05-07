@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Organigram Global Inc.",
+  "ticker": "OGI",
+  "exchange": "Nasdaq",
+  "cik": "0001620737",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — Canadian filer; SEC submissions list contains no 10-K. Files 40-F or 20-F via EDGAR; primary disclosure on SEDAR+ (Canada)."
+    },
+    "website": {
+      "url": "https://www.organigram.ca/",
+      "note": "Cannabis cultivator/producer (Canadian LP). No drug-development pipeline page; products are recreational and medical cannabis SKUs."
+    },
+    "ctgov": {
+      "path": "data/ogi_ctgov_compact.json",
+      "trial_count": 0,
+      "note": "Sponsor query returned zero P1/P2/P3 interventional trials"
+    }
+  },
+  "no_active_clinical_pipeline_reason": "Organigram Global is a Canadian-licensed cannabis producer (recreational and medical cannabis grower/processor). It is not a drug-development biotech and does not run sponsor-led FDA/EMA-style clinical trials (no IND, no NCT-registered Phase 1/2/3 studies). Out of scope for active clinical pipeline tracking.",
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0,
+    "indications_total": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "issuer_name": "CATALYST PHARMACEUTICALS, INC.",
+  "ticker": "CPRX",
+  "exchange": "Nasdaq",
+  "cik": "0001369568",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-071525", "filing_date": "2026-02-25", "doc": "cprx-20251231.htm"},
+    "website": {"url": "https://www.catalystpharma.com/pipeline/", "note": "Page is JS-rendered; HTML extraction returned no asset rows."},
+    "ctgov": {"sponsor_query": "Catalyst Pharmaceuticals", "studies_total": 12, "active_p1_p3": 0, "note": "All Catalyst-sponsored ctgov entries are completed or terminated."}
+  },
+  "no_active_clinical_pipeline_reason": "Catalyst Pharmaceuticals is a commercial-stage rare-neurology specialty pharma. Its three marketed brands (FIRDAPSE, AGAMREE, FYCOMPA) are all FDA-approved; per FY2025 10-K, no company-sponsored Phase 1/2/3 clinical trials are active. The 10-K describes only commercial operations and an active business-development / acquisition strategy, with no internal investigational pipeline. Investigator-sponsored studies of FIRDAPSE in additional indications previously listed on ctgov (SMA Type 3, MuSK-MG) were terminated.",
+  "pipeline": [],
+  "commercial_product": {
+    "marketed": [
+      "FIRDAPSE (amifampridine) — Lambert-Eaton myasthenic syndrome (LEMS)",
+      "AGAMREE (vamorolone) — Duchenne muscular dystrophy (US license from Santhera)",
+      "FYCOMPA (perampanel) — partial-onset and primary generalized tonic-clonic seizures (Schedule III; LOE following May 2025 patent expiry)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Amifampridine in MuSK-MG (Phase 3, NCT03579966) — terminated",
+    "Amifampridine in SMA Type 3 (Phase 2, NCT03819660) — terminated",
+    "CPP-115 (vigabatrin analog) cocaine dependency — Phase 1 completed, no advancement",
+    "CPP-109 (vigabatrin) addiction programs — terminated/completed without advancement"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0}
+}

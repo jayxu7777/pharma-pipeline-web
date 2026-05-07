@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Satellos Bioscience Inc.",
+  "ticker": "MSLE",
+  "exchange": "Nasdaq",
+  "cik": "0001421642",
+  "region": "Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Canada) — files 20-F or local equivalent; no 10-K available on EDGAR"},
+    "website": {"url": "https://www.satellos.com/", "note": "No dedicated /pipeline page found; SAT-3247 details extracted from homepage and Science section"},
+    "ctgov": {"path": "data/msle_ctgov_compact.json", "trial_count": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "SAT-3247",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "AAK1 (AP2-associated protein kinase 1)",
+      "license_origin": "Internal discovery (MyoReGenerator platform)",
+      "indications": [
+        {
+          "indication": "Duchenne Muscular Dystrophy (DMD), pediatric ambulatory",
+          "highest_phase": "Phase 2",
+          "trial_name": "SAT-3247-CL-201",
+          "trial_design": "Randomized placebo-controlled Phase 2 in pediatric ambulatory DMD patients",
+          "nct_ids": ["NCT07287189"],
+          "trial_status": "Recruiting (started 2025-12-08; primary completion 2027-03-31)",
+          "lead_sponsor": "Satellos Bioscience, Inc.",
+          "key_milestones": ["Interim Phase 1 data presented at MDA Clinical & Scientific Conference, March 2026"]
+        },
+        {
+          "indication": "Duchenne Muscular Dystrophy (DMD), open-label long-term follow-up",
+          "highest_phase": "Phase 2",
+          "trial_name": "SAT-3247 OLE",
+          "trial_design": "Open-label long-term follow-up for participants from SAT-3247-CL-101",
+          "nct_ids": ["NCT06867107"],
+          "trial_status": "Enrolling by invitation (started 2025-08-20; primary completion 2026-08-30)",
+          "lead_sponsor": "Satellos Bioscience, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Other AAK1-platform discovery programs"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

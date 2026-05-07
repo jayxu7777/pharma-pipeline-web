@@ -1,0 +1,38 @@
+{
+  "issuer_name": "GridAI Technologies Corp.",
+  "ticker": "GRDX",
+  "exchange": "Nasdaq",
+  "cik": "0001604191",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-05-01",
+      "accession": "0001104659-26-054106",
+      "path": "data/grdx_10k_pipeline_section.html",
+      "note": "Formerly Entero Therapeutics (ENTO); rebranded to GridAI Technologies Corp. on 2025-12-01 after acquiring Grid AI Corp. (energy orchestration software). Now primarily an AI/energy company with one retained legacy biotech asset (Adrulipase)."
+    },
+    "website": {
+      "url": "https://grid-ai.com",
+      "note": "Corporate site is now an energy AI platform site; biotech program is dormant."
+    },
+    "ctgov": {
+      "path": "data/grdx_ctgov_compact.json",
+      "unique_trials_p1_p3": 0,
+      "note": "Per 10-K (filed 2026-05-01): 'As of December 31, 2025, no active clinical trials of Adrulipase were being conducted.'"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Company has rebranded to AI/energy orchestration (GridAI / AMPX platform) following the September 2025 acquisition of Grid AI Corp. The only retained legacy biopharmaceutical asset is Adrulipase (recombinant non-animal lipase for cystic fibrosis EPI and chronic pancreatitis); per the FY2025 10-K, no clinical trials of Adrulipase were conducted during 2025 and any future advancement is contingent on capital and strategic priorities. Discontinued/divested legacy programs include Latiglutenase, CypCel (rescinded with ImmunogenX 2025-12-31), Capeserod (Sanofi license terminated 2025), and Niclosamide.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Adrulipase", "indication": "EPI in cystic fibrosis (monotherapy + combo with PERT)", "reason": "All Phase 2 trials concluded by 2023; OPTION 2 missed primary endpoint; no active trials in 2025; future development contingent on funding"},
+    {"asset": "Adrulipase", "indication": "Chronic pancreatitis EPI", "reason": "Phase 2 met endpoint 2018; no further development active"},
+    {"asset": "Latiglutenase / CypCel", "indication": "Celiac disease / GI", "reason": "Rescinded back to former ImmunogenX shareholders 2025-12-31"},
+    {"asset": "Capeserod (5-HT4 agonist)", "indication": "Gastroparesis", "reason": "Sanofi license terminated 2025"},
+    {"asset": "Niclosamide", "indication": "GI/oncology", "reason": "No longer actively pursued"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

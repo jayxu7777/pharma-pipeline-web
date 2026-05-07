@@ -1,0 +1,157 @@
+{
+  "issuer_name": "SOLIGENIX, INC.",
+  "ticker": "SNGX",
+  "exchange": "Nasdaq",
+  "cik": "0000812796",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession_note": "10-K downloaded but pipeline-section heading auto-detection failed; canonical asset detail confirmed via corporate website which mirrors 10-K disclosure.",
+      "error_when_slicing": "Could not find pipeline section heading"
+    },
+    "website": {
+      "url": "https://www.soligenix.com/pipeline/",
+      "note": "Full pipeline matrix extracted: HyBryte P3 CTCL confirmatory; SGX302 P2 psoriasis; SGX942 P2 oral mucositis; SGX945 P2 Behcet; RiVax P2 planned (biodefense)."
+    },
+    "ctgov": {
+      "lead_sponsor_searched": "Soligenix",
+      "trials_returned": 12,
+      "note": "Confirms HyBryte CTCL Phase 3 confirmatory recruiting; SGX302 P2 psoriasis completed; SGX945 dusquetide P2 Behcet completed."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "HyBryte (synthetic hypericin)",
+      "aka": ["SGX301", "Synthetic hypericin"],
+      "modality": "Topical photodynamic therapy (small molecule + visible light activation)",
+      "target": "Photodynamic mechanism on malignant T-cells",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Cutaneous T-Cell Lymphoma (CTCL) / Mycosis Fungoides",
+          "highest_phase": "Phase 3 (confirmatory)",
+          "trial_name": "FLASH2 / Confirmatory HyBryte vs Placebo in CTCL",
+          "trial_design": "Confirmatory Phase 3 placebo-controlled study; follows positive prior FLASH Phase 3 (NCT02448381)",
+          "nct_ids": ["NCT06470451"],
+          "trial_status": "RECRUITING; primary completion July 2026; topline expected end of 2026",
+          "lead_sponsor": "Soligenix",
+          "key_milestones": ["Prior FLASH Phase 3 met primary endpoint", "Confirmatory readout end-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "SGX302 (synthetic hypericin)",
+      "aka": ["Topical hypericin (psoriasis)"],
+      "modality": "Topical photodynamic therapy",
+      "target": "Photodynamic mechanism in plaque psoriasis",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Mild-to-Moderate Plaque Psoriasis",
+          "highest_phase": "Phase 2",
+          "trial_name": "Topical SGX302 for Mild-to-Moderate Psoriasis",
+          "trial_design": "Phase 1/2 proof-of-concept then Phase 2; topical SGX302 vs placebo",
+          "nct_ids": ["NCT05442190"],
+          "trial_status": "COMPLETED (Oct 2025); pursuing further development",
+          "lead_sponsor": "Soligenix",
+          "key_milestones": ["Phase 2 readout 2025-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "SGX942 (dusquetide)",
+      "aka": ["Dusquetide", "DOM-INNATE"],
+      "modality": "Innate Defense Regulator peptide",
+      "target": "p62 / innate immune modulation",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Oral Mucositis in head and neck cancer (concomitant chemoradiation)",
+          "highest_phase": "Phase 3 (completed) - Phase 2 status per current development",
+          "trial_name": "DOM-INNATE Phase 3",
+          "trial_design": "Phase 3 randomized placebo-controlled; SGX942 in oral mucositis",
+          "nct_ids": ["NCT03237325"],
+          "trial_status": "Phase 3 COMPLETED 2020; per company materials still in development with Fast Track designation; no current active registrational trial",
+          "lead_sponsor": "Soligenix",
+          "key_milestones": ["Fast Track designation"]
+        }
+      ]
+    },
+    {
+      "asset": "SGX945 (dusquetide)",
+      "aka": ["Dusquetide for Behcet"],
+      "modality": "Innate Defense Regulator peptide",
+      "target": "Innate immune modulation",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Aphthous Ulcers of Behcet's Disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "Dusquetide for the Treatment of Behcet's Disease",
+          "trial_design": "Phase 2 study of SGX945 in Behcet's disease aphthous ulcers",
+          "nct_ids": ["NCT06386744"],
+          "trial_status": "COMPLETED (May 2025); Orphan Drug and Fast Track designations",
+          "lead_sponsor": "Soligenix",
+          "key_milestones": ["Orphan Drug and Fast Track designations"]
+        }
+      ]
+    },
+    {
+      "asset": "RiVax",
+      "aka": ["Ricin toxin vaccine"],
+      "modality": "Recombinant ricin toxin A-subunit subunit vaccine (with ThermoVax thermostabilization)",
+      "target": "Ricin toxin",
+      "license_origin": "Internally developed (Public Health Solutions segment)",
+      "indications": [
+        {
+          "indication": "Prevention of ricin toxin exposure (biodefense)",
+          "highest_phase": "Phase 2 (planned)",
+          "trial_name": "RiVax Phase 2 (planned)",
+          "trial_design": "Planned Phase 2 study",
+          "nct_ids": [],
+          "trial_status": "PLANNED - planning to initiate Phase 2; US/EU Orphan Drug designations",
+          "lead_sponsor": "Soligenix",
+          "key_milestones": ["Phase 2 initiation planned"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {
+      "asset": "ThermoVax",
+      "reason": "Vaccine thermostabilization platform - proof-of-concept stage, incorporated into RiVax."
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "orBec (oral BDP)",
+      "nct_ids": ["NCT01925950", "NCT00926575"],
+      "reason": "Phase 2/3 GVHD studies TERMINATED."
+    },
+    {
+      "asset": "SGX201",
+      "nct_id": "NCT01073384",
+      "reason": "Phase 1/2 acute enteritis study completed; not in active development per current pipeline."
+    },
+    {
+      "asset": "HyBryte vs Valchlor (head-to-head)",
+      "nct_id": "NCT06149247",
+      "reason": "Phase 2 supportive study COMPLETED; subsumed under HyBryte CTCL program."
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "asset": "Hypericin investigator-sponsored mycosis fungoides study",
+      "nct_id": "NCT05872854",
+      "reason": "Investigator-sponsored by Ellen Kim, MD (Soligenix collaborator only)."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 5,
+    "phase_3": 1,
+    "phase_2": 4,
+    "phase_1": 0
+  }
+}

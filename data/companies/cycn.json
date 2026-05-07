@@ -1,0 +1,44 @@
+{
+  "issuer_name": "Cyclerion Therapeutics, Inc.",
+  "ticker": "CYCN",
+  "exchange": "Nasdaq",
+  "cik": "0001755237",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-132193",
+      "filing_date": "2026-03-30",
+      "path": "data/cycn_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page fetched (avoided slow Playwright fallback)"
+    },
+    "ctgov": {
+      "path": "data/cycn_ctgov_compact.json",
+      "trials_kept": 13,
+      "note": "All Cyclerion-sponsored trials COMPLETED or TERMINATED; no Cyclerion-sponsored active P1/P2/P3"
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per 2025 10-K, Cyclerion's current strategic focus is CYC-126, an individualized therapy for treatment-resistant depression (TRD), which is in early development (MIT license signed Sept 2025; Medsteer collaboration Jan 2026 for delivery technology). CYC-126 has not yet entered clinical trials and remains pre-IND. All legacy sGC stimulator assets have been licensed/sold to third parties (praliciguat to Akebia, zagociguat and CY3018 to Tisento) and ongoing trials of those assets are partner-sponsored. Olinciguat option agreement was terminated in October 2025; Cyclerion is exploring new licensees.",
+  "excluded_preclinical": [
+    "CYC-126 (individualized TRD therapy) — pre-clinical / pre-IND; MIT-licensed Sept 2025; technology-enabled delivery via Medsteer Jan 2026"
+  ],
+  "excluded_legacy_terminated": [
+    "Multiple completed Cyclerion-sponsored Phase 1/2 sGC stimulator studies (12 COMPLETED, 1 TERMINATED)"
+  ],
+  "excluded_partner_owned": [
+    "Praliciguat — licensed to Akebia Therapeutics; Akebia initiated Phase 2 in focal segmental glomerulosclerosis (FSGS) Dec 2025 (partner-owned, $1M milestone earned to Cyclerion Feb 2026)",
+    "Zagociguat — sold to Tisento Therapeutics 2023; Tisento running PRIZM Phase 2b in MELAS (NCT06402123), enrollment completed Jan 2026; FDA Fast Track granted June 2025 (partner-owned)",
+    "CY3018 — sold to Tisento 2023 (partner-owned)",
+    "Olinciguat — Cyclerion-owned but no active trials; option terminated Oct 2025"
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "issuer_name": "Nuvectis Pharma, Inc.",
+  "ticker": "NVCT",
+  "exchange": "Nasdaq",
+  "cik": "0001875558",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-013044", "filing_date": "2026-02-11", "doc": "tmb-20251231x10k.htm"},
+    "website": {"url": "https://www.nuvectis.com/pipeline", "note": "Pipeline page is image-based; details from 10-K"},
+    "ctgov": {"sponsor_query": "Nuvectis Pharma", "trial_count": 3, "active_count": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "NXP900",
+      "aka": [],
+      "modality": "Oral small-molecule SRC and YES1 kinase inhibitor (locks SRC in inactive conformation; inhibits both catalytic and scaffolding functions)",
+      "target": "SRC and YES1 kinases (SRC family)",
+      "license_origin": "In-licensed from University of Edinburgh (Aug 2021); worldwide exclusive",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (NSCLC, renal cancer, mesothelioma, esophageal, head & neck) - Phase 1a/1b monotherapy",
+          "highest_phase": "Phase 1 (1a complete; 1b expansion ongoing)",
+          "trial_name": "NXP900 Phase 1 (NCT05873686)",
+          "trial_design": "Open-label, dose-escalation Phase 1a (complete) and expansion Phase 1b (ongoing); doses 20-300 mg/day; once-daily oral",
+          "nct_ids": ["NCT05873686"],
+          "trial_status": "RECRUITING; Phase 1a complete (Jul 2025), Phase 1b expansion initiated Aug 2025",
+          "lead_sponsor": "Nuvectis Pharma, Inc.",
+          "key_milestones": ["Phase 1a complete Jul 2025 (no DLT in 20-300 mg/day range)", "DDI study complete (CYP3A weak inhibitor) Jul 2025", "Phase 1b initiated Aug 2025"]
+        },
+        {
+          "indication": "EGFR-mutated NSCLC (combination with osimertinib)",
+          "highest_phase": "Phase 1",
+          "trial_name": "NXP900 + osimertinib in EGFR-mutant NSCLC",
+          "trial_design": "Open-label combination study with osimertinib in advanced EGFR-mutated NSCLC",
+          "nct_ids": ["NCT07315113"],
+          "trial_status": "RECRUITING; first subject Dec 2025",
+          "lead_sponsor": "Nuvectis Pharma, Inc.",
+          "key_milestones": ["Combination study initiated Dec 2025"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "NXP800 (HSF1 pathway / GCN2 activator)", "reason": "Phase 1b clinical study completed; Nuvectis ceased clinical development of NXP800 in July 2025; NCT05226507 ACTIVE_NOT_RECRUITING with status reflecting wind-down"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "phase_1": 1,
+    "active_phase_1_trials": 2
+  }
+}

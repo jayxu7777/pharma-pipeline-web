@@ -1,0 +1,54 @@
+{
+  "issuer_name": "Genprex, Inc.",
+  "ticker": "GNPX",
+  "exchange": "Nasdaq",
+  "cik": "0001595248",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-010346", "filed": "2026-03-30", "slice": "data/gnpx_10k_pipeline_section.html"},
+    "website": {"url": "https://www.genprex.com/pipeline/", "accessed": "2026-05-06"},
+    "ctgov": {"file": "data/gnpx_ctgov_compact.json", "trials_kept": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "Quaratusugene ozeplasmid",
+      "aka": ["REQORSA", "REQORSA Gene Therapy"],
+      "modality": "Non-viral systemic gene therapy (TUSC2 plasmid in DOTAP:Cholesterol nanoparticle, ONCOPREX delivery system)",
+      "target": "TUSC2/FUS1 tumor suppressor gene restoration",
+      "license_origin": "Internal / U.T. MD Anderson license",
+      "indications": [
+        {
+          "indication": "Non-small cell lung cancer (NSCLC) — EGFR mutant, post-osimertinib progression",
+          "highest_phase": "P1/2",
+          "trial_name": "Acclaim-1 (REQORSA + osimertinib)",
+          "trial_design": "Phase 1/2, REQORSA in combination with osimertinib in EGFR-mutated NSCLC patients who progressed on osimertinib",
+          "nct_ids": ["NCT04486833"],
+          "trial_status": "RECRUITING (primary completion 2028-03)",
+          "lead_sponsor": "Genprex, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Extensive-stage small cell lung cancer (ES-SCLC) — maintenance",
+          "highest_phase": "P1/2",
+          "trial_name": "Acclaim-3 (REQORSA + atezolizumab maintenance)",
+          "trial_design": "Phase 1/2, REQORSA + atezolizumab maintenance in ES-SCLC after first-line induction",
+          "nct_ids": ["NCT05703971"],
+          "trial_status": "RECRUITING (primary completion 2026-02)",
+          "lead_sponsor": "Genprex, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "GPX-002", "reason": "Diabetes gene therapy program is preclinical (DIA-001/DIA-002 not yet in clinic)"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "REQORSA Acclaim-2 (NCT05062980, REQORSA + pembrolizumab in NSCLC)", "reason": "TERMINATED 2025-02"},
+    {"asset": "DOTAP:Chol-TUSC2 + erlotinib (NCT01455389)", "reason": "TERMINATED legacy Phase 1/2"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 2, "P1": 0, "note": "Both indications are Phase 1/2 combo trials; counted as P2 highest"}
+}

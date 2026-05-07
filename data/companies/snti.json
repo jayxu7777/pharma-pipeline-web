@@ -1,0 +1,54 @@
+{
+  "issuer_name": "Senti Biosciences, Inc.",
+  "ticker": "SNTI",
+  "exchange": "Nasdaq",
+  "cik": "0001854270",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-021580",
+      "filing_date": "2026-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1854270/000162828026021580/snti-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.sentibio.com/pipeline"
+    },
+    "ctgov": {
+      "query": "Senti Biosciences",
+      "trials_kept": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "SENTI-202",
+      "aka": [],
+      "modality": "Logic-gated allogeneic CAR-NK cell therapy (CD33 OR FLT3) NOT EMCN, retroviral delivery",
+      "target": "CD33, FLT3 (with EMCN NOT-gate to spare HSCs)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory AML and higher-risk MDS (CD33+ and/or FLT3+ hematologic malignancies)",
+          "highest_phase": "Phase 1",
+          "trial_name": "SENTI-202 Phase 1 first-in-human",
+          "trial_design": "Open-label dose-escalation/expansion of SENTI-202 with lymphodepletion (fludarabine/cytarabine) in adults with CD33+ and/or FLT3+ blood cancers including AML/MDS",
+          "nct_ids": ["NCT06325748"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Senti Biosciences",
+          "key_milestones": [
+            "Dosing started 2024-04",
+            "Positive preliminary AML data presented at AACR 2025",
+            "Primary completion expected 2026-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Undisclosed solid-tumor CAR-NK candidate (discovery/preclinical, no IND)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 1, "P2": 0, "P3": 0, "total_assets": 1}
+}

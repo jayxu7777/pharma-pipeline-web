@@ -1,0 +1,28 @@
+{
+  "issuer_name": "ADM Tronics Unlimited, Inc.",
+  "ticker": "ADMT",
+  "exchange": "OTC",
+  "cik": "0000849401",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-25-022670", "filing_date": "2025-07-14", "primary_doc": "admt20250331_10k.htm", "section_file": "data/admt_10k_pipeline_section.html"},
+    "website": {"error": "Pipeline page not pursued; ADMT is a diversified electronics / contract manufacturer / chemicals company without a biotech-style pipeline page"},
+    "ctgov": {"endpoint": "ClinicalTrials.gov v2 API", "sponsor_query": "ADM Tronics", "unique_p1_p3_trials": 0, "file": "data/admt_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "segments": [
+      "Electronics: design, manufacture and contract-manufacture of electronic devices, including non-invasive medical electronics through wholly-owned subsidiary Sonotron Medical Systems, Inc.",
+      "Chemical products: water-based adhesives, coatings, and antistatic/topical / cosmetic chemicals",
+      "Engineering and regulatory services: research, development, regulatory and engineering services for third-party device clients"
+    ],
+    "regulatory": "Operates as a contract manufacturer to third-party FDA-regulated device customers; does not hold a proprietary investigational drug NDA/IND program"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Diversified electronics manufacturer / contract manufacturer / specialty chemicals company. No proprietary drug pipeline. Medical-electronics work is contract manufacturing of customer-owned, already-cleared devices; no company-sponsored P1/P2/P3 interventional trials appear under sponsor 'ADM Tronics' on ClinicalTrials.gov."
+}

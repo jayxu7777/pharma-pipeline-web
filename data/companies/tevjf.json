@@ -1,0 +1,170 @@
+{
+  "issuer_name": "Teva Pharmaceutical Industries Ltd.",
+  "ticker": "TEVJF",
+  "exchange": "OTC",
+  "cik": "0000818686",
+  "region": "Israel (global)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-034532", "filing_date": "2026-02-03", "path": "data/tevjf_10k_pipeline_section.html", "note": "Teva files Form 10-K (not 20-F) with SEC despite Israeli incorporation"},
+    "website": {"url": "https://www.tevapharm.com/our-science/our-pipeline/", "note": "Innovative pipeline corroborated against 10-K"},
+    "ctgov": {"path": "data/tevjf_ctgov_compact.json", "trial_count": 15, "note": "Sponsor-name search returns only Teva-as-direct-sponsor trials; many partnered programs (Sanofi for duvakitug, Launch Therapeutics for DARI, Modag for emrusolmin, Alvotech/mAbxience for biosimilars) are run under partner sponsor names"}
+  },
+  "pipeline": [
+    {
+      "asset": "duvakitug",
+      "aka": ["TEV-574", "anti-TL1A monoclonal antibody"],
+      "modality": "Monoclonal antibody",
+      "target": "TL1A (TNFSF15)",
+      "license_origin": "Co-developed with Sanofi (50/50 collaboration)",
+      "indications": [
+        {
+          "indication": "Ulcerative colitis",
+          "highest_phase": "P3",
+          "trial_name": "Phase 3 program initiated October 2025",
+          "trial_design": "Phase 3 randomized placebo-controlled program",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING (Phase 3 program initiated by Sanofi/Teva October 2025)",
+          "lead_sponsor": "Sanofi (with Teva)",
+          "key_milestones": ["Phase 3 program initiation October 2025"]
+        },
+        {
+          "indication": "Crohn's disease",
+          "highest_phase": "P3",
+          "trial_name": "Phase 3 program initiated October 2025",
+          "trial_design": "Phase 3 randomized placebo-controlled program",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING (Phase 3 program initiated by Sanofi/Teva October 2025)",
+          "lead_sponsor": "Sanofi (with Teva)",
+          "key_milestones": ["Phase 3 program initiation October 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "emrusolmin",
+      "aka": ["TEV-56286", "TEV-286"],
+      "modality": "Small molecule (anti-aggregation)",
+      "target": "Alpha-synuclein aggregation",
+      "license_origin": "Collaboration with Modag GmbH",
+      "indications": [
+        {
+          "indication": "Multiple System Atrophy (MSA)",
+          "highest_phase": "P3",
+          "trial_name": "Phase 3 MSA program",
+          "trial_design": "Phase 3",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE (FDA Fast Track designation granted in 2025)",
+          "lead_sponsor": "Teva Pharmaceutical Industries / Modag",
+          "key_milestones": ["U.S. FDA Fast Track designation 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "DARI (Dual-Action Rescue Inhaler)",
+      "aka": ["TEV-248", "ICS/SABA combination inhaler"],
+      "modality": "Inhaled fixed-dose combination (inhaled corticosteroid + short-acting beta-agonist)",
+      "target": "Beta-2 adrenergic receptor / glucocorticoid receptor",
+      "license_origin": "Collaboration with Launch Therapeutics",
+      "indications": [
+        {
+          "indication": "Asthma rescue",
+          "highest_phase": "P3",
+          "trial_name": "Phase 3 DARI",
+          "trial_design": "Phase 3 randomized trial in adult and pediatric populations",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ENROLLING (initial enrollment levels achieved by end of 2025 in adult and pediatric populations)",
+          "lead_sponsor": "Teva (with Launch Therapeutics)",
+          "key_milestones": ["Initial enrollment achieved adult and pediatric end-2025; NDA originally submitted Feb 2023 received CRL prompting Phase 3"]
+        }
+      ]
+    },
+    {
+      "asset": "olanzapine LAI",
+      "aka": ["TEV-749"],
+      "modality": "Long-acting injectable atypical antipsychotic",
+      "target": "Dopamine D2 / serotonin 5-HT2A receptors",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Schizophrenia",
+          "highest_phase": "P3",
+          "trial_name": "Pivotal Phase 3 (NDA filed)",
+          "trial_design": "Phase 3 pivotal program supporting NDA",
+          "nct_ids": "Not on public registry",
+          "trial_status": "NDA SUBMITTED December 2025 (Phase 3 complete)",
+          "lead_sponsor": "Teva Pharmaceutical Industries",
+          "key_milestones": ["NDA submission December 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "Anti-IL-15",
+      "aka": ["TEV-408"],
+      "modality": "Monoclonal antibody",
+      "target": "Interleukin-15",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Celiac disease",
+          "highest_phase": "P2",
+          "trial_name": "Phase 2 celiac disease program",
+          "trial_design": "Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE",
+          "lead_sponsor": "Teva Pharmaceutical Industries",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Biosimilar to Xolair (omalizumab)",
+      "aka": [],
+      "modality": "Biosimilar monoclonal antibody",
+      "target": "IgE",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Allergic asthma / chronic urticaria (reference Xolair indications)",
+          "highest_phase": "P3",
+          "trial_name": "Confirmatory clinical trial",
+          "trial_design": "Phase 3 confirmatory biosimilarity study",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE",
+          "lead_sponsor": "Teva Pharmaceutical Industries",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Biosimilar to Entyvio / Entyvio SC (vedolizumab)",
+      "aka": [],
+      "modality": "Biosimilar monoclonal antibody",
+      "target": "Alpha4-beta7 integrin",
+      "license_origin": "Collaboration with Alvotech (US market)",
+      "indications": [
+        {
+          "indication": "Ulcerative colitis / Crohn's disease (reference Entyvio indications)",
+          "highest_phase": "P3",
+          "trial_name": "Confirmatory clinical trial",
+          "trial_design": "Phase 3 confirmatory biosimilarity study (IV and SC)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE",
+          "lead_sponsor": "Alvotech (with Teva)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Teva's marketed innovative portfolio includes AUSTEDO/AUSTEDO XR (deutetrabenazine), AJOVY (fremanezumab), UZEDY (risperidone LAI), COPAXONE (glatiramer), TRUXIMA, BENDEKA, plus generics and biosimilars (SELARSDI, EPYSQLI, FYMSKINA, AHZANTIVE, Tuznue, PONLIMSI, DEGEVMA). These are excluded from the active P1/P2/P3 pipeline scope."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"note": "Six TERMINATED and one WITHDRAWN ctgov trials under Teva sponsor name (mostly older programs); see data/tevjf_ctgov_compact.json"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Various Regeneron partnered trials (NCT records show Regeneron lead sponsor with Teva collaborator)", "note": "Older fasinumab pain program collaboration; not active Teva-led pipeline"}
+  ],
+  "summary_counts": {"total_assets": 7, "P3": 6, "P2": 1, "P1": 0, "note": "Six P3 indications across 5 assets (duvakitug counted twice for UC and Crohn's, plus emrusolmin, DARI, olanzapine LAI, Xolair-biosim, Entyvio-biosim); Anti-IL-15 in P2"}
+}

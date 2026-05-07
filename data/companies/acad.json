@@ -1,0 +1,158 @@
+{
+  "issuer_name": "ACADIA Pharmaceuticals Inc.",
+  "ticker": "ACAD",
+  "exchange": "Nasdaq",
+  "cik": "0001070494",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/acad_10k_pipeline_section.html", "filing_date": "2026-02-26", "accession": "0001193125-26-072519"},
+    "website": {"url": "https://www.acadia.com/pipeline/"},
+    "ctgov": {"file": "data/acad_ctgov_compact.json", "active_acadia_led_count": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "remlifanserin",
+      "aka": ["ACP-204"],
+      "modality": "Small molecule (selective serotonin inverse agonist)",
+      "target": "5-HT2A receptor",
+      "license_origin": "Internal (next-generation pimavanserin)",
+      "indications": [
+        {
+          "indication": "Alzheimer's disease psychosis (ADP)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "ADEPT-1 / ADEPT-2 / OLE",
+          "trial_design": "ACP-204 vs placebo, plus open-label extension",
+          "nct_ids": ["NCT06159673", "NCT06194799"],
+          "trial_status": "Recruiting (Ph2/3); Enrolling by invitation (OLE Ph3)",
+          "lead_sponsor": "ACADIA Pharmaceuticals Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Lewy body dementia psychosis (LBDP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ILLUMERA / OLE",
+          "trial_design": "ACP-204 vs placebo (Ph2 ILLUMERA); OLE in Ph3",
+          "nct_ids": ["NCT07029581", "NCT07095465"],
+          "trial_status": "Recruiting (Ph2); Enrolling by invitation (Ph3 OLE)",
+          "lead_sponsor": "ACADIA Pharmaceuticals Inc.",
+          "key_milestones": ["Ph2 ILLUMERA initiated Q3 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "ACP-101 (intranasal carbetocin)",
+      "aka": ["intranasal carbetocin"],
+      "modality": "Peptide (oxytocin receptor agonist), intranasal",
+      "target": "Oxytocin receptor",
+      "license_origin": "In-licensed (Levo Therapeutics acquisition)",
+      "indications": [
+        {
+          "indication": "Hyperphagia in Prader-Willi syndrome",
+          "highest_phase": "Phase 3",
+          "trial_name": "COMPASS-PWS / OLE",
+          "trial_design": "ACP-101/carbetocin vs placebo and OLE",
+          "nct_ids": ["NCT06173531", "NCT06420297"],
+          "trial_status": "Active not recruiting (Ph3); Enrolling by invitation (OLE)",
+          "lead_sponsor": "ACADIA Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ACP-211",
+      "aka": ["deuterated R-norketamine"],
+      "modality": "Small molecule (selectively deuterated R-norketamine)",
+      "target": "NMDA receptor / glutamatergic",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Treatment-resistant depression / Major depressive disorder",
+          "highest_phase": "Phase 2",
+          "trial_name": "ACP-211 Ph2 MDD/TRD",
+          "trial_design": "ACP-211 vs placebo",
+          "nct_ids": ["NCT07284667"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ACADIA Pharmaceuticals Inc.",
+          "key_milestones": ["Ph2 initiated Q4 2025; topline expected Q2-Q3 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "ACP-711",
+      "aka": ["SAN711"],
+      "modality": "Small molecule (positive allosteric modulator)",
+      "target": "GABA-A alpha3 receptor",
+      "license_origin": "In-licensed from Saniona (Nov 2024)",
+      "indications": [
+        {
+          "indication": "Essential tremor",
+          "highest_phase": "Phase 1",
+          "trial_name": "ACP-711 Ph1 (ongoing)",
+          "trial_design": "Phase 1 single/multiple ascending dose in healthy volunteers",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 ongoing; ET Ph2 planned Q4 2026",
+          "lead_sponsor": "ACADIA Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ACP-271",
+      "aka": [],
+      "modality": "Small molecule (GPR88 agonist)",
+      "target": "GPR88",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Tardive dyskinesia / Huntington's disease (combined target indications)",
+          "highest_phase": "Phase 1 (planned)",
+          "trial_name": "ACP-271 Ph1 healthy volunteer",
+          "trial_design": "First-in-human SAD/MAD",
+          "nct_ids": [],
+          "trial_status": "PLANNED - Phase 1 expected to start Q1 2026",
+          "lead_sponsor": "ACADIA Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ACP-2591",
+      "aka": [],
+      "modality": "Small molecule (cyclic glycyl-proline analogue)",
+      "target": "cGP / IGF-1 pathway",
+      "license_origin": "In-licensed from Neuren (expanded July 2023)",
+      "indications": [
+        {
+          "indication": "Rett syndrome and Fragile X syndrome",
+          "highest_phase": "Phase 1",
+          "trial_name": "ACP-2591 Ph1",
+          "trial_design": "Phase 1 development",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 ongoing",
+          "lead_sponsor": "ACADIA Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "NUPLAZID (pimavanserin)", "indication": "Parkinson's disease psychosis"},
+      {"name": "DAYBUE (trofinetide)", "indication": "Rett syndrome"}
+    ]
+  },
+  "excluded_preclinical": ["Stoke ASO collaboration: SYNGAP1 syndrome program (discovery-stage)"],
+  "excluded_legacy_terminated": ["Pimavanserin in additional indications (no further exploration)"],
+  "excluded_partner_owned": [
+    "NCT05895513 - Pimavanserin in intermittent explosive disorder (sponsor: Ohio State University)",
+    "NCT05999240 - Pimavanserin in autism spectrum disorder (sponsor: NY State Psychiatric Institute)"
+  ],
+  "summary_counts": {
+    "total_assets": 6,
+    "phase_3_indications": 2,
+    "phase_2_or_2_3_indications": 2,
+    "phase_1_indications": 3
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "issuer_name": "HYPERION DEFI, INC.",
+  "ticker": "HYPD",
+  "exchange": "Nasdaq",
+  "cik": "0001682639",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-036286",
+      "filed": "2026-03-30",
+      "doc": "hypd-20251231x10k.htm"
+    },
+    "website": {"error": "no public pipeline page found (hyperiondefi.com/pipeline returns 404; company pivoted to crypto treasury strategy)"},
+    "ctgov": {"matches": 0, "note": "no trials returned for sponsor 'Hyperion Defi' or 'Hyperion'"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Company pivoted from ophthalmic pharma (formerly Eyenovia) to a Hyperliquid HYPE crypto-treasury and DeFi business. The only remaining clinical-stage asset is the Optejet User Filled Device (Optejet UFD), a topical ophthalmic liquid delivery device — not a drug. Per the FY2025 10-K, in Q1 2026 the company executed a non-binding Letter of Intent to monetize the Optejet UFD, with closing expected in Q2 2026. No active P1/P2/P3 drug trials are sponsored by the issuer.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "MicroPine", "indication": "pediatric myopia progression", "note": "legacy Eyenovia asset; no longer in active development per 2025 10-K"},
+    {"asset": "MicroLine", "indication": "presbyopia", "note": "legacy Eyenovia asset; no longer in active development per 2025 10-K"},
+    {"asset": "MydCombi", "indication": "pharmaceutical mydriasis", "note": "previously FDA-approved; referenced only as predicate device technology"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

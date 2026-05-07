@@ -1,0 +1,123 @@
+{
+  "issuer_name": "Cogent Biosciences, Inc.",
+  "ticker": "COGT",
+  "exchange": "Nasdaq",
+  "cik": "0001622229",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-17", "accession": "0001193125-26-053334", "path": "data/cogt_10k_pipeline_section.html"},
+    "website": {"path": "https://www.cogentbio.com/pipeline", "note": "Static page returned only template; relied on 10-K + ctgov for asset details"},
+    "ctgov": {"path": "data/cogt_ctgov_compact.json", "trials_found": 12}
+  },
+  "pipeline": [
+    {
+      "asset": "Bezuclastinib",
+      "aka": ["CGT9486", "PLX9486"],
+      "modality": "Oral small-molecule selective KIT D816V inhibitor",
+      "target": "KIT D816V (mutant-selective)",
+      "license_origin": "Acquired from Plexxikon",
+      "indications": [
+        {
+          "indication": "Non-advanced (indolent / smoldering) systemic mastocytosis",
+          "highest_phase": "Phase 2",
+          "trial_name": "Summit",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 of bezuclastinib vs. placebo in ISM/SSM patients (registration-enabling)",
+          "nct_ids": ["NCT05186753"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2025-05-22); positive topline supports NDA",
+          "lead_sponsor": "Cogent Biosciences, Inc.",
+          "key_milestones": ["Positive Summit Part 2 topline in 2025", "NDA submission planned"]
+        },
+        {
+          "indication": "Advanced systemic mastocytosis (AdvSM, including ASM, SM-AHN, MCL)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Apex",
+          "trial_design": "Open-label, single-arm, registration-directed Phase 2 of bezuclastinib in AdvSM",
+          "nct_ids": ["NCT04996875"],
+          "trial_status": "RECRUITING (primary completion 2025-09-19)",
+          "lead_sponsor": "Cogent Biosciences, Inc.",
+          "key_milestones": ["Apex registrational data readout 2025/2026", "AdvSM NDA planned"]
+        },
+        {
+          "indication": "Advanced gastrointestinal stromal tumors (GIST), 2L+",
+          "highest_phase": "Phase 3",
+          "trial_name": "Peak",
+          "trial_design": "Randomized Phase 3 of bezuclastinib + sunitinib vs. sunitinib alone in 2L+ GIST patients previously treated with imatinib",
+          "nct_ids": ["NCT05208047"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2025-09-30)",
+          "lead_sponsor": "Cogent Biosciences, Inc.",
+          "key_milestones": ["Phase 3 Peak topline expected 2025/2026"]
+        }
+      ]
+    },
+    {
+      "asset": "CGT4859",
+      "aka": [],
+      "modality": "Oral small-molecule selective FGFR2/3 inhibitor",
+      "target": "FGFR2 / FGFR3 (mutant-selective, gatekeeper-sparing)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "FGFR2/3-altered cholangiocarcinoma and other advanced solid tumors",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "CGT4859-101 (Phase 1/2 first-in-human)",
+          "trial_design": "Open-label, multi-cohort Phase 1/2 dose escalation and expansion in FGFR2/3-altered solid tumors including ICC",
+          "nct_ids": ["NCT06777316"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (started 2025-01-22; primary completion 2027-03)",
+          "lead_sponsor": "Cogent Biosciences, Inc.",
+          "key_milestones": ["Initial Phase 1 dose-escalation data anticipated 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "CGT4255",
+      "aka": [],
+      "modality": "Oral small-molecule selective ERBB2 inhibitor",
+      "target": "ERBB2 (HER2)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "ERBB2-altered advanced solid tumors (HER2+ breast cancer, NSCLC, others)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CGT4255-101 (Phase 1 first-in-human)",
+          "trial_design": "Open-label dose escalation Phase 1 in ERBB2-altered advanced solid tumors",
+          "nct_ids": ["NCT07361562"],
+          "trial_status": "RECRUITING (started 2025-12-30; primary completion 2028-05)",
+          "lead_sponsor": "Cogent Biosciences, Inc.",
+          "key_milestones": ["First-in-human dose escalation underway"]
+        }
+      ]
+    },
+    {
+      "asset": "CGT6297",
+      "aka": [],
+      "modality": "Oral small-molecule mutant-selective PI3Kα inhibitor",
+      "target": "PIK3CA (mutant-selective)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "PIK3CA-mutant advanced solid tumors (HR+/HER2- breast, endometrial)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CGT6297-101 (Phase 1 first-in-human)",
+          "trial_design": "Open-label Phase 1 dose escalation in PIK3CA-mutant advanced solid tumors",
+          "nct_ids": ["NCT07383506"],
+          "trial_status": "NOT_YET_RECRUITING (start 2026-02; primary completion 2029-07)",
+          "lead_sponsor": "Cogent Biosciences, Inc.",
+          "key_milestones": ["IND cleared; first patient expected H1 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ACTR087 (multiple myeloma + SEA-BCMA)", "nct_ids": ["NCT03266692"], "status": "TERMINATED"},
+    {"asset": "ACTR087 (B-cell lymphoma)", "nct_ids": ["NCT02776813"], "status": "COMPLETED — legacy ACTR platform divested"},
+    {"asset": "ACTR707 (B-cell lymphoma + rituximab)", "nct_ids": ["NCT03189836"], "status": "TERMINATED"},
+    {"asset": "ACTR T cell + trastuzumab (HER2 solid tumors)", "nct_ids": ["NCT03680560"], "status": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Bezuclastinib + sunitinib in GIST (SARC044)", "nct_ids": ["NCT06208748"], "lead_sponsor": "Sarcoma Alliance for Research through Collaboration", "reason": "Investigator-sponsored Phase 2; covered for company narrative under company-led Peak Phase 3"}
+  ],
+  "summary_counts": {"total_assets": 4, "phase_3": 1, "phase_2": 2, "phase_1": 3, "indications_in_active_clinical_dev": 6}
+}

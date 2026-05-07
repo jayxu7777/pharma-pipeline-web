@@ -1,0 +1,96 @@
+{
+  "issuer_name": "Sionna Therapeutics, Inc.",
+  "ticker": "SION",
+  "exchange": "Nasdaq",
+  "cik": "0002036042",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-012996", "filed": "2026-03-02", "form": "10-K"},
+    "website": {"url": "https://sionnatx.com/pipeline", "fetched": "2026-05-06", "note": "Pipeline graphic embedded as SVG; details supplemented from 10-K"},
+    "ctgov": {"sponsor_query": "Sionna Therapeutics", "trials_returned": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "SION-719",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "CFTR NBD1 stabilizer",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Cystic fibrosis (proof-of-concept on top of Trikafta)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SION-719 add-on to Trikafta POC",
+          "trial_design": "Phase 2 randomized, placebo-controlled proof-of-concept",
+          "nct_ids": ["NCT07108153"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (started 2025-11-03; primary completion 2026-07)",
+          "lead_sponsor": "Sionna Therapeutics Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SION-451",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "CFTR NBD1 stabilizer",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Cystic fibrosis (combination with complementary modulators)",
+          "highest_phase": "Phase 1",
+          "trial_name": "SION-451 + SION-2222 / SION-109 multiple-dose combination Phase 1",
+          "trial_design": "Phase 1 multiple ascending dose combination in healthy volunteers",
+          "nct_ids": ["NCT07035990"],
+          "trial_status": "RECRUITING (started 2025-07-23; topline mid-2026)",
+          "lead_sponsor": "Sionna Therapeutics Inc.",
+          "key_milestones": ["Positive single-agent Phase 1 topline announced June 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "SION-2222 (galicaftor)",
+      "aka": ["galicaftor"],
+      "modality": "Small molecule",
+      "target": "CFTR corrector (TMD1)",
+      "license_origin": "In-licensed from AbbVie",
+      "indications": [
+        {
+          "indication": "Cystic fibrosis (component of combination)",
+          "highest_phase": "Phase 1",
+          "trial_name": "SION-451 + SION-2222 / SION-109 combination Phase 1",
+          "trial_design": "Phase 1 combination in healthy volunteers",
+          "nct_ids": ["NCT07035990"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Sionna Therapeutics Inc.",
+          "key_milestones": ["Previously studied through Phase 2 by AbbVie"]
+        }
+      ]
+    },
+    {
+      "asset": "SION-109",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "CFTR corrector (ICL4)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Cystic fibrosis (component of combination)",
+          "highest_phase": "Phase 1",
+          "trial_name": "SION-451 + SION-2222 / SION-109 combination Phase 1",
+          "trial_design": "Phase 1 combination in healthy volunteers",
+          "nct_ids": ["NCT07035990"],
+          "trial_status": "RECRUITING (single-agent Phase 1 completed 2024)",
+          "lead_sponsor": "Sionna Therapeutics Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["SION-3067 (navocaftor) potentiator — not in current active company-led trials"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 4, "indications": 4, "phase3": 0, "phase2": 1, "phase1": 3}
+}

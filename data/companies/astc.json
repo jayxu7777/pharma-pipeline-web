@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Astrotech Corporation",
+  "ticker": "ASTC",
+  "exchange": "Nasdaq",
+  "cik": "0001001907",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-09-26",
+      "accession": "0001437749-25-029909",
+      "url": "https://www.sec.gov/Archives/edgar/data/1001907/000143774925029909/astc20250630_10k.htm"
+    },
+    "website": {
+      "url": "https://astrotechcorp.com/",
+      "note": "Mass spectrometry and gas chromatography chemical detection instruments. No drug pipeline."
+    },
+    "ctgov": {
+      "query": "spons:Astrotech",
+      "kept_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      "Tracer 1000 ETD (explosives trace detection)",
+      "Tracer 1000 NTD (narcotics trace detection)",
+      "Labrador HHGC (handheld gas chromatograph)",
+      "Fenceline GC",
+      "EN-SCAN GC-MS",
+      "AgLAB 1000-D2",
+      "Pro-Control 1000-D2"
+    ],
+    "business_units": ["1st Detect", "EN-SCAN", "AgLAB", "Pro-Control"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Astrotech is a chemical detection instruments company (mass spectrometry / gas chromatography for security, defense, environmental, agricultural, and process control applications). No therapeutics, diagnostics-as-medical-device, or clinical pipeline."
+}

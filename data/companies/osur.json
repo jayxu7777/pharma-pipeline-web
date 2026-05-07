@@ -1,0 +1,83 @@
+{
+  "issuer_name": "OraSure Technologies, Inc.",
+  "ticker": "OSUR",
+  "exchange": "Nasdaq",
+  "cik": "0001116463",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001116463-26-000016",
+      "filing_date": "2026-03-09",
+      "doc": "osur-20251231.htm",
+      "local_path": "data/osur_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.orasure.com",
+      "pipeline_url_tried": "https://www.orasure.com/pipeline",
+      "pipeline_url_status": "404 — no dedicated pipeline page; corporate site lists product categories and subsidiary brands (DNA Genotek, Sherlock Biosciences, BioMedomics) but no drug pipeline"
+    },
+    "ctgov": {
+      "queries": ["spons:OraSure", "spons:Sherlock Biosciences"],
+      "raw_count_total": 0,
+      "kept_phase_1_3": 0,
+      "local_paths": ["data/osur_ctgov_compact.json", "data/osur_sherlock_ctgov_compact.json"],
+      "note": "No interventional Phase 1/2/3 drug trials. The Sherlock CT/NG diagnostic clinical study is a device IVD performance study and is not phase-tagged on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_products": [
+      {
+        "name": "OraQuick HIV Self-Test / OraQuick ADVANCE Rapid HIV-1/2 Antibody Test",
+        "modality": "Rapid oral-fluid / fingerstick antibody immunoassay",
+        "indication": "HIV-1/2 antibody detection (professional and OTC self-test)",
+        "regulatory_status": "FDA approved (OraQuick In-Home HIV Test approved 2012); CE-marked; WHO prequalified"
+      },
+      {
+        "name": "OraQuick HCV Rapid Antibody Test",
+        "modality": "Rapid antibody immunoassay (oral fluid / fingerstick / venous whole blood)",
+        "indication": "Hepatitis C virus antibody detection",
+        "regulatory_status": "FDA approved; CLIA-waived"
+      },
+      {
+        "name": "InteliSwab COVID-19 Rapid Test",
+        "modality": "Lateral-flow rapid antigen self-test",
+        "indication": "SARS-CoV-2 antigen detection",
+        "regulatory_status": "FDA EUA (now in significant commercial decline; revenue dropped 99% in FY2025)"
+      },
+      {
+        "name": "OraSure / DNA Genotek Sample Management Solutions (Oragene, ORAcollect, OMNIgene families)",
+        "modality": "Saliva and microbiome sample collection devices",
+        "indication": "DNA / RNA / microbiome / metabolomic sample collection for research and clinical use",
+        "regulatory_status": "Various FDA-cleared and RUO products"
+      },
+      {
+        "name": "BioMedomics sickle cell rapid test",
+        "modality": "Rapid point-of-care immunoassay",
+        "indication": "Sickle cell disease screening (global health)",
+        "regulatory_status": "Marketed; CE-marked"
+      }
+    ],
+    "in_development_devices": [
+      {
+        "name": "Sherlock CT/NG Test",
+        "modality": "CRISPR-based rapid molecular diagnostic (IVD device, not a drug)",
+        "indication": "Detection of Chlamydia trachomatis (CT) and Neisseria gonorrhoeae (NG)",
+        "regulatory_status": "In clinical studies; FDA submission made in late 2025; pending regulatory clearance",
+        "source": "OSUR FY2025 10-K, Sherlock acquisition disclosure"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  },
+  "no_active_clinical_pipeline_reason": "OraSure Technologies is a point-of-care diagnostics and sample-collection device company (HIV, HCV, COVID-19, syphilis rapid tests; saliva and microbiome sample collection; CRISPR-based rapid molecular diagnostics via the Sherlock subsidiary). It develops in-vitro diagnostic devices, not therapeutic drug candidates. The 10-K, corporate website, and ClinicalTrials.gov sponsor searches for both OraSure and Sherlock Biosciences disclose no Phase 1/2/3 interventional drug trials. The principal in-development device program is the Sherlock CT/NG IVD, which is in IVD performance/clinical study and was submitted to FDA in late 2025 (recorded under commercial_product.in_development_devices)."
+}

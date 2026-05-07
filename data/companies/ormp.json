@@ -1,0 +1,46 @@
+{
+  "issuer_name": "ORAMED PHARMACEUTICALS INC.",
+  "ticker": "ORMP",
+  "exchange": "Nasdaq",
+  "cik": "0001176309",
+  "region": "Israel (US-listed; files Form 10-K)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-034835", "filing_date": "2026-03-26", "doc": "ea0282618-10k_oramed.htm", "note": "fetch_10k.py heading regex did not match Oramed's 'Description of Business' wording; file was downloaded manually and section sliced for analysis."},
+    "website": {"url": "https://www.oramed.com/", "note": "Pipeline confirmed via 10-K and ctgov; web page not fetched."},
+    "ctgov": {"sponsor_query": "Oramed", "studies_returned": 16}
+  },
+  "pipeline": [
+    {
+      "asset": "ORMD-0801",
+      "aka": ["Oral insulin"],
+      "modality": "Oral insulin capsule using POD (Protein Oral Delivery) platform",
+      "target": "Insulin replacement (oral GI-to-portal-vein delivery)",
+      "license_origin": "Internal; clinical development to be conducted by OraTech (Oramed/HTIT JV — note JV agreement was terminated in October 2025; revised plan is for OraTech entity, with subsequent Share Purchase Transaction discussed in 10-K)",
+      "indications": [
+        {
+          "indication": "Type 2 diabetes mellitus with inadequate glycemic control on 1-3 oral glucose-lowering agents (high-responder subpopulation: BMI/HbA1c/age-defined)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ORA-D-013-3",
+          "trial_design": "Double-blinded, placebo-controlled, double-dummy multi-center randomized 60-patient US Phase 3 study to validate ORMD-0801 efficacy and safety in T2DM subjects on 1-3 glucose-lowering agents; designed as smallest adequately powered trial to validate the high-responder subpopulation identified post-hoc from ORA-D-013-1",
+          "nct_ids": ["NCT06731075"],
+          "trial_status": "PLANNED — NOT_YET_RECRUITING; protocol submitted to FDA Sep 12, 2024; trial initiation planned H2 2026 (to be conducted by OraTech)",
+          "lead_sponsor": "Oramed, Ltd.",
+          "key_milestones": ["Sep 12, 2024: Phase 3 protocol submitted to FDA", "H2 2026: planned initiation of 60-patient Phase 3"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Other POD oral protein-delivery applications (e.g., oral exenatide / GLP-1) — not in active clinical development per FY2025 10-K"
+  ],
+  "excluded_legacy_terminated": [
+    "ORA-D-013-1 Phase 3 T2DM (NCT04606576) — TERMINATED; missed primary and secondary endpoints (announced Jan 11, 2023)",
+    "ORA-D-013-2 Phase 3 T2DM (NCT04754334) — TERMINATED",
+    "ORMD-0801 Phase 3 (NCT04817215) sponsor King Hamad University Hospital — UNKNOWN status; not Oramed-sponsored",
+    "Multiple completed Phase 2 oral insulin studies (NCT02653300, NCT02496000, NCT02954601, NCT01889667, NCT03467932, NCT00867594, NCT02094534, NCT02535715, NCT04616014, NCT04618744, NCT04150107, NCT04564846)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 1, "P2": 0, "P1": 0, "total_assets": 1}
+}

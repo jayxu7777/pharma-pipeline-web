@@ -1,0 +1,298 @@
+{
+  "issuer_name": "Arrowhead Pharmaceuticals, Inc.",
+  "ticker": "ARWR",
+  "exchange": "Nasdaq",
+  "cik": "0000879407",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2025-11-25", "accession": "0000879407-25-000029", "path": "data/arwr_10k_pipeline_section.html"},
+    "website": {"path": "https://arrowheadpharma.com/en-us/pipeline", "note": "Direct fetch returned only template/CSS; relied on 10-K pipeline table (Cardiometabolic / Liver / Pulmonary / Neuromuscular / Neuro) + ctgov for asset and trial details"},
+    "ctgov": {"path": "data/arwr_ctgov_compact.json", "trials_found": 51, "active_p1_p3_own_sponsor": 18}
+  },
+  "pipeline": [
+    {
+      "asset": "Plozasiran",
+      "aka": ["ARO-APOC3"],
+      "modality": "Subcutaneous RNAi (TRiM, GalNAc-conjugated siRNA)",
+      "target": "Apolipoprotein C-III (APOC3)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Familial chylomicronemia syndrome (FCS)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PALISADE",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 of plozasiran in adults with FCS",
+          "nct_ids": ["NCT05089084"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2024-04); FDA NDA accepted 2025; PDUFA 2025/2026",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["Positive PALISADE topline 2024", "FDA NDA filed and accepted 2025"]
+        },
+        {
+          "indication": "Severe hypertriglyceridemia (sHTG)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SHASTA-3 / SHASTA-4 / MUIR-3 / pancreatitis prevention",
+          "trial_design": "Multiple randomized, double-blind, placebo-controlled Phase 3 studies of plozasiran in adults with severe hypertriglyceridemia (including pancreatitis-risk population)",
+          "nct_ids": ["NCT06347133", "NCT06347003", "NCT06347016", "NCT06880770"],
+          "trial_status": "Three trials ACTIVE_NOT_RECRUITING (primary completion 2026-05/06); pancreatitis-prevention study RECRUITING (primary completion 2029-03)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["sHTG Phase 3 readouts 2026", "Acute pancreatitis prevention readout 2028/2029"]
+        },
+        {
+          "indication": "Hypertriglyceridemia (open-label long-term safety/efficacy)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Plozasiran long-term extension",
+          "trial_design": "Open-label long-term safety and efficacy extension of plozasiran in adults with hypertriglyceridemia",
+          "nct_ids": ["NCT06822790"],
+          "trial_status": "RECRUITING (started 2025-04-09; primary completion 2028-07)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["Long-term extension supporting NDA package"]
+        }
+      ]
+    },
+    {
+      "asset": "Zodasiran",
+      "aka": ["ARO-ANG3"],
+      "modality": "Subcutaneous RNAi (TRiM, GalNAc-conjugated siRNA)",
+      "target": "Angiopoietin-like protein 3 (ANGPTL3)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Homozygous familial hypercholesterolemia (HoFH) — adult and adolescent",
+          "highest_phase": "Phase 3",
+          "trial_name": "Zodasiran HoFH Phase 3 (adult/adolescent and adolescent-only)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 studies of zodasiran in adolescent and adult subjects with HoFH",
+          "nct_ids": ["NCT07037771", "NCT07473843"],
+          "trial_status": "Adult/adolescent study RECRUITING (started 2025-06-17; primary completion 2027-08-20); adolescent-only study NOT_YET_RECRUITING (start 2026-03)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["Phase 3 enrollment ongoing 2025-2026"]
+        },
+        {
+          "indication": "Homozygous familial hypercholesterolemia (HoFH) — Phase 2 ongoing",
+          "highest_phase": "Phase 2",
+          "trial_name": "ARO-ANG3 HoFH Phase 2",
+          "trial_design": "Open-label Phase 2 of ARO-ANG3 (zodasiran) in HoFH patients",
+          "nct_ids": ["NCT05217667"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2023-05)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["Long-term follow-up ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "Fazirsiran",
+      "aka": ["ARO-AAT", "TAK-999"],
+      "modality": "Subcutaneous RNAi (GalNAc-conjugated siRNA)",
+      "target": "Alpha-1 antitrypsin (SERPINA1, mutant Z-AAT)",
+      "license_origin": "Internally discovered; co-developed with Takeda (50/50 US profit share, ex-US Takeda)",
+      "indications": [
+        {
+          "indication": "Liver disease associated with alpha-1 antitrypsin deficiency (AATD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "REDWOOD / RUBY",
+          "trial_design": "Randomized Phase 3 program of fazirsiran in patients with AATD-associated liver disease",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per 10-K pipeline table (Phase 3, co-led with Takeda); not currently surfaced under Arrowhead lead sponsor in ctgov compact",
+          "lead_sponsor": "Takeda / Arrowhead (co-development)",
+          "key_milestones": ["Phase 3 enrollment ongoing 2025-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ARO-INHBE",
+      "aka": [],
+      "modality": "Subcutaneous RNAi",
+      "target": "Inhibin beta E / Activin E (INHBE)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Obesity (with and without type 2 diabetes)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ARO-INHBE first-in-human (with tirzepatide combo arm)",
+          "trial_design": "Randomized, placebo-controlled Phase 1/2a first-in-human of ARO-INHBE in adults with obesity, including a tirzepatide combination arm",
+          "nct_ids": ["NCT06700538"],
+          "trial_status": "RECRUITING (started 2024-12-04; primary completion 2027-09)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["Initial Phase 1/2a data 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ARO-ALK7",
+      "aka": [],
+      "modality": "Subcutaneous RNAi (adipocyte-targeted)",
+      "target": "ACVR1C / Activin receptor-like kinase 7 (ALK7)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Obesity (with and without type 2 diabetes)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ARO-ALK7 first-in-human",
+          "trial_design": "Randomized, placebo-controlled Phase 1/2a first-in-human of ARO-ALK7 in adults with obesity",
+          "nct_ids": ["NCT06937203"],
+          "trial_status": "RECRUITING (started 2025-05-09; primary completion 2026-10)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["Initial Phase 1/2a data 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ARO-DIMERPA",
+      "aka": ["ARO-DIMER-PA"],
+      "modality": "Subcutaneous dual-functional RNAi (PCSK9 / APOC3 dimer)",
+      "target": "APOC3 + PCSK9 (dimer)",
+      "license_origin": "Internally discovered (Greater China rights out-licensed to Sanofi)",
+      "indications": [
+        {
+          "indication": "Mixed hyperlipidemia",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ARO-DIMERPA first-in-human",
+          "trial_design": "Randomized, placebo-controlled Phase 1/2a first-in-human of ARO-DIMERPA in adults with mixed hyperlipidemia",
+          "nct_ids": ["NCT07223658"],
+          "trial_status": "RECRUITING (started 2025-12-22; primary completion 2026-06)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["Initial Phase 1/2a data 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ARO-RAGE",
+      "aka": [],
+      "modality": "Inhaled RNAi (TRiM lung-targeted)",
+      "target": "Receptor for Advanced Glycation End products (AGER/RAGE)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Asthma (allergen-induced mild)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Inhaled ARO-RAGE in mild asthma",
+          "trial_design": "Randomized, placebo-controlled Phase 2 of inhaled ARO-RAGE in allergen-induced mild asthma",
+          "nct_ids": ["NCT07241546"],
+          "trial_status": "RECRUITING (start 2026-03-30; primary completion 2027-12)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["Phase 2 readout 2027/2028"]
+        }
+      ]
+    },
+    {
+      "asset": "ARO-CFB",
+      "aka": [],
+      "modality": "Subcutaneous RNAi (GalNAc-conjugated siRNA)",
+      "target": "Complement factor B (CFB)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "IgA nephropathy / complement-mediated renal disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "ARO-CFB first-in-human",
+          "trial_design": "Randomized, placebo-controlled Phase 1 of ARO-CFB in healthy volunteers (with planned IgAN expansion)",
+          "nct_ids": ["NCT06209177"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2025-03-31); patient cohorts planned",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["Phase 1 healthy-volunteer data 2025; patient expansion next"]
+        }
+      ]
+    },
+    {
+      "asset": "ARO-DUX4",
+      "aka": ["SRP-1001"],
+      "modality": "Subcutaneous/IM RNAi (muscle-targeted TRiM)",
+      "target": "DUX4 mRNA",
+      "license_origin": "Out-licensed to Sarepta in 2025; trial originally Arrowhead-sponsored and listed under Arrowhead in ctgov",
+      "indications": [
+        {
+          "indication": "Facioscapulohumeral muscular dystrophy (FSHD)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ARO-DUX4 / SRP-1001 first-in-human",
+          "trial_design": "Randomized, placebo-controlled Phase 1/2 of ARO-DUX4 in adult and adolescent FSHD patients",
+          "nct_ids": ["NCT06131983"],
+          "trial_status": "RECRUITING (started 2024-02-22; primary completion 2026-12)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals (transitioning to Sarepta under SRP-1001 designation)",
+          "key_milestones": ["Initial FSHD data 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ARO-DM1",
+      "aka": ["SRP-1003"],
+      "modality": "RNAi (muscle-targeted TRiM)",
+      "target": "DMPK CUG-repeat expansion mRNA",
+      "license_origin": "Out-licensed to Sarepta in 2025; trial originally Arrowhead-sponsored",
+      "indications": [
+        {
+          "indication": "Myotonic dystrophy type 1 (DM1)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ARO-DM1 / SRP-1003 first-in-human",
+          "trial_design": "Randomized, placebo-controlled Phase 1/2 of ARO-DM1 IV and SC formulations in DM1 patients",
+          "nct_ids": ["NCT06138743"],
+          "trial_status": "RECRUITING (started 2024-03-04; primary completion 2026-12)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals (transitioning to Sarepta under SRP-1003 designation)",
+          "key_milestones": ["Initial DM1 data 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ARO-ATXN2",
+      "aka": ["SRP-1004"],
+      "modality": "Intrathecal RNAi (CNS-targeted TRiM)",
+      "target": "ATXN2 mRNA",
+      "license_origin": "Out-licensed to Sarepta in 2025; trial originally Arrowhead-sponsored",
+      "indications": [
+        {
+          "indication": "Spinocerebellar ataxia type 2 (SCA2)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ARO-ATXN2 first-in-human",
+          "trial_design": "Open-label Phase 1 of ARO-ATXN2 intrathecal injection in adults with SCA2",
+          "nct_ids": ["NCT06672445"],
+          "trial_status": "RECRUITING (started 2024-12-17; primary completion 2026-12)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals (transitioning to Sarepta)",
+          "key_milestones": ["Initial SCA2 data 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ARO-MAPT",
+      "aka": ["ARO-MAPT-SC"],
+      "modality": "Subcutaneous RNAi (CNS-targeted TRiM)",
+      "target": "MAPT (tau) mRNA",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Early Alzheimer's disease / tauopathies",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ARO-MAPT-SC first-in-human",
+          "trial_design": "Randomized, placebo-controlled Phase 1/2 of ARO-MAPT-SC in healthy subjects and subjects with early Alzheimer's disease",
+          "nct_ids": ["NCT07221344"],
+          "trial_status": "RECRUITING (started 2025-11-18; primary completion 2027-06)",
+          "lead_sponsor": "Arrowhead Pharmaceuticals",
+          "key_milestones": ["Initial Phase 1/2 data 2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "ARO-PNPLA3 (Janssen license terminated; no active trials per 10-K)",
+    "ARO-HTT (Huntington's, preclinical, Sarepta partnership)",
+    "ARO-ATXN1 (SCA1, preclinical, Sarepta partnership)",
+    "ARO-ATXN3 (SCA3, preclinical, Sarepta partnership)",
+    "ARO-C3 (filed for Phase 1/2a clearance; not yet enrolling per ctgov)",
+    "ARO-LPA, ARO-SNCA, ARO-HSD, ARO-MMP7 (next-gen / preclinical)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Olpasiran (Lp(a)) — Amgen-led Phase 3",
+    "GSK4532990 / ARO-HSD — GSK-led Phase 2b in MASH",
+    "Daplusiran/tomligisiran — GSK-led Phase 2 in HBV",
+    "JNJ-3989 / ARO-HBV — out-licensed to GSK",
+    "SRP-1002 / ARO-MMP7 — Sarepta-led IPF program"
+  ],
+  "summary_counts": {
+    "assets_with_active_clinical": 12,
+    "indications_active": 13,
+    "phase_3": 4,
+    "phase_2": 2,
+    "phase_1_2": 5,
+    "phase_1": 1
+  }
+}

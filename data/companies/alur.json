@@ -1,0 +1,43 @@
+{
+  "issuer_name": "Allurion Technologies, Inc.",
+  "ticker": "ALUR",
+  "exchange": "OTC",
+  "cik": "0001964979",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-130483",
+      "filing_date": "2026-03-30",
+      "primary_doc": "alur-20251231.htm",
+      "local_path": "data/alur_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.allurion.com",
+      "note": "Corporate site describes the marketed Allurion Smart Capsule / Balloon device and references the AUDACITY pivotal IDE study (now supporting FDA approval). No drug pipeline page."
+    },
+    "ctgov": {
+      "query": "Allurion",
+      "raw_hits": 4,
+      "kept_p1_p3": 0,
+      "note": "ctgov hits relate to device studies (no Phase 1-3 drug studies).",
+      "local_path": "data/alur_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      "Allurion Balloon (Smart Capsule) — swallowable, fluid-filled intragastric balloon for weight loss; FDA-approved (PMA) following the AUDACITY pivotal IDE study; CE-marked in Europe and approved in many additional markets."
+    ],
+    "supporting_platform": [
+      "Allurion Virtual Care Suite (Iris AI, Allurion App, Allurion Connected Scale) — digital companion tools."
+    ],
+    "regulatory_basis": "Class III medical device approved via PMA (US) / CE-mark (EU). No drug-substance P1/P2/P3 program."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Pure medical-device company (intragastric weight-loss balloon and digital companion tools). All clinical work is device PMA/post-market evidence, not drug-style P1/P2/P3 trials. No proprietary drug or biologic pipeline."
+}

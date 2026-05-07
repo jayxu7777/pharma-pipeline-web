@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Picard Medical, Inc.",
+  "ticker": "PMI",
+  "exchange": "NYSE",
+  "cik": "0002030617",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-26-010133",
+      "filing_date": "2026-03-30",
+      "doc": "pmi20251231_10k.htm",
+      "path": "data/pmi_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "Not pursued — issuer is medical device company (total artificial heart), no drug pipeline page applicable."
+    },
+    "ctgov": {
+      "path": "data/pmi_ctgov_compact.json",
+      "trials_returned": 0,
+      "note": "No P1-P3 sponsored interventional drug trials (device company)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "device": "SynCardia Total Artificial Heart (TAH)",
+    "modality": "Implantable mechanical total artificial heart (70cc and 50cc), with pneumatic Freedom and C2/Companion driver systems",
+    "regulatory": [
+      "FDA PMA approval — 70cc SynCardia TAH for bridge-to-transplant (BTT) in 2004",
+      "FDA PMA approval — 50cc SynCardia TAH for BTT in 2020",
+      "FDA approval (November 2024) — label revisions removing 'temporary' and '-t' from device name and indications",
+      "Health Canada approval (2005)",
+      "Prior EU CE Mark cancelled July 2022 (working toward MDR re-certification)",
+      "China NMPA submission in progress via SMB joint venture"
+    ],
+    "regulatory_pipeline_in_progress": [
+      "180-day PMA supplement (submitted Jan 2025, converted to Panel Track) seeking removal of 'imminent death' language and addition of bridge-to-candidacy (BTC) — FDA decision expected Q3 2026",
+      "Long-term support indication expansion (2+ years) — under evaluation",
+      "Freedom+ Driver PMA supplement under FDA review — approval expected by end of 2026",
+      "Next-gen Freedom Driver — FDA approval expected Q2 2026",
+      "Companion 3 Driver (next-gen C2 hospital driver) — FDA approval expected Q2 2028",
+      "MDR CE Mark (EU) re-certification in progress",
+      "China NMPA approval for 50cc and 70cc SynCardia TAH — initial feedback expected 2026",
+      "Emperor — fully implantable total artificial heart (codename); first-in-animal trials initiated November 2025; animal trials continuing H1 2026; not yet in human clinical studies",
+      "Unicorn — next-generation driver system (codename); regulatory testing expected H2 2026; FDA 180-day PMA supplement submission targeted with approval ~mid-2027"
+    ]
+  },
+  "excluded_preclinical": [
+    "Emperor fully implantable TAH — first-in-animal trials only (Nov 2025), no human clinical trial yet — preclinical/animal stage",
+    "Unicorn next-generation driver system — pre-regulatory testing, no human clinical trial"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company — sole commercial product is the SynCardia Total Artificial Heart (FDA PMA-approved Class III device). No proprietary drug pipeline; all R&D programs (Emperor implantable TAH, Unicorn driver, Freedom+/Companion 3 drivers) are device development tracks pursued via 510(k)/PMA/PMA-supplement pathways, not P1/P2/P3 drug trials. Emperor is currently in animal/preclinical testing only."
+}

@@ -1,0 +1,82 @@
+{
+  "issuer_name": "Marker Therapeutics, Inc.",
+  "ticker": "MRKR",
+  "exchange": "Nasdaq",
+  "cik": "0001094038",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-18",
+      "accession": "0001104659-26-031274",
+      "path": "data/mrkr_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.markertherapeutics.com/pipeline",
+      "note": "Cross-validated via 10-K + ctgov."
+    },
+    "ctgov": {
+      "path": "data/mrkr_ctgov_compact.json",
+      "unique_trials_p1_p3": 8
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "MT-601",
+      "aka": ["multiTAA-specific T-cell therapy"],
+      "modality": "Multi-tumor-associated antigen (multiTAA) specific T cell therapy (autologous/donor-derived)",
+      "target": "Multiple TAAs (PRAME, NY-ESO-1, MAGE-A4, Survivin, SSX2)",
+      "license_origin": "Baylor College of Medicine (in-licensed)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory lymphoma (post-anti-CD19 CAR-T failure)",
+          "highest_phase": "Phase 1",
+          "trial_name": "APOLLO",
+          "trial_design": "Open-label dose-escalation Phase 1",
+          "nct_ids": ["NCT05798897"],
+          "trial_status": "RECRUITING (primary completion 2028-02-28)",
+          "lead_sponsor": "Marker Therapeutics, Inc.",
+          "key_milestones": ["FDA RMAT designation"]
+        },
+        {
+          "indication": "Locally advanced unresectable or metastatic pancreatic cancer",
+          "highest_phase": "Phase 1",
+          "trial_name": "MT-601 in pancreatic cancer",
+          "trial_design": "Open-label Phase 1",
+          "nct_ids": ["NCT06549751"],
+          "trial_status": "NOT_YET_RECRUITING (start 2024-09; primary completion 2027-09)",
+          "lead_sponsor": "Marker Therapeutics, Inc.",
+          "key_milestones": ["FDA Orphan Drug Designation for pancreatic cancer"]
+        }
+      ]
+    },
+    {
+      "asset": "MT-401-OTS",
+      "aka": ["off-the-shelf multiTAA T cell therapy"],
+      "modality": "Off-the-shelf allogeneic multiTAA-specific T cell therapy",
+      "target": "Multiple AML/MDS-associated TAAs",
+      "license_origin": "Baylor College of Medicine",
+      "indications": [
+        {
+          "indication": "Relapsed AML or MDS",
+          "highest_phase": "Phase 1",
+          "trial_name": "MT-401-OTS in AML/MDS",
+          "trial_design": "Open-label dose-finding Phase 1",
+          "nct_ids": ["NCT06552416"],
+          "trial_status": "RECRUITING (start 2025-06-16; primary completion 2029-09)",
+          "lead_sponsor": "Marker Therapeutics, Inc.",
+          "key_milestones": ["FDA Orphan Drug Designation"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "MT-401 (autologous)", "indication": "AML post-HSCT", "nct": "NCT04511130", "reason": "TERMINATED 2024"},
+    {"asset": "TPIV200", "indication": "Ovarian/Breast cancer FRalpha vaccine", "ncts": ["NCT02978222"], "reason": "TERMINATED; legacy program from TapImmune merger, no longer pursued"},
+    {"asset": "TPIV200", "indication": "TNBC / ovarian (completed)", "ncts": ["NCT02593227", "NCT02764333"], "reason": "Completed legacy studies; no follow-on"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 2, "P3": 0, "P2": 0, "P1": 3}
+}

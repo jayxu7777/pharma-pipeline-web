@@ -1,0 +1,36 @@
+{
+  "issuer_name": "Natures Sunshine Products Inc",
+  "ticker": "NATR",
+  "exchange": "Nasdaq",
+  "cik": "0000275053",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Nature's Sunshine Products is a manufacturer and direct seller of nutritional and personal care products (herbal supplements, vitamins, essential oils). It does not operate a drug development program and has no active P1/P2/P3 clinical trials.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-10",
+      "accession": "0001628280-26-016540",
+      "path": "data/natr_10k_pipeline_section.html",
+      "note": "Confirms supplement/consumer-products business model; no drug pipeline disclosed."
+    },
+    "website": {
+      "error": "Not applicable — consumer supplements company; no drug pipeline page."
+    },
+    "ctgov": {
+      "path": "data/natr_ctgov_compact.json",
+      "trials_kept": 0,
+      "note": "No P1-3 trials sponsored by Natures Sunshine Products."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "issuer_name": "Avantor, Inc.",
+  "ticker": "AVTR",
+  "exchange": "NYSE",
+  "cik": "0001722482",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-007118", "filed": "2026-02-11", "doc": "avtr-20251231.htm", "note": "Read for confirmation only - Avantor self-describes as a global provider of mission-critical products and services to customers in life sciences, advanced technologies and applied materials industries (e.g., reagents, chemicals, equipment, single-use systems, services). No proprietary drug pipeline disclosed."},
+    "website": {"error": "Avantor is a life-sciences distributor / supplier; no biopharma 'pipeline' page exists. Did not fetch."},
+    "ctgov": {"file": "data/avtr_ctgov_compact.json", "sponsor_query": "Avantor", "total_studies_returned": 0, "active_p1_to_p3_company_sponsored": 0}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Avantor is a global supplier/distributor of products and services to the life sciences and advanced technologies industries. Brands include VWR (laboratory distribution), J.T.Baker (high-purity chemicals and reagents), Macron Fine Chemicals, NuSil (medical-grade silicones), Masterflex (peristaltic pumps and single-use fluid handling), Nalgene (labware), and Avantor Services (clinical services, biopharma production, lab and production services). Customers include major pharma, biotech, healthcare and education/government institutions. No proprietary therapeutic drug pipeline."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Avantor supplies materials and services into many sponsor-led clinical programs; client-sponsored trials are not Avantor's pipeline and are excluded."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Distribution / services company - no proprietary clinical pipeline. Avantor is a life-sciences supplier, distributor and services provider (lab chemicals, single-use bioprocessing, equipment, services) with no internally developed therapeutic assets. ClinicalTrials.gov returned 0 sponsor records for 'Avantor'."
+}

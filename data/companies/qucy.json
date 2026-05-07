@@ -1,0 +1,29 @@
+{
+  "issuer_name": "Mainz Biomed N.V.",
+  "ticker": "QUCY",
+  "exchange": "Nasdaq",
+  "cik": "0001874252",
+  "region": "Germany / Netherlands (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Molecular diagnostics-only company (in-vitro diagnostics). Develops PCR/mRNA biomarker-based screening tests for colorectal cancer (ColoAlert, CE-IVD certified in EU; ColoAlert offering ended March 2026 ahead of next-generation mRNA-based replacement) and pancreatic cancer (in-licensed mRNA panel from Liquid Biosciences March 2025; PancAlert stool test in early development). No drug product candidates; no FDA drug clinical trials. Validation studies for diagnostics are not pharma P1/P2/P3 in scope.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-037676", "filing_date": "2026-03-31", "form": "10-K", "fiscal_year_end": "2025-12-31", "note": "Filed as a 10-K rather than 20-F despite being a Dutch N.V. — domestic US issuer election"},
+    "website": {"url": "https://www.mainzbiomed.com/", "note": "Molecular cancer screening diagnostics — ColoAlert (CRC) and pancreatic cancer test under development"},
+    "ctgov": {"sponsor_query": "Mainz Biomed", "trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "ColoAlert (until March 2026)",
+    "type": "CE-IVD certified molecular diagnostic test for colorectal cancer (multitarget stool DNA + FIT, KRAS/BRAF mutations)",
+    "status": "Offering wound down March 2026 in favor of next-generation mRNA-based CRC test in development"
+  },
+  "excluded_preclinical": [
+    "Pancreatic cancer mRNA biomarker test (in-licensed from Liquid Biosciences March 2025) — diagnostic, not a drug",
+    "PancAlert (stool-based pancreatic cancer screening) — early development",
+    "Next-generation mRNA-based CRC screening test — diagnostic"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

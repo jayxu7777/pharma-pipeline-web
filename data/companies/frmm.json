@@ -1,0 +1,41 @@
+{
+  "issuer_name": "FORUM MARKETS Inc",
+  "ticker": "FRMM",
+  "exchange": "Nasdaq",
+  "cik": "0001690080",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-01",
+      "accession": "0001213900-26-037888",
+      "path": "data/frmm_10k_pipeline_section.html",
+      "note": "Formerly 180 Life Sciences Corp. In 2025 the company strategically exited its legacy biotechnology and iGaming activities and pivoted to a digital asset treasury management business under the name Forum Markets Inc. All pharmaceutical research operations discontinued; impairment charge ~$7.6M recognized for the legacy pharma platform."
+    },
+    "website": {
+      "error": "no public pipeline page found - company has exited biotech/pharma operations and operates as a digital asset treasury manager"
+    },
+    "ctgov": {
+      "path": "data/frmm_ctgov_compact.json",
+      "kept_p123": 0,
+      "note": "No active sponsored trials under Forum Markets. Legacy 180 Life Sciences trials are discontinued."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "Legacy 180 Life Sciences therapeutic programs",
+      "note": "Discontinued in 2025 as part of strategic shift away from biotech to digital asset treasury management."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Company exited its legacy biotech operations (180 Life Sciences Corp.) in 2025 and rebranded as Forum Markets Inc., a digital asset treasury management company. No active clinical pipeline."
+}

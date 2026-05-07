@@ -1,0 +1,38 @@
+{
+  "issuer_name": "Bon Natural Life Ltd",
+  "ticker": "BON",
+  "exchange": "Nasdaq",
+  "cik": "0001816815",
+  "region": "China (Cayman Islands incorporated)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer (Cayman Islands / China-based) — does not file 10-K with SEC; files 20-F."
+    },
+    "website": {
+      "url": "https://www.bnlus.com/",
+      "note": "Company is a natural ingredients / fragrance / nutraceuticals manufacturer, not a clinical-stage biotech."
+    },
+    "ctgov": {
+      "path": "data/bon_ctgov_compact.json",
+      "trial_count": 0,
+      "note": "No trials registered with the company as sponsor."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Bon Natural Life is a natural products / functional ingredients / fragrance / health supplements company (sclareolide, ambroxide, stachyose prebiotic, apple polyphenol, milk thistle extract, phloretin). It has announced an AI-driven drug discovery initiative leveraging its TCM compound library, but has not advanced any candidate into a clinical (Phase 1/2/3) trial as a sponsor.",
+  "commercial_product": {
+    "categories": ["Fragrance compounds (e.g., sclareolide, ambroxide)", "Health supplements (prebiotic stachyose blends)", "Bioactive food ingredients (apple polyphenol, milk thistle, phloretin)"]
+  },
+  "excluded_preclinical": ["AI-powered TCM drug discovery program (preclinical / discovery stage; no IND filed)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "active_trials": 0
+  }
+}

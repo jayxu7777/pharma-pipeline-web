@@ -1,0 +1,113 @@
+{
+  "issuer_name": "Axogen, Inc.",
+  "ticker": "AXGN",
+  "exchange": "Nasdaq",
+  "cik": "0000805928",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000805928-26-000031",
+      "filing_date": "2026-02-24",
+      "document": "axgn-20251231.htm",
+      "fiscal_year_end": "2025-12-31"
+    },
+    "website": {
+      "error": "no public pipeline page found (axogeninc.com/pipeline returned 404; site is product-focused for surgeons, no investigational pipeline page)"
+    },
+    "ctgov": {
+      "query_sponsor": "Axogen",
+      "trials_returned": 1,
+      "active_phase_trials": 0,
+      "note": "Only Axogen-sponsored ctgov record (NCT01809002, RECON Phase 3) is COMPLETED; supported the Avance BLA approved December 2025."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "approved_or_marketed": [
+      {
+        "name": "Avance Nerve Graft",
+        "modality": "Processed human nerve allograft (biologic, BLA)",
+        "indication": "Repair of peripheral nerve discontinuities (sensory, mixed, and motor nerve gaps)",
+        "regulatory_status": "FDA BLA approved December 2025 under Accelerated Approval; commercial launch of licensed biologic product expected Q2 2026. Distributed under HCT/P enforcement discretion since 2007.",
+        "key_pivotal_trial": "RECON (NCT01809002) Phase 3 completed; primary endpoint met."
+      },
+      {
+        "name": "Axoguard Nerve Connector",
+        "modality": "Class II medical device (porcine small intestine submucosa nerve conduit)",
+        "indication": "Repair of peripheral nerve transections where gap closure can be achieved by flexion",
+        "regulatory_status": "FDA 510(k) cleared; manufactured by Evergen, distributed by Axogen."
+      },
+      {
+        "name": "Axoguard Nerve Protector",
+        "modality": "Class II medical device (porcine small intestine submucosa nerve wrap)",
+        "indication": "Repair of peripheral nerve damage with no gap or flex-closable gap",
+        "regulatory_status": "FDA 510(k) cleared; manufactured by Evergen."
+      },
+      {
+        "name": "Axoguard Nerve Cap",
+        "modality": "Class II medical device (chambered nerve cap)",
+        "indication": "Protection and preservation of terminated nerve ends; symptomatic neuroma management",
+        "regulatory_status": "FDA 510(k) K163446 cleared."
+      },
+      {
+        "name": "Axoguard HA+ Nerve Protector",
+        "modality": "Class II medical device (hyaluronic-acid-coated nerve protector)",
+        "indication": "Peripheral nerve protection (incl. revision cubital tunnel decompression)",
+        "regulatory_status": "FDA 510(k) K223640 (Apr 2023) and K231708 (Oct 2023) cleared."
+      },
+      {
+        "name": "Avive+ Soft Tissue Matrix",
+        "modality": "Human placental membrane allograft (HCT/P)",
+        "indication": "Soft tissue covering / nerve protection",
+        "regulatory_status": "Marketed under Section 361 PHS Act / 21 CFR Part 1271; launched Q2 2024."
+      }
+    ]
+  },
+  "ongoing_post_market_or_registry_studies": [
+    {
+      "name": "RANGER (parent + MATCH addendum)",
+      "design": "Multicenter retrospective utilization registry of Avance Nerve Graft",
+      "status": "Enrollment, follow-up and analysis completed; close-out underway",
+      "purpose": "Real-world evidence supporting BLA"
+    },
+    {
+      "name": "Sensation-NOW (RANGER Addendum 2)",
+      "design": "Registry of breast neurotization outcomes after autologous breast reconstruction",
+      "status": "Enrollment completed November 2025"
+    },
+    {
+      "name": "REPOSE-XL",
+      "design": "Prospective multicenter pilot, tolerability/feasibility of Axoguard Large-Diameter Nerve Cap (5-7mm)",
+      "status": "Enrollment completed January 2025; post-market device feasibility study (not pivotal)"
+    },
+    {
+      "name": "COVERED",
+      "design": "Prospective multicenter case series of Axoguard HA+ Nerve Protector in first revision cubital tunnel decompression",
+      "status": "Enrollment completed March 2025; post-market device evidence study"
+    },
+    {
+      "name": "Avance PMR comparative study (planned)",
+      "design": "FDA Post-Marketing Requirement: Avance vs. nerve autograft",
+      "status": "Final protocol due February 2026; trial completion target December 2030; Phase 4 post-approval"
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "name": "Avive Soft Tissue Membrane (predecessor of Avive+)",
+      "reason": "Withdrawn from market; ASSIST registry closed with no planned analysis."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "approved_marketed_products": 6,
+    "post_market_or_registry_studies": 5
+  },
+  "no_active_clinical_pipeline_reason": "Axogen is a peripheral nerve repair medtech / biologic company. Its only Phase 3 program (Avance Nerve Graft, RECON pivotal NCT01809002) was approved by FDA under BLA in December 2025 and has now transitioned to commercial product. All Axoguard devices are FDA 510(k) cleared and commercially marketed. Remaining active studies are registries, post-market device feasibility studies, or planned Phase 4 PMR work — no investigational P1/P2/P3 assets in development."
+}

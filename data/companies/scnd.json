@@ -1,0 +1,39 @@
+{
+  "issuer_name": "SCIENTIFIC INDUSTRIES INC",
+  "ticker": "SCND",
+  "exchange": "OTC",
+  "cik": "0000087802",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001654954-26-003102",
+      "filing_date": "2026-03-31",
+      "doc": "scnd_10k.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found (https://scientificindustries.com/pipeline 404). Corporate site advertises lab/bioprocess instruments, not a clinical pipeline."
+    },
+    "ctgov": {
+      "query_sponsor": "Scientific Industries",
+      "studies_returned": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "Torbal": "Weighing and measurement products (Benchtop Laboratory Equipment Operations).",
+    "Bioprocessing Systems": "Sensors and bioprocess monitoring products (sold to biotech/biopharma customers as suppliers, not company-owned therapeutics).",
+    "Genie (divested)": "Vortex/mixer product line sold to Troemner LLC on 2025-08-07 (discontinued operations)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Scientific Industries is a benchtop laboratory equipment and bioprocessing instrumentation supplier (Torbal weighing scales; Bioprocessing Systems sensors). It sells tools to life-science customers and does not develop or sponsor any drug or device clinical trials. Adjacent_medtech_dx bucket is technically correct but issuer has no proprietary clinical pipeline."
+}

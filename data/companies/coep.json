@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Coeptis Therapeutics Holdings, Inc.",
+  "ticker": "COEP",
+  "exchange": "Nasdaq",
+  "cik": "0001759186",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001683168-26-002026",
+      "filing_date": "2026-03-19",
+      "doc": "coeptis_i10k-123125.htm",
+      "local_path": "data/coep_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://coeptis.com/",
+      "note": "Homepage describes SNAP-CAR and stem-cell expansion platforms in narrative form; no dedicated public pipeline table found at /pipeline (404). Investor materials confirm all assets remain preclinical or completed Phase 1."
+    },
+    "ctgov": {
+      "query": "lead sponsor: Coeptis Therapeutics",
+      "unique_trials_p1_p3": 2,
+      "all_completed": true,
+      "local_path": "data/coep_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {
+      "asset": "SNAP-CAR (cell therapy platform)",
+      "modality": "Switchable adaptor-based CAR T / CAR NK cell therapy",
+      "indication": "Hematologic and solid tumor oncology",
+      "status": "Preclinical; SNAP Biosciences subsidiary licensed Monarch Therapeutics small-molecule adaptor platform (May 2025) and continues IND-enabling work via Karolinska Institutet (KI) grant. No active IND or open clinical trial as of FY2025 10-K."
+    },
+    {
+      "asset": "GEAR Cell Therapy Platform",
+      "modality": "Gene-edited NK / immune effector cell therapy",
+      "indication": "Hematologic malignancies and other cancers",
+      "status": "Preclinical. Worldwide exclusive rights acquired from Vy-Gen-Bio in March 2025; Coeptis stated intent to advance GEAR-modified NK cells into first-in-human studies but no IND or NCT trial open as of FY2025 10-K."
+    },
+    {
+      "asset": "CPT60621",
+      "modality": "Small molecule (legacy in-licensed program)",
+      "indication": "Not specified",
+      "status": "Program paused per FY2025 disclosures; no active clinical trial."
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "DVX201",
+      "aka": ["unmodified pooled-donor CD34+ NK cell therapy"],
+      "indication_1": "COVID-19 pneumonia",
+      "nct_id_1": "NCT04900454",
+      "phase_1": "PHASE1",
+      "status_1": "COMPLETED (primary completion 2022-06-07)",
+      "indication_2": "Relapsed/refractory AML and high-risk MDS",
+      "nct_id_2": "NCT04901416",
+      "phase_2": "PHASE1",
+      "status_2": "COMPLETED (primary completion 2023-10-15)",
+      "note": "Both Phase 1 trials acquired with Deverra IND/asset purchase (Aug 2023). Trials are completed; no ongoing or follow-on company-sponsored clinical study disclosed in FY2025 10-K. Excluded per active P1/P2/P3 scope."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Although Coeptis is a development-stage cell-therapy company with platforms (SNAP-CAR, GEAR) and inherited DVX201 IND assets, no proprietary asset is currently in an active recruiting/ongoing Phase 1, 2, or 3 clinical trial as of the FY2025 10-K. The two acquired DVX201 NK-cell Phase 1 trials (NCT04900454, NCT04901416) are both COMPLETED. SNAP-CAR and GEAR platforms remain preclinical. The company also disclosed going-concern doubt and a planned Z Squared merger / biotech spin-out."
+}

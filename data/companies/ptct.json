@@ -1,0 +1,115 @@
+{
+  "issuer_name": "PTC Therapeutics, Inc.",
+  "ticker": "PTCT",
+  "exchange": "Nasdaq",
+  "cik": "0001070081",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-19", "accession": "0001104659-26-017575", "path": "data/ptct_10k_pipeline_section.html"},
+    "website": {"path": "https://www.ptcbio.com/our-pipeline/", "note": "Website pipeline page returned only template; relied on 10-K narrative + ctgov for assets, phases, and trial NCTs"},
+    "ctgov": {"path": "data/ptct_ctgov_compact.json", "trials_found": 69, "active_p1_p3_own_sponsor": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "Sepiapterin (Sephience)",
+      "aka": ["PTC923"],
+      "modality": "Oral synthetic sepiapterin (BH4 precursor)",
+      "target": "Phenylalanine hydroxylase pathway / BH4 cofactor restoration",
+      "license_origin": "Acquired via Censa Pharmaceuticals (2020)",
+      "indications": [
+        {
+          "indication": "Phenylketonuria (PKU)",
+          "highest_phase": "Approved (US/EEA/Japan); Phase 3 long-term + pediatric ongoing",
+          "trial_name": "APHENITY long-term safety / pediatric Phase 3",
+          "trial_design": "Open-label long-term safety study and pediatric Phase 3 of sepiapterin in PKU",
+          "nct_ids": ["NCT06302348", "NCT05166161"],
+          "trial_status": "RECRUITING / ACTIVE_NOT_RECRUITING (primary completion 2026-06 and 2031-02)",
+          "lead_sponsor": "PTC Therapeutics",
+          "key_milestones": ["Sephience approved in US, EEA, Japan in 2024-2025", "Pediatric and LTS data continuing"]
+        }
+      ]
+    },
+    {
+      "asset": "Vatiquinone",
+      "aka": ["PTC743", "EPI-743"],
+      "modality": "Oral small-molecule 15-lipoxygenase inhibitor",
+      "target": "15-lipoxygenase (15-LO) / ferroptosis pathway",
+      "license_origin": "Acquired via BioElectron Technology",
+      "indications": [
+        {
+          "indication": "Friedreich ataxia (FA) — children and young adults",
+          "highest_phase": "Phase 3 (long-term extension) — NDA received CRL Aug 2025",
+          "trial_name": "MOVE-FA OLE / Phase 3 LTE",
+          "trial_design": "Open-label long-term extension of MOVE-FA Phase 3 of vatiquinone in pediatric and young-adult FA",
+          "nct_ids": ["NCT05515536"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2027-12); FDA issued CRL on NDA in Aug 2025; additional adequate and well-controlled study required",
+          "lead_sponsor": "PTC Therapeutics",
+          "key_milestones": ["NDA submitted Dec 2024", "FDA CRL Aug 2025 — refiling/new study path under evaluation"]
+        }
+      ]
+    },
+    {
+      "asset": "Eladocagene exuparvovec (Upstaza / Kebilidi)",
+      "aka": ["AAV2-hAADC"],
+      "modality": "AAV2 gene therapy (intracerebral)",
+      "target": "DDC (dopa decarboxylase) gene replacement",
+      "license_origin": "Acquired from National Taiwan University",
+      "indications": [
+        {
+          "indication": "Aromatic L-Amino Acid Decarboxylase (AADC) deficiency",
+          "highest_phase": "Approved (EEA as Upstaza, US as Kebilidi); Phase 2 device study ongoing",
+          "trial_name": "SmartFlow MR-compatible cannula study",
+          "trial_design": "Open-label Phase 2 of SmartFlow MR-compatible ventricular cannula for administration of eladocagene exuparvovec in AADC deficiency",
+          "nct_ids": ["NCT04903288"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2023-05)",
+          "lead_sponsor": "PTC Therapeutics",
+          "key_milestones": ["Approved in EEA 2022; FDA approval (Kebilidi) Nov 2024"]
+        }
+      ]
+    },
+    {
+      "asset": "Votoplam",
+      "aka": ["PTC518"],
+      "modality": "Oral small-molecule splicing modulator",
+      "target": "Huntingtin (HTT) mRNA splicing",
+      "license_origin": "Internally discovered; out-licensed to Novartis Nov 2024 ($1.0B upfront)",
+      "indications": [
+        {
+          "indication": "Huntington's disease (HD)",
+          "highest_phase": "Phase 2 complete; Phase 3 to be initiated by Novartis 1H 2026",
+          "trial_name": "PIVOT-HD / PIVOT-HD OLE",
+          "trial_design": "Phase 2 placebo-controlled study (PIVOT-HD) plus open-label long-term extension; Phase 3 confirmatory study to be initiated by Novartis",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 met primary endpoints (May 2025); End-of-Phase 2 alignment with FDA Q4 2025; Novartis-led Phase 3 to start 1H 2026",
+          "lead_sponsor": "Novartis (sponsorship transitioned from PTC)",
+          "key_milestones": ["Phase 2 positive May 2025", "PIVOT-HD OLE 24-month data 1H 2026", "Novartis Phase 3 start 1H 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_products": ["Sephience (sepiapterin) — PKU", "Translarna (ataluren) — DMD ex-US (EU MA not renewed 2025)", "Emflaza (deflazacort) — DMD US", "Upstaza/Kebilidi (eladocagene exuparvovec) — AADC deficiency", "Tegsedi (inotersen) — hATTR (LatAm rights)", "Waylivra (volanesorsen) — FCS/FPL (LatAm rights)", "Evrysdi (risdiplam) — SMA (Roche partnership royalty)"]
+  },
+  "excluded_preclinical": [
+    "Inflammation and ferroptosis platform — earlier programs",
+    "Multiple AADC / DMD lifecycle studies in registry only or completed"
+  ],
+  "excluded_legacy_terminated": [
+    "Utreloxastat (PTC857) — CardinALS Phase 2 ALS missed primary Nov 2024; discontinued",
+    "Unesbulin in leiomyosarcoma — SunriseLMS prior Phase 2 (de-prioritized per PTC strategic update)"
+  ],
+  "excluded_partner_owned": [
+    "Risdiplam (Evrysdi) — Roche-led commercialization; PTC receives royalties",
+    "Votoplam Phase 3 — sponsorship transitioned to Novartis (still listed above as PTC asset since PTC discovered and retains economics)"
+  ],
+  "summary_counts": {
+    "assets_with_active_clinical": 4,
+    "indications_active": 4,
+    "phase_3": 2,
+    "phase_2": 2,
+    "phase_1_2": 0,
+    "phase_1": 0
+  }
+}

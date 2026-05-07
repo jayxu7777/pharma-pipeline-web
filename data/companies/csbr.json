@@ -1,0 +1,38 @@
+{
+  "issuer_name": "CHAMPIONS ONCOLOGY, INC.",
+  "ticker": "CSBR",
+  "exchange": "Nasdaq",
+  "cik": "0000771856",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-25-035765",
+      "filing_date": "2025-07-23",
+      "filename": "csbr-20250430.htm",
+      "summary": "Technology-enabled oncology research organization with three business lines: research services (PDX TumorBank), Lumin SaaS, and a nascent drug discovery and development effort (targets at various stages of discovery and validation; no human clinical trials of internal candidates)."
+    },
+    "website": {
+      "url": "https://www.championsoncology.com/",
+      "summary": "Confirms Champions operates as oncology CRO providing services; no internal drug candidates in clinical trials"
+    },
+    "ctgov": {
+      "query_sponsor": "Champions Oncology",
+      "p1_p3_trials": 0
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Technology-enabled oncology research/CRO services company (PDX TumorBank, Lumin SaaS). The internal drug discovery effort (targeted therapy with drug conjugates, immuno-oncology, cell therapy) remains at preclinical discovery/validation stage; no proprietary product candidates in P1/P2/P3 human clinical trials.",
+  "excluded_preclinical": [
+    "Internal drug discovery programs in targeted drug conjugates, immuno-oncology, and cell therapy (discovery/validation stages)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

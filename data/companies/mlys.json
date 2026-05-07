@@ -1,0 +1,69 @@
+{
+  "issuer_name": "Mineralys Therapeutics, Inc.",
+  "ticker": "MLYS",
+  "exchange": "Nasdaq",
+  "cik": "0001933414",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001933414-26-000056", "filed": "2026-03-12", "form": "10-K"},
+    "website": {"url": "https://mineralystx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Mineralys Therapeutics", "trials_returned": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "Lorundrostat",
+      "aka": ["MLS-101"],
+      "modality": "Small molecule",
+      "target": "Aldosterone synthase (CYP11B2)",
+      "license_origin": "In-licensed from Tanabe Pharma Corporation",
+      "indications": [
+        {
+          "indication": "Uncontrolled / resistant hypertension",
+          "highest_phase": "Phase 3",
+          "trial_name": "Launch-HTN (pivotal Phase 3) and Advance-HTN (pivotal Phase 2)",
+          "trial_design": "Launch-HTN: global Phase 3, randomized, double-blind, placebo-controlled add-on (n=1,083). Advance-HTN: pivotal Phase 2, randomized, double-blind, placebo-controlled.",
+          "nct_ids": ["NCT06153693", "NCT05769608"],
+          "trial_status": "Both pivotal trials reported positive topline March 2025; Launch-HTN COMPLETED (primary completion 2024-12-10); Advance-HTN COMPLETED (primary completion 2025-01-15). NDA submission planned.",
+          "lead_sponsor": "Mineralys Therapeutics Inc.",
+          "key_milestones": ["Launch-HTN met primary endpoint with -11.6 mmHg placebo-adjusted SBP reduction at Week 12", "Pivotal results reported March 2025"]
+        },
+        {
+          "indication": "Hypertension + chronic kidney disease (CKD) with albuminuria",
+          "highest_phase": "Phase 2",
+          "trial_name": "Explore-CKD",
+          "trial_design": "Phase 2 randomized, placebo-controlled add-on to SGLT2i",
+          "nct_ids": ["NCT06150924"],
+          "trial_status": "COMPLETED (primary completion 2025-02-27)",
+          "lead_sponsor": "Mineralys Therapeutics Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Hypertension + obstructive sleep apnea (OSA)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Explore-OSA",
+          "trial_design": "Phase 2 randomized, placebo-controlled",
+          "nct_ids": ["NCT06785454"],
+          "trial_status": "COMPLETED (primary completion 2025-12-17)",
+          "lead_sponsor": "Mineralys Therapeutics Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Hypertension (long-term safety/efficacy extension)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Transform-HTN open-label extension",
+          "trial_design": "Open-label extension for participants from pivotal program",
+          "nct_ids": ["NCT05968430"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Mineralys Therapeutics Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "indications": 4, "phase3": 2, "phase2": 2, "phase1": 0}
+}

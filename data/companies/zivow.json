@@ -1,0 +1,25 @@
+{
+  "issuer_name": "Zivo Bioscience, Inc.",
+  "ticker": "ZIVOW",
+  "exchange": "OTC",
+  "cik": "0001101026",
+  "region": "USA",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/zivow_10k_full.htm", "filing_date": "2025-03-18", "accession": "0001654954-25-002948", "note": "Pipeline section heading not detected by automated slicer; full filing reviewed"},
+    "website": {"url": "https://www.zivobioscience.com/", "note": "Algae-based animal feed and human functional food/nutraceutical products; no FDA-regulated drug candidates in clinical trials"},
+    "ctgov": {"file": "data/zivow_ctgov_compact.json", "trials": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Zivo Bioscience is a research and development biotech focused on algae-based product formulations: bovine mastitis feed ingredient, poultry productivity formulations, and human functional food/nutraceuticals (Zivolife algal biomass). 10-K mentions clinical trials only in generic risk-factor language; no specific drug candidates are in active Phase 1/2/3 trials, and zero sponsored studies appear on ClinicalTrials.gov. Recent (April 2026) news: commercial-scale manufacturing agreement with Cyanotech for Zivolife algal biomass.",
+  "excluded_preclinical": [
+    {"asset": "Bovine mastitis algal feed ingredient", "reason": "Animal/feed product, not human clinical-stage drug"},
+    {"asset": "Poultry productivity algal formulation", "reason": "Animal/feed product"},
+    {"asset": "Zivolife human functional food (cholesterol/immune)", "reason": "Nutraceutical / functional food, not drug candidate"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0},
+  "blockers": "No active human clinical-stage pharmaceutical pipeline; nutraceutical/animal-feed company."
+}

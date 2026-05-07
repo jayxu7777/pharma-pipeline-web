@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Zivo Bioscience, Inc.",
+  "ticker": "ZIVO",
+  "exchange": "OTC",
+  "cik": "0001101026",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001654954-25-002948",
+      "filing_date": "2025-03-18",
+      "primary_doc": "zivo_10k.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found"
+    },
+    "ctgov": {
+      "sponsor_query": "Zivo Bioscience",
+      "trials_returned": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {
+      "asset": "Coccidiosis poultry feed-additive product candidate",
+      "modality": "Algal biomass / bioactive fraction",
+      "indications": ["Poultry coccidiosis", "Avian influenza (LPAI)"],
+      "status": "Animal/poultry application; under USDA regulatory pathway. Not a human clinical asset."
+    }
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "Zivo Bioscience is an algae-derived bioactive ingredient company. Its product candidates target poultry feed-additive (USDA pathway) and human food/nutraceutical (FDA GRAS pathway) applications. There are no active human Phase 1/2/3 clinical trials. Commercial product Zivolife is a vegan protein powder.",
+  "commercial_product": {
+    "name": "Zivolife",
+    "description": "Algae-derived vegan protein powder; first algae of its kind in the consumer protein market."
+  },
+  "summary_counts": {
+    "assets": 0,
+    "indications": 0,
+    "p1_count": 0,
+    "p2_count": 0,
+    "p3_count": 0
+  }
+}

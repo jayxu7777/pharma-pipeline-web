@@ -1,0 +1,36 @@
+{
+  "issuer_name": "LABCORP HOLDINGS INC.",
+  "ticker": "LH",
+  "exchange": "NYSE",
+  "cik": "0000920148",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filed_status": "10-K downloaded; pipeline-section heading not found by slicer because Labcorp is a clinical lab and CRO-type service company without a proprietary drug pipeline.",
+      "file": "data/lh_10k_full.htm"
+    },
+    "website": {
+      "error": "Labcorp does not publish a drug pipeline page; corporate site features Diagnostics and Biopharma Laboratory Services offerings, not P1/P2/P3 assets."
+    },
+    "ctgov": {
+      "file": "data/lh_ctgov_compact.json",
+      "note": "Studies where Labcorp appears are largely sponsor-funded trials in which Labcorp serves as central lab / CRO / collaborator, not as IND owner."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Labcorp operates two reporting segments: Labcorp Diagnostics (clinical lab testing across routine, esoteric, and specialty areas) and Labcorp Biopharma Laboratory Services (central labs, companion diagnostics, and biomarker services for pharma sponsors)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Distribution / services company \u2014 no proprietary clinical pipeline. Labcorp is a diagnostics laboratory operator and contract research / central-lab services provider; clinical trials in which Labcorp is named are sponsor-funded (pharma or device companies) and Labcorp owns no IND-stage molecular entity in P1/P2/P3."
+}

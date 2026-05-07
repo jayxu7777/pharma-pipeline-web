@@ -1,0 +1,116 @@
+{
+  "issuer_name": "Cadrenal Therapeutics, Inc.",
+  "ticker": "CVKD",
+  "exchange": "Nasdaq",
+  "cik": "0001937993",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "No 10-K found in recent SEC submissions (small/recent filer)"
+    },
+    "website": {
+      "url": "https://www.cadrenal.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "file": "data/cvkd_ctgov_compact.json",
+      "trial_count": 0,
+      "note": "No Cadrenal-sponsored studies currently posted on ClinicalTrials.gov; pivotal Phase 3 trials are in planning/initiation stage."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Tecarfarin",
+      "aka": [],
+      "modality": "Small molecule oral vitamin K antagonist (VKA)",
+      "target": "Vitamin K epoxide reductase complex 1 (VKORC1)",
+      "license_origin": "Internal (acquired program)",
+      "indications": [
+        {
+          "indication": "Anticoagulation in patients with HeartMate 3 left ventricular assist device (LVAD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TECH-LVAD (TECarfarin Anticoagulation and Hemocompatibility with LVADs)",
+          "trial_design": "Pivotal Phase 3 trial of tecarfarin vs warfarin in LVAD patients; planned with Abbott collaboration; cGMP manufacturing complete; preceded by single-site U.S. Phase 2 study with Abbott",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pivotal Phase 3 in initiation; Phase 2 ongoing with Abbott",
+          "lead_sponsor": "Cadrenal Therapeutics, Inc.",
+          "key_milestones": [
+            "Orphan Drug Designation (LVAD) granted",
+            "Collaboration agreement with Abbott announced",
+            "cGMP manufacturing complete"
+          ]
+        },
+        {
+          "indication": "Chronic anticoagulation in end-stage kidney disease (ESKD) with atrial fibrillation",
+          "highest_phase": "Phase 3",
+          "trial_name": "Tecarfarin pivotal study (ESKD+AFib)",
+          "trial_design": "Phase 3-ready pivotal study under Orphan Drug + Fast Track designation",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 3-ready; trial not yet initiated as of snapshot",
+          "lead_sponsor": "Cadrenal Therapeutics, Inc.",
+          "key_milestones": [
+            "Orphan Drug Designation granted (ESKD+AFib)",
+            "Fast Track designation granted (ESKD+AFib)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Frunexian",
+      "aka": ["EP-7041"],
+      "modality": "Small molecule IV Factor XIa inhibitor",
+      "target": "Coagulation Factor XIa",
+      "license_origin": "Acquired from eXIthera Pharmaceuticals (September 2025)",
+      "indications": [
+        {
+          "indication": "Acute anticoagulation in cardiac surgery / acute critical care (device-related thrombosis)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Frunexian acute care pivotal program",
+          "trial_design": "Phase 2-ready IV Factor XIa inhibitor for acute/critical care hospital settings, including complex cardiac surgeries",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 2-ready; no active trial registered",
+          "lead_sponsor": "Cadrenal Therapeutics, Inc.",
+          "key_milestones": [
+            "Acquired Sept 2025 from eXIthera"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "CAD-1005",
+      "aka": [],
+      "modality": "Anticoagulant (heparin alternative)",
+      "target": "Heparin-induced thrombocytopenia setting",
+      "license_origin": "Internal/acquired",
+      "indications": [
+        {
+          "indication": "Heparin-induced thrombocytopenia (HIT)",
+          "highest_phase": "Phase 3",
+          "trial_name": "CAD-1005 HIT pivotal Phase 3",
+          "trial_design": "FDA-guided pivotal Phase 3 registration trial following End-of-Phase 2 meeting (April 2026)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pivotal Phase 3 registration path agreed with FDA April 2026",
+          "lead_sponsor": "Cadrenal Therapeutics, Inc.",
+          "key_milestones": [
+            "End-of-Phase 2 meeting held April 2026",
+            "FDA-agreed Phase 3 registration path"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Second-generation 12-LOX oral therapeutics (early development)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 3,
+    "phase_3": 3,
+    "phase_2": 1,
+    "phase_1": 0,
+    "note": "Counts include indications with planned/initiated P3 (tecarfarin LVAD + ESKD/AFib, CAD-1005 HIT) and frunexian P2-ready. No NCTs on public registries yet."
+  }
+}

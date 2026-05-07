@@ -1,0 +1,43 @@
+{
+  "issuer_name": "REGENEREX PHARMA, INC.",
+  "ticker": "RGPX",
+  "exchange": "OTC",
+  "cik": "0001357878",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "10-K fetched but pipeline section heading not detected; manual review confirms wound-care commercialization stage with no internal clinical drug pipeline."
+    },
+    "website": {
+      "url": "https://regenerex.com/",
+      "note": "Domain redirect; wound-care product company. Per public news (Sep 2025 Holista Colltech supply/development agreement), Regenerex plans future clinical studies of advanced wound-care collagen products but no active IND-stage drug program disclosed."
+    },
+    "ctgov": {
+      "trials_kept": 1,
+      "note": "Single hit (NCT-Talaris-sponsored Phase 2) is a Talaris Therapeutics trial unrelated to current Regenerex Pharma; status TERMINATED. Excluded as partner/legacy."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Advanced wound care portfolio",
+    "description": "Chronic Wound Closure Technology, Acute Wound Acceleration Technology, and Contamination Control Technology for diabetic foot ulcers, venous ulcers, burns, and pressure ulcers."
+  },
+  "no_active_clinical_pipeline_reason": "Regenerex Pharma is a wound-care products company without active Phase 1/2/3 drug candidates registered on public trial registries. Future FDA studies announced but not yet enrolled.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "nct_id": "search-result",
+      "sponsor": "Talaris Therapeutics Inc.",
+      "reason": "Trial sponsor not Regenerex Pharma; status TERMINATED."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

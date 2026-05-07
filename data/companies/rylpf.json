@@ -1,0 +1,26 @@
+{
+  "issuer_name": "KONINKLIJKE PHILIPS NV",
+  "ticker": "RYLPF",
+  "exchange": "OTC",
+  "cik": "0000313216",
+  "region": "NL",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F, not 10-K"},
+    "website": {"error": "no public drug pipeline page (Philips is a medical-device / health-technology company, not a drug developer)"},
+    "ctgov": {"unique_trials_p1_p3": "see compact", "compact_path": "data/rylpf_ctgov_compact.json", "note": "Trials listed are predominantly investigator-initiated studies in which Philips imaging/monitoring devices are used as tools, plus a small number of Philips-subsidiary-sponsored device studies (Philips Electronics Nederland BV, Philips Portuguesa S.A.). No proprietary drug candidates."}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Philips is a global health-technology company. Marketed product portfolio includes Diagnostic Imaging (CT, MRI, ultrasound, IGT), Patient Monitoring, Image-Guided Therapy, Sleep & Respiratory Care, and Personal Health. These are commercialized medical devices, not drugs.",
+    "categories": ["Diagnostic Imaging", "Image-Guided Therapy", "Patient Monitoring", "Sleep & Respiratory Care", "Personal Health"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"reason": "Philips appears in many ClinicalTrials.gov entries as a device provider in investigator-initiated or third-party-sponsored studies (e.g. NIH/NHLBI, NYU Langone, Guy's and St Thomas', Region Skane, Imunon, Complexa). These are not Philips proprietary clinical programs and are excluded."}
+  ],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Philips is a medical-device / health-technology company (foreign private issuer; files 20-F rather than 10-K). It does not develop proprietary drug candidates. ClinicalTrials.gov entries naming Philips/Philips subsidiaries are overwhelmingly investigator-initiated trials using Philips imaging or monitoring equipment as a tool, not company-sponsored pivotal device IDE studies of new investigational devices. No active proprietary P1/P2/P3 drug or pivotal IDE pipeline reportable under this scope."
+}

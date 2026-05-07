@@ -1,0 +1,52 @@
+{
+  "issuer_name": "Galera Therapeutics, Inc.",
+  "ticker": "GRTX",
+  "exchange": "OTC",
+  "cik": "0001563577",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001563577-26-000005", "filed": "2026-03-19", "path": "data/grtx_10k_pipeline_section.html"},
+    "website": {"url": "https://www.galeratx.com/pipeline", "note": "Pipeline shows tilarginine (L-NMMA) as sole asset; pipeline graphic image."},
+    "ctgov": {"path": "data/grtx_ctgov_compact.json", "trials_under_galera_sponsor": 17, "active_galera_sponsored": 0, "note": "All Galera-sponsored trials are completed or terminated; current lead asset trial is investigator-sponsored by Houston Methodist (NCT05660083)."}
+  },
+  "pipeline": [
+    {
+      "asset": "Tilarginine",
+      "aka": ["L-NMMA", "NG-monomethyl-L-arginine"],
+      "modality": "Small molecule (pan-NOS inhibitor)",
+      "target": "Nitric oxide synthase (pan-NOS / iNOS)",
+      "license_origin": "In-licensed via Nova Pharmaceuticals acquisition (Dec 30, 2024) from Houston Methodist Hospital",
+      "indications": [
+        {
+          "indication": "HER2-negative metaplastic breast cancer (MpBC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Alpelisib/iNOS Inhibitor/Nab-paclitaxel in Patients With HER2 Negative Metaplastic Breast Cancer",
+          "trial_design": "Investigator-sponsored Phase 1/2 of L-NMMA (tilarginine) + nab-paclitaxel + alpelisib; Phase 2a portion reached in 2025; expanded to MD Anderson and NIH Clinical Center.",
+          "nct_ids": ["NCT05660083"],
+          "trial_status": "Recruiting (Phase 2)",
+          "lead_sponsor": "The Methodist Hospital Research Institute (NIH-funded; drug supply provided by investigators); Galera owns the asset",
+          "key_milestones": ["Phase 2a portion reached in 2025", "Expansion sites added: MD Anderson and NIH Clinical Center"]
+        },
+        {
+          "indication": "Triple-negative breast cancer (TNBC) — second program",
+          "highest_phase": "Planned",
+          "trial_name": "Planned trial in collaboration with I-SPY 2 consortium",
+          "trial_design": "Planned, contingent on additional capital",
+          "nct_ids": [],
+          "trial_status": "PLANNED — contingent on Galera securing additional capital; collaboration with I-SPY 2 consortium",
+          "lead_sponsor": "Galera Therapeutics (planned)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Avasopasem manganese (GC4419)", "reason": "Sold to Biossil, Inc. in October 2025; no longer Galera-owned. Historical ROMAN Phase 3 (NCT03689712) and other studies completed/terminated."},
+    {"asset": "Rucosopasem manganese (GC4711)", "reason": "Sold to Biossil, Inc. in October 2025; no longer Galera-owned. Phase 2b pancreatic NCT04698915 and Phase 1/2 NSCLC NCT04476797 terminated."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 0, "p2": 1, "p1": 0, "planned": 1}
+}

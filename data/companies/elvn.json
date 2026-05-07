@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Enliven Therapeutics, Inc.",
+  "ticker": "ELVN",
+  "exchange": "Nasdaq",
+  "cik": "0001672619",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-088232",
+      "filed": "2026-03-03",
+      "doc": "elvn-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.enliventherapeutics.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "Enliven Therapeutics",
+      "trial_count": 4
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "ELVN-001",
+      "aka": [],
+      "modality": "Oral small molecule, ATP-competitive selective tyrosine kinase inhibitor",
+      "target": "BCR-ABL (BCR::ABL1 fusion)",
+      "license_origin": "Internal (worldwide rights)",
+      "indications": [
+        {
+          "indication": "Chronic Myeloid Leukemia (CML), 2L+ (incl. T315I mutation)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ENABLE (Phase 1a/1b); ENABLE-2 (Phase 3 planned)",
+          "trial_design": "Phase 1a/1b dose escalation/expansion in heavily pre-treated CML; ENABLE-2 planned 2L+ Phase 3 pivotal trial",
+          "nct_ids": ["NCT05304377", "NCT06787144"],
+          "trial_status": "Recruiting (Phase 1 ongoing); ENABLE-2 Phase 3 initiation planned H2 2026",
+          "lead_sponsor": "Enliven Therapeutics",
+          "key_milestones": ["Positive Phase 1b initial data Jan 2026 (MMR 53% / DMR 35% in 60/120 mg cohorts)", "Orphan Drug Designation for CML (Nov 2024)", "Phase 3 ENABLE-2 planned H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "ELVN-002",
+      "aka": [],
+      "modality": "Oral small molecule, CNS-penetrant irreversible HER2 inhibitor",
+      "target": "HER2 (wild-type and HER2 mutations)",
+      "license_origin": "Internal (worldwide rights)",
+      "indications": [
+        {
+          "indication": "HER2-positive solid tumors / HER2 mutant NSCLC / HER2+ breast and gastric cancer",
+          "highest_phase": "Phase 1",
+          "trial_name": "ELVN-002 monotherapy and combo studies",
+          "trial_design": "Phase 1 dose escalation/expansion of ELVN-002 monotherapy and in combination with trastuzumab +/- chemotherapy",
+          "nct_ids": ["NCT06328738", "NCT05650879"],
+          "trial_status": "Active, not recruiting; company exploring strategic alternatives (deprioritized May 2025 to focus on ELVN-001)",
+          "lead_sponsor": "Enliven Therapeutics",
+          "key_milestones": ["May 2025: decision to explore strategic alternatives for ELVN-002 to prioritize ELVN-001"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "ELV-3111 (pan-RAF Type 1 inhibitor for NRAS/BRAF mutant cancers) - preclinical / discovery",
+    "Graves' disease program - discovery",
+    "Other research-stage small molecule programs"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 2,
+    "indications_total": 2
+  }
+}

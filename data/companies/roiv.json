@@ -1,0 +1,233 @@
+{
+  "issuer_name": "Roivant Sciences Ltd.",
+  "ticker": "ROIV",
+  "exchange": "Nasdaq",
+  "cik": "0001635088",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001140361-25-020715",
+      "filed": "2025-05-29",
+      "path": "data/roiv_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://roivant.com/pipeline/",
+      "fetched_via": "WebFetch"
+    },
+    "ctgov": {
+      "queries": [
+        {"sponsor": "Roivant Sciences", "path": "data/roiv_ctgov_compact.json"},
+        {"sponsor": "Immunovant", "path": "data/roiv_imvt_ctgov_compact.json"},
+        {"sponsor": "Priovant Therapeutics", "path": "data/roiv_priovant_ctgov_compact.json"},
+        {"sponsor": "Pulmovant", "path": "data/roiv_pulmovant_ctgov_compact.json"}
+      ]
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Brepocitinib",
+      "aka": ["PF-06700841"],
+      "modality": "Small molecule (oral TYK2/JAK1 inhibitor)",
+      "target": "TYK2/JAK1",
+      "license_origin": "In-licensed from Pfizer (via Priovant Therapeutics, Roivant Vant)",
+      "indications": [
+        {
+          "indication": "Dermatomyositis",
+          "highest_phase": "Phase 3",
+          "trial_name": "VALOR (Phase 3)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT05437263"],
+          "trial_status": "Active, not recruiting (primary completion 2025-07)",
+          "lead_sponsor": "Priovant Therapeutics, Inc.",
+          "key_milestones": ["Topline data expected 2H 2025"]
+        },
+        {
+          "indication": "Non-Infectious, Non-Anterior Uveitis",
+          "highest_phase": "Phase 3",
+          "trial_name": "NEPTUNE (Phase 3)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT06431373"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Priovant Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cutaneous Sarcoidosis",
+          "highest_phase": "Phase 2",
+          "trial_name": "BEACON",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2",
+          "nct_ids": ["NCT06978725"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Priovant Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Lichen Planopilaris",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Phase 2/3 LPP study",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2/3",
+          "nct_ids": ["NCT07532603"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Priovant Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "IMVT-1402",
+      "aka": [],
+      "modality": "Biologic (anti-FcRn monoclonal antibody, subcutaneous)",
+      "target": "FcRn (neonatal Fc receptor)",
+      "license_origin": "Internally developed (Immunovant, Roivant Vant)",
+      "indications": [
+        {
+          "indication": "Generalized Myasthenia Gravis",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 IMVT-1402 in gMG",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT07039916"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        },
+        {
+          "indication": "Graves' Disease",
+          "highest_phase": "Phase 3 (registrational program initiating per company guidance)",
+          "trial_name": "Phase 2 Graves' Disease studies (precede registrational)",
+          "trial_design": "Multiple Phase 2 randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06727604", "NCT07018323", "NCT07286006"],
+          "trial_status": "Recruiting / Enrolling by invitation (LTE)",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": ["Pivotal program planned per company pipeline disclosures"]
+        },
+        {
+          "indication": "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IMVT-1402 in CIDP",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2",
+          "nct_ids": ["NCT07032662"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        },
+        {
+          "indication": "Difficult-to-Treat Rheumatoid Arthritis",
+          "highest_phase": "Phase 2",
+          "trial_name": "IMVT-1402 in RA",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2",
+          "nct_ids": ["NCT06754462"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        },
+        {
+          "indication": "Sjogren's Disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "IMVT-1402 in primary Sjogren's Disease",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2",
+          "nct_ids": ["NCT06979531"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cutaneous Lupus Erythematosus",
+          "highest_phase": "Phase 2",
+          "trial_name": "IMVT-1402 in CLE",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 (proof of concept)",
+          "nct_ids": ["NCT06980805"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Batoclimab",
+      "aka": ["IMVT-1401", "RVT-1401"],
+      "modality": "Biologic (anti-FcRn monoclonal antibody, subcutaneous)",
+      "target": "FcRn",
+      "license_origin": "Internally developed (Immunovant)",
+      "indications": [
+        {
+          "indication": "Generalized Myasthenia Gravis",
+          "highest_phase": "Phase 3",
+          "trial_name": "Batoclimab Phase 3 induction/maintenance in gMG",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT05403541"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": ["Topline announced; Immunovant has guided IMVT-1402 as forward asset"]
+        },
+        {
+          "indication": "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Batoclimab in CIDP (incl. OLE)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 + open-label extension",
+          "nct_ids": ["NCT05581199", "NCT07188844"],
+          "trial_status": "Active, not recruiting / Enrolling by invitation",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Mosliciguat",
+      "aka": ["BAY 1237592"],
+      "modality": "Small molecule (inhaled soluble guanylate cyclase activator, dry powder inhaler)",
+      "target": "Soluble guanylate cyclase (sGC)",
+      "license_origin": "Acquired/in-licensed (via Pulmovant Vant; originated at Bayer)",
+      "indications": [
+        {
+          "indication": "Pulmonary Hypertension associated with Interstitial Lung Disease (PH-ILD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 PH-ILD program (monotherapy + iTRE combo)",
+          "trial_design": "Randomized, placebo-controlled Phase 2 (monotherapy) and combination with inhaled treprostinil",
+          "nct_ids": ["NCT06635850", "NCT07333183"],
+          "trial_status": "Active, not recruiting (monotherapy) / Recruiting (combo)",
+          "lead_sponsor": "Pulmovant, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Healthy volunteers (PK study supporting development)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 healthy adult males",
+          "trial_design": "Phase 1 PK/safety in healthy males",
+          "nct_ids": ["NCT07185321"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Pulmovant, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Roivant divested VTAMA (tapinarof) to Organon in 2024; no current marketed products under Roivant directly."
+  },
+  "excluded_preclinical": [
+    "Earlier Vant programs not in active P1/P2/P3 (e.g., RVT-3101 was divested to Pfizer)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT04351243 Gimsilumab COVID-19 (COMPLETED, legacy Kinevant)",
+    "NCT02611921 Intranasal Ketamine (COMPLETED, academic-led)",
+    "NCT03938545 RVT-1401 Graves' Ophthalmopathy ASCEND GO-2 (TERMINATED)",
+    "NCT05517447 Batoclimab TED extension (TERMINATED)",
+    "NCT04253236 RVT-1401 WAIHA (TERMINATED)",
+    "NCT03922321 RVT-1401 Graves' Ophthalmopathy (COMPLETED)",
+    "NCT05907668 Batoclimab Graves' POC (COMPLETED)",
+    "NCT05517421 / NCT05524571 Batoclimab TED Phase 3 (COMPLETED — TED program de-prioritized)",
+    "NCT06433999 Brepocitinib skin-predominant DM (COMPLETED)",
+    "NCT05523765 Brepocitinib NIU Phase 2 (COMPLETED)",
+    "NCT03863080 RVT-1401 MG Phase 2 (COMPLETED)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 4,
+    "phase_3_indications": 4,
+    "phase_2_indications": 8,
+    "phase_1_indications": 1,
+    "notes": "Counts reflect active P1/P2/P3 indication-level entries; some indications appear under both batoclimab and IMVT-1402 (next-gen FcRn)."
+  }
+}

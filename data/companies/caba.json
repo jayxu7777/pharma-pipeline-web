@@ -1,0 +1,89 @@
+{
+  "issuer_name": "Cabaletta Bio, Inc.",
+  "ticker": "CABA",
+  "exchange": "Nasdaq",
+  "cik": "0001759138",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001759138-26-000011", "filing_date": "2026-03-23", "doc": "caba-20251231.htm"},
+    "website": {"note": "Skipped live fetch; ctgov plus 10-K give complete coverage of CABA-201 program"},
+    "ctgov": {"file": "data/caba_ctgov_compact.json", "trials_kept": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "CABA-201 (resecabtagene autoleucel; rese-cel)",
+      "aka": ["rese-cel", "resecabtagene autoleucel"],
+      "modality": "Autologous CD19-directed 4-1BB CAR T-cell therapy",
+      "target": "CD19",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Idiopathic Inflammatory Myopathy (dermatomyositis, anti-synthetase syndrome, immune-mediated necrotizing myopathy, juvenile myositis)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "RESET-Myositis",
+          "trial_design": "Open-label, single-arm, single-dose CABA-201 following preconditioning with fludarabine + cyclophosphamide",
+          "nct_ids": ["NCT06154252"],
+          "trial_status": "RECRUITING (start 2023-12-20; primary completion 2028-07)",
+          "lead_sponsor": "Cabaletta Bio",
+          "key_milestones": ["Phase 2/3 design"]
+        },
+        {
+          "indication": "Systemic Lupus Erythematosus (including lupus nephritis)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "RESET-SLE",
+          "trial_design": "Open-label safety and efficacy study of single-dose CABA-201",
+          "nct_ids": ["NCT06121297"],
+          "trial_status": "RECRUITING (start 2024-02-16)",
+          "lead_sponsor": "Cabaletta Bio",
+          "key_milestones": []
+        },
+        {
+          "indication": "Generalized Myasthenia Gravis (gMG)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "RESET-MG",
+          "trial_design": "Open-label safety and efficacy of CABA-201 in gMG",
+          "nct_ids": ["NCT06359041"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (start 2024-12-17)",
+          "lead_sponsor": "Cabaletta Bio",
+          "key_milestones": []
+        },
+        {
+          "indication": "Systemic Sclerosis (Scleroderma)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "RESET-SSc",
+          "trial_design": "Open-label safety and efficacy of CABA-201 (CD19-CAR T)",
+          "nct_ids": ["NCT06328777"],
+          "trial_status": "RECRUITING (start 2024-07-02)",
+          "lead_sponsor": "Cabaletta Bio",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pemphigus Vulgaris",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "RESET-PV (combined with prior DSG3-CAART arm)",
+          "trial_design": "Open-label dosing study; current arm uses CABA-201 (CD19 CAR T)",
+          "nct_ids": ["NCT04422912"],
+          "trial_status": "RECRUITING (start 2020-09-29)",
+          "lead_sponsor": "Cabaletta Bio",
+          "key_milestones": []
+        },
+        {
+          "indication": "Multiple Sclerosis (relapsing and progressive)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "RESET-MS",
+          "trial_design": "Open-label safety and efficacy of CABA-201 in MS",
+          "nct_ids": ["NCT07006805"],
+          "trial_status": "NOT_YET_RECRUITING (planned start 2026-06)",
+          "lead_sponsor": "Cabaletta Bio",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["MuSK-CAART for MuSK myasthenia gravis - Phase 1 completed 2025-07-24, no longer being advanced; superseded by CABA-201 program", "DSG3-CAART (originally NCT04422912) - converted/combined with CABA-201 arm in RESET-PV"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2_or_2_3": 1, "P1_or_1_2": 5, "note": "Single asset (CABA-201) across 6 active indications; counts represent indication-level highest phases"}
+}

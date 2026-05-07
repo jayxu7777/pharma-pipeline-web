@@ -1,0 +1,251 @@
+{
+  "issuer_name": "EXELIXIS, INC.",
+  "ticker": "EXEL",
+  "exchange": "Nasdaq",
+  "cik": "0000939767",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-10",
+      "accession": "0000939767-26-000021",
+      "path": "data/exel_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.exelixis.com/clinical-trials-pipeline/",
+      "fetched": "2026-05-06",
+      "note": "Pipeline page is JS-rendered; supplemented by 2026 R&D Day disclosures and Q1 2026 transcript"
+    },
+    "ctgov": {
+      "path": "data/exel_ctgov_compact.json",
+      "lead_sponsor_query": "Exelixis"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Zanzalintinib",
+      "aka": ["XL092"],
+      "modality": "Small molecule (next-gen oral multi-kinase TKI)",
+      "target": "VEGFR, MET, AXL, MER",
+      "license_origin": "Internal (Exelixis)",
+      "indications": [
+        {
+          "indication": "Metastatic colorectal cancer (CRC), 3L+ non-MSI-H, with atezolizumab (STELLAR-303)",
+          "highest_phase": "Phase 3",
+          "trial_name": "STELLAR-303",
+          "trial_design": "Randomized, open-label vs regorafenib",
+          "nct_ids": ["NCT05425940"],
+          "trial_status": "Active, not recruiting; NDA accepted, PDUFA Dec 3, 2026",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": ["NDA filed; PDUFA target Dec 3, 2026"]
+        },
+        {
+          "indication": "Non-clear cell renal cell carcinoma (nccRCC), 1L, with nivolumab (STELLAR-304)",
+          "highest_phase": "Phase 3",
+          "trial_name": "STELLAR-304",
+          "trial_design": "Randomized vs sunitinib",
+          "nct_ids": ["NCT05678673"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": ["Top-line readout mid-2026"]
+        },
+        {
+          "indication": "Squamous cell carcinoma of head and neck (SCCHN), PD-L1 positive, with pembrolizumab (STELLAR-305)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "STELLAR-305",
+          "trial_design": "Randomized vs pembrolizumab",
+          "nct_ids": ["NCT06082167"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced/metastatic neuroendocrine tumors (NET)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "STELLAR-311",
+          "trial_design": "Randomized vs everolimus",
+          "nct_ids": ["NCT06943755"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent/progressive meningioma",
+          "highest_phase": "Phase 2",
+          "trial_name": "STELLAR meningioma study",
+          "trial_design": "Single-arm",
+          "nct_ids": ["NCT07428616"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        },
+        {
+          "indication": "Solid tumors, IO combinations (umbrella)",
+          "highest_phase": "Phase 1",
+          "trial_name": "STELLAR-002 / monotherapy & combo",
+          "trial_design": "Open-label, dose escalation/expansion",
+          "nct_ids": ["NCT05176483", "NCT03845166", "NCT06962332"],
+          "trial_status": "Recruiting / Active not recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Cabozantinib (CABOMETYX label expansion)",
+      "aka": ["XL184"],
+      "modality": "Small molecule TKI (oral)",
+      "target": "VEGFR2, MET, AXL, RET",
+      "license_origin": "Internal (Exelixis)",
+      "indications": [
+        {
+          "indication": "Advanced hepatocellular carcinoma, 1L, with atezolizumab (COSMIC-312)",
+          "highest_phase": "Phase 3",
+          "trial_name": "COSMIC-312",
+          "trial_design": "Randomized vs sorafenib",
+          "nct_ids": ["NCT03755791"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC) with atezolizumab (CONTACT-02)",
+          "highest_phase": "Phase 3",
+          "trial_name": "CONTACT-02",
+          "trial_design": "Randomized vs second NHT",
+          "nct_ids": ["NCT04446117"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced renal cell carcinoma, 1L, with nivolumab + ipilimumab (COSMIC-313)",
+          "highest_phase": "Phase 3",
+          "trial_name": "COSMIC-313",
+          "trial_design": "Randomized triplet vs nivo+ipi",
+          "nct_ids": ["NCT03937219"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        },
+        {
+          "indication": "Radioiodine-refractory differentiated thyroid cancer (COSMIC-311 follow-on / NCT03690388)",
+          "highest_phase": "Phase 3",
+          "trial_name": "COSMIC-311",
+          "trial_design": "Randomized vs placebo",
+          "nct_ids": ["NCT03690388"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced HCC, with atezolizumab (Phase 1b combo, COSMIC-021 type)",
+          "highest_phase": "Phase 1",
+          "trial_name": "COSMIC-021",
+          "trial_design": "Open-label, multi-cohort",
+          "nct_ids": ["NCT03170960"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "XL309",
+      "aka": ["ISM3091"],
+      "modality": "Small molecule",
+      "target": "USP1 (synthetic lethality in BRCA-mutated tumors)",
+      "license_origin": "In-licensed from Insilico Medicine",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (BRCA-mutated, ovarian)",
+          "highest_phase": "Phase 1",
+          "trial_name": "XL309 monotherapy and combo",
+          "trial_design": "Dose escalation/expansion",
+          "nct_ids": ["NCT05932862"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "XB010",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC, MMAE payload)",
+      "target": "5T4 tumor antigen",
+      "license_origin": "Internal (Exelixis)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors expressing 5T4",
+          "highest_phase": "Phase 1",
+          "trial_name": "XB010 first-in-human",
+          "trial_design": "Dose escalation/expansion",
+          "nct_ids": ["NCT06545331"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "XB628",
+      "aka": [],
+      "modality": "Bispecific antibody",
+      "target": "PD-L1 x NKG2A",
+      "license_origin": "Internal (Exelixis)",
+      "indications": [
+        {
+          "indication": "Recurrent advanced or metastatic solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "XB628 first-in-human",
+          "trial_design": "Dose escalation",
+          "nct_ids": ["NCT06952010"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "XB371",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (topoisomerase-I payload)",
+      "target": "Tissue Factor (TF)",
+      "license_origin": "Internal (Exelixis)",
+      "indications": [
+        {
+          "indication": "Locally advanced or metastatic solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "XB371 first-in-human",
+          "trial_design": "Dose escalation",
+          "nct_ids": ["NCT07123103"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Exelixis",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "CABOMETYX (cabozantinib)", "indication": "Advanced RCC, HCC (with atezolizumab in 2L+), pNET/epNET, MTC", "status": "Approved/Commercial"},
+      {"name": "COMETRIQ (cabozantinib)", "indication": "Progressive metastatic medullary thyroid cancer", "status": "Approved/Commercial"}
+    ]
+  },
+  "excluded_preclinical": [
+    "Next-gen SSTR2 agonist (NETs) — IND planned 2026",
+    "Additional discovery-stage biologics/small molecules"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Investigator-sponsored cabozantinib studies (Mahipal, SCRI, Hopkins, Univ of South Alabama, Zage, Sonpavde, Univ of Chicago) — IST/collaborator-led, not company-sponsored"
+  ],
+  "summary_counts": {
+    "total_active_assets": 6,
+    "phase_3_indications": 6,
+    "phase_2_indications": 3,
+    "phase_1_indications": 5
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "issuer_name": "Agenus Inc.",
+  "ticker": "AGEN",
+  "exchange": "Nasdaq",
+  "cik": "0001098972",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-108632", "filed": "2026-03-16", "doc": "agen-20251231.htm"},
+    "website": {"url": "https://agenusbio.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/agen_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Botensilimab",
+      "aka": ["AGEN1181", "BOT"],
+      "modality": "Fc-engineered anti-CTLA-4 monoclonal antibody",
+      "target": "CTLA-4",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chemo-refractory unresectable colorectal adenocarcinoma (MSS, 4L+)",
+          "highest_phase": "P3",
+          "trial_name": "BATTMAN",
+          "trial_design": "Botensilimab + Balstilimab vs Best Supportive Care",
+          "nct_ids": ["NCT07152821"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Canadian Cancer Trials Group (Agenus collaborator)",
+          "key_milestones": ["Started 2026-03-31; primary completion 2028-12-31"]
+        },
+        {
+          "indication": "MSI/dMMR esogastric adenocarcinoma (advanced/metastatic)",
+          "highest_phase": "P3",
+          "trial_name": "Bot+Bal+chemo combo",
+          "trial_design": "Combination of Immune Checkpoint in MSI/dMMR esogastric",
+          "nct_ids": ["NCT06346197"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Centre Leon Berard (Agenus collaborator)",
+          "key_milestones": ["Started 2025-12-08; primary completion 2028-05-15"]
+        },
+        {
+          "indication": "Metastatic colorectal cancer (MSS)",
+          "highest_phase": "P2",
+          "trial_name": "BOT/BAL CRC studies",
+          "trial_design": "Multiple investigator-led and Agenus-sponsored P2 combination studies",
+          "nct_ids": ["NCT05608044", "NCT06268015", "NCT07227636", "NCT06843434", "NCT06300463"],
+          "trial_status": "ACTIVE/RECRUITING",
+          "lead_sponsor": "Agenus / MSKCC / academic collaborators",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced melanoma",
+          "highest_phase": "P2",
+          "trial_name": "Botensilimab melanoma",
+          "trial_design": "Botensilimab +/- Balstilimab",
+          "nct_ids": ["NCT05529316"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Agenus Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic pancreatic cancer",
+          "highest_phase": "P2",
+          "trial_name": "Multiple PDAC combos",
+          "trial_design": "Bot/Bal +/- chemo or radiation",
+          "nct_ids": ["NCT05630183", "NCT06843551", "NCT05632328"],
+          "trial_status": "ACTIVE/RECRUITING",
+          "lead_sponsor": "Agenus / academic",
+          "key_milestones": []
+        },
+        {
+          "indication": "Non-small cell lung cancer",
+          "highest_phase": "P2",
+          "trial_name": "IMMONC0008",
+          "trial_design": "Bot + Bal in NSCLC",
+          "nct_ids": ["NCT06322108"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Immune Oncology Research Institute (Agenus collaborator)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Soft tissue sarcoma",
+          "highest_phase": "P2",
+          "trial_name": "Doxorubicin + dual checkpoint",
+          "trial_design": "Doxorubicin + Bot + Bal",
+          "nct_ids": ["NCT04028063"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "University of Colorado",
+          "key_milestones": []
+        },
+        {
+          "indication": "Glioblastoma (newly diagnosed)",
+          "highest_phase": "P2",
+          "trial_name": "Sonocloud-9 immune modulation",
+          "trial_design": "Bot + Bal + Liposomal Doxorubicin + ultrasound",
+          "nct_ids": ["NCT05864534"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Northwestern University",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pan-tumor neoadjuvant (MMR-d / MMR-p)",
+          "highest_phase": "P2/P3",
+          "trial_name": "Pan-tumor neoadjuvant basket",
+          "trial_design": "Bot + Bal +/- FLOT chemotherapy",
+          "nct_ids": ["NCT06279130"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "The Netherlands Cancer Institute",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Balstilimab",
+      "aka": ["AGEN2034", "BAL"],
+      "modality": "Anti-PD-1 monoclonal antibody",
+      "target": "PD-1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory lymphoma",
+          "highest_phase": "P2",
+          "trial_name": "IMMONC0001",
+          "trial_design": "Balstilimab monotherapy",
+          "nct_ids": ["NCT05891821"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Immune Oncology Research Institute (Agenus collaborator)",
+          "key_milestones": []
+        },
+        {
+          "indication": "HPV+ oropharyngeal cancer",
+          "highest_phase": "P2",
+          "trial_name": "Balstilimab viral clearance",
+          "trial_design": "Neoadjuvant balstilimab",
+          "nct_ids": ["NCT05363709"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "M.D. Anderson Cancer Center",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AGEN2373",
+      "aka": [],
+      "modality": "CD137 (4-1BB) agonist monoclonal antibody",
+      "target": "CD137",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Resectable pancreatic cancer (with mKRASvax/GVAX + Bal)",
+          "highest_phase": "P2",
+          "trial_name": "GVAX vs mKRASvax neoadjuvant/adjuvant",
+          "trial_design": "AGEN2373 + Bal + cancer vaccine",
+          "nct_ids": ["NCT06782932"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Sidney Kimmel Comprehensive Cancer Center",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AGEN1423",
+      "aka": [],
+      "modality": "Anti-CD73 x TGF-beta bifunctional antibody",
+      "target": "CD73 / TGF-beta",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Pancreatic ductal adenocarcinoma (advanced)",
+          "highest_phase": "P2",
+          "trial_name": "AGEN1423 + Bot in PDAC",
+          "trial_design": "AGEN1423 + Botensilimab +/- chemo",
+          "nct_ids": ["NCT05632328"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Bruno Bockorny / Dana-Farber",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Zalifrelimab",
+      "aka": ["AGEN1884"],
+      "modality": "Anti-CTLA-4 monoclonal antibody",
+      "target": "CTLA-4",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Pancreatic cancer (with NLM-001)",
+          "highest_phase": "P1/P2",
+          "trial_name": "NLM-001 + Zalifrelimab",
+          "trial_design": "NLM-001 + chemo + Zalifrelimab",
+          "nct_ids": ["NCT04827953"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Nelum Corp",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT05575076 (simufilam OLE) — n/a; Agenus historical: NCT03495882, NCT03411473, NCT04607200, NCT05033132, NCT04943627 BRAVA P3 cervical (WITHDRAWN), NCT00126178, NCT01147536, NCT01814813, NCT02452281, NCT05561491, NCT04156100, NCT05571293, NCT03894215 RaPiDS P2 (TERMINATED)"
+  ],
+  "excluded_partner_owned": [
+    "MK-4830 (Merck-led, neoadjuvant ovarian)",
+    "INCAGN2390 / INCAGN2385 (Incyte programs)",
+    "OBT076 (Oxford BioTherapeutics)"
+  ],
+  "summary_counts": {
+    "total_assets": 5,
+    "p3_indications": 2,
+    "p2_indications": 11,
+    "p1_indications": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "issuer_name": "ICON plc",
+  "ticker": "ICLR",
+  "exchange": "Nasdaq",
+  "cik": "0001060955",
+  "region": "US-listed (Ireland-domiciled)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — files 20-F (no 10-K in EDGAR recent filings)."
+    },
+    "website": {
+      "skipped": "ICON is a contract research organization (CRO); corporate site has no proprietary drug pipeline."
+    },
+    "ctgov": {
+      "compact_path": "data/iclr_ctgov_compact.json",
+      "note": "Trials listing ICON as a collaborator/operator are run on behalf of pharma sponsors. Per scope rules, partner-owned/sponsor-client trials are excluded."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "ICON plc is a global Contract Research Organization providing outsourced clinical-development, commercialization, and lab services to biopharma and medical-device companies. Revenue is service-based; ICON does not own clinical-stage drug assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "All ClinicalTrials.gov records associating ICON are sponsor-client studies (full-service CRO operations)."
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Distribution / services company — no proprietary clinical pipeline. ICON is a CRO (services_cro_lab bucket); per scope rules, sponsor-client trials are not enumerated."
+}

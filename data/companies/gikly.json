@@ -1,0 +1,132 @@
+{
+  "issuer_name": "Grifols SA",
+  "ticker": "GIKLY",
+  "exchange": "OTC (ADR; primary listing on Madrid SE)",
+  "cik": "0001438569",
+  "region": "Spain (global commercial-stage)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F instead of 10-K (no recent 10-K returned by SEC EDGAR)"},
+    "website": {
+      "url": "https://www.grifols.com/en/innovation",
+      "note": "Public site does not enumerate detailed pipeline by asset/phase; therapeutic areas only (immunology, hepatology, pulmonology, hematology, neurology, infectious diseases)"
+    },
+    "ctgov": {
+      "path": "data/gikly_ctgov_compact.json",
+      "lead_sponsor_query": "Grifols",
+      "result": "88 historical interventional P1-P3 trials; 7 currently active company-sponsored"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Alpha-1 MP / Prolastin-C (alpha-1 antitrypsin, plasma-derived)",
+      "aka": ["Prolastin-C", "Alpha-1 15%", "Liquid Alpha1-PI"],
+      "modality": "Plasma-derived alpha-1 proteinase inhibitor",
+      "target": "Alpha-1 antitrypsin (AAT) deficiency",
+      "license_origin": "Grifols proprietary plasma franchise (commercial product undergoing label-expansion / new-formulation studies)",
+      "indications": [
+        {
+          "indication": "Pulmonary emphysema in Alpha-1 PI deficiency (lifecycle / efficacy study)",
+          "highest_phase": "Phase 3",
+          "trial_name": "SPARTA / Prolastin-C lung-density study",
+          "trial_design": "Long-term Phase 3 of Alpha-1 MP vs placebo on emphysema progression",
+          "nct_ids": ["NCT01983241", "NCT02796937"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (NCT01983241); ENROLLING_BY_INVITATION (NCT02796937)",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Alpha-1 antitrypsin deficiency — new high-concentration (15%) liquid formulation",
+          "highest_phase": "Phase 3",
+          "trial_name": "Alpha-1 15% Liquid",
+          "trial_design": "Phase 3 of next-generation 15% liquid Alpha1-PI",
+          "nct_ids": ["NCT07555483"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Xembify (immune globulin SC 20%)",
+      "aka": ["IGSC 20%"],
+      "modality": "Plasma-derived 20% subcutaneous immunoglobulin",
+      "target": "Antibody replacement",
+      "license_origin": "Grifols proprietary commercial product; ongoing label-expansion trials",
+      "indications": [
+        {
+          "indication": "Hypogammaglobulinemia / prevention of bacterial infections",
+          "highest_phase": "Phase 3",
+          "trial_name": "Xembify infection-prevention Phase 3",
+          "trial_design": "Randomized Phase 3 vs placebo",
+          "nct_ids": ["NCT05645107"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic Inflammatory Demyelinating Polyradiculoneuropathy (CIDP) — Gamunex-C / Xembify combination",
+          "highest_phase": "Phase 3",
+          "trial_name": "Gamunex-C + Xembify CIDP",
+          "trial_design": "Phase 3 in CIDP",
+          "nct_ids": ["NCT07540221"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Grifols Therapeutics LLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Plasma-derived Antithrombin III (Thrombate / AT-III concentrate)",
+      "aka": ["Thrombate III", "AT-III concentrate"],
+      "modality": "Plasma-derived antithrombin",
+      "target": "Antithrombin III deficiency",
+      "license_origin": "Grifols Biologicals legacy / commercial franchise",
+      "indications": [
+        {
+          "indication": "Antithrombin III deficiency",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "AT-III concentrate Phase 2/3",
+          "trial_design": "Long-term safety/efficacy in AT-III deficiency",
+          "nct_ids": ["NCT00319228"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Grifols Biologicals, LLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "GRF312 5% (ophthalmic plasma-derived candidate)",
+      "aka": ["GRF312"],
+      "modality": "Plasma-derived ophthalmic solution",
+      "target": "Dry eye disease",
+      "license_origin": "Instituto Grifols, S.A. proprietary",
+      "indications": [
+        {
+          "indication": "Dry eye disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "GRF312 Phase 2",
+          "trial_design": "Randomized Phase 2 vs placebo",
+          "nct_ids": ["NCT07264517"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Instituto Grifols, S.A.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Grifols is a commercial-stage global plasma-medicines leader; many trials above are lifecycle / label-expansion / new-formulation studies of already-marketed products (Prolastin-C, Xembify, Gamunex-C, Thrombate III)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"reason": "62 COMPLETED + 11 TERMINATED + 5 WITHDRAWN historical trials in ctgov; not enumerated individually"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT05794165", "reason": "Investigator-led (Bryan Cotton); Grifols is collaborator only"},
+    {"nct_id": "NCT06812390", "reason": "Investigator-led (Anahita Rabiee); Grifols is collaborator only"},
+    {"nct_id": "NCT06052176", "reason": "Investigator-led (Hunter Holmes McGuire VAMC); Grifols is collaborator only"}
+  ],
+  "summary_counts": {"total_active_assets": 4, "p3": 3, "p2": 1, "p1": 0, "p2_p3": 1}
+}

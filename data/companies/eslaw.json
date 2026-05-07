@@ -1,0 +1,52 @@
+{
+  "issuer_name": "Estrella Immunopharma, Inc.",
+  "ticker": "ESLAW",
+  "exchange": "Nasdaq",
+  "cik": "0001844417",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-029357",
+      "filing_date": "2026-03-18",
+      "slice_html": "data/eslaw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://estrellabio.com/pipeline/",
+      "error": "Wix-rendered page; no static text retrievable via WebFetch"
+    },
+    "ctgov": {
+      "compact": "data/eslaw_ctgov_compact.json",
+      "trials_found": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "EB103",
+      "aka": [],
+      "modality": "Autologous CD19-targeted T-cell therapy using ARTEMIS receptor (Eureka Therapeutics platform)",
+      "target": "CD19",
+      "license_origin": "Licensed from Eureka Therapeutics (collaborator)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell Non-Hodgkin Lymphoma (NHL)",
+          "highest_phase": "P1/P2",
+          "trial_name": "STARLIGHT-1",
+          "trial_design": "Open-label Phase 1/2 dose-escalation then dose-expansion; in dose-expansion at RP2D as of Dec 2025; primary completion 2026-12-31",
+          "nct_ids": ["NCT06343311"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Estrella Biopharma, Inc.",
+          "key_milestones": ["Phase 1 dose-escalation completed n=9; DSMB recommended advancing to Phase 2 expansion at RP2D; primary completion projected Dec 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "EB104", "indication": "B-cell malignancies (CD19/CD22 dual-target)", "reason": "Preclinical / IND-pending ARTEMIS T-cell therapy"},
+    {"asset": "EB103 + CF33-CD19t combination", "indication": "Solid tumors", "reason": "Preclinical; IND not yet filed"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

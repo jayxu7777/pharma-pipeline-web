@@ -1,0 +1,155 @@
+{
+  "issuer_name": "Amicus Therapeutics, Inc.",
+  "ticker": "FOLD",
+  "exchange": "Nasdaq",
+  "cik": "0001178879",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001178879-26-000005", "filing_date": "2026-02-20", "doc": "fold-20251231.htm"},
+    "website": {"note": "Pipeline confirmed via 10-K Overview and 'Our Commercial Products and Product Candidates' sections; corporate site (amicusrx.com) mirrors the same."},
+    "ctgov": {"sponsor_query": "Amicus Therapeutics", "trials_returned": 35, "active_p1_p3": 4, "completed_or_terminated_excluded": 31}
+  },
+  "corporate_event": {
+    "merger_agreement": "On 2025-12-19, Amicus signed a definitive merger agreement with BioMarin Pharmaceutical Inc. at $14.50/share in cash. Closing expected Q2 2026 subject to regulatory and stockholder approvals."
+  },
+  "commercial_product": [
+    {
+      "asset": "Galafold (migalastat HCl)",
+      "aka": ["AT1001"],
+      "modality": "Oral small-molecule pharmacological chaperone",
+      "target": "alpha-galactosidase A (alpha-Gal A)",
+      "indication": "Fabry disease in adults / adolescents with amenable GLA variants",
+      "status": "Approved in US, EU, UK, Japan and 40+ countries",
+      "fy2025_revenue_usd_millions": 521.7
+    },
+    {
+      "asset": "Pombiliti + Opfolda (cipaglucosidase alfa-atga + miglustat)",
+      "aka": ["ATB200 + AT2221", "AT-GAA"],
+      "modality": "Two-component therapy: recombinant human GAA enzyme (ERT) + oral chaperone stabilizer",
+      "target": "Acid alpha-glucosidase (GAA)",
+      "indication": "Late-onset Pompe disease (adults)",
+      "status": "Approved in US, EU, UK, Canada, Switzerland, Australia, Japan",
+      "fy2025_revenue_usd_millions": 112.5
+    }
+  ],
+  "pipeline": [
+    {
+      "asset": "DMX-200 (repagermanium)",
+      "aka": ["DMX-200"],
+      "modality": "Oral small-molecule chemokine receptor 2 (CCR2) antagonist (used adjunctively with an angiotensin II receptor blocker)",
+      "target": "CCR2",
+      "license_origin": "In-licensed from Dimerix Bioscience (April 2025) — exclusive US commercialization rights",
+      "indications": [
+        {
+          "indication": "Focal segmental glomerulosclerosis (FSGS)",
+          "highest_phase": "Phase 3 (pivotal)",
+          "trial_name": "ACTION3",
+          "trial_design": "Pivotal Phase 3 randomized placebo-controlled; primary endpoint proteinuria (aligned with FDA at March 2025 Type C meeting)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Enrollment completed December 2025 (sponsor: Dimerix). Active, not recruiting.",
+          "lead_sponsor": "Dimerix Bioscience Pty Limited",
+          "key_milestones": [
+            "Positive interim analysis early 2024 (DMX-200 outperformed placebo on proteinuria)",
+            "FDA Type C alignment on proteinuria primary endpoint, March 2025",
+            "Enrollment completed December 2025"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Pombiliti + Opfolda (cipaglucosidase alfa-atga / miglustat) — pediatric LOPD",
+      "aka": ["ATB200/AT2221 pediatric (LOPD)"],
+      "modality": "Two-component therapy: recombinant human GAA enzyme (ERT) + oral chaperone stabilizer",
+      "target": "Acid alpha-glucosidase (GAA)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Late-onset Pompe disease (LOPD), pediatric (0 to <18 years) — label expansion",
+          "highest_phase": "Phase 3",
+          "trial_name": "ZIP Study (open-label)",
+          "trial_design": "Open-label safety, PK, efficacy, PD, immunogenicity in pediatric LOPD aged 0 to <18",
+          "nct_ids": ["NCT03911505"],
+          "trial_status": "Active, not recruiting (primary completion 2026-06)",
+          "lead_sponsor": "Amicus Therapeutics",
+          "key_milestones": [
+            "Initiated 2020-02; primary completion 2026-06"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Pombiliti + Opfolda (cipaglucosidase alfa-atga / miglustat) — IOPD",
+      "aka": ["ATB200/AT2221 pediatric (IOPD)"],
+      "modality": "Two-component therapy: recombinant human GAA enzyme (ERT) + oral chaperone stabilizer",
+      "target": "Acid alpha-glucosidase (GAA)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Infantile-onset Pompe disease (IOPD), pediatric (0 to <18 years) — label expansion",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pediatric IOPD safety/efficacy study",
+          "trial_design": "Open-label safety, PK, PD, efficacy, immunogenicity in IOPD subjects aged 0 to <18",
+          "nct_ids": ["NCT04808505"],
+          "trial_status": "Recruiting (primary completion 2027-07)",
+          "lead_sponsor": "Amicus Therapeutics",
+          "key_milestones": [
+            "Initiated 2023-07-18"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Galafold (migalastat) — pediatric Fabry",
+      "aka": ["AT1001 pediatric"],
+      "modality": "Oral small-molecule pharmacological chaperone",
+      "target": "alpha-galactosidase A (alpha-Gal A)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Fabry disease in pediatric subjects (2 to <12 years) with amenable GLA variants",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pediatric Fabry migalastat study",
+          "trial_design": "Phase 3 in children aged 2 to <12 with amenable GLA variants",
+          "nct_ids": ["NCT06904261"],
+          "trial_status": "Recruiting (initiated 2026-01-08; primary completion 2027-12)",
+          "lead_sponsor": "Amicus Therapeutics",
+          "key_milestones": [
+            "Initiated 2026-01-08"
+          ]
+        },
+        {
+          "indication": "Fabry disease with amenable GLA variant and renal disease (label expansion)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Migalastat in Fabry with renal disease",
+          "trial_design": "Phase 3, evaluating migalastat in patients with renal involvement",
+          "nct_ids": ["NCT04020055"],
+          "trial_status": "Active, not recruiting (initiated 2022-10-31; primary completion 2026-12-31)",
+          "lead_sponsor": "Amicus Therapeutics",
+          "key_milestones": [
+            "Initiated 2022-10-31"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Next-generation Fabry chaperones (research / discovery)",
+    "Gene therapy protein-engineering technology programs (preclinical)",
+    "Gene therapy programs for Pompe and Fabry (preclinical / discovery)"
+  ],
+  "excluded_legacy_terminated": [
+    "Multiple completed/terminated migalastat and AT-GAA registrational and supportive trials (~31 ctgov entries)",
+    "Scioderm Inc. legacy trials (acquired program, completed)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase_3": 4,
+    "phase_2": 0,
+    "phase_1": 0,
+    "registration_or_marketed": 2,
+    "note": "Pipeline counts active P1-P3 development assets. Galafold and Pombiliti+Opfolda are marketed (counted separately under commercial_product). Pombiliti+Opfolda has two distinct active P3 pediatric label-expansion studies (LOPD ZIP, IOPD); counted as 2 distinct asset-indication entries. Galafold has 2 active P3 lifecycle studies (pediatric 2-<12, renal disease)."
+  }
+}

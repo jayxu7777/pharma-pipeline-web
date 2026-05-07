@@ -1,0 +1,33 @@
+{
+  "issuer_name": "iTonic Holdings Ltd",
+  "ticker": "ITOC",
+  "exchange": "Nasdaq",
+  "cik": "0001970544",
+  "region": "US-listed (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found in EDGAR — likely foreign private issuer (files 20-F) or recently listed via Dec-2025 acquisition; SEC submissions index shows no Form 10-K."},
+    "website": {
+      "url": "https://itonic.health/for-investors/",
+      "note": "Investor page describes a Home Health AI platform combining AI, medical device automation, and virtual support services for medication adherence. No drug or device clinical pipeline disclosed."
+    },
+    "ctgov": {
+      "sponsor_query": "iTonic",
+      "kept_p1_p3": 0,
+      "note": "No registered P1/P2/P3 trials under sponsor name."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "platforms": [
+      {"name": "Home Health AI Platform", "description": "Integrated AI + medical device automation + virtual support for medication adherence and home-based care.", "status": "Commercial / development"},
+      {"name": "Brachytherapy treatment planning systems (legacy)", "description": "Software and devices for radiotherapy treatment planning in cancer brachytherapy.", "status": "Marketed"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Home health AI / digital health and brachytherapy software-and-device company. No proprietary investigational drug or device in active P1/P2/P3 clinical trials. Company is a foreign private issuer with no Form 10-K on file."
+}

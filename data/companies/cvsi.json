@@ -1,0 +1,46 @@
+{
+  "issuer_name": "CV Sciences, Inc.",
+  "ticker": "CVSI",
+  "exchange": "OTC",
+  "cik": "0001510964",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-126598",
+      "filing_date": "2026-03-26",
+      "path": "data/cvsi_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.cvsciences.com/",
+      "note": "Company describes itself as a consumer wellness / nutraceutical company."
+    },
+    "ctgov": {
+      "path": "data/cvsi_ctgov_compact.json",
+      "trial_count": 4,
+      "note": "All 4 listed trials have lead sponsor 'CV Technologies' (a different Canadian entity, not CV Sciences) and are COMPLETED."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "CV Sciences is a consumer wellness / hemp-derived CBD nutraceutical and plant-based food company (+PlusCBD, +PlusHLTH, Cultured Foods, Lunar Fox brands; 2,500 brick-and-mortar retail outlets). Its only drug-development asset is CVSI-007 (CBD + nicotine for smokeless tobacco addiction), which the 10-K (filed 2026-03-26) explicitly states 'has been dormant for several years' and that the company has 'curtailed further development' and the related patent-protection support. R&D expense was only $0.1M for FY2025. No active Phase 1/2/3 trial.",
+  "commercial_product": {
+    "categories": ["Hemp-derived CBD consumer products (+PlusCBD softgels, tinctures, topicals, gummies, pet)", "Cannabinoid-free supplements (+PlusHLTH)", "Plant-based foods (Cultured Foods, Lunar Fox)", "Contract softgel/tincture manufacturing (Elevated Softgels)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "CVSI-007 (CBD + nicotine)",
+      "indication": "Smokeless tobacco use and addiction",
+      "reason": "Dormant for several years per FY2025 10-K; further development curtailed due to capital constraints; patent protection support also curtailed."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "active_trials": 0
+  }
+}

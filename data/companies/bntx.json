@@ -1,0 +1,435 @@
+{
+  "issuer_name": "BioNTech SE",
+  "ticker": "BNTX",
+  "exchange": "Nasdaq",
+  "cik": "0001776985",
+  "region": "Germany (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F instead of 10-K"},
+    "website": {"url": "https://biontech.com/int/en/home/pipeline-and-products/pipeline.html", "note": "Pipeline asset details rendered via dynamic JS component; static fetch only returned summary metrics. Asset list reconstructed from ClinicalTrials.gov BioNTech-led active studies."},
+    "ctgov": {"file": "data/bntx_ctgov_compact.json", "active_biontech_led_count": 31}
+  },
+  "pipeline": [
+    {
+      "asset": "BNT327 (pumitamig)",
+      "aka": ["pumitamig", "PM8002", "BMS-986545"],
+      "modality": "Bispecific antibody",
+      "target": "PD-L1 x VEGF-A",
+      "license_origin": "In-licensed from Biotheus (acquired); co-development with BMS",
+      "indications": [
+        {
+          "indication": "Extensive-stage small-cell lung cancer (1L, with chemo)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ROSETTA Lung-02",
+          "trial_design": "BNT327 + etoposide/carboplatin vs atezolizumab + chemo",
+          "nct_ids": ["NCT06712355"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        },
+        {
+          "indication": "Triple-negative breast cancer (metastatic/locally advanced)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ROSETTA Breast-01",
+          "trial_design": "BNT327 + chemo (nab-paclitaxel/paclitaxel/gemcitabine/carboplatin/eribulin) vs placebo + chemo",
+          "nct_ids": ["NCT07173751", "NCT06449222"],
+          "trial_status": "Recruiting (Ph3); Active not recruiting (Ph2)",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        },
+        {
+          "indication": "Non-small cell lung cancer",
+          "highest_phase": "Phase 3",
+          "trial_name": "ROSETTA Lung-01",
+          "trial_design": "BNT327 + chemo +/- pembrolizumab",
+          "nct_ids": ["NCT06712316", "NCT06841055"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent glioblastoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "BNT327 + bevacizumab/temozolomide",
+          "trial_design": "Combination",
+          "nct_ids": ["NCT07297212"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pancreatic ductal adenocarcinoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "BNT327 + chemo",
+          "trial_design": "BNT327 + nab-paclitaxel/gemcitabine or mFOLFIRINOX",
+          "nct_ids": ["NCT07255404"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT323 (trastuzumab pamirtecan)",
+      "aka": ["DB-1303"],
+      "modality": "HER2-directed antibody-drug conjugate (TOP1 payload)",
+      "target": "HER2",
+      "license_origin": "In-licensed from DualityBio",
+      "indications": [
+        {
+          "indication": "Endometrial cancer (HER2-expressing, post-platinum)",
+          "highest_phase": "Phase 3",
+          "trial_name": "BNT323-02",
+          "trial_design": "BNT323 vs investigator-choice chemo (doxorubicin/paclitaxel/docetaxel)",
+          "nct_ids": ["NCT06340568"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        },
+        {
+          "indication": "HER2-expressing breast cancer (combo with BNT327)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT323 + BNT327",
+          "trial_design": "Dose finding combination",
+          "nct_ids": ["NCT06827236"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT324",
+      "aka": ["DB-1311"],
+      "modality": "B7-H3-directed antibody-drug conjugate (TOP1 payload)",
+      "target": "B7-H3",
+      "license_origin": "In-licensed from DualityBio",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer",
+          "highest_phase": "Phase 3",
+          "trial_name": "BNT324-03",
+          "trial_design": "BNT324 vs docetaxel + prednisone",
+          "nct_ids": ["NCT07365995"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced lung cancer (combo with BNT327)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT324 + BNT327",
+          "trial_design": "Combination",
+          "nct_ids": ["NCT06892548"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT113",
+      "aka": [],
+      "modality": "FixVac mRNA cancer vaccine (HPV16 E6/E7)",
+      "target": "HPV16 E6/E7",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "HPV16+ head and neck squamous cell carcinoma (1L unresectable/metastatic)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "AHEAD-MERIT",
+          "trial_design": "BNT113 + pembrolizumab vs pembrolizumab",
+          "nct_ids": ["NCT04534205"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Autogene cevumeran (RO7198457)",
+      "aka": ["RO7198457", "BNT122"],
+      "modality": "Individualized neoantigen mRNA vaccine (iNeST)",
+      "target": "Patient-specific neoantigens",
+      "license_origin": "Genentech/Roche collaboration",
+      "indications": [
+        {
+          "indication": "Resected stage II/III colorectal cancer (ctDNA+)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BNT122-01",
+          "trial_design": "Autogene cevumeran vs watchful waiting",
+          "nct_ids": ["NCT04486378"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Genentech (BioNTech co-developer)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT116",
+      "aka": [],
+      "modality": "FixVac mRNA cancer vaccine",
+      "target": "NSCLC tumor-associated antigens",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Non-small cell lung cancer (combo)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BNT116-01",
+          "trial_design": "BNT116 mono and in combination (cemiplimab, docetaxel, BNT316, ADCs, osimertinib, ALK/RET-i)",
+          "nct_ids": ["NCT05142189"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT211",
+      "aka": ["CLDN6 CAR-T"],
+      "modality": "CAR-T cell therapy plus CARVac mRNA",
+      "target": "Claudin-6",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "CLDN6-positive advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "BNT211-01",
+          "trial_design": "CLDN6 CAR-T +/- CLDN6 RNA-LPX",
+          "nct_ids": ["NCT04503278"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT314",
+      "aka": [],
+      "modality": "Bispecific antibody",
+      "target": "Undisclosed (solid tumor)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (monotherapy)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BNT314-01",
+          "trial_design": "Dose escalation",
+          "nct_ids": ["NCT06150183"],
+          "trial_status": "Active not recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        },
+        {
+          "indication": "Metastatic colorectal cancer (combo)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT314 + BNT327 + SoC",
+          "trial_design": "Combination with BNT327, chemo, bevacizumab",
+          "nct_ids": ["NCT07079631"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT317",
+      "aka": [],
+      "modality": "Bispecific antibody",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "BNT317-01",
+          "trial_design": "Dose escalation",
+          "nct_ids": ["NCT06750185"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT326",
+      "aka": [],
+      "modality": "Bispecific antibody",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (monotherapy and combo with BNT327)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT326-01",
+          "trial_design": "Dose escalation +/- BNT327",
+          "nct_ids": ["NCT07070232"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        },
+        {
+          "indication": "Non-small cell lung cancer (combo)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT326 + BNT327 + pembrolizumab",
+          "trial_design": "Combination",
+          "nct_ids": ["NCT07111520"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT329",
+      "aka": [],
+      "modality": "Antibody",
+      "target": "CA19-9",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced CA19-9-expressing solid cancers",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT329-01",
+          "trial_design": "Dose escalation",
+          "nct_ids": ["NCT07186842"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT3212",
+      "aka": [],
+      "modality": "Bispecific/Multispecific oncology asset",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (mono + BNT327 combo)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT3212-01",
+          "trial_design": "Dose escalation +/- BNT327",
+          "nct_ids": ["NCT07147348"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT3214",
+      "aka": ["PM8102"],
+      "modality": "Oncology biologic",
+      "target": "Undisclosed",
+      "license_origin": "Biotheus origin",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT3214-01",
+          "trial_design": "Dose escalation",
+          "nct_ids": ["NCT07455734"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT351",
+      "aka": [],
+      "modality": "Antibody",
+      "target": "HIV-1 (broadly neutralizing)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "HIV-1 infection",
+          "highest_phase": "Phase 1",
+          "trial_name": "BNT351-01",
+          "trial_design": "Dose escalation",
+          "nct_ids": ["NCT07392372"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT166",
+      "aka": ["BNT166a"],
+      "modality": "mRNA vaccine",
+      "target": "Mpox/orthopoxvirus antigens",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Mpox (monkeypox) / smallpox / orthopoxvirus prevention",
+          "highest_phase": "Phase 2",
+          "trial_name": "BNT166-02",
+          "trial_design": "Randomized vs placebo",
+          "nct_ids": ["NCT07379580"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT164",
+      "aka": ["BNT164a1", "BNT164b1"],
+      "modality": "mRNA vaccine",
+      "target": "Mycobacterium tuberculosis antigens",
+      "license_origin": "Internal (Gates Foundation supported)",
+      "indications": [
+        {
+          "indication": "Tuberculosis",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "BNT164-01",
+          "trial_design": "BNT164a1/BNT164b1 vs placebo",
+          "nct_ids": ["NCT05547464"],
+          "trial_status": "Active not recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BNT163",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "HSV-2 antigens",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Genital herpes simplex type 2 (prophylactic/therapeutic)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BNT163-01",
+          "trial_design": "BNT163 vs placebo",
+          "nct_ids": ["NCT05432583"],
+          "trial_status": "Active not recruiting",
+          "lead_sponsor": "BioNTech",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Comirnaty (BNT162b2)",
+    "partner": "Pfizer",
+    "indication": "COVID-19 prophylaxis",
+    "note": "Strain-adapted variants (LP.8.1, KP.2, XBB.1.5) in ongoing Phase 3 lifecycle trials (NCT07069309, NCT07222384, NCT07300839, NCT05543616) - included as commercial lifecycle, not pipeline."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 17,
+    "phase_3_indications": 6,
+    "phase_2_indications": 6,
+    "phase_1_or_1_2_indications": 12,
+    "note": "Counts are unique indication-phase pairs from active P1-P3 BioNTech-sponsored trials. Comirnaty COVID lifecycle Ph3 studies counted as commercial, not pipeline."
+  }
+}

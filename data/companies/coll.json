@@ -1,0 +1,38 @@
+{
+  "issuer_name": "COLLEGIUM PHARMACEUTICAL, INC",
+  "ticker": "COLL",
+  "exchange": "Nasdaq",
+  "cik": "0001267565",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-011992", "filing_date": "2026-02-26", "doc": "coll-20251231.htm"},
+    "website": {"url": "https://www.collegiumpharma.com/", "note": "No dedicated R&D pipeline page; company emphasizes commercial portfolio"},
+    "ctgov": {"sponsor_query": "Collegium Pharmaceutical", "trial_count": 2, "active_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Collegium Pharmaceutical is a commercial-stage specialty pharmaceutical company focused on responsible pain management and ADHD/CNS, operating entirely via in-licensing/acquisition of approved products. There are no active company-sponsored Phase 1/2/3 development programs in the public registry. The most recent late-stage trial (NCT06431256, HLD200/Jornay PM in 4-5 year old ADHD patients) was terminated. The 2026 acquisition of AZSTARYS from Corium added another approved product but no clinical-stage assets.",
+  "commercial_product": {
+    "marketed_products": [
+      "Belbuca (buprenorphine buccal film)",
+      "Xtampza ER (oxycodone extended-release abuse-deterrent)",
+      "Nucynta ER and Nucynta IR (tapentadol)",
+      "Symproic (naldemedine)",
+      "Jornay PM (methylphenidate HCl extended-release for ADHD)",
+      "AZSTARYS (serdexmethylphenidate / dexmethylphenidate, acquired Mar 2026)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT06431256", "asset": "HLD200 (Jornay PM)", "indication": "ADHD (ages 4-5)", "reason": "Terminated"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "marketed_products": 6
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "issuer_name": "OnKure Therapeutics, Inc.",
+  "ticker": "OKUR",
+  "exchange": "Nasdaq",
+  "cik": "0001637715",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-12",
+      "accession": "0001193125-26-104147",
+      "url": "https://www.sec.gov/Archives/edgar/data/1637715/000119312526104147/okur-20251231.htm"
+    },
+    "website": {
+      "url": "https://onkuretherapeutics.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "OnKure",
+      "trial_count": 8,
+      "note": "Five trials sponsored by Reneo Pharma Ltd (legacy mavodelpar/REN001 program; deprioritized post-merger)"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "OKI-219",
+      "aka": [],
+      "modality": "Oral small molecule, mutant-selective PI3Ka inhibitor",
+      "target": "PI3Ka H1047R (mutant-selective; spares wild-type PI3Ka)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "PI3Ka H1047R-mutated advanced solid tumors / metastatic breast cancer (HR+/HER2-, HER2+, HER2-low) — monotherapy and combinations with fulvestrant, ribociclib + fulvestrant, atirmociclib + fulvestrant, trastuzumab/tucatinib",
+          "highest_phase": "Phase 1",
+          "trial_name": "PIKture-01",
+          "trial_design": "Open-label, international, multi-arm Phase 1 dose escalation/expansion: monotherapy, doublet (OKI-219 + fulvestrant), and triplet arms (OKI-219 + fulvestrant + ribociclib; + atirmociclib)",
+          "nct_ids": ["NCT06239467"],
+          "trial_status": "RECRUITING; monotherapy and fulvestrant combination ongoing; two triplet dose escalation arms (Parts C and E) initiated H2 2025; combined data expected 2026",
+          "lead_sponsor": "OnKure, Inc.",
+          "key_milestones": [
+            "Preliminary safety/PK data Dec 2024 (well tolerated; no hyperglycemia)",
+            "Combination with fulvestrant initiated Q4 2024",
+            "Triplet arms initiated H2 2025",
+            "Combined monotherapy + fulvestrant + triplet data expected 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "OKI-355", "reason": "Preclinical (IND-enabling studies ongoing) — mutant-selective PI3Ka for vascular anomalies"},
+    {"asset": "OKI-345", "reason": "Preclinical (IND-enabling studies ongoing) — mutant-selective PI3Ka for breast cancer"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Mavodelpar (REN001)", "reason": "Legacy Reneo Pharma asset (pre-merger); Phase 2 STRIDE in primary mitochondrial myopathy (NCT04535609) completed; long-term study NCT05267574 TERMINATED; program deprioritized following Reneo/OnKure reverse merger; no longer in 10-K pipeline"},
+    {"asset": "OKI-179", "reason": "Prior HDAC inhibitor program (NCT03931681 and NCT05340621 NAUTILUS combination with binimetinib in NRAS-mutated melanoma both COMPLETED); not described as active in 2025 10-K pipeline"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3_indications": 0,
+    "phase_2_indications": 0,
+    "phase_1_indications": 1
+  }
+}

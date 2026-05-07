@@ -1,0 +1,25 @@
+{
+  "issuer_name": "Abpro Holdings, Inc.",
+  "ticker": "ABPO",
+  "exchange": "OTC",
+  "cik": "0001893219",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-26-044166", "filing_date": "2026-04-15", "path": "data/abpo_10k_pipeline_section.html"},
+    "website": {"url": "https://abpro.com", "note": "Pipeline page exists; corroborates 10-K - all programs preclinical/IND-pending"},
+    "ctgov": {"path": "data/abpo_ctgov_compact.json", "trial_count": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per Abpro's 10-K filed 2026-04-15, all four lead bispecific antibody programs are still preclinical or IND-pending. ABP-102 (HER2 x CD3 TetraBi for HER2+ breast/gastric cancer) Phase 1/2 initiation planned 1H 2026 with Celltrion. ABP-201 (VEGF x ANG2 TetraBi) Phase 1 planning underway with partner AbMed/Abpro Bio. ABP-110 (GPC3 x CD3 for HCC, NCI license) clinical-trial initiation expected 1H 2027. ABP-150 (Claudin18.2 x CD3 for gastric, with Nanjing CTTQ) is in preclinical development. No Abpro-sponsored studies on clinicaltrials.gov.",
+  "excluded_preclinical": [
+    {"asset": "ABP-102", "indication": "HER2+ breast and gastric cancer", "status": "IND-pending; Phase 1/2 planned 1H 2026 (partnered with Celltrion)"},
+    {"asset": "ABP-201", "indication": "VEGF/ANG2 (ophthalmology / oncology)", "status": "IND-pending; Phase 1 planned (AbMed and Abpro Bio territorial partners)"},
+    {"asset": "ABP-110", "indication": "Hepatocellular carcinoma (GPC3 x CD3)", "status": "Preclinical; clinical initiation expected 1H 2027 (NCI license)"},
+    {"asset": "ABP-150", "indication": "Gastric cancer (Claudin18.2 x CD3)", "status": "Preclinical (Nanjing CTTQ collaboration)"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

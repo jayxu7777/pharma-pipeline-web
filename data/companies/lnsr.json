@@ -1,0 +1,29 @@
+{
+  "issuer_name": "LENSAR, Inc.",
+  "ticker": "LNSR",
+  "exchange": "Nasdaq",
+  "cik": "0001320350",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-134587", "filing_date": "2026-03-31", "doc": "lnsr-20251231.htm", "note": "10-K describes commercial femtosecond laser systems (LENSAR Laser System and ALLY Robotic Cataract Laser System); no Phase 1/2/3 drug program disclosed."},
+    "website": {"url": "https://lensar.com", "note": "Marketing site for ALLY and LENSAR Laser System; no /pipeline page (404)."},
+    "ctgov": {"sponsor_query": "LENSAR", "result_count": 2, "note": "Both registered studies (NCT01001117, NCT01014702) are legacy 2008-2011 cataract device studies with overallStatus=UNKNOWN; not active."}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {"name": "LENSAR Laser System", "type": "Femtosecond laser platform", "indication": "Cataract surgery (capsulotomy, lens fragmentation, corneal incisions, arcuate astigmatism management)", "regulatory_status": "FDA cleared; commercially marketed"},
+      {"name": "ALLY Robotic Cataract Laser System", "type": "Next-generation femtosecond + phacoemulsification single-platform device", "indication": "Cataract surgery with integrated astigmatism management", "regulatory_status": "FDA cleared; commercially marketed"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"trial": "Laser Treatment of the Crystalline Lens", "nct_id": "NCT01001117", "status": "UNKNOWN (last update pre-2012)"},
+    {"trial": "Prospective Clinical Trial of the LensAR Laser System", "nct_id": "NCT01014702", "status": "UNKNOWN (last update pre-2012)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p1": 0, "p2": 0, "p3": 0, "commercial_devices": 2},
+  "no_active_clinical_pipeline_reason": "Commercial ophthalmic medical device company (femtosecond laser systems for cataract surgery). No proprietary drug or active investigational device pipeline; both LENSAR Laser System and ALLY are FDA-cleared, commercially marketed products."
+}

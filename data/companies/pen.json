@@ -1,0 +1,56 @@
+{
+  "issuer_name": "Penumbra Inc",
+  "ticker": "PEN",
+  "exchange": "NYSE",
+  "cik": "0001321732",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001321732-26-000007",
+      "filing_date": "2026-02-25",
+      "doc": "pen-20251231.htm",
+      "path": "data/pen_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page found - Penumbra is a commercial medical-device company (no pipeline page at penumbrainc.com/pipeline)"
+    },
+    "ctgov": {
+      "path": "data/pen_ctgov_compact.json",
+      "hits": 3,
+      "note": "All three hits are inactive: NCT02216643 (P3, COMPLETED 2019, sponsor Hospital de Clinicas Porto Alegre); NCT00334061 (P2, COMPLETED 2007); NCT01753388 (P2, WITHDRAWN). No active P1/P2/P3 sponsored studies for proprietary pipeline drug assets."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Penumbra is a commercial-stage interventional medical-device company. Marketed device franchises include vascular thrombectomy (Penumbra System / Indigo with CAVT, Lightning aspiration, RED reperfusion catheters, Flash 2.0), neurovascular embolization (Ruby Coil, POD, SMART Coil), and immersive healthcare (REAL System VR rehabilitation). All FDA-cleared / CE-marked commercial devices, not investigational drugs."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "nct_id": "NCT00334061",
+      "asset": "Penumbra System",
+      "reason": "Phase 2 study completed 2007; device subsequently FDA-cleared and commercialized."
+    },
+    {
+      "nct_id": "NCT01753388",
+      "asset": "Liberty Stent",
+      "reason": "Phase 2 study WITHDRAWN."
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "nct_id": "NCT02216643",
+      "asset": "Penumbra System / Solitaire FR thrombectomy comparison",
+      "reason": "Investigator-initiated, lead sponsor Hospital de Clinicas de Porto Alegre; Penumbra is collaborator only. COMPLETED 2019."
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Penumbra is a commercial medical-device manufacturer (neurovascular thrombectomy, peripheral vascular embolization, immersive rehab). It does not develop proprietary therapeutic drugs and has no active sponsored P1/P2/P3 pivotal device clinical trials for new investigational devices in the public registry."
+}

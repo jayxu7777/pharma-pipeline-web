@@ -1,0 +1,29 @@
+{
+  "issuer_name": "Sun Pacific Holding Corp.",
+  "ticker": "SNPW",
+  "exchange": "OTC",
+  "cik": "0001343465",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "10-K found but no pipeline section heading detected (issuer is non-pharma)",
+      "accession": "0001493152-23-012644",
+      "filing_date": "2023-04-18"
+    },
+    "website": {
+      "error": "Not searched - issuer is solar/renewable-energy holding, not pharma; classified by wide_keyword_match"
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 0,
+      "compact_path": "data/snpw_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p1": 0, "p2": 0, "p3": 0},
+  "no_active_clinical_pipeline_reason": "Sun Pacific Holding Corp. is a renewable-energy/solar holding and signage company - not a biopharma. Misclassified by wide_keyword_match. No drug or device pipeline; zero ClinicalTrials.gov records under sponsor name."
+}

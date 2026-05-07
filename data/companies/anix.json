@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Anixa Biosciences Inc",
+  "ticker": "ANIX",
+  "exchange": "Nasdaq",
+  "cik": "0000715446",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-001845", "filed": "2026-01-12", "file": "data/anix_10k_pipeline_section.html"},
+    "website": {"url": "https://anixa.com/pipeline"},
+    "ctgov": {"file": "data/anix_ctgov_compact.json", "kept_p1_p3": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "Breast cancer vaccine (alpha-lactalbumin)",
+      "aka": ["alpha-lactalbumin vaccine", "Cleveland Clinic breast cancer vaccine"],
+      "modality": "Therapeutic / preventive cancer vaccine",
+      "target": "Alpha-lactalbumin (retired protein expressed on triple-negative breast cancer cells)",
+      "license_origin": "Licensed from Cleveland Clinic",
+      "indications": [
+        {
+          "indication": "Triple-negative breast cancer (early-stage / adjuvant; planned neoadjuvant Phase 2 with pembrolizumab)",
+          "highest_phase": "Phase 1 complete; Phase 2 planned",
+          "trial_name": "Adjuvant Therapy With an Alpha-lactalbumin Vaccine in Triple-Negative Breast Cancer",
+          "trial_design": "Dose-escalation Phase 1 to determine MTD and monitor immune response; final data presented at SABCS Dec 2025",
+          "nct_ids": ["NCT04674306"],
+          "trial_status": "Phase 1 enrollment completed June 2025; clinical visits completed October 2025; planning Phase 2 combination with Keytruda in neoadjuvant setting",
+          "lead_sponsor": "Cleveland Clinic (Anixa collaborator)",
+          "key_milestones": ["Phase 1 final data SABCS Dec 11, 2025", "Phase 2 study design under planning"]
+        }
+      ]
+    },
+    {
+      "asset": "lira-cel (CAR-T targeting FSHR)",
+      "aka": ["FSH-CER T cells", "Follicle Stimulating Hormone Receptor T cells"],
+      "modality": "Autologous CAR-T cell therapy (Chimeric Endocrine Receptor)",
+      "target": "Follicle Stimulating Hormone Receptor (FSHR)",
+      "license_origin": "Licensed by subsidiary Certainty Therapeutics from The Wistar Institute",
+      "indications": [
+        {
+          "indication": "Recurrent epithelial ovarian cancer",
+          "highest_phase": "Phase 1",
+          "trial_name": "Infusion of Autologous T Cells Engineered to Target FSH Receptor in Recurrent Ovarian Cancer",
+          "trial_design": "Dose-escalation Phase 1 to determine MTD and assess persistence, expansion and efficacy",
+          "nct_ids": ["NCT05316129"],
+          "trial_status": "RECRUITING (started 2022-04-28; primary completion 2026-07)",
+          "lead_sponsor": "H. Lee Moffitt Cancer Center and Research Institute (Anixa collaborator)",
+          "key_milestones": ["First patient dosed Aug 2022", "Primary completion 2026-07"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Ovarian cancer vaccine targeting AMHR2-ED (with Cleveland Clinic / NCI PREVENT) — IND-enabling / preclinical per 10-K",
+    "Cancer vaccine discovery program for lung, colon, prostate cancers (Cleveland Clinic JDA) — discovery stage",
+    "CAR-T against other solid tumors (Moffitt) — preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 2, "total_assets": 2}
+}

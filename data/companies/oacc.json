@@ -1,0 +1,20 @@
+{
+  "issuer_name": "Oaktree Acquisition Corp. III Life Sciences",
+  "ticker": "OACC",
+  "exchange": "Nasdaq",
+  "cik": "0002029769",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/oacc_10k_pipeline_section.html", "filing_date": "2026-03-26", "accession": "0001193125-26-126536", "note": "10-K confirms blank-check SPAC seeking life sciences business combination; no operating drug pipeline of its own."},
+    "website": {"error": "No drug pipeline page — pre-business-combination SPAC"},
+    "ctgov": {"file": "data/oacc_ctgov_compact.json", "unique_trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_active_assets": 0},
+  "no_active_clinical_pipeline_reason": "Oaktree Acquisition Corp. III Life Sciences is a Cayman Islands blank-check / special purpose acquisition company (SPAC) sponsored by Oaktree Capital Management, formed to consummate a business combination with a life sciences target. As of the latest 10-K (2026-03-26) it has no operations and no proprietary clinical pipeline."
+}

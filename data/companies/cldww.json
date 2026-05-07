@@ -1,0 +1,79 @@
+{
+  "issuer_name": "Calidi Biotherapeutics, Inc.",
+  "ticker": "CLDWW",
+  "exchange": "OTC",
+  "cik": "0001855485",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-27",
+      "accession": "0001493152-26-013242",
+      "url": "https://www.sec.gov/Archives/edgar/data/1855485/000149315226013242/form10-k.htm",
+      "note": "FY2025 10-K. Three platforms: NeuroNova (CLD-101 partner-led), SuperNova (CLD-201, preclinical), RedTail (CLD-401, IND-enabling)."
+    },
+    "website": {
+      "url": "https://www.calidibio.com/pipeline",
+      "note": "Pipeline page lists CLD-401 (IND enabling), CLD-501 (discovery), CLD-601 (discovery), NeuroNova (Phase 2), SuperNova (Phase 1). Phase progress bars are aspirational; 10-K is canonical."
+    },
+    "ctgov": {
+      "sponsor_query": "Calidi Biotherapeutics",
+      "active_p1_p3_company_sponsored": 0,
+      "note": "Zero results when querying 'Calidi Biotherapeutics' as lead sponsor (CLD-101 trials are sponsored by partners Northwestern University and City of Hope under the NSC-CRAd-S-pk7 designation, e.g. NCT05139056 Phase 1)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CLD-101 (NeuroNova)",
+      "aka": ["NSC-CRAd-S-pk7"],
+      "modality": "Allogeneic neural stem cells (NSC) loaded with engineered oncolytic adenovirus (CRAd-S-pk7); intracerebral administration into resection cavity",
+      "target": "Tumor-tropic NSC delivery of oncolytic adenovirus to glioma cells",
+      "license_origin": "Exclusive worldwide license (Northwestern University); partner-conducted clinical studies",
+      "indications": [
+        {
+          "indication": "Newly diagnosed high-grade glioma (HGG)",
+          "highest_phase": "Phase 1b/2 (planned/initiating); Phase 1 dose-escalation completed",
+          "trial_name": "Multiple Intracerebral Doses of NSC-CRAd-S-pk7 (Northwestern University)",
+          "trial_design": "Open-label Phase 1b/2 dose-escalation/expansion of multiple intracerebral doses in newly diagnosed HGG",
+          "nct_ids": ["NCT05139056"],
+          "trial_status": "RECRUITING (Northwestern University-sponsored; FDA IND clearance announced; trial initiation Q1 2025 per company guidance)",
+          "lead_sponsor": "Northwestern University (Calidi licensor)",
+          "key_milestones": [
+            "Original first-in-human Phase 1 single-dose at Northwestern published 2021 (Lancet Oncology)",
+            "Phase 1b/2 multi-dose initiation"
+          ]
+        },
+        {
+          "indication": "Recurrent high-grade glioma (HGG)",
+          "highest_phase": "Phase 1",
+          "trial_name": "City of Hope Phase 1 of NSC-CRAd-S-pk7 in recurrent HGG",
+          "trial_design": "Single-arm Phase 1 dose-escalation in recurrent HGG; CIRM-funded",
+          "nct_ids": "Not on public registry",
+          "trial_status": "RECRUITING (City of Hope; first patient dosed May 2023)",
+          "lead_sponsor": "City of Hope (Calidi partner)",
+          "key_milestones": [
+            "First patient dosed May 2023"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CLD-201 (SuperNova) - vaccinia virus loaded into AD-MSC for solid tumors (breast, sarcoma, head & neck) - preclinical",
+    "CLD-401 (RedTail) - systemically delivered enveloped vaccinia carrying IL-15 superagonist for metastatic solid tumors - IND enabling",
+    "CLD-501 - myeloma/B-cell Trop-2 in-situ TCE with IL-15 superagonist payload - discovery",
+    "CLD-601 - undisclosed tumor target - discovery"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 1,
+    "indications_total": 2,
+    "highest_phase_p3": 0,
+    "highest_phase_p2": 1,
+    "highest_phase_p1": 1,
+    "active_recruiting_or_active_not_recruiting": 2
+  },
+  "no_active_clinical_pipeline_reason": null
+}

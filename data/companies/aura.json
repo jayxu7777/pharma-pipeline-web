@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Aura Biosciences, Inc.",
+  "ticker": "AURA",
+  "exchange": "Nasdaq",
+  "cik": "0001501796",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-130401", "filing_date": "2026-03-30", "path": "data/aura_10k_pipeline_section.html"},
+    "website": {"url": "https://aurabiosciences.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/aura_ctgov_compact.json", "trial_count": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "Belzupacap sarotalocan (bel-sar)",
+      "aka": ["AU-011"],
+      "modality": "Virus-like drug conjugate (VDC) — HPV VLP + phthalocyanine photosensitizer; light-activated cytotoxic plus immune activation",
+      "target": "Modified tumor-associated heparan sulfate proteoglycans (HSPGs/GAGs) on solid tumor cells",
+      "license_origin": "In-house (collaboration with NIH on VLP platform)",
+      "indications": [
+        {
+          "indication": "Early choroidal melanoma (small choroidal melanoma / indeterminate lesions, first-line)",
+          "highest_phase": "Phase 3",
+          "trial_name": "CoMpass (global Phase 3)",
+          "trial_design": "Global, randomized, masked, sham-controlled superiority trial; ~100 patients 2:1:2 high-dose bel-sar / low-dose / sham SC injection + laser; primary endpoint time to tumor progression at 15 months; SPA agreement with FDA",
+          "nct_ids": ["NCT06007690"],
+          "trial_status": "Recruiting; enrollment expected complete mid-2026; topline H2 2027",
+          "lead_sponsor": "Aura Biosciences",
+          "key_milestones": ["FDA + EMA Orphan Drug Designation", "FDA Fast Track Designation", "Special Protocol Assessment with FDA", "Enrollment complete mid-2026", "Topline 15-month primary endpoint H2 2027"]
+        },
+        {
+          "indication": "Metastases to the choroid",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 metastases to the choroid",
+          "trial_design": "Phase 2, ~12-24 patients with unilateral/unifocal choroidal metastasis from any primary solid tumor; SC administration + laser; safety, tumor shrinkage, visual acuity, dose/regimen finding",
+          "nct_ids": ["NCT06643884"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Aura Biosciences",
+          "key_milestones": ["FDA Fast Track Designation (Division of Oncology) for metastases to the choroid", "Early proof-of-concept data expected 2026"]
+        },
+        {
+          "indication": "Cancers of the ocular surface (conjunctival melanoma, squamous cell carcinoma)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 ocular surface PoC (Australia)",
+          "trial_design": "Phase 1 proof-of-concept trial in Australia; safety, feasibility, tumor response by histopathology at 2-4 weeks",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiating in Australia; early PoC data expected 2026",
+          "lead_sponsor": "Aura Biosciences",
+          "key_milestones": ["Early PoC data expected 2026"]
+        },
+        {
+          "indication": "Non-muscle-invasive bladder cancer (NMIBC, intermediate and high-risk)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Phase 1b/2 NMIBC",
+          "trial_design": "Phase 1b/2 evaluating two front-line interventions: neoadjuvant prior to TURBT and immune-ablative (without TURBT); additional doses/cycles; durability up to 12 months",
+          "nct_ids": ["NCT05483868"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Aura Biosciences",
+          "key_milestones": ["Positive Phase 1 NMIBC data 2025", "FDA Fast Track Designation in NMIBC"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Future expansion into additional solid tumor indications based on VDC platform (preclinical)"],
+  "excluded_legacy_terminated": [
+    "NCT04417530 Phase 2 SC bel-sar early choroidal melanoma (COMPLETED, supportive)",
+    "NCT03052127 Phase 1/2 small primary choroidal melanoma (COMPLETED, supportive)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 1,
+    "phase_2": 2,
+    "phase_1": 1,
+    "indications_active": 4
+  }
+}

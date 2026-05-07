@@ -1,0 +1,22 @@
+{
+  "issuer_name": "Opthea Limited",
+  "ticker": "OPTEY",
+  "exchange": "OTC",
+  "cik": "0001815620",
+  "region": "AU",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Australia) - files 20-F, not 10-K"},
+    "website": {"error": "https://opthea.com/pipeline returned 404; corporate pipeline page no longer published following program discontinuation"},
+    "ctgov": {"query": "spons:Opthea", "result": "5 P1-P3 trials (3 COMPLETED, 2 P3 TERMINATED)", "file": "data/optey_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "sozinibercept (OPT-302)", "indication": "Wet age-related macular degeneration (nAMD)", "nct_ids": ["NCT04757610 (ShORe)", "NCT04757636 (COAST)"], "reason": "Both pivotal Phase 3 trials terminated in March 2025 after failing to meet primary endpoint of superiority over standard-of-care anti-VEGF monotherapy. Opthea announced discontinuation of the entire wet AMD development program for sozinibercept; no other clinical assets remain. Trading suspended on ASX; going-concern uncertainty disclosed."}
+  ],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "Opthea's only clinical asset, sozinibercept (OPT-302), failed both pivotal Phase 3 nAMD trials (ShORe and COAST) in March 2025 and the program was terminated. The company has no remaining active P1/P2/P3 programs and faces material going-concern uncertainty.",
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

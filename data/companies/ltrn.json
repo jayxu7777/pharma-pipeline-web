@@ -1,0 +1,83 @@
+{
+  "issuer_name": "Lantern Pharma Inc.",
+  "ticker": "LTRN",
+  "exchange": "Nasdaq",
+  "cik": "0001763950",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-013612", "filed": "2026-03-30", "doc": "form10-k.htm"},
+    "website": {"url": "https://www.lanternpharma.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/ltrn_ctgov_compact.json", "n_studies": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "LP-300",
+      "aka": ["Tavocept", "BNP7787", "Dimesna"],
+      "modality": "Small molecule (cysteine-modifying agent; chemo-sensitizer/protectant)",
+      "target": "Multiple cysteine-thiol redox/repair pathways",
+      "license_origin": "In-licensed (originated at BioNumerik)",
+      "indications": [
+        {
+          "indication": "Non-small cell lung adenocarcinoma in never smokers (frontline, with carboplatin + pemetrexed)",
+          "highest_phase": "Phase 2",
+          "trial_name": "HARMONIC",
+          "trial_design": "Phase 2 single-arm, LP-300 + carboplatin + pemetrexed in never-smokers with advanced lung adenocarcinoma; primary completion 2026-12",
+          "nct_ids": ["NCT05456256"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Lantern Pharma Inc.",
+          "key_milestones": ["Primary completion expected 2026-12"]
+        }
+      ]
+    },
+    {
+      "asset": "LP-184",
+      "aka": [],
+      "modality": "Small molecule (acylfulvene; DNA-damaging, synthetic-lethal in HR/NER-defective tumors)",
+      "target": "PTGR1-activated alkylator; exploits HR/NER deficiency",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (basket: GBM, TNBC, NSCLC, pancreatic, DDR-mutant, with monotherapy and combinations including olaparib and nivolumab/ipilimumab)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "LP-184 first-in-human",
+          "trial_design": "Phase 1a dose-escalation followed by Phase 1b/2 expansion in selected solid-tumor cohorts; combinations with olaparib and nivolumab/ipilimumab",
+          "nct_ids": ["NCT05933265"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (dose escalation through 2026-07)",
+          "lead_sponsor": "Lantern Pharma Inc.",
+          "key_milestones": ["Primary completion 2026-07-28"]
+        }
+      ]
+    },
+    {
+      "asset": "LP-284",
+      "aka": [],
+      "modality": "Small molecule (acylfulvene stereoisomer; DNA-damaging)",
+      "target": "Synthetic lethality in HR/NHEJ-defective hematologic cancers",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed or refractory non-Hodgkin lymphomas (mantle cell, double-hit) and advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "LP-284 first-in-human",
+          "trial_design": "Phase 1 dose-escalation safety/PK/clinical activity in r/r lymphomas and advanced solid tumors",
+          "nct_ids": ["NCT06132503"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Lantern Pharma Inc.",
+          "key_milestones": ["Primary completion 2028-11-30"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ADC Program (Starlight Therapeutics / oncology ADC)", "reason": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT03643107", "reason": "COMPLETED — irofulven mCRPC (Allarity-led)"},
+    {"nct_id": "NCT00966914", "reason": "COMPLETED — legacy BioNumerik Phase 3 of Tavocept (NSCLC)"},
+    {"nct_id": "NCT00039780", "reason": "COMPLETED — legacy BioNumerik Phase 3 of BNP7787 (breast)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 3, "P3": 0, "P2": 2, "P1": 1, "total_active_indications": 3}
+}

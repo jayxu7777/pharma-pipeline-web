@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Assertio Holdings, Inc.",
+  "ticker": "ASRT",
+  "exchange": "Nasdaq",
+  "cik": "0001808665",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Commercial-stage specialty pharma marketing 8 FDA-approved products (Cambia, Indocin, Otrexup, Rolvedon, Sprix, Sympazan, Zipsor). No company-sponsored clinical development pipeline disclosed in 10-K (FY2025) or corporate website. Only ctgov hits are investigator-initiated trials of Sprix where Assertio is collaborator, not sponsor.",
+  "sources": {
+    "10k": {"accession": "0001808665-26-000011", "filed": "2026-03-16", "form": "10-K"},
+    "website": {"url": "https://www.assertiotx.com/products/", "note": "Commercial products page; no pipeline section on corporate site"},
+    "ctgov": {"query_sponsor": "Assertio", "results": 2, "note": "Both trials are investigator-initiated (Washington U, UT Southwestern) with Assertio as collaborator, not lead sponsor — excluded as partner-owned/IIT"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": ["Cambia (diclofenac potassium)", "Indocin (indomethacin)", "Otrexup (methotrexate)", "Rolvedon (eflapegrastim-xnst)", "Sprix (ketorolac tromethamine)", "Sympazan (clobazam)", "Zipsor (diclofenac potassium)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT06083571", "title": "Intranasal Ketorolac Trial (Sprix)", "reason": "TERMINATED; investigator-initiated by Washington U School of Medicine; Assertio is collaborator only"}
+  ],
+  "excluded_partner_owned": [
+    {"nct_id": "NCT06158620", "title": "Intra-nasal Ketorolac for Acute Ureteral Stent-associated Pain", "reason": "Lead sponsor is UT Southwestern; Assertio is collaborator only — investigator-initiated study of marketed Sprix"}
+  ],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

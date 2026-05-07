@@ -1,0 +1,53 @@
+{
+  "issuer_name": "RxSight, Inc.",
+  "ticker": "RXST",
+  "exchange": "Nasdaq",
+  "cik": "0001111485",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-071775",
+      "filed": "2026-02-25",
+      "doc": "rxst-20251231.htm",
+      "note": "10-K describes commercial-stage RxSight Light Adjustable Lens system; pivotal Phase 3 study completed 2016 and Post-Approval Study accepted by FDA 2025. No active drug-development pipeline disclosed."
+    },
+    "website": {
+      "url": "https://rxsight.com",
+      "note": "Commercial LAL/LAL+ intraocular lens with Light Delivery Device. No public pipeline page; no active NCT IDs disclosed."
+    },
+    "ctgov": {
+      "sponsor_query": "RxSight",
+      "raw_hits": 9,
+      "unique_active_p1_p3_trials": 0,
+      "note": "All RxSight-sponsored ClinicalTrials.gov records are completed Phase 3 pivotal or post-approval studies; no active interventional P1-P3 trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "RxSight is a commercial-stage ophthalmic medical-technology company.",
+    "products": [
+      {
+        "name": "RxSight Light Adjustable Lens (LAL / LAL+)",
+        "indication": "Premium intraocular lens for cataract surgery patients with residual refractive error and astigmatism",
+        "regulatory_status": "FDA PMA approved 2017-11-22; ~55 PMA supplements through 2025; CE mark and approvals in EU, Canada, Mexico, Singapore, Australia, South Korea"
+      },
+      {
+        "name": "RxSight Light Delivery Device (LDD)",
+        "indication": "Office-based UV light delivery system used to adjust LAL refractive properties post-implantation",
+        "regulatory_status": "FDA-approved companion device to LAL"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Commercial-stage ophthalmic medtech focused on the FDA-approved RxSight LAL/LDD system. R&D activities are line-extension and lifecycle management of an approved device (additional diopter powers, software/manufacturing improvements). No active P1/P2/P3 drug or device pivotal IDE study disclosed in 10-K, on corporate website, or on ClinicalTrials.gov."
+}

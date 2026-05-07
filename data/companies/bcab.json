@@ -1,0 +1,118 @@
+{
+  "issuer_name": "BioAtla, Inc.",
+  "ticker": "BCAB",
+  "exchange": "Nasdaq",
+  "cik": "0001826892",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001193125-26-134499",
+      "path": "data/bcab_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page fetched (skipped — 10-K coverage adequate)"},
+    "ctgov": {"path": "data/bcab_ctgov_compact.json", "trial_count_p1_p3": 7, "active_count": 3, "note": "Company in strategic-options/workforce-reduction process; multiple programs paused or being re-evaluated"}
+  },
+  "pipeline": [
+    {
+      "asset": "Ozuriftamab vedotin (BA3021)",
+      "aka": ["Oz-V", "CAB-ROR2-ADC"],
+      "modality": "Conditionally Active Biologic (CAB) anti-ROR2 antibody-drug conjugate (MMAE)",
+      "target": "ROR2 (Receptor Tyrosine Kinase Like Orphan Receptor 2)",
+      "license_origin": "Internal (CAB platform)",
+      "indications": [
+        {
+          "indication": "Squamous cell carcinoma of head and neck (HPV+ OPSCC, post anti-PD-(L)1 + platinum)",
+          "highest_phase": "P2 (with planned P3)",
+          "trial_name": "BA3021-001 SCCHN Phase 2 (complete); planned Phase 3 in OPSCC",
+          "trial_design": "Phase 2 open-label complete; planned Phase 3 in HPV-associated OPSCC at 1.8 mg/kg Q2W; FDA Fast Track granted",
+          "nct_ids": ["NCT05271604"],
+          "trial_status": "Phase 2 COMPLETED Sep 2025 (durable responses incl. confirmed CR); Phase 3 initiation re-evaluated due to strategic process — Inversagen AI SPV financing not yet closed",
+          "lead_sponsor": "BioAtla, Inc.",
+          "key_milestones": ["Phase 3 OPSCC initiation pending strategic outcome"]
+        },
+        {
+          "indication": "Platinum-resistant high-grade serous ovarian cancer (combination platform)",
+          "highest_phase": "P2",
+          "trial_name": "Canadian Cancer Trials Group platform IO study",
+          "trial_design": "Phase 2 immunotherapy platform combining BA3021 + BA3011 + ENB003 + durvalumab + toripalimab",
+          "nct_ids": ["NCT04918186"],
+          "trial_status": "RECRUITING (lead sponsor: Canadian Cancer Trials Group; BioAtla is collaborator supplying drug)",
+          "lead_sponsor": "Canadian Cancer Trials Group (BioAtla collaborator)",
+          "key_milestones": ["Primary completion expected Jun-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Evalstotug (BA3071)",
+      "aka": ["CAB-CTLA-4"],
+      "modality": "CAB anti-CTLA-4 monoclonal antibody",
+      "target": "CTLA-4 (tumor-microenvironment restricted)",
+      "license_origin": "Internal (rights returned from BeOne/BeiGene Nov 2021)",
+      "indications": [
+        {
+          "indication": "Solid tumors (NSCLC, melanoma) — combo with pembrolizumab",
+          "highest_phase": "P2",
+          "trial_name": "BA3071 Phase 1/2 (dose-optimization)",
+          "trial_design": "Phase 1/2 monotherapy and combination with pembrolizumab; dose optimization 350 mg vs 700 mg; MTD not reached at 1000 mg",
+          "nct_ids": ["NCT05180799"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion Mar 2025); Phase 2 ongoing for dose optimization",
+          "lead_sponsor": "BioAtla, Inc.",
+          "key_milestones": ["Dose optimization data"]
+        }
+      ]
+    },
+    {
+      "asset": "BA3182",
+      "aka": ["CAB-EpCAM x CAB-CD3"],
+      "modality": "Bispecific dual-CAB T-cell engager",
+      "target": "EpCAM x CD3",
+      "license_origin": "Internal (CAB bispecific platform)",
+      "indications": [
+        {
+          "indication": "Advanced adenocarcinoma (incl. cholangiocarcinoma)",
+          "highest_phase": "P1",
+          "trial_name": "BA3182 Phase 1 dose escalation",
+          "trial_design": "Phase 1 dose-escalation in advanced adenocarcinoma; exploring higher doses with treatment-free intervals",
+          "nct_ids": ["NCT05808634"],
+          "trial_status": "RECRUITING — early signals incl. confirmed PR in cholangiocarcinoma; pacing of additional enrollment being re-evaluated due to strategic process",
+          "lead_sponsor": "BioAtla, Inc.",
+          "key_milestones": ["Continued dose escalation"]
+        }
+      ]
+    },
+    {
+      "asset": "Mecbotamab vedotin (BA3011)",
+      "aka": ["CAB-AXL-ADC"],
+      "modality": "CAB anti-AXL antibody-drug conjugate (MMAE)",
+      "target": "AXL receptor tyrosine kinase",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Mutated KRAS NSCLC (post PD-1/EGFR/ALK)",
+          "highest_phase": "P2 (complete; partnering)",
+          "trial_name": "BA3011-002 NSCLC Phase 2",
+          "trial_design": "Phase 2 monotherapy and combination with nivolumab in heavily pre-treated KRAS-mutant NSCLC",
+          "nct_ids": ["NCT04681131"],
+          "trial_status": "COMPLETED Jul 2025 — promising long-term survival in mutated KRAS NSCLC; future development pursued via partnership",
+          "lead_sponsor": "BioAtla, Inc.",
+          "key_milestones": ["Partnering / out-licensing"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "BA3361 (CAB-Nectin-4 ADC)", "reason": "IND-cleared but not yet in clinical trials"},
+    {"asset": "BA3142 (CAB-B7-H3 x CAB-CD3 bispecific)", "reason": "Preclinical; awaiting funding/partnership for IND"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "BA3011 in UPS sarcoma", "nct": "NCT03425279", "reason": "Phase 1/2 sarcoma study COMPLETED Jan 2025; UPS development deprioritized in favor of KRAS NSCLC"},
+    {"asset": "BA3021 in TNBC/HNC/NSCLC/melanoma early Phase 1/2", "nct": "NCT03504488", "reason": "Phase 1/2 COMPLETED Dec 2024 — superseded by indication-specific Phase 2 trials"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "CT-202 (formerly BA3362, CAB-Nectin-4 x CD3)", "reason": "Out-licensed to Context Therapeutics Sep 2024; no longer BioAtla-developed"}
+  ],
+  "summary_counts": {"P1": 1, "P2": 3, "P3": 0, "total_assets": 4}
+}

@@ -1,0 +1,61 @@
+{
+  "issuer_name": "Edesa Biotech, Inc.",
+  "ticker": "EDSA",
+  "exchange": "Nasdaq",
+  "cik": "0001540159",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001171843-25-007914", "filing_date": "2025-12-12", "fiscal_year_end": "2025-09-30", "path": "data/edsa_10k_pipeline_section.html"},
+    "website": {"url": "https://edesabiotech.com/", "note": "Corporate site is dynamic; pipeline detail not fully extractable via static fetch"},
+    "ctgov": {"path": "data/edsa_ctgov_compact.json", "trial_count": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "Paridiprubart",
+      "aka": ["EB05"],
+      "modality": "Anti-TLR4 monoclonal antibody",
+      "target": "Toll-Like Receptor 4 (TLR4)",
+      "license_origin": "Internal (Edesa)",
+      "indications": [
+        {
+          "indication": "Acute Respiratory Distress Syndrome (ARDS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "JUST BREATHE Adaptive Platform Trial — Cohort B (paridiprubart)",
+          "trial_design": "BARDA/PPD-run randomized, double-blind, placebo-controlled adaptive Phase 2 platform; Edesa is intervention sponsor for paridiprubart cohort",
+          "nct_ids": ["NCT06701669", "NCT06703073"],
+          "trial_status": "Recruiting (started 2025-06-10; primary completion 2028-07)",
+          "lead_sponsor": "PPD Development, LP (BARDA-funded)",
+          "key_milestones": ["BARDA funding under JUST BREATHE; legacy Edesa-led COVID-19/ARDS Phase 2/3 (NCT04401475) is SUSPENDED"]
+        }
+      ]
+    },
+    {
+      "asset": "EB06",
+      "aka": [],
+      "modality": "Anti-CXCL10 monoclonal antibody",
+      "target": "CXCL10 (IP-10) chemokine",
+      "license_origin": "Internal (Edesa)",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe nonsegmental vitiligo",
+          "highest_phase": "Phase 2",
+          "trial_name": "EB06 Phase 2 proof-of-concept in nonsegmental vitiligo",
+          "trial_design": "Randomized placebo-controlled Phase 2 (planned)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Health Canada approval received; FDA discussions ongoing; enrollment anticipated by midyear 2026",
+          "lead_sponsor": "Edesa Biotech Inc.",
+          "key_milestones": ["Enrollment expected to begin mid-2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "EB05/paridiprubart COVID-19/ARDS Phase 2/3 standalone trial", "nct_ids": ["NCT04401475"], "status": "SUSPENDED"},
+    {"asset": "EB01 (1.0% daniluromer cream) Phase 2 ACD", "nct_ids": ["NCT03680131"], "status": "COMPLETED — Phase 3-ready but currently at partnering stage with no active trial"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p3": 0, "p2": 2, "p1": 0}
+}

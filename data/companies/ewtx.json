@@ -1,0 +1,103 @@
+{
+  "issuer_name": "Edgewise Therapeutics, Inc.",
+  "ticker": "EWTX",
+  "exchange": "Nasdaq",
+  "cik": "0001710072",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-02-26", "accession": "0001104659-26-020112", "path": "data/ewtx_10k_pipeline_section.html"},
+    "website": {"path": "http://edgewisetx.com/pipeline", "note": "Pipeline page extracted successfully"},
+    "ctgov": {"path": "data/ewtx_ctgov_compact.json", "trials_found": 16}
+  },
+  "pipeline": [
+    {
+      "asset": "Sevasemten",
+      "aka": ["EDG-5506"],
+      "modality": "Oral first-in-class small-molecule selective fast skeletal myosin inhibitor",
+      "target": "Fast skeletal myosin ATPase (selective for type II fibers)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Becker Muscular Dystrophy (BMD) in adults",
+          "highest_phase": "Phase 3 (pivotal)",
+          "trial_name": "GRAND CANYON",
+          "trial_design": "Randomized double-blind placebo-controlled pivotal Phase 3 (formerly Phase 2 expanded to pivotal) of sevasemten in adult BMD patients; OLE study NCT06066580 (Phase 2 enrolling by invitation)",
+          "nct_ids": ["NCT05291091", "NCT06066580"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (GRAND CANYON pivotal); OLE ENROLLING_BY_INVITATION",
+          "lead_sponsor": "Edgewise Therapeutics, Inc.",
+          "key_milestones": ["GRAND CANYON pivotal topline anticipated in coming quarters"]
+        },
+        {
+          "indication": "Duchenne Muscular Dystrophy (DMD) — children/adolescents incl. those previously treated with gene therapy",
+          "highest_phase": "Phase 2",
+          "trial_name": "LYNX (children DMD) and FOX (post-gene therapy DMD)",
+          "trial_design": "Open-label Phase 2 studies of sevasemten in pediatric DMD patients (LYNX) and DMD patients previously treated with gene therapy",
+          "nct_ids": ["NCT05540860", "NCT06100887"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Edgewise Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "EDG-7500",
+      "aka": [],
+      "modality": "Novel oral selective cardiac sarcomere modulator (small molecule)",
+      "target": "Cardiac sarcomere (undisclosed sarcomeric target)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Hypertrophic cardiomyopathy (HCM) — obstructive and non-obstructive",
+          "highest_phase": "Phase 2",
+          "trial_name": "CIRRUS-HCM",
+          "trial_design": "Open-label Phase 2 of EDG-7500 in adults with HCM",
+          "nct_ids": ["NCT06347159"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Edgewise Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "EDG-7500 — bridging Phase 1 in Caucasian and Japanese adults; hepatic impairment Phase 1",
+          "highest_phase": "Phase 1",
+          "trial_name": "EDG-7500 ethnobridging / hepatic impairment",
+          "trial_design": "Phase 1 PK studies in Japanese/Caucasian adults and in adults with hepatic impairment",
+          "nct_ids": ["NCT07456059", "NCT07324616"],
+          "trial_status": "NOT_YET_RECRUITING / RECRUITING",
+          "lead_sponsor": "Edgewise Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "EDG-15400",
+      "aka": [],
+      "modality": "Novel oral selective cardiac sarcomere modulator (small molecule)",
+      "target": "Cardiac sarcomere (undisclosed)",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Heart failure with preserved ejection fraction (HFpEF) — first-in-human",
+          "highest_phase": "Phase 1",
+          "trial_name": "EDG-15400 SAD/MAD",
+          "trial_design": "Phase 1 single-/multiple-ascending-dose study in healthy adults",
+          "nct_ids": ["NCT07177066"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Edgewise Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {},
+  "excluded_preclinical": ["EDG-003 (cardiometabolic) — preclinical"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 3,
+    "phase_3_indications": 1,
+    "phase_2_indications": 2,
+    "phase_1_indications": 2
+  }
+}

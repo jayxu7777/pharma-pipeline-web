@@ -1,0 +1,75 @@
+{
+  "issuer_name": "MediciNova, Inc.",
+  "ticker": "MNOV",
+  "exchange": "Nasdaq",
+  "cik": "0001226616",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-100432", "filed": "2026-03-10", "fy": "2025"},
+    "website": {"url": "https://www.medicinova.com", "fetched_via": "WebFetch", "note": "Pipeline page indicates assets and indications but no specific NCT/phase per row"},
+    "ctgov": {"sponsor_query": "MediciNova", "raw_count": 20, "kept_p1_p3": 20, "active_not_recruiting": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "MN-166 (ibudilast)",
+      "aka": ["ibudilast", "Pinatos"],
+      "modality": "Small molecule (oral phosphodiesterase-4 and -10 inhibitor; macrophage migration inhibitory factor inhibitor)",
+      "target": "PDE4/PDE10; MIF",
+      "license_origin": "In-licensed from Kyorin Pharmaceutical (Japan)",
+      "indications": [
+        {
+          "indication": "Amyotrophic lateral sclerosis (ALS)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "COMBAT-ALS",
+          "trial_design": "Phase 2b/3 randomized, double-blind, placebo-controlled trial evaluating MN-166 (ibudilast) for 12 months followed by 6-month open-label extension in ALS patients.",
+          "nct_ids": ["NCT04057898"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "MediciNova",
+          "key_milestones": ["Primary completion April 2027"]
+        },
+        {
+          "indication": "Progressive multiple sclerosis",
+          "highest_phase": "Phase 2",
+          "trial_name": "Progressive MS Phase 3 plan (post-SPRINT-MS)",
+          "trial_design": "SPRINT-MS Phase 2b (NCT01982942) completed positive (NEJM 2018). Company is in End-of-Phase-2 / Phase 3 planning discussions with FDA; no Phase 3 NCT yet on registry.",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 3 in design/regulatory interaction stage",
+          "lead_sponsor": "MediciNova",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MN-001 (tipelukast)",
+      "aka": ["tipelukast"],
+      "modality": "Small molecule (oral leukotriene receptor antagonist with additional 5-LO/PDE inhibitory activity)",
+      "target": "Cysteinyl-leukotriene receptor; 5-lipoxygenase; PDE",
+      "license_origin": "Internally developed/in-licensed",
+      "indications": [
+        {
+          "indication": "Non-alcoholic fatty liver disease (NAFLD) with type 2 diabetes and hypertriglyceridemia",
+          "highest_phase": "Phase 2",
+          "trial_name": "MN-001 in NAFLD/T2DM/HTG",
+          "trial_design": "Phase 2 randomized study of MN-001 vs placebo in patients with NAFLD, type 2 diabetes, and hypertriglyceridemia.",
+          "nct_ids": ["NCT05464784"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "MediciNova",
+          "key_milestones": ["Primary completion December 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "MN-029 (denibulin)", "reason": "Tubulin-binding anti-cancer agent; no active company-sponsored P1-3 trial — listed as non-core preclinical/historical."},
+    {"asset": "MN-221 (bedoradrine)", "reason": "Beta-2 adrenergic agonist for acute asthma/COPD; all company-sponsored trials COMPLETED or TERMINATED; no active development."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "MN-221 acute asthma Phase 2", "nct": "NCT00683449", "reason": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [
+    {"trial": "Ibudilast for Alcohol Use Disorder (NCT03594435) and methamphetamine-dependence trials", "reason": "Lead sponsor UCLA / NY State Psychiatric Institute — investigator-initiated, COMPLETED."}
+  ],
+  "summary_counts": {"assets": 2, "p3": 0, "p2": 3, "p1": 0, "p2_p3_combined": 1}
+}

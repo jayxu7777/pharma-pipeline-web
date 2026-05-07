@@ -1,0 +1,58 @@
+{
+  "issuer_name": "CERo Therapeutics Holdings, Inc.",
+  "ticker": "CERO",
+  "exchange": "OTC",
+  "cik": "0001870404",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-15",
+      "accession": "0001213900-26-044040",
+      "path": "data/cero_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://cero.bio/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/cero_ctgov_compact.json",
+      "sponsor_query": "CERo Therapeutics",
+      "trials_kept_p1_p3": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CER-1236",
+      "aka": [],
+      "modality": "Autologous engineered T cell therapy (Chimeric Engulfment Receptor / CER T cell)",
+      "target": "TIM-4 / phosphatidylserine 'eat-me' signal on tumor cells",
+      "license_origin": "Internal (CER T-cell platform)",
+      "indications": [
+        {
+          "indication": "Acute myeloid leukemia (AML), myelodysplastic syndrome (MDS), and myelofibrosis (MF) — relapsed/refractory hematologic malignancies",
+          "highest_phase": "P1",
+          "trial_name": "Phase 1 study of CER-1236 in AML/MDS/MF",
+          "trial_design": "Open-label dose-escalation Phase 1 study with lymphodepletion (cyclophosphamide/fludarabine/mesna) followed by CER-1236 infusion in adults with R/R AML, MDS, or MF",
+          "nct_ids": ["NCT06834282"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "CERo Therapeutics Holdings, Inc.",
+          "key_milestones": ["FDA Orphan Drug Designation for AML (June 2025)", "Started Apr 2025", "Primary completion target Dec 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CER-1236 in solid tumors — preclinical/IND-enabling per company website",
+    "Additional CER T-cell platform candidates — preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_indications": 0,
+    "p2_indications": 0,
+    "p1_indications": 1
+  }
+}

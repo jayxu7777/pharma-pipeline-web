@@ -1,0 +1,23 @@
+{
+  "issuer_name": "Envista Holdings Corp",
+  "ticker": "NVST",
+  "exchange": "NYSE",
+  "cik": "0001757073",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/nvst_10k_pipeline_section.html", "filing_date": "2026-02-12", "accession": "0001757073-26-000011", "note": "Dental products and consumables - implants (Nobel Biocare), orthodontics (Ormco/Spark), endodontics, equipment (KaVo). No drug pipeline."},
+    "website": {"error": "Dental devices/consumables company - no drug pipeline page applicable"},
+    "ctgov": {"path": "data/nvst_ctgov_compact.json", "note": "Zero P1/P2/P3 trials with Envista as lead sponsor"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Dental implants, orthodontic appliances (Spark clear aligners, brackets/wires), endodontic systems, dental imaging and equipment, infection prevention and consumables. No proprietary drug or biologic candidates."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_active": 0},
+  "no_active_clinical_pipeline_reason": "Pure dental devices and consumables company (Nobel Biocare, Ormco, KaVo, Spark). No proprietary drug pipeline and no Envista-sponsored P1/P2/P3 clinical studies on ClinicalTrials.gov."
+}

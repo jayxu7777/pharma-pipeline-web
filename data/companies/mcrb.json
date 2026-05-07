@@ -1,0 +1,59 @@
+{
+  "issuer_name": "Seres Therapeutics, Inc.",
+  "ticker": "MCRB",
+  "exchange": "Nasdaq",
+  "cik": "0001609809",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-103276", "filed": "2026-03-12", "doc": "mcrb-20251231.htm"},
+    "website": {"url": "https://www.serestherapeutics.com/our-programs/", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/mcrb_ctgov_compact.json", "studies_returned": 8}
+  },
+  "pipeline": [
+    {
+      "asset": "SER-155",
+      "aka": [],
+      "modality": "Oral live biotherapeutic product (consortium of bacteria)",
+      "target": "Gut microbiome reconstruction; epithelial barrier and immune homeostasis to reduce bacterial translocation",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Reduction of bacterial bloodstream infections (BSIs) in adults undergoing allogeneic hematopoietic stem cell transplant (allo-HSCT)",
+          "highest_phase": "Phase 2 (start-up)",
+          "trial_name": "SER-155 Phase 2 in allo-HSCT (planned)",
+          "trial_design": "Placebo-controlled Phase 2; final protocol submitted to FDA",
+          "nct_ids": ["NCT04995653"],
+          "trial_status": "PLANNED \u2014 Phase 1b completed (77% relative risk reduction in bacterial BSIs vs placebo); Phase 2 study start-up activities advanced; final protocol submitted to FDA. Breakthrough Therapy and Fast Track designations.",
+          "lead_sponsor": "Seres Therapeutics, Inc.",
+          "key_milestones": ["Breakthrough Therapy designation", "Fast Track designation", "Phase 2 final protocol submitted to FDA"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "asset": "VOWST (fecal microbiota spores, live-brpk; formerly SER-109)",
+    "indication": "Prevention of recurrent C. difficile infection",
+    "status": "FDA-approved Apr 2023; full rights transferred to Nestle Health Science Sept 30, 2024 (no longer Seres clinical asset)"
+  },
+  "excluded_preclinical": [
+    {"asset": "SER-147", "stage": "Preclinical / IND-enabling", "indication": "Bacterial BSI/SBP prevention in chronic liver disease"},
+    {"asset": "SER-603", "stage": "Preclinical / IND-enabling", "indication": "Mild-to-moderate ulcerative colitis (mono or adjunctive)"},
+    {"asset": "Oral liquid SER-155 formulation (ICU)", "stage": "Preclinical (CARB-X grant)"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "SER-287", "reason": "Phase 2b in UC terminated (NCT03759041)"},
+    {"asset": "SER-301", "reason": "UC program; superseded by SER-603 preclinical work"},
+    {"asset": "SER-262", "reason": "Phase 1 primary CDI; not advanced"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "VOWST (SER-109)", "reason": "Transferred to Nestle Health Science Sept 2024"}
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 0
+  }
+}

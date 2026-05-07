@@ -1,0 +1,93 @@
+{
+  "issuer_name": "Tandem Diabetes Care, Inc.",
+  "ticker": "TNDM",
+  "exchange": "Nasdaq",
+  "cik": "0001438133",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-19",
+      "accession": "0001438133-26-000010",
+      "url": "https://www.sec.gov/Archives/edgar/data/1438133/000143813326000010/tndm-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.tandemdiabetes.com/products",
+      "note": "No dedicated /pipeline page; product portfolio page lists commercial devices only with no clinical-stage pipeline disclosure."
+    },
+    "ctgov": {
+      "query": "spons:Tandem Diabetes Care",
+      "raw_count": 48,
+      "kept_p1_p3": 3,
+      "all_completed": true,
+      "note": "All 3 phase-tagged trials have overallStatus=COMPLETED; none are active."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "devices": [
+      {
+        "name": "t:slim X2 Insulin Pump",
+        "modality": "Durable insulin pump (ACE pump, Class II)",
+        "regulatory_status": "FDA 510(k) cleared; integrated with Dexcom G6/G7 and Abbott FreeStyle Libre 2 Plus / 3 Plus"
+      },
+      {
+        "name": "Tandem Mobi",
+        "modality": "Miniaturized durable insulin pump with iOS and Android control",
+        "regulatory_status": "FDA cleared; commercially available in U.S."
+      },
+      {
+        "name": "Control-IQ+",
+        "modality": "Hybrid closed-loop AID algorithm (iAGC)",
+        "regulatory_status": "FDA cleared for type 1 diabetes ages 2+; type 2 diabetes ages 18+ cleared March 2025"
+      },
+      {
+        "name": "Tandem Source",
+        "modality": "Cloud-based diabetes data management platform",
+        "regulatory_status": "Commercially available"
+      },
+      {
+        "name": "Sugarmate",
+        "modality": "Diabetes data visualization mobile app",
+        "regulatory_status": "Commercially available"
+      }
+    ],
+    "device_pipeline_disclosed_in_10k": [
+      "Extended-wear infusion site option for Mobi (tubeless patch transformation) — engineering/development; no IDE/pivotal disclosed",
+      "Next-generation Mobi patch pump leveraging Sigi Patch Pump acquisition — development",
+      "Extended-wear infusion set technology — development",
+      "Dual glucose-ketone sensor integration — development",
+      "Algorithm advancement toward fully closed-loop technology — development"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "nctId": "NCT04233034",
+      "phase": "PHASE3",
+      "status": "COMPLETED",
+      "reason": "Investigator-initiated study by Jaeb Center for Health Research; Tandem only a collaborator; trial completed."
+    },
+    {
+      "nctId": "NCT02877771",
+      "phase": "PHASE1",
+      "status": "COMPLETED",
+      "reason": "Tandem-sponsored feasibility study completed in 2016."
+    },
+    {
+      "nctId": "NCT04201496",
+      "phase": "PHASE1",
+      "status": "COMPLETED",
+      "reason": "Investigator-initiated SGLT2 + closed-loop study; Tandem only a collaborator; completed."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company (insulin pumps and AID algorithms). No proprietary P1/P2/P3 drug pipeline. Device pipeline (Mobi patch, extended-wear sets, dual glucose-ketone sensor, fully closed-loop algorithm) is in engineering / development stage with no active IDE/pivotal clinical study disclosed in the 2025 10-K, and the only company-related clinicaltrials.gov records are all COMPLETED."
+}

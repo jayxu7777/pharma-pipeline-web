@@ -1,0 +1,68 @@
+{
+  "issuer_name": "Barinthus Biotherapeutics plc",
+  "ticker": "BRNS",
+  "exchange": "Nasdaq",
+  "cik": "0001828185",
+  "region": "UK",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-13",
+      "accession": "0001828185-26-000012",
+      "path": "data/brns_10k_pipeline_section.html",
+      "note": "Filed 10-K (not 20-F) since UK plc is a domestic filer for SEC purposes; pipeline section thin — only VTP-1000 detailed"
+    },
+    "website": {"error": "barinthusbio.com/pipeline rendered via Divi/JS — content not extractable via WebFetch; supplemented from press releases"},
+    "ctgov": {"path": "data/brns_ctgov_compact.json", "trial_count_p1_p3": 9, "active_count": 0, "note": "All listed trials COMPLETED or TERMINATED in registry; ongoing AVALON (NCT06310291) and HBV003 not in compact"}
+  },
+  "pipeline": [
+    {
+      "asset": "VTP-1000",
+      "aka": ["AVALON program asset"],
+      "modality": "Antigen-specific immune tolerance immunotherapy (SNAP-TI nanoparticle co-delivering gluten peptides + rapamycin)",
+      "target": "Gluten-reactive T cells (immune tolerance)",
+      "license_origin": "Internal (SNAP-TI platform)",
+      "indications": [
+        {
+          "indication": "Celiac disease",
+          "highest_phase": "P1",
+          "trial_name": "AVALON (Phase 1 SAD/MAD with gluten challenge)",
+          "trial_design": "Randomized, double-blind, placebo-controlled SAD followed by MAD with controlled gluten challenge; ~42 adult patients",
+          "nct_ids": ["NCT06310291"],
+          "trial_status": "Ongoing — SAD complete (well tolerated, dose-dependent PD); MAD portion ongoing, data expected H2 2026",
+          "lead_sponsor": "Barinthus Biotherapeutics North America",
+          "key_milestones": ["MAD data H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "VTP-300",
+      "aka": ["ChAdOx1-HBV + MVA-HBV"],
+      "modality": "Heterologous prime-boost viral-vector immunotherapy",
+      "target": "HBV antigens (HBsAg)",
+      "license_origin": "Internal (legacy Vaccitech platform)",
+      "indications": [
+        {
+          "indication": "Chronic hepatitis B",
+          "highest_phase": "P2",
+          "trial_name": "HBV003 (Phase 2b)",
+          "trial_design": "Phase 2b combination study evaluating VTP-300 in patients with low HBsAg",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing but DEPRIORITIZED — company will complete HBV003 only and seek partner; no further investment beyond this trial",
+          "lead_sponsor": "Barinthus Biotherapeutics",
+          "key_milestones": ["Complete HBV003", "Out-license / partner"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "VTP-200 (HPV)", "nct": "NCT04607850", "reason": "Phase 1/2 completed; legacy infectious-disease asset deprioritized in Jan-2025 strategic refocus to immunology/inflammation"},
+    {"asset": "VTP-PCAQ (ChAdOx1/MVA-PCAQ prostate cancer)", "nct": "NCT05617040", "reason": "Phase 1/2 TERMINATED Feb 2025"},
+    {"asset": "MVA-NP+M1 (influenza)", "nct": "NCT03880474, NCT03883113, NCT03300362", "reason": "Phase 2 trials COMPLETED/TERMINATED; legacy influenza vaccine, deprioritized"},
+    {"asset": "ChAdOx1-MVA 5T4 (prostate cancer)", "nct": "NCT03815942", "reason": "Phase 1/2 TERMINATED; partner-led (Univ of Oxford lead sponsor)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 1, "P2": 1, "P3": 0, "total_assets": 2}
+}

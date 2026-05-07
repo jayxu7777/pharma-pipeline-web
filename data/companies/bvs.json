@@ -1,0 +1,62 @@
+{
+  "issuer_name": "Bioventus Inc.",
+  "ticker": "BVS",
+  "exchange": "Nasdaq",
+  "cik": "0001665988",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001665988-26-000011",
+      "filing_date": "2026-03-05",
+      "doc": "bvs-20251231.htm",
+      "note": "Pipeline-section slicer failed; full filing parsed via keyword search instead."
+    },
+    "website": {
+      "url": "https://www.bioventus.com",
+      "note": "Corporate site lists commercial orthobiologic and pain-management products; no public drug-pipeline page."
+    },
+    "ctgov": {
+      "queried_sponsor": "Bioventus",
+      "kept_p1_p3": 2,
+      "note": "Both P1/P2 hits (NCT04632966, NCT05100225) are for PTP-001 / MOTYS, which Bioventus formally discontinued (per 10-K Item: 'expenses related to the discontinuance of MOTYS'). Excluded as terminated. CartiHeal / Agili-C is reported as Discontinued Operations (divested)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "type": "Orthobiologics, pain treatment, and surgical solutions (commercial medical devices and biologics)",
+    "key_brands": [
+      "EXOGEN (non-invasive ultrasonic bone growth stimulator)",
+      "DUROLANE / GELSYN-3 / SUPARTZ FX (hyaluronic acid injections for joint pain)",
+      "StimRouter (peripheral nerve stimulation for chronic pain)",
+      "SonaStar / SonaStar Elite (ultrasonic surgical aspirator)",
+      "SonicOne (ultrasonic wound debridement)",
+      "Reficio DBM (demineralized bone matrix)",
+      "Signafuse / OsteoAMP (bone graft substitutes)"
+    ],
+    "description": "Global orthobiologics and pain-management company. Products are FDA-cleared / PMA-approved commercial medical devices and biologics; no proprietary therapeutic drug development program is currently active."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "PTP-001 (MOTYS)",
+      "indication": "Symptomatic knee osteoarthritis",
+      "nct_ids": ["NCT04632966", "NCT05100225"],
+      "reason": "10-K explicitly references 'expenses related to the discontinuance of MOTYS'; program terminated."
+    },
+    {
+      "asset": "Agili-C (CartiHeal)",
+      "indication": "Joint surface lesions",
+      "reason": "Reported as Discontinued Operations / divested in the 10-K."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Orthopedic medtech / orthobiologics company. Sole interventional drug-style program (PTP-001 / MOTYS for knee osteoarthritis) was discontinued, and CartiHeal / Agili-C was divested as Discontinued Operations. Remaining business is commercial 510(k) / PMA devices and HA injections with no active P1/P2/P3 development programs disclosed."
+}

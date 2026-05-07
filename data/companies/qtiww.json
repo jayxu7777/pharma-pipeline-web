@@ -1,0 +1,69 @@
+{
+  "issuer_name": "QT Imaging Holdings, Inc.",
+  "ticker": "QTIWW",
+  "exchange": "OTC",
+  "cik": "0001844505",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-020909",
+      "filing_date": "2026-03-25",
+      "doc": "qti-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.qtimaging.com/",
+      "note": "Corporate site exists; no /pipeline page (returns 404). Site lists FDA-cleared devices and references ongoing/completed clinical studies without listing NCT IDs publicly."
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 0,
+      "note": "No interventional P1-P3 trials listed under sponsor 'QT Imaging' on ClinicalTrials.gov (the cited NCT06175078 and NCT07216274 are observational diagnostic-accuracy studies sponsored by Sunnybrook Health Sciences Centre and Mayo Clinic, respectively, not company-sponsored pivotal device trials)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "FDA 510(k)-cleared medical imaging devices (breast imaging using Quantitative Transmission ultrasound / Breast Acoustic CT)",
+    "marketed_devices": [
+      {
+        "name": "QT Breast Scanner (QTI Breast Acoustic CT)",
+        "fda_clearance": "510(k) K162372 cleared 2017-06-06; expanded clearance K220933 for QT Scanner 2000 Model A (2022-08-31) covering quantitative breast fibroglandular tissue volume measurements",
+        "device_class": "Class II",
+        "indication": "3D breast imaging without ionizing radiation or compression; adjunct to mammography; breast density assessment"
+      }
+    ],
+    "products_under_development": [
+      "QT Infant Scanner (planned Class II, 510(k) pathway)",
+      "QT Orthopedic Scanner (planned Class II, 510(k) pathway)"
+    ],
+    "supporting_software": ["QTviewer", "QTI Imaging-Olea Viewer"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {
+      "asset": "QT Breast Scanner observational studies",
+      "trials": [
+        {
+          "nct_id": "NCT06175078",
+          "lead_sponsor": "Sunnybrook Health Sciences Centre (Toronto)",
+          "type": "Investigator-initiated prospective observational early-validation study (n=20) comparing QTscan vs MRI for breast mass characterization",
+          "exclusion_reason": "Investigator-initiated observational diagnostic-accuracy study, not a company-sponsored pivotal/IDE interventional trial."
+        },
+        {
+          "nct_id": "NCT07216274",
+          "lead_sponsor": "Mayo Clinic (Rochester)",
+          "type": "Pilot study (n=26) comparing QTscan vs MRI for high-risk breast cancer screening",
+          "exclusion_reason": "Investigator-initiated observational pilot study, not a company-sponsored pivotal/IDE interventional trial."
+        }
+      ]
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  },
+  "no_active_clinical_pipeline_reason": "QT Imaging is a medical imaging device company. Its commercial QT Breast Scanner is FDA 510(k)-cleared (K162372 in 2017; expanded as K220933 in 2022). Pipeline products (QT Infant Scanner, QT Orthopedic Scanner) are also expected to use the 510(k) pathway, which does not require Phase 1/2/3 interventional clinical trials. Existing clinical studies (NCT06175078, NCT07216274) are investigator-initiated observational diagnostic-accuracy / pilot studies sponsored by academic centers, not company-sponsored pivotal IDE trials. No active P1/P2/P3 drug or pivotal IDE pipeline. Note: QTIWW is the warrant ticker; QTI/QTIH is the common-stock ticker for the same issuer."
+}

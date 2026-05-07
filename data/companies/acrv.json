@@ -1,0 +1,73 @@
+{
+  "issuer_name": "Acrivon Therapeutics, Inc.",
+  "ticker": "ACRV",
+  "exchange": "Nasdaq",
+  "cik": "0001781174",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-115123", "filed": "2026-03-19", "doc": "acrv-20251231.htm"},
+    "website": {"url": "https://acrivon.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/acrv_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "ACR-368",
+      "aka": ["Prexasertib"],
+      "modality": "Small molecule kinase inhibitor",
+      "target": "CHK1 / CHK2",
+      "license_origin": "In-licensed (originally Eli Lilly)",
+      "indications": [
+        {
+          "indication": "Endometrial adenocarcinoma (OncoSignature-selected)",
+          "highest_phase": "P2",
+          "trial_name": "ACR-368 endometrial Phase 2",
+          "trial_design": "ACR-368 +/- low-dose gemcitabine, OncoSignature biomarker selection",
+          "nct_ids": ["NCT05548296"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Acrivon Therapeutics",
+          "key_milestones": ["Fast Track and Breakthrough Device designations", "Primary completion 2027-05-30"]
+        },
+        {
+          "indication": "Recurrent/metastatic head and neck squamous cell carcinoma (HNSCC)",
+          "highest_phase": "P2",
+          "trial_name": "ACR-368 + low-dose gemcitabine in R/M HNSCC",
+          "trial_design": "ACR-368 + low-dose gemcitabine",
+          "nct_ids": ["NCT06597565"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "H. Lee Moffitt Cancer Center (Acrivon collaborator)",
+          "key_milestones": ["Primary completion 2028-08-23"]
+        }
+      ]
+    },
+    {
+      "asset": "ACR-2316",
+      "aka": [],
+      "modality": "Small molecule dual kinase inhibitor",
+      "target": "WEE1 / PKMYT1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Specific advanced solid tumors (biomarker-selected)",
+          "highest_phase": "P1",
+          "trial_name": "ACR-2316 first-in-human",
+          "trial_design": "Dose escalation in selected solid tumors",
+          "nct_ids": ["NCT06667141"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Acrivon Therapeutics",
+          "key_milestones": ["Primary completion 2026-08-12"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["ACR-6840 (CDK11 inhibitor, preclinical)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3_indications": 0,
+    "p2_indications": 2,
+    "p1_indications": 1
+  }
+}

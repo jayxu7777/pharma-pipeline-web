@@ -1,0 +1,55 @@
+{
+  "issuer_name": "Hyperfine, Inc.",
+  "ticker": "HYPR",
+  "exchange": "Nasdaq",
+  "cik": "0001833769",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-114044",
+      "filing_date": "2026-03-18",
+      "doc": "hypr-20251231.htm",
+      "path": "data/hypr_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "Not pursued — issuer is medical device company (portable MRI), no drug pipeline page applicable."
+    },
+    "ctgov": {
+      "path": "data/hypr_ctgov_compact.json",
+      "trials_returned": 0,
+      "note": "No P1-P3 sponsored interventional drug trials (device company)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "device": "Swoop Portable MR Imaging System",
+    "modality": "Ultra-low-field (ULF) portable brain MRI device",
+    "regulatory": [
+      "FDA 510(k) clearance — initial brain imaging clearance 2020",
+      "FDA 510(k) — 9th-generation AI-powered software (July 2024)",
+      "FDA 510(k) — 10th-generation Optive AI software (May 2025)",
+      "FDA 510(k) — next-generation Swoop scanner with Optive AI (May 2025)",
+      "FDA 510(k) — 11th-generation software with multi-direction DWI (December 2025)",
+      "CE Mark, UKCA Mark, Health Canada, TGA Australia, New Zealand approvals",
+      "India CDSCO approval (December 2025)"
+    ],
+    "ongoing_studies": [
+      "Contrast study evaluating gadolinium-enhanced ULF imaging (intended to support future 510(k) submission to expand indication for contrast use)",
+      "Studies in ED imaging, post-operative imaging, office-based neurology, stroke workflows, neurodegenerative screening, ECMO patients"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Liminal subsidiary program (non-invasive brain vital-signs device) — suspended December 2022"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "total_assets": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical device company — sole product is the Swoop Portable MR Imaging System, an FDA 510(k)-cleared portable ultra-low-field brain MRI device. No proprietary drug pipeline; clinical studies are 510(k)/post-market device studies, not P1/P2/P3 drug trials."
+}

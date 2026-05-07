@@ -1,0 +1,152 @@
+{
+  "issuer_name": "Nurix Therapeutics, Inc.",
+  "ticker": "NRIX",
+  "exchange": "Nasdaq",
+  "cik": "0001549595",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001549595-26-000016",
+      "filing_date": "2026-01-28",
+      "doc": "nrix-20251130.htm"
+    },
+    "website": {
+      "url": "https://www.nurixtx.com/pipeline",
+      "note": "Pipeline page is JavaScript-rendered; relied on 10-K narrative + ctgov for asset details."
+    },
+    "ctgov": {
+      "query_sponsor": "Nurix Therapeutics",
+      "studies_returned": 10,
+      "active_p123_company_sponsored": 7
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Bexobrutideg",
+      "aka": ["NX-5948"],
+      "modality": "Oral small-molecule BTK degrader (BiDAC / targeted protein degradation)",
+      "target": "BTK (Bruton's tyrosine kinase)",
+      "license_origin": "Internal (DEL-AI discovery engine)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory CLL/SLL (triple-exposed: post cBTKi, ncBTKi, BCL-2i)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Bexobrutideg vs pirtobrutinib in R/R CLL/SLL (confirmatory)",
+          "trial_design": "Randomized active-controlled vs pirtobrutinib (JAYPIRCA)",
+          "nct_ids": ["NCT07516093"],
+          "trial_status": "Not yet recruiting (Phase 3 confirmatory)",
+          "lead_sponsor": "Nurix Therapeutics, Inc.",
+          "key_milestones": [
+            "FDA Fast Track for R/R CLL/SLL (Jan 2024)",
+            "EMA PRIME designation (Nov 2024)",
+            "DAYBreak CLL-201 Phase 2 enrollment initiated Oct 2025 to support Accelerated Approval"
+          ]
+        },
+        {
+          "indication": "Relapsed/refractory CLL/SLL post-BTKi (DAYBreak CLL-201, accelerated approval path)",
+          "highest_phase": "Phase 2",
+          "trial_name": "DAYBreak CLL-201",
+          "trial_design": "Single-arm Phase 2 at 600 mg RP2D, intended to support U.S. Accelerated Approval",
+          "nct_ids": ["NCT07221500"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Nurix Therapeutics, Inc.",
+          "key_milestones": [
+            "Phase 2 launched October 2025 at 600 mg RP2D"
+          ]
+        },
+        {
+          "indication": "Relapsed/refractory B-cell malignancies (CLL/SLL, DLBCL, FL, MCL, MZL, WM, PCNSL/SCNSL)",
+          "highest_phase": "Phase 1",
+          "trial_name": "NX-5948 Phase 1a/1b (first-in-human)",
+          "trial_design": "Open-label, dose escalation and cohort expansion",
+          "nct_ids": ["NCT05131022"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Nurix Therapeutics, Inc.",
+          "key_milestones": [
+            "FDA Fast Track for WM (Dec 2024)"
+          ]
+        },
+        {
+          "indication": "Relapsed/refractory B-cell malignancies — combination cohorts",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "NX-5948 in combination with venetoclax, rituximab, or obinutuzumab",
+          "trial_design": "Open-label combination cohorts",
+          "nct_ids": ["NCT07520006"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Nurix Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Healthy volunteer relative bioavailability (tablet vs capsule, food/PPI effect)",
+          "highest_phase": "Phase 1",
+          "trial_name": "NX-5948 relBA / DDI",
+          "trial_design": "PK study in healthy volunteers",
+          "nct_ids": ["NCT06717269"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Nurix Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Zelebrudomide",
+      "aka": ["NX-2127"],
+      "modality": "Oral small-molecule dual degrader (BTK + IKZF1/IKZF3 cereblon-based)",
+      "target": "BTK and IKZF1 (Ikaros) / IKZF3 (Aiolos)",
+      "license_origin": "Internal (DEL-AI discovery engine)",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory B-cell malignancies (CLL/SLL, WM, MCL, MZL, FL, DLBCL, PCNSL)",
+          "highest_phase": "Phase 1",
+          "trial_name": "NX-2127 Phase 1a/1b (first-in-human)",
+          "trial_design": "Open-label dose escalation/expansion; aggressive lymphoma focus (MCL, DLBCL) per 10-K",
+          "nct_ids": ["NCT04830137"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Nurix Therapeutics, Inc.",
+          "key_milestones": [
+            "Define doses to enable Phase 1b cohort expansion in 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "NX-1607",
+      "aka": [],
+      "modality": "Oral small-molecule CBL-B inhibitor (immuno-oncology)",
+      "target": "CBL-B (Casitas B-lineage lymphoma proto-oncogene B; E3 ligase regulating T/NK cell activation)",
+      "license_origin": "Internal (DEL-AI discovery engine)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (epithelial ovarian, gastric/GEJ, HNSCC, melanoma, NSCLC, mCRPC, MPM, TNBC, urothelial, cervical, DLBCL, Richter, MSS-CRC) +/- paclitaxel",
+          "highest_phase": "Phase 1",
+          "trial_name": "NX-1607 Phase 1a/1b",
+          "trial_design": "Open-label dose-escalation and cohort expansion; includes paclitaxel combination cohort",
+          "nct_ids": ["NCT05107674"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Nurix Therapeutics, Inc.",
+          "key_milestones": [
+            "UK MHRA Innovation Passport (2022)",
+            "Define doses/indications for Phase 1b cohort expansion in 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "DACs (degrader-antibody conjugates) — preclinical",
+    "STAT6 degrader (IND-enabling) — preclinical, partnered with Sanofi",
+    "Multiple undisclosed degraders under Gilead, Sanofi, Pfizer collaborations — preclinical"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "NX-0479 / GS-6791 (IRAK4 degrader) — partnered with Gilead (Gilead-led clinical development)"
+  ],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 1,
+    "phase_2": 1,
+    "phase_1": 3
+  }
+}

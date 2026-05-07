@@ -1,0 +1,106 @@
+{
+  "issuer_name": "Amylyx Pharmaceuticals, Inc.",
+  "ticker": "AMLX",
+  "exchange": "Nasdaq",
+  "cik": "0001658551",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-086645",
+      "filed": "2026-03-03",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526086645/amlx-20251231.htm"
+    },
+    "website": {"url": "https://www.amylyx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"endpoint": "ClinicalTrials.gov v2 API", "sponsor_query": "Amylyx Pharmaceuticals", "unique_p1_p3_trials": 11}
+  },
+  "pipeline": [
+    {
+      "asset": "Avexitide",
+      "aka": [],
+      "modality": "GLP-1 receptor antagonist (synthetic exendin 9-39 peptide)",
+      "target": "GLP-1 receptor",
+      "license_origin": "Acquired from Eiger BioPharmaceuticals (2024)",
+      "indications": [
+        {
+          "indication": "Post-Bariatric Hypoglycemia (PBH)",
+          "highest_phase": "Phase 3",
+          "trial_name": "LUCIDITY (Avexitide for Treatment of Post-Bariatric Hypoglycemia)",
+          "trial_design": "Randomized, double-blind, placebo-controlled pivotal Phase 3",
+          "nct_ids": ["NCT06747468"],
+          "trial_status": "ACTIVE_NOT_RECRUITING — enrollment completed March 2026; topline data expected Q3 2026",
+          "lead_sponsor": "Amylyx Pharmaceuticals Inc.",
+          "key_milestones": ["Enrollment complete Mar 2026", "Topline data Q3 2026"]
+        },
+        {
+          "indication": "Congenital Hyperinsulinism (HI)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Avexitide in congenital HI (planned/in development)",
+          "trial_design": "Phase 2 program in congenital hyperinsulinism",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — clinical development discussions ongoing per company; not yet posted to ctgov",
+          "lead_sponsor": "Amylyx Pharmaceuticals Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AMX0035",
+      "aka": ["RELYVRIO", "ALBRIOZA", "sodium phenylbutyrate + taurursodiol", "PB+TURSO"],
+      "modality": "Fixed-dose oral combination (small-molecule)",
+      "target": "Endoplasmic reticulum stress and mitochondrial dysfunction pathways",
+      "license_origin": "Internally discovered",
+      "indications": [
+        {
+          "indication": "Wolfram Syndrome",
+          "highest_phase": "Phase 3",
+          "trial_name": "HELIOS Phase 2 (NCT05676034) and planned pivotal Phase 3",
+          "trial_design": "Phase 2 open-label HELIOS study completed (Week 48 positive May 2025); pivotal Phase 3 planned",
+          "nct_ids": ["NCT05676034"],
+          "trial_status": "Phase 2 ACTIVE_NOT_RECRUITING (extension); Phase 3 pivotal planned for initiation",
+          "lead_sponsor": "Amylyx Pharmaceuticals Inc.",
+          "key_milestones": ["Week 48 HELIOS data positive (May 2025)", "Phase 3 pivotal trial planned"]
+        },
+        {
+          "indication": "Progressive Supranuclear Palsy (PSP)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "ORION (AMX0035 and Progressive Supranuclear Palsy)",
+          "trial_design": "Phase 2/3 randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06122662"],
+          "trial_status": "COMPLETED — primary completion Sep 2025; data readout pending",
+          "lead_sponsor": "Amylyx Pharmaceuticals Inc.",
+          "key_milestones": ["Primary completion Sep 30, 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "AMX0114",
+      "aka": [],
+      "modality": "Antisense oligonucleotide (ASO)",
+      "target": "Calpain-2 (CAPN2) mRNA",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Amyotrophic Lateral Sclerosis (ALS)",
+          "highest_phase": "Phase 1",
+          "trial_name": "LUMINA (AMX0114 in Adult Participants With ALS)",
+          "trial_design": "Phase 1 multiple-ascending-dose study with biomarker endpoints",
+          "nct_ids": ["NCT06665165"],
+          "trial_status": "RECRUITING — Cohort 2 fully enrolled March 2026; biomarker readout expected H1 2026",
+          "lead_sponsor": "Amylyx Pharmaceuticals Inc.",
+          "key_milestones": ["Cohort 2 enrollment complete Mar 2026", "Biomarker data H1 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "AMX0318", "rationale": "Long-acting GLP-1 receptor antagonist; preclinical / IND-enabling, IND targeted 2027"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "AMX0035 (ALS — RELYVRIO)", "rationale": "PHOENIX Phase 3 NCT05021536 did not meet primary endpoint; RELYVRIO/ALBRIOZA voluntarily withdrawn from US/Canada markets in 2024"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 3, "phase_3": 2, "phase_2": 2, "phase_1": 1}
+}

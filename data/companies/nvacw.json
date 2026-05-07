@@ -1,0 +1,54 @@
+{
+  "issuer_name": "Profusa, Inc.",
+  "ticker": "NVACW",
+  "exchange": "OTC",
+  "cik": "0001859807",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-044046",
+      "filing_date": "2026-04-15",
+      "doc": "ea0282813-10k_profusa.htm"
+    },
+    "website": {
+      "url": "https://profusa.com/pipeline",
+      "note": "Pipeline page describes injectable biosensor devices (Lumee Oxygen, Lumee Glucose). All listed phases are device pivotal/CE/FDA submission stages, not drug Phase 1/2/3."
+    },
+    "ctgov": {
+      "sponsor_query": "Profusa",
+      "raw_hits": 1,
+      "p1_p2_p3_kept": 0,
+      "note": "Single ctgov hit is a device study, not a drug Phase 1/2/3 trial."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {
+        "name": "Lumee Oxygen",
+        "modality": "Injectable hydrogel biosensor for real-time tissue oxygen monitoring",
+        "indication": "Tissue oxygen monitoring (e.g., critical limb ischemia, wound care)",
+        "status": "EU: CE Mark targeted; US: pivotal study planned, FDA submission targeted late 2026"
+      },
+      {
+        "name": "Lumee Glucose",
+        "modality": "Injectable hydrogel biosensor for continuous glucose monitoring (up to ~270 days)",
+        "indication": "Continuous glucose monitoring",
+        "status": "In development; CE/FDA submissions planned 2026-2027"
+      }
+    ],
+    "future_analytes_explored": ["lactate", "CO2", "sodium", "ethanol"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Profusa is a medical-device / biosensor company (injectable Lumee tissue-chemistry sensors). No proprietary drug pipeline; pivotal activities relate to device CE/FDA pathways, not drug Phase 1/2/3 trials."
+}

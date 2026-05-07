@@ -1,0 +1,41 @@
+{
+  "issuer_name": "Elicio Therapeutics, Inc.",
+  "ticker": "ELTX",
+  "exchange": "Nasdaq",
+  "cik": "0001601485",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001601485-26-000027", "filed": "2026-03-12", "doc": "angn-20251231.htm"},
+    "website": {"url": "https://elicio.com/", "fetched": "2026-05-06", "note": "Pipeline page returned mostly CSS; relied on 10-K + ctgov"},
+    "ctgov": {"sponsor_query": "Elicio Therapeutics", "trials_returned": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "ELI-002 7P",
+      "aka": ["Amph-Peptides 7P + Amph-CpG-7909"],
+      "modality": "Lymph node-targeted amphiphile (AMP) therapeutic cancer vaccine; 7-peptide pool against mutant KRAS/NRAS",
+      "target": "Mutant KRAS / NRAS (G12D, G12R, G12V, G12A, G12C, G12S, G13D)",
+      "license_origin": "Internal (Elicio AMP platform)",
+      "indications": [
+        {
+          "indication": "KRAS/NRAS-mutated solid tumors (incl. pancreatic ductal adenocarcinoma, colorectal cancer) — minimal residual disease setting",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "AMPLIFY-7P",
+          "trial_design": "Phase 1/2 study of ELI-002 7P in patients with KRAS/NRAS mutated solid tumors after locoregional therapy",
+          "nct_ids": ["NCT05726864"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Elicio Therapeutics",
+          "key_milestones": ["Sep 2025: 99% of evaluable patients showed robust mKRAS-specific T cell responses (avg 145.3x baseline)", "Primary completion targeted 2026-11"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ELI-002 2P (NCT04853017 AMPLIFY-201 Phase 1)", "reason": "Phase 1 completed; superseded by 7-peptide ELI-002 7P in AMPLIFY-7P"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 0, "p2": 0, "p1_p2": 1, "p1": 0}
+}

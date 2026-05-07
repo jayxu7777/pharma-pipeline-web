@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Esperion Therapeutics, Inc.",
+  "ticker": "ESPR",
+  "exchange": "Nasdaq",
+  "cik": "0001434868",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-03-10", "accession": "0001628280-26-016522", "path": "data/espr_10k_pipeline_section.html"},
+    "website": {"url": "https://www.esperion.com/pipeline", "error": "Page request timed out; relying on 10-K + ctgov."},
+    "ctgov": {"path": "data/espr_ctgov_compact.json", "note": "All 22 returned trials with sponsor 'Esperion Therapeutics' are COMPLETED (registrational program for bempedoic acid). One additional active record found via direct API query: NCT05103254 (Bempedoic Acid Pregnancy Surveillance Program — observational, not a P1-3 interventional trial)."}
+  },
+  "pipeline": [
+    {
+      "asset": "Bempedoic acid (pediatric program)",
+      "aka": ["NEXLETOL pediatric", "ETC-1002 pediatric"],
+      "modality": "Oral once-daily small molecule ATP citrate lyase (ACLY) inhibitor",
+      "target": "ATP citrate lyase (ACLY)",
+      "license_origin": "Internal (Esperion)",
+      "indications": [
+        {
+          "indication": "Heterozygous familial hypercholesterolemia (HeFH) in pediatric patients (children/adolescents)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 pediatric HeFH trial",
+          "trial_design": "Pediatric long-term/registrational trial supporting label expansion to children with HeFH; follows completed Phase 2 NCT05694260 (ages 6-17).",
+          "nct_ids": "Not on public registry",
+          "trial_status": "ACTIVE per FY2025 10-K (filed 2026-03-10): 'continuation of our phase III pediatric trial' through 2026; not yet posted to ClinicalTrials.gov as a separate Phase 3 record at snapshot date.",
+          "lead_sponsor": "Esperion Therapeutics, Inc.",
+          "key_milestones": ["Phase 2 NCT05694260 completed Jun 2025", "Phase 3 ongoing per 10-K"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "names": ["NEXLETOL (bempedoic acid)", "NEXLIZET (bempedoic acid + ezetimibe)", "NILEMDO (EU)", "NUSTENDI (EU)"],
+    "indications": ["Adjunct to diet for primary hyperlipidemia / HeFH", "Cardiovascular risk reduction (MI / coronary revascularization) in adults unable or unwilling to take statins"],
+    "approvals": ["FDA Feb 2020; expanded CV-risk-reduction label Mar 2024", "EU/EC 2020; expanded label May 2024", "Swissmedic 2020", "Japan via Otsuka Sep 2025 (NHI pricing Q4 2025)", "Canada Q4 2025 (NEXLETOL); NEXLIZET expected H1 2026", "Israel/Australia filings 2025"]
+  },
+  "excluded_preclinical": [
+    {"asset": "Next-generation ACLY inhibitors", "status": "Preclinical pipeline (Esperion internal)"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 1, "phase_2": 0, "phase_1": 0}
+}

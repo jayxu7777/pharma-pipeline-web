@@ -1,0 +1,58 @@
+{
+  "issuer_name": "STRYKER CORP",
+  "ticker": "SYK",
+  "exchange": "NYSE",
+  "cik": "0000310764",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000310764-26-000010",
+      "doc": "syk-20251231.htm",
+      "filed": "2026-02-11",
+      "note": "10-K downloaded but no 'pipeline' section heading present — Stryker is a medtech device manufacturer with no proprietary drug pipeline narrative section."
+    },
+    "website": {
+      "error": "no public pipeline page found (https://www.stryker.com/pipeline returns 404)"
+    },
+    "ctgov": {
+      "file": "data/syk_ctgov_compact.json",
+      "study_count": 17,
+      "note": "All Stryker-affiliated studies are device evaluations (orthopedic implants, fluorescence imaging systems, surgical equipment). Most are completed, terminated, withdrawn, or investigator-initiated; none are active company-sponsored pivotal drug studies."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Stryker is a global leader in commercialized medical devices across MedSurg & Neurotechnology (surgical equipment, endoscopy, neurovascular, instruments) and Orthopaedics & Spine (knee/hip/shoulder implants, Mako robotic-arm assisted surgery, trauma & extremities). Approved/marketed devices are out of scope for this drug-pipeline tracker."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT00586976", "reason": "TERMINATED, investigator-initiated (Mayo Clinic)"},
+    {"nct": "NCT05006950", "reason": "TERMINATED Stryker Endoscopy device study"},
+    {"nct": "NCT03423147", "reason": "TERMINATED, investigator-initiated"},
+    {"nct": "NCT03947671", "reason": "WITHDRAWN, investigator-initiated"},
+    {"nct": "NCT00715325", "reason": "UNKNOWN status, completion 2008 (Stryker GI Ltd. — legacy)"},
+    {"nct": "NCT01111045", "reason": "COMPLETED 2011 — Stryker Biotech BMP-7 program (divested/discontinued)"},
+    {"nct": "NCT00456157", "reason": "COMPLETED — Stryker Biotech OP-1 (divested)"},
+    {"nct": "NCT01133613", "reason": "COMPLETED — Stryker Biotech BMP-7 (divested)"},
+    {"nct": "NCT01390038", "reason": "COMPLETED 2014 — Simpliciti shoulder system, now commercial"},
+    {"nct": "NCT01560377", "reason": "COMPLETED 2013 — PINPOINT imaging system, now commercial"},
+    {"nct": "NCT03200704", "reason": "COMPLETED 2020 — SPY-PHI imaging, now commercial"},
+    {"nct": "NCT02070627", "reason": "COMPLETED — investigator-initiated"},
+    {"nct": "NCT02090660", "reason": "COMPLETED — investigator-initiated"},
+    {"nct": "NCT02618031", "reason": "COMPLETED — investigator-initiated"},
+    {"nct": "NCT00463424", "reason": "COMPLETED — investigator-initiated"}
+  ],
+  "excluded_partner_owned": [
+    {"nct": "NCT05130801", "reason": "Lead sponsor MSKCC; pHLIP ICG is pHLIP Inc. asset, Stryker is collaborator only"},
+    {"nct": "NCT04719156", "reason": "Investigator-initiated (Kurt Weiss); evaluates already-marketed Stryker SPY device"}
+  ],
+  "summary_counts": {
+    "assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Stryker is a medical device company (orthopedic implants, surgical equipment, neurotechnology). It has no proprietary drug pipeline. All clinical studies on ClinicalTrials.gov are either (a) device evaluations of already-marketed products, (b) legacy programs from divested Stryker Biotech (BMP-7/OP-1), or (c) investigator-initiated studies using Stryker devices. No active company-sponsored P1/P2/P3 drug development."
+}

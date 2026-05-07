@@ -1,0 +1,101 @@
+{
+  "issuer_name": "OMEROS CORP",
+  "ticker": "OMER",
+  "exchange": "Nasdaq",
+  "cik": "0001285819",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-010636", "filing_date": "2026-03-31", "doc": "omer20251231_10k.htm"},
+    "website": {"error": "https://www.omeros.com/pipeline returned 403; data triangulated from 10-K, ctgov and corporate disclosures"},
+    "ctgov": {"sponsor_query": "Omeros", "trial_count": 26, "active_count": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "Narsoplimab (YARTEMLEA)",
+      "aka": ["OMS721", "narsoplimab-wuug", "YARTEMLEA"],
+      "modality": "Fully human anti-MASP-2 monoclonal antibody (lectin complement pathway inhibitor)",
+      "target": "MASP-2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "IgA Nephropathy (IgAN)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ARTEMIS-IGAN",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT02682407"],
+          "trial_status": "Phase 3 in progress; interim analysis disclosed",
+          "lead_sponsor": "Omeros Corporation",
+          "key_milestones": ["Interim analysis update reported"]
+        },
+        {
+          "indication": "Pediatric high-risk hematopoietic stem cell transplant-associated thrombotic microangiopathy (HSCT-TMA)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Pediatric narsoplimab in high-risk HSCT-TMA",
+          "trial_design": "Phase 2 efficacy/safety in pediatric HSCT-TMA",
+          "nct_ids": ["NCT05855083"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Omeros Corporation",
+          "key_milestones": ["Adult HSCT-TMA approved as YARTEMLEA (FDA Dec 2025); EMA review ongoing"]
+        }
+      ]
+    },
+    {
+      "asset": "OMS1029",
+      "aka": ["OMS1029"],
+      "modality": "Long-acting (2nd-generation) anti-MASP-2 monoclonal antibody",
+      "target": "MASP-2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lectin-pathway-mediated diseases (Phase 1 healthy volunteers completed; Phase 2 indication selection ongoing)",
+          "highest_phase": "Phase 1",
+          "trial_name": "OMS1029 Phase 1 (multi-dose)",
+          "trial_design": "Phase 1 PK/PD multi-ascending dose",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 completed; Phase 2 indication planning",
+          "lead_sponsor": "Omeros Corporation",
+          "key_milestones": ["Successfully completed Phase 1 multiple-ascending dose study"]
+        }
+      ]
+    },
+    {
+      "asset": "OMS527",
+      "aka": ["OMS527"],
+      "modality": "Small-molecule PDE7 inhibitor",
+      "target": "Phosphodiesterase 7 (PDE7)",
+      "license_origin": "Internal; clinical development funded by NIDA grant",
+      "indications": [
+        {
+          "indication": "Cocaine Use Disorder (and other addictive/compulsive disorders)",
+          "highest_phase": "Phase 1",
+          "trial_name": "OMS527 in cocaine use disorder",
+          "trial_design": "Phase 1, NIDA-funded",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1, NIDA-funded clinical development",
+          "lead_sponsor": "Omeros Corporation / NIDA",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_products": [
+      "YARTEMLEA (narsoplimab-wuug) — FDA-approved December 2025 for adult HSCT-TMA",
+      "OMIDRIA (phenylephrine and ketorolac intraocular solution) — divested to Rayner Surgical (royalty stream retained)"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "Zaltenibart (OMS906)", "partner": "Novo Nordisk", "reason": "Global rights sold/licensed to Novo Nordisk (closed 2025); MASP-3 inhibitor for PNH and other alternative-pathway diseases. Phase 2 trials (NCT06209736 in C3G/ICGN; NCT06298955 PNH long-term) remain listed under Omeros as legacy sponsor of record but program is now Novo Nordisk-owned."}
+  ],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 1,
+    "phase_2": 1,
+    "phase_1": 2,
+    "approved": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "issuer_name": "Pulmatrix, Inc.",
+  "ticker": "PULM",
+  "exchange": "Nasdaq",
+  "cik": "0001574235",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-008130",
+      "filing_date": "2026-02-26",
+      "path": "data/pulm_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.pulmatrix.com/pipeline",
+      "note": "Site lists PUR3100, PUR1900, PUR1800 as legacy assets; details on linked pages not extractable."
+    },
+    "ctgov": {
+      "path": "data/pulm_ctgov_compact.json",
+      "note": "All 14 Pulmatrix-sponsored studies are COMPLETED or TERMINATED."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Pulmatrix has paused all clinical development of PUR3100 (Phase 2-ready, IND accepted Sep 2023), PUR1800 (completed Phase 1b 2022), and PUR1900 (Phase 2 trials terminated 2024) pending the proposed merger with Cullgen, Inc. Per the FY2025 10-K, the company is seeking to monetize iSPERSE technology and clinical assets and has no active P1/P2/P3 trials enrolling.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "PUR1900", "indication": "ABPA in asthma/CF", "nct_ids": ["NCT05667662", "NCT03960606"], "reason": "Phase 2 trials terminated; development paused"},
+    {"asset": "PUR1800", "indication": "AECOPD", "nct_ids": ["NCT04759807"], "reason": "Phase 1b completed 2022; development paused"},
+    {"asset": "PUR3100", "indication": "Acute migraine", "nct_ids": ["NCT05351086"], "reason": "Phase 1 completed 2022; Phase 2 IND accepted but trial not initiated, development paused"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

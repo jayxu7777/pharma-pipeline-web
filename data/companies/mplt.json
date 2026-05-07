@@ -1,0 +1,68 @@
+{
+  "issuer_name": "MapLight Therapeutics, Inc.",
+  "ticker": "MPLT",
+  "exchange": "Nasdaq",
+  "cik": "0001770069",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"filing_date": "2026-03-26", "accession": "0001193125-26-125072", "path": "data/mplt_10k_pipeline_section.html"},
+    "website": {"error": "https://www.maplighttx.com/pipeline returned only a JS redirect; site lander page contained no extractable pipeline data."},
+    "ctgov": {"path": "data/mplt_ctgov_compact.json", "note": "6 trials returned, all sponsored by MapLight; all Phase 2."}
+  },
+  "pipeline": [
+    {
+      "asset": "ML-007C-MA",
+      "aka": ["ML-007 + PAC fixed-dose combination", "ML-007 with fesoterodine"],
+      "modality": "Fixed-dose combination of brain-penetrant M1/M4 muscarinic agonist (ML-007) co-formulated with a peripherally acting antimuscarinic chaperone (PAC; fesoterodine)",
+      "target": "Muscarinic M1 / M4 receptors (CNS); peripheral M-receptor antagonism via PAC",
+      "license_origin": "Internal (MapLight)",
+      "indications": [
+        {
+          "indication": "Schizophrenia",
+          "highest_phase": "Phase 2",
+          "trial_name": "ZEPHYR (Phase 2 inpatient schizophrenia) + Phase 2 OLE",
+          "trial_design": "ZEPHYR: randomized, double-blind, placebo-controlled, BID vs QD vs placebo in inpatient adults with schizophrenia; targeting 300 participants. Long-term OLE evaluates long-term safety/efficacy.",
+          "nct_ids": ["NCT07038876", "NCT07459647"],
+          "trial_status": "Recruiting (ZEPHYR started Jun 2025, primary completion Aug 2026; OLE NCT07459647 Recruiting from Mar 2026)",
+          "lead_sponsor": "MapLight Therapeutics",
+          "key_milestones": ["Target enrollment Apr 2026", "Topline results Q3 2026"]
+        },
+        {
+          "indication": "Alzheimer's Disease Psychosis (ADP)",
+          "highest_phase": "Phase 2",
+          "trial_name": "VISTA (Phase 2 ADP) + open-label study",
+          "trial_design": "VISTA: randomized, double-blind, placebo-controlled Phase 2 in adults with psychosis associated with Alzheimer's disease; companion OLE.",
+          "nct_ids": ["NCT06887192", "NCT07459660"],
+          "trial_status": "Recruiting (VISTA started Aug 2025, primary completion Dec 2027; OLE NCT07459660 Recruiting from Mar 2026)",
+          "lead_sponsor": "MapLight Therapeutics",
+          "key_milestones": ["FDA Fast Track designation Dec 2025 for hallucinations/delusions in ADP", "VISTA topline 2H 2027"]
+        }
+      ]
+    },
+    {
+      "asset": "ML-004",
+      "aka": ["IR/ER zolmitriptan"],
+      "modality": "Oral IR/ER fixed-dose tablet of zolmitriptan (5-HT1B/1D agonist), once-daily",
+      "target": "5-HT1B / 5-HT1D serotonin receptors",
+      "license_origin": "Internal reformulation (zolmitriptan repurposed)",
+      "indications": [
+        {
+          "indication": "Autism Spectrum Disorder (ASD) — social communication deficit and irritability",
+          "highest_phase": "Phase 2",
+          "trial_name": "IRIS (Phase 2 ASD) + OLE",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2 in adolescents and adults with ASD; primary endpoint social communication, secondary irritability. Companion OLE.",
+          "nct_ids": ["NCT05081245", "NCT05889273"],
+          "trial_status": "IRIS NCT05081245 Active, not recruiting (enrollment complete; primary completion Oct 2026); OLE NCT05889273 Enrolling by invitation",
+          "lead_sponsor": "MapLight Therapeutics",
+          "key_milestones": ["IRIS enrollment complete", "Topline Q3 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "phase_3": 0, "phase_2": 2, "phase_1": 0}
+}

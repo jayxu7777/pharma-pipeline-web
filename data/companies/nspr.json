@@ -1,0 +1,95 @@
+{
+  "issuer_name": "InspireMD, Inc.",
+  "ticker": "NSPR",
+  "exchange": "Nasdaq",
+  "cik": "0001433607",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-010886",
+      "filed": "2026-03-18",
+      "doc": "form10-k.htm",
+      "slice_path": "data/nspr_10k_pipeline_section.html"
+    },
+    "website": {
+      "result": "Skipped — 10-K and ctgov already provide complete device-pipeline data; per workflow, Playwright fallback avoided."
+    },
+    "ctgov": {
+      "lead_sponsor_query": "InspireMD",
+      "p1_p3_unique_trials": 0,
+      "note": "Device studies on ctgov carry phase=NA, so the P1-P3 query returns 0; relevant active pivotal/IDE studies were located via supplemental ctgov API search.",
+      "compact_path": "data/nspr_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "approved_devices": [
+      {
+        "name": "CGuard Carotid Embolic Prevention System (CGuard EPS)",
+        "platform": "Self-expanding nitinol carotid stent with MicroNet mesh sleeve",
+        "indication": "Carotid artery revascularization",
+        "regulatory_status": "CE Mark recertified under EU MDR (Jan 2024); marketed in 30+ countries ex-US"
+      },
+      {
+        "name": "CGuard Prime Carotid Stent System",
+        "platform": "Same stent / MicroNet mesh as CGuard EPS with differentiated deployment mechanism",
+        "indication": "Carotid artery stenting (CAS)",
+        "regulatory_status": "FDA PMA approval received June 2025; U.S. commercial launch July 2025"
+      }
+    ],
+    "active_pivotal_ide_studies": [
+      {
+        "trial_name": "CGUARDIANS II",
+        "device": "CGuard Prime 80 cm carotid stent system used during TCAR (transcarotid revascularization)",
+        "design": "Multicenter, single-arm, pivotal IDE study; 50 patients enrolled",
+        "nct_ids": ["NCT06653387"],
+        "trial_status": "Enrollment completed Q1 2026; ACTIVE (RECRUITING per ctgov record, pending status update)",
+        "lead_sponsor": "InspireMD",
+        "key_milestones": [
+          "Enrollment completed Q1 2026",
+          "Intended to support U.S. label expansion of CGuard Prime to TCAR"
+        ]
+      },
+      {
+        "trial_name": "CGUARDIANS III",
+        "device": "SwitchGuard NPS (proprietary neuroprotection system) paired with CGuard Prime 80 cm for TCAR with flow-reversal neuroprotection",
+        "design": "Multicenter, single-arm, pivotal IDE study",
+        "nct_ids": ["NCT07277296"],
+        "trial_status": "NOT_YET_RECRUITING; IDE submitted to FDA December 30, 2024; enrollment expected to begin Q2 2026",
+        "lead_sponsor": "InspireMD",
+        "key_milestones": [
+          "IDE submission Dec 30, 2024",
+          "Enrollment start expected Q2 2026"
+        ]
+      },
+      {
+        "trial_name": "CGuard Prime EFS in Acute Ischemic Stroke",
+        "device": "CGuard Prime carotid stent in acute ischemic stroke",
+        "design": "Early feasibility study (EFS)",
+        "nct_ids": ["NCT06447116"],
+        "trial_status": "ACTIVE_NOT_RECRUITING",
+        "lead_sponsor": "InspireMD",
+        "key_milestones": []
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "name": "MGuard Prime EPS (legacy coronary stent program)",
+      "nct_ids": ["NCT02222116", "NCT02292823", "NCT01869738"],
+      "reason": "Withdrawn / terminated coronary stent trials from prior MGuard program; superseded by carotid focus."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "device_active_pivotal_ide": 3
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device company specializing in carotid stents (CGuard EPS, CGuard Prime) and neuroprotection (SwitchGuard NPS). No proprietary drug or biologic pipeline; clinical activity consists of device pivotal/IDE studies with phase=NA on ClinicalTrials.gov, which fall outside the P1/P2/P3 drug-pipeline scope. Active pivotal device studies are recorded under commercial_product.active_pivotal_ide_studies."
+}

@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Regentis Biomaterials Ltd.",
+  "ticker": "RGNT",
+  "exchange": "NYSE",
+  "cik": "0001912966",
+  "region": "Israel (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — no 10-K on EDGAR (Israel-domiciled, would file 20-F or F-1; none found in recent filings)"},
+    "website": {"url": "https://regentis.co.il", "note": "Single-product company; corporate site lists GelrinC only"},
+    "ctgov": {"path": "data/rgnt_ctgov_compact.json", "note": "Compact file lists 1 P1/P2 trial; full ctgov API also returns NCT03262909 (SAGE pivotal, phase NA) which the compact filter omits"}
+  },
+  "pipeline": [
+    {
+      "asset": "GelrinC",
+      "aka": [],
+      "modality": "Device — cell-free PEG-diacrylate / denatured fibrinogen hydrogel implant",
+      "target": "Articular cartilage repair (one-step in-situ photopolymerized implant)",
+      "license_origin": "Internal (Regentis proprietary)",
+      "indications": [
+        {
+          "indication": "Symptomatic articular cartilage defects of the femoral condyle (knee)",
+          "highest_phase": "Pivotal IDE (device — equivalent to Phase 3)",
+          "trial_name": "SAGE",
+          "trial_design": "Prospective, open-label, multicenter, non-randomized, single-arm GelrinC vs historical microfracture control (n=181 estimated)",
+          "nct_ids": ["NCT03262909"],
+          "trial_status": "UNKNOWN per ctgov (last known: ACTIVE_NOT_RECRUITING; primary completion estimated 2023-04, completion estimated 2024-11) — supporting US PMA submission",
+          "lead_sponsor": "Regentis Biomaterials",
+          "key_milestones": ["CE Mark already granted in Europe", "US PMA filing pending readout from SAGE pivotal"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "GelrinC": {"status": "CE Mark approved (EU); not yet FDA-approved", "indication": "Articular cartilage repair of knee femoral condyle"}
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT00989794", "reason": "Phase 1/2 EU safety/performance study; primary completion 2015-12; ctgov status UNKNOWN; superseded by SAGE pivotal"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3_or_pivotal": 1, "P2": 0, "P1": 0, "total_active_assets": 1},
+  "no_active_clinical_pipeline_reason": null
+}

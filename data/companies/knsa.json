@@ -1,0 +1,71 @@
+{
+  "issuer_name": "Kiniksa Pharmaceuticals International, plc",
+  "ticker": "KNSA",
+  "exchange": "Nasdaq",
+  "cik": "0001730430",
+  "region": "US (Bermuda-incorporated, US-listed; files 10-K)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-019168",
+      "filed": "2026-02-24",
+      "path": "data/knsa_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.kiniksa.com/pipeline",
+      "fetched_via": "WebFetch",
+      "note": "Public pipeline page partially out-of-date vs 10-K (KPL-387 lead asset)."
+    },
+    "ctgov": {
+      "sponsor": "Kiniksa Pharmaceuticals",
+      "path": "data/knsa_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "KPL-387",
+      "aka": [],
+      "modality": "Biologic (fully human IgG2 monoclonal antibody to IL-1R1, subcutaneous)",
+      "target": "IL-1R1 (blocking IL-1α and IL-1β signaling)",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Recurrent Pericarditis",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Phase 2/3 KPL-387 in recurrent pericarditis + transition-to-monotherapy supplemental Phase 2",
+          "trial_design": "Phase 2 dose-focusing portion of seamless Phase 2/3 randomized, double-blind, placebo-controlled; supplemental open-label transition Phase 2",
+          "nct_ids": ["NCT07010159", "NCT07288216"],
+          "trial_status": "Recruiting (Phase 2 portion); FDA Orphan Drug Designation Oct 2025; Phase 2 data expected 2H 2026",
+          "lead_sponsor": "Kiniksa Pharmaceuticals International, plc",
+          "key_milestones": ["Phase 2 dose-focusing data expected 2H 2026"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "ARCALYST (rilonacept)", "indication": "Recurrent pericarditis (and CAPS/DIRA via Regeneron label)", "approved": "2021 for recurrent pericarditis"}
+    ]
+  },
+  "excluded_preclinical": [
+    "KPL-1161 (next-generation half-life-extended IL-1R1 mAb; preclinical, Phase 1 planned by end of 2026)"
+  ],
+  "excluded_legacy_terminated": [
+    "Abiprubart (KPL-404) — Sjogren's Disease Phase 2b discontinued Feb 2025; strategic alternatives being explored (NCT06531395 TERMINATED)",
+    "NCT05198310 KPL-404 in RA (COMPLETED, no further Kiniksa-led development)",
+    "Mavrilimumab (KPL-301) — GCA Phase 2 COMPLETED (NCT03827018); no active Phase 2/3 trial sponsored by Kiniksa; legacy COVID Phase 2/3 trials COMPLETED",
+    "Rilonacept (KPL-914) Phase 3 (NCT03737110) COMPLETED — supports approved ARCALYST product"
+  ],
+  "excluded_partner_owned": [
+    "Vixarelimab (KPL-716) — out-licensed to Genentech/Roche; Genentech sponsors clinical development"
+  ],
+  "summary_counts": {
+    "assets": 1,
+    "phase_3_indications": 0,
+    "phase_2_3_indications": 1,
+    "phase_2_indications": 0,
+    "phase_1_indications": 0,
+    "notes": "KPL-387 in recurrent pericarditis is the sole active clinical-stage Kiniksa-sponsored program (seamless Phase 2/3); pipeline narrowed in 2025 with abiprubart discontinuation and reliance on commercial ARCALYST."
+  }
+}

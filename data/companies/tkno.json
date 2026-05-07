@@ -1,0 +1,29 @@
+{
+  "issuer_name": "Alpha Teknova, Inc.",
+  "ticker": "TKNO",
+  "exchange": "Nasdaq",
+  "cik": "0001850902",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Alpha Teknova is a producer of critical reagents (pre-poured media plates, liquid microbial culture media, molecular biology reagents) for life-sciences customers. It is a tools/reagents/CDMO-input supplier, not a drug developer. It owns no therapeutic product candidates and conducts no clinical trials.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-02",
+      "accession": "0001850902-26-000002",
+      "path": "data/tkno_10k_pipeline_section.html",
+      "note": "10-K confirms reagent/tools business; no internal therapeutic pipeline."
+    },
+    "website": {"error": "Not applicable — life-sciences reagents company; no drug pipeline page."},
+    "ctgov": {
+      "path": "data/tkno_ctgov_compact.json",
+      "trials_kept": 0,
+      "note": "No P1-3 trials sponsored by Alpha Teknova."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p1": 0, "p2": 0, "p3": 0}
+}

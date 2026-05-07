@@ -1,0 +1,80 @@
+{
+  "issuer_name": "Imunon, Inc.",
+  "ticker": "IMNN",
+  "exchange": "Nasdaq",
+  "cik": "0000749647",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001493152-26-013850",
+      "url": "https://www.sec.gov/Archives/edgar/data/749647/000149315226013850/form10-k.htm"
+    },
+    "website": {
+      "url": "https://imunon.com/pipeline"
+    },
+    "ctgov": {
+      "query": "Imunon",
+      "interventional_p1_3_count": 17,
+      "note": "Most are completed/withdrawn legacy ThermoDox studies under prior name (Celsion). Active drug trials are IMNN-001 (OVATION 2 P1/2 active not recruiting; OVATION 3 P3 recruiting; P2 with bevacizumab recruiting)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "IMNN-001",
+      "aka": ["GEN-1", "EGEN-001"],
+      "modality": "TheraPlas DNA-based IL-12 immunotherapy (IL-12 plasmid formulated with PEG-PEI-cholesterol lipopolymer)",
+      "target": "Interleukin-12 (IL-12) local expression",
+      "license_origin": "Internally developed (TheraPlas platform)",
+      "indications": [
+        {
+          "indication": "Newly diagnosed advanced epithelial ovarian, fallopian tube, or primary peritoneal cancer (1L, with NACT)",
+          "highest_phase": "Phase 3",
+          "trial_name": "OVATION 3",
+          "trial_design": "Phase 3 randomized trial of IMNN-001 administered IP with standard neoadjuvant chemotherapy (carboplatin + paclitaxel) and adjuvant chemotherapy in newly diagnosed advanced EOC, fallopian tube, or primary peritoneal cancer; includes PARP inhibitor maintenance (olaparib/niraparib)",
+          "nct_ids": ["NCT06915025"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Imunon",
+          "key_milestones": ["OVATION 2 reported overall survival benefit of 11 months over standard of care", "Phase 3 OVATION 3 initiated 2025-07-09; primary completion 2032-10"]
+        },
+        {
+          "indication": "Advanced ovarian cancer with bevacizumab (Phase 2 SLL evaluation)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Phase 2 IMNN-001 + Bevacizumab + NACT",
+          "trial_design": "Open-label Phase 1/2 of IMNN-001 in combination with bevacizumab and standard NACT (paclitaxel + carboplatin) in newly diagnosed advanced ovarian, fallopian tube, or primary peritoneal cancer; second-look laparoscopy endpoint",
+          "nct_ids": ["NCT05739981"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Imunon",
+          "key_milestones": ["Collaborator: Breakthrough Cancer Research", "Primary completion 2027-06-30"]
+        },
+        {
+          "indication": "Advanced ovarian cancer (OVATION 2 with NACT)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "OVATION 2",
+          "trial_design": "Open-label Phase 1/2 randomized study of IMNN-001 IP with neoadjuvant carboplatin + paclitaxel in newly diagnosed advanced EOC",
+          "nct_ids": ["NCT03393884"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Imunon",
+          "key_milestones": ["Primary completion 2024-07-25; informed Phase 3 OVATION 3"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "IMNN-201 (FixPlas, Trp2 TAA melanoma vaccine) - preclinical",
+    "IMNN-IndiPlas (personalized neoepitope cancer vaccine) - preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "ThermoDox (lyso-thermosensitive liposomal doxorubicin) - all Phase 1/2/3 studies completed/terminated/withdrawn (NCT00617981, NCT02112656, NCT01464593, NCT01640847, NCT02850419, NCT00441376, NCT04852367, NCT02181075, NCT00826085, NCT00061867, NCT00036998, NCT00036985)",
+    "IMNN-101 (PlaCCine SARS-CoV-2 vaccine) Phase 1 NCT06283459 - completed 2025-03-07; not currently advancing in active trial"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase3": 1,
+    "phase2": 0,
+    "phase1": 0
+  }
+}

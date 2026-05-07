@@ -1,0 +1,308 @@
+{
+  "issuer_name": "Jazz Pharmaceuticals plc",
+  "ticker": "JAZZ",
+  "exchange": "Nasdaq",
+  "cik": "0001232524",
+  "region": "Ireland HQ; US/EU operations",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-24",
+      "accession": "0001232524-26-000013",
+      "doc": "jazz-20251231.htm",
+      "path": "data/jazz_10k_full.htm"
+    },
+    "website": {
+      "url": "https://www.jazzpharma.com/science/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_queried": "Jazz Pharmaceuticals",
+      "compact_path": "data/jazz_ctgov_compact.json",
+      "trial_count": 239
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Zanidatamab",
+      "aka": ["Ziihera", "ZW25", "JZP598"],
+      "modality": "HER2-directed bispecific antibody",
+      "target": "HER2",
+      "license_origin": "Zymeworks license; co-developed with BeiGene/BeOne (China)",
+      "indications": [
+        {
+          "indication": "HER2+ gastroesophageal adenocarcinoma (1L)",
+          "highest_phase": "Phase 3",
+          "trial_name": "HERIZON-GEA-01",
+          "trial_design": "Zanidatamab + chemo +/- tislelizumab vs trastuzumab + chemo",
+          "nct_ids": ["NCT05152147"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "HER2+ biliary tract cancer (1L)",
+          "highest_phase": "Phase 3",
+          "trial_name": "HERIZON-BTC-302",
+          "trial_design": "Zanidatamab + SOC vs SOC",
+          "nct_ids": ["NCT06282575"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "HER2+ metastatic breast cancer (post T-DXd)",
+          "highest_phase": "Phase 3",
+          "trial_name": "HERIZON-BC-302",
+          "trial_design": "Zanidatamab vs trastuzumab + chemotherapy",
+          "nct_ids": ["NCT06435429"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "HER2-expressing solid tumors (pan-tumor)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Pan-tumor basket",
+          "trial_design": "Multi-cohort tumor-agnostic",
+          "nct_ids": ["NCT06695845", "NCT07102381", "NCT06043427", "NCT07176312"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Lurbinectedin",
+      "aka": ["Zepzelca", "PM01183", "JZP712"],
+      "modality": "Selective transcription inhibitor",
+      "target": "RNA Pol II / oncogenic transcription",
+      "license_origin": "PharmaMar license",
+      "indications": [
+        {
+          "indication": "Small cell lung cancer (1L maintenance, with atezolizumab)",
+          "highest_phase": "Phase 3",
+          "trial_name": "IMforte / LAGOON",
+          "trial_design": "Maintenance lurbinectedin + atezolizumab",
+          "nct_ids": ["NCT05091567"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Hoffmann-La Roche (Jazz partnered)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pediatric/young adult sarcoma (Ewing sarcoma)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Pediatric lurbinectedin",
+          "trial_design": "Mono in pediatric R/R",
+          "nct_ids": ["NCT05734066", "NCT05918640"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "SCLC (with durvalumab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lurbinectedin + durvalumab",
+          "trial_design": "Combination",
+          "nct_ids": ["NCT07459634"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Dordaviprone",
+      "aka": ["ONC201", "Modeyso"],
+      "modality": "Small molecule",
+      "target": "ClpP protease activator / DRD2 antagonist",
+      "license_origin": "Chimerix acquisition (2025)",
+      "indications": [
+        {
+          "indication": "H3 K27M-mutant diffuse glioma (post-radiotherapy)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ACTION",
+          "trial_design": "Dordaviprone vs placebo following radiotherapy",
+          "nct_ids": ["NCT05580562"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Diffuse intrinsic pontine glioma (DIPG)",
+          "highest_phase": "Phase 3",
+          "trial_name": "BIOMEDE 2.0",
+          "trial_design": "Combination program with everolimus",
+          "nct_ids": ["NCT05476939"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Gustave Roussy",
+          "key_milestones": []
+        },
+        {
+          "indication": "Endometrial / other CNS-related",
+          "highest_phase": "Phase 2",
+          "trial_name": "ONC201 combos",
+          "trial_design": "ONC201 + atezolizumab and other",
+          "nct_ids": ["NCT05009992", "NCT05542407"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Investigator-led",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "JZP3507",
+      "aka": ["ONC206"],
+      "modality": "Small molecule",
+      "target": "ClpP agonist / DRD2 antagonist",
+      "license_origin": "Chimerix acquisition (2025)",
+      "indications": [
+        {
+          "indication": "Pheochromocytoma / paraganglioma (PCPG)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ONC206 PCPG",
+          "trial_design": "Dose-comparison",
+          "nct_ids": ["NCT07282587"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent grade 2/3 meningioma",
+          "highest_phase": "Phase 2",
+          "trial_name": "ONC206 meningioma",
+          "trial_design": "Mono",
+          "nct_ids": ["NCT07533942"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent / rare primary CNS neoplasms (incl. pediatric DMG)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ONC206 CNS",
+          "trial_design": "Dose escalation",
+          "nct_ids": ["NCT04541082", "NCT04732065"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Vyxeos (post-marketing studies)",
+      "aka": ["CPX-351", "JZP351"],
+      "modality": "Liposomal cytotoxic combination",
+      "target": "Daunorubicin + cytarabine (5:1)",
+      "license_origin": "Celator acquisition",
+      "indications": [
+        {
+          "indication": "AML (post-marketing combinations & expansion populations)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Multiple investigator-initiated",
+          "trial_design": "CPX-351 +/- novel agents in newly diagnosed/high-risk AML",
+          "nct_ids": ["NCT03897127", "NCT04217278"],
+          "trial_status": "Recruiting / active not recruiting",
+          "lead_sponsor": "Investigator-initiated / academic consortia",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "JZP815",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Pan-RAF (MAPK pathway)",
+      "license_origin": "Internal/redx-licensed",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic solid tumors with MAPK pathway alterations",
+          "highest_phase": "Phase 1",
+          "trial_name": "JZP815 FIH",
+          "trial_design": "Dose escalation/expansion",
+          "nct_ids": ["NCT05557045"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "JZP898",
+      "aka": [],
+      "modality": "Cytokine pro-drug (IFN-alpha2b)",
+      "target": "Interferon alpha receptor",
+      "license_origin": "Werewolf Therapeutics collaboration",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (mono and + pembrolizumab)",
+          "highest_phase": "Phase 1",
+          "trial_name": "JZP898 FIH",
+          "trial_design": "Dose escalation; mono and + pembro",
+          "nct_ids": ["NCT06108050"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "JZP047",
+      "aka": [],
+      "modality": "Small molecule (undisclosed)",
+      "target": "Undisclosed neuroscience target",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Absence epilepsy / neuroscience indications",
+          "highest_phase": "Phase 1",
+          "trial_name": "JZP047 SAD/MAD",
+          "trial_design": "Single/multiple ascending dose with food effect",
+          "nct_ids": ["NCT07377539"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Cannabidiol (Epidiolex life-cycle)",
+      "aka": ["GWP42003-P", "JZP926", "Epidyolex"],
+      "modality": "Plant-derived cannabinoid",
+      "target": "Multi-target (TRPV channels, GPR55, etc.)",
+      "license_origin": "GW Pharma acquisition",
+      "indications": [
+        {
+          "indication": "Focal-onset seizures (label-expansion)",
+          "highest_phase": "Phase 3",
+          "trial_name": "CBD-OS focal seizures",
+          "trial_design": "Vs placebo",
+          "nct_ids": ["NCT07233239"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Xywav / Xyrem": "Sodium oxybate / mixed-salt oxybates - narcolepsy / idiopathic hypersomnia",
+    "Epidiolex / Epidyolex": "Cannabidiol - LGS/Dravet/TSC seizures",
+    "Rylaze / Enrylaze": "Recombinant Erwinia asparaginase - ALL/LBL",
+    "Defitelio": "Defibrotide - hepatic VOD",
+    "Vyxeos": "CPX-351 - AML",
+    "Zepzelca": "Lurbinectedin - SCLC 2L",
+    "Ziihera": "Zanidatamab - HER2+ BTC (accelerated)"
+  },
+  "excluded_preclinical": ["KRAS inhibitor (Phase 0 per pipeline page)", "JZP3508/ONC212 (Phase 0)", "JZP053/SAN2355 epilepsy (preclinical)", "CombiPlex platform"],
+  "excluded_legacy_terminated": ["Various discontinued investigator-sponsored CPX-351 cohorts; older CBD trials marked UNKNOWN status"],
+  "excluded_partner_owned": ["Cannabis/CBD investigator-initiated psychiatric/anxiety trials sourced from cannabidiol commercial product (not Jazz pipeline assets)"],
+  "summary_counts": {
+    "total_assets": 9,
+    "phase_3": 5,
+    "phase_2": 0,
+    "phase_1_or_1_2": 4,
+    "note": "Counts assets by highest-phase indication: Zanidatamab, Lurbinectedin, Dordaviprone, Vyxeos lifecycle, CBD label-expansion all have P3."
+  }
+}

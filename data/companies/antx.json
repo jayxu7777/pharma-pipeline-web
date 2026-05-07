@@ -1,0 +1,82 @@
+{
+  "issuer_name": "AN2 Therapeutics, Inc.",
+  "ticker": "ANTX",
+  "exchange": "Nasdaq",
+  "cik": "0001880438",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-110693", "filing_date": "2026-03-17", "doc": "antx-20251231.htm"},
+    "website": {"url": "https://an2therapeutics.com/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"compact_path": "data/antx_ctgov_compact.json", "trials_p1_p3": 6}
+  },
+  "pipeline": [
+    {
+      "asset": "Epetraborole",
+      "aka": ["AN2-501971"],
+      "modality": "Small molecule (boron-containing leucyl-tRNA synthetase inhibitor)",
+      "target": "Leucyl-tRNA synthetase (LeuRS)",
+      "license_origin": "Internal (originally from Anacor Pharmaceuticals)",
+      "indications": [
+        {
+          "indication": "Polycythemia vera",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 proof-of-concept",
+          "trial_design": "Phase 2 proof-of-concept study in polycythemia vera patients",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 2 proof-of-concept being initiated per company website",
+          "lead_sponsor": "AN2 Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Mycobacterium abscessus complex lung disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "Investigator-initiated Phase 2 (Kevin Winthrop, OHSU lead)",
+          "trial_design": "Multicenter investigator-initiated Phase 2 study in M. abscessus lung disease patients",
+          "nct_ids": ["NCT07301320"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Kevin Winthrop (collaborator: AN2 Therapeutics, Inc.)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "AN2-502998",
+      "aka": [],
+      "modality": "Small molecule (boron-based)",
+      "target": "Trypanosoma cruzi (Chagas disease pathogen)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chagas disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "First-in-Human Trial of Oral AN2-502998",
+          "trial_design": "Phase 1 single/multiple ascending dose study in healthy volunteers evaluating safety, tolerability, PK",
+          "nct_ids": ["NCT07024589"],
+          "trial_status": "Completed",
+          "lead_sponsor": "AN2 Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "PI3K-alpha oncology program",
+    "ENPP1 oncology program",
+    "Bone disorders program",
+    "Melioidosis program (US-government funded)",
+    "Tuberculosis program (Gates Foundation/GSK partnership)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT05327803 — Epetraborole in treatment-refractory MAC lung disease (Phase 2/3, Terminated)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "P3": 0,
+    "P2": 2,
+    "P1": 1,
+    "indications_total": 3
+  }
+}

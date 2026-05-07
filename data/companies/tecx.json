@@ -1,0 +1,84 @@
+{
+  "issuer_name": "Tectonic Therapeutic, Inc.",
+  "ticker": "TECX",
+  "exchange": "Nasdaq",
+  "cik": "0001681087",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-076793",
+      "filing_date": "2026-02-26",
+      "doc": "tecx-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.tectonictx.com"
+    },
+    "ctgov": {
+      "sponsor_query": "Tectonic Therapeutic",
+      "raw_count": 1,
+      "kept_p1_p3": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "TX45",
+      "aka": ["TX000045"],
+      "modality": "Fc-relaxin fusion protein",
+      "target": "RXFP1 receptor (relaxin GPCR)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Group 2 Pulmonary Hypertension secondary to Heart Failure with Preserved Ejection Fraction (PH-HFpEF)",
+          "highest_phase": "Phase 2",
+          "trial_name": "APEX",
+          "trial_design": "Phase 2 randomized, placebo-controlled, two-dose study",
+          "nct_ids": ["NCT06616974"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Tectonic Therapeutic",
+          "key_milestones": ["Primary completion 2026-10"]
+        },
+        {
+          "indication": "Group 3 Pulmonary Hypertension with Interstitial Lung Disease (PH-ILD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PLANNED — TX45 in PH-ILD",
+          "trial_design": "Phase 2 planned per company disclosure",
+          "nct_ids": [],
+          "trial_status": "PLANNED — disclosed development plan, trial not yet initiated",
+          "lead_sponsor": "Tectonic Therapeutic",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Tectonic HHT program (undisclosed GPCR antagonist)",
+      "aka": [],
+      "modality": "Biologic / GPCR antagonist (modality undisclosed)",
+      "target": "Undisclosed GPCR involved in angiogenesis / AVM formation",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Hereditary Hemorrhagic Telangiectasia (HHT)",
+          "highest_phase": "Phase 1",
+          "trial_name": "PLANNED — initiated 1Q 2026 per company",
+          "trial_design": "First-in-human Phase 1",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 initiation Q1 2026 per company; not yet posted to public registry",
+          "lead_sponsor": "Tectonic Therapeutic",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3": 0,
+    "p2": 2,
+    "p1": 1,
+    "indications_total": 3
+  }
+}

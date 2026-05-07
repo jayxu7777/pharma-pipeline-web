@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Sigyn Therapeutics, Inc.",
+  "ticker": "SIGY",
+  "exchange": "OTC",
+  "cik": "0001642159",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001641172-25-004740",
+      "filing_date": "2025-04-15",
+      "doc": "form10-k.htm"
+    },
+    "website": {
+      "url": "https://www.sigyntherapeutics.com/",
+      "pipeline_url_attempted": "https://sigyntherapeutics.com/pipeline",
+      "note": "No /pipeline page (404). Pipeline assets listed on corporate site: Sigyn Therapy, ImmunePrep, ChemoPrep, ChemoPure, CardioDialysis. None disclosed with phase or NCT."
+    },
+    "ctgov": {
+      "sponsor_query": "Sigyn Therapeutics",
+      "trials_returned": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    "Sigyn Therapy (lead candidate; Class III blood-purification device for infectious disease / pathogen-associated inflammatory disorders) — pre-clinical in vitro and animal studies completed; IDE drafted for FDA submission to support first-in-human studies (not yet filed/cleared as of 10-K).",
+    "ImmunePrep (oncology immunotherapy adjunct platform) — concept / early development stage.",
+    "ChemoPrep (chemotherapy delivery optimization) — concept / early development stage.",
+    "ChemoPure (chemotherapy detoxification) — concept / early development stage.",
+    "CardioDialysis (MACE-reduction blood purification) — concept / early development stage."
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Pre-clinical-stage device therapeutics company. Lead asset Sigyn Therapy is a Class III blood-purification device that has completed in vitro and animal studies; an IDE has been drafted for submission to FDA but no IDE has been cleared and no first-in-human study has commenced. All other assets (ImmunePrep, ChemoPrep, ChemoPure, CardioDialysis) are at concept/early-development stage. No active P1/P2/P3 clinical trials."
+}

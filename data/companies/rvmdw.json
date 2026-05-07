@@ -1,0 +1,197 @@
+{
+  "issuer_name": "Revolution Medicines, Inc.",
+  "ticker": "RVMDW",
+  "exchange": "Nasdaq",
+  "cik": "0001628171",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-071563",
+      "filing_date": "2026-02-25",
+      "file": "data/rvmdw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://revmed.com/pipeline",
+      "note": "Confirmed RAS(ON) inhibitor portfolio: daraxonrasib (RMC-6236), zoldonrasib (RMC-9805), elironrasib (RMC-6291), RMC-5127, RMC-0708, RMC-8839"
+    },
+    "ctgov": {
+      "file": "data/rvmdw_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Daraxonrasib",
+      "aka": ["RMC-6236"],
+      "modality": "Small-molecule RAS(ON) multi-selective non-covalent (tri-complex) inhibitor",
+      "target": "RAS(ON) (multi-selective: KRAS/NRAS/HRAS G12X)",
+      "license_origin": "Internally discovered by Revolution Medicines",
+      "indications": [
+        {
+          "indication": "Previously treated metastatic pancreatic ductal adenocarcinoma (2L PDAC) — RASolute 302",
+          "highest_phase": "P3",
+          "trial_name": "RASolute 302",
+          "trial_design": "Registrational Phase 3 vs investigator's choice chemotherapy in previously treated metastatic PDAC",
+          "nct_ids": ["NCT06625320"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (100% enrolled per company)",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "1L metastatic PDAC — RASolute 303 (daraxonrasib +/- gemcitabine/nab-paclitaxel)",
+          "highest_phase": "P3",
+          "trial_name": "RASolute 303",
+          "trial_design": "Registrational Phase 3 first-line vs gemcitabine/nab-paclitaxel in metastatic PDAC",
+          "nct_ids": ["NCT07491445"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Resected (adjuvant) PDAC — REV-25-304",
+          "highest_phase": "P3",
+          "trial_name": "Adjuvant resectable PDAC study (REV-25-304)",
+          "trial_design": "Phase 3 adjuvant trial in resected PDAC",
+          "nct_ids": ["NCT07252232"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Previously treated RAS-mutant metastatic NSCLC (2L/3L) — RASolve 301",
+          "highest_phase": "P3",
+          "trial_name": "RASolve 301",
+          "trial_design": "Registrational Phase 3 of daraxonrasib vs docetaxel in RAS-mutated NSCLC",
+          "nct_ids": ["NCT06881784"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced RAS-mutant solid tumors (monotherapy dose-escalation/expansion)",
+          "highest_phase": "P1/P2",
+          "trial_name": "RMC-6236-001",
+          "trial_design": "Phase 1/2 dose-escalation and expansion in RAS-mutant solid tumors (NSCLC, CRC, PDAC)",
+          "nct_ids": ["NCT05379985"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Zoldonrasib",
+      "aka": ["RMC-9805"],
+      "modality": "Small-molecule RAS(ON) G12D-selective covalent (tri-complex) inhibitor",
+      "target": "RAS(ON) G12D",
+      "license_origin": "Internally discovered by Revolution Medicines",
+      "indications": [
+        {
+          "indication": "Advanced KRAS G12D-mutant solid tumors (NSCLC, CRC, PDAC) — monotherapy and combinations",
+          "highest_phase": "P1",
+          "trial_name": "RMC-9805-001",
+          "trial_design": "Phase 1 dose-escalation and expansion in KRAS G12D-mutant solid tumors",
+          "nct_ids": ["NCT06040541"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "1L metastatic PDAC and 1L NSCLC (combination cohorts via gastrointestinal-tumor and NSCLC umbrella studies, including RASolute 305 / 309 / RASolve 308 program elements)",
+          "highest_phase": "P1/P2",
+          "trial_name": "RAS(ON) Inhibitors in GI Solid Tumors / NSCLC umbrella",
+          "trial_design": "Phase 1/2 combination studies of RAS(ON) inhibitors (RMC-6236, RMC-9805) with chemo backbones in GI solid tumors and NSCLC",
+          "nct_ids": ["NCT06445062", "NCT06162221"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Elironrasib",
+      "aka": ["RMC-6291"],
+      "modality": "Small-molecule RAS(ON) G12C-selective covalent (tri-complex) inhibitor",
+      "target": "RAS(ON) G12C",
+      "license_origin": "Internally discovered by Revolution Medicines",
+      "indications": [
+        {
+          "indication": "Advanced KRAS G12C-mutant solid tumors (monotherapy)",
+          "highest_phase": "P1",
+          "trial_name": "RMC-6291-001",
+          "trial_design": "Phase 1 dose-escalation and expansion monotherapy in KRAS G12C-mutant solid tumors",
+          "nct_ids": ["NCT05462717"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced KRAS G12C-mutant solid tumors — elironrasib + daraxonrasib combination",
+          "highest_phase": "P1/P2",
+          "trial_name": "RMC-6291 + RMC-6236 combination",
+          "trial_design": "Phase 1/2 combination of elironrasib + daraxonrasib in KRAS G12C-mutant solid tumors",
+          "nct_ids": ["NCT06128551"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RMC-5127",
+      "aka": [],
+      "modality": "Small-molecule RAS(ON) G12V-selective inhibitor",
+      "target": "RAS(ON) G12V",
+      "license_origin": "Internally discovered by Revolution Medicines",
+      "indications": [
+        {
+          "indication": "Advanced KRAS G12V-mutant solid tumors (NSCLC, CRC, PDAC)",
+          "highest_phase": "P1",
+          "trial_name": "RMC-5127-001",
+          "trial_design": "Phase 1 monotherapy and combination dose-escalation in KRAS G12V-mutant solid tumors",
+          "nct_ids": ["NCT07349537"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RAS(ON) inhibitors + ivonescimab (Summit collab)",
+      "aka": ["daraxonrasib + ivonescimab", "elironrasib + ivonescimab", "zoldonrasib + ivonescimab"],
+      "modality": "Combination: RAS(ON) inhibitor + PD-1/VEGF bispecific antibody",
+      "target": "RAS(ON) + PD-1/VEGF",
+      "license_origin": "Combination study with Summit Therapeutics",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic NSCLC and CRC solid tumors",
+          "highest_phase": "P1/P2",
+          "trial_name": "RAS(ON) + ivonescimab combination",
+          "trial_design": "Phase 1/2 dose-escalation and expansion of RAS(ON) inhibitors + ivonescimab +/- chemo in advanced solid tumors",
+          "nct_ids": ["NCT07397338"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Revolution Medicines, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "RMC-0708 (RAS(ON) Q61H-selective inhibitor) — clinical-stage per company but no public NCT yet; treated as not-yet-active for this snapshot",
+    "RMC-8839 (RAS(ON) G13C-selective inhibitor) — clinical-stage per company but no public NCT yet; treated as not-yet-active for this snapshot"
+  ],
+  "excluded_legacy_terminated": [
+    "RMC-4630 (SHP2 inhibitor) — partnered with Sanofi (then Sanofi-led as vociprotafib/SAR442720); all referenced studies COMPLETED, TERMINATED, or UNKNOWN status",
+    "RMC-5552 (mTORC1/4EBP1 inhibitor) — Phase 1 in solid tumors COMPLETED; investigator-led recurrent glioblastoma trial TERMINATED"
+  ],
+  "excluded_partner_owned": [
+    "TNG462 (Tango Therapeutics, lead sponsor) Phase 1/2 in PDAC and NSCLC — uses RMC-9805 and RMC-6236 as combination agents but trial is not Revolution Medicines-sponsored (NCT06922591)"
+  ],
+  "summary_counts": {
+    "assets_total": 5,
+    "p3": 1,
+    "p2": 0,
+    "p1": 4
+  }
+}

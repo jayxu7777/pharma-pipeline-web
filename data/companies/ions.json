@@ -1,0 +1,73 @@
+{
+  "issuer_name": "IONIS PHARMACEUTICALS INC",
+  "ticker": "IONS",
+  "exchange": "Nasdaq",
+  "cik": "0000874015",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000874015-26-000115", "filing_date": "2026-02-26", "doc": "form10k.htm"},
+    "website": {"url": "https://ionis.com/science-and-innovation/pipeline", "note": "Detailed asset list rendered via JS/PDF; relied on 10-K + ctgov."},
+    "ctgov": {"sponsor_query": "Ionis Pharmaceuticals", "studies_total": 138, "active_p1_p3": 18}
+  },
+  "pipeline": [
+    {"asset": "Olezarsen", "aka": ["Tryngolza", "ISIS 678354", "AKCEA-APOCIII-LRx"], "modality": "GalNAc-conjugated antisense (ASO)", "target": "APOC3", "license_origin": "Ionis internal",
+     "indications": [
+       {"indication": "Familial chylomicronemia syndrome (FCS) - post-approval lifecycle expansion", "highest_phase": "Phase 3", "trial_name": "Balance OLE", "trial_design": "Open-label long-term", "nct_ids": ["NCT05130450", "NCT05185843"], "trial_status": "Active, not recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []},
+       {"indication": "Severe hypertriglyceridemia (sHTG)", "highest_phase": "Phase 3", "trial_name": "CORE / CORE2 / Essence-TIMI 73a", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT05681351"], "trial_status": "Active, not recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "Eplontersen", "aka": ["Wainua", "ION-682884", "AKCEA-TTR-LRx"], "modality": "GalNAc-conjugated antisense (ASO)", "target": "TTR", "license_origin": "Ionis internal (AstraZeneca co-commercialized)",
+     "indications": [
+       {"indication": "Hereditary transthyretin amyloid polyneuropathy (ATTRv-PN) - lifecycle/extension", "highest_phase": "Phase 3", "trial_name": "NEURO-TTRansform OLE", "trial_design": "Open-label", "nct_ids": ["NCT05071300"], "trial_status": "Active, not recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []},
+       {"indication": "Transthyretin amyloid cardiomyopathy (ATTR-CM)", "highest_phase": "Phase 3", "trial_name": "CARDIO-TTRansform", "trial_design": "Randomized placebo-controlled", "nct_ids": ["NCT04136171", "NCT05667493"], "trial_status": "Active / enrolling by invitation", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "Donidalorsen", "aka": ["DAWNZERA", "ION-957"], "modality": "GalNAc-conjugated antisense (ASO)", "target": "Prekallikrein (PKK)", "license_origin": "Ionis internal",
+     "indications": [
+       {"indication": "Hereditary angioedema (HAE) - lifecycle/extension", "highest_phase": "Phase 3", "trial_name": "OASIS-HAE OLE / OASISplus", "trial_design": "Open-label long-term + switch", "nct_ids": ["NCT05392114", "NCT07298447"], "trial_status": "Active / Recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "Zilganersen", "aka": ["ION-373"], "modality": "Antisense oligonucleotide (intrathecal)", "target": "GFAP", "license_origin": "Ionis internal",
+     "indications": [
+       {"indication": "Alexander disease", "highest_phase": "Phase 3", "trial_name": "Zilganersen pivotal", "trial_design": "Randomized sham-controlled", "nct_ids": ["NCT04849741"], "trial_status": "Active, not recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "ION363 (jacifusen)", "aka": ["ION363", "Jacifusen"], "modality": "Antisense oligonucleotide (intrathecal)", "target": "FUS", "license_origin": "Ionis internal",
+     "indications": [
+       {"indication": "FUS-mutated amyotrophic lateral sclerosis (ALS)", "highest_phase": "Phase 3", "trial_name": "FUSION", "trial_design": "Randomized sham-controlled", "nct_ids": ["NCT04768972"], "trial_status": "Active, not recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "ION582", "aka": [], "modality": "Antisense oligonucleotide (intrathecal)", "target": "UBE3A-ATS", "license_origin": "Ionis internal",
+     "indications": [
+       {"indication": "Angelman syndrome", "highest_phase": "Phase 3", "trial_name": "REVEAL / HALOS", "trial_design": "Randomized sham-controlled", "nct_ids": ["NCT06914609", "NCT05127226"], "trial_status": "Recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "Sapablursen", "aka": ["ION-827359", "IONIS-TMPRSS6-LRx"], "modality": "GalNAc-conjugated antisense (ASO)", "target": "TMPRSS6", "license_origin": "Ionis internal",
+     "indications": [
+       {"indication": "Phlebotomy-dependent polycythemia vera", "highest_phase": "Phase 2", "trial_name": "IMPRSSION", "trial_design": "Randomized", "nct_ids": ["NCT05143957"], "trial_status": "Active, not recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "ION440", "aka": [], "modality": "Antisense oligonucleotide", "target": "MECP2", "license_origin": "Ionis internal",
+     "indications": [
+       {"indication": "MECP2 duplication syndrome", "highest_phase": "Phase 1/2", "trial_name": "ION440 FIH", "trial_design": "Open-label dose escalation", "nct_ids": ["NCT06430385"], "trial_status": "Recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "ION337", "aka": [], "modality": "Antisense oligonucleotide", "target": "SCN1A regulator", "license_origin": "Ionis internal",
+     "indications": [
+       {"indication": "Dravet syndrome", "highest_phase": "Phase 1/2", "trial_name": "ION337 FIH", "trial_design": "Open-label dose escalation", "nct_ids": ["NCT07531745"], "trial_status": "Recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "ION717", "aka": [], "modality": "Antisense oligonucleotide (intrathecal)", "target": "PRNP", "license_origin": "Ionis internal",
+     "indications": [
+       {"indication": "Prion disease", "highest_phase": "Phase 1/2", "trial_name": "ION717 FIH", "trial_design": "Open-label dose escalation", "nct_ids": ["NCT06153966"], "trial_status": "Recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "ION464", "aka": [], "modality": "Antisense oligonucleotide (intrathecal)", "target": "SNCA (alpha-synuclein)", "license_origin": "Ionis internal (formerly w/ Biogen)",
+     "indications": [
+       {"indication": "Multiple system atrophy (MSA)", "highest_phase": "Phase 1", "trial_name": "ION464 FIH", "trial_design": "Open-label dose escalation", "nct_ids": ["NCT04165486"], "trial_status": "Recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]},
+    {"asset": "ION356", "aka": [], "modality": "Antisense oligonucleotide", "target": "PLP1", "license_origin": "Ionis internal",
+     "indications": [
+       {"indication": "Pelizaeus-Merzbacher disease", "highest_phase": "Phase 1", "trial_name": "ION356 FIH", "trial_design": "Open-label dose escalation", "nct_ids": ["NCT06150716"], "trial_status": "Recruiting", "lead_sponsor": "Ionis Pharmaceuticals", "key_milestones": []}
+     ]}
+  ],
+  "commercial_product": {
+    "marketed": ["TRYNGOLZA (olezarsen) - FCS", "WAINUA (eplontersen) - ATTRv-PN", "DAWNZERA (donidalorsen) - HAE", "SPINRAZA (nusinersen) - SMA, partnered with Biogen", "TEGSEDI (inotersen) - ATTR (out-licensed/withdrawn in some geographies)", "WAYLIVRA (volanesorsen) - FCS (ex-US)"]
+  },
+  "excluded_preclinical": ["Multiple ION-series ASOs in IND-enabling preclinical stage"],
+  "excluded_legacy_terminated": ["TOFERSEN (Qalsody, partnered with Biogen) — not Ionis-led ongoing pipeline"],
+  "excluded_partner_owned": ["Pelacarsen (TQJ230) — Novartis-led Phase 3 (Lp(a) / cardiovascular); originated by Ionis but currently Novartis-owned program"],
+  "summary_counts": {"total_assets": 12, "phase_3": 6, "phase_2": 1, "phase_1": 5}
+}

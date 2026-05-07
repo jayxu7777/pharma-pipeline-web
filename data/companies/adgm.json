@@ -1,0 +1,78 @@
+{
+  "issuer_name": "Adagio Medical Holdings, Inc.",
+  "ticker": "ADGM",
+  "exchange": "Nasdaq",
+  "cik": "0002006986",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. For this medical device issuer, scope is interpreted as active pivotal IDE clinical studies of company-owned devices.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-27",
+      "accession": "0002006986-26-000003",
+      "path": "data/adgm_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://adagiomedical.com/pipeline",
+      "error": "Page returned only tracking script content; no pipeline detail extractable"
+    },
+    "ctgov": {
+      "path": "data/adgm_ctgov_compact.json",
+      "note": "Sponsor 'Adagio Medical' returned 0 P1-3 trials (device studies are coded NA phase). Trials located via direct ctgov API search."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "vCLAS Cryoablation System",
+      "aka": ["vCLAS", "ULTA VT catheter"],
+      "modality": "Medical device (catheter-based ultra-low temperature cryoablation, ULTA)",
+      "target": "Ventricular myocardium ablation",
+      "license_origin": "Internally developed",
+      "indications": [
+        {
+          "indication": "Monomorphic ventricular tachycardia (MMVT) in patients with ischemic and non-ischemic cardiomyopathy",
+          "highest_phase": "Pivotal IDE (device equivalent of Phase 3); FDA Breakthrough Device Designation granted Apr 2025; CE Mark approved (Q1 2024)",
+          "trial_name": "FULCRUM-VT (Cryoablation for Monomorphic Ventricular Tachycardia)",
+          "trial_design": "Single-cohort pivotal IDE, 209 patients, 19 sites in US and Canada; enrollment completed Oct 1, 2025; preliminary acute safety/efficacy reported Oct 10, 2025 (97.4% acute clinical success, 2.4% major adverse event rate)",
+          "nct_ids": ["NCT05675865"],
+          "trial_status": "ACTIVE — enrollment complete, follow-up ongoing; 6-month primary efficacy endpoint readout expected Apr 2026 at HRS 2026; FDA PMA submission planned 1H 2026",
+          "lead_sponsor": "Adagio Medical",
+          "key_milestones": [
+            "Oct 2025: Completed enrollment (209 patients)",
+            "Oct 2025: Preliminary acute safety/efficacy results announced",
+            "Apr 2026: 6-month primary efficacy endpoint readout (planned)",
+            "1H 2026: FDA PMA submission (planned)"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "vCLAS Cryoablation System": "CE Mark approved (Q1 2024) for VT ablation in EU; not yet FDA approved (PMA submission planned 1H 2026)"
+  },
+  "excluded_preclinical": [
+    {
+      "asset": "vCLAS ULTRA (next-generation single-freeze ULTA catheter)",
+      "reason": "Design phase complete; no clinical trial yet"
+    },
+    {
+      "asset": "Pulsed Field Cryoablation (PFCA) for VT",
+      "reason": "Preclinical animal model only"
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "trial": "NCT05416086 iCLAS Cryoablation System PMCF",
+      "status": "TERMINATED"
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3_or_pivotal": 1,
+    "phase_2": 0,
+    "phase_1": 0,
+    "commercial_or_approved_ex_us": 1
+  },
+  "no_active_clinical_pipeline_reason": null
+}

@@ -1,0 +1,43 @@
+{
+  "issuer_name": "Aditxt, Inc.",
+  "ticker": "ADTX",
+  "exchange": "Nasdaq",
+  "cik": "0001726711",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-037529",
+      "filing_date": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1726711/000121390026037529/ea0283141-10k_aditxt.htm"
+    },
+    "website": {
+      "url": "https://www.aditxt.com/",
+      "note": "Pipeline subpage (/pipeline) returns 404; homepage describes subsidiaries Adimune, Pearsanta, Adivue, Evofem (acquisition no longer pursued)."
+    },
+    "ctgov": {
+      "query": "Aditxt",
+      "trials_returned": 0,
+      "active_or_relevant": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    "ADI-100 (Adimune subsidiary) — autoimmune therapy targeting type 1 diabetes, psoriasis, stiff person syndrome; preparing first-in-human IND submission, no IND filed at snapshot.",
+    "Pearsanta (subsidiary) — diagnostic tests (prostate cancer, endometriosis blood-based tests) using Mitomic Technology; diagnostics, not a drug pipeline.",
+    "Adivue (subsidiary) — neurological diagnostics; not a drug pipeline."
+  ],
+  "excluded_legacy_terminated": [
+    "Proposed acquisition of Evofem Biosciences — terminated April 2024 by Evofem; subsequently entered Reinstatement and amended Merger Agreement; per FY2025 10-K Aditxt is no longer pursuing the Evofem acquisition."
+  ],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "No company-sponsored clinical-stage drug assets at snapshot. Lead therapeutic candidate ADI-100 (Adimune) is preclinical with planned IND in early 2026; Pearsanta/Adivue subsidiaries are diagnostics businesses; Evofem acquisition (which would have brought a commercial reproductive-health product) is no longer being pursued. ctgov returned zero sponsor-led trials.",
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

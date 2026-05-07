@@ -1,0 +1,32 @@
+{
+  "issuer_name": "Aytu BioPharma, Inc.",
+  "ticker": "AYTU",
+  "exchange": "Nasdaq",
+  "cik": "0001385818",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-25-029723", "filed": "2025-09-23", "fiscal_year_end": "2025-06-30"},
+    "website": {"url": "https://aytubio.com", "note": "Commercial products page only; no clinical pipeline page found"},
+    "ctgov": {"records": 1, "note": "Single Phase 3 enzastaurin study now SUSPENDED; asset transferred out"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Aytu is now a commercial-stage specialty pharmaceutical company. Per FY2025 10-K, the company suspended development of AR101 (enzastaurin) for vascular Ehlers-Danlos Syndrome and on August 5, 2025 transferred all rights, title and interest in AR101 to EnzCo, terminating the Rumpus Asset Purchase Agreement. Remaining business is marketed products: EXXUA (gepirone) for MDD, plus ADHD portfolio (Adzenys, Cotempla) and pediatric portfolio (Karbinal, Poly-Vi-Flor, Tuzistra).",
+  "commercial_product": {
+    "products": [
+      {"name": "EXXUA (gepirone)", "indication": "Major Depressive Disorder", "status": "Marketed in US"},
+      {"name": "Adzenys XR-ODT", "indication": "ADHD", "status": "Marketed"},
+      {"name": "Cotempla XR-ODT", "indication": "ADHD", "status": "Marketed"},
+      {"name": "Karbinal ER", "indication": "Allergic rhinitis (pediatric)", "status": "Marketed"},
+      {"name": "Poly-Vi-Flor / Tri-Vi-Flor", "indication": "Pediatric vitamin/fluoride", "status": "Marketed"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "AR101 (enzastaurin)", "indication": "Vascular Ehlers-Danlos Syndrome (vEDS)", "nct_id": "NCT05463679", "reason": "Phase 3 study SUSPENDED; asset rights transferred to EnzCo on 2025-08-05 per FY2025 10-K"},
+    {"asset": "Healight (intracorporeal UV-A)", "indication": "COVID-19 / respiratory infections", "reason": "Development discontinued in prior years"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

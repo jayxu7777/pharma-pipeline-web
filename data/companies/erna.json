@@ -1,0 +1,23 @@
+{
+  "issuer_name": "Ernexa Therapeutics Inc.",
+  "ticker": "ERNA",
+  "exchange": "Nasdaq",
+  "cik": "0000748592",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-010102", "filed": "2026-03-13", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://ernexa.com", "note": "Pipeline data corroborated from 10-K narrative"},
+    "ctgov": {"records": 0, "note": "No registered trials with Ernexa as sponsor"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per FY2025 10-K, Ernexa is a 'preclinical-stage synthetic allogeneic iMSC therapy company' (induced pluripotent stem cell-derived mesenchymal stem cells). Lead candidate ERNA-101 (IL-7/IL-15-secreting iMSCs for platinum-resistant ovarian cancer) had a successful pre-IND meeting with the FDA in Q4 2025; the company expects to complete IND-enabling studies and submit the IND in 2026, then enter a Phase 1 investigator-sponsored trial in 2H 2026. Second candidate ERNA-201 (IL-10-secreting iMSCs for rheumatoid arthritis/autoimmune) is earlier-stage. Technology in-licensed from Factor Bioscience Limited (Sept 2024). No active P1/P2/P3 trials at snapshot date.",
+  "excluded_preclinical": [
+    {"asset": "ERNA-101", "indication": "Platinum-resistant ovarian cancer (allogeneic IL-7/IL-15-secreting iMSCs)", "stage": "Pre-IND complete Q4 2025; IND submission planned 2026; Phase 1 IIT planned 2H 2026"},
+    {"asset": "ERNA-201", "indication": "Rheumatoid arthritis and other autoimmune disorders (IL-10-secreting iMSCs)", "stage": "Discovery / early preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

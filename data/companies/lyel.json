@@ -1,0 +1,72 @@
+{
+  "issuer_name": "Lyell Immunopharma, Inc.",
+  "ticker": "LYEL",
+  "exchange": "Nasdaq",
+  "cik": "0001806952",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-017253", "filed": "2026-03-12", "path": "data/lyel_10k_pipeline_section.html"},
+    "website": {"url": "http://www.lyell.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/lyel_ctgov_compact.json", "lead_sponsor_query": "Lyell Immunopharma"}
+  },
+  "pipeline": [
+    {
+      "asset": "Ronde-cel",
+      "aka": ["LYL314", "rondecabtagene autoleucel"],
+      "modality": "Autologous CD19/CD20 dual-targeting CAR T-cell therapy",
+      "target": "CD19/CD20",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory large B-cell lymphoma (3L+)",
+          "highest_phase": "Phase 1/2 (pivotal single-arm)",
+          "trial_name": "PiNACLE",
+          "trial_design": "Single-arm pivotal trial, ~120 patients R/R LBCL 3L+",
+          "nct_ids": ["NCT05826535"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Lyell Immunopharma, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Aggressive large B-cell lymphoma (2L)",
+          "highest_phase": "Phase 3",
+          "trial_name": "PiNACLE-H2H",
+          "trial_design": "Randomized controlled head-to-head versus investigator's choice axi-cel or liso-cel",
+          "nct_ids": ["NCT07188558"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Lyell Immunopharma, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LYL273",
+      "aka": ["GCC19CART"],
+      "modality": "Autologous CAR T-cell therapy",
+      "target": "Guanylyl cyclase-C (GCC)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Metastatic colorectal cancer",
+          "highest_phase": "Phase 1",
+          "trial_name": "GCC19CART dose-escalation/expansion",
+          "trial_design": "Phase 1 dose-escalation/dose-expansion in metastatic CRC",
+          "nct_ids": ["NCT05319314"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Lyell Immunopharma, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Undisclosed asset (preclinical, no disclosure)"],
+  "excluded_legacy_terminated": [
+    {"asset": "LYL845", "nct": "NCT05573035", "reason": "Terminated"},
+    {"asset": "LYL797", "nct": "NCT05274451", "reason": "Terminated"},
+    {"asset": "IMPT-514", "nct": "NCT06153095", "reason": "Withdrawn"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 1, "P2": 0, "P1": 1, "P1_P2": 1}
+}

@@ -1,0 +1,99 @@
+{
+  "issuer_name": "OSR Holdings, Inc.",
+  "ticker": "OSRHW",
+  "exchange": "Nasdaq",
+  "cik": "0001840425",
+  "region": "US (operating subsidiaries in Germany / South Korea)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001213900-26-037395",
+      "note": "OSR Holdings is a holding company. Drug-development subsidiaries: Vaximm AG (oral cancer immunotherapy platform, lead asset VXM01) and Darnatein Co., Ltd. (design-augmented biologics, lead asset DRT-102 for spinal fusion). Other subsidiaries: RMC Co., Ltd. (medical device distribution, Korea), and Woori IO (acquired Jan 2026, non-invasive glucose biosensing - early stage). On 21 Nov 2025 Vaximm out-licensed VXM01 globally to BCM Europe AG (largest shareholder) for $20M upfront (later upsized to $30M) plus up to $815M in milestones; BCME now controls VXM01 development."
+    },
+    "website": {
+      "error": "no public pipeline page found",
+      "note": "osrhmed.com does not resolve; osrholdings.com landing is a JS redirect with no pipeline content. Pipeline detail derived from 10-K, ctgov, and Emerging Growth Oct 2025 initiation report."
+    },
+    "ctgov": {
+      "query": "spons:OSR Holdings",
+      "raw_count": 0,
+      "kept_p1_p3": 0,
+      "note": "No trials sponsored by 'OSR Holdings' directly. Vaximm-sponsored VXM01 trials located via term search."
+    },
+    "secondary_research": {
+      "note": "ClinicalTrials.gov term search returned 4 historical Vaximm-sponsored VXM01 studies (NCT03750071 P1/2 GBM Active not recruiting; NCT02718430 P1 CRC Completed; NCT02718443 P1 GBM Completed; NCT01486329 P1 pancreatic Completed). Phase 2a recurrent GBM final data reported 2024-2025. Larger Phase 2 / PoC and registrational Phase 3 trials planned for 2026 per company disclosures."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "VXM01",
+      "aka": ["VXM-01"],
+      "modality": "Oral live-attenuated Salmonella Typhi Ty21a-based DNA vaccine encoding VEGFR-2",
+      "target": "VEGFR-2 (KDR)",
+      "license_origin": "Internal (Vaximm AG, wholly owned subsidiary). Globally out-licensed to BCM Europe AG (largest shareholder) per Nov 21, 2025 License Agreement; binding term sheet Jan 13, 2026. OSRH retains economics via royalty pass-through subject to recovery mechanism.",
+      "indications": [
+        {
+          "indication": "Recurrent glioblastoma (rGBM), in combination with avelumab (anti-PD-L1)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "VXM01 Plus Avelumab Combination Study in Progressive Glioblastoma",
+          "trial_design": "Open-label combination study evaluating safety, tolerability and immunologic activity of oral VXM01 with avelumab in recurrent GBM",
+          "nct_ids": ["NCT03750071"],
+          "trial_status": "Active, not recruiting (final Phase 2a data reported)",
+          "lead_sponsor": "Vaximm GmbH / Vaximm AG",
+          "key_milestones": [
+            "Final Phase 2a data reported 2024-2025",
+            "Larger Phase 2 / Proof-of-Concept and registrational Phase 3 trials planned for 2026 (per OSRH disclosures)",
+            "Global license to BCME executed Nov 2025; BCME assumes development responsibility"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "DRT-102",
+      "aka": [],
+      "modality": "Design-augmented (DA) biologic (recombinant growth-factor-based)",
+      "target": "Bone morphogenetic / spinal fusion pathway (per company description)",
+      "license_origin": "Internal (Darnatein Co., Ltd., wholly owned subsidiary)",
+      "indications": [
+        {
+          "indication": "Spinal fusion",
+          "highest_phase": "Phase 1",
+          "trial_name": "Not disclosed by name",
+          "trial_design": "Clinical-stage biologic per OSRH 2026 10-K and Oct 2025 Emerging Growth initiation report; trial details not publicly disclosed",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Clinical-stage (Phase 1) per company disclosure; no NCT located on ClinicalTrials.gov, EU CTIS, or JRCT",
+          "lead_sponsor": "Darnatein Co., Ltd.",
+          "key_milestones": [
+            "Reported as clinical-stage in 2026 10-K and analyst initiation reports"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "VXM04", "target": "Mesothelin", "stage": "Preclinical"},
+    {"asset": "VXM06", "target": "WT1 (Wilms Tumor Protein)", "stage": "Preclinical"},
+    {"asset": "VXM08", "target": "CEA (Carcinoembryonic Antigen)", "stage": "Preclinical"},
+    {"asset": "VXM10", "target": "PD-L1", "stage": "Preclinical"},
+    {"asset": "DRT-101", "indication": "Osteoarthritis", "stage": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT02718430", "asset": "VXM01", "indication": "Metastatic colorectal cancer with liver metastasis", "phase": "Phase 1", "status": "Completed"},
+    {"nct_id": "NCT02718443", "asset": "VXM01", "indication": "Operable recurrent glioblastoma", "phase": "Phase 1", "status": "Completed"},
+    {"nct_id": "NCT01486329", "asset": "VXM01", "indication": "Locally advanced / Stage IV pancreatic cancer", "phase": "Phase 1", "status": "Completed"}
+  ],
+  "excluded_partner_owned": [],
+  "commercial_product": {
+    "RMC_Co_Ltd": "Korean medical device distribution subsidiary; FY2025 net sales $2.91M (down 18% YoY).",
+    "Woori_IO": "Acquired Jan 2026; non-invasive biosensing technology for glucose monitoring (early stage, no clinical trials disclosed)."
+  },
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 0,
+    "P2": 1,
+    "P1": 1
+  },
+  "no_active_clinical_pipeline_reason": ""
+}

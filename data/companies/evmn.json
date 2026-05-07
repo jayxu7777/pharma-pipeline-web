@@ -1,0 +1,98 @@
+{
+  "issuer_name": "Evommune, Inc.",
+  "ticker": "EVMN",
+  "exchange": "NYSE",
+  "cik": "0002044725",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-093932",
+      "filing_date": "2026-03-05",
+      "doc": "evmn-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.evommune.com",
+      "fetched": "2026-05-06",
+      "note": "Pipeline page returned 404; supplemented via press releases and ctgov"
+    },
+    "ctgov": {
+      "query": "Evommune, Inc.",
+      "fetched": "2026-05-06",
+      "trials_p1_p3": 5
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "EVO756",
+      "aka": [],
+      "modality": "Small molecule (oral)",
+      "target": "MRGPRX2 antagonist",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Chronic Spontaneous Urticaria (CSU), moderate-to-severe",
+          "highest_phase": "P2",
+          "trial_name": "EVO756 CSU Phase 2b",
+          "trial_design": "Global, randomized, placebo-controlled Phase 2b",
+          "nct_ids": ["NCT06873516"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Evommune, Inc.",
+          "key_milestones": ["Topline mid-2026; primary completion 2026-05"]
+        },
+        {
+          "indication": "Atopic Dermatitis (AD), moderate-to-severe",
+          "highest_phase": "P2",
+          "trial_name": "EVO756 AD Phase 2b",
+          "trial_design": "Randomized, placebo-controlled Phase 2b",
+          "nct_ids": ["NCT07150845"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Evommune, Inc.",
+          "key_milestones": ["Topline H2 2026"]
+        },
+        {
+          "indication": "Chronic Inducible Urticaria (CIndU)",
+          "highest_phase": "P2",
+          "trial_name": "EVO756 CIndU Phase 2",
+          "trial_design": "Open-label exploratory Phase 2 in symptomatic dermographism / cold urticaria",
+          "nct_ids": ["NCT06603220"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Evommune, Inc.",
+          "key_milestones": ["Primary completion 2025-05-08; 30% complete response at 4 weeks"]
+        }
+      ]
+    },
+    {
+      "asset": "EVO301",
+      "aka": [],
+      "modality": "Biologic",
+      "target": "IL-18 pathway",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Atopic Dermatitis, moderate-to-severe",
+          "highest_phase": "P2",
+          "trial_name": "EVO301 AD Phase 2",
+          "trial_design": "Randomized, placebo-controlled Phase 2",
+          "nct_ids": ["NCT06723405"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Evommune, Inc.",
+          "key_milestones": ["Primary completion 2025-11-17"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "EVO101 (IRAK4 inhibitor topical) — discontinued after Phase 2 AD readout"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 2,
+    "indications_active": 4,
+    "p3": 0,
+    "p2": 4,
+    "p1": 0
+  }
+}

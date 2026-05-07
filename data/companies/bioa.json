@@ -1,0 +1,56 @@
+{
+  "issuer_name": "BioAge Labs, Inc.",
+  "ticker": "BIOA",
+  "exchange": "Nasdaq",
+  "cik": "0001709941",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-120873", "filed": "2026-03-24", "doc": "bioa-20251231.htm"},
+    "website": {"url": "https://bioagelabs.com/overview", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "BioAge Labs", "trials_returned": 5, "active_p1_3": 0, "note": "All ctgov trials COMPLETED/TERMINATED/WITHDRAWN; current pipeline trials not yet posted on registry"}
+  },
+  "pipeline": [
+    {
+      "asset": "BGE-102",
+      "aka": [],
+      "modality": "Small molecule (oral, brain-penetrant)",
+      "target": "NLRP3 inflammasome inhibitor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Cardiovascular risk in obesity with elevated hsCRP",
+          "highest_phase": "Phase 1 (Phase 2a planned 1H 2026)",
+          "trial_name": "BGE-102 cardiovascular risk Phase 2a POC",
+          "trial_design": "Phase 1 SAD/MAD readout 1H 2026; planned ~160-patient randomized 12-week dose-ranging Phase 2a vs placebo, primary endpoint percent change in hsCRP",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 2a initiation 1H 2026; results year-end 2026",
+          "lead_sponsor": "BioAge Labs, Inc.",
+          "key_milestones": ["Phase 1 SAD/MAD full data 1H 2026", "Phase 2a results year-end 2026"]
+        },
+        {
+          "indication": "Diabetic macular edema (DME)",
+          "highest_phase": "Phase 1 (Phase 1b/2a planned mid-2026)",
+          "trial_name": "BGE-102 DME Phase 1b/2a POC",
+          "trial_design": "Planned ~90-patient randomized Phase 1b/2a; BGE-102 as adjunct to anti-VEGF and as monotherapy; goal is target engagement in the eye",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 1b/2a initiation mid-2026; results mid-2027",
+          "lead_sponsor": "BioAge Labs, Inc.",
+          "key_milestones": ["Phase 1b/2a initiation mid-2026", "Results mid-2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Apelin receptor (APJ) agonist", "indication": "Obesity", "stage": "Pre-IND; oral and SC formulations; first IND planned by year-end 2026"},
+    {"asset": "Discovery-stage cardiometabolic programs", "partners": ["Eli Lilly", "Novartis"], "stage": "Discovery"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "BGE-117", "indication": "Anemia of chronic kidney disease", "nct_ids": ["NCT04815603", "NCT05152641"], "status": "WITHDRAWN"},
+    {"asset": "BGE-175", "indication": "Hospitalized COVID-19", "nct_ids": ["NCT04705597"], "status": "TERMINATED"},
+    {"asset": "Azelaprag (BGE-105)", "indication": "Obesity (combo with tirzepatide)", "nct_ids": ["NCT06515418"], "status": "TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "indications_p1": 2, "indications_p2": 0, "indications_p3": 0}
+}

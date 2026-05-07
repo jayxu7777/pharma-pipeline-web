@@ -1,0 +1,298 @@
+{
+  "issuer_name": "Zai Lab Ltd",
+  "ticker": "ZLAB",
+  "exchange": "Nasdaq",
+  "cik": "0001704292",
+  "region": "China / US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001704292-26-000015",
+      "path": "data/zlab_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.zailaboratory.com/rd/",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/zlab_ctgov_compact.json",
+      "sponsor_query": "Zai Lab"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Tumor Treating Fields",
+      "aka": ["TTFields"],
+      "modality": "Medical device",
+      "target": "Alternating electric fields",
+      "license_origin": "Licensed from Novocure (Greater China)",
+      "indications": [
+        {
+          "indication": "Pancreatic cancer (1L)",
+          "highest_phase": "P3",
+          "trial_name": "PANOVA-3",
+          "trial_design": "Phase 3 randomized in newly diagnosed unresectable locally advanced pancreatic adenocarcinoma",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (per 10-K)",
+          "lead_sponsor": "Novocure / Zai Lab (China only)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Tisotumab vedotin",
+      "aka": ["Tivdak"],
+      "modality": "Antibody-drug conjugate",
+      "target": "Tissue Factor (TF)",
+      "license_origin": "Licensed from Seagen/Pfizer (Greater China)",
+      "indications": [
+        {
+          "indication": "Recurrent or metastatic cervical cancer (2L+)",
+          "highest_phase": "P3",
+          "trial_name": "innovaTV 301 (China bridging)",
+          "trial_design": "Phase 3 confirmatory bridging in Chinese patients",
+          "nct_ids": ["NCT05866354"],
+          "trial_status": "Phase 1 PK completed; Phase 3 ongoing per 10-K",
+          "lead_sponsor": "Zai Lab (Shanghai) Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "First-line cervical cancer combo",
+          "highest_phase": "P2",
+          "trial_name": "innovaTV 205 / China combination study",
+          "trial_design": "Phase 2 combo with chemotherapy +/- bevacizumab",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per 10-K",
+          "lead_sponsor": "Zai Lab",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Zocilurtatug pelitecan",
+      "aka": ["ZL-1310"],
+      "modality": "Antibody-drug conjugate",
+      "target": "DLL3",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed extensive-stage small cell lung cancer (ES-SCLC)",
+          "highest_phase": "P3",
+          "trial_name": "DLLEVATE",
+          "trial_design": "Phase 3 randomized vs investigator's choice",
+          "nct_ids": ["NCT07218146"],
+          "trial_status": "Recruiting (start 2025-11-30)",
+          "lead_sponsor": "Zai Lab (Shanghai) Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "ES-SCLC 1L combo (with atezolizumab + carboplatin)",
+          "highest_phase": "P1",
+          "trial_name": "ZL-1310-001",
+          "trial_design": "Phase 1 dose escalation/expansion",
+          "nct_ids": ["NCT06179069"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Zai Lab (Shanghai) Co., Ltd.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Selected solid tumors / other NECs",
+          "highest_phase": "P2",
+          "trial_name": "ZL-1310 selected solid tumors study",
+          "trial_design": "Phase 1/2 in selected solid tumors",
+          "nct_ids": ["NCT06885281"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Zai Lab (Shanghai) Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ZL-6201",
+      "aka": [],
+      "modality": "Antibody-drug conjugate",
+      "target": "LRRC15",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Sarcoma and CAF+ solid tumors",
+          "highest_phase": "P1",
+          "trial_name": "ZL-6201 Phase 1a/b",
+          "trial_design": "Phase 1a/b dose escalation/expansion",
+          "nct_ids": ["NCT07374848"],
+          "trial_status": "Recruiting (start 2026-03)",
+          "lead_sponsor": "Zai Lab (Shanghai) Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Efgartigimod",
+      "aka": ["Vyvgart", "ZL-1103"],
+      "modality": "Fc fragment",
+      "target": "FcRn",
+      "license_origin": "Licensed from argenx (Greater China)",
+      "indications": [
+        {
+          "indication": "Idiopathic inflammatory myopathy (myositis)",
+          "highest_phase": "P3",
+          "trial_name": "ALKIVIA (China cohort)",
+          "trial_design": "Phase 3 randomized placebo-controlled",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per 10-K",
+          "lead_sponsor": "argenx / Zai Lab",
+          "key_milestones": []
+        },
+        {
+          "indication": "Sjogren's disease",
+          "highest_phase": "P3",
+          "trial_name": "UNITY (China)",
+          "trial_design": "Phase 3 randomized placebo-controlled",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per 10-K",
+          "lead_sponsor": "argenx / Zai Lab",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Povetacicept",
+      "aka": ["Rusfertide n/a"],
+      "modality": "Recombinant fusion protein",
+      "target": "BAFF / APRIL",
+      "license_origin": "Licensed from Vertex (China only)",
+      "indications": [
+        {
+          "indication": "IgA nephropathy",
+          "highest_phase": "P3",
+          "trial_name": "RAINIER (China cohort)",
+          "trial_design": "Phase 3 randomized placebo-controlled",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per 10-K",
+          "lead_sponsor": "Vertex / Zai Lab (China only)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Primary membranous nephropathy",
+          "highest_phase": "P2/P3",
+          "trial_name": "Povetacicept pMN study",
+          "trial_design": "Phase 2/3 randomized vs tacrolimus",
+          "nct_ids": ["NCT07204275"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Vertex Pharmaceuticals (Zai Lab China collaborator)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Elegrobart",
+      "aka": ["ZL-1109", "VRDN-003"],
+      "modality": "Monoclonal antibody",
+      "target": "IGF-1R",
+      "license_origin": "Licensed from Viridian Therapeutics (Greater China)",
+      "indications": [
+        {
+          "indication": "Active thyroid eye disease (TED)",
+          "highest_phase": "P3",
+          "trial_name": "ZL-1109-001 (China)",
+          "trial_design": "Phase 3 randomized placebo-controlled SC dosing",
+          "nct_ids": ["NCT07211776"],
+          "trial_status": "Recruiting (start 2025-12-05)",
+          "lead_sponsor": "Zai Lab (Shanghai) Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ZL-1503",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "IL-13 / IL-31R bispecific",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe atopic dermatitis",
+          "highest_phase": "P1",
+          "trial_name": "ZL-1503 Phase 1/1b",
+          "trial_design": "Phase 1/1b in healthy volunteers and AD patients",
+          "nct_ids": ["NCT07235384"],
+          "trial_status": "Recruiting (start 2025-12-01)",
+          "lead_sponsor": "Zai Lab (Shanghai) Co., Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Omadacycline",
+      "aka": ["NUZYRA"],
+      "modality": "Tetracycline-class antibiotic",
+      "target": "Bacterial 30S ribosome",
+      "license_origin": "Licensed from Paratek (Greater China)",
+      "indications": [
+        {
+          "indication": "Community-acquired bacterial pneumonia (CABP) — Phase 3b head-to-head",
+          "highest_phase": "P3",
+          "trial_name": "Omadacycline vs Moxifloxacin Phase 3b",
+          "trial_design": "Phase 3b randomized double-blind comparator",
+          "nct_ids": ["NCT06162286"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Zai Lab (Hong Kong), Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ZL-1102",
+      "aka": [],
+      "modality": "Topical humanized nanobody",
+      "target": "IL-17A",
+      "license_origin": "Licensed from AdAlta (worldwide)",
+      "indications": [
+        {
+          "indication": "Chronic plaque psoriasis",
+          "highest_phase": "P2",
+          "trial_name": "ZL-1102 Phase 2 PsO",
+          "trial_design": "Phase 2 randomized topical vs placebo",
+          "nct_ids": ["NCT06380907"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Zai Lab (Hong Kong), Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_assets_china_us": [
+      "Niraparib (Zejula) — ovarian cancer",
+      "Ripretinib (Qinlock) — 4L GIST",
+      "Repotrectinib (Augtyro) — ROS1+ NSCLC, NTRK+ solid tumors",
+      "Tumor Treating Fields (Optune) — glioblastoma",
+      "Xanomeline-Trospium (KarXT/Cobenfy) — schizophrenia",
+      "Omadacycline (NUZYRA) — ABSSSI/CABP",
+      "Sulbactam-durlobactam (XACDURO) — HABP/VABP"
+    ]
+  },
+  "excluded_preclinical": ["ZL-1311 (MUC17xCD3, GI tumors)", "ZL-1222 (PD-1/IL-12, solid tumors)"],
+  "excluded_legacy_terminated": [
+    "NCT04178460 ZL-2306 + MGD013 (terminated)",
+    "NCT05810961 efgartigimod pMN (terminated)",
+    "NCT05859464 ZL-1218 (terminated)",
+    "NCT04653038 MGD013 melanoma (terminated)",
+    "NCT04212221 MGD013 HCC (terminated)",
+    "NCT03516084 niraparib SCLC maintenance (terminated)"
+  ],
+  "excluded_partner_owned": [
+    "NCT06140836 TRIDENT-3 repotrectinib P3 (BMS-led, ZLAB China collaborator) — covered under approved repotrectinib",
+    "NCT05052801 bemarituzumab P3 (Amgen-led, ZLAB China only)",
+    "NCT05919823 KarXT P3 (Karuna/BMS-led) — covered under approved KarXT"
+  ],
+  "summary_counts": {
+    "total_assets": 10,
+    "p3": 6,
+    "p2": 2,
+    "p1": 2,
+    "note": "Counted at asset level by highest active phase across all indications: P3 = TTFields, Tisotumab vedotin, ZL-1310, Efgartigimod (myositis/Sjogren), Povetacicept, Elegrobart, Omadacycline; P2 = ZL-1102; P1 = ZL-6201, ZL-1503"
+  }
+}

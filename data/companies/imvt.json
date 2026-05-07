@@ -1,0 +1,129 @@
+{
+  "issuer_name": "Immunovant, Inc.",
+  "ticker": "IMVT",
+  "exchange": "Nasdaq",
+  "cik": "0001764013",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"path": "data/imvt_10k_pipeline_section.html", "filing_date": "2025-05-29", "accession": "0001764013-25-000092"},
+    "website": {"url": "https://www.immunovant.com/pipeline", "method": "WebFetch"},
+    "ctgov": {"path": "data/imvt_ctgov_compact.json", "lead_sponsor_query": "Immunovant"}
+  },
+  "pipeline": [
+    {
+      "asset": "IMVT-1402 (Phase 2/3 anti-FcRn)",
+      "aka": ["IMVT-1402"],
+      "modality": "Anti-FcRn fully human monoclonal antibody (subcutaneous, no anti-albumin binding)",
+      "target": "Neonatal Fc receptor (FcRn)",
+      "license_origin": "Immunovant (HanAll Biopharma in-license)",
+      "indications": [
+        {
+          "indication": "Graves' disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "IMVT-1402 GD program",
+          "trial_design": "Pivotal Phase 3 efficacy/safety in adult Graves' disease participants (per company website)",
+          "nct_ids": ["NCT06727604", "NCT07018323", "NCT07286006"],
+          "trial_status": "Recruiting / Enrolling by invitation (long-term extension)",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        },
+        {
+          "indication": "Myasthenia gravis (MG)",
+          "highest_phase": "Phase 3",
+          "trial_name": "IMVT-1402 MG",
+          "trial_design": "Phase 3 randomized study of IMVT-1402 in mild-to-severe generalized MG",
+          "nct_ids": ["NCT07039916"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic inflammatory demyelinating polyneuropathy (CIDP)",
+          "highest_phase": "Phase 3",
+          "trial_name": "IMVT-1402 CIDP",
+          "trial_design": "Phase 2/3 randomized of IMVT-1402 vs placebo in adult CIDP (registered as Phase 2 on ctgov, Phase 3 per company)",
+          "nct_ids": ["NCT07032662"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        },
+        {
+          "indication": "Difficult-to-treat ACPA+ rheumatoid arthritis",
+          "highest_phase": "Phase 3",
+          "trial_name": "IMVT-1402 RA",
+          "trial_design": "Pivotal study of IMVT-1402 in seropositive (ACPA+) difficult-to-treat RA",
+          "nct_ids": ["NCT06754462"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        },
+        {
+          "indication": "Sjögren's disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "IMVT-1402 SjD",
+          "trial_design": "Pivotal Phase 2/3 of IMVT-1402 in primary Sjögren's disease",
+          "nct_ids": ["NCT06979531"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cutaneous lupus erythematosus (CLE)",
+          "highest_phase": "Phase 3",
+          "trial_name": "IMVT-1402 CLE",
+          "trial_design": "Pivotal Phase 2/3 of IMVT-1402 in cutaneous lupus erythematosus",
+          "nct_ids": ["NCT06980805"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Batoclimab",
+      "aka": ["IMVT-1401", "RVT-1401", "HL161"],
+      "modality": "Anti-FcRn fully human monoclonal antibody (subcutaneous)",
+      "target": "Neonatal Fc receptor (FcRn)",
+      "license_origin": "Immunovant (HanAll Biopharma in-license)",
+      "indications": [
+        {
+          "indication": "Myasthenia gravis (MG)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Batoclimab MG pivotal",
+          "trial_design": "Phase 3 of batoclimab as induction and maintenance in adult MG",
+          "nct_ids": ["NCT05403541"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic inflammatory demyelinating polyneuropathy (CIDP)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Batoclimab CIDP",
+          "trial_design": "Phase 2 of batoclimab in active CIDP; long-term extension ongoing",
+          "nct_ids": ["NCT05581199", "NCT07188844"],
+          "trial_status": "Active, not recruiting / Enrolling by invitation",
+          "lead_sponsor": "Immunovant Sciences GmbH",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Batoclimab (RVT-1401)", "nct_ids": ["NCT03938545", "NCT04253236", "NCT05517447"], "reason": "Earlier ASCEND GO-2 (TED Phase 2), WAIHA (Phase 2), and TED extension trials TERMINATED"},
+    {"asset": "Batoclimab (TED)", "nct_ids": ["NCT05517421", "NCT05524571"], "reason": "Phase 3 TED studies (GO-1/GO-2) COMPLETED — program development paused (no active TED filing); excluded as not active"},
+    {"asset": "Batoclimab (Graves' disease PoC)", "nct_ids": ["NCT05907668"], "reason": "Phase 2 proof-of-concept COMPLETED — Graves' development advanced via IMVT-1402 instead"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 7,
+    "phase_2": 1,
+    "phase_1": 0,
+    "indications_total": 8
+  }
+}

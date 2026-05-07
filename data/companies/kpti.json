@@ -1,0 +1,93 @@
+{
+  "issuer_name": "Karyopharm Therapeutics Inc.",
+  "ticker": "KPTI",
+  "exchange": "Nasdaq",
+  "cik": "0001503802",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-049397", "filing_date": "2026-02-13", "form": "10-K"},
+    "website": {"url": "https://www.karyopharm.com/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Karyopharm Therapeutics", "studies_count": 91}
+  },
+  "pipeline": [
+    {
+      "asset": "Selinexor",
+      "aka": ["XPOVIO", "KPT-330"],
+      "modality": "Oral small molecule (SINE)",
+      "target": "XPO1 (Exportin 1)",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Myelofibrosis (JAKi-naive) — combination with ruxolitinib",
+          "highest_phase": "Phase 3",
+          "trial_name": "SENTRY (XPORT-MF-034)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT04562389"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Karyopharm Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Endometrial cancer (TP53 wild-type) — maintenance monotherapy",
+          "highest_phase": "Phase 3",
+          "trial_name": "XPORT-EC-042 (EC-042)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 maintenance",
+          "nct_ids": ["NCT05611931"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Karyopharm Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Multiple myeloma (post anti-CD38) — combination with pomalidomide + dexamethasone",
+          "highest_phase": "Phase 3",
+          "trial_name": "EMN29 / XPORT-MM-031 (SPd vs EPd)",
+          "trial_design": "Randomized open-label Phase 3 (SPd vs EPd)",
+          "nct_ids": ["NCT05028348"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Karyopharm Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Myelofibrosis (JAKi-naive cytopenic) — monotherapy",
+          "highest_phase": "Phase 2",
+          "trial_name": "SENTRY-2 (XPORT-MF-044)",
+          "trial_design": "Phase 2 single-arm",
+          "nct_ids": ["NCT05980806"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Karyopharm Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Eltanexor",
+      "aka": ["KPT-8602"],
+      "modality": "Oral small molecule (second-generation SINE)",
+      "target": "XPO1 (Exportin 1)",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Myelodysplastic syndrome / AML (relapsed/refractory) — combination with venetoclax",
+          "highest_phase": "Phase 1",
+          "trial_name": "Eltanexor + venetoclax in MDS/AML",
+          "trial_design": "Phase 1 dose-escalation",
+          "nct_ids": ["NCT06399640"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Investigator-initiated",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "XPOVIO (selinexor)",
+    "approved_indications": ["Multiple myeloma (penta-refractory; with dexamethasone)", "Multiple myeloma (2L+; with bortezomib + dexamethasone)", "Diffuse large B-cell lymphoma"],
+    "regions": ["US", "EU (NEXPOVIO)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["Numerous completed investigator-initiated selinexor trials in solid tumors and heme malignancies"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "phase_3": 3, "phase_2": 1, "phase_1": 1}
+}

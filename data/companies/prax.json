@@ -1,0 +1,122 @@
+{
+  "issuer_name": "Praxis Precision Medicines, Inc.",
+  "ticker": "PRAX",
+  "exchange": "Nasdaq",
+  "cik": "0001689548",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/prax_10k_pipeline_section.html", "filing_date": "2026-02-19", "accession": "0001689548-26-000029"},
+    "website": {"url": "https://www.praxismedicines.com/", "note": "Pipeline section reviewed via homepage CTA; phases corroborated by 10-K"},
+    "ctgov": {"file": "data/prax_ctgov_compact.json", "active_praxis_led_count": 10}
+  },
+  "pipeline": [
+    {
+      "asset": "ulixacaltamide",
+      "aka": ["PRAX-944"],
+      "modality": "Small molecule (T-type calcium channel blocker)",
+      "target": "Cav3.1/3.3 (T-type calcium channel)",
+      "license_origin": "Internal (Cerebrum platform)",
+      "indications": [
+        {
+          "indication": "Essential tremor",
+          "highest_phase": "NDA submission (filed)",
+          "trial_name": "Essential3 program",
+          "trial_design": "Two Phase 3 studies; positive topline Oct 2025; NDA submitted; long-term extension ongoing",
+          "nct_ids": ["NCT06087276"],
+          "trial_status": "Phase 3 OLE enrolling by invitation; NDA filed",
+          "lead_sponsor": "Praxis Precision Medicines",
+          "key_milestones": ["Positive Ph3 topline Oct 2025", "NDA submitted"]
+        }
+      ]
+    },
+    {
+      "asset": "vormatrigine",
+      "aka": ["PRAX-628", "vormatrogine"],
+      "modality": "Small molecule (functionally selective sodium channel modulator)",
+      "target": "Nav1.6 (preferential)",
+      "license_origin": "Internal (Cerebrum platform)",
+      "indications": [
+        {
+          "indication": "Adjunctive focal-onset epilepsy",
+          "highest_phase": "Phase 3",
+          "trial_name": "POWER1 / ENERGY program",
+          "trial_design": "Multiple dose vormatrigine vs placebo, 12 weeks adjunctive",
+          "nct_ids": ["NCT07505004", "NCT07287163"],
+          "trial_status": "Recruiting (Ph3) + enrolling by invitation (OLE)",
+          "lead_sponsor": "Praxis Precision Medicines",
+          "key_milestones": []
+        },
+        {
+          "indication": "Focal-onset and primary generalized epilepsy (Phase 2 monotherapy/POWER2)",
+          "highest_phase": "Phase 2",
+          "trial_name": "POWER2",
+          "trial_design": "30 mg PRAX-628 in focal/PGTC seizures",
+          "nct_ids": ["NCT06908356", "NCT06999902"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Praxis Precision Medicines",
+          "key_milestones": []
+        },
+        {
+          "indication": "Healthy volunteer PK/safety",
+          "highest_phase": "Phase 1",
+          "trial_name": "PRAX-628 Ph1",
+          "trial_design": "PK/safety in healthy adults",
+          "nct_ids": ["NCT06840925"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Praxis Precision Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "relutrigine",
+      "aka": ["PRAX-562"],
+      "modality": "Small molecule (persistent sodium current blocker)",
+      "target": "Persistent sodium current (Nav1.2/1.6)",
+      "license_origin": "Internal (Cerebrum platform)",
+      "indications": [
+        {
+          "indication": "SCN2A and SCN8A developmental and epileptic encephalopathies (DEE)",
+          "highest_phase": "Phase 3",
+          "trial_name": "EMBOLD registrational program",
+          "trial_design": "1.0/1.5 mg/kg/day PRAX-562 vs placebo",
+          "nct_ids": ["NCT07010471", "NCT05818553"],
+          "trial_status": "Recruiting (Ph3); Active not recruiting (Ph2/3 EMBOLD)",
+          "lead_sponsor": "Praxis Precision Medicines",
+          "key_milestones": ["Positive registrational cohort topline Dec 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "elsunersen",
+      "aka": ["PRAX-222"],
+      "modality": "Antisense oligonucleotide (ASO)",
+      "target": "SCN2A (gain-of-function)",
+      "license_origin": "Internal (Solidus platform)",
+      "indications": [
+        {
+          "indication": "Early-onset SCN2A developmental and epileptic encephalopathy",
+          "highest_phase": "Phase 3",
+          "trial_name": "EMBRAVE3 (and Phase 1/2 EMBRAVE1)",
+          "trial_design": "1 mg/0.5 mg elsunersen vs sham procedure",
+          "nct_ids": ["NCT07019922", "NCT05737784"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Praxis Precision Medicines",
+          "key_milestones": ["EMBRAVE Part A topline expected H1 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["PRAX-020 (KCNT1 epilepsy)", "PRAX-050 (movement disorders)", "PRAX-080 (PCDH19 DEE)", "PRAX-090 (SYNGAP1 DEE)", "PRAX-100 (SCN2A LoF)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase_3_assets": 4,
+    "phase_3_indications": 4,
+    "phase_2_indications": 1,
+    "phase_1_indications": 1
+  }
+}

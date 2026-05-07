@@ -1,0 +1,23 @@
+{
+  "issuer_name": "Koninklijke Philips NV",
+  "ticker": "PHG",
+  "exchange": "NYSE",
+  "cik": "0000313216",
+  "region": "Netherlands",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F, not 10-K"},
+    "website": {"error": "Medtech/imaging company - no drug pipeline page applicable"},
+    "ctgov": {"path": "data/phg_ctgov_compact.json", "note": "Trials are device/imaging studies sponsored by hospitals or by Philips Healthcare; no proprietary drug assets"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Philips is a diversified health technology company - imaging systems (MRI, CT, ultrasound), patient monitoring, image-guided therapy devices, sleep & respiratory care, personal health products. No proprietary drug assets."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_active": 0},
+  "no_active_clinical_pipeline_reason": "Medical device / health technology company (imaging, monitoring, sleep & respiratory). No proprietary drug pipeline. Clinical trials in registry are investigator-initiated device studies or hospital-led trials with Philips as collaborator."
+}

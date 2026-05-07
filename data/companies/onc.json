@@ -1,0 +1,558 @@
+{
+  "issuer_name": "BeOne Medicines Ltd.",
+  "ticker": "ONC",
+  "exchange": "Nasdaq",
+  "cik": "0001651308",
+  "region": "Global (HQ Switzerland; legacy BeiGene China/US)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001628280-26-011946",
+      "doc": "bgne-20251231.htm",
+      "path": "data/onc_10k_full.htm"
+    },
+    "website": {
+      "url": "https://www.beonemedicines.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_queried": ["BeOne Medicines", "BeiGene"],
+      "compact_paths": ["data/onc_ctgov_compact.json", "data/onc_beigene_ctgov_compact.json"],
+      "trial_count_raw": "94 (BeOne) + 196 (BeiGene legacy)"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Sonrotoclax",
+      "aka": ["BGB-11417"],
+      "modality": "Small molecule",
+      "target": "BCL2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic lymphocytic leukemia / small lymphocytic lymphoma (CLL/SLL) - 1L/relapsed",
+          "highest_phase": "Phase 3",
+          "trial_name": "CELESTIAL-TN-CLL / -RR-CLL programs",
+          "trial_design": "Sonrotoclax + zanubrutinib vs venetoclax-based comparators",
+          "nct_ids": ["NCT06073821", "NCT07277231", "NCT06742996", "NCT06943872"],
+          "trial_status": "Recruiting / active not recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        },
+        {
+          "indication": "Mantle cell lymphoma / Waldenstrom macroglobulinemia / multiple myeloma",
+          "highest_phase": "Phase 2",
+          "trial_name": "Sonrotoclax mono + combination programs",
+          "trial_design": "Sonrotoclax mono and in combinations",
+          "nct_ids": ["NCT05471843", "NCT05952037", "NCT06637501", "NCT04973605"],
+          "trial_status": "Recruiting / active not recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BGB-16673",
+      "aka": [],
+      "modality": "BTK CDAC (chimeric degrader)",
+      "target": "BTK",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory CLL/SLL",
+          "highest_phase": "Phase 3",
+          "trial_name": "CaDAnCe-302 / -303 program",
+          "trial_design": "BGB-16673 vs investigator's choice / vs pirtobrutinib in R/R CLL",
+          "nct_ids": ["NCT06846671", "NCT06970743", "NCT06973187"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        },
+        {
+          "indication": "B-cell malignancies (MCL, WM, FL, MZL, DLBCL)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "CaDAnCe-101 dose-expansion",
+          "trial_design": "Dose escalation/expansion mono and combinations",
+          "nct_ids": ["NCT05006716", "NCT05294731", "NCT06634589"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic spontaneous urticaria",
+          "highest_phase": "Phase 1",
+          "trial_name": "BGB-16673 CSU MAD",
+          "trial_design": "Multiple-ascending dose vs placebo",
+          "nct_ids": ["NCT07005713"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Zanidatamab",
+      "aka": ["ZW25"],
+      "modality": "HER2 bispecific antibody",
+      "target": "HER2",
+      "license_origin": "Zymeworks; co-developed with Jazz Pharmaceuticals (BeiGene/Jazz collaboration)",
+      "indications": [
+        {
+          "indication": "HER2+ gastroesophageal adenocarcinoma (1L)",
+          "highest_phase": "Phase 3",
+          "trial_name": "HERIZON-GEA-01",
+          "trial_design": "Zanidatamab + chemo +/- tislelizumab vs trastuzumab + chemo",
+          "nct_ids": ["NCT05152147"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Jazz Pharmaceuticals",
+          "key_milestones": []
+        },
+        {
+          "indication": "HER2+ biliary tract cancer (combination with tislelizumab/pamiparib)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Tislelizumab/Pamiparib master protocol",
+          "trial_design": "Combination master protocol",
+          "nct_ids": ["NCT04164199"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BGB-43395",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "CDK4 (selective)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "HR+/HER2- advanced/metastatic breast cancer (1L combination)",
+          "highest_phase": "Phase 3",
+          "trial_name": "BGB-43395 + letrozole pivotal",
+          "trial_design": "BGB-43395 + letrozole vs CDK4/6i + letrozole",
+          "nct_ids": ["NCT07492641"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        },
+        {
+          "indication": "Breast cancer / advanced solid tumors (dose-finding)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BGB-43395 FIH",
+          "trial_design": "Dose escalation/expansion mono and combos",
+          "nct_ids": ["NCT06120283", "NCT06257264", "NCT06756932"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Tarlatamab",
+      "aka": [],
+      "modality": "DLL3 x CD3 BiTE",
+      "target": "DLL3 / CD3",
+      "license_origin": "Co-promotion with Amgen (China rights via BeOne-Amgen collaboration)",
+      "indications": [
+        {
+          "indication": "Small cell lung cancer (extensive stage)",
+          "highest_phase": "Phase 3",
+          "trial_name": "DeLLphi (Amgen-led pivotal program)",
+          "trial_design": "Tarlatamab in ES-SCLC; SC formulation P1 (DeLLphi-308)",
+          "nct_ids": ["NCT06598306"],
+          "trial_status": "Recruiting (P1 SC); pivotal P3 Amgen-led; commercialized in US (Imdelltra)",
+          "lead_sponsor": "Amgen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Xaluritamig",
+      "aka": [],
+      "modality": "STEAP1 x CD3 XmAb 2+1 bispecific",
+      "target": "STEAP1 / CD3",
+      "license_origin": "Amgen co-development (China territory)",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Xaluritamig China bridging",
+          "trial_design": "Dose-finding monotherapy",
+          "nct_ids": ["Not on public registry"],
+          "trial_status": "Active per company disclosure (China bridging)",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Blinatumomab (subcutaneous formulation)",
+      "aka": [],
+      "modality": "CD19 x CD3 BiTE",
+      "target": "CD19 / CD3",
+      "license_origin": "Amgen partnership (territorial rights)",
+      "indications": [
+        {
+          "indication": "B-cell acute lymphoblastic leukemia (B-ALL)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Subcutaneous blinatumomab program",
+          "trial_design": "SC formulation in B-ALL",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per BeOne disclosures (Amgen-led parent program)",
+          "lead_sponsor": "Amgen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BGB-21447",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "BCL2 (next-gen, breast-tumor focused)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "HR+ breast cancer / mature B-cell malignancies",
+          "highest_phase": "Phase 1",
+          "trial_name": "BGB-21447 FIH",
+          "trial_design": "Dose escalation mono and combos",
+          "nct_ids": ["NCT05828589"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BG-685017",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "CDK2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Breast cancer (CDK4/6-resistant)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BG-685017 FIH",
+          "trial_design": "Dose escalation",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company pipeline page",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BGB-B455",
+      "aka": [],
+      "modality": "Bispecific antibody",
+      "target": "CLDN6 x CD3",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Gynecologic / advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "BGB-B455 FIH",
+          "trial_design": "Dose escalation/expansion",
+          "nct_ids": ["NCT06803680", "NCT03488"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BG-C9074",
+      "aka": [],
+      "modality": "Antibody-drug conjugate",
+      "target": "B7-H4",
+      "license_origin": "Internal (TOP1 payload)",
+      "indications": [
+        {
+          "indication": "Breast / ovarian / advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "BG-C9074 FIH",
+          "trial_design": "Dose escalation/expansion mono and combos",
+          "nct_ids": ["NCT06233942"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BG-75202",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "KAT6A/B",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "HR+ breast cancer / advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "BG-75202 FIH",
+          "trial_design": "Dose escalation mono and combos",
+          "nct_ids": ["NCT07222267"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BG-75098",
+      "aka": [],
+      "modality": "CDK2 CDAC (degrader)",
+      "target": "CDK2",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Breast cancer / advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "BG-75098 FIH",
+          "trial_design": "Dose escalation mono and combos",
+          "nct_ids": ["NCT07226349"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BGB-B2033",
+      "aka": [],
+      "modality": "Bispecific antibody",
+      "target": "GPC3 x 4-1BB",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (HCC focus)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BGB-B2033 FIH",
+          "trial_design": "Mono / +/- tislelizumab / +/- bevacizumab",
+          "nct_ids": ["NCT06427941"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BG-C137",
+      "aka": [],
+      "modality": "Antibody-drug conjugate",
+      "target": "FGFR2b",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "GI / gynecologic cancers",
+          "highest_phase": "Phase 1",
+          "trial_name": "BG-C137 FIH",
+          "trial_design": "Dose escalation/expansion",
+          "nct_ids": ["NCT06625593"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BGB-53038",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "Pan-KRAS",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "KRAS-mutant lung / GI cancers",
+          "highest_phase": "Phase 1",
+          "trial_name": "BGB-53038 FIH",
+          "trial_design": "Dose escalation mono and combos",
+          "nct_ids": ["NCT06585488"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BG-C477",
+      "aka": [],
+      "modality": "Antibody-drug conjugate",
+      "target": "CEA",
+      "license_origin": "Internal (TOP1 payload)",
+      "indications": [
+        {
+          "indication": "Lung / GI cancers",
+          "highest_phase": "Phase 1",
+          "trial_name": "BG-C477 FIH",
+          "trial_design": "Dose escalation/expansion",
+          "nct_ids": ["NCT06596473"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BG-C0902",
+      "aka": [],
+      "modality": "Antibody-drug conjugate",
+      "target": "EGFR x MET (biparatopic)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lung cancers",
+          "highest_phase": "Phase 1",
+          "trial_name": "BG-C0902 FIH",
+          "trial_design": "Dose escalation mono and combos",
+          "nct_ids": ["NCT07181681"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BG-T187",
+      "aka": [],
+      "modality": "Trispecific antibody",
+      "target": "EGFR x MET",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lung cancers / advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "BG-T187 FIH",
+          "trial_design": "Dose escalation mono and combos",
+          "nct_ids": ["NCT06598800"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BGB-58067",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "PRMT5 (MTAP-deficient)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "MTAP-deficient lung / GI tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "BGB-58067 FIH",
+          "trial_design": "Dose escalation mono and combos",
+          "nct_ids": ["NCT06589596"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BG-89894",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "MAT2A (MTAP-deletion)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lung / advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "BG-89894 FIH",
+          "trial_design": "Dose escalation",
+          "nct_ids": ["NCT06568614"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BG-60366",
+      "aka": [],
+      "modality": "EGFR CDAC (degrader)",
+      "target": "EGFR",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "EGFR-mutant non-small cell lung cancer",
+          "highest_phase": "Phase 1",
+          "trial_name": "BG-60366 FIH",
+          "trial_design": "Dose escalation",
+          "nct_ids": ["NCT06685718"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BGB-26808",
+      "aka": [],
+      "modality": "Small molecule",
+      "target": "HPK1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "BGB-26808 FIH",
+          "trial_design": "Mono / + tislelizumab",
+          "nct_ids": ["NCT05981703"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BGB-45035",
+      "aka": [],
+      "modality": "IRAK4 CDAC (degrader)",
+      "target": "IRAK4",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Rheumatoid arthritis (moderate-to-severe)",
+          "highest_phase": "Phase 2",
+          "trial_name": "BGB-45035 RA P2",
+          "trial_design": "Vs placebo in RA",
+          "nct_ids": ["NCT07100938"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        },
+        {
+          "indication": "Autoimmune dermatological diseases (healthy + AD)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BGB-45035 SAD/MAD",
+          "trial_design": "SAD/MAD with food effect",
+          "nct_ids": ["NCT06342713"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "BeOne Medicines",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "BRUKINSA (zanubrutinib)": "BTK inhibitor approved CLL/SLL, WM, MCL, FL, MZL",
+    "TEVIMBRA (tislelizumab)": "PD-1 inhibitor approved across multiple solid tumors"
+  },
+  "excluded_preclinical": ["Numerous BG-coded preclinical/IND-enabling assets per 10-K and pipeline page footnotes"],
+  "excluded_legacy_terminated": ["Ociperlimab (BGB-A1217, TIGIT) AdvanTIG P3 program — discontinued; pamiparib outside China; BGB-A445 OX40 program; LBL-007 partner-led"],
+  "excluded_partner_owned": ["Tislelizumab partner-led trials by Novartis terminated (rights returned to BeiGene); independent investigator-sponsored studies"],
+  "summary_counts": {
+    "total_assets": 24,
+    "phase_3": 4,
+    "phase_2": 2,
+    "phase_1_or_1_2": 18,
+    "note": "Counts assets by highest-phase indication; sonrotoclax, BGB-16673, zanidatamab, BGB-43395 = P3."
+  }
+}

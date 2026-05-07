@@ -1,0 +1,37 @@
+{
+  "issuer_name": "Metagenomi Therapeutics, Inc.",
+  "ticker": "MGX",
+  "exchange": "Nasdaq",
+  "cik": "0001785279",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "All Metagenomi programs are preclinical/IND-pending as of the FY2025 10-K (filed Mar 5, 2026). Lead asset MGX-001 (hemophilia A, FVIII gene insertion) completed pre-IND meeting Q4 2025; IND submission targeted Q4 2026 with clinical trials initiating in 2027. Wave 1 Ionis collaboration targets (APOC3, TTR, AGT, undisclosed) are all in lead optimization. AT-III secreted protein deficiency is at NHP proof-of-concept stage. No company-sponsored or partner-sponsored P1/P2/P3 trials are active.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-093976", "filing_date": "2026-03-05", "file": "data/mgx_10k_pipeline_section.html"},
+    "website": {"url": "https://metagenomi.co/pipeline", "accessed": "2026-05-06", "note": "pipeline shown only as image; details consistent with 10-K"},
+    "ctgov": {"file": "data/mgx_ctgov_compact.json", "sponsor_query": "Metagenomi", "result": "no trials returned"}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "MGX-001 (Hemophilia A, FVIII knock-in via AAV+LNP/MG29-1)", "reason": "Preclinical NHP dose-finding complete Nov 2025; pre-IND meeting Q4 2025; IND targeted Q4 2026; first-in-human 2027"},
+    {"asset": "MGX-001 system - AT-III deficiency", "reason": "NHP proof-of-concept achieved late 2025; preclinical"},
+    {"asset": "MGX-001 system - additional secreted protein deficiencies", "reason": "Mouse PoC for three indications in 2024; preclinical"},
+    {"asset": "Ionis Wave 1 - APOC3 (hypertriglyceridemia)", "reason": "Lead optimization; partnered with Ionis"},
+    {"asset": "Ionis Wave 1 - TTR (transthyretin amyloidosis)", "reason": "Lead optimization; partnered with Ionis"},
+    {"asset": "Ionis Wave 1 - AGT (refractory hypertension)", "reason": "Lead optimization; partnered with Ionis"},
+    {"asset": "Ionis Wave 1 - undisclosed Target 4", "reason": "Lead optimization; partnered with Ionis"},
+    {"asset": "PH1 (Primary Hyperoxaluria Type 1)", "reason": "Rights regained from Moderna April 2024; seeking partner; preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Affini-T Agreement", "reason": "Terminated Sept 30, 2025 due to Affini-T assignment for benefit of creditors"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "indications_total": 0
+  }
+}

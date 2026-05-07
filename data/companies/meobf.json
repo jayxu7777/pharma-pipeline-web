@@ -1,0 +1,85 @@
+{
+  "issuer_name": "MESOBLAST LTD",
+  "ticker": "MEOBF",
+  "exchange": "OTC",
+  "cik": "0001345099",
+  "region": "Australia",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer - files 20-F (no 10-K on EDGAR)"},
+    "website": {"url": "https://www.mesoblast.com", "accessed": "2026-05-06", "notes": "Site returned 403; pipeline data sourced from corporate press releases"},
+    "ctgov": {"file": "data/meobf_ctgov_compact.json", "active_kept": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "Remestemcel-L (Ryoncil)",
+      "aka": ["remestemcel-L-rknd", "MSC-100-IV", "Ryoncil"],
+      "modality": "Allogeneic ex-vivo expanded mesenchymal stromal cell (MSC) therapy, IV",
+      "target": "Inflammation modulation via MSCs",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Steroid-refractory acute graft-versus-host disease (SR-aGvHD) — adults, 2nd line",
+          "highest_phase": "P3",
+          "trial_name": "Phase 3 of remestemcel-L-rknd added to ruxolitinib in adult SR-aGvHD",
+          "trial_design": "Randomized, double-blind, placebo-controlled, multicenter Phase 3; remestemcel-L-rknd + ruxolitinib vs ruxolitinib + placebo in adult SR-aGvHD",
+          "nct_ids": ["NCT07568535"],
+          "trial_status": "NOT_YET_RECRUITING (planned start 2026-08-31; protocol locked, IRB submission Mar 2026)",
+          "lead_sponsor": "Mesoblast, Ltd.",
+          "key_milestones": ["FDA protocol agreement Q1 2026", "Site initiation 2026"]
+        },
+        {
+          "indication": "Biologic-resistant inflammatory bowel disease (IBD)",
+          "highest_phase": "P3 (planned)",
+          "trial_name": "Ryoncil in biologic-resistant IBD",
+          "trial_design": "Late-stage development planned per company pipeline guidance",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - program in development, not yet on registry",
+          "lead_sponsor": "Mesoblast, Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Rexlemestrocel-L",
+      "aka": ["MPC-06-ID (CLBP intradiscal)", "MPC-150-IM (cardiac)", "Revascor"],
+      "modality": "Allogeneic mesenchymal precursor cell (MPC) therapy",
+      "target": "Tissue regeneration / inflammation modulation via MPCs",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic low back pain (CLBP) associated with degenerative disc disease",
+          "highest_phase": "P3",
+          "trial_name": "Pivotal Phase 3 of rexlemestrocel-L + hyaluronic acid in moderate-to-severe CLBP",
+          "trial_design": "Randomized, placebo-controlled Phase 3; rexlemestrocel-L combined with HA intradiscal injection",
+          "nct_ids": ["NCT06325566"],
+          "trial_status": "RECRUITING - patient recruitment target achieved Apr 2026; primary completion 2026-10",
+          "lead_sponsor": "Mesoblast, Ltd.",
+          "key_milestones": ["Recruitment target achieved Apr 2026", "Primary completion expected Oct 2026"]
+        },
+        {
+          "indication": "End-stage heart failure with reduced ejection fraction (HFrEF) - RHF",
+          "highest_phase": "P3 (BLA prep)",
+          "trial_name": "Rexlemestrocel-L for end-stage HFrEF (DREAM-HF program)",
+          "trial_design": "Pivotal Phase 3 already completed; full-approval BLA filing planned next quarter per Feb 2026 update",
+          "nct_ids": "Not on public registry (DREAM-HF NCT02032004 is COMPLETED legacy entry; not in active filtered set)",
+          "trial_status": "Pivotal data complete; BLA filing planned Q1/Q2 2026 for full approval in end-stage HFrEF",
+          "lead_sponsor": "Mesoblast, Ltd.",
+          "key_milestones": ["BLA filing planned next quarter (per Feb 2026 announcement)"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "Ryoncil (remestemcel-L-rknd)",
+    "indication": "Pediatric steroid-refractory acute GvHD",
+    "status": "FDA approved Dec 2024; H1 FY26 net revenue ~US$48.7M; FY26 guidance US$110-120M"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Multiple historical Mesoblast trials", "reason": "30 COMPLETED, 3 TERMINATED, 2 WITHDRAWN trials in ctgov - legacy programs not in active 2026 pipeline"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 4, "P2": 0, "P1": 0, "note": "Counts indications; remestemcel-L (2 P3 indications) + rexlemestrocel-L (2 P3 indications)"}
+}

@@ -1,0 +1,36 @@
+{
+  "issuer_name": "ImmuCell Corporation",
+  "ticker": "ICCC",
+  "exchange": "Nasdaq",
+  "cik": "0000811641",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-30",
+      "accession": "0001437749-26-010339",
+      "path": "data/iccc_10k_pipeline_section.html"
+    },
+    "website": {"error": "no human clinical pipeline applicable"},
+    "ctgov": {"path": "data/iccc_ctgov_compact.json", "sponsor_query": "ImmuCell", "study_count": 0}
+  },
+  "no_active_clinical_pipeline_reason": "ImmuCell is an animal-health biologics company (commercial product line First Defense for newborn dairy/beef calves; supplementary CMT for somatic cell counts in milk). It does not run human clinical trials. In December 2025 it paused investment in Re-Tain (intramammary antibiotic for dairy cows) to focus on First Defense scaling. Its products are licensed/regulated through USDA-CVB / FDA-CVM (animal-health), not through human-drug clinical phases.",
+  "pipeline": [],
+  "commercial_product": {
+    "name": "First Defense product family (Tri-Shield, Dual-Force, First Defense Technology)",
+    "indication": "Prevention of neonatal calf scours (E. coli, bovine coronavirus, bovine rotavirus) in newborn calves",
+    "status": "Commercialized in North America (animal health)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Re-Tain (Nisin-based intramammary mastitis treatment for dairy cows) — investment paused December 2025; $2.7M impairment recognized"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1_or_1_2": 0
+  }
+}

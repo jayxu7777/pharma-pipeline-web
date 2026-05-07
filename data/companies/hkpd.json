@@ -1,0 +1,36 @@
+{
+  "issuer_name": "Cellyan Biotechnology Co., Ltd",
+  "ticker": "HKPD",
+  "exchange": "Nasdaq",
+  "cik": "0002007702",
+  "region": "HK/CN (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer — no 10-K found in EDGAR submissions; likely files 20-F."
+    },
+    "website": {
+      "error": "no public pipeline page found",
+      "note": "Company is a Hong Kong / Mainland China cross-border OTC pharmaceutical distributor (subsidiaries Joint Cross Border and V-Alliance) — no R&D pipeline web page exists."
+    },
+    "ctgov": {
+      "query": "Cellyan",
+      "raw_hits": 0,
+      "kept_p1_p3": 0,
+      "local_path": "data/hkpd_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "business_lines": [
+      "OTC pharmaceutical cross-border procurement and distribution (V-Alliance) — Hong Kong to Mainland China.",
+      "OTC pharmaceutical cross-border e-commerce supply-chain services (Joint Cross Border) — customs clearance, drug enlisting, warehousing, logistics."
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Distribution / services company — no proprietary clinical pipeline. Cellyan operates OTC pharmaceutical procurement, distribution, and cross-border supply-chain services between Hong Kong and Mainland China; it does not develop drug candidates."
+}

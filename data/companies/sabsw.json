@@ -1,0 +1,32 @@
+{
+  "issuer_name": "SAB Biotherapeutics, Inc.",
+  "ticker": "SABSW",
+  "exchange": "Nasdaq",
+  "cik": "0001833214",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "security_note": "SABSW is the public warrant on SAB Biotherapeutics common stock (SABS). Pipeline shown is the underlying issuer's.",
+  "sources": {
+    "10k": {"accession": "0001833214-26-000003", "filed": "2026-03-09", "doc": "sabs-20251231.htm", "file": "data/sabsw_10k_pipeline_section.html"},
+    "website": {"url": "https://www.sab.bio/our-pipeline/", "fetched": "2026-05-06", "note": "Pipeline graphic confirms SAB-142 as lead program in autoimmune diseases."},
+    "ctgov": {"sponsor_query": "SAB Biotherapeutics", "studies_returned": 8, "active_or_recruiting": 2, "file": "data/sabsw_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {"asset": "SAB-142", "aka": ["human anti-thymocyte immunoglobulin", "hIgG ATG"], "modality": "Fully human polyclonal IgG (Tc Bovine-derived, DiversitAb platform)", "target": "T-cell antigens (broad ATG-like)", "license_origin": "SAB Biotherapeutics internal",
+     "indications": [
+       {"indication": "Type 1 Diabetes (recently diagnosed; arresting progression)", "highest_phase": "P2", "trial_name": "SAFEGUARD", "trial_design": "Randomized, multicenter Phase 2 evaluating SAB-142 to arrest progression of T1D", "nct_ids": ["NCT07187531"], "trial_status": "Recruiting", "lead_sponsor": "SAB Biotherapeutics, Inc.", "key_milestones": []}
+     ]},
+    {"asset": "SAB-176", "aka": [], "modality": "Fully human polyclonal IgG (DiversitAb)", "target": "Influenza A and B (broad)", "license_origin": "SAB internal",
+     "indications": [
+       {"indication": "Influenza prevention/treatment (IM administration safety)", "highest_phase": "P1", "trial_name": "SAB-176 IM Safety Phase 1", "trial_design": "Healthy adults, single ascending dose IM", "nct_ids": ["NCT06435936"], "trial_status": "Active, not recruiting", "lead_sponsor": "SAB Biotherapeutics, Inc.", "key_milestones": []}
+     ]}
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "SAB-185", "indication": "COVID-19", "note": "Phase 1/2 (ACTIV-2) completed; not actively advancing."},
+    {"asset": "SAB-301", "indication": "MERS-CoV", "note": "Phase 1 completed; no active follow-on."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 2, "p3": 0, "p2": 1, "p1": 1}
+}

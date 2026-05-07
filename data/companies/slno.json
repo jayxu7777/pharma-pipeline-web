@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Soleno Therapeutics, Inc.",
+  "ticker": "SLNO",
+  "exchange": "Nasdaq",
+  "cik": "0001484565",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-071808", "filing_date": "2026-02-25", "doc": "slno-20251231.htm"},
+    "website": {"error": "soleno.life pipeline page returned 404; high-level content only"},
+    "ctgov": {"unique_p1_p3_trials": 5, "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "VYKAT XR (diazoxide choline extended-release)",
+      "aka": ["DCCR"],
+      "modality": "Small molecule (potassium channel activator)",
+      "target": "ATP-sensitive K+ channels",
+      "license_origin": "Internal (acquired with Essentialis)",
+      "indications": [
+        {
+          "indication": "Prader-Willi syndrome (open-label extension)",
+          "highest_phase": "Phase 3",
+          "trial_name": "C602 OLE",
+          "trial_design": "Open-label extension following pivotal Phase 3",
+          "nct_ids": ["NCT05701774"],
+          "trial_status": "Active, not recruiting (long-term safety follow-up; primary completion 2028)",
+          "lead_sponsor": "Soleno Therapeutics, Inc.",
+          "key_milestones": ["FDA approval received March 26, 2025"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "brand": "VYKAT XR",
+    "indication": "Hyperphagia in Prader-Willi syndrome (adults and pediatrics 4+ years)",
+    "approval_date": "2025-03-26",
+    "agency": "FDA",
+    "launch": "Commercial launch began Q2 2025"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT03440814 (DESTINY PWS Phase 3 — COMPLETED, supported approval)",
+    "NCT03714373 (C601 OLE Phase 3 — COMPLETED)",
+    "NCT04086810 (DCCR Phase 3 — WITHDRAWN)",
+    "NCT05532020 (Phase 2 genetic obesities — UNKNOWN status, excluded)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "p3": 1, "p2": 0, "p1": 0}
+}

@@ -1,0 +1,74 @@
+{
+  "issuer_name": "Intensity Therapeutics, Inc.",
+  "ticker": "INTS",
+  "exchange": "Nasdaq",
+  "cik": "0001567264",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-27",
+      "accession": "0001567264-26-000024",
+      "url": "https://www.sec.gov/Archives/edgar/data/1567264/000156726426000024/intensity-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.intensitytherapeutics.com/pipeline"
+    },
+    "ctgov": {
+      "sponsor_query": "Intensity Therapeutics",
+      "trials_returned": 3,
+      "compact_path": "data/ints_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "INT230-6",
+      "aka": [],
+      "modality": "Intratumoral injection (DfuseRx-formulated cisplatin + vinblastine + amphiphilic enhancer)",
+      "target": "Direct tumor cell kill plus immune activation (intratumoral chemotherapy)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Metastatic triple-negative breast cancer (mTNBC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "INVINCIBLE-3",
+          "trial_design": "Randomized Phase 3 of intratumoral INT230-6 vs U.S. standard-of-care chemotherapy in mTNBC; FDA Fast Track",
+          "nct_ids": ["NCT06263231"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Intensity Therapeutics, Inc.",
+          "key_milestones": ["FDA Fast Track designation"]
+        },
+        {
+          "indication": "Early-stage / pre-surgical breast cancer (monotherapy)",
+          "highest_phase": "Phase 2",
+          "trial_name": "INVINCIBLE-2",
+          "trial_design": "Investigator-initiated Phase 2 of intratumoral INT230-6 monotherapy in early breast cancer pre-surgery",
+          "nct_ids": ["NCT04781725"],
+          "trial_status": "UNKNOWN (per ctgov; investigator-led)",
+          "lead_sponsor": "Ottawa Hospital Research Institute (collaborator)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Sarcoma (combination with ipilimumab)",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "INT230-6 + ipilimumab basket (sarcoma cohort)",
+          "trial_design": "Phase 1/2 dose-escalation/expansion of intratumoral INT230-6 + ipilimumab in sarcoma; Orphan Drug designation",
+          "nct_ids": ["NCT03058289"],
+          "trial_status": "COMPLETED (parent IT-01 Phase 1/2 study); follow-on combination cohorts ongoing",
+          "lead_sponsor": "Intensity Therapeutics, Inc.",
+          "key_milestones": ["Orphan Drug designation (sarcoma)"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["INT33X (next-generation INT230-6 formulation) — preclinical"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "p3": 1,
+    "p2": 1,
+    "p1": 0
+  }
+}

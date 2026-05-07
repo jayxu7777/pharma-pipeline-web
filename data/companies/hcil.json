@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Hongchang International Co., Ltd",
+  "ticker": "HCIL",
+  "exchange": "OTC",
+  "cik": "0001086303",
+  "region": "US (Nevada-incorporated; operating entity in Fujian, PRC)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2025-03-28",
+      "accession": "0001013762-25-004096",
+      "path": "data/hcil_10k_pipeline_section.html",
+      "note": "Formerly known as Heyu Biological Technology Corporation; reverse merger with Hongchang BVI in September 2023 changed business to food trade / food industrial park construction in Fujian Province, PRC."
+    },
+    "website": {
+      "error": "no public pipeline page found - issuer is no longer a biotech; not attempted"
+    },
+    "ctgov": {
+      "sponsor_query": "Hongchang",
+      "unique_trials_p1_p3": 0,
+      "path": "data/hcil_ctgov_compact.json"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Food trade (beef, mutton supply business launched late 2024) and food industrial park construction; Hongchang Food Industrial Park is part of Fujian Province key projects, located in Fuqing Functional Zone of Fuzhou New District (Yuanhong Investment Zone)",
+    "regulatory_status": "Not applicable - non-biotech operations"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Mis-bucketed: issuer is a food trade and food industrial park construction company (operating subsidiary Fuqing Hongchang Food Co., Ltd. in PRC). Former biotech name (Heyu Biological Technology) was abandoned after September 2023 reverse merger. No biotech / medtech / drug or device pipeline exists."
+}

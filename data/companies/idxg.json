@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Interpace Biosciences, Inc.",
+  "ticker": "IDXG",
+  "exchange": "OTC",
+  "cik": "0001054102",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession_filed": "Most recent 10-K downloaded (data/idxg_10k_full.htm)",
+      "note": "Pipeline-section heading not present in filing - consistent with a molecular-diagnostics company that does not disclose a drug pipeline."
+    },
+    "website": {
+      "url": "https://interpace.com",
+      "note": "Company self-describes as a molecular-diagnostics provider (ThyGeNEXT+ThyraMIRv2 for thyroid nodules; PancraGEN being discontinued after May 2, 2025). No therapeutic pipeline page exists."
+    },
+    "ctgov": {
+      "sponsor_query": "Interpace Biosciences",
+      "unique_trials": 0,
+      "note": "No active P1/P2/P3 therapeutic trials sponsored by Interpace."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {"name": "ThyGeNEXT + ThyraMIR v2", "type": "molecular diagnostic", "indication": "indeterminate thyroid nodules"},
+      {"name": "PancraGEN", "type": "molecular diagnostic", "indication": "pancreatic cyst risk stratification (being discontinued after May 2, 2025)"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "registrational_or_filed": 0
+  },
+  "no_active_clinical_pipeline_reason": "Molecular-diagnostics company (thyroid and pancreatic cyst testing). No proprietary therapeutic drug or device pipeline; no active company-sponsored P1/P2/P3 clinical trials."
+}

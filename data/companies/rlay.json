@@ -1,0 +1,89 @@
+{
+  "issuer_name": "Relay Therapeutics, Inc.",
+  "ticker": "RLAY",
+  "exchange": "Nasdaq",
+  "cik": "0001812364",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-076739", "filing_date": "2026-02-26", "path": "data/rlay_10k_pipeline_section.html"},
+    "website": {"url": "https://relaytx.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/rlay_ctgov_compact.json", "sponsor_query": "Relay Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "zovegalisib",
+      "aka": ["RLY-2608"],
+      "modality": "Small molecule allosteric pan-mutant PI3Kalpha inhibitor",
+      "target": "PI3Kalpha (PIK3CA mutants)",
+      "license_origin": "Internal (Dynamo platform)",
+      "indications": [
+        {
+          "indication": "PIK3CA-mutant HR+/HER2- advanced/metastatic breast cancer (vs capivasertib, both + fulvestrant)",
+          "highest_phase": "P3",
+          "trial_name": "ReDiscover-2",
+          "trial_design": "Randomized active-control RLY-2608 + fulvestrant vs capivasertib + fulvestrant",
+          "nct_ids": ["NCT06982521"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Relay Therapeutics, Inc.",
+          "key_milestones": ["Primary completion 2028-04"]
+        },
+        {
+          "indication": "PIK3CA-mutant advanced breast cancer / solid tumors - dose finding & combos",
+          "highest_phase": "P1",
+          "trial_name": "ReDiscover (FIH)",
+          "trial_design": "FIH single-agent + combos with endocrine therapy and CDK4/6 inhibitors",
+          "nct_ids": ["NCT05216432"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Relay Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "PIK3CA-Related Overgrowth Spectrum (PROS) including vascular/lymphatic malformations",
+          "highest_phase": "P2",
+          "trial_name": "ReDiscover-PROS",
+          "trial_design": "Placebo-controlled in adults and children with PROS",
+          "nct_ids": ["NCT06789913"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Relay Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RLY-8161",
+      "aka": [],
+      "modality": "Small molecule NRAS-selective inhibitor",
+      "target": "NRAS",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "NRAS-mutant solid tumors",
+          "highest_phase": "P1",
+          "trial_name": "PLANNED - RLY-8161 FIH",
+          "trial_design": "Planned FIH per company website",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - IND-stage / first patient pending; not yet on ClinicalTrials.gov",
+          "lead_sponsor": "Relay Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": ["alpha-galactosidase A non-inhibitory chaperone for Fabry disease"],
+  "excluded_legacy_terminated": [
+    "NCT05759949 RLY-5836 P1 - COMPLETED (program deprioritized in favor of RLY-2608)"
+  ],
+  "excluded_partner_owned": [
+    "lirafugratinib (RLY-4008) - rights transferred to Elevar Therapeutics in Dec 2024 (NCT04526106 etc.)"
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "P3": 1,
+    "P2": 1,
+    "P1": 2,
+    "approved_commercial": 0
+  }
+}

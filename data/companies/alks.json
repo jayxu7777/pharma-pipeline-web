@@ -1,0 +1,173 @@
+{
+  "issuer_name": "Alkermes plc",
+  "ticker": "ALKS",
+  "exchange": "Nasdaq",
+  "cik": "0001520262",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-068925", "filed": "2026-02-25", "doc": "alks-20251231.htm"},
+    "website": {"url": "https://www.alkermes.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"file": "data/alks_ctgov_compact.json", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Alixorexton",
+      "aka": ["ALKS 2680"],
+      "modality": "Small molecule (selective orexin 2 receptor agonist)",
+      "target": "Orexin 2 receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Narcolepsy Type 1 (NT1)",
+          "highest_phase": "P3",
+          "trial_name": "Brilliance NT1 (Phase 3)",
+          "trial_design": "Phase 3 randomized, placebo-controlled in adults with NT1",
+          "nct_ids": ["NCT07455383", "NCT07540897"],
+          "trial_status": "Recruiting / Not yet recruiting",
+          "lead_sponsor": "Alkermes, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Narcolepsy Type 2 (NT2)",
+          "highest_phase": "P3",
+          "trial_name": "Brilliance NT2 (Phase 3)",
+          "trial_design": "Phase 3 randomized, placebo-controlled in adults with NT2",
+          "nct_ids": ["NCT07502443"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alkermes, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Idiopathic Hypersomnia (IH)",
+          "highest_phase": "P2",
+          "trial_name": "Vibrance-3",
+          "trial_design": "Phase 2 in adults with idiopathic hypersomnia",
+          "nct_ids": ["NCT06843590"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alkermes, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Long-term safety extension (NT1/NT2/IH)",
+          "highest_phase": "P3",
+          "trial_name": "ALKS 2680 long-term extension",
+          "trial_design": "Open-label long-term extension Phase 2/3",
+          "nct_ids": ["NCT06767683"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alkermes, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Olanzapine/samidorphan",
+      "aka": ["LYBALVI (commercial)", "ALKS 3831"],
+      "modality": "Combination small molecule (atypical antipsychotic + opioid antagonist)",
+      "target": "Dopamine D2 / Serotonin 5-HT2A / mu-opioid receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Schizophrenia / Bipolar I Disorder (pediatric)",
+          "highest_phase": "P3",
+          "trial_name": "ENLIGHTEN-Youth",
+          "trial_design": "Phase 3 in pediatric subjects evaluating weight (BMI Z-score) and efficacy",
+          "nct_ids": ["NCT05303064"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Alkermes, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Sodium oxybate ER oral suspension",
+      "aka": [],
+      "modality": "Extended-release sodium oxybate (GABA-B receptor agonist) oral suspension",
+      "target": "GABA-B receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Idiopathic Hypersomnia",
+          "highest_phase": "P3",
+          "trial_name": "REVITALYZ",
+          "trial_design": "Phase 3 in adults with idiopathic hypersomnia",
+          "nct_ids": ["NCT06525077"],
+          "trial_status": "Active per company pipeline disclosure (NCT not in Alkermes-sponsor ctgov pull; cross-confirmed via website)",
+          "lead_sponsor": "Alkermes",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Valiloxybate",
+      "aka": [],
+      "modality": "Small molecule prodrug (GABA-B receptor agonist)",
+      "target": "GABA-B receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Narcolepsy / Idiopathic Hypersomnia",
+          "highest_phase": "P1",
+          "trial_name": "Valiloxybate Phase 1",
+          "trial_design": "Phase 1 first-in-human",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company pipeline disclosure",
+          "lead_sponsor": "Alkermes",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALKS 4510",
+      "aka": [],
+      "modality": "Small molecule (orexin 2 receptor agonist)",
+      "target": "Orexin 2 receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Fatigue in Multiple Sclerosis / Parkinson's Disease",
+          "highest_phase": "P1",
+          "trial_name": "ALKS 4510 Phase 1",
+          "trial_design": "Phase 1 first-in-human",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company pipeline disclosure",
+          "lead_sponsor": "Alkermes",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALKS 7290",
+      "aka": [],
+      "modality": "Small molecule (orexin 2 receptor agonist)",
+      "target": "Orexin 2 receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+          "highest_phase": "P1",
+          "trial_name": "ALKS 7290 Phase 1",
+          "trial_design": "Phase 1 first-in-human",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company pipeline disclosure",
+          "lead_sponsor": "Alkermes",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "names": ["VIVITROL", "ARISTADA", "ARISTADA INITIO", "LYBALVI"],
+    "note": "Commercial portfolio (also generates royalties from VUMERITY)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 6,
+    "P3": 2,
+    "P2": 1,
+    "P1": 3
+  }
+}

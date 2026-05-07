@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Enzon Pharmaceuticals, Inc. (to be renamed Viskase Holdings, Inc.)",
+  "ticker": "ENZND",
+  "exchange": "OTC",
+  "cik": "0000727510",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-02",
+      "accession": "0001104659-26-022313",
+      "path": "data/enznd_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page found — issuer is shell company"},
+    "ctgov": {"path": "data/enznd_ctgov_compact.json", "trials_kept": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Vicineum", "reason": "License canceled by Amgen in 2025; patent expired; no further development by issuer"},
+    {"asset": "PegIntron (peginterferon alfa-2b)", "reason": "Royalties only; patents expired in all jurisdictions as of 2024; no clinical operations"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Enzon has been a public-company acquisition vehicle for 10+ years with no clinical operations and no employees. As of June 2025 it entered a merger agreement with Viskase Companies, Inc. (a food-packaging / cellulosic casings business). On Feb 11 2026 stockholders approved the merger and reverse stock split. Post-merger entity 'Viskase Holdings' is a non-pharma packaging business. No active P1/P2/P3 pipeline."
+}

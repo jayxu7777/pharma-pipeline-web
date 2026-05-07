@@ -1,0 +1,30 @@
+{
+  "issuer_name": "Black Hawk Acquisition Corp",
+  "ticker": "BKHAU",
+  "exchange": "Nasdaq",
+  "cik": "0002000775",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001829126-26-002021",
+      "filing_date": "2026-03-06",
+      "doc": "blackhawkacq_10k.htm",
+      "path": "data/bkhau_10k_pipeline_section.html",
+      "note": "10-K describes a blank-check / special purpose acquisition company seeking an initial business combination."
+    },
+    "website": {"error": "No drug-development corporate pipeline page; entity is a SPAC."},
+    "ctgov": {
+      "path": "data/bkhau_ctgov_compact.json",
+      "trials_p1_p3": 0,
+      "note": "No trials found."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Black Hawk Acquisition Corp is a special purpose acquisition company (SPAC / blank-check company) that has not yet completed an initial business combination. It owns no drug assets and sponsors no clinical trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_total": 0, "p3": 0, "p2": 0, "p1": 0}
+}

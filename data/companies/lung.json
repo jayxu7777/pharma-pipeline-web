@@ -1,0 +1,82 @@
+{
+  "issuer_name": "Pulmonx Corporation",
+  "ticker": "LUNG",
+  "exchange": "Nasdaq",
+  "cik": "0001127537",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. (Medtech device company — pivotal IDE device studies surfaced under commercial_product/device_pipeline; no drug pipeline.)",
+  "sources": {
+    "10k": {
+      "accession": "0001127537-26-000015",
+      "filed": "2026-03-10",
+      "doc": "lung-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.pulmonx.com/",
+      "note": "https://www.pulmonx.com/pipeline returns 404. Homepage and product pages used."
+    },
+    "ctgov": {
+      "sponsor_query": "Pulmonx",
+      "raw_total": 17,
+      "kept_p1_p3": 2,
+      "note": "Two PHASE1/PHASE1-2 hits (NCT00684684, NCT00684892 — Chartis System feasibility) are both COMPLETED in 2008 and excluded as legacy. Pivotal device trial CONVERT II (NCT06035120, AeriSeal) is N/A phase (device IDE) and not surfaced by P1-P3 filter; identified via direct ctgov API query."
+    }
+  },
+  "pipeline": [],
+  "device_pipeline": [
+    {
+      "asset": "AeriSeal System",
+      "modality": "Synthetic polymer foam, bronchoscopically delivered",
+      "indication": "Severe emphysema with collateral ventilation (converts CV+ to CV- to enable subsequent Zephyr Valve treatment)",
+      "regulatory_status": "FDA Breakthrough Device designation (Dec 2020); CE marked under MDD; TGA approval (Australia). US PMA pending pivotal trial.",
+      "active_trials": [
+        {
+          "trial_name": "CONVERT II",
+          "design": "Pivotal IDE study, ~200 subjects, ~35 sites US + international",
+          "nct_ids": ["NCT06035120"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Pulmonx Corporation",
+          "key_milestones": [
+            "CONVERT (first cohort, 101 pts) data presented at ERS 2024 Vienna: 77.6% of CV+ patients converted to CV-",
+            "CONVERT II is the US pivotal trial supporting future PMA submission"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "devices": [
+      {
+        "name": "Zephyr Endobronchial Valve",
+        "indication": "Severe COPD/emphysema (lung volume reduction)",
+        "regulatory_status": "FDA PMA (2018); CE marked; reimbursed in major US/EU/APAC markets; >40,000 patients treated globally",
+        "notes": "Lead commercial product."
+      },
+      {
+        "name": "Chartis Pulmonary Assessment System",
+        "indication": "Diagnostic — assessment of collateral ventilation for patient selection",
+        "regulatory_status": "Commercial; companion to Zephyr Valve"
+      },
+      {
+        "name": "LungTraX Platform / StratX Reports",
+        "indication": "CT-based digital patient-selection and case-planning platform",
+        "regulatory_status": "Commercial"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "NCT00684684 — Chartis System feasibility, COMPLETED 2008",
+    "NCT00684892 — Chartis with heterogeneous emphysema pre-ELVR, COMPLETED 2008"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0,
+    "active_pivotal_device_trials": 1
+  },
+  "no_active_clinical_pipeline_reason": "Medtech / endobronchial-device company. Lead product Zephyr Valve is FDA PMA-approved and commercial. Only active company-sponsored interventional study is the AeriSeal CONVERT II pivotal IDE device trial (recorded under device_pipeline, not P1/P2/P3). No proprietary drug pipeline."
+}

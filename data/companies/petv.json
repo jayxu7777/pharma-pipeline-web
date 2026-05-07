@@ -1,0 +1,37 @@
+{
+  "issuer_name": "PetVivo Holdings, Inc.",
+  "ticker": "PETV",
+  "exchange": "OTC",
+  "cik": "0001512922",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001641172-25-018617",
+      "filing_date": "2025-07-10",
+      "form": "10-K"
+    },
+    "website": {
+      "url": "https://www.petvivo.com/",
+      "note": "/pipeline path returns 404; homepage describes commercialized veterinary device only"
+    },
+    "ctgov": {
+      "sponsor_query": "PetVivo",
+      "trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "name": "Spryng with OsteoCushion Technology",
+    "type": "Veterinary intra-articular injectable medical device",
+    "indications": ["Osteoarthritis / joint cartilage damage in dogs and horses"],
+    "regulatory_status": "FDA-classified veterinary medical device; pre-market approval not required",
+    "commercial_status": "Marketed in US via Covetrus distribution agreement (Dec 2024)"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_active_assets": 0},
+  "no_active_clinical_pipeline_reason": "Veterinary medical device company. Lead product Spryng is a marketed FDA-classified veterinary device (no human clinical pipeline). No human P1/P2/P3 trials on ClinicalTrials.gov."
+}

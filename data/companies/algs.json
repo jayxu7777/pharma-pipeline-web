@@ -1,0 +1,118 @@
+{
+  "issuer_name": "Aligos Therapeutics, Inc.",
+  "ticker": "ALGS",
+  "exchange": "Nasdaq",
+  "cik": "0001799448",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-092614",
+      "filing_date": "2026-03-05",
+      "filename": "algs-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.aligos.com/",
+      "summary": "Pipeline confirms pevifoscorvir sodium (CAM-E for chronic HBV) and ALG-055009 (THR-beta agonist for MASH) as lead assets"
+    },
+    "ctgov": {
+      "query_sponsor": "Aligos Therapeutics",
+      "p1_p3_trials": 15,
+      "by_phase": {"PHASE1": 13, "PHASE2": 2},
+      "by_status": {"COMPLETED": 8, "RECRUITING": 3, "TERMINATED": 3, "ACTIVE_NOT_RECRUITING": 1}
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Pevifoscorvir sodium",
+      "aka": ["ALG-000184", "ALG-001075 prodrug"],
+      "modality": "Oral small molecule capsid assembly modulator (CAM-E)",
+      "target": "HBV core protein (capsid assembly modulation; prevents pgRNA encapsidation and cccDNA establishment)",
+      "license_origin": "Internal (optimized from in-licensed GLP-26 lead from Prof. Raymond Schinazi, Emory University, 2018)",
+      "indications": [
+        {
+          "indication": "Chronic hepatitis B virus (HBV) infection (HBeAg+ and HBeAg- adults, treatment-naive)",
+          "highest_phase": "Phase 2",
+          "trial_name": "B-SUPREME",
+          "trial_design": "Randomized, double-blind, active-controlled multicenter Phase 2 evaluating safety/efficacy of pevifoscorvir sodium monotherapy vs. tenofovir disoproxil fumarate for 48 weeks in approximately 200 currently untreated HBeAg+/- adults; primary endpoint HBV DNA <LLOQ",
+          "nct_ids": ["NCT06963710"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Aligos Therapeutics",
+          "key_milestones": [
+            "First interim analysis (HBeAg-, ~36 subjects, 12 weeks): expected 1H 2026",
+            "Second interim analysis (HBeAg+, ~55 subjects, 24 weeks): expected 2H 2026",
+            "Topline data expected 2027"
+          ]
+        },
+        {
+          "indication": "CHB-related Phase 1 special-population PK studies (hepatic and renal impairment)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Pevifoscorvir sodium hepatic and renal impairment PK studies",
+          "trial_design": "Single-dose PK, safety, tolerability of pevifoscorvir sodium in subjects with moderate hepatic impairment or renal impairment vs. healthy controls",
+          "nct_ids": ["NCT07342868", "NCT07342881"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Aligos Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ALG-055009",
+      "aka": [],
+      "modality": "Oral small molecule THR-beta selective agonist",
+      "target": "Thyroid hormone receptor beta (THR-beta)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Metabolic dysfunction-associated steatohepatitis (MASH) / NASH (F1-F3 fibrosis)",
+          "highest_phase": "Phase 2",
+          "trial_name": "HERALD",
+          "trial_design": "12-week randomized, double-blind, placebo-controlled Phase 2a trial evaluating 4 doses of ALG-055009 vs placebo in 102 subjects with presumed F1-F3 MASH; primary endpoint: percent relative change in liver fat content by MRI-PDFF at Week 12 (met)",
+          "nct_ids": ["NCT06342947"],
+          "trial_status": "Completed (met primary endpoint; up to 46.2% placebo-adjusted median relative liver fat reduction)",
+          "lead_sponsor": "Aligos Therapeutics",
+          "key_milestones": [
+            "HERALD readout: up to 46.2% relative liver fat reduction; positive lipid effects",
+            "Aligos evaluating options including out-licensing to fund continued development"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "ALG-097558",
+      "aka": [],
+      "modality": "Oral small molecule pan-coronavirus 3CL protease inhibitor (ritonavir-free)",
+      "target": "SARS-CoV-2 / coronavirus main protease (3CL/Mpro)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "COVID-19 (standard and high-risk patients)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ALG-097558 Phase 2 in COVID-19",
+          "trial_design": "Phase 2 clinical study in standard and high-risk COVID-19 patients (per 10-K narrative); follows completed Phase 1 SAD/MAD and special-population PK studies",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing (per 10-K)",
+          "lead_sponsor": "Aligos Therapeutics (with NIAID collaboration on hepatic/renal PK)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "ALG-170675 (HBV next-generation ASO with TLR-8 agonism) — IND-enabling, partnered with Xiamen Amoytop Biotech (Amoytop funds China development)",
+    "HDV ASO program — clinical development candidate selection ongoing"
+  ],
+  "excluded_legacy_terminated": [
+    "ALG-020572 CHB Phase 1 (NCT05001022) — terminated",
+    "ALG-010133 CHB Phase 1 (NCT04485663) — terminated",
+    "ALG-125755 CHB Phase 1 (NCT05561530) — terminated"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 0,
+    "phase_2": 3,
+    "phase_1": 0
+  }
+}

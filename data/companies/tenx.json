@@ -1,0 +1,80 @@
+{
+  "issuer_name": "TENAX THERAPEUTICS, INC.",
+  "ticker": "TENX",
+  "exchange": "Nasdaq",
+  "cik": "0000034956",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-099393", "filed": "2026-03-10", "path": "data/tenx_10k_pipeline_section.html"},
+    "website": {"url": "https://tenaxthera.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/tenx_ctgov_compact.json", "lead_sponsor_query": "Tenax Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "TNX-103",
+      "aka": ["Oral levosimendan"],
+      "modality": "Oral small molecule (calcium sensitizer / K-ATP channel activator)",
+      "target": "Calcium sensitizer; K-ATP channel activator",
+      "license_origin": "Licensed (Orion Corporation)",
+      "indications": [
+        {
+          "indication": "Pulmonary hypertension associated with HFpEF (PH-HFpEF)",
+          "highest_phase": "Phase 3",
+          "trial_name": "LEVEL (pivotal Phase 3)",
+          "trial_design": "Randomized double-blind placebo-controlled Phase 3, ~230 patients, 6-minute walk distance endpoint",
+          "nct_ids": ["NCT05983250"],
+          "trial_status": "Recruiting (randomization target achieved; topline expected Q3 2026)",
+          "lead_sponsor": "Tenax Therapeutics, Inc.",
+          "key_milestones": ["Topline data expected Q3 2026"]
+        },
+        {
+          "indication": "Pulmonary hypertension associated with HFpEF (PH-HFpEF) — second Phase 3",
+          "highest_phase": "Phase 3",
+          "trial_name": "LEVEL-2",
+          "trial_design": "Second global Phase 3 RCT, 26-week treatment duration",
+          "nct_ids": ["NCT07288398"],
+          "trial_status": "Recruiting (initiated December 2025)",
+          "lead_sponsor": "Tenax Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "PH-HFpEF — open-label extension",
+          "highest_phase": "Phase 3 (OLE)",
+          "trial_name": "Long-Term OLE of Oral Levosimendan",
+          "trial_design": "Long-term open-label extension",
+          "nct_ids": ["NCT07436689"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Tenax Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Imatinib (Tenax formulation)",
+      "aka": [],
+      "modality": "Oral small molecule (tyrosine kinase inhibitor; repurposed)",
+      "target": "BCR-ABL/PDGFR (mechanism for PAH: anti-proliferative on pulmonary vasculature)",
+      "license_origin": "Repurposed (off-patent reformulation)",
+      "indications": [
+        {
+          "indication": "Pulmonary arterial hypertension (PAH)",
+          "highest_phase": "Phase 3 (deprioritized / planned)",
+          "trial_name": "Imatinib PAH Phase 3 (deprioritized)",
+          "trial_design": "Single Phase 3 trial planned post-levosimendan completion",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — deprioritized; resources directed to levosimendan first",
+          "lead_sponsor": "Tenax Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "Oxycyte (TBI)", "ncts": ["NCT00174980", "NCT00908063"], "reason": "Terminated (legacy program)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 2, "P2": 0, "P1": 0}
+}

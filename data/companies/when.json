@@ -1,0 +1,36 @@
+{
+  "issuer_name": "World Health Energy Holdings, Inc.",
+  "ticker": "WHEN",
+  "exchange": "OTC",
+  "cik": "0000943535",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001641172-25-004775",
+      "filed": "2025-04-15",
+      "form": "10-K",
+      "note": "Despite 'Health' in the issuer name, WHEN is a global telecom and cybersecurity holding company (subsidiaries: RNA Ltd. cybersecurity software in Israel; CrossMobile MVNO in Poland; Instaview AI image-processing). Not a healthcare or biopharma issuer."
+    },
+    "website": {
+      "error": "no public pipeline page found (issuer is not a biopharma; mis-bucketed by wide keyword match on 'Health' in corporate name)"
+    },
+    "ctgov": {
+      "queried_sponsor": "World Health Energy Holdings",
+      "p1_p3_unique_trials": 0,
+      "note": "No clinical trials sponsored by issuer."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Not a biopharma. WHEN is a telecom and cybersecurity holding company (RNA Ltd. cybersecurity SaaS, CrossMobile MVNO in Poland/EU, Instaview AI/thermal imaging). The 'Health' token in the corporate name produced a wide-keyword false match. No drug or biologic candidates exist in any phase."
+}

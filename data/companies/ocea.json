@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Ocean Biomedical, Inc.",
+  "ticker": "OCEA",
+  "exchange": "OTC",
+  "cik": "0001869974",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001641172-25-003155", "filing_date": "2025-04-08", "doc": "form10-k.htm"},
+    "website": {"error": "no public pipeline page fetched (10-K explicitly preclinical-only)"},
+    "ctgov": {"sponsor_query": "Ocean Biomedical", "results": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "10-K (filed 2025-04-08) opens its 'Our Pipeline' section with: 'Our pipeline consists of preclinical programs. We anticipate moving certain preclinical product candidates in our oncology, fibrosis and/or infectious disease platforms... into the clinic in the next 12 to 18 months.' All assets (anti-Chi3l1 mAb/BsAbs for NSCLC and GBM; Chit1 small molecule for IPF/HPS; PfSEA-1/PfGARP malaria vaccine, mAb, small molecule) are preclinical. No active P1/P2/P3 trials, and ClinicalTrials.gov returns zero studies under Ocean Biomedical sponsorship.",
+  "excluded_preclinical": [
+    {"asset": "anti-Chi3l1 monoclonal antibody", "indication": "NSCLC, GBM"},
+    {"asset": "anti-Chi3l1 bispecific antibodies (x2)", "indication": "NSCLC, GBM"},
+    {"asset": "Chit1 small molecule inhibitor", "indication": "IPF, Hermansky-Pudlak syndrome"},
+    {"asset": "PfSEA-1 / PfGARP malaria vaccine", "indication": "Malaria"},
+    {"asset": "Anti-PfGARP humanized mAb", "indication": "Malaria"},
+    {"asset": "PfGARP small molecule", "indication": "Malaria"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

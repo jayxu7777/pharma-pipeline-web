@@ -1,0 +1,128 @@
+{
+  "issuer_name": "Kodiak Sciences Inc.",
+  "ticker": "KOD",
+  "exchange": "Nasdaq",
+  "cik": "0001468748",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-134887", "filing_date": "2026-03-31", "doc": "kod-20251231.htm"},
+    "website": {"note": "Pipeline confirmed via 10-K Item 1 Overview / clinical program summaries; corporate site (kodiak.com) mirrors the 10-K disclosures."},
+    "ctgov": {"sponsor_query": "Kodiak Sciences", "trials_returned": 11, "active_p1_p3": 4, "completed_or_terminated_excluded": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "tarcocimab tedromer (Zenkuda)",
+      "aka": ["KSI-301", "Zenkuda"],
+      "modality": "Anti-VEGF antibody biopolymer conjugate (ABC platform); enhanced 50 mg/mL formulation with conjugated and unconjugated antibody",
+      "target": "VEGF-A",
+      "license_origin": "Internal (ABC platform)",
+      "indications": [
+        {
+          "indication": "Wet age-related macular degeneration (wAMD) — treatment-naive (registration-supporting Phase 3)",
+          "highest_phase": "Phase 3",
+          "trial_name": "DAYBREAK",
+          "trial_design": "Phase 3 non-inferiority study with parallel investigational arms of tarcocimab and KSI-501 vs aflibercept; tarcocimab arm dosed every 4-24 weeks following 4 monthly loading doses, treat-to-dryness AI-driven assessment",
+          "nct_ids": ["NCT06556368"],
+          "trial_status": "Active, not recruiting (enrollment completed; topline 1-year primary endpoint readout expected 3Q 2026)",
+          "lead_sponsor": "Kodiak Sciences Inc.",
+          "key_milestones": [
+            "DAYBREAK enrollment completed",
+            "Topline data readout expected 3Q 2026",
+            "BLA filing planned for tarcocimab in DR, RVO, and wAMD"
+          ]
+        },
+        {
+          "indication": "Diabetic retinopathy (DR) — additional Phase 3 confirmatory",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 DR study (KSI-301 vs sham)",
+          "trial_design": "Randomized, double-masked, sham-controlled Phase 3 in DR patients",
+          "nct_ids": ["NCT06270836"],
+          "trial_status": "Active, not recruiting (initiated 2024-05-01; primary completion 2026-01-31)",
+          "lead_sponsor": "Kodiak Sciences Inc.",
+          "key_milestones": [
+            "Following positive GLOW1 and GLOW2 Phase 3 readouts in DR (primary endpoints met)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "tabirafusp tedromer (KSI-501)",
+      "aka": ["KSI-501", "tabirafusp alfa", "tabirafusp tedromer"],
+      "modality": "Bispecific anti-IL-6 / VEGF-trap fusion on the ABC platform; enhanced 50 mg/mL formulation",
+      "target": "IL-6 + VEGF-A",
+      "license_origin": "Internal (ABC platform)",
+      "indications": [
+        {
+          "indication": "Wet age-related macular degeneration (wAMD) — treatment-naive",
+          "highest_phase": "Phase 3",
+          "trial_name": "DAYBREAK",
+          "trial_design": "Phase 3 non-inferiority arm vs aflibercept; KSI-501 dosed every 8 weeks fixed plus individualized PRN after 4 monthly loading doses",
+          "nct_ids": ["NCT06556368"],
+          "trial_status": "Active, not recruiting (enrollment completed; topline 1-year primary endpoint readout 3Q 2026)",
+          "lead_sponsor": "Kodiak Sciences Inc.",
+          "key_milestones": [
+            "Topline DAYBREAK readout expected 3Q 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "KSI-101",
+      "aka": ["KSI-101 (tabirafusp 100 mg/mL)"],
+      "modality": "High-strength (100 mg/mL) bispecific protein targeting IL-6 and VEGF (intravitreal injection)",
+      "target": "IL-6 + VEGF",
+      "license_origin": "Internal (ABC platform)",
+      "indications": [
+        {
+          "indication": "Macular edema secondary to inflammation (MESI) — moderate-to-severe disease",
+          "highest_phase": "Phase 3",
+          "trial_name": "PEAK",
+          "trial_design": "Superiority Phase 3 evaluating KSI-101 5 mg and 10 mg vs sham in MESI patients with moderate-to-severe macular edema; 6 monthly fixed loading doses then individualized PRN",
+          "nct_ids": ["NCT06990399"],
+          "trial_status": "Recruiting (initiated 2025-07-30; primary endpoint at Week 24; topline data expected 4Q 2026)",
+          "lead_sponsor": "Kodiak Sciences Inc.",
+          "key_milestones": [
+            "Topline data expected 4Q 2026"
+          ]
+        },
+        {
+          "indication": "Macular edema secondary to inflammation (MESI) — milder disease / good vision",
+          "highest_phase": "Phase 3",
+          "trial_name": "PINNACLE",
+          "trial_design": "Superiority Phase 3 with identical design to PEAK but milder MESI / good-vision patients; KSI-101 5 mg and 10 mg vs sham",
+          "nct_ids": ["NCT06996080"],
+          "trial_status": "Recruiting (initiated 2025-07-16; primary endpoint at Week 24; topline data expected 2Q 2027)",
+          "lead_sponsor": "Kodiak Sciences Inc.",
+          "key_milestones": [
+            "Topline data expected 2Q 2027"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "KSI-102 (anti-TNFa/IL-6 bispecific) — pre-IND",
+    "KSI-103 (anti-IL-1/IL-6 bispecific) — pre-IND",
+    "ABCD platform 'duet' program for glaucoma (NLRP3 inhibitor + IOP-lowering small molecule) — pre-IND",
+    "ABCD platform 'duet' program for geographic atrophy (macrocyclic peptide complement inhibitor + NLRP3 inhibitor) — pre-IND",
+    "VETi digital health / wearable headset platform (device, not drug)"
+  ],
+  "excluded_legacy_terminated": [
+    "DAZZLE Phase 2b/3 in wAMD (NCT04049266 era) — failed primary endpoint Feb 2022; discontinued",
+    "GLEAM Phase 3 in DME — did not meet primary endpoint (cataract events contributed)",
+    "GLIMMER Phase 3 in DME — did not meet primary endpoint (cataract events contributed)",
+    "Original-formulation tarcocimab studies superseded by enhanced 50 mg/mL formulation",
+    "Phase 1b APEX dose-finding study of KSI-101 in DME and MESI — completed; selected doses advanced to Phase 3"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 3,
+    "phase_2": 0,
+    "phase_1": 0,
+    "registration_or_marketed": 0,
+    "note": "Counts by distinct asset (highest active phase across indications). tarcocimab = Phase 3 (DAYBREAK in wAMD active-not-recruiting + DR confirmatory). tabirafusp/KSI-501 = Phase 3 (DAYBREAK in wAMD). KSI-101 = Phase 3 (PEAK and PINNACLE in MESI, both recruiting). Five Phase 3 trials currently active across the three assets. BLA filing planned for tarcocimab in DR/RVO/wAMD pending DAYBREAK readout. Multiple prior Phase 3 studies (GLOW1, GLOW2, BEACON, DAYLIGHT) successfully met primary endpoints."
+  }
+}

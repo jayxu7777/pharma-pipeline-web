@@ -1,0 +1,60 @@
+{
+  "issuer_name": "Spectral AI, Inc.",
+  "ticker": "MDAIW",
+  "exchange": "Nasdaq",
+  "cik": "0001833498",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-033808",
+      "filing_date": "2026-03-25",
+      "form": "10-K",
+      "fiscal_year_end": "2025-12-31"
+    },
+    "website": {
+      "url": "https://spectral-ai.com",
+      "note": "No /pipeline page (404). Site documents single product DeepView Wound Imaging System (multispectral imaging + AI) as 'CAUTION - INVESTIGATIONAL DEVICE' for diabetic foot ulcers, burn, and chronic wounds."
+    },
+    "ctgov": {
+      "search_term": "Spectral AI",
+      "raw_trials": 1,
+      "kept_p1_p3": 0,
+      "additional_search": "DeepView via clinicaltrials.gov API returned 6 SpectralMD-sponsored studies, all phase=N/A observational device-validation (NCT06131203, NCT05415683, NCT05023135, NCT06024512, NCT03611361 terminated, NCT05581966). None are interventional drug P1/P2/P3 trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "lead_program": {
+      "name": "DeepView Wound Imaging System",
+      "modality": "Multispectral imaging (MSI) + AI software-as-medical-device (SaMD)",
+      "indications_in_development": ["Burn wounds (lead)", "Diabetic foot ulcers", "Acute and chronic wounds"],
+      "regulatory_status": "FDA De Novo submission for burn indication; 164-patient (incl. 49 pediatric) validation study fully enrolled. Expected initial commercialization in the United Kingdom in 2026.",
+      "key_partnerships": [
+        "BARDA Project BioShield (PBS) contract up to ~$150M; ~$54.9M initial award supporting clinical validation and FDA clearance",
+        "MTEC Agreement (~$4.9M) for handheld DeepView for military battlefield burn evaluation"
+      ],
+      "registry_studies_completed_or_terminated": [
+        "NCT06131203 Burn Validation Study (Completed, observational)",
+        "NCT05023135 DV-SSP Device Training (Completed, observational)",
+        "NCT06024512 DV-H Comparison (Completed, observational)",
+        "NCT05415683 Wound Assessment Spectral Imaging US (Completed, observational)",
+        "NCT05581966 Wound Assessment Spectral Imaging EU/UK (Completed, observational)",
+        "NCT03611361 PAD amputation-level imaging (Terminated, observational)"
+      ]
+    }
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT03611361", "reason": "Terminated observational device study (PAD amputation-level imaging)."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device / AI software-as-medical-device company. Lead program (DeepView Wound Imaging System for burn assessment) is at FDA De Novo submission stage; all sponsor-registered clinicaltrials.gov studies are observational device-validation (phase=N/A), not interventional P1/P2/P3. Per workflow rules for device companies, no active pivotal P1/P2/P3 drug or device interventional trial qualifies. Captured as commercial_product."
+}

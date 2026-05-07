@@ -1,0 +1,20 @@
+{
+  "issuer_name": "abrdn Life Sciences Investors",
+  "ticker": "HQL",
+  "exchange": "NYSE",
+  "cik": "0000884121",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Closed-end fund — files N-CSR / N-2, not 10-K"},
+    "website": {"error": "No drug pipeline page — investment fund, not an operating biotech"},
+    "ctgov": {"file": "data/hql_ctgov_compact.json", "unique_trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_active_assets": 0},
+  "no_active_clinical_pipeline_reason": "abrdn Life Sciences Investors (HQL) is a NYSE-listed closed-end management investment company (managed by abrdn Inc.) that invests in healthcare and life sciences equity securities. It has no proprietary drug pipeline and does not sponsor clinical trials."
+}

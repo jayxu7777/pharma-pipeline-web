@@ -1,0 +1,40 @@
+{
+  "issuer_name": "IRIDEX CORP",
+  "ticker": "IRIX",
+  "exchange": "Nasdaq",
+  "cik": "0001006045",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-140194",
+      "filing_date": "2026-04-02",
+      "primary_doc": "irix-20260103.htm"
+    },
+    "website": {
+      "url": "https://www.iridex.com/",
+      "note": "No dedicated pipeline page; site lists marketed laser systems and references investigator-initiated studies of MicroPulse technology only."
+    },
+    "ctgov": {
+      "sponsor_query": "Iridex",
+      "kept_p1_p3": 0,
+      "note": "No company-sponsored P1/P2/P3 studies."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      {"name": "PASCAL Laser", "indication": "Retinal photocoagulation", "status": "Marketed"},
+      {"name": "Cyclo G6 (with G-Probe / G-Probe Illuminate / MicroPulse P3)", "indication": "Glaucoma (transscleral cyclophotocoagulation)", "status": "Marketed"},
+      {"name": "OcuLight / IQ 532 / IQ 577 laser platforms", "indication": "Ophthalmic laser therapy", "status": "Marketed"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "UK investigator-led MicroPulse + anti-VEGF DME study (investigator-initiated, not sponsored by IRIX)."
+  ],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Ophthalmic medical device company. All products are FDA-cleared and commercially marketed lasers for retina and glaucoma. No company-sponsored active P1/P2/P3 clinical trials of investigational devices."
+}

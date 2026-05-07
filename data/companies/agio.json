@@ -1,0 +1,190 @@
+{
+  "issuer_name": "Agios Pharmaceuticals, Inc.",
+  "ticker": "AGIO",
+  "exchange": "Nasdaq",
+  "cik": "0001439222",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001439222-26-000025",
+      "filing_date": "2026-02-12",
+      "doc": "agio-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.agios.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "query": "Agios Pharmaceuticals",
+      "fetched": "2026-05-06",
+      "trials_p1_p3": 44
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Mitapivat",
+      "aka": ["AG-348", "PYRUKYND", "AQVESME"],
+      "modality": "Small molecule (oral PK activator)",
+      "target": "Pyruvate Kinase R (PKR)",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Sickle Cell Disease (adult)",
+          "highest_phase": "P2/P3",
+          "trial_name": "RISE UP",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2/3",
+          "nct_ids": ["NCT05031780"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2025-10-30"]
+        },
+        {
+          "indication": "Pediatric Pyruvate Kinase Deficiency (not regularly transfused)",
+          "highest_phase": "P3",
+          "trial_name": "ACTIVATE-KidsT (not transfused)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 + 5-year extension",
+          "nct_ids": ["NCT05175105"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2024-12-13"]
+        },
+        {
+          "indication": "Pediatric Pyruvate Kinase Deficiency (regularly transfused)",
+          "highest_phase": "P3",
+          "trial_name": "ACTIVATE-KidsT (transfused)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3 + 5-year extension",
+          "nct_ids": ["NCT05144256"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2024-05-03"]
+        },
+        {
+          "indication": "Transfusion-dependent Alpha- or Beta-Thalassemia (adult)",
+          "highest_phase": "P3",
+          "trial_name": "ENERGIZE-T",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT04770779"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2024-04-11"]
+        },
+        {
+          "indication": "Non-Transfusion-dependent Alpha- or Beta-Thalassemia (adult)",
+          "highest_phase": "P3",
+          "trial_name": "ENERGIZE",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 3",
+          "nct_ids": ["NCT04770753"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2023-11-13"]
+        },
+        {
+          "indication": "Pediatric Transfusion-dependent Alpha- or Beta-Thalassemia",
+          "highest_phase": "P3",
+          "trial_name": "Pediatric TDT Phase 3",
+          "trial_design": "Randomized, placebo-controlled Phase 3",
+          "nct_ids": ["NCT07506863"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Start 2026-09; primary completion 2029-06"]
+        },
+        {
+          "indication": "Pediatric Non-Transfusion-dependent Alpha- or Beta-Thalassemia",
+          "highest_phase": "P3",
+          "trial_name": "Pediatric NTDT Phase 3",
+          "trial_design": "Randomized, placebo-controlled Phase 3",
+          "nct_ids": ["NCT07517133"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Start 2026-09; primary completion 2029-03"]
+        }
+      ]
+    },
+    {
+      "asset": "Tebapivat",
+      "aka": ["AG-946"],
+      "modality": "Small molecule (oral PK activator)",
+      "target": "Pyruvate Kinase R (PKR)",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Lower-Risk Myelodysplastic Syndromes (LR-MDS)",
+          "highest_phase": "P2",
+          "trial_name": "Tebapivat LR-MDS Phase 2",
+          "trial_design": "Phase 2 dose-finding",
+          "nct_ids": ["NCT05490446"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2026-03-17"]
+        },
+        {
+          "indication": "Sickle Cell Disease",
+          "highest_phase": "P2",
+          "trial_name": "Tebapivat SCD Dose-Finding",
+          "trial_design": "Randomized, placebo-controlled Phase 2 dose-finding",
+          "nct_ids": ["NCT06924970"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2026-05"]
+        }
+      ]
+    },
+    {
+      "asset": "AG-181",
+      "aka": [],
+      "modality": "Small molecule (PAH stabilizer)",
+      "target": "Phenylalanine hydroxylase (PAH)",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Phenylketonuria (PKU)",
+          "highest_phase": "P1",
+          "trial_name": "AG-181 PKU Phase 1",
+          "trial_design": "Phase 1 SAD/MAD",
+          "nct_ids": ["NCT07241234"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Start 2026-04-21"]
+        }
+      ]
+    },
+    {
+      "asset": "AG-236",
+      "aka": [],
+      "modality": "siRNA",
+      "target": "TMPRSS6",
+      "license_origin": "internal",
+      "indications": [
+        {
+          "indication": "Polycythemia Vera (healthy volunteer Phase 1 ongoing)",
+          "highest_phase": "P1",
+          "trial_name": "AG-236 SAD/MAD",
+          "trial_design": "Phase 1 healthy volunteer",
+          "nct_ids": ["NCT07075640"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Agios Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2026-02-11"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "PYRUKYND (mitapivat)", "indication": "Adult Pyruvate Kinase Deficiency", "regions": ["US", "EU", "GB"]},
+      {"name": "AQVESME (mitapivat)", "indication": "Adult Thalassemia", "regions": ["US", "KSA", "UAE"]}
+    ]
+  },
+  "excluded_preclinical": ["PKR/PKM2 discovery candidates"],
+  "excluded_legacy_terminated": ["AG-519 (TERMINATED)", "AG-636 (TERMINATED)"],
+  "excluded_partner_owned": ["Ivosidenib (AG-120, partnered with Servier)", "Enasidenib (AG-221, partnered with Celgene/BMS)", "Vorasidenib (AG-881, partnered with Servier)"],
+  "summary_counts": {
+    "assets": 4,
+    "indications_active": 11,
+    "p3": 7,
+    "p2_p3": 1,
+    "p2": 2,
+    "p1": 2
+  }
+}

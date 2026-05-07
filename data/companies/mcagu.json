@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Mountain Crest Acquisition Corp. V",
+  "ticker": "MCAGU",
+  "exchange": "OTC",
+  "cik": "0001859035",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001829126-26-002303",
+      "filing_date": "2026-03-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1859035/000182912626002303/mountaincrest5_10k.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found - blank-check SPAC, no operating product website"
+    },
+    "ctgov": {
+      "query_sponsor": "Mountain Crest Acquisition",
+      "trials_returned": 0,
+      "note": "No ClinicalTrials.gov records; SPAC has no clinical operations."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Special Purpose Acquisition Company (blank-check shell, Delaware, formed April 2021). Prior business combination with AUM Biosciences was terminated in June 2023; non-binding term sheet with CUBEBIO announced May 2024. Securities delisted from Nasdaq November 2024 and trading OTC. No proprietary clinical assets, no proprietary clinical trials."
+}

@@ -1,0 +1,57 @@
+{
+  "issuer_name": "PSYENCE BIOMEDICAL LTD.",
+  "ticker": "PBM",
+  "exchange": "Nasdaq",
+  "cik": "0001985062",
+  "region": "Cayman Islands / South Africa / Australia",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Cayman Islands) — files 20-F, not 10-K. Pipeline based on press releases and ctgov."},
+    "website": {
+      "url": "https://psyencebiomed.com/",
+      "note": "Pipeline information from corporate updates and press releases."
+    },
+    "ctgov": {
+      "path": "data/pbm_psy_ctgov_compact.json",
+      "unique_trials_p1_p3": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "PEX010 (NPX-5)",
+      "aka": ["Nature-derived psilocybin 25 mg"],
+      "modality": "Natural psilocybin (psychedelic) for psilocybin-assisted psychotherapy",
+      "target": "5-HT2A serotonin receptor agonist",
+      "license_origin": "Internal (PsyLabs supply, GMP-grade nature-derived)",
+      "indications": [
+        {
+          "indication": "Adjustment disorder in cancer patients (palliative care)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase IIb psilocybin-assisted psychotherapy in palliative care (Australia)",
+          "trial_design": "Randomized, double-blind, three-arm Phase IIb across 5 Australian sites (incl. Empax Centre, Ramsay Health Care, NeuroCentrix)",
+          "nct_ids": ["NCT07072728"],
+          "trial_status": "RECRUITING (start 2025-10-01; primary completion 2026-12-30); first patient dosed 2026 Q1",
+          "lead_sponsor": "Psyence Australia Pty Ltd (subsidiary of Psyence Biomedical)",
+          "key_milestones": ["Site expansion to 5 sites announced April 2026"]
+        },
+        {
+          "indication": "Alcohol Use Disorder (AUD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Planned Phase II psilocybin in AUD",
+          "trial_design": "Phase II planned",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — PsyLabs to be exclusive psilocybin supplier; trial not yet initiated",
+          "lead_sponsor": "Psyence Biomedical Ltd.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Psilocybin longevity research initiative", "indication": "Biological aging biomarkers", "stage": "Preclinical / observational research (South Africa)"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 1, "P3": 0, "P2": 2, "P1": 0}
+}

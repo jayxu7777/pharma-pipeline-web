@@ -1,0 +1,100 @@
+{
+  "issuer_name": "4D Molecular Therapeutics, Inc.",
+  "ticker": "FDMT",
+  "exchange": "Nasdaq",
+  "cik": "0001650648",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-114075", "filing_date": "2026-03-18", "doc": "fdmt-20251231.htm"},
+    "website": {"url": "https://www.4dmoleculartherapeutics.com/pipeline/", "note": "AAV gene therapies via Therapeutic Vector Evolution (TVE) platform; ophthalmology and pulmonology focus"},
+    "ctgov": {"file": "data/fdmt_ctgov_compact.json", "trial_count": 9}
+  },
+  "pipeline": [
+    {
+      "asset": "4D-150",
+      "aka": ["ispervidogene"],
+      "modality": "Intravitreal AAV gene therapy (R100 capsid) encoding aflibercept and an anti-VEGF-C miRNA",
+      "target": "VEGF-A, VEGF-C (dual)",
+      "license_origin": "Internal (TVE platform)",
+      "indications": [
+        {
+          "indication": "Wet age-related macular degeneration (nAMD) — pivotal",
+          "highest_phase": "Phase 3",
+          "trial_name": "4FRONT-1 / 4FRONT-2",
+          "trial_design": "Phase 3 randomized, controlled, masked pivotal studies of single intravitreal 4D-150 (3E10 vg/eye) versus aflibercept in nAMD",
+          "nct_ids": ["NCT06864988", "NCT07064759"],
+          "trial_status": "Active, not recruiting (4FRONT-1) / Recruiting (4FRONT-2)",
+          "lead_sponsor": "4D Molecular Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Wet age-related macular degeneration (nAMD) — Phase 1/2 PRISM",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "PRISM",
+          "trial_design": "Phase 1/2 dose-escalation/expansion of intravitreal 4D-150 vs aflibercept in nAMD",
+          "nct_ids": ["NCT05197270"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "4D Molecular Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Diabetic macular edema (DME)",
+          "highest_phase": "Phase 2",
+          "trial_name": "SPECTRA",
+          "trial_design": "Phase 2 randomized of intravitreal 4D-150 vs aflibercept in DME",
+          "nct_ids": ["NCT05930561"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "4D Molecular Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "4D-710",
+      "aka": [],
+      "modality": "Aerosolized AAV gene therapy (A101 capsid) encoding CFTR",
+      "target": "CFTR",
+      "license_origin": "Internal (TVE platform)",
+      "indications": [
+        {
+          "indication": "Cystic fibrosis (lung) in adults ineligible for or intolerant of CFTR modulators",
+          "highest_phase": "Phase 2",
+          "trial_name": "AEROW",
+          "trial_design": "Phase 1/2 open-label dose-escalation of inhaled 4D-710 in adults with cystic fibrosis",
+          "nct_ids": ["NCT05248230"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "4D Molecular Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "4D-310",
+      "aka": [],
+      "modality": "Intravenous AAV gene therapy (C102 capsid) encoding GLA",
+      "target": "alpha-galactosidase A (GLA)",
+      "license_origin": "Internal (TVE platform)",
+      "indications": [
+        {
+          "indication": "Fabry disease with cardiac involvement",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "INGLAXA-2 / INGLAXA-3",
+          "trial_design": "Phase 1/2 open-label single intravenous infusion of 4D-310 in Fabry disease (US INGLAXA-2 + ex-US INGLAXA-3)",
+          "nct_ids": ["NCT04519749", "NCT05629559"],
+          "trial_status": "Active, not recruiting / Recruiting",
+          "lead_sponsor": "4D Molecular Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "4D-125 (XLRP, RPGR) Phase 1/2 NCT04517149 — program de-prioritized; trial active not recruiting only for follow-up",
+    "4D-110 (choroideremia, REP-1) Phase 1 NCT04483440 — program de-prioritized; trial active not recruiting only for follow-up"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 1, "P2": 2, "P1": 0, "total_active_assets": 3}
+}

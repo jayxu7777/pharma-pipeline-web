@@ -1,0 +1,60 @@
+{
+  "issuer_name": "Connect Biopharma Holdings Ltd",
+  "ticker": "CNTB",
+  "exchange": "Nasdaq",
+  "cik": "0001835268",
+  "region": "China/US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001835268-26-000013", "filed": "2026-03-31", "fy": "2025"},
+    "website": {"url": "https://www.connectbiopharma.com/pipeline/", "fetched": "2026-05-06", "note": "Page is JS-rendered; details cross-referenced with ctgov and 10-K"},
+    "ctgov": {"sponsor_query": "Connect Biopharm (LLC + Australia Pty)", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "Rademikibart",
+      "aka": ["CBP-201"],
+      "modality": "Anti-IL-4Rα monoclonal antibody (subcutaneous)",
+      "target": "IL-4 receptor alpha",
+      "license_origin": "Internal (Connect Biopharma)",
+      "indications": [
+        {
+          "indication": "Acute COPD exacerbation (add-on, T2-inflammation)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Seabreeze STAT COPD",
+          "trial_design": "Randomized placebo-controlled Phase 2 add-on for acute COPD exacerbation",
+          "nct_ids": ["NCT06940154"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Connect Biopharm LLC",
+          "key_milestones": ["Primary completion June 2026"]
+        },
+        {
+          "indication": "Acute asthma exacerbation (add-on)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Seabreeze STAT Asthma",
+          "trial_design": "Randomized placebo-controlled Phase 2 add-on for acute asthma exacerbation",
+          "nct_ids": ["NCT06940141"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Connect Biopharm LLC",
+          "key_milestones": ["Primary completion June 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "CBP-201 Phase 3 atopic dermatitis", "note": "NCT05614817 withdrawn; Connect divested AD/CRSwNP development focus"},
+    {"asset": "CBP-201 in CRSwNP", "note": "NCT04783389 terminated"},
+    {"asset": "CBP-307 (S1P modulator)", "note": "Asset returned/divested; UC Phase 2 NCT04700449 completed"},
+    {"asset": "CBP-174", "note": "Phase 1 NCT04811469 completed; no further development disclosed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 0,
+    "P2": 1,
+    "P1": 0,
+    "indications_active": 2
+  }
+}

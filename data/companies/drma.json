@@ -1,0 +1,36 @@
+{
+  "issuer_name": "Dermata Therapeutics, Inc.",
+  "ticker": "DRMA",
+  "exchange": "Nasdaq",
+  "cik": "0001853816",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-012992",
+      "filing_date": "2026-03-26",
+      "path": "data/drma_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.dermatarx.com/new-index",
+      "note": "Pipeline shown only as 'Acne Kit — In Development' (image-based, no asset detail)."
+    },
+    "ctgov": {
+      "path": "data/drma_ctgov_compact.json",
+      "trials_total": 6,
+      "active_or_recruiting": 0
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "In September 2025, following completion of the Phase 3 STAR-1 trial of XYNGARI (DMT310) for moderate-to-severe acne, Dermata announced a strategic pivot away from prescription (Rx) drug development to direct-to-consumer cosmetic and OTC skincare products. The company no longer has an active P1/P2/P3 clinical pipeline; all historical ctgov studies (DMT310 and DMT210 across acne vulgaris, rosacea, atopic dermatitis) are COMPLETED or UNKNOWN status, with no ongoing or planned new prescription trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "XYNGARI / DMT310", "indication": "Moderate-to-severe acne vulgaris (Rx)", "highest_phase_reached": "Phase 3 (STAR-1 NCT06090721 COMPLETED Mar 2025)", "reason": "Rx development discontinued Sept 2025; repositioned to OTC consumer skincare"},
+    {"asset": "DMT310", "indication": "Acne rosacea", "highest_phase_reached": "Phase 2 (NCT05108025 UNKNOWN)", "reason": "Rx program halted with strategic pivot"},
+    {"asset": "DMT410", "indication": "Hyperhidrosis / aesthetic (botulinum toxin delivery)", "highest_phase_reached": "Phase 1", "reason": "No active trials; Rx pipeline discontinued"},
+    {"asset": "DMT210", "indication": "Atopic dermatitis / rosacea", "highest_phase_reached": "Phase 2", "reason": "Legacy completed program"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"active_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0}
+}

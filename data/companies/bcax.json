@@ -1,0 +1,79 @@
+{
+  "issuer_name": "Bicara Therapeutics Inc.",
+  "ticker": "BCAX",
+  "exchange": "Nasdaq",
+  "cik": "0002023658",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-022010", "filing_date": "2026-03-30", "doc": "bcax-20251231.htm"},
+    "website": {"url": "http://www.bicara.com", "fetched": "2026-05-06", "note": "No standalone /pipeline page; single lead asset described under Science"},
+    "ctgov": {"file": "data/bcax_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Ficerafusp alfa",
+      "aka": ["BCA101", "FmAb2"],
+      "modality": "Bifunctional fusion antibody (anti-EGFR mAb fused to TGF-beta receptor II ECD as TGF-beta trap)",
+      "target": "EGFR + TGF-beta",
+      "license_origin": "Internal (in-licensed from Biocon Limited, India)",
+      "indications": [
+        {
+          "indication": "1L PD-L1+ recurrent/metastatic head and neck squamous cell carcinoma (HNSCC) — combination with pembrolizumab",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "FORTIFI-HN01",
+          "trial_design": "Pivotal randomized double-blind Phase 2/3 of ficerafusp alfa or placebo + pembrolizumab in 1L PD-L1+ R/M HNSCC",
+          "nct_ids": ["NCT06788990"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Bicara Therapeutics",
+          "key_milestones": ["Primary completion 2028-04"]
+        },
+        {
+          "indication": "EGFR-driven advanced solid tumors (HNSCC, anal SCC, cSCC, lung SCC, ovarian, pancreatic, CRC) — monotherapy and pembrolizumab combination",
+          "highest_phase": "Phase 1",
+          "trial_name": "BCA101-101",
+          "trial_design": "Open-label first-in-human dose-escalation/expansion of BCA101 mono and with pembrolizumab in EGFR-driven solid tumors",
+          "nct_ids": ["NCT04429542"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Bicara Therapeutics",
+          "key_milestones": ["Primary completion 2026-12"]
+        },
+        {
+          "indication": "Neoadjuvant resectable HNSCC (with pembrolizumab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Neoadjuvant ficerafusp alfa + pembrolizumab",
+          "trial_design": "Investigator-sponsored Phase 2 in resectable HNSCC",
+          "nct_ids": ["NCT07465276"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Dana-Farber Cancer Institute",
+          "key_milestones": []
+        },
+        {
+          "indication": "HPV-negative HNSCC (with pembrolizumab + SBRT)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Ficerafusp alfa + pembrolizumab + SBRT (Wash U)",
+          "trial_design": "Investigator-sponsored Phase 1/2 in HPV-negative HNSCC",
+          "nct_ids": ["NCT07552558"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Washington University School of Medicine",
+          "key_milestones": []
+        },
+        {
+          "indication": "Platinum-refractory HNSCC (with nivolumab)",
+          "highest_phase": "Phase 2",
+          "trial_name": "GORTEC ficerafusp + nivolumab",
+          "trial_design": "Investigator-sponsored Phase 2 in platinum-refractory HNSCC (GORTEC France)",
+          "nct_ids": ["NCT07529873"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Groupe Oncologie Radiotherapie Tete et Cou",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 1, "phase_2": 3, "phase_1": 1}
+}

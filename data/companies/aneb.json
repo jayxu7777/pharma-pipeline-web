@@ -1,0 +1,65 @@
+{
+  "issuer_name": "Anebulo Pharmaceuticals, Inc.",
+  "ticker": "ANEB",
+  "exchange": "OTC",
+  "cik": "0001815974",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-25-016015",
+      "filing_date": "2025-09-29",
+      "path": "data/aneb_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://anebulo.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/aneb_ctgov_compact.json",
+      "trials_kept": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Selonabant",
+      "aka": ["ANEB-001"],
+      "modality": "Small molecule (oral and IV formulations)",
+      "target": "Cannabinoid type 1 (CB1) receptor antagonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute cannabinoid intoxication (ACI) / acute cannabis poisoning - oral formulation",
+          "highest_phase": "Phase 2 (proof-of-concept completed)",
+          "trial_name": "ANEB-001 THC Challenge Phase 2",
+          "trial_design": "Phase 2, double-blind, placebo-controlled THC challenge proof-of-concept in healthy volunteers experiencing acute cannabinoid intoxication",
+          "nct_ids": ["NCT05282797"],
+          "trial_status": "COMPLETED (primary completion 2023-08-26); favorable tolerability and efficacy. Next pivotal step under regulatory engagement.",
+          "lead_sponsor": "Anebulo Pharmaceuticals",
+          "key_milestones": ["Phase 2 PoC favorable", "Advancing to next pivotal study under FDA engagement"]
+        },
+        {
+          "indication": "Acute cannabinoid intoxication / unintentional cannabis poisoning - intravenous formulation (pediatric/emergency setting)",
+          "highest_phase": "Phase 1",
+          "trial_name": "I.V. Selonabant in Healthy Adult Subjects",
+          "trial_design": "First-in-human Phase 1 of intravenous selonabant in healthy adults; collaboration with NIDA",
+          "nct_ids": ["NCT07211607"],
+          "trial_status": "RECRUITING (started 2025-09-22; primary completion 2026-08-25)",
+          "lead_sponsor": "Anebulo Pharmaceuticals",
+          "key_milestones": ["First subject dosed in 2025", "Primary completion expected Aug 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 1,
+    "indications_active_p1_p2_p3": 2,
+    "phase3": 0,
+    "phase2": 1,
+    "phase1": 1
+  }
+}

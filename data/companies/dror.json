@@ -1,0 +1,30 @@
+{
+  "issuer_name": "Dror Ortho-Design, Inc.",
+  "ticker": "DROR",
+  "exchange": "OTC",
+  "cik": "0001282980",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-27",
+      "accession": "0001213900-26-021201",
+      "path": "data/dror_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page found - device company, no drug pipeline page"},
+    "ctgov": {
+      "path": "data/dror_ctgov_compact.json",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Orthodontic device company. ZSmile Platform (next-generation Aerodentis System) is a Class II medical device that received FDA 510(k) clearance in February 2026 for treatment of Class 1 and Class 2 malocclusion using pulsating air via a smart aligner worn at night. Predecessor Aerodentis System received FDA 510(k) in April 2020 and CE Mark in January 2013. Historical clinical trials supported these existing 510(k) clearances. No active investigational pivotal/IDE clinical studies disclosed."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Orthodontic medical device company (ZSmile / Aerodentis nighttime smart aligner). Lead product already FDA 510(k) cleared (Feb 2026); historical clinical trials supported clearance. No active pivotal/IDE clinical studies and no drug pipeline. No P1/P2/P3 trials registered on ClinicalTrials.gov."
+}

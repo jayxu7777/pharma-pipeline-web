@@ -1,0 +1,21 @@
+{
+  "issuer_name": "Premier Air Charter Holdings Inc.",
+  "ticker": "PREM",
+  "exchange": "OTC",
+  "cik": "0001570937",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"note": "10-K retrieved but no pipeline / clinical section located; issuer is an air charter operator, not a pharmaceutical / medtech company."},
+    "website": {"error": "No clinical pipeline page applicable; aviation services company."},
+    "ctgov": {"unique_p1_p3_trials": 0, "note": "No registered clinical trials with this sponsor."}
+  },
+  "pipeline": [],
+  "commercial_product": null,
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p1": 0, "p2": 0, "p3": 0},
+  "no_active_clinical_pipeline_reason": "Mis-bucketed issuer. Premier Air Charter Holdings is an aviation / air-charter services company with no drug or device pipeline. Listed under adjacent_medtech_dx in error."
+}

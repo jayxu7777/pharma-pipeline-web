@@ -1,0 +1,55 @@
+{
+  "issuer_name": "KAMADA LTD",
+  "ticker": "KMDA",
+  "exchange": "Nasdaq",
+  "cik": "0001567529",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F"},
+    "website": {"url": "https://kamada.com/pipeline", "note": "Pipeline page lists commercial products and pre-clinical eye drops; only late-stage clinical asset is Inhaled AAT (Phase 3)."},
+    "ctgov": {"file": "data/kmda_ctgov_compact.json", "trials_returned": 13, "active_p1_p3_count": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "Inhaled Alpha-1 Antitrypsin (Kamada-AAT for Inhalation)",
+      "aka": ["Inhaled AAT", "Kamada-AAT", "alpha-1 proteinase inhibitor (inhaled)"],
+      "modality": "Plasma-derived protein (inhaled)",
+      "target": "Neutrophil elastase / alpha-1 antitrypsin replacement",
+      "license_origin": "Internal (Kamada)",
+      "indications": [
+        {
+          "indication": "Alpha-1 Antitrypsin Deficiency (AATD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "InnovAATe (Phase 3, Efficacy and Safety of Kamada-AAT for Inhalation)",
+          "trial_design": "Randomized, double-blind, placebo-controlled pivotal Phase 3 trial in AATD patients",
+          "nct_ids": ["NCT04204252"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Kamada, Ltd.",
+          "key_milestones": ["Primary completion 2028-12"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "note": "Kamada has multiple commercial plasma-derived products including GLASSIA, KEDRAB, CYTOGAM, VARIZIG, WINRHO SDF, HEPAGAM B, BIVIGAM. These are out of scope (post-marketing)."
+  },
+  "excluded_preclinical": ["Plasma Eye Drops"],
+  "excluded_legacy_terminated": [
+    "NCT02956122 GLASSIA in acute GvHD (TERMINATED, partner Baxalta/Shire)",
+    "NCT01217671 Inhaled AAT emphysema P2/3 (COMPLETED)",
+    "NCT01304537 IV AAT in T1D P1/2 (COMPLETED)",
+    "NCT04550325 Anti-SARS-CoV-2 P1/2 (COMPLETED)",
+    "NCT02912845 KamRAB rabies P3 post-marketing (COMPLETED)",
+    "NCT01661192 AAT T1D P2 (COMPLETED, sponsor Rabin)",
+    "NCT02001688 Inhaled AAT P2 (COMPLETED)",
+    "NCT02614872 IV GLASSIA lung transplant P2 (COMPLETED)",
+    "NCT02005848 GLASSIA T1D P2 (COMPLETED)",
+    "NCT00460096 Kamada-API AATD P2/3 (COMPLETED)",
+    "NCT00499837 Inhaled AAT cystic fibrosis P2 (COMPLETED)",
+    "NCT02040090 HRIG rabies P2/3 (COMPLETED)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 1, "phase_2": 0, "phase_1": 0}
+}

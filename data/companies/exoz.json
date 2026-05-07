@@ -1,0 +1,20 @@
+{
+  "issuer_name": "exoZymes Inc.",
+  "ticker": "EXOZ",
+  "exchange": "Nasdaq",
+  "cik": "0002010788",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-013563", "filed": "2026-03-30", "file": "data/exoz_10k_pipeline_section.html"},
+    "website": {"note": "Not fetched; 10-K disclosure clearly identifies non-pharma business model"},
+    "ctgov": {"file": "data/exoz_ctgov_compact.json", "trials_p1_p3": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "exoZymes is an industrial biotech / synthetic biology company developing AI-engineered enzyme (exozyme) biocatalysis platforms for cell-free production of nutraceuticals, flavors/fragrances, and chemical intermediates. 10-K describes 2026-2027 commercialization phase focused on nutraceutical compounds; no human therapeutic IND or P1/P2/P3 clinical trial activity.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "phase3": 0, "phase2": 0, "phase1": 0}
+}

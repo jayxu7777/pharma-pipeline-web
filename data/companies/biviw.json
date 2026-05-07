@@ -1,0 +1,101 @@
+{
+  "issuer_name": "BioVie Inc.",
+  "ticker": "BIVIW",
+  "exchange": "Nasdaq",
+  "cik": "0001580149",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001520138-25-000268",
+      "filing_date": "2025-08-15",
+      "form": "10-K",
+      "fy_end": "2025-06-30"
+    },
+    "website": {
+      "url": "https://bioviepharma.com",
+      "note": "Did not fetch website; 10-K + ctgov sufficient."
+    },
+    "ctgov": {
+      "query": "spons:BioVie",
+      "unique_trials_p1_p3": 8,
+      "fetched": "2026-05-06"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "bezisterim",
+      "aka": ["NE3107"],
+      "modality": "Small molecule, orally bioavailable, BBB-permeable, anti-inflammatory insulin sensitizer (selective inhibitor of inflammation-induced ERK and NF-kB activation of TNF-alpha)",
+      "target": "ERK / NF-kB inflammation pathway (insulin sensitization)",
+      "license_origin": "Acquired from NeurMedix in 2021",
+      "indications": [
+        {
+          "indication": "Parkinson's disease (early/new-onset, untreated and L-dopa augmented)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2b new-onset PD study",
+          "trial_design": "Randomized, double-blind, placebo-controlled study evaluating safety and efficacy of bezisterim on motor and non-motor symptoms in PD patients not previously treated with carbidopa/levodopa",
+          "nct_ids": ["NCT06757010"],
+          "trial_status": "Active, not recruiting; primary completion expected May 2026",
+          "lead_sponsor": "BioVie Inc.",
+          "key_milestones": [
+            "Primary completion May 2026"
+          ]
+        },
+        {
+          "indication": "Long COVID (neurological/cognitive symptoms)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ADDRESS-LC",
+          "trial_design": "Phase 2 study of bezisterim in adults with long COVID with cognitive impairment and fatigue; fully funded study",
+          "nct_ids": ["NCT06847191"],
+          "trial_status": "Recruiting; primary completion expected June 2026",
+          "lead_sponsor": "BioVie Inc.",
+          "key_milestones": [
+            "Primary completion June 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "BIV201",
+      "aka": ["continuous infusion terlipressin", "liquid terlipressin"],
+      "modality": "Small molecule peptide (vasopressin analog), continuous IV/SC infusion of terlipressin in proprietary room-temperature-stable liquid formulation",
+      "target": "V1 vasopressin receptor",
+      "license_origin": "Internal proprietary formulation; FDA Fast Track and Orphan Drug Designation",
+      "indications": [
+        {
+          "indication": "Cirrhosis with ascites (broadened from refractory ascites)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Planned Phase 3 of BIV201 in ascites",
+          "trial_design": "Protocol design being finalized; Phase 3 of continuous-infusion terlipressin in cirrhosis with ascites",
+          "nct_ids": [],
+          "trial_status": "PLANNED — protocol finalization underway following FDA feedback; not yet initiated. Prior Phase 2 (NCT04112199) terminated 2023 after interim look",
+          "lead_sponsor": "BioVie Inc.",
+          "key_milestones": [
+            "Phase 3 protocol finalization",
+            "Phase 3 initiation TBD"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "BIV201 Phase 2 in refractory ascites (NCT04112199, TERMINATED 2023 after interim 15-patient analysis; informed pivot to broader Phase 3)",
+    "Bezisterim/NE3107 Phase 3 in mild-moderate Alzheimer's (NCT04669028, COMPLETED 2023; topline missed primary endpoint)",
+    "Bezisterim/NE3107 Phase 2 PD with L-dopa (NCT05083260, COMPLETED 2022)",
+    "Bezisterim/NE3107 Phase 2 dementia (NCT05227820, COMPLETED 2022 — investigator-initiated by Neurological Associates of West LA)",
+    "Bezisterim/NE3107 Phase 2 traumatic brain injury (NCT05970575, TERMINATED 2025)",
+    "Continuous infusion terlipressin Phase 2 (NCT03107091, COMPLETED 2019)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 2,
+    "p3": 0,
+    "p2": 2,
+    "p1": 0,
+    "planned_pre_initiation": 1,
+    "indications_count": 3
+  }
+}

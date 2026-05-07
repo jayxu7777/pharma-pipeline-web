@@ -1,0 +1,78 @@
+{
+  "issuer_name": "CONMED Corporation",
+  "ticker": "CNMD",
+  "exchange": "NYSE",
+  "cik": "0000816956",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000816956-26-000009",
+      "filing_date": "2026-02-17",
+      "document": "cnmd-20251231.htm",
+      "path": "data/cnmd_10k_full.htm",
+      "note": "Pipeline-section heading not found by slicer (no drug-pipeline section exists; CONMED is a surgical-device manufacturer). 10-K Business section describes commercial Orthopedic Surgery and General Surgery franchises, not interventional drug or device P1-3 trials."
+    },
+    "website": {
+      "url": "https://www.conmed.com",
+      "note": "Corporate site lists commercial product franchises (AirSeal, BioBrace, Y-Knot, Hall Power, CartiMax, etc.). No /pipeline page; no R&D pipeline disclosure."
+    },
+    "ctgov": {
+      "path": "data/cnmd_ctgov_compact.json",
+      "sponsor_query": "CONMED",
+      "raw_hits": 18,
+      "kept_p1_p3": 2,
+      "note": "Both kept P1-3 records are investigator-initiated studies in which CONMED is only a collaborator (lead sponsors: UCSF and MD Anderson) and both are COMPLETED (NCT00924482, 2008) or WITHDRAWN (NCT03128281). Excluded per workflow rules (terminated/withdrawn and partner-not-owned)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "franchises": [
+      {
+        "name": "Advanced Surgical (General Surgery)",
+        "key_products": ["AirSeal iFS Insufflator", "PlumeSafe X5 Smoke Evacuator", "Energy / electrosurgical portfolio"]
+      },
+      {
+        "name": "Orthopedic Implants & Soft-Tissue Repair",
+        "key_products": ["BioBrace Reinforced BioInductive Implant", "Y-Knot / Y-Knotless Flex / Hercules XE / Argo Knotless GENESYS suture anchors", "Infinity AIM meniscal repair", "CartiMax Viable Cartilage Allograft"]
+      },
+      {
+        "name": "Orthopedic Capital Equipment",
+        "key_products": ["Hall Power surgical power tools", "Surgical imaging systems", "Resection and fluid management tools"]
+      },
+      {
+        "name": "Patient Care / Specialty",
+        "key_products": ["ECG / EEG electrodes", "NeoSpan Compression Implant System"]
+      }
+    ],
+    "regulatory_status": "FDA-cleared / commercially marketed surgical devices and implants."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "nct_id": "NCT00924482",
+      "title": "Impedance Cardiography: Clinical Evaluation of Endotracheal Cardiac Output Monitor (ECOM)",
+      "phase": "PHASE2/PHASE3",
+      "status": "COMPLETED (primary completion 2008-09)",
+      "lead_sponsor": "University of California, San Francisco",
+      "reason_excluded": "Completed legacy investigator-initiated study; CONMED only a collaborator."
+    },
+    {
+      "nct_id": "NCT03128281",
+      "title": "Pneumoperitoneum Management With Low vs. Higher Pressure",
+      "phase": "PHASE2",
+      "status": "WITHDRAWN",
+      "lead_sponsor": "M.D. Anderson Cancer Center",
+      "reason_excluded": "Withdrawn study; CONMED only a collaborator."
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "CONMED is a global medical-technology company that designs and sells FDA-cleared surgical devices, orthopedic implants, capital equipment and tissue allografts. It has no proprietary drug pipeline and no active company-sponsored interventional Phase 1/2/3 device trials; the only ClinicalTrials.gov P1-3 records that mention CONMED are investigator-initiated collaborations that are completed or withdrawn."
+}

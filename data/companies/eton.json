@@ -1,0 +1,29 @@
+{
+  "issuer_name": "Eton Pharmaceuticals, Inc.",
+  "ticker": "ETON",
+  "exchange": "Nasdaq",
+  "cik": "0001710340",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-009059", "filing_date": "2026-03-19", "doc": "eton20251231_10k.htm"},
+    "website": {"error": "etonpharma.com /our-products page not retrievable; not used"},
+    "ctgov": {"unique_p1_p3_trials": 0, "fetched": "2026-05-06"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Eton is a commercial-stage rare-disease specialty pharma. It has eight commercial products (INCRELEX, ALKINDI SPRINKLE, KHINDIVI, GALZIN, PKU GOLIKE, Carglumic Acid, Betaine Anhydrous, Nitisinone) and five late-stage product candidates (ET-600 [NDA filed], Amglidia, ET-700, ET-800, ZENEO hydrocortisone autoinjector). Pipeline is built on 505(b)(2) reformulations, in-licensed assets, and device combinations advancing toward NDA via bridging studies — there are no active company-sponsored Phase 1/2/3 clinical trials registered on ClinicalTrials.gov.",
+  "commercial_product": {
+    "products": ["INCRELEX (mecasermin)", "ALKINDI SPRINKLE (hydrocortisone granules)", "KHINDIVI (hydrocortisone oral solution)", "GALZIN (zinc acetate)", "PKU GOLIKE", "Carglumic Acid", "Betaine Anhydrous", "Nitisinone"]
+  },
+  "excluded_preclinical": [
+    "ET-600 (NDA filed)",
+    "Amglidia (in-licensed neonatal diabetes)",
+    "ET-700 (in development)",
+    "ET-800 (in development)",
+    "ZENEO hydrocortisone autoinjector (device-drug)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

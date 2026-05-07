@@ -1,0 +1,50 @@
+{
+  "issuer_name": "WORK Medical Technology Group LTD",
+  "ticker": "WOK",
+  "exchange": "Nasdaq",
+  "cik": "0001929783",
+  "region": "CN",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "Foreign private issuer - files 20-F (no 10-K available on EDGAR for CIK 0001929783)."
+    },
+    "website": {
+      "error": "Corporate domain not resolvable (workmedicalgroup.com DNS lookup failed); no public pipeline page found."
+    },
+    "ctgov": {
+      "path": "data/wok_ctgov_compact.json",
+      "note": "Sponsor search 'WORK Medical' returned 4 raw trials, 0 P1/P2/P3 matches. No clinical drug trials sponsored by the company."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "device_categories": [
+      "Disposable medical consumables (face masks, KN95, anesthesia masks, oxygen cannulas)",
+      "Anesthesia and airway devices (laryngeal mask airways, endotracheal tubes, laryngoscope blades, anesthetic kits)",
+      "Disposable breathing circuits and HME filters",
+      "Visualized prostatic dilatation catheters",
+      "Nebulizer kits, SPO2 sensors, nasogastric tubes",
+      "Personal protective equipment, hygiene/skincare products"
+    ],
+    "in_development_devices": [
+      {
+        "name": "AI-Automated Human Blood Cell Morphology Analyzer",
+        "class": "Class II medical device (China NMPA)",
+        "status": "Manufacturing approval granted by Hunan Provincial MPA on 2025-12-29; commercial launch H1 2026 via Shanghai Benke distribution agreement.",
+        "note": "Device-only product, no clinical drug trial."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-consumables and device manufacturer (anesthesia, airway, PPE, diagnostics hardware) based in Hangzhou, China. No proprietary drug pipeline; products are Class I/II disposable devices and an AI blood-analyzer cleared via NMPA manufacturing approval, not P1/P2/P3 drug trials."
+}

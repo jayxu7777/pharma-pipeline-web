@@ -1,0 +1,26 @@
+{
+  "issuer_name": "CDT Equity Inc.",
+  "ticker": "CDTTW",
+  "exchange": "Nasdaq",
+  "cik": "0001896212",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-15",
+      "accession": "0001493152-26-016858",
+      "path": "data/cdttw_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public clinical pipeline page identified for CDT Equity (formerly Conduit Pharmaceuticals)"},
+    "ctgov": {"path": "data/cdttw_ctgov_compact.json", "trials_kept": 0}
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "AZD1656 Cocrystal", "indication": "Autoimmune disorders (HK-4 Glucokinase Activator)", "reason": "Solid-form repositioning, in vitro/in vivo preclinical; awaiting licensing partner before further clinical development"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "CDT Equity (formerly Conduit Pharmaceuticals) is a lean asset-repositioning shell using solid-form chemistry and AI to enhance third-party deprioritized compounds; explicitly states it 'avoids the cost burden of late-stage clinical trials' and exits via license deals after preclinical work. No company-sponsored P1/P2/P3 trials.",
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

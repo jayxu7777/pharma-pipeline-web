@@ -1,0 +1,42 @@
+{
+  "issuer_name": "LogicMark, Inc.",
+  "ticker": "LGMK",
+  "exchange": "OTC",
+  "cik": "0001566826",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-27",
+      "accession": "0001213900-26-035359",
+      "path": "data/lgmk_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "Medtech device company — no drug pipeline page applicable"
+    },
+    "ctgov": {
+      "path": "data/lgmk_ctgov_compact.json",
+      "note": "0 trials returned for sponsor LogicMark"
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Personal Emergency Response Systems (PERS)",
+    "products": [
+      "Caretaker family of PERS devices (Guardian Alert, Freedom Alert, Mobile, etc.)"
+    ],
+    "regulatory_status": "Marketed consumer / VHA / GSA-channel medical alert devices; not FDA drug or PMA-class clinical-trial-stage products",
+    "key_channels": ["U.S. Department of Veterans Affairs (VHA)", "GSA Agreement (since July 2021)", "Direct-to-consumer", "Dealer/reseller network"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "LogicMark is a personal-emergency-response-system (PERS) medical-alert device company. No proprietary drug or device clinical trials (P1/P2/P3) are conducted; products are marketed consumer/medical-alert hardware sold primarily through the VHA and GSA channels."
+}

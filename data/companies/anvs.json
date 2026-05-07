@@ -1,0 +1,59 @@
+{
+  "issuer_name": "Annovis Bio, Inc.",
+  "ticker": "ANVS",
+  "exchange": "NYSE",
+  "cik": "0001477845",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-027751", "filing_date": "2026-03-13", "doc": "anvs-20251231x10k.htm"},
+    "website": {"note": "Website check skipped; 10-K + ctgov sufficient for active program enumeration"},
+    "ctgov": {"trials_returned": 7, "lead_sponsor": "Annovis Bio Inc."}
+  },
+  "pipeline": [
+    {
+      "asset": "Buntanetap",
+      "aka": ["Posiphen", "ANVS401"],
+      "modality": "Oral small molecule (translational inhibitor of neurotoxic protein synthesis: APP, tau, alpha-synuclein)",
+      "target": "Multiple neurotoxic proteins (APP, tau, alpha-synuclein) — improves axonal transport",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Early Alzheimer's Disease (AD)",
+          "highest_phase": "Phase 3 (pivotal)",
+          "trial_name": "Phase 3 buntanetap in early AD (initiated February 2025)",
+          "trial_design": "Double-blind placebo-controlled pivotal Phase 3; ~760 patients (380 active / 380 placebo); MMSE 20-28; ages 55-85; p-tau217-positive inclusion biomarker. 6-month treatment window for symptomatic efficacy plus 12-month extension to potentially demonstrate disease-modifying effects (18-month total).",
+          "nct_ids": ["NCT06709014"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Annovis Bio Inc.",
+          "key_milestones": ["Primary completion December 2027"]
+        },
+        {
+          "indication": "Parkinson's Disease (PD)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "Phase 2/3 buntanetap in PD (with Duke Clinical Research Institute)",
+          "trial_design": "Phase 2/3 study in PD patients including deep brain stimulation cohort. Started January 2026.",
+          "nct_ids": ["NCT07284784"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Annovis Bio Inc.",
+          "key_milestones": ["Primary completion September 2029"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "ANVS405", "modality": "IV formulation (same compound as buntanetap) for acute neurodegeneration / TBI / stroke", "reason": "Preclinical; awaiting grant funding for tox/PK and IND"},
+    {"asset": "ANVS301", "indication": "Advanced AD / dementia", "reason": "Single-ascending-dose Phase 1 previously completed (NIH-funded); no ongoing or planned Annovis-sponsored trial"},
+    {"asset": "ANVS402 (Posiphen Form B)", "reason": "New crystalline form, composition-of-matter patent; no clinical program disclosed"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Posiphen — early AD Phase 1/2", "nct": "NCT02925650", "reason": "COMPLETED (legacy)"},
+    {"asset": "Posiphen — AD/PD biomarker Phase 1/2", "nct": "NCT04524351", "reason": "COMPLETED (legacy)"},
+    {"asset": "Buntanetap — mild-moderate AD Phase 2/3 dose-ranging", "nct": "NCT05686044", "reason": "COMPLETED (legacy; superseded by current pivotal Phase 3 NCT06709014)"},
+    {"asset": "Buntanetap — early PD Phase 3", "nct": "NCT05357989", "reason": "COMPLETED (legacy; superseded by current Phase 2/3 NCT07284784)"},
+    {"asset": "Posiphen — amnestic MCI Phase 1", "nct": "NCT01072812", "reason": "TERMINATED (2010)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 1, "P1": 0}
+}

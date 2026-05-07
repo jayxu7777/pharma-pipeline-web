@@ -1,0 +1,53 @@
+{
+  "issuer_name": "Allurion Technologies, Inc.",
+  "ticker": "ALURW",
+  "exchange": "OTC",
+  "cik": "0001964979",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-130483",
+      "filing_date": "2026-03-30",
+      "document": "alur-20251231.htm",
+      "note": "10-K describes the Allurion Gastric Balloon System (a swallowable, procedureless intragastric balloon device) and associated digital weight-loss platform; AUDACITY is the FDA pivotal IDE study supporting U.S. PMA submission. No drug pipeline."
+    },
+    "website": {
+      "url": "https://www.allurion.com",
+      "note": "No drug pipeline page; corporate site presents the Allurion Balloon device, AUDACITY pivotal data, and digital ecosystem (Connected Scale, Health Tracker app)."
+    },
+    "ctgov": {
+      "sponsor_query": "Allurion",
+      "p1_p3_unique_trials": 0,
+      "note": "Allurion device studies (e.g., AUDACITY) are categorized as device trials with phase=N/A on ClinicalTrials.gov and therefore are not captured by the P1/P2/P3 drug-phase filter; the company runs no proprietary drug clinical trials."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Medical device (intragastric balloon for weight loss) plus digital health platform",
+    "examples": [
+      "Allurion Gastric Balloon System (AGBS) — swallowable, procedureless intragastric balloon (CE-marked, commercially available in 50+ countries; U.S. PMA pending based on AUDACITY pivotal IDE study)",
+      "Allurion Virtual Care Suite (Connected Scale, Health Tracker, mobile app, provider dashboard)"
+    ],
+    "key_clinical_studies_device": [
+      {
+        "name": "AUDACITY",
+        "type": "Pivotal IDE (device, non-drug)",
+        "indication": "Weight loss in adults BMI 30-40",
+        "status": "Pivotal results reported; supporting U.S. PMA submission",
+        "note": "Device trial — phase N/A; not part of drug P1/P2/P3 pipeline scope."
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_1": 0,
+    "phase_2": 0,
+    "phase_3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Allurion is a medical-device and digital-health company whose sole product is the Allurion Gastric Balloon System (a commercial weight-loss device). Its AUDACITY pivotal IDE study is a device trial (phase N/A on ClinicalTrials.gov), not a drug P1/P2/P3 program; the company has no proprietary drug pipeline."
+}

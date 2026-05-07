@@ -1,0 +1,94 @@
+{
+  "issuer_name": "Zevra Therapeutics, Inc.",
+  "ticker": "ZVRA",
+  "exchange": "Nasdaq",
+  "cik": "0001434647",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001434647-26-000011",
+      "filing_date": "2026-03-09",
+      "doc": "zvra-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.zevra.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "query": "Zevra Therapeutics",
+      "fetched": "2026-05-06",
+      "trials_p1_p3": 5
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Celiprolol",
+      "aka": [],
+      "modality": "Small molecule (selective beta-1 blocker with beta-2 partial agonist activity)",
+      "target": "Beta-adrenergic receptor",
+      "license_origin": "Acquired",
+      "indications": [
+        {
+          "indication": "COL3A1-positive Vascular Ehlers-Danlos Syndrome (VEDS)",
+          "highest_phase": "P3",
+          "trial_name": "Celiprolol VEDS Phase 3",
+          "trial_design": "Pivotal Phase 3 ongoing",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing",
+          "lead_sponsor": "Zevra Therapeutics",
+          "key_milestones": ["Phase 3 ongoing per company disclosures"]
+        }
+      ]
+    },
+    {
+      "asset": "Sodium phenylbutyrate (ACER-001 / OLPRUVA expanded uses)",
+      "aka": ["ACER-001", "OLPRUVA"],
+      "modality": "Small molecule (oral)",
+      "target": "Ammonia scavenger (nitrogen disposal)",
+      "license_origin": "Acquired (Acer Therapeutics)",
+      "indications": [
+        {
+          "indication": "Medium Chain Acyl-CoA Dehydrogenase Deficiency (MCADD)",
+          "highest_phase": "P2",
+          "trial_name": "ACER-001 MCADD Phase 2 (investigator-led)",
+          "trial_design": "Phase 2 in pediatric and adult patients",
+          "nct_ids": ["NCT06773026"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Jerry Vockley, MD, PhD (Zevra collaborator)",
+          "key_milestones": ["Primary completion 2027-01"]
+        },
+        {
+          "indication": "Combined D,L-2-Hydroxyglutaric Aciduria (C-2HGA)",
+          "highest_phase": "P1",
+          "trial_name": "ACER-001 C-2HGA individual patient study",
+          "trial_design": "Open-label individual-patient Phase 1",
+          "nct_ids": ["NCT07125066"],
+          "trial_status": "ENROLLING_BY_INVITATION",
+          "lead_sponsor": "Jerry Vockley, MD, PhD (Zevra collaborator)",
+          "key_milestones": ["Primary completion 2027-07"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "MIPLYFFA (arimoclomol)", "indication": "Niemann-Pick Disease Type C (NPC)", "regions": ["US"], "status": "FDA approved Sep 2024; EU MAA filed"},
+      {"name": "OLPRUVA (sodium phenylbutyrate)", "indication": "Urea cycle disorders (UCD)", "regions": ["US"]},
+      {"name": "AZSTARYS (serdexmethylphenidate/d-MPH)", "indication": "ADHD", "regions": ["US"], "status": "Royalty stream"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Serdexmethylphenidate (SDX) Phase 2 in idiopathic hypersomnia (NCT05668754) — COMPLETED, not in active development per pipeline disclosures"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 2,
+    "indications_active": 3,
+    "p3": 1,
+    "p2": 1,
+    "p1": 1
+  }
+}

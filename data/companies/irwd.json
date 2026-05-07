@@ -1,0 +1,78 @@
+{
+  "issuer_name": "IRONWOOD PHARMACEUTICALS INC",
+  "ticker": "IRWD",
+  "exchange": "Nasdaq",
+  "cik": "0001446847",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001104659-26-020489",
+      "path": "data/irwd_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.ironwoodpharma.com/pipeline",
+      "extracted": "Apraglutide (GLP-2 analog) for SBS-IF; LINZESS commercial product"
+    },
+    "ctgov": {
+      "paths": [
+        "data/irwd_ctgov_compact.json (sponsor: Ironwood Pharmaceuticals)",
+        "data/irwd_apra_ctgov_compact.json (sponsor: VectivBio AG — apraglutide trials)"
+      ],
+      "note": "Apraglutide trials sponsored by VectivBio AG (acquired by Ironwood June 2023); supplementary fetch performed."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Apraglutide",
+      "aka": ["FE 203799"],
+      "modality": "Long-acting synthetic peptide GLP-2 analog, once-weekly subcutaneous",
+      "target": "GLP-2 receptor",
+      "license_origin": "Acquired via VectivBio acquisition (June 2023); originally GlyPharma Therapeutics",
+      "indications": [
+        {
+          "indication": "Short bowel syndrome with intestinal failure (SBS-IF) on parenteral support",
+          "highest_phase": "Phase 3",
+          "trial_name": "STARS (pivotal); STARS Extend (OLE); STARS-2 (confirmatory, planned)",
+          "trial_design": "STARS: pivotal Phase 3 of once-weekly SC apraglutide in adult SBS-IF patients dependent on parenteral support; primary endpoint % reduction in PS volume at Week 24 (met). STARS Extend: open-label Phase 3 long-term safety extension. STARS-2: confirmatory Phase 3 with FDA-aligned design; site initiations Q2 2026.",
+          "nct_ids": ["NCT04627025", "NCT05018286"],
+          "trial_status": "STARS COMPLETED (met primary endpoint, 25.5% PS volume reduction vs 12.5% placebo); STARS Extend ACTIVE_NOT_RECRUITING; STARS-2 PLANNED Q2 2026",
+          "lead_sponsor": "VectivBio AG (Ironwood subsidiary)",
+          "key_milestones": [
+            "Feb 2024: Pivotal STARS topline positive on primary endpoint",
+            "Apr 2025: FDA required confirmatory Phase 3 (STARS-2)",
+            "Q4 2025: FDA alignment on STARS-2 design",
+            "Q2 2026: STARS-2 site initiations expected"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "LINZESS (linaclotide)",
+    "modality": "Oral guanylate cyclase-C (GC-C) agonist",
+    "indications": "Adult IBS-C, adult CIC, pediatric (6-17) functional constipation; pediatric (7+) IBS-C",
+    "partners": "AbbVie (US + ROW ex-China/Japan); AstraZeneca (China); Astellas (Japan); marketed as CONSTELLA in Canada/EU"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "IW-3718 (gastric retentive bile acid sequestrant for refractory GERD) — Phase 3 NCT03561090 terminated 2020",
+    "IW-3300 interstitial cystitis Phase 2 (NCT05740007) — terminated",
+    "IW-9179 (gastroparesis, functional dyspepsia) Phase 2 — discontinued",
+    "MD-7246 IBS-D Phase 2 — completed; not advanced",
+    "Apraglutide Phase 2 in acute GVHD (NCT05415410) — terminated",
+    "Multiple completed legacy linaclotide Phase 2/3 studies supportive of approved label"
+  ],
+  "excluded_partner_owned": [
+    "Linaclotide programs commercialized/run by AbbVie, AstraZeneca, Astellas — already approved; not pipeline"
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "indications_total": 1,
+    "p3_indications": 1,
+    "p2_indications": 0,
+    "p1_indications": 0
+  }
+}

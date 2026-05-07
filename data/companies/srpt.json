@@ -1,0 +1,232 @@
+{
+  "issuer_name": "Sarepta Therapeutics, Inc.",
+  "ticker": "SRPT",
+  "exchange": "Nasdaq",
+  "cik": "0000873303",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-084144", "filing_date": "2026-03-02", "path": "data/srpt_10k_pipeline_section.html"},
+    "website": {"url": "https://www.sarepta.com/pipeline", "fetched": "2026-05-06", "note": "Lists SRP-1001/1002/1003/1004/1005/1006/1007 siRNA programs and SRP-9003 gene therapy"},
+    "ctgov": {"path": "data/srpt_ctgov_compact.json", "sponsor_query": "Sarepta Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "delandistrogene moxeparvovec",
+      "aka": ["SRP-9001", "ELEVIDYS", "delandistrogene moxeparvovec-rokl"],
+      "modality": "AAVrh74 gene therapy",
+      "target": "DMD micro-dystrophin transgene",
+      "license_origin": "Internal / Nationwide Children's Hospital (partnered with Roche ex-US)",
+      "indications": [
+        {
+          "indication": "Duchenne muscular dystrophy (DMD) - non-ambulatory and ambulatory expansion",
+          "highest_phase": "P3",
+          "trial_name": "ENVISION",
+          "trial_design": "Randomized placebo-controlled gene transfer therapy in non-ambulatory and ambulatory DMD",
+          "nct_ids": ["NCT05881408"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": ["Primary completion 2027-05"]
+        },
+        {
+          "indication": "DMD - long-term follow-up",
+          "highest_phase": "P3",
+          "trial_name": "ELEVATE",
+          "trial_design": "Long-term follow-up of prior delandistrogene moxeparvovec recipients",
+          "nct_ids": ["NCT05967351"],
+          "trial_status": "ENROLLING_BY_INVITATION",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "DMD - children under age 4",
+          "highest_phase": "P2",
+          "trial_name": "ENDEAVOR-2 / Roche-led",
+          "trial_design": "Open-label safety/expression in <4 yrs DMD",
+          "nct_ids": ["NCT06128564"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Hoffmann-La Roche",
+          "key_milestones": []
+        },
+        {
+          "indication": "DMD - safety/expression cohort expansion",
+          "highest_phase": "P1",
+          "trial_name": "ENDEAVOR",
+          "trial_design": "Open-label gene transfer therapy",
+          "nct_ids": ["NCT04626674"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "bidridistrogene xeboparvovec",
+      "aka": ["SRP-9003", "scAAVrh74.MHCK7.hSGCB"],
+      "modality": "AAVrh74 gene therapy",
+      "target": "beta-sarcoglycan (SGCB) transgene",
+      "license_origin": "Nationwide Children's Hospital",
+      "indications": [
+        {
+          "indication": "Limb-Girdle Muscular Dystrophy Type 2E/R4 (beta-sarcoglycanopathy) - pivotal",
+          "highest_phase": "P3",
+          "trial_name": "EMERGENE",
+          "trial_design": "Single-arm, gene transfer in LGMD2E/R4",
+          "nct_ids": ["NCT06246513"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": ["Filed BLA seeking accelerated approval"]
+        },
+        {
+          "indication": "LGMD2E/R4 - non-ambulatory & ambulatory",
+          "highest_phase": "P1",
+          "trial_name": "Study SRP-9003-101",
+          "trial_design": "Open-label gene transfer single dose",
+          "nct_ids": ["NCT05876780"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "eteplirsen (high-dose)",
+      "aka": ["AVI-4658", "EXONDYS 51 high-dose", "MIS51ON"],
+      "modality": "Phosphorodiamidate morpholino oligomer (PMO) - exon 51 skipping",
+      "target": "DMD pre-mRNA exon 51",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Duchenne muscular dystrophy amenable to exon 51 skipping (high-dose comparison)",
+          "highest_phase": "P3",
+          "trial_name": "MIS51ON",
+          "trial_design": "Randomized comparison of high doses of eteplirsen vs approved dose",
+          "nct_ids": ["NCT03992430"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": ["Primary completion 2026-10"]
+        }
+      ]
+    },
+    {
+      "asset": "SRP-1005",
+      "aka": [],
+      "modality": "siRNA (Arrowhead-partnered TRiM platform)",
+      "target": "Huntingtin (HTT)",
+      "license_origin": "Arrowhead Pharmaceuticals collaboration",
+      "indications": [
+        {
+          "indication": "Huntington's disease",
+          "highest_phase": "P1",
+          "trial_name": "First-in-human SRP-1005",
+          "trial_design": "Randomized placebo-controlled FIH",
+          "nct_ids": ["NCT07536061"],
+          "trial_status": "NOT_YET_RECRUITING",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": ["Start 2026-05"]
+        }
+      ]
+    },
+    {
+      "asset": "SRP-1001",
+      "aka": [],
+      "modality": "siRNA (TRiM)",
+      "target": "Undisclosed CNS target",
+      "license_origin": "Arrowhead collaboration",
+      "indications": [
+        {
+          "indication": "Undisclosed CNS indication",
+          "highest_phase": "P1",
+          "trial_name": "PLANNED - SRP-1001 FIH",
+          "trial_design": "Planned first-in-human",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - clinical-stage per company website (April 2026), no public registry record yet",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SRP-1003",
+      "aka": [],
+      "modality": "siRNA (TRiM)",
+      "target": "Undisclosed (Arrowhead-licensed)",
+      "license_origin": "Arrowhead collaboration",
+      "indications": [
+        {
+          "indication": "Undisclosed",
+          "highest_phase": "P1",
+          "trial_name": "PLANNED - SRP-1003 FIH",
+          "trial_design": "Planned first-in-human",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - listed clinical on company pipeline; no NCT yet",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SRP-1002",
+      "aka": [],
+      "modality": "siRNA (TRiM)",
+      "target": "Undisclosed",
+      "license_origin": "Arrowhead collaboration",
+      "indications": [
+        {
+          "indication": "Undisclosed",
+          "highest_phase": "P1",
+          "trial_name": "PLANNED - SRP-1002 FIH",
+          "trial_design": "Planned first-in-human",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - listed clinical on company pipeline; no NCT yet",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "SRP-1006",
+      "aka": [],
+      "modality": "siRNA (TRiM)",
+      "target": "Undisclosed",
+      "license_origin": "Arrowhead collaboration",
+      "indications": [
+        {
+          "indication": "Undisclosed",
+          "highest_phase": "P1",
+          "trial_name": "PLANNED - SRP-1006 FIH",
+          "trial_design": "Planned first-in-human",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED - listed clinical on company pipeline; no NCT yet",
+          "lead_sponsor": "Sarepta Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": ["ELEVIDYS (delandistrogene moxeparvovec-rokl)", "EXONDYS 51 (eteplirsen)", "VYONDYS 53 (golodirsen)", "AMONDYS 45 (casimersen)"],
+    "note": "All approved for Duchenne muscular dystrophy"
+  },
+  "excluded_preclinical": ["SRP-1004", "SRP-1005 (also clinical NCT07536061 included above)", "SRP-1007"],
+  "excluded_legacy_terminated": [
+    "NCT03675126 SRP-5051 OLE - TERMINATED",
+    "NCT04004065 vesleteplirsen - TERMINATED",
+    "NCT06952686 SRP-9005 P3 - WITHDRAWN",
+    "NCT05906251 SRP-6004 - TERMINATED",
+    "NCT06747273 SRP-9004 - TERMINATED",
+    "NCT06241950 SRP-9001+imlifidase - TERMINATED",
+    "NCT06597656 SRP-9001+plasmapheresis - TERMINATED",
+    "NCT03652259 SRP-9003 P1/2 - TERMINATED",
+    "Multiple legacy AVI- antiviral / cardiovascular programs - completed/terminated long ago"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 8,
+    "P3": 3,
+    "P2": 1,
+    "P1": 4,
+    "approved_commercial": 4
+  }
+}

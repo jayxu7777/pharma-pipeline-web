@@ -1,0 +1,64 @@
+{
+  "issuer_name": "CG Oncology, Inc.",
+  "ticker": "CGON",
+  "exchange": "Nasdaq",
+  "cik": "0001991792",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/cgon_10k_pipeline_section.html", "filing_date": "2026-02-27", "accession": "0001193125-26-079498"},
+    "website": {"url": "https://www.cgoncology.com/pipeline", "note": "Single-asset pipeline; details reconstructed from 10-K and ctgov."},
+    "ctgov": {"file": "data/cgon_ctgov_compact.json", "active_cgon_led_count": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "cretostimogene grenadenorepvec",
+      "aka": ["CG0070"],
+      "modality": "Oncolytic immunotherapy (intravesical adenovirus)",
+      "target": "GM-CSF-armed selectively replicating adenovirus",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "High-risk BCG-unresponsive non-muscle invasive bladder cancer (NMIBC) with CIS +/- Ta/T1, monotherapy",
+          "highest_phase": "Phase 3",
+          "trial_name": "BOND-003 Cohort C",
+          "trial_design": "Single-arm Phase 3 of cretostimogene + DDM (n-dodecyl-B-D-maltoside) intravesical",
+          "nct_ids": ["NCT04452591"],
+          "trial_status": "Active not recruiting",
+          "lead_sponsor": "CG Oncology, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Intermediate-risk NMIBC adjuvant post-TURBT",
+          "highest_phase": "Phase 3",
+          "trial_name": "PIVOT-006",
+          "trial_design": "Randomized cretostimogene + DDM vs surveillance after TURBT",
+          "nct_ids": ["NCT06111235"],
+          "trial_status": "Active not recruiting (enrollment completed Q3 2025)",
+          "lead_sponsor": "CG Oncology, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "High-risk BCG-naive NMIBC and BCG-exposed NMIBC (mono and combo with gemcitabine)",
+          "highest_phase": "Phase 2",
+          "trial_name": "CORE-008 (Cohorts A, B, CX)",
+          "trial_design": "Cohort A BCG-naive monotherapy; Cohort CX cretostimogene + gemcitabine",
+          "nct_ids": ["NCT06567743"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "CG Oncology, Inc.",
+          "key_milestones": ["Initial Cohort A data SUO 2024"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": ["CORE-001 (cretostimogene + pembrolizumab Ph2 in BCG-unresponsive NMIBC) - completed/data only, no longer enrolling"],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3_indications": 2,
+    "phase_2_indications": 1,
+    "phase_1_indications": 0
+  }
+}

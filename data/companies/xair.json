@@ -1,0 +1,90 @@
+{
+  "issuer_name": "Beyond Air, Inc.",
+  "ticker": "XAIR",
+  "exchange": "Nasdaq",
+  "cik": "0001641631",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001641172-25-015750",
+      "filing_date": "2025-06-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1641631/000164117225015750/form10-k.htm"
+    },
+    "website": {
+      "url": "https://beyondair.net/pipeline"
+    },
+    "ctgov": {
+      "query_sponsor": "Beyond Air Inc.",
+      "active_p1_p3_trials_recruiting": 1,
+      "completed_or_withdrawn_excluded": 6
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "UNO (Ultra-High Concentration Nitric Oxide)",
+      "aka": ["gNO injection", "intratumoral NO"],
+      "modality": "Inhaled/intratumoral gas (nitric oxide >10,000 ppm) delivered via proprietary device",
+      "target": "Tumor microenvironment / innate-adaptive immune activation",
+      "license_origin": "Internal (Beyond Cancer subsidiary)",
+      "indications": [
+        {
+          "indication": "Unresectable solid primary or metastatic tumors (cutaneous / subcutaneous; combination with anti-PD-1)",
+          "highest_phase": "P1",
+          "trial_name": "Safety and Efficacy of Nitric Oxide Injection Into Unresectable Solid Tumors (Phase 1 / 1b)",
+          "trial_design": "Open-label dose-escalation (25,000 / 50,000 / 100,000 ppm) with Phase 1b expansion in combination with anti-PD-1",
+          "nct_ids": ["NCT05351502"],
+          "trial_status": "Recruiting (start 2022-08-14; primary completion 2025-05-30 per ctgov)",
+          "lead_sponsor": "Beyond Air Inc. (via Beyond Cancer)",
+          "key_milestones": [
+            "Phase 1a monotherapy completed in cutaneous/subcutaneous tumors with no DLTs through 50,000 ppm",
+            "Phase 1b expansion with UNO + anti-PD-1 underway"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "LungFit PH": {
+      "type": "Drug-device combination (low-concentration inhaled nitric oxide system, =80 ppm)",
+      "regulatory_status": "FDA approved; CE Mark approved",
+      "indication": "Persistent pulmonary hypertension of the newborn (PPHN) in hospital NICU"
+    }
+  },
+  "excluded_preclinical": [
+    {
+      "asset": "BA-101",
+      "indication": "Glioblastoma (nNOS inhibitor; NeuroNOS subsidiary)",
+      "reason": "Preclinical; first-in-human Phase 1 expected by end of 2026 per 10-K"
+    },
+    {
+      "asset": "BA-102",
+      "indication": "Autism Spectrum Disorder / Phelan-McDermid Syndrome / Alzheimer's (nNOS inhibitor; NeuroNOS subsidiary)",
+      "reason": "Preclinical / IND-enabling; first-in-human Phase 1 expected by end of 2026 per 10-K"
+    },
+    {
+      "asset": "LungFit PRO (high-concentration iNO 150-400 ppm) — VCAP and bronchiolitis",
+      "reason": "US VCAP pivotal pilot study placed on hold pending additional financing (per company pipeline page); no active recruiting trial in ctgov as of snapshot date"
+    },
+    {
+      "asset": "LungFit GO (at-home iNO 80-400 ppm) — NTM lung infection / COPD exacerbations",
+      "reason": "FDA trial design discussions ongoing; COPD pilot on hold pending financing; not yet in an active P1-P3 trial"
+    }
+  ],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT04060979", "indication": "Bronchiolitis (P2)", "status": "COMPLETED"},
+    {"nct_id": "NCT01768884", "indication": "Bronchiolitis (P1/P2)", "status": "COMPLETED"},
+    {"nct_id": "NCT03053388", "indication": "Bronchiolitis (P3)", "status": "COMPLETED"},
+    {"nct_id": "NCT01958944", "indication": "Cystic Fibrosis (P1/P2)", "status": "COMPLETED"},
+    {"nct_id": "NCT03208764", "indication": "Mycobacterium Abscessus (P2)", "status": "COMPLETED"},
+    {"nct_id": "NCT04456088", "indication": "COVID-19 (P2 CANADA Trial)", "status": "WITHDRAWN"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 0,
+    "P2": 0,
+    "P1": 1
+  }
+}

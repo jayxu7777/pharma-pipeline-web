@@ -1,0 +1,46 @@
+{
+  "issuer_name": "Fulcrum Therapeutics, Inc.",
+  "ticker": "FULC",
+  "exchange": "Nasdaq",
+  "cik": "0001680581",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-065197", "filing_date": "2026-02-24", "doc": "fulc-20251231.htm"},
+    "website": {"url": "https://www.fulcrumtx.com/pipeline", "note": "Pipeline details embedded in image; supplemental info from 10-K used."},
+    "ctgov": {"sponsor_query": "Fulcrum Therapeutics", "studies_returned": 10}
+  },
+  "pipeline": [
+    {
+      "asset": "pociredir",
+      "aka": ["FTX-6058"],
+      "modality": "Small molecule (EED/PRC2 inhibitor)",
+      "target": "EED (Embryonic Ectoderm Development) component of PRC2",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Sickle Cell Disease (SCD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Open-Label Extension Study to PIONEER (6058-SCD-101)",
+          "trial_design": "Open-label extension evaluating longer-term safety and PD durability in patients who completed the PIONEER Phase 1b trial",
+          "nct_ids": ["NCT07401823", "NCT07431398", "NCT05169580"],
+          "trial_status": "OLE (NCT07401823) ENROLLING_BY_INVITATION; PK study (NCT07431398) RECRUITING; Phase 1b PIONEER (NCT05169580) dosing complete; registration-enabling trial planned H2 2026 pending FDA feedback",
+          "lead_sponsor": "Fulcrum Therapeutics",
+          "key_milestones": [
+            "Q2 2026: details on next trial design after End-of-Phase FDA meeting",
+            "Mid-2026: EMA protocol assistance",
+            "H2 2026: planned initiation of registration-enabling trial"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Discovery/preclinical hematology programs (not specified in filing)"],
+  "excluded_legacy_terminated": [
+    "losmapimod for FSHD — Phase 3 REACH (NCT05397470) TERMINATED Nov 2024; Phase 2 NCT04003974/NCT04004000/NCT04264442 TERMINATED or COMPLETED",
+    "losmapimod for COVID-19 (NCT04511819) — TERMINATED"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 1, "P1": 0, "total_assets": 1}
+}

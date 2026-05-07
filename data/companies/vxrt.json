@@ -1,0 +1,75 @@
+{
+  "issuer_name": "Vaxart, Inc.",
+  "ticker": "VXRT",
+  "exchange": "OTC",
+  "cik": "0000072444",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-008023", "filing_date": "2026-03-13", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://www.vaxart.com/pipeline", "fetched": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Vaxart", "fetched": "2026-05-06"}
+  },
+  "pipeline": [
+    {
+      "asset": "VXA-CoV2-3.3",
+      "aka": [],
+      "modality": "Oral recombinant adenoviral-vectored vaccine (tablet)",
+      "target": "SARS-CoV-2 spike + N",
+      "license_origin": "Internal (BARDA-supported Project NextGen)",
+      "indications": [
+        {
+          "indication": "COVID-19 prophylaxis",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2b vs FDA-approved mRNA booster",
+          "trial_design": "Randomized active-comparator Phase 2b",
+          "nct_ids": ["NCT06672055"],
+          "trial_status": "Active, not recruiting (sentinel cohort fully enrolled)",
+          "lead_sponsor": "Vaxart",
+          "key_milestones": ["Primary completion 2026-11"]
+        }
+      ]
+    },
+    {
+      "asset": "Bivalent norovirus oral vaccine (VXA-G1.1-NN + VXA-G2.4-NS)",
+      "aka": ["VXA-NVV-104", "VXA-NVV-204"],
+      "modality": "Oral recombinant adenoviral-vectored bivalent vaccine (tablet)",
+      "target": "Norovirus GI.1 and GII.4 capsid",
+      "license_origin": "Internal (Gates Foundation-supported maternal program)",
+      "indications": [
+        {
+          "indication": "Norovirus prophylaxis (adults)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Bivalent norovirus Phase 2",
+          "trial_design": "Randomized, placebo-controlled Phase 2",
+          "nct_ids": ["NCT05626803"],
+          "trial_status": "Completed (data reported)",
+          "lead_sponsor": "Vaxart",
+          "key_milestones": []
+        },
+        {
+          "indication": "Norovirus maternal immunization / lactating mothers and nursing infants",
+          "highest_phase": "Phase 1",
+          "trial_name": "Lactating Females Phase 1",
+          "trial_design": "Open-label Phase 1",
+          "nct_ids": ["NCT07254728"],
+          "trial_status": "Active (Gates Foundation supported)",
+          "lead_sponsor": "Vaxart",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Influenza oral tablet vaccine", "reason": "10-K notes prior Phase 2 challenge data; no active registered trial currently"},
+    {"asset": "HPV oral tablet vaccine", "reason": "Preclinical / no current registered trial"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "VXA-RSV-f", "nct_ids": ["NCT02830932"], "reason": "Phase 1 completed; program deprioritized"},
+    {"asset": "BTA-C585 (RSV)", "nct_ids": ["NCT02718937"], "reason": "Legacy Biota Pharma program"},
+    {"asset": "Laninamivir octanoate / CS-8958", "reason": "Legacy Biota program"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 2, "phase_3": 0, "phase_2": 2, "phase_1": 1}
+}

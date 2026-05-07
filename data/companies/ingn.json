@@ -1,0 +1,47 @@
+{
+  "issuer_name": "Inogen Inc",
+  "ticker": "INGN",
+  "exchange": "Nasdaq",
+  "cik": "0001294133",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-082630",
+      "filing_date": "2026-02-27",
+      "doc": "ingn-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.inogen.com/",
+      "note": "Product pages only; no pipeline page and no drug/therapeutic program disclosed."
+    },
+    "ctgov": {
+      "sponsor_query": "Inogen",
+      "unique_trials_p1_p3": 0,
+      "note": "No company-sponsored P1-P3 interventional drug trials returned."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "summary": "Commercial-stage manufacturer of FDA-cleared portable and stationary oxygen concentrators for long-term oxygen therapy (chronic respiratory conditions, primarily COPD).",
+    "products": [
+      {"name": "Inogen Rove 6", "category": "Portable oxygen concentrator (POC)"},
+      {"name": "Inogen Rove 4", "category": "Portable oxygen concentrator (POC)"},
+      {"name": "Inogen One G5", "category": "Portable oxygen concentrator (POC)"},
+      {"name": "Inogen One G4", "category": "Portable oxygen concentrator (POC)"},
+      {"name": "Inogen At Home", "category": "Stationary home oxygen concentrator"},
+      {"name": "Inogen Voxi 5", "category": "Stationary home oxygen concentrator"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Medical-device company (portable / stationary oxygen concentrators). No proprietary drug or biologic in clinical development; no company-sponsored P1-P3 trials on ClinicalTrials.gov."
+}

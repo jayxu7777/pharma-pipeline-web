@@ -1,0 +1,72 @@
+{
+  "issuer_name": "Xeris Biopharma Holdings, Inc.",
+  "ticker": "XERS",
+  "exchange": "Nasdaq",
+  "cik": "0001867096",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-02",
+      "accession": "0001867096-26-000016",
+      "path": "data/xers_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.xerispharma.com/pipeline",
+      "error": "WebFetch timed out; relied on 10-K which clearly identifies XP-8121 as sole active pipeline asset."
+    },
+    "ctgov": {
+      "path": "data/xers_ctgov_compact.json",
+      "query_sponsor": "Xeris Pharmaceuticals",
+      "note": "All Xeris-sponsored studies returned (incl. XP-8121 Phase 2 NCT05823012) are COMPLETED or TERMINATED; no active enrollment."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "XP-8121",
+      "aka": ["once-weekly subcutaneous levothyroxine"],
+      "modality": "Once-weekly subcutaneous injection (XeriSol non-aqueous formulation) of levothyroxine",
+      "target": "Thyroid hormone replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Hypothyroidism (adults)",
+          "highest_phase": "Phase 3",
+          "trial_name": "XP-8121 Phase 3 (planned)",
+          "trial_design": "Phase 3 clinical trial planned for initiation in 2026, following completed Phase 2 PK/PD study (NCT05823012)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 3 initiation planned for 2026 per FY2025 10-K",
+          "lead_sponsor": "Xeris Biopharma Holdings, Inc.",
+          "key_milestones": [
+            "Phase 2 NCT05823012 completed",
+            "Estimated TAM 3-5M+ U.S. patients; $1-3B peak sales opportunity per company"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "Gvoke", "indication": "Severe hypoglycemia rescue (ready-to-use glucagon)"},
+      {"name": "Recorlev (levoketoconazole)", "indication": "Endogenous Cushing's syndrome"},
+      {"name": "Keveyis (dichlorphenamide)", "indication": "Primary periodic paralysis"}
+    ]
+  },
+  "excluded_preclinical": [
+    "Formulation feasibility programs under XeriSol/XeriJect with undisclosed partners (small molecules, peptides, biologics, mAbs)"
+  ],
+  "excluded_legacy_terminated": [
+    "Multiple completed historical Phase 2/3 glucagon programs (G-Pen, G-Pump, G-Pen Mini) — supportive of approved Gvoke",
+    "Pram-insulin co-formulation Phase 2 — completed",
+    "Hyperinsulinemic hypoglycemia post-bariatric Phase 2 — completed"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "indications_total": 1,
+    "p3_indications": 1,
+    "p2_indications": 0,
+    "p1_indications": 0
+  }
+}

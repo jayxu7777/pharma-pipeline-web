@@ -1,0 +1,44 @@
+{
+  "issuer_name": "OSR Holdings, Inc.",
+  "ticker": "OSRH",
+  "exchange": "Nasdaq",
+  "cik": "0001840425",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001213900-26-037395",
+      "path": "data/osrh_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://osrholdings.com/",
+      "error": "Corporate site is a JS redirect to /lander; no public pipeline page accessible. Subsidiary sites (vaximm.com 403; darnatein.com pipeline page returns no extractable data)."
+    },
+    "ctgov": {
+      "primary_path": "data/osrh_ctgov_compact.json",
+      "primary_unique_trials_p1_p3": 0,
+      "vaximm_path": "data/osrh_vax_ctgov_compact.json",
+      "vaximm_trials": "4 historical VXM01 studies (NCT01486329, NCT02718430, NCT02718443, NCT03750071); all COMPLETED or UNKNOWN, none active",
+      "darnatein_path": "data/osrh_drn_ctgov_compact.json",
+      "darnatein_trials": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "Darnatein BMP-based regenerative biologics", "reason": "Korean biotech subsidiary, preclinical stage; no IND or P1-P3 trial disclosed in 10-K or on ctgov."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "VXM01 (oral S. typhi Ty21a-based VEGFR-2 DNA cancer immunotherapy)", "trials": ["NCT01486329 pancreatic P1 COMPLETED 2014", "NCT02718430 mCRC P1 COMPLETED 2018", "NCT02718443 glioblastoma P1 COMPLETED 2017", "NCT03750071 GBM + avelumab P1/2 status UNKNOWN since 2021"], "reason": "All sponsor-led VAXIMM trials completed or status unknown; no active P1-P3 enrollment."}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "VXM01 platform", "partner": "BCM Europe AG (BCME)", "deal": "Nov 21, 2025 global exclusive license; Jan 13, 2026 binding term sheet ($30M upfront, up to $815M milestones). BCME (largest OSRH shareholder) responsible for development and out-licensing. Excluded as partner-controlled going forward."}
+  ],
+  "commercial_product": {
+    "subsidiary_RMC_Co_Ltd": "Korean medical device distribution; revenue $2.83M (FY2025).",
+    "subsidiary_WORIO_Woori_IO": "Acquired Jan 26, 2026; non-invasive biosensing (glucose monitoring) device development — no marketed product yet."
+  },
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Holding company with three operating units: VAXIMM (sole asset VXM01 globally licensed out to BCM Europe in Nov 2025 — no longer OSRH-controlled); Darnatein (Korean preclinical regenerative biologics, no IND); RMC (medical device distribution); WORIO (non-invasive glucose biosensor device, pre-commercial). No active P1-P3 sponsor-led drug trials remain at OSRH."
+}

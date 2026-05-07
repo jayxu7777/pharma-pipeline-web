@@ -1,0 +1,20 @@
+{
+  "issuer_name": "ELITE PHARMACEUTICALS INC /NV/",
+  "ticker": "ELTP",
+  "exchange": "OTC",
+  "cik": "0001053369",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001641172-25-017134", "filing_date": "2025-06-30", "doc": "form10-k.htm"},
+    "website": {"error": "no public clinical pipeline page; commercial generics manufacturer"},
+    "ctgov": {"file": "data/eltp_ctgov_compact.json", "n_records": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Elite Pharmaceuticals is a commercial-stage specialty/generic pharmaceutical manufacturer (ANDAs and NDAs for abuse-deterrent and generic oral solid dose products); it does not run interventional Phase 1/2/3 clinical trials of novel drug candidates. ClinicalTrials.gov returned zero P1-P3 trials with Elite as sponsor.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

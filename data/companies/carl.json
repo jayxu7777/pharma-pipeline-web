@@ -1,0 +1,43 @@
+{
+  "issuer_name": "CARLSMED, INC.",
+  "ticker": "CARL",
+  "exchange": "Nasdaq",
+  "cik": "0001794546",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-071551",
+      "filing_date": "2026-02-25",
+      "doc": "carl-20251231.htm"
+    },
+    "website": {
+      "url": "https://carlsmed.com/",
+      "note": "No /pipeline page (404). Homepage references aprevo Clinical Evidence but lists no specific named active trials with NCT IDs."
+    },
+    "ctgov": {
+      "sponsor_query": "Carlsmed",
+      "result": "Zero P1-P3 trials returned with Carlsmed as lead sponsor or collaborator."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "platform": "aprevo Technology Platform",
+    "products": [
+      "aprevo Personalized Interbody Implants — FDA-cleared 510(k) for lumbar spinal fusion (cleared 2020) and for cervical spinal fusion",
+      "myaprevo — 3D surgical planning and visualization software supporting aprevo"
+    ],
+    "stage": "Commercial-stage medical device company; AI-enabled personalized spine fusion; commercializing in U.S. only"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Commercial-stage medtech (personalized spine fusion devices). All current products are FDA-cleared 510(k) devices in commercial use; no active company-sponsored P1/P2/P3 clinical trials and no NCT records under Carlsmed sponsorship. No proprietary drug pipeline."
+}

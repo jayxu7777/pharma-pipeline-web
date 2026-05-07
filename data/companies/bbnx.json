@@ -1,0 +1,113 @@
+{
+  "issuer_name": "Beta Bionics, Inc.",
+  "ticker": "BBNX",
+  "exchange": "Nasdaq",
+  "cik": "0001674632",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-067065",
+      "filing_date": "2026-02-24",
+      "doc": "bbnx-20251231.htm",
+      "note": "Commercial-stage medical device company. Marketed product: iLet Bionic Pancreas (FDA cleared May 2023, T1D, ages 6+). Active development: (1) Mint tubeless patch pump (510(k) ACE pump, target launch end-2027); (2) Bihormonal iLet (insulin + glucagon) with shelf-stable glucagon formulation licensed from Xeris under XeriSol — pre-pivotal and pivotal trials planned, NDA contemplated for glucagon; PK/PD trial completed in Canada Sep 2025; first-in-human Phase 2a feasibility trial completed in New Zealand Q4 2025; additional Phase 2a planned H1 2026; (3) iLet expansion to T2D — additional 510(k), no specific timeline."
+    },
+    "website": {
+      "url": "https://www.betabionics.com/",
+      "note": "Corporate site features the marketed iLet system; does not enumerate development pipeline assets, trial phases or NCT IDs publicly."
+    },
+    "ctgov": {
+      "result_count": 3,
+      "active_trials_with_beta_bionics_collaborator": ["NCT06449677"],
+      "completed_legacy_trials": ["NCT03840278", "NCT02971228"],
+      "note": "Sponsor-search returned 3 P1/P2/P3 trials with Beta Bionics as collaborator. Note: the Phase 2a bihormonal feasibility trials cited in the 10-K (Canada PK/PD; New Zealand FIH) do not appear under Beta Bionics sponsor search on ClinicalTrials.gov — likely registered on Health Canada / ANZCTR rather than ctgov."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Bihormonal iLet glucagon formulation (XeriSol-based)",
+      "aka": ["BBNX glucagon product candidate", "shelf-stable glucagon for pump use"],
+      "modality": "Small-molecule peptide hormone reformulation (non-aqueous XeriSol) for pump delivery",
+      "target": "Glucagon receptor agonist (counter-regulatory hormone)",
+      "license_origin": "Exclusive worldwide license from Xeris Pharmaceuticals (Collaboration and License Agreement, May 2024); royalty-bearing; $0.5M upfront + $3.0M milestone paid to date",
+      "indications": [
+        {
+          "indication": "Chronic glycemic control in diabetes mellitus (Type 1 diabetes, in combination with the bihormonal iLet pump system)",
+          "highest_phase": "P2",
+          "trial_name": "Bihormonal iLet first-in-human Phase 2a feasibility trial (New Zealand) and Canada PK/PD bridging trial",
+          "trial_design": "Phase 2a feasibility study evaluating the integrated bihormonal system (glucagon formulation + pump + dosing algorithms); separate Canadian PK/PD trial bridging to prior bihormonal data from three pre-pivotal inpatient and six pre-pivotal outpatient trials of earlier glucagon formulations",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Canadian PK/PD trial COMPLETED Sep 2025; New Zealand Phase 2a feasibility COMPLETED Q4 2025 (no safety signals reported); additional Phase 2a feasibility trial PLANNED to initiate H1 2026; pivotal trial planned thereafter prior to NDA submission",
+          "lead_sponsor": "Beta Bionics, Inc.",
+          "key_milestones": [
+            "Sep 2025: PK/PD trial in Canada completed",
+            "Q4 2025: First-in-human Phase 2a feasibility trial completed in New Zealand",
+            "H1 2026 (planned): Initiate additional Phase 2a feasibility trial",
+            "Future: pre-pivotal and pivotal clinical trials prior to FDA 510(k) for device + NDA for glucagon"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "category": "Automated insulin delivery (medical device)",
+    "products": [
+      {
+        "name": "iLet Bionic Pancreas",
+        "indication": "Type 1 diabetes in adults and children >= 6 years",
+        "regulatory": "FDA 510(k) cleared May 2023; commercially launched May 2023 (US)",
+        "installed_base": "35,011 iLets as of Dec 31, 2025",
+        "cgm_integrations": ["Dexcom G6", "Dexcom G7", "Abbott FreeStyle Libre 3 Plus"],
+        "partnerships": [
+          "DexCom Commercialization Agreement (Jul 2023) — Combined Platform with G6/G7",
+          "Abbott Diabetes Care Development & Commercialization Agreement (Apr 2024) — Libre-Beta System"
+        ]
+      }
+    ],
+    "device_development_programs": [
+      {
+        "name": "Mint patch pump",
+        "description": "Next-generation tubeless insulin patch pump, two-part design (reusable controller + disposable cartridge), waterproof, smartphone-controlled",
+        "regulatory_path": "FDA 510(k) ACE (alternate controller enabled) pump",
+        "target_launch": "End of 2027"
+      },
+      {
+        "name": "iLet for Type 2 diabetes",
+        "description": "Indication expansion of iLet to insulin-dependent T2D",
+        "regulatory_path": "Additional FDA 510(k) clearance required",
+        "timeline": "Studies needed; no specific timeline disclosed"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "nct_id": "NCT03840278",
+      "title": "The Bihormonal iLet Bionic Pancreas Feasibility Study",
+      "status": "COMPLETED 2019",
+      "reason": "Legacy completed feasibility trial of an earlier bihormonal formulation; lead sponsor was Massachusetts General Hospital, not Beta Bionics."
+    },
+    {
+      "nct_id": "NCT02971228",
+      "title": "Feasibility Trial Testing the Bionic Pancreas With ZP4207",
+      "status": "COMPLETED 2017",
+      "reason": "Legacy completed feasibility trial of dasiglucagon (ZP4207) with the bionic pancreas; lead sponsor was Zealand Pharma."
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "nct_id": "NCT06449677",
+      "title": "Bionic Pancreas in CFRD",
+      "status": "RECRUITING (Phase 3, primary completion 2026-09-30)",
+      "reason": "Investigator-initiated trial of the iLet device in cystic fibrosis-related diabetes; lead sponsor is Jaeb Center for Health Research with funding from the Cystic Fibrosis Foundation. Beta Bionics is a collaborator only and does not control the trial. The iLet itself is FDA-cleared (commercial product), not a pipeline drug asset; this trial is excluded per the rule that investigator-initiated device studies are not part of the company's own pipeline."
+    }
+  ],
+  "summary_counts": {
+    "P1": 0,
+    "P2": 1,
+    "P3": 0,
+    "total_assets": 1
+  },
+  "no_active_clinical_pipeline_reason": null
+}

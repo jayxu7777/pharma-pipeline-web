@@ -1,0 +1,147 @@
+{
+  "issuer_name": "Replimune Group, Inc.",
+  "ticker": "REPL",
+  "exchange": "Nasdaq",
+  "cik": "0001737953",
+  "region": "US/UK",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001737953-25-000009",
+      "filing_date": "2025-05-22",
+      "doc": "repl-20250331.htm",
+      "fiscal_year_end": "2025-03-31"
+    },
+    "website": {
+      "url": "https://www.replimune.com/pipeline/"
+    },
+    "ctgov": {
+      "query_sponsor": "Replimune",
+      "studies_returned": 14,
+      "active_p123_company_sponsored": 8
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Vusolimogene oderparepvec (RP1)",
+      "aka": ["RP1", "VO"],
+      "modality": "Oncolytic immunotherapy: engineered HSV-1 expressing GM-CSF + GALV-GP R-",
+      "target": "Tumor lysis + immune activation (intratumoral injection)",
+      "license_origin": "Internal (Immvira Therapeutics tech / Replimune RPx platform)",
+      "indications": [
+        {
+          "indication": "Advanced anti-PD-1 failed melanoma (confirmatory)",
+          "highest_phase": "Phase 3",
+          "trial_name": "IGNYTE-3",
+          "trial_design": "Randomized Phase 3: VO + nivolumab vs physician's choice (nivolumab, nivo+relatlimab/Opdualag, pembrolizumab, or single-agent chemo)",
+          "nct_ids": ["NCT06264180"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Replimune, Inc.",
+          "key_milestones": [
+            "BLA under FDA review with PDUFA action date April 10, 2026 (per company website narrative)"
+          ]
+        },
+        {
+          "indication": "Anti-PD-1 failed melanoma + non-melanoma skin cancers (Merkel, basal cell, cSCC, angiosarcoma cohorts)",
+          "highest_phase": "Phase 2",
+          "trial_name": "IGNYTE",
+          "trial_design": "Open-label Phase 2; RP1 monotherapy or RP1 + nivolumab",
+          "nct_ids": ["NCT03767348"],
+          "trial_status": "Active, not recruiting (enrollment completed)",
+          "lead_sponsor": "Replimune, Inc.",
+          "key_milestones": [
+            "BLA submitted (melanoma cohort); FDA accelerated approval pathway"
+          ]
+        },
+        {
+          "indication": "Skin cancers in organ transplant recipients (cSCC, BCC, Merkel cell)",
+          "highest_phase": "Phase 1/Phase 2",
+          "trial_name": "ARTACUS",
+          "trial_design": "Open-label Phase 1b/2 RP1 intratumoral monotherapy",
+          "nct_ids": ["NCT04349436"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Replimune, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cutaneous squamous cell carcinoma (CERPASS combo)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RP1 + cemiplimab Phase 2",
+          "trial_design": "Cemiplimab alone vs cemiplimab + RP1",
+          "nct_ids": ["NCT04050436"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Replimune, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RP2",
+      "aka": [],
+      "modality": "Oncolytic immunotherapy: engineered HSV-1 expressing GM-CSF + GALV-GP R- + anti-CTLA-4 antibody",
+      "target": "Tumor lysis + intratumoral CTLA-4 blockade + immune activation",
+      "license_origin": "Internal (RPx platform)",
+      "indications": [
+        {
+          "indication": "Metastatic uveal melanoma",
+          "highest_phase": "Phase 2/Phase 3",
+          "trial_name": "REVEAL (RP2-202)",
+          "trial_design": "Randomized Phase 2/3 RP2 + nivolumab + ipilimumab",
+          "nct_ids": ["NCT06581406"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Replimune, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Locally advanced/metastatic HCC and biliary tract cancer (2L combos)",
+          "highest_phase": "Phase 2",
+          "trial_name": "RP2-003 HCC/BTC Phase 2",
+          "trial_design": "RP2 + bevacizumab/atezolizumab/durvalumab combinations or monotherapy",
+          "nct_ids": ["NCT05733598"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Replimune, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Advanced solid tumors (basket)",
+          "highest_phase": "Phase 1",
+          "trial_name": "RP2 monotherapy/+ nivolumab Phase 1",
+          "trial_design": "Open-label dose escalation/expansion",
+          "nct_ids": ["NCT04336241"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Replimune, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RP3",
+      "aka": [],
+      "modality": "Oncolytic immunotherapy: engineered HSV-1 expressing GM-CSF + GALV-GP R- + anti-CTLA-4 + CD40L + 4-1BBL",
+      "target": "Tumor lysis + multi-immune costimulation",
+      "license_origin": "Internal (RPx platform)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "RP3 monotherapy and + nivolumab Phase 1",
+          "trial_design": "Open-label dose escalation/expansion",
+          "nct_ids": ["NCT04735978"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Replimune, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "phase_3": 1,
+    "phase_2": 4,
+    "phase_1": 4
+  }
+}

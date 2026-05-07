@@ -1,0 +1,212 @@
+{
+  "issuer_name": "INSMED Inc",
+  "ticker": "INSM",
+  "exchange": "Nasdaq",
+  "cik": "0001104506",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-19",
+      "accession": "0001104506-26-000009",
+      "path": "data/insm_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://insmed.com/science/product-portfolio-pipeline/",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/insm_ctgov_compact.json",
+      "lead_sponsor_query": "Insmed"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Brensocatib",
+      "aka": ["INS1007", "AZD7986"],
+      "modality": "Small molecule (oral DPP1 inhibitor)",
+      "target": "Dipeptidyl peptidase 1 (DPP1)",
+      "license_origin": "In-licensed from AstraZeneca (2016)",
+      "indications": [
+        {
+          "indication": "Hidradenitis suppurativa (moderate-to-severe)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 HS study",
+          "trial_design": "Randomized, double-blind, placebo-controlled",
+          "nct_ids": ["NCT06685835"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Insmed Incorporated",
+          "key_milestones": ["Primary completion: Feb 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Treprostinil Palmitil Inhalation Powder (TPIP)",
+      "aka": ["INS1009"],
+      "modality": "Inhaled prodrug small molecule (prostacyclin analog)",
+      "target": "Prostacyclin receptor",
+      "license_origin": "Internal (Insmed)",
+      "indications": [
+        {
+          "indication": "Pulmonary hypertension associated with interstitial lung disease (PH-ILD)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TPIP PH-ILD Phase 3 program",
+          "trial_design": "Randomized, double-blind, placebo-controlled (NCT07179380); open-label extension (NCT07234032)",
+          "nct_ids": ["NCT07179380", "NCT07234032"],
+          "trial_status": "Recruiting (pivotal); Not yet recruiting (OLE)",
+          "lead_sponsor": "Insmed Incorporated",
+          "key_milestones": ["Pivotal start Jan 2026"]
+        },
+        {
+          "indication": "Pulmonary arterial hypertension (PAH)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TPIP PAH Phase 3",
+          "trial_design": "Randomized, double-blind, placebo-controlled pivotal (NCT07481981); ongoing P2/P3 OLE (NCT05649748)",
+          "nct_ids": ["NCT07481981", "NCT05649748"],
+          "trial_status": "Not yet recruiting (pivotal); Active, not recruiting (OLE)",
+          "lead_sponsor": "Insmed Incorporated",
+          "key_milestones": ["Phase 3 PAH initiation 2026"]
+        },
+        {
+          "indication": "Progressive pulmonary fibrosis (PPF)",
+          "highest_phase": "Phase 2",
+          "trial_name": "TPIP PPF Phase 2",
+          "trial_design": "Per company pipeline disclosure",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 2 per company pipeline page",
+          "lead_sponsor": "Insmed Incorporated",
+          "key_milestones": []
+        },
+        {
+          "indication": "Idiopathic pulmonary fibrosis (IPF)",
+          "highest_phase": "Phase 2",
+          "trial_name": "TPIP IPF Phase 2",
+          "trial_design": "Per company pipeline disclosure",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 2 per company pipeline page",
+          "lead_sponsor": "Insmed Incorporated",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Amikacin Liposome Inhalation Suspension (ALIS, ARIKAYCE label expansion)",
+      "aka": ["ALIS", "LAI"],
+      "modality": "Inhaled liposomal antibiotic",
+      "target": "30S bacterial ribosome (aminoglycoside)",
+      "license_origin": "Internal (Insmed)",
+      "indications": [
+        {
+          "indication": "Mycobacterium avium complex (MAC) lung disease — first-line / front-line label expansion (ENCORE)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ENCORE (Phase 3b)",
+          "trial_design": "Randomized, controlled, multi-center",
+          "nct_ids": ["NCT04677569"],
+          "trial_status": "Completed (Nov 2025); ATS 2026 readout",
+          "lead_sponsor": "Insmed Incorporated",
+          "key_milestones": ["Late-breaking ATS 2026 readout"]
+        }
+      ]
+    },
+    {
+      "asset": "INS1201",
+      "aka": [],
+      "modality": "AAV-based gene therapy (intrathecal)",
+      "target": "Dystrophin restoration",
+      "license_origin": "Insmed Gene Therapy LLC",
+      "indications": [
+        {
+          "indication": "Duchenne muscular dystrophy (DMD), ambulatory males",
+          "highest_phase": "Phase 1",
+          "trial_name": "INS1201 DMD Phase 1",
+          "trial_design": "Open-label, single-dose intrathecal",
+          "nct_ids": ["NCT06817382"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Insmed Gene Therapy LLC",
+          "key_milestones": ["Primary completion 2028-01-31"]
+        }
+      ]
+    },
+    {
+      "asset": "INS1202",
+      "aka": [],
+      "modality": "AAV-based gene therapy (intrathecal)",
+      "target": "ALS-related gene (undisclosed in registry)",
+      "license_origin": "Insmed Gene Therapy LLC",
+      "indications": [
+        {
+          "indication": "Amyotrophic lateral sclerosis (ALS)",
+          "highest_phase": "Phase 1",
+          "trial_name": "INS1202 ALS Phase 1",
+          "trial_design": "Single intrathecal injection, safety/PD",
+          "nct_ids": ["NCT07290062"],
+          "trial_status": "Recruiting (start 2026-01-09)",
+          "lead_sponsor": "Insmed Gene Therapy LLC",
+          "key_milestones": ["Primary completion 2030-03-31"]
+        }
+      ]
+    },
+    {
+      "asset": "INS1148",
+      "aka": ["SCF248"],
+      "modality": "Monoclonal antibody",
+      "target": "SCF (stem cell factor) pathway",
+      "license_origin": "Internal (Insmed)",
+      "indications": [
+        {
+          "indication": "Interstitial lung disease",
+          "highest_phase": "Phase 1",
+          "trial_name": "INS1148 ILD Phase 1",
+          "trial_design": "Per company pipeline disclosure",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 1 per company pipeline page",
+          "lead_sponsor": "Insmed Incorporated",
+          "key_milestones": []
+        },
+        {
+          "indication": "Moderate-to-severe asthma",
+          "highest_phase": "Phase 1",
+          "trial_name": "INS1148 asthma Phase 1",
+          "trial_design": "Per company pipeline disclosure",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 1 per company pipeline page",
+          "lead_sponsor": "Insmed Incorporated",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "products": [
+      {"name": "ARIKAYCE", "indication": "Refractory MAC lung disease (adults)", "status": "Approved/Commercial"},
+      {"name": "BRINSUPRI (brensocatib)", "indication": "Non-cystic fibrosis bronchiectasis", "status": "Approved/Commercial — supported by Phase 3 NCT04594369 (ASPEN)"}
+    ]
+  },
+  "excluded_preclinical": [
+    "Next-Gen DPP1",
+    "INS1033 (RA, IBD)",
+    "Next-Gen Uricase (chronic refractory gout)",
+    "IgG Protease",
+    "Novel MOA",
+    "INS1203 (Stargardt disease)",
+    "Synthetic Rescue ASO (Ataxia Telangiectasia, AOA1)"
+  ],
+  "excluded_legacy_terminated": [
+    "Brensocatib in CRSsNP (NCT06013241) — Phase 2b BiRCh failed primary endpoint, program discontinued Dec 2025",
+    "TPIP in PAH NCT04791514 — Terminated",
+    "Legacy rhIGF-I/rhIGFBP-3 (Myotonic dystrophy NCT00577577, Noonan NCT00351221, Laron NCT00368173)",
+    "NDGA prostate cancer (UCSF-led, terminated)",
+    "Legacy SLIT cisplatin osteosarcoma NCT00102531",
+    "ARIKAYCE in cystic fibrosis Pseudomonas (NCT01315678 completed, NCT01315691 withdrawn, NCT01316276 completed) — no active CF program"
+  ],
+  "excluded_partner_owned": [
+    "STOP-COVID19 brensocatib NCT04817332 — Univ of Dundee sponsor, completed 2021"
+  ],
+  "summary_counts": {
+    "total_active_assets": 6,
+    "phase_3_indications": 3,
+    "phase_2_indications": 2,
+    "phase_1_indications": 4
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "issuer_name": "TACTILE SYSTEMS TECHNOLOGY INC",
+  "ticker": "TCMD",
+  "exchange": "Nasdaq",
+  "cik": "0001027838",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-016380",
+      "filing_date": "2026-02-17",
+      "fiscal_year_end": "2025-12-31",
+      "path": "data/tcmd_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.tactilemedical.com",
+      "note": "Corporate site has no /pipeline page (404). Product pages list commercial devices only: Flexitouch Plus, Entre Plus, Nimbl, Kylee, AffloVest."
+    },
+    "ctgov": {
+      "path": "data/tcmd_ctgov_compact.json",
+      "result": "2 P1/P2 trials returned: NCT07165340 (investigator-initiated, lead = UT Health Science Center Houston, Tactile is collaborator only) and NCT02946021 (Tactile-sponsored, COMPLETED 2018). Both are device studies of pneumatic compression (Flexitouch); neither is an active proprietary drug pipeline asset."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "lymphedema_portfolio": [
+      {"name": "Flexitouch Plus", "type": "Advanced pneumatic compression device", "indication": "Lymphedema (limb, head and neck), chronic venous insufficiency", "regulatory_status": "FDA 510(k) cleared (predecessor 2002; current Flexitouch 2006; head/neck indication 2016)"},
+      {"name": "Entre Plus", "type": "Pneumatic compression device", "indication": "Lymphedema", "regulatory_status": "FDA 510(k) cleared"},
+      {"name": "Nimbl", "type": "Compact pneumatic compression therapy device", "indication": "Lymphedema", "regulatory_status": "FDA 510(k) cleared"},
+      {"name": "Kylee", "type": "Lymphedema treatment product", "indication": "Lymphedema"}
+    ],
+    "respiratory_portfolio": [
+      {"name": "AffloVest", "type": "High-frequency chest wall oscillation (HFCWO) vest", "indication": "Airway clearance for chronic respiratory conditions and neuromuscular disorders", "regulatory_status": "FDA cleared; sold via DME distribution"}
+    ],
+    "fy2025_revenue_usd": 329500000,
+    "fy2025_net_income_usd": 19100000
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nctId": "NCT02946021", "title": "Response to Intermittent Pneumatic Compression Therapy in Head and Neck Cancer-Related Lymphedema", "phase": "PHASE1/PHASE2", "status": "COMPLETED 2018", "reason": "Completed device study; not an active P1/P2/P3 development program"}
+  ],
+  "excluded_partner_owned": [
+    {"nctId": "NCT07165340", "title": "Evaluation of Lymphatic Response to Physiotherapy in Patients With Swelling Associated With Superficial Venous Disease", "phase": "PHASE1/PHASE2", "status": "ENROLLING_BY_INVITATION", "lead_sponsor": "The University of Texas Health Science Center, Houston", "reason": "Investigator-initiated study; Tactile Medical is collaborator only, not lead sponsor"}
+  ],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0,
+    "commercial_devices": 5
+  },
+  "no_active_clinical_pipeline_reason": "Commercial-stage at-home medical device company (pneumatic compression for lymphedema/CVI; HFCWO vest for airway clearance). All products are FDA 510(k)-cleared and on market. No proprietary drug pipeline. The two ClinicalTrials.gov P1/P2 hits are either an investigator-initiated study led by UT Health Houston (Tactile only collaborator) or a completed 2018 device study; neither qualifies as an active P1/P2/P3 development asset."
+}

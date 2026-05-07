@@ -1,0 +1,54 @@
+{
+  "issuer_name": "BIOXYTRAN, INC",
+  "ticker": "BIXT",
+  "exchange": "OTC",
+  "cik": "0001445815",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-016798",
+      "filing_date": "2026-04-15",
+      "path": "data/bixt_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "no public pipeline page fetched"
+    },
+    "ctgov": {
+      "path": "data/bixt_ctgov_compact.json",
+      "trials_total": 2
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "ProLectin-M",
+      "aka": ["PLM"],
+      "modality": "Oral galactomannan polysaccharide (galectin-3 antagonist)",
+      "target": "Galectin-3 (LGALS3)",
+      "license_origin": "Licensed/acquired via Pharmalectin / NDPD Pharma (COVID-19 indication, 33% license)",
+      "indications": [
+        {
+          "indication": "COVID-19 (mild to moderate, non-hospitalized adults)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Oral ProLectin-M Phase 1b/2a (India, conducted by Bioxytran Inc.)",
+          "trial_design": "Randomized, blinded, placebo-controlled Phase 1b/2a in mild-to-moderate COVID-19; highest dose (16,800 mg/day) showed statistically significant earlier viral clearance and faster symptom resolution per 10-K (reported Mar 2026).",
+          "nct_ids": ["NCT05733780"],
+          "trial_status": "Completed (status UNKNOWN on registry; results reported Mar 2026); Phase 3 PROTECT trial planned (IND #153742, FDA-cleared Aug 2023, expected start Q3 2026 subject to financing)",
+          "lead_sponsor": "Bioxytran Inc.",
+          "key_milestones": ["Phase 3 PROTECT IND cleared by FDA Aug 2023", "Phase 3 start targeted Q3 2026 contingent on financing"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "BXT-25 (Acellular Oxygen Carrier for ischemic stroke; animal-tested only)",
+    "ProLectin-I (IV; SARS-CoV-2 hospitalized / Long COVID; Indian CDSCO IND only)",
+    "ProLectin-F (lung fibrosis; IND only)"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT05096052 PROTECT Phase 3 (Bioxytran/India, 2022) — UNKNOWN/abandoned; superseded by FDA Phase 3 PROTECT IND #153742"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_active": 1, "P3": 0, "P2": 1, "P1": 0}
+}

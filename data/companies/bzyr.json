@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Burzynski Research Institute, Inc.",
+  "ticker": "BZYR",
+  "exchange": "OTC",
+  "cik": "0000724445",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "fetch_10k.py could not locate pipeline section heading; full 10-K cached at data/bzyr_10k_full.htm but pipeline relied on ctgov as canonical asset list"},
+    "website": {"error": "no public corporate pipeline page identified for BRI"},
+    "ctgov": {"unique_trials_p1_p3": 26, "active_or_planned": 2, "lead_sponsor": "Burzynski Research Institute"}
+  },
+  "pipeline": [
+    {
+      "asset": "Antineoplaston A10 + AS2-1 (Atengenal + Astugenal)",
+      "aka": ["A10", "AS2-1", "Atengenal", "Astugenal", "Antineoplaston therapy"],
+      "modality": "Small molecule (peptide/amino-acid derivative combination)",
+      "target": "Undefined / proposed gene-regulatory mechanism",
+      "license_origin": "Internal (Burzynski Research Institute)",
+      "indications": [
+        {
+          "indication": "Diffuse Intrinsic Brainstem Glioma (DIPG) — efficacy",
+          "highest_phase": "P3",
+          "trial_name": "Study of Antineoplaston Therapy + Radiation vs. Radiation Only in Diffuse, Intrinsic, Brainstem Glioma",
+          "trial_design": "Randomized Phase 3, Antineoplaston A10/AS2-1 + radiation vs. radiation alone",
+          "nct_ids": ["NCT02887040"],
+          "trial_status": "NOT_YET_RECRUITING (start 2025-10)",
+          "lead_sponsor": "Burzynski Research Institute",
+          "key_milestones": ["Planned start Oct 2025", "Primary completion target Jun 2026"]
+        },
+        {
+          "indication": "Diffuse Intrinsic Brainstem Glioma (DIPG) — QT/QTc safety",
+          "highest_phase": "P3",
+          "trial_name": "Effect of Antineoplaston Therapy on the QT/QTc Interval In Subjects With Diffuse, Intrinsic, Brainstem Glioma",
+          "trial_design": "Phase 3 cardiac-safety substudy (QT/QTc) of Antineoplaston therapy",
+          "nct_ids": ["NCT02864888"],
+          "trial_status": "NOT_YET_RECRUITING (start 2027-06)",
+          "lead_sponsor": "Burzynski Research Institute",
+          "key_milestones": ["Planned start Jun 2027", "Primary completion target Dec 2029"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"note": "23 prior Antineoplaston Phase 2 single-arm trials across multiple solid tumor and CNS indications are COMPLETED, WITHDRAWN, or SUSPENDED per ctgov; not counted as active pipeline."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 1, "P2": 0, "P1": 0}
+}

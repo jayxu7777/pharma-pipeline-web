@@ -1,0 +1,49 @@
+{
+  "issuer_name": "Heron Therapeutics, Inc.",
+  "ticker": "HRTX",
+  "exchange": "Nasdaq",
+  "cik": "0000818033",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-26",
+      "accession": "0001193125-26-073515",
+      "path": "data/hrtx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.herontx.com/",
+      "note": "Commercial-stage biotechnology company; portfolio of marketed acute care and oncology products"
+    },
+    "ctgov": {
+      "path": "data/hrtx_ctgov_compact.json",
+      "trial_count": 20,
+      "note": "All 20 historical sponsor-led P1/P2/P3 trials are COMPLETED, WITHDRAWN, or TERMINATED — supported now-marketed products"
+    }
+  },
+  "no_active_clinical_pipeline_reason": "Heron Therapeutics is a commercial-stage biotechnology company with four FDA-approved products (ZYNRELEF, APONVIE, CINVANTI, SUSTOL). The 10-K Overview/Acute Care/Oncology Care portfolio sections describe only marketed products; no active P1/P2/P3 product candidates are described. HTX-034 (next-gen long-duration local anesthetic) appears in the IP/patent section only and has no active publicly registered trial since the 2020-2021 Phase 1b/2 program. All 20 historical sponsor trials in ctgov are Completed/Withdrawn/Terminated. R&D headcount is 7 (per 10-K human-capital section), consistent with minimal active clinical-stage pipeline.",
+  "pipeline": [],
+  "commercial_product": {
+    "approved": [
+      {"name": "ZYNRELEF", "ingredients": "bupivacaine + meloxicam", "indication": "Postsurgical analgesia (extended-release local anesthetic)", "fda_approval": "May 2021"},
+      {"name": "APONVIE", "ingredients": "IV aprepitant", "indication": "Postoperative nausea and vomiting (PONV)", "fda_approval": "Sep 2022"},
+      {"name": "CINVANTI", "ingredients": "IV aprepitant", "indication": "Chemotherapy-induced nausea and vomiting (CINV) — HEC and MEC", "fda_approval": "Nov 2017"},
+      {"name": "SUSTOL", "ingredients": "extended-release granisetron", "indication": "Acute and delayed CINV with MEC and AC regimens", "fda_approval": "Aug 2016"}
+    ]
+  },
+  "excluded_preclinical": [
+    "HTX-034 (next-generation long-duration postoperative pain combo: bupivacaine + meloxicam + potentiator) — last public clinical activity 2020-2021 Phase 1b/2; no active NCT-registered trial; appears in IP section of 2025 10-K only"
+  ],
+  "excluded_legacy_terminated": [
+    "All 17 COMPLETED + 2 WITHDRAWN + 1 TERMINATED historical Phase 1/2/3 trials supporting marketed products (ZYNRELEF/HTX-011, CINVANTI, SUSTOL, APONVIE)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0,
+    "indications_total": 0
+  }
+}

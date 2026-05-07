@@ -1,0 +1,123 @@
+{
+  "issuer_name": "MacroGenics, Inc.",
+  "ticker": "MGNX",
+  "exchange": "Nasdaq",
+  "cik": "0001125345",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001125345-26-000017", "filing_date": "2026-03-09", "path": "data/mgnx_10k_pipeline_section.html"},
+    "website": {"url": "https://www.macrogenics.com/pipeline/", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/mgnx_ctgov_compact.json", "trial_count": 50}
+  },
+  "pipeline": [
+    {
+      "asset": "Lorigerlimab",
+      "aka": ["MGD019"],
+      "modality": "Tetravalent bispecific DART antibody",
+      "target": "PD-1 x CTLA-4",
+      "license_origin": "In-house",
+      "indications": [
+        {
+          "indication": "Platinum-resistant ovarian cancer (PROC) and clear cell gynecologic cancer (CCGC)",
+          "highest_phase": "Phase 2",
+          "trial_name": "LINNET",
+          "trial_design": "Simon two-stage Phase 2 monotherapy in PROC (up to 40 patients) and CCGC (up to 20 patients); primary endpoint ORR",
+          "nct_ids": ["NCT06730347"],
+          "trial_status": "Recruiting; FDA partial clinical hold initiated Feb 2026 (Gr4 thrombocytopenia x2, Gr4 myocarditis, Gr4 neutropenia/septic shock leading to Gr5); no new enrollment until hold lifted; current participants continue dosing",
+          "lead_sponsor": "MacroGenics",
+          "key_milestones": ["LINNET initiated mid-2025", "Partial clinical hold Feb 2026", "Part 1 update mid-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "MGC026",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC) with SYNtecan E (TOP1i / exatecan-based payload, GlycoConnect site-specific conjugation)",
+      "target": "B7-H3",
+      "license_origin": "In-house (linker-payload via Synaffix collaboration)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (B7-H3 expressing)",
+          "highest_phase": "Phase 1",
+          "trial_name": "MGC026 Phase 1 dose escalation + expansion",
+          "trial_design": "Phase 1 dose escalation (enrollment complete 2025) + ongoing dose expansion in selected indications",
+          "nct_ids": ["NCT06242470"],
+          "trial_status": "Recruiting (expansion)",
+          "lead_sponsor": "MacroGenics",
+          "key_milestones": ["Initial dose-escalation results mid-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "MGC028",
+      "aka": [],
+      "modality": "Antibody-drug conjugate (ADC) with TOP1i-based payload",
+      "target": "ADAM9",
+      "license_origin": "In-house (first-in-class)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (ADAM9-expressing)",
+          "highest_phase": "Phase 1",
+          "trial_name": "MGC028 Phase 1 dose escalation",
+          "trial_design": "Phase 1 dose escalation in advanced solid tumors",
+          "nct_ids": ["NCT06723236"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "MacroGenics",
+          "key_milestones": ["Initial clinical data H2 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "MGD024",
+      "aka": [],
+      "modality": "Bispecific DART antibody (next-gen T-cell engager)",
+      "target": "CD123 x CD3",
+      "license_origin": "MacroGenics with Gilead exclusive option",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory hematologic malignancies (AML, MDS, etc.)",
+          "highest_phase": "Phase 1",
+          "trial_name": "MGD024 Phase 1",
+          "trial_design": "Phase 1 in relapsed or refractory hematologic malignancies",
+          "nct_ids": ["NCT05362773"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "MacroGenics",
+          "key_milestones": ["Gilead has exclusive option to license"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "out_licensed_or_sold": [
+      {"name": "ZYNYZ (retifanlimab-dlwr)", "target": "PD-1", "partner": "Incyte", "indications": ["Merkel cell carcinoma", "SCAC", "NSCLC"]},
+      {"name": "MARGENZA (margetuximab-cmkb)", "target": "HER2", "partner": "TerSera/Eversana", "indications": ["HER2+ metastatic breast cancer"]},
+      {"name": "TZIELD (teplizumab-mzwv)", "target": "CD3", "partner": "Sanofi", "indications": ["Type 1 diabetes (Stage 2 and 3)"]}
+    ]
+  },
+  "excluded_preclinical": ["MGC030 (undisclosed solid tumor ADC; IND target Q3 2026)", "Two undisclosed Gilead-partnered DART/TRIDENT preclinical programs"],
+  "excluded_legacy_terminated": [
+    "Vobramitamab duocarmazine NCT05551117 (terminated)",
+    "MGC018 NCT03729596 + NCT06227546 (B7-H3 ADC; terminated/IIT)",
+    "Flotetuzumab NCT02152956 + NCT04582864 + NCT05506956 (terminated/completed)",
+    "Enoblituzumab MGA271 various (NCT04634825 terminated; NCT04129320 withdrawn; NCT02475213/NCT02381314/NCT02982941 completed; NCT02923180 ANR; NCT06014255 IIT-active)",
+    "Margetuximab MGAH22 various (completed/withdrawn)",
+    "MGD009 B7-H3 NCT02628535 (terminated)",
+    "MGD007 NCT02248805 / NCT03531632 (completed)",
+    "Tebotelimab MGD013 NCT03219268 (completed)",
+    "MGD014 NCT03570918, MGD020 NCT05261191, MGAWN1 NCT00927953/NCT00515385, RAV12 NCT00101972/NCT00625586, Teplizumab MGA031 various (legacy)"
+  ],
+  "excluded_partner_owned": [
+    "Investigator-initiated lorigerlimab combos (M.D. Anderson NCT07223567 withdrawn, NCT07071961 ReLOAD suspended; NCT07565155 not yet recruiting; Sidney Kimmel NCT05848011 completed)",
+    "ImmunoGen IMGC936 NCT04622774 (out-licensed/completed)"
+  ],
+  "summary_counts": {
+    "total_assets": 4,
+    "phase_3": 0,
+    "phase_2": 1,
+    "phase_1": 3,
+    "approved_products": 3,
+    "indications_active": 4
+  }
+}

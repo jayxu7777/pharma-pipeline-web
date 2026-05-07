@@ -1,0 +1,260 @@
+{
+  "issuer_name": "Ligand Pharmaceuticals Incorporated",
+  "ticker": "LGNDZ",
+  "exchange": "OTC",
+  "cik": "0000886163",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only. Ligand is a royalty/financing aggregator; reported partnered programs that constitute its economic pipeline. Sponsor-led ctgov trials are minimal (most pre-2010). Marketed royalty products are excluded from the active P1-P3 pipeline list and noted under commercial_product.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-02-27",
+      "accession": "0000886163-26-000006",
+      "url": "https://www.sec.gov/Archives/edgar/data/886163/000088616326000006/lgnd-20251231.htm",
+      "note": "FY2025 10-K filed Feb 2026. Ligand's pipeline is its royalty portfolio: economic interests in partner-developed assets."
+    },
+    "website": {
+      "url": "https://www.ligand.com/royalty-portfolio/",
+      "note": "Royalty Portfolio page lists Key Pipeline Products and Key Commercial Products."
+    },
+    "ctgov": {
+      "sponsor_query": "Ligand Pharmaceuticals",
+      "active_p1_p3_company_sponsored": 0,
+      "note": "33 ctgov records under Ligand as lead sponsor; all COMPLETED, TERMINATED, or WITHDRAWN. No active sponsor-led P1-P3 trials. Active development is conducted by partners under their own NCT records."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Sparsentan",
+      "aka": ["Filspari"],
+      "modality": "Small molecule oral; dual endothelin and angiotensin II receptor antagonist (DEARA)",
+      "target": "Endothelin A receptor / angiotensin II type 1 receptor",
+      "license_origin": "Royalty (Travere Therapeutics; Chugai/CSL Vifor ex-US)",
+      "indications": [
+        {
+          "indication": "Focal segmental glomerulosclerosis (FSGS)",
+          "highest_phase": "Phase 3 / supplemental NDA path",
+          "trial_name": "DUPLEX (sparsentan in FSGS)",
+          "trial_design": "Randomized, double-blind, active-control Phase 3 in FSGS",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 readout reported by Travere; FSGS sNDA pending FDA action; partner-led",
+          "lead_sponsor": "Travere Therapeutics",
+          "key_milestones": [
+            "FSGS sNDA decision pending"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Botensilimab + Balstilimab",
+      "aka": ["BOT/BAL", "AGEN1181 + AGEN2034"],
+      "modality": "Monoclonal antibodies; multifunctional anti-CTLA-4 (botensilimab) + anti-PD-1 (balstilimab) combination",
+      "target": "CTLA-4 / PD-1",
+      "license_origin": "Royalty financing (Agenus, May 2024 agreement)",
+      "indications": [
+        {
+          "indication": "Microsatellite-stable metastatic colorectal cancer (MSS mCRC)",
+          "highest_phase": "Phase 3",
+          "trial_name": "BATTMAN (Agenus Phase 3 in MSS mCRC)",
+          "trial_design": "Randomized Phase 3 of BOT/BAL vs standard of care in third-line MSS mCRC",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 partner-led (Agenus)",
+          "lead_sponsor": "Agenus",
+          "key_milestones": [
+            "Phase 3 readout to be confirmed by Agenus"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "D-Fi (FCX-007)",
+      "aka": ["dabocemagene autoficel"],
+      "modality": "Autologous gene-modified fibroblast cell therapy expressing COL7A1",
+      "target": "COL7A1 (type VII collagen) replacement",
+      "license_origin": "Royalty financing (Castle Creek Biosciences, Feb 2025)",
+      "indications": [
+        {
+          "indication": "Recessive dystrophic epidermolysis bullosa (RDEB)",
+          "highest_phase": "Phase 3",
+          "trial_name": "DEFI-RDEB Phase 3 pivotal",
+          "trial_design": "Open-label Phase 3 pivotal in RDEB patients with persistent wounds",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 partner-led (Castle Creek)",
+          "lead_sponsor": "Castle Creek Biosciences",
+          "key_milestones": [
+            "Pivotal data readout from Castle Creek pending"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "Lasofoxifene",
+      "aka": [],
+      "modality": "Small molecule oral; selective estrogen receptor modulator (SERM)",
+      "target": "ESR1 (incl. mutant ESR1)",
+      "license_origin": "Royalty (LeonaBio (f/k/a Athira) ex-Asia; Henlius in Asia)",
+      "indications": [
+        {
+          "indication": "ER+/HER2- advanced/metastatic breast cancer with ESR1 mutation",
+          "highest_phase": "Phase 3",
+          "trial_name": "ELAINE-3 (lasofoxifene + abemaciclib vs fulvestrant + abemaciclib)",
+          "trial_design": "Randomized Phase 3 in ESR1-mutant ER+ advanced breast cancer",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 partner-led",
+          "lead_sponsor": "LeonaBio",
+          "key_milestones": [
+            "Phase 3 readout pending from licensee"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "AVIM therapy / Virtue SAB",
+      "aka": [],
+      "modality": "Atrioventricular interval modulation (device); Virtue SAB sirolimus angioplasty balloon",
+      "target": "Hypertension (AVIM); peripheral arterial disease below-the-knee (Virtue SAB)",
+      "license_origin": "Royalty financing (Orchestra BioMed, 2025)",
+      "indications": [
+        {
+          "indication": "Uncontrolled hypertension in pacemaker-indicated patients",
+          "highest_phase": "Phase 3 / pivotal",
+          "trial_name": "BACKBEAT (AVIM therapy in hypertension)",
+          "trial_design": "Pivotal randomized trial; partnered with Medtronic",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Pivotal trial active (partner-led, Orchestra BioMed/Medtronic)",
+          "lead_sponsor": "Orchestra BioMed Holdings",
+          "key_milestones": []
+        },
+        {
+          "indication": "Below-the-knee peripheral arterial disease",
+          "highest_phase": "Phase 3 / pivotal",
+          "trial_name": "Virtue SAB pivotal (Terumo partnership)",
+          "trial_design": "Pivotal study of sirolimus-coated angioplasty balloon",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Pivotal trial partner-led",
+          "lead_sponsor": "Orchestra BioMed Holdings (Terumo partnership)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Qtorin rapamycin 3.9% gel",
+      "aka": ["PTX-022", "QTORIN"],
+      "modality": "Topical small molecule (anhydrous gel); mTOR inhibitor",
+      "target": "mTOR",
+      "license_origin": "Royalty (Palvella Therapeutics; acquired Dec 2018)",
+      "indications": [
+        {
+          "indication": "Microcystic lymphatic malformations",
+          "highest_phase": "Phase 3 (SELVA pivotal)",
+          "trial_name": "SELVA Phase 3",
+          "trial_design": "Single-arm pivotal Phase 3 in microcystic lymphatic malformations",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 partner-led (Palvella)",
+          "lead_sponsor": "Palvella Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cutaneous venous malformations",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "TOIVA (Phase 2 in cutaneous venous malformations)",
+          "trial_design": "Open-label Phase 2",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (partner-led)",
+          "lead_sponsor": "Palvella Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "VK2809",
+      "aka": [],
+      "modality": "Small molecule oral; selective thyroid hormone receptor beta (TR-beta) agonist",
+      "target": "Thyroid hormone receptor beta",
+      "license_origin": "Royalty (Viking Therapeutics)",
+      "indications": [
+        {
+          "indication": "Non-alcoholic steatohepatitis (NASH/MASH)",
+          "highest_phase": "Phase 2b (VOYAGE)",
+          "trial_name": "VOYAGE (VK2809 in biopsy-confirmed NASH)",
+          "trial_design": "Randomized, double-blind, placebo-controlled Phase 2b",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2b completed by Viking; advancing planning",
+          "lead_sponsor": "Viking Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Ensifentrine (additional indications)",
+      "aka": ["Ohtuvayre additional indications"],
+      "modality": "Inhaled small molecule; PDE3/PDE4 inhibitor",
+      "target": "PDE3 / PDE4",
+      "license_origin": "Royalty (Verona / Merck following Oct 2025 acquisition)",
+      "indications": [
+        {
+          "indication": "Cystic fibrosis (and other inhaled indications beyond approved COPD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Partner-led ensifentrine line extensions",
+          "trial_design": "Multiple Phase 2 line-extension studies",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (partner-led, Merck)",
+          "lead_sponsor": "Merck (Verona Pharma)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Dinutuximab beta (Qarziba) line extensions",
+      "aka": [],
+      "modality": "Monoclonal antibody; anti-GD2",
+      "target": "GD2",
+      "license_origin": "Royalty (Recordati S.p.A.)",
+      "indications": [
+        {
+          "indication": "Additional pediatric oncology indications beyond approved high-risk neuroblastoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "Partner-led line extensions",
+          "trial_design": "Phase 1 / investigator-sponsored in select indications",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (partner-led, Recordati)",
+          "lead_sponsor": "Recordati S.p.A.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_royalty_assets": [
+      "Capvaxive (Merck) - infectious disease",
+      "Vaxneuvance (Merck) - infectious disease",
+      "Pneumosil (Serum Institute of India) - infectious disease",
+      "Filspari (Travere/Chugai/CSL Vifor) - IgA nephropathy",
+      "Kyprolis (Amgen/BeiGene/Ono) - oncology",
+      "Ohtuvayre (Merck/Verona) - COPD",
+      "Rylaze (Jazz Pharmaceuticals) - oncology (ALL)",
+      "Qarziba (Recordati) - high-risk neuroblastoma",
+      "Evomela (Acrotech/CASI) - oncology",
+      "Nexterone (Baxter) - cardiology",
+      "Teriparatide Injection (Alvogen) - osteoporosis",
+      "Zelsuvmi (Pelthos Therapeutics) - molluscum contagiosum"
+    ],
+    "platforms": ["Captisol (cyclodextrin solubility platform)", "NITRICIL (nitric oxide release platform)"]
+  },
+  "excluded_preclinical": [
+    "Multiple early-stage royalty financings disclosed in 10-K but not yet in clinic"
+  ],
+  "excluded_legacy_terminated": [
+    "Internal historical compounds (bexarotene/Targretin, PS433540, etc.) - all old completed/terminated"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 9,
+    "indications_total": 11,
+    "highest_phase_p3": 6,
+    "highest_phase_p2": 3,
+    "highest_phase_p1": 1,
+    "marketed_royalty_assets": 12
+  },
+  "no_active_clinical_pipeline_reason": null
+}

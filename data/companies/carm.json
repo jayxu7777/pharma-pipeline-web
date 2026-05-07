@@ -1,0 +1,38 @@
+{
+  "issuer_name": "Carisma Therapeutics Inc.",
+  "ticker": "CARM",
+  "exchange": "OTC",
+  "cik": "0001485003",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-25-015673",
+      "filing_date": "2025-03-31",
+      "doc": "carm-20241231.htm",
+      "path": "data/carm_10k_pipeline_section.html"
+    },
+    "website": {
+      "error": "Corporate site (carisma.com) certificate expired; carismatx.com page not directly fetched. Status confirmed via WebSearch of company press releases."
+    },
+    "ctgov": {
+      "path": "data/carm_ctgov_compact.json",
+      "trials_p1_p3": 2,
+      "note": "Both Carisma-sponsored trials (CT-0525 NCT06254807 and CT-0508 NCT04660929) listed as overallStatus=UNKNOWN; per Dec 2024 company release CT-0525 enrollment ended (Cohort 3 cancelled) and CT-0508 development ceased."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per FY2024 10-K (filed 2025-03-31), Carisma announced strategic restructuring in Dec 2024, terminated employees not needed to pursue strategic alternatives, and is executing an orderly wind-down. Company ceased development of CT-0508 and CT-0525, paused CT-1119 (clinical-stage activities not yet initiated; IND-stage), and paused preclinical CT-2401. No active P1/P2/P3 sponsored trials remain; in vivo macrophage engineering platform programs are preclinical/IND-pending.",
+  "excluded_preclinical": [
+    {"asset": "CT-1119", "modality": "Anti-mesothelin CAR-Monocyte (next-gen, ex vivo)", "reason": "Phase 1 China trial planned but paused pending financing; IND not yet initiated per 10-K"},
+    {"asset": "CT-2401", "modality": "In vivo CAR therapy (preclinical)", "reason": "Preclinical; development paused"},
+    {"asset": "Liver fibrosis program (in vivo macrophage engineering)", "modality": "In vivo lipid nanoparticle / macrophage engineering", "reason": "Preclinical"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "CT-0508 (anti-HER2 CAR-Macrophage)", "nct_id": "NCT04660929", "reason": "Past product candidate; further development ceased per FY2024 10-K"},
+    {"asset": "CT-0525 (anti-HER2 CAR-Monocyte)", "nct_id": "NCT06254807", "reason": "Past product candidate; further development ceased Dec 2024 per company press release"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets_total": 0, "p3": 0, "p2": 0, "p1": 0}
+}

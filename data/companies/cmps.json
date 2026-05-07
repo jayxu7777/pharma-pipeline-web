@@ -1,0 +1,72 @@
+{
+  "issuer_name": "COMPASS Pathways plc",
+  "ticker": "CMPS",
+  "exchange": "Nasdaq",
+  "cik": "0001816590",
+  "region": "US (UK plc)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001816590-26-000020", "filing_date": "2026-03-24", "doc": "cmps-20251231.htm"},
+    "website": {"url": "https://compasspathways.com/our-research/", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "COMPASS Pathways", "trials_returned": 15}
+  },
+  "pipeline": [
+    {
+      "asset": "COMP360 (psilocybin)",
+      "aka": ["psilocybin", "COMP360 psilocybin"],
+      "modality": "Synthetic psilocybin (oral); investigational psychedelic therapy with psychological support",
+      "target": "5-HT2A receptor agonist",
+      "license_origin": "Internal (COMPASS Pathways)",
+      "indications": [
+        {
+          "indication": "Treatment-resistant depression (TRD) - pivotal Phase 3 program",
+          "highest_phase": "Phase 3",
+          "trial_name": "COMP005 (single-dose) and COMP006 (two-dose) Phase 3 TRD studies",
+          "trial_design": "Randomized, double-blind Phase 3; COMP005 single-dose 25 mg vs placebo; COMP006 two-dose 25 mg vs placebo or 10 mg",
+          "nct_ids": ["NCT05624268", "NCT05711940"],
+          "trial_status": "Active, not recruiting; COMP005 (NCT05624268) primary completion May 2025 (positive topline); COMP006 (NCT05711940) primary completion Feb 2026",
+          "lead_sponsor": "COMPASS Pathways",
+          "key_milestones": ["COMP006 readout"]
+        },
+        {
+          "indication": "Post-traumatic stress disorder (PTSD) - REDEFINE Phase 2/3",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "REDEFINE - COMP360 in PTSD",
+          "trial_design": "Randomized Phase 2/3 study evaluating efficacy, safety, tolerability of COMP360 in PTSD",
+          "nct_ids": ["NCT07570654"],
+          "trial_status": "Not yet recruiting (start September 2026)",
+          "lead_sponsor": "COMPASS Pathways",
+          "key_milestones": ["Trial initiation 2026-09"]
+        },
+        {
+          "indication": "Recurrent major depressive disorder (MDD) - Phase 2",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 multicenter randomized study of COMP360 in recurrent MDD",
+          "trial_design": "Phase 2 randomized double-blind controlled study",
+          "nct_ids": ["NCT05733546"],
+          "trial_status": "Active, not recruiting (primary completion Sep 2025)",
+          "lead_sponsor": "COMPASS Pathways",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "COMP360 in anorexia nervosa", "nct_id": "NCT05481736", "reason": "Phase 2 POC completed Nov 2024; not currently in active follow-on trial"},
+    {"asset": "COMP360 in PTSD (initial Phase 2)", "nct_id": "NCT05312151", "reason": "Phase 2 completed Feb 2024; superseded by REDEFINE"},
+    {"asset": "COMP360 in TRD (Phase 2b)", "nct_id": "NCT03775200", "reason": "Pivotal Phase 2b completed; superseded by Phase 3 COMP005/COMP006"},
+    {"asset": "COMP360 adjunctive TRD (P2)", "nct_id": "NCT04739865", "reason": "Phase 2 completed"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Investigator-initiated psilocybin trials", "nct_ids": ["NCT05220410", "NCT06247839", "NCT04433858", "NCT04656301", "NCT04661514", "NCT05381974", "NCT04433845"], "reason": "Investigator-sponsored academic studies (Sheppard Pratt, MGH, NYSPI, UCSD, MGH-Ghaznavi); COMPASS provides drug supply only"}
+  ],
+  "summary_counts": {
+    "total_clinical_assets": 1,
+    "phase_3": 1,
+    "phase_2": 0,
+    "phase_1": 0,
+    "note": "Single asset (COMP360 psilocybin) with multiple indications; highest = Phase 3 TRD"
+  }
+}

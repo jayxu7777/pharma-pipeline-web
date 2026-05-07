@@ -1,0 +1,84 @@
+{
+  "issuer_name": "Janux Therapeutics, Inc.",
+  "ticker": "JANX",
+  "exchange": "Nasdaq",
+  "cik": "0001817713",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-076918", "filing_date": "2026-02-26", "path": "data/janx_10k_pipeline_section.html"},
+    "website": {"error": "no public pipeline page found (janux.com redirects to lander; januxrx.com 404)"},
+    "ctgov": {"path": "data/janx_ctgov_compact.json", "sponsor_query": "Janux Therapeutics"}
+  },
+  "pipeline": [
+    {
+      "asset": "JANX007",
+      "aka": ["ENGAGER-PSMA-01 candidate"],
+      "modality": "PSMA-TRACTr (Tumor Activated T Cell Engager)",
+      "target": "PSMA x CD3",
+      "license_origin": "Internal (TRACTr platform)",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer (mCRPC)",
+          "highest_phase": "P1",
+          "trial_name": "ENGAGER-PSMA-01",
+          "trial_design": "Open-label dose-escalation +/- darolutamide in mCRPC",
+          "nct_ids": ["NCT05519449"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Janux Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "JANX008",
+      "aka": [],
+      "modality": "EGFR-TRACTr (T cell engager)",
+      "target": "EGFR x CD3",
+      "license_origin": "Internal (TRACTr platform)",
+      "indications": [
+        {
+          "indication": "Advanced/metastatic solid tumors (NSCLC, RCC, HNSCC, CRC, SCLC, PDAC, TNBC)",
+          "highest_phase": "P1",
+          "trial_name": "JANX008-001",
+          "trial_design": "Open-label dose-escalation/expansion in EGFR-expressing tumors",
+          "nct_ids": ["NCT05783622"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Janux Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "JANX014",
+      "aka": [],
+      "modality": "T cell engager (TRACTr)",
+      "target": "TROP2 x CD3 (per company disclosures)",
+      "license_origin": "Internal (TRACTr platform)",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer",
+          "highest_phase": "P1",
+          "trial_name": "JANX014-001",
+          "trial_design": "Open-label dose-escalation",
+          "nct_ids": ["NCT07545811"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Janux Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": ["Additional TRACTr and PD-1-Masked TRACIr platform programs"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 3,
+    "P3": 0,
+    "P2": 0,
+    "P1": 3,
+    "approved_commercial": 0
+  }
+}

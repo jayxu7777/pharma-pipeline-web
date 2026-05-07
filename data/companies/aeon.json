@@ -1,0 +1,27 @@
+{
+  "issuer_name": "AEON Biopharma, Inc.",
+  "ticker": "AEON",
+  "exchange": "NYSE",
+  "cik": "0001837607",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001837607-26-000019",
+      "filing_date": "2026-03-30",
+      "doc": "aeon-20251231x10k.htm"
+    },
+    "website": {"error": "no public pipeline page found (aeonbiopharma.com/pipeline returned 404)"},
+    "ctgov": {"trials_returned": 4, "active_p1_p2_p3": 0, "note": "All 4 prior Phase 2 trials are COMPLETED or TERMINATED"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "AEON pivoted ABP-450 from Phase 2/3 therapeutic clinical development to a biosimilar-to-BOTOX regulatory pathway. As of 2025-2026, the program is in analytical comparability and FDA Biosimilar Biological Product Development (BPD Type 2a/2b) discussions, not active interventional Phase 1/2/3 trials. All four prior ctgov Phase 2 studies (cervical dystonia, migraine prevention, and their extensions) are listed as COMPLETED or TERMINATED. No new active P1/P2/P3 study has been initiated.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ABP-450 (prabotulinumtoxinA)", "indication": "Cervical Dystonia", "nct_ids": ["NCT04849988", "NCT04871451"], "status": "COMPLETED"},
+    {"asset": "ABP-450 (prabotulinumtoxinA)", "indication": "Chronic Migraine prevention", "nct_ids": ["NCT04845178", "NCT05016661"], "status": "COMPLETED / TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p1": 0, "p2": 0, "p3": 0}
+}

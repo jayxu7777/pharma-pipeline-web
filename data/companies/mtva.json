@@ -1,0 +1,58 @@
+{
+  "issuer_name": "MetaVia Inc.",
+  "ticker": "MTVA",
+  "exchange": "Nasdaq",
+  "cik": "0001638287",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-034911", "filing_date": "2026-03-26", "doc": "mtva-20251231x10k.htm"},
+    "website": {"url": "https://www.metaviatx.com/clinical-pipeline-technology", "note": "Pipeline page not directly fetchable; corroborated via IR press releases at ir.metaviatx.com"},
+    "ctgov": {"sponsor_query": "MetaVia", "results": 0, "note": "No trials returned under MetaVia sponsor name; trials registered under prior sponsor names NeuroBo Pharmaceuticals Inc. and Dong-A ST. Drug-name searches used as fallback."}
+  },
+  "pipeline": [
+    {
+      "asset": "vanoglipel",
+      "aka": ["DA-1241"],
+      "modality": "Small molecule",
+      "target": "GPR119 agonist",
+      "license_origin": "In-licensed from Dong-A ST",
+      "indications": [
+        {
+          "indication": "Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2a study of DA-1241 in subjects with presumed NASH/MASH",
+          "trial_design": "Two-part, randomized, placebo-controlled Phase 2a evaluating efficacy and safety",
+          "nct_ids": ["NCT06054815"],
+          "trial_status": "Completed (Part 1 reported); Part 2 ongoing per 10-K",
+          "lead_sponsor": "NeuroBo Pharmaceuticals Inc. (now MetaVia Inc.)",
+          "key_milestones": ["Part 1 topline reported showing reductions in ALT, CAP, FAST, NIS-4 and biomarkers (CK18, hs-CRP, CCL2, TIMP1)"]
+        }
+      ]
+    },
+    {
+      "asset": "DA-1726",
+      "aka": [],
+      "modality": "Peptide (oxyntomodulin analog)",
+      "target": "GLP-1 receptor and glucagon receptor dual agonist",
+      "license_origin": "In-licensed from Dong-A ST",
+      "indications": [
+        {
+          "indication": "Obesity",
+          "highest_phase": "Phase 1",
+          "trial_name": "First-in-Human Phase 1 in Subjects With Obesity",
+          "trial_design": "Randomized, placebo-controlled, double-blind; SAD, MAD, and titration parts; ~139 participants; BMI 30-45",
+          "nct_ids": ["NCT06252220"],
+          "trial_status": "Recruiting (MAD 48 mg cohort extended to 8 weeks; higher-dose Part 3 dosed)",
+          "lead_sponsor": "NeuroBo Pharmaceuticals Inc. (now MetaVia Inc.)",
+          "key_milestones": ["~9% weight loss reported in MAD cohorts per company disclosures"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "P3": 0, "P2": 1, "P1": 1}
+}

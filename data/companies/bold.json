@@ -1,0 +1,83 @@
+{
+  "issuer_name": "Boundless Bio, Inc.",
+  "ticker": "BOLD",
+  "exchange": "Nasdaq",
+  "cik": "0001782303",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001193125-26-097543",
+      "filing_date": "2026-03-09",
+      "path": "data/bold_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.boundlessbio.com/what-we-do",
+      "note": "Company has no dedicated /pipeline page; asset detail on what-we-do."
+    },
+    "ctgov": {
+      "path": "data/bold_ctgov_compact.json",
+      "trial_count": 3
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "BBI-940",
+      "aka": [],
+      "modality": "Oral small-molecule kinesin degrader (ecDTx)",
+      "target": "Kinesin (KIF)",
+      "license_origin": "Internal (Spyglass platform)",
+      "indications": [
+        {
+          "indication": "ER+/HER2- breast cancer (with fulvestrant); TNBC luminal androgen receptor subtype",
+          "highest_phase": "Phase 1",
+          "trial_name": "KOMODO-1",
+          "trial_design": "First-in-human Phase 1 dose escalation/expansion in advanced or metastatic breast cancer; combination with fulvestrant arm",
+          "nct_ids": ["NCT07408089"],
+          "trial_status": "Recruiting (initiated February 2026)",
+          "lead_sponsor": "Boundless Bio, Inc.",
+          "key_milestones": ["Initial proof-of-concept clinical data anticipated as primary near-term milestone per 10-K"]
+        }
+      ]
+    },
+    {
+      "asset": "BBI-355",
+      "aka": ["POTENTIATE asset"],
+      "modality": "Oral small-molecule CHK1 inhibitor (ecDTx)",
+      "target": "Checkpoint kinase 1 (CHK1)",
+      "license_origin": "Internal (Spyglass platform)",
+      "indications": [
+        {
+          "indication": "Solid tumors with oncogene amplifications (TNBC, HGSOC, HG endometrial, HNSCC, CSCC, cervical SCC, ER+ BC, LMS, UPS, pancreatic, SCLC); combinations with erlotinib, futibatinib, BBI-825",
+          "highest_phase": "Phase 1",
+          "trial_name": "POTENTIATE",
+          "trial_design": "Phase 1/2 monotherapy and combination dose escalation/expansion in oncogene-amplified solid tumors",
+          "nct_ids": ["NCT05827614"],
+          "trial_status": "Active, not recruiting (de-prioritized as part of January 2026 portfolio focus on BBI-940)",
+          "lead_sponsor": "Boundless Bio, Inc.",
+          "key_milestones": ["Direct program spend reduced; company focused on BBI-940"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "RNR inhibitor program (preclinical, beyond BBI-825 which is terminated)",
+    "Additional CHK1 inhibitors in preclinical development"
+  ],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "BBI-825",
+      "trial": "STARMAP (NCT06299761)",
+      "reason": "Phase 1 trial terminated; primary completion 2025-06-25; program de-prioritized in January 2026 portfolio refocus"
+    }
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 2,
+    "active_trials": 2
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "issuer_name": "AXIM Biotechnologies, Inc.",
+  "ticker": "AXIM",
+  "exchange": "OTC",
+  "cik": "0001514946",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Company is a diagnostics-focused firm (FDA-cleared 510(k) point-of-care ophthalmic tests for Dry Eye Disease, plus a SARS-CoV-2 neutralizing antibody test). The therapeutic program (SPX-1009 oncology / QSOX1 inhibitor) is preclinical. The single ctgov record (NCT03098940, Dronabinol bioavailability) is a 2018 PHASE1 study with overallStatus UNKNOWN (legacy/likely terminated, completed primary in 2018-04). No active company-sponsored P1/P2/P3 trials.",
+  "sources": {
+    "10k": {
+      "filing_date": "2024-04-16",
+      "accession": "0001096906-24-000864",
+      "path": "data/axim_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://aximbiotech.com/",
+      "note": "Company site reachable; /pipeline path returns 404. Pipeline content surfaced via WebSearch and 10-K confirms diagnostics + preclinical therapeutics."
+    },
+    "ctgov": {
+      "path": "data/axim_ctgov_compact.json",
+      "trials_returned": 1,
+      "note": "Single record NCT03098940 PHASE1 status UNKNOWN, primary completion 2018-04 — excluded as legacy/terminated."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [
+    {"asset": "SPX-1009", "modality": "Small molecule QSOX1 inhibitor", "indication": "Oncology (anti-metastasis)", "stage": "Preclinical (in vitro studies completed)"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "Dronabinol chewing gum", "nct_id": "NCT03098940", "phase": "PHASE1", "status": "UNKNOWN", "primary_completion": "2018-04", "reason": "Stale UNKNOWN status from 2018; company has pivoted to diagnostics."}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "CBD toothpaste/mouthwash for periodontitis", "trial_sponsor": "Swinburne University of Technology (Australia)", "reason": "Investigator-initiated academic trial; AXIM is product supplier, not sponsor."}
+  ],
+  "commercial_product": {
+    "products": [
+      "T-POC Lactoferrin (FDA 510(k)-cleared point-of-care DED test)",
+      "T-POC IgE (FDA 510(k)-cleared point-of-care DED test)",
+      "MMP-9 quantitative tear test (in development)",
+      "ImmunoPass COVID-19 neutralizing antibody rapid test"
+    ],
+    "commercialization_partner": "Verséa Ophthalmics, LLC (exclusive global commercialization agreement signed 2022-09-19)"
+  },
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

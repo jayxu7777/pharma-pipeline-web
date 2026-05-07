@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Mosaic ImmunoEngineering Inc.",
+  "ticker": "CPMV",
+  "exchange": "OTC",
+  "cik": "0000836564",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001683168-26-002977",
+      "filing_date": "2026-04-15",
+      "primary_doc": "mosaic_i10k-123125.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found"
+    },
+    "ctgov": {
+      "sponsor_query": "Mosaic ImmunoEngineering",
+      "trials_returned": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "no_active_clinical_pipeline_reason": "Per FY2025 10-K, the company has no clinical-stage product candidates of its own. It is pursuing acquisition of clinical assets via a Binding Term Sheet with Oncotelic Therapeutics (vascular disruptive agents), but the term sheet expired June 30, 2025; only ongoing discussions remain. No active P1/P2/P3 trials owned or sponsored.",
+  "summary_counts": {
+    "assets": 0,
+    "indications": 0,
+    "p1_count": 0,
+    "p2_count": 0,
+    "p3_count": 0
+  }
+}

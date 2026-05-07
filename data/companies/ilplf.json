@@ -1,0 +1,47 @@
+{
+  "issuer_name": "Island Pharmaceuticals Ltd",
+  "ticker": "ILPLF",
+  "exchange": "OTC",
+  "cik": "0002012855",
+  "region": "AU",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (ASX-listed Australian biotech) — files 20-F / no 10-K on EDGAR"},
+    "website": {"url": "https://islandpharmaceuticals.com", "note": "Lead asset ISLA-101 confirmed; pipeline subpage returned 404; confirmation of asset taken from corporate homepage."},
+    "ctgov": {"unique_p1_p3_trials_with_company_as_sponsor": 2, "note": "Both Island-sponsored trials (NCT06181760 P1 healthy-volunteer safety; NCT06528457 P2 dengue human-challenge) currently show overallStatus=COMPLETED."}
+  },
+  "pipeline": [
+    {
+      "asset": "ISLA-101",
+      "aka": ["fenretinide", "4-HPR"],
+      "modality": "Small molecule (synthetic retinoid)",
+      "target": "Host-directed antiviral (lipid-raft / dihydroceramide pathway)",
+      "license_origin": "In-licensed (repurposed oncology compound)",
+      "indications": [
+        {
+          "indication": "Dengue fever (prophylaxis / treatment)",
+          "highest_phase": "P2",
+          "trial_name": "PROTECT (Dengue 1 Live Virus Human Challenge)",
+          "trial_design": "Phase 2a randomized, placebo-controlled human-challenge study evaluating oral fenretinide (ISLA-101) against DENV-1 live virus challenge",
+          "nct_ids": ["NCT06528457"],
+          "trial_status": "COMPLETED 2025-05-21 — top-line readout reported; company has stated intent to advance to next-stage dengue program",
+          "lead_sponsor": "Island Pharmaceuticals",
+          "key_milestones": ["Phase 1 healthy-volunteer safety NCT06181760 completed Feb 2024", "Phase 2a PROTECT human-challenge primary completion May 2025"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"nct": "NCT00106262", "reason": "Sponsor: Women and Infants Hospital — investigator-initiated, not Island"},
+    {"nct": "NCT03119064", "reason": "Sponsor: Brown University — investigator-initiated, not Island"},
+    {"nct": "NCT02257242", "reason": "Sponsor: Brown University — investigator-initiated, not Island"},
+    {"nct": "NCT01813773", "reason": "Sponsor: Ophthalmic Consultants of Long Island — unrelated to issuer"},
+    {"nct": "NCT01856933", "reason": "Sponsor: Heinrich Elinzano, MD — investigator-initiated, not Island"}
+  ],
+  "summary_counts": {"total_assets": 1, "p1": 0, "p2": 1, "p3": 0},
+  "no_active_clinical_pipeline_reason": null
+}

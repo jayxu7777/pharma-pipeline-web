@@ -1,0 +1,81 @@
+{
+  "issuer_name": "Incannex Healthcare Inc.",
+  "ticker": "IXHL",
+  "exchange": "Nasdaq",
+  "cik": "0001873875",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001213900-25-092837", "filed": "2025-09-29", "file": "data/ixhl_10k_pipeline_section.html"},
+    "website": {"url": "https://www.incannex.com/pipeline"},
+    "ctgov": {"file": "data/ixhl_ctgov_compact.json", "kept_p1_p3": 3, "note": "1 terminated (IHL-675A RA), 1 completed PK (IHL-42X), 1 active not recruiting (IHL-42X RePOSA)."}
+  },
+  "pipeline": [
+    {
+      "asset": "IHL-42X",
+      "aka": ["dronabinol + acetazolamide fixed-dose combination"],
+      "modality": "Oral fixed-dose combination (synthetic THC + carbonic anhydrase inhibitor)",
+      "target": "CB1/CB2 receptors (dronabinol) + carbonic anhydrase (acetazolamide)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Obstructive sleep apnea (OSA), particularly patients non-compliant/intolerant/naive to PAP",
+          "highest_phase": "Phase 2/3 (pivotal RePOSA)",
+          "trial_name": "RePOSA — Revealing the Efficacy of IHL-42X Use in Patients With OSA",
+          "trial_design": "Phase 2 dose-ranging (low/high IHL-42X vs placebo) followed by Phase 3 vs reference dronabinol, acetazolamide and placebo; ~560-patient pivotal program",
+          "nct_ids": ["NCT06146101"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (start 2024-05-02; primary completion 2026-12)",
+          "lead_sponsor": "Incannex Healthcare Ltd",
+          "key_milestones": ["Phase 2 portion dosing started May 2024", "Primary completion targeted Dec 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "PSX-001",
+      "aka": ["synthetic psilocybin"],
+      "modality": "Oral synthetic psilocybin combined with structured psychotherapy",
+      "target": "Serotonin 5-HT2A receptor agonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Generalized anxiety disorder (moderate-to-severe)",
+          "highest_phase": "Phase 2",
+          "trial_name": "PsiGAD program (PsiGAD1 completed; PsiGAD2 ongoing)",
+          "trial_design": "Phase 2 randomized study of synthetic psilocybin + psychotherapy vs control in moderate-to-severe GAD",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PsiGAD1 dosing completed Jan 2024 (positive); PsiGAD2 ongoing per company website",
+          "lead_sponsor": "Incannex Healthcare Ltd",
+          "key_milestones": ["PsiGAD1 readout 2024 — significant anxiety reduction", "PsiGAD2 in progress"]
+        }
+      ]
+    },
+    {
+      "asset": "IHL-675A",
+      "aka": ["CBD + hydroxychloroquine fixed-dose combination"],
+      "modality": "Oral fixed-dose combination (synthetic CBD + HCQ)",
+      "target": "Cannabinoid receptors + immunomodulator (HCQ)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Rheumatoid arthritis (planning US IND-opening study)",
+          "highest_phase": "Phase 1 complete; Phase 2 PLANNED (US)",
+          "trial_name": "PLANNED — US IND-opening Phase 2 in rheumatoid arthritis",
+          "trial_design": "Planned IND-opening study; previous Australian Phase 2 (NCT05942911) was terminated for recruitment challenges with insufficient data",
+          "nct_ids": [],
+          "trial_status": "PLANNED — strategy under development for US Phase 2 in RA after Australian Phase 2 termination",
+          "lead_sponsor": "Incannex Healthcare Ltd",
+          "key_milestones": ["Australian RA Phase 2 terminated 2024", "US IND strategy in development"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "IHL-675A in inflammatory bowel disease and COPD — preclinical/exploratory"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT05942911 — IHL-675A Phase 2 in rheumatoid arthritis (Australia), TERMINATED 2024 due to recruitment"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 2, "P1": 0, "total_assets": 3}
+}

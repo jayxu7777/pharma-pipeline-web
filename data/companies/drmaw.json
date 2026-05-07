@@ -1,0 +1,28 @@
+{
+  "issuer_name": "Dermata Therapeutics, Inc.",
+  "ticker": "DRMAW",
+  "exchange": "Nasdaq",
+  "cik": "0001853816",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "no_active_clinical_pipeline_reason": "Per FY2025 10-K (filed 2026-03-26): in September 2025 management strategically pivoted away from prescription drug development to OTC/cosmetic skincare distribution. The lead Rx asset XYNGARI (DMT310) — which had reported positive Phase 3 STAR-1 results in March 2025 — is no longer being developed as a prescription product. No active P1/P2/P3 clinical-stage pipeline remains; planned products are cosmetic/OTC (not under FDA NDA pathway).",
+  "sources": {
+    "10k": {"path": "data/drmaw_10k_pipeline_section.html", "filing_date": "2026-03-26", "accession": "0001493152-26-012992"},
+    "website": {"url": "https://www.dermatarx.com/new-index", "note": "Pipeline page shows only OTC 'Acne Kit' (not a clinical asset); pipeline image dated September 2025"},
+    "ctgov": {"path": "data/drmaw_ctgov_compact.json", "trials_kept": 6, "note": "All 6 trials are completed/unknown status; no active clinical-stage trials"}
+  },
+  "pipeline": [],
+  "commercial_product": null,
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "asset": "DMT310 / XYNGARI",
+      "reason": "Phase 3 STAR-1 successful (March 2025), but Rx development discontinued in September 2025 per strategic pivot to OTC/cosmetic. Asset to be re-purposed as OTC cosmetic, no NDA pathway."
+    },
+    {"asset": "DMT210", "reason": "Discontinued legacy topical gel program (rosacea/atopic dermatitis Phase 2 completed years ago, no further development)"},
+    {"asset": "DMT410", "reason": "Discontinued legacy botulinum toxin topical-delivery program (Phase 1 only, no further development)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "p3": 0, "p2": 0, "p1": 0}
+}

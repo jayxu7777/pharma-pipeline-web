@@ -1,0 +1,101 @@
+{
+  "issuer_name": "BioCardia, Inc.",
+  "ticker": "BCDA",
+  "exchange": "Nasdaq",
+  "cik": "0000925741",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001437749-26-009587", "filing_date": "2026-03-24", "form": "10-K", "fiscal_year_end": "2025-12-31"},
+    "website": {"url": "https://www.biocardia.com/pipeline", "note": "Cardiovascular cell therapy pipeline — CardiAMP autologous and CardiALLO/PulmALLO allogeneic MSC platforms"},
+    "ctgov": {"sponsor_query": "BioCardia", "trials_p1_p3": 4}
+  },
+  "pipeline": [
+    {
+      "asset": "CardiAMP Cell Therapy System (autologous bone marrow cells)",
+      "aka": ["BCDA-01", "BCDA-02"],
+      "modality": "Autologous bone marrow-derived cell therapy delivered transendocardially via Helix catheter (FDA Breakthrough Device Designation)",
+      "target": "Cardiac repair / regeneration",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Ischemic heart failure with reduced ejection fraction (HFrEF) — confirmatory pivotal",
+          "highest_phase": "Phase 3",
+          "trial_name": "CardiAMP HF II",
+          "trial_design": "Phase 3 multi-center, randomized, double-blinded, sham-controlled study of up to 250 patients with elevated NTproBNP at up to 40 US centers; primary endpoint Finkelstein-Schoenfeld composite of mortality, MACCE and quality of life",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Recruiting — four sites activated, enrollment ongoing (per FY2025 10-K)",
+          "lead_sponsor": "BioCardia, Inc.",
+          "key_milestones": [
+            "Pivotal CardiAMP HF (NCT02438306) primary completion Feb 2025; Q-Sub planned to FDA on approvability based on subgroup with elevated heart-stress biomarkers",
+            "PMDA clinical consultation in Japan scheduled to align on use of existing data for market release"
+          ]
+        },
+        {
+          "indication": "Chronic myocardial ischemia (CMI) with refractory angina",
+          "highest_phase": "Phase 3",
+          "trial_name": "CardiAMP CMI Pivotal Trial (BCDA-02)",
+          "trial_design": "Phase 3 multi-center, randomized, double-blinded, controlled study of up to 343 patients at up to 40 US sites; under separate FDA-approved IDE",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Roll-in cohort completed (107s ETT increase, 82% reduction in angina episodes at 6 mo); randomized portion pending non-dilutive/partnering funding",
+          "lead_sponsor": "BioCardia, Inc.",
+          "key_milestones": [
+            "Roll-in cohort primary results submitted for Euro PCR May 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "CardiALLO (allogeneic culture-expanded bone marrow-derived MSCs)",
+      "aka": ["BCDA-03", "hMSC"],
+      "modality": "Allogeneic mesenchymal stem cell therapy (off-the-shelf), transendocardial delivery",
+      "target": "Cardiac repair / immunomodulation",
+      "license_origin": "Internal (manufactured at Sunnyvale, CA cGMP facility)",
+      "indications": [
+        {
+          "indication": "Ischemic heart failure with reduced ejection fraction (HFrEF)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "CardiALLO HFrEF Phase I/II",
+          "trial_design": "3+3 dose escalation roll-in cohort followed by 60-patient randomized double-blind controlled study; Finkelstein-Schoenfeld composite of mortality, MACCE and 6MWD",
+          "nct_ids": ["NCT05925608"],
+          "trial_status": "Active, not recruiting — low-dose 20M cell cohort completed with no treatment-emergent AEs; DSMB recommended proceed",
+          "lead_sponsor": "BioCardia, Inc.",
+          "key_milestones": [
+            "Primary completion: Dec 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "PulmALLO (allogeneic MSC for ARDS)",
+      "aka": ["BCDA-04"],
+      "modality": "Allogeneic MSC therapy (IV)",
+      "target": "Anti-inflammatory / lung injury resolution",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Acute respiratory distress syndrome (ARDS)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "PulmALLO ARDS Phase I/II",
+          "trial_design": "FDA-approved IND for IV allogeneic MSC in ARDS (originally COVID-19-related)",
+          "nct_ids": ["NCT05491681"],
+          "trial_status": "Withdrawn on ctgov; per 10-K no 2026 milestones set, awaiting partner funding",
+          "lead_sponsor": "BioCardia, Inc.",
+          "key_milestones": [
+            "Awaiting partnering before initiating enrollment"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Helix biotherapeutic delivery system and Morph access products (commercial/cleared devices, not clinical-stage assets)"
+  ],
+  "excluded_legacy_terminated": [
+    "CardiAMP HF Phase 3 pivotal (NCT02438306) — completed; new confirmatory CardiAMP HF II is the active pivotal",
+    "Earlier Phase 1/2 transendocardial autologous bone marrow studies (NCT00507468) — completed"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 3, "p3": 2, "p2": 0, "p1": 0, "p1_p2": 2, "indications_p3": 2, "indications_p1_p2": 2}
+}

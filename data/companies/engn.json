@@ -1,0 +1,39 @@
+{
+  "issuer_name": "enGene Holdings Inc.",
+  "ticker": "ENGN",
+  "exchange": "Nasdaq",
+  "cik": "0001980845",
+  "region": "US/Canada",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-25-328743", "filed": "2025-12-22", "doc": "engn-20251031.htm"},
+    "website": {"url": "https://engene.com/pipeline", "note": "Pipeline page references detalimogene (EG-70) and LEGEND trial; limited structured detail."},
+    "ctgov": {"sponsor_query": "enGene", "unique_trials_p1_p3": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "Detalimogene voraplasmid",
+      "aka": ["EG-70", "detalimogene"],
+      "modality": "Non-viral gene therapy (intravesical DDX plasmid encoding RIG-I agonist + IL-12)",
+      "target": "Innate immune activation (RIG-I agonist) plus IL-12 expression",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "BCG-unresponsive non-muscle invasive bladder cancer (NMIBC) with carcinoma in situ",
+          "highest_phase": "P1/P2",
+          "trial_name": "LEGEND",
+          "trial_design": "Open-label, multicenter Phase 1/2 study evaluating intravesical EG-70 in BCG-unresponsive and BCG-naive/incompletely treated high-risk NMIBC patients",
+          "nct_ids": ["NCT04752722"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "enGene, Inc.",
+          "key_milestones": ["Primary completion expected 2026-06-30"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 1, "P3": 0, "P2": 1, "P1": 0}
+}

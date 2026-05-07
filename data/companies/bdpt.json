@@ -1,0 +1,20 @@
+{
+  "issuer_name": "BIOADAPTIVES, INC.",
+  "ticker": "BDPT",
+  "exchange": "OTC",
+  "cik": "0001575142",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001640334-26-000718", "filed": "2026-04-14", "slice": "data/bdpt_10k_pipeline_section.html"},
+    "website": {"error": "no public pipeline page found - company is dietary supplement / nutraceutical / medical-device distributor, not a clinical-stage drug developer"},
+    "ctgov": {"file": "data/bdpt_ctgov_compact.json", "trials_kept": 0}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "BioAdaptives is a nutraceutical / dietary-supplement (MyndMed, Xcellara, Zeranovia, Wynovia, PawPa Regen) and medical-device distributor (Lung Flute). Per 10-K it explicitly avoids drug/disease claims to stay outside FDA drug-regulatory scope; products are marketed as supplements. No IND/NDA programs or registered Phase 1/2/3 clinical drug trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

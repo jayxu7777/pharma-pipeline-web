@@ -1,0 +1,69 @@
+{
+  "issuer_name": "Aprea Therapeutics, Inc.",
+  "ticker": "APRE",
+  "exchange": "Nasdaq",
+  "cik": "0001781983",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-028068", "filing_date": "2026-03-16", "doc": "apre-20251231x10k.htm"},
+    "website": {"url": "https://www.aprea.com/pipeline", "ok": true},
+    "ctgov": {"trials_returned": 14, "active_p1_p2_p3": 2, "note": "APR-1051 (NCT06260514) RECRUITING; ATRN-119 (NCT04905914) ACTIVE_NOT_RECRUITING"}
+  },
+  "pipeline": [
+    {
+      "asset": "APR-1051",
+      "aka": [],
+      "modality": "Oral small-molecule WEE1 kinase inhibitor",
+      "target": "WEE1 kinase",
+      "license_origin": "Internal (Aprea)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors with cancer-cell-cycle gene alterations (HPV+ HNSCC, cervical/vaginal/vulvar SCC, CRC, uterine serous carcinoma; biomarker focus on CCNE1/2, FBXW7, PPP2R1A, KRAS G12/13, TP53)",
+          "highest_phase": "Phase 1",
+          "trial_name": "ACESOT-1051",
+          "trial_design": "Open-label Phase 1 dose-escalation in advanced solid tumors; oral once-daily",
+          "nct_ids": ["NCT06260514"],
+          "trial_status": "RECRUITING (primary completion 2027-06)",
+          "lead_sponsor": "Aprea Therapeutics",
+          "key_milestones": [
+            "Q2 2026: Safety/efficacy data update",
+            "Q3 2026: Complete dose escalation"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "ATRN-119",
+      "aka": ["Mosipasertib"],
+      "modality": "Oral small-molecule first-in-class macrocyclic ATR kinase inhibitor",
+      "target": "ATR kinase",
+      "license_origin": "Internal (Aprea)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (ovarian, colorectal, lung) and hematologic cancers (AML, MDS)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ABOYA-119",
+          "trial_design": "Open-label Phase 1/2 monotherapy in advanced solid tumors; RP2D determined 1,100 mg QD as of Q4 2025",
+          "nct_ids": ["NCT04905914"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (primary completion 2028-02)",
+          "lead_sponsor": "Aprea Therapeutics",
+          "key_milestones": [
+            "Q4 2025: RP2D = 1,100 mg QD",
+            "2H 2026: Combination collaborations anticipated (ADC, chemo, radiation, IO)"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "APR-1602", "indication": "Solid tumors / heme malignancies", "stage": "Preclinical (IND-enabling targeted Q4 2026)"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "APR-246 (eprenetapopt)", "indication": "TP53-mutant MDS Phase 3", "nct_ids": ["NCT03745716"], "status": "COMPLETED — failed primary endpoint, program discontinued"},
+    {"asset": "APR-246", "indication": "Various Phase 1/2 (NHL, melanoma, ovarian, AML/MDS combos, solid tumors)", "nct_ids": ["NCT04638309", "NCT04214860", "NCT03072043", "NCT02098343", "NCT04419389", "NCT03931291", "NCT03391050", "NCT03588078", "NCT04383938", "NCT00900614", "NCT03268382"], "status": "COMPLETED or TERMINATED"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 2, "p1": 2, "p2": 0, "p3": 0}
+}

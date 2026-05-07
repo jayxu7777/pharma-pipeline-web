@@ -1,0 +1,81 @@
+{
+  "issuer_name": "ArriVent BioPharma, Inc.",
+  "ticker": "AVBP",
+  "exchange": "Nasdaq",
+  "cik": "0001868279",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-024127", "filing_date": "2026-03-05", "path": "data/avbp_10k_pipeline_section.html"},
+    "website": {"url": "https://arrivent.com", "note": "Confirmed firmonertinib lead + ARR-002 ADC preclinical; pipeline page is JS-rendered. Used 10-K + ctgov."},
+    "ctgov": {"path": "data/avbp_ctgov_compact.json", "sponsor_query": "ArriVent BioPharma"}
+  },
+  "pipeline": [
+    {
+      "asset": "Firmonertinib",
+      "aka": ["furmonertinib", "AST2818"],
+      "modality": "Oral small molecule (3rd-gen EGFR TKI)",
+      "target": "EGFR (uncommon mutations including exon 20 insertions and PACC)",
+      "license_origin": "In-licensed from Allist Pharmaceuticals (worldwide ex-Greater China, 2021)",
+      "indications": [
+        {
+          "indication": "1L locally advanced/metastatic EGFRm NSCLC with exon 20 insertion",
+          "highest_phase": "Phase 3",
+          "trial_name": "FURVENT",
+          "trial_design": "Pivotal Phase 3 vs platinum-based chemo; 240 mg / 160 mg vs chemo arms",
+          "nct_ids": ["NCT05607550"],
+          "trial_status": "Active, not recruiting; topline expected mid-2026; FDA Breakthrough Therapy Designation (Oct 2023)",
+          "lead_sponsor": "ArriVent BioPharma, Inc.",
+          "key_milestones": ["BTD Oct 2023", "Topline mid-2026"]
+        },
+        {
+          "indication": "1L locally advanced/metastatic non-squamous EGFRm NSCLC with PACC mutations",
+          "highest_phase": "Phase 3",
+          "trial_name": "ALPACCA",
+          "trial_design": "Pivotal Phase 3 vs investigator's choice EGFR TKI",
+          "nct_ids": ["NCT07185997"],
+          "trial_status": "Recruiting; first patient dosed Dec 22, 2025",
+          "lead_sponsor": "ArriVent BioPharma, Inc.",
+          "key_milestones": ["First patient dosed Dec 2025"]
+        },
+        {
+          "indication": "Advanced/metastatic NSCLC with HER2 exon 20, EGFR exon 20 and EGFR uncommon mutations (FURTHER Phase 1b)",
+          "highest_phase": "Phase 1",
+          "trial_name": "FURTHER",
+          "trial_design": "Phase 1b dose-expansion across multiple cohorts (incl. PACC cohort)",
+          "nct_ids": ["NCT05364073"],
+          "trial_status": "Active, not recruiting; final PACC data Sep 2025 (cORR 68.2%, mPFS 16.0 mo at 240 mg)",
+          "lead_sponsor": "ArriVent BioPharma, Inc.",
+          "key_milestones": ["Final PACC P1b data Sep 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "ARR-217",
+      "aka": ["MRG007"],
+      "modality": "Antibody-drug conjugate (ADC)",
+      "target": "Claudin 18.2 / CDH17 (CDH17-targeting ADC per 10-K) for GI cancers",
+      "license_origin": "In-licensed from Lepu Biopharma (ex-Greater China)",
+      "indications": [
+        {
+          "indication": "Locally advanced/metastatic solid tumors (CRC, gastric, pancreatic)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 first-in-human",
+          "trial_design": "Dose-escalation in unresectable locally advanced or metastatic solid tumors",
+          "nct_ids": ["NCT07066657"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "ArriVent BioPharma, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["ARR-002 — dual MUC16/NaPi2b tetravalent ADC (preclinical, AACR 2026 posters)"],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "Firmonertinib adjuvant NSCLC Phase 3 (NCT07010419) — sponsored by Allist Pharmaceuticals (Greater China territory; not ArriVent-owned)",
+    "FAVOUR trial (Allist, China-only)"
+  ],
+  "summary_counts": {"assets": 2, "p3_indications": 2, "p2_indications": 0, "p1_indications": 2}
+}

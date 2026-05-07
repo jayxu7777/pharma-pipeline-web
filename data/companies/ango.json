@@ -1,0 +1,103 @@
+{
+  "issuer_name": "ANGIODYNAMICS INC",
+  "ticker": "ANGO",
+  "exchange": "Nasdaq",
+  "cik": "0001275187",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001275187-25-000014",
+      "filing_date": "2025-07-18",
+      "doc": "ango-20250531.htm"
+    },
+    "website": {
+      "url": "https://www.angiodynamics.com/research/",
+      "note": "No dedicated /pipeline page (404). Used /research clinical evidence section for active device studies."
+    },
+    "ctgov": {
+      "sponsor_query": "AngioDynamics",
+      "compact_path": "data/ango_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "NanoKnife System",
+      "aka": ["IRE", "Irreversible Electroporation"],
+      "modality": "Medical device (low-energy direct current irreversible electroporation ablation system)",
+      "target": "Soft tissue cell membranes (non-thermal ablation)",
+      "license_origin": "Acquired via Oncobionic acquisition (May 2008)",
+      "indications": [
+        {
+          "indication": "Stage III locally advanced pancreatic cancer (DIRECT pivotal study)",
+          "highest_phase": "P3",
+          "trial_name": "DIRECT (A Pivotal Study of Safety and Effectiveness of NanoKnife IRE for Stage 3 Pancreatic Cancer)",
+          "trial_design": "Pivotal IDE study; modified FOLFIRINOX regimen plus NanoKnife System",
+          "nct_ids": ["NCT03899636"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Angiodynamics, Inc.",
+          "key_milestones": ["Primary completion April 2025"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "med_tech_segment": [
+      "Auryon Atherectomy System (peripheral arterial disease; FDA-cleared)",
+      "AlphaVac Mechanical Thrombectomy System (AlphaVac F18 cleared for pulmonary embolism)",
+      "AngioVac venous drainage cannula and circuit",
+      "NanoKnife IRE Ablation System (510(k) for soft-tissue ablation; expanded December 2024 for prostate tissue ablation)",
+      "Solero Microwave Tissue Ablation System"
+    ],
+    "med_device_segment": [
+      "Soft-Vu / Mariner / Accu-Vu angiographic catheters",
+      "ADx and NiT-Vu guidewires",
+      "Total Abscession drainage catheters",
+      "Mini Stick MAX and Micro-Introducer kits",
+      "SmartPort / BioFlo Port / Xcela Plus implantable ports",
+      "VenaCure EVLT laser system (varicose veins)",
+      "IsoLoc Endorectal Balloon and Alatus Vaginal Balloon Packing System"
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {
+      "nct_ids": ["NCT06378047"],
+      "reason": "COMPLETED Phase 1 IRE+Pembrolizumab combo (Moffitt-led, ANGO collaborator)"
+    },
+    {
+      "nct_ids": ["NCT01790451"],
+      "reason": "COMPLETED Phase 1 IRE prostate (CROES-led)"
+    },
+    {
+      "nct_ids": ["NCT02828709"],
+      "reason": "Phase 2 IRE for SRMs status UNKNOWN (Laguna Pes-led)"
+    },
+    {
+      "nct_ids": ["NCT00690703", "NCT01369420", "NCT00571987"],
+      "reason": "COMPLETED legacy device studies"
+    }
+  ],
+  "excluded_partner_owned": [
+    {
+      "nct_ids": ["NCT06185556"],
+      "reason": "COLDFIRE-III P2/P3 lead sponsor Amsterdam UMC (investigator-initiated; ANGO is collaborator only)"
+    },
+    {
+      "nct_ids": ["NCT06630624"],
+      "reason": "P1/P2 IP-001 plus IRE/MWA — IP-001 is Immunophotonics asset; ANGO is device collaborator"
+    },
+    {
+      "nct_ids": ["NCT07548164"],
+      "reason": "P3 prostate radiotherapy boost lead sponsor Memorial Sloan Kettering (investigator-initiated; ANGO is collaborator)"
+    }
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "P3": 1,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": null
+}

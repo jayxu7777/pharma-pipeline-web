@@ -1,0 +1,42 @@
+{
+  "issuer_name": "Alterity Therapeutics Ltd",
+  "ticker": "ATHE",
+  "exchange": "Nasdaq",
+  "cik": "0001131343",
+  "region": "AU/US (ADR)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (Australia)"},
+    "website": {"url": "https://alteritytx.com/", "note": "Pipeline page redirected; status confirmed via April 2026 GlobeNewswire press releases"},
+    "ctgov": {"query_sponsor": "Alterity Therapeutics", "results": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "ATH434",
+      "aka": ["PBT434"],
+      "modality": "Small molecule, oral iron-chaperone / alpha-synuclein aggregation inhibitor",
+      "target": "Labile iron / alpha-synuclein",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Multiple System Atrophy (MSA)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ATH434 Phase 3 pivotal program (planned)",
+          "trial_design": "Pivotal Phase 3 program; FDA Type C meetings completed Mar 2026 and Apr 2026 with positive feedback on CPK/non-clinical, CMC; End-of-Phase 2 meeting planned mid-2026",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — Phase 3 pivotal trial preparing to initiate following End-of-Phase 2 meeting mid-2026",
+          "lead_sponsor": "Alterity Therapeutics Ltd",
+          "key_milestones": ["Positive FDA feedback Type C meeting Mar 2026 (clinical pharmacology, non-clinical)", "Positive FDA feedback Type C meeting Apr 2026 (CMC)", "End-of-Phase 2 FDA meeting expected mid-2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct_id": "NCT05109091", "asset": "ATH434", "reason": "Completed Phase 2 randomized controlled trial in MSA (primary completion 2024-11-28)"},
+    {"nct_id": "NCT05864365", "asset": "ATH434", "reason": "Completed Phase 2 biomarker open-label study in advanced MSA (primary completion 2025-02-26)"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "p3": 1, "p2": 0, "p1": 0}
+}

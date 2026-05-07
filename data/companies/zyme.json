@@ -1,0 +1,105 @@
+{
+  "issuer_name": "Zymeworks Inc.",
+  "ticker": "ZYME",
+  "exchange": "Nasdaq",
+  "cik": "0001937653",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001937653-26-000015", "filing_date": "2026-03-02", "doc": "zyme-20251231.htm"},
+    "website": {"url": "https://www.zymeworks.com/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Zymeworks", "trials_returned": 7}
+  },
+  "pipeline": [
+    {
+      "asset": "ZW191",
+      "aka": [],
+      "modality": "Topoisomerase 1 inhibitor antibody-drug conjugate (ADC)",
+      "target": "Folate Receptor-alpha (FRalpha)",
+      "license_origin": "Internal (Zymeworks)",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (ovarian, endometrial, NSCLC) - FDA Fast Track for platinum-resistant ovarian cancer",
+          "highest_phase": "Phase 1",
+          "trial_name": "A Study of ZW191 in Participants With Solid Tumors",
+          "trial_design": "First-in-human dose escalation/expansion in advanced solid tumors",
+          "nct_ids": ["NCT06555744"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Zymeworks BC Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ZW251",
+      "aka": [],
+      "modality": "Topoisomerase 1 inhibitor antibody-drug conjugate (ADC)",
+      "target": "Glypican-3 (GPC3)",
+      "license_origin": "Internal (Zymeworks)",
+      "indications": [
+        {
+          "indication": "Hepatocellular carcinoma; squamous NSCLC; germ cell tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "A Study of ZW251 in Participants With Advanced Solid Tumors",
+          "trial_design": "First-in-human dose escalation in advanced solid tumors",
+          "nct_ids": ["NCT07164313"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Zymeworks BC Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "JNJ-78278343",
+      "aka": ["CD3 x KLK2 bispecific"],
+      "modality": "Azymetric/EFECT bispecific T cell engager",
+      "target": "CD3 x KLK2",
+      "license_origin": "Out-licensed to Johnson & Johnson (Janssen); Zymeworks receives royalties/milestones",
+      "indications": [
+        {
+          "indication": "Metastatic castration-resistant prostate cancer",
+          "highest_phase": "Phase 1",
+          "trial_name": "Partner-led (Janssen) Phase 1 of pasritamig (JNJ-78278343)",
+          "trial_design": "Dose escalation/expansion in mCRPC",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Partner-led; ongoing per 10-K",
+          "lead_sponsor": "Janssen Research & Development, LLC",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "asset": "Zanidatamab (Ziihera)",
+    "modality": "Azymetric HER2-targeted bispecific antibody",
+    "target": "HER2",
+    "license_origin": "Out-licensed to Jazz Pharmaceuticals (US/EU/Japan) and BeiGene (Asia ex-Japan); Zymeworks receives royalties/milestones",
+    "status": "FDA accelerated approval (Nov 2024) for previously treated HER2-positive (IHC 3+) unresectable/metastatic biliary tract cancer; multiple ongoing partner-led Phase 3 trials in BTC, gastroesophageal, breast"
+  },
+  "excluded_preclinical": [
+    {"asset": "ZW220", "reason": "Preclinical/IND-ready NaPi2b ADC"},
+    {"asset": "ZW209", "reason": "Preclinical DLL3 trispecific T cell engager"},
+    {"asset": "ZW1528", "reason": "Preclinical IL-4Ralpha x IL-33 bispecific (COPD)"},
+    {"asset": "BMS bispecific", "reason": "Preclinical partnered asset"},
+    {"asset": "Merck bispecific", "reason": "Preclinical partnered asset"},
+    {"asset": "Daiichi Sankyo bispecific", "reason": "Preclinical partnered asset"},
+    {"asset": "GSK bispecific", "reason": "Preclinical partnered asset"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "ZW171", "nct_id": "NCT06523803", "reason": "Phase 1 study terminated"},
+    {"asset": "ZW49 (zanidatamab zovodotin)", "nct_id": "NCT03821233", "reason": "Phase 1 completed; program deprioritized in favor of ZW251"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Zanidatamab partner-led Phase 3 BTC (NCT05615818)", "reason": "Investigator/UNICANCER-sponsored personalized medicine BTC trial; Zymeworks is collaborator only; commercial rights with Jazz/BeiGene"},
+    {"asset": "Zanidatamab Phase 2 early-stage HER2+ breast (NCT05035836)", "reason": "M.D. Anderson investigator-initiated; Zymeworks is collaborator only"},
+    {"asset": "Zanidatamab Phase 2 endometrial (NCT04513665)", "reason": "MSKCC investigator-initiated; completed"}
+  ],
+  "summary_counts": {
+    "total_clinical_assets": 3,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 3,
+    "commercial": 1
+  }
+}

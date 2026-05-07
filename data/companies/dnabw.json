@@ -1,0 +1,22 @@
+{
+  "issuer_name": "Ginkgo Bioworks Holdings, Inc.",
+  "ticker": "DNABW",
+  "exchange": "OTC",
+  "cik": "0001830214",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-012346", "filing_date": "2026-02-26", "path": "data/dnabw_10k_pipeline_section.html"},
+    "website": {"note": "www.ginkgobioworks.com — synthetic biology / cell programming platform; no proprietary clinical pipeline page"},
+    "ctgov": {"path": "data/dnabw_ctgov_compact.json", "active_p1_to_p3_trials": 0}
+  },
+  "no_active_clinical_pipeline_reason": "Ginkgo Bioworks is a horizontal cell-programming and biosecurity platform company. Its business model is partner-funded R&D services and downstream value share (milestones/royalties on partners' products); it does not develop or own clinical-stage drug candidates. Pipeline-section text contains zero 'clinical trial', 'product candidate', 'phase 1/2/3', or NCT references. ClinicalTrials.gov returns zero P1-P3 trials sponsored by Ginkgo Bioworks.",
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"note": "Any therapeutic assets developed using Ginkgo's services platform are owned and trial-sponsored by partner pharma/biotech customers, not by Ginkgo. Per scope rules these are excluded."}
+  ],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0}
+}

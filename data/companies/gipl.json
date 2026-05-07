@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Global Innovative Platforms Inc.",
+  "ticker": "GIPL",
+  "exchange": "OTC",
+  "cik": "0001837774",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001731122-26-000053",
+      "filing_date": "2026-01-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837774/000173112226000053/e7181_10-k.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found - veterinary/agricultural breath analytics device company; no human clinical pipeline"
+    },
+    "ctgov": {
+      "query_sponsor": "Global Innovative Platforms",
+      "trials_returned": 0,
+      "note": "No ClinicalTrials.gov records as expected for a veterinary diagnostic device developer."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "in_development_devices": [
+      {
+        "name": "Heartworm Breath Test (VOCAM Plus + breath capture component)",
+        "category": "Veterinary diagnostic device",
+        "status": "Algorithm development stage; verification and validation studies planned through 2026; not yet commercialized",
+        "indication": "Detection of heartworm in dogs (canine veterinary use, not human)"
+      },
+      {
+        "name": "FROG device",
+        "category": "Environmental sample analysis device (feed, water, soil, air)",
+        "status": "Licensed; in production from supplier; pre-commercial",
+        "indication": "Agricultural / animal-related VOC detection"
+      }
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Veterinary / agricultural breath-analytics medical-technology micro-cap. Sole focus is a canine Heartworm Breath Test device (VOCAM Plus / FROG) currently in algorithm development and pre-commercial verification/validation. No human therapeutic drug or device pipeline; no active P1/P2/P3 clinical trials registered."
+}

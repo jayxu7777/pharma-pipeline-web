@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Petros Pharmaceuticals, Inc.",
+  "ticker": "PTPI",
+  "exchange": "OTC",
+  "cik": "0001815903",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001104659-26-043822",
+      "filing_date": "2026-04-15",
+      "path": "data/ptpi_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://petrospharma.com",
+      "fetched": "2026-05-06",
+      "note": "/pipeline page returned 404; corporate site provides only the 'men's health' tagline with no pipeline section"
+    },
+    "ctgov": {
+      "path": "data/ptpi_ctgov_compact.json",
+      "trials_kept": 0
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Per the FY2025 10-K (filed April 2026), Petros has exited the Stendra (avanafil) ED franchise: in March 2025 the Vivus license was terminated and Vivus foreclosed on Stendra collateral; in June 2025 Petros executed an Assignment for the Benefit of Creditors transferring all subsidiary assets (Metuchen, Timm Medical, Pos-T-Vac) to a third-party assignee. The company is now a shell-like entity attempting to develop a SaaS / Software-as-a-Medical-Device (SaMD) platform to assist Rx-to-OTC switches. Auditor expressed substantial doubt about going concern (USD 5.1M cash, USD 2.9M working capital, USD 111.3M accumulated deficit at 2025-12-31). No active company-sponsored P1/P2/P3 clinical trials.",
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Stendra (avanafil) Rx-to-OTC switch - prior pivotal consumer self-selection study completed; license terminated and asset returned to Vivus in March 2025"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 0,
+    "indications_active_p1_p2_p3": 0,
+    "phase3": 0,
+    "phase2": 0,
+    "phase1": 0
+  }
+}

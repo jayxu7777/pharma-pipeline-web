@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Atrium Therapeutics, Inc.",
+  "ticker": "RNA",
+  "exchange": "Nasdaq",
+  "cik": "0002093101",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "error": "No 10-K on file. Atrium Therapeutics launched as an independent public company on 2026-02-27 as a spinout from Avidity Biosciences (in connection with Avidity's acquisition by Novartis); no annual report filed yet."
+    },
+    "website": {
+      "url": "https://atriumtherapeutics.com/",
+      "fetched": true,
+      "note": "Pipeline overview: ATR-1072 (PRKAG2 syndrome) and ATR-1086 (PLN cardiomyopathy) are preclinical; two additional undisclosed research-stage targets."
+    },
+    "ctgov": {
+      "path": "data/rna_ctgov_compact.json",
+      "trial_count": 0,
+      "note": "No trials sponsored by Atrium Therapeutics on ClinicalTrials.gov as of snapshot date."
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Newly launched (Feb 27, 2026) precision-cardiology spinout from Avidity Biosciences with ~$270M cash. Both lead siRNA candidates (ATR-1072 for PRKAG2 syndrome; ATR-1086 for PLN cardiomyopathy) are preclinical / IND-pending. Company plans first IND filing (ATR-1072) in 2H 2026; no active Phase 1/2/3 trials yet.",
+  "excluded_preclinical": [
+    {"asset": "ATR-1072", "modality": "siRNA targeting PRKAG2", "indication": "PRKAG2 syndrome", "status": "Preclinical; IND planned 2H 2026"},
+    {"asset": "ATR-1086", "modality": "siRNA targeting PLN", "indication": "PLN cardiomyopathy", "status": "Preclinical"},
+    {"asset": "Two undisclosed research-stage targets in rare cardiomyopathies", "status": "Research stage"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 0,
+    "P3_indications": 0,
+    "P2_indications": 0,
+    "P1_indications": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "issuer_name": "ProMIS Neurosciences Inc.",
+  "ticker": "PMN",
+  "exchange": "Nasdaq",
+  "cik": "0001374339",
+  "region": "Canada (US-listed)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-034554", "filing_date": "2026-03-25", "doc": "pmn-20251231x10k.htm"},
+    "website": {"error": "no public pipeline page reviewed; relied on 10-K and ctgov"},
+    "ctgov": {"file": "data/pmn_ctgov_compact.json", "n_records": 2}
+  },
+  "pipeline": [
+    {
+      "asset": "PMN310",
+      "aka": [],
+      "modality": "Humanized IgG1 monoclonal antibody selective for toxic misfolded amyloid-beta oligomers (AbetaO)",
+      "target": "Amyloid-beta toxic oligomers (oligomer-selective; no plaque or monomer binding)",
+      "license_origin": "Internal (ProMIS computational discovery platform)",
+      "indications": [
+        {
+          "indication": "Early Alzheimer's Disease (mild cognitive impairment due to AD or early AD)",
+          "highest_phase": "Phase 1b",
+          "trial_name": "PRECISE-AD",
+          "trial_design": "Randomized, double-blind, placebo-controlled multiple ascending dose (MAD) Phase 1b; monthly IV infusion at 5, 10, or 20 mg/kg or placebo over 12 months; 144 subjects across 21 US sites",
+          "nct_ids": ["NCT06750432"],
+          "trial_status": "Active, not recruiting (enrollment completed December 2025)",
+          "lead_sponsor": "ProMIS Neurosciences, Inc.",
+          "key_milestones": ["FDA Fast Track designation July 2025", "Enrollment completed Dec 2025", "Six-month assessments expected Q2 2026", "Blinded interim analysis early Q3 2026", "Top-line data expected early 2027"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "PMN267 (TDP-43-selective humanized mAb / intrabody for ALS, FTLD, LATE) — IND-enabling studies",
+    "PMN442 (alpha-synuclein-selective humanized mAb for Parkinson's disease, dementia with Lewy bodies, multiple system atrophy) — IND-enabling studies; PMN411 back-up",
+    "DISC1 (schizophrenia) discovery program",
+    "RACK1 (ALS) discovery program",
+    "AbetaO / alpha-synuclein / TDP-43 vaccine programs — preclinical"
+  ],
+  "excluded_legacy_terminated": [
+    "PMN310 Phase 1a SAD healthy volunteer study (NCT06105528) — COMPLETED 2024 (supportive of Phase 1b)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "P3": 0, "P2": 0, "P1": 1}
+}

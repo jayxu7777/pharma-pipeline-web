@@ -1,0 +1,64 @@
+{
+  "issuer_name": "CASI Pharmaceuticals, Inc.",
+  "ticker": "CASIF",
+  "exchange": "OTC",
+  "cik": "0001962738",
+  "region": "US/China",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K found in EDGAR for CIK 0001962738 (foreign filer entity uses 20-F or 6-K)."},
+    "website": {"error": "no public pipeline page found at /pipeline (404)"},
+    "ctgov": {
+      "path": "data/casif_ctgov_compact.json",
+      "note": "23 historical studies; one active P1/P2 RECRUITING (CID-103 in chronic ITP)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "CID-103",
+      "aka": [],
+      "modality": "Anti-CD38 monoclonal antibody",
+      "target": "CD38",
+      "license_origin": "In-licensed (CASI lead pipeline asset)",
+      "indications": [
+        {
+          "indication": "Chronic Immune Thrombocytopenia (cITP)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Dose-escalation followed by dose optimal study of CID-103 in cITP",
+          "trial_design": "Open-label dose escalation followed by dose optimization",
+          "nct_ids": ["NCT07017725"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "CASI Pharmaceuticals, Inc.",
+          "key_milestones": ["Started 2025-01-03", "Primary completion expected 2026-06-01", "Jan 2026 additional Phase 1 proof-of-concept data announced"]
+        },
+        {
+          "indication": "Renal allograft antibody-mediated rejection (AMR)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CID-103 in renal allograft AMR (planned)",
+          "trial_design": "Phase 1 — US FDA IND clearance received; Chinese NMPA Phase 1/2 CTA approval received",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — IND/CTA cleared, trial not yet initiated on ctgov",
+          "lead_sponsor": "CASI Pharmaceuticals, Inc.",
+          "key_milestones": ["US FDA IND clearance", "China NMPA Phase 1/2 CTA approval"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "EVOMELA (melphalan hydrochloride for injection)",
+    "indication": "Multiple myeloma conditioning prior to ASCT",
+    "note": "Commercialized in China; product proprietary to Acrotech Biopharma, CASI distributes/has royalty arrangements"
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"asset": "ENMD-2076", "reason": "All Phase 1/2 trials COMPLETED, no active development"},
+    {"asset": "MKC-1", "reason": "All Phase 1/2 trials COMPLETED"},
+    {"asset": "Panzem NCD (2-methoxyestradiol)", "reason": "All Phase 2 trials COMPLETED"},
+    {"asset": "rhAngiostatin", "reason": "Phase 2 COMPLETED, no active development"}
+  ],
+  "excluded_partner_owned": [
+    {"asset": "Melphalan hydrochloride for R/R MM (NCT05438394)", "reason": "Lead sponsor is Peking University People's Hospital; CASI is collaborator only"}
+  ],
+  "summary_counts": {"total_assets": 1, "p3": 0, "p2": 1, "p1": 1}
+}

@@ -1,0 +1,113 @@
+{
+  "issuer_name": "NewcelX Ltd.",
+  "ticker": "NCEL",
+  "exchange": "Nasdaq",
+  "cik": "0001783036",
+  "region": "Switzerland/Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (Swiss-domiciled, Cayman parent) — files 20-F instead of 10-K"},
+    "website": {
+      "url": "https://newcelx.com/",
+      "note": "Pipeline information drawn from public PR releases and Synapse profile (corporate site not directly fetched)."
+    },
+    "ctgov": {
+      "paths": ["data/ncel_kadi_ctgov_compact.json", "data/ncel_nls_ctgov_compact.json"],
+      "unique_trials_p1_p3_legacy": 5,
+      "note": "ctgov fetched under legacy sponsor names Kadimastem and NLS Pharmaceutics (pre-merger entities)."
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "NCEL-101 (islet-like cell replacement therapy)",
+      "aka": ["IsletRx", "Kadimastem islet program"],
+      "modality": "Allogeneic human embryonic stem cell (hESC)-derived pancreatic islet-like cell therapy",
+      "target": "Beta-cell replacement (insulin production)",
+      "license_origin": "Kadimastem (legacy)",
+      "indications": [
+        {
+          "indication": "Type 1 Diabetes",
+          "highest_phase": "Phase 1",
+          "trial_name": "First-in-human IsletRx (planned)",
+          "trial_design": "Open-label first-in-human Phase 1 (planned 2026)",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — first-in-human trial planned for 2026 per recent corporate communications; IND/CTA in preparation",
+          "lead_sponsor": "NewcelX Ltd.",
+          "key_milestones": ["Recent private placement to advance T1D program"]
+        }
+      ]
+    },
+    {
+      "asset": "AstroRx",
+      "aka": [],
+      "modality": "Allogeneic hESC-derived astrocyte cell therapy (intrathecal)",
+      "target": "Glutamate clearance, neurotrophic support",
+      "license_origin": "Kadimastem (legacy)",
+      "indications": [
+        {
+          "indication": "Amyotrophic Lateral Sclerosis (ALS)",
+          "highest_phase": "Phase 2",
+          "trial_name": "AstroRx in ALS Phase 1/2a completed; Phase 2 planned",
+          "trial_design": "Open-label intrathecal cell therapy",
+          "nct_ids": ["NCT03482050"],
+          "trial_status": "Phase 1/2a COMPLETED 2020; pivotal Phase 2 planned per company roadmap",
+          "lead_sponsor": "Kadimastem (now NewcelX)",
+          "key_milestones": ["FDA Orphan Drug Designation"]
+        },
+        {
+          "indication": "Multiple Sclerosis (MS)",
+          "highest_phase": "Phase 1",
+          "trial_name": "AstroRx in MS (planned)",
+          "trial_design": "Phase 1 planned",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — pipeline expansion announced",
+          "lead_sponsor": "NewcelX Ltd.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "NLS-2 (Mazindol ER)",
+      "aka": ["Quilience", "Nolazol"],
+      "modality": "Oral small-molecule extended-release triple monoamine reuptake inhibitor / partial orexin agonist",
+      "target": "Norepinephrine, dopamine, serotonin reuptake; orexin partial agonism",
+      "license_origin": "NLS Pharmaceutics (legacy)",
+      "indications": [
+        {
+          "indication": "Narcolepsy Type 1",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pivotal Phase 3 NLS-2 in Narcolepsy Type 1",
+          "trial_design": "8-week randomized double-blind placebo-controlled Phase 3",
+          "nct_ids": ["NCT05914194"],
+          "trial_status": "NOT_YET_RECRUITING (start 2024-07-15; primary completion 2025-07-30) — status pending update post-merger",
+          "lead_sponsor": "NLS Pharmaceutics (now NewcelX)",
+          "key_milestones": ["Positive Phase 2 readouts (NCT04923594, NCT05055024)"]
+        }
+      ]
+    },
+    {
+      "asset": "DOXA platform (DOXA-001 etc.)",
+      "aka": [],
+      "modality": "Small-molecule dual-acting orexin/sleep-wake regulators",
+      "target": "Orexin receptors / neuroinflammation pathways",
+      "license_origin": "Aexon Labs / NLS legacy",
+      "indications": [
+        {
+          "indication": "Narcolepsy and broader CNS (ALS, neurodegeneration, metabolic)",
+          "highest_phase": "Phase 1",
+          "trial_name": "DOXA Phase 1 (planned)",
+          "trial_design": "First-in-human Phase 1 planned",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — DOXA platform announced; recent China DOXA patent published",
+          "lead_sponsor": "NewcelX Ltd.",
+          "key_milestones": ["China composition-of-matter patent published"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_active_assets": 4, "P3": 1, "P2": 1, "P1": 3}
+}

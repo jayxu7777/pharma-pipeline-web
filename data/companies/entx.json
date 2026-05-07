@@ -1,0 +1,59 @@
+{
+  "issuer_name": "Entera Bio Ltd.",
+  "ticker": "ENTX",
+  "exchange": "Nasdaq",
+  "cik": "0001638097",
+  "region": "Israel",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/entx_10k_pipeline_section.html", "filing_date": "2026-03-27", "accession": "0001178913-26-001797"},
+    "website": {"error": "Pipeline page is JavaScript-rendered; content not extractable; relied on 10-K"},
+    "ctgov": {"file": "data/entx_ctgov_compact.json", "unique_p1_p3_trials": 6, "note": "All Entera-sponsored trials completed; no active enrolling trials"}
+  },
+  "pipeline": [
+    {
+      "asset": "EB613",
+      "aka": ["oral hPTH(1-34)", "oral parathyroid hormone tablet"],
+      "modality": "Oral peptide tablet (N-Tab platform) containing PTH(1-34)",
+      "target": "Parathyroid hormone receptor (osteoanabolic)",
+      "license_origin": "Entera proprietary (N-Tab platform); patent rights from Oramed",
+      "indications": [
+        {
+          "indication": "Postmenopausal osteoporosis",
+          "highest_phase": "Phase 2 completed; Phase 3 PLANNED",
+          "trial_name": "EB613 Phase 3 (planned)",
+          "trial_design": "Phase 3 in postmenopausal women with osteoporosis; primary endpoint = change in total hip BMD; key secondary endpoint = incidence of new/worsening vertebral fractures at 24 months. Protocol/SAP submitted to FDA Feb 2026.",
+          "nct_ids": [],
+          "trial_status": "PLANNED - Phase 3 initiation targeted 2H 2026 subject to additional financing; Phase 2 (NCT04003467) completed and met primary/secondary endpoints",
+          "lead_sponsor": "Entera Bio Ltd.",
+          "key_milestones": ["Phase 2 results published JBMR April 2024", "FDA Type A meeting agreement July 2025 supports single P3 study for NDA", "FDA December 2025 Determination qualifies total hip BMD as surrogate endpoint", "Going concern qualification - financing required to start P3"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "EB612 (oral PTH(1-34) / LA-PTH for hypoparathyroidism) - preclinical; IND filing targeted late 2026; collaboration expanded with OPKO Feb 2026",
+    "EB618 / Oral OXM (oral GLP-1/Glucagon dual agonist for obesity, metabolic, fibrotic disorders) - preclinical; OPKO planning Phase 1 SAD/MAD with SC formulation by end 2026, then IND for oral tablet",
+    "Oral GLP-2 (short bowel syndrome) - preclinical proof-of-concept in rodents"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT03516773 EB612 oral PTH(1-34) Phase 2 hypoparathyroidism - COMPLETED 2018",
+    "NCT04003467 EB613 EBP05 Phase 2 postmenopausal low bone mass - COMPLETED 2021 (will support P3)",
+    "NCT02571140 oral PTH(1-34) Phase 1 - COMPLETED 2017",
+    "NCT02202603 oral PTH(1-34) Phase 1 - COMPLETED 2013",
+    "NCT02152228 oral PTH(1-34) Phase 2 hypoparathyroidism pilot - COMPLETED 2015",
+    "NCT05965167 EB613/EBP11 formulations Phase 1 - COMPLETED 2026"
+  ],
+  "excluded_partner_owned": [
+    "OPKO-led Phase 1 SAD/MAD of subcutaneous OXM (precursor to oral OXM) - partner-led, not Entera asset"
+  ],
+  "summary_counts": {
+    "total_assets": 1,
+    "phase_3": 0,
+    "phase_3_planned": 1,
+    "phase_2": 0,
+    "phase_1_or_1_2": 0
+  },
+  "no_active_clinical_pipeline_reason": "All Entera-sponsored clinical trials are completed; lead asset EB613 awaiting Phase 3 initiation (planned 2H 2026, financing-dependent). Other programs (EB612, EB618, oral GLP-2) are preclinical. Listed EB613 as Phase 3-PLANNED per workflow rule 5."
+}

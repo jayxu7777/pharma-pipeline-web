@@ -1,0 +1,117 @@
+{
+  "issuer_name": "Plus Therapeutics, Inc.",
+  "ticker": "PSTV",
+  "exchange": "Nasdaq",
+  "cik": "0001095981",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026",
+      "path": "data/pstv_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://plustherapeutics.com/pipeline",
+      "note": "Pipeline page lists REYOBIQ (rhenium-186 obisbemeda) for recurrent GBM, leptomeningeal metastases, pediatric brain cancers; 188RNL-BAM (preclinical) for primary/secondary liver cancer; CNSide diagnostic platform."
+    },
+    "ctgov": {
+      "path": "data/pstv_ctgov_compact.json",
+      "trials_returned": 5
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Rhenium (186Re) obisbemeda",
+      "aka": ["REYOBIQ", "186RNL", "Rhenium-186 NanoLiposome"],
+      "modality": "Targeted radiotherapeutic (Rhenium-186 nanoliposome with BMEDA chelation, delivered via convection-enhanced delivery (CED) catheter or intraventricular Ommaya reservoir)",
+      "target": "Local tumor delivery (CNS) — beta radiation to malignant cells",
+      "license_origin": "In-licensed from NanoTx, Corp. (NanoTx License Agreement, March 29, 2020); core platform developed at UTHSCSA / Mays Cancer Center",
+      "indications": [
+        {
+          "indication": "Recurrent glioblastoma (GBM)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ReSPECT-GBM",
+          "trial_design": "Multicenter, sequential cohort, open-label, volume and dose escalation study via CED catheters; FDA Orphan Drug and Fast Track designations",
+          "nct_ids": ["NCT01906385"],
+          "trial_status": "Recruiting (Phase 2 portion ongoing; targeting full Phase 2 enrollment by end of 2026)",
+          "lead_sponsor": "Plus Therapeutics",
+          "key_milestones": [
+            "Phase 1 completed",
+            "Targeting full Phase 2 enrollment end of 2026",
+            "$3.0M active NIH/NCI grant supports Phase 2 (up to 55 patients)"
+          ]
+        },
+        {
+          "indication": "Leptomeningeal metastases (LM) — single-dose escalation completed",
+          "highest_phase": "Phase 1",
+          "trial_name": "ReSPECT-LM (single-dose intraventricular)",
+          "trial_design": "Multi-center, sequential cohort, open-label, dose escalation via intraventricular Ommaya reservoir; recommended Phase 2 dose 44.1 mCi; MTD 66 mCi",
+          "nct_ids": ["NCT05034497"],
+          "trial_status": "Active, not recruiting (enrollment completed end-2024; trial completion announced February 26, 2025; closeout activities ongoing)",
+          "lead_sponsor": "Plus Therapeutics",
+          "key_milestones": [
+            "Single-dose escalation completed; recommended Phase 2 dose 44.1 mCi",
+            "End-of-Phase-1 FDA meeting November 2025",
+            "FDA Orphan Drug designations for breast cancer LM (Nov 2023) and lung cancer LM (Mar 2025)"
+          ]
+        },
+        {
+          "indication": "Leptomeningeal metastases (LM) — multi-dose",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ReSPECT-LM Multi-dose",
+          "trial_design": "Open-label multidose Phase 1/2 study to identify MTD across varying dosing intervals and characterize efficacy of multiple doses; CNSide Test as exploratory endpoint",
+          "nct_ids": ["NCT07098806"],
+          "trial_status": "Recruiting (Phase 2 portion currently enrolling)",
+          "lead_sponsor": "Plus Therapeutics",
+          "key_milestones": [
+            "Cohort 1 dosing initiated (13.2 mCi at 3 intervals)",
+            "Phase 2 enrollment ongoing",
+            "CPRIT Grant up to $17.6M supports development through Phase 2 (~$15.9M received as of Dec 31, 2025)"
+          ]
+        },
+        {
+          "indication": "Recurrent glioma — retreatment after prior 186RNL therapy",
+          "highest_phase": "Phase 1",
+          "trial_name": "186RNL Retreatment Study",
+          "trial_design": "Safety, efficacy, and tolerability of repeat 186RNL administration in patients who received prior 186RNL treatment",
+          "nct_ids": ["NCT05460507"],
+          "trial_status": "Recruiting (start Dec 2024; primary completion Mar 2028)",
+          "lead_sponsor": "Plus Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Pediatric recurrent/refractory/progressive ependymoma and high-grade glioma (HGG)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ReSPECT-PBC",
+          "trial_design": "Two-part, single-arm, prospective study in pediatric patients aged 6-21; Phase 1a/b modified 3+3 dose escalation (~24 patients) and Phase 2a (~32 patients: 12 ependymoma, 20 HGG) at RP2D",
+          "nct_ids": ["NCT07061626"],
+          "trial_status": "Not yet recruiting (IND #168178 cleared June 25, 2025; first patient enrollment anticipated in 2026)",
+          "lead_sponsor": "Plus Therapeutics",
+          "key_milestones": [
+            "FDA IND clearance June 25, 2025",
+            "DoD Award $3.0M (Sept 2024) over 3 years to support pediatric trial",
+            "First patient enrollment expected in 2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "CNSide CSF Assay Platform",
+    "status": "Laboratory-developed test (LDT) for detection/characterization of tumor cells in CSF of LM patients; commercially re-introduced in Texas August 2025; national agreements with UnitedHealthcare and Humana; state licensure in 49 of 50 states by January 2026 (NY pending 2027). Used as exploratory endpoint in ReSPECT-LM multidose. Not a therapeutic pipeline asset."
+  },
+  "excluded_preclinical": [
+    "188RNL-BAM (Rhenium-188 NanoLiposome Biodegradable Alginate Microsphere) — preclinical investigational device for radioembolization in primary/secondary liver cancer; FDA has classified it as a medical device; not yet in clinical trials."
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 1,
+    "total_indications": 5,
+    "phase_3_or_pivotal": 0,
+    "phase_2": 3,
+    "phase_1": 2
+  },
+  "no_active_clinical_pipeline_reason": null
+}

@@ -1,0 +1,64 @@
+{
+  "issuer_name": "Medicenna Therapeutics Corp.",
+  "ticker": "MDNAF",
+  "exchange": "OTC",
+  "cik": "0001807983",
+  "region": "Canada (foreign private issuer)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer — files 20-F (none in EDGAR recent filings under this CIK at fetch time)"},
+    "website": {"url": "https://medicenna.com/pipeline/", "note": "Pipeline page successfully fetched"},
+    "ctgov": {"path": "data/mdnaf_ctgov_compact.json", "p1_p3_trials": 2, "note": "1 RECRUITING Phase 1/2 (NCT05086692 ABILITY-1 MDNA11); 1 COMPLETED Phase 2 (NCT02858895 MDNA55 in rGBM)"}
+  },
+  "pipeline": [
+    {
+      "asset": "MDNA11",
+      "aka": ["IL-2 Super-agonist", "beta-only IL-2"],
+      "modality": "Engineered IL-2 superkine (Fc fusion / albumin-fusion biologic)",
+      "target": "IL-2 receptor beta-gamma (CD122/CD132) — bypasses IL-2Ralpha (CD25)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced/unresectable solid tumors (broad basket including ccRCC, TNBC, NSCLC, HNSCC, melanoma, MSI-H tumors, mesothelioma, others) — monotherapy and pembrolizumab combination",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ABILITY-1 — A Beta-only IL-2 ImmunoTherapY Study",
+          "trial_design": "Phase 1/2, open-label, dose-escalation and expansion of MDNA11 monotherapy and in combination with pembrolizumab (Merck collaboration); also Fondazione collaboration combination arm",
+          "nct_ids": ["NCT05086692"],
+          "trial_status": "RECRUITING (started 2021-08-27; primary completion 2026-06-30)",
+          "lead_sponsor": "Medicenna Therapeutics, Inc.",
+          "key_milestones": ["Merck KEYTRUDA combination clinical collaboration", "Fondazione clinical collaboration", "Primary completion targeted June 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "Bizaxofusp (MDNA55)",
+      "aka": ["MDNA55", "IL4-PE", "cpIL4-PE", "NBI-3001"],
+      "modality": "IL-4 superkine fused to Pseudomonas exotoxin (targeted toxin biologic)",
+      "target": "IL-4 receptor (IL-4Ralpha / IL-13Ralpha2 expressing tumor cells)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Recurrent / progressive glioblastoma (rGBM); high-grade glioma",
+          "highest_phase": "Phase 3-ready (positive Phase 2b completed; seeking strategic partner to co-develop registrational study)",
+          "trial_name": "Convection-Enhanced Delivery of MDNA55 in Adults with Recurrent or Progressive Glioblastoma (Phase 2b)",
+          "trial_design": "Open-label Phase 2b convection-enhanced delivery in adults with recurrent/progressive GBM",
+          "nct_ids": ["NCT02858895"],
+          "trial_status": "Phase 2b COMPLETED (primary completion 2019-09-12); program is Phase 3-ready awaiting strategic partner",
+          "lead_sponsor": "Medicenna Therapeutics, Inc.",
+          "key_milestones": ["Phase 2b complete with positive data", "Phase 3-ready; partnering effort ongoing"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": null,
+  "excluded_preclinical": [
+    {"asset": "MDNA113", "reason": "Anti-PD-1-IL-2 Masked BiSKIT bispecific for IL-13Ralpha2 solid tumors — preclinical"},
+    {"asset": "MDNA209", "reason": "IL-2/IL-15 pathway super-antagonist for autoimmune disease — preclinical"},
+    {"asset": "MDNA413", "reason": "IL-4/IL-13 pathway super-antagonist for inflammatory disease — preclinical"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"p3": 0, "p2": 1, "p1_p2": 1, "p1": 0, "total_assets": 2},
+  "no_active_clinical_pipeline_reason": null
+}

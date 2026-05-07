@@ -1,0 +1,101 @@
+{
+  "issuer_name": "Corvus Pharmaceuticals, Inc.",
+  "ticker": "CRVS",
+  "exchange": "Nasdaq",
+  "cik": "0001626971",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-12",
+      "accession": "0001104659-26-027047",
+      "path": "data/crvs_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.corvuspharma.com/pipeline",
+      "extracted": "Soquelitinib (CPI-818) ITK inhibitor; Ciforadenant (CPI-444) A2A; Mupadolimab (CPI-006) anti-CD73"
+    },
+    "ctgov": {
+      "path": "data/crvs_ctgov_compact.json",
+      "query_sponsor": "Corvus Pharmaceuticals"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Soquelitinib",
+      "aka": ["CPI-818"],
+      "modality": "Oral small molecule covalent ITK inhibitor",
+      "target": "Interleukin-2 inducible T cell kinase (ITK)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory peripheral T-cell lymphoma (PTCL)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Soquelitinib vs SOC in r/r PTCL (registrational)",
+          "trial_design": "Randomized Phase 3 of soquelitinib monotherapy versus standard of care chemotherapy in relapsed/refractory peripheral T-cell lymphoma",
+          "nct_ids": ["NCT06561048"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Corvus Pharmaceuticals, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "Moderate-to-severe atopic dermatitis",
+          "highest_phase": "Phase 2",
+          "trial_name": "Soquelitinib AD Phase 2",
+          "trial_design": "Randomized, placebo-controlled Phase 2 in patients with moderate-to-severe atopic dermatitis",
+          "nct_ids": ["NCT07441395"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Corvus Pharmaceuticals, Inc.",
+          "key_milestones": []
+        },
+        {
+          "indication": "T-cell lymphoma (dose escalation, original FIH)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CPI-818 dose escalation",
+          "trial_design": "Phase 1 dose escalation evaluating CPI-818 in relapsed/refractory T-cell lymphoma",
+          "nct_ids": ["NCT03952078"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Corvus Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Ciforadenant",
+      "aka": ["CPI-444"],
+      "modality": "Oral small molecule adenosine A2A receptor antagonist (immune checkpoint)",
+      "target": "Adenosine A2A receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Solid tumors (clinical-stage; awaiting next-step development per 10-K)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Historical Phase 1/1b combination program",
+          "trial_design": "Phase 1/1b safety/tolerability of ciforadenant alone and in combination; multiple completed studies",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — no active enrolling Iovance-sponsored study; remains in development pipeline per 10-K",
+          "lead_sponsor": "Corvus Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Other discovery-stage immunology programs"
+  ],
+  "excluded_legacy_terminated": [
+    "Mupadolimab (CPI-006) Phase 3 NCT04734873 in COVID-19 — terminated",
+    "Multiple completed Phase 1 studies of ciforadenant and CPI-006"
+  ],
+  "excluded_partner_owned": [
+    "Mupadolimab (CPI-006) NSCLC development — being evaluated by partner Angel Pharmaceuticals in China"
+  ],
+  "summary_counts": {
+    "total_assets": 2,
+    "indications_total": 4,
+    "p3_indications": 1,
+    "p2_indications": 1,
+    "p1_indications": 2
+  }
+}

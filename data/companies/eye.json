@@ -1,0 +1,40 @@
+{
+  "issuer_name": "National Vision Holdings, Inc.",
+  "ticker": "EYE",
+  "exchange": "Nasdaq",
+  "cik": "0001710155",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001628280-26-014379",
+      "filing_date": "2026-03-04",
+      "doc": "eye-20260103.htm"
+    },
+    "website": {
+      "error": "no public pipeline page found - National Vision is an optical retailer (America's Best, Eyeglass World), not a drug developer"
+    },
+    "ctgov": {
+      "queried_sponsor": "National Vision",
+      "kept_p1_p3": 1,
+      "note": "Single hit (NCT02509494 Ebola vaccine) is a false positive matched via collaborator 'World Vision, Ireland'; sponsor is Janssen, not National Vision Holdings."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "type": "Optical retail services",
+    "brands": ["America's Best Contacts & Eyeglasses", "Eyeglass World", "Vista Optical", "Vision Center inside Walmart (legacy)"],
+    "description": "Operator of optical retail stores in the U.S. providing eye exams, prescription eyeglasses, and contact lenses. Not a pharmaceutical or therapeutic device developer."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Optical retail company (America's Best, Eyeglass World). Sells eyewear and provides eye exams; does not develop drugs or therapeutic devices. No proprietary clinical pipeline."
+}

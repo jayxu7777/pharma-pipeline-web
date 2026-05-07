@@ -1,0 +1,75 @@
+{
+  "issuer_name": "60 Degrees Pharmaceuticals, Inc.",
+  "ticker": "SXTPW",
+  "exchange": "Nasdaq",
+  "cik": "0001946563",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001554855-26-000467",
+      "filing_date": "2026-03-30",
+      "file": "data/sxtpw_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://60degreespharma.com/clinical-pipeline/",
+      "note": "Confirms tafenoquine (ARAKODA) commercial product plus Phase 2 babesiosis programs and earlier-stage candidiasis/fungal program; celgosivir listed at preliminary development stage"
+    },
+    "ctgov": {
+      "file": "data/sxtpw_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Tafenoquine",
+      "aka": ["ARAKODA", "KODATEF", "SB 252263", "WR 238605"],
+      "modality": "Small-molecule 8-aminoquinoline antiparasitic",
+      "target": "Plasmodium and Babesia parasites (mitochondrial / multi-stage activity)",
+      "license_origin": "Originated by Walter Reed Army Institute of Research / GlaxoSmithKline; commercialized for malaria prophylaxis (ARAKODA) and developed by 60 Degrees Pharmaceuticals for babesiosis and other indications",
+      "indications": [
+        {
+          "indication": "Acute babesiosis (oral tafenoquine + standard of care vs placebo + standard of care)",
+          "highest_phase": "P2",
+          "trial_name": "Tafenoquine for acute babesiosis",
+          "trial_design": "Phase 2 randomized, double-blind, placebo-controlled trial of oral tafenoquine plus standard of care in babesiosis",
+          "nct_ids": ["NCT06207370"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "60 Degrees Pharmaceuticals LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic babesiosis (B-FREE study)",
+          "highest_phase": "P2",
+          "trial_name": "B-FREE Chronic Babesiosis Study",
+          "trial_design": "Phase 2 study of tafenoquine 100 mg in chronic babesiosis",
+          "nct_ids": ["NCT06656351"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "60 Degrees Pharmaceuticals LLC",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "asset": "ARAKODA (tafenoquine)",
+    "indication": "Prevention of malaria in adults and adolescents (FDA-approved 2019; KODATEF in Australia)",
+    "status": "Commercialized"
+  },
+  "excluded_preclinical": [
+    "Tafenoquine for fungal diseases / candidiasis — described as Phase 2A program on company site but no public NCT identified",
+    "Celgosivir (host-targeted alpha-glucosidase inhibitor) for dengue / RSV / COVID-19 — preliminary development stage per company; no active 60P-sponsored NCT (only WITHDRAWN Singapore General Hospital-led NCT02569827)"
+  ],
+  "excluded_legacy_terminated": [
+    "Tafenoquine in mild-to-moderate COVID-19 (NCT04533347) — Phase 2 COMPLETED",
+    "Tafenoquine long-term safety study (NCT03320174) — Phase 2 COMPLETED",
+    "Celgosivir/Modipafant for dengue (NCT02569827, Singapore General Hospital lead) — WITHDRAWN"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets_total": 1,
+    "p3": 0,
+    "p2": 1,
+    "p1": 0
+  }
+}

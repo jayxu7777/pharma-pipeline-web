@@ -1,0 +1,23 @@
+{
+  "issuer_name": "Journey Medical Corp",
+  "ticker": "DERM",
+  "exchange": "Nasdaq",
+  "cik": "0001867066",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-034629", "filed": "2026-03-26", "path": "data/derm_10k_pipeline_section.html"},
+    "website": {"url": "https://www.journeymedicalcorp.com/", "fetched": "2026-05-06"},
+    "ctgov": {"path": "data/derm_ctgov_compact.json", "lead_sponsor_query": "Journey Medical", "note": "All 10 sponsor-led trials are COMPLETED (registration trials for now-approved products)"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Journey Medical is a commercial-stage dermatology specialty pharma company (controlled subsidiary of Fortress Biotech). Its strategy is to in-license/acquire FDA-approved or near-approval products and commercialize them via its sales force. All clinicaltrials.gov sponsor-led studies are COMPLETED — they were registration studies for marketed products: Emrosi/DFD-29 (rosacea, FDA-approved Nov 2024), Qbrexza/DRM04 glycopyrronium (axillary hyperhidrosis, approved). Currently marketed products include Emrosi, Qbrexza, Accutane, Amzeeq, Zilxi, Targadox, Exelderm, Luxamend. No active sponsor-led P1/P2/P3 trials are in progress.",
+  "commercial_product": {
+    "products": ["Emrosi (minocycline ER, rosacea)", "Qbrexza (glycopyrronium, axillary hyperhidrosis)", "Accutane (isotretinoin, severe nodular acne)", "Amzeeq (minocycline topical foam, acne)", "Zilxi (minocycline topical foam, rosacea)", "Targadox (doxycycline, acne)", "Exelderm (antifungal)", "Luxamend (wound care)"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0}
+}

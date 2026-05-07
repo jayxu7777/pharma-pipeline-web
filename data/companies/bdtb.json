@@ -1,0 +1,35 @@
+{
+  "issuer_name": "Bodhi Tree Biotechnology Inc",
+  "ticker": "BDTB",
+  "exchange": "OTC",
+  "cik": "0002041531",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001829126-25-010312",
+      "filing_date": "2025-12-29",
+      "doc": "bodhitreebiotech_10k.htm",
+      "note": "Despite 'Biotechnology' in the corporate name, the issuer is a Delaware-incorporated (Dec 2023) early-stage consulting company providing plant-based menu design, recipe development, and vegetarian-diet consulting services. No drug, device, or biologic operations. Explicitly states: 'we do not provide medical advice or clinical nutritional services'."
+    },
+    "website": {
+      "error": "Not attempted — issuer is a vegetarian-diet consulting business, not a biopharma; no drug pipeline page expected"
+    },
+    "ctgov": {
+      "file": "data/bdtb_ctgov_compact.json",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "P3": 0,
+    "P2": 0,
+    "P1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Mis-classified by name only ('Biotechnology' in corporate title). Actual business is plant-based menu design, recipe development, and vegetarian-diet consulting (Danville, CA). No drug, biologic, or medical-device pipeline; no investigational programs; no ClinicalTrials.gov registrations; only two registered trademarks (2025) for brand identity."
+}

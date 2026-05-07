@@ -1,0 +1,41 @@
+{
+  "issuer_name": "NEXGEL, INC.",
+  "ticker": "NXGLW",
+  "exchange": "Nasdaq",
+  "cik": "0001468929",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014377",
+      "filed": "2026-03-31",
+      "doc": "form10-k.htm",
+      "note": "10-K describes hydrogel manufacturer (Arctic5, Arctic10, Synapse, Mother Earth gel platforms) with consumer / OTC / custom-hydrogel partner products. No drug clinical trials disclosed; 'pipeline' references are sales pipeline only."
+    },
+    "website": {
+      "url": "https://www.nexgel.com",
+      "note": "Product categories: Beauty, Foot Care, OTC Health, Custom Hydrogels. No clinical-trial pipeline disclosed."
+    },
+    "ctgov": {
+      "file": "data/nxglw_ctgov_compact.json",
+      "result_count": 0,
+      "note": "Zero sponsor-matched studies on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {"name": "Arctic5 Hydrogel", "description": "94.5% water hydrogel for burns and wound care."},
+      {"name": "Arctic10 Hydrogel", "description": "90% water hydrogel for face masks and pain relief."},
+      {"name": "Synapse Hydrogel", "description": "55% water hydrogel for pain-relief and beauty applications."},
+      {"name": "Mother Earth Hydrogel", "description": "Biodegradable hydrogel platform."}
+    ],
+    "categories": ["Beauty", "Foot Care", "OTC Health", "Custom Hydrogels"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Hydrogel manufacturer / consumer-OTC products company. No proprietary drug or device clinical-trial pipeline disclosed in 10-K, corporate website, or ClinicalTrials.gov."
+}

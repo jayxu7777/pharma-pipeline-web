@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Century Therapeutics, Inc.",
+  "ticker": "IPSC",
+  "exchange": "Nasdaq",
+  "cik": "0001850119",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"file": "data/ipsc_10k_pipeline_section.html", "filing_date": "2026-03-12", "accession": "0001104659-26-026759"},
+    "website": {"url": "https://www.centurytx.com/pipeline", "note": "Page rendered as JS — could not extract structured data via WebFetch; relied on 10-K + ctgov."},
+    "ctgov": {"file": "data/ipsc_ctgov_compact.json", "trials_returned": 2, "active_p1_p3_count": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "CNTY-101",
+      "aka": [],
+      "modality": "Allogeneic CAR-iNK cell therapy (iPSC-derived)",
+      "target": "CD19",
+      "license_origin": "Internal (Century Therapeutics)",
+      "indications": [
+        {
+          "indication": "Refractory B Cell-Mediated Autoimmune Diseases (SLE, Lupus Nephritis, Idiopathic Inflammatory Myopathies, Diffuse Cutaneous Systemic Sclerosis)",
+          "highest_phase": "Phase 1",
+          "trial_name": "CALiPSO-1",
+          "trial_design": "Open-label, multi-center, dose-finding Phase 1 with IL-2 and lymphodepleting chemotherapy",
+          "nct_ids": ["NCT06255028"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Century Therapeutics, Inc.",
+          "key_milestones": ["Primary completion 2028-08"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["CNTY-108 (CD19 CAR-iNK next gen, preclinical at last 10-K)", "Solid tumor iNK programs (preclinical)"],
+  "excluded_legacy_terminated": ["NCT05336409 CNTY-101 in CD19+ B-cell malignancies Phase 1 (TERMINATED 2025)"],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 1, "phase_3": 0, "phase_2": 0, "phase_1": 1}
+}

@@ -1,0 +1,82 @@
+{
+  "issuer_name": "Scilex Holding Co",
+  "ticker": "SCLX",
+  "exchange": "Nasdaq",
+  "cik": "0001820190",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-151455", "filed": "2026-04-10", "doc": "sclx-20251231.htm"},
+    "website": {"error": "Pipeline page returned only JS shell"},
+    "ctgov": {"path": "data/sclx_ctgov_compact.json", "note": "Most studies completed; new 2025 Ph3 SEMDEXA trial not yet captured under standard sponsor query"}
+  },
+  "pipeline": [
+    {
+      "asset": "SEMDEXA",
+      "aka": ["SP-102"],
+      "modality": "Small molecule (viscous gel formulation)",
+      "target": "Glucocorticoid receptor (dexamethasone sodium phosphate viscous gel)",
+      "license_origin": "Internal (Semnur Pharmaceuticals subsidiary)",
+      "indications": [
+        {
+          "indication": "Lumbosacral radicular pain / sciatica (epidural)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Second pivotal Phase 3 study (initiated Sept 2025)",
+          "trial_design": "Randomized, placebo-controlled epidural injection",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Recruiting (initiated September 2025 per 2025 10-K); first Phase 3 (NCT03372161-era) completed March 2022 with positive primary/secondary endpoints",
+          "lead_sponsor": "Semnur Pharmaceuticals, Inc. (Scilex subsidiary)",
+          "key_milestones": ["FDA Fast Track designation", "Initiated 2nd Ph3 Sept 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "SP-103",
+      "aka": ["lidocaine topical system 5.4%"],
+      "modality": "Topical drug-delivery system",
+      "target": "Voltage-gated sodium channels (lidocaine, triple-strength ZTlido)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Chronic neck pain associated with muscle spasms",
+          "highest_phase": "Phase 2",
+          "trial_name": "SP-103 Phase 2 in chronic neck pain",
+          "trial_design": "Randomized topical-system trial",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED / ongoing - Ph2 in chronic neck pain per 2025 10-K (acute LBP Ph2 completed Aug 2023)",
+          "lead_sponsor": "Scilex Pharmaceuticals, Inc.",
+          "key_milestones": ["FDA Fast Track designation for LBP", "Ph2 LBP top-line Aug 2023"]
+        }
+      ]
+    },
+    {
+      "asset": "SP-104",
+      "aka": ["low-dose naltrexone HCl 4.5 mg delayed-release"],
+      "modality": "Small molecule (delayed-release capsule)",
+      "target": "Opioid receptors (low-dose naltrexone)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Fibromyalgia",
+          "highest_phase": "Phase 1",
+          "trial_name": "SP-104 Phase 1",
+          "trial_design": "PK / safety",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 trials completed; next study planned per 2025 10-K",
+          "lead_sponsor": "Scilex Pharmaceuticals, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed": ["ZTlido (lidocaine topical system 1.8%) - PHN", "GLOPERBA (colchicine oral solution) - gout flare prophylaxis", "ELYXYB (celecoxib oral solution) - acute migraine"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    {"nct": "NCT03613662", "reason": "Earlier SP-102 Ph2 PD/safety - completed"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 3, "p3": 1, "p2": 1, "p1": 1, "active_indications": 3}
+}

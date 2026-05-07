@@ -1,0 +1,33 @@
+{
+  "issuer_name": "electroCore, Inc.",
+  "ticker": "ECOR",
+  "exchange": "Nasdaq",
+  "cik": "0001560258",
+  "region": "United States",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001493152-26-011636", "filing_date": "2026-03-19", "file": "data/ecor_10k_pipeline_section.html"},
+    "website": {"url": "https://www.electrocore.com/pipeline", "note": "Pipeline page describes commercial FDA-cleared indications for gammaCore and a list of preclinical/pilot expansion indications. No active company-sponsored P1/P2/P3 clinical trials disclosed; no NCT IDs listed."},
+    "ctgov": {"sponsor_query": "ElectroCore", "raw_count": 2, "kept_p1_p3": 0, "note": "Both retrieved trials (NCT02974959 P1 TBI lead by CentraCare, completed; NCT01701245 P2 chronic cluster headache, completed in 2014) are completed legacy studies — none active.", "file": "data/ecor_ctgov_compact.json"}
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      {"name": "gammaCore (non-invasive vagus nerve stimulator, nVNS)", "indications_marketed": ["Episodic cluster headache (acute, FDA cleared 2017)", "Migraine (acute, FDA cleared 2018)", "Cluster headache (prevention, FDA cleared 2019)", "Migraine (prevention, FDA cleared 2020)", "Adolescent migraine (FDA cleared 2021)"], "regulatory": ["Multiple FDA 510(k) clearances"]},
+      {"name": "Quell Fibromyalgia", "indications_marketed": ["Fibromyalgia symptom relief"], "regulatory": ["FDA cleared"]},
+      {"name": "Truvaga / Truvaga Plus", "indications_marketed": ["General wellness (consumer)"], "regulatory": ["FDA General Wellness guidance compliance (Sep 2019)"]},
+      {"name": "TAC-STIM", "indications_marketed": ["Human performance / general wellness (consumer/military)"], "regulatory": ["FDA General Wellness guidance compliance"]}
+    ]
+  },
+  "excluded_preclinical": [
+    {"asset": "gammaCore expansion indications", "indications": ["Acute stroke", "Parkinson's disease", "Post-traumatic headache", "Subarachnoid hemorrhage", "PTSD", "Opioid use disorder", "Gastroparesis", "Post-operative ileus", "Reactive airway disease", "Systemic inflammation"], "reason": "Pipeline page lists each as preclinical/pilot stage with single-digit to ~30% completion bars; no active company-sponsored P1/P2/P3 trial registered."}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "gammaCore in TBI", "nct_ids": ["NCT02974959"], "reason": "Investigator-initiated P1 (CentraCare lead sponsor); status COMPLETED 2020."},
+    {"asset": "gammaCore in chronic cluster headache (PREVA-style)", "nct_ids": ["NCT01701245"], "reason": "P2 study completed 2014; superseded by FDA cleared label."}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "p3": 0, "p2": 0, "p1": 0},
+  "no_active_clinical_pipeline_reason": "Commercial-stage medical device company (vagus nerve stimulators and consumer wellness handsets). All flagship indications are FDA cleared and marketed; remaining R&D items are preclinical/pilot exploratory work with no active P1/P2/P3 or pivotal IDE study currently registered on a public clinical-trial registry."
+}

@@ -1,0 +1,34 @@
+{
+  "issuer_name": "Propanc Biopharma, Inc.",
+  "ticker": "PPCB",
+  "exchange": "OTC/Nasdaq",
+  "cik": "0001517681",
+  "region": "US (Australia operations)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-25-016069",
+      "filing_date": "2025-09-29",
+      "path": "data/ppcb_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.propanc.com/",
+      "note": "PRP described as pre-clinical preparing for human trials; no separate /pipeline page (404)."
+    },
+    "ctgov": {
+      "path": "data/ppcb_ctgov_compact.json",
+      "trials_total": 0,
+      "active_or_recruiting": 0
+    }
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Lead asset PRP (intravenous combination of trypsinogen + chymotrypsinogen proenzymes for advanced solid tumors; FDA Orphan Designation 2017) remains in preclinical stage. Per FY2025 10-K, the company plans to file a Clinical Trial Application (CTA) and commence a First-In-Human Phase Ib multiple-ascending-dose study in advanced solid tumor patients in H2 calendar 2026, contingent on raising sufficient capital. POP1 backup compound is at discovery stage. No Phase 1/2/3 trial currently active or registered.",
+  "excluded_preclinical": [
+    {"asset": "PRP", "modality": "IV proenzyme combination (trypsinogen + chymotrypsinogen)", "indication": "Advanced solid tumors (pancreatic, ovarian, colorectal)", "stage": "Preclinical / CTA preparation; planned FIH Phase Ib H2 2026", "fda_designation": "Orphan Drug (June 2017)"},
+    {"asset": "POP1", "modality": "Proenzyme backup program", "stage": "Discovery"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"active_assets": 0, "phase_3": 0, "phase_2": 0, "phase_1": 0}
+}

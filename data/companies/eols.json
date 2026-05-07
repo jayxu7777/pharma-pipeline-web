@@ -1,0 +1,33 @@
+{
+  "issuer_name": "Evolus, Inc.",
+  "ticker": "EOLS",
+  "exchange": "Nasdaq",
+  "cik": "0001570562",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-014001", "filing_date": "2026-03-03", "doc": "eols-20251231.htm"},
+    "website": {"url": "https://www.evolus.com", "note": "Commercial-stage aesthetics company; no clinical R&D pipeline page"},
+    "ctgov": {"sponsor_query": "Evolus", "trial_count": 6, "active_count": 0, "note": "All 6 Evolus-sponsored ctgov trials are COMPLETED (TRANSPARENCY program supporting Jeuveau approval)"}
+  },
+  "no_active_clinical_pipeline_reason": "Evolus is a commercial-stage medical aesthetics company. Its two product lines are Jeuveau (botulinum toxin type A; FDA-approved 2019, supplied by Daewoong) and the Evolysse collection of injectable HA dermal gels (Form/Smooth FDA-approved Feb 2025; Sculpt PMA filed Aug 2025; Lips PMA in 2027; supplied by Symatese). All clinical trials supporting these products are completed. The Evolysse Sculpt/Lips/Eye products are aesthetic medical devices/HA gels in PMA review, not active P1/P2/P3 drug clinical trials. Per workflow rule #10, this is a commercial-stage / device-only firm without an active P1/P2/P3 drug pipeline.",
+  "pipeline": [],
+  "commercial_product": {
+    "products": [
+      {"name": "Jeuveau (prabotulinumtoxinA-xvfs)", "indication": "Glabellar lines (frown lines)", "status": "Commercial in US/Canada/EU/UK/Australia/Switzerland; royalties owed to Medytox and Daewoong"},
+      {"name": "Evolysse Form and Smooth", "indication": "Moderate-to-severe wrinkles and folds (nasolabial folds)", "status": "Commercial; FDA-approved Feb 2025, US launch Apr 2025"},
+      {"name": "Evolysse Sculpt", "indication": "Mid face volume", "status": "PMA submitted Aug 2025; FDA approval expected 2H 2026"},
+      {"name": "Evolysse Lips", "indication": "Lip fullness", "status": "PMA filing planned; approval anticipated 2027"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

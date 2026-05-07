@@ -1,0 +1,39 @@
+{
+  "issuer_name": "Trulieve Cannabis Corp.",
+  "ticker": "TCNNF",
+  "exchange": "OTC",
+  "cik": "0001754195",
+  "region": "US (multi-state cannabis operator) / Canada-domiciled",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001754195-26-000019",
+      "filing_date": "2026-02-26",
+      "doc": "tcnnf-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.trulieve.com/",
+      "note": "Trulieve is a vertically integrated cannabis dispensary/cultivator (consumer brand), not a pharma. No drug development pipeline page exists."
+    },
+    "ctgov": {
+      "query_sponsor": "Trulieve",
+      "studies_returned": 0,
+      "active_p123_company_sponsored": 0
+    }
+  },
+  "no_active_clinical_pipeline_reason": "Trulieve Cannabis Corp. is a U.S. multi-state cannabis operator (cultivation, processing, dispensing of medical and adult-use cannabis products), not a clinical-stage drug developer. The company does not sponsor any P1/P2/P3 clinical trials on ClinicalTrials.gov, and the 10-K describes a retail/operations business with no drug-development R&D pipeline.",
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Operates 200+ medical and adult-use cannabis dispensaries (predominantly Florida) under the Trulieve and Roll One brands; products include flower, concentrates, edibles, vapes, topicals."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  }
+}

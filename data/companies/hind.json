@@ -1,0 +1,76 @@
+{
+  "issuer_name": "Vyome Holdings, Inc.",
+  "ticker": "HIND",
+  "exchange": "Nasdaq",
+  "cik": "0001427570",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001213900-26-029500",
+      "filing_date": "2026-03-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1427570/000121390026029500/ea0280821-10k_vyomehold.htm"
+    },
+    "website": {
+      "url": "https://vyometx.com/science-pipeline/pipeline"
+    },
+    "ctgov": {
+      "query": "Vyome Therapeutics",
+      "trials_kept": 1
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "VT-1953",
+      "aka": ["VT1953 Gel", "besifloxacin topical gel"],
+      "modality": "Topical small molecule (fluoroquinolone besifloxacin formulation)",
+      "target": "Bacterial DNA gyrase / TLR-MD2 inflammation pathway",
+      "license_origin": "Internal (Vyome Therapeutics)",
+      "indications": [
+        {
+          "indication": "Malignant fungating wounds in advanced cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "Investigator-initiated Phase 2 in malignant fungating wounds",
+          "trial_design": "Investigator-initiated Phase 2 vs vehicle over 14 days; statistically significant reductions reported in malodor, pain and quality-of-life impact",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 data reported; advancing toward pivotal Phase 3",
+          "lead_sponsor": "Vyome Therapeutics / academic investigators",
+          "key_milestones": [
+            "Phase 2 readout in MFW reported with statistically significant benefit",
+            "Independent valuation cited USD 1B upon successful Phase 3 (BusinessWire 2026-01)"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "VB-1953",
+      "aka": [],
+      "modality": "Topical small molecule (next-generation fluoroquinolone, gel formulation)",
+      "target": "Resistant Cutibacterium acnes / inflammatory pathway",
+      "license_origin": "Internal (Vyome Therapeutics)",
+      "indications": [
+        {
+          "indication": "Moderate-to-severe inflammatory acne vulgaris",
+          "highest_phase": "Phase 2",
+          "trial_name": "VB-1953 Phase 2 acne (completed; Phase 3-ready per company)",
+          "trial_design": "Randomized, vehicle-controlled Phase 2 of VB-1953 2% topical gel in moderate-to-severe inflammatory facial acne; 471 patients across 13 US sites; once-daily comparable to twice-daily on inflammatory lesion change",
+          "nct_ids": ["NCT03900676"],
+          "trial_status": "Phase 2 completed (positive); described as Phase 3-ready",
+          "lead_sponsor": "Vyome Therapeutics Inc.",
+          "key_milestones": [
+            "Phase 2 completed enrollment 2019-11",
+            "Positive Phase 2 results announced",
+            "Awaiting Phase 3 initiation"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "VT-1908 ophthalmic immune modulator for anterior uveitis (pre-IND)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 2, "P3": 0, "total_assets": 2}
+}

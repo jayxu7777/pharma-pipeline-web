@@ -1,0 +1,27 @@
+{
+  "issuer_name": "Oaktree Acquisition Corp. III Life Sciences",
+  "ticker": "OACCW",
+  "exchange": "Nasdaq",
+  "cik": "0002029769",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-26",
+      "accession": "0001193125-26-126536",
+      "path": "data/oaccw_10k_pipeline_section.html"
+    },
+    "website": {"error": "no public pipeline page - SPAC shell entity"},
+    "ctgov": {
+      "path": "data/oaccw_ctgov_compact.json",
+      "unique_p1_p3_trials": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 0, "P3": 0, "P2": 0, "P1": 0},
+  "no_active_clinical_pipeline_reason": "Oaktree Acquisition Corp. III Life Sciences is a special purpose acquisition company (SPAC / blank-check shell) targeting a future business combination in the life sciences sector. As a pre-combination shell entity it has no operations, no products, and no proprietary clinical pipeline."
+}

@@ -1,0 +1,86 @@
+{
+  "issuer_name": "Jaguar Health, Inc.",
+  "ticker": "JAGX",
+  "exchange": "Nasdaq",
+  "cik": "0001585608",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-04-07",
+      "accession": "0001193125-26-144470",
+      "path": "data/jagx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "http://jaguar.health/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/jagx_ctgov_compact.json",
+      "sponsor_query": "Napo Pharmaceuticals",
+      "trials_kept_p1_p3": 3
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Crofelemer (tablet)",
+      "aka": ["Mytesi", "Fulyzaq"],
+      "modality": "Botanical small molecule (Croton lechleri extract); CFTR/CaCC chloride channel inhibitor",
+      "target": "Intestinal chloride channels (CFTR, CaCC)",
+      "license_origin": "Internal (Napo Pharmaceuticals subsidiary)",
+      "indications": [
+        {
+          "indication": "Cancer therapy-related diarrhea (CTD) in adults receiving targeted therapy",
+          "highest_phase": "P3",
+          "trial_name": "OnTarget (prophylaxis of CTD)",
+          "trial_design": "Randomized, double-blind, placebo-controlled prophylaxis trial of crofelemer 125 mg in adult cancer patients receiving targeted therapy",
+          "nct_ids": ["NCT04538625"],
+          "trial_status": "Completed (topline data reported); pursuing supplemental NDA pathway",
+          "lead_sponsor": "Napo Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion 2023-08-07", "Company evaluating regulatory submission strategy"]
+        },
+        {
+          "indication": "Microvillus inclusion disease (MVID) in pediatrics (congenital diarrheal disorder)",
+          "highest_phase": "P2",
+          "trial_name": "Crofelemer powder for oral solution in pediatric MVID",
+          "trial_design": "Ascending-dose study of crofelemer powder for oral solution vs placebo in pediatric MVID patients",
+          "nct_ids": ["NCT06721871"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Napo Pharmaceuticals, Inc.",
+          "key_milestones": ["Primary completion target Feb 2026"]
+        },
+        {
+          "indication": "Short bowel syndrome with intestinal failure (SBS-IF)",
+          "highest_phase": "P2",
+          "trial_name": "Napo Therapeutics crofelemer oral solution in SBS-IF (EU)",
+          "trial_design": "Proof-of-concept clinical study in adult SBS-IF patients",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Ongoing in EU under Napo Therapeutics; US and EU orphan drug designations granted",
+          "lead_sponsor": "Napo Therapeutics S.p.A.",
+          "key_milestones": ["EU and US orphan drug designations"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "Mytesi (crofelemer)": "FDA-approved (2012) for noninfectious diarrhea in HIV/AIDS patients on antiretroviral therapy",
+    "Canalevia-CA1 (crofelemer)": "US conditional FDA approval (Dec 2021) for chemotherapy-induced diarrhea in dogs"
+  },
+  "excluded_preclinical": [
+    "NP-300 (lechlemer) for cholera diarrhea — preclinical",
+    "Crofelemer for inflammatory diarrhea / COVID-associated — preclinical",
+    "Crofelemer for inflammatory bowel disease — end of Phase 1 / not active",
+    "Canalevia-CA2 — animal health regulatory only"
+  ],
+  "excluded_legacy_terminated": [
+    "NCT02910219 (Crofelemer for HER2+ breast cancer diarrhea, investigator-sponsored, Sandra Swain) — completed 2020, not company-led active program"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 1,
+    "p3_indications": 1,
+    "p2_indications": 2,
+    "p1_indications": 0
+  }
+}

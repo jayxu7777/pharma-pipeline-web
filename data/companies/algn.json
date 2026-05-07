@@ -1,0 +1,48 @@
+{
+  "issuer_name": "ALIGN TECHNOLOGY INC",
+  "ticker": "ALGN",
+  "exchange": "Nasdaq",
+  "cik": "0001097149",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001097149-26-000014",
+      "filing_date": "2026-02-27",
+      "path": "data/algn_10k_pipeline_section.html",
+      "note": "10-K describes Invisalign clear aligner system, iTero intraoral scanners, and exocad CAD/CAM software. No therapeutic drug pipeline; ongoing engineering / clinical-evidence studies are post-market evidence generation, not P1/P2/P3 trials of investigational new devices."
+    },
+    "website": {
+      "error": "No drug/clinical pipeline page — orthodontic medical-device company. Product roadmap is described under 'Innovation' / product pages, not a P1/P2/P3 pipeline."
+    },
+    "ctgov": {
+      "path": "data/algn_ctgov_compact.json",
+      "raw_hits": 10,
+      "kept_p1_p3": 0,
+      "note": "Sponsor query returned 10 trials; all are device-effectiveness or post-market clinical studies (no Phase 1/2/3 designation under FDA drug-trial taxonomy)."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "category": "Orthodontic medical devices and digital dentistry",
+    "lines": [
+      "Invisalign clear aligner system (orthodontic case treatments)",
+      "iTero intraoral scanners and digital imaging systems",
+      "exocad CAD/CAM dental restorative software",
+      "ClinCheck treatment planning software",
+      "Vivera retainers"
+    ],
+    "regulatory_status": "FDA-cleared (510(k)) Class II medical devices; CE-marked in EU."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0
+  },
+  "no_active_clinical_pipeline_reason": "Adjacent medtech (orthodontic device) issuer. Align Technology develops and markets clear aligners (Invisalign), intraoral scanners (iTero), and dental CAD/CAM software. Clinical activity consists of post-market device studies and evidence-generation research, not investigational drug or novel-device pivotal trials assignable to P1/P2/P3."
+}

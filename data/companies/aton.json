@@ -1,0 +1,23 @@
+{
+  "issuer_name": "AlphaTON Capital Corp (now Alpha Compute Corp)",
+  "ticker": "ATON",
+  "exchange": "Nasdaq",
+  "cik": "0001095435",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No 10-K on file. SEC entity is a foreign filer / shell-style issuer (British Virgin Islands). Per SEC submissions JSON: SIC 6199 Finance Services, owner org 09 Crypto Assets. Former names: Portage Biotech Inc. (until 2025-09), AlphaTON Capital Corp (2025-09 to 2026-04), now Alpha Compute Corp."},
+    "website": {"error": "Corporate site (alphatoncapital.com) returned HTTP 403; entity has been renamed Alpha Compute Corp and has pivoted to crypto/finance."},
+    "ctgov": {
+      "path": "data/aton_ctgov_compact.json",
+      "note": "Sponsor query returned 0 P1-3 trials."
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 0, "total_assets": 0},
+  "no_active_clinical_pipeline_reason": "Issuer was formerly Portage Biotech Inc. but was renamed AlphaTON Capital Corp (Sept 2025) and again Alpha Compute Corp (April 2026), pivoting to a finance/crypto-assets business under SEC SIC 6199. There is no remaining proprietary drug pipeline associated with this CIK; matched only on legacy keyword association (wide_keyword_match)."
+}

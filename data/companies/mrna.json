@@ -1,0 +1,492 @@
+{
+  "issuer_name": "Moderna, Inc.",
+  "ticker": "MRNA",
+  "exchange": "Nasdaq",
+  "cik": "0001682852",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001682852-26-000033",
+      "filing_date": "2026-02-20",
+      "primary_doc": "mrna-20251231.htm"
+    },
+    "website": {
+      "url": "https://www.modernatx.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "sponsor_query": "ModernaTX",
+      "unique_trials": 116,
+      "file": "data/mrna_ctgov_compact.json"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "mRNA-1010",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "Seasonal influenza HA",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Seasonal influenza (adults >=50 yrs)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 efficacy vs licensed flu vaccine",
+          "trial_design": "Randomized active-controlled efficacy",
+          "nct_ids": ["NCT06602024"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1018",
+      "aka": ["mRNA-1018-H5"],
+      "modality": "mRNA vaccine",
+      "target": "Pandemic influenza H5",
+      "license_origin": "Internal (CEPI collaboration)",
+      "indications": [
+        {
+          "indication": "Pandemic influenza (H5)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Phase 3 H5 vaccine in adults",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT07496450"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1345",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "RSV F glycoprotein",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "RSV (pediatric)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Pediatric RSV studies",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT05743881"],
+          "trial_status": "ACTIVE",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1365",
+      "aka": [],
+      "modality": "mRNA combination vaccine",
+      "target": "RSV + hMPV",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "RSV + hMPV (pediatric)",
+          "highest_phase": "Phase 1",
+          "trial_name": "mRNA-1345 / mRNA-1365 in 5-24 mo",
+          "trial_design": "Open-label safety and immunogenicity",
+          "nct_ids": ["NCT05743881"],
+          "trial_status": "ACTIVE",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1403",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "Norovirus capsid VP1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Norovirus acute gastroenteritis",
+          "highest_phase": "Phase 3",
+          "trial_name": "Nova 301 efficacy study",
+          "trial_design": "Randomized placebo-controlled efficacy",
+          "nct_ids": ["NCT06592794", "NCT05992935"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1405",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "Norovirus (multivalent)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Norovirus acute gastroenteritis",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 1/2 norovirus combo",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT05992935"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1647",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "CMV gB / pentameric complex",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "CMV in HCT recipients",
+          "highest_phase": "Phase 2",
+          "trial_name": "CMV vaccine in allogeneic HCT",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT05683457"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1189",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "EBV gp350/gH/gL/gp42",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "EBV (mononucleosis prevention)",
+          "highest_phase": "Phase 2",
+          "trial_name": "EBV vaccine adult studies",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT07478952", "NCT05831111"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1195",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "EBV (multi-antigen, MS prevention)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Multiple sclerosis relapse prevention (EBV)",
+          "highest_phase": "Phase 2",
+          "trial_name": "MS relapse prevention with mRNA-1195",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT06735248"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1645",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "HIV envelope (germline targeting)",
+      "license_origin": "IAVI collaboration",
+      "indications": [
+        {
+          "indication": "HIV prevention",
+          "highest_phase": "Phase 1",
+          "trial_name": "HVTN HIV mRNA germline trial",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company disclosure",
+          "lead_sponsor": "IAVI / NIAID",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1975",
+      "aka": ["SR1-7"],
+      "modality": "mRNA vaccine",
+      "target": "Borrelia OspA",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lyme disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lyme disease vaccine Phase 1/2",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT05975099"],
+          "trial_status": "COMPLETED (Phase 1/2)",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1982",
+      "aka": ["SR1"],
+      "modality": "mRNA vaccine",
+      "target": "Borrelia OspA (next-gen)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Lyme disease",
+          "highest_phase": "Phase 2",
+          "trial_name": "Lyme disease prevention mRNA-1982",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT07561294", "NCT05975099"],
+          "trial_status": "NOT_YET_RECRUITING / prior P1/P2 COMPLETED",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1215",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "Nipah virus G/F",
+      "license_origin": "NIAID collaboration",
+      "indications": [
+        {
+          "indication": "Nipah virus",
+          "highest_phase": "Phase 1",
+          "trial_name": "Nipah virus mRNA vaccine FIH",
+          "trial_design": "Open-label dose escalation",
+          "nct_ids": ["NCT05398796"],
+          "trial_status": "Active",
+          "lead_sponsor": "ModernaTX, Inc. / NIAID",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-1769",
+      "aka": [],
+      "modality": "mRNA vaccine",
+      "target": "Mpox/smallpox antigens",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Mpox",
+          "highest_phase": "Phase 2",
+          "trial_name": "Mpox mRNA vaccine Phase 1/2",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": ["NCT05995275"],
+          "trial_status": "COMPLETED Phase 1/2",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Intismeran autogene",
+      "aka": ["mRNA-4157", "V940"],
+      "modality": "Individualized neoantigen mRNA therapy",
+      "target": "Patient-specific neoantigens",
+      "license_origin": "Internal (Merck collaboration)",
+      "indications": [
+        {
+          "indication": "Adjuvant melanoma (high-risk resected)",
+          "highest_phase": "Phase 3",
+          "trial_name": "INTerpath-001",
+          "trial_design": "Randomized adjuvant Phase 3",
+          "nct_ids": ["NCT05933577"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Merck Sharp & Dohme LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Adjuvant NSCLC",
+          "highest_phase": "Phase 3",
+          "trial_name": "INTerpath-002 / INTerpath-009",
+          "trial_design": "Randomized adjuvant Phase 3",
+          "nct_ids": ["NCT06077760"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Merck Sharp & Dohme LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Adjuvant renal cell carcinoma",
+          "highest_phase": "Phase 2",
+          "trial_name": "INTerpath-004 RCC",
+          "trial_design": "Randomized adjuvant",
+          "nct_ids": ["NCT06307431"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Merck Sharp & Dohme LLC",
+          "key_milestones": []
+        },
+        {
+          "indication": "Non-muscle invasive bladder cancer",
+          "highest_phase": "Phase 2",
+          "trial_name": "INTerpath bladder",
+          "trial_design": "Randomized active-controlled",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company disclosure",
+          "lead_sponsor": "Merck Sharp & Dohme LLC",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-4359",
+      "aka": [],
+      "modality": "mRNA cancer vaccine",
+      "target": "PD-L1 / IDO1 shared antigens",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 1/2 monotherapy + ICB",
+          "trial_design": "Open-label dose escalation/expansion",
+          "nct_ids": ["NCT05533697"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-4106",
+      "aka": [],
+      "modality": "mRNA cancer therapeutic",
+      "target": "Tumor-associated antigens",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 mono + nivo/relatlimab",
+          "trial_design": "Open-label dose escalation",
+          "nct_ids": ["NCT06880549"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-2808",
+      "aka": [],
+      "modality": "mRNA therapeutic",
+      "target": "Multiple myeloma antigen",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsed/refractory multiple myeloma",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 R/R MM",
+          "trial_design": "Open-label dose escalation",
+          "nct_ids": ["NCT07116616"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-4203",
+      "aka": [],
+      "modality": "mRNA encoding tumor antigen (with TCR-T)",
+      "target": "PRAME (with anzu-cel)",
+      "license_origin": "Immatics collaboration",
+      "indications": [
+        {
+          "indication": "Cutaneous melanoma / synovial sarcoma",
+          "highest_phase": "Phase 1",
+          "trial_name": "ACTengine IMA203 + mRNA-4203",
+          "trial_design": "Open-label combination",
+          "nct_ids": ["NCT06946225"],
+          "trial_status": "Active",
+          "lead_sponsor": "Immatics US, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-3927",
+      "aka": [],
+      "modality": "mRNA therapeutic (PCCA/PCCB)",
+      "target": "Propionyl-CoA carboxylase replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Propionic acidemia",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 1/2 P101 + extension",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT05130437"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-3705",
+      "aka": [],
+      "modality": "mRNA therapeutic (MUT)",
+      "target": "Methylmalonyl-CoA mutase replacement",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Methylmalonic acidemia",
+          "highest_phase": "Phase 2",
+          "trial_name": "Landmark Phase 1/2 + extension",
+          "trial_design": "Open-label",
+          "nct_ids": ["NCT05295433"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "ModernaTX, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "mRNA-3692",
+      "aka": ["VX-522"],
+      "modality": "Inhaled mRNA therapeutic (CFTR)",
+      "target": "CFTR replacement",
+      "license_origin": "Vertex collaboration",
+      "indications": [
+        {
+          "indication": "Cystic fibrosis (non-responders to CFTR modulators)",
+          "highest_phase": "Phase 2",
+          "trial_name": "VX-522 (mRNA-3692) Phase 1/2",
+          "trial_design": "Randomized placebo-controlled",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company disclosure (Vertex-led)",
+          "lead_sponsor": "Vertex Pharmaceuticals Incorporated",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "approved_products": [
+      {"name": "SPIKEVAX (mRNA-1273)", "indication": "COVID-19"},
+      {"name": "mNEXSPIKE", "indication": "COVID-19"},
+      {"name": "mRESVIA", "indication": "RSV (older adults)"},
+      {"name": "mCOMBRIAX", "indication": "Flu + COVID-19 combination"}
+    ]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 22,
+    "phase_3": 5,
+    "phase_2": 13,
+    "phase_1": 4
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issuer_name": "Positron Corp",
+  "ticker": "POSC",
+  "exchange": "OTC",
+  "cik": "0000844985",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-31",
+      "accession": "0001539497-26-001063",
+      "doc": "n5417_x4-10k.htm"
+    },
+    "website": {
+      "url": "https://www.positron.com",
+      "accessed": "2026-05-06",
+      "note": "Commercial product site only; no pipeline page."
+    },
+    "ctgov": {
+      "query": "spons:Positron",
+      "kept_p1_3": 0
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "marketed_devices": [
+      {
+        "name": "Attrius PET system",
+        "type": "Cardiac PET imaging system",
+        "status": "Commercially marketed (installed base across clinical sites)"
+      },
+      {
+        "name": "Affinity PET-CT 4D 64-slice (NeuSight)",
+        "type": "Next-generation cardiac PET-CT imaging system",
+        "status": "Launching / commercial roll-out"
+      }
+    ],
+    "services": "Cardiac PET imaging service, support, and consumables/radiopharmaceutical distribution facilitation (Rubidium-82, N-13 ammonia, F-18 flurpiridaz)."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Commercial medical-imaging device company (cardiac PET / PET-CT scanners and related services). No proprietary drug pipeline and no active company-sponsored P1/P2/P3 clinical trials of investigational devices on ClinicalTrials.gov."
+}

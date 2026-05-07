@@ -1,0 +1,86 @@
+{
+  "issuer_name": "STAAR Surgical Company",
+  "ticker": "STAA",
+  "exchange": "Nasdaq",
+  "cik": "0000718937",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000718937-26-000004",
+      "filing_date": "2026-03-03",
+      "document": "staa-20260102.htm",
+      "fiscal_year_end": "2026-01-02"
+    },
+    "website": {
+      "url_checked": "https://staar.com/",
+      "error": "no public pipeline page found (staar.com/pipeline returned 404; corporate site lists only marketed ICL products)"
+    },
+    "ctgov": {
+      "query_sponsor": "STAAR Surgical",
+      "trials_returned": 0,
+      "note": "No interventional P1/P2/P3 trials with STAAR Surgical as lead sponsor on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "approved_or_marketed": [
+      {
+        "name": "EVO ICL",
+        "modality": "Implantable Collamer Lens (phakic intraocular lens, Class III device)",
+        "indication": "Refractive correction of myopia",
+        "regulatory_status": "FDA approved; commercially marketed worldwide."
+      },
+      {
+        "name": "EVO+ ICL",
+        "modality": "Implantable Collamer Lens (larger optic)",
+        "indication": "Refractive correction of myopia",
+        "regulatory_status": "FDA approved; full launch in China expanding in 2026."
+      },
+      {
+        "name": "EVO Visian ICL",
+        "modality": "Implantable Collamer Lens",
+        "indication": "Refractive correction of myopia (with toric versions for astigmatism)",
+        "regulatory_status": "Marketed."
+      },
+      {
+        "name": "EVO Viva",
+        "modality": "Implantable Collamer Lens with extended depth of focus (EDoF) optic",
+        "indication": "Myopia with presbyopia",
+        "regulatory_status": "Marketed in select geographies."
+      },
+      {
+        "name": "Visian ICL (hyperopic)",
+        "modality": "Implantable Collamer Lens",
+        "indication": "Hyperopia (farsightedness)",
+        "regulatory_status": "Marketed."
+      }
+    ],
+    "discontinued": [
+      {
+        "name": "Cataract IOLs",
+        "note": "STAAR has phased out its cataract intraocular lens product line; ~100% of FY2025 revenue from ICLs."
+      }
+    ]
+  },
+  "ongoing_post_approval_studies": [
+    {
+      "name": "U.S. post-approval clinical trials (EVO ICL family)",
+      "design": "FDA post-approval device studies for the marketed ICL products",
+      "status": "Ongoing per FY2025 10-K (R&D expense includes post-approval clinical trial costs)",
+      "purpose": "Regulatory commitment / safety surveillance; not investigational pipeline"
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "approved_marketed_products": 5
+  },
+  "no_active_clinical_pipeline_reason": "STAAR Surgical is a pure-play ophthalmic medical device company (Implantable Collamer Lenses for refractive vision correction). All revenue (~100% FY2025) comes from already-approved/marketed ICL products. The company describes its 'innovation pipeline' in commercial terms - geographic launches (EVO+ in China) and lens-size line extensions - rather than investigational P1/P2/P3 programs. No interventional P1/P2/P3 trials are listed with STAAR as lead sponsor on ClinicalTrials.gov. R&D spend is for post-approval studies, line extensions, and tools (e.g., AI lens-sizing) supporting marketed devices. The Alcon merger (announced Aug 2025) was terminated by stockholder vote on January 6, 2026."
+}

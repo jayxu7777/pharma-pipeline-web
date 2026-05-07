@@ -1,0 +1,149 @@
+{
+  "issuer_name": "Fortress Biotech, Inc.",
+  "ticker": "FBIOP",
+  "exchange": "Nasdaq",
+  "cik": "0001429260",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001104659-26-037874", "filing_date": "2026-03-31", "doc": "fbio-20251231x10k.htm"},
+    "website": {"url": "https://www.fortressbiotech.com/programs/pipeline", "accessed": "2026-05-06"},
+    "ctgov": {"sponsor_query": "Fortress Biotech", "trials_returned": 0, "note": "Trials are sponsored under subsidiary names (Mustang Bio, Caelum, Urica, Avenue, etc.), not under parent name"}
+  },
+  "pipeline": [
+    {
+      "asset": "Dotinurad",
+      "aka": ["URC-102"],
+      "modality": "Selective urate reabsorption inhibitor (oral small molecule)",
+      "target": "URAT1",
+      "license_origin": "Licensed from Fuji Yakuhin Co., Ltd.",
+      "indications": [
+        {
+          "indication": "Gout / Chronic Kidney Disease (hyperuricemia)",
+          "highest_phase": "P3",
+          "trial_name": "Dotinurad Phase 3 program (Urica)",
+          "trial_design": "Phase 3 program for hyperuricemia in gout / CKD",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 3 (Urica Therapeutics subsidiary); approved in Japan, US Phase 3 ongoing",
+          "lead_sponsor": "Urica Therapeutics (Fortress subsidiary)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CAEL-101 (anselamimab)",
+      "aka": ["11-1F4 mAb"],
+      "modality": "Fibril-reactive monoclonal antibody",
+      "target": "Misfolded light-chain amyloid fibrils",
+      "license_origin": "Caelum Biosciences (originally Fortress subsidiary; option exercised by AstraZeneca/Alexion)",
+      "indications": [
+        {
+          "indication": "AL Amyloidosis",
+          "highest_phase": "P3",
+          "trial_name": "Cardiac AL amyloidosis Phase 3 (CAEL-101)",
+          "trial_design": "Phase 3 randomized in AL amyloidosis",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active (Alexion/AstraZeneca-led); Fortress retains royalty/milestone interest",
+          "lead_sponsor": "Alexion / AstraZeneca",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Triplex",
+      "aka": [],
+      "modality": "Modified vaccinia Ankara (MVA) viral vector vaccine",
+      "target": "CMV antigens (pp65, IE1, IE2)",
+      "license_origin": "Helocyte, Inc. (Fortress subsidiary)",
+      "indications": [
+        {
+          "indication": "Cytomegalovirus (CMV) reactivation in HCT recipients",
+          "highest_phase": "P2",
+          "trial_name": "Triplex Phase 2 in HCT",
+          "trial_design": "Phase 2 vaccine in hematopoietic cell transplant recipients",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 2 ongoing (Helocyte)",
+          "lead_sponsor": "Helocyte, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ATX-04",
+      "aka": [],
+      "modality": "Small molecule (Avenue Therapeutics)",
+      "target": "Undisclosed (Pompe-relevant)",
+      "license_origin": "Avenue Therapeutics (Fortress subsidiary)",
+      "indications": [
+        {
+          "indication": "Pompe Disease",
+          "highest_phase": "P1",
+          "trial_name": "ATX-04 Phase 1",
+          "trial_design": "Phase 1 in Pompe disease",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1",
+          "lead_sponsor": "Avenue Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MB-101",
+      "aka": ["IL13Ralpha2 CAR-T"],
+      "modality": "Autologous CAR-T cell therapy",
+      "target": "IL13Rα2",
+      "license_origin": "Mustang Bio, Inc. (Fortress subsidiary; licensed from City of Hope)",
+      "indications": [
+        {
+          "indication": "Recurrent Glioblastoma",
+          "highest_phase": "P1",
+          "trial_name": "MB-101 Phase 1 in recurrent GBM",
+          "trial_design": "Phase 1 CAR-T in recurrent glioblastoma",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1 (Mustang Bio)",
+          "lead_sponsor": "Mustang Bio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "MB-108",
+      "aka": ["HSV-1 C134 oncolytic virus"],
+      "modality": "Oncolytic herpes simplex virus",
+      "target": "Tumor cell lysis (HSV-mediated)",
+      "license_origin": "Mustang Bio, Inc. (licensed from Nationwide Children's / UAB)",
+      "indications": [
+        {
+          "indication": "Recurrent Glioblastoma",
+          "highest_phase": "P1",
+          "trial_name": "MB-108 Phase 1 in recurrent GBM (and combination with MB-101)",
+          "trial_design": "Phase 1 oncolytic virus in recurrent glioblastoma",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Phase 1",
+          "lead_sponsor": "Mustang Bio, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed": [
+      "UNLOXCYT (cosibelimab-ipdl) — cSCC; Checkpoint Therapeutics asset acquired by Sun Pharma in 2025",
+      "ZYCUBO (CUTX-101) — Menkes Disease (Cyprium Therapeutics)",
+      "Emrosi, Qbrexza, Targadox, Exelderm, Luxamend, Accutane, AMZEEQ, ZILXI — Journey Medical Corporation dermatology portfolio"
+    ]
+  },
+  "excluded_preclinical": [
+    "MB-109 — recurrent GBM/anaplastic astrocytoma (Mustang Bio, preclinical)",
+    "FB-606 — DMD (preclinical)",
+    "AAV-ATP7A gene therapy — Menkes (Cyprium, preclinical)",
+    "CEVA-102, CEVA-D — TBI (Cellvation, preclinical)",
+    "AAV.sFH — complement diseases (4DMT, divested 2023)"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    "IV Tramadol — Avenue Therapeutics; NDA filed but FDA action history complete; commercial-status, not active P1-3"
+  ],
+  "summary_counts": {"P3": 2, "P2": 1, "P1": 3, "total_active_assets": 6}
+}

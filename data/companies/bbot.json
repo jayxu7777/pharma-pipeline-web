@@ -1,0 +1,77 @@
+{
+  "issuer_name": "BridgeBio Oncology Therapeutics, Inc.",
+  "ticker": "BBOT",
+  "exchange": "Nasdaq",
+  "cik": "0001869105",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-094112", "filing_date": "2026-03-05", "doc": "bbot-20251231.htm"},
+    "website": {"url": "https://bridgebiooncology.com/pipeline/", "note": "BBOT is a 2025 spin-out from BridgeBio focused on RAS/PI3K-pathway oncology assets"},
+    "ctgov": {"file": "data/bbot_ctgov_compact.json", "trial_count": 3}
+  },
+  "pipeline": [
+    {
+      "asset": "BBO-11818",
+      "aka": [],
+      "modality": "Small molecule (oral pan-KRAS inhibitor)",
+      "target": "KRAS (multi-mutant: G12C/D/V/A/S)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "KRAS-mutant NSCLC, PDAC, CRC and other solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "ONKORAS-101",
+          "trial_design": "Phase 1 dose-escalation/expansion of BBO-11818 mono and combos (pembrolizumab, platinum/pemetrexed, cetuximab, FOLFOX, NALIRIFOX, gemcitabine + nab-paclitaxel) in KRAS-mutant solid tumors",
+          "nct_ids": ["NCT06917079"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BBO-10203",
+      "aka": [],
+      "modality": "Small molecule (PI3Kalpha:RAS breaker)",
+      "target": "PI3Kalpha:RAS interaction",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (HER2+/HR+ breast, KRAS-mutant CRC and lung)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BREAKER-101",
+          "trial_design": "Phase 1 dose-escalation/expansion of BBO-10203 mono and combos with trastuzumab, fulvestrant, ribociclib, FOLFOX + bevacizumab",
+          "nct_ids": ["NCT06625775"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BBO-8520",
+      "aka": [],
+      "modality": "Small molecule (dual ON/OFF KRAS G12C inhibitor)",
+      "target": "KRAS G12C (active and inactive states)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "KRAS G12C non-small cell lung cancer (NSCLC)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BBO-8520-101",
+          "trial_design": "Phase 1 open-label dose-escalation/expansion of BBO-8520 mono and combos with pembrolizumab and BBO-10203 in KRAS G12C NSCLC",
+          "nct_ids": ["NCT06343402"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P3": 0, "P2": 0, "P1": 3, "total_active_assets": 3}
+}

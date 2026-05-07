@@ -1,0 +1,38 @@
+{
+  "issuer_name": "Boston Scientific Corporation",
+  "ticker": "BSX",
+  "exchange": "NYSE",
+  "cik": "0000885725",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0000885725-26-000010",
+      "primary_doc": "bsx-20251231.htm",
+      "filed": "2026-02-17",
+      "note": "Full 10-K cached. No 'pipeline' section heading present — Boston Scientific is a medical-device company; R&D disclosures are organized by product franchise (Cardiovascular, MedSurg, etc.) rather than as a drug pipeline."
+    },
+    "website": {
+      "skipped": "Issuer is a pure medical-device manufacturer; corporate site does not host a drug-pipeline page."
+    },
+    "ctgov": {
+      "compact_path": "data/bsx_ctgov_compact.json",
+      "note": "Hundreds of device studies (interventional cardiology, electrophysiology, endoscopy, urology, neuromodulation, peripheral interventions). All are evaluations of approved or investigational MEDICAL DEVICES, not drug INDs. Per scope (Active P1/P2/P3 drug pipeline only), excluded from pipeline list."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": {
+    "note": "Boston Scientific markets a broad portfolio of medical devices across Cardiology (WATCHMAN FLX, FARAPULSE PFA, AGENT DCB), Peripheral Interventions, Electrophysiology, Endoscopy, Urology, and Neuromodulation. Device approvals/clearances are tracked via FDA PMA/510(k), not via drug NDA pathways."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Pure medical-device company (adjacent_medtech_dx bucket). No proprietary small-molecule, biologic, or cell/gene-therapy drug pipeline. Clinical studies in ClinicalTrials.gov evaluate approved/investigational devices and are tracked through FDA device pathways (PMA/IDE/510(k)), not Phase 1/2/3 drug development."
+}

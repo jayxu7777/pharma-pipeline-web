@@ -1,0 +1,93 @@
+{
+  "issuer_name": "Climb Bio, Inc.",
+  "ticker": "CLYM",
+  "exchange": "Nasdaq",
+  "cik": "0001768446",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-05",
+      "accession": "0001193125-26-092546",
+      "path": "data/clym_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://climbbio.com/pipeline",
+      "fetched": true
+    },
+    "ctgov": {
+      "path": "data/clym_ctgov_compact.json",
+      "trial_count": 5
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Budoprutug",
+      "aka": ["TNT119"],
+      "modality": "Anti-CD19 monoclonal antibody",
+      "target": "CD19",
+      "license_origin": "Acquired from Acelyrin (Asset Purchase Agreement, Jan 2024) via Tenet Medicines acquisition; underlying license from Cancer Research Technology (CRH).",
+      "indications": [
+        {
+          "indication": "Primary Membranous Nephropathy",
+          "highest_phase": "Phase 2",
+          "trial_name": "Phase 2 Study of Budoprutug in Subjects With Primary Membranous Nephropathy",
+          "trial_design": "Phase 2 interventional",
+          "nct_ids": ["NCT07096843"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Climb Bio, Inc.",
+          "key_milestones": ["Start date 2025-08-25", "Primary completion 2027-10"]
+        },
+        {
+          "indication": "Immune Thrombocytopenia (ITP)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Phase 1b/2a Study of Budoprutug in Subjects With Immune Thrombocytopenia (ITP)",
+          "trial_design": "Phase 1b/2a interventional",
+          "nct_ids": ["NCT07043946"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Climb Bio, Inc.",
+          "key_milestones": ["Start date 2025-06-30", "Primary completion 2027-08"]
+        },
+        {
+          "indication": "Systemic Lupus Erythematosus (SLE)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "Phase 1b/2a Study of Budoprutug in SLE",
+          "trial_design": "Phase 1b/2a interventional (also Phase 1b ongoing)",
+          "nct_ids": ["NCT07564596", "NCT07011043"],
+          "trial_status": "Phase 1b/2a Not Yet Recruiting; Phase 1b Recruiting",
+          "lead_sponsor": "Climb Bio, Inc.",
+          "key_milestones": ["Phase 1b start 2025-07-10", "Phase 1b/2a start 2026-06"]
+        }
+      ]
+    },
+    {
+      "asset": "CLYM116",
+      "aka": [],
+      "modality": "Anti-APRIL monoclonal antibody",
+      "target": "APRIL (A Proliferation-Inducing Ligand)",
+      "license_origin": "Licensed from Beijing Mabworks Biotech (Mabworks Agreement, Jan 8, 2025) for worldwide rights ex-Greater China.",
+      "indications": [
+        {
+          "indication": "IgA Nephropathy (Phase 1 in healthy volunteers)",
+          "highest_phase": "Phase 1",
+          "trial_name": "Phase 1 Study of CLYM116 in Normal Healthy Volunteers",
+          "trial_design": "Phase 1 SAD/MAD in healthy volunteers",
+          "nct_ids": ["NCT07248865"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Climb Bio, Inc.",
+          "key_milestones": ["Start date 2025-12-02", "Primary completion 2026-07"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 2,
+    "P3_indications": 0,
+    "P2_indications": 1,
+    "P1_or_P1_2_indications": 3
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "issuer_name": "Arcturus Therapeutics Holdings Inc.",
+  "ticker": "ARCT",
+  "exchange": "Nasdaq",
+  "cik": "0001768224",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001193125-26-088391", "filing_date": "2026-03-03", "doc": "arct-20251231.htm"},
+    "website": {"url": "https://arcturusrx.com/", "note": "Pipeline confirmed via 10-K and ctgov."},
+    "ctgov": {"sponsor_query": "Arcturus Therapeutics", "studies_returned": 16}
+  },
+  "pipeline": [
+    {
+      "asset": "ARCT-032",
+      "aka": ["LUNAR-CF"],
+      "modality": "Inhaled mRNA therapeutic delivered via LUNAR LNP platform; codon-optimized CFTR mRNA",
+      "target": "CFTR (cystic fibrosis transmembrane conductance regulator) restoration",
+      "license_origin": "Internal discovery; Cystic Fibrosis Foundation development partner",
+      "indications": [
+        {
+          "indication": "Cystic fibrosis (Class I and other CF patients not benefiting from CFTR modulators)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ARCT-032 Phase 2 multiple ascending dose study",
+          "trial_design": "Multiple ascending dose Phase 2 in Class I (null) and other CF participants who do not benefit from CFTR modulators; daily inhaled dosing over 28 days",
+          "nct_ids": ["NCT06747858", "NCT05712538"],
+          "trial_status": "RECRUITING (NCT06747858); FDA Orphan Drug + Rare Pediatric Disease Designation; EMA Orphan Medicinal Product Designation",
+          "lead_sponsor": "Arcturus Therapeutics, Inc.",
+          "key_milestones": ["Dec 2024: Phase 2 dosing initiated", "Oct 21 2025: interim Phase 2 results announced"]
+        }
+      ]
+    },
+    {
+      "asset": "ARCT-810",
+      "aka": ["LUNAR-OTC"],
+      "modality": "IV mRNA therapeutic delivered via LUNAR LNP platform",
+      "target": "Ornithine transcarbamylase (OTC) protein restoration",
+      "license_origin": "Internal discovery",
+      "indications": [
+        {
+          "indication": "Ornithine transcarbamylase deficiency (OTCD)",
+          "highest_phase": "Phase 2",
+          "trial_name": "ARCT-810 Phase 2 PD/safety study in OTCD",
+          "trial_design": "Phase 2 evaluating pharmacodynamics and safety of ARCT-810 in OTCD participants",
+          "nct_ids": ["NCT06488313"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Arcturus Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ARCT-2304",
+      "aka": [],
+      "modality": "Self-amplifying mRNA (sa-mRNA) vaccine on STARR platform with LUNAR LNP",
+      "target": "Pandemic influenza (H5N1)",
+      "license_origin": "Internal; BARDA collaboration",
+      "indications": [
+        {
+          "indication": "Pandemic influenza (H5N1) prophylaxis",
+          "highest_phase": "Phase 1",
+          "trial_name": "ARCT-2304 Phase 1 pandemic influenza vaccine study",
+          "trial_design": "Safety and immunogenicity Phase 1 of sa-mRNA pandemic influenza vaccine in adults",
+          "nct_ids": ["NCT06602531"],
+          "trial_status": "COMPLETED — supportive Phase 1 data; advancing under BARDA collaboration",
+          "lead_sponsor": "Arcturus Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "ARCT-2138",
+      "aka": [],
+      "modality": "Self-amplifying mRNA seasonal influenza vaccine on STARR platform with LUNAR LNP",
+      "target": "Seasonal influenza (quadrivalent)",
+      "license_origin": "Internal; CSL/Seqirus collaboration",
+      "indications": [
+        {
+          "indication": "Seasonal influenza prophylaxis",
+          "highest_phase": "Phase 1",
+          "trial_name": "ARCT-2138 first-in-human Phase 1 seasonal flu study",
+          "trial_design": "Safety and immunogenicity first-in-human dose-ranging Phase 1 in adults",
+          "nct_ids": ["NCT06125691"],
+          "trial_status": "COMPLETED",
+          "lead_sponsor": "Arcturus Therapeutics, Inc.",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "name": "KOSTAIVE (ARCT-154 / zapomeran)",
+    "mechanism": "Self-amplifying mRNA COVID-19 vaccine (STARR platform, LUNAR LNP)",
+    "approvals": ["Japan (commercialized)", "European Commission (approved)", "United Kingdom MHRA (Jan 2026)"],
+    "partner": "CSL Seqirus (collaboration covering COVID-19, flu and pandemic flu)",
+    "note": "BLA submission to FDA was paused in September 2025; ongoing collaboration with CSL Seqirus continues."
+  },
+  "excluded_preclinical": [
+    "Other STARR/LUNAR vaccine and therapeutic discovery programs"
+  ],
+  "excluded_legacy_terminated": [
+    "ARCT-021 COVID-19 vaccine — Phase 1/2 NCT04480957/NCT04668339/NCT04728347 — TERMINATED/COMPLETED, succeeded by ARCT-154",
+    "ARCT-810 Phase 2 NCT05526066 — TERMINATED (replaced by NCT06488313)",
+    "ARCT-2303 Phase 3 COVID + flu co-administration NCT06279871 — COMPLETED"
+  ],
+  "excluded_partner_owned": [
+    "ARCT-154 Phase 2/3 efficacy trial NCT05012943 — Vinbiocare-sponsored",
+    "NCT07390968 LUNAR-COV19 in HCT patients — Fred Hutch-sponsored"
+  ],
+  "summary_counts": {"P3": 0, "P2": 2, "P1": 2, "total_assets": 4}
+}

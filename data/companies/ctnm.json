@@ -1,0 +1,98 @@
+{
+  "issuer_name": "Contineum Therapeutics, Inc.",
+  "ticker": "CTNM",
+  "exchange": "Nasdaq",
+  "cik": "0001855175",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-05",
+      "accession": "0001628280-26-015165",
+      "path": "data/ctnm_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.contineum-tx.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/ctnm_ctgov_compact.json",
+      "sponsor_query": "Contineum Therapeutics"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "PIPE-307",
+      "aka": [],
+      "modality": "Oral small molecule",
+      "target": "M1 muscarinic acetylcholine receptor antagonist (selective)",
+      "license_origin": "Internal; option/license collaboration with Janssen (Johnson & Johnson)",
+      "indications": [
+        {
+          "indication": "Relapsing-remitting multiple sclerosis (RRMS) — remyelination",
+          "highest_phase": "P2",
+          "trial_name": "VISTA",
+          "trial_design": "Phase 2 randomized double-blind placebo-controlled, two-dose evaluation in RRMS",
+          "nct_ids": ["NCT06083753"],
+          "trial_status": "Completed (primary completion 2025-07-14); topline reported",
+          "lead_sponsor": "Contineum Therapeutics",
+          "key_milestones": ["Topline VISTA readout 2025"]
+        },
+        {
+          "indication": "Major depressive disorder (MDD)",
+          "highest_phase": "P2",
+          "trial_name": "PIPE-307 MDD Phase 2 (Janssen-sponsored)",
+          "trial_design": "Phase 2 in MDD",
+          "nct_ids": "Not on public registry",
+          "trial_status": "Active per company communications; Janssen-led under collaboration",
+          "lead_sponsor": "Janssen Pharmaceutica (Contineum collaborator)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "PIPE-791",
+      "aka": [],
+      "modality": "Oral small molecule (CNS-penetrant)",
+      "target": "Lysophosphatidic acid 1 receptor (LPA1R) antagonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Idiopathic pulmonary fibrosis (IPF)",
+          "highest_phase": "P2",
+          "trial_name": "PIPE-791 IPF Phase 2",
+          "trial_design": "Phase 2 randomized double-blind placebo-controlled two-dose study in IPF",
+          "nct_ids": ["NCT07284459"],
+          "trial_status": "Recruiting (start 2026-01-08)",
+          "lead_sponsor": "Contineum Therapeutics",
+          "key_milestones": []
+        },
+        {
+          "indication": "Chronic osteoarthritis pain / chronic low back pain",
+          "highest_phase": "P1",
+          "trial_name": "PIPE-791 chronic pain Phase 1",
+          "trial_design": "Phase 1 in chronic OA pain and chronic LBP",
+          "nct_ids": ["NCT06810245"],
+          "trial_status": "Completed Jan 2026",
+          "lead_sponsor": "Contineum Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "CTX-343 (peripheral LPA1R antagonist) — clinical development deferred",
+    "Calpain inhibitor program (preclinical)"
+  ],
+  "excluded_legacy_terminated": [
+    "PIPE-505 sensorineural hearing loss P1/P2 (NCT04462198 — completed; program deprioritized)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 2,
+    "p3": 0,
+    "p2": 2,
+    "p1": 0
+  }
+}

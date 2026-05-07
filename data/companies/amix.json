@@ -1,0 +1,60 @@
+{
+  "issuer_name": "Autonomix Medical, Inc.",
+  "ticker": "AMIX",
+  "exchange": "Nasdaq",
+  "cik": "0001617867",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001437749-25-018831",
+      "filing_date": "2025-05-29",
+      "doc": "amix20250331_10k.htm"
+    },
+    "website": {
+      "url": "https://www.autonomix.com",
+      "note": "/pipeline path not present; technology and clinical status extracted from main site."
+    },
+    "ctgov": {
+      "unique_trials_p1_p3": 0,
+      "note": "No P1/P2/P3 sponsored trials returned for sponsor 'Autonomix Medical'. Company runs ex-US Proof-of-Concept (PoC) device studies that are not registered on ClinicalTrials.gov."
+    }
+  },
+  "pipeline": [],
+  "commercial_product": null,
+  "investigational_device_programs": [
+    {
+      "asset": "Autonomix Precision Denervation System",
+      "modality": "Medical device (transvascular nerve sensing and RF ablation catheter platform)",
+      "lead_indication": "Pancreatic cancer pain (interventional pain management)",
+      "current_stage": "Ex-US Proof-of-Concept (PoC 1 completed; PoC 2 expansion ongoing)",
+      "regulatory_pathway": "FDA De Novo classification anticipated; pre-submission interactions ongoing; US IDE / EFS pivotal trial planned but not yet initiated",
+      "nct_ids": "Not on public registry",
+      "trial_status": "PLANNED — US IDE EFS / pivotal trial not yet started; ex-US PoC ongoing and not registered on ClinicalTrials.gov",
+      "future_indications_disclosed": [
+        "Other visceral cancer pain via celiac plexus (gallbladder, liver, bile duct)",
+        "Renal denervation for hypertension",
+        "Chronic pain (lower back, joint, CRPS, pelvic)",
+        "Pulmonary disorders (e.g. COPD)",
+        "Urinary tract and digestive disorders",
+        "Cardiology applications"
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    "Renal denervation hypertension program — porcine sensing studies only",
+    "Customized RF ablation catheter — prototype, pre-IDE",
+    "Integrated sense-and-ablate system — engineering development, pre-IDE"
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1": 0,
+    "investigational_device_programs": 1
+  },
+  "no_active_clinical_pipeline_reason": "Pre-revenue medical device company. No drug pipeline. Lead device (Autonomix Precision Denervation System) is in ex-US Proof-of-Concept testing for pancreatic cancer pain; no FDA IDE pivotal trial active and no NCT-registered company-sponsored P1/P2/P3 studies. Targeting De Novo clearance pathway with anticipated US clinical trials to follow."
+}

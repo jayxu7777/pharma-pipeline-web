@@ -1,0 +1,369 @@
+{
+  "issuer_name": "BIOGEN INC.",
+  "ticker": "BIIB",
+  "exchange": "Nasdaq",
+  "cik": "0000875045",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0000875045-26-000013", "filing_date": "2026-02-06", "doc": "biib-20251231.htm"},
+    "website": {"url": "http://www.biogen.com/science-and-innovation/pipeline.html", "note": "Dynamic JS-rendered pipeline grid; asset-level fields not exposed in static HTML. Used 10-K + ctgov as primary sources."},
+    "ctgov": {"sponsor_query": "Biogen", "compact_file": "data/biib_ctgov_compact.json"}
+  },
+  "pipeline": [
+    {
+      "asset": "Felzartamab",
+      "aka": ["BIIB148", "MOR202", "MOR03087", "TJ202", "HIB202"],
+      "modality": "Anti-CD38 monoclonal antibody",
+      "target": "CD38",
+      "license_origin": "Acquired via HI-Bio (2024); in-licensed from MorphoSys",
+      "indications": [
+        {
+          "indication": "Antibody-mediated rejection (AMR) in kidney transplant",
+          "highest_phase": "Phase 3",
+          "trial_name": "Pivotal AMR program",
+          "trial_design": "Randomized, placebo-controlled (NCT06685757) plus long-term extension (NCT07444489)",
+          "nct_ids": ["NCT06685757", "NCT07444489"],
+          "trial_status": "Recruiting / Enrolling by invitation (extension)",
+          "lead_sponsor": "Biogen",
+          "key_milestones": ["Breakthrough Therapy Designation (FDA)", "ODD in EU for solid organ transplantation", "Fourth-patient-dosed Phase 3 milestone achieved Q2 2025"]
+        },
+        {
+          "indication": "Primary membranous nephropathy (PMN)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Felzartamab PMN Phase 3",
+          "trial_design": "Randomized, active-controlled vs. tacrolimus / standard of care",
+          "nct_ids": ["NCT06962800"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": ["FDA Breakthrough Therapy Designation", "FDA & EU ODD"]
+        },
+        {
+          "indication": "IgA nephropathy (IgAN)",
+          "highest_phase": "Phase 3",
+          "trial_name": "Felzartamab IgAN Phase 3",
+          "trial_design": "Randomized, placebo-controlled",
+          "nct_ids": ["NCT06935357"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": ["EU ODD", "Second milestone (4th-patient-dosed) achieved Oct 2025"]
+        },
+        {
+          "indication": "Lupus nephritis",
+          "highest_phase": "Phase 1",
+          "trial_name": "Felzartamab LN Phase 1",
+          "trial_design": "Open-label safety/efficacy",
+          "nct_ids": ["NCT06064929"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        },
+        {
+          "indication": "Late isolated microvascular inflammation (kidney transplant)",
+          "highest_phase": "Phase 2",
+          "trial_name": "Felzartamab MVI Phase 2",
+          "trial_design": "Randomized, placebo-controlled",
+          "nct_ids": ["NCT07219043"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Litifilimab",
+      "aka": ["BIIB059"],
+      "modality": "Anti-BDCA2 monoclonal antibody",
+      "target": "BDCA2 (on plasmacytoid dendritic cells)",
+      "license_origin": "Internal; royalty obligation to Royalty Pharma",
+      "indications": [
+        {
+          "indication": "Systemic lupus erythematosus (SLE)",
+          "highest_phase": "Phase 3",
+          "trial_name": "TOPAZ SLE program",
+          "trial_design": "Randomized, placebo-controlled (NCT04895241) + extension (NCT05352919)",
+          "nct_ids": ["NCT04895241", "NCT05352919"],
+          "trial_status": "Active, not recruiting / Enrolling by invitation (extension)",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        },
+        {
+          "indication": "Cutaneous lupus erythematosus (SCLE/CCLE)",
+          "highest_phase": "Phase 3",
+          "trial_name": "AMETHYST CLE program",
+          "trial_design": "Randomized 2-part Phase 2/3 (NCT05531565) plus pivotal Phase 3 (NCT04961567) + extension (NCT06044337)",
+          "nct_ids": ["NCT05531565", "NCT04961567", "NCT06044337"],
+          "trial_status": "Recruiting / Active, not recruiting / Enrolling by invitation",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Salanersen",
+      "aka": ["BIIB115"],
+      "modality": "Antisense oligonucleotide (ASO)",
+      "target": "SMN2 mRNA",
+      "license_origin": "Optioned from Ionis (Dec 2021)",
+      "indications": [
+        {
+          "indication": "Spinal muscular atrophy (SMA), symptomatic",
+          "highest_phase": "Phase 3",
+          "trial_name": "Salanersen pivotal Phase 3 (older population)",
+          "trial_design": "Randomized intrathecal-dose study in patients aged 15-60",
+          "nct_ids": ["NCT07444476"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": ["$45M milestone due upon Phase 3 initiation (per 10-K)"]
+        },
+        {
+          "indication": "Spinal muscular atrophy (SMA), pre-symptomatic infants",
+          "highest_phase": "Phase 3",
+          "trial_name": "Salanersen pre-symptomatic Phase 3",
+          "trial_design": "Randomized vs. sham/active comparator",
+          "nct_ids": ["NCT07221669", "NCT07444450"],
+          "trial_status": "Recruiting / Not yet recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        },
+        {
+          "indication": "SMA — Phase 1 PK/safety",
+          "highest_phase": "Phase 1",
+          "trial_name": "BIIB115 first-in-human",
+          "trial_design": "Single/multiple ascending dose in healthy adults",
+          "nct_ids": ["NCT05575011"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Nusinersen higher-dose (Spinraza HD)",
+      "aka": ["BIIB058"],
+      "modality": "Antisense oligonucleotide (ASO)",
+      "target": "SMN2 mRNA",
+      "license_origin": "Internal (Ionis collaboration, marketed as SPINRAZA)",
+      "indications": [
+        {
+          "indication": "Spinal muscular atrophy — high-dose regimen",
+          "highest_phase": "Phase 3",
+          "trial_name": "DEVOTE / long-term high-dose program",
+          "trial_design": "Randomized higher-dose vs. label dose (NCT05067790) + long-term safety extension (NCT04729907)",
+          "nct_ids": ["NCT05067790", "NCT04729907"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        },
+        {
+          "indication": "Nusinersen via ThecaFlex DRx intrathecal device",
+          "highest_phase": "Phase 1",
+          "trial_name": "ThecaFlex DRx PK/PD study",
+          "trial_design": "Open-label PK in adult & pediatric SMA patients",
+          "nct_ids": ["NCT06555419"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Tofersen",
+      "aka": ["BIIB067", "QALSODY"],
+      "modality": "Antisense oligonucleotide (ASO)",
+      "target": "SOD1 mRNA",
+      "license_origin": "Ionis collaboration",
+      "indications": [
+        {
+          "indication": "Pre-symptomatic SOD1-ALS (ATLAS study)",
+          "highest_phase": "Phase 3",
+          "trial_name": "ATLAS",
+          "trial_design": "Randomized, placebo-controlled in clinically pre-symptomatic SOD1 mutation carriers",
+          "nct_ids": ["NCT04856982"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": ["QALSODY approved for symptomatic SOD1-ALS; pre-symptomatic indication still investigational"]
+        }
+      ]
+    },
+    {
+      "asset": "Omaveloxolone",
+      "aka": ["BIIB141", "SKYCLARYS", "RTA-408"],
+      "modality": "Small-molecule Nrf2 activator",
+      "target": "Keap1-Nrf2 pathway",
+      "license_origin": "Acquired via Reata acquisition (2023)",
+      "indications": [
+        {
+          "indication": "Friedreich ataxia — pediatric / long-term extension",
+          "highest_phase": "Phase 3",
+          "trial_name": "Omaveloxolone FA pediatric / long-term Phase 3",
+          "trial_design": "Randomized, placebo-controlled long-term safety/efficacy",
+          "nct_ids": ["NCT06953583", "NCT06054893"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": ["SKYCLARYS commercial in adults/adolescents \u226516 yr; expansion ongoing"]
+        },
+        {
+          "indication": "Bioequivalence / formulation Phase 1",
+          "highest_phase": "Phase 1",
+          "trial_name": "BIIB141 PK formulation study",
+          "trial_design": "Open-label PK in healthy volunteers",
+          "nct_ids": ["NCT07297199"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BIIB122",
+      "aka": ["DNL151"],
+      "modality": "Small-molecule LRRK2 inhibitor",
+      "target": "LRRK2",
+      "license_origin": "Co-development with Denali (2020 collaboration)",
+      "indications": [
+        {
+          "indication": "Parkinson's disease (early-stage)",
+          "highest_phase": "Phase 2",
+          "trial_name": "LUMA",
+          "trial_design": "Randomized, placebo-controlled",
+          "nct_ids": ["NCT05348785"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BIIB080",
+      "aka": ["ISIS 814907"],
+      "modality": "Antisense oligonucleotide (ASO)",
+      "target": "MAPT (tau) mRNA",
+      "license_origin": "Ionis collaboration",
+      "indications": [
+        {
+          "indication": "Mild cognitive impairment / Alzheimer's disease dementia",
+          "highest_phase": "Phase 2",
+          "trial_name": "BIIB080 AD Phase 2",
+          "trial_design": "Randomized, placebo-controlled intrathecal dosing",
+          "nct_ids": ["NCT05399888"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Peginterferon beta-1a (PLEGRIDY) pediatric",
+      "aka": ["BIIB017"],
+      "modality": "PEGylated interferon beta-1a",
+      "target": "Type I interferon receptor",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Pediatric relapsing-remitting multiple sclerosis",
+          "highest_phase": "Phase 3",
+          "trial_name": "PLEGRIDY pediatric Phase 3",
+          "trial_design": "Open-label vs. Avonex",
+          "nct_ids": ["NCT03958877"],
+          "trial_status": "Active, not recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "Diroximel fumarate / dimethyl fumarate head-to-head",
+      "aka": ["BIIB098 (DRF, Vumerity)", "BG00012 (DMF, Tecfidera)"],
+      "modality": "Oral fumarate (Nrf2 activator)",
+      "target": "Nrf2 pathway",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Relapsing forms of multiple sclerosis (comparative Phase 3)",
+          "highest_phase": "Phase 3",
+          "trial_name": "DRF/DMF vs. fingolimod head-to-head",
+          "trial_design": "Randomized, double-blind 3-arm (DRF vs. DMF vs. fingolimod) with matched placebos",
+          "nct_ids": ["NCT07483632"],
+          "trial_status": "Not yet recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BIIB142",
+      "aka": [],
+      "modality": "Undisclosed (early clinical)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Healthy volunteer first-in-human (indication TBD)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BIIB142 SAD/MAD",
+          "trial_design": "Randomized, placebo-controlled FIH in healthy adults",
+          "nct_ids": ["NCT07133828"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BIIB145",
+      "aka": [],
+      "modality": "Undisclosed (early clinical)",
+      "target": "Undisclosed",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Healthy volunteer first-in-human (indication TBD)",
+          "highest_phase": "Phase 1",
+          "trial_name": "BIIB145 SAD/MAD",
+          "trial_design": "Randomized, placebo-controlled FIH in healthy adults",
+          "nct_ids": ["NCT07225517"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Biogen",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "BIIB111 / BIIB112 (gene therapies, follow-up only)",
+      "aka": ["AAV2-REP1 (BIIB111)", "AAV8-RPGR (BIIB112)"],
+      "modality": "AAV gene therapy",
+      "target": "REP1 / RPGR",
+      "license_origin": "Internal (legacy Nightstar program)",
+      "indications": [
+        {
+          "indication": "Choroideremia / X-linked retinitis pigmentosa long-term follow-up",
+          "highest_phase": "Phase 3",
+          "trial_name": "Long-term safety/efficacy follow-up",
+          "trial_design": "Open-label long-term observational extension",
+          "nct_ids": ["NCT03584165"],
+          "trial_status": "Enrolling by invitation",
+          "lead_sponsor": "Biogen",
+          "key_milestones": ["Note: programs were de-prioritized; extension only"]
+        }
+      ]
+    }
+  ],
+  "commercial_product": {
+    "marketed_assets": ["LEQEMBI (lecanemab)", "SPINRAZA (nusinersen)", "TECFIDERA (dimethyl fumarate)", "VUMERITY (diroximel fumarate)", "TYSABRI (natalizumab)", "PLEGRIDY (peginterferon beta-1a)", "AVONEX (interferon beta-1a)", "FAMPYRA (dalfampridine)", "QALSODY (tofersen)", "SKYCLARYS (omaveloxolone)", "ZURZUVAE (zuranolone)"],
+    "note": "Excluded from clinical pipeline list above; included only where investigational expansion ongoing."
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"trial": "NCT00090051 FCR vs FC in CLL", "reason": "Roche/Genentech-led; Biogen collaborator only"}
+  ],
+  "summary_counts": {
+    "total_assets": 13,
+    "indications_total": 21,
+    "phase_3_indications": 12,
+    "phase_2_indications": 3,
+    "phase_1_indications": 6
+  }
+}

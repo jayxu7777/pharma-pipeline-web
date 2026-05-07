@@ -1,0 +1,133 @@
+{
+  "issuer_name": "Compass Therapeutics, Inc.",
+  "ticker": "CMPX",
+  "exchange": "Nasdaq",
+  "cik": "0001738021",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-05",
+      "accession": "0001171843-26-001337",
+      "path": "data/cmpx_10k_pipeline_section.html"
+    },
+    "website": {
+      "url": "https://www.compasstherapeutics.com/pipeline",
+      "fetched": "2026-05-06"
+    },
+    "ctgov": {
+      "path": "data/cmpx_ctgov_compact.json",
+      "sponsor_query": "Compass Therapeutics"
+    }
+  },
+  "pipeline": [
+    {
+      "asset": "Tovecimig",
+      "aka": ["CTX-009", "ABL001"],
+      "modality": "Bispecific antibody",
+      "target": "DLL4 x VEGF-A",
+      "license_origin": "Licensed from ABL Bio",
+      "indications": [
+        {
+          "indication": "Second-line biliary tract cancer (BTC)",
+          "highest_phase": "P2/P3",
+          "trial_name": "COMPANION-002",
+          "trial_design": "Phase 2/3 randomized 2:1 tovecimig + paclitaxel vs paclitaxel; 168 patients; ORR primary",
+          "nct_ids": ["NCT05506943"],
+          "trial_status": "Completed primary; met ORR primary endpoint (17.1%); PFS/OS expected late Q1 2026",
+          "lead_sponsor": "Compass Therapeutics",
+          "key_milestones": ["ORR primary met", "PFS/OS readout late Q1 2026"]
+        },
+        {
+          "indication": "First-line biliary tract cancer (combo with gem/cis/durvalumab)",
+          "highest_phase": "P1/P2",
+          "trial_name": "MDACC 1L BTC investigator study",
+          "trial_design": "Phase 1/2 CTX-009 + gem/cis/durvalumab",
+          "nct_ids": ["NCT06548412"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "M.D. Anderson Cancer Center (Compass collaborator)",
+          "key_milestones": []
+        },
+        {
+          "indication": "Recurrent glioblastoma",
+          "highest_phase": "P1/P2",
+          "trial_name": "WashU CTX-009 +/- CTX-471 GBM",
+          "trial_design": "Phase 1/2 CTX-009 +/- CTX-471 in recurrent GBM",
+          "nct_ids": ["NCT07392957"],
+          "trial_status": "Not yet recruiting (start 2026-04-30)",
+          "lead_sponsor": "Washington University School of Medicine (Compass collaborator)",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CTX-471",
+      "aka": [],
+      "modality": "Monoclonal antibody",
+      "target": "CD137 (4-1BB) agonist",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "NCAM (CD56)-positive solid tumors basket",
+          "highest_phase": "P1",
+          "trial_name": "CTX-471 NCAM basket",
+          "trial_design": "Phase 1 monotherapy in CD56+ tumors",
+          "nct_ids": "Not on public registry",
+          "trial_status": "PLANNED — initiation Q1 2026 per company guidance",
+          "lead_sponsor": "Compass Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "CTX-8371",
+      "aka": [],
+      "modality": "Bispecific antibody",
+      "target": "PD-1 x PD-L1",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (NSCLC, TNBC, HNSCC, melanoma, Hodgkin lymphoma)",
+          "highest_phase": "P1",
+          "trial_name": "CTX-8371-101",
+          "trial_design": "Phase 1 dose escalation/expansion in advanced malignancies",
+          "nct_ids": ["NCT06150664"],
+          "trial_status": "Recruiting",
+          "lead_sponsor": "Compass Therapeutics",
+          "key_milestones": ["Phase 1 data H1 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "CTX-10726",
+      "aka": [],
+      "modality": "Bispecific antibody",
+      "target": "PD-1 x VEGF-A",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Advanced solid tumors (GC, HCC, endometrial, RCC)",
+          "highest_phase": "P1",
+          "trial_name": "CTX-10726 Phase 1",
+          "trial_design": "Phase 1 safety/tolerability dose escalation",
+          "nct_ids": ["NCT07419841"],
+          "trial_status": "Recruiting (start 2026-05-01)",
+          "lead_sponsor": "Compass Therapeutics",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": ["Multi-specific angiogenesis + immune programs (discovery)"],
+  "excluded_legacy_terminated": [
+    "NCT04492033 CTX-009 + irinotecan/paclitaxel (Handok-led, terminated)"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_assets": 4,
+    "p3": 1,
+    "p2": 0,
+    "p1": 3
+  }
+}

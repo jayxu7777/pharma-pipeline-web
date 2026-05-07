@@ -1,0 +1,23 @@
+{
+  "issuer_name": "Glass House Brands Inc.",
+  "ticker": "GLASF",
+  "exchange": "OTC (Cboe Canada NEO primary; OTCQX in US)",
+  "cik": "0001848731",
+  "region": "US (California operations) / Canada-listed parent",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "No US 10-K found — Glass House is a Canadian-domiciled cannabis company; files in Canada (SEDAR+) and reports to SEC as a foreign issuer where required; not a US 10-K filer"},
+    "website": {"url": "https://glasshousebrands.com", "note": "company is a vertically-integrated cannabis cultivator/retailer/CPG; no clinical pipeline page exists"},
+    "ctgov": {"file": "data/glasf_ctgov_compact.json", "trial_count": 0, "note": "no Glass House Brands-sponsored studies on ClinicalTrials.gov"}
+  },
+  "pipeline": [],
+  "no_active_clinical_pipeline_reason": "Glass House Brands is a vertically-integrated cannabis grower, processor, retail, and consumer-packaged-goods company in California. It does not develop FDA-regulated pharmaceuticals and has no clinical-stage drug programs. Out of scope for the active P1/P2/P3 biopharma pipeline survey.",
+  "commercial_product": {
+    "marketed": ["Cannabis flower / pre-rolls / vape / edibles / concentrates under brands such as Glass House Farms, FORBIDDEN FLOWERS, ALLSWELL, PLUS Products, MAMA SUE; California licensed-retail Glass House dispensaries"]
+  },
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"assets": 0, "phase3": 0, "phase2": 0, "phase1_or_1_2": 0, "indications_total": 0}
+}

@@ -1,0 +1,45 @@
+{
+  "issuer_name": "Brainstorm Cell Therapeutics Inc.",
+  "ticker": "BCLI",
+  "exchange": "OTC",
+  "cik": "0001137883",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "fetch_10k.py could not auto-locate a pipeline-section heading; full filing saved at data/bcli_10k_full.htm — supplemented from press releases and ctgov"},
+    "website": {"error": "no public pipeline page fetched (sources from PR newswire / ctgov adequate)"},
+    "ctgov": {"path": "data/bcli_ctgov_compact.json", "trial_count_p1_p3": 6, "active_count": 1}
+  },
+  "pipeline": [
+    {
+      "asset": "NurOwn (debamestrocel)",
+      "aka": ["MSC-NTF cells", "autologous mesenchymal stem cells secreting neurotrophic factors"],
+      "modality": "Autologous mesenchymal stem cell therapy ex-vivo induced to secrete neurotrophic factors",
+      "target": "Neurotrophic factor delivery to motor neurons (intrathecal)",
+      "license_origin": "Internal (in-licensed from Hadassah/Ramot Tel Aviv University)",
+      "indications": [
+        {
+          "indication": "Amyotrophic lateral sclerosis (ALS) — early symptomatic, moderate disease",
+          "highest_phase": "P3",
+          "trial_name": "ENDURANCE (Phase 3b)",
+          "trial_design": "Randomized double-blind placebo-controlled; ~200 participants; 24-week RCT phase + 24-week open-label extension; primary endpoint change in ALSFRS-R at week 24; conducted under FDA Special Protocol Assessment (SPA)",
+          "nct_ids": ["NCT06973629"],
+          "trial_status": "NOT_YET_RECRUITING — FDA cleared trial May 19, 2025; planned start Jun 2025; primary completion Nov 2028",
+          "lead_sponsor": "Brainstorm-Cell Therapeutics",
+          "key_milestones": ["Trial initiation", "Interim analyses", "Future BLA submission"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "Exosome-based platform", "reason": "Earlier-stage discovery"}
+  ],
+  "excluded_legacy_terminated": [
+    {"asset": "NurOwn ALS Phase 3", "nct": "NCT03280056", "reason": "Pivotal Phase 3 COMPLETED 2020 — failed primary/secondary endpoints; FDA AdComm voted against approval; superseded by ENDURANCE Phase 3b"},
+    {"asset": "NurOwn Progressive MS Phase 2", "nct": "NCT03799718", "reason": "Phase 2 COMPLETED 2021; not advanced"},
+    {"asset": "Earlier Phase 2 ALS trials", "nct": "NCT01777646, NCT02017912, NCT01051882", "reason": "Completed legacy Phase 1/2 ALS studies"}
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {"P1": 0, "P2": 0, "P3": 1, "total_assets": 1}
+}

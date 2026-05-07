@@ -1,0 +1,35 @@
+{
+  "issuer_name": "CalEthos, Inc.",
+  "ticker": "GEDC",
+  "exchange": "OTC",
+  "cik": "0001174891",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "accession": "0001493152-26-014045",
+      "filed": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1174891/000149315226014045/form10-k.htm",
+      "note": "10-K downloaded; no pipeline/clinical section present. Issuer historically operated as Upstream Biosciences (2006-2009 biotech); pivoted to cryptocurrency-mining infrastructure in 2021 and is currently a shell-stage non-pharma issuer."
+    },
+    "website": {
+      "error": "no public pipeline page found"
+    },
+    "ctgov": {
+      "queried_sponsor": "CalEthos",
+      "unique_trials_p1_p3": 0
+    }
+  },
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "assets": 0,
+    "p3": 0,
+    "p2": 0,
+    "p1": 0
+  },
+  "no_active_clinical_pipeline_reason": "Mis-bucketed wide-keyword match. CalEthos is a non-pharma shell company focused on cryptocurrency-mining infrastructure (former biotech name 'Upstream Biosciences' abandoned in 2009). No drug or device assets, no clinical trials sponsored."
+}

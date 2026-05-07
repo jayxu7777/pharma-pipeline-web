@@ -1,0 +1,103 @@
+{
+  "issuer_name": "Ocugen, Inc.",
+  "ticker": "OCGN",
+  "exchange": "Nasdaq",
+  "cik": "0001372299",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"accession": "0001628280-26-014435", "filed": "2026-03-04", "doc": "ocgn-20251231.htm"},
+    "website": {"url": "https://ocugen.com/pipeline", "fetched": "2026-05-06", "note": "Site returned 403; pipeline assembled from 10-K + ctgov"},
+    "ctgov": {"sponsor_query": "Ocugen", "trials_returned": 11, "active_p1_3": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "OCU400",
+      "aka": [],
+      "modality": "AAV-based modifier gene therapy (NR2E3 nuclear hormone receptor; subretinal)",
+      "target": "Nuclear hormone receptor (NR2E3) — gene-agnostic modifier approach",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Retinitis pigmentosa (RP) — gene-agnostic, syndromic and non-syndromic",
+          "highest_phase": "Phase 3",
+          "trial_name": "liMeliGhT",
+          "trial_design": "Phase 3 single-administration subretinal OCU400-301 in RP; enrollment completed; topline data Q1 2027",
+          "nct_ids": ["NCT06388200", "NCT05203939"],
+          "trial_status": "ACTIVE_NOT_RECRUITING (Phase 3 enrollment complete); Phase 1/2 ongoing follow-up",
+          "lead_sponsor": "Ocugen",
+          "key_milestones": ["Rolling BLA submission planned Q3 2026", "Topline Phase 3 data Q1 2027", "EMA ATMP positive opinion Feb 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "OCU410ST",
+      "aka": [],
+      "modality": "AAV5-based modifier gene therapy (RORA gene; subretinal)",
+      "target": "RORA (RAR-related orphan receptor A)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Stargardt disease / ABCA4-associated retinopathies (incl. RP19, CORD3)",
+          "highest_phase": "Phase 2/3",
+          "trial_name": "GARDian3",
+          "trial_design": "Phase 2/3 pivotal confirmatory; n=51 (34 treated, 17 untreated controls); single subretinal injection; primary endpoint atrophic lesion size; adaptive design with masked interim at 24 subjects",
+          "nct_ids": ["NCT05956626"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Ocugen",
+          "key_milestones": ["Enrollment completion Q1 2026", "Masked interim analysis mid-2026", "BLA submission 1H 2027", "FDA RPDD May 2025; EMA OMPD Nov 2024"]
+        }
+      ]
+    },
+    {
+      "asset": "OCU410",
+      "aka": [],
+      "modality": "AAV5-based modifier gene therapy (RORA gene; subretinal)",
+      "target": "RORA (RAR-related orphan receptor A)",
+      "license_origin": "Internal",
+      "indications": [
+        {
+          "indication": "Geographic atrophy (GA) secondary to dry AMD",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "ArMaDa",
+          "trial_design": "Phase 1/2 ArMaDa; Phase 2 dosing complete; Phase 1 dose-escalation showed 20.2% relative reduction in GA lesion at 12 months; interim Phase 2 (~50%) showed 46% reduction in lesion growth (combined doses)",
+          "nct_ids": ["NCT06018558"],
+          "trial_status": "ACTIVE_NOT_RECRUITING",
+          "lead_sponsor": "Ocugen",
+          "key_milestones": ["EMA ATMP classification March 2025"]
+        }
+      ]
+    },
+    {
+      "asset": "OCU200",
+      "aka": [],
+      "modality": "Recombinant fusion protein (tumstatin + transferrin; intravitreal)",
+      "target": "Integrin receptors / anti-angiogenic",
+      "license_origin": "Licensed (University of Colorado)",
+      "indications": [
+        {
+          "indication": "Diabetic macular edema (DME); also being developed for diabetic retinopathy and wet AMD",
+          "highest_phase": "Phase 1",
+          "trial_name": "OCU200 Phase 1 dose-escalation",
+          "trial_design": "Multicenter open-label sequential dose-escalation across 4 cohorts (n=3 each), unilateral intravitreal alone or combined with anti-VEGF in DME",
+          "nct_ids": ["NCT05802329"],
+          "trial_status": "RECRUITING",
+          "lead_sponsor": "Ocugen",
+          "key_milestones": ["First subject dosed January 2025; enrollment completion expected Q1 2026"]
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "OCU500", "indication": "Inhaled mucosal COVID-19 vaccine", "stage": "IND in effect; NIAID-sponsored Phase 1 to start Q2 2026 (excluded — partner-/NIAID-led, not Ocugen-sponsored)"},
+    {"asset": "OCU510", "indication": "Inhaled seasonal flu vaccine (quadrivalent)", "stage": "Preclinical"},
+    {"asset": "OCU520", "indication": "Inhaled flu/COVID-19 combo vaccine", "stage": "Preclinical"},
+    {"asset": "NeoCart", "indication": "Knee cartilage repair", "stage": "Phase 3-ready (now under OrthoCellix subsidiary spin-out)"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [
+    {"asset": "OCU500 NIAID Phase 1", "owner": "NIAID/NIH (Project NextGen) — Ocugen retains asset but NIAID sponsors Phase 1"}
+  ],
+  "summary_counts": {"assets": 4, "indications_p1": 2, "indications_p2": 1, "indications_p3": 1}
+}

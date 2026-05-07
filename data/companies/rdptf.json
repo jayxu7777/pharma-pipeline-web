@@ -1,0 +1,155 @@
+{
+  "issuer_name": "Radiopharm Theranostics Ltd",
+  "ticker": "RDPTF",
+  "exchange": "OTC",
+  "cik": "0001949257",
+  "region": "Australia (ASX-listed; US ADRs)",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {"error": "Foreign private issuer (ASX-listed, files 20-F or annual report under Australian rules; no 10-K in SEC EDGAR)"},
+    "website": {"url": "https://radiopharmtheranostics.com/our-pipeline/", "note": "Pipeline confirmed; therapeutics + imaging programs"},
+    "ctgov": {"path": "data/rdptf_ctgov_compact.json", "trials_kept": 5}
+  },
+  "pipeline": [
+    {
+      "asset": "RAD101",
+      "aka": ["18F-FPIA", "18F-RAD101"],
+      "modality": "PET imaging tracer (small-molecule fluorinated short-chain fatty acid analog)",
+      "target": "Altered tumor lipid/fatty-acid metabolism",
+      "license_origin": "Acquired from Imperial College London (Pi-Ramal/IPL legacy program)",
+      "indications": [
+        {
+          "indication": "Recurrent brain metastases from solid tumors (PET imaging)",
+          "highest_phase": "Phase 2b",
+          "trial_name": "RAD101-02 / Phase 2b imaging study",
+          "trial_design": "Multicenter, open-label, single-arm Phase 2b imaging study; primary endpoint of PET/MRI concordance",
+          "nct_ids": ["NCT06777433"],
+          "trial_status": "Active, not recruiting (15/30 dosed; 90% concordance reported in interim analysis March 2026; targeting Phase 3 readiness end-2026)",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": ["FPI April 2025 (US)", "Interim 90% primary endpoint concordance (March 2026)", "Siemens Healthineers supply agreement signed", "Targeting Phase 3 start by end-2026"]
+        }
+      ]
+    },
+    {
+      "asset": "RAD202",
+      "aka": ["177Lu-RAD202"],
+      "modality": "Lu-177 labeled HER2-targeted nanobody (radioligand therapy)",
+      "target": "HER2",
+      "license_origin": "In-licensed (nanobody platform)",
+      "indications": [
+        {
+          "indication": "HER2-positive advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "RAD202 FIH",
+          "trial_design": "Open-label, multicenter, dose-escalation Phase 1",
+          "nct_ids": ["NCT06824155"],
+          "trial_status": "Recruiting (dose-level 2 enrolling)",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RAD204",
+      "aka": ["177Lu-RAD204"],
+      "modality": "Lu-177 labeled PD-L1-targeted nanobody (radioligand therapy)",
+      "target": "PD-L1",
+      "license_origin": "In-licensed",
+      "indications": [
+        {
+          "indication": "PD-L1-positive advanced solid tumors",
+          "highest_phase": "Phase 1",
+          "trial_name": "RAD204 FIH",
+          "trial_design": "Open-label, multicenter, dose-escalation Phase 1",
+          "nct_ids": ["NCT06305962"],
+          "trial_status": "Recruiting (dose-level 3 enrolling)",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RAD301",
+      "aka": ["68Ga-RAD301", "68Ga-Trivehexin"],
+      "modality": "Ga-68 labeled integrin-targeted PET imaging peptide",
+      "target": "Integrin alpha-v-beta-6",
+      "license_origin": "In-licensed from TRIMT GmbH (or comparable academic source)",
+      "indications": [
+        {
+          "indication": "Pancreatic cancer / NSCLC / other alpha-v-beta-6-expressing solid tumors (PET imaging)",
+          "highest_phase": "Phase 1",
+          "trial_name": "RAD301 safety/imaging study",
+          "trial_design": "Phase 1 first-in-human, healthy volunteers + patients",
+          "nct_ids": ["NCT05799274"],
+          "trial_status": "Recruiting (8/9 dosed per company website)",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "RAD402",
+      "aka": ["161Tb-RAD402"],
+      "modality": "Terbium-161 labeled KLK3-targeted antibody radioligand therapy",
+      "target": "KLK3 (kallikrein-related peptidase 3 / PSA)",
+      "license_origin": "In-licensed",
+      "indications": [
+        {
+          "indication": "Castration-resistant prostate cancer (CRPC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "RAD402 FIH",
+          "trial_design": "Open-label, multicenter Phase 1/2 dose-escalation/expansion",
+          "nct_ids": ["NCT07259213"],
+          "trial_status": "Recruiting (started March 2026; mid-2026 initial data expected)",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": ["FPFV achieved 2026"]
+        }
+      ]
+    },
+    {
+      "asset": "177Lu-BetaBart (RV-01 / B335)",
+      "aka": ["RV-01", "B335", "177Lu-DOTA-anti-B7-H3"],
+      "modality": "Lu-177 labeled anti-B7-H3 monoclonal antibody radioligand therapy",
+      "target": "B7-H3 (CD276)",
+      "license_origin": "In-licensed (B7-H3 mAb platform)",
+      "indications": [
+        {
+          "indication": "B7-H3-expressing advanced/metastatic solid tumors (CRPC, CRC, NSCLC, ovarian, cervical, endometrial, TNBC, SCLC, HNSCC, ESCC)",
+          "highest_phase": "Phase 1/2",
+          "trial_name": "177Lu-BetaBart FIH (basket)",
+          "trial_design": "Phase 1/2 multi-tumor basket; dose-escalation followed by expansion",
+          "nct_ids": ["NCT07189871"],
+          "trial_status": "Recruiting (FPFV expected Q4 2025 per company; trial entry-date Feb 2026)",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": []
+        }
+      ]
+    },
+    {
+      "asset": "LNTH-2403",
+      "aka": [],
+      "modality": "Radiolabeled imaging agent (collaboration asset)",
+      "target": "Undisclosed solid-tumor target",
+      "license_origin": "Lantheus collaboration",
+      "indications": [
+        {
+          "indication": "Locally advanced or metastatic solid tumors (CRC, HNSCC, NSCLC, TNBC) — imaging",
+          "highest_phase": "Phase 1",
+          "trial_name": "LNTH-2403 FIH imaging",
+          "trial_design": "Multicenter Phase 1 imaging",
+          "nct_ids": ["NCT07272642"],
+          "trial_status": "Not yet recruiting (start planned January 2026)",
+          "lead_sponsor": "Radiopharm Theranostics, Ltd",
+          "key_milestones": []
+        }
+      ]
+    }
+  ],
+  "excluded_preclinical": [
+    {"asset": "RAD302", "reason": "Preclinical integrin alpha-v-beta-6 therapeutic (planned trial start 2026)"}
+  ],
+  "excluded_legacy_terminated": [],
+  "excluded_partner_owned": [],
+  "summary_counts": {"total_assets": 7, "p3": 0, "p2": 1, "p1": 6}
+}

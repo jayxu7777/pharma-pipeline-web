@@ -1,0 +1,31 @@
+{
+  "issuer_name": "Stablecoin Development Corp (formerly NovaBay Pharmaceuticals, Inc.)",
+  "ticker": "NBY",
+  "exchange": "NYSE",
+  "cik": "0001389545",
+  "region": "US",
+  "snapshot_date": "2026-05-06",
+  "scope": "Active P1/P2/P3 only.",
+  "sources": {
+    "10k": {
+      "filing_date": "2026-03-19",
+      "accession": "0001437749-26-009090",
+      "path": "data/nby_10k_pipeline_section.html"
+    },
+    "website": {"error": "no clinical pipeline applicable post pivot"},
+    "ctgov": {"path": "data/nby_ctgov_compact.json", "sponsor_query": "NovaBay Pharmaceuticals", "study_count": 7}
+  },
+  "no_active_clinical_pipeline_reason": "Company has undergone a strategic pivot away from pharmaceutical operations. The legacy NovaBay Pharmaceuticals eyecare/wound-care/skincare business has been substantially wound down. Renamed Stablecoin Development Corp, the entity has adopted a digital-asset treasury strategy focused on acquiring and holding the SKY token (Sky Protocol) and stablecoins (USDS). No active company-sponsored P1/P2/P3 clinical trials. All historical NovaBay-sponsored ClinicalTrials.gov records (n=7) are completed or unknown status.",
+  "pipeline": [],
+  "excluded_preclinical": [],
+  "excluded_legacy_terminated": [
+    "Historic NovaBay-sponsored trials (Avenova, NeutroPhase, CelleRx) — all completed; legacy commercial products substantially divested or wound down"
+  ],
+  "excluded_partner_owned": [],
+  "summary_counts": {
+    "total_active_assets": 0,
+    "phase_3": 0,
+    "phase_2": 0,
+    "phase_1_or_1_2": 0
+  }
+}
