@@ -1,0 +1,72 @@
+{
+  "slug": "mplt",
+  "ticker": "MPLT",
+  "issuer_name": "MapLight Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-224067",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "mplt",
+      "ticker": "MPLT",
+      "issuer": "MapLight Therapeutics, Inc.",
+      "asset": "ML-007C-MA (ZEPHYR)",
+      "indication": "Schizophrenia",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-08",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment completed in ML-007C-MA's Phase 2 ZEPHYR trial in schizophrenia, with topline results expected by mid-August 2026"
+    },
+    {
+      "slug": "mplt",
+      "ticker": "MPLT",
+      "issuer": "MapLight Therapeutics, Inc.",
+      "asset": "ML-004 (IRIS)",
+      "indication": "Autism spectrum disorder (ASD)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-08",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Last patient visit completed for ML-004's Phase 2 IRIS trial in autism spectrum disorder, with topline results expected by mid-August 2026"
+    },
+    {
+      "slug": "mplt",
+      "ticker": "MPLT",
+      "issuer": "MapLight Therapeutics, Inc.",
+      "asset": "ML-007C-MA (VISTA)",
+      "indication": "Alzheimer's disease psychosis (ADP)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment ongoing in ML-007C-MA's Phase 2 VISTA trial in Alzheimer's disease psychosis, with topline results expected in the second half of 2027"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

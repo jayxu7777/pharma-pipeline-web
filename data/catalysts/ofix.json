@@ -1,0 +1,48 @@
+{
+  "slug": "ofix",
+  "ticker": "OFIX",
+  "issuer_name": "Orthofix Medical Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-204999",
+      "filed_date": "2026-05-05",
+      "exhibit": "ofix-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-148853",
+      "filed_date": "2026-04-09",
+      "exhibit": "ofix-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-065184",
+      "filed_date": "2026-02-24",
+      "exhibit": "ofix-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-263529",
+      "filed_date": "2025-11-04",
+      "exhibit": "ofix-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000950170-25-102383",
+      "filed_date": "2025-08-05",
+      "exhibit": "ofix-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Orthofix is a commercial-stage medical device company (global orthopedic, spine, bone growth therapies). Latest 8-K filings cover quarterly earnings, financial guidance, M6 product line discontinuation, and product launches (TrueLok Elevate TBT, Reef L Interbody System are already FDA-cleared). No forward-looking clinical/regulatory PDUFA/topline-style catalysts disclosed."
+  }
+}

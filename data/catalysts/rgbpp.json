@@ -1,0 +1,55 @@
+{
+  "slug": "rgbpp",
+  "ticker": "RGBPP",
+  "issuer_name": "Regen BioPharma, Inc. (Series A Preferred)",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "10-K/10-Q",
+      "accession": "various",
+      "filed_date": "FY2026",
+      "exhibit": "Annual/quarterly report body",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "rgbpp",
+      "ticker": "RGBPP",
+      "issuer": "Regen BioPharma, Inc. (Series A Preferred)",
+      "asset": "HemaXellerate (autologous stromal cell therapy)",
+      "indication": "Drug-refractory aplastic anemia",
+      "phase": "Phase I (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Regen BioPharma continues to advance planned Phase I clinical trial of HemaXellerate for drug-refractory aplastic anemia under previously cleared IND."
+    },
+    {
+      "slug": "rgbpp",
+      "ticker": "RGBPP",
+      "issuer": "Regen BioPharma, Inc. (Series A Preferred)",
+      "asset": "dCellVax (NR2F6 dendritic cell vaccine)",
+      "indication": "Breast cancer (preclinical)",
+      "phase": "Preclinical",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Continued preclinical development of dCellVax, a dendritic cell-based vaccine targeting NR2F6 immune checkpoint, primarily evaluated in breast cancer models."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "preferred share ticker; same CIK as parent RGBP"
+  }
+}

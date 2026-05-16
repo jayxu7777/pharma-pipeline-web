@@ -1,0 +1,73 @@
+{
+  "slug": "algs",
+  "ticker": "ALGS",
+  "issuer_name": "Aligos Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001171843-26-003156",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1799448/000117184326003156/exh_991.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "algs",
+      "ticker": "ALGS",
+      "issuer": "Aligos Therapeutics, Inc.",
+      "asset": "pevifoscorvir sodium",
+      "indication": "chronic HBV infection",
+      "phase": "Phase 2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1799448/000117184326003156/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "A second protocol defined interim analysis is planned when ~50% of HBeAg+ participants complete 24 weeks of the treatment period, with this enrollment threshold previously reached in January 2026. The second interim analysis is expected in the second half of 2026."
+    },
+    {
+      "slug": "algs",
+      "ticker": "ALGS",
+      "issuer": "Aligos Therapeutics, Inc.",
+      "asset": "pevifoscorvir sodium",
+      "indication": "chronic HBV infection (B-SUPREME, HBeAg-/+ cohorts)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1799448/000117184326003156/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data for both the HBeAg- and HBeAg+ cohorts are expected in 2027."
+    },
+    {
+      "slug": "algs",
+      "ticker": "ALGS",
+      "issuer": "Aligos Therapeutics, Inc.",
+      "asset": "pevifoscorvir sodium",
+      "indication": "chronic HBV infection",
+      "phase": "Phase 1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1799448/000117184326003156/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "96-weeks of dosing have been completed in the Phase 1 study (NCT04536337) with long-term post-treatment data expected to be presented at the upcoming European Association for the Study of the Liver (EASL) 2026 Congress."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Q1 2026 PR adds B-SUPREME second interim (2H 2026), topline 2027, and EASL 2026 Phase 1 long-term data presentation. Fast Track designation and DSMB positive interim are historical events not requiring catalyst rows."
+  }
+}

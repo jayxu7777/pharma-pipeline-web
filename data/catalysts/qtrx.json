@@ -1,0 +1,100 @@
+{
+  "slug": "qtrx",
+  "ticker": "QTRX",
+  "issuer_name": "Quanterix Corp",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-034124",
+      "filed_date": "2026-05-13",
+      "exhibit": "exhibit991-qtrxx20261205",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001503274-26-000019",
+      "filed_date": "2026-05-07",
+      "exhibit": "ex991-qtrxx20260331",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001503274-26-000011",
+      "filed_date": "2026-02-25",
+      "exhibit": "ex991-qtrxx20251231",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-001369",
+      "filed_date": "2026-01-08",
+      "exhibit": "ex991-qtrxx20260108",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-053420",
+      "filed_date": "2025-11-20",
+      "exhibit": "ex991-qtrxx20251120",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "qtrx",
+      "ticker": "QTRX",
+      "issuer": "Quanterix Corp",
+      "asset": "LucentAD Complete (multi-biomarker blood test)",
+      "indication": "Alzheimer's disease diagnosis",
+      "phase": "regulatory",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA Clearance submitted - expected in 2026 for LucentAD Test."
+    },
+    {
+      "slug": "qtrx",
+      "ticker": "QTRX",
+      "issuer": "Quanterix Corp",
+      "asset": "Simoa HD-X IVD instrument",
+      "indication": "ultra-sensitive protein detection",
+      "phase": "regulatory",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "HD-X IVD Instrument IVD submission in 2027."
+    },
+    {
+      "slug": "qtrx",
+      "ticker": "QTRX",
+      "issuer": "Quanterix Corp",
+      "asset": "PhenoCode Discovery IO60 panel",
+      "indication": "spatial biology / immuno-oncology",
+      "phase": "commercial",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-05-07",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Quanterix's newly launched PhenoCode Discovery IO60 panel won silver at the Edison Awards."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

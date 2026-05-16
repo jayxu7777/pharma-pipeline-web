@@ -1,0 +1,106 @@
+{
+  "slug": "oric",
+  "ticker": "ORIC",
+  "issuer_name": "Oric Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-203993",
+      "filed_date": "2026-05-04",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "oric",
+      "ticker": "ORIC",
+      "issuer": "Oric Pharmaceuticals, Inc.",
+      "asset": "rinzimetostat",
+      "indication": "post-abiraterone mCRPC (Himalayas-1)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "1H 2026: Initiate Himalayas-1 global Phase 3 registrational trial in post-abiraterone mCRPC"
+    },
+    {
+      "slug": "oric",
+      "ticker": "ORIC",
+      "issuer": "Oric Pharmaceuticals, Inc.",
+      "asset": "rinzimetostat",
+      "indication": "mCRPC",
+      "phase": "Phase 1b/3",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "2H 2026: Program update"
+    },
+    {
+      "slug": "oric",
+      "ticker": "ORIC",
+      "issuer": "Oric Pharmaceuticals, Inc.",
+      "asset": "enozertinib",
+      "indication": "1L EGFR atypical NSCLC",
+      "phase": "Phase 1b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "2H 2026: 1L EGFR atypical monotherapy data"
+    },
+    {
+      "slug": "oric",
+      "ticker": "ORIC",
+      "issuer": "Oric Pharmaceuticals, Inc.",
+      "asset": "enozertinib",
+      "indication": "1L EGFR exon 20 insertion NSCLC",
+      "phase": "Phase 1b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "2H 2026: 1L EGFR exon 20 insertion monotherapy data and combination data with SC amivantamab"
+    },
+    {
+      "slug": "oric",
+      "ticker": "ORIC",
+      "issuer": "Oric Pharmaceuticals, Inc.",
+      "asset": "enozertinib",
+      "indication": "1L EGFR exon 20 insertion NSCLC",
+      "phase": "Phase 1b",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Completed enrollment in the Phase 1b trial of enozertinib as a single-agent in first-line patients with advanced NSCLC harboring EGFR exon 20 insertion mutations."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none"
+  }
+}

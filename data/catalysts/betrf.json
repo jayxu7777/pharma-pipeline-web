@@ -1,0 +1,20 @@
+{
+  "slug": "betrf",
+  "ticker": "BETRF",
+  "issuer_name": "BetterLife Pharma Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001477932-18-006066",
+      "filed_date": "2018",
+      "exhibit": "Ex-10.38",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001464165"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Latest US-filed 8-K exhibits available via EDGAR are from 2018 (BetterLife/Predicate Pivot Pharmaceuticals). No filings within forward-looking window; cannot extract catalysts >= 2026-05-15."
+  }
+}

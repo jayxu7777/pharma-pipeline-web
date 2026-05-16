@@ -1,0 +1,28 @@
+{
+  "slug": "azn",
+  "ticker": "AZN",
+  "issuer_name": "ASTRAZENECA PLC",
+  "exchange": "",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004047",
+      "filed_date": "2026-04-29",
+      "exhibit": "Q1 2026 results 6-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/901832/000165495426004047/a2999c.htm"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004836",
+      "filed_date": "2026-05-14",
+      "exhibit": "VOLGA Phase III readout 6-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/901832/000165495426004836/a3223e.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Large-pharma Q1 2026 6-K is financial-heavy. All Phase III readouts (EMERALD-3, OBERON/TITANIA/MIRANDA, ATHLOS, MULBERRY/CHESTNUT, I CAN, SAMETA) and regulatory approvals listed are historical Q1 2026 events. Forward language is generic ('further readouts anticipated this year') without specific trial-by-trial dates. Subsequent May 2026 6-Ks (Truqap ODAC, camizestrant ODAC, VOLGA) are also historical event reports. No specific forward-looking clinical dates with day/month/quarter precision in earnings PR.",
+    "tier0_overlap_check": "Tier0 likely captures the same pipeline; no Tier1 sharpening available from earnings PR forward statements."
+  }
+}

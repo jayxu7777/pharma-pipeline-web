@@ -1,0 +1,27 @@
+{
+  "slug": "dcoy",
+  "ticker": "DCOY",
+  "issuer_name": "Decoy Therapeutics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-139145",
+      "filed_date": "2026-04-02",
+      "exhibit": "Ex-99.1 (corporate update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1615219/000119312526139145/"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-092748",
+      "filed_date": "2026-03-05",
+      "exhibit": "Ex-99.1 (corporate update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1615219/000119312526092748/"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Recent 8-K PRs reference IMP3ACT platform and IND-stage program at a high level but do not disclose forward-dated clinical milestones (IND timing, FPI, data readouts) with specific dates."
+  }
+}

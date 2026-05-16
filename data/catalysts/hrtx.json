@@ -1,0 +1,38 @@
+{
+  "slug": "hrtx",
+  "ticker": "HRTX",
+  "issuer_name": "HERON THERAPEUTICS, INC. /DE/",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-215752",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 Q1 2026 earnings PR",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "hrtx",
+      "ticker": "HRTX",
+      "issuer": "HERON THERAPEUTICS, INC. /DE/",
+      "asset": "ZYNRELEF prefilled syringe (PFS)",
+      "indication": "postoperative pain",
+      "phase": "lifecycle",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "registration batches have been manufactured and placed on stability, and the Company will receive 12-month stability data in the first quarter of 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

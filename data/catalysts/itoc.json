@@ -1,0 +1,20 @@
+{
+  "slug": "itoc",
+  "ticker": "ITOC",
+  "issuer_name": "iTonic Holdings Ltd",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-047086",
+      "filed_date": "2026-04-23",
+      "exhibit": "Ex-99.1 (Nasdaq compliance extension PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Brachytherapy planning software company (China); recent 8-Ks were Nasdaq listing compliance and capital-structure related with no clinical/regulatory catalyst dates."
+  }
+}

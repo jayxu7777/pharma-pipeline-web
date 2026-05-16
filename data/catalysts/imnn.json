@@ -1,0 +1,38 @@
+{
+  "slug": "imnn",
+  "ticker": "IMNN",
+  "issuer_name": "Imunon, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-022401",
+      "filed_date": "2026-05-12",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "imnn",
+      "ticker": "IMNN",
+      "issuer": "Imunon, Inc.",
+      "asset": "IMNN-001 (Imfugo)",
+      "indication": "advanced ovarian cancer (OVATION 3)",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2029-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "OVATION 3 Phase 3 enrollment completion expected by Q1 2029"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

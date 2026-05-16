@@ -1,0 +1,168 @@
+{
+  "slug": "xoma",
+  "ticker": "XOMA",
+  "issuer_name": "XOMA Royalty Corp",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-179085",
+      "filed_date": "2026-04-27",
+      "exhibit": "d139894dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-112338",
+      "filed_date": "2026-03-18",
+      "exhibit": "d34671dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-084016",
+      "filed_date": "2026-03-02",
+      "exhibit": "d112965dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-042836",
+      "filed_date": "2026-02-09",
+      "exhibit": "d59988dex22.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-014142",
+      "filed_date": "2026-01-15",
+      "exhibit": "d59764dex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "xoma",
+      "ticker": "XOMA",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "volixibat (Mirum-partnered royalty)",
+      "indication": "primary sclerosing cholangitis (PSC)",
+      "phase": "Phase 2b VISTAS",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Volixibat VISTAS study in primary sclerosing cholangitis (PSC) topline data expected in Q2"
+    },
+    {
+      "slug": "xoma",
+      "ticker": "XOMA",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "volixibat (Mirum-partnered royalty)",
+      "indication": "primary biliary cholangitis (PBC)",
+      "phase": "Phase 2b VANTAGE",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Volixibat VANTAGE study in primary biliary cholangitis (PBC) expected to complete enrollment in H2"
+    },
+    {
+      "slug": "xoma",
+      "ticker": "XOMA",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "ersodetug (Rezolute-partnered royalty)",
+      "indication": "tumor hyperinsulinism (tumor HI)",
+      "phase": "Phase 3",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 data from ersodetug in tumor HI in 2H"
+    },
+    {
+      "slug": "xoma",
+      "ticker": "XOMA",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "ersodetug",
+      "indication": "congenital hyperinsulinism",
+      "phase": "Phase 3 (Breakthrough Therapy)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Rezolute will meet with FDA under its Breakthrough Therapy Designation in the first quarter of 2026 to determine next steps for the program"
+    },
+    {
+      "slug": "xoma",
+      "ticker": "XOMA",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "ersodetug",
+      "indication": "congenital hyperinsulinism (upLIFT)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "",
+      "date_precision": "none",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Rezolute anticipates topline results of upLIFT, a Phase 3 study"
+    },
+    {
+      "slug": "xoma",
+      "ticker": "XOMA",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "seralutinib (Gossamer Bio-partnered)",
+      "indication": "pulmonary arterial hypertension (PAH)",
+      "phase": "Phase 3 PROSERA",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-02-28",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In February 2026, Gossamer Bio announced topline results from the Phase 3 PROSERA clinical trial evaluating seralutinib for the treatment of PAH"
+    },
+    {
+      "slug": "xoma",
+      "ticker": "XOMA",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "OJEMDA / portfolio",
+      "indication": "EU approval decision",
+      "phase": "marketed (EMA)",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Potential for EMA decisions on OJEMDA"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "XOMA Royalty is a royalty aggregator; catalysts captured belong to partner programs (Mirum/volixibat, Rezolute/ersodetug, Gossamer/seralutinib, Day One Bio/OJEMDA royalty). Also includes pending acquisition by Ligand Pharmaceuticals announced 2026-04-27."
+  }
+}

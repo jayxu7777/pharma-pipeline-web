@@ -1,0 +1,45 @@
+{
+  "slug": "mira",
+  "ticker": "MIRA",
+  "issuer_name": "MIRA PHARMACEUTICALS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-022704",
+      "filed_date": "2026-05-13",
+      "exhibit": "Item 7.01 (Phase 1 Ketamir-2 results)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-008707",
+      "filed_date": "2026-03-03",
+      "exhibit": "Item 7.01 (Phase 1 completion / Phase 2a plan)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "mira",
+      "ticker": "MIRA",
+      "issuer": "MIRA PHARMACEUTICALS, INC.",
+      "asset": "Ketamir-2",
+      "indication": "chemotherapy-induced peripheral neuropathy (CIPN)",
+      "phase": "Phase 2a",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company intends to submit the Phase 2a clinical study and supporting documentation to the U.S. Food and Drug Administration under its active Investigational New Drug application in the first half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Forward Phase 2a IND submission planned 1H 2026 \u2014 as-of-date 2026-05-15 is still within window."
+  }
+}

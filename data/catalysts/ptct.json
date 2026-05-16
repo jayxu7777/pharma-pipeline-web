@@ -1,0 +1,117 @@
+{
+  "slug": "ptct",
+  "ticker": "PTCT",
+  "issuer_name": "PTC THERAPEUTICS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001070081-26-000011",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 corporate update)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001070081-26-000006",
+      "filed_date": "2026-04-28",
+      "exhibit": "Ex-99.1/Ex-99.2 (PIVOT-HD votoplam topline)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-034207",
+      "filed_date": "2026-03-25",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-017546",
+      "filed_date": "2026-02-19",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-014414",
+      "filed_date": "2026-02-12",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ptct",
+      "ticker": "PTCT",
+      "issuer": "PTC THERAPEUTICS, INC.",
+      "asset": "Votoplam (oral small molecule splicing agent, partnered with Novartis)",
+      "indication": "Huntington's disease (HD)",
+      "phase": "Phase 2 PIVOT-HD long-term extension",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-04",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Reported positive topline results in April 2026 from 24-month interim analysis of PIVOT-HD extension study of votoplam. Dose-dependent benefit on cUHDRS in Stage 2 with 52% slowing of disease progression at 10 mg dose; favorable safety and no treatment-related NfL spikes."
+    },
+    {
+      "slug": "ptct",
+      "ticker": "PTCT",
+      "issuer": "PTC THERAPEUTICS, INC.",
+      "asset": "Votoplam",
+      "indication": "Huntington's disease",
+      "phase": "Phase 3 (INVEST-HD, led by Novartis)",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "First patient dosed in Phase 3 INVEST-HD study of votoplam, triggering $50 million milestone payment from Novartis to PTC in Q2 2026."
+    },
+    {
+      "slug": "ptct",
+      "ticker": "PTCT",
+      "issuer": "PTC THERAPEUTICS, INC.",
+      "asset": "Vatiquinone",
+      "indication": "Friedreich's ataxia (FA)",
+      "phase": "Registration study (open-label, matched natural history control)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Type C meeting with FDA held April 2026 to discuss vatiquinone study to support NDA resubmission for FA program; PTC expects to initiate an open-label study using matched natural history control in Q3 2026 with primary endpoint change in mFARS at 24 months."
+    },
+    {
+      "slug": "ptct",
+      "ticker": "PTCT",
+      "issuer": "PTC THERAPEUTICS, INC.",
+      "asset": "Sephience (sepiapterin)",
+      "indication": "Phenylketonuria (PKU)",
+      "phase": "Commercial",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "year_end",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Sephience Q1 2026 revenue $125M (36% QoQ growth); 1,244 patients on commercial therapy worldwide; first commercial sales in Japan Q1 2026; revenue expected from up to 30 countries by year-end 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none"
+  }
+}

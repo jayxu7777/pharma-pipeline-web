@@ -1,0 +1,59 @@
+{
+  "slug": "zybt",
+  "ticker": "ZYBT",
+  "issuer_name": "Zhengye Biotechnology Holding Ltd",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-047332",
+      "filed_date": "2025-04-25",
+      "exhibit": "ea024308201ex99-1_zhengye.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-121187",
+      "filed_date": "2025-11-04",
+      "exhibit": "ea026916401ex99-1_zhengye.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-121187",
+      "filed_date": "2025-11-04",
+      "exhibit": "ea026916401ex99-2_zhengye.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-021864",
+      "filed_date": "2026-02-23",
+      "exhibit": "ea027906601ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "zybt",
+      "ticker": "ZYBT",
+      "issuer": "Zhengye Biotechnology Holding Ltd",
+      "asset": "Inactivated Trivalent Vaccine for Feline Rhinotracheitis, Calicivirus, Panleukopenia (FM + CY)",
+      "indication": "Feline veterinary vaccine",
+      "phase": "China clinical trial approval",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2025-10",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Operating entity obtained clinical trial approval for its independently developed Inactivated Trivalent Vaccine for Feline Rhinotracheitis, Calicivirus, and Panleukopenia. In October 2025 submitted the quality-standard documentation."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Veterinary vaccine manufacturer in China. Limited catalyst content; main filings about Nasdaq listing compliance."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "abcl",
+  "ticker": "ABCL",
+  "issuer_name": "AbCellera Biologics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001703057-26-000027",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR with ABCL635 interim Phase 1 data)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000027/q12026earningspressrelease.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001703057-26-000010",
+      "filed_date": "2026-02-24",
+      "exhibit": "Ex-99.1 (FY 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000010/a2025earningspressrelease.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "abcl",
+      "ticker": "ABCL",
+      "issuer": "AbCellera Biologics Inc.",
+      "asset": "ABCL635",
+      "indication": "Moderate-to-severe vasomotor symptoms (VMS) associated with menopause",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000027/q12026earningspressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "We look forward to the efficacy readout from the Phase 2 data in Q3, which we believe will be highly de-risking for the program."
+    },
+    {
+      "slug": "abcl",
+      "ticker": "ABCL",
+      "issuer": "AbCellera Biologics Inc.",
+      "asset": "ABCL635",
+      "indication": "Moderate-to-severe vasomotor symptoms (VMS) associated with menopause",
+      "phase": "Phase 1 (interim)",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-05-11",
+      "date_precision": "day",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000027/q12026earningspressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "AbCellera Reports Q1 2026 Business Results & Announces Positive Interim Phase 1 Clinical Data for ABCL635 - ABCL635 demonstrated a favorable tolerability profile, with no observed liver toxicity, and achieved potent and sustained reductions in biomarkers of target engagement."
+    },
+    {
+      "slug": "abcl",
+      "ticker": "ABCL",
+      "issuer": "AbCellera Biologics Inc.",
+      "asset": "ABCL688 and ABCL386",
+      "indication": "Undisclosed (oncology / immunology pipeline)",
+      "phase": "IND-enabling",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-11",
+      "confidence": "med",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000027/q12026earningspressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Through 2026 we are focused on delivering data readouts for our clinical programs, advancing ABCL688 and ABCL386 into IND-enabling studies, and selecting at least one additional development candidate."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "The Q3 2026 ABCL635 Phase 2 efficacy readout date and the May 11, 2026 interim Phase 1 results are fresh and not in 2024 10-K. ABCL688/ABCL386 IND-enabling progress may partially overlap with 10-K pipeline disclosure but the 2026 timeline is fresh."
+  }
+}

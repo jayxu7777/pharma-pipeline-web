@@ -1,0 +1,27 @@
+{
+  "slug": "mtex",
+  "ticker": "MTEX",
+  "issuer_name": "MANNATECH INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-012433",
+      "filed_date": "2026-04-23",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-25-034435",
+      "filed_date": "2025-11-12",
+      "exhibit": "Ex-99.1 (Q3 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Nutritional supplements / direct-selling consumer health company; not a clinical-stage drug developer. No clinical trial or PDUFA catalysts in 8-K exhibits."
+  }
+}

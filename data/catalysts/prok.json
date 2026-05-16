@@ -1,0 +1,161 @@
+{
+  "slug": "prok",
+  "ticker": "PROK",
+  "issuer_name": "PROKIDNEY CORP.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-113893",
+      "filed_date": "2026-03",
+      "exhibit": "prok-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-033594",
+      "filed_date": "2026-01",
+      "exhibit": "prok-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-009807",
+      "filed_date": "2026-01",
+      "exhibit": "prok-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-274314",
+      "filed_date": "2025-12",
+      "exhibit": "prok-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "prok",
+      "ticker": "PROK",
+      "issuer": "PROKIDNEY CORP.",
+      "asset": "rilparencel (REACT)",
+      "indication": "advanced CKD with type 2 diabetes (Stage 3b/4)",
+      "phase": "Phase 3 (PROACT 1, REGEN-006)",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On track to complete enrollment for the Phase 3 PROACT 1 accelerated approval analysis of rilparencel in mid-2026"
+    },
+    {
+      "slug": "prok",
+      "ticker": "PROK",
+      "issuer": "PROKIDNEY CORP.",
+      "asset": "rilparencel",
+      "indication": "advanced CKD with type 2 diabetes",
+      "phase": "Phase 3 (PROACT 1)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "anticipate pivotal topline results in Q2 2027 (eGFR slope surrogate endpoint)"
+    },
+    {
+      "slug": "prok",
+      "ticker": "PROK",
+      "issuer": "PROKIDNEY CORP.",
+      "asset": "rilparencel",
+      "indication": "advanced CKD with type 2 diabetes",
+      "phase": "regulatory",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Maintain dialogue with FDA under RMAT designation to prepare for BLA submission in 2H 2027"
+    },
+    {
+      "slug": "prok",
+      "ticker": "PROK",
+      "issuer": "PROKIDNEY CORP.",
+      "asset": "rilparencel",
+      "indication": "advanced CKD",
+      "phase": "regulatory",
+      "milestone_type": "approval/launch",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "BLA approval and commercial launch of rilparencel"
+    },
+    {
+      "slug": "prok",
+      "ticker": "PROK",
+      "issuer": "PROKIDNEY CORP.",
+      "asset": "rilparencel",
+      "indication": "advanced CKD with type 2 diabetes",
+      "phase": "Phase 3 (PROACT 1)",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Complete full enrollment for Phase 3 PROACT 1 confirmatory composite time-to-event analysis (n=~470)"
+    },
+    {
+      "slug": "prok",
+      "ticker": "PROK",
+      "issuer": "PROKIDNEY CORP.",
+      "asset": "rilparencel",
+      "indication": "advanced CKD",
+      "phase": "Phase 3 (PROACT 1)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 PROACT 1 topline readout of confirmatory endpoint (composite time-to-event) for full approval"
+    },
+    {
+      "slug": "prok",
+      "ticker": "PROK",
+      "issuer": "PROKIDNEY CORP.",
+      "asset": "rilparencel",
+      "indication": "advanced CKD with diabetes",
+      "phase": "Phase 2 (REGEN-007)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2025-11-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Presented positive results from the Phase 2 REGEN-007 study of rilparencel as a late-breaking clinical trial at ASN Kidney Week 2025 followed by a peer-reviewed publication in CJASN"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

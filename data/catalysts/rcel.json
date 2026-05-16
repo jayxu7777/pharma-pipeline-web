@@ -1,0 +1,134 @@
+{
+  "slug": "rcel",
+  "ticker": "RCEL",
+  "issuer_name": "AVITA Medical, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-224022",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 results with Cohealyx I interim data)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-201662",
+      "filed_date": "2026-05-01",
+      "exhibit": "Ex-99.1 (CEO appointment announcement)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-048761",
+      "filed_date": "2026-02-12",
+      "exhibit": "Ex-99.1 (Q4 2025 results)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-011167",
+      "filed_date": "2026-01-13",
+      "exhibit": "Ex-99.1 (preliminary Q4 2025 results, Cohealyx-I/PermeaDerm-I enrollment updates) and Ex-10.1/10.2/10.3/4.1 (Credit Agreement)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-269535",
+      "filed_date": "2025-11-06",
+      "exhibit": "Ex-99.1 (Q3 2025 results, CE Mark for RECELL GO)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "rcel",
+      "ticker": "RCEL",
+      "issuer": "AVITA Medical, Inc.",
+      "asset": "Cohealyx",
+      "indication": "Acute wound care (collagen-based dermal matrix)",
+      "phase": "Pivotal (Cohealyx I study)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-05",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Announced positive interim Cohealyx I data demonstrating a ~20-day reduction in mean time to skin grafting readiness (13.6 vs. 33.2 days; p<0.001), supporting potential to drive improved clinical outcomes and broader adoption."
+    },
+    {
+      "slug": "rcel",
+      "ticker": "RCEL",
+      "issuer": "AVITA Medical, Inc.",
+      "asset": "Cohealyx",
+      "indication": "Acute wound care",
+      "phase": "Cohealyx I study",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2025-12",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Cohealyx-I study fully enrolled in December 2025; data from clinical study expected later in 2026."
+    },
+    {
+      "slug": "rcel",
+      "ticker": "RCEL",
+      "issuer": "AVITA Medical, Inc.",
+      "asset": "PermeaDerm",
+      "indication": "Acute wound care",
+      "phase": "PermeaDerm I study",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "PermeaDerm-I study surpassed 75% enrollment in December 2025; data expected later in 2026."
+    },
+    {
+      "slug": "rcel",
+      "ticker": "RCEL",
+      "issuer": "AVITA Medical, Inc.",
+      "asset": "RECELL GO",
+      "indication": "Acute wound care (CE Mark under EU Medical Device Regulation)",
+      "phase": "Commercial (Europe launch)",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2025-09",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "RECELL GO received CE Mark approval under the EU Medical Device Regulation, enabling European launch beginning with Germany, Italy, and the United Kingdom."
+    },
+    {
+      "slug": "rcel",
+      "ticker": "RCEL",
+      "issuer": "AVITA Medical, Inc.",
+      "asset": "PermeaDerm / RECELL / Cohealyx (portfolio)",
+      "indication": "Acute wound care - staged wound care pathway",
+      "phase": "Commercial / clinical",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-01",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Data presented at the 2026 Boswick Burn & Wound Symposium in January included the first surgeon-reported integrated use of RECELL, PermeaDerm, and Cohealyx within a staged wound care pathway."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none"
+  }
+}

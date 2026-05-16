@@ -1,0 +1,27 @@
+{
+  "slug": "juns",
+  "ticker": "JUNS",
+  "issuer_name": "JUPITER NEUROSCIENCES, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-008344",
+      "filed_date": "2026-02-27",
+      "exhibit": "Form 8-K (Nasdaq deficiency notice)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-019783",
+      "filed_date": "2025-10-27",
+      "exhibit": "Ex-99.1 (Yorkville financing PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Recent 8-Ks are governance (Nasdaq compliance) and financing-related; PRs reference a Phase IIa Parkinson's program but provide no specific forward dates."
+  }
+}

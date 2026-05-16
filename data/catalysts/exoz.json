@@ -1,0 +1,27 @@
+{
+  "slug": "exoz",
+  "ticker": "EXOZ",
+  "issuer_name": "EXOZYMES INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-021589",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Investor Presentation)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-005176",
+      "filed_date": "2026-02-05",
+      "exhibit": "Ex-99.1 (NCT pilot run PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Non-clinical biomanufacturing company (AI-enhanced enzymes for nutraceuticals); recent 8-Ks contain no clinical/regulatory catalyst language."
+  }
+}

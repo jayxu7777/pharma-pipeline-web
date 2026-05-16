@@ -1,0 +1,39 @@
+{
+  "slug": "anix",
+  "ticker": "ANIX",
+  "issuer_name": "Anixa Biosciences Inc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-005702",
+      "filed_date": "2026-02-09",
+      "exhibit": "Ex-99.1 (Ovarian cancer CAR-T trial update)",
+      "url": "https://www.sec.gov/Archives/edgar/data/715446/000149315226005702/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "anix",
+      "ticker": "ANIX",
+      "issuer": "Anixa Biosciences Inc",
+      "asset": "liraltagene autoleucel (lira-cel; FSHR-targeted CAR-T / CER-T)",
+      "indication": "recurrent ovarian cancer (post >=2 prior therapies)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-02-09",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/715446/000149315226005702/ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Under the amended protocol, dosing may increase from the original range of 1x10^5 to 1x10^7 CAR-positive cells per kilogram of body weight to as high as 1x10^9 cells/kg, representing a two-order-of-magnitude increase... the next patient cohort will receive 1x10^7 cells/kg following treatment with cyclophosphamide and fludarabine, a preparatory regimen known as lymphodepletion. Dr. Kumar will further discuss the observations in the clinical trial, as well as provide updates on Anixa's plans for 2026, in the upcoming Water Tower Research Fireside Chat Series taking place on Tuesday, February 10, 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Feb 9 2026 8-K announces IRB-approved protocol amendment enabling 100x dose escalation in ongoing Phase 1 ovarian cancer CAR-T (lira-cel) trial with lymphodepletion addition, plus survival observations from 12 patients dosed to date. No specific topline date given but ongoing data updates expected through 2026. Other 8-Ks (Mar 11 2026 annual meeting, Dec 12 2025 vaccine update) had no novel forward-dated catalysts. Anixa runs Phase 1 partnership trials at Moffitt/Cleveland Clinic; no NDA/BLA timing disclosed."
+  }
+}

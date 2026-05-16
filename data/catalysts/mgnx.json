@@ -1,0 +1,89 @@
+{
+  "slug": "mgnx",
+  "ticker": "MGNX",
+  "issuer_name": "MACROGENICS INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001125345-26-000040",
+      "filed_date": "2026-05",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "mgnx",
+      "ticker": "MGNX",
+      "issuer": "MACROGENICS INC",
+      "asset": "MGC026",
+      "indication": "solid tumors (B7-H3 overexpressing)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company anticipates reporting initial MGC026 clinical data in mid-2026."
+    },
+    {
+      "slug": "mgnx",
+      "ticker": "MGNX",
+      "issuer": "MACROGENICS INC",
+      "asset": "MGC028",
+      "indication": "advanced solid tumors (ADAM9 overexpressing)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "MGC028 is currently being evaluated in the dose escalation portion of a Phase 1 study in patients with advanced solid tumors. The Company anticipates reporting initial MGC028 clinical data in the second half of 2026."
+    },
+    {
+      "slug": "mgnx",
+      "ticker": "MGNX",
+      "issuer": "MACROGENICS INC",
+      "asset": "lorigerlimab",
+      "indication": "clear cell gynecological cancers (CCGC)",
+      "phase": "Phase 2",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company anticipates completing enrollment of these 20 patients by year-end 2026 and reporting updated study results in the first half of 2027."
+    },
+    {
+      "slug": "mgnx",
+      "ticker": "MGNX",
+      "issuer": "MACROGENICS INC",
+      "asset": "lorigerlimab",
+      "indication": "clear cell gynecological cancers (CCGC)",
+      "phase": "Phase 2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "reporting updated study results in the first half of 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

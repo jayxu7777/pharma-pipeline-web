@@ -1,0 +1,20 @@
+{
+  "slug": "ensc",
+  "ticker": "ENSC",
+  "issuer_name": "Ensysce Biosciences, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-013622",
+      "filed_date": "2026-03-30",
+      "exhibit": "Ex-99.1 (Q4/FY2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1716947/000149315226013622/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Q4 2025 PR describes ongoing PF614-301 Phase 3 enrollment (FPI dosed Dec 2025) and PF614-MPAR Breakthrough Therapy program, but provides no forward-dated milestones (no topline date, no NDA date). No (>=2026-05-15) catalysts identified."
+  }
+}

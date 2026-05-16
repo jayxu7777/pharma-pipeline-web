@@ -1,0 +1,124 @@
+{
+  "slug": "sibn",
+  "ticker": "SIBN",
+  "issuer_name": "SI-BONE, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001459839-26-000054",
+      "filed_date": "2026",
+      "exhibit": "exhibit991_q126earningsrel.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001459839-26-000022",
+      "filed_date": "2026",
+      "exhibit": "exhibit991_sibn12312025ear.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001459839-26-000010",
+      "filed_date": "2026-01-12",
+      "exhibit": "exhibit991_sibn12312025pre.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001459839-26-000010",
+      "filed_date": "2026-01-12",
+      "exhibit": "si-bonecorporateoverview.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001459839-25-000094",
+      "filed_date": "2025",
+      "exhibit": "exhibit991_q325earningsrel.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001459839-25-000073",
+      "filed_date": "2025",
+      "exhibit": "exhibit991_q225earningsrel.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "sibn",
+      "ticker": "SIBN",
+      "issuer": "SI-BONE, Inc.",
+      "asset": "iFuse TORQ TNT (Through-and-Through)",
+      "indication": "Pelvic fragility fracture fixation",
+      "phase": "Commercial",
+      "milestone_type": "breakthrough_device_designation",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "iFuse TORQ TNT: FDA Breakthrough Device Designation; pelvic fragility fracture fixation; pelvic-specific 8.7mm diameter; 3D-printed porous lattice surface designed for osseointegration."
+    },
+    {
+      "slug": "sibn",
+      "ticker": "SIBN",
+      "issuer": "SI-BONE, Inc.",
+      "asset": "iFuse Bedrock Granite 9.5mm",
+      "indication": "Adult spinal deformity and degenerative spine pelvic fixation",
+      "phase": "Commercial",
+      "milestone_type": "breakthrough_device_designation_and_line_extension",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "iFuse Bedrock Granite 9.5mm: Breakthrough Device Designation; line extension of breakthrough implant; smaller diameter (9.5mm); 3D-printed lattice & surface; additional application for use in S1 trajectory and pediatric deformity."
+    },
+    {
+      "slug": "sibn",
+      "ticker": "SIBN",
+      "issuer": "SI-BONE, Inc.",
+      "asset": "iFuse TORQ and iFuse TORQ TNT",
+      "indication": "Pelvic trauma",
+      "phase": "Commercial",
+      "milestone_type": "commercial_partnership",
+      "anticipated_date_iso": "2025-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Entered into a strategic partnership with Smith+Nephew to distribute iFuse TORQ and iFuse TORQ TNT across Level 1 and Level 2 trauma centers nationwide for pelvic trauma."
+    },
+    {
+      "slug": "sibn",
+      "ticker": "SIBN",
+      "issuer": "SI-BONE, Inc.",
+      "asset": "Worldwide product portfolio",
+      "indication": "SI joint dysfunction, sacropelvic fixation, pelvic trauma, fragility fractures",
+      "phase": "Commercial",
+      "milestone_type": "revenue_growth",
+      "anticipated_date_iso": "2025-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Full year 2025 delivered worldwide revenue growth exceeding 20% while expanding margins and exiting the year with positive free cash flow."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "SI-BONE is a commercial-stage medtech company; 8-Ks contain quarterly earnings and commercial updates rather than new pivotal-trial readouts or pending PMA/510(k) submissions in this window."
+  }
+}

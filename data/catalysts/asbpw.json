@@ -1,0 +1,35 @@
+{
+  "slug": "asbpw",
+  "ticker": "ASBPW",
+  "issuer_name": "Aspire Biopharma Holdings, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-018018",
+      "filed_date": "2026-04-20",
+      "exhibit": "Ex-99.1 (PIPE closing PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847345/000149315226018018/ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-016979",
+      "filed_date": "2026-04-16",
+      "exhibit": "Ex-99.1 (DCS acquisition LOI PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847345/000149315226016979/ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-006343",
+      "filed_date": "2026-02-12",
+      "exhibit": "Ex-99.1 ($21M private placement PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847345/000149315226006343/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "ASBPW is a warrant of ASBP (same CIK 0001847345); same filings as ASBP - latest 5 8-Ks cover capital raises and non-clinical M&A only, no clinical catalysts disclosed.",
+    "tier0_overlap_check": "Mirror of ASBP; no tier1 catalysts."
+  }
+}

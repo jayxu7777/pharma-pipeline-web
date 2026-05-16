@@ -1,0 +1,35 @@
+{
+  "slug": "cmnd",
+  "ticker": "CMND",
+  "issuer_name": "Clearmind Medicine Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-054785",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (clinical milestone PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1892500/000121390026054785/ea029031102ex99-1.htm"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-051923",
+      "filed_date": "2026-05-05",
+      "exhibit": "Ex-99.1 (European patent PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1892500/000121390026051923/ea028919102ex99-1.htm"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-047736",
+      "filed_date": "2026-04-27",
+      "exhibit": "Ex-99.1 (PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1892500/000121390026047736/ea028780602ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Psychedelic micro-cap FPI; latest 6-Ks describe ongoing Phase I/IIa dose-escalation and patent filings but include no specific forward-looking catalyst date.",
+    "tier0_overlap_check": "No tier1 dates to sharpen over tier0."
+  }
+}

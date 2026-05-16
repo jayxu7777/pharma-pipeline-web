@@ -1,0 +1,27 @@
+{
+  "slug": "gkos",
+  "ticker": "GKOS",
+  "issuer_name": "GLAUKOS Corp",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-202466",
+      "filed_date": "2026-05",
+      "exhibit": "Ex-99.1 (May 2026 investor presentation)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-021885",
+      "filed_date": "2026-03-02",
+      "exhibit": "Ex-99.1 (March 2026 investor presentation)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Investor decks describe product roadmap and phases but do not assign specific forward-dated clinical or regulatory catalysts beyond status (Phase 2/3b/etc.); Epioxa launch already occurred March 2026."
+  }
+}

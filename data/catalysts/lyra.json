@@ -1,0 +1,20 @@
+{
+  "slug": "lyra",
+  "ticker": "LYRA",
+  "issuer_name": "Lyra Therapeutics, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-009772",
+      "filed_date": "2026-01-12",
+      "exhibit": "d27712d8k.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Company suspended further development of LYR-210 (lead candidate) on Jan 9, 2026, executed workforce reduction, and is pursuing strategic alternatives. No forward-dated clinical catalysts."
+  }
+}

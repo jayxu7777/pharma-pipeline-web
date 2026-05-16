@@ -1,0 +1,27 @@
+{
+  "slug": "grce",
+  "ticker": "GRCE",
+  "issuer_name": "Grace Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-016834",
+      "filed_date": "2026-04-27",
+      "exhibit": "ef20071554_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-016324",
+      "filed_date": "2026-04-23",
+      "exhibit": "ef20070593_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "GTx-104 PDUFA date was April 23, 2026 (now past); FDA issued Complete Response Letter on that date. Company plans Type A meeting with FDA but no specific date disclosed. No forward-dated catalysts with sufficient date precision identified."
+  }
+}

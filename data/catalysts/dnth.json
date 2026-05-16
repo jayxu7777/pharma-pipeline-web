@@ -1,0 +1,96 @@
+{
+  "slug": "dnth",
+  "ticker": "DNTH",
+  "issuer_name": "Dianthus Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001690585-26-000021",
+      "filed_date": "2026-05-05",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001690585-26-000010",
+      "filed_date": "2026-03-26",
+      "exhibit": "Ex-99.1 (FY2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000010/"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "dnth",
+      "ticker": "DNTH",
+      "issuer": "Dianthus Therapeutics, Inc.",
+      "asset": "claseprubart",
+      "indication": "generalized Myasthenia Gravis (gMG, EMERGE)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 registrational trial of claseprubart evaluating 300mg/2mL Q2W and 300mg/2mL Q4W in generalized Myasthenia Gravis (gMG) on track to initiate in mid-2026; top-line results anticipated in 2H'28."
+    },
+    {
+      "slug": "dnth",
+      "ticker": "DNTH",
+      "issuer": "Dianthus Therapeutics, Inc.",
+      "asset": "claseprubart",
+      "indication": "generalized Myasthenia Gravis (gMG, EMERGE)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2028-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 EMERGE trial on track to initiate in mid-2026, with top-line results expected in 2H'28."
+    },
+    {
+      "slug": "dnth",
+      "ticker": "DNTH",
+      "issuer": "Dianthus Therapeutics, Inc.",
+      "asset": "claseprubart",
+      "indication": "Multifocal Motor Neuropathy (MMN, MoMeNtum)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 MoMeNtum trial of claseprubart in Multifocal Motor Neuropathy (MMN) ongoing; top-line results on track for Q4'26."
+    },
+    {
+      "slug": "dnth",
+      "ticker": "DNTH",
+      "issuer": "Dianthus Therapeutics, Inc.",
+      "asset": "DNTH212",
+      "indication": "healthy volunteers (autoimmune indications)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1 healthy volunteer data for DNTH212 anticipated in 2H'26."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

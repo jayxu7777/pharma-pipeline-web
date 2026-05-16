@@ -1,0 +1,73 @@
+{
+  "slug": "acog",
+  "ticker": "ACOG",
+  "issuer_name": "Alpha Cognition Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-034778",
+      "filed_date": "2026-03-26",
+      "exhibit": "Ex-99.1 (FY 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1655923/000121390026034778/ea028362201ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "acog",
+      "ticker": "ACOG",
+      "issuer": "Alpha Cognition Inc.",
+      "asset": "ZUNVEYL (benzgalantamine)",
+      "indication": "Alzheimer's disease (long-term care)",
+      "phase": "Phase 4 / real-world",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "2026-03-26",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1655923/000121390026034778/ea028362201ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Alpha Cognition will present new clinical data on ZUNVEYL at the upcoming American Association of Geriatric Psychiatrists (AAGP), and the Neuroscience Education Institute (NEI) Spring Congress in Q2 2026."
+    },
+    {
+      "slug": "acog",
+      "ticker": "ACOG",
+      "issuer": "Alpha Cognition Inc.",
+      "asset": "ZUNVEYL",
+      "indication": "Alzheimer's disease (ex-US)",
+      "phase": "Regulatory (partnered)",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-03-26",
+      "confidence": "med",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1655923/000121390026034778/ea028362201ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Alpha Cognition continues to expect two product approvals ex-US via our partner, CMS, in Asia."
+    },
+    {
+      "slug": "acog",
+      "ticker": "ACOG",
+      "issuer": "Alpha Cognition Inc.",
+      "asset": "ZUNVEYL sublingual formulation",
+      "indication": "Mild-to-moderate Alzheimer's disease (dysphagia/aphagia)",
+      "phase": "Preclinical to Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-03-26",
+      "confidence": "med",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1655923/000121390026034778/ea028362201ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Alpha Cognition plans to complete its preclinical work with a sublingual formulation and advance the product to the clinic in 2026 for treatment of mild-to-moderate AD."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "ZUNVEYL approval and CMS Asia partnership are in 10-K; the Q2 2026 AAGP/NEI presentations and 2026 sublingual clinic advancement are fresh from the FY 2025 PR."
+  }
+}

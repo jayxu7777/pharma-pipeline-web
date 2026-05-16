@@ -1,0 +1,20 @@
+{
+  "slug": "ayrwf",
+  "ticker": "AYRWF",
+  "issuer_name": "Ayr Wellness Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001104659-26-042151",
+      "filed_date": "2026-04-10",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847462/000110465926042151/tm2611609d1_ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Ayr Wellness is a US multi-state cannabis operator (retail/CPG). No clinical/regulatory pharma catalysts; recent 6-K filings concern earnings, debt restructuring and governance, not clinical trials, PDUFA, BLA/NDA or topline data."
+  }
+}

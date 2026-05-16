@@ -1,0 +1,27 @@
+{
+  "slug": "anik",
+  "ticker": "ANIK",
+  "issuer_name": "Anika Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001171843-26-002799",
+      "filed_date": "2026-04-29",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/898437/000117184326002799/exh_991.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001171843-25-007003",
+      "filed_date": "2025-10-28",
+      "exhibit": "Ex-99.1 (Q3 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/898437/000117184325007003/exh_991.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Latest PR (Q1 2026) states 'Hyalofast PMA engagement with FDA continues to progress and review timeline remains in line with the previously provided timeline' and 'Cingal bioequivalence study enrollment remains on track in preparation for an FDA NDA submission' but provides no specific forward-dated milestones."
+  }
+}

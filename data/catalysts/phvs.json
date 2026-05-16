@@ -1,0 +1,151 @@
+{
+  "slug": "phvs",
+  "ticker": "PHVS",
+  "issuer_name": "Pharvaris N.V.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001193125-25-305951",
+      "filed_date": "2025-12-03",
+      "exhibit": "d69798dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-009705",
+      "filed_date": "2026-01-12",
+      "exhibit": "phvs-ex99_2.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001830487-26-000012",
+      "filed_date": "2026-04-02",
+      "exhibit": "phvs-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-216957",
+      "filed_date": "2026-05-11",
+      "exhibit": "d134419dex11.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-219372",
+      "filed_date": "2026-05-12",
+      "exhibit": "phvs-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "phvs",
+      "ticker": "PHVS",
+      "issuer": "Pharvaris N.V.",
+      "asset": "deucrictibant IR (immediate-release capsule)",
+      "indication": "HAE on-demand treatment of acute attacks",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2025-12-03",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "RAPIDe-3 pivotal study (NCT06343779) met primary endpoint and all 11 secondary endpoints; median time to symptom relief 1.28 hours vs >12 hours placebo (p<0.0001)."
+    },
+    {
+      "slug": "phvs",
+      "ticker": "PHVS",
+      "issuer": "Pharvaris N.V.",
+      "asset": "deucrictibant IR",
+      "indication": "HAE on-demand treatment",
+      "phase": "NDA planned",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Submission of U.S. NDA of deucrictibant IR for on-demand treatment of HAE attacks anticipated in 1H2026; based on RAPIDe-3 and RAPIDe-2."
+    },
+    {
+      "slug": "phvs",
+      "ticker": "PHVS",
+      "issuer": "Pharvaris N.V.",
+      "asset": "deucrictibant XR (extended-release tablet)",
+      "indication": "HAE prophylaxis (LTP)",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-04-02",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Target enrollment achieved in CHAPTER-3 (NCT06669754), Phase 3 of deucrictibant XR for prophylaxis in HAE; ~81 participants randomized 2:1."
+    },
+    {
+      "slug": "phvs",
+      "ticker": "PHVS",
+      "issuer": "Pharvaris N.V.",
+      "asset": "deucrictibant XR",
+      "indication": "HAE prophylaxis",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data from CHAPTER-3 anticipated 3Q2026."
+    },
+    {
+      "slug": "phvs",
+      "ticker": "PHVS",
+      "issuer": "Pharvaris N.V.",
+      "asset": "deucrictibant (XR + IR)",
+      "indication": "AAE-C1INH (acquired angioedema with C1 inhibitor deficiency)",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment in CREAATE (NCT07266805) progressing as planned for prophylactic and on-demand treatment of AAE-C1INH attacks."
+    },
+    {
+      "slug": "phvs",
+      "ticker": "PHVS",
+      "issuer": "Pharvaris N.V.",
+      "asset": "deucrictibant IR",
+      "indication": "HAE on-demand",
+      "phase": "Phase 3",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "RAPIDe-3 data presented as featured poster at AAAAI 2026 Annual Meeting."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

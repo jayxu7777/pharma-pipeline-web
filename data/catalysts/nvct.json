@@ -1,0 +1,38 @@
+{
+  "slug": "nvct",
+  "ticker": "NVCT",
+  "issuer_name": "Nuvectis Pharma, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-055264",
+      "filed_date": "2026-05-05",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "nvct",
+      "ticker": "NVCT",
+      "issuer": "Nuvectis Pharma, Inc.",
+      "asset": "NXP900",
+      "indication": "Solid tumors (NSCLC monotherapy and sotorasib combination)",
+      "phase": "Phase 1b",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-08",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "We are excited for what's ahead in 2026 and expect a preliminary data readout from the NXP900 Phase 1b study in the summer."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "vrca",
+  "ticker": "VRCA",
+  "issuer_name": "Verrica Pharmaceuticals Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-219395",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-101126",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-292155",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1 + financing exhibits",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-283078",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-178954",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "vrca",
+      "ticker": "VRCA",
+      "issuer": "Verrica Pharmaceuticals Inc.",
+      "asset": "YCANTH (VP-102, cantharidin)",
+      "indication": "Common warts (global)",
+      "phase": "Phase 3 (COVE-2)",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company announces achievement of over 50% of current targeted enrollment in the first trial in global Phase 3 common warts program."
+    },
+    {
+      "slug": "vrca",
+      "ticker": "VRCA",
+      "issuer": "Verrica Pharmaceuticals Inc.",
+      "asset": "YCANTH (VP-102)",
+      "indication": "Common warts (US/Japan)",
+      "phase": "Phase 3 (COVE-3)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company expects to initiate the second trial in the US and Japan in mid-2026."
+    },
+    {
+      "slug": "vrca",
+      "ticker": "VRCA",
+      "issuer": "Verrica Pharmaceuticals Inc.",
+      "asset": "VP-315 (oncolytic peptide)",
+      "indication": "Basal cell carcinoma (BCC)",
+      "phase": "Phase 3 (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company continues preparation for Phase 3 study of VP-315 in basal cell carcinoma."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

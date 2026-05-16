@@ -1,0 +1,20 @@
+{
+  "slug": "beat",
+  "ticker": "BEAT",
+  "issuer_name": "HeartBeam, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-044672",
+      "filed_date": "2026-04-14",
+      "exhibit": "Ex-99.1 (Public Offering launch PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1779372/000121390026044672/ea028665501ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "HeartBeam's 3D ECG and 12-lead synthesis software received FDA clearance in Dec 2024 and Dec 2025 respectively (both historical). Most recent 8-K is a public offering announcement; no forward-dated clinical/regulatory catalyst dates disclosed."
+  }
+}

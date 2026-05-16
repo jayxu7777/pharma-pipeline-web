@@ -1,0 +1,151 @@
+{
+  "slug": "qure",
+  "ticker": "QURE",
+  "issuer_name": "uniQure N.V.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-055242",
+      "filed_date": "2026-05-05",
+      "exhibit": "qure-20260505xex99d1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-052112",
+      "filed_date": "2026-04-30",
+      "exhibit": "qure-20260430xex99d1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-021890",
+      "filed_date": "2026-03-02",
+      "exhibit": "qure-20260302xex99d1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-003075",
+      "filed_date": "2026-01-13",
+      "exhibit": "qure-20260113xex99d1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-002317",
+      "filed_date": "2026-01-09",
+      "exhibit": "qure-20260109xex99d1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "qure",
+      "ticker": "QURE",
+      "issuer": "uniQure N.V.",
+      "asset": "AMT-130",
+      "indication": "Huntington's disease",
+      "phase": "regulatory",
+      "milestone_type": "MAA",
+      "anticipated_date_iso": "2026-09-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "MAA on track for third quarter of 2026 following successful pre-submission meeting with UK MHRA based on three-year data."
+    },
+    {
+      "slug": "qure",
+      "ticker": "QURE",
+      "issuer": "uniQure N.V.",
+      "asset": "AMT-130",
+      "indication": "Huntington's disease",
+      "phase": "regulatory",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Type B meeting with FDA scheduled for the second quarter of 2026 to discuss Phase III design considerations."
+    },
+    {
+      "slug": "qure",
+      "ticker": "QURE",
+      "issuer": "uniQure N.V.",
+      "asset": "AMT-130",
+      "indication": "Huntington's disease",
+      "phase": "Phase I/II",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-09-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Four-year AMT-130 data analysis expected in the third quarter of 2026."
+    },
+    {
+      "slug": "qure",
+      "ticker": "QURE",
+      "issuer": "uniQure N.V.",
+      "asset": "AMT-260",
+      "indication": "refractory mesial temporal lobe epilepsy",
+      "phase": "Phase I/IIa",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Data from the first cohort of six patients in the Phase I/IIa study expected at the Epilepsy Foundation Pipeline Conference, June 18-19, 2026."
+    },
+    {
+      "slug": "qure",
+      "ticker": "QURE",
+      "issuer": "uniQure N.V.",
+      "asset": "AMT-260",
+      "indication": "refractory mesial temporal lobe epilepsy",
+      "phase": "Phase I/IIa",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment of the second cohort expected to be completed in mid-2026."
+    },
+    {
+      "slug": "qure",
+      "ticker": "QURE",
+      "issuer": "uniQure N.V.",
+      "asset": "AMT-191",
+      "indication": "Fabry disease",
+      "phase": "Phase I/II",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-02-28",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Presented updated Phase I/II data from AMT-191 in Fabry disease showing durable, dose-dependent response."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "odyy",
+  "ticker": "ODYY",
+  "issuer_name": "Odyssey Health, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001683168-26-003205",
+      "filed_date": "2026-04-22",
+      "exhibit": "odyssey_ex9901.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-25-008530",
+      "filed_date": "2025-12-30",
+      "exhibit": "odyssey_ex9901.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-25-007644",
+      "filed_date": "2025-11-25",
+      "exhibit": "odyssey_ex9901.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-23-008821",
+      "filed_date": "2023-12-04",
+      "exhibit": "odyssey_ex9901.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "odyy",
+      "ticker": "ODYY",
+      "issuer": "Odyssey Health, Inc.",
+      "asset": "BreastCheck",
+      "indication": "breast cancer screening (thermal imaging device)",
+      "phase": "commercial",
+      "milestone_type": "launch",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "OTC",
+      "raw_text": "this agreement provides a clear pathway to near-term revenue, with commercial sales anticipated (BreastCheck commercialization)."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "OTC small medtech; previously divested neurological drug program to Oragenics in 2023. Current focus is BreastCheck thermal imaging device (FDA-registered, not awaiting approval) and commercial launch. No forward-looking clinical trial catalyst dates in recent 8-Ks."
+  }
+}

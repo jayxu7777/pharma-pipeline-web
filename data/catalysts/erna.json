@@ -1,0 +1,27 @@
+{
+  "slug": "erna",
+  "ticker": "ERNA",
+  "issuer_name": "Ernexa Therapeutics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-008182",
+      "filed_date": "2026-02-26",
+      "exhibit": "8-K body (Reg FD investor presentation update; Ex-99.1 not parsed text)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-006227",
+      "filed_date": "2026-02-11",
+      "exhibit": "Ex-99.1 ($10.5M public offering pricing PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Latest 8-K filings cover financing (Feb 2026 offering) and investor presentation update. PRs reference Phase 1 study of ERNA-101 first cohort clinical data release as a contingent warrant-expiration trigger but provide no calendar timing. No forward-dated clinical/regulatory catalyst disclosed."
+  }
+}

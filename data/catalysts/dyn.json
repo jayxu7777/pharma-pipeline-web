@@ -1,0 +1,130 @@
+{
+  "slug": "dyn",
+  "ticker": "DYN",
+  "issuer_name": "Dyne Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-215720",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Q1 2026 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818794/000119312526215720/dyn-ex99_1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-084207",
+      "filed_date": "2026-03-02",
+      "exhibit": "Ex-99.1 (Q4 2025 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818794/000119312526084207/dyn-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "dyn",
+      "ticker": "DYN",
+      "issuer": "Dyne Therapeutics, Inc.",
+      "asset": "z-rostudirsen (DYNE-251)",
+      "indication": "Duchenne muscular dystrophy (exon 51 amenable)",
+      "phase": "Phase 1/2 (DELIVER)",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818794/000119312526215720/dyn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Dyne has completed a positive pre-BLA meeting with the U.S. Food and Drug Administration (FDA) and remains on track to submit a Biologics License Application (BLA) for U.S. Accelerated Approval in Q2 2026."
+    },
+    {
+      "slug": "dyn",
+      "ticker": "DYN",
+      "issuer": "Dyne Therapeutics, Inc.",
+      "asset": "z-rostudirsen (DYNE-251)",
+      "indication": "Duchenne muscular dystrophy (exon 51 amenable)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818794/000119312526215720/dyn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Dyne plans to initiate a global confirmatory Phase 3 clinical trial of z-rostudirsen in Q2 2026."
+    },
+    {
+      "slug": "dyn",
+      "ticker": "DYN",
+      "issuer": "Dyne Therapeutics, Inc.",
+      "asset": "z-rostudirsen (DYNE-251)",
+      "indication": "Duchenne muscular dystrophy (exon 51 amenable)",
+      "phase": "regulatory",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2027-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818794/000119312526215720/dyn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Dyne continues to expect a potential U.S. launch of z-rostudirsen in Q1 2027, assuming the FDA grants Priority Review and approval is received on the anticipated timeline."
+    },
+    {
+      "slug": "dyn",
+      "ticker": "DYN",
+      "issuer": "Dyne Therapeutics, Inc.",
+      "asset": "z-basivarsen (DYNE-101)",
+      "indication": "Myotonic dystrophy type 1 (DM1)",
+      "phase": "Phase 1/2 (ACHIEVE)",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818794/000119312526215720/dyn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Dyne expects to complete enrollment of more than 60 participants in Q2 2026."
+    },
+    {
+      "slug": "dyn",
+      "ticker": "DYN",
+      "issuer": "Dyne Therapeutics, Inc.",
+      "asset": "z-basivarsen (DYNE-101)",
+      "indication": "Myotonic dystrophy type 1 (DM1)",
+      "phase": "Phase 1/2 (ACHIEVE)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818794/000119312526215720/dyn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Data from this cohort are planned for Q1 2027 to support a potential BLA submission for U.S. Accelerated Approval in early Q3 2027."
+    },
+    {
+      "slug": "dyn",
+      "ticker": "DYN",
+      "issuer": "Dyne Therapeutics, Inc.",
+      "asset": "z-basivarsen (DYNE-101)",
+      "indication": "Myotonic dystrophy type 1 (DM1)",
+      "phase": "regulatory",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2027-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818794/000119312526215720/dyn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Data from this cohort are planned for Q1 2027 to support a potential BLA submission for U.S. Accelerated Approval in early Q3 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

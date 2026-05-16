@@ -1,0 +1,48 @@
+{
+  "slug": "spai",
+  "ticker": "SPAI",
+  "issuer_name": "Safe Pro Group Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-24-045855",
+      "filed_date": "2024",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-028373",
+      "filed_date": "2025",
+      "exhibit": "form8-k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-002363",
+      "filed_date": "2026",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-007537",
+      "filed_date": "2026",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-023366",
+      "filed_date": "2026-05-15",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Safe Pro Group is an AI-enabled defense/security/situational-awareness solutions company (drone-based video and imagery analysis). Not a pharma/medtech issuer in the clinical-catalyst sense; no PDUFA/BLA/NDA/IND/Phase content disclosed."
+  }
+}

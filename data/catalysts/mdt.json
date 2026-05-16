@@ -1,0 +1,20 @@
+{
+  "slug": "mdt",
+  "ticker": "MDT",
+  "issuer_name": "Medtronic plc",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-008300",
+      "filed_date": "2026-02-17",
+      "exhibit": "Ex-99.1 (FY26 Q3 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Large-cap medical device company (>$50B). Recent 8-K earnings PRs discuss general financial guidance and broad product portfolio (Cardiac Ablation Solutions, Sphere-360 CE Mark) without specific forward-looking clinical readout dates."
+  }
+}

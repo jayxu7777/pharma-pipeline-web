@@ -1,0 +1,48 @@
+{
+  "slug": "vaso",
+  "ticker": "VASO",
+  "issuer_name": "VASO Corp",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-24-072203",
+      "filed_date": "2024",
+      "exhibit": "ea021199101ex99-1_vaso.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-24-073043",
+      "filed_date": "2024",
+      "exhibit": null,
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-24-077416",
+      "filed_date": "2024",
+      "exhibit": null,
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-24-079992",
+      "filed_date": "2024",
+      "exhibit": null,
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-25-112966",
+      "filed_date": "2025",
+      "exhibit": "ea026653501ex99-1_vaso.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "VASO Corp filings reviewed cover special meeting/business-combination/SPAC-extension proposals; VASO is a medical-products and IT-services distributor (no own drug pipeline) - no PDUFA/BLA/NDA/IND/Phase 1-3 clinical catalysts."
+  }
+}

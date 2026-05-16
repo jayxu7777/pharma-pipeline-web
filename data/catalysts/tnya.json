@@ -1,0 +1,117 @@
+{
+  "slug": "tnya",
+  "ticker": "TNYA",
+  "issuer_name": "Tenaya Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-208975",
+      "filed_date": "2026-05-12",
+      "exhibit": "tnya-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-102170",
+      "filed_date": "2026-03-09",
+      "exhibit": "tnya-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-317642",
+      "filed_date": "2025-12",
+      "exhibit": "d67398dex11.htm/d67398dex41.htm/d67398dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-315951",
+      "filed_date": "2025-11",
+      "exhibit": "d68368dex991.htm/d68368dex992.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-273230",
+      "filed_date": "2025-11-10",
+      "exhibit": "tnya-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tnya",
+      "ticker": "TNYA",
+      "issuer": "Tenaya Therapeutics, Inc.",
+      "asset": "TN-201",
+      "indication": "MYBPC3-associated hypertrophic cardiomyopathy (HCM)",
+      "phase": "Phase 1b/2a",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Reported Promising Data for TN-201 and TN-401 Gene Therapies in Fourth Quarter of 2025; Additional Data Readouts and Pursuit of Regulatory Alignment for Each Program Planned in 2026"
+    },
+    {
+      "slug": "tnya",
+      "ticker": "TNYA",
+      "issuer": "Tenaya Therapeutics, Inc.",
+      "asset": "TN-201",
+      "indication": "MYBPC3-associated HCM",
+      "phase": "Phase 1b/2a",
+      "milestone_type": "regulatory_alignment",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Over the course of the year, we also plan to pursue regulatory agency alignment on pivotal trial plans for both programs"
+    },
+    {
+      "slug": "tnya",
+      "ticker": "TNYA",
+      "issuer": "Tenaya Therapeutics, Inc.",
+      "asset": "TN-401",
+      "indication": "PKP2-associated arrhythmogenic right ventricular cardiomyopathy (ARVC)",
+      "phase": "Phase 1b RIDGE-1",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "approximate",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "look forward to sharing meaningful safety and interim biopsy and efficacy data from the RIDGE-1 trial of TN-401 for patients with PKP2-associated ARVC"
+    },
+    {
+      "slug": "tnya",
+      "ticker": "TNYA",
+      "issuer": "Tenaya Therapeutics, Inc.",
+      "asset": "TN-401",
+      "indication": "PKP2-associated ARVC",
+      "phase": "Phase 1b",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2025-11-10",
+      "date_precision": "exact",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Tenaya has completed enrollment and dosing of three patients at the 6E13 vg/kg dose (Cohort 2) in the Phase 1b RIDGE-1 clinical trial of TN-401."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

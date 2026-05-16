@@ -1,0 +1,117 @@
+{
+  "slug": "vyne",
+  "ticker": "VYNE",
+  "issuer_name": "VYNE Therapeutics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-121828",
+      "filed_date": "2025-12-17",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001566044-25-000007",
+      "filed_date": "2025-11-06",
+      "exhibit": "vyne-2025116q32025exx991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-078135",
+      "filed_date": "2025-08-14",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-071953",
+      "filed_date": "2025-07-30",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-023478",
+      "filed_date": "2025-05-08",
+      "exhibit": "vyne-20250508q12025exx991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "vyne",
+      "ticker": "VYNE",
+      "issuer": "VYNE Therapeutics Inc.",
+      "asset": "Repibresib (VYN201)",
+      "indication": "nonsegmental vitiligo",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2025-07-30",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "VYNE Therapeutics Announces Topline Results from Phase 2b Trial with Repibresib Gel in Nonsegmental Vitiligo"
+    },
+    {
+      "slug": "vyne",
+      "ticker": "VYNE",
+      "issuer": "VYNE Therapeutics Inc.",
+      "asset": "VYN202",
+      "indication": "moderate-to-severe plaque psoriasis",
+      "phase": "Phase 1b",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2025-08-14",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "promising preliminary data from seven subjects enrolled in the Company's Phase 1b trial in moderate-to-severe plaque psoriasis; FDA had verbally placed clinical hold; partial hold lifted for female subjects June 2025."
+    },
+    {
+      "slug": "vyne",
+      "ticker": "VYNE",
+      "issuer": "VYNE Therapeutics Inc.",
+      "asset": "YB-101 (post-Yarrow merger)",
+      "indication": "Graves' disease (GD)",
+      "phase": "Phase 1b/2b",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "plans to advance in-licensed asset YB-101 into a U.S.-based Phase 1b/2b trial in patients with GD in the first half of 2026"
+    },
+    {
+      "slug": "vyne",
+      "ticker": "VYNE",
+      "issuer": "VYNE Therapeutics Inc.",
+      "asset": "YB-101",
+      "indication": "Graves' disease",
+      "phase": "Phase 1b/2b",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1b data is expected in the second half of 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

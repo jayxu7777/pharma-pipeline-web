@@ -1,0 +1,134 @@
+{
+  "slug": "prruf",
+  "ticker": "PRRUF",
+  "issuer_name": "IMMUTEP Ltd",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-201355",
+      "filed_date": "2026-05-01",
+      "exhibit": "ex99-1 (Q3 FY26 quarterly activities)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-198639",
+      "filed_date": "2026-05-01",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-157524",
+      "filed_date": "2026-04-16",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-116366",
+      "filed_date": "2026-03-20",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-107070",
+      "filed_date": "2026-03-16",
+      "exhibit": "ex99-1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "prruf",
+      "ticker": "PRRUF",
+      "issuer": "IMMUTEP Ltd",
+      "asset": "Eftilagimod alfa (efti)",
+      "indication": "1L non-small cell lung cancer (NSCLC)",
+      "phase": "Phase 3",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-03",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Following IDMC recommendation after interim futility analysis the decision was made to discontinue the TACTI-004 Phase III trial (efti + KEYTRUDA + chemo in 1L NSCLC underperformed control)."
+    },
+    {
+      "slug": "prruf",
+      "ticker": "PRRUF",
+      "issuer": "IMMUTEP Ltd",
+      "asset": "Eftilagimod alfa (efti)",
+      "indication": "1L NSCLC root cause analysis",
+      "phase": "Phase 3 wind-down",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Root cause analysis of TACTI-004 futility outcome may extend into Q3 CY2026; covers database lock, statistical analysis and laboratory data review."
+    },
+    {
+      "slug": "prruf",
+      "ticker": "PRRUF",
+      "issuer": "IMMUTEP Ltd",
+      "asset": "Eftilagimod alfa (efti)",
+      "indication": "Resectable soft tissue sarcoma (neoadjuvant)",
+      "phase": "Phase 2 (EFTISARC-NEO)",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-04",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "In April 2026, Immutep received orphan drug designation from the FDA for efti in the neoadjuvant soft tissue sarcoma setting; EFTISARC-NEO Phase II met primary objective."
+    },
+    {
+      "slug": "prruf",
+      "ticker": "PRRUF",
+      "issuer": "IMMUTEP Ltd",
+      "asset": "IMP761",
+      "indication": "Autoimmune disease (first-in-class LAG-3 agonist antibody)",
+      "phase": "Phase 1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Phase I IMP761 data demonstrates favourable safety profile; trial progressing to multiple ascending dose phase; data expected at EULAR 2026 Congress in London 3-6 June 2026 with additional data 2H CY2026."
+    },
+    {
+      "slug": "prruf",
+      "ticker": "PRRUF",
+      "issuer": "IMMUTEP Ltd",
+      "asset": "IMP761",
+      "indication": "Autoimmune disease",
+      "phase": "Phase 1 MAD",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "IMP761 Phase 1 multiple ascending dose (MAD) phase evaluating PK and safety at two dose levels, with completion expected in 3Q CY2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none"
+  }
+}

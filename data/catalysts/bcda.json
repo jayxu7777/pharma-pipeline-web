@@ -1,0 +1,56 @@
+{
+  "slug": "bcda",
+  "ticker": "BCDA",
+  "issuer_name": "BioCardia, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-017222",
+      "filed_date": "2026-05-15",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/925741/000143774926017222/ex_963539.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "bcda",
+      "ticker": "BCDA",
+      "issuer": "BioCardia, Inc.",
+      "asset": "CardiAMP cell therapy (BCDA-02)",
+      "indication": "chronic myocardial ischemia with refractory angina",
+      "phase": "Pivotal cohort",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-20",
+      "date_precision": "day",
+      "filed_date": "2026-05-15",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/925741/000143774926017222/ex_963539.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Primary results of this cohort have been accepted for oral presentation at Euro PCR, a world-leading course in interventional cardiovascular medicine on May 20, 2026."
+    },
+    {
+      "slug": "bcda",
+      "ticker": "BCDA",
+      "issuer": "BioCardia, Inc.",
+      "asset": "CardiAMP Cell Therapy System (BCDA-01)",
+      "indication": "ischemic heart failure (Japan)",
+      "phase": "Shonin/PMA",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-15",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/925741/000143774926017222/ex_963539.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Japan PMDA Shonin Submission for Approval - Q4 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 sharpens with day-precision Euro PCR oral presentation (May 20, 2026) and Q4 2026 Japan Shonin submission target."
+  }
+}

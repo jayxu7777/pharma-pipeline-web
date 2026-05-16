@@ -1,0 +1,38 @@
+{
+  "slug": "nktx",
+  "ticker": "NKTX",
+  "issuer_name": "Nkarta, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001787400-26-000012",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "nktx",
+      "ticker": "NKTX",
+      "issuer": "Nkarta, Inc.",
+      "asset": "NKX019",
+      "indication": "autoimmune diseases (Ntrust-1 and Ntrust-2)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initial clinical data from Ntrust-1 and Ntrust-2 are planned for presentation at a medical conference in 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

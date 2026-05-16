@@ -1,0 +1,20 @@
+{
+  "slug": "mdai",
+  "ticker": "MDAI",
+  "issuer_name": "Spectral AI, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-034047",
+      "filed_date": "2026-03-24",
+      "exhibit": "Ex-99.1 (FY 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Spectral AI is a medical diagnostics/AI company (DeepView System for burn indication). De Novo 510(k) already submitted to FDA in 2025; PR provides 2026 revenue guidance but no forward-dated clinical or regulatory milestone with specific timing."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "dsgn",
+  "ticker": "DSGN",
+  "issuer_name": "Design Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-187012",
+      "filed_date": "2026-05",
+      "exhibit": "Ex-99.1 (Q1 2026 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807120/000119312526187012/dsgn-ex99_1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-098474",
+      "filed_date": "2026-03",
+      "exhibit": "Ex-99.1 (Q4 2025 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807120/000119312526098474/dsgn-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "dsgn",
+      "ticker": "DSGN",
+      "issuer": "Design Therapeutics, Inc.",
+      "asset": "DT-818",
+      "indication": "Myotonic dystrophy type 1 (DM1)",
+      "phase": "Phase 1",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1807120/000119312526187012/dsgn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Design expects to begin dosing DM1 patients in its Phase 1 multiple-ascending dose (MAD) trial of DT-818, a GeneTAC small molecule designed to selectively reduce transcription of the mutant DMPK allele, in the first half of 2026."
+    },
+    {
+      "slug": "dsgn",
+      "ticker": "DSGN",
+      "issuer": "Design Therapeutics, Inc.",
+      "asset": "DT-216P2",
+      "indication": "Friedreich Ataxia (FA)",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1807120/000119312526187012/dsgn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Design anticipates providing an update on the effect of DT-216P2 on endogenous frataxin levels in the second half of 2026."
+    },
+    {
+      "slug": "dsgn",
+      "ticker": "DSGN",
+      "issuer": "Design Therapeutics, Inc.",
+      "asset": "DT-168",
+      "indication": "Fuchs Endothelial Corneal Dystrophy (FECD)",
+      "phase": "Phase 2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1807120/000119312526187012/dsgn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "A Phase 2 biomarker trial of DT-168 is ongoing to evaluate safety, tolerability and corneal endothelium biomarkers in FECD patients who are scheduled for corneal transplant surgery, with data anticipated in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "dmac",
+  "ticker": "DMAC",
+  "issuer_name": "DiaMedica Therapeutics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-015218",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1401040/000143774926015218/"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-010409",
+      "filed_date": "2026-03-31",
+      "exhibit": "Ex-99.1 (FY2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1401040/000143774926010409/"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "dmac",
+      "ticker": "DMAC",
+      "issuer": "DiaMedica Therapeutics Inc.",
+      "asset": "DM199",
+      "indication": "preeclampsia (IST Part 1a expansion cohort)",
+      "phase": "Phase 2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1401040/000143774926015218/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "DM199 Preeclampsia Phase 2 Investigator-Sponsored Trial (IST) Part 1a Expansion Cohort Enrolling, Updated Dataset Expected 2Q 2026."
+    },
+    {
+      "slug": "dmac",
+      "ticker": "DMAC",
+      "issuer": "DiaMedica Therapeutics Inc.",
+      "asset": "DM199",
+      "indication": "acute ischemic stroke (ReMEDy2)",
+      "phase": "Phase 2/3",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1401040/000143774926015218/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ReMEDy2 Phase 2/3 AIS Trial of DM199 Surpassed 70% of Required Interim Enrollment; Interim Analysis planned in 4Q 2026."
+    },
+    {
+      "slug": "dmac",
+      "ticker": "DMAC",
+      "issuer": "DiaMedica Therapeutics Inc.",
+      "asset": "DM199",
+      "indication": "fetal growth restriction (IST Part 3)",
+      "phase": "Phase 2",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1401040/000143774926015218/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Part 3 (fetal growth restriction): The first patient with early-onset fetal growth restriction, who is not diagnosed with preeclampsia, is expected to be dosed in Q2 2026."
+    },
+    {
+      "slug": "dmac",
+      "ticker": "DMAC",
+      "issuer": "DiaMedica Therapeutics Inc.",
+      "asset": "DM199",
+      "indication": "early-onset preeclampsia (DiaMedica-sponsored, UK expansion)",
+      "phase": "Phase 2",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1401040/000143774926015218/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Clinical trial application to expand this Phase 2 trial to include sites in the United Kingdom (U.K.) filing planned for the second quarter of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

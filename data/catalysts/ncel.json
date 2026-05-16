@@ -1,0 +1,38 @@
+{
+  "slug": "ncel",
+  "ticker": "NCEL",
+  "issuer_name": "NewcelX Ltd.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-049732",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (post-merger update PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ncel",
+      "ticker": "NCEL",
+      "issuer": "NewcelX Ltd.",
+      "asset": "NCEL-101 (stem cell-derived islet platform)",
+      "indication": "Type 1 diabetes",
+      "phase": "Preclinical (IND-enabling)",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Continued IND-enabling development activities, including regulatory preparation and preclinical planning... Advancing NCEL-101 toward key IND-enabling milestones."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Early-stage; only IND-enabling milestones disclosed without specific quarter/half-year dates."
+  }
+}

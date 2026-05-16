@@ -1,0 +1,55 @@
+{
+  "slug": "trib",
+  "ticker": "TRIB",
+  "issuer_name": "TRINITY BIOTECH PLC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001554855-26-000915",
+      "filed_date": "2026-05",
+      "exhibit": "ex991_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "trib",
+      "ticker": "TRIB",
+      "issuer": "TRINITY BIOTECH PLC",
+      "asset": "Uni-Gold HIV test",
+      "indication": "HIV diagnostics (manufacturing)",
+      "phase": "Commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Uni-Gold HIV manufacturing under the outsourced structure commenced during Q2 2026 and is currently being scaled following regulatory approval received in early 2026."
+    },
+    {
+      "slug": "trib",
+      "ticker": "TRIB",
+      "issuer": "TRINITY BIOTECH PLC",
+      "asset": "TrinScreen HIV",
+      "indication": "HIV diagnostics (manufacturing scale-up)",
+      "phase": "Commercial",
+      "milestone_type": "manufacturing_scale_up",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "TrinScreen HIV manufacturing under the outsourced operating model has been successfully scaled, recently reaching targeted production levels by early Q2 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Issuer is diagnostics company (medtech); no clinical-trial catalysts in available 6-K exhibits. Manufacturing/approval milestones captured."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "prof",
+  "ticker": "PROF",
+  "issuer_name": "Profound Medical Corp.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001171843-26-003160",
+      "filed_date": "2026-05",
+      "exhibit": "exh_991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "prof",
+      "ticker": "PROF",
+      "issuer": "Profound Medical Corp.",
+      "asset": "TULSA Procedure (TULSA-PRO)",
+      "indication": "intermediate-risk, Gleason 7 organ-confined prostate cancer",
+      "phase": "post-market RCT (CAPTAIN)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Profound announced superiority on the prespecified, primary safety endpoint in the Level 1 post-market CAPTAIN randomized controlled trial comparing the TULSA Procedure with robotic radical prostatectomy"
+    },
+    {
+      "slug": "prof",
+      "ticker": "PROF",
+      "issuer": "Profound Medical Corp.",
+      "asset": "TULSA Procedure (TULSA-PRO)",
+      "indication": "prostate cancer",
+      "phase": "post-market RCT (CAPTAIN)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company looks forward to announcing additional clinical outcomes from this unique, potentially paradigm-changing study when they become available later this year"
+    },
+    {
+      "slug": "prof",
+      "ticker": "PROF",
+      "issuer": "Profound Medical Corp.",
+      "asset": "TULSA Procedure",
+      "indication": "prostate (commercial reimbursement)",
+      "phase": "commercial",
+      "milestone_type": "payer_coverage",
+      "anticipated_date_iso": "2026-05-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Announces Humana is now covering the TULSA Procedure"
+    },
+    {
+      "slug": "prof",
+      "ticker": "PROF",
+      "issuer": "Profound Medical Corp.",
+      "asset": "TULSA Procedure",
+      "indication": "prostate",
+      "phase": "commercial",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-04-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "In April 2026, the TULSA Procedure was highlighted in several presentations at the 2026 Society of Interventional Radiology (SIR) Annual Scientific Meeting"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

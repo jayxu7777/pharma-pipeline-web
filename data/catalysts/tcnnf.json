@@ -1,0 +1,48 @@
+{
+  "slug": "tcnnf",
+  "ticker": "TCNNF",
+  "issuer_name": "Trulieve Cannabis Corp.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001754195-26-000030",
+      "filed_date": "2026",
+      "exhibit": "exhibit991tcnnfearningsrel.htm + ex992 presentation",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001754195-26-000017",
+      "filed_date": "2026-02",
+      "exhibit": "exhibit991tcnnfearningsrel.htm + ex992 presentation",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001754195-26-000005",
+      "filed_date": "2026-01-29",
+      "exhibit": "tcnnf-20260129.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001754195-25-000074",
+      "filed_date": "2025",
+      "exhibit": "exhibit991pressreleasedebt + trulieveconformedsecondsup",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001754195-25-000071",
+      "filed_date": "2025",
+      "exhibit": "exhibit991pressreleasedebt.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Trulieve is a multi-state cannabis dispensary operator (not an FDA-regulated drug developer). Filings cover earnings, debt refinancing, and the DEA marijuana rescheduling process (Schedule III review hearing 2026-06-29). No clinical trial, PDUFA, or BLA/NDA catalysts apply to this issuer."
+  }
+}

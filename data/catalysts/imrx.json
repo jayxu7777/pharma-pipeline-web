@@ -1,0 +1,72 @@
+{
+  "slug": "imrx",
+  "ticker": "IMRX",
+  "issuer_name": "Immuneering Corp",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001790340-26-000055",
+      "filed_date": "2026-05-15",
+      "exhibit": "imrx-20260505xexx991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "imrx",
+      "ticker": "IMRX",
+      "issuer": "Immuneering Corp",
+      "asset": "atebimetinib (IMM-1-104)",
+      "indication": "pancreatic cancer",
+      "phase": "Phase 2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06-01",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ASCO 2026 oral presentation on June 1, 2026"
+    },
+    {
+      "slug": "imrx",
+      "ticker": "IMRX",
+      "issuer": "Immuneering Corp",
+      "asset": "atebimetinib (IMM-1-104)",
+      "indication": "first-line pancreatic cancer (MAPKeeper-301)",
+      "phase": "Phase 3",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "MAPKeeper-301 Phase 3 first patient in (FPI) expected mid-2026"
+    },
+    {
+      "slug": "imrx",
+      "ticker": "IMRX",
+      "issuer": "Immuneering Corp",
+      "asset": "atebimetinib (IMM-1-104)",
+      "indication": "NSCLC",
+      "phase": "Phase 2",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "NSCLC Phase 2 first patient in (FPI) expected 2H 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

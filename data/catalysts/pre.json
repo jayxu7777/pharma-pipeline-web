@@ -1,0 +1,20 @@
+{
+  "slug": "pre",
+  "ticker": "PRE",
+  "issuer_name": "Prenetics Global Ltd",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001628280-26-034810",
+      "filed_date": "2026-05",
+      "exhibit": "ex991-2026q1prelim.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Prenetics has pivoted to consumer health/nutrition (IM8 supplement brand) and the recent 6-K is a preliminary Q1 2026 financial release with consumer-product launch plans (hydration, creatine, kids' gummies) rather than clinical/regulatory catalysts"
+  }
+}

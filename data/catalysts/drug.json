@@ -1,0 +1,45 @@
+{
+  "slug": "drug",
+  "ticker": "DRUG",
+  "issuer_name": "BRIGHT MINDS BIOSCIENCES INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001062993-26-000151",
+      "filed_date": "2026-01-09",
+      "exhibit": "Ex-99.1 (US$175M Offering Closing PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1827401/000106299326000151/exhibit99-1.htm"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001062993-26-000881",
+      "filed_date": "2026-02",
+      "exhibit": "Ex-99.1/99.2 (Q1 FY26 Interim Financial Statements)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1827401/000106299326000881/"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "drug",
+      "ticker": "DRUG",
+      "issuer": "BRIGHT MINDS BIOSCIENCES INC.",
+      "asset": "BMB-105",
+      "indication": "CNS disorders (early-stage)",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1827401/000106299326000151/exhibit99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company intends to use the net proceeds from the Offering to fund future clinical trials for the Company's drug candidates, including for absence seizures, DEE, and Prader-Willi Syndrome, as well as initiation of phase 1 clinical drug trials for BMB-105, and additional research and development work on earlier phase programs, as well as for general corporate and working capital purposes."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "FPI filings dominated by financing and interim financials; only one BMB-105 Phase 1 initiation date with year precision."
+  }
+}

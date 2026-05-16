@@ -1,0 +1,52 @@
+{
+  "slug": "hoth",
+  "ticker": "HOTH",
+  "issuer_name": "Hoth Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-052803",
+      "filed_date": "2026-05-06",
+      "exhibit": "Form 8-K Item 8.01 Rocket One subsidiary formation",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-039363",
+      "filed_date": "2026-04-02",
+      "exhibit": "Ex-99.1 $2.0M registered direct offering PR",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-004899",
+      "filed_date": "2026-01-16",
+      "exhibit": "Ex-99.1 January 2026 corporate presentation",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "hoth",
+      "ticker": "HOTH",
+      "issuer": "Hoth Therapeutics, Inc.",
+      "asset": "HT-KIT",
+      "indication": "Mastocytosis and KIT-driven cancers",
+      "phase": "IND-enabling",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Q4 2026 IND Submission Target"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

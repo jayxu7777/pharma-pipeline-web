@@ -1,0 +1,56 @@
+{
+  "slug": "capr",
+  "ticker": "CAPR",
+  "issuer_name": "CAPRICOR THERAPEUTICS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-059380",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1133869/000110465926059380/capr-20260512xex99d1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "capr",
+      "ticker": "CAPR",
+      "issuer": "CAPRICOR THERAPEUTICS, INC.",
+      "asset": "Deramiocel (CAP-1002)",
+      "indication": "Duchenne muscular dystrophy (DMD)",
+      "phase": "BLA",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-08-22",
+      "date_precision": "day",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1133869/000110465926059380/capr-20260512xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Capricor's Biologics License Application (BLA) seeking approval of Deramiocel for the treatment of DMD is currently under review by the U.S. Food and Drug Administration. The FDA accepted the Company's Class 2 resubmission as complete, resuming its full review of the BLA, with a PDUFA target action date of August 22, 2026."
+    },
+    {
+      "slug": "capr",
+      "ticker": "CAPR",
+      "issuer": "CAPRICOR THERAPEUTICS, INC.",
+      "asset": "Deramiocel (CAP-1002) \u2014 GMP facility second-floor expansion",
+      "indication": "DMD (manufacturing scale-up)",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-12",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1133869/000110465926059380/capr-20260512xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Second-floor expansion adding additional cleanrooms is well underway, scaling to approximately 2,000-2,500 patients per year, roughly 10,000 doses annually, at full capacity, with full facility validation and FDA approval targeted for the first half of 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 adds day-precision Aug 22, 2026 Deramiocel PDUFA and 1H 2027 facility validation/FDA approval target \u2014 sharper than 10-K."
+  }
+}

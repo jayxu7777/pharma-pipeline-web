@@ -1,0 +1,123 @@
+{
+  "slug": "ctmx",
+  "ticker": "CTMX",
+  "issuer_name": "CytomX Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-211920",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1501989/000119312526211920/ctmx-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ctmx",
+      "ticker": "CTMX",
+      "issuer": "CytomX Therapeutics, Inc.",
+      "asset": "varsetatug masetecan (CX-2051, Varseta-M)",
+      "indication": "Advanced colorectal cancer (CRC)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1501989/000119312526211920/ctmx-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Additional Phase 1 Varseta-M data, including data from ongoing dose optimization, is anticipated to be presented in the second half of 2026. This update is expected to support monotherapy dose selection and a potential registrational trial design in late line CRC."
+    },
+    {
+      "slug": "ctmx",
+      "ticker": "CTMX",
+      "issuer": "CytomX Therapeutics, Inc.",
+      "asset": "varsetatug masetecan (CX-2051, Varseta-M) + bevacizumab",
+      "indication": "Colorectal cancer (CRC)",
+      "phase": "Phase 1",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1501989/000119312526211920/ctmx-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "A Phase 1 Varseta-M combination study with bevacizumab in CRC has commenced... Initial clinical data are anticipated by 1H 2027."
+    },
+    {
+      "slug": "ctmx",
+      "ticker": "CTMX",
+      "issuer": "CytomX Therapeutics, Inc.",
+      "asset": "varsetatug masetecan (CX-2051, Varseta-M) + bevacizumab/5-FU/leucovorin",
+      "indication": "Colorectal cancer (CRC)",
+      "phase": "Phase 1/2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1501989/000119312526211920/ctmx-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1/2 combination study including Varseta-M administered with bevacizumab, 5-fluorouracil, and leucovorin is planned to start in 2H 2026."
+    },
+    {
+      "slug": "ctmx",
+      "ticker": "CTMX",
+      "issuer": "CytomX Therapeutics, Inc.",
+      "asset": "varsetatug masetecan (CX-2051, Varseta-M)",
+      "indication": "Non-CRC EpCAM-expressing tumors",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1501989/000119312526211920/ctmx-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initiation of initial Phase 1 expansion cohort(s) in non-CRC indications is planned for 2H 2026."
+    },
+    {
+      "slug": "ctmx",
+      "ticker": "CTMX",
+      "issuer": "CytomX Therapeutics, Inc.",
+      "asset": "varsetatug masetecan (CX-2051, Varseta-M)",
+      "indication": "Advanced CRC (registrational)",
+      "phase": "Phase 3 (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1501989/000119312526211920/ctmx-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA interactions are planned in 2026 with goal of aligning on the potential first registrational study for Varseta-M monotherapy in advanced CRC starting in 1H 2027."
+    },
+    {
+      "slug": "ctmx",
+      "ticker": "CTMX",
+      "issuer": "CytomX Therapeutics, Inc.",
+      "asset": "CX-801 + KEYTRUDA",
+      "indication": "Advanced melanoma",
+      "phase": "Phase 1",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1501989/000119312526211920/ctmx-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initial clinical data for CX-801 in combination with KEYTRUDA in advanced melanoma is projected by the end of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

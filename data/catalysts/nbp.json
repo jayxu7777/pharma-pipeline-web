@@ -1,0 +1,79 @@
+{
+  "slug": "nbp",
+  "ticker": "NBP",
+  "issuer_name": "NovaBridge Biosciences",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-145700",
+      "filed_date": "2026-04-07",
+      "exhibit": "Ex-99.1 (20-F/IR deck PR)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-097536",
+      "filed_date": "2026-03-09",
+      "exhibit": "Ex-99.1 (VIS-101 topline PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "nbp",
+      "ticker": "NBP",
+      "issuer": "NovaBridge Biosciences",
+      "asset": "givastomig",
+      "indication": "1L Her2-, CLDN18.2+, PD-L1+ gastroesophageal carcinoma",
+      "phase": "Phase 3 (planned, Accelerated Approval Pathway)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "has shown robust and durable responses with broad CLDN18.2 activity, favorable safety, as well as potential eligibility for FDA's Accelerated Approval Pathway with potential initiation of a registrational Phase 3 trial as early as Q4 2026."
+    },
+    {
+      "slug": "nbp",
+      "ticker": "NBP",
+      "issuer": "NovaBridge Biosciences",
+      "asset": "VIS-101",
+      "indication": "Wet age-related macular degeneration (wet AMD)",
+      "phase": "Phase 2b (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "VIS-101 is expected to advance to a dose-determining Phase 2b study in 2026, with initiation of the global Phase 3 program in 2027."
+    },
+    {
+      "slug": "nbp",
+      "ticker": "NBP",
+      "issuer": "NovaBridge Biosciences",
+      "asset": "VIS-101",
+      "indication": "Wet age-related macular degeneration (wet AMD)",
+      "phase": "Phase 3 (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "with initiation of the global Phase 3 program in 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

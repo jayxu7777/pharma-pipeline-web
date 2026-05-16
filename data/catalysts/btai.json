@@ -1,0 +1,39 @@
+{
+  "slug": "btai",
+  "ticker": "BTAI",
+  "issuer_name": "BioXcel Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-061773",
+      "filed_date": "2026-05-15",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1720893/000110465926061773/tm2614679d1_ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "btai",
+      "ticker": "BTAI",
+      "issuer": "BioXcel Therapeutics, Inc.",
+      "asset": "IGALMI (dexmedetomidine sublingual film) / BXCL501",
+      "indication": "agitation in bipolar disorder or schizophrenia, at-home use",
+      "phase": "sNDA",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-11-14",
+      "date_precision": "day",
+      "filed_date": "2026-05-15",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1720893/000110465926061773/tm2614679d1_ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The FDA has assigned a PDUFA target action date of November 14, 2026, which, if approved, would represent the first FDA-approved treatment option for acute agitation associated with bipolar disorders or schizophrenia in the at-home setting."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 adds a day-precision Nov 14, 2026 PDUFA for at-home IGALMI sNDA \u2014 sharper than any 10-K disclosure."
+  }
+}

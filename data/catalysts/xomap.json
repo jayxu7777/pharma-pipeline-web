@@ -1,0 +1,144 @@
+{
+  "slug": "xomap",
+  "ticker": "XOMAP",
+  "issuer_name": "XOMA Royalty Corp",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-179085",
+      "filed_date": "2026-04-27",
+      "exhibit": "d139894dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-112338",
+      "filed_date": "2026-03-18",
+      "exhibit": "d34671dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-084016",
+      "filed_date": "2026-03-02",
+      "exhibit": "d112965dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-014142",
+      "filed_date": "2026-01-15",
+      "exhibit": "d59764dex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "xomap",
+      "ticker": "XOMAP",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "volixibat",
+      "indication": "primary sclerosing cholangitis (PSC)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Volixibat VISTAS study in primary sclerosing cholangitis (PSC) topline data expected in Q2 2026"
+    },
+    {
+      "slug": "xomap",
+      "ticker": "XOMAP",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "volixibat",
+      "indication": "primary biliary cholangitis (PBC)",
+      "phase": "Phase 2b",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Volixibat VANTAGE study in primary biliary cholangitis (PBC) expected to complete enrollment in H2 2026"
+    },
+    {
+      "slug": "xomap",
+      "ticker": "XOMAP",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "ersodetug",
+      "indication": "tumor hyperinsulinism (tHI)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Rezolute anticipates topline results of upLIFT, a Phase 3, single-arm, open-label study in tumor HI, in the second half of 2026"
+    },
+    {
+      "slug": "xomap",
+      "ticker": "XOMAP",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "ersodetug",
+      "indication": "congenital hyperinsulinism",
+      "phase": "Phase 3",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Rezolute will meet with FDA under its Breakthrough Therapy Designation in the first quarter of 2026 to determine next steps"
+    },
+    {
+      "slug": "xomap",
+      "ticker": "XOMAP",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "OJEMDA (tovorafenib)",
+      "indication": "relapsed/refractory pediatric low-grade glioma",
+      "phase": "Approved",
+      "milestone_type": "MAA",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Potential for EMA decisions on OJEMDA marketing authorization applications"
+    },
+    {
+      "slug": "xomap",
+      "ticker": "XOMAP",
+      "issuer": "XOMA Royalty Corp",
+      "asset": "MIPLYFFA (arimoclomol)",
+      "indication": "Niemann-Pick Disease Type C",
+      "phase": "Approved",
+      "milestone_type": "MAA",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "A Marketing Authorization Application for arimoclomol (MIPLYFFA) for the treatment of NPC is under review by the EMA"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "XOMAP is preferred series under same CIK as XOMA; identical underlying portfolio catalysts."
+  }
+}

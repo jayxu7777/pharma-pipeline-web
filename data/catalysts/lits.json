@@ -1,0 +1,20 @@
+{
+  "slug": "lits",
+  "ticker": "LITS",
+  "issuer_name": "Lite Strategy, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-220697",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (FY2026 Q3 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Lite Strategy (formerly MEI Pharma) has pivoted to a Litecoin (LTC) crypto-treasury strategy and no longer pursues a clinical pipeline. Recent PRs cover only LTC treasury holdings, no clinical development. No forward-dated clinical catalysts."
+  }
+}

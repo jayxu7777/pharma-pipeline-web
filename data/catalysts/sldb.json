@@ -1,0 +1,151 @@
+{
+  "slug": "sldb",
+  "ticker": "SLDB",
+  "issuer_name": "Solid Biosciences Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-102489",
+      "filed_date": "2026-03-11",
+      "exhibit": "Item 8.01 INSPIRE DUCHENNE interim",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-096709",
+      "filed_date": "2026-03",
+      "exhibit": "Warrant/financing exhibits",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-262795",
+      "filed_date": "2025-11",
+      "exhibit": "EX-99.1 interim data",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000950170-25-072792",
+      "filed_date": "2025-05-15",
+      "exhibit": "8-K cover",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-028691",
+      "filed_date": "2025-01",
+      "exhibit": "EX-99.1 offering",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "sldb",
+      "ticker": "SLDB",
+      "issuer": "Solid Biosciences Inc.",
+      "asset": "SGT-003",
+      "indication": "Duchenne muscular dystrophy",
+      "phase": "Phase 1/2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-03-11",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On March 11, 2026, the Company announced positive new interim data from its Phase 1/2 INSPIRE DUCHENNE clinical trial evaluating SGT-003 in pediatric DMD participants."
+    },
+    {
+      "slug": "sldb",
+      "ticker": "SLDB",
+      "issuer": "Solid Biosciences Inc.",
+      "asset": "SGT-003",
+      "indication": "Duchenne muscular dystrophy",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Participant screening is underway and the Company anticipates dosing the first participant in the IMPACT DUCHENNE Phase 3 trial in the first quarter of 2026."
+    },
+    {
+      "slug": "sldb",
+      "ticker": "SLDB",
+      "issuer": "Solid Biosciences Inc.",
+      "asset": "SGT-003",
+      "indication": "Duchenne muscular dystrophy",
+      "phase": "Phase 3 / BLA",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Plans to have additional meetings with the FDA in H1 2026 on potential accelerated approval pathway for SGT-003; expects regulatory and clinical updates mid-2026."
+    },
+    {
+      "slug": "sldb",
+      "ticker": "SLDB",
+      "issuer": "Solid Biosciences Inc.",
+      "asset": "SGT-003",
+      "indication": "DMD",
+      "phase": "Phase 1/2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2025-11-13",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Solid Biosciences reported positive new interim data from the Phase 1/2 INSPIRE DUCHENNE clinical trial; data cutoff September 29, 2025."
+    },
+    {
+      "slug": "sldb",
+      "ticker": "SLDB",
+      "issuer": "Solid Biosciences Inc.",
+      "asset": "SGT-501",
+      "indication": "CPVT (catecholaminergic polymorphic ventricular tachycardia)",
+      "phase": "Phase 1b",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2025-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ARTEMIS Phase 1b trial activation for SGT-501 expected in Q4 2025."
+    },
+    {
+      "slug": "sldb",
+      "ticker": "SLDB",
+      "issuer": "Solid Biosciences Inc.",
+      "asset": "SGT-212",
+      "indication": "Friedreich's ataxia",
+      "phase": "Phase 1b",
+      "milestone_type": "enrollment",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FALCON Phase 1b clinical trial evaluating dual route Friedreich's ataxia gene therapy candidate is screening participants."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

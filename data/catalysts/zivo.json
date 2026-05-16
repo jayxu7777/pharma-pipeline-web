@@ -1,0 +1,48 @@
+{
+  "slug": "zivo",
+  "ticker": "ZIVO",
+  "issuer_name": "Zivo Bioscience, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001654954-26-002928",
+      "filed_date": "2026-03-30",
+      "exhibit": "zivo_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-25-010579",
+      "filed_date": "2025-09-10",
+      "exhibit": "zivo_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-25-000173",
+      "filed_date": "2025-01-07",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-23-004459",
+      "filed_date": "2023-04-05",
+      "exhibit": "zivo_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-23-001582",
+      "filed_date": "2023-02-10",
+      "exhibit": "zivo_ex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Zivo Bioscience is an algae-based biotech/agtech R&D company; programs focus on poultry coccidiosis/avian influenza animal-health products and human nutraceuticals - not human-drug clinical catalysts. March 2026 filing announces voluntary SEC deregistration (Form 15)."
+  }
+}

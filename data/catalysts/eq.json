@@ -1,0 +1,55 @@
+{
+  "slug": "eq",
+  "ticker": "EQ",
+  "issuer_name": "Equillium, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-221595",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "eq",
+      "ticker": "EQ",
+      "issuer": "Equillium, Inc.",
+      "asset": "EQ504",
+      "indication": "Ulcerative colitis / inflammatory diseases",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1 proof-of-mechanism study of EQ504 on track to initiate in mid-2026"
+    },
+    {
+      "slug": "eq",
+      "ticker": "EQ",
+      "issuer": "Equillium, Inc.",
+      "asset": "EQ504",
+      "indication": "Ulcerative colitis / inflammatory diseases",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1 proof-of-mechanism study of EQ504 on track to initiate in mid-2026, with data expected approximately six months thereafter"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

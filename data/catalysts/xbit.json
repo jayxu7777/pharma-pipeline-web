@@ -1,0 +1,48 @@
+{
+  "slug": "xbit",
+  "ticker": "XBIT",
+  "issuer_name": "XBiotech Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001171843-24-000056",
+      "filed_date": "2024-01-04",
+      "exhibit": "form_body",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001171843-21-004741",
+      "filed_date": "2021-07-06",
+      "exhibit": "form_body",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001171843-19-008353",
+      "filed_date": "2019-12-30",
+      "exhibit": "exh_21/101/102/103/41",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001171843-19-008024",
+      "filed_date": "2019-12-09",
+      "exhibit": "form_body",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001171843-19-004604",
+      "filed_date": "2019-07-16",
+      "exhibit": "exh_101.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "XBiotech 8-K cadence is extremely sparse; only filings discovered are historical 2019-2024 transactional 8-Ks (asset-sale agreement to Janssen, board appointment with options, etc.). Asset-purchase documents reference historical Phase 2b/3 manufacturing-comparability language for the divested bermekimab compound but no forward-looking clinical catalysts for XBiotech's current pipeline."
+  }
+}

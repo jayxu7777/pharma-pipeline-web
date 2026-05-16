@@ -1,0 +1,90 @@
+{
+  "slug": "adct",
+  "ticker": "ADCT",
+  "issuer_name": "ADC Therapeutics SA",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-029524",
+      "filed_date": "2026-05-04",
+      "exhibit": "Ex-99.1 (Q1 2026 results PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1771910/000162828026029524/adct-20260331pressrelease.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "adct",
+      "ticker": "ADCT",
+      "issuer": "ADC Therapeutics SA",
+      "asset": "ZYNLONTA (loncastuximab tesirine)",
+      "indication": "2L+ DLBCL (LOTIS-5 with rituximab)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1771910/000162828026029524/adct-20260331pressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "LOTIS-5 Phase 3 topline data expected in second quarter 2026, with full data for LOTIS-5 and LOTIS-7 anticipated by year end"
+    },
+    {
+      "slug": "adct",
+      "ticker": "ADCT",
+      "issuer": "ADC Therapeutics SA",
+      "asset": "ZYNLONTA (loncastuximab tesirine)",
+      "indication": "r/r DLBCL (LOTIS-7 + glofitamab)",
+      "phase": "Phase 1b",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-H1",
+      "date_precision": "half",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1771910/000162828026029524/adct-20260331pressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The LOTIS-7 Phase 1b trial evaluating ZYNLONTA in combination with the bispecific antibody glofitamab (COLUMVI) in patients with relapsed or refractory (r/r) DLBCL is ongoing, with expected completion of enrollment at the selected 150 ug/kg dose in the first half of 2026."
+    },
+    {
+      "slug": "adct",
+      "ticker": "ADCT",
+      "issuer": "ADC Therapeutics SA",
+      "asset": "ZYNLONTA (loncastuximab tesirine)",
+      "indication": "r/r DLBCL (LOTIS-7 + glofitamab)",
+      "phase": "Phase 1b",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1771910/000162828026029524/adct-20260331pressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The Company plans to share full data [from LOTIS-7] at a medical meeting and through publication by the end of 2026."
+    },
+    {
+      "slug": "adct",
+      "ticker": "ADCT",
+      "issuer": "ADC Therapeutics SA",
+      "asset": "ZYNLONTA (loncastuximab tesirine)",
+      "indication": "r/r follicular lymphoma (FL) + marginal zone lymphoma (MZL) IIT trials",
+      "phase": "investigator-initiated",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1771910/000162828026029524/adct-20260331pressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The Company anticipates publication of data from both IITs between the end of 2026 and mid-2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "LOTIS-5 Phase 3 topline Q2 2026, LOTIS-7 enrollment complete 1H 2026 with full data by end-2026, FL/MZL IIT publications end-2026 to mid-2027 are all explicit forward-looking dates."
+  }
+}

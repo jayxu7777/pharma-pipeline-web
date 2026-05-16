@@ -1,0 +1,90 @@
+{
+  "slug": "agio",
+  "ticker": "AGIO",
+  "issuer_name": "AGIOS PHARMACEUTICALS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001439222-26-000071",
+      "filed_date": "2026-04-29",
+      "exhibit": "Ex-99.1 (Q1 2026 results PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1439222/000143922226000071/agio-42926xfyxex991earning.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "agio",
+      "ticker": "AGIO",
+      "issuer": "AGIOS PHARMACEUTICALS, INC.",
+      "asset": "mitapivat (AQVESME / PYRUKYND)",
+      "indication": "sickle cell disease",
+      "phase": "Phase 3 (filed)",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "2026-04-29",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1439222/000143922226000071/agio-42926xfyxex991earning.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company plans to submit mitapivat sNDA for sickle cell disease in the second quarter of 2026"
+    },
+    {
+      "slug": "agio",
+      "ticker": "AGIO",
+      "issuer": "AGIOS PHARMACEUTICALS, INC.",
+      "asset": "tebapivat (AG-946)",
+      "indication": "lower-risk MDS (Phase 2b)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-H1",
+      "date_precision": "half",
+      "filed_date": "2026-04-29",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1439222/000143922226000071/agio-42926xfyxex991earning.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Agios expects to report topline results from its Phase 2b trial in the first half of 2026."
+    },
+    {
+      "slug": "agio",
+      "ticker": "AGIO",
+      "issuer": "AGIOS PHARMACEUTICALS, INC.",
+      "asset": "tebapivat (AG-946)",
+      "indication": "sickle cell disease (Phase 2)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "2026-04-29",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1439222/000143922226000071/agio-42926xfyxex991earning.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Agios expects to report topline results from its Phase 2 trial in the second half of 2026. This double-blind, randomized, placebo-controlled trial is evaluating three daily dose levels of tebapivat ... versus matched placebo over a 12-week period."
+    },
+    {
+      "slug": "agio",
+      "ticker": "AGIO",
+      "issuer": "AGIOS PHARMACEUTICALS, INC.",
+      "asset": "AQVESME (mitapivat)",
+      "indication": "thalassemia - U.S. commercial launch",
+      "phase": "commercial",
+      "milestone_type": "launch",
+      "anticipated_date_iso": "2026-01",
+      "date_precision": "month",
+      "filed_date": "2026-04-29",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1439222/000143922226000071/agio-42926xfyxex991earning.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "U.S. net revenue was driven by the U.S. commercial launch of AQVESME (mitapivat) in thalassemia in late January 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Multiple value-driving catalysts: mitapivat SCD sNDA Q2 2026, tebapivat Phase 2b MDS topline 1H 2026, tebapivat Phase 2 SCD topline 2H 2026. AQVESME thalassemia commercial launch ongoing."
+  }
+}

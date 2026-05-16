@@ -1,0 +1,151 @@
+{
+  "slug": "pyxs",
+  "ticker": "PYXS",
+  "issuer_name": "Pyxis Oncology, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-222818",
+      "filed_date": "2026-05-14",
+      "exhibit": "ex99_1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-118525",
+      "filed_date": "2026-03-23",
+      "exhibit": "ex99_1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-323704",
+      "filed_date": "2025-12-18",
+      "exhibit": "ex99_1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-261689",
+      "filed_date": "2025-11-03",
+      "exhibit": "ex99_1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000950170-25-108898",
+      "filed_date": "2025-08-14",
+      "exhibit": "ex99_1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "pyxs",
+      "ticker": "PYXS",
+      "issuer": "Pyxis Oncology, Inc.",
+      "asset": "MICVO (micvotabart pelidotin)",
+      "indication": "2L+ R/M HNSCC",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Updated MICVO Phase 1 monotherapy data in 2L+ R/M HNSCC on track for mid-year 2026; update to include analyses focused on patients treated at or below a dose cap."
+    },
+    {
+      "slug": "pyxs",
+      "ticker": "PYXS",
+      "issuer": "Pyxis Oncology, Inc.",
+      "asset": "MICVO (micvotabart pelidotin)",
+      "indication": "2L+ R/M HNSCC",
+      "phase": "Phase 1",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Completed target enrollment in Phase 1 monotherapy dose expansion study of MICVO in 2L+ R/M HNSCC in the first quarter of 2026."
+    },
+    {
+      "slug": "pyxs",
+      "ticker": "PYXS",
+      "issuer": "Pyxis Oncology, Inc.",
+      "asset": "MICVO + KEYTRUDA (pembrolizumab)",
+      "indication": "1L R/M HNSCC",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Updated data from MICVO Phase 1/2 dose escalation study in combination with KEYTRUDA for 1L R/M HNSCC patients in 2H26."
+    },
+    {
+      "slug": "pyxs",
+      "ticker": "PYXS",
+      "issuer": "Pyxis Oncology, Inc.",
+      "asset": "MICVO (micvotabart pelidotin)",
+      "indication": "2L+ R/M HNSCC",
+      "phase": "Phase 1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-04-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In April 2026, Pyxis Oncology presented new preclinical data at the AACR Annual Meeting 2026 supporting MICVO development."
+    },
+    {
+      "slug": "pyxs",
+      "ticker": "PYXS",
+      "issuer": "Pyxis Oncology, Inc.",
+      "asset": "MICVO (micvotabart pelidotin)",
+      "indication": "2L+ R/M HNSCC",
+      "phase": "Phase 1 (pivotal planning)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA alignment received on clinical trial design for planned pivotal monotherapy study in 2L+ R/M HNSCC; additional detail expected in 2026."
+    },
+    {
+      "slug": "pyxs",
+      "ticker": "PYXS",
+      "issuer": "Pyxis Oncology, Inc.",
+      "asset": "MICVO (micvotabart pelidotin)",
+      "indication": "R/M HNSCC",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2025-12-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Preliminary data from ongoing Phase 1 clinical studies of MICVO in R/M HNSCC expected in 4Q25 (reported December 2025)."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

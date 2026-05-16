@@ -1,0 +1,48 @@
+{
+  "slug": "xrtx",
+  "ticker": "XRTX",
+  "issuer_name": "XORTX Therapeutics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-003401",
+      "filed_date": "2026-05-14",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001104659-26-057982",
+      "filed_date": "2026-05-08",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-002595",
+      "filed_date": "2026-04-21",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-002502",
+      "filed_date": "2026-04-16",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-002162",
+      "filed_date": "2026-04-01",
+      "exhibit": "",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "All 5 picked 6-K filings have zero exhibits downloaded; no exhibit text available to extract clinical/regulatory catalysts. No content files exist under raw/xrtx/."
+  }
+}

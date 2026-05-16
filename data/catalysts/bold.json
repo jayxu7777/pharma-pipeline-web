@@ -1,0 +1,39 @@
+{
+  "slug": "bold",
+  "ticker": "BOLD",
+  "issuer_name": "Boundless Bio, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-213269",
+      "filed_date": "2026-05-08",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1782303/000119312526213269/bold-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "bold",
+      "ticker": "BOLD",
+      "issuer": "Boundless Bio, Inc.",
+      "asset": "BBI-940",
+      "indication": "ER+/HER2- breast cancer post-CDK4/6i + TNBC-LAR (KOMODO-1)",
+      "phase": "Phase 1",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2028-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-08",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1782303/000119312526213269/bold-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initial safety and efficacy clinical proof-of-concept data are expected within the Company's existing cash runway timeline. ... The Company expects its cash to fund operations into the second half of 2028."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 sharpens KOMODO-1 POC timing via 2H 2028 cash runway anchor; 10-K would have been more vague."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "gsk",
+  "ticker": "GSK",
+  "issuer_name": "GSK plc",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004863",
+      "filed_date": "2026-05-14",
+      "exhibit": "a3914e.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004409",
+      "filed_date": "2026-05-06",
+      "exhibit": "a3151d.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004643",
+      "filed_date": "2026-05-11",
+      "exhibit": "a6811d.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Recent 6-K filings (May 2026) contain only PDMR share transactions, AGM results, and share buyback programme announcement. No discrete forward-dated clinical or regulatory catalysts present in available exhibits."
+  }
+}

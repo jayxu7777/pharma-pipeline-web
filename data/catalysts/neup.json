@@ -1,0 +1,20 @@
+{
+  "slug": "neup",
+  "ticker": "NEUP",
+  "issuer_name": "Neuphoria Therapeutics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-25-102607",
+      "filed_date": "2025-10-27",
+      "exhibit": "Ex-99.1 (Domestication / Articles PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Most recent 8-K covers corporate domestication. Lead asset BNC-210 in PTSD failed primary endpoint in AFFIRM-1 Phase 3 trial (October 2025); no forward-dated clinical catalysts disclosed in available 8-Ks."
+  }
+}

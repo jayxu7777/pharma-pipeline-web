@@ -1,0 +1,90 @@
+{
+  "slug": "allo",
+  "ticker": "ALLO",
+  "issuer_name": "Allogene Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-034583",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1737287/000162828026034583/allo-20260331xexx991q126.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "allo",
+      "ticker": "ALLO",
+      "issuer": "Allogene Therapeutics, Inc.",
+      "asset": "cemacabtagene ansegedleucel (cema-cel)",
+      "indication": "1L large B-cell lymphoma (LBCL) MRD-guided consolidation",
+      "phase": "Phase 2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1737287/000162828026034583/allo-20260331xexx991q126.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company anticipates an interim EFS analysis in mid-2027 and the primary EFS analysis in mid-2028."
+    },
+    {
+      "slug": "allo",
+      "ticker": "ALLO",
+      "issuer": "Allogene Therapeutics, Inc.",
+      "asset": "cemacabtagene ansegedleucel (cema-cel)",
+      "indication": "1L large B-cell lymphoma (LBCL)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2028-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1737287/000162828026034583/allo-20260331xexx991q126.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company anticipates an interim EFS analysis in mid-2027 and the primary EFS analysis in mid-2028. If positive, these results could support a Biologics License Application (BLA) submission."
+    },
+    {
+      "slug": "allo",
+      "ticker": "ALLO",
+      "issuer": "Allogene Therapeutics, Inc.",
+      "asset": "cemacabtagene ansegedleucel (cema-cel)",
+      "indication": "1L large B-cell lymphoma (LBCL) ALPHA3",
+      "phase": "Phase 2",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1737287/000162828026034583/allo-20260331xexx991q126.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The study is expected to enroll approximately 220 patients, with enrollment anticipated to complete by the end of 2027."
+    },
+    {
+      "slug": "allo",
+      "ticker": "ALLO",
+      "issuer": "Allogene Therapeutics, Inc.",
+      "asset": "ALLO-329",
+      "indication": "autoimmune disease (SLE, scleroderma, inflammatory myositis)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1737287/000162828026034583/allo-20260331xexx991q126.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Dose Escalation and Lymphodepletion Optimization Ongoing; Next Update Expected Q4 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Q1 2026 PR provides fresh mid-2027 interim EFS, mid-2028 primary EFS, end-2027 enrollment complete for ALPHA3, and Q4 2026 next update for ALLO-329 RESOLUTION."
+  }
+}

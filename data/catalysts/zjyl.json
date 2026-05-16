@@ -1,0 +1,48 @@
+{
+  "slug": "zjyl",
+  "ticker": "ZJYL",
+  "issuer_name": "Jin Medical International Ltd.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-029123",
+      "filed_date": "2026-03-11",
+      "exhibit": "ea028185701ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-013699",
+      "filed_date": "2026-02-06",
+      "exhibit": "ea027609101ex99-1_jinmedical.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-011831",
+      "filed_date": "2026-01-29",
+      "exhibit": "ea0275421-6k_jin.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-041065",
+      "filed_date": "2026-04-22",
+      "exhibit": "ea028527301ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-008538",
+      "filed_date": "2026-01-15",
+      "exhibit": "ea027410701ex99-1_jinmedical.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Wheelchair/medical equipment manufacturer; filings concern Nasdaq listing compliance (reverse split) and operations. No clinical or regulatory drug catalysts."
+  }
+}

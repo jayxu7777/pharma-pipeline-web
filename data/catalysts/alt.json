@@ -1,0 +1,107 @@
+{
+  "slug": "alt",
+  "ticker": "ALT",
+  "issuer_name": "Altimmune, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001326190-26-000037",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000037/alt-20260513xex99d1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "alt",
+      "ticker": "ALT",
+      "issuer": "Altimmune, Inc.",
+      "asset": "pemvidutide",
+      "indication": "MASH (PERFORMA Phase 3)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000037/alt-20260513xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company expects to initiate its global PERFORMA Phase 3 MASH trial in the second half of 2026, with 52-week data readout anticipated in 2029"
+    },
+    {
+      "slug": "alt",
+      "ticker": "ALT",
+      "issuer": "Altimmune, Inc.",
+      "asset": "pemvidutide",
+      "indication": "MASH (PERFORMA Phase 3)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2029",
+      "date_precision": "year",
+      "filed_date": "2026-05-13",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000037/alt-20260513xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company expects to initiate its global PERFORMA Phase 3 MASH trial in the second half of 2026, with 52-week data readout anticipated in 2029"
+    },
+    {
+      "slug": "alt",
+      "ticker": "ALT",
+      "issuer": "Altimmune, Inc.",
+      "asset": "pemvidutide",
+      "indication": "MASH (IMPACT 48-week data)",
+      "phase": "Phase 2b",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-28",
+      "date_precision": "day",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000037/alt-20260513xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "A late-breaking oral presentation on the 48-week IMPACT data in MASH will be delivered by Dr. Mazen Noureddin... on May 28, 2026 at 5 p.m. CEST. Abstract selected as Best of EASL 2026."
+    },
+    {
+      "slug": "alt",
+      "ticker": "ALT",
+      "issuer": "Altimmune, Inc.",
+      "asset": "pemvidutide",
+      "indication": "alcohol use disorder (RECLAIM Phase 2)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000037/alt-20260513xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data from the RECLAIM Phase 2 trial of pemvidutide in AUD expected in third quarter 2026"
+    },
+    {
+      "slug": "alt",
+      "ticker": "ALT",
+      "issuer": "Altimmune, Inc.",
+      "asset": "pemvidutide",
+      "indication": "alcohol-associated liver disease (RESTORE Phase 2)",
+      "phase": "Phase 2",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000037/alt-20260513xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "RESTORE Phase 2 trial of pemvidutide in ALD continuing to enroll... Expect enrollment completion in third quarter 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Q1 2026 PR provides PERFORMA Phase 3 init 2H 2026, 52-week readout 2029, EASL May 28 2026 presentation, RECLAIM AUD topline Q3 2026, RESTORE ALD enrollment complete Q3 2026."
+  }
+}

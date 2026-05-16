@@ -1,0 +1,17 @@
+{
+  "slug": "ipsc",
+  "ticker": "IPSC",
+  "issuer_name": "Century Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-059824",
+      "filed_date": "2026-05-13",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {}
+}

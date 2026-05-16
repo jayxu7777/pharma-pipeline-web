@@ -1,0 +1,55 @@
+{
+  "slug": "immx",
+  "ticker": "IMMX",
+  "issuer_name": "Immix Biopharma, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-013663",
+      "filed_date": "2026-03-30",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "immx",
+      "ticker": "IMMX",
+      "issuer": "Immix Biopharma, Inc.",
+      "asset": "NXC-201",
+      "indication": "relapsed/refractory AL amyloidosis (NEXICART-2)",
+      "phase": "Phase 1/2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "NEXICART-2 topline data expected in Q3 2026"
+    },
+    {
+      "slug": "immx",
+      "ticker": "IMMX",
+      "issuer": "Immix Biopharma, Inc.",
+      "asset": "NXC-201",
+      "indication": "relapsed/refractory AL amyloidosis",
+      "phase": "Phase 1/2",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "BLA submission planned thereafter following NEXICART-2 topline"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "eypt",
+  "ticker": "EYPT",
+  "issuer_name": "EyePoint, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-222750",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (DSMC recommendation PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-207537",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "eypt",
+      "ticker": "EYPT",
+      "issuer": "EyePoint, Inc.",
+      "asset": "DURAVYU (vorolanib intravitreal insert)",
+      "indication": "Wet age-related macular degeneration (LUGANO)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "LUGANO topline data on track for mid-2026, with LUCIA readout to follow shortly after"
+    },
+    {
+      "slug": "eypt",
+      "ticker": "EYPT",
+      "issuer": "EyePoint, Inc.",
+      "asset": "DURAVYU (vorolanib intravitreal insert)",
+      "indication": "Wet age-related macular degeneration (LUCIA)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "LUGANO topline data on track for mid-2026, with LUCIA readout to follow shortly after"
+    },
+    {
+      "slug": "eypt",
+      "ticker": "EYPT",
+      "issuer": "EyePoint, Inc.",
+      "asset": "DURAVYU (vorolanib intravitreal insert)",
+      "indication": "Diabetic macular edema (COMO, CAPRI)",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 DME clinical trials, COMO and CAPRI, rapidly advancing with over one-third of patients enrolled; enrollment completion expected in Q3 2026"
+    },
+    {
+      "slug": "eypt",
+      "ticker": "EYPT",
+      "issuer": "EyePoint, Inc.",
+      "asset": "DURAVYU (vorolanib intravitreal insert)",
+      "indication": "Diabetic macular edema (COMO, CAPRI)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Full enrollment is expected in the third quarter of 2026, with topline data anticipated in the fourth quarter of 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

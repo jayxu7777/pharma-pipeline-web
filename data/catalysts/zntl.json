@@ -1,0 +1,117 @@
+{
+  "slug": "zntl",
+  "ticker": "ZNTL",
+  "issuer_name": "Zentalis Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001725160-26-000010",
+      "filed_date": "2026-02-26",
+      "exhibit": "zntl_q42025earningspr.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001725160-26-000017",
+      "filed_date": "2026-03-09",
+      "exhibit": "ex992doseconfirmationpress.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001725160-26-000020",
+      "filed_date": "2026-04-09",
+      "exhibit": "ex991aacr2026datapressrele.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001725160-26-000033",
+      "filed_date": "2026-05-05",
+      "exhibit": "aspenovafpipressrelease.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001725160-26-000041",
+      "filed_date": "2026-05-08",
+      "exhibit": "zntlq12026pressrelease.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "zntl",
+      "ticker": "ZNTL",
+      "issuer": "Zentalis Pharmaceuticals, Inc.",
+      "asset": "Azenosertib (WEE1 inhibitor)",
+      "indication": "Cyclin E1-positive platinum-resistant ovarian cancer (PROC)",
+      "phase": "Phase 2 DENALI",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Zentalis expects to complete enrollment in all cohorts of DENALI Part 2 (2a, 2b, 2c) and provide a topline readout by year-end 2026."
+    },
+    {
+      "slug": "zntl",
+      "ticker": "ZNTL",
+      "issuer": "Zentalis Pharmaceuticals, Inc.",
+      "asset": "Azenosertib",
+      "indication": "Cyclin E1-positive PROC",
+      "phase": "Phase 3 ASPENOVA",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-05-05",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "May 5, 2026 - Zentalis announced that the first patient has been dosed in the Phase 3 ASPENOVA clinical trial evaluating azenosertib in Cyclin E1-positive PROC."
+    },
+    {
+      "slug": "zntl",
+      "ticker": "ZNTL",
+      "issuer": "Zentalis Pharmaceuticals, Inc.",
+      "asset": "Azenosertib",
+      "indication": "Cyclin E1-positive PROC, Part 2c (taxane-pretreated)",
+      "phase": "Phase 2 DENALI Part 2c",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment in DENALI Part 2c (broadening to patients previously treated with taxane-containing regimen for PROC) planned to initiate in Q2 2026."
+    },
+    {
+      "slug": "zntl",
+      "ticker": "ZNTL",
+      "issuer": "Zentalis Pharmaceuticals, Inc.",
+      "asset": "Azenosertib",
+      "indication": "Cyclin E1-positive PROC",
+      "phase": "Phase 2 DENALI Part 2a",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-03",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Planned interim analysis from DENALI Part 2a showed clearly differentiated response rate at 400mg QD 5:2 over 300mg QD 5:2 and comparable safety profiles."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

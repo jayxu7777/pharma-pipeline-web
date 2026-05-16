@@ -1,0 +1,123 @@
+{
+  "slug": "mirm",
+  "ticker": "MIRM",
+  "issuer_name": "Mirum Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001759425-26-000036",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "mirm",
+      "ticker": "MIRM",
+      "issuer": "Mirum Pharmaceuticals, Inc.",
+      "asset": "volixibat",
+      "indication": "primary sclerosing cholangitis (PSC)",
+      "phase": "Phase 2b",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-30",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Reported volixibat VISTAS Phase 2b study in primary sclerosing cholangitis (PSC) met primary endpoint; full results to be presented in a late-breaking oral presentation at the European Association for the Study of the Liver (EASL) Congress on May 30 at 2:15 p.m. CEST; U.S. NDA submission expected in H2 2026."
+    },
+    {
+      "slug": "mirm",
+      "ticker": "MIRM",
+      "issuer": "Mirum Pharmaceuticals, Inc.",
+      "asset": "volixibat",
+      "indication": "primary sclerosing cholangitis (PSC)",
+      "phase": "Phase 2b",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "U.S. NDA submission expected in H2 2026."
+    },
+    {
+      "slug": "mirm",
+      "ticker": "MIRM",
+      "issuer": "Mirum Pharmaceuticals, Inc.",
+      "asset": "brelovitug",
+      "indication": "chronic hepatitis delta virus (HDV)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Completed enrollment in brelovitug AZURE-1 and AZURE-4 Phase 3 studies in HDV; topline results expected in H2 2026."
+    },
+    {
+      "slug": "mirm",
+      "ticker": "MIRM",
+      "issuer": "Mirum Pharmaceuticals, Inc.",
+      "asset": "LIVMARLI (maralixibat)",
+      "indication": "additional rare cholestatic conditions",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Completed enrollment in LIVMARLI (maralixibat) EXPAND Phase 3 study in additional rare cholestatic conditions; topline results expected in Q4 2026."
+    },
+    {
+      "slug": "mirm",
+      "ticker": "MIRM",
+      "issuer": "Mirum Pharmaceuticals, Inc.",
+      "asset": "volixibat",
+      "indication": "primary biliary cholangitis (PBC)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "VANTAGE study in primary biliary cholangitis (PBC) topline results now expected in Q1 2027."
+    },
+    {
+      "slug": "mirm",
+      "ticker": "MIRM",
+      "issuer": "Mirum Pharmaceuticals, Inc.",
+      "asset": "zilurgisertib",
+      "indication": "fibrodysplasia ossificans progressiva (FOP)",
+      "phase": "NDA",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-09-26",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "U.S. FDA accepted the New Drug Application (NDA) for zilurgisertib in FOP patients 12 years and older and granted Priority Review with a Prescription Drug User Fee Act (PDUFA) date of September 26, 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "vtvt",
+  "ticker": "VTVT",
+  "issuer_name": "vTv Therapeutics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-221971",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-5.1 (Dechert legal opinion re: S-3 prospectus supplement, $47.5M offering)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Of the 5 most recent 8-Ks selected by discover.py, only a single Ex-5.1 legal opinion exhibit (S-3 prospectus supplement) was downloadable; other filings carried no exhibits. No clinical-stage trial updates, IND/NDA/BLA submissions, or topline readouts disclosed in retrieved content."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "pvct",
+  "ticker": "PVCT",
+  "issuer_name": "PROVECTUS BIOPHARMACEUTICALS, INC.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-018160",
+      "filed_date": "2026-04-21",
+      "exhibit": "form8-k.htm + ex99-1 (2026 annual meeting / Perkins Place HQ)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001641172-25-015520",
+      "filed_date": "2025-06-18",
+      "exhibit": "form8-k.htm + ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-24-049571",
+      "filed_date": "2024-12-11",
+      "exhibit": "form8-k.htm + ex99-1 + ex99-2 (VisiRose launch for RB PDAT in infectious keratitis)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-24-045353",
+      "filed_date": "2024-11-14",
+      "exhibit": "form8-k.htm + ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-24-024449",
+      "filed_date": "2024-06-20",
+      "exhibit": "form8-k.htm + ex99-1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "pvct",
+      "ticker": "PVCT",
+      "issuer": "PROVECTUS BIOPHARMACEUTICALS, INC.",
+      "asset": "Rose Bengal Sodium (RBS) via VisiRose / Bascom Palmer photodynamic antimicrobial therapy",
+      "indication": "Infectious keratitis (bacterial, fungal, parasitic eye infections)",
+      "phase": "Clinical stage (>500 patients across US, India, Brazil, Mexico)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2024-12-10",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Dec 10-11, 2024: Provectus launched VisiRose Inc., a clinical-stage entity with University of Miami's Bascom Palmer Eye Institute, to commercialize Rose Bengal Photodynamic Antimicrobial Therapy (RB PDAT) for infectious keratitis. Therapy tested in 500+ patients with promising results vs. AMR pathogens."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Captured 8-Ks are predominantly investor outreach (Item 7.01 / 8.01) and corporate / annual meeting items (2026 annual meeting at planned new Perkins Place HQ in Knoxville). Only one disclosure contains a clinical-program-relevant catalyst (VisiRose RB PDAT launch). No PDUFA/BLA/NDA/IND or trial-readout milestones disclosed in this 8-K window."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "drts",
+  "ticker": "DRTS",
+  "issuer_name": "Alpha Tau Medical Ltd.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-053589",
+      "filed_date": "2026-05-08",
+      "exhibit": "Ex-99.1 (ReSTART enrollment complete PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1871321/000121390026053589/"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-054252",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (REGAIN GBM interim data & milestones presentation)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1871321/000121390026054252/"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-053086",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (ACAPELLA pancreatic cancer FPI PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1871321/000121390026053086/"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "drts",
+      "ticker": "DRTS",
+      "issuer": "Alpha Tau Medical Ltd.",
+      "asset": "Alpha DaRT",
+      "indication": "recurrent cutaneous squamous cell carcinoma (ReSTART US pivotal)",
+      "phase": "pivotal",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1871321/000121390026053589/",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Geography Target Indication H1 2026 H2 2026 2027+ United States Recurrent Cutaneous SCC ... Complete Multi-Center Pivotal Recruitment ... Data Readout + Potential FDA Submission."
+    },
+    {
+      "slug": "drts",
+      "ticker": "DRTS",
+      "issuer": "Alpha Tau Medical Ltd.",
+      "asset": "Alpha DaRT",
+      "indication": "recurrent cutaneous squamous cell carcinoma (ReSTART)",
+      "phase": "pivotal",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1871321/000121390026053589/",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "United States Recurrent Cutaneous SCC ... 2027+ Potential FDA Approval."
+    },
+    {
+      "slug": "drts",
+      "ticker": "DRTS",
+      "issuer": "Alpha Tau Medical Ltd.",
+      "asset": "Alpha DaRT",
+      "indication": "recurrent glioblastoma (REGAIN US pilot)",
+      "phase": "pilot",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1871321/000121390026053589/",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Recurrent GBM ... Complete Recruitment in Pilot Study (H2 2026 column on milestones chart). Plan for completion of enrollment of 10 patients on this pilot study pending FDA review."
+    },
+    {
+      "slug": "drts",
+      "ticker": "DRTS",
+      "issuer": "Alpha Tau Medical Ltd.",
+      "asset": "Alpha DaRT",
+      "indication": "recurrent glioblastoma (REGAIN US)",
+      "phase": "pilot",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1871321/000121390026053589/",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Recurrent GBM ... 2027+ Initial Readout from Pilot Study."
+    },
+    {
+      "slug": "drts",
+      "ticker": "DRTS",
+      "issuer": "Alpha Tau Medical Ltd.",
+      "asset": "Alpha DaRT",
+      "indication": "pancreatic cancer (ACAPELLA / IMPACT)",
+      "phase": "feasibility",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1871321/000121390026053589/",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Pancreatic Cancer ... Complete Recruitment in Feasibility Study (H2 2026 milestones chart)."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

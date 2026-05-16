@@ -1,0 +1,20 @@
+{
+  "slug": "mdxg",
+  "ticker": "MDXG",
+  "issuer_name": "MIMEDX GROUP, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001376339-26-000012",
+      "filed_date": "2026-02-25",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Adjacent medtech (placental tissue wound care). Latest earnings PR is operational/financial (revenue guidance, EBITDA margin); no forward-looking clinical readouts, FDA approvals, or trial milestones with specific dates disclosed."
+  }
+}

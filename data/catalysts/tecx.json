@@ -1,0 +1,134 @@
+{
+  "slug": "tecx",
+  "ticker": "TECX",
+  "issuer_name": "Tectonic Therapeutic, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-212069",
+      "filed_date": "2026",
+      "exhibit": "tecx-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-173829",
+      "filed_date": "2026",
+      "exhibit": "d150495dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-076843",
+      "filed_date": "2026-03",
+      "exhibit": "tecx-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-066964",
+      "filed_date": "2026",
+      "exhibit": "d50095dex991.htm + d50095dex992.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-269573",
+      "filed_date": "2025-11",
+      "exhibit": "tecx-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tecx",
+      "ticker": "TECX",
+      "issuer": "Tectonic Therapeutic, Inc.",
+      "asset": "TX45",
+      "indication": "Group 2 PH-HFrEF",
+      "phase": "Phase 1b (Part B)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2025-10",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Announced positive topline results from TX45 Phase 1b acute hemodynamic clinical trial in patients with Group 2 Pulmonary Hypertension in Heart Failure with reduced Ejection Fraction in October 2025"
+    },
+    {
+      "slug": "tecx",
+      "ticker": "TECX",
+      "issuer": "Tectonic Therapeutic, Inc.",
+      "asset": "TX2100",
+      "indication": "Hereditary Hemorrhagic Telangiectasia (HHT)",
+      "phase": "Phase 1a",
+      "milestone_type": "initiation/FPI",
+      "anticipated_date_iso": "2026-02",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "TX2100 advanced into Phase 1a healthy volunteer clinical trial, randomizing the first subject in February 2026"
+    },
+    {
+      "slug": "tecx",
+      "ticker": "TECX",
+      "issuer": "Tectonic Therapeutic, Inc.",
+      "asset": "TX2100",
+      "indication": "HHT",
+      "phase": "Phase 1a",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Ongoing TX2100 Phase 1a Clinical Trial Topline Results Expected in Q4 2026"
+    },
+    {
+      "slug": "tecx",
+      "ticker": "TECX",
+      "issuer": "Tectonic Therapeutic, Inc.",
+      "asset": "TX45",
+      "indication": "PH-ILD (Group 3 PH)",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-02",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "TX45 advanced into Phase 2 clinical trial in February 2026 with first site activated and opened for screening patients with PH-ILD"
+    },
+    {
+      "slug": "tecx",
+      "ticker": "TECX",
+      "issuer": "Tectonic Therapeutic, Inc.",
+      "asset": "TX45",
+      "indication": "PH-HFpEF (Group 2)",
+      "phase": "Phase 2 APEX",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Ongoing TX45 APEX Phase 2 Clinical Trial Topline Results Expected in 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Five clinical catalysts captured: TX45 Phase 1b PH-HFrEF topline (Oct 2025), TX45 Phase 2 PH-ILD initiation (Feb 2026), TX45 APEX Phase 2 PH-HFpEF topline (2026), TX2100 Phase 1a HHT FPI (Feb 2026) and topline (Q4 2026)."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "bjdx",
+  "ticker": "BJDX",
+  "issuer_name": "Bluejay Diagnostics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-053295",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 corporate update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1704287/000121390026053295/ea028958001ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-040728",
+      "filed_date": "2026-04-07",
+      "exhibit": "Ex-99.1 (SYMON-II enrollment update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1704287/000121390026040728/ea028534301ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "bjdx",
+      "ticker": "BJDX",
+      "issuer": "Bluejay Diagnostics, Inc.",
+      "asset": "Symphony IL-6 Test",
+      "indication": "Sepsis triage and monitoring in critical care",
+      "phase": "Pivotal",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1704287/000121390026053295/ea028958001ex99-1.htm",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "The SYMON-II study has a target enrollment of 750 patients, and the Company expects to complete enrollment within the next 2 to 3 months, subject to site activity and patient flow. (PR dated April 7, 2026)"
+    },
+    {
+      "slug": "bjdx",
+      "ticker": "BJDX",
+      "issuer": "Bluejay Diagnostics, Inc.",
+      "asset": "Symphony IL-6 Test",
+      "indication": "Sepsis triage and monitoring in critical care",
+      "phase": "Pivotal",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1704287/000121390026053295/ea028958001ex99-1.htm",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Continued execution of Bluejay's FDA-focused regulatory strategy for Symphony IL-6, with the Company maintaining its objective of preparing for a future 510(k) submission following completion of required analytical and clinical validation activities."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pharma Pipeline — Catalysts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tabulator-tables@5.6.1/dist/css/tabulator.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">PHARMA PIPELINE<span class="sub">US-listed biopharma & medtech · active P1/P2/P3</span></div>
+    <nav>
+      <a href="index.html">Companies</a>
+      <a href="catalysts.html" class="active">Catalysts</a>
+      <a href="https://github.com/jayxu7777/pharma-pipeline-web" target="_blank" rel="noopener">Source</a>
+    </nav>
+  </header>
+
+  <section class="stats" id="stats">
+    <div class="stat-card"><div class="label">Companies</div><div class="value" id="stat-companies">—</div></div>
+    <div class="stat-card"><div class="label">Catalyst rows</div><div class="value" id="stat-rows">—</div></div>
+    <div class="stat-card p3"><div class="label">Upcoming</div><div class="value" id="stat-future">—</div></div>
+    <div class="stat-card p1"><div class="label">Past</div><div class="value" id="stat-past">—</div></div>
+    <div class="stat-card"><div class="label">Undated</div><div class="value" id="stat-undated">—</div></div>
+    <div class="stat-card"><div class="label">Source</div><div class="value" style="font-size:13px">Latest 8-K Ex-99.1</div></div>
+  </section>
+
+  <div class="searchbar">
+    <input type="search" id="q" placeholder="Search ticker, issuer, asset, indication…" autocomplete="off">
+    <span class="hint" id="result-count"></span>
+  </div>
+
+  <div class="layout">
+    <aside class="filters">
+      <div class="group">
+        <h3>Date window</h3>
+        <select id="f-window">
+          <option value="future">Upcoming only</option>
+          <option value="3m">Next 3 months</option>
+          <option value="6m">Next 6 months</option>
+          <option value="12m">Next 12 months</option>
+          <option value="past">Past</option>
+          <option value="all">All</option>
+        </select>
+      </div>
+      <div class="group">
+        <h3>Milestone type</h3>
+        <div id="f-milestone-list"></div>
+      </div>
+      <div class="group">
+        <h3>Phase</h3>
+        <div id="f-phase-list"></div>
+      </div>
+      <div class="group">
+        <h3>Bucket</h3>
+        <label><input type="checkbox" class="f-kind" value="core_biopharma"> Core biopharma</label>
+        <label><input type="checkbox" class="f-kind" value="adjacent"> Adjacent (medtech / dx)</label>
+      </div>
+      <button class="reset" id="reset-btn">Reset filters</button>
+    </aside>
+    <main class="content">
+      <div id="grid"></div>
+    </main>
+  </div>
+
+  <footer>
+    Snapshot <span id="snapshot-date">—</span> · Data: SEC 8-K Ex-99.1 (latest 5 per issuer) · No investment advice.
+  </footer>
+
+  <script src="https://unpkg.com/tabulator-tables@5.6.1/dist/js/tabulator.min.js"></script>
+  <script src="js/catalysts.js?v=1"></script>
+</body>
+</html>

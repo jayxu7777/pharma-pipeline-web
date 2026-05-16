@@ -1,0 +1,17 @@
+{
+  "slug": "indv",
+  "ticker": "INDV",
+  "issuer_name": "Indivior PLC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-193925",
+      "filed_date": "2026-05-01",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {}
+}

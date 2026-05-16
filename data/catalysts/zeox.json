@@ -1,0 +1,48 @@
+{
+  "slug": "zeox",
+  "ticker": "ZEOX",
+  "issuer_name": "Zeo ScientifiX, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-004982",
+      "filed_date": "2026-05-12",
+      "exhibit": "zeoscientifix_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-003684",
+      "filed_date": "2026-04-21",
+      "exhibit": "zeoscientifix_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-003301",
+      "filed_date": "2026-04-09",
+      "exhibit": "zeoscientifix_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-003240",
+      "filed_date": "2026-04-07",
+      "exhibit": "zeoscientifix_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-002881",
+      "filed_date": "2026-03-31",
+      "exhibit": "zeoscientifix_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Zeo ScientifiX is a clinical-stage regenerative-medicine products company (exosomes, perinatal biologics). Filings cover commercial milestones ($1M monthly sales), physician education masterclasses, A4M partnership, Regen Therapy/Stealth Health MOU, and XPRIZE Healthspan semi-finals selection. No PDUFA/BLA/IND/clinical-trial readouts disclosed."
+  }
+}

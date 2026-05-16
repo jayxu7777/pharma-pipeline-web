@@ -1,0 +1,83 @@
+{
+  "slug": "zura",
+  "ticker": "ZURA",
+  "issuer_name": "Zura Bio Ltd",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-019827",
+      "filed_date": "2026-02-12",
+      "exhibit": "tm267297d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-023806",
+      "filed_date": "2026-03-04",
+      "exhibit": "tm268054d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-025520",
+      "filed_date": "2026-03-19",
+      "exhibit": "tm268344d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-032077",
+      "filed_date": "2026-04-15",
+      "exhibit": "tm269296d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-031701",
+      "filed_date": "2026-05-07",
+      "exhibit": "zura-20260507xex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "zura",
+      "ticker": "ZURA",
+      "issuer": "Zura Bio Ltd",
+      "asset": "Tibulizumab (ZB-106, anti-BAFF + IL-17 bispecific)",
+      "indication": "Hidradenitis suppurativa (HS)",
+      "phase": "Phase 2 TibuSHIELD",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 clinical trial (TibuSHIELD) ongoing; topline data anticipated in Q4 2026. Enrollment of approximately 225 patients on track."
+    },
+    {
+      "slug": "zura",
+      "ticker": "ZURA",
+      "issuer": "Zura Bio Ltd",
+      "asset": "Tibulizumab (ZB-106)",
+      "indication": "Systemic sclerosis (SSc)",
+      "phase": "Phase 2 TibuSURE",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 clinical trial (TibuSURE) ongoing in SSc; topline data anticipated in 1H 2027. Enrollment of approximately 80 patients on track."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "nvno",
+  "ticker": "NVNO",
+  "issuer_name": "enVVeno Medical Corp",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-019485",
+      "filed_date": "2026-04-29",
+      "exhibit": "Ex-99.1 (TAVVE pivotal IDE approval PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "nvno",
+      "ticker": "NVNO",
+      "issuer": "enVVeno Medical Corp",
+      "asset": "enVVe System (Transcatheter Venous Valve Endoprosthesis - TAVVE)",
+      "indication": "Severe deep Chronic Venous Insufficiency (CVI)",
+      "phase": "Pivotal IDE",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Clinical site activation and patient enrollment expected to commence later this year"
+    },
+    {
+      "slug": "nvno",
+      "ticker": "NVNO",
+      "issuer": "enVVeno Medical Corp",
+      "asset": "enVVe System (TAVVE pivotal study - first stage)",
+      "indication": "Severe deep CVI",
+      "phase": "Pivotal",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "The first stage of the TAVVE study, which is expected to commence later this year, will consist of 10 patients, whose 30-day safety results will be submitted to the FDA for review."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

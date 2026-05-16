@@ -1,0 +1,34 @@
+{
+  "slug": "sprc",
+  "ticker": "SPRC",
+  "issuer_name": "SciSparc Ltd.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-022005",
+      "filed_date": "2026-03-02",
+      "exhibit": "f6k0302202601ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-027018",
+      "filed_date": "2026-03-10",
+      "exhibit": "ea028148301ex99-1.htm + ex99-2.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-028284",
+      "filed_date": "2026-03-16",
+      "exhibit": "ea028180902ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "SciSparc's recent 6-K filings cover M&A and patent activity by majority-owned subsidiary NeuroThera Labs (CliniQuantum acquisition, MEAI-PEA depression patent application), not specific clinical trial milestones. Pipeline (SCI-110 for Tourette/Alzheimer's, SCI-210 for ASD/SE) is mentioned only in About-Company boilerplate without anticipated phase milestones or dates."
+  }
+}

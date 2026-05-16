@@ -1,0 +1,93 @@
+{
+  "slug": "ogen",
+  "ticker": "OGEN",
+  "issuer_name": "ORAGENICS INC",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-021627",
+      "filed_date": "2026-05-07",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-016294",
+      "filed_date": "2026-04-13",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-009682",
+      "filed_date": "2026-03-10",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-021749",
+      "filed_date": "2025-12-15",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ogen",
+      "ticker": "OGEN",
+      "issuer": "ORAGENICS INC",
+      "asset": "ONP-002",
+      "indication": "concussion / mild traumatic brain injury (mTBI)",
+      "phase": "Phase IIa",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-04-13",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Doses First Patient in Phase IIa Clinical Trial of ONP-002 for Mild Traumatic Brain Injury... first patient dosed within days of activation."
+    },
+    {
+      "slug": "ogen",
+      "ticker": "OGEN",
+      "issuer": "ORAGENICS INC",
+      "asset": "ONP-002",
+      "indication": "concussion / mild traumatic brain injury (mTBI)",
+      "phase": "Phase IIa",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Phase IIa clinical data readout is projected before year-end 2026."
+    },
+    {
+      "slug": "ogen",
+      "ticker": "OGEN",
+      "issuer": "ORAGENICS INC",
+      "asset": "ONP-002",
+      "indication": "concussion / mild traumatic brain injury (mTBI)",
+      "phase": "Phase IIa",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Oragenics expects that findings will support its planned investigational new drug (IND) application submission to the FDA, targeting Q4 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

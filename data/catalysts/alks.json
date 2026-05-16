@@ -1,0 +1,80 @@
+{
+  "slug": "alks",
+  "ticker": "ALKS",
+  "issuer_name": "Alkermes plc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-218150",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (REVITALYZ Phase 3 topline PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1520262/000119312526218150/alks-ex99_1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-205008",
+      "filed_date": "2026-05-05",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1520262/000119312526205008/alks-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "alks",
+      "ticker": "ALKS",
+      "issuer": "Alkermes plc.",
+      "asset": "LUMRYZ (sodium oxybate extended-release)",
+      "indication": "idiopathic hypersomnia",
+      "phase": "Phase 3",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1520262/000119312526218150/alks-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Based on the positive results of this phase 3 study, Alkermes plans to file a supplemental New Drug Application (sNDA) with the U.S. Food and Drug Administration (FDA) by the end of 2026."
+    },
+    {
+      "slug": "alks",
+      "ticker": "ALKS",
+      "issuer": "Alkermes plc.",
+      "asset": "LUMRYZ (sodium oxybate extended-release)",
+      "indication": "idiopathic hypersomnia",
+      "phase": "Phase 3",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-12",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1520262/000119312526218150/alks-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Alkermes plans to present detailed results from REVITALYZ at an upcoming medical meeting."
+    },
+    {
+      "slug": "alks",
+      "ticker": "ALKS",
+      "issuer": "Alkermes plc.",
+      "asset": "alixorexton",
+      "indication": "narcolepsy",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-05",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1520262/000119312526205008/alks-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Alixorexton Brilliance Phase 3 Narcolepsy Clinical Program Initiated in Q1 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "May 12, 2026 PR delivers fresh REVITALYZ Phase 3 topline (positive) and sets sNDA filing target by end of 2026. Q1 2026 PR confirms alixorexton Brilliance Phase 3 initiation in Q1 2026 (historical, but freshens initiation status). Avadel acquisition close was Feb 12, 2026 (completed)."
+  }
+}

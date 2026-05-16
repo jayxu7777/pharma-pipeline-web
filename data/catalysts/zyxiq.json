@@ -1,0 +1,48 @@
+{
+  "slug": "zyxiq",
+  "ticker": "ZYXIQ",
+  "issuer_name": "ZYNEX INC",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-113276",
+      "filed_date": "2025-11-17",
+      "exhibit": "zyxi-20251117xex99.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-121390",
+      "filed_date": "2025-12-15",
+      "exhibit": "zyxi-20251215xex99d2.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-006240",
+      "filed_date": "2026-01-22",
+      "exhibit": "zyxi-20260122xex99d1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-017102",
+      "filed_date": "2026-02-17",
+      "exhibit": "zyxi-20260217xex99d1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-017563",
+      "filed_date": "2026-02-18",
+      "exhibit": "zyxi-20260218x8k.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Non-invasive medical devices for pain management and rehabilitation (DME). Recent filings center on federal indictments of former executives and remediation; no clinical/regulatory drug catalysts disclosed."
+  }
+}

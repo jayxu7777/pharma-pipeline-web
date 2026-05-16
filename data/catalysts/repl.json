@@ -1,0 +1,134 @@
+{
+  "slug": "repl",
+  "ticker": "REPL",
+  "issuer_name": "Replimune Group, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-042141",
+      "filed_date": "2026-04-13",
+      "exhibit": "Ex-99.1 (RP1 BLA CRL announcement)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-009510",
+      "filed_date": "2026-02-03",
+      "exhibit": "Ex-99.1 (Q3 FY25 earnings, BLA update)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-002721",
+      "filed_date": "2026-01-12",
+      "exhibit": "Ex-99.1 (JPM 2026 corporate presentation)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-107438",
+      "filed_date": "2025-11-06",
+      "exhibit": "Ex-99.1 (Q2 FY26 earnings)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-100605",
+      "filed_date": "2025-10-20",
+      "exhibit": "Ex-99.1 (FDA BLA acceptance, PDUFA date)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "repl",
+      "ticker": "REPL",
+      "issuer": "Replimune Group, Inc.",
+      "asset": "RP1 (vusolimogene oderparepvec) + nivolumab",
+      "indication": "Advanced melanoma after progression on anti-PD-1",
+      "phase": "BLA",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-04-10",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA accepted resubmission of Biologics License Application (BLA) for RP1 in combination with nivolumab for advanced melanoma in patients who progress on anti-PD-1 containing regimen. PDUFA date is April 10, 2026."
+    },
+    {
+      "slug": "repl",
+      "ticker": "REPL",
+      "issuer": "Replimune Group, Inc.",
+      "asset": "RP1 + nivolumab",
+      "indication": "Advanced melanoma",
+      "phase": "BLA - CRL",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-04-13",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Replimune received a complete response letter (CRL) from the FDA for the BLA for RP1 in combination with nivolumab for advanced melanoma. Replimune disagrees with the FDA about whether the data set is sufficient."
+    },
+    {
+      "slug": "repl",
+      "ticker": "REPL",
+      "issuer": "Replimune Group, Inc.",
+      "asset": "RP1 + nivolumab (IGNYTE-3)",
+      "indication": "Advanced melanoma (confirmatory)",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Global Phase 3 trial IGNYTE-3 assessing RP1 in combination with nivolumab is ongoing. Trial will enroll approximately 400 patients; primary endpoint is overall survival."
+    },
+    {
+      "slug": "repl",
+      "ticker": "REPL",
+      "issuer": "Replimune Group, Inc.",
+      "asset": "RP2 (REVEAL trial)",
+      "indication": "Metastatic uveal melanoma",
+      "phase": "Phase 2/3 registration-directed",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Registration-directed Phase 2/3 REVEAL trial of RP2 in metastatic uveal melanoma is currently enrolling approximately 280 patients. Phase 2/3 transition expected in Q1 2027, with PFS analysis potentially supporting accelerated approval."
+    },
+    {
+      "slug": "repl",
+      "ticker": "REPL",
+      "issuer": "Replimune Group, Inc.",
+      "asset": "RP1 monotherapy (ARTACUS)",
+      "indication": "Cutaneous squamous cell carcinoma in solid organ transplant",
+      "phase": "Phase 2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2025-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Data from ARTACUS Phase 2 trial evaluating RP1 monotherapy in cutaneous squamous cell carcinoma in solid organ transplant patients presented at ESMO Congress 2025."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none"
+  }
+}

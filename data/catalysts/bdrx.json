@@ -1,0 +1,80 @@
+{
+  "slug": "bdrx",
+  "ticker": "BDRX",
+  "issuer_name": "Biodexa Pharmaceuticals Plc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-001984",
+      "filed_date": "2026-03-27",
+      "exhibit": "Ex-99.1 (FY2025 preliminary results PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1643918/000117184326001984/exh_991.htm"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001214659-26-006195",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Shareholder letter / AGM proposals)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926006195/ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "bdrx",
+      "ticker": "BDRX",
+      "issuer": "Biodexa Pharmaceuticals Plc",
+      "asset": "eRapa (oral rapamycin)",
+      "indication": "non-muscle invasive bladder cancer (NMIBC)",
+      "phase": "Phase 2 IIT (fully enrolled, 166 patients)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "2026-03-27",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1643918/000117184326001984/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "An ongoing double-blind, placebo-controlled Phase 2 IIT of eRapa in NMIBC has enrolled all 166 patients and is expected to read out in the third quarter of 2026."
+    },
+    {
+      "slug": "bdrx",
+      "ticker": "BDRX",
+      "issuer": "Biodexa Pharmaceuticals Plc",
+      "asset": "MTX240 (molecular glue, PDE3A-SLFN12)",
+      "indication": "gastrointestinal stromal tumors (GIST)",
+      "phase": "Phase 1b/2a (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "year",
+      "filed_date": "2026-03-27",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1643918/000117184326001984/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Our first step is to manufacture clinical trial supplies of MTX240 and then initiate an open-label Phase 1b/2a study by year-end."
+    },
+    {
+      "slug": "bdrx",
+      "ticker": "BDRX",
+      "issuer": "Biodexa Pharmaceuticals Plc",
+      "asset": "eRapa (oral rapamycin)",
+      "indication": "familial adenomatous polyposis (FAP)",
+      "phase": "Phase 3 (Serenta, registrational)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2029-H2",
+      "date_precision": "half",
+      "filed_date": "2026-03-27",
+      "confidence": "med",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1643918/000117184326001984/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Phase 3 study is expected to take approximately 18 months to recruit all 168 patients and database lock will occur after 75 events which is expected to be in the second half of 2029."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 sharpens eRapa NMIBC Phase 2 IIT readout Q3 2026 and MTX240 Phase 1b/2a GIST initiation year-end 2026; Phase 3 Serenta FAP database lock 2H 2029 is also captured. The May 14 6-K (latest 5-window filing) is a share-capital reorganization shareholder letter with no clinical content; the March 27 preliminary results PR carries the forward-looking clinical milestones."
+  }
+}

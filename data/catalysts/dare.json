@@ -1,0 +1,96 @@
+{
+  "slug": "dare",
+  "ticker": "DARE",
+  "issuer_name": "Dare Bioscience, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001401914-26-000025",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1401914/000140191426000025/"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-012902",
+      "filed_date": "2026-03-26",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1401914/000149315226012902/"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "dare",
+      "ticker": "DARE",
+      "issuer": "Dare Bioscience, Inc.",
+      "asset": "DARE to PLAY (503B compounded)",
+      "indication": "women's sexual health",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1401914/000140191426000025/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "DARE to PLAY Anticipated Dispensing Commencement and Flora Sync LF5 Commercial Launch Summer 2026; First Product Revenue Expected in June 2026."
+    },
+    {
+      "slug": "dare",
+      "ticker": "DARE",
+      "issuer": "Dare Bioscience, Inc.",
+      "asset": "Flora Sync LF5",
+      "indication": "women's consumer health (probiotic)",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1401914/000140191426000025/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Flora Sync LF5 ... is expected to become commercially available in the United States exclusively through the DARE Health Hub in Q2 2026, with consumer health revenue expected to begin at that time."
+    },
+    {
+      "slug": "dare",
+      "ticker": "DARE",
+      "issuer": "Dare Bioscience, Inc.",
+      "asset": "Ovaprene",
+      "indication": "hormone-free monthly contraceptive",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1401914/000140191426000025/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Dare currently anticipates enrollment to complete in 2026, which would put a 2027 topline data readout within reach."
+    },
+    {
+      "slug": "dare",
+      "ticker": "DARE",
+      "issuer": "Dare Bioscience, Inc.",
+      "asset": "DARE-HPV",
+      "indication": "high-risk HPV infection",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1401914/000140191426000025/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Following ARPA-H funding and FDA clearance of the company's IND application in February 2026, Dare is preparing to advance DARE-HPV into a Phase 2 clinical study later in 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

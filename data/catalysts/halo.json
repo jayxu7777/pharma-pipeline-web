@@ -1,0 +1,38 @@
+{
+  "slug": "halo",
+  "ticker": "HALO",
+  "issuer_name": "HALOZYME THERAPEUTICS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001159036-26-000067",
+      "filed_date": "2026-05-11",
+      "exhibit": "ex991q120268-k.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "halo",
+      "ticker": "HALO",
+      "issuer": "HALOZYME THERAPEUTICS, INC.",
+      "asset": "ENHANZE platform",
+      "indication": "platform - multiple partner programs",
+      "phase": "Multiple",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "increasing the number of ENHANZE products in development to nine, well on our way to the expected 13 ENHANZE products in development by year-end 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Halozyme is primarily a royalty/platform company. Most catalysts depend on partner program timelines which are not specifically dated by Halozyme. Only own-company forward-dated metric is the year-end 2026 ENHANZE products-in-development target."
+  }
+}

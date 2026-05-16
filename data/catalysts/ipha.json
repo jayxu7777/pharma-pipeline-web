@@ -1,0 +1,17 @@
+{
+  "slug": "ipha",
+  "ticker": "IPHA",
+  "issuer_name": "Innate Pharma SA",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001628280-26-034383",
+      "filed_date": "2026-05-13",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {}
+}

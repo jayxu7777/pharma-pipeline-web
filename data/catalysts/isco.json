@@ -1,0 +1,20 @@
+{
+  "slug": "isco",
+  "ticker": "ISCO",
+  "issuer_name": "International Stem Cell CORP",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001564590-20-019252",
+      "filed_date": "2020-04-28",
+      "exhibit": "Form 8-K (Item 8.01 COVID-19 10-K extension)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Most recent EDGAR 8-K filings available are from 2015-2020 and contain governance/COVID-19 content with no forward-looking clinical catalyst dates; deeper or alternative filings window needed."
+  }
+}

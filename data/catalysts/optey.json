@@ -1,0 +1,27 @@
+{
+  "slug": "optey",
+  "ticker": "OPTEY",
+  "issuer_name": "Opthea Ltd",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001193125-25-289730",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1 (Nasdaq voluntary delisting)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-25-259864",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1 (Q4 FY25 results and DFA termination)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Company is wound-down: voluntary Nasdaq delisting, Development Funding Agreement terminated, sozinibercept trials closed; recent 6-Ks contain only strategic-review and delisting language, no forward clinical catalysts"
+  }
+}

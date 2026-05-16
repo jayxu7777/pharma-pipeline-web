@@ -1,0 +1,27 @@
+{
+  "slug": "glmd",
+  "ticker": "GLMD",
+  "issuer_name": "Galmed Pharmaceuticals Ltd.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-022873",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (AM-001 PK results)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-021404",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Tissue Dynamics collaboration)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Recent 6-Ks announce PK results and preclinical collaboration; AM-003 PK study described as ongoing without a dated readout target; no specific forward-dated clinical or regulatory catalysts disclosed."
+  }
+}

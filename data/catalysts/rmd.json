@@ -1,0 +1,48 @@
+{
+  "slug": "rmd",
+  "ticker": "RMD",
+  "issuer_name": "RESMED INC",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-258519",
+      "filed_date": "2025-10-30",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-170512",
+      "filed_date": "2025",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-091357",
+      "filed_date": "2025",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-029326",
+      "filed_date": "2026",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-197192",
+      "filed_date": "2026",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "finance-only filings: commercial medical device company (sleep apnea/CPAP); quarterly earnings releases without clinical/regulatory catalysts"
+  }
+}

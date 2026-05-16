@@ -1,0 +1,20 @@
+{
+  "slug": "fnchq",
+  "ticker": "FNCHQ",
+  "issuer_name": "Finch Therapeutics Group, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-24-240034",
+      "filed_date": "2024-10-21",
+      "exhibit": "Ex-99.1 (Nasdaq delisting / wind-down PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "FNCHQ is the post-delisting/wind-down ticker for Finch Therapeutics; same underlying issuer as FNCH. No forward-dated clinical catalysts."
+  }
+}

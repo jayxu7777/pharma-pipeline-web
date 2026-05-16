@@ -1,0 +1,41 @@
+{
+  "slug": "nrxp",
+  "ticker": "NRXP",
+  "issuer_name": "NRX Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-004245",
+      "filed_date": "2026-02-17",
+      "exhibit": "8-K body (ATM prospectus supplement)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-001455",
+      "filed_date": "2026-01-12",
+      "exhibit": "8-K body (Nasdaq listing notice / 2025 Annual Meeting)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-25-038835",
+      "filed_date": "2025-12-29",
+      "exhibit": "Ex-99.2 (debt cancellation / pay-off letter)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-25-031637",
+      "filed_date": "2025-10-23",
+      "exhibit": "Ex-99.1 (HOPE Therapeutics acquisition of Cohen LLC)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Latest 8-Ks cover Nasdaq listing compliance, ATM offering, debt cancellation, HOPE Therapeutics subsidiary acquisitions; no forward-dated clinical/regulatory catalyst milestones disclosed."
+  }
+}

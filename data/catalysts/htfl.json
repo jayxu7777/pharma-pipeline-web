@@ -1,0 +1,20 @@
+{
+  "slug": "htfl",
+  "ticker": "HTFL",
+  "issuer_name": "Heartflow, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001464521-26-000069",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 Q1 2026 earnings PR",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Commercial-stage AI cardiovascular medtech; Q1 2026 PR focused on revenue growth and FFRCT/Plaque Analysis commercial metrics; no specific forward clinical/regulatory catalyst dates disclosed."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "clym",
+  "ticker": "CLYM",
+  "issuer_name": "Climb Bio, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-210295",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings and business updates)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526210295/clym-ex99_1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-092520",
+      "filed_date": "2026-03-05",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526092520/clym-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "clym",
+      "ticker": "CLYM",
+      "issuer": "Climb Bio, Inc.",
+      "asset": "budoprutug (anti-CD19 mAb)",
+      "indication": "Primary membranous nephropathy (pMN) - PrisMN Phase 2",
+      "phase": "Phase 2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526210295/clym-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Anticipate initial data, including preliminary B cell and anti-PLA2R data from low dose cohort (200mg at 12-24 weeks), in Q4 2026."
+    },
+    {
+      "slug": "clym",
+      "ticker": "CLYM",
+      "issuer": "Climb Bio, Inc.",
+      "asset": "budoprutug (anti-CD19 mAb)",
+      "indication": "Immune thrombocytopenia (ITP) - Phase 1b/2a",
+      "phase": "Phase 1b/2a",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "month",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526210295/clym-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Anticipate initial data, including initial B-cell depletion and platelet data from the low dose cohort (250mg at 24 weeks), in June 2026."
+    },
+    {
+      "slug": "clym",
+      "ticker": "CLYM",
+      "issuer": "Climb Bio, Inc.",
+      "asset": "budoprutug (anti-CD19 mAb)",
+      "indication": "Systemic lupus erythematosus (SLE) - Global Phase 1b",
+      "phase": "Phase 1b",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526210295/clym-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Anticipate initial B cell data from the Global study, in Q4 2026 and anticipate first patient dosed in China SLE study in Q2 2026."
+    },
+    {
+      "slug": "clym",
+      "ticker": "CLYM",
+      "issuer": "Climb Bio, Inc.",
+      "asset": "budoprutug (anti-CD19 mAb)",
+      "indication": "SLE / lupus nephritis - China Phase 1b/2a",
+      "phase": "Phase 1b/2a (startup)",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526210295/clym-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "anticipate first patient dosed in China SLE study in Q2 2026."
+    },
+    {
+      "slug": "clym",
+      "ticker": "CLYM",
+      "issuer": "Climb Bio, Inc.",
+      "asset": "CLYM116 (anti-APRIL mAb)",
+      "indication": "Healthy volunteers (IgA nephropathy program)",
+      "phase": "Phase 1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "month",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526210295/clym-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Climb Bio to present modeling data for CLYM116 at the upcoming European Renal Association Congress in June. These data will include PK and PD modeling from nonhuman primates to humans, as well as initial safety data from the ongoing Phase 1 study in healthy volunteers."
+    },
+    {
+      "slug": "clym",
+      "ticker": "CLYM",
+      "issuer": "Climb Bio, Inc.",
+      "asset": "CLYM116 (anti-APRIL mAb)",
+      "indication": "Healthy volunteers",
+      "phase": "Phase 1",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526210295/clym-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Anticipate initial PK/PD data from Phase 1 healthy volunteer study in mid-2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Budoprutug SC formulation P1 in HVs completed (historical). Multiple 2026 cadences fresh from R&D Spotlight: ITP June 2026 low-dose readout, pMN Q4 low-dose readout, SLE Global Q4 B-cell data, China SLE FPI Q2. CLYM116 ERA Congress presentation in June and mid-2026 PK/PD readout fresh."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "npce",
+  "ticker": "NPCE",
+  "issuer_name": "NeuroPace Inc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001528287-26-000019",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "npce",
+      "ticker": "NPCE",
+      "issuer": "NeuroPace Inc",
+      "asset": "RNS System (NAUTILUS PMA-Supplement)",
+      "indication": "idiopathic generalized epilepsy (IGE) indication expansion",
+      "phase": "regulatory (PMA-S)",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Continues to expect IGE contribution following potential NAUTILUS PMA-Supplement (PMA-S) approval in mid-2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

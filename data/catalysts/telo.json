@@ -1,0 +1,83 @@
+{
+  "slug": "telo",
+  "ticker": "TELO",
+  "issuer_name": "Telomir Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-019773",
+      "filed_date": "2026",
+      "exhibit": "form8-k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-013872",
+      "filed_date": "2026",
+      "exhibit": "form8-k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-013785",
+      "filed_date": "2026",
+      "exhibit": "form8-k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-006937",
+      "filed_date": "2026",
+      "exhibit": "form8-k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-005199",
+      "filed_date": "2026",
+      "exhibit": "form8-k.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "telo",
+      "ticker": "TELO",
+      "issuer": "Telomir Pharmaceuticals, Inc.",
+      "asset": "Telomir-1",
+      "indication": "triple-negative breast cancer (oncology)",
+      "phase": "Phase 1/2 (first-in-human)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Plans to Initiate First-in-Human Phase 1/2 Trial in 1H 2026, Anchored by a Leading U.S. Academic Medical Center"
+    },
+    {
+      "slug": "telo",
+      "ticker": "TELO",
+      "issuer": "Telomir Pharmaceuticals, Inc.",
+      "asset": "Telomir-1",
+      "indication": "advanced solid tumors",
+      "phase": "Phase 1/2",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "subject to acceptance of the IND by the FDA, the Company plans to initiate a Phase 1/2 clinical trial evaluating Telomir-1 as an oral monotherapy in patients"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Telomir-1 oral oncology asset: IND and Phase 1/2 initiation planned 1H 2026 (76-patient design)."
+  }
+}

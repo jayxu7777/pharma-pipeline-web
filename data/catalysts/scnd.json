@@ -1,0 +1,20 @@
+{
+  "slug": "scnd",
+  "ticker": "SCND",
+  "issuer_name": "Scientific Industries, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001654954-23-012138",
+      "filed_date": "2023-09-22",
+      "exhibit": "Ex-99.1 (Investor Presentation cover stub)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Laboratory equipment / bioprocessing tools company (Genie line vortex/mixers, benchtop bioreactors). Only one shell exhibit retrieved; most 8-K items are 8.01 generic disclosures with no exhibits. No clinical/regulatory catalysts applicable to a non-therapeutic instruments vendor."
+  }
+}

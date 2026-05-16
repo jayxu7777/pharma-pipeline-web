@@ -1,0 +1,48 @@
+{
+  "slug": "rajaf",
+  "ticker": "RAJAF",
+  "issuer_name": "Cordyceps Sunshine Biotech Holdings Co., Ltd.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-115017",
+      "filed_date": "2025-11-26",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-24-106507",
+      "filed_date": "2024-12-06",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-24-024032",
+      "filed_date": "2024-03-19",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-23-085555",
+      "filed_date": "2023-11-13",
+      "exhibit": "ea187933ex99-1_cordyceps",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-23-080207",
+      "filed_date": "2023-09-28",
+      "exhibit": "",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Issuer is a producer of cordyceps health-care food supplements and herb processing products with no drug pipeline or clinical/regulatory catalysts."
+  }
+}

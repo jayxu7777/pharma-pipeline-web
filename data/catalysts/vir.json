@@ -1,0 +1,161 @@
+{
+  "slug": "vir",
+  "ticker": "VIR",
+  "issuer_name": "Vir Biotechnology, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-031273",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-010740",
+      "filed_date": "2026-02-23",
+      "exhibit": "Ex-99.1/99.2/99.3 (Astellas collab + Q4 2025 earnings)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-001768",
+      "filed_date": "2026-01-12",
+      "exhibit": "Ex-99.1 (JPM press release + deck)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-057394",
+      "filed_date": "2025-12",
+      "exhibit": "Ex-99.1 (Halo press release)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "vir",
+      "ticker": "VIR",
+      "issuer": "Vir Biotechnology, Inc.",
+      "asset": "tobevibart + elebsiran",
+      "indication": "Chronic hepatitis delta (CHD)",
+      "phase": "Phase 3 (ECLIPSE 1)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data from the Phase 3 ECLIPSE 1 trial are expected in the fourth quarter of 2026."
+    },
+    {
+      "slug": "vir",
+      "ticker": "VIR",
+      "issuer": "Vir Biotechnology, Inc.",
+      "asset": "tobevibart + elebsiran",
+      "indication": "Chronic hepatitis delta (CHD)",
+      "phase": "Phase 3 (ECLIPSE 2)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data from the ECLIPSE 2 and ECLIPSE 3 trials are expected in the first quarter of 2027."
+    },
+    {
+      "slug": "vir",
+      "ticker": "VIR",
+      "issuer": "Vir Biotechnology, Inc.",
+      "asset": "tobevibart + elebsiran",
+      "indication": "Chronic hepatitis delta (CHD)",
+      "phase": "Phase 2b (ECLIPSE 3)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data from the ECLIPSE 2 and ECLIPSE 3 trials are expected in the first quarter of 2027."
+    },
+    {
+      "slug": "vir",
+      "ticker": "VIR",
+      "issuer": "Vir Biotechnology, Inc.",
+      "asset": "tobevibart + elebsiran",
+      "indication": "Chronic hepatitis delta (CHD)",
+      "phase": "Phase 2 (SOLSTICE)",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-27",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company will present additional data from the Phase 2 SOLSTICE trial evaluating the combination of tobevibart and elebsiran for CHD at the EASL Congress taking place May 27-30, 2026."
+    },
+    {
+      "slug": "vir",
+      "ticker": "VIR",
+      "issuer": "Vir Biotechnology, Inc.",
+      "asset": "VIR-5500 (PSMA TCE)",
+      "indication": "Metastatic castration-resistant prostate cancer (mCRPC)",
+      "phase": "Phase 1 dose-expansion",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The first patient was dosed in the Phase 1 dose-expansion cohorts evaluating the safety, pharmacokinetics and preliminary efficacy of VIR-5500 in prostate cancer."
+    },
+    {
+      "slug": "vir",
+      "ticker": "VIR",
+      "issuer": "Vir Biotechnology, Inc.",
+      "asset": "VIR-5500 (PSMA TCE)",
+      "indication": "Prostate cancer",
+      "phase": "Phase 3 (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company anticipates initiating pivotal Phase 3 trials in 2027."
+    },
+    {
+      "slug": "vir",
+      "ticker": "VIR",
+      "issuer": "Vir Biotechnology, Inc.",
+      "asset": "VIR-5818 (HER2 TCE)",
+      "indication": "HER2-expressing solid tumors (with pembrolizumab)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1 dose-escalation of VIR-5818, a HER2-targeted PRO-XTEN dual-masked TCE, in combination with pembrolizumab continues, with response data expected in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

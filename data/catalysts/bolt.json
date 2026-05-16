@@ -1,0 +1,39 @@
+{
+  "slug": "bolt",
+  "ticker": "BOLT",
+  "issuer_name": "Bolt Biotherapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-219361",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1641281/000119312526219361/bolt-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "bolt",
+      "ticker": "BOLT",
+      "issuer": "Bolt Biotherapeutics, Inc.",
+      "asset": "BDC-4182 (Boltbody ISAC, claudin 18.2)",
+      "indication": "gastric and gastroesophageal cancer",
+      "phase": "Phase 1/2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1641281/000119312526219361/bolt-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initial clinical data from BDC-4182 Phase 1/2 study for patients with gastric and gastroesophageal cancer expected in the third quarter of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 pinpoints Q3 2026 readout for BDC-4182 gastric/GEJ Ph1/2 data."
+  }
+}

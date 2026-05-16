@@ -1,0 +1,117 @@
+{
+  "slug": "tvtx",
+  "ticker": "TVTX",
+  "issuer_name": "Travere Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001438533-26-000005",
+      "filed_date": "2026-01-13",
+      "exhibit": "tvtx-20260113.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001438533-26-000013",
+      "filed_date": "2026-02",
+      "exhibit": "aex991_2025q4x10xkearnings.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001438533-26-000032",
+      "filed_date": "2026-04-13",
+      "exhibit": "tvtx-20260413.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001438533-26-000041",
+      "filed_date": "2026-05",
+      "exhibit": "a2026q1_8-kxex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-217100",
+      "filed_date": "2026-05",
+      "exhibit": "d38424dex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tvtx",
+      "ticker": "TVTX",
+      "issuer": "Travere Therapeutics, Inc.",
+      "asset": "FILSPARI (sparsentan)",
+      "indication": "Focal segmental glomerulosclerosis (FSGS)",
+      "phase": "sNDA / PDUFA",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-04-13",
+      "date_precision": "exact",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company's supplemental New Drug Application (sNDA) for FILSPARI in FSGS remains under review by the FDA with a Prescription Drug User Fee Act (PDUFA) target action date of April 13, 2026."
+    },
+    {
+      "slug": "tvtx",
+      "ticker": "TVTX",
+      "issuer": "Travere Therapeutics, Inc.",
+      "asset": "FILSPARI (sparsentan)",
+      "indication": "FSGS",
+      "phase": "Commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-04-13",
+      "date_precision": "exact",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On April 13, 2026, Travere Therapeutics announced that the FDA has approved FILSPARI (sparsentan) to reduce proteinuria in adult and pediatric patients aged 8+ with FSGS."
+    },
+    {
+      "slug": "tvtx",
+      "ticker": "TVTX",
+      "issuer": "Travere Therapeutics, Inc.",
+      "asset": "Pegtibatinase",
+      "indication": "Classical homocystinuria (HCU)",
+      "phase": "Phase 3 HARMONY",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "First new patient dosed in restarted Phase 3 HARMONY Study of pegtibatinase; Topline data expected 2H 2027."
+    },
+    {
+      "slug": "tvtx",
+      "ticker": "TVTX",
+      "issuer": "Travere Therapeutics, Inc.",
+      "asset": "Sparsentan",
+      "indication": "IgA nephropathy / FSGS (Japan)",
+      "phase": "NDA (Japan)",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In 2026, the Company's partner, Chugai Pharmaceutical, expects to submit a New Drug Application for sparsentan in Japan."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

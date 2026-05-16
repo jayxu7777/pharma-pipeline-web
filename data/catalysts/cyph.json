@@ -1,0 +1,20 @@
+{
+  "slug": "cyph",
+  "ticker": "CYPH",
+  "issuer_name": "Cyclacel Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "",
+      "accession": "",
+      "filed_date": "",
+      "exhibit": "tm2614533d1_ex99-1.txt",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Latest Ex-99.1 covered Leap Therapeutics subsidiary sirexatamab Fast Track designation (May 2026 historical event); no specific forward-dated catalysts in the press release."
+  }
+}

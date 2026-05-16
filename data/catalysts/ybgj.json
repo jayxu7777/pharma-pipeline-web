@@ -1,0 +1,48 @@
+{
+  "slug": "ybgj",
+  "ticker": "YBGJ",
+  "issuer_name": "Yubo International Biotech Ltd",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001640334-22-002376",
+      "filed_date": "2022-11-10",
+      "exhibit": "yubo_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193805-20-000647",
+      "filed_date": "2020-05-29",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001640334-26-000105",
+      "filed_date": "2026-01-16",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001640334-25-001318",
+      "filed_date": "2025-07-25",
+      "exhibit": "yubo_8k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001640334-25-000025",
+      "filed_date": "2025-01-06",
+      "exhibit": "",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Yubo International Biotech (China-based) filings cover stock purchase agreements, related-party share issuances, auditor changes. No clinical/regulatory catalysts identified."
+  }
+}

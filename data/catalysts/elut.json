@@ -1,0 +1,55 @@
+{
+  "slug": "elut",
+  "ticker": "ELUT",
+  "issuer_name": "ELUTIA INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-061150",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1708527/000110465926061150/elut-20260514xex99d1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "elut",
+      "ticker": "ELUT",
+      "issuer": "ELUTIA INC.",
+      "asset": "NXT-41",
+      "indication": "breast reconstruction biologic matrix",
+      "phase": "510(k) submission",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1708527/000110465926061150/elut-20260514xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA review of the 510(k) submission for NXT-41, the base biologic matrix, is progressing through a collaborative dialogue with the agency. Anticipated clearance is on track for the fourth quarter of 2026."
+    },
+    {
+      "slug": "elut",
+      "ticker": "ELUT",
+      "issuer": "ELUTIA INC.",
+      "asset": "NXT-41x",
+      "indication": "breast reconstruction (antibiotic-eluting biomatrix)",
+      "phase": "510(k) submission",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1708527/000110465926061150/elut-20260514xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company's interactions with the FDA during this review have helped to refine the submission package for NXT-41x, an antibiotic-eluting product, with anticipated clearance in the first half of 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

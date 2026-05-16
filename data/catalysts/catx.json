@@ -1,0 +1,90 @@
+{
+  "slug": "catx",
+  "ticker": "CATX",
+  "issuer_name": "Perspective Therapeutics, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-216777",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Q1 2026 business update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/728387/000119312526216777/catx-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "catx",
+      "ticker": "CATX",
+      "issuer": "Perspective Therapeutics, Inc.",
+      "asset": "[212Pb]VMT-alpha-NET",
+      "indication": "SSTR2+ neuroendocrine tumors (Cohort 2, 46 patients, >=60-week follow-up)",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/728387/000119312526216777/catx-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "By late 2026, all 46 patients in Cohort 2 will have had the opportunity for at least 60 weeks of follow-up since beginning treatment."
+    },
+    {
+      "slug": "catx",
+      "ticker": "CATX",
+      "issuer": "Perspective Therapeutics, Inc.",
+      "asset": "[212Pb]VMT-alpha-NET",
+      "indication": "NETs \u2014 regulatory alignment for registration-enabling study",
+      "phase": "Phase 1/2 / pivotal-enabling",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-11",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/728387/000119312526216777/catx-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "We believe our clinical data package positions us for meaningful regulatory engagement in 2026 to align on the path forward."
+    },
+    {
+      "slug": "catx",
+      "ticker": "CATX",
+      "issuer": "Perspective Therapeutics, Inc.",
+      "asset": "VMT01 (MC1R, 212Pb)",
+      "indication": "melanoma (3.0 mCi mono + nivolumab combo)",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/728387/000119312526216777/catx-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "By late 2026, the 10 patients who had received VMT01 3.0 mCi treatment since the initiation or re-opening of these cohorts in September 2025 will have had the opportunity for at least 24 weeks of follow-up after their initial doses, sufficient time to have completed at least one scan after the full course of treatment."
+    },
+    {
+      "slug": "catx",
+      "ticker": "CATX",
+      "issuer": "Perspective Therapeutics, Inc.",
+      "asset": "PSV359 (FAP-alpha, 212Pb)",
+      "indication": "FAP-positive solid tumors",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/728387/000119312526216777/catx-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "As of April 30, 2026, two patients in Cohort 1 had been treated with [212Pb]PSV359 at 2.5 mCi, and seven patients in Cohort 2 had been treated at 5.0 mCi, for a total of nine patients. By late 2026, these patients will have had the opportunity for at least 32 weeks of follow-up."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 adds late-2026 follow-up data milestones for VMT-alpha-NET cohort 2, VMT01 melanoma, PSV359 FAP \u2014 plus 2026 regulatory engagement plan."
+  }
+}

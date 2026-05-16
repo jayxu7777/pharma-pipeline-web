@@ -1,0 +1,151 @@
+{
+  "slug": "sln",
+  "ticker": "SLN",
+  "issuer_name": "Silence Therapeutics plc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-210428",
+      "filed_date": "",
+      "exhibit": "EX-99.1 Q1 2026 update",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-092578",
+      "filed_date": "",
+      "exhibit": "EX-99.1/99.2 FY2025",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-319156",
+      "filed_date": "2025-12",
+      "exhibit": "EX-99.1 CEO change",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-268102",
+      "filed_date": "",
+      "exhibit": "EX-99.1 Q3 2025",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-247692",
+      "filed_date": "2025-11",
+      "exhibit": "EX-99.1 SANRECO enrollment",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "sln",
+      "ticker": "SLN",
+      "issuer": "Silence Therapeutics plc",
+      "asset": "Divesiran",
+      "indication": "Polycythemia vera (PV)",
+      "phase": "Phase 2",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2025-11",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Silence Therapeutics Completes Enrollment in SANRECO Phase 2 Study of Divesiran for Polycythemia Vera (PV); rapid completion of Phase 2 enrollment."
+    },
+    {
+      "slug": "sln",
+      "ticker": "SLN",
+      "issuer": "Silence Therapeutics plc",
+      "asset": "Divesiran",
+      "indication": "Polycythemia vera",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-08",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 SANRECO trial of divesiran on-track for topline results in August 2026."
+    },
+    {
+      "slug": "sln",
+      "ticker": "SLN",
+      "issuer": "Silence Therapeutics plc",
+      "asset": "Zerlasiran",
+      "indication": "Cardiovascular disease (high Lp(a))",
+      "phase": "Phase 3 ready",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Completed core Phase 3 readiness activities for zerlasiran; program well positioned for a potential third-party partner to initiate Phase 3 development."
+    },
+    {
+      "slug": "sln",
+      "ticker": "SLN",
+      "issuer": "Silence Therapeutics plc",
+      "asset": "SLN312 (AZD1705)",
+      "indication": "Dyslipidemia",
+      "phase": "Phase 1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-24",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1 study abstract accepted for late-breaking oral presentation at the European Atherosclerosis Society (EAS) Congress May 24-27, 2026."
+    },
+    {
+      "slug": "sln",
+      "ticker": "SLN",
+      "issuer": "Silence Therapeutics plc",
+      "asset": "Divesiran",
+      "indication": "PV",
+      "phase": "Phase 1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06-11",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "SANRECO Phase 1 abstract accepted for poster presentation at EHA 2026 Annual Congress June 11-14, 2026."
+    },
+    {
+      "slug": "sln",
+      "ticker": "SLN",
+      "issuer": "Silence Therapeutics plc",
+      "asset": "SLN098",
+      "indication": "Obesity",
+      "phase": "Preclinical",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "SLN098 Preclinical Data Demonstrating Impact on Weight Loss in Obesity Disease Model Anticipated in 2Q 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

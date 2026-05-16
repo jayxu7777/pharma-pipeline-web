@@ -1,0 +1,38 @@
+{
+  "slug": "ibio",
+  "ticker": "IBIO",
+  "issuer_name": "iBio, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-059408",
+      "filed_date": "",
+      "exhibit": "ibio-20260512xex99d1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ibio",
+      "ticker": "IBIO",
+      "issuer": "iBio, Inc.",
+      "asset": "",
+      "indication": "Overweight and obese adults (anti-myostatin Phase 1)",
+      "phase": "",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": ""
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": []
+  }
+}

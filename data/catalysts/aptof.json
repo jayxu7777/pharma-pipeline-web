@@ -1,0 +1,62 @@
+{
+  "slug": "aptof",
+  "ticker": "APTOF",
+  "issuer_name": "Aptose Biosciences Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001171843-26-003381",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/882361/000117184326003381/exh_991.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001171843-26-002103",
+      "filed_date": "2026-03-27",
+      "exhibit": "Ex-99.1 (Year End 2025 results and Plan of Arrangement update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/882361/000117184326002103/exh_991.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "aptof",
+      "ticker": "APTOF",
+      "issuer": "Aptose Biosciences Inc.",
+      "asset": "Tuspetinib (TUS) + venetoclax + azacitidine triplet",
+      "indication": "Newly diagnosed AML ineligible for induction chemotherapy",
+      "phase": "Phase 1/2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06-14",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/882361/000117184326003381/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "TUSCANY Study of Safety and Efficacy of Tuspetinib Plus Standard of Care Venetoclax and Azacitidine in Study Participants with Newly Diagnosed AML Ineligible for Induction Chemotherapy. Live session date & time: June 14, 2026 (11:00 \u2013 12:15 CEST)."
+    },
+    {
+      "slug": "aptof",
+      "ticker": "APTOF",
+      "issuer": "Aptose Biosciences Inc.",
+      "asset": "Aptose corporate (Hanmi Pharmaceutical acquisition)",
+      "indication": "Plan of Arrangement closing",
+      "phase": "N/A",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-05",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/882361/000117184326003381/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "The parties do not anticipate that the regulatory reviews will prevent closing and continue to work toward completing the Arrangement that they target for the month of May."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

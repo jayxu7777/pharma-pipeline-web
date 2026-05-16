@@ -1,0 +1,100 @@
+{
+  "slug": "spro",
+  "ticker": "SPRO",
+  "issuer_name": "Spero Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-280518",
+      "filed_date": "2025-11-13",
+      "exhibit": "d44321dex991.htm + d44321dex992.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-325821",
+      "filed_date": "2025-12-19",
+      "exhibit": "d212013d8k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-032004",
+      "filed_date": "2026-01-30",
+      "exhibit": "d55903d8k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-126244",
+      "filed_date": "2026-03-26",
+      "exhibit": "d107475dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-221567",
+      "filed_date": "2026-05-13",
+      "exhibit": "d147628dex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "spro",
+      "ticker": "SPRO",
+      "issuer": "Spero Therapeutics, Inc.",
+      "asset": "tebipenem HBr",
+      "indication": "Complicated UTI (cUTI), including pyelonephritis",
+      "phase": "NDA",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-06-18",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "GSK announced FDA set the PDUFA date to complete review of the tebipenem HBr NDA as June 18, 2026. NDA submitted by GSK in December 2025 supported by Phase 3 PIVOT-PO results."
+    },
+    {
+      "slug": "spro",
+      "ticker": "SPRO",
+      "issuer": "Spero Therapeutics, Inc.",
+      "asset": "tebipenem HBr",
+      "indication": "cUTI",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2025-05-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "PIVOT-PO trial stopped early for efficacy in May 2025, demonstrating non-inferiority of tebipenem HBr vs IV imipenem-cilastatin in hospitalized cUTI patients including pyelonephritis on overall response at test of cure."
+    },
+    {
+      "slug": "spro",
+      "ticker": "SPRO",
+      "issuer": "Spero Therapeutics, Inc.",
+      "asset": "tebipenem HBr",
+      "indication": "cUTI",
+      "phase": "NDA",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2025-12-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The NDA was submitted by GSK in December 2025, supported by results from the Phase 3 PIVOT-PO trial."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

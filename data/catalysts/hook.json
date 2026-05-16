@@ -1,0 +1,20 @@
+{
+  "slug": "hook",
+  "ticker": "HOOK",
+  "issuer_name": "HOOKIPA Pharma Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-069029",
+      "filed_date": "2025-07-18",
+      "exhibit": "Ex-99.1 voluntary delisting and dissolution PR",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "HOOKIPA sold HB-400/HB-500 to Gilead and announced voluntary delisting/dissolution July 2025; no forward clinical catalysts for residual company."
+  }
+}

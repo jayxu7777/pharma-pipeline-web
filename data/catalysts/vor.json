@@ -1,0 +1,83 @@
+{
+  "slug": "vor",
+  "ticker": "VOR",
+  "issuer_name": "Vor Biopharma Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-127609",
+      "filed_date": "2026-03-27",
+      "exhibit": "Ex-99.1, Ex-10.1, Ex-10.2 ($75M private placement)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-009961",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-324768",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1, Ex-10.1, Ex-10.2",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-275862",
+      "filed_date": "2025",
+      "exhibit": "Ex-1.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-261723",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "vor",
+      "ticker": "VOR",
+      "issuer": "Vor Biopharma Inc.",
+      "asset": "telitacicept (BAFF/APRIL dual fusion protein)",
+      "indication": "Generalized myasthenia gravis (gMG)",
+      "phase": "Phase 3 (global)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Vor Bio intends to use the net proceeds from the private placement to advance the clinical development of telitacicept, including the ongoing global Phase 3 clinical trials for myasthenia gravis and primary Sjogren's disease."
+    },
+    {
+      "slug": "vor",
+      "ticker": "VOR",
+      "issuer": "Vor Biopharma Inc.",
+      "asset": "telitacicept",
+      "indication": "Primary Sjogren's disease",
+      "phase": "Phase 3 (global)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "...the ongoing global Phase 3 clinical trials for myasthenia gravis and primary Sjogren's disease... advance primary Sjogren's disease as a key next frontier."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "ufpt",
+  "ticker": "UFPT",
+  "issuer_name": "UFP TECHNOLOGIES INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-029906",
+      "filed_date": "2026-05-04",
+      "exhibit": "ufpt-20260504x8kxexx991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-012667",
+      "filed_date": "2026-02-27",
+      "exhibit": null,
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-011150",
+      "filed_date": "2026-02-24",
+      "exhibit": "ufpt-20260224x8kxexx991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-054605",
+      "filed_date": "2025-12-02",
+      "exhibit": null,
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-054603",
+      "filed_date": "2025-12-02",
+      "exhibit": null,
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "UFP Technologies is a contract medical device design/manufacturer (single-use components for surgical/MedTech OEMs); reviewed 8-K filings are quarterly earnings releases and executive changes - no own clinical pipeline, no PDUFA/BLA/NDA/Phase trials disclosed."
+  }
+}

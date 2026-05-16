@@ -1,0 +1,20 @@
+{
+  "slug": "lucyw",
+  "ticker": "LUCYW",
+  "issuer_name": "Innovative Eyewear Inc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-000089",
+      "filed_date": "2026-01-07",
+      "exhibit": "innovativeeye_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Warrant ticker for Innovative Eyewear (consumer smart eyewear). Not pharma; no clinical catalysts."
+  }
+}

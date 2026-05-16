@@ -1,0 +1,89 @@
+{
+  "slug": "mdwd",
+  "ticker": "MDWD",
+  "issuer_name": "MediWound Ltd.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001178913-26-000745",
+      "filed_date": "2026-03-05",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "mdwd",
+      "ticker": "MDWD",
+      "issuer": "MediWound Ltd.",
+      "asset": "EscharEx",
+      "indication": "venous leg ulcers (VALUE trial)",
+      "phase": "Phase 3",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "interim sample size assessment and enrollment completion are expected by year-end 2026."
+    },
+    {
+      "slug": "mdwd",
+      "ticker": "MDWD",
+      "issuer": "MediWound Ltd.",
+      "asset": "EscharEx",
+      "indication": "venous leg ulcers (VALUE trial)",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "interim sample size assessment and enrollment completion are expected by year-end 2026."
+    },
+    {
+      "slug": "mdwd",
+      "ticker": "MDWD",
+      "issuer": "MediWound Ltd.",
+      "asset": "EscharEx",
+      "indication": "diabetic foot ulcers (DFUs)",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "A Phase II study in diabetic foot ulcers (DFUs) and an investigator-initiated trial (IIT) in pressure ulcers (PUs) are planned for the second half of 2026."
+    },
+    {
+      "slug": "mdwd",
+      "ticker": "MDWD",
+      "issuer": "MediWound Ltd.",
+      "asset": "NexoBrid (expanded facility)",
+      "indication": "burns / chronic wounds",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Commercial supply from the facility remains subject to regulatory approvals expected in 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

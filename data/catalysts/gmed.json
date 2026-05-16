@@ -1,0 +1,20 @@
+{
+  "slug": "gmed",
+  "ticker": "GMED",
+  "issuer_name": "Globus Medical, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-032164",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Globus Medical is a musculoskeletal medtech (spine/orthopedic) company. Q1 2026 PR contains only financial results and 2026 financial guidance (revenue $3.18-3.22B, non-GAAP EPS $4.70-$4.80); no clinical-stage assets, no PDUFA/BLA/NDA/IND or clinical readouts disclosed."
+  }
+}

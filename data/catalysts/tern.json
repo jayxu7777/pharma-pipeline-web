@@ -1,0 +1,117 @@
+{
+  "slug": "tern",
+  "ticker": "TERN",
+  "issuer_name": "Terns Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-205305",
+      "filed_date": "2026",
+      "exhibit": "d70112dex31.htm + ex32",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-179062",
+      "filed_date": "2026",
+      "exhibit": "d122087dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-122785",
+      "filed_date": "2026",
+      "exhibit": "d86253dex21.htm + ex991 (Merck acquisition)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-008907",
+      "filed_date": "2026-01",
+      "exhibit": "d69982dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-315065",
+      "filed_date": "2025",
+      "exhibit": "d93950dex11 + ex51 + ex991",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tern",
+      "ticker": "TERN",
+      "issuer": "Terns Pharmaceuticals, Inc.",
+      "asset": "TERN-701",
+      "indication": "chronic myeloid leukemia (CML)",
+      "phase": "Phase 1/2 CARDINAL",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Updated and expanded CARDINAL data by second half of 2026... and initiation of 2L+ pivotal trial in late 2026/early 2027"
+    },
+    {
+      "slug": "tern",
+      "ticker": "TERN",
+      "issuer": "Terns Pharmaceuticals, Inc.",
+      "asset": "TERN-701",
+      "indication": "CML (2L+)",
+      "phase": "pivotal trial",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027-01",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "initiation of 2L+ pivotal trial in late 2026/early 2027"
+    },
+    {
+      "slug": "tern",
+      "ticker": "TERN",
+      "issuer": "Terns Pharmaceuticals, Inc.",
+      "asset": "TERN-701",
+      "indication": "CML",
+      "phase": "Phase 1/2 CARDINAL",
+      "milestone_type": "breakthrough designation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "BTD is based on data from the ongoing Phase 1/2 CARDINAL clinical trial of TERN-701; FDA granted Orphan Drug Designation"
+    },
+    {
+      "slug": "tern",
+      "ticker": "TERN",
+      "issuer": "Terns Pharmaceuticals, Inc.",
+      "asset": "TERN-701",
+      "indication": "CML",
+      "phase": "Phase 1/2",
+      "milestone_type": "M&A / acquisition",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The transaction has been approved by both Merck's and Terns' Boards of Directors... will acquire all of the outstanding shares of Terns"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "TERN-701 CARDINAL CML asset: BTD/Orphan, updated data 2H 2026, pivotal initiation late 2026/early 2027. Merck announced tender offer to acquire Terns in 2026."
+  }
+}

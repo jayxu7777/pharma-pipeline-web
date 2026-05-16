@@ -1,0 +1,27 @@
+{
+  "slug": "ftlf",
+  "ticker": "FTLF",
+  "issuer_name": "FITLIFE BRANDS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-016983",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-011607",
+      "filed_date": "2026-04-07",
+      "exhibit": "Ex-99.1 (FY2025 earnings PR / call transcript)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "FitLife Brands is a consumer nutritional supplements company (Irwin Naturals, MusclePharm, etc.) \u2014 no clinical or regulatory pipeline. PRs cover revenue, Amazon channel performance, and product launches only."
+  }
+}

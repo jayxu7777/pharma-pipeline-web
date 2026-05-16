@@ -1,0 +1,20 @@
+{
+  "slug": "emma",
+  "ticker": "EMMA",
+  "issuer_name": "Emmaus Life Sciences, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-036886",
+      "filed_date": "2026-03-30",
+      "exhibit": "Ex-99.1 (FY2025 annual results PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/822370/000121390026036886/ea028389901ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Commercial-stage company; sole product Endari is FDA-approved and on-market. Annual PR is financial only; Saudi FDA marketing authorization pending but no specific anticipated date provided. No forward-dated catalysts identified."
+  }
+}

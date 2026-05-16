@@ -1,0 +1,69 @@
+{
+  "slug": "ssii",
+  "ticker": "SSII",
+  "issuer_name": "SS Innovations International, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-055468",
+      "filed_date": "",
+      "exhibit": "ea029045301ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-051915",
+      "filed_date": "",
+      "exhibit": "ea028912501ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-046888",
+      "filed_date": "",
+      "exhibit": "ea028744001ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ssii",
+      "ticker": "SSII",
+      "issuer": "SS Innovations International, Inc.",
+      "asset": "SSi Mantra surgical robotic system",
+      "indication": "robotic surgery",
+      "phase": "Regulatory submission",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Filing of our 510(k) premarket notification for the SSi Mantra this year. Separately, we continue along the pathway towards a European Union CE marking certification for the SSi Mantra, which we believe we can also obtain in 2026."
+    },
+    {
+      "slug": "ssii",
+      "ticker": "SSII",
+      "issuer": "SS Innovations International, Inc.",
+      "asset": "Next-gen instruments",
+      "indication": "robotic surgery",
+      "phase": "Early clinical validation",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "",
+      "date_precision": "none",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "currently proceeding through early clinical validation phases in India"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

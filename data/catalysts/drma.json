@@ -1,0 +1,62 @@
+{
+  "slug": "drma",
+  "ticker": "DRMA",
+  "issuer_name": "Dermata Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-022710",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1853816/000149315226022710/"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-012991",
+      "filed_date": "2026-03-26",
+      "exhibit": "Ex-99.1 (FY2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1853816/000149315226012991/"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "drma",
+      "ticker": "DRMA",
+      "issuer": "Dermata Therapeutics, Inc.",
+      "asset": "Tome Foundational Treatment (DTC skincare)",
+      "indication": "skincare/dermatology consumer product",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1853816/000149315226022710/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company anticipates being ready to launch the Foundational Treatment in the middle of 2026."
+    },
+    {
+      "slug": "drma",
+      "ticker": "DRMA",
+      "issuer": "Dermata Therapeutics, Inc.",
+      "asset": "Tome Clearing Treatment (acne DTC)",
+      "indication": "acne (consumer skincare)",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1853816/000149315226022710/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company is also working on its second DTC product which is expected to launch after its Foundational Treatment. ... The Clearing Treatment is expected to launch shortly after the Foundational Treatment."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Company pivoted from XYNGARI (Phase 3 acne drug) toward DTC skincare brand Tome; only commercial launch dates disclosed, no new clinical catalysts. XYNGARI Phase 3 topline was historical."
+  }
+}

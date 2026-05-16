@@ -1,0 +1,100 @@
+{
+  "slug": "vtrs",
+  "ticker": "VTRS",
+  "issuer_name": "Viatris Inc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001792044-26-000025",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001792044-26-000010",
+      "filed_date": "2026-02",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001792044-25-000042",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1 (Q3 2025 earnings)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-018887",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-25-044706",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "vtrs",
+      "ticker": "VTRS",
+      "issuer": "Viatris Inc",
+      "asset": "Effexor SR (venlafaxine hydrochloride) 37.5/75 mg",
+      "indication": "Generalized anxiety disorder (Japan)",
+      "phase": "Approved",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-03",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In March 2026, the Company announced that Japan's Ministry of Health, Labour and Welfare approved Effexor SR 37.5 mg / 75 mg capsules (venlafaxine hydrochloride), a serotonin-noradrenaline reuptake inhibitor, for the treatment of adults with generalized anxiety disorder."
+    },
+    {
+      "slug": "vtrs",
+      "ticker": "VTRS",
+      "issuer": "Viatris Inc",
+      "asset": "MR-141 (phentolamine ophthalmic solution 0.75%)",
+      "indication": "Presbyopia",
+      "phase": "Phase 3 (VEGA-3)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-04",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In April 2026, the Company announced that four abstracts were presented at the American Society of Cataract and Refractive Surgery Annual Meeting in Washington, D.C., April 10-13, 2026. The presentations included data across various areas of ophthalmology, including full results from VEGA-3, a Phase 3 study evaluating MR-141 (phentolamine ophthalmic solution 0.75%) for presbyopia."
+    },
+    {
+      "slug": "vtrs",
+      "ticker": "VTRS",
+      "issuer": "Viatris Inc",
+      "asset": "Low-dose estrogen weekly patch (150 mcg norelgestromin + 17.5 mcg ethinyl estradiol)",
+      "indication": "Contraception",
+      "phase": "Phase 3",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-05",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In May 2026, the Company announced that six abstracts on its investigational low dose estrogen weekly patch ... presented at the 2026 ACOG Annual Clinical & Scientific Meeting ... included positive results from the previously announced Phase 3 study evaluating the contraceptive efficacy and safety."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

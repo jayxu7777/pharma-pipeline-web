@@ -1,0 +1,20 @@
+{
+  "slug": "hrow",
+  "ticker": "HROW",
+  "issuer_name": "HARROW, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-022227",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 Q1 2026 earnings PR",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Commercial-stage ophthalmic specialty pharma; Q1 PR focused on VEVYE/IHEEZO/TRIESENCE commercial metrics and revenue guidance; no specific forward clinical/regulatory catalyst dates."
+  }
+}

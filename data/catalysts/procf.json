@@ -1,0 +1,27 @@
+{
+  "slug": "procf",
+  "ticker": "PROCF",
+  "issuer_name": "Sofgen Pharma S.A.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-118714",
+      "filed_date": "2025-12",
+      "exhibit": "ea0268660-6k_sofgen.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-112342",
+      "filed_date": "2025-11",
+      "exhibit": "ea026633201ex99-1_procaps.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "PROCF is same issuer (CIK 0001863362) as PRCWF (Sofgen Pharma f/k/a Procaps). Recent 6-Ks are corporate governance only (AGM/EGM convening notices, name change, share capital increase, rectified financials); no clinical/regulatory catalysts in fetched filings"
+  }
+}

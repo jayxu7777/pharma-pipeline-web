@@ -1,0 +1,134 @@
+{
+  "slug": "sngx",
+  "ticker": "SNGX",
+  "issuer_name": "SOLIGENIX, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-049787",
+      "filed_date": "2026-04-28",
+      "exhibit": "EX-99.1 FLASH2 interim",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-014267",
+      "filed_date": "2026-02-12",
+      "exhibit": "EX-99.1 corporate update",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-006233",
+      "filed_date": "",
+      "exhibit": "8-K + EX-10.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-094507",
+      "filed_date": "2025-09-25",
+      "exhibit": "EX-99.1 offering / multi exhibits",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001558370-25-011625",
+      "filed_date": "2025-08-18",
+      "exhibit": "EX-99.1 orphan drug designation",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "sngx",
+      "ticker": "SNGX",
+      "issuer": "SOLIGENIX, INC.",
+      "asset": "HyBryte (SGX301 / synthetic hypericin)",
+      "indication": "Early-stage cutaneous T-cell lymphoma (CTCL)",
+      "phase": "Phase 3",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-04-28",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Soligenix Announces Interim Results from the Phase 3 FLASH2 Trial Evaluating HyBryte in CTCL; DMC interim efficacy analysis recommended the study halt for futility."
+    },
+    {
+      "slug": "sngx",
+      "ticker": "SNGX",
+      "issuer": "SOLIGENIX, INC.",
+      "asset": "HyBryte",
+      "indication": "Early-stage CTCL",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Top-line results from the 80-patient confirmatory Phase 3 FLASH2 trial of HyBryte in early-stage CTCL are expected in the second half of 2026, with an interim analysis fast approaching in 2Q."
+    },
+    {
+      "slug": "sngx",
+      "ticker": "SNGX",
+      "issuer": "SOLIGENIX, INC.",
+      "asset": "SGX945 (dusquetide)",
+      "indication": "Beh\u00e7et's Disease",
+      "phase": "Phase 2b",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Plans to reformulate SGX945 for home-based treatment and to design a follow-on placebo-controlled Phase 2b study in 2026 in Beh\u00e7et's Disease."
+    },
+    {
+      "slug": "sngx",
+      "ticker": "SNGX",
+      "issuer": "SOLIGENIX, INC.",
+      "asset": "SGX945 (dusquetide)",
+      "indication": "Beh\u00e7et's Disease",
+      "phase": "Phase 2a",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2025-08-18",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA Office of Orphan Products Development has granted orphan drug designation to dusquetide (active ingredient in SGX945) for Behcet's Disease; provides seven years of US market exclusivity upon FDA approval."
+    },
+    {
+      "slug": "sngx",
+      "ticker": "SNGX",
+      "issuer": "SOLIGENIX, INC.",
+      "asset": "SGX302",
+      "indication": "Mild-to-moderate psoriasis",
+      "phase": "Phase 2a",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2025-12",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Top-line results were reported in December for the last cohort of four patients in the Phase 2a clinical trial in mild-to-moderate psoriasis with SGX302."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

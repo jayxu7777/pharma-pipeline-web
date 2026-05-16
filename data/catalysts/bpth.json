@@ -1,0 +1,27 @@
+{
+  "slug": "bpth",
+  "ticker": "BPTH",
+  "issuer_name": "BIO-PATH HOLDINGS, INC.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001663577-26-000064",
+      "filed_date": "2026-03-19",
+      "exhibit": "Form 8-K (Wyoming domestication and Series S Preferred Stock creation; Scientific Advisory Board appointments)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1133818/000166357726000064/bpth_8k031926.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001558370-25-008814",
+      "filed_date": "2025-06-24",
+      "exhibit": "Form 8-K (CEO/CFO resignation and operational pause)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1133818/000155837025008814/bpth-20250620x8k.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Bio-Path instituted a Company-wide operational pause in June 2025 and furloughed most employees; subsequent 8-Ks cover governance and corporate restructuring only; no forward clinical or regulatory catalyst dates disclosed."
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "evmn",
+  "ticker": "EVMN",
+  "issuer_name": "Evommune, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-211934",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "evmn",
+      "ticker": "EVMN",
+      "issuer": "Evommune, Inc.",
+      "asset": "EVO756 (oral MRGPRX2 antagonist)",
+      "indication": "Chronic Spontaneous Urticaria (CSU)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Enrollment is complete in a Phase 2b dose-ranging clinical trial (N=160) in moderate-to-severe CSU and the Company expects to report top-line results in June 2026."
+    },
+    {
+      "slug": "evmn",
+      "ticker": "EVMN",
+      "issuer": "Evommune, Inc.",
+      "asset": "EVO756 (oral MRGPRX2 antagonist)",
+      "indication": "Atopic Dermatitis (AD)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Enrollment is complete in a Phase 2b dose-ranging clinical trial (N=120) in moderate-to-severe AD patients and the Company expects to report top-line results in the third quarter of 2026."
+    },
+    {
+      "slug": "evmn",
+      "ticker": "EVMN",
+      "issuer": "Evommune, Inc.",
+      "asset": "EVO756 (oral MRGPRX2 antagonist)",
+      "indication": "Migraine prophylaxis",
+      "phase": "Phase 2b",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Plans to initiate a Phase 2b dose-ranging clinical trial of EVO756 in migraine prophylaxis in mid-2026"
+    },
+    {
+      "slug": "evmn",
+      "ticker": "EVMN",
+      "issuer": "Evommune, Inc.",
+      "asset": "EVO756 (oral MRGPRX2 antagonist)",
+      "indication": "Migraine prophylaxis",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Top-line data from the trial are anticipated in 2027."
+    },
+    {
+      "slug": "evmn",
+      "ticker": "EVMN",
+      "issuer": "Evommune, Inc.",
+      "asset": "EVO301 (subcutaneous IL-18 binding protein)",
+      "indication": "Atopic Dermatitis (AD)",
+      "phase": "Phase 2b",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The planned Phase 2b, placebo-controlled, dose-ranging clinical trial is expected to include at least three dosing regimens of EVO301 tested over a 16-week treatment period, with a planned trial start in mid-2027 following completion of standard scale-up and toxicology activities."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

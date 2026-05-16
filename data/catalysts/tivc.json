@@ -1,0 +1,76 @@
+{
+  "slug": "tivc",
+  "ticker": "TIVC",
+  "issuer_name": "Tivic Health Systems, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-017082",
+      "filed_date": "2026-05-14",
+      "exhibit": "ex_941939.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-26-003446",
+      "filed_date": "2026-05-04",
+      "exhibit": "valion_ex9901.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-009789",
+      "filed_date": "2026-03-25",
+      "exhibit": "tivc20251119_8k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-26-001461",
+      "filed_date": "2026-03-04",
+      "exhibit": "tivic_ex9901.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tivc",
+      "ticker": "TIVC",
+      "issuer": "Tivic Health Systems, Inc.",
+      "asset": "Entolimod",
+      "indication": "Acute Radiation Syndrome (ARS)",
+      "phase": "regulatory",
+      "milestone_type": "fast_track",
+      "anticipated_date_iso": "2026-05",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Reinforced regulatory pathway for Entolimod under the FDA's Animal Rule, supported by the program's Fast Track and Orphan Drug designations and the previously demonstrated 200-fold manufacturing scale-up at 50-liter fermentation"
+    },
+    {
+      "slug": "tivc",
+      "ticker": "TIVC",
+      "issuer": "Tivic Health Systems, Inc.",
+      "asset": "Entolimod",
+      "indication": "Acute Radiation Syndrome (ARS)",
+      "phase": "regulatory",
+      "milestone_type": "approval_pathway",
+      "anticipated_date_iso": "2026-05",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Valion Bio is in the process of advancing Entolimod toward an FDA Animal Rule approval pathway for ARS"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

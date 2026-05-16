@@ -1,0 +1,55 @@
+{
+  "slug": "glpgf",
+  "ticker": "GLPGF",
+  "issuer_name": "GALAPAGOS NV",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-003080",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 financial results / business update PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "glpgf",
+      "ticker": "GLPGF",
+      "issuer": "GALAPAGOS NV",
+      "asset": "GLPG3667",
+      "indication": "Systemic lupus erythematosus (SLE)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "The GALACELA SLE study with GLPG3667 is currently ongoing, and the final Week 48 data are expected in the second quarter of 2026."
+    },
+    {
+      "slug": "glpgf",
+      "ticker": "GLPGF",
+      "issuer": "GALAPAGOS NV",
+      "asset": "gamgertamig (OM336)",
+      "indication": "Autoimmune diseases (AIHA/ITP)",
+      "phase": "Phase 1/2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Gamgertamig has been granted both Fast Track and Orphan Drug Designation by the U.S. FDA for the treatment of AIHA and ITP and is expected to enter registrational studies as early as 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

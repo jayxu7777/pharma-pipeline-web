@@ -1,0 +1,100 @@
+{
+  "slug": "vcnx",
+  "ticker": "VCNX",
+  "issuer_name": "VACCINEX, INC.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-24-189569",
+      "filed_date": "2024",
+      "exhibit": "d858316dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-24-200272",
+      "filed_date": "2024",
+      "exhibit": "d838109dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-24-203149",
+      "filed_date": "2024",
+      "exhibit": null,
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-24-280155",
+      "filed_date": "2024",
+      "exhibit": "d875332dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-049988",
+      "filed_date": "2025",
+      "exhibit": "d811414dex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "vcnx",
+      "ticker": "VCNX",
+      "issuer": "VACCINEX, INC.",
+      "asset": "Pepinemab",
+      "indication": "Alzheimer's disease",
+      "phase": "Phase 1b/2 (SIGNAL-AD, completed)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2024-08",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Positive topline results from Phase 1b/2 trial of pepinemab antibody in Alzheimer's disease presented; cognitive benefit in MCI due to AD."
+    },
+    {
+      "slug": "vcnx",
+      "ticker": "VCNX",
+      "issuer": "VACCINEX, INC.",
+      "asset": "Pepinemab",
+      "indication": "Alzheimer's disease",
+      "phase": "Phase 1b/2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2024-07",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Reported at Alzheimer's Association International Conference in Philadelphia, July 28 to August 1, 2024, that increase in GFAP in MCI due to AD is reduced by pepinemab."
+    },
+    {
+      "slug": "vcnx",
+      "ticker": "VCNX",
+      "issuer": "VACCINEX, INC.",
+      "asset": "Pepinemab",
+      "indication": "Head and neck cancer / pancreatic adenocarcinoma (PDAC)",
+      "phase": "Phase 1b/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "pepinemab is being evaluated in combination with checkpoint inhibitors in the Phase 1b/2 KEYNOTE-B84 study in HNSCC and in metastatic PDAC."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

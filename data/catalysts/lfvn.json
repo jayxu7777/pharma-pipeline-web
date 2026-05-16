@@ -1,0 +1,27 @@
+{
+  "slug": "lfvn",
+  "ticker": "LFVN",
+  "issuer_name": "Lifevantage Corp",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-005431",
+      "filed_date": "2026-02-04",
+      "exhibit": "Ex-99.1 (Q2 FY2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-208934",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q3 FY2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "LifeVantage is a nutraceutical/consumer-health MLM (Protandim, MindBody GLP-1 System, LoveBiome). PR contains only financial guidance and generic 'new product launches over the next couple quarters' language with no clinical or regulatory catalyst dates. No forward-dated clinical milestones."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "vxrt",
+  "ticker": "VXRT",
+  "issuer_name": "Vaxart, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-015586",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-013195",
+      "filed_date": "2026-04-23",
+      "exhibit": "form body",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-012623",
+      "filed_date": "2026-04-17",
+      "exhibit": "Ex-99.1, Ex-99.2",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-007968",
+      "filed_date": "2026-03",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "vxrt",
+      "ticker": "VXRT",
+      "issuer": "Vaxart, Inc.",
+      "asset": "Vaxart oral COVID-19 pill vaccine",
+      "indication": "COVID-19 (BARDA-funded sentinel cohort)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Topline data from 400-person sentinel cohort of the Phase 2b COVID-19 trial anticipated in Q2 2026."
+    },
+    {
+      "slug": "vxrt",
+      "ticker": "VXRT",
+      "issuer": "Vaxart, Inc.",
+      "asset": "Vaxart oral COVID-19 pill vaccine",
+      "indication": "COVID-19 (main 5,000-participant KP.2 cohort)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "The primary data readout from the main KP.2 cohort of approximately 5,000 participants is currently anticipated in early 2027."
+    },
+    {
+      "slug": "vxrt",
+      "ticker": "VXRT",
+      "issuer": "Vaxart, Inc.",
+      "asset": "Vaxart oral COVID-19 pill vaccine",
+      "indication": "COVID-19 trial enrollment",
+      "phase": "Phase 2b",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-03",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "The trial is fully enrolled with approximately 5,400 participants across the two cohorts - Vaxart's oral pill vs. mRNA injectable."
+    },
+    {
+      "slug": "vxrt",
+      "ticker": "VXRT",
+      "issuer": "Vaxart, Inc.",
+      "asset": "Vaxart bivalent norovirus vaccine",
+      "indication": "Norovirus (cross-reactivity characterization)",
+      "phase": "preclinical/Phase 1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Vaxart is evaluating the cross-reactivity of its next generation bivalent product to GII.17 and other strains. These results are expected to be discussed in scientific meetings and potential scientific publications later in 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

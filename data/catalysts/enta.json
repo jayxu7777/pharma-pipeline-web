@@ -1,0 +1,106 @@
+{
+  "slug": "enta",
+  "ticker": "ENTA",
+  "issuer_name": "ENANTA PHARMACEUTICALS INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-216735",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Fiscal Q2 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1177648/000119312526216735/enta-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "enta",
+      "ticker": "ENTA",
+      "issuer": "ENANTA PHARMACEUTICALS INC",
+      "asset": "EDP-978",
+      "indication": "chronic urticaria",
+      "phase": "Phase 1",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1177648/000119312526216735/enta-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Dosing Initiated in a Phase 1 Trial of EDP-978, an Oral, Once-Daily KIT Inhibitor in Development for the Treatment of Chronic Urticaria; On Track to Report Topline Data in 4Q 2026."
+    },
+    {
+      "slug": "enta",
+      "ticker": "ENTA",
+      "issuer": "ENANTA PHARMACEUTICALS INC",
+      "asset": "EPS-3903",
+      "indication": "atopic dermatitis (STAT6 inhibitor)",
+      "phase": "preclinical",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1177648/000119312526216735/enta-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On Track to File an IND for EPS-3903, an Oral, Once-Daily STAT6 Inhibitor Development Candidate and to Select an MRGPRX2 Development Candidate, in 2H 2026."
+    },
+    {
+      "slug": "enta",
+      "ticker": "ENTA",
+      "issuer": "ENANTA PHARMACEUTICALS INC",
+      "asset": "zelicapavir",
+      "indication": "respiratory syncytial virus (RSV) in high-risk adults",
+      "phase": "Phase 2b/pivotal-enabling",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-15",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1177648/000119312526216735/enta-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enanta will present an oral presentation highlighting zelicapavir at the American Thoracic Society (ATS) International Conference 2026, being held May 15-20, 2026, in Orlando, Florida."
+    },
+    {
+      "slug": "enta",
+      "ticker": "ENTA",
+      "issuer": "ENANTA PHARMACEUTICALS INC",
+      "asset": "zelicapavir",
+      "indication": "respiratory syncytial virus (RSV) in high-risk adults",
+      "phase": "Phase 2b/pivotal-enabling",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1177648/000119312526216735/enta-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enanta continues to conduct enabling activities for a pivotal study of zelicapavir in high-risk patients with RSV, including engaging with the FDA on the registrational development path. The Company plans to provide an update on the study design and development path in the second quarter of 2026."
+    },
+    {
+      "slug": "enta",
+      "ticker": "ENTA",
+      "issuer": "ENANTA PHARMACEUTICALS INC",
+      "asset": "MRGPRX2 program",
+      "indication": "multiple chronic inflammatory diseases",
+      "phase": "preclinical",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1177648/000119312526216735/enta-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Currently, the Company is evaluating multiple compounds in pre-clinical studies and expects to select a development candidate in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

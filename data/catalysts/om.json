@@ -1,0 +1,66 @@
+{
+  "slug": "om",
+  "ticker": "OM",
+  "issuer_name": "Outset Medical, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-211980",
+      "filed_date": "2026-05-07",
+      "exhibit": "om-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-046588",
+      "filed_date": "2026-02-11",
+      "exhibit": "om-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-023428",
+      "filed_date": "2026-01-29",
+      "exhibit": "om-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-009865",
+      "filed_date": "2026-01-12",
+      "exhibit": "om-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-274193",
+      "filed_date": "2025-11-04",
+      "exhibit": "om-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "om",
+      "ticker": "OM",
+      "issuer": "Outset Medical, Inc.",
+      "asset": "next-generation Tablo platform",
+      "indication": "hemodialysis (enterprise-level cybersecurity, reliability and connectivity)",
+      "phase": "commercial",
+      "milestone_type": "launch",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Received clearance from the U.S. Food and Drug Administration for the next-generation Tablo platform, designed for enterprise-level cybersecurity, reliability and connectivity, which is expected to launch in the second quarter."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Commercial-stage medtech with Tablo hemodialysis system (FDA-cleared, commercial). Recent 8-Ks are quarterly earnings and investor presentations. Only forward-looking product event is the next-generation Tablo platform commercial launch in Q2 2026 (already FDA cleared)."
+  }
+}

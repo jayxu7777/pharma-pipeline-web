@@ -1,0 +1,97 @@
+{
+  "slug": "cnta",
+  "ticker": "CNTA",
+  "issuer_name": "Centessa Pharmaceuticals plc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-134656",
+      "filed_date": "2026-03-31",
+      "exhibit": "Ex-99.1 (Lilly acquisition PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847903/000119312526134656/d145970dex991.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001847903-25-000154",
+      "filed_date": "2025-11-05",
+      "exhibit": "Ex-99.1 (Q3 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847903/000184790325000154/cntapr-q32025.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cnta",
+      "ticker": "CNTA",
+      "issuer": "Centessa Pharmaceuticals plc",
+      "asset": "Centessa (corporate)",
+      "indication": "Sleep-wake disorders portfolio",
+      "phase": "N/A",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "2026-03-31",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1847903/000119312526134656/d145970dex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "is expected to close in the third quarter, subject to approval by Centessa shareholders, sanction by the High Court of Justice of England and Wales and satisfaction of other customary closing conditions, including regulatory approvals."
+    },
+    {
+      "slug": "cnta",
+      "ticker": "CNTA",
+      "issuer": "Centessa Pharmaceuticals plc",
+      "asset": "ORX750 (cleminorexton)",
+      "indication": "Narcolepsy type 1 (NT1), NT2, idiopathic hypersomnia",
+      "phase": "Phase 2a",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "2025-11-05",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1847903/000184790325000154/cntapr-q32025.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Expect to initiate registrational program in Q1 2026"
+    },
+    {
+      "slug": "cnta",
+      "ticker": "CNTA",
+      "issuer": "Centessa Pharmaceuticals plc",
+      "asset": "ORX142",
+      "indication": "Undisclosed (OX2R agonist)",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "2025-11-05",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1847903/000184790325000154/cntapr-q32025.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1 first-in-human study is ongoing. Expect to initiate patient studies in Q1 2026."
+    },
+    {
+      "slug": "cnta",
+      "ticker": "CNTA",
+      "issuer": "Centessa Pharmaceuticals plc",
+      "asset": "ORX489",
+      "indication": "Undisclosed (OX2R agonist)",
+      "phase": "IND-enabling",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "2025-11-05",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1847903/000184790325000154/cntapr-q32025.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Advancing in IND-enabling studies. The Company is focused on obtaining IND clearance and initiating clinical studies in Q1 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Lilly acquisition close Q3 2026 is dominant tier1 catalyst; sleep-wake pipeline initiation dates from Q3 2025 PR are now likely realized (today 2026-05-15)."
+  }
+}

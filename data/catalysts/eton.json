@@ -1,0 +1,123 @@
+{
+  "slug": "eton",
+  "ticker": "ETON",
+  "issuer_name": "Eton Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-017063",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "eton",
+      "ticker": "ETON",
+      "issuer": "Eton Pharmaceuticals, Inc.",
+      "asset": "KHINDIVI (label expansion)",
+      "indication": "Bioequivalence study results",
+      "phase": "Late-stage / BE study",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-07",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The bioequivalence study of the Company's revised KHINDIVI formulation is ongoing, and the Company expects to receive results by July."
+    },
+    {
+      "slug": "eton",
+      "ticker": "ETON",
+      "issuer": "Eton Pharmaceuticals, Inc.",
+      "asset": "KHINDIVI (label expansion)",
+      "indication": "Pediatric label expansion (broaden beyond ages 5+)",
+      "phase": "sNDA pending filing",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Eton intends to file the supplement in the third quarter of 2026, which could provide for a potential approval in the second quarter of 2027."
+    },
+    {
+      "slug": "eton",
+      "ticker": "ETON",
+      "issuer": "Eton Pharmaceuticals, Inc.",
+      "asset": "KHINDIVI (label expansion)",
+      "indication": "Pediatric label expansion",
+      "phase": "sNDA",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Eton intends to file the supplement in the third quarter of 2026, which could provide for a potential approval in the second quarter of 2027."
+    },
+    {
+      "slug": "eton",
+      "ticker": "ETON",
+      "issuer": "Eton Pharmaceuticals, Inc.",
+      "asset": "ET-700 (extended-release zinc acetate)",
+      "indication": "Wilson disease",
+      "phase": "Pilot clinical",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline study results are expected in the second half of 2026, and if positive, would lead to a pivotal clinical study in early 2027."
+    },
+    {
+      "slug": "eton",
+      "ticker": "ETON",
+      "issuer": "Eton Pharmaceuticals, Inc.",
+      "asset": "ET-700 (extended-release zinc acetate)",
+      "indication": "Wilson disease",
+      "phase": "Pivotal",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027-03",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "if positive, would lead to a pivotal clinical study in early 2027."
+    },
+    {
+      "slug": "eton",
+      "ticker": "ETON",
+      "issuer": "Eton Pharmaceuticals, Inc.",
+      "asset": "INCRELEX (mecasermin) label harmonization",
+      "indication": "Severe Primary IGF-1 Deficiency (SPIGFD)",
+      "phase": "Clinical study (label harmonization)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company expects to commence the study in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

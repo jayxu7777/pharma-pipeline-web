@@ -1,0 +1,134 @@
+{
+  "slug": "radx",
+  "ticker": "RADX",
+  "issuer_name": "Radiopharm Theranostics Ltd",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-050676",
+      "filed_date": "2026-05-12",
+      "exhibit": "ea028868801ex99-1",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-046883",
+      "filed_date": "2026-04-28",
+      "exhibit": "ea028745501ex99-1",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-045363",
+      "filed_date": "2026-04-22",
+      "exhibit": "ea028692701ex99-1",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-044334",
+      "filed_date": "2026-04-16",
+      "exhibit": "ea028661401ex99-1",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-041266",
+      "filed_date": "2026-04-08",
+      "exhibit": "ea028554101ex99-1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "radx",
+      "ticker": "RADX",
+      "issuer": "Radiopharm Theranostics Ltd",
+      "asset": "177Lu-RAD202",
+      "indication": "HER2+ advanced solid tumors",
+      "phase": "Phase 1 (HEAT)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-04-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Received positive recommendation from DSMC to progress Phase 1 HEAT trial of 177Lu-RAD202 to next dose level of 130mCi (Cohort 3)."
+    },
+    {
+      "slug": "radx",
+      "ticker": "RADX",
+      "issuer": "Radiopharm Theranostics Ltd",
+      "asset": "177Lu-RAD202",
+      "indication": "HER2+ advanced solid tumors",
+      "phase": "Phase 1",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On track to complete the Phase 1 dose escalation by the end of 2026."
+    },
+    {
+      "slug": "radx",
+      "ticker": "RADX",
+      "issuer": "Radiopharm Theranostics Ltd",
+      "asset": "177Lu-RAD202",
+      "indication": "HER2+ advanced solid tumors",
+      "phase": "Phase 0/1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-04-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Radiopharm Theranostics Presents Initial Findings from Phase 1 First-in-Human HEAT Clinical Trial for 177Lu-RAD202 in HER2+ Solid Tumors at AACR 2026."
+    },
+    {
+      "slug": "radx",
+      "ticker": "RADX",
+      "issuer": "Radiopharm Theranostics Ltd",
+      "asset": "RAD 101 (18F-RAD101)",
+      "indication": "imaging of brain metastases",
+      "phase": "Phase 2b",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-04-16",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Radiopharm Theranostics Completes Enrollment in U.S. Phase 2b Imaging Trial of RAD 101 for Diagnosis of Brain Metastases."
+    },
+    {
+      "slug": "radx",
+      "ticker": "RADX",
+      "issuer": "Radiopharm Theranostics Ltd",
+      "asset": "RAD 101",
+      "indication": "imaging of brain metastases",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Clinical trial readout (Primary endpoint) expected in June 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

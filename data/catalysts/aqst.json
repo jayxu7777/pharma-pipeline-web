@@ -1,0 +1,56 @@
+{
+  "slug": "aqst",
+  "ticker": "AQST",
+  "issuer_name": "Aquestive Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001398733-26-000029",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1398733/000139873326000029/q12026-ex991earningsrelease.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "aqst",
+      "ticker": "AQST",
+      "issuer": "Aquestive Therapeutics, Inc.",
+      "asset": "Anaphylm (dibutepinephrine sublingual film)",
+      "indication": "Anaphylaxis / Type I allergic reactions",
+      "phase": "NDA Resubmission",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1398733/000139873326000029/q12026-ex991earningsrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Reaffirms guidance to resubmit Anaphylm(TM) (dibutepinephrine) sublingual film NDA in Q3 2026"
+    },
+    {
+      "slug": "aqst",
+      "ticker": "AQST",
+      "issuer": "Aquestive Therapeutics, Inc.",
+      "asset": "Anaphylm (dibutepinephrine sublingual film)",
+      "indication": "Anaphylaxis / Type I allergic reactions",
+      "phase": "Pending Approval",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "2026-05-13",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1398733/000139873326000029/q12026-ex991earningsrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "the Company expects to have $150 million in cash and cash equivalents for the launch of Anaphylm, if approved by the FDA in 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 sharpens Anaphylm NDA resubmission to Q3 2026 post-CRL and potential 2027 approval/launch"
+  }
+}

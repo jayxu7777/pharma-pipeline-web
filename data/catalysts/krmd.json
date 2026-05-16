@@ -1,0 +1,20 @@
+{
+  "slug": "krmd",
+  "ticker": "KRMD",
+  "issuer_name": "KORU Medical Systems, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001161697-26-000107",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "KORU Medical is a commercial-stage medical device company (Freedom Subcutaneous Infusion System); Q1 2026 PR focuses on revenue/guidance. The 510(k) for deferoxamine use has already been submitted (past); pharma-services collaborations advancing to Phase III are partner-owned. No forward-dated clinical/regulatory catalysts attributable to the issuer."
+  }
+}

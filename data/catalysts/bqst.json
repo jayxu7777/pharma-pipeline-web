@@ -1,0 +1,20 @@
+{
+  "slug": "bqst",
+  "ticker": "BQST",
+  "issuer_name": "Bioquest Corp",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-22-014384",
+      "filed_date": "2022-05-18",
+      "exhibit": "Form 8-K (Auditor change)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1568628/000149315222014384/form8-k.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Most recent 8-K is from 2022 covering auditor change; older filings (2014-2015) are governance/transactional; no recent or forward-looking clinical or regulatory catalyst content."
+  }
+}

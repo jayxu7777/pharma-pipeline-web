@@ -1,0 +1,20 @@
+{
+  "slug": "brkr",
+  "ticker": "BRKR",
+  "issuer_name": "BRUKER CORP",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-207498",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1109354/000119312526207498/brkr-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Bruker is a scientific instruments and diagnostics tools company; Q1 2026 PR reconfirms FY26 financial guidance (revenue $3.57-3.60B; non-GAAP EPS $2.10-2.15) but contains no clinical or regulatory catalyst dates for specific assets."
+  }
+}

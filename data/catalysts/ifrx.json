@@ -1,0 +1,55 @@
+{
+  "slug": "ifrx",
+  "ticker": "IFRX",
+  "issuer_name": "InflaRx N.V.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001140361-26-019215",
+      "filed_date": "",
+      "exhibit": "ef20072565_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ifrx",
+      "ticker": "IFRX",
+      "issuer": "InflaRx N.V.",
+      "asset": "",
+      "indication": "ANCA-associated vasculitis (AAV) and renal disorders (aHUS, IgAN, C3G)",
+      "phase": "",
+      "milestone_type": "other",
+      "anticipated_date_iso": "",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": ""
+    },
+    {
+      "slug": "ifrx",
+      "ticker": "IFRX",
+      "issuer": "InflaRx N.V.",
+      "asset": "",
+      "indication": "aHUS, IgAN, C3G (open-label POC studies)",
+      "phase": "",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": ""
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": []
+  }
+}

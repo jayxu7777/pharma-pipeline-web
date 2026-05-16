@@ -1,0 +1,86 @@
+{
+  "slug": "rna",
+  "ticker": "RNA",
+  "issuer_name": "Atrium Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-077105",
+      "filed_date": "2026",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-083227",
+      "filed_date": "2026",
+      "exhibit": "EX-10.x",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-224238",
+      "filed_date": "2026-05-14",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "rna",
+      "ticker": "RNA",
+      "issuer": "Atrium Therapeutics, Inc.",
+      "asset": "ATR 1072",
+      "indication": "PRKAG2 syndrome",
+      "phase": "Preclinical",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Submit IND application for ATR 1072 in the second half of 2026 (PRKAG2 syndrome)"
+    },
+    {
+      "slug": "rna",
+      "ticker": "RNA",
+      "issuer": "Atrium Therapeutics, Inc.",
+      "asset": "ATR 1072",
+      "indication": "PRKAG2 syndrome",
+      "phase": "Phase 1/2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initiate Phase 1/2 clinical trial for ATR 1072, subject to regulatory clearance"
+    },
+    {
+      "slug": "rna",
+      "ticker": "RNA",
+      "issuer": "Atrium Therapeutics, Inc.",
+      "asset": "ATR 1086",
+      "indication": "PLN (phospholamban) cardiomyopathy",
+      "phase": "Preclinical",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "File IND application for ATR 1086 in 2027, with IND-enabling studies initiating in 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "newly spun-off entity from Avidity (Feb 2026); limited filings to date"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "tyra",
+  "ticker": "TYRA",
+  "issuer_name": "Tyra Biosciences, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-185553",
+      "filed_date": "2025-08-21",
+      "exhibit": "d15901d8k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-266916",
+      "filed_date": "2025-11",
+      "exhibit": "tyra-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-085399",
+      "filed_date": "2026-02",
+      "exhibit": "tyra-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-091880",
+      "filed_date": "2026-03-04",
+      "exhibit": "d48655d8k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-220638",
+      "filed_date": "2026-05",
+      "exhibit": "tyra-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tyra",
+      "ticker": "TYRA",
+      "issuer": "Tyra Biosciences, Inc.",
+      "asset": "Dabogratinib (oral FGFR3-selective inhibitor)",
+      "indication": "Low-grade intermediate risk non-muscle invasive bladder cancer (IR NMIBC, FGFR3-altered)",
+      "phase": "Phase 2 SURF302",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-08-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initial Ph2 data readout from SURF302 expected in August 2026 (n>20 enrolled to date); initial three-month complete response data \u2013 end of 1H 2026."
+    },
+    {
+      "slug": "tyra",
+      "ticker": "TYRA",
+      "issuer": "Tyra Biosciences, Inc.",
+      "asset": "Dabogratinib",
+      "indication": "Achondroplasia (children ages 3-10)",
+      "phase": "Phase 2 BEACH301",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initial Ph2 data readout from safety sentinel cohort in BEACH301 expected in Q4 2026 (4 patients enrolled)."
+    },
+    {
+      "slug": "tyra",
+      "ticker": "TYRA",
+      "issuer": "Tyra Biosciences, Inc.",
+      "asset": "Dabogratinib",
+      "indication": "Low-grade upper tract urothelial carcinoma (LG-UTUC)",
+      "phase": "Phase 2a/b SURF303",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-05-15",
+      "date_precision": "approximate",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "First LG-UTUC patient dosed with dabogratinib in SURF303; initial results expected in 2027."
+    },
+    {
+      "slug": "tyra",
+      "ticker": "TYRA",
+      "issuer": "Tyra Biosciences, Inc.",
+      "asset": "Dabogratinib",
+      "indication": "LG-UTUC",
+      "phase": "Phase 2a/b SURF303",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "First LG-UTUC patient dosed with dabogratinib in SURF303; initial results expected in 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

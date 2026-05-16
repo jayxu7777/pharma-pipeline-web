@@ -1,0 +1,27 @@
+{
+  "slug": "mnov",
+  "ticker": "MNOV",
+  "issuer_name": "MEDICINOVA INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-060232",
+      "filed_date": "2026-02-20",
+      "exhibit": "Ex-99.1 (FY2025 results PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-051990",
+      "filed_date": "2025-03-11",
+      "exhibit": "Ex-99.1 (March 2025 corporate presentation)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Latest 8-K (Feb 2026 FY2025 results) is financial-only and discloses no forward-dated clinical catalysts; only prior 8-K with substantive content is a March 2025 corporate presentation whose timing references (e.g., COMBAT-ALS/MN-001-NATG-202) are not anchored to specific 2026+ readout dates. Need a more recent investor presentation or trial update to harvest forward catalysts."
+  }
+}

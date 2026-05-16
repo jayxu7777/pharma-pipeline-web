@@ -1,0 +1,72 @@
+{
+  "slug": "janx",
+  "ticker": "JANX",
+  "issuer_name": "Janux Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-211964",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "janx",
+      "ticker": "JANX",
+      "issuer": "Janux Therapeutics, Inc.",
+      "asset": "JANX007",
+      "indication": "metastatic castration-resistant prostate cancer (mCRPC)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Janux expects to provide additional clinical data for JANX007 at a future medical congress in the first half of 2027"
+    },
+    {
+      "slug": "janx",
+      "ticker": "JANX",
+      "issuer": "Janux Therapeutics, Inc.",
+      "asset": "JANX011",
+      "indication": "healthy volunteers (TROP2 TRACTr)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Janux plans to announce an initial clinical update from the Phase 1 study of JANX011 in healthy volunteers in the second half of 2026"
+    },
+    {
+      "slug": "janx",
+      "ticker": "JANX",
+      "issuer": "Janux Therapeutics, Inc.",
+      "asset": "JANX013",
+      "indication": "PSMA-targeted CD28 costimulatory TRACIr (oncology)",
+      "phase": "Preclinical/IND-enabling",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Janux plans to initiate clinical development of JANX013, a PSMA-targeted CD28 costimulatory TRACIr, in the second half of 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

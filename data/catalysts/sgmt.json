@@ -1,0 +1,141 @@
+{
+  "slug": "sgmt",
+  "ticker": "SGMT",
+  "issuer_name": "Sagimet Biosciences Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-059009",
+      "filed_date": "2026-05-12",
+      "exhibit": "tm2614225d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-049015",
+      "filed_date": "2026-04-27",
+      "exhibit": "tm2612794d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-048971",
+      "filed_date": "2026-04-27",
+      "exhibit": "tm2612738d2_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-048971",
+      "filed_date": "2026-04-27",
+      "exhibit": "tm2612738d2_ex99-2.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-026146",
+      "filed_date": "2026-03",
+      "exhibit": "tm268496d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-026146",
+      "filed_date": "2026-03",
+      "exhibit": "tm268496d1_ex99-2.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "sgmt",
+      "ticker": "SGMT",
+      "issuer": "Sagimet Biosciences Inc.",
+      "asset": "Denifanstat (FASN inhibitor)",
+      "indication": "Moderate to severe acne vulgaris (US)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Sagimet plans to initiate a Phase 3 clinical trial of denifanstat in moderate to severe acne patients for the U.S. in the second half of 2026, subject to IND clearance."
+    },
+    {
+      "slug": "sgmt",
+      "ticker": "SGMT",
+      "issuer": "Sagimet Biosciences Inc.",
+      "asset": "Denifanstat (FASN inhibitor) - Ascletis-led",
+      "indication": "Moderate to severe acne",
+      "phase": "Regulatory (NMPA China)",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2025-12-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Ascletis announced that denifanstat NDA for the treatment of moderate to severe acne was accepted by the Chinese NMPA in December 2025; positive topline Phase 3 results reported January 2026."
+    },
+    {
+      "slug": "sgmt",
+      "ticker": "SGMT",
+      "issuer": "Sagimet Biosciences Inc.",
+      "asset": "Denifanstat + resmetirom combination",
+      "indication": "MASH with F4 fibrosis",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 trial of denifanstat/resmetirom combination expected to initiate in 2H 2026 in patients with MASH with F4 fibrosis; Phase 1 PK trial completed December 2025."
+    },
+    {
+      "slug": "sgmt",
+      "ticker": "SGMT",
+      "issuer": "Sagimet Biosciences Inc.",
+      "asset": "TVB-3567 (follow-on FASN inhibitor)",
+      "indication": "Moderate to severe acne",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "First-in-human Phase 1 clinical trial of TVB-3567 initiated June 2025; Phase 1 clinical trial results anticipated in 2026."
+    },
+    {
+      "slug": "sgmt",
+      "ticker": "SGMT",
+      "issuer": "Sagimet Biosciences Inc.",
+      "asset": "TVB-3567",
+      "indication": "Moderate to severe acne",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 proof of concept clinical trial of TVB-3567 anticipated to begin in 2H 2026, subject to regulatory feedback."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

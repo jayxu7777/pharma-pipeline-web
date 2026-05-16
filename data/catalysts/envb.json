@@ -1,0 +1,20 @@
+{
+  "slug": "envb",
+  "ticker": "ENVB",
+  "issuer_name": "Enveric Biosciences, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-023345",
+      "filed_date": "2026-05-15",
+      "exhibit": "Ex-99.1 (Q1 2026 corporate update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226023345/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Lead candidate EB-003 still in IND-enabling preclinical stage; PR describes planned IND submission and first-in-human Phase 1 but no specific anticipated date. No forward-dated catalysts with defined timing."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "nxtc",
+  "ticker": "NXTC",
+  "issuer_name": "NextCure, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-057171",
+      "filed_date": "2026-05-07",
+      "exhibit": "nxtc-20260507xex99d1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-024121",
+      "filed_date": "2026-03-05",
+      "exhibit": "nxtc-20260305xex99d1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-006021",
+      "filed_date": "2026-01-23",
+      "exhibit": "nxtc-20260123xex99d1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "nxtc",
+      "ticker": "NXTC",
+      "issuer": "NextCure, Inc.",
+      "asset": "SIM0505",
+      "indication": "advanced solid tumors / PROC (platinum-resistant ovarian cancer)",
+      "phase": "Phase 1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06-01",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Data from the Phase 1 open-label dose escalation study in patients with advanced solid tumors with a focus on gynecological cancers and an emphasis on PROC are expected to be presented at ASCO 2026 on June 1, 2026."
+    },
+    {
+      "slug": "nxtc",
+      "ticker": "NXTC",
+      "issuer": "NextCure, Inc.",
+      "asset": "SIM0505",
+      "indication": "gynecologic cancers (PROC)",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-05",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Announced in May 2026 the initiation of the Phase 1 dose optimization study in gynecologic cancers by dosing patients with PROC."
+    },
+    {
+      "slug": "nxtc",
+      "ticker": "NXTC",
+      "issuer": "NextCure, Inc.",
+      "asset": "LNCB74",
+      "indication": "advanced solid tumors (breast, gynecological, ACC1)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "LNCB74 Phase 1 dose escalation trial update planned in second half of 2026."
+    },
+    {
+      "slug": "nxtc",
+      "ticker": "NXTC",
+      "issuer": "NextCure, Inc.",
+      "asset": "SIM0505",
+      "indication": "advanced solid tumors",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "SIM0505 (CDH6 ADC) Phase 1 dose escalation data update anticipated in Q2 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

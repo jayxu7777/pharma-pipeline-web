@@ -1,0 +1,20 @@
+{
+  "slug": "mdaiw",
+  "ticker": "MDAIW",
+  "issuer_name": "Spectral AI, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-034047",
+      "filed_date": "2026-03-24",
+      "exhibit": "Ex-99.1 (FY 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "MDAIW is the warrants ticker of Spectral AI; same filings as MDAI parent. Medical diagnostics company; no forward-dated clinical/regulatory catalyst with specific timing in FY 2025 earnings PR."
+  }
+}

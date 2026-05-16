@@ -1,0 +1,62 @@
+{
+  "slug": "nthi",
+  "ticker": "NTHI",
+  "issuer_name": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-003566",
+      "filed_date": "2026-04-16",
+      "exhibit": "Ex-99.1 (insider purchases / catalyst update PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-003165",
+      "filed_date": "2026-04-03",
+      "exhibit": "Ex-99.1 (Q4 2025 business update PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "nthi",
+      "ticker": "NTHI",
+      "issuer": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+      "asset": "NEO100",
+      "indication": "IDH1-mutant recurrent high-grade glioma",
+      "phase": "Phase 2a",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-08",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Completed enrollment in the NEO100 Phase 2a trial for IDH-1 mutant recurrent high-grade glioma, with an interim data readout expected in ~4 months (approximately August 2026)."
+    },
+    {
+      "slug": "nthi",
+      "ticker": "NTHI",
+      "issuer": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+      "asset": "NEO212",
+      "indication": "recurrent GBM / brain metastases",
+      "phase": "Phase 1/2",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-05",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "NEO212 - Type B End-of-Phase FDA meeting to align on a potential pivotal, registrational Phase 2 study - expected within the next 4 weeks"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "dftx",
+  "ticker": "DFTX",
+  "issuer_name": "Definium Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-218251",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Ascend FPI PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526218251/"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-211929",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526211929/"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "dftx",
+      "ticker": "DFTX",
+      "issuer": "Definium Therapeutics, Inc.",
+      "asset": "DT120 ODT (lysergide tartrate)",
+      "indication": "major depressive disorder (Emerge)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526218251/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Completed enrollment in Emerge (MDD) with 149 participants randomized 1:1 to receive DT120 ODT 100 ug or placebo. Topline data expected in late 2Q 2026."
+    },
+    {
+      "slug": "dftx",
+      "ticker": "DFTX",
+      "issuer": "Definium Therapeutics, Inc.",
+      "asset": "DT120 ODT",
+      "indication": "generalized anxiety disorder (Voyage)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526218251/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Completed enrollment in Voyage (GAD) with 214 participants randomized 1:1 to receive DT120 ODT 100 ug or placebo. Topline data expected in early 3Q 2026."
+    },
+    {
+      "slug": "dftx",
+      "ticker": "DFTX",
+      "issuer": "Definium Therapeutics, Inc.",
+      "asset": "DT120 ODT",
+      "indication": "generalized anxiety disorder (Panorama)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526218251/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data expected in late 3Q 2026 (updated from 2H 2026)."
+    },
+    {
+      "slug": "dftx",
+      "ticker": "DFTX",
+      "issuer": "Definium Therapeutics, Inc.",
+      "asset": "DT120 ODT",
+      "indication": "major depressive disorder (Ascend)",
+      "phase": "Phase 3",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-05-12",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526218251/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Definium Therapeutics Announces First Patient Dosed in Ascend, the Second Phase 3 Pivotal Study of DT120 ODT in Major Depressive Disorder."
+    },
+    {
+      "slug": "dftx",
+      "ticker": "DFTX",
+      "issuer": "Definium Therapeutics, Inc.",
+      "asset": "DT120 ODT",
+      "indication": "major depressive disorder (Ascend)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526218251/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data from the 12-week double-blind period is anticipated in 2027."
+    },
+    {
+      "slug": "dftx",
+      "ticker": "DFTX",
+      "issuer": "Definium Therapeutics, Inc.",
+      "asset": "DT120 ODT (Haven)",
+      "indication": "post-traumatic stress disorder (PTSD)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526218251/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Expanded DT120 ODT clinical development program into PTSD with plans to initiate Haven, a Phase 3 study in PTSD. ... Study initiation expected in 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

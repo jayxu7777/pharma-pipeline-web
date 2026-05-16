@@ -1,0 +1,113 @@
+{
+  "slug": "mbx",
+  "ticker": "MBX",
+  "issuer_name": "MBX Biosciences, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-215676",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Obesity Day MBX 4291 Phase 1 update PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-103118",
+      "filed_date": "2026-03-12",
+      "exhibit": "Ex-99.1 (4Q/FY 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "mbx",
+      "ticker": "MBX",
+      "issuer": "MBX Biosciences, Inc.",
+      "asset": "canvuparatide (MBX 2109)",
+      "indication": "chronic hypoparathyroidism",
+      "phase": "Phase 2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Q2 2026: Presentation of full Phase 2 Avail results at a medical conference, including data from the open-label extension"
+    },
+    {
+      "slug": "mbx",
+      "ticker": "MBX",
+      "issuer": "MBX Biosciences, Inc.",
+      "asset": "canvuparatide (MBX 2109)",
+      "indication": "chronic hypoparathyroidism",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Q3 2026: Initiation of Phase 3 trial in chronic hypoparathyroidism"
+    },
+    {
+      "slug": "mbx",
+      "ticker": "MBX",
+      "issuer": "MBX Biosciences, Inc.",
+      "asset": "MBX 4291",
+      "indication": "obesity",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Q4 2026: Results from 12-week multiple ascending dose portion of Phase 1 trial of MBX 4291"
+    },
+    {
+      "slug": "mbx",
+      "ticker": "MBX",
+      "issuer": "MBX Biosciences, Inc.",
+      "asset": "MBX 5765 (amycretin prodrug)",
+      "indication": "obesity",
+      "phase": "preclinical (IND-enabling)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "IND-enabling studies for MBX 5765 are expected to begin in Q2 2026."
+    },
+    {
+      "slug": "mbx",
+      "ticker": "MBX",
+      "issuer": "MBX Biosciences, Inc.",
+      "asset": "GLP-1/GIP/GCGR triple-agonist prodrug",
+      "indication": "obesity",
+      "phase": "preclinical",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Q3 2026: Nomination of GLP-1/GIP/GCGR triple-agonist prodrug candidate"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

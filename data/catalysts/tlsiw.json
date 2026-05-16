@@ -1,0 +1,83 @@
+{
+  "slug": "tlsiw",
+  "ticker": "TLSIW",
+  "issuer_name": "TriSalus Life Sciences, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-034082",
+      "filed_date": "2026-05-12",
+      "exhibit": "q12026earningsrelease.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-023991",
+      "filed_date": "2026-04-07",
+      "exhibit": "tlsipressrelease-drrichard.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-015155",
+      "filed_date": "2026-03-05",
+      "exhibit": "q42025earningsrelease.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-007598",
+      "filed_date": "2026-02-20",
+      "exhibit": "ex99-2.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-006219",
+      "filed_date": "2026-02-09",
+      "exhibit": "tlsipressrelease-michaelst.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tlsiw",
+      "ticker": "TLSIW",
+      "issuer": "TriSalus Life Sciences, Inc.",
+      "asset": "nelitolimod",
+      "indication": "solid tumors (liver, pancreas)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company is in the final stages of data completion for a number of phase 1 clinical trials and will begin exploring partnership opportunities for development"
+    },
+    {
+      "slug": "tlsiw",
+      "ticker": "TLSIW",
+      "issuer": "TriSalus Life Sciences, Inc.",
+      "asset": "TriNav Infusion System / PEDD platform",
+      "indication": "hepatic arterial infusion of liver tumors",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "prior",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Three FDA-cleared devices use its proprietary Pressure-Enabled Drug Delivery (PEDD) approach: the TriNav Infusion System and TriNav Infusion System LV for hepatic arterial infusion of liver tumors and the Pancreatic Retrograde Venous Infusion System"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

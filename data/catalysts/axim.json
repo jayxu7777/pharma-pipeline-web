@@ -1,0 +1,20 @@
+{
+  "slug": "axim",
+  "ticker": "AXIM",
+  "issuer_name": "AXIM BIOTECHNOLOGIES, INC.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001096906-22-002280",
+      "filed_date": "2022",
+      "exhibit": "Ex-99.1",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514946"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Most recent 8-K filings are from 2020-2022 (pre-cutoff). No forward-dated catalysts >= 2026-05-15 available; latest filings predate as_of_date by >3 years."
+  }
+}

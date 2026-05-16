@@ -1,0 +1,17 @@
+{
+  "slug": "iova",
+  "ticker": "IOVA",
+  "issuer_name": "IOVANCE BIOTHERAPEUTICS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-056782",
+      "filed_date": "2026-05-08",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {}
+}

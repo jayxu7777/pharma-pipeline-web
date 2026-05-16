@@ -1,0 +1,17 @@
+{
+  "slug": "infu",
+  "ticker": "INFU",
+  "issuer_name": "InfuSystem Holdings, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-031649",
+      "filed_date": "2026-05-08",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {}
+}

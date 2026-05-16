@@ -1,0 +1,90 @@
+{
+  "slug": "cort",
+  "ticker": "CORT",
+  "issuer_name": "Corcept Therapeutics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-028892",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort043026ex991pressrelease.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cort",
+      "ticker": "CORT",
+      "issuer": "Corcept Therapeutics Inc.",
+      "asset": "miricorilant",
+      "indication": "MASH (MONARCH)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort043026ex991pressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "results from MONARCH, our Phase 2b trial in patients with metabolic dysfunction-associated steatohepatitis (MASH), are expected by the end of this year"
+    },
+    {
+      "slug": "cort",
+      "ticker": "CORT",
+      "issuer": "Corcept Therapeutics Inc.",
+      "asset": "dazucorilant",
+      "indication": "ALS",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort043026ex991pressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "We also plan to start a Phase 3 trial of dazucorilant in patients with ALS later this year."
+    },
+    {
+      "slug": "cort",
+      "ticker": "CORT",
+      "issuer": "Corcept Therapeutics Inc.",
+      "asset": "relacorilant + nab-paclitaxel",
+      "indication": "Platinum-resistant ovarian cancer (EU MAA)",
+      "phase": "MAA filed",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort043026ex991pressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "European Medicines Agency reviewing MAA for relacorilant plus nab-paclitaxel to treat patients with platinum-resistant ovarian cancer - Approval expected by the end of this year"
+    },
+    {
+      "slug": "cort",
+      "ticker": "CORT",
+      "issuer": "Corcept Therapeutics Inc.",
+      "asset": "relacorilant + nab-paclitaxel + bevacizumab",
+      "indication": "Platinum-resistant ovarian cancer (BELLA Part A)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort043026ex991pressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "BELLA Part A - Enrollment completed in Phase 2 trial of relacorilant plus nab-paclitaxel and bevacizumab in 95 patients with platinum-resistant ovarian cancer - Results expected by the end of this year"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "MONARCH MASH topline, dazucorilant ALS Phase 3 initiation, EU MAA decision and BELLA Part A all expected H2 2026 \u2014 sharpens tier0 baseline."
+  }
+}

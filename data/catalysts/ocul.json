@@ -1,0 +1,130 @@
+{
+  "slug": "ocul",
+  "ticker": "OCUL",
+  "issuer_name": "OCULAR THERAPEUTIX, INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-055241",
+      "filed_date": "2026-05-05",
+      "exhibit": "tm2613442d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-010633",
+      "filed_date": "2026-02-05",
+      "exhibit": "tm265061d1_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ocul",
+      "ticker": "OCUL",
+      "issuer": "OCULAR THERAPEUTIX, INC",
+      "asset": "AXPAXLI (OTX-TKI)",
+      "indication": "wet AMD",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-02",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Announced positive Phase 3 SOL-1 results in February 2026, first ever successful wet AMD superiority trial comparing a novel investigative agent to an approved anti-VEGF."
+    },
+    {
+      "slug": "ocul",
+      "ticker": "OCUL",
+      "issuer": "OCULAR THERAPEUTIX, INC",
+      "asset": "AXPAXLI (OTX-TKI)",
+      "indication": "wet AMD",
+      "phase": "Phase 3",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Ocular intends to submit AXPAXLI NDA based on SOL-1 Week 52 data, subject to ongoing formal discussions with the U.S. FDA."
+    },
+    {
+      "slug": "ocul",
+      "ticker": "OCUL",
+      "issuer": "OCULAR THERAPEUTIX, INC",
+      "asset": "AXPAXLI (OTX-TKI)",
+      "indication": "wet AMD",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "SOL-R Phase 3 non-inferiority trial in wet AMD on track for topline readout in 1Q 2027."
+    },
+    {
+      "slug": "ocul",
+      "ticker": "OCUL",
+      "issuer": "OCULAR THERAPEUTIX, INC",
+      "asset": "AXPAXLI (OTX-TKI)",
+      "indication": "wet AMD (open-label extension)",
+      "phase": "Phase 3 OLE",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-04",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "SOL-X (wet AMD) open label extension trial enrollment initiated in April 2026."
+    },
+    {
+      "slug": "ocul",
+      "ticker": "OCUL",
+      "issuer": "OCULAR THERAPEUTIX, INC",
+      "asset": "AXPAXLI (OTX-TKI)",
+      "indication": "non-proliferative diabetic retinopathy (NPDR)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2025-11",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "HELIOS-3, which the Company initiated in November 2025, is a superiority trial in subjects with moderately severe or severe non-proliferative diabetic retinopathy (NPDR)."
+    },
+    {
+      "slug": "ocul",
+      "ticker": "OCUL",
+      "issuer": "OCULAR THERAPEUTIX, INC",
+      "asset": "Investor Day",
+      "indication": "AXPAXLI program",
+      "phase": "corporate",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06-17",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "At our upcoming Investor Day on June 17, we look forward to providing further updates on our ongoing trials, key regulatory updates, and our accelerated commercial plans for AXPAXLI."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

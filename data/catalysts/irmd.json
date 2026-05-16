@@ -1,0 +1,20 @@
+{
+  "slug": "irmd",
+  "ticker": "IRMD",
+  "issuer_name": "IRADIMED CORP",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-012356",
+      "filed_date": "2026-02-10",
+      "exhibit": "Ex-99.1 (Q4/FY 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Commercial-stage MRI-compatible medical device company; PR contained financial guidance only with no clinical/regulatory catalyst dates."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "inkt",
+  "ticker": "INKT",
+  "issuer_name": "MiNK Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-225369",
+      "filed_date": "2026-05-13",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {}
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "rbotw",
+  "ticker": "RBOTW",
+  "issuer_name": "Vicarious Surgical Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-025193",
+      "filed_date": "2026-03-09",
+      "exhibit": "ex99-1 (Q4 and FY 2025 financial results press release)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-023404",
+      "filed_date": "2026-02-26",
+      "exhibit": "ex99-1 (corporate update press release)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-25-122267",
+      "filed_date": "2025-12-19",
+      "exhibit": "ex1-1 (Open Market Sale Agreement)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-25-117558",
+      "filed_date": "2025-12-01",
+      "exhibit": "ex99-1 (financing press release)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-25-109214",
+      "filed_date": "2025-11-12",
+      "exhibit": "ex99-1 (Q3 2025 financial results press release)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "finance-only filings; pre-clinical/pre-510(k) surgical robotics company with no disclosed clinical trial milestones, regulatory submissions, PDUFA/MAA/IND dates or clinical readouts in the captured 8-K filings - content limited to quarterly financial results, NYSE delisting/transition to OTC, ATM/registered direct offering, design-freeze and cash-burn guidance"
+  }
+}

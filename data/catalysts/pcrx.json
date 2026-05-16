@@ -1,0 +1,117 @@
+{
+  "slug": "pcrx",
+  "ticker": "PCRX",
+  "issuer_name": "Pacira BioSciences, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-028854",
+      "filed_date": "2026-04-30",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-012238",
+      "filed_date": "2026",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-003717",
+      "filed_date": "2026-01-27",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-001335",
+      "filed_date": "2026-01",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-050145",
+      "filed_date": "2025",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "pcrx",
+      "ticker": "PCRX",
+      "issuer": "Pacira BioSciences, Inc.",
+      "asset": "ZILRETTA (triamcinolone acetonide extended-release)",
+      "indication": "shoulder osteoarthritis pain",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-04-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In April 2026, the company concluded patient enrollment in its Phase 3 registration study of ZILRETTA for OA pain of the shoulder"
+    },
+    {
+      "slug": "pcrx",
+      "ticker": "PCRX",
+      "issuer": "Pacira BioSciences, Inc.",
+      "asset": "ZILRETTA",
+      "indication": "shoulder osteoarthritis pain",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 registrational study of ZILRETTA in shoulder OA on track for topline readout by end of year"
+    },
+    {
+      "slug": "pcrx",
+      "ticker": "PCRX",
+      "issuer": "Pacira BioSciences, Inc.",
+      "asset": "PCRX-201 (enekinragene inzadenovec)",
+      "indication": "osteoarthritis of the knee",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Key readouts this year expected from Part A of Phase 2 study of PCRX-201 in knee osteoarthritis"
+    },
+    {
+      "slug": "pcrx",
+      "ticker": "PCRX",
+      "issuer": "Pacira BioSciences, Inc.",
+      "asset": "iovera",
+      "indication": "spasticity",
+      "phase": "registrational",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Registrational study readout expected this year for iovera in spasticity"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

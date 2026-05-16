@@ -1,0 +1,48 @@
+{
+  "slug": "sxtp",
+  "ticker": "SXTP",
+  "issuer_name": "60 DEGREES PHARMACEUTICALS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-032352",
+      "filed_date": "",
+      "exhibit": "ea0282850-8k_60degrees.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-027756",
+      "filed_date": "",
+      "exhibit": "ea0281691-8k_60degrees.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-027008",
+      "filed_date": "",
+      "exhibit": "ea0281488-8k_60degrees.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-015239",
+      "filed_date": "",
+      "exhibit": "ea0276747-8k_60degrees.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-007330",
+      "filed_date": "",
+      "exhibit": "ea0273809-8k_60degrees.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "All five sampled 8-Ks relate to Nasdaq listing compliance and financing/admin matters; no clinical or regulatory catalysts disclosed in this window."
+  }
+}

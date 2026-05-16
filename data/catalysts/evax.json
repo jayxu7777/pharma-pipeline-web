@@ -1,0 +1,20 @@
+{
+  "slug": "evax",
+  "ticker": "EVAX",
+  "issuer_name": "Evaxion A/S",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-002632",
+      "filed_date": "2026-04-22",
+      "exhibit": "Ex-31 (Articles of Association / warrant terms / capital authorizations)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "FPI - latest 6-Ks contain only governance content (Articles of Association, AGM resolutions, warrant grants, capital authorizations through 2027). No clinical PR exhibits in the latest 5 picks. Need deeper SEC EDGAR window for any clinical 6-K with Ex-99 PR exhibit."
+  }
+}

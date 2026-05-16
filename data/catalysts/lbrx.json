@@ -1,0 +1,89 @@
+{
+  "slug": "lbrx",
+  "ticker": "LBRX",
+  "issuer_name": "LB Pharmaceuticals Inc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-219529",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "lbrx",
+      "ticker": "LBRX",
+      "issuer": "LB Pharmaceuticals Inc",
+      "asset": "LB-102",
+      "indication": "acute schizophrenia (NOVA-2)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "We remain on track for topline data from NOVA-2 in schizophrenia in the second half of 2027"
+    },
+    {
+      "slug": "lbrx",
+      "ticker": "LBRX",
+      "issuer": "LB Pharmaceuticals Inc",
+      "asset": "LB-102",
+      "indication": "bipolar 1 depression (ILLUMINATE-1)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2028-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "from ILLUMINATE-1 in bipolar depression in the first quarter of 2028"
+    },
+    {
+      "slug": "lbrx",
+      "ticker": "LBRX",
+      "issuer": "LB Pharmaceuticals Inc",
+      "asset": "LB-102",
+      "indication": "adjunctive treatment of major depressive disorder (MDD)",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "plans to initiate a Phase 2 trial in the adjunctive treatment of MDD in early 2027"
+    },
+    {
+      "slug": "lbrx",
+      "ticker": "LBRX",
+      "issuer": "LB Pharmaceuticals Inc",
+      "asset": "LB-102",
+      "indication": "adjunctive treatment of major depressive disorder (MDD)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2029-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "with topline data expected in the first half of 2029"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

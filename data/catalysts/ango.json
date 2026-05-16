@@ -1,0 +1,27 @@
+{
+  "slug": "ango",
+  "ticker": "ANGO",
+  "issuer_name": "ANGIODYNAMICS INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-000341",
+      "filed_date": "2026-01-09",
+      "exhibit": "Ex-99.1 (Q2 FY2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1275187/000114036126000341/ef20062354_ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-012891",
+      "filed_date": "2026-04-02",
+      "exhibit": "Ex-99.1 (Q3 FY2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1275187/000114036126012891/ef20069681_ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Medical device issuer; recent PRs cite IDE approvals (APEX-Return, PAVE) for studies already initiated but do not provide forward-dated readout, enrollment-complete, or PMA dates."
+  }
+}

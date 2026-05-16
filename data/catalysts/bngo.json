@@ -1,0 +1,20 @@
+{
+  "slug": "bngo",
+  "ticker": "BNGO",
+  "issuer_name": "Bionano Genomics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001411690-26-000027",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411690/000141169026000027/bngo-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Bionano is a genomics tools/diagnostics company; Q1 2026 PR contains revenue guidance (Q2 2026: $7.5-7.8M; FY 2026: $30-33M) but no clinical or regulatory catalyst dates."
+  }
+}

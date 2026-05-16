@@ -1,0 +1,106 @@
+{
+  "slug": "nuvl",
+  "ticker": "NUVL",
+  "issuer_name": "Nuvalent, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001861560-26-000020",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "nuvl",
+      "ticker": "NUVL",
+      "issuer": "Nuvalent, Inc.",
+      "asset": "zidesamtinib",
+      "indication": "TKI pre-treated advanced ROS1-positive NSCLC",
+      "phase": "NDA",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-09-18",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The New Drug Application (NDA) for zidesamtinib...with a Prescription Drug User Fee Act (PDUFA) target action date of September 18, 2026."
+    },
+    {
+      "slug": "nuvl",
+      "ticker": "NUVL",
+      "issuer": "Nuvalent, Inc.",
+      "asset": "zidesamtinib",
+      "indication": "TKI-naive advanced ROS1-positive NSCLC",
+      "phase": "NDA (label expansion)",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Nuvalent plans to submit data to the FDA to support a potential label expansion of zidesamtinib in TKI-naive patients with advanced ROS1-positive NSCLC in the second half of 2026."
+    },
+    {
+      "slug": "nuvl",
+      "ticker": "NUVL",
+      "issuer": "Nuvalent, Inc.",
+      "asset": "zidesamtinib",
+      "indication": "ROS1-positive solid tumors outside NSCLC (ARROS-1)",
+      "phase": "Phase 1/2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-29",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The company also plans to present preliminary data from the ongoing ARROS-1 Phase 1/2 clinical trial of zidesamtinib in patients with advanced ROS1-positive solid tumors outside of non-small cell lung cancer (NSCLC) during a poster session at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting from May 29 - June 2, 2026, in Chicago."
+    },
+    {
+      "slug": "nuvl",
+      "ticker": "NUVL",
+      "issuer": "Nuvalent, Inc.",
+      "asset": "neladalkib",
+      "indication": "TKI pre-treated and TKI-naive advanced ALK-positive NSCLC",
+      "phase": "Phase 1/2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-29",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The company plans to present pivotal data for neladalkib in TKI pre-treated patients with advanced ALK-positive NSCLC from the ALKOVE-1 study, in addition to preliminary data for TKI-naive patients, during an oral presentation at the 2026 ASCO Annual Meeting."
+    },
+    {
+      "slug": "nuvl",
+      "ticker": "NUVL",
+      "issuer": "Nuvalent, Inc.",
+      "asset": "Discovery program new development candidate",
+      "indication": "Oncology (kinase targets)",
+      "phase": "Preclinical",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Nuvalent continues to make progress across its discovery research programs and expects to disclose a new development candidate by year-end 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

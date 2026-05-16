@@ -1,0 +1,20 @@
+{
+  "slug": "nika",
+  "ticker": "NIKA",
+  "issuer_name": "NIKA PHARMACEUTICALS, INC",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001826466-24-000056",
+      "filed_date": "2024",
+      "exhibit": "Ex-20.3 (Bulgarian real-estate in-kind contribution valuation)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Latest 8-K exhibits are corporate/real-estate (Bulgarian property valuation) with no clinical content; no forward catalyst dates disclosed."
+  }
+}

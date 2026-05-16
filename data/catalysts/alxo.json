@@ -1,0 +1,56 @@
+{
+  "slug": "alxo",
+  "ticker": "ALXO",
+  "issuer_name": "ALX ONCOLOGY HOLDINGS INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-213380",
+      "filed_date": "2026-05-08",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1810182/000119312526213380/alxo-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "alxo",
+      "ticker": "ALXO",
+      "issuer": "ALX ONCOLOGY HOLDINGS INC",
+      "asset": "evorpacept",
+      "indication": "HER2-positive metastatic breast cancer (ASPEN-09-Breast)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-08",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1810182/000119312526213380/alxo-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 ASPEN-09-Breast trial: Topline data readout for 80 patients anticipated in mid-2027."
+    },
+    {
+      "slug": "alxo",
+      "ticker": "ALXO",
+      "issuer": "ALX ONCOLOGY HOLDINGS INC",
+      "asset": "ALX2004",
+      "indication": "EGFR-expressing solid tumors",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-08",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1810182/000119312526213380/alxo-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1 ALX2004 trial: Safety data from the dose-escalation phase of the trial anticipated in 2H 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Q1 2026 PR provides ASPEN-09-Breast Phase 2 topline mid-2027 (80 patients) and ALX2004 Phase 1 dose-escalation safety 2H 2026. ESMO Breast 2026 exploratory data already presented on May 7."
+  }
+}

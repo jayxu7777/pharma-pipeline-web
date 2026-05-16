@@ -1,0 +1,137 @@
+{
+  "slug": "rytm",
+  "ticker": "RYTM",
+  "issuer_name": "RHYTHM PHARMACEUTICALS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-030136",
+      "filed_date": "2026-05-05",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-019995",
+      "filed_date": "2026-03-19",
+      "exhibit": "Ex-99.1 (IMCIVREE acquired HO FDA approval PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-018211",
+      "filed_date": "2026-03-16",
+      "exhibit": "Ex-99.1/99.2 (EMANATE Phase 3 topline)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "rytm",
+      "ticker": "RYTM",
+      "issuer": "RHYTHM PHARMACEUTICALS, INC.",
+      "asset": "setmelanotide (IMCIVREE)",
+      "indication": "acquired hypothalamic obesity",
+      "phase": "Approved/JNDA",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Decision by Japan's PMDA for IMCIVREE in acquired HO anticipated in the second half of 2026; ... if positive, expects commercial launch by the end of 2026."
+    },
+    {
+      "slug": "rytm",
+      "ticker": "RYTM",
+      "issuer": "RHYTHM PHARMACEUTICALS, INC.",
+      "asset": "setmelanotide",
+      "indication": "Prader-Willi syndrome (PWS)",
+      "phase": "Phase 2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Announce six-month results from the ongoing exploratory Phase 2 trial of setmelanotide in Prader-Willi Syndrome (PWS) in the second quarter of 2026."
+    },
+    {
+      "slug": "rytm",
+      "ticker": "RYTM",
+      "issuer": "RHYTHM PHARMACEUTICALS, INC.",
+      "asset": "RM-718",
+      "indication": "acquired hypothalamic obesity",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Announce results from the Phase 1/2, Part C trial evaluating the weekly, MC4R agonist RM-718 in patients with acquired HO mid-year 2026."
+    },
+    {
+      "slug": "rytm",
+      "ticker": "RYTM",
+      "issuer": "RHYTHM PHARMACEUTICALS, INC.",
+      "asset": "setmelanotide",
+      "indication": "congenital hypothalamic obesity",
+      "phase": "Phase 3 substudy",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Complete enrollment in the setmelanotide substudy in congenital HO in the second half of 2026."
+    },
+    {
+      "slug": "rytm",
+      "ticker": "RYTM",
+      "issuer": "RHYTHM PHARMACEUTICALS, INC.",
+      "asset": "RM-718",
+      "indication": "Prader-Willi syndrome",
+      "phase": "Phase 1/2",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Complete enrollment in the Phase 1/2, Part D trial evaluating RM-718 in PWS in the second half of 2026."
+    },
+    {
+      "slug": "rytm",
+      "ticker": "RYTM",
+      "issuer": "RHYTHM PHARMACEUTICALS, INC.",
+      "asset": "bivamelagon",
+      "indication": "acquired hypothalamic obesity",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initiate a pivotal Phase 3 trial evaluating bivamelagon in acquired HO by year-end 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none"
+  }
+}

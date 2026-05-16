@@ -1,0 +1,45 @@
+{
+  "slug": "ecor",
+  "ticker": "ECOR",
+  "issuer_name": "electroCore, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-021493",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1560258/000149315226021493/ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-011620",
+      "filed_date": "2026-03",
+      "exhibit": "Ex-99.1 (Q4 2025 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1560258/000149315226011620/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ecor",
+      "ticker": "ECOR",
+      "issuer": "electroCore, Inc.",
+      "asset": "Quell Relief",
+      "indication": "Lower extremity pain",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1560258/000149315226021493/ex99-1.htm",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company expects to launch Quell Relief for lower extremity pain later in the second half of 2026 and is developing a next-generation mobile application designed to complement Truvaga and Quell, with the potential to support future recurring revenue opportunities."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

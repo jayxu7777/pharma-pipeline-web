@@ -1,0 +1,38 @@
+{
+  "slug": "ctso",
+  "ticker": "CTSO",
+  "issuer_name": "CytoSorbents Corporation",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "",
+      "accession": "",
+      "filed_date": "",
+      "exhibit": "0000929638-26-001834__exhibit99-1.txt",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ctso",
+      "ticker": "CTSO",
+      "issuer": "CytoSorbents Corporation",
+      "asset": "DrugSorb-ATR",
+      "indication": "Removal of ticagrelor (Brilinta) during cardiothoracic surgery",
+      "phase": "regulatory",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "submitting a new De Novo application in late 2026 or early 2027"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

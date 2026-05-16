@@ -1,0 +1,55 @@
+{
+  "slug": "mrkr",
+  "ticker": "MRKR",
+  "issuer_name": "Marker Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-031309",
+      "filed_date": "2026-03-19",
+      "exhibit": "Ex-99.1 (Q4 2025 / FY2025 results PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "mrkr",
+      "ticker": "MRKR",
+      "issuer": "Marker Therapeutics, Inc.",
+      "asset": "MT-601 (APOLLO study)",
+      "indication": "Relapsed/refractory diffuse large B-cell lymphoma (DLBCL)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "We anticipate providing a data update from the APOLLO study in the second quarter of 2026."
+    },
+    {
+      "slug": "mrkr",
+      "ticker": "MRKR",
+      "issuer": "Marker Therapeutics, Inc.",
+      "asset": "MT-601",
+      "indication": "Pancreatic cancer (company-sponsored program)",
+      "phase": "Phase 1 (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Marker expects to initiate its company-sponsored pancreatic cancer program in the second quarter of 2026, incorporating learnings from prior studies."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

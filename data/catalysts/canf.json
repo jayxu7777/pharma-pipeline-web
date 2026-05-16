@@ -1,0 +1,63 @@
+{
+  "slug": "canf",
+  "ticker": "CANF",
+  "issuer_name": "Can-Fite BioPharma Ltd.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-055438",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Namodenoson Phase 2b plan PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026055438/ea029030801ex99-1.htm"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-049750",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (Pancreatic Phase 2a update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026049750/ea028850001ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "canf",
+      "ticker": "CANF",
+      "issuer": "Can-Fite BioPharma Ltd.",
+      "asset": "Namodenoson",
+      "indication": "advanced pancreatic adenocarcinoma (Phase 2a full efficacy results)",
+      "phase": "Phase 2a",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "half",
+      "filed_date": "2026-04-30",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026055438/ea029030801ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "As a substantial proportion of patients remain on treatment, full efficacy analyses, including progression-free survival and overall survival, top-line results are expected in the coming months and will be presented in a forthcoming clinical conference."
+    },
+    {
+      "slug": "canf",
+      "ticker": "CANF",
+      "issuer": "Can-Fite BioPharma Ltd.",
+      "asset": "Namodenoson + immunotherapy combination",
+      "indication": "advanced pancreatic cancer",
+      "phase": "Phase 2b",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-13",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026055438/ea029030801ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Can-Fite BioPharma Ltd. ... today announced plans to advance its pancreatic cancer program into a Phase 2b study evaluating Namodenoson in combination with immunotherapy in patients with advanced pancreatic cancer. ... details of the planned Phase 2b study design are expected to be discussed during the upcoming BIO International Convention in San Diego."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 surfaces forthcoming Ph2a pancreatic full efficacy topline and Ph2b combo initiation plan \u2014 not in 10-K narrative."
+  }
+}

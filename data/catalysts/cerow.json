@@ -1,0 +1,20 @@
+{
+  "slug": "cerow",
+  "ticker": "CEROW",
+  "issuer_name": "CERo Therapeutics Holdings, Inc. (warrants)",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "",
+      "accession": "",
+      "filed_date": "",
+      "exhibit": "Recent 8-K Ex-99.1 press releases",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Warrant security on same CIK as CERO. Phase 1/1b CER-1236 trial in AML expanded to MDS/MF cohorts. No specific forward-dated readout or interim milestone disclosed with sufficient date precision."
+  }
+}

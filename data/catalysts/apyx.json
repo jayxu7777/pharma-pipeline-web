@@ -1,0 +1,27 @@
+{
+  "slug": "apyx",
+  "ticker": "APYX",
+  "issuer_name": "Apyx Medical Corp",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-015352",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/719135/000143774926015352/ex_905122.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-007420",
+      "filed_date": "2026-03-04",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/719135/000143774926007420/ex_865254.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Issuer is a commercial-stage Surgical Aesthetics device company; PRs focus on revenue guidance for FY2026 and report December 2025 South Korea regulatory approval as a historical event. No forward-dated clinical or regulatory milestones disclosed."
+  }
+}

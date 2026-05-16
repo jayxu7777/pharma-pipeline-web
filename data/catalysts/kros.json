@@ -1,0 +1,62 @@
+{
+  "slug": "kros",
+  "ticker": "KROS",
+  "issuer_name": "Keros Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001664710-26-000017",
+      "filed_date": "2026-03-04",
+      "exhibit": "Ex-99.1 (FY2025 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001664710-26-000029",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "kros",
+      "ticker": "KROS",
+      "issuer": "Keros Therapeutics, Inc.",
+      "asset": "rinvatercept",
+      "indication": "Duchenne muscular dystrophy (DMD)",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company expects to commence a Phase 2 clinical trial of rinvatercept in patients with DMD in the second quarter of 2026."
+    },
+    {
+      "slug": "kros",
+      "ticker": "KROS",
+      "issuer": "Keros Therapeutics, Inc.",
+      "asset": "rinvatercept",
+      "indication": "amyotrophic lateral sclerosis (ALS)",
+      "phase": "Phase 2",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company plans to engage regulators on the design of a Phase 2 clinical trial of rinvatercept in patients with ALS in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

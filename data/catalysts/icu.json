@@ -1,0 +1,55 @@
+{
+  "slug": "icu",
+  "ticker": "ICU",
+  "issuer_name": "SeaStar Medical Holding Corporation",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-016726",
+      "filed_date": "",
+      "exhibit": "ex_951074.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "icu",
+      "ticker": "ICU",
+      "issuer": "SeaStar Medical Holding Corporation",
+      "asset": "",
+      "indication": "Adult AKI in the ICU on continuous renal replacement therapy",
+      "phase": "",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": ""
+    },
+    {
+      "slug": "icu",
+      "ticker": "ICU",
+      "issuer": "SeaStar Medical Holding Corporation",
+      "asset": "",
+      "indication": "Adult AKI in the ICU on continuous renal replacement therapy",
+      "phase": "",
+      "milestone_type": "other",
+      "anticipated_date_iso": "",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": ""
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": []
+  }
+}

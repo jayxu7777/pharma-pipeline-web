@@ -1,0 +1,48 @@
+{
+  "slug": "txg",
+  "ticker": "TXG",
+  "issuer_name": "10x Genomics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-001808",
+      "filed_date": "2026-01",
+      "exhibit": "ex-991_2026x01x11.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-007673",
+      "filed_date": "2026-02",
+      "exhibit": "txg-fy2025earningsreleasee.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-032073",
+      "filed_date": "2026-05-07",
+      "exhibit": "txg-20260507xexx991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001770787-25-000048",
+      "filed_date": "2025-08",
+      "exhibit": "txg-20250807xexx991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001770787-25-000058",
+      "filed_date": "2025-11",
+      "exhibit": "txg-20251106xexx991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "10x Genomics is a life-sciences research tools company (single-cell/spatial instruments and consumables, e.g. Visium, Xenium, Atera, Chromium). It does not develop therapeutics; available filings cover quarterly earnings, acquisitions (Scale Biosciences) and product launches. No clinical-trial PDUFA/BLA/NDA catalysts applicable."
+  }
+}

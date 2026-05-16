@@ -1,0 +1,100 @@
+{
+  "slug": "pavm",
+  "ticker": "PAVM",
+  "issuer_name": "PAVmed Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-005023",
+      "filed_date": "2026-02-04",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-013477",
+      "filed_date": "2026-03-30",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-023352",
+      "filed_date": "2026-05-15",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-029510",
+      "filed_date": "2025",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-003409",
+      "filed_date": "2026",
+      "exhibit": "8-K",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "pavm",
+      "ticker": "PAVM",
+      "issuer": "PAVmed Inc.",
+      "asset": "Veris implantable physiological monitor",
+      "indication": "remote patient monitoring (oncology)",
+      "phase": "device",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Veris is engaged with its development and manufacturing partner for its implantable physiological monitor, supporting a planned late 2026 FDA 510(k) submission"
+    },
+    {
+      "slug": "pavm",
+      "ticker": "PAVM",
+      "issuer": "PAVmed Inc.",
+      "asset": "Veris implantable physiological monitor",
+      "indication": "remote patient monitoring (oncology)",
+      "phase": "device",
+      "milestone_type": "approval",
+      "anticipated_date_iso": null,
+      "date_precision": "none",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Veris continued development of its implantable physiological monitor, with presubmission and testing activities expected to begin soon in support of a planned FDA 510(k) submission"
+    },
+    {
+      "slug": "pavm",
+      "ticker": "PAVM",
+      "issuer": "PAVmed Inc.",
+      "asset": "EsoGuard Esophageal DNA Test (Lucid)",
+      "indication": "esophageal precancer detection",
+      "phase": "commercial/regulatory",
+      "milestone_type": "approval",
+      "anticipated_date_iso": null,
+      "date_precision": "none",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Series D warrants callable upon publication of a positive draft Medicare local coverage determination (LCD) for EsoGuard"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

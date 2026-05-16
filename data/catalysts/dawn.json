@@ -1,0 +1,96 @@
+{
+  "slug": "dawn",
+  "ticker": "DAWN",
+  "issuer_name": "Day One Biopharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-066926",
+      "filed_date": "2026-02-24",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1845337/000119312526066926/"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-084267",
+      "filed_date": "2026-03-02",
+      "exhibit": "Ex-99.1 (corporate presentation)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1845337/000119312526084267/"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "dawn",
+      "ticker": "DAWN",
+      "issuer": "Day One Biopharmaceuticals, Inc.",
+      "asset": "tovorafenib (OJEMDA)",
+      "indication": "frontline pLGG (FIREFLY-2)",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1845337/000119312526066926/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment in the pivotal Phase 3 FIREFLY-2 trial evaluating OJEMDA in patients with frontline pLGG remains on track, with full enrollment anticipated in the first half of 2026."
+    },
+    {
+      "slug": "dawn",
+      "ticker": "DAWN",
+      "issuer": "Day One Biopharmaceuticals, Inc.",
+      "asset": "tovorafenib (OJEMDA)",
+      "indication": "frontline pLGG (FIREFLY-2)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1845337/000119312526066926/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data Mid-2027 to support potential 2028 approval."
+    },
+    {
+      "slug": "dawn",
+      "ticker": "DAWN",
+      "issuer": "Day One Biopharmaceuticals, Inc.",
+      "asset": "Emiltatug Ledadotin (Emi-Le)",
+      "indication": "adenoid cystic carcinoma (ACC)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1845337/000119312526066926/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Updated Phase 1 clinical data on Emi-Le, a B7-H4-directed ADC acquired from Mersana, expected to be available mid-2026."
+    },
+    {
+      "slug": "dawn",
+      "ticker": "DAWN",
+      "issuer": "Day One Biopharmaceuticals, Inc.",
+      "asset": "DAY301",
+      "indication": "adult and pediatric solid tumors (PTK7-targeted ADC)",
+      "phase": "Phase 1a",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1845337/000119312526066926/",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Phase 1a clinical trial of DAY301, a PTK7-targeted ADC, is progressing through dose escalation, with initial clinical data and program update planned for the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

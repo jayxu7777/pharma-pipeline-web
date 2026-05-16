@@ -1,0 +1,27 @@
+{
+  "slug": "derm",
+  "ticker": "DERM",
+  "issuer_name": "Journey Medical Corp",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-060232",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1867066/000110465926060232/"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-034506",
+      "filed_date": "2026-03-25",
+      "exhibit": "Ex-99.1 (FY2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1867066/000110465926034506/"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Earnings PRs focus on Emrosi commercial uptake/payer access trajectory; Phase 3 data presentations referenced were historical (March/June/October/December 2025). No forward-dated clinical catalyst beyond commercial growth narrative."
+  }
+}

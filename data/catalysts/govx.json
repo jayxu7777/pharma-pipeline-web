@@ -1,0 +1,38 @@
+{
+  "slug": "govx",
+  "ticker": "GOVX",
+  "issuer_name": "GeoVax Labs, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-017070",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR + GEO-MVA Phase 3 plans)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "govx",
+      "ticker": "GOVX",
+      "issuer": "GeoVax Labs, Inc.",
+      "asset": "GEO-MVA",
+      "indication": "Mpox and smallpox (orthopoxvirus)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The program is advancing under an expedited regulatory pathway, with plans to initiate a pivotal Phase 3 clinical trial in the second half of 2026, to address critical global needs for expanded orthopoxvirus vaccine supply and biosecurity preparedness."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

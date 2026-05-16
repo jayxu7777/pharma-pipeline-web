@@ -1,0 +1,72 @@
+{
+  "slug": "rgnt",
+  "ticker": "RGNT",
+  "issuer_name": "Regentis Biomaterials Ltd.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "various",
+      "filed_date": "FY2026",
+      "exhibit": "Ex-99.1 (operational updates, pivotal trial progress)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "rgnt",
+      "ticker": "RGNT",
+      "issuer": "Regentis Biomaterials Ltd.",
+      "asset": "GelrinC (PEG-fibrinogen hydrogel scaffold)",
+      "indication": "Knee cartilage repair (focal cartilage defects)",
+      "phase": "Phase III (pivotal US IDE)",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "NYSE",
+      "raw_text": "Pivotal Phase III US IDE trial of GelrinC for knee cartilage repair is >50% enrolled; full enrollment targeted in 2026."
+    },
+    {
+      "slug": "rgnt",
+      "ticker": "RGNT",
+      "issuer": "Regentis Biomaterials Ltd.",
+      "asset": "GelrinC",
+      "indication": "Knee cartilage repair (EU commercial)",
+      "phase": "Commercial (CE Mark)",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "NYSE",
+      "raw_text": "GelrinC received CE Mark and is commercially available in the European Union for treatment of knee cartilage defects."
+    },
+    {
+      "slug": "rgnt",
+      "ticker": "RGNT",
+      "issuer": "Regentis Biomaterials Ltd.",
+      "asset": "GelrinC",
+      "indication": "Knee cartilage repair",
+      "phase": "Phase III",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "NYSE",
+      "raw_text": "Continued positive MOCART (MRI-based) cartilage repair tissue quality data presented at orthopedic congresses, supporting pivotal trial enrollment."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none; Israeli FPI medical device issuer with GelrinC pivotal program"
+  }
+}

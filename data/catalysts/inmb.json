@@ -1,0 +1,17 @@
+{
+  "slug": "inmb",
+  "ticker": "INMB",
+  "issuer_name": "INmune Bio, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-056599",
+      "filed_date": "2026-05-14",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {}
+}

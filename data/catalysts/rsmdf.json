@@ -1,0 +1,48 @@
+{
+  "slug": "rsmdf",
+  "ticker": "RSMDF",
+  "issuer_name": "Resmed Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-197192",
+      "filed_date": "2026-04-30",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-029326",
+      "filed_date": "2026-02",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-258519",
+      "filed_date": "2025",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-170512",
+      "filed_date": "2025",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-091357",
+      "filed_date": "2025",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "finance-only filings: commercial-stage sleep/breathing medical devices company (CPAP/digital health); earnings releases only, no clinical or regulatory pipeline catalysts. RSMDF is the alternate ticker for Resmed Inc. (also NYSE: RMD)"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "gern",
+  "ticker": "GERN",
+  "issuer_name": "GERON CORP",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-068523",
+      "filed_date": "2026-02-25",
+      "exhibit": "Ex-99.1 (Q4/FY2025 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000886744-26-000003",
+      "filed_date": "2026-01-12",
+      "exhibit": "Ex-99.1 (JPM 2026 PR + corporate deck)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "gern",
+      "ticker": "GERN",
+      "issuer": "GERON CORP",
+      "asset": "imetelstat (RYTELO)",
+      "indication": "relapsed/refractory myelofibrosis (R/R MF)",
+      "phase": "Phase 3",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In the second half of 2026, we look forward to the IMpactMF interim analysis in relapsed/refractory myelofibrosis."
+    },
+    {
+      "slug": "gern",
+      "ticker": "GERN",
+      "issuer": "GERON CORP",
+      "asset": "imetelstat (RYTELO)",
+      "indication": "lower-risk MDS (real-world experience)",
+      "phase": "Phase 4 / RWE",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initial data is expected in the second half of 2026 [from real-world experience trials focused on the use of RYTELO in lower-risk MDS]."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

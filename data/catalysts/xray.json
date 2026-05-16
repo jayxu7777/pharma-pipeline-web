@@ -1,0 +1,66 @@
+{
+  "slug": "xray",
+  "ticker": "XRAY",
+  "issuer_name": "DENTSPLY SIRONA Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0000818479-26-000147",
+      "filed_date": "2026-05-05",
+      "exhibit": "dentsply8kq12026ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000818479-26-000072",
+      "filed_date": "2026-02-26",
+      "exhibit": "dentsplysirona8kq42025ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000818479-26-000058",
+      "filed_date": "2026-02-24",
+      "exhibit": "ex991bodappointments_vff.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000818479-26-000043",
+      "filed_date": "2026-01-14",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000818479-26-000024",
+      "filed_date": "2026-01-13",
+      "exhibit": "",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "xray",
+      "ticker": "XRAY",
+      "issuer": "DENTSPLY SIRONA Inc.",
+      "asset": "Smart View-Detect",
+      "indication": "dental diagnostic AI for periapical radiolucencies (PARL) in CBCT scans",
+      "phase": "Marketed",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-05-05",
+      "date_precision": "exact",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Launched Smart View-Detect, the world's first FDA-cleared, AI-enabled diagnostic aid designed to identify teeth with periapical radiolucencies (PARL) in CBCT scans, now also CE-marked for use across Europe"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "DENTSPLY SIRONA is a dental medtech company. Filings primarily quarterly earnings, board changes, and distribution agreements; only one regulatory-clearance product-launch catalyst (Smart View-Detect FDA clearance) identified."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "bfri",
+  "ticker": "BFRI",
+  "issuer_name": "Biofrontera Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-022875",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858685/000149315226022875/ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-011545",
+      "filed_date": "2026-03-19",
+      "exhibit": "Ex-99.1 (Q4/FY2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858685/000149315226011545/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "bfri",
+      "ticker": "BFRI",
+      "issuer": "Biofrontera Inc.",
+      "asset": "Ameluz PDT (aminolevulinic acid HCl) + RhodoLED",
+      "indication": "superficial basal cell carcinoma (sBCC)",
+      "phase": "sNDA filed; PDUFA",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-09-28",
+      "date_precision": "day",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1858685/000149315226022875/ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Announced FDA's completion of its filing review and filing acceptance of the Company's supplemental New Drug Application (sNDA) for Ameluz PDT for the treatment of superficial basal cell carcinoma (sBCC), with a PDUFA target action date of September 28, 2026."
+    },
+    {
+      "slug": "bfri",
+      "ticker": "BFRI",
+      "issuer": "Biofrontera Inc.",
+      "asset": "Ameluz PDT (aminolevulinic acid HCl) + RhodoLED",
+      "indication": "mild-to-moderate actinic keratoses (AKs) on extremities, neck, and trunk",
+      "phase": "Phase 3 (topline reported)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-05-14",
+      "date_precision": "day",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1858685/000149315226022875/ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Announced positive and statistically significant top-line results from its Phase 3 clinical trial evaluating Ameluz PDT for the treatment of mild to moderate actinic keratoses (AKs) on the extremities, neck, and trunk, meeting the primary endpoint."
+    },
+    {
+      "slug": "bfri",
+      "ticker": "BFRI",
+      "issuer": "Biofrontera Inc.",
+      "asset": "Ameluz topical gel 10% + RhodoLED",
+      "indication": "moderate-to-severe acne vulgaris",
+      "phase": "Phase 2b (data reported)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-05-14",
+      "date_precision": "day",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1858685/000149315226022875/ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Announced positive results of its Phase 2b clinical trial for the treatment of moderate to severe acne vulgaris (AV), with a 58% reduction in inflammatory lesions in the 3-hour incubation protocol with Ameluz PDT, compared to 37% with vehicle PDT (PPS)."
+    },
+    {
+      "slug": "bfri",
+      "ticker": "BFRI",
+      "issuer": "Biofrontera Inc.",
+      "asset": "Ameluz PDT",
+      "indication": "AK treatment field expansion (up to 240 cm2) on extremities/neck/trunk",
+      "phase": "Phase 1 PK (database lock)",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-05-14",
+      "date_precision": "day",
+      "filed_date": "2026-05-14",
+      "confidence": "med",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1858685/000149315226022875/ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Announced database lock of Phase 1 pharmacokinetics study required for FDA filing on treatment field on extremities, neck and trunk with a treatment area of up to 240 cm2."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 sharpens Ameluz PDT sBCC sNDA PDUFA Sept 28, 2026 (day-precision), Phase 3 AK extremities/neck/trunk topline (day-precision), Phase 2b acne vulgaris data (day-precision), and Phase 1 PK database lock for AK field expansion."
+  }
+}

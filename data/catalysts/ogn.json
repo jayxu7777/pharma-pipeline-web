@@ -1,0 +1,41 @@
+{
+  "slug": "ogn",
+  "ticker": "OGN",
+  "issuer_name": "Organon & Co.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-178718",
+      "filed_date": "2026-04-28",
+      "exhibit": "d38652dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-052165",
+      "filed_date": "2026-04-30",
+      "exhibit": "tm2613165d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-013888",
+      "filed_date": "2026-02-13",
+      "exhibit": "tm266144d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-108821",
+      "filed_date": "2025-11-06",
+      "exhibit": "tm2530711d1_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Organon is a diversified commercial-stage pharma (women's health, biosimilars, established brands). Recent 8-Ks cover Q4 2025 / Q1 2026 earnings and the pending merger with Sun Pharmaceutical Industries (announced April 2026, all-cash, expected to close early 2027). Recent FDA approvals (e.g., denosumab-nxxp/Jubbonti in Sep 2025) are already commercial. No forward-looking clinical pipeline PDUFA/topline/IND catalysts disclosed in 8-K Ex-99.1 earnings PRs."
+  }
+}

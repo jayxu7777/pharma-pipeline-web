@@ -1,0 +1,55 @@
+{
+  "slug": "mreo",
+  "ticker": "MREO",
+  "issuer_name": "Mereo BioPharma Group plc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-115211",
+      "filed_date": "2026-03-19",
+      "exhibit": "Ex-99.1 (FY2025 results PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "mreo",
+      "ticker": "MREO",
+      "issuer": "Mereo BioPharma Group plc",
+      "asset": "Alvelestat (MPH-966)",
+      "indication": "Alpha-1 antitrypsin deficiency-associated lung disease (AATD-LD)",
+      "phase": "Phase 3 (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The site feasibility work for initiation of the global Phase 3 pivotal study has been completed... Mereo anticipates a single Phase 3 trial enrolling approximately 220 early- and late-stage AATD-LD patients evaluating alvelestat over an 18-month treatment period will support regulatory submissions in both the U.S. and Europe."
+    },
+    {
+      "slug": "mreo",
+      "ticker": "MREO",
+      "issuer": "Mereo BioPharma Group plc",
+      "asset": "Vantictumab (OMP18R5) (partnered with ashibio)",
+      "indication": "Heterotopic ossification / bone-turnover indications",
+      "phase": "Phase 2 (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ashibio is responsible for funding the global program and, following regulatory discussions, plans to initiate a Phase 2 study in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

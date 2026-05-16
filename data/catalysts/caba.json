@@ -1,0 +1,107 @@
+{
+  "slug": "caba",
+  "ticker": "CABA",
+  "issuer_name": "Cabaletta Bio, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001759138-26-000025",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000025/caba-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "caba",
+      "ticker": "CABA",
+      "issuer": "Cabaletta Bio, Inc.",
+      "asset": "rese-cel (resecabtagene autoleucel, CD19 CAR-T)",
+      "indication": "SLE (RESET-SLE, PC-free lowest dose cohort)",
+      "phase": "Phase 1/2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000025/caba-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "PC-free rese-cel initial data from the lowest dose RESET-SLE cohort expected in 1H26."
+    },
+    {
+      "slug": "caba",
+      "ticker": "CABA",
+      "issuer": "Cabaletta Bio, Inc.",
+      "asset": "rese-cel",
+      "indication": "SLE & PV (RESET-SLE / RESET-PV PC-free, lowest dose plus higher dose)",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000025/caba-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Cabaletta plans to share longer-term rese-cel data from the PC-free cohorts in RESET-PV and RESET-SLE at the lowest dose in 2H26. In addition, the Company expects to present data from higher dose patients throughout 2026."
+    },
+    {
+      "slug": "caba",
+      "ticker": "CABA",
+      "issuer": "Cabaletta Bio, Inc.",
+      "asset": "rese-cel",
+      "indication": "myositis (DM + ASyS, RESET-Myositis pivotal cohort)",
+      "phase": "Phase 3",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000025/caba-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "If successful, data from this cohort will support Cabaletta's first projected Biologics License Application (BLA) submission for rese-cel in myositis in 2027."
+    },
+    {
+      "slug": "caba",
+      "ticker": "CABA",
+      "issuer": "Cabaletta Bio, Inc.",
+      "asset": "rese-cel",
+      "indication": "SSc (RESET-SSc registrational design)",
+      "phase": "Phase 2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-14",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000025/caba-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Cabaletta anticipates providing an update regarding registrational trial designs for RESET-SSc in 1H26 and potentially for RESET-MG in mid-2026."
+    },
+    {
+      "slug": "caba",
+      "ticker": "CABA",
+      "issuer": "Cabaletta Bio, Inc.",
+      "asset": "rese-cel",
+      "indication": "Lupus / Scleroderma / Myositis (EULAR 2026 presentations)",
+      "phase": "Phase 1/2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06-04",
+      "date_precision": "day",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000025/caba-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Cabaletta expects to present multiple oral and poster presentations and to feature an abstract publication on rese-cel at the European Alliance of Associations for Rheumatology (EULAR) 2026 Congress, being held from June 3-6, 2026, in London, UK. ... RESET-SLE (POS0698): Complete Phase 1/2 cohort data with preconditioning. Poster view presentation starting at 9:30 a.m. BST on Thursday, June 4, 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 adds 1H26 SLE PC-free initial data, 2H26 longer-term PC-free data, EULAR 2026 day-precision presentations, and 2027 BLA filing for rese-cel in myositis \u2014 much sharper than 10-K narrative."
+  }
+}

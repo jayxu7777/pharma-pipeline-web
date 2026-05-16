@@ -1,0 +1,27 @@
+{
+  "slug": "ecia",
+  "ticker": "ECIA",
+  "issuer_name": "ENCISION INC",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001079973-26-000132",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1 (Form 15 / Deregistration PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/930775/000107997326000132/ex99x1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001079973-25-001372",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1 (AGM and Financing PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/930775/000107997325001372/ex99x1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Encision is a small OTC medical device company (laparoscopic safety devices) preparing to deregister its common stock via Form 15. Latest PRs cover financing, AGM, and deregistration; an ENT device launch was referenced for early 2026 (now in the past). No forward-dated clinical catalysts."
+  }
+}

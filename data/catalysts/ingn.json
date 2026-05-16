@@ -1,0 +1,17 @@
+{
+  "slug": "ingn",
+  "ticker": "INGN",
+  "issuer_name": "Inogen Inc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001294133-26-000014",
+      "filed_date": "2026-05-06",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {}
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "atec",
+  "ticker": "ATEC",
+  "issuer_name": "Alphatec Holdings, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-009910",
+      "filed_date": "2026-01-12",
+      "exhibit": "Ex-99.1 (preliminary FY2025 results and FY2026 outlook PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1350653/000119312526009910/atec-ex99_1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-067062",
+      "filed_date": "2026-02-24",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1350653/000119312526067062/atec-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Commercial-stage spine surgery devices; PRs focus on revenue and adjusted-EBITDA guidance, with no forward-dated clinical/regulatory milestones."
+  }
+}

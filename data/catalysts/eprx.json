@@ -1,0 +1,38 @@
+{
+  "slug": "eprx",
+  "ticker": "EPRX",
+  "issuer_name": "EUPRAXIA PHARMACEUTICALS INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-219802",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.2 (Q1 2026 MD&A) and Ex-99.3 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "eprx",
+      "ticker": "EPRX",
+      "issuer": "EUPRAXIA PHARMACEUTICALS INC.",
+      "asset": "EP-104GI",
+      "indication": "Eosinophilic Esophagitis (EoE)",
+      "phase": "Phase 1b/2a (Phase 2b portion)",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Interim data from the Phase 2b portion of the RESOLVE study is expected to be available in Q4 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

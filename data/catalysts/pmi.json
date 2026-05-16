@@ -1,0 +1,117 @@
+{
+  "slug": "pmi",
+  "ticker": "PMI",
+  "issuer_name": "Picard Medical, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-003733",
+      "filed_date": "2026-04-22",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-002794",
+      "filed_date": "2026-03-25",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-002663",
+      "filed_date": "2026-03-25",
+      "exhibit": "ex99-1 (FY2025 results)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-002557",
+      "filed_date": "2026-03-20",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-002490",
+      "filed_date": "2026-03-19",
+      "exhibit": "ex99-1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "pmi",
+      "ticker": "PMI",
+      "issuer": "Picard Medical, Inc.",
+      "asset": "Emperor Total Artificial Heart",
+      "indication": "Advanced biventricular heart failure",
+      "phase": "Preclinical",
+      "milestone_type": "Potential FDA Breakthrough Device Designation submission",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "NYSE",
+      "raw_text": "2026 - Continued acute animal studies; Design iteration and reliability testing; Potential submission for FDA Breakthrough Device Designation."
+    },
+    {
+      "slug": "pmi",
+      "ticker": "PMI",
+      "issuer": "Picard Medical, Inc.",
+      "asset": "Emperor Total Artificial Heart",
+      "indication": "Advanced biventricular heart failure",
+      "phase": "Preclinical",
+      "milestone_type": "GLP animal studies / design freeze",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "NYSE",
+      "raw_text": "2027 - Design freeze; Initiation of GLP animal studies."
+    },
+    {
+      "slug": "pmi",
+      "ticker": "PMI",
+      "issuer": "Picard Medical, Inc.",
+      "asset": "Emperor Total Artificial Heart",
+      "indication": "Advanced biventricular heart failure",
+      "phase": "Phase 1 (planned)",
+      "milestone_type": "Potential initiation of U.S. clinical study",
+      "anticipated_date_iso": "2028-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "NYSE",
+      "raw_text": "2028 - Completion of verification and validation testing; Potential initiation of U.S. clinical study."
+    },
+    {
+      "slug": "pmi",
+      "ticker": "PMI",
+      "issuer": "Picard Medical, Inc.",
+      "asset": "SynCardia Total Artificial Heart (STAH)",
+      "indication": "End-stage biventricular heart failure (China)",
+      "phase": "Regulatory",
+      "milestone_type": "China NMPA submission preparation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "NYSE",
+      "raw_text": "Continued progress on regulatory preparation for China NMPA submission."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

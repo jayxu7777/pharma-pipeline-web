@@ -1,0 +1,20 @@
+{
+  "slug": "csbr",
+  "ticker": "CSBR",
+  "issuer_name": "CHAMPIONS ONCOLOGY, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-017259",
+      "filed_date": "2026-03-12",
+      "exhibit": "Ex-99.1 (Q3 fiscal 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/771856/000162828026017259/csbr8-k1312026exhibit991xq3.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Translational oncology CRO (PDX models, data licensing); PRs describe services revenue and operational performance, not internal clinical-trial catalysts."
+  }
+}

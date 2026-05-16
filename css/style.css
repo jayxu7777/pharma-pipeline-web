@@ -434,6 +434,108 @@ details.collapsible ul { margin: 6px 0 0 18px; padding: 0; color: var(--text-mut
   margin-right: 6px;
 }
 
+/* Catalyst board (v2) ----------------------------------------------------- */
+
+header.topbar nav a.active {
+  color: #fff;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 2px;
+}
+
+.ms-badge {
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 2px 7px;
+  border-radius: 3px;
+  background: var(--navy-100);
+  color: var(--navy-900);
+  text-transform: uppercase;
+}
+.ms-badge.ms-pdufa,
+.ms-badge.ms-bla,
+.ms-badge.ms-nda,
+.ms-badge.ms-maa,
+.ms-badge.ms-approval { background: var(--navy-900); color: #fff; }
+.ms-badge.ms-topline,
+.ms-badge.ms-interim,
+.ms-badge.ms-dataupdate { background: var(--accent); color: #fff; }
+.ms-badge.ms-initiation,
+.ms-badge.ms-ind,
+.ms-badge.ms-fpi,
+.ms-badge.ms-lpi,
+.ms-badge.ms-enrollmentcomplete { background: var(--navy-500); color: #fff; }
+.ms-badge.ms-presentation { background: #E0EDF7; color: var(--navy-900); }
+.ms-badge.ms-other { background: var(--navy-100); color: var(--text-muted); }
+
+.cat-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--navy-900);
+}
+.past-tag {
+  display: inline-block;
+  background: var(--p0);
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  padding: 1px 5px;
+  border-radius: 2px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.cat-asset { color: var(--navy-900); font-weight: 500; }
+
+.muted-count {
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  margin-left: 6px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* Catalyst table on the company detail page */
+table.catalyst-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  table-layout: fixed;
+}
+table.catalyst-table thead th {
+  text-align: left;
+  padding: 8px 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  background: var(--navy-900);
+  color: #fff;
+  border-right: 1px solid var(--navy-700);
+}
+table.catalyst-table tbody td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+table.catalyst-table tbody tr:hover { background: #F6F9FC; }
+table.catalyst-table tbody tr.past-row { opacity: 0.6; }
+table.catalyst-table tbody tr.past-row .cat-date { color: var(--text-muted); }
+
+.cat-sources {
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.cat-sources a { margin-right: 4px; }
+
 /* Footer */
 footer {
   text-align: center;

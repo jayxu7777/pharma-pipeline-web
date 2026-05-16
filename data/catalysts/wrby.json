@@ -1,0 +1,48 @@
+{
+  "slug": "wrby",
+  "ticker": "WRBY",
+  "issuer_name": "Warby Parker Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001504776-26-000009",
+      "filed_date": "2026-05-07",
+      "exhibit": "earnings_release",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001504776-26-000003",
+      "filed_date": "2026-02-26",
+      "exhibit": "earnings_release",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-012081",
+      "filed_date": "2026-02-09",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-119209",
+      "filed_date": "2025-12-08",
+      "exhibit": "form_body",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001504776-25-000030",
+      "filed_date": "2025-11-06",
+      "exhibit": "earnings_release",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Warby Parker is a consumer eyewear retail/optical-services company. Filings are quarterly earnings releases and an executive compensation 8-K. No drug or medical device clinical/regulatory catalysts disclosed."
+  }
+}

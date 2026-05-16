@@ -1,0 +1,134 @@
+{
+  "slug": "pasg",
+  "ticker": "PASG",
+  "issuer_name": "Passage BIO, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-045219",
+      "filed_date": "2026-04-20",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-022539",
+      "filed_date": "2026-03-03",
+      "exhibit": "EX-99.2",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001558370-25-011143",
+      "filed_date": "2025-08-12",
+      "exhibit": "EX-99.1,2",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-109158",
+      "filed_date": "2025-11-10",
+      "exhibit": "EX-99.1,2",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-002696",
+      "filed_date": "2026-01",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "pasg",
+      "ticker": "PASG",
+      "issuer": "Passage BIO, Inc.",
+      "asset": "PBFT02",
+      "indication": "FTD-GRN (frontotemporal dementia with GRN mutations)",
+      "phase": "Phase 1/2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-04-20",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "PBFT02 administration resulted in improvements in two disease progression biomarkers (brain atrophy and plasma NfL) in upliFT-D trial; updated interim data reported April 20, 2026"
+    },
+    {
+      "slug": "pasg",
+      "ticker": "PASG",
+      "issuer": "Passage BIO, Inc.",
+      "asset": "PBFT02",
+      "indication": "FTD-GRN",
+      "phase": "regulatory",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-04-20",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA Type C meeting feedback: randomized controlled registrational trial will be required for PBFT02 in FTD-GRN"
+    },
+    {
+      "slug": "pasg",
+      "ticker": "PASG",
+      "issuer": "Passage BIO, Inc.",
+      "asset": "PBFT02",
+      "indication": "FTD-GRN/C9orf72",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "1H 2026 milestone: Report updated interim safety and biomarker data from Dose 2 in FTD patients"
+    },
+    {
+      "slug": "pasg",
+      "ticker": "PASG",
+      "issuer": "Passage BIO, Inc.",
+      "asset": "PBFT02",
+      "indication": "FTD-GRN",
+      "phase": "regulatory",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "1H 2026 milestone: Seek regulatory feedback on registrational trial design in FTD-GRN"
+    },
+    {
+      "slug": "pasg",
+      "ticker": "PASG",
+      "issuer": "Passage BIO, Inc.",
+      "asset": "Huntington's disease program",
+      "indication": "Huntington's disease",
+      "phase": "preclinical",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "2H 2026 milestone: Declare clinical candidate for Huntington's disease"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

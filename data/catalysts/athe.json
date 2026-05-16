@@ -1,0 +1,39 @@
+{
+  "slug": "athe",
+  "ticker": "ATHE",
+  "issuer_name": "ALTERITY THERAPEUTICS LTD",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001437749-26-013964",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (Q3 FY26 quarterly update)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1131343/000143774926013964/ex_953834.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "athe",
+      "ticker": "ATHE",
+      "issuer": "ALTERITY THERAPEUTICS LTD",
+      "asset": "ATH434",
+      "indication": "Multiple System Atrophy (MSA)",
+      "phase": "Phase 2/3",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1131343/000143774926013964/ex_953834.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Advancing ATH434 toward pivotal Phase 3 program; on track for End-of-Phase 2 FDA meeting mid-year 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 captures ATH434 End-of-Phase 2 FDA meeting (mid-2026); Phase 3 initiation date not yet specified in PR. Most 6-Ks in window are governance/AGM only."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "tenx",
+  "ticker": "TENX",
+  "issuer_name": "TENAX THERAPEUTICS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-218224",
+      "filed_date": "2026-05",
+      "exhibit": "d91737dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-168521",
+      "filed_date": "2026",
+      "exhibit": "d81080dex101.htm + ex102 + ex991",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-26-002072",
+      "filed_date": "2026",
+      "exhibit": "tennx_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-25-014059",
+      "filed_date": "2025",
+      "exhibit": "tennx_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-25-012921",
+      "filed_date": "2025",
+      "exhibit": "tennx_ex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tenx",
+      "ticker": "TENX",
+      "issuer": "TENAX THERAPEUTICS, INC.",
+      "asset": "TNX-103 (oral levosimendan)",
+      "indication": "pulmonary hypertension with heart failure preserved ejection fraction (PH-HFpEF)",
+      "phase": "Phase 3 LEVEL (pivotal)",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-03",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "completing randomization of more than 230 patients in the Phase 3 LEVEL study at the end of the first quarter"
+    },
+    {
+      "slug": "tenx",
+      "ticker": "TENX",
+      "issuer": "TENAX THERAPEUTICS, INC.",
+      "asset": "TNX-103 (oral levosimendan)",
+      "indication": "PH-HFpEF",
+      "phase": "Phase 3 LEVEL",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Tenax continues to anticipate sharing topline data from... LEVEL study at the end of the first quarter which positions us to deliver topline data in the third quarter of 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Phase 3 LEVEL completed randomization (>230 pts) Q1 2026; topline expected Q3 2026."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "rgen",
+  "ticker": "RGEN",
+  "issuer_name": "Repligen Corporation",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "10-K/10-Q/8-K",
+      "accession": "various",
+      "filed_date": "FY2026",
+      "exhibit": "Earnings releases, business updates",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "finance-only filings; bioprocessing equipment/consumables supplier with no internal clinical pipeline \u2014 sells filtration, chromatography, analytics tools to biopharma customers"
+  }
+}

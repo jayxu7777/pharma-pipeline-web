@@ -1,0 +1,79 @@
+{
+  "slug": "lctx",
+  "ticker": "LCTX",
+  "issuer_name": "Lineage Cell Therapeutics, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-219421",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-093948",
+      "filed_date": "2026-03-11",
+      "exhibit": "Ex-99.1 (4Q/FY2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "lctx",
+      "ticker": "LCTX",
+      "issuer": "Lineage Cell Therapeutics, Inc.",
+      "asset": "OpRegen (RG6501)",
+      "indication": "geographic atrophy secondary to age-related macular degeneration (GAlette Phase 2a, partnered with Roche/Genentech)",
+      "phase": "Phase 2a",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The ongoing Phase 2a GAlette Study is currently enrolling at 17 clinical sites in the U.S. and Israel ... Lineage's plans to advance its pipeline of allogeneic cell therapy candidates in 2026 and beyond"
+    },
+    {
+      "slug": "lctx",
+      "ticker": "LCTX",
+      "issuer": "Lineage Cell Therapeutics, Inc.",
+      "asset": "OPC1",
+      "indication": "chronic spinal cord injury (DOSED device safety study)",
+      "phase": "Phase 1/2a",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Second chronic SCI participant treated in the Delivery of Oligodendrocyte Progenitor Cells for Spinal Cord Injury: Evaluation of a Novel Device (DOSED) study ... Opened second clinical site in the DOSED study, Rancho Research Institute"
+    },
+    {
+      "slug": "lctx",
+      "ticker": "LCTX",
+      "issuer": "Lineage Cell Therapeutics, Inc.",
+      "asset": "COR1",
+      "indication": "corneal endothelial disease (FECD, bullous keratopathy)",
+      "phase": "preclinical",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Lineage plans to advance this new product candidate into translational models to support potential clinical testing."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Q1 2026 earnings PR uses general 'in 2026 and beyond' language; no precise topline/IND dates for OpRegen, OPC1, COR1, or ReSonance. Listed catalysts use year-level precision per available guidance."
+  }
+}

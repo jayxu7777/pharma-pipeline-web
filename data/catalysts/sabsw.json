@@ -1,0 +1,45 @@
+{
+  "slug": "sabsw",
+  "ticker": "SABSW",
+  "issuer_name": "SAB Biotherapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-168569",
+      "filed_date": "2026-04-22",
+      "exhibit": "Ex-99.1 (IDS 2026 additional Phase 1 data PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-099376",
+      "filed_date": "2026-03",
+      "exhibit": "Ex-99.1/99.2 (Q4 2025 earnings PR + corporate update)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "sabsw",
+      "ticker": "SABSW",
+      "issuer": "SAB Biotherapeutics, Inc.",
+      "asset": "SAB-142",
+      "indication": "type 1 diabetes (T1D)",
+      "phase": "Phase 2b (SAFEGUARD)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "We look forward to reporting topline data from our registrational Phase 2b SAFEGUARD trial in the 2H 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none"
+  }
+}

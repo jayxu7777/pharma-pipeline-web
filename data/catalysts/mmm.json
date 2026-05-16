@@ -1,0 +1,20 @@
+{
+  "slug": "mmm",
+  "ticker": "MMM",
+  "issuer_name": "3M CO",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0000066740-25-000086",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1 (Q3 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Large-cap diversified industrial (>$50B) with adjacent medtech / health care segment exposure. Earnings PRs are financial-results focused with no clinical trial readouts or regulatory catalyst dates."
+  }
+}

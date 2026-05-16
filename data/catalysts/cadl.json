@@ -1,0 +1,107 @@
+{
+  "slug": "cadl",
+  "ticker": "CADL",
+  "issuer_name": "Candel Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-222892",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1841387/000119312526222892/cadl-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cadl",
+      "ticker": "CADL",
+      "issuer": "Candel Therapeutics, Inc.",
+      "asset": "aglatimagene besadenovec (CAN-2409)",
+      "indication": "localized intermediate- to high-risk prostate cancer (Phase 3 extended follow-up)",
+      "phase": "Phase 3",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-18",
+      "date_precision": "day",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1841387/000119312526222892/cadl-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Updated extended follow-up data from the positive phase 3 clinical trial of aglatimagene in patients with localized, intermediate- to high-risk localized prostate cancer, will be reported in an oral presentation at the AUA 2026 Annual Meeting Plenary Program being held in Washington D.C. from May 15-18, 2026."
+    },
+    {
+      "slug": "cadl",
+      "ticker": "CADL",
+      "issuer": "Candel Therapeutics, Inc.",
+      "asset": "aglatimagene besadenovec (CAN-2409)",
+      "indication": "metastatic non-squamous NSCLC, post-ICI (pivotal Phase 3)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "month",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1841387/000119312526222892/cadl-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company plans to initiate a pivotal phase 3 clinical trial of aglatimagene in patients with metastatic, non-squamous, NSCLC, and progressive disease despite ICI treatment in June 2026."
+    },
+    {
+      "slug": "cadl",
+      "ticker": "CADL",
+      "issuer": "Candel Therapeutics, Inc.",
+      "asset": "aglatimagene besadenovec (CAN-2409)",
+      "indication": "localized prostate cancer (biomarker data)",
+      "phase": "Phase 3",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1841387/000119312526222892/cadl-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Biomarker data related to the effects of aglatimagene in patients with localized prostate cancer is expected in Q3 2026."
+    },
+    {
+      "slug": "cadl",
+      "ticker": "CADL",
+      "issuer": "Candel Therapeutics, Inc.",
+      "asset": "linoserpaturev (CAN-3110)",
+      "indication": "recurrent high-grade glioma (Phase 1b arm C)",
+      "phase": "Phase 1b",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1841387/000119312526222892/cadl-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company expects to present mature mOS data and an update on long-term survivors from arm C of its phase 1b clinical trial of linoserpaturev in patients with rHGG in Q4 2026."
+    },
+    {
+      "slug": "cadl",
+      "ticker": "CADL",
+      "issuer": "Candel Therapeutics, Inc.",
+      "asset": "aglatimagene besadenovec (CAN-2409)",
+      "indication": "localized intermediate- to high-risk prostate cancer",
+      "phase": "BLA",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1841387/000119312526222892/cadl-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Submission of BLA for aglatimagene in prostate cancer is planned for Q4 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 adds Q4 2026 prostate BLA, AUA 2026 day-precision oral, Q3 2026 biomarker data, June 2026 NSCLC Ph3 start and Q4 2026 linoserpaturev rHGG data \u2014 sharper than 10-K narrative."
+  }
+}

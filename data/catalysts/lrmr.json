@@ -1,0 +1,96 @@
+{
+  "slug": "lrmr",
+  "ticker": "LRMR",
+  "issuer_name": "Larimar Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-222746",
+      "filed_date": "2026-05-14",
+      "exhibit": "lrmr-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-115119",
+      "filed_date": "2026-03-19",
+      "exhibit": "lrmr-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "lrmr",
+      "ticker": "LRMR",
+      "issuer": "Larimar Therapeutics, Inc.",
+      "asset": "nomlabofusp (CTI-1601)",
+      "indication": "Friedreich's ataxia",
+      "phase": "Phase 3",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Rolling BLA submission planned for June 2026"
+    },
+    {
+      "slug": "lrmr",
+      "ticker": "LRMR",
+      "issuer": "Larimar Therapeutics, Inc.",
+      "asset": "nomlabofusp",
+      "indication": "Friedreich's ataxia (open-label extension)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Open-label extension topline data expected Q2 2026"
+    },
+    {
+      "slug": "lrmr",
+      "ticker": "LRMR",
+      "issuer": "Larimar Therapeutics, Inc.",
+      "asset": "nomlabofusp",
+      "indication": "Friedreich's ataxia (confirmatory Phase 3)",
+      "phase": "Phase 3",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 confirmatory trial first patient in mid-2026"
+    },
+    {
+      "slug": "lrmr",
+      "ticker": "LRMR",
+      "issuer": "Larimar Therapeutics, Inc.",
+      "asset": "nomlabofusp",
+      "indication": "Friedreich's ataxia",
+      "phase": "regulatory",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "CMC module of BLA targeted for 2H 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

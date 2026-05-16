@@ -1,0 +1,27 @@
+{
+  "slug": "apt",
+  "ticker": "APT",
+  "issuer_name": "ALPHA PRO TECH LTD",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-015366",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/884269/000143774926015366/ex_956041.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-007775",
+      "filed_date": "2026-03-04",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/884269/000143774926007775/ex_931329.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Issuer manufactures disposable PPE and building-supply products; no clinical pipeline disclosed in recent PRs."
+  }
+}

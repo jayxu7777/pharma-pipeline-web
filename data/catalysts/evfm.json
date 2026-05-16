@@ -1,0 +1,34 @@
+{
+  "slug": "evfm",
+  "ticker": "EVFM",
+  "issuer_name": "Evofem Biosciences, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-020417",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (SOLOSEC Sub-Saharan Africa distribution PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-009689",
+      "filed_date": "2026-03-11",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-022318",
+      "filed_date": "2025-11-13",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Commercial-stage company with FDA-approved PHEXX and SOLOSEC. Most recent 8-K announces sub-Saharan Africa distribution agreement; local regulatory filings dependent on partner with no Evofem-controlled dated milestones. No forward-dated clinical/regulatory catalyst on the company's own pipeline."
+  }
+}

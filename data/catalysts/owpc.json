@@ -1,0 +1,27 @@
+{
+  "slug": "owpc",
+  "ticker": "OWPC",
+  "issuer_name": "One World Products, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-018756",
+      "filed_date": "2025-10-21",
+      "exhibit": "Ex-99.1 (Board appointment / business pivot PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001641172-25-019696",
+      "filed_date": "2025",
+      "exhibit": "Ex-99.1 (business update)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Company has pivoted away from cannabis-pharma into sustainable packaging (transitioning to Isiah Enterprises); recent 8-Ks contain no clinical or regulatory catalysts"
+  }
+}

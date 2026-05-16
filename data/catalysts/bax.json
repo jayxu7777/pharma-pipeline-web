@@ -1,0 +1,27 @@
+{
+  "slug": "bax",
+  "ticker": "BAX",
+  "issuer_name": "BAXTER INTERNATIONAL INC",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-028582",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828026028582/bax-20260331xex991.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-007474",
+      "filed_date": "2026-02-12",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828026007474/bax-20260212xex991.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Baxter International is a large adjacent medtech; the latest 8-K exhibits are quarterly earnings, governance, and stockholder engagement materials. No forward-dated clinical readouts, PDUFA, BLA/NDA, or named launch dates beyond ongoing commercial activities."
+  }
+}

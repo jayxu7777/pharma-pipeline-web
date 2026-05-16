@@ -1,0 +1,62 @@
+{
+  "slug": "lenz",
+  "ticker": "LENZ",
+  "issuer_name": "LENZ Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001815776-26-000035",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001815776-26-000008",
+      "filed_date": "2026-02-26",
+      "exhibit": "Ex-99.1 (4Q/FY2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "lenz",
+      "ticker": "LENZ",
+      "issuer": "LENZ Therapeutics, Inc.",
+      "asset": "VIZZ (aceclidine ophthalmic solution 1.44%)",
+      "indication": "presbyopia (Europe MAA via EMA)",
+      "phase": "marketed",
+      "milestone_type": "MAA",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "LENZ submitted its Marketing Authorization Application (MAA) to the European Medicines Agency (EMA) in March 2026 and to the Medicines and Healthcare products Regulatory Agency (MHRA) in April 2026 for VIZZ"
+    },
+    {
+      "slug": "lenz",
+      "ticker": "LENZ",
+      "issuer": "LENZ Therapeutics, Inc.",
+      "asset": "VIZZ (aceclidine ophthalmic solution 1.44%)",
+      "indication": "presbyopia (commercial U.S. launch)",
+      "phase": "marketed",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "LENZ is expanding its sales force from 88 to 117 territories ... The expanded sales force is expected to be fully deployed by the end of Q2 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "VIZZ is already FDA-approved (July 2025). PR focuses on U.S. commercial launch metrics and EU/UK MAA submissions (already submitted Mar/Apr 2026). No new clinical-trial catalysts."
+  }
+}

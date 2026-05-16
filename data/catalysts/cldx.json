@@ -1,0 +1,114 @@
+{
+  "slug": "cldx",
+  "ticker": "CLDX",
+  "issuer_name": "Celldex Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001171843-26-003153",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings and corporate update)",
+      "url": "https://www.sec.gov/Archives/edgar/data/744218/000117184326003153/exh_991.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001171843-26-001098",
+      "filed_date": "2026-02-25",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings)",
+      "url": "https://www.sec.gov/Archives/edgar/data/744218/000117184326001098/exh_991.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cldx",
+      "ticker": "CLDX",
+      "issuer": "Celldex Therapeutics, Inc.",
+      "asset": "barzolvolimab (anti-KIT mAb)",
+      "indication": "Chronic spontaneous urticaria (CSU) - EMBARQ-CSU1 and EMBARQ-CSU2",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/744218/000117184326003153/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment was completed six months ahead of guidance in the global Phase 3 program in chronic spontaneous urticaria (CSU)... Topline data are anticipated in Q4 2026, supporting a planned BLA filing in 2027."
+    },
+    {
+      "slug": "cldx",
+      "ticker": "CLDX",
+      "issuer": "Celldex Therapeutics, Inc.",
+      "asset": "barzolvolimab (anti-KIT mAb)",
+      "indication": "Chronic spontaneous urticaria (CSU)",
+      "phase": "Phase 3",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/744218/000117184326003153/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data are anticipated in Q4 2026, supporting a planned BLA filing in 2027."
+    },
+    {
+      "slug": "cldx",
+      "ticker": "CLDX",
+      "issuer": "Celldex Therapeutics, Inc.",
+      "asset": "barzolvolimab (anti-KIT mAb)",
+      "indication": "Prurigo nodularis (PN)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-08",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/744218/000117184326003153/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment is complete in the Phase 2 study in prurigo nodularis (PN)... Topline data from this study are expected to be presented in the summer of 2026."
+    },
+    {
+      "slug": "cldx",
+      "ticker": "CLDX",
+      "issuer": "Celldex Therapeutics, Inc.",
+      "asset": "barzolvolimab (anti-KIT mAb)",
+      "indication": "Atopic dermatitis (AD)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/744218/000117184326003153/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment is complete in the Phase 2 study in atopic dermatitis (AD)... Topline data from this study are expected to be presented in late 2026."
+    },
+    {
+      "slug": "cldx",
+      "ticker": "CLDX",
+      "issuer": "Celldex Therapeutics, Inc.",
+      "asset": "CDX-622 (bispecific SCF x TSLP)",
+      "indication": "Healthy volunteers (MAD and SubQ portion)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-07",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/744218/000117184326003153/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment is complete in the multi-part Phase 1 study in healthy volunteers... Data from the multiple ascending dose portion of the study and SubQ administration are anticipated in the third quarter of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Q1 2026 PR confirms EMBARQ-CSU1/2 enrollment complete six months early (fresh) with Q4 2026 topline and 2027 BLA timeline. PN summer 2026 and AD late-2026 readouts likely in tier0 but reaffirmed. CDX-622 Phase 1 MAD/SubQ Q3 2026 is fresh; CDX-622 asthma POM started January 2026 (historical, no near-term date)."
+  }
+}

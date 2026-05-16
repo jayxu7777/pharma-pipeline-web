@@ -1,0 +1,27 @@
+{
+  "slug": "kala",
+  "ticker": "KALA",
+  "issuer_name": "KALA BIO, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-004744",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Reverse stock split PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-001911",
+      "filed_date": "2026-03-04",
+      "exhibit": "Ex-99.1 (AI strategy PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Recent 8-Ks focus on reverse stock split and AI platform pivot (Researgency); no specific forward-dated clinical catalyst announced for KPI-012 or MSC-S programs."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "nnvc",
+  "ticker": "NNVC",
+  "issuer_name": "NANOVIRICIDES, INC.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-112644",
+      "filed_date": "2025-11-11",
+      "exhibit": "Ex-99.1 (registered direct offering financing PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Most recent 8-K exhibits are financing-related (registered direct offering / warrants). Company narrative mentions NV-387 'currently focused on advancing into Phase II' without a specific anticipated date; no forward-dated catalyst milestones disclosed."
+  }
+}

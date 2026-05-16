@@ -1,0 +1,28 @@
+{
+  "slug": "celz",
+  "ticker": "CELZ",
+  "issuer_name": "CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001477932-23-004849",
+      "filed_date": "2023-06-28",
+      "exhibit": "Ex-99.1 (Nasdaq compliance regained)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1187953/000147793223004849/celz_ex991.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001477932-23-004441",
+      "filed_date": "2023-06-09",
+      "exhibit": "Ex-99.1 (Reverse stock split)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1187953/000147793223004441/celz_ex991.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "CELZ has only stale 2021-2023 8-Ks in its EDGAR window (Nasdaq compliance, reverse stock split, governance). No 2025-2026 earnings PRs with clinical catalyst dates. Need deeper window or 10-K/10-Q baseline; current 5 latest filings are non-clinical.",
+    "tier0_overlap_check": "Tier0 10-K likely carries StemSpine/CaverStem/OvaStem program references; latest filings are old and reveal no forward-looking trial dates beyond what tier0 already lists."
+  }
+}

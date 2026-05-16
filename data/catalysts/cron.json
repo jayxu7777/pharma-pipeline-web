@@ -1,0 +1,20 @@
+{
+  "slug": "cron",
+  "ticker": "CRON",
+  "issuer_name": "Cronos Group Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001656472-26-000032",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000032/pressreleaseq12026qformat.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Cannabis company (Canada/Israel/EU); earnings PR focuses on revenue, share repurchase, CanAdelaar acquisition \u2014 no clinical-trial catalysts."
+  }
+}

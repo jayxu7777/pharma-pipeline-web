@@ -1,0 +1,107 @@
+{
+  "slug": "bhvn",
+  "ticker": "BHVN",
+  "issuer_name": "Biohaven Ltd.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001935979-26-000044",
+      "filed_date": "2026-05-04",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1935979/000193597926000044/a2026q1bhvnearningsprex991.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "bhvn",
+      "ticker": "BHVN",
+      "issuer": "Biohaven Ltd.",
+      "asset": "Opakalim (selective Kv7 ion channel activator)",
+      "indication": "Focal epilepsy",
+      "phase": "Phase 2/3 (pivotal)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1935979/000193597926000044/a2026q1bhvnearningsprex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Pivotal epilepsy program with selective Kv7 ion channel activator, opakalim, with expected topline results in 2H 2026. Continue two Phase 2/3 studies in focal epilepsy; initial topline results for the first study expected in 2H 2026."
+    },
+    {
+      "slug": "bhvn",
+      "ticker": "BHVN",
+      "issuer": "Biohaven Ltd.",
+      "asset": "Taldefgrobep alfa (myostatin-activin pathway inhibitor)",
+      "indication": "Obesity",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1935979/000193597926000044/a2026q1bhvnearningsprex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Phase 2 obesity study with myostatin-activin pathway inhibitor, taldefgrobep alfa, completed enrollment and topline data expected in 2H 2026."
+    },
+    {
+      "slug": "bhvn",
+      "ticker": "BHVN",
+      "issuer": "Biohaven Ltd.",
+      "asset": "BHV-1400 (TRAP extracellular protein degrader)",
+      "indication": "IgA nephropathy (IgAN)",
+      "phase": "Pivotal",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1935979/000193597926000044/a2026q1bhvnearningsprex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "BHV-1400: Pivotal study initiation in IgAN study expected mid-year 2026."
+    },
+    {
+      "slug": "bhvn",
+      "ticker": "BHVN",
+      "issuer": "Biohaven Ltd.",
+      "asset": "BHV-1300 (MoDE extracellular protein degrader)",
+      "indication": "Graves' disease",
+      "phase": "Pivotal",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-04",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1935979/000193597926000044/a2026q1bhvnearningsprex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "BHV-1300: Pivotal study initiation in Graves' disease expected mid-year 2026."
+    },
+    {
+      "slug": "bhvn",
+      "ticker": "BHVN",
+      "issuer": "Biohaven Ltd.",
+      "asset": "BHV-8000 (brain-penetrant TYK2/JAK1 inhibitor)",
+      "indication": "Early Parkinson's disease",
+      "phase": "Phase 2",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-04",
+      "confidence": "med",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1935979/000193597926000044/a2026q1bhvnearningsprex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Enrollment in Phase 2 early Parkinson's disease trial with brain-penetrant TYK2/JAK1 inhibitor, BHV-8000, continues to advance."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "All five rows are forward-looking 2026 catalysts (2H 2026 epilepsy and obesity readouts, mid-2026 pivotal initiations for BHV-1400 IgAN and BHV-1300 Graves'). These post-date or refine 2025 10-K coverage and are sourced from the Q1 2026 earnings PR."
+  }
+}

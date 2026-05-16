@@ -1,0 +1,127 @@
+{
+  "slug": "tnxp",
+  "ticker": "TNXP",
+  "issuer_name": "Tonix Pharmaceuticals Holding Corp.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001999371-26-010790",
+      "filed_date": "2026-05-15",
+      "exhibit": "ex99-01.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001999371-26-010487",
+      "filed_date": "2026-05-11",
+      "exhibit": "ex99-01.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001999371-26-010039",
+      "filed_date": "2026-05-06",
+      "exhibit": "ex99-01.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001999371-26-009289",
+      "filed_date": "2026-04-29",
+      "exhibit": "ex99-01.htm/ex99-02.htm/tnxp_8k-0422926.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tnxp",
+      "ticker": "TNXP",
+      "issuer": "Tonix Pharmaceuticals Holding Corp.",
+      "asset": "TNX-4800",
+      "indication": "Lyme disease prevention",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company on track to initiate a randomized, double-blind, placebo-controlled, adaptive Phase 2 field study in the first half of 2027, pending FDA agreement"
+    },
+    {
+      "slug": "tnxp",
+      "ticker": "TNXP",
+      "issuer": "Tonix Pharmaceuticals Holding Corp.",
+      "asset": "TNX-4800",
+      "indication": "Lyme disease prevention",
+      "phase": "Phase 2",
+      "milestone_type": "GMP_material_ready",
+      "anticipated_date_iso": "2027-03-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company expects to have GMP investigational product available for clinical testing in early 2027."
+    },
+    {
+      "slug": "tnxp",
+      "ticker": "TNXP",
+      "issuer": "Tonix Pharmaceuticals Holding Corp.",
+      "asset": "TNX-102 SL",
+      "indication": "Major depressive disorder (MDD)",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "approximate",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "TNX-102 SL (cyclobenzaprine HCl sublingual tablets): in Phase 2 development for MDD; remains on track to initiate mid-year 2026"
+    },
+    {
+      "slug": "tnxp",
+      "ticker": "TNXP",
+      "issuer": "Tonix Pharmaceuticals Holding Corp.",
+      "asset": "TNX-102 SL",
+      "indication": "Acute stress disorder / acute stress reaction (OASIS)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data is expected to be reported in the second half of 2026."
+    },
+    {
+      "slug": "tnxp",
+      "ticker": "TNXP",
+      "issuer": "Tonix Pharmaceuticals Holding Corp.",
+      "asset": "TNX-1300",
+      "indication": "Cocaine intoxication",
+      "phase": "Phase 2",
+      "milestone_type": "FDA_meeting",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company plans to meet with the FDA in 2026 to inform the clinical design of the next Phase 2 study (a Phase 2a)"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

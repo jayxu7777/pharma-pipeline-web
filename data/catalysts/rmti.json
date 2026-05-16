@@ -1,0 +1,48 @@
+{
+  "slug": "rmti",
+  "ticker": "RMTI",
+  "issuer_name": "ROCKWELL MEDICAL, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-021195",
+      "filed_date": "2026-03-26",
+      "exhibit": null,
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-021176",
+      "filed_date": "2026-03-26",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-002478",
+      "filed_date": "2026-01-20",
+      "exhibit": null,
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-031629",
+      "filed_date": "2026",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-031680",
+      "filed_date": "2026-05-07",
+      "exhibit": null,
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "finance-only filings: commercial-stage hemodialysis products company; earnings releases focused on sales/margins without clinical or regulatory catalysts"
+  }
+}

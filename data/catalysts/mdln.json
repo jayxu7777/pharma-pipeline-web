@@ -1,0 +1,20 @@
+{
+  "slug": "mdln",
+  "ticker": "MDLN",
+  "issuer_name": "Medline Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0002046386-26-000022",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Medline Inc. is a medical-surgical product distribution company (largest med-surg distributor); 8-K Ex-99.1 PRs are corporate financial results with no clinical/regulatory pipeline catalysts."
+  }
+}

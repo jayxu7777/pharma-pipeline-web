@@ -1,0 +1,52 @@
+{
+  "slug": "prgo",
+  "ticker": "PRGO",
+  "issuer_name": "PERRIGO Co plc",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001585364-26-000035",
+      "filed_date": "2026-03",
+      "exhibit": "exhibit991historicalrecast.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001585364-26-000006",
+      "filed_date": "2026-02",
+      "exhibit": "cy25q4ex991pressrelease-sh.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001585364-25-000153",
+      "filed_date": "2025-11",
+      "exhibit": "cy25q3ex991pressrelease.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "prgo",
+      "ticker": "PRGO",
+      "issuer": "PERRIGO Co plc",
+      "asset": "Dermacosmetics business",
+      "indication": "consumer self-care (divestiture)",
+      "phase": "M&A",
+      "milestone_type": "divestiture_close",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "On-Track to Close Previously Announced Sale of Dermacosmetics Business in Q1'26"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "PRGO (Perrigo) is consumer self-care/OTC. Recent 8-Ks are earnings releases focused on financial results and portfolio simplification (Infant Formula and Oral Care strategic review, Dermacosmetics divestiture). No fresh clinical-trial or FDA-approval catalysts disclosed; Opill OTC launch was already completed March 2024"
+  }
+}

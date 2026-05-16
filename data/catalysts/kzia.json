@@ -1,0 +1,123 @@
+{
+  "slug": "kzia",
+  "ticker": "KZIA",
+  "issuer_name": "Kazia Therapeutics Limited",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-047770",
+      "filed_date": "2026-04-27",
+      "exhibit": "Ex-99.1 (Corporate overview investor presentation April 2026)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "kzia",
+      "ticker": "KZIA",
+      "issuer": "Kazia Therapeutics Limited",
+      "asset": "paxalisib",
+      "indication": "glioblastoma (GBM)",
+      "phase": "Phase 3",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA follow - up next steps: Meeting anticipated for 1H 2026 ... Anticipated outcome: Update from FDA discussion regarding paxalisib commercial and development path forward in GBM"
+    },
+    {
+      "slug": "kzia",
+      "ticker": "KZIA",
+      "issuer": "Kazia Therapeutics Limited",
+      "asset": "paxalisib",
+      "indication": "metastatic triple-negative breast cancer (TNBC) Phase 1b ABC-Pax",
+      "phase": "Phase 1b",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ongoing updates from Phase 1b advanced breast cancer clinical study (ACTRN12624001340527) throughout 2026"
+    },
+    {
+      "slug": "kzia",
+      "ticker": "KZIA",
+      "issuer": "Kazia Therapeutics Limited",
+      "asset": "paxalisib",
+      "indication": "diffuse midline gliomas (DMG) PNOC022",
+      "phase": "Phase 2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Further PK and biomarker analyses ongoing for subsequent cohorts; anticipate further update 2026"
+    },
+    {
+      "slug": "kzia",
+      "ticker": "KZIA",
+      "issuer": "Kazia Therapeutics Limited",
+      "asset": "NDL2 (PD-L1 protein degrader)",
+      "indication": "solid tumors (breast cancer, NSCLC)",
+      "phase": "preclinical",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "IND initiating studies commencing 2026 ... NDL2 and MSETC IND - initiating studies"
+    },
+    {
+      "slug": "kzia",
+      "ticker": "KZIA",
+      "issuer": "Kazia Therapeutics Limited",
+      "asset": "MSETC (SETDB1 inhibitor)",
+      "indication": "immune-cold solid tumors (TNBC, NSCLC, CRC)",
+      "phase": "preclinical",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "IND initiating studies commencing 2026 ... NDL2 and MSETC IND - initiating studies"
+    },
+    {
+      "slug": "kzia",
+      "ticker": "KZIA",
+      "issuer": "Kazia Therapeutics Limited",
+      "asset": "paxalisib",
+      "indication": "atypical teratoid/rhabdoid tumors (AT/RT) PNOC035",
+      "phase": "Phase 2",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "initiate enrollment for PNOC035 AT / RT study"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "sprb",
+  "ticker": "SPRB",
+  "issuer_name": "SPRUCE BIOSCIENCES, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-007038",
+      "filed_date": "2026-01-07",
+      "exhibit": "sprb-ex99_1.htm + ex10_1/10_2 (Avenue Capital loan)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-039399",
+      "filed_date": "2026-02",
+      "exhibit": "sprb-ex99_1.htm + ex99_2.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-097561",
+      "filed_date": "2026-03",
+      "exhibit": "sprb-ex99_1.htm (public offering)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-167332",
+      "filed_date": "2026-04-22",
+      "exhibit": "sprb-ex99_1.htm + ex99_2.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-220648",
+      "filed_date": "2026-05-13",
+      "exhibit": "sprb-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "sprb",
+      "ticker": "SPRB",
+      "issuer": "SPRUCE BIOSCIENCES, INC.",
+      "asset": "TA-ERT (tralesinidase alfa)",
+      "indication": "MPS IIIB (Sanfilippo Syndrome Type B)",
+      "phase": "late-stage",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Continues to advance manufacturing readiness, regulatory interactions, and commercial planning to support an anticipated BLA submission in the fourth quarter of 2026."
+    },
+    {
+      "slug": "sprb",
+      "ticker": "SPRB",
+      "issuer": "SPRUCE BIOSCIENCES, INC.",
+      "asset": "TA-ERT (tralesinidase alfa)",
+      "indication": "MPS IIIB",
+      "phase": "late-stage",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-02-05",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "At 22nd Annual WORLDSymposium platform presentation Feb 5, 2026: long-term TA-ERT administration showed profound durable reduction of heparan sulfate, stabilization of cognitive function and CGMV in MPS IIIB."
+    },
+    {
+      "slug": "sprb",
+      "ticker": "SPRB",
+      "issuer": "SPRUCE BIOSCIENCES, INC.",
+      "asset": "TA-ERT (tralesinidase alfa)",
+      "indication": "MPS IIIB",
+      "phase": "late-stage",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2027-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Well positioned to support TA-ERT through key regulatory milestones and to prepare for a potential commercial launch in the United States next year."
+    },
+    {
+      "slug": "sprb",
+      "ticker": "SPRB",
+      "issuer": "SPRUCE BIOSCIENCES, INC.",
+      "asset": "tildacerfont",
+      "indication": "Congenital Adrenal Hyperplasia (CAH)",
+      "phase": "Phase 3",
+      "milestone_type": "discontinuation",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Discontinuation of the tildacerfont congenital adrenal hyperplasia development program."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

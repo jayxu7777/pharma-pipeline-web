@@ -1,0 +1,117 @@
+{
+  "slug": "zts",
+  "ticker": "ZTS",
+  "issuer_name": "Zoetis Inc.",
+  "exchange": "",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-324853",
+      "filed_date": "2025-11-19",
+      "exhibit": "d35588dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001555280-25-000282",
+      "filed_date": "2025-12-10",
+      "exhibit": "exhibit9911q2026dividendpr.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001555280-26-000003",
+      "filed_date": "2026-01-15",
+      "exhibit": "exhibit9912q2026dividendpr.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001555280-26-000008",
+      "filed_date": "2026-02-12",
+      "exhibit": "exhibit9912-31x25q4.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001555280-26-000021",
+      "filed_date": "2026-05-06",
+      "exhibit": "exhibit99q12026.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "zts",
+      "ticker": "ZTS",
+      "issuer": "Zoetis Inc.",
+      "asset": "Long-acting monoclonal antibody (OA pain franchise)",
+      "indication": "Osteoarthritis pain in cats (3-month dosing)",
+      "phase": "Veterinary commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2025-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "",
+      "exchange": "",
+      "raw_text": "In Q4 2025, Zoetis received approval in Canada and the EU for the first monoclonal antibody therapy with a three-month dosing interval approved for OA pain in cats."
+    },
+    {
+      "slug": "zts",
+      "ticker": "ZTS",
+      "issuer": "Zoetis Inc.",
+      "asset": "H5N2 avian influenza vaccines",
+      "indication": "Chickens and lactating dairy cattle",
+      "phase": "Veterinary commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2025",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "",
+      "exchange": "",
+      "raw_text": "Zoetis received conditional licenses for H5N2 avian influenza vaccines for use in chickens and lactating dairy cattle."
+    },
+    {
+      "slug": "zts",
+      "ticker": "ZTS",
+      "issuer": "Zoetis Inc.",
+      "asset": "Dectomax-CA1 Injectable",
+      "indication": "New World screwworm prevention and treatment",
+      "phase": "Veterinary commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2025",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "",
+      "exchange": "",
+      "raw_text": "Zoetis received conditional approval for Dectomax-CA1 Injectable to prevent and treat New World screwworm."
+    },
+    {
+      "slug": "zts",
+      "ticker": "ZTS",
+      "issuer": "Zoetis Inc.",
+      "asset": "Simparica Trio, Apoquel, Cytopoint (franchise)",
+      "indication": "Parasiticides and dermatology in companion animals",
+      "phase": "Veterinary commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2025",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "",
+      "exchange": "",
+      "raw_text": "Zoetis received lifecycle innovation and geographic expansion approvals for key franchise products including Simparica Trio, Apoquel and Cytopoint."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Animal health (veterinary) approvals captured. No human clinical/FDA trial catalysts as this is a veterinary pharmaceutical company."
+  }
+}

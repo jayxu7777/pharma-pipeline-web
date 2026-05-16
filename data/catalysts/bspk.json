@@ -1,0 +1,20 @@
+{
+  "slug": "bspk",
+  "ticker": "BSPK",
+  "issuer_name": "Bespoke Extracts, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-25-112495",
+      "filed_date": "2025-11-12",
+      "exhibit": "Ex-99.1 (Q3 2025 results PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1409197/000121390025112495/ea026643301ex99-1_bespoke.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Bespoke Extracts (operating as The Joint Company) is a cannabis pre-roll producer; PR describes operational/financial highlights with no clinical or regulatory drug development content."
+  }
+}

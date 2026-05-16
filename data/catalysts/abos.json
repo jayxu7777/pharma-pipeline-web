@@ -1,0 +1,80 @@
+{
+  "slug": "abos",
+  "ticker": "ABOS",
+  "issuer_name": "Acumen Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-033868",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026033868/abos-20260512xexx991.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-021189",
+      "filed_date": "2026-03-26",
+      "exhibit": "Ex-99.1 (FY 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026021189/abos-20260326xexx991.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "abos",
+      "ticker": "ABOS",
+      "issuer": "Acumen Pharmaceuticals, Inc.",
+      "asset": "sabirnetug (ACU193)",
+      "indication": "early Alzheimer's disease",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026033868/abos-20260512xexx991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company expects topline results from ALTITUDE-AD in late 2026. ALTITUDE-AD is a Phase 2 study to investigate sabirnetug for the treatment of early Alzheimer's disease."
+    },
+    {
+      "slug": "abos",
+      "ticker": "ABOS",
+      "issuer": "Acumen Pharmaceuticals, Inc.",
+      "asset": "EBD program lead clinical candidate",
+      "indication": "Alzheimer's disease",
+      "phase": "Preclinical",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026033868/abos-20260512xexx991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company is targeting the submission of an IND filing with respect to a lead clinical candidate in its EBD program in mid-2027."
+    },
+    {
+      "slug": "abos",
+      "ticker": "ABOS",
+      "issuer": "Acumen Pharmaceuticals, Inc.",
+      "asset": "JCR Pharmaceuticals collaboration compounds",
+      "indication": "Alzheimer's disease",
+      "phase": "Preclinical",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026033868/abos-20260512xexx991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company currently expects to exercise its option to license two compounds developed as part of its collaboration with JCR Pharmaceuticals during the second quarter of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "ALTITUDE-AD late-2026 topline and mid-2027 EBD IND are headline timelines repeated in both 8-Ks and likely already disclosed in the FY2025 10-K filed Mar 2026. JCR option-exercise in Q2 2026 is a near-term operational milestone; may or may not appear verbatim in 10-K."
+  }
+}

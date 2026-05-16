@@ -1,0 +1,55 @@
+{
+  "slug": "irwd",
+  "ticker": "IRWD",
+  "issuer_name": "IRONWOOD PHARMACEUTICALS INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-056656",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "irwd",
+      "ticker": "IRWD",
+      "issuer": "IRONWOOD PHARMACEUTICALS INC",
+      "asset": "LINZESS (linaclotide)",
+      "indication": "functional constipation (FC) in pediatric patients 2 to 5 years of age",
+      "phase": "sNDA",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-05-24",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "sNDA for LINZESS treatment of functional constipation (FC) in patients 2 to 5 years of age accepted and granted priority review by FDA; PDUFA date set for May 24th"
+    },
+    {
+      "slug": "irwd",
+      "ticker": "IRWD",
+      "issuer": "IRONWOOD PHARMACEUTICALS INC",
+      "asset": "apraglutide",
+      "indication": "short bowel syndrome with intestinal failure (SBS-IF)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Ironwood expects to begin initiating clinical sites in the second quarter of 2026, for STARS-2, a confirmatory Phase 3 clinical trial of apraglutide for patients with SBS-IF."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

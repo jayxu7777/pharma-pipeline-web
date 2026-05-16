@@ -1,0 +1,168 @@
+{
+  "slug": "rdy",
+  "ticker": "RDY",
+  "issuer_name": "DR REDDYS LABORATORIES LTD",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001575872-26-000303",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q4 FY26 audited financial results presentation)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001575872-26-000301",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1/2/3/4/5 (Q4 FY26 earnings - BLA acceptance, launches, discontinuations)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001575872-26-000297",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (administrative)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001575872-26-000293",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Board governance update)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001575872-26-000290",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (administrative)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "rdy",
+      "ticker": "RDY",
+      "issuer": "DR REDDYS LABORATORIES LTD",
+      "asset": "Abatacept biosimilar (IV)",
+      "indication": "Rheumatoid arthritis / autoimmune (Orencia biosimilar)",
+      "phase": "BLA filed",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026-Q4-FY26",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Acceptance for review by United States Food and Drug Administration (USFDA) of the Biologics License Application (BLA) for the Intravenous (IV) presentation of our abatacept biosimilar in the US."
+    },
+    {
+      "slug": "rdy",
+      "ticker": "RDY",
+      "issuer": "DR REDDYS LABORATORIES LTD",
+      "asset": "Generic semaglutide injection",
+      "indication": "Type 2 diabetes (Canada)",
+      "phase": "Commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q4-FY26",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Received Notice of Compliance from Pharmaceutical Drugs Directorate for generic Semaglutide injection in Canada, indicated for treatment of Type 2 diabetes."
+    },
+    {
+      "slug": "rdy",
+      "ticker": "RDY",
+      "issuer": "DR REDDYS LABORATORIES LTD",
+      "asset": "Generic semaglutide injection (Obeda)",
+      "indication": "Type 2 diabetes (India)",
+      "phase": "Commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q4-FY26",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Launched generic Semaglutide Injection in India for treatment of Type 2 diabetes under the brand name Obeda on Day 1 of market formation post loss of exclusivity."
+    },
+    {
+      "slug": "rdy",
+      "ticker": "RDY",
+      "issuer": "DR REDDYS LABORATORIES LTD",
+      "asset": "Generic semaglutide tablets",
+      "indication": "Type 2 diabetes (India)",
+      "phase": "Commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q4-FY26",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Received marketing authorization for generic Semaglutide tablets in India for treatment of Type 2 diabetes from DCGI, following SEC recommendation under CDSCO."
+    },
+    {
+      "slug": "rdy",
+      "ticker": "RDY",
+      "issuer": "DR REDDYS LABORATORIES LTD",
+      "asset": "Olopatadine Hydrochloride Ophthalmic Solution USP 0.7% (OTC)",
+      "indication": "Allergic conjunctivitis (US OTC)",
+      "phase": "Commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q4-FY26",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "First-to-market launch of Olopatadine Hydrochloride Ophthalmic Solution USP, 0.7% (OTC) in the US."
+    },
+    {
+      "slug": "rdy",
+      "ticker": "RDY",
+      "issuer": "DR REDDYS LABORATORIES LTD",
+      "asset": "Eftilagimod alfa (licensed from Immutep)",
+      "indication": "1L non-small cell lung cancer",
+      "phase": "Phase 3 (discontinued)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-05",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Discontinuation of trial of licensed novel drug candidate Eftilagimod alfa by partner Immutep, following a planned interim futility analysis. Net loss of Rs. 1,350 million recognized."
+    },
+    {
+      "slug": "rdy",
+      "ticker": "RDY",
+      "issuer": "DR REDDYS LABORATORIES LTD",
+      "asset": "CAR-T therapy portfolio",
+      "indication": "Oncology",
+      "phase": "R&D discontinued",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-05",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Discontinuation of certain R&D programs in CAR-T therapy, as part of portfolio rationalization in light of current development status and recent clinical trial outcomes."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none; large generics+biosimilars issuer - clinical catalysts limited to abatacept BLA, biosimilar pipeline, semaglutide launches, and CAR-T/Eftilagimod discontinuations"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "bdmd",
+  "ticker": "BDMD",
+  "issuer_name": "Baird Medical Investment Holdings Ltd",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001104659-25-118866",
+      "filed_date": "2025-12-05",
+      "exhibit": "Ex-99.1/99.2 (interim MD&A and financials)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1982444/000110465925118866/bdmd-20251205xex99d1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Baird Medical is a commercial thyroid microwave ablation device company filing only 6-Ks. The latest 6-K exhibits are interim MD&A and financial statements with general statements about R&D pipeline (AI-integrated robotics) but no forward-dated clinical readouts, FDA actions, or trial milestones."
+  }
+}

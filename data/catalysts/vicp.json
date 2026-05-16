@@ -1,0 +1,41 @@
+{
+  "slug": "vicp",
+  "ticker": "VICP",
+  "issuer_name": "Vicapsys Life Sciences, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-22-009690",
+      "filed_date": "2022-04-12",
+      "exhibit": "Ex-99.1 (CEO appointment)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-23-019905",
+      "filed_date": "2023",
+      "exhibit": "Ex-10.1 (corporate)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-23-023183",
+      "filed_date": "2023",
+      "exhibit": "Ex-10.1, Ex-4.1 (corporate financing)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001144204-09-063848",
+      "filed_date": "2009",
+      "exhibit": "Ex-99.1 (historical)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Available SEC filings are corporate updates (CEO appointment, financing) without specific clinical trial milestones, IND/NDA submissions, or anticipated readouts. Pipeline assets (VICAPSYN for Type 1 diabetes; VYBRIN for adhesions) mentioned without dated catalysts."
+  }
+}

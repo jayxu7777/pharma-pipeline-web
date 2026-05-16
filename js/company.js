@@ -163,6 +163,102 @@ function renderExcluded(items, title) {
   </details>`;
 }
 
+const TODAY = new Date().toISOString().slice(0, 10);
+
+function milestoneBadge(m) {
+  if (!m) return '';
+  const cls = `ms-${m.toLowerCase().replace(/[^a-z0-9]/g, '')}`;
+  return `<span class="ms-badge ${cls}">${esc(m)}</span>`;
+}
+
+function renderCatalysts(catalystDoc) {
+  if (!catalystDoc) return '';
+  const rows = catalystDoc.catalyst_rows || [];
+  const sources = catalystDoc.sources_used || [];
+
+  // Sort: future asc, then past desc, then undated
+  const annotated = rows.map(r => ({
+    ...r,
+    _past: r.anticipated_date_iso && r.anticipated_date_iso < TODAY,
+    _undated: !r.anticipated_date_iso,
+  }));
+  annotated.sort((a, b) => {
+    if (a._undated !== b._undated) return a._undated ? 1 : -1;
+    if (a._past !== b._past) return a._past ? 1 : -1;
+    const da = a.anticipated_date_iso || '';
+    const db = b.anticipated_date_iso || '';
+    if (a._past) return db.localeCompare(da);
+    return da.localeCompare(db);
+  });
+
+  // Sources block
+  let srcHtml = '';
+  if (sources.length) {
+    const parts = sources.map(s => {
+      const label = `${esc(s.form || '')} ${esc(s.filed_date || '')}${s.exhibit ? ' · ' + esc(s.exhibit) : ''}`;
+      return s.url
+        ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${label}</a>`
+        : `<span>${label}</span>`;
+    });
+    srcHtml = `<div class="cat-sources">Sources: ${parts.join(' · ')}</div>`;
+  }
+
+  if (!rows.length) {
+    const blockers = (catalystDoc.extractor_notes || {}).blockers || '';
+    const note = blockers && blockers !== 'none'
+      ? `<p class="narrative"><em>No catalyst rows extracted. ${esc(blockers)}</em></p>`
+      : `<p class="narrative"><em>No catalyst rows extracted from latest 8-K filings.</em></p>`;
+    return `<div class="section"><h2>Catalysts (from latest 8-K)</h2>${note}${srcHtml}</div>`;
+  }
+
+  let html = `<div class="section">
+    <h2>Catalysts (from latest 8-K) <span class="muted-count">${rows.length}</span></h2>
+    <table class="catalyst-table">
+      <thead>
+        <tr>
+          <th style="width:14%">Date</th>
+          <th style="width:22%">Asset</th>
+          <th style="width:30%">Indication</th>
+          <th style="width:12%">Phase</th>
+          <th style="width:12%">Milestone</th>
+          <th style="width:10%">Source</th>
+        </tr>
+      </thead>
+      <tbody>`;
+
+  for (const r of annotated) {
+    const past = r._past;
+    const dateCell = r.anticipated_date_iso
+      ? `<span class="cat-date">${esc(r.anticipated_date_iso)}</span>${past ? ' <span class="past-tag">PAST</span>' : ''}`
+      : '<span class="status">—</span>';
+    const phCls = phaseClass(r.phase);
+    const srcLink = r.source_url
+      ? `<a href="${esc(r.source_url)}" target="_blank" rel="noopener">8-K</a>`
+      : '<span class="status">—</span>';
+    const rawTip = r.raw_text ? ` title="${esc(r.raw_text).slice(0, 280)}"` : '';
+    html += `<tr class="${past ? 'past-row' : ''}"${rawTip}>
+      <td>${dateCell}</td>
+      <td><strong>${esc(r.asset || '')}</strong></td>
+      <td>${esc(r.indication || '')}</td>
+      <td><span class="pill ${phCls}">${esc(r.phase || '—')}</span></td>
+      <td>${milestoneBadge(r.milestone_type)}</td>
+      <td>${srcLink}</td>
+    </tr>`;
+  }
+  html += `</tbody></table>${srcHtml}</div>`;
+  return html;
+}
+
+async function fetchCatalysts() {
+  try {
+    const res = await fetch(`data/catalysts/${slug}.json`);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (e) {
+    return null;
+  }
+}
+
 async function init() {
   const root = document.getElementById('root');
   if (!slug) {
@@ -178,6 +274,7 @@ async function init() {
     root.innerHTML = `<div class="section"><div class="no-pipeline">Company not found: ${esc(slug)}. <a href="index.html">Back to overview</a>.</div></div>`;
     return;
   }
+  const catalystDoc = await fetchCatalysts();
 
   document.title = `${(company.ticker || slug).toUpperCase()} — ${company.issuer_name || ''} · Pharma Pipeline`;
 
@@ -202,6 +299,10 @@ async function init() {
       </div>
     </div>
   `;
+
+  // Catalysts section (new in v2) — placed above pipeline as it is the most timely info
+  const catalystsHtml = renderCatalysts(catalystDoc);
+  if (catalystsHtml) html += catalystsHtml;
 
   // Pipeline body — flat md-style table or italic narrative for empty
   if (pipelineHtml) {

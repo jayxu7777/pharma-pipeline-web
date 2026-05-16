@@ -1,0 +1,20 @@
+{
+  "slug": "mcagu",
+  "ticker": "MCAGU",
+  "issuer_name": "Mountain Crest Acquisition Corp. V",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001829126-24-005987",
+      "filed_date": "2024",
+      "exhibit": "Ex-99.1 (SPAC merger materials)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "MCAGU is the units ticker of Mountain Crest Acquisition Corp. V SPAC; no clinical/regulatory catalyst content in filings."
+  }
+}

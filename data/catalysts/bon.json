@@ -1,0 +1,21 @@
+{
+  "slug": "bon",
+  "ticker": "BON",
+  "issuer_name": "Bon Natural Life Ltd",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-006960",
+      "filed_date": "2026-02-17",
+      "exhibit": "Ex-99.1 (Joint Laboratory press release)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1816815/000149315226006960/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Not a clinical-stage biotech: BON is a Cayman natural-ingredient/personal-care supplier (bio-manufacturing for functional foods); no drug pipeline, no clinical milestones in 6-K filings.",
+    "tier0_overlap_check": "Excluded from clinical catalyst board \u2014 not biotech."
+  }
+}

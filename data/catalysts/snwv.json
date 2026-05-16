@@ -1,0 +1,48 @@
+{
+  "slug": "snwv",
+  "ticker": "SNWV",
+  "issuer_name": "SANUWAVE Health, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-042942",
+      "filed_date": "2025",
+      "exhibit": "ex-991pressreleasexdebtref.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-050406",
+      "filed_date": "2025-11",
+      "exhibit": "ex-991snwvpressreleasex110.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-021464",
+      "filed_date": "2026-02",
+      "exhibit": "ex-991snwvpressreleasex202.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-025553",
+      "filed_date": "2026-04-16",
+      "exhibit": "ex-991snwvpressreleasex416.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-034149",
+      "filed_date": "2026-05-12",
+      "exhibit": "ex-991snwvpressreleasex512.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Sanuwave is a commercial medtech with FDA-approved Ultramist wound-care system; recent 8-Ks cover quarterly revenues, debt refinancing, and operational guidance. No clinical-trial PDUFA/BLA/NDA/IND/Phase catalysts."
+  }
+}

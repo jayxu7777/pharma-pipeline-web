@@ -1,0 +1,48 @@
+{
+  "slug": "pfsa",
+  "ticker": "PFSA",
+  "issuer_name": "Profusa, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-016496",
+      "filed_date": "2026-02-12",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-040111",
+      "filed_date": "2026-04-06",
+      "exhibit": "EX-99.1/EX-99.2",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-048039",
+      "filed_date": "2026",
+      "exhibit": "EX-2.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-053535",
+      "filed_date": "2026-05-08",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-057182",
+      "filed_date": "2026-05-15",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Profusa is a commercial-stage digital health / biosensor company (Lumee oxygen tissue monitoring platform). Recent 8-Ks cover a Mayo Clinic know-how collaboration for high-impact clinical applications, a non-binding LOI to acquire BioInsights PanOmics multi-omics diagnostic platform for $30M, Nasdaq listing transfer to Capital Market, and corporate governance items. No clinical/regulatory catalysts such as PDUFA/BLA/NDA/IND/Phase trial readouts are disclosed."
+  }
+}

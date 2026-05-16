@@ -1,0 +1,20 @@
+{
+  "slug": "hae",
+  "ticker": "HAE",
+  "issuer_name": "HAEMONETICS CORP",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0000313143-26-000031",
+      "filed_date": "2026-05-07",
+      "exhibit": "ex991-q4mar2026earningsrel.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Medtech (blood/plasma management) company. Recent filings are FY26 Q3/Q4 earnings releases and fiscal 2027 guidance. No discrete forward-dated clinical trial or regulatory milestone catalysts disclosed."
+  }
+}

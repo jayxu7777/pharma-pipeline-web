@@ -1,0 +1,114 @@
+{
+  "slug": "clls",
+  "ticker": "CLLS",
+  "issuer_name": "Cellectis S.A.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-003248",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1627281/000117184326003248/exh_991.htm"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-216901",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Q1 2026 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1627281/000119312526216901/clls-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "clls",
+      "ticker": "CLLS",
+      "issuer": "Cellectis S.A.",
+      "asset": "lasme-cel (allogeneic anti-CD22 CAR-T, UCART22)",
+      "indication": "r/r B-cell acute lymphoblastic leukemia (r/r B-ALL)",
+      "phase": "Phase 2 (pivotal, BALLI-01)",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1627281/000117184326003248/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The first interim analysis for the pivotal Phase 2 of the BALLI-01 trial is expected in Q4 2026 (n=40). Cellectis anticipates submitting a Biologics License Application (BLA) in 2028."
+    },
+    {
+      "slug": "clls",
+      "ticker": "CLLS",
+      "issuer": "Cellectis S.A.",
+      "asset": "lasme-cel (allogeneic anti-CD22 CAR-T)",
+      "indication": "r/r B-ALL",
+      "phase": "Phase 2 (pivotal)",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2028",
+      "date_precision": "year",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1627281/000117184326003248/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Cellectis anticipates submitting a Biologics License Application (BLA) in 2028."
+    },
+    {
+      "slug": "clls",
+      "ticker": "CLLS",
+      "issuer": "Cellectis S.A.",
+      "asset": "eti-cel (allogeneic CAR-T) +/- low-dose IL-2",
+      "indication": "r/r non-Hodgkin lymphoma (r/r NHL) - NATHALI-01",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1627281/000117184326003248/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Cellectis expects to present the full Phase 1 dataset in Q4 2026, including results from the low dose interleukin-2 (IL-2) combination cohorts."
+    },
+    {
+      "slug": "clls",
+      "ticker": "CLLS",
+      "issuer": "Cellectis S.A.",
+      "asset": "cema-cel (UCART19, licensed to Servier/Allogene)",
+      "indication": "1L consolidation LBCL (ALPHA3)",
+      "phase": "Phase 2 (pivotal)",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1627281/000117184326003248/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Allogene announced that study accrual is anticipated to be complete by the end of 2027 and that it anticipates an interim Event-Free Survival (EFS) analysis in mid-2027 and the primary EFS analysis in mid-2028."
+    },
+    {
+      "slug": "clls",
+      "ticker": "CLLS",
+      "issuer": "Cellectis S.A.",
+      "asset": "TALEM (TALE-based epigenetic modulators)",
+      "indication": "Preclinical platform (gene silencing)",
+      "phase": "Preclinical",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-13",
+      "date_precision": "day",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1627281/000117184326003248/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On April 27, 2026, Cellectis announced new research on a TALE-based epigenetic editing approach... at the American Society of Gene and Cell Therapy (ASGCT) annual meeting, that is taking place on May 11-15, 2026... The poster will be available on Cellectis' website on May 13, 2026 at 5 pm ET."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Lasme-cel BALLI-01 Q4 2026 interim and 2028 BLA are reaffirmed near-term catalysts. Eti-cel NATHALI-01 full Phase 1 Q4 2026 readout including IL-2 cohorts is fresh. Cema-cel ALPHA3 mid-2027 interim EFS and mid-2028 primary EFS from Allogene's April 13 2026 update is fresh partner-derived datapoint. TALEM ASGCT presentation is near-term."
+  }
+}

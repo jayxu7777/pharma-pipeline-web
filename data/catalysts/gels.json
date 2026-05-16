@@ -1,0 +1,20 @@
+{
+  "slug": "gels",
+  "ticker": "GELS",
+  "issuer_name": "Gelteq Ltd",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-119631",
+      "filed_date": "2025-12-09",
+      "exhibit": "Ex-99.1 (Investor presentation Dec 2025)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Gelteq is a drug-delivery (gel formulation) platform company. December 2025 investor deck covers commercial bioavailability data and partnership pipeline but no dated regulatory/clinical readouts. Other 6-Ks are governance (AGM notice, IPO prospectus). No forward catalysts."
+  }
+}

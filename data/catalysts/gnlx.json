@@ -1,0 +1,55 @@
+{
+  "slug": "gnlx",
+  "ticker": "GNLX",
+  "issuer_name": "Genelux Corporation",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-000270",
+      "filed_date": "2026-01-05",
+      "exhibit": "Ex-99.1 (lung cancer interim data PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "gnlx",
+      "ticker": "GNLX",
+      "issuer": "Genelux Corporation",
+      "asset": "Olvi-Vec (olvimulogene nanivacirepvec)",
+      "indication": "Platinum-resistant/refractory ovarian cancer (OnPrime/GOG-3076)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data from the Phase 3 platinum-resistant/refractory ovarian cancer trial (OnPrime/GOG-3076) expected in second half of 2026."
+    },
+    {
+      "slug": "gnlx",
+      "ticker": "GNLX",
+      "issuer": "Genelux Corporation",
+      "asset": "Olvi-Vec (olvimulogene nanivacirepvec)",
+      "indication": "Progressive SCLC and NSCLC (OLVI-VEC-SCLC-202 and VIRO-25)",
+      "phase": "Phase 1b/2 and Phase 2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Additional interim (updated dose-finding) data readouts expected throughout 2026 in Phase 1b/2 SCLC trial and Phase 2 VIRO-25 trial."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

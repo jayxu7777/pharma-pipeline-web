@@ -1,0 +1,35 @@
+{
+  "slug": "bfrg",
+  "ticker": "BFRG",
+  "issuer_name": "BullFrog AI Holdings, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-018458",
+      "filed_date": "2026-04-22",
+      "exhibit": "Ex-99.1 (Nasdaq stockholders' equity compliance PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1829247/000149315226018458/ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-016378",
+      "filed_date": "2026-04-13",
+      "exhibit": "Ex-99.1 (8.01 PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1829247/000149315226016378/ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-013684",
+      "filed_date": "2026-03-30",
+      "exhibit": "Ex-99.1 (Commercial agreement PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1829247/000149315226013684/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "BullFrog AI is an AI/ML drug-discovery platform company, not a clinical-stage therapeutics developer. The latest 5 8-Ks cover Nasdaq listing compliance (stockholders' equity rule, minimum bid price), an at-the-market sales facility, and a commercial agreement with a top-5 global pharma for use of its bfLEAP platform. No clinical trial milestones, PDUFAs, INDs, or data readouts for any internal therapeutic asset.",
+    "tier0_overlap_check": "Tier0 also unlikely to surface clinical catalysts for BFRG; this is not a typical biotech pipeline issuer."
+  }
+}

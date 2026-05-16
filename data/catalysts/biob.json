@@ -1,0 +1,27 @@
+{
+  "slug": "biob",
+  "ticker": "BIO-B",
+  "issuer_name": "BIO-RAD LABORATORIES, INC.",
+  "exchange": "",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0000012208-26-000034",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000034/bio-8k4302026xex991.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0000012208-26-000007",
+      "filed_date": "2026-02-12",
+      "exhibit": "Ex-99.1 (Q4/FY2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000007/bio-8k2122026xex991.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Class B share of Bio-Rad Laboratories. Same source 8-Ks as BIO; no forward-dated clinical/regulatory catalysts disclosed."
+  }
+}

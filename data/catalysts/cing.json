@@ -1,0 +1,46 @@
+{
+  "slug": "cing",
+  "ticker": "CING",
+  "issuer_name": "Cingulate Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-022881",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings and business update)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1862150/000149315226022881/ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-010881",
+      "filed_date": "2026-03-18",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1862150/000149315226010881/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cing",
+      "ticker": "CING",
+      "issuer": "Cingulate Inc.",
+      "asset": "CTx-1301 (dexmethylphenidate HCl, PTR platform)",
+      "indication": "ADHD (once-daily multi-core tablet)",
+      "phase": "NDA accepted (505(b)(2))",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-05-31",
+      "date_precision": "day",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1862150/000149315226022881/ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In October 2025, Cingulate announced that the U.S. Food and Drug Administration (FDA) had accepted for review the New Drug Application (NDA) for CTx-1301 and had assigned a Prescription Drug User Fee Act (PDUFA) target action date of May 31, 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "PDUFA May 31 2026 reiterated; Cingulate is actively responding to CMC information requests. This is the headline near-term catalyst and may already appear in tier0 10-K key_milestones; tier1 confirms with most recent (May 14, 2026) issuer statement."
+  }
+}

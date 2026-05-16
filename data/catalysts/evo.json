@@ -1,0 +1,20 @@
+{
+  "slug": "evo",
+  "ticker": "EVO",
+  "issuer_name": "Evotec SE",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001104659-26-055957",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (3M 2026 interim statement)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Evotec is a contract research / drug-discovery services company (D&PD and Just-Evotec Biologics segments). 3M 2026 interim PR discloses corporate Horizon restructuring and Tubulis sale closing Q2 2026 (M&A close, not a clinical catalyst). No proprietary clinical asset readout dates."
+  }
+}

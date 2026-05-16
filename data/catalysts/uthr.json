@@ -1,0 +1,117 @@
+{
+  "slug": "uthr",
+  "ticker": "UTHR",
+  "issuer_name": "UNITED THERAPEUTICS Corp",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-021869",
+      "filed_date": "2026-03-02",
+      "exhibit": "tm267696d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-036445",
+      "filed_date": "2026-03-30",
+      "exhibit": "tm2610558d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001082554-26-000021",
+      "filed_date": "2026-05-06",
+      "exhibit": "uthrq12026-ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-025331",
+      "filed_date": "2026",
+      "exhibit": "tm268321d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001082554-26-000007",
+      "filed_date": "2026-02-25",
+      "exhibit": null,
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "uthr",
+      "ticker": "UTHR",
+      "issuer": "UNITED THERAPEUTICS Corp",
+      "asset": "Ralinepag",
+      "indication": "Pulmonary arterial hypertension (PAH)",
+      "phase": "Phase 3 (ADVANCE OUTCOMES)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-03-02",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "United Therapeutics Announces Ralinepag Achieved 55% Reduction in Risk of Clinical Worsening in Pivotal PAH Study; phase 3 ADVANCE OUTCOMES study met its primary endpoint."
+    },
+    {
+      "slug": "uthr",
+      "ticker": "UTHR",
+      "issuer": "UNITED THERAPEUTICS Corp",
+      "asset": "Ralinepag",
+      "indication": "Pulmonary arterial hypertension (PAH)",
+      "phase": "Phase 3",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "United Therapeutics intends to submit a New Drug Application (NDA) for ralinepag to the FDA by the second half of 2026."
+    },
+    {
+      "slug": "uthr",
+      "ticker": "UTHR",
+      "issuer": "UNITED THERAPEUTICS Corp",
+      "asset": "Nebulized Tyvaso (treprostinil)",
+      "indication": "Idiopathic pulmonary fibrosis (IPF)",
+      "phase": "Phase 3 (TETON-1)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-03-30",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "TETON-1 Pivotal Study of Tyvaso Meets Primary Endpoint for Treatment of IPF; superiority over placebo for change in absolute FVC by 130.1 mL."
+    },
+    {
+      "slug": "uthr",
+      "ticker": "UTHR",
+      "issuer": "UNITED THERAPEUTICS Corp",
+      "asset": "Nebulized Tyvaso (treprostinil)",
+      "indication": "Idiopathic pulmonary fibrosis (IPF)",
+      "phase": "Phase 3",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "approx",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "United Therapeutics plans to seek priority review of a supplemental NDA, to be submitted to the FDA by the end of this summer, to add IPF to the labeled indications for nebulized Tyvaso."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

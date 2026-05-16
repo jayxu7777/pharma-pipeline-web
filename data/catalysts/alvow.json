@@ -1,0 +1,56 @@
+{
+  "slug": "alvow",
+  "ticker": "ALVOW",
+  "issuer_name": "Alvotech (warrant)",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-001773",
+      "filed_date": "2026-03-19",
+      "exhibit": "Ex-99.2 (Q4/FY 2025 supplemental business update)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1898416/000117184326001773/exh_992.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "alvow",
+      "ticker": "ALVOW",
+      "issuer": "Alvotech (warrant)",
+      "asset": "4 pending BLAs (incl. AVT02/AVT04/AVT03/AVT05/AVT06 follow-ons; Reykjavik facility)",
+      "indication": "biosimilars (various)",
+      "phase": "BLA pending",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "2026-03-19",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1898416/000117184326001773/exh_992.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Based on the progress made to date, we expect to resubmit the affected applications to the FDA during the second quarter of 2026."
+    },
+    {
+      "slug": "alvow",
+      "ticker": "ALVOW",
+      "issuer": "Alvotech (warrant)",
+      "asset": "4 pending BLAs with FDA",
+      "indication": "biosimilars (various)",
+      "phase": "BLA pending",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-03-19",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1898416/000117184326001773/exh_992.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Alvotech assumes to receive U.S. approval by late 2026 for the 4 Biologics License Applications pending with the FDA, with minimum impact on the topline"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "ALVOW is the warrant of ALVO (same CIK 0001898416). Catalyst rows mirror ALVO since underlying clinical/regulatory pipeline is identical."
+  }
+}

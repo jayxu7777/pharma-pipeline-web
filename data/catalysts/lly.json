@@ -1,0 +1,38 @@
+{
+  "slug": "lly",
+  "ticker": "LLY",
+  "issuer_name": "ELI LILLY & Co",
+  "exchange": "",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0000059478-26-000043",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "lly",
+      "ticker": "LLY",
+      "issuer": "ELI LILLY & Co",
+      "asset": "Lilly corporate",
+      "indication": "Investment Community Meeting",
+      "phase": "N/A",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-12-07",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "",
+      "exchange": "",
+      "raw_text": "Company announces planned Investment Community Meeting for December 7, 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Q1 2026 earnings PR overwhelmingly summarizes historical events (FDA approval of Foundayo/orforglipron, ACHIEVE-4 Phase 3 readout, retatrutide Phase 3 first readout, Jaypirca + venetoclax CLL/SLL data, EBGLYSS Phase 3 in pediatric AD, multiple completed acquisitions). The only explicitly forward-dated catalyst is the December 7, 2026 Investment Community Meeting."
+  }
+}

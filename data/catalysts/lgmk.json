@@ -1,0 +1,20 @@
+{
+  "slug": "lgmk",
+  "ticker": "LGMK",
+  "issuer_name": "LogicMark, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-035498",
+      "filed_date": "2026-03-25",
+      "exhibit": "Ex-99.1 (FY2025 financial results PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "LogicMark is a medical-alert/PERS device company (Freedom Alert, Guardian Alert). No clinical trials or FDA approvals; PR mentions a wearable watch launch 'expected to launch in the third quarter' of 2026 but this is a consumer-product launch, not a clinical/regulatory catalyst."
+  }
+}

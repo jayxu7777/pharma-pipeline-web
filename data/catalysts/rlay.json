@@ -1,0 +1,151 @@
+{
+  "slug": "rlay",
+  "ticker": "RLAY",
+  "issuer_name": "Relay Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-107312",
+      "filed_date": "2026-03-16",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-076617",
+      "filed_date": "2026-02-26",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-034422",
+      "filed_date": "2026-02-03",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-179404",
+      "filed_date": "2026",
+      "exhibit": "EX-99.1/99.2",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-206398",
+      "filed_date": "2026",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "rlay",
+      "ticker": "RLAY",
+      "issuer": "Relay Therapeutics, Inc.",
+      "asset": "zovegalisib (RLY-2608)",
+      "indication": "PIK3CA-mutant HR+/HER2- advanced breast cancer",
+      "phase": "Phase 1/2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-03-16",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initial Phase 1/2 data of zovegalisib + fulvestrant at 400mg BID fed (Phase 3 dose) in CDK4/6-experienced patients to be presented at ESMO TAT on March 16, 2026"
+    },
+    {
+      "slug": "rlay",
+      "ticker": "RLAY",
+      "issuer": "Relay Therapeutics, Inc.",
+      "asset": "zovegalisib (RLY-2608)",
+      "indication": "PIK3CA-driven vascular anomalies",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initial Phase 1 data of zovegalisib in PIK3CA-driven vascular anomalies expected in first half of 2026 (ReInspire trial, ~20 patients)"
+    },
+    {
+      "slug": "rlay",
+      "ticker": "RLAY",
+      "issuer": "Relay Therapeutics, Inc.",
+      "asset": "zovegalisib + CDK inhibitor triplet",
+      "indication": "PI3Ka-mutant HR+/HER2- breast cancer frontline",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Breast cancer triplet data and frontline Phase 3 plans expected to be announced in 2026"
+    },
+    {
+      "slug": "rlay",
+      "ticker": "RLAY",
+      "issuer": "Relay Therapeutics, Inc.",
+      "asset": "zovegalisib + fulvestrant",
+      "indication": "PIK3CA-mutant HR+/HER2- advanced breast cancer",
+      "phase": "Phase 3",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-02-03",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA granted Breakthrough Therapy Designation to zovegalisib + fulvestrant for PIK3CA-mutant HR+/HER2- advanced breast cancer after progression on CDK4/6 inhibitor"
+    },
+    {
+      "slug": "rlay",
+      "ticker": "RLAY",
+      "issuer": "Relay Therapeutics, Inc.",
+      "asset": "zovegalisib (RLY-2608)",
+      "indication": "PI3Ka-mutated HR+/HER2- mBC CDK4/6 pre-treated",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2025-07-01",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 ReDiscover-2 trial (NCT06982521) initiated in mid-2025; evaluating zovegalisib 400mg BID + fulvestrant vs capivasertib + fulvestrant"
+    },
+    {
+      "slug": "rlay",
+      "ticker": "RLAY",
+      "issuer": "Relay Therapeutics, Inc.",
+      "asset": "zovegalisib + fulvestrant",
+      "indication": "PI3Ka-mutated HR+/HER2- mBC",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-03-16",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Presented data at ESMO TAT 2026: 11.1-month median PFS, ORR 43% in 400mg BID fed cohort (n=57)"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

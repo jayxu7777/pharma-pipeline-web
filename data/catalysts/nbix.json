@@ -1,0 +1,38 @@
+{
+  "slug": "nbix",
+  "ticker": "NBIX",
+  "issuer_name": "NEUROCRINE BIOSCIENCES INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0000914475-26-000025",
+      "filed_date": "2026-05-05",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "nbix",
+      "ticker": "NBIX",
+      "issuer": "NEUROCRINE BIOSCIENCES INC",
+      "asset": "VYKAT XR (diazoxide choline) via Soleno Therapeutics acquisition",
+      "indication": "Hyperphagia in Prader-Willi syndrome",
+      "phase": "approved (acquisition close)",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Entered into a definitive agreement to acquire Soleno Therapeutics for $53.00 per share in cash... The acquisition is anticipated to close in the second quarter of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "PR also lists Phase 3 osavampator (MDD) and direclidine (schizophrenia) programs but without specific dated milestones; Soleno acquisition close is only forward-dated date-stamped catalyst."
+  }
+}

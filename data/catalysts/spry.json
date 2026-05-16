@@ -1,0 +1,134 @@
+{
+  "slug": "spry",
+  "ticker": "SPRY",
+  "issuer_name": "ARS Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0000950170-25-107617",
+      "filed_date": "2025-08-13",
+      "exhibit": "spry-ex99_1.htm + ex99_2.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-190202",
+      "filed_date": "2025-08-28",
+      "exhibit": "d88536d8k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-273107",
+      "filed_date": "2025-11-10",
+      "exhibit": "spry-ex99_1.htm + ex99_2.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-097467",
+      "filed_date": "2026-03-09",
+      "exhibit": "spry-ex99_1.htm + ex99_2.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-225055",
+      "filed_date": "2026-05-15",
+      "exhibit": "spry-ex99_1.htm + ex99_2.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "spry",
+      "ticker": "SPRY",
+      "issuer": "ARS Pharmaceuticals, Inc.",
+      "asset": "neffy (epinephrine nasal spray) - intranasal epinephrine platform",
+      "indication": "Chronic Spontaneous Urticaria (CSU)",
+      "phase": "Phase 2b",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2b trial (NCT06927999) evaluating intranasal epinephrine for acute CSU flares: interim analysis population fully enrolled; interim data anticipated in Q4 2026."
+    },
+    {
+      "slug": "spry",
+      "ticker": "SPRY",
+      "issuer": "ARS Pharmaceuticals, Inc.",
+      "asset": "Intranasal epinephrine",
+      "indication": "Chronic Spontaneous Urticaria (CSU)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Followed by the potential initiation of a single Phase 3 pivotal efficacy study in mid-2027."
+    },
+    {
+      "slug": "spry",
+      "ticker": "SPRY",
+      "issuer": "ARS Pharmaceuticals, Inc.",
+      "asset": "neffy 1 mg",
+      "indication": "Type I allergic reactions, age criteria removal",
+      "phase": "approved",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA approved removing the age criteria in late March 2026, so all children and adults who weigh 33 lbs or more can utilize neffy."
+    },
+    {
+      "slug": "spry",
+      "ticker": "SPRY",
+      "issuer": "ARS Pharmaceuticals, Inc.",
+      "asset": "EUR neffy 1 mg",
+      "indication": "Pediatric anaphylaxis (age 4+, 15-30 kg)",
+      "phase": "approved",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On March 31, 2026, the European Commission granted marketing authorization for EUR neffy 1 mg for pediatric patients aged 4 years and older weighing 15-30 kg."
+    },
+    {
+      "slug": "spry",
+      "ticker": "SPRY",
+      "issuer": "ARS Pharmaceuticals, Inc.",
+      "asset": "neffy",
+      "indication": "Anaphylaxis (Canada)",
+      "phase": "approved",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-04-15",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On April 15, 2026, Health Canada approved neffy as the first and only needle-free emergency treatment for allergic reactions, including anaphylaxis, in Canada."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

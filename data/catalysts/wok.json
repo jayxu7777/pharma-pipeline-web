@@ -1,0 +1,48 @@
+{
+  "slug": "wok",
+  "ticker": "WOK",
+  "issuer_name": "WORK Medical Technology Group LTD",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-044086",
+      "filed_date": "2026-04-15",
+      "exhibit": "form_body",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-021540",
+      "filed_date": "2026-02-27",
+      "exhibit": "ea02262026-6k_work.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-013893",
+      "filed_date": "2026-02-10",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-000753",
+      "filed_date": "2026-01-05",
+      "exhibit": "ex10-1.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-126623",
+      "filed_date": "2025-12-30",
+      "exhibit": "form_body",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "WORK Medical is a Cayman-incorporated manufacturer of disposable medical-device consumables (medtech/dx). Filings cover share-capital changes, share consolidations, and Nasdaq Minimum Bid Price compliance. No drug or device-approval clinical/regulatory catalysts (PDUFA/IND/510(k)/PMA/topline) disclosed."
+  }
+}

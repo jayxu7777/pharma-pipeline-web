@@ -1,0 +1,27 @@
+{
+  "slug": "prcwf",
+  "ticker": "PRCWF",
+  "issuer_name": "Sofgen Pharma S.A.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-118714",
+      "filed_date": "2025-12",
+      "exhibit": "ea0268660-6k_sofgen.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-112342",
+      "filed_date": "2025-11",
+      "exhibit": "ea026633201ex99-1_procaps.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "recent 6-K filings are corporate governance only (AGM/EGM convening notices, name change Procaps to Sofgen Pharma, share capital increase, rectified financials); no clinical/regulatory catalysts in fetched filings"
+  }
+}

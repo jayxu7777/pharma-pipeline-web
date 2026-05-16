@@ -1,0 +1,20 @@
+{
+  "slug": "rvrc",
+  "ticker": "RVRC",
+  "issuer_name": "Revium Rx.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-045633",
+      "filed_date": "2026-04-15",
+      "exhibit": "Ex-10.1 (CEO employment agreement)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Only filing available is a CEO employment agreement; no clinical or regulatory catalyst content."
+  }
+}

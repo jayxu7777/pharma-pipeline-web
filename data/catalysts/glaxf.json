@@ -1,0 +1,27 @@
+{
+  "slug": "glaxf",
+  "ticker": "GLAXF",
+  "issuer_name": "GSK plc",
+  "exchange": "OTC (US ADR primary listing GSK on NYSE)",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004409",
+      "filed_date": "2026-05-06",
+      "exhibit": "Results of AGM",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004863",
+      "filed_date": "2026-05-14",
+      "exhibit": "Director/PDMR shareholding",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "FPI 6-K filings in latest window cover only governance items (AGM results, PDMR share dealings); no clinical catalysts. Recommend deeper EDGAR window or pull Q1 trading update."
+  }
+}

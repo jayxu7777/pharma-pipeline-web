@@ -1,0 +1,20 @@
+{
+  "slug": "lake",
+  "ticker": "LAKE",
+  "issuer_name": "Lakeland Industries, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-159019",
+      "filed_date": "2026-04-16",
+      "exhibit": "Ex-99.1 (Q4/FY2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Lakeland Industries is a fire/safety PPE manufacturer (turnout gear, gloves, hoods, decontamination services). No pharmaceutical or clinical pipeline; latest earnings PR contains no clinical/regulatory catalysts."
+  }
+}

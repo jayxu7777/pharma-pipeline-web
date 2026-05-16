@@ -1,0 +1,48 @@
+{
+  "slug": "nxgl",
+  "ticker": "NXGL",
+  "issuer_name": "NEXGEL, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-022503",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Board appointments PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-020657",
+      "filed_date": "2026-04-27",
+      "exhibit": "Ex-99.1 (CFO appointment PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-018302",
+      "filed_date": "2026-04-21",
+      "exhibit": "Ex-99.1 (Celularity acquisition closing PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-009474",
+      "filed_date": "2026-03-10",
+      "exhibit": "Ex-99.1 (Celularity portfolio definitive agreement PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-006124",
+      "filed_date": "2026-02-10",
+      "exhibit": "Ex-99.1 (financing PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "NEXGEL is a commercial-stage hydrogel / consumer OTC and regenerative biomaterials medical-device company. Recent 8-K Ex-99.1 PRs cover the Celularity degenerative-disease segment acquisition (BioNX Surgical), financings, and personnel appointments. The PRs mention generic plans for 'three new product 510(k) filings planned for 2026, 2027, and 2028' but do not identify specific assets/indications, so no row is extracted. No clinical-trial readout / PDUFA / NDA / BLA catalysts disclosed."
+  }
+}

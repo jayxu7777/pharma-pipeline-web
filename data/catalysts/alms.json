@@ -1,0 +1,107 @@
+{
+  "slug": "alms",
+  "ticker": "ALMS",
+  "issuer_name": "ALUMIS INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001847367-26-000009",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847367/000184736726000009/alms-20260514xex99d1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "alms",
+      "ticker": "ALMS",
+      "issuer": "ALUMIS INC.",
+      "asset": "envudeucitinib",
+      "indication": "moderate-to-severe plaque psoriasis",
+      "phase": "Phase 3",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1847367/000184736726000009/alms-20260514xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Data continue to underscore envudeucitinib's potential as a leading oral therapy for PsO; plans to submit NDA in 4Q 2026 remain on track"
+    },
+    {
+      "slug": "alms",
+      "ticker": "ALMS",
+      "issuer": "ALUMIS INC.",
+      "asset": "envudeucitinib",
+      "indication": "systemic lupus erythematosus (SLE)",
+      "phase": "Phase 2b (LUMUS, potentially pivotal)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1847367/000184736726000009/alms-20260514xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Potentially pivotal Phase 2b topline data for envudeucitinib in systemic lupus erythematosus (SLE) anticipated 3Q 2026"
+    },
+    {
+      "slug": "alms",
+      "ticker": "ALMS",
+      "issuer": "ALUMIS INC.",
+      "asset": "envudeucitinib",
+      "indication": "moderate-to-severe plaque psoriasis (ONWARD3 long-term)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1847367/000184736726000009/alms-20260514xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Long-term data - ONWARD3 topline data and Phase 2, two-year safety data (2H 2026)"
+    },
+    {
+      "slug": "alms",
+      "ticker": "ALMS",
+      "issuer": "ALUMIS INC.",
+      "asset": "next clinical candidate (new target)",
+      "indication": "TBD",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1847367/000184736726000009/alms-20260514xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Next clinical candidate (new target) - Initiate Phase 1 trial (2H 2026)"
+    },
+    {
+      "slug": "alms",
+      "ticker": "ALMS",
+      "issuer": "ALUMIS INC.",
+      "asset": "TYK2 franchise",
+      "indication": "additional immune-mediated indications",
+      "phase": "n/a (strategy update)",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1847367/000184736726000009/alms-20260514xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Update on unified TYK2 franchise development strategy, including evaluation of additional indications (2Q 2026)"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Q1 2026 PR provides clear NDA 4Q 2026, SLE Phase 2b topline 3Q 2026, ONWARD3 long-term 2H 2026, Phase 1 next candidate 2H 2026, and TYK2 strategy update 2Q 2026."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "grtx",
+  "ticker": "GRTX",
+  "issuer_name": "Galera Therapeutics, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-154009",
+      "filed_date": "2026-04-14",
+      "exhibit": "d124753dex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "grtx",
+      "ticker": "GRTX",
+      "issuer": "Galera Therapeutics, Inc.",
+      "asset": "Obsidian/Galera merger",
+      "indication": "corporate",
+      "phase": "N/A",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "The transaction has received approval by the Board of Directors of both companies and is expected to close by the third quarter of 2026, subject to certain closing conditions"
+    },
+    {
+      "slug": "grtx",
+      "ticker": "GRTX",
+      "issuer": "Galera Therapeutics, Inc.",
+      "asset": "OBX-115",
+      "indication": "non-small cell lung cancer (NSCLC)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Phase 1 data from the ongoing NSCLC trial expected in the first half of 2027"
+    },
+    {
+      "slug": "grtx",
+      "ticker": "GRTX",
+      "issuer": "Galera Therapeutics, Inc.",
+      "asset": "OBX-115",
+      "indication": "advanced melanoma",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-12",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "by year-end 2027, topline data from their melanoma registration-enabling trial"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

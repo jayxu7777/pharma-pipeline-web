@@ -1,0 +1,93 @@
+{
+  "slug": "tvrd",
+  "ticker": "TVRD",
+  "issuer_name": "Tvardi Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-113901",
+      "filed_date": "2025-10",
+      "exhibit": "tm2531635d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-004273",
+      "filed_date": "2026-01",
+      "exhibit": "tm263373d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-037724",
+      "filed_date": "2026-03",
+      "exhibit": "tm2610603d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-057524",
+      "filed_date": "2026-05",
+      "exhibit": "tm2613977d1_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tvrd",
+      "ticker": "TVRD",
+      "issuer": "Tvardi Therapeutics, Inc.",
+      "asset": "TTI-109",
+      "indication": "STAT3-inhibitor, healthy volunteer study",
+      "phase": "Phase 1 (Healthy Volunteer)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline results from healthy volunteer study and clinical development strategy for next-generation STAT3 inhibitor, TTI-109, anticipated in June 2026."
+    },
+    {
+      "slug": "tvrd",
+      "ticker": "TVRD",
+      "issuer": "Tvardi Therapeutics, Inc.",
+      "asset": "TTI-101",
+      "indication": "Hepatocellular carcinoma (HCC)",
+      "phase": "Phase 1b/2 REVERT LIVER CANCER",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data from Phase 2 trial of TTI-101 in hepatocellular carcinoma (HCC) on track for 2H 2026."
+    },
+    {
+      "slug": "tvrd",
+      "ticker": "TVRD",
+      "issuer": "Tvardi Therapeutics, Inc.",
+      "asset": "TTI-101",
+      "indication": "Idiopathic pulmonary fibrosis (IPF)",
+      "phase": "Phase 2 REVERT IPF",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Further analysis of data from our Phase 2 IPF trial of TTI-101... topline data anticipated in the second quarter of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

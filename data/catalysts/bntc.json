@@ -1,0 +1,73 @@
+{
+  "slug": "bntc",
+  "ticker": "BNTC",
+  "issuer_name": "Benitec Biopharma Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-222879",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (FQ3 FY2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1808898/000119312526222879/bntc-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "bntc",
+      "ticker": "BNTC",
+      "issuer": "Benitec Biopharma Inc.",
+      "asset": "BB-301 (AAV9 ddRNAi 'Silence and Replace' for PABPN1)",
+      "indication": "Oculopharyngeal muscular dystrophy (OPMD)-related dysphagia",
+      "phase": "Phase 1b/2a",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-15",
+      "date_precision": "day",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1808898/000119312526222879/bntc-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "BB-301 Phase 1b/2a interim clinical study results selected for oral presentation at the 2026 American Society of Gene and Cell Therapy (ASGCT) Annual Meeting on May 15."
+    },
+    {
+      "slug": "bntc",
+      "ticker": "BNTC",
+      "issuer": "Benitec Biopharma Inc.",
+      "asset": "BB-301",
+      "indication": "OPMD-related dysphagia",
+      "phase": "Phase 1b/2a (Cohort 1 & 2 interim)",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1808898/000119312526222879/bntc-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Benitec remains on track to provide updated interim clinical study results for Cohort 1 patients and Cohort 2 patients in 2H-2026."
+    },
+    {
+      "slug": "bntc",
+      "ticker": "BNTC",
+      "issuer": "Benitec Biopharma Inc.",
+      "asset": "BB-301",
+      "indication": "OPMD-related dysphagia",
+      "phase": "Pivotal study design (FDA interaction)",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-14",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1808898/000119312526222879/bntc-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company remains on track to engage with U.S. Food and Drug Administration (FDA) mid-year to formalize the BB-301 pivotal study design."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Three rows from FQ3 FY2026 (March 31, 2026 quarter-end) earnings PR: ASGCT oral presentation May 15, 2026, updated Cohort 1+2 interim in 2H 2026, mid-2026 FDA interaction to formalize pivotal study design. Recent and post-date FY2025 10-K coverage."
+  }
+}

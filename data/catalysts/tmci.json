@@ -1,0 +1,100 @@
+{
+  "slug": "tmci",
+  "ticker": "TMCI",
+  "issuer_name": "TREACE MEDICAL CONCEPTS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-213267",
+      "filed_date": "2026-05-08",
+      "exhibit": "tmci-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001630627-26-000010",
+      "filed_date": "2026-04-09",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-079163",
+      "filed_date": "2026-02-27",
+      "exhibit": "tmci-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-011177",
+      "filed_date": "2026-01-13",
+      "exhibit": "tmci-ex99_2.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-323802",
+      "filed_date": "2025-12-18",
+      "exhibit": "tmci-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tmci",
+      "ticker": "TMCI",
+      "issuer": "TREACE MEDICAL CONCEPTS, INC.",
+      "asset": "Lapiplasty Lightning",
+      "indication": "3D bunion correction",
+      "phase": "commercial",
+      "milestone_type": "launch_prep",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Lapiplasty Lightning Next-Generation Instrumentation; 5th generation instrumentation; Less steps, faster procedure; Enhanced control of 3D correction; COMING 2026"
+    },
+    {
+      "slug": "tmci",
+      "ticker": "TMCI",
+      "issuer": "TREACE MEDICAL CONCEPTS, INC.",
+      "asset": "IntelliGuide PSI",
+      "indication": "patient-specific 3D bunion correction",
+      "phase": "commercial",
+      "milestone_type": "launch_prep",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "IntelliGuide PSI Patient-Specific 3D Bunion Correction; Intelligent pre-op planning; Patient-specific 3D correction; COMING 2026"
+    },
+    {
+      "slug": "tmci",
+      "ticker": "TMCI",
+      "issuer": "TREACE MEDICAL CONCEPTS, INC.",
+      "asset": "SpeedTMT",
+      "indication": "rapid compression implant for bunion correction",
+      "phase": "commercial",
+      "milestone_type": "launch_prep",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "SpeedTMT Rapid Compression Implant; Fast insertion; Dynamic compression; Locking screw fixation; COMING 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

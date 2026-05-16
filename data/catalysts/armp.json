@@ -1,0 +1,39 @@
+{
+  "slug": "armp",
+  "ticker": "ARMP",
+  "issuer_name": "Armata Pharmaceuticals, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-060299",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 corporate update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/921114/000110465926060299/armp-20260512xex99d1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "armp",
+      "ticker": "ARMP",
+      "issuer": "Armata Pharmaceuticals, Inc.",
+      "asset": "AP-SA02",
+      "indication": "Complicated S. aureus Bacteremia (cSAB) caused by MSSA or MRSA",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/921114/000110465926060299/armp-20260512xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The study is expected to initiate in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 adds 2H 2026 AP-SA02 Phase 3 initiation"
+  }
+}

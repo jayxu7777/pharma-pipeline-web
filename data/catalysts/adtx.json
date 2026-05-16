@@ -1,0 +1,39 @@
+{
+  "slug": "adtx",
+  "ticker": "ADTX",
+  "issuer_name": "Aditxt, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-027281",
+      "filed_date": "2026-03-13",
+      "exhibit": "Ex-99.1 (Ignite Proteomics acquisition PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1726711/000121390026027281/ea027944301ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "adtx",
+      "ticker": "ADTX",
+      "issuer": "Aditxt, Inc.",
+      "asset": "Ignite Proteomics (RPPA platform - subsidiary)",
+      "indication": "metastatic cancer therapy selection",
+      "phase": "commercial (CLIA-certified)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-03-13",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1726711/000121390026027281/ea027944301ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Ignite plans to launch a new program in 2026 supporting treatment selection for more than 600,000 people in the United States living with metastatic cancer and limited therapeutic options."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Recent ADTX 8-Ks are dominated by corporate/financing actions (reverse split, listing compliance) and acquisitions. The only forward-looking clinical/commercial catalyst is Ignite Proteomics' 2026 program launch."
+  }
+}

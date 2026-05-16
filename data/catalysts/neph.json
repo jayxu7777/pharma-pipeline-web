@@ -1,0 +1,20 @@
+{
+  "slug": "neph",
+  "ticker": "NEPH",
+  "issuer_name": "NEPHROS INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-021734",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Water filtration medical device company (commercial). Earnings PR contains tariff/financial discussion only; no forward-dated clinical catalysts."
+  }
+}

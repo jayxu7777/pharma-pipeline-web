@@ -1,0 +1,83 @@
+{
+  "slug": "plsm",
+  "ticker": "PLSM",
+  "issuer_name": "Pulsenmore Ltd.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-021745",
+      "filed_date": "2026-05",
+      "exhibit": "ex99-1, ex99-2",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-013495",
+      "filed_date": "2026-03-30",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-010803",
+      "filed_date": "2026-02-09",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-005686",
+      "filed_date": "2026-02-02",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-004640",
+      "filed_date": "2026",
+      "exhibit": "ex99-1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "plsm",
+      "ticker": "PLSM",
+      "issuer": "Pulsenmore Ltd.",
+      "asset": "Pulsenmore ES home pregnancy ultrasound",
+      "indication": "Remote-use prenatal ultrasound",
+      "phase": "Commercial/Regulatory",
+      "milestone_type": "FDA De Novo clearance (achieved)",
+      "anticipated_date_iso": "2025-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Regulatory milestone - U.S.: Secured FDA clearance for remote-use prenatal ultrasound in the United States, establishing the regulatory foundation for entry."
+    },
+    {
+      "slug": "plsm",
+      "ticker": "PLSM",
+      "issuer": "Pulsenmore Ltd.",
+      "asset": "Pulsenmore ES (Early-Screening) pregnancy product",
+      "indication": "Single-fetus pregnancies starting at 14 weeks gestation",
+      "phase": "Commercial/Regulatory",
+      "milestone_type": "EU MDR CE Certification (achieved)",
+      "anticipated_date_iso": "2025-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Received MDR CE Certification for the Pulsenmore Early-Screening (ES) pregnancy product, authorizing commercial distribution across the EU."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Medical device company (home ultrasound). Captured completed FDA clearance and EU CE certification milestones. No pipeline drug catalysts."
+  }
+}

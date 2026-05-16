@@ -1,0 +1,56 @@
+{
+  "slug": "cmps",
+  "ticker": "CMPS",
+  "issuer_name": "COMPASS Pathways plc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001816590-26-000043",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1816590/000181659026000043/q12026pressrelease.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cmps",
+      "ticker": "CMPS",
+      "issuer": "COMPASS Pathways plc",
+      "asset": "COMP360 (psilocybin)",
+      "indication": "Treatment-resistant depression (TRD)",
+      "phase": "Phase 3",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1816590/000181659026000043/q12026pressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "26-week (Part B) data from COMP006, expected in early Q3 2026"
+    },
+    {
+      "slug": "cmps",
+      "ticker": "CMPS",
+      "issuer": "COMPASS Pathways plc",
+      "asset": "COMP360 (psilocybin)",
+      "indication": "Treatment-resistant depression (TRD)",
+      "phase": "Phase 3",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-13",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1816590/000181659026000043/q12026pressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Final NDA submission on track for Q4, aligned with Company's previously defined accelerated timing to be launch ready by end of year"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Q3 2026 26-week Part B data and Q4 2026 NDA submission likely refine tier0 baseline."
+  }
+}

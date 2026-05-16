@@ -1,0 +1,20 @@
+{
+  "slug": "lmat",
+  "ticker": "LMAT",
+  "issuer_name": "LEMAITRE VASCULAR INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-206578",
+      "filed_date": "2026-05-05",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "LeMaitre Vascular is a commercial-stage vascular-device company (grafts, valvulotomes, carotid shunts, Artegraft). PR contains only revenue guidance, dividend declaration, and share-repurchase authorization. No clinical trials or forward-dated regulatory submission dates."
+  }
+}

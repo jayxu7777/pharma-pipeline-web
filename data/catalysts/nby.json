@@ -1,0 +1,27 @@
+{
+  "slug": "nby",
+  "ticker": "NBY",
+  "issuer_name": "Stablecoin Development Corp",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-001459",
+      "filed_date": "2026-01-16",
+      "exhibit": "Ex (PIPE/IRA agreements)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-011312",
+      "filed_date": "2026-04-06",
+      "exhibit": "8-K body (financial)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Former NovaBay Pharmaceuticals; now Stablecoin Development Corp following strategic pivot. No clinical catalysts in recent 8-Ks (PIPE financing / corporate matters)."
+  }
+}

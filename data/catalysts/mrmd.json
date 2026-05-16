@@ -1,0 +1,27 @@
+{
+  "slug": "mrmd",
+  "ticker": "MRMD",
+  "issuer_name": "MARIMED INC",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001522767-26-000070",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001522767-25-000222",
+      "filed_date": "2025-11-06",
+      "exhibit": "Ex-99.1 (Q3 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Multi-state cannabis operator (dispensaries, branded cannabis products); not a drug-development biopharma. No clinical catalysts in 8-K exhibits."
+  }
+}

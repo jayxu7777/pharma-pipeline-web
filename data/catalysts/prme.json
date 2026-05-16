@@ -1,0 +1,127 @@
+{
+  "slug": "prme",
+  "ticker": "PRME",
+  "issuer_name": "Prime Medicine, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-013565",
+      "filed_date": "2026-03",
+      "exhibit": "fy20258-kex992xdeck.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-001773",
+      "filed_date": "2026-01",
+      "exhibit": "jan_2025xcorpxpres.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-050415",
+      "filed_date": "2025-11",
+      "exhibit": "q320258-kex991xpressrelease.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001894562-25-000056",
+      "filed_date": "2025-09",
+      "exhibit": "sept_2025xcorpxpresentat.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "prme",
+      "ticker": "PRME",
+      "issuer": "Prime Medicine, Inc.",
+      "asset": "PM577",
+      "indication": "Wilson's Disease (WD)",
+      "phase": "preclinical",
+      "milestone_type": "IND/CTA",
+      "anticipated_date_iso": "2027-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Prime Medicine expects to file an investigational new drug application (IND) and/or clinical trial application (CTA) for its WD program in the first half of 2027"
+    },
+    {
+      "slug": "prme",
+      "ticker": "PRME",
+      "issuer": "Prime Medicine, Inc.",
+      "asset": "PM647",
+      "indication": "Alpha-1 Antitrypsin Deficiency (AATD)",
+      "phase": "preclinical",
+      "milestone_type": "IND/CTA",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Nominated PM647 as development candidate for Alpha-1 Antitrypsin Deficiency (AATD); on-track to file IND and/or CTA in mid-2026"
+    },
+    {
+      "slug": "prme",
+      "ticker": "PRME",
+      "issuer": "Prime Medicine, Inc.",
+      "asset": "PM577 (WD) and PM647 (AATD)",
+      "indication": "Wilson's Disease, AATD",
+      "phase": "Phase 1 (planned)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "initial clinical data from both studies are expected in 2027"
+    },
+    {
+      "slug": "prme",
+      "ticker": "PRME",
+      "issuer": "Prime Medicine, Inc.",
+      "asset": "PM577",
+      "indication": "Wilson's Disease",
+      "phase": "preclinical",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2025-11-07",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Prime Medicine will present new preclinical data for PM577 at the American Association for the Study of Liver Diseases (AASLD) Liver Meeting (November 7-11, 2025)"
+    },
+    {
+      "slug": "prme",
+      "ticker": "PRME",
+      "issuer": "Prime Medicine, Inc.",
+      "asset": "PM359",
+      "indication": "chronic granulomatous disease (CGD)",
+      "phase": "clinical/commercial readiness",
+      "milestone_type": "patient_access",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Make PM359 available for patients with CGD"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

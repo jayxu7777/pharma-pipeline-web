@@ -1,0 +1,48 @@
+{
+  "slug": "pyrgf",
+  "ticker": "PYRGF",
+  "issuer_name": "PyroGenesis Canada Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001171843-23-007086",
+      "filed_date": "2023-11-14",
+      "exhibit": "exh_991.htm (Q3 2023 results) + exh_992.htm + exh_993.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001171843-23-006965",
+      "filed_date": "2023-11-09",
+      "exhibit": "(no exhibit)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001171843-23-006852",
+      "filed_date": "2023-11-08",
+      "exhibit": "(no exhibit)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001171843-23-006523",
+      "filed_date": "2023-10-30",
+      "exhibit": "(no exhibit)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001171843-23-006379",
+      "filed_date": "2023-10-25",
+      "exhibit": "(no exhibit)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "PyroGenesis is an industrial plasma technology company (TSX: PYR; NASDAQ: PYR; OTC: PYRGF) focused on plasma torches, plasma atomization (NexGen titanium powder for additive manufacturing/aerospace), biogas upgrading, and waste destruction across three verticals (Energy Transition & Emission Reduction, Commodity Security & Optimization, Waste Remediation). Not a pharmaceutical / biotech / medtech issuer. No clinical pipeline; no PDUFA/BLA/NDA/IND or trial-readout catalysts applicable."
+  }
+}

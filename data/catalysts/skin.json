@@ -1,0 +1,48 @@
+{
+  "slug": "skin",
+  "ticker": "SKIN",
+  "issuer_name": "Beauty Health Co",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-032099",
+      "filed_date": "",
+      "exhibit": "EX-99.1 2026q1 earnings",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-026555",
+      "filed_date": "",
+      "exhibit": "EX-99.1 corporate rebrand presentation",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-017222",
+      "filed_date": "",
+      "exhibit": "EX-99.1 2025q4 earnings",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-015640",
+      "filed_date": "",
+      "exhibit": "EX-C notice of pendency",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-050171",
+      "filed_date": "",
+      "exhibit": "EX-99.1 2025q3 earnings",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Beauty Health is an aesthetic medtech (HydraFacial) company - no clinical/regulatory catalysts of the FDA/PDUFA/Phase trial type in recent 8-K filings. Filings are limited to earnings releases, corporate rebrand and litigation notices."
+  }
+}

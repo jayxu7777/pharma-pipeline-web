@@ -1,0 +1,100 @@
+{
+  "slug": "tmdx",
+  "ticker": "TMDX",
+  "issuer_name": "TransMedics Group, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-206347",
+      "filed_date": "2026-05-05",
+      "exhibit": "tmdx-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-079392",
+      "filed_date": "2026-02-27",
+      "exhibit": "d80286dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-066953",
+      "filed_date": "2026-02-24",
+      "exhibit": "tmdx-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-009816",
+      "filed_date": "2026-01-12",
+      "exhibit": "d25695dex101.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-256326",
+      "filed_date": "2025-10-29",
+      "exhibit": "tmdx-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tmdx",
+      "ticker": "TMDX",
+      "issuer": "TransMedics Group, Inc.",
+      "asset": "OCS ENHANCE Heart",
+      "indication": "heart transplant preservation (Part B)",
+      "phase": "Phase 3 (registrational)",
+      "milestone_type": "enrollment",
+      "anticipated_date_iso": "2026-05-05",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Unveiled new Controlled Hypothermic Organ Preservation System (CHOPS) aimed at facilitating enrollment in control arms of OCS ENHANCE Heart Part B and OCS DENOVO Lung clinical trials"
+    },
+    {
+      "slug": "tmdx",
+      "ticker": "TMDX",
+      "issuer": "TransMedics Group, Inc.",
+      "asset": "OCS DENOVO Lung",
+      "indication": "lung transplant preservation",
+      "phase": "Phase 3 (registrational)",
+      "milestone_type": "enrollment",
+      "anticipated_date_iso": "2026-05-05",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "CHOPS aimed at facilitating enrollment in control arms of OCS ENHANCE Heart Part B and OCS DENOVO Lung clinical trials"
+    },
+    {
+      "slug": "tmdx",
+      "ticker": "TMDX",
+      "issuer": "TransMedics Group, Inc.",
+      "asset": "OCS Kidney",
+      "indication": "kidney transplant preservation",
+      "phase": "development",
+      "milestone_type": "approval_pathway",
+      "anticipated_date_iso": "prior",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "development, and potential commercialization of our OCS Kidney device; the timing or results of clinical trials for the OCS, including pre- and post-approval studies"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

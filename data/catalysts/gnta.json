@@ -1,0 +1,34 @@
+{
+  "slug": "gnta",
+  "ticker": "GNTA",
+  "issuer_name": "Genenta Science S.p.A.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-018713",
+      "filed_date": "2026-04-23",
+      "exhibit": "Ex-99.1 (Sophia High Tech definitive agreements PR)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-013051",
+      "filed_date": "2026-03-27",
+      "exhibit": "Ex-99.1 (Sophia High Tech binding offer PR)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001493152-26-012223",
+      "filed_date": "2026-03-23",
+      "exhibit": "Ex-99.1 (revocation of extraordinary shareholders meeting)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Genenta is undergoing strategic transformation into a non-biotech industrial consolidator (proposed rename to Saentra Forge) focused on aerospace/defense (Sophia High Tech acquisition). Recent 6-Ks describe corporate/M&A actions only; no forward-dated clinical catalysts disclosed for legacy Temferon or other biotech assets."
+  }
+}

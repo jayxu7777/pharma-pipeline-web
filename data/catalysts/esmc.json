@@ -1,0 +1,20 @@
+{
+  "slug": "esmc",
+  "ticker": "ESMC",
+  "issuer_name": "ESCALON MEDICAL CORP",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001299933-10-003528",
+      "filed_date": "2010-09-29",
+      "exhibit": "Ex-99.01 (Fiscal 2010 results PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Latest available 8-K filings are from 2010-2012; no recent disclosures. Company is an ophthalmic medical device firm with commercial products (Sonomed, EMI, Trek, Drew). No clinical pipeline or regulatory catalyst content in available filings."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "plx",
+  "ticker": "PLX",
+  "issuer_name": "Protalix BioTherapeutics, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-059749",
+      "filed_date": "2026-05-13",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-029846",
+      "filed_date": "2026-03-18",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-024975",
+      "filed_date": "2026-03-09",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-013498",
+      "filed_date": "2026-02-11",
+      "exhibit": "ex99-1 (corporate presentation)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-008410",
+      "filed_date": "2026-01-30",
+      "exhibit": "ex99-1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "plx",
+      "ticker": "PLX",
+      "issuer": "Protalix BioTherapeutics, Inc.",
+      "asset": "PRX-115 (PEGylated uricase)",
+      "indication": "Uncontrolled gout",
+      "phase": "Phase 2",
+      "milestone_type": "Top-line results",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "PRX-115 Phase 2 study continues to advance as planned with top-line results anticipated in the second half of 2027."
+    },
+    {
+      "slug": "plx",
+      "ticker": "PLX",
+      "issuer": "Protalix BioTherapeutics, Inc.",
+      "asset": "PRX-115 (PEGylated uricase)",
+      "indication": "Uncontrolled gout",
+      "phase": "Phase 2",
+      "milestone_type": "Enrollment ongoing (RELEASE trial, NCT07280156)",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The RELEASE Phase 2 clinical trial (NCT07280156) of PRX-115, a recombinant PEGylated uricase, for the treatment of uncontrolled gout continues to enroll patients."
+    },
+    {
+      "slug": "plx",
+      "ticker": "PLX",
+      "issuer": "Protalix BioTherapeutics, Inc.",
+      "asset": "Elfabrio (pegunigalsidase alfa)",
+      "indication": "Fabry disease",
+      "phase": "Approved",
+      "milestone_type": "EC approval of 2 mg/kg E4W dosing regimen (achieved)",
+      "anticipated_date_iso": "2026-03-09",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "European Commission has approved the 2mg/kg every-4-weeks (E4W) dosing regimen for Elfabrio in adults living with Fabry disease who are stable with an ERT."
+    },
+    {
+      "slug": "plx",
+      "ticker": "PLX",
+      "issuer": "Protalix BioTherapeutics, Inc.",
+      "asset": "PRX-119 (long-acting DNase I)",
+      "indication": "NETs-related rare renal diseases",
+      "phase": "Preclinical",
+      "milestone_type": "Preclinical advancement",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The Company continues to advance PRX-119, its long-acting DNase I program, as part of a broader strategic focus on rare renal indications."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

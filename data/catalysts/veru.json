@@ -1,0 +1,127 @@
+{
+  "slug": "veru",
+  "ticker": "VERU",
+  "issuer_name": "VERU INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-258565",
+      "filed_date": "2025-11",
+      "exhibit": "d59421dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-321663",
+      "filed_date": "2025-12",
+      "exhibit": "d55858dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-045527",
+      "filed_date": "2026-02",
+      "exhibit": "d218771dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-220569",
+      "filed_date": "2026-05",
+      "exhibit": "d114190dex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "veru",
+      "ticker": "VERU",
+      "issuer": "VERU INC.",
+      "asset": "Enobosarm",
+      "indication": "Obesity (in combination with GLP-1 RA / semaglutide)",
+      "phase": "Phase 2b (PLATEAU)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company plans to initiate Phase 2b PLATEAU clinical study in calendar Q1 2026; actively enrolling."
+    },
+    {
+      "slug": "veru",
+      "ticker": "VERU",
+      "issuer": "VERU INC.",
+      "asset": "Enobosarm",
+      "indication": "Obesity",
+      "phase": "Phase 2b (PLATEAU)",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2027-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2b PLATEAU interim analysis results anticipated Q1 calendar year 2027 (36 weeks)."
+    },
+    {
+      "slug": "veru",
+      "ticker": "VERU",
+      "issuer": "VERU INC.",
+      "asset": "Enobosarm",
+      "indication": "Obesity",
+      "phase": "Phase 2b (PLATEAU)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Final topline clinical data is expected in the fourth quarter of calendar year 2027."
+    },
+    {
+      "slug": "veru",
+      "ticker": "VERU",
+      "issuer": "VERU INC.",
+      "asset": "Enobosarm",
+      "indication": "Obesity",
+      "phase": "Phase 2b (QUALITY, completed)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2025-01",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "January 2025, positive topline efficacy results from Phase 2b QUALITY clinical study announced; enobosarm 3 mg + semaglutide met primary endpoint of preservation of total lean mass."
+    },
+    {
+      "slug": "veru",
+      "ticker": "VERU",
+      "issuer": "VERU INC.",
+      "asset": "Sabizabulin",
+      "indication": "Inflammation in atherosclerotic cardiovascular disease",
+      "phase": "Preclinical / early",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Sabizabulin, a microtubule disruptor, is being developed for the treatment of inflammation in atherosclerotic cardiovascular disease."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

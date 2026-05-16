@@ -1,0 +1,79 @@
+{
+  "slug": "aavxf",
+  "ticker": "AAVXF",
+  "issuer_name": "Abivax S.A.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001956827-26-000010",
+      "filed_date": "2026-03-23",
+      "exhibit": "a6-kpressreleasefy2025fina.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-211853",
+      "filed_date": "2026-05-05",
+      "exhibit": "d148287dex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "aavxf",
+      "ticker": "AAVXF",
+      "issuer": "Abivax S.A.",
+      "asset": "obefazimod (ABX464)",
+      "indication": "moderately to severely active ulcerative colitis (UC)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "The Company's pivotal Phase 3 ABTECT maintenance trial evaluating obefazimod for moderately to severely active ulcerative colitis remains on track to report topline results in late Q2 2026"
+    },
+    {
+      "slug": "aavxf",
+      "ticker": "AAVXF",
+      "issuer": "Abivax S.A.",
+      "asset": "obefazimod (ABX464)",
+      "indication": "Crohn's disease (CD)",
+      "phase": "Phase 2b",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Completion of Phase 2b induction trial for CD - Q4 2026"
+    },
+    {
+      "slug": "aavxf",
+      "ticker": "AAVXF",
+      "issuer": "Abivax S.A.",
+      "asset": "obefazimod (ABX464)",
+      "indication": "ulcerative colitis (UC)",
+      "phase": "Phase 3",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "NDA submission for obefazimod in UC - Q4 2026 (subject to positive data)"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none"
+  }
+}

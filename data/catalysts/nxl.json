@@ -1,0 +1,93 @@
+{
+  "slug": "nxl",
+  "ticker": "NXL",
+  "issuer_name": "Nexalin Technology, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-003765",
+      "filed_date": "2026-04-22",
+      "exhibit": "nexalintec_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-001634",
+      "filed_date": "2026-02-25",
+      "exhibit": "nexalintec_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-26-000513",
+      "filed_date": "2026-01-23",
+      "exhibit": "nexalintech_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001829126-25-009755",
+      "filed_date": "2025-12-05",
+      "exhibit": "nexalintech_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "nxl",
+      "ticker": "NXL",
+      "issuer": "Nexalin Technology, Inc.",
+      "asset": "HALO Clarity",
+      "indication": "moderate-to-severe insomnia",
+      "phase": "pivotal",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "advance its planned pivotal clinical trial evaluating the HALO Clarity device for the treatment of moderate-to-severe insomnia, with patient enrollment currently expected to begin in Q2 of 2026."
+    },
+    {
+      "slug": "nxl",
+      "ticker": "NXL",
+      "issuer": "Nexalin Technology, Inc.",
+      "asset": "HALO Clarity",
+      "indication": "moderate-to-severe insomnia",
+      "phase": "pivotal",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "160-participant, randomized, triple-blinded, sham-controlled clinical trial is intended to support Nexalin's planned De Novo Classification Request to the FDA."
+    },
+    {
+      "slug": "nxl",
+      "ticker": "NXL",
+      "issuer": "Nexalin Technology, Inc.",
+      "asset": "HALO Clarity",
+      "indication": "moderate-to-severe insomnia",
+      "phase": "pivotal",
+      "milestone_type": "other",
+      "anticipated_date_iso": null,
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "designed to support Nexalin's planned de novo submission to the U.S. Food and Drug Administration. The study is being conducted in collaboration with Lindus Health."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "zomdf",
+  "ticker": "ZOMDF",
+  "issuer_name": "Zomedica Corp.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001654954-25-005749",
+      "filed_date": "2025-05-15",
+      "exhibit": "zom_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-25-009136",
+      "filed_date": "2025-08-14",
+      "exhibit": "zom_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-25-012575",
+      "filed_date": "2025-11-13",
+      "exhibit": "zom_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-26-002304",
+      "filed_date": "2026-03-16",
+      "exhibit": "zom_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001654954-26-004419",
+      "filed_date": "2026-05-15",
+      "exhibit": "zom_ex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Equine and companion animal veterinary diagnostics/therapeutics (PulseVet, TRUFORMA, etc.). Filings are quarterly earnings releases; no human clinical or FDA drug catalysts disclosed."
+  }
+}

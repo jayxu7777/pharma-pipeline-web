@@ -1,0 +1,35 @@
+{
+  "slug": "asbp",
+  "ticker": "ASBP",
+  "issuer_name": "Aspire Biopharma Holdings, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-018018",
+      "filed_date": "2026-04-20",
+      "exhibit": "Ex-99.1 (PIPE closing PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847345/000149315226018018/ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-016979",
+      "filed_date": "2026-04-16",
+      "exhibit": "Ex-99.1 (DCS acquisition LOI PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847345/000149315226016979/ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-006343",
+      "filed_date": "2026-02-12",
+      "exhibit": "Ex-99.1 ($21M private placement PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847345/000149315226006343/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "ASBP latest 5 8-Ks cover only capital raises (PIPE, credit facility) and non-clinical M&A (Dura Driver Control Systems automotive LOI); no clinical/regulatory catalyst dates disclosed for the sublingual delivery platform or BUZZ BOMB caffeine product in this window.",
+    "tier0_overlap_check": "No tier1 catalysts to compare; 10-K key_milestones baseline remains current."
+  }
+}

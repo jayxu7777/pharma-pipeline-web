@@ -1,0 +1,106 @@
+{
+  "slug": "mltx",
+  "ticker": "MLTX",
+  "issuer_name": "MoonLake Immunotherapeutics",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-018967",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1 (S-OLARIS topline / FY2025 financials)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "mltx",
+      "ticker": "MLTX",
+      "issuer": "MoonLake Immunotherapeutics",
+      "asset": "sonelokimab (SLK)",
+      "indication": "hidradenitis suppurativa (HS)",
+      "phase": "Phase 3",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Q2 2026: 52-week data of the VELA-1 and VELA-2 trials in HS"
+    },
+    {
+      "slug": "mltx",
+      "ticker": "MLTX",
+      "issuer": "MoonLake Immunotherapeutics",
+      "asset": "sonelokimab (SLK)",
+      "indication": "psoriatic arthritis (PsA)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Mid 2026: Primary endpoint readout of the Phase 3 IZAR-1 trial in PsA"
+    },
+    {
+      "slug": "mltx",
+      "ticker": "MLTX",
+      "issuer": "MoonLake Immunotherapeutics",
+      "asset": "sonelokimab (SLK)",
+      "indication": "adolescent hidradenitis suppurativa",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Mid 2026: Primary endpoint readout of Phase 3 VELA-TEEN trial in adolescent HS"
+    },
+    {
+      "slug": "mltx",
+      "ticker": "MLTX",
+      "issuer": "MoonLake Immunotherapeutics",
+      "asset": "sonelokimab (SLK)",
+      "indication": "hidradenitis suppurativa (HS)",
+      "phase": "BLA",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "H2 2026: Submission of a BLA for HS"
+    },
+    {
+      "slug": "mltx",
+      "ticker": "MLTX",
+      "issuer": "MoonLake Immunotherapeutics",
+      "asset": "sonelokimab (SLK)",
+      "indication": "psoriatic arthritis (PsA)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "H2 2026: Primary endpoint readout of the Phase 3 IZAR-2 trial in PsA"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

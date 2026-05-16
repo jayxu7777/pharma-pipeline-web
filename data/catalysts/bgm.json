@@ -1,0 +1,21 @@
+{
+  "slug": "bgm",
+  "ticker": "BGM",
+  "issuer_name": "BGM Group Ltd.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001104659-25-078551",
+      "filed_date": "2025-08-14",
+      "exhibit": "Ex-99.1 (Acting in Concert Agreement)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1779578/000110465925078551/tm2523509d1_ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Not a clinical-stage biotech. BGM Group Ltd. is a Cayman Islands holding company; available SEC 6-K exhibits cover shareholder/control agreements with no pharmaceutical, clinical, or regulatory content. No biotech catalysts to extract.",
+    "tier0_overlap_check": "n/a"
+  }
+}

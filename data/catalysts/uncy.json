@@ -1,0 +1,86 @@
+{
+  "slug": "uncy",
+  "ticker": "UNCY",
+  "issuer_name": "Unicycive Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-054736",
+      "filed_date": "2026-05",
+      "exhibit": "ea029027701ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-035961",
+      "filed_date": "2026-03",
+      "exhibit": "ea028394201ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-25-102790",
+      "filed_date": "2025",
+      "exhibit": "ea026272301ex99-1_unicycive.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "uncy",
+      "ticker": "UNCY",
+      "issuer": "Unicycive Therapeutics, Inc.",
+      "asset": "Oxylanthanum carbonate (OLC)",
+      "indication": "Hyperphosphatemia in CKD on dialysis",
+      "phase": "NDA (resubmission)",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-06-29",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA review of oxylanthanum carbonate (OLC) NDA resubmission remains on track, with a PDUFA target action date of June 29, 2026"
+    },
+    {
+      "slug": "uncy",
+      "ticker": "UNCY",
+      "issuer": "Unicycive Therapeutics, Inc.",
+      "asset": "Oxylanthanum carbonate (OLC)",
+      "indication": "Hyperphosphatemia in CKD on dialysis",
+      "phase": "NDA (resubmission)",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2025-12",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The resubmission in December 2025 was based on the progress made by the third-party manufacturing vendor responsible for the drug product."
+    },
+    {
+      "slug": "uncy",
+      "ticker": "UNCY",
+      "issuer": "Unicycive Therapeutics, Inc.",
+      "asset": "UNI-494",
+      "indication": "Delayed Graft Function (DGF) in kidney transplant patients",
+      "phase": "Phase 1 (completed)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ODD granted by the FDA for prevention of DGF in kidney transplant patients and has completed a Phase 1 dose-ranging safety study in healthy volunteers."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "twst",
+  "ticker": "TWST",
+  "issuer_name": "Twist Bioscience Corporation",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001581280-25-000020",
+      "filed_date": "2025-11",
+      "exhibit": "twst-20250930xex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001581280-26-000012",
+      "filed_date": "2026-01-12",
+      "exhibit": "twist-20260112.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001581280-26-000016",
+      "filed_date": "2026-02",
+      "exhibit": "twst-20251231xex9913.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001581280-26-000037",
+      "filed_date": "2026-05",
+      "exhibit": "twst-2026331xex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-015730",
+      "filed_date": "2026-02",
+      "exhibit": "tm266463d1_8k.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Twist Bioscience is a synthetic DNA tools/services provider (not a clinical-stage drug developer). Available filings cover quarterly earnings, a licensing agreement (Invenra) and biosecurity research. No clinical-trial PDUFA/BLA/topline catalysts applicable."
+  }
+}

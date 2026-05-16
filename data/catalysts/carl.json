@@ -1,0 +1,38 @@
+{
+  "slug": "carl",
+  "ticker": "CARL",
+  "issuer_name": "CARLSMED, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001794546-26-000010",
+      "filed_date": "2026-05-05",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1794546/000179454626000010/carl-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "carl",
+      "ticker": "CARL",
+      "issuer": "CARLSMED, INC.",
+      "asset": "corra patient-specific cervical plating / fixation portfolio",
+      "indication": "Cervical spine fusion (patient-specific fixation)",
+      "phase": "Commercial",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1794546/000179454626000010/carl-ex99_1.htm",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "With our first full commercial quarter for aprevo Cervical and the launch of our corra patient-specific fixation portfolio later this year, we believe we are well positioned for continued growth and innovation throughout 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

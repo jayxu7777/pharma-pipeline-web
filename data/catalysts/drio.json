@@ -1,0 +1,27 @@
+{
+  "slug": "drio",
+  "ticker": "DRIO",
+  "issuer_name": "DarioHealth Corp.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-042362",
+      "filed_date": "2026-04-13",
+      "exhibit": "Ex-99.1 (executive appointment PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1533998/000110465926042362/"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-093431",
+      "filed_date": "2025-09-25",
+      "exhibit": "Ex-99.1 (financing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1533998/000110465925093431/"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "DarioHealth is a digital chronic disease management platform (adjacent_medtech_dx); latest 8-Ks cover executive appointments and financings, no forward-dated clinical or product launch dates disclosed."
+  }
+}

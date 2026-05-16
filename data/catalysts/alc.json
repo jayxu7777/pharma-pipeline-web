@@ -1,0 +1,27 @@
+{
+  "slug": "alc",
+  "ticker": "ALC",
+  "issuer_name": "ALCON INC",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001167379-26-000022",
+      "filed_date": "2026-05-05",
+      "exhibit": "q12026pressrelease.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001167379-26-000013",
+      "filed_date": "2026",
+      "exhibit": "q42025pressrelease.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Large-cap commercial eye-care company; recent 6-K Ex-99.1 are quarterly earnings PRs describing product launches and financials, with no FDA milestones, PDUFA dates, or clinical readouts."
+  }
+}

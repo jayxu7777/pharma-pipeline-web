@@ -1,0 +1,134 @@
+{
+  "slug": "tara",
+  "ticker": "TARA",
+  "issuer_name": "Protara Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-055462",
+      "filed_date": "2026",
+      "exhibit": "ea028858101ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-035971",
+      "filed_date": "2026",
+      "exhibit": "(no exhibits)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-025432",
+      "filed_date": "2026",
+      "exhibit": "ea028040401ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-019617",
+      "filed_date": "2026",
+      "exhibit": "ea0277972-8k_protara.htm + multiple ex99 exhibits",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-25-121687",
+      "filed_date": "2025",
+      "exhibit": "ea0269478-8k_protara.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tara",
+      "ticker": "TARA",
+      "issuer": "Protara Therapeutics, Inc.",
+      "asset": "TARA-002",
+      "indication": "lymphatic malformations (LMs)",
+      "phase": "Phase 2 STARBORN-1 (pivotal)",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2027-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "intends to submit a BLA for TARA-002 in LMs based on the results of the pivotal STARBORN-1 trial in the second half of 2027"
+    },
+    {
+      "slug": "tara",
+      "ticker": "TARA",
+      "issuer": "Protara Therapeutics, Inc.",
+      "asset": "TARA-002",
+      "indication": "lymphatic malformations (LMs)",
+      "phase": "Phase 2 STARBORN-1",
+      "milestone_type": "interim/data_update",
+      "anticipated_date_iso": "2026-10",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "present updated interim safety and durability data from the ongoing Phase 2 STARBORN-1 trial evaluating TARA-002 in macrocystic and mixed cystic LMs"
+    },
+    {
+      "slug": "tara",
+      "ticker": "TARA",
+      "issuer": "Protara Therapeutics, Inc.",
+      "asset": "TARA-002",
+      "indication": "NMIBC (BCG-Naive)",
+      "phase": "Phase 3 ADVANCED-3 (registrational)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "intends to initiate the ADVANCED-3 trial in the second half of 2026"
+    },
+    {
+      "slug": "tara",
+      "ticker": "TARA",
+      "issuer": "Protara Therapeutics, Inc.",
+      "asset": "TARA-002",
+      "indication": "NMIBC (BCG-Unresponsive)",
+      "phase": "Phase 2 ADVANCED-2 (registrational)",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company expects to report interim results in the second half of 2026"
+    },
+    {
+      "slug": "tara",
+      "ticker": "TARA",
+      "issuer": "Protara Therapeutics, Inc.",
+      "asset": "IV Choline Chloride",
+      "indication": "parenteral support (PS)",
+      "phase": "Phase 3 (THRIVE-3)",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Choline Chloride remains on track, and we expect to announce interim results in the second half of 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Five distinct upcoming milestones extracted (BLA, ADVANCED-3 initiation, ADVANCED-2 interim, STARBORN-1 interim, IV Choline Chloride interim)."
+  }
+}

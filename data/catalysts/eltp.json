@@ -1,0 +1,20 @@
+{
+  "slug": "eltp",
+  "ticker": "ELTP",
+  "issuer_name": "ELITE PHARMACEUTICALS INC /NV/",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-014813",
+      "filed_date": "2026-04-02",
+      "exhibit": "Ex-99.1 (Methadone HCl commercial launch PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1053369/000149315226014813/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Generic specialty pharma; recent 8-Ks announce commercial generic product launches (e.g., methadone HCl tablets in April 2026) without forward-dated clinical or regulatory catalysts."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "txmd",
+  "ticker": "TXMD",
+  "issuer_name": "TherapeuticsMD, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-036519",
+      "filed_date": "2026-04",
+      "exhibit": "ea028323901ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-055070",
+      "filed_date": "2026-05",
+      "exhibit": "ea028977601ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Company is winding down operations and focused on Nasdaq listing/cash management. No active clinical trial or regulatory catalysts disclosed in retrieved 8-K filings."
+  }
+}

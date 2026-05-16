@@ -1,0 +1,45 @@
+{
+  "slug": "edsa",
+  "ticker": "EDSA",
+  "issuer_name": "Edesa Biotech, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-003429",
+      "filed_date": "2026-05",
+      "exhibit": "Ex-99.1 (Q2 FY 2026 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1540159/000117184326003429/exh_991.htm"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-000810",
+      "filed_date": "2026-02",
+      "exhibit": "Ex-99.1 (Q1 FY 2026 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1540159/000117184326000810/exh_991.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "edsa",
+      "ticker": "EDSA",
+      "issuer": "Edesa Biotech, Inc.",
+      "asset": "EB06",
+      "indication": "Vitiligo",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1540159/000117184326003429/exh_991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Research and development expenses increased ... primarily due to increased expenses for manufacturing-related activities and other preparations for the planned Phase 2 clinical study of EB06 in vitiligo patients ... Manufacturing plans for our upcoming vitiligo study are on schedule, and we are advancing the EB06 program toward regulatory readiness and launch."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Edesa PRs reference upcoming EB06 vitiligo Phase 2 manufacturing readiness but provide no specific calendar date; conservatively year-precision tag applied."
+  }
+}

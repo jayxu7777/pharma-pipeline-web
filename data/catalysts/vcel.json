@@ -1,0 +1,117 @@
+{
+  "slug": "vcel",
+  "ticker": "VCEL",
+  "issuer_name": "Vericel Corp",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-036854",
+      "filed_date": "2025",
+      "exhibit": "ex991earningsreleaseq22025.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-25-049880",
+      "filed_date": "2025",
+      "exhibit": "ex991earningsreleaseq32025.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-001060",
+      "filed_date": "2026",
+      "exhibit": "ef20062769_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-012003",
+      "filed_date": "2026",
+      "exhibit": "ex991earningsreleaseq42025.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-031713",
+      "filed_date": "2026",
+      "exhibit": "ex991earningsreleaseq12026.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "vcel",
+      "ticker": "VCEL",
+      "issuer": "Vericel Corp",
+      "asset": "MACI Ankle (MASCOT)",
+      "indication": "Cartilage defects of the ankle",
+      "phase": "Phase 3 (MASCOT)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initiated MACI Ankle MASCOT clinical study (FDA IND clearance previously received)."
+    },
+    {
+      "slug": "vcel",
+      "ticker": "VCEL",
+      "issuer": "Vericel Corp",
+      "asset": "MACI",
+      "indication": "Cartilage defects (commercial manufacturing)",
+      "phase": "Approved",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Received FDA approval for MACI commercial manufacturing at the Company's new state-of-the-art advanced therapy manufacturing facility."
+    },
+    {
+      "slug": "vcel",
+      "ticker": "VCEL",
+      "issuer": "Vericel Corp",
+      "asset": "MACI",
+      "indication": "Cartilage defects (UK)",
+      "phase": "MAA (planned)",
+      "milestone_type": "MAA",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Remain on track to submit MACI marketing authorization application to U.K. MHRA in 2026."
+    },
+    {
+      "slug": "vcel",
+      "ticker": "VCEL",
+      "issuer": "Vericel Corp",
+      "asset": "MACI Ankle",
+      "indication": "Cartilage defects of the ankle",
+      "phase": "IND (cleared)",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2025-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Received FDA IND Clearance for Phase 3 MACI Ankle Clinical Study; on track to initiate the study in the second half of 2025."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

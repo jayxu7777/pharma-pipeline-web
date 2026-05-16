@@ -1,0 +1,72 @@
+{
+  "slug": "prnaf",
+  "ticker": "PRNAF",
+  "issuer_name": "ALTERITY THERAPEUTICS LTD",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001437749-26-013964",
+      "filed_date": "2026-04",
+      "exhibit": "ex_953834.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "prnaf",
+      "ticker": "PRNAF",
+      "issuer": "ALTERITY THERAPEUTICS LTD",
+      "asset": "ATH434",
+      "indication": "Multiple System Atrophy (MSA)",
+      "phase": "End-of-Phase 2",
+      "milestone_type": "FDA meeting",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Advancing ATH434 toward pivotal Phase 3 program; on track for End-of-Phase 2 FDA meeting mid-year 2026"
+    },
+    {
+      "slug": "prnaf",
+      "ticker": "PRNAF",
+      "issuer": "ALTERITY THERAPEUTICS LTD",
+      "asset": "ATH434",
+      "indication": "Multiple System Atrophy (MSA)",
+      "phase": "Phase 2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-04-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "ATH434 Demonstrates Disease-Modifying Signal in Multiple System Atrophy Using the MuSyCA Composite Scale \u2014 Late Breaking Science Session at AAN Annual Meeting"
+    },
+    {
+      "slug": "prnaf",
+      "ticker": "PRNAF",
+      "issuer": "ALTERITY THERAPEUTICS LTD",
+      "asset": "ATH434",
+      "indication": "MSA",
+      "phase": "regulatory alignment",
+      "milestone_type": "FDA meeting (Type C)",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "Aligned with the FDA in two Positive Type C meetings supporting key elements of the planned Phase 3 program for ATH434 in MSA"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

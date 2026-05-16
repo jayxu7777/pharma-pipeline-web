@@ -1,0 +1,130 @@
+{
+  "slug": "kura",
+  "ticker": "KURA",
+  "issuer_name": "Kura Oncology, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-219422",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-092465",
+      "filed_date": "2026-03-05",
+      "exhibit": "Ex-99.1 (4Q/FY2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "kura",
+      "ticker": "KURA",
+      "issuer": "Kura Oncology, Inc.",
+      "asset": "ziftomenib (KOMZIFTI)",
+      "indication": "frontline NPM1-m/KMT2A-r AML (KOMET-007)",
+      "phase": "Phase 1a/1b",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Present updated results for ziftomenib / 7+3 combination in frontline NPM1-m/KMT2A-r AML (KOMET-007) in an oral presentation at the European Hematology Association (EHA) 2026 Congress in June 2026"
+    },
+    {
+      "slug": "kura",
+      "ticker": "KURA",
+      "issuer": "Kura Oncology, Inc.",
+      "asset": "ziftomenib (KOMZIFTI)",
+      "indication": "R/R NPM1-m AML (ven/aza combination)",
+      "phase": "Phase 1a/1b",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Publish data for ziftomenib plus venetoclax + azacitidine in R/R NPM1-m AML (1H 2026)"
+    },
+    {
+      "slug": "kura",
+      "ticker": "KURA",
+      "issuer": "Kura Oncology, Inc.",
+      "asset": "ziftomenib (KOMZIFTI)",
+      "indication": "R/R NPM1-m/FLT3-m AML (KOMET-008, gilteritinib combination)",
+      "phase": "Phase 1/2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Present preliminary KOMET-008 data for ziftomenib and gilteritinib combination in R/R NPM1-m/FLT3-m AML (2H 2026)"
+    },
+    {
+      "slug": "kura",
+      "ticker": "KURA",
+      "issuer": "Kura Oncology, Inc.",
+      "asset": "darlifarnib",
+      "indication": "KRAS G12C-mutated solid tumors (with adagrasib)",
+      "phase": "Phase 1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Present preliminary clinical data for darlifarnib plus adagrasib in KRAS G12C-mutated solid tumors at the upcoming American Society of Clinical Oncology (ASCO) 2026 Annual Meeting in May 2026"
+    },
+    {
+      "slug": "kura",
+      "ticker": "KURA",
+      "issuer": "Kura Oncology, Inc.",
+      "asset": "darlifarnib",
+      "indication": "advanced renal cell carcinoma (RCC) (with cabozantinib)",
+      "phase": "Phase 1a",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Present updated Phase 1a data with the first report of long-term follow-up for darlifarnib plus cabozantinib in advanced RCC (2H 2026)"
+    },
+    {
+      "slug": "kura",
+      "ticker": "KURA",
+      "issuer": "Kura Oncology, Inc.",
+      "asset": "ziftomenib (KOMZIFTI)",
+      "indication": "frontline NPM1-m/KMT2A-r AML (KOMET-017)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2028",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "expected to fund the ziftomenib AML program through the topline results from the first pivotal Phase 3 KOMET-017 frontline trial, anticipated in 2028."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

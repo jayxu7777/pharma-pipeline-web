@@ -1,0 +1,72 @@
+{
+  "slug": "imux",
+  "ticker": "IMUX",
+  "issuer_name": "IMMUNIC, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193805-26-000593",
+      "filed_date": "2026-05-13",
+      "exhibit": "e665461_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "imux",
+      "ticker": "IMUX",
+      "issuer": "IMMUNIC, INC.",
+      "asset": "vidofludimus calcium (IMU-838)",
+      "indication": "relapsing multiple sclerosis (ENSURE-1/-2)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ENSURE-1 and ENSURE-2 Phase 3 topline data in relapsing MS expected end of 2026"
+    },
+    {
+      "slug": "imux",
+      "ticker": "IMUX",
+      "issuer": "IMMUNIC, INC.",
+      "asset": "vidofludimus calcium (IMU-838)",
+      "indication": "relapsing multiple sclerosis",
+      "phase": "Phase 3",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "NDA submission expected mid-2027"
+    },
+    {
+      "slug": "imux",
+      "ticker": "IMUX",
+      "issuer": "IMMUNIC, INC.",
+      "asset": "vidofludimus calcium (IMU-838)",
+      "indication": "primary progressive multiple sclerosis",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "PPMS Phase 3 initiation expected later in 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

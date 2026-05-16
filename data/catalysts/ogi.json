@@ -1,0 +1,41 @@
+{
+  "slug": "ogi",
+  "ticker": "OGI",
+  "issuer_name": "ORGANIGRAM GLOBAL INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001628280-26-033882",
+      "filed_date": "2026-05-15",
+      "exhibit": "organigramholdingsinc-3prx.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001628280-26-025341",
+      "filed_date": "2026-04-15",
+      "exhibit": "pressrelease-projectxclosi.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001628280-26-022190",
+      "filed_date": "2026-04-01",
+      "exhibit": "pressreleaseannouncingmeet.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001628280-26-020375",
+      "filed_date": "2026-03-26",
+      "exhibit": "pressreleasereissreport-ma.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Canadian FPI cannabis producer (Organigram). Recent 6-K filings cover acquisition of Sanity Group GmbH (German cannabis), AGM voting results, and quarterly MD&A. No drug-development clinical/regulatory catalysts; company is commercial cannabis CPG, not pharmaceutical pipeline."
+  }
+}

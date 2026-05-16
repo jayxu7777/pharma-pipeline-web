@@ -1,0 +1,130 @@
+{
+  "slug": "kymr",
+  "ticker": "KYMR",
+  "issuer_name": "Kymera Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-193957",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-073386",
+      "filed_date": "2026-02-26",
+      "exhibit": "Ex-99.1 (4Q/FY2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "kymr",
+      "ticker": "KYMR",
+      "issuer": "Kymera Therapeutics, Inc.",
+      "asset": "KT-621",
+      "indication": "moderate to severe atopic dermatitis (AD) (BROADEN2)",
+      "phase": "Phase 2b",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Recruitment is ongoing, with enrollment expected to be completed in 2026 and data reported by mid-2027."
+    },
+    {
+      "slug": "kymr",
+      "ticker": "KYMR",
+      "issuer": "Kymera Therapeutics, Inc.",
+      "asset": "KT-621",
+      "indication": "moderate to severe atopic dermatitis (AD) (BROADEN2)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-H1",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Recruitment is ongoing, with enrollment expected to be completed in 2026 and data reported by mid-2027."
+    },
+    {
+      "slug": "kymr",
+      "ticker": "KYMR",
+      "issuer": "Kymera Therapeutics, Inc.",
+      "asset": "KT-621",
+      "indication": "moderate to severe eosinophilic asthma (BREADTH)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Recruitment is ongoing, with data expected to be reported in late 2027."
+    },
+    {
+      "slug": "kymr",
+      "ticker": "KYMR",
+      "issuer": "Kymera Therapeutics, Inc.",
+      "asset": "KT-579",
+      "indication": "healthy volunteers (IRF5 degrader)",
+      "phase": "Phase 1",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "KT-579 (IRF5) Phase 1 healthy volunteer trial ongoing, with data expected in 2H26"
+    },
+    {
+      "slug": "kymr",
+      "ticker": "KYMR",
+      "issuer": "Kymera Therapeutics, Inc.",
+      "asset": "KT-485/SAR447971 (IRAK4 degrader)",
+      "indication": "immuno-inflammatory diseases",
+      "phase": "preclinical",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "KT-485/SAR447971, a selective, potent, oral IRAK4 degrader being advanced in partnership with Sanofi, has the potential to offer a novel oral approach for a variety of chronic immuno-inflammatory diseases. The program has completed IND-enabling studies, with clinical entry expected in 2026."
+    },
+    {
+      "slug": "kymr",
+      "ticker": "KYMR",
+      "issuer": "Kymera Therapeutics, Inc.",
+      "asset": "KT-200 (CDK2 molecular glue degrader)",
+      "indication": "breast cancer and other solid tumors",
+      "phase": "preclinical",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Gilead will progress the program into IND-enabling studies to support an IND filing in 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

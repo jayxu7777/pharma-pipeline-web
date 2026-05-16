@@ -1,0 +1,90 @@
+{
+  "slug": "avir",
+  "ticker": "AVIR",
+  "issuer_name": "Atea Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-219507",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526219507/d12234dex991.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "avir",
+      "ticker": "AVIR",
+      "issuer": "Atea Pharmaceuticals, Inc.",
+      "asset": "Bemnifosbuvir + Ruzasvir (BEM/RZR)",
+      "indication": "Chronic Hepatitis C Virus (HCV) - North America (C-BEYOND)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526219507/d12234dex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "C-BEYOND (conducted in North America): Enrollment completed in December 2025 with more than 880 patients; topline results expected mid-2026."
+    },
+    {
+      "slug": "avir",
+      "ticker": "AVIR",
+      "issuer": "Atea Pharmaceuticals, Inc.",
+      "asset": "Bemnifosbuvir + Ruzasvir (BEM/RZR)",
+      "indication": "Chronic Hepatitis C Virus (HCV) - ex-North America (C-FORWARD)",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526219507/d12234dex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "C-FORWARD (conducted outside North America): Enrollment on track for completion mid-2026."
+    },
+    {
+      "slug": "avir",
+      "ticker": "AVIR",
+      "issuer": "Atea Pharmaceuticals, Inc.",
+      "asset": "Bemnifosbuvir + Ruzasvir (BEM/RZR)",
+      "indication": "Chronic Hepatitis C Virus (HCV) - ex-North America (C-FORWARD)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "year",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526219507/d12234dex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "C-FORWARD ... topline results expected around year-end 2026."
+    },
+    {
+      "slug": "avir",
+      "ticker": "AVIR",
+      "issuer": "Atea Pharmaceuticals, Inc.",
+      "asset": "AT-587",
+      "indication": "Hepatitis E Virus (HEV) in immunocompromised patients",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526219507/d12234dex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Atea selected AT-587 as the lead product candidate and anticipates initiating a Phase 1 clinical program for AT-587 in mid-2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 captures both HCV Phase 3 trial topline readouts (C-BEYOND mid-2026 NA, C-FORWARD ex-NA enrollment mid-2026 / topline YE 2026) and AT-587 HEV P1 initiation (mid-2026)."
+  }
+}

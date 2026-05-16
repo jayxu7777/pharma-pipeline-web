@@ -1,0 +1,134 @@
+{
+  "slug": "vtgn",
+  "ticker": "VTGN",
+  "issuer_name": "Vistagen Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-033883",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (PALISADE-3 OLE update)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-032935",
+      "filed_date": "2026-05-08",
+      "exhibit": "Ex-99.1 (PALISADE-4 LPLV)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-027930",
+      "filed_date": "2026-04-22",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-018163",
+      "filed_date": "2026-03-16",
+      "exhibit": "corporate deck",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-016652",
+      "filed_date": "2026-03-05",
+      "exhibit": "form body",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "vtgn",
+      "ticker": "VTGN",
+      "issuer": "Vistagen Therapeutics, Inc.",
+      "asset": "fasedienol (PH94B intranasal pherine)",
+      "indication": "Social anxiety disorder (acute, SAD) - PALISADE-4",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On May 8, 2026, the Company announced that the last patient completed the last visit in the randomized, double-blind, placebo-controlled portion of PALISADE-4 ... PALISADE-4 remains on track for topline data in the second quarter of 2026."
+    },
+    {
+      "slug": "vtgn",
+      "ticker": "VTGN",
+      "issuer": "Vistagen Therapeutics, Inc.",
+      "asset": "fasedienol",
+      "indication": "Social anxiety disorder - PALISADE-4 last patient last visit",
+      "phase": "Phase 3",
+      "milestone_type": "LPI",
+      "anticipated_date_iso": "2026-05-08",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On May 8, 2026, the Company announced that the last patient completed the last visit in the randomized, double-blind, placebo-controlled portion of PALISADE-4."
+    },
+    {
+      "slug": "vtgn",
+      "ticker": "VTGN",
+      "issuer": "Vistagen Therapeutics, Inc.",
+      "asset": "fasedienol",
+      "indication": "SAD - Phase 2 Repeat Dose Study",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline results for the exploratory Phase 2 Repeat Dose Study are expected in the third quarter of 2026."
+    },
+    {
+      "slug": "vtgn",
+      "ticker": "VTGN",
+      "issuer": "Vistagen Therapeutics, Inc.",
+      "asset": "fasedienol",
+      "indication": "Social anxiety disorder",
+      "phase": "Phase 3 (NDA-supporting)",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Vistagen believes that PALISADE-4, if successful, together with the positive results from its PALISADE-2 Phase 3 trial ... could provide substantial evidence of fasedienol's effectiveness in support of a potential New Drug Application (NDA) submission to the FDA."
+    },
+    {
+      "slug": "vtgn",
+      "ticker": "VTGN",
+      "issuer": "Vistagen Therapeutics, Inc.",
+      "asset": "fasedienol (PALISADE-3 OLE)",
+      "indication": "Social anxiety disorder (open-label extension)",
+      "phase": "Phase 3 OLE",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-05-12",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Vistagen Announces Preliminary Positive Data in Ongoing Open-Label Extension Portion of PALISADE-3 Phase 3 Study of Fasedienol for the Acute Treatment of Social Anxiety Disorder."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

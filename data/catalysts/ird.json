@@ -1,0 +1,130 @@
+{
+  "slug": "ird",
+  "ticker": "IRD",
+  "issuer_name": "Opus Genetics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001628280-26-033856",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-013394",
+      "filed_date": "2026-04-07",
+      "exhibit": "Ex-99.1 (Oberland Capital financing PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ird",
+      "ticker": "IRD",
+      "issuer": "Opus Genetics, Inc.",
+      "asset": "OPGx-BEST1",
+      "indication": "BEST1-related retinal degeneration (BVMD/ARB)",
+      "phase": "Phase 1/2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Opus Genetics expects to announce three-month topline data from Cohort 1 of the Phase 1/2 trial in September 2026."
+    },
+    {
+      "slug": "ird",
+      "ticker": "IRD",
+      "issuer": "Opus Genetics, Inc.",
+      "asset": "OPGx-BEST1",
+      "indication": "BEST1-related retinal degeneration",
+      "phase": "Phase 1/2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06-16",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Opus Genetics plans to host an R&D Science Forum on Tuesday, June 16, 2026, from 10:00 am - 12:00 pm ET, with management and key opinion leaders (KOLs) highlighting earlier-stage gene therapy programs entering clinical testing and IRD global market opportunities."
+    },
+    {
+      "slug": "ird",
+      "ticker": "IRD",
+      "issuer": "Opus Genetics, Inc.",
+      "asset": "OPGx-LCA5",
+      "indication": "LCA5 inherited retinal disease",
+      "phase": "Phase 3",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Dosing with OPGx-LCA5 is expected to start in the fourth quarter of 2026."
+    },
+    {
+      "slug": "ird",
+      "ticker": "IRD",
+      "issuer": "Opus Genetics, Inc.",
+      "asset": "OPGx-RDH12",
+      "indication": "RDH12 leber congenital amaurosis",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "This program is expected to enter the clinic in the fourth quarter of 2026."
+    },
+    {
+      "slug": "ird",
+      "ticker": "IRD",
+      "issuer": "Opus Genetics, Inc.",
+      "asset": "OPGx-MERTK",
+      "indication": "MERTK retinal degeneration",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "As previously announced, Opus' OPGx-MERTK program is expected to enter the clinic at the end of 2026 in collaboration with the Department of Health - Abu Dhabi."
+    },
+    {
+      "slug": "ird",
+      "ticker": "IRD",
+      "issuer": "Opus Genetics, Inc.",
+      "asset": "OPGx-RHO",
+      "indication": "Autosomal-dominant retinitis pigmentosa (RHO-adRP)",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "This program is expected to enter the clinic in 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

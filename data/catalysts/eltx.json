@@ -1,0 +1,27 @@
+{
+  "slug": "eltx",
+  "ticker": "ELTX",
+  "issuer_name": "Elicio Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001601485-26-000041",
+      "filed_date": "2026-05-11",
+      "exhibit": "8-K shell (Q1 2026 earnings, Ex-99.1 not downloaded)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1601485/000160148526000041/eltx-20260511.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-205522",
+      "filed_date": "2025-09-17",
+      "exhibit": "Ex-99.1 (AMPLIFY-7P Phase 2 immunogenicity PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1601485/000119312525205522/d38971dex991.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Latest 8-K (May 11, 2026) only has cover page; Ex-99.1 PR not retrievable. Older Sept 2025 PR forecast Q4 2025 final disease-free survival analysis which has now passed. No future-dated (>=2026-05-15) catalysts identified."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "trvi",
+  "ticker": "TRVI",
+  "issuer_name": "Trevi Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-280149",
+      "filed_date": "2025-11",
+      "exhibit": "trvi-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-098676",
+      "filed_date": "2026-03-09",
+      "exhibit": "trvi-20260309.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-110767",
+      "filed_date": "2026-03",
+      "exhibit": "trvi-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-160355",
+      "filed_date": "2026-04",
+      "exhibit": "d587027dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-206382",
+      "filed_date": "2026-05",
+      "exhibit": "trvi-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "trvi",
+      "ticker": "TRVI",
+      "issuer": "Trevi Therapeutics, Inc.",
+      "asset": "Nalbuphine ER (Haduvio)",
+      "indication": "Idiopathic pulmonary fibrosis (IPF)-related chronic cough",
+      "phase": "End-of-Phase 2 / Phase 3 alignment",
+      "milestone_type": "FDA_EOP2_meeting",
+      "anticipated_date_iso": "2026-03-09",
+      "date_precision": "exact",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On March 9, 2026, Trevi Therapeutics announced results of the Company's End-of-Phase 2 meeting with the FDA. Gained overall alignment on Phase 3 program for IPF-related chronic cough."
+    },
+    {
+      "slug": "trvi",
+      "ticker": "TRVI",
+      "issuer": "Trevi Therapeutics, Inc.",
+      "asset": "Nalbuphine ER (Haduvio)",
+      "indication": "IPF-related chronic cough",
+      "phase": "Phase 3 (two trials, NAL ER 54 mg BID)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Execution plans remain on track to conduct two Phase 3 trials... Phase 3 trials will both be randomized, double-blind, placebo-controlled, multicenter, global trials evaluating nalbuphine ER 54 mg BID."
+    },
+    {
+      "slug": "trvi",
+      "ticker": "TRVI",
+      "issuer": "Trevi Therapeutics, Inc.",
+      "asset": "Nalbuphine ER (Haduvio)",
+      "indication": "Refractory chronic cough (RCC)",
+      "phase": "Phase 2b",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company plans to initiate a Phase 2b trial in patients with RCC in the second quarter of 2026, subject to final protocol review by regulatory authorities."
+    },
+    {
+      "slug": "trvi",
+      "ticker": "TRVI",
+      "issuer": "Trevi Therapeutics, Inc.",
+      "asset": "Nalbuphine ER (Haduvio)",
+      "indication": "Non-IPF ILD-related chronic cough",
+      "phase": "Phase 2b (adaptive design)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company plans to initiate an adaptive design Phase 2b clinical trial for the treatment of patients with non-IPF ILD-related chronic cough in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

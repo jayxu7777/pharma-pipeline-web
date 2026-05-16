@@ -1,0 +1,20 @@
+{
+  "slug": "gluc",
+  "ticker": "GLUC",
+  "issuer_name": "Glucose Health, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001477932-14-007105",
+      "filed_date": "2014-12-16",
+      "exhibit": "Ex-99.1 (corporate actions PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Glucose Health markets consumer blood-sugar maintenance supplements; not clinical-stage pharma. Latest exhibit available is from 2014 corporate update with no clinical content."
+  }
+}

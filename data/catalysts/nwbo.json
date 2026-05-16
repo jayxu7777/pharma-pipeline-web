@@ -1,0 +1,34 @@
+{
+  "slug": "nwbo",
+  "ticker": "NWBO",
+  "issuer_name": "NORTHWEST BIOTHERAPEUTICS INC",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-004146",
+      "filed_date": "2026-01-15",
+      "exhibit": "(no Ex-99.1 attached)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-102049",
+      "filed_date": "2025-10-24",
+      "exhibit": "(no Ex-99.1 attached)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-25-099196",
+      "filed_date": "2025-10-14",
+      "exhibit": "(no Ex-99.1 attached)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Discovery identified five recent 8-Ks under Items 7.01/8.01 (most recent 2026-01-15) but none had attached exhibits (no Ex-99.1 PR available in EDGAR for download). Cannot extract forward-dated catalysts without exhibit text."
+  }
+}

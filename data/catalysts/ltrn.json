@@ -1,0 +1,113 @@
+{
+  "slug": "ltrn",
+  "ticker": "LTRN",
+  "issuer_name": "Lantern Pharma Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-023200",
+      "filed_date": "2026-05-14",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-013608",
+      "filed_date": "2026-03-30",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ltrn",
+      "ticker": "LTRN",
+      "issuer": "Lantern Pharma Inc.",
+      "asset": "LP-300",
+      "indication": "never-smoker NSCLC (HARMONIC trial)",
+      "phase": "Phase 2",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-05-15",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA Type C meeting scheduled for mid-May 2026 on HARMONIC protocol amendments"
+    },
+    {
+      "slug": "ltrn",
+      "ticker": "LTRN",
+      "issuer": "Lantern Pharma Inc.",
+      "asset": "LP-300",
+      "indication": "never-smoker NSCLC (HARMONIC trial)",
+      "phase": "Phase 2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Additional HARMONIC trial data updates expected in first half of 2026"
+    },
+    {
+      "slug": "ltrn",
+      "ticker": "LTRN",
+      "issuer": "Lantern Pharma Inc.",
+      "asset": "LP-184",
+      "indication": "TNBC and NSCLC with STK11/KEAP1 mutations",
+      "phase": "Phase 1b/2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Planned initiation of LP-184 Phase 1b/2 trials in TNBC and NSCLC in H1 2026 (subject to funding)"
+    },
+    {
+      "slug": "ltrn",
+      "ticker": "LTRN",
+      "issuer": "Lantern Pharma Inc.",
+      "asset": "LP-184",
+      "indication": "PTGR1 overexpressing bladder cancer (investigator-led)",
+      "phase": "investigator-led",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Investigator-led study initiation in Denmark for PTGR1-overexpressing bladder cancer in H1 2026"
+    },
+    {
+      "slug": "ltrn",
+      "ticker": "LTRN",
+      "issuer": "Lantern Pharma Inc.",
+      "asset": "STAR-001 (LP-184)",
+      "indication": "ATRT and other rare pediatric CNS cancers",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Planned pediatric CNS cancer trial initiation through Starlight Therapeutics in 2026 (subject to funding)"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

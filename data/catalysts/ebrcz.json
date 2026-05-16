@@ -1,0 +1,27 @@
+{
+  "slug": "ebrcz",
+  "ticker": "EBRCZ",
+  "issuer_name": "EBR Systems, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001214659-26-005746",
+      "filed_date": "2026-05",
+      "exhibit": "Ex-99.1 (AGM Stockholder Vote Results)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1347123/000121465926005746/e572638k.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001214659-26-004488",
+      "filed_date": "2026-04",
+      "exhibit": "Ex-99.1 (Q1 2026 Business Update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1347123/000121465926004488/ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "EBR Systems is a medtech (WiSE wireless cardiac pacing) in Limited Market Release post-FDA approval. Recent PRs cover commercial cases growth, training, and stock split; no forward-dated specific clinical readout dates beyond ongoing WiSE-UP post-approval study and TLC-AU feasibility study (no specific date)."
+  }
+}

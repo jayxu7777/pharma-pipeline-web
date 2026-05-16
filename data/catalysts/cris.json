@@ -1,0 +1,89 @@
+{
+  "slug": "cris",
+  "ticker": "CRIS",
+  "issuer_name": "CURIS INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001108205-26-000059",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108205/000110820526000059/a1q26earningspressrelease.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cris",
+      "ticker": "CRIS",
+      "issuer": "CURIS INC",
+      "asset": "emavusertib (CA-4948)",
+      "indication": "PDAC (pancreatic cancer) Phase 1 combination",
+      "phase": "Phase 1",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-21",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1108205/000110820526000059/a1q26earningspressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Dr. Patrick Grierson, Siteman Cancer Center, Washington University in St Louis will have an abstract titled A phase I trial of emavusertib (CA-4948) in combination with gemcitabine and nab-paclitaxel in metastatic or unresectable pancreatic ductal adenocarcinoma (PDAC) available online at http://asco.org/abstracts on May 21, 2026 at 5:00 PM EDT."
+    },
+    {
+      "slug": "cris",
+      "ticker": "CRIS",
+      "issuer": "CURIS INC",
+      "asset": "emavusertib (CA-4948) + zanubrutinib",
+      "indication": "Chronic Lymphocytic Leukemia (CLL)",
+      "phase": "Phase 2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1108205/000110820526000059/a1q26earningspressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Curis expects to announce the dosing of the initial 5 patients in the TakeAim CLL combination study with zanubrutinib by mid-2026, with data expected in December 2026."
+    },
+    {
+      "slug": "cris",
+      "ticker": "CRIS",
+      "issuer": "CURIS INC",
+      "asset": "emavusertib (CA-4948) + zanubrutinib",
+      "indication": "Chronic Lymphocytic Leukemia (CLL)",
+      "phase": "Phase 2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1108205/000110820526000059/a1q26earningspressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Curis expects to announce the dosing of the initial 5 patients in the TakeAim CLL combination study with zanubrutinib by mid-2026, with data expected in December 2026."
+    },
+    {
+      "slug": "cris",
+      "ticker": "CRIS",
+      "issuer": "CURIS INC",
+      "asset": "emavusertib (CA-4948) + ibrutinib",
+      "indication": "R/R Primary CNS Lymphoma (PCNSL)",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1108205/000110820526000059/a1q26earningspressrelease.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Also, the Company expects updated emavusertib clinical data from the TakeAim Lymphoma combination study with ibrutinib in patients with R/R PCNSL in the first half of 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

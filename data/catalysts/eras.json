@@ -1,0 +1,72 @@
+{
+  "slug": "eras",
+  "ticker": "ERAS",
+  "issuer_name": "Erasca, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-216739",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "eras",
+      "ticker": "ERAS",
+      "issuer": "Erasca, Inc.",
+      "asset": "ERAS-4001",
+      "indication": "KRAS-mutant solid tumors",
+      "phase": "Phase 1 (BOREALIS-1)",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Preliminary safety, tolerability, PK, and initial efficacy Phase 1 monotherapy data expected in the second half of 2026"
+    },
+    {
+      "slug": "eras",
+      "ticker": "ERAS",
+      "issuer": "Erasca, Inc.",
+      "asset": "ERAS-0015",
+      "indication": "RAS-mutant solid tumors",
+      "phase": "Phase 1 (AURORAS-1)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Monotherapy expansion data expected in the first half of 2027"
+    },
+    {
+      "slug": "eras",
+      "ticker": "ERAS",
+      "issuer": "Erasca, Inc.",
+      "asset": "ERAS-0015",
+      "indication": "RAS-mutant solid tumors (combination)",
+      "phase": "Phase 1 (AURORAS-1)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Combination dose escalation data planned for the first half of 2027"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "vreof",
+  "ticker": "VREOF",
+  "issuer_name": "Vireo Growth Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-039924",
+      "filed_date": "2026-04-01",
+      "exhibit": "Ex-99.1 (Eaze acquisition closing)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-036876",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-043175",
+      "filed_date": "2026",
+      "exhibit": "Ex-10.1, Ex-2.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Vireo Growth is a multi-state cannabis retail/cultivation operator (M&A with Eaze, 10 states, 160 dispensaries). Not a drug developer; no FDA/BLA/NDA/IND/clinical trial catalysts disclosed."
+  }
+}

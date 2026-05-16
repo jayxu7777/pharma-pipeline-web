@@ -1,0 +1,72 @@
+{
+  "slug": "crmd",
+  "ticker": "CRMD",
+  "issuer_name": "CorMedix Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001410098-26-000020",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1410098/000141009826000020/crmd_q12026earningspr.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "crmd",
+      "ticker": "CRMD",
+      "issuer": "CorMedix Inc.",
+      "asset": "REZZAYO (rezafungin)",
+      "indication": "Prophylaxis of invasive fungal diseases in allo-HSCT recipients",
+      "phase": "Phase 3 (ReSPECT)",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1410098/000141009826000020/crmd_q12026earningspr.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "CorMedix is actively working together with its global partner to prepare for FDA submission of the sNDA, expected in the second half of this year, and targeting for a potential commercial launch for the expanded indication in 2027."
+    },
+    {
+      "slug": "crmd",
+      "ticker": "CRMD",
+      "issuer": "CorMedix Inc.",
+      "asset": "REZZAYO (rezafungin)",
+      "indication": "Prophylaxis of invasive fungal diseases in allo-HSCT recipients",
+      "phase": "Approved (pending sNDA expansion)",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1410098/000141009826000020/crmd_q12026earningspr.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "...targeting for a potential commercial launch for the expanded indication in 2027."
+    },
+    {
+      "slug": "crmd",
+      "ticker": "CRMD",
+      "issuer": "CorMedix Inc.",
+      "asset": "DefenCath (taurolidine/heparin)",
+      "indication": "TPN (total parenteral nutrition) catheter lock",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2028",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1410098/000141009826000020/crmd_q12026earningspr.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The ongoing Phase 3 study of taurolidine/heparin catheter lock solution in TPN patients continues to enroll patients and is currently trending to completion in 2028."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

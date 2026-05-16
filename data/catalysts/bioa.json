@@ -1,0 +1,107 @@
+{
+  "slug": "bioa",
+  "ticker": "BIOA",
+  "issuer_name": "BioAge Labs, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-213472",
+      "filed_date": "2026-05-08",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1709941/000119312526213472/bioa-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "bioa",
+      "ticker": "BIOA",
+      "issuer": "BioAge Labs, Inc.",
+      "asset": "BGE-102 (oral brain-penetrant NLRP3 inhibitor)",
+      "indication": "Elevated cardiovascular risk",
+      "phase": "Phase 2 (dose-ranging POC)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-08",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1709941/000119312526213472/bioa-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company plans to initiate a Phase 2 dose-ranging proof-of-concept trial of BGE-102 in participants at elevated cardiovascular risk in mid-2026."
+    },
+    {
+      "slug": "bioa",
+      "ticker": "BIOA",
+      "issuer": "BioAge Labs, Inc.",
+      "asset": "BGE-102 (oral brain-penetrant NLRP3 inhibitor)",
+      "indication": "Elevated cardiovascular risk",
+      "phase": "Phase 2 (dose-ranging POC)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-08",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1709941/000119312526213472/bioa-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 dose-ranging proof-of-concept trial of BGE-102 in cardiovascular risk planned to initiate in mid-2026, with data anticipated by end of year."
+    },
+    {
+      "slug": "bioa",
+      "ticker": "BIOA",
+      "issuer": "BioAge Labs, Inc.",
+      "asset": "BGE-102 (oral brain-penetrant NLRP3 inhibitor)",
+      "indication": "Diabetic macular edema (DME)",
+      "phase": "Phase 1b/2a (POC)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-08",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1709941/000119312526213472/bioa-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1b/2a proof-of-concept trial of BGE-102 in diabetic macular edema (DME) planned to initiate in mid-2026, with data anticipated in mid-2027."
+    },
+    {
+      "slug": "bioa",
+      "ticker": "BIOA",
+      "issuer": "BioAge Labs, Inc.",
+      "asset": "BGE-102 (oral brain-penetrant NLRP3 inhibitor)",
+      "indication": "Diabetic macular edema (DME)",
+      "phase": "Phase 1b/2a (POC)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "2026-05-08",
+      "confidence": "med",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1709941/000119312526213472/bioa-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1b/2a proof-of-concept trial of BGE-102 in diabetic macular edema (DME) ... with data anticipated in mid-2027."
+    },
+    {
+      "slug": "bioa",
+      "ticker": "BIOA",
+      "issuer": "BioAge Labs, Inc.",
+      "asset": "APJ agonist program (oral and injectable apelin receptor agonists)",
+      "indication": "Obesity / cardiometabolic",
+      "phase": "Preclinical",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-08",
+      "confidence": "med",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1709941/000119312526213472/bioa-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "BioAge continues to advance its oral and injectable APJ agonist development strategy ... The Company intends to file its first IND for an APJ program by year-end 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Five rows from Q1 2026 PR including Phase 1 BGE-102 topline (April 2026), mid-2026 Phase 2 CV-risk POC initiation with data by end-2026, mid-2026 Phase 1b/2a DME initiation with mid-2027 data, and YE-2026 IND filing for APJ agonist. All post-date the 2024 IPO 10-K/S-1 timeline."
+  }
+}

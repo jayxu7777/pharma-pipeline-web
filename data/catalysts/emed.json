@@ -1,0 +1,20 @@
+{
+  "slug": "emed",
+  "ticker": "EMED",
+  "issuer_name": "Electromedical Technologies, Inc",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-24-082325",
+      "filed_date": "2024-07-05",
+      "exhibit": "Ex-3.1 (charter amendment)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1715819/000110465924082325/tm2420032d1_ex3-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "OTC microcap, latest 8-Ks are corporate/financing (settlement agreements, charter amendments) with no clinical content. No forward-dated catalysts available."
+  }
+}

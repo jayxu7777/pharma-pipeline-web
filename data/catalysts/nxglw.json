@@ -1,0 +1,48 @@
+{
+  "slug": "nxglw",
+  "ticker": "NXGLW",
+  "issuer_name": "NEXGEL, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-022503",
+      "filed_date": "2026-05-12",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-020657",
+      "filed_date": "2026-04-30",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-018302",
+      "filed_date": "2026-04-21",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-009474",
+      "filed_date": "2026-03-10",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-006124",
+      "filed_date": "2026-02-11",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "NXGLW is the warrant ticker for NEXGEL (consumer medical hydrogel/skincare). Latest 5 8-Ks cover M&A (acquisition of cellular medicine commercial portfolio), CFO appointment, and financing only; no clinical/regulatory catalysts present."
+  }
+}

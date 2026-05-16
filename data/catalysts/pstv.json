@@ -1,0 +1,134 @@
+{
+  "slug": "pstv",
+  "ticker": "PSTV",
+  "issuer_name": "PLUS THERAPEUTICS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-104218",
+      "filed_date": "2026-03-12",
+      "exhibit": "Ex-99.1 (FY2025 results + 2026 milestones)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-146335",
+      "filed_date": "2026-04-08",
+      "exhibit": "Ex-99.1 (FDA ODD pediatric malignant gliomas)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-140267",
+      "filed_date": "2026-04-02",
+      "exhibit": "Ex-99.1 (1-for-25 reverse split)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-104291",
+      "filed_date": "2026-03-12",
+      "exhibit": "Item 5.08/8.01",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-165205",
+      "filed_date": "2026-04-21",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "pstv",
+      "ticker": "PSTV",
+      "issuer": "PLUS THERAPEUTICS, INC.",
+      "asset": "REYOBIQ (rhenium Re186 obisbemeda)",
+      "indication": "Leptomeningeal metastases (LM)",
+      "phase": "Phase 2 (ReSPECT-LM)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Define optimal dose/interval for REYOBIQ in the ReSPECT-LM Phase 2 trial; anticipate reporting data in Q3 2026."
+    },
+    {
+      "slug": "pstv",
+      "ticker": "PSTV",
+      "issuer": "PLUS THERAPEUTICS, INC.",
+      "asset": "REYOBIQ",
+      "indication": "Recurrent glioblastoma (GBM)",
+      "phase": "Phase 2 (ReSPECT-GBM)",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Completing enrollment in ReSPECT-GBM Phase 2 trial for GBM and conduct an End of Phase meeting with FDA aligning on pivotal trial design; data expected Q4 2026."
+    },
+    {
+      "slug": "pstv",
+      "ticker": "PSTV",
+      "issuer": "PLUS THERAPEUTICS, INC.",
+      "asset": "REYOBIQ",
+      "indication": "Pediatric brain cancer",
+      "phase": "Phase 1 (ReSPECT-PBC)",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Begin enrollment in the ReSPECT-PBC pediatric brain cancer Phase 1 trial in 2026."
+    },
+    {
+      "slug": "pstv",
+      "ticker": "PSTV",
+      "issuer": "PLUS THERAPEUTICS, INC.",
+      "asset": "REYOBIQ",
+      "indication": "Pediatric malignant gliomas (incl. ependymoma)",
+      "phase": "Regulatory",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-04-08",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "U.S. FDA granted Orphan Drug Designation to REYOBIQ for treatment of pediatric malignant gliomas; orphan designation encompasses pediatric ependymoma. IND also cleared for pediatric HGG and ependymoma."
+    },
+    {
+      "slug": "pstv",
+      "ticker": "PSTV",
+      "issuer": "PLUS THERAPEUTICS, INC.",
+      "asset": "REYOBIQ",
+      "indication": "Leptomeningeal metastases (LM)",
+      "phase": "Type B meeting / pre-pivotal",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Incorporating constructive Type B meeting feedback from FDA to accelerate clinical development timelines and facilitate submission of application for REYOBIQ approval for LM patients."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none. Note: PSTV also conducted a 1-for-25 reverse stock split effective April 2, 2026 (non-clinical)."
+  }
+}

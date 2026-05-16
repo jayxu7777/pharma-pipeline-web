@@ -1,0 +1,123 @@
+{
+  "slug": "ostx",
+  "ticker": "OSTX",
+  "issuer_name": "OS Therapies Inc",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-050211",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (EMA rolling review initiation PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ostx",
+      "ticker": "OSTX",
+      "issuer": "OS Therapies Inc",
+      "asset": "OST-HER2",
+      "indication": "pulmonary metastatic osteosarcoma",
+      "phase": "Phase 3 (confirmatory)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "alignment also achieved on confirmatory Phase 3 initiation, initially only in Australia, planned for Q3 2026 to meet regulatory requirement to support early approvals in the U.S., U.K., Europe and Australia"
+    },
+    {
+      "slug": "ostx",
+      "ticker": "OSTX",
+      "issuer": "OS Therapies Inc",
+      "asset": "OST-HER2",
+      "indication": "osteosarcoma",
+      "phase": "Regulatory",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The Company is seeking to obtain a BLA under the Accelerated Approval Program for OST-HER2 in osteosarcoma in the second half of 2026"
+    },
+    {
+      "slug": "ostx",
+      "ticker": "OSTX",
+      "issuer": "OS Therapies Inc",
+      "asset": "OST-HER2",
+      "indication": "osteosarcoma (EU CMA)",
+      "phase": "EMA Rolling Review",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The Company anticipates a potential CMA decision by EMA in the fourth quarter of 2026."
+    },
+    {
+      "slug": "ostx",
+      "ticker": "OSTX",
+      "issuer": "OS Therapies Inc",
+      "asset": "OST-HER2",
+      "indication": "osteosarcoma (EMA)",
+      "phase": "Regulatory",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "3-year overall survival data that will become available early in the fourth quarter of 2026, which will complete the CMA submission"
+    },
+    {
+      "slug": "ostx",
+      "ticker": "OSTX",
+      "issuer": "OS Therapies Inc",
+      "asset": "OST-HER2",
+      "indication": "osteosarcoma (EMA)",
+      "phase": "Regulatory",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "2.5-year overall survival data that will be available by the middle of the second quarter of 2026"
+    },
+    {
+      "slug": "ostx",
+      "ticker": "OSTX",
+      "issuer": "OS Therapies Inc",
+      "asset": "OST-504",
+      "indication": "castration-resistant prostate cancer",
+      "phase": "Phase 1b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-04-30",
+      "confidence": "high",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "The Company also anticipates reading out data from a Phase 1b study of OST-504 in castration resistant prostate cancer in the first half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none"
+  }
+}

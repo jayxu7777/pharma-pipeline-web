@@ -1,0 +1,62 @@
+{
+  "slug": "kynb",
+  "ticker": "KYNB",
+  "issuer_name": "KYNTRA BIO, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-216731",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-108324",
+      "filed_date": "2026-03-16",
+      "exhibit": "Ex-99.1 (4Q/FY2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "kynb",
+      "ticker": "KYNB",
+      "issuer": "KYNTRA BIO, INC.",
+      "asset": "FG-3246 (FOR46)",
+      "indication": "metastatic castration-resistant prostate cancer (mCRPC)",
+      "phase": "Phase 2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 monotherapy trial of FG-3246, a potential first-in-class antibody drug conjugate (ADC) targeting CD46, in metastatic castration-resistant prostate cancer (mCRPC) is progressing well with the interim analysis anticipated in 4Q 2026"
+    },
+    {
+      "slug": "kynb",
+      "ticker": "KYNB",
+      "issuer": "KYNTRA BIO, INC.",
+      "asset": "roxadustat",
+      "indication": "anemia in lower-risk myelodysplastic syndromes (LR-MDS) and high transfusion burden",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "we are finalizing the protocol for the pivotal Phase 3 trial of roxadustat for the treatment of lower-risk MDS, and anticipate trial initiation in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

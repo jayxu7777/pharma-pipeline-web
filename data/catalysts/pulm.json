@@ -1,0 +1,100 @@
+{
+  "slug": "pulm",
+  "ticker": "PULM",
+  "issuer_name": "Pulmatrix, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-023367",
+      "filed_date": "2026-05-15",
+      "exhibit": "form8-k.htm + ex99-1 (Q1 2026 earnings)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-018202",
+      "filed_date": "2026-04-21",
+      "exhibit": "ex99-1.htm (Series B preferred closing)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-013266",
+      "filed_date": "2026-03-27",
+      "exhibit": "ex99-1.htm + ex2-1 (Eos SENOLYTIX merger agreement)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-008449",
+      "filed_date": "2026-03-02",
+      "exhibit": "ex99-1.htm (Cullgen merger termination)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-008129",
+      "filed_date": "2026-02-26",
+      "exhibit": "ex99-1.htm (FY 2025 earnings)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "pulm",
+      "ticker": "PULM",
+      "issuer": "Pulmatrix, Inc.",
+      "asset": "PUR3100 (orally inhaled dihydroergotamine via iSPERSE)",
+      "indication": "Acute migraine",
+      "phase": "Phase 2-ready (IND accepted)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "PUR3100 has FDA IND acceptance and 'study may proceed' letter for Phase 2 in acute migraine; asset being licensed/monetized as Pulmatrix transitions to reverse merger. Phase 2 initiation contingent on partnering."
+    },
+    {
+      "slug": "pulm",
+      "ticker": "PULM",
+      "issuer": "Pulmatrix, Inc.",
+      "asset": "PUR1900 (inhaled itraconazole, Cipla partnered)",
+      "indication": "Pulmonary fungal infection / ABPA",
+      "phase": "Phase 3-ready in India (Cipla)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Cipla completed Phase 2 in India in 2025 and received approval from India's CDSCO to proceed with Phase 3 of PUR1900 (inhaled itraconazole). Pulmatrix eligible for 2% royalties on ex-US sales; US rights shared 50/50."
+    },
+    {
+      "slug": "pulm",
+      "ticker": "PULM",
+      "issuer": "Pulmatrix, Inc.",
+      "asset": "PTC-2105 (Eos SENOLYTIX MitoXcel mitochondrial-targeted geropeptide)",
+      "indication": "Sarcopenia / sarcopenic obesity",
+      "phase": "Preclinical (planned IND)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-mid",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "March 26, 2026 merger agreement: Pulmatrix to acquire Eos SENOLYTIX, becoming Eos SENOLYTIX (Nasdaq: EOSX). $19M concurrent financings to advance PTC-2105 for sarcopenia and age-related disease. Closing expected mid-2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Pulmatrix is a shell entity in 2026: legacy iSPERSE pipeline (PUR3100 acute migraine Phase 2-ready, PUR1800 NSKI for AECOPD, PUR1900 Cipla-partnered Phase 3 in India) being licensed/monetized. Prior Cullgen merger terminated Feb 28, 2026. New definitive merger agreement signed Mar 26, 2026 with Eos SENOLYTIX (preclinical mitochondrial geropeptide platform incl. PTC-2105 for sarcopenia)."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "lona",
+  "ticker": "LONA",
+  "issuer_name": "LeonaBio, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-211867",
+      "filed_date": "2026-05-07",
+      "exhibit": "lona-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-126579",
+      "filed_date": "2026-03-26",
+      "exhibit": "lona-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "lona",
+      "ticker": "LONA",
+      "issuer": "LeonaBio, Inc.",
+      "asset": "lasofoxifene",
+      "indication": "ER+/HER2- metastatic breast cancer (ELAINE-3)",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ELAINE-3 enrollment completion expected in 4Q 2026"
+    },
+    {
+      "slug": "lona",
+      "ticker": "LONA",
+      "issuer": "LeonaBio, Inc.",
+      "asset": "lasofoxifene",
+      "indication": "ER+/HER2- metastatic breast cancer (ELAINE-3)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ELAINE-3 topline data expected in 2H 2027"
+    },
+    {
+      "slug": "lona",
+      "ticker": "LONA",
+      "issuer": "LeonaBio, Inc.",
+      "asset": "ATH-1105",
+      "indication": "ALS",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ATH-1105 Phase 2 trial initiation planned for 2H 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

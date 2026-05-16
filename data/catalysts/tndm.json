@@ -1,0 +1,83 @@
+{
+  "slug": "tndm",
+  "ticker": "TNDM",
+  "issuer_name": "TANDEM DIABETES CARE INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001438133-26-000048",
+      "filed_date": "2026-05-07",
+      "exhibit": "ex991-q1earningsrelease2026.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-007142",
+      "filed_date": "2026-02-27",
+      "exhibit": "ef20066689_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001438133-26-000009",
+      "filed_date": "2026-02-19",
+      "exhibit": "ex991-q4earningsrelease2025.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001438133-25-000186",
+      "filed_date": "2025-11-06",
+      "exhibit": "ex991-q3earningsrelease2025.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001438133-25-000160",
+      "filed_date": "2025-08-07",
+      "exhibit": "tndm-20250806.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tndm",
+      "ticker": "TNDM",
+      "issuer": "TANDEM DIABETES CARE INC",
+      "asset": "SteadiSet infusion set",
+      "indication": "insulin delivery (t:slim X2 and Tandem Mobi pumps)",
+      "phase": "commercial",
+      "milestone_type": "launch_prep",
+      "anticipated_date_iso": "prior",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company plans to launch SteadiSet technology as a standalone infusion set for the t:slim X2 and Tandem Mobi pumps and as a component of the Company's future Tandem Mobi tubeless insulin delivery system"
+    },
+    {
+      "slug": "tndm",
+      "ticker": "TNDM",
+      "issuer": "TANDEM DIABETES CARE INC",
+      "asset": "Tandem Mobi (Android compatibility)",
+      "indication": "type 1 diabetes insulin pump control",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-05-07",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Expanded Tandem Mobi connected care ecosystem by adding Android compatibility"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

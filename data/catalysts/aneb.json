@@ -1,0 +1,27 @@
+{
+  "slug": "aneb",
+  "ticker": "ANEB",
+  "issuer_name": "ANEBULO PHARMACEUTICALS, INC.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-005463",
+      "filed_date": "2026-02-06",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-006428",
+      "filed_date": "2026-02-12",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Company voluntarily delisted from Nasdaq effective Feb 27, 2026. Selonabant IV Phase 1 SAD study initiated Sept 2025; PRs do not provide a forward-dated topline or interim readout date. No forward-dated clinical catalysts in available exhibits."
+  }
+}

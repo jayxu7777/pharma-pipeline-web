@@ -1,0 +1,20 @@
+{
+  "slug": "mnpr",
+  "ticker": "MNPR",
+  "issuer_name": "Monopar Therapeutics",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-012751",
+      "filed_date": "2026-04-20",
+      "exhibit": "8-K body (AAN 2026 ALXN1840 Phase 3 FoCus subgroup presentation)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Only the 8-K body was retrieved; press release exhibits referenced in the filing did not download. The 8-K body itself describes only a past event (AAN Annual Meeting April 18-22, 2026 poster on Phase 3 FoCus subgroup), with no forward-looking dates. Need a deeper window or the exhibit text to harvest forward catalysts."
+  }
+}

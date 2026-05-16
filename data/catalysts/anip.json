@@ -1,0 +1,39 @@
+{
+  "slug": "anip",
+  "ticker": "ANIP",
+  "issuer_name": "ANI PHARMACEUTICALS INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001023024-26-000049",
+      "filed_date": "2026-05-08",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000049/anip-20260508xexx991.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "anip",
+      "ticker": "ANIP",
+      "issuer": "ANI PHARMACEUTICALS INC",
+      "asset": "ILUVIEN (fluocinolone acetonide intravitreal implant)",
+      "indication": "non-infectious uveitis affecting posterior segment (NIU-PS) - SYNCHRONICITY",
+      "phase": "Phase 4",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-09",
+      "date_precision": "quarter",
+      "filed_date": "2026-05-08",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000049/anip-20260508xexx991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company is on track to announce results from the Phase 4 SYNCHRONICITY clinical trial in NIU-PS at a medical conference in the third quarter of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Q1 2026 PR (May 8) yields one concrete clinical catalyst: ILUVIEN Phase 4 SYNCHRONICITY NIU-PS topline Q3 2026 at medical conference. Balance of PR is commercial Rare Disease/Generics/Brands/Cortrophin Gel financial guidance and Harmony pitolisant out-licensing milestones (Q2-Q3 2026 development milestones for $10M payment) which are commercial/financial events, not pharma clinical catalysts. 10-15 new generic launches in 2026 noted without specific dates."
+  }
+}

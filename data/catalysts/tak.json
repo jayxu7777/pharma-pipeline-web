@@ -1,0 +1,117 @@
+{
+  "slug": "tak",
+  "ticker": "TAK",
+  "issuer_name": "TAKEDA PHARMACEUTICAL CO LTD",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001395064-26-000147",
+      "filed_date": "2026-05",
+      "exhibit": "stock-compensation_plan.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001395064-26-000145",
+      "filed_date": "2026-05-13",
+      "exhibit": "form6k_051326.htm + exhibit991_051326.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001395064-26-000104",
+      "filed_date": "2026-03",
+      "exhibit": "presentation.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001395064-26-000102",
+      "filed_date": "2026-03-26",
+      "exhibit": "form6k_032626.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001395064-26-000100",
+      "filed_date": "2026",
+      "exhibit": "(no exhibits)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tak",
+      "ticker": "TAK",
+      "issuer": "TAKEDA PHARMACEUTICAL CO LTD",
+      "asset": "zasocitinib (TAK-279)",
+      "indication": "psoriasis",
+      "phase": "Phase 3",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-03",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Zasocitinib Phase 3 Psoriasis Results (Form 6-K presentation, filed March 2026)"
+    },
+    {
+      "slug": "tak",
+      "ticker": "TAK",
+      "issuer": "TAKEDA PHARMACEUTICAL CO LTD",
+      "asset": "zasocitinib (TAK-279)",
+      "indication": "psoriasis",
+      "phase": "Phase 3",
+      "milestone_type": "NDA/MAA submission",
+      "anticipated_date_iso": "2026-04",
+      "date_precision": "fiscal_year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Zasocitinib U.S. and global filings on track to start in FY26"
+    },
+    {
+      "slug": "tak",
+      "ticker": "TAK",
+      "issuer": "TAKEDA PHARMACEUTICAL CO LTD",
+      "asset": "oveporexton (TAK-861)",
+      "indication": "narcolepsy type 1",
+      "phase": "Phase 3 / launch prep",
+      "milestone_type": "approval/launch",
+      "anticipated_date_iso": "2026",
+      "date_precision": "fiscal_year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "first wave of launches (oveporexton, rusfertide, zasocitinib)"
+    },
+    {
+      "slug": "tak",
+      "ticker": "TAK",
+      "issuer": "TAKEDA PHARMACEUTICAL CO LTD",
+      "asset": "rusfertide",
+      "indication": "polycythemia vera",
+      "phase": "Phase 3 / launch prep",
+      "milestone_type": "approval/launch",
+      "anticipated_date_iso": "2026",
+      "date_precision": "fiscal_year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "first wave of launches (oveporexton, rusfertide, zasocitinib)"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Takeda 6-K disclosures highlight three new launches in FY2026 (oveporexton, rusfertide, zasocitinib). Zasocitinib Phase 3 psoriasis results presented; global regulatory filings planned to start in FY26."
+  }
+}

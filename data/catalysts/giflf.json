@@ -1,0 +1,55 @@
+{
+  "slug": "giflf",
+  "ticker": "GIFLF",
+  "issuer_name": "Grifols SA",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001104659-26-056966",
+      "filed_date": "2026-05-07",
+      "exhibit": "6-K (Q1 2026 earnings PR / investor presentation)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "giflf",
+      "ticker": "GIFLF",
+      "issuer": "Grifols SA",
+      "asset": "fibrinogen concentrate (BT524)",
+      "indication": "acquired fibrinogen deficiency",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "the expected phase 3 SPARTA trial readout in H2 2026 represents a potentially important inflection point for the company."
+    },
+    {
+      "slug": "giflf",
+      "ticker": "GIFLF",
+      "issuer": "Grifols SA",
+      "asset": "Diagnostic blood-typing platform (gel card)",
+      "indication": "blood typing / donor screening",
+      "phase": "commercial / regulatory",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "OTC",
+      "raw_text": "modular, trackable gel card technology and a simplified workflow, with presentation expected in Q2 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

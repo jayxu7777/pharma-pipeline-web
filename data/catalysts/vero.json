@@ -1,0 +1,66 @@
+{
+  "slug": "vero",
+  "ticker": "VERO",
+  "issuer_name": "Venus Concept Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001140361-25-024385",
+      "filed_date": "2025",
+      "exhibit": "ef20051445_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-25-031230",
+      "filed_date": "2025",
+      "exhibit": null,
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-25-037107",
+      "filed_date": "2025",
+      "exhibit": "ef20056518_ex10-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-25-041802",
+      "filed_date": "2025-11-10",
+      "exhibit": "ef20058828_ex99-2.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-001749",
+      "filed_date": "2026",
+      "exhibit": "ef20063464_ex10-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "vero",
+      "ticker": "VERO",
+      "issuer": "Venus Concept Inc.",
+      "asset": "Venus NOVA",
+      "indication": "Medical aesthetic device (EBD)",
+      "phase": "510(k) cleared",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2025-11-10",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "OTC",
+      "raw_text": "Venus Concept announced FDA 510(k) clearance for Venus NOVA on November 10, 2025; embodies convergence of intelligent technology and proven clinical science."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Venus Concept is a medical aesthetic technology (EBD - energy-based device) company; the meaningful regulatory catalyst is FDA 510(k) clearance for Venus NOVA. No drug/biologic pipeline (no PDUFA/BLA/NDA/IND/Phase 1-3 trials)."
+  }
+}

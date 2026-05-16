@@ -1,0 +1,62 @@
+{
+  "slug": "rnxt",
+  "ticker": "RNXT",
+  "issuer_name": "RenovoRx, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-000xxx",
+      "filed_date": "2026",
+      "exhibit": "EX-99.x",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-25-000xxx",
+      "filed_date": "2025",
+      "exhibit": "EX-99.x",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "rnxt",
+      "ticker": "RNXT",
+      "issuer": "RenovoRx, Inc.",
+      "asset": "RenovoGem (intra-arterial gemcitabine via RenovoCath)",
+      "indication": "locally advanced pancreatic cancer (LAPC)",
+      "phase": "Phase 3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase III TIGeR-PaC trial: enrollment completion expected in 1H 2026; pivotal randomized study in LAPC"
+    },
+    {
+      "slug": "rnxt",
+      "ticker": "RNXT",
+      "issuer": "RenovoRx, Inc.",
+      "asset": "RenovoGem (intra-arterial gemcitabine via RenovoCath)",
+      "indication": "locally advanced pancreatic cancer (LAPC)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase III TIGeR-PaC trial final overall survival data expected in 2027"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

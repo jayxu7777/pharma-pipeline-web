@@ -1,0 +1,55 @@
+{
+  "slug": "gild",
+  "ticker": "GILD",
+  "issuer_name": "GILEAD SCIENCES, INC.",
+  "exchange": "",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0000882095-26-000022",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "gild",
+      "ticker": "GILD",
+      "issuer": "GILEAD SCIENCES, INC.",
+      "asset": "BIC/LEN (bictegravir/lenacapavir)",
+      "indication": "HIV (virologically suppressed)",
+      "phase": "Phase 3",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-08-27",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "",
+      "exchange": "",
+      "raw_text": "Announced U.S. Food and Drug Administration (FDA) accepted New Drug Application for bictegravir and lenacapavir (BIC/LEN) for virologically suppressed people with HIV under priority review, with a Prescription Drug User Fee Act (PDUFA) target action date of August 27, 2026."
+    },
+    {
+      "slug": "gild",
+      "ticker": "GILD",
+      "issuer": "GILEAD SCIENCES, INC.",
+      "asset": "anito-cel (anitocabtagene autoleucel)",
+      "indication": "Relapsed/refractory multiple myeloma (4L+)",
+      "phase": "Phase 2",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-12-23",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "",
+      "exchange": "",
+      "raw_text": "Announced that the Biologics License Application for anito-cel in 4L+ R/R MM has been accepted by FDA, with a PDUFA target action date of December 23, 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

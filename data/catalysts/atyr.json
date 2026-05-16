@@ -1,0 +1,80 @@
+{
+  "slug": "atyr",
+  "ticker": "ATYR",
+  "issuer_name": "aTYR PHARMA INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001339970-26-000030",
+      "filed_date": "2026-05-15",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1339970/000133997026000030/atyr-ex99_1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001339970-26-000027",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Type C meeting / C-006 design investor deck)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1339970/000133997026000027/atyr-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "atyr",
+      "ticker": "ATYR",
+      "issuer": "aTYR PHARMA INC",
+      "asset": "Efzofitimod (ATYR1923-C-006)",
+      "indication": "Chronic symptomatic pulmonary sarcoidosis with restrictive lung disease",
+      "phase": "Phase 3",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "month",
+      "filed_date": "2026-05-15",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1339970/000133997026000030/atyr-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company plans to submit an IND in June 2026 for a Phase 3 study of efzofitimod in patients with chronic, symptomatic pulmonary sarcoidosis with restrictive lung disease utilizing FVC as primary endpoint and KSQ-Lung as key secondary endpoint."
+    },
+    {
+      "slug": "atyr",
+      "ticker": "ATYR",
+      "issuer": "aTYR PHARMA INC",
+      "asset": "Efzofitimod (EFZO-CONNECT)",
+      "indication": "Systemic sclerosis-related ILD (SSc-ILD)",
+      "phase": "Phase 2",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-05-15",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1339970/000133997026000030/atyr-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On track to complete enrollment in Phase 2 EFZO-CONNECT study of efzofitimod in SSc-ILD in the first half of 2026."
+    },
+    {
+      "slug": "atyr",
+      "ticker": "ATYR",
+      "issuer": "aTYR PHARMA INC",
+      "asset": "ATYR0101",
+      "indication": "Fibrosis (preclinical)",
+      "phase": "Preclinical",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-06-17",
+      "date_precision": "day",
+      "filed_date": "2026-05-15",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1339970/000133997026000030/atyr-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Poster related to the Company's investigational new drug candidate, ATYR0101, accepted for presentation at the Extracellular Matrix Pharmacology Congress, which is scheduled to take place June 14 - 17, 2026 in Copenhagen, Denmark."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 sharpens efzofitimod C-006 Phase 3 IND (June 2026) post-Type C meeting decision, EFZO-CONNECT enrollment complete (1H 2026), and ATYR0101 ECM Pharm Congress poster (June 14-17, 2026) beyond 10-K static milestones."
+  }
+}

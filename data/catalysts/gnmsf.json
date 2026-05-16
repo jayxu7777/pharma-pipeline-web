@@ -1,0 +1,20 @@
+{
+  "slug": "gnmsf",
+  "ticker": "GNMSF",
+  "issuer_name": "GENMAB A/S",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001434265-26-000076",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 interim report)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Q1 2026 interim report describes pipeline status (RAINFOL-02 PROC enrollment completed March 2026; multiple Phase 3 trials recruiting) and notes preparation for potential Rina-S/petosemtamab launches, but does not commit to specific dated forward catalysts (no PDUFA dates, no quarterly/half-year readout guidance)."
+  }
+}

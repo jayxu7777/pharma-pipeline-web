@@ -1,0 +1,28 @@
+{
+  "slug": "apus",
+  "ticker": "APUS",
+  "issuer_name": "Apimeds Pharmaceuticals US, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-051125",
+      "filed_date": "2026-04-24",
+      "exhibit": "8-K Item 1.01 (Settlement / Merger Unwind)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1894525/000121390026051125/ea0288393-8k_apimeds.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-034786",
+      "filed_date": "2026-03-24",
+      "exhibit": "Ex-99.1 (MindWave PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1894525/000121390026034786/ea028355001ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Latest filings cover NYSE listing/settlement/merger unwind matters; no forward clinical catalyst dates disclosed in latest 5 8-Ks",
+    "tier0_overlap_check": "No tier1 catalysts identified; tier0 baseline (if any) should be retained"
+  }
+}

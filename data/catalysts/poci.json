@@ -1,0 +1,41 @@
+{
+  "slug": "poci",
+  "ticker": "POCI",
+  "issuer_name": "PRECISION OPTICS CORPORATION, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001683168-26-002421",
+      "filed_date": "2026-01-31",
+      "exhibit": "poci_ex9901.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-25-001132",
+      "filed_date": "2025-02-13",
+      "exhibit": "poci_ex9901.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-24-006792",
+      "filed_date": "2024-09-30",
+      "exhibit": "poci_ex9901.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-24-005603",
+      "filed_date": "2024-08-14",
+      "exhibit": "poci_ex9901.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "finance-only filings; optical-instruments medtech with no clinical/regulatory catalysts in recent 8-Ks (earnings, registered direct offerings, warrants)"
+  }
+}

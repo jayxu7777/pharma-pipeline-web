@@ -1,0 +1,63 @@
+{
+  "slug": "ikt",
+  "ticker": "IKT",
+  "issuer_name": "Inhibikase Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-219610",
+      "filed_date": "",
+      "exhibit": "d119997dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-144582",
+      "filed_date": "",
+      "exhibit": "d108350dex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ikt",
+      "ticker": "IKT",
+      "issuer": "Inhibikase Therapeutics, Inc.",
+      "asset": "",
+      "indication": "Healthy volunteers (Phase 1) supporting PAH program",
+      "phase": "",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": ""
+    },
+    {
+      "slug": "ikt",
+      "ticker": "IKT",
+      "issuer": "Inhibikase Therapeutics, Inc.",
+      "asset": "",
+      "indication": "Pulmonary Arterial Hypertension (PAH)",
+      "phase": "",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": ""
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": [],
+    "comment": "IMPROVE-PAH Phase 3 first patient enrolled in April 2026 (historical relative to 2026-05-15 cutoff). No specific forward-dated topline/LPI/NDA date for Phase 3 was disclosed in reviewed filings; trial is in early enrollment ramp."
+  }
+}

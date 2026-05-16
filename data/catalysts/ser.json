@@ -1,0 +1,110 @@
+{
+  "slug": "ser",
+  "ticker": "SER",
+  "issuer_name": "Serina Therapeutics, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001708599-26-000036",
+      "filed_date": "2026-05-14",
+      "exhibit": "ser-20260514xex991_earning.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001708599-26-000018",
+      "filed_date": "2026-03-23",
+      "exhibit": "ser-20260323xex991_earning.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001708599-26-000010",
+      "filed_date": "2026",
+      "exhibit": "ex101_serina-pipesecuritie.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001708599-26-000010",
+      "filed_date": "2026",
+      "exhibit": "ex102_serina-piperegistrat.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ser",
+      "ticker": "SER",
+      "issuer": "Serina Therapeutics, Inc.",
+      "asset": "SER-252 (POZ-apomorphine; sustained-release)",
+      "indication": "Advanced Parkinson's disease",
+      "phase": "Regulatory",
+      "milestone_type": "IND_clearance",
+      "anticipated_date_iso": "2026-01-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "In January 2026, Serina announced the U.S. FDA had cleared the Investigational New Drug (IND) application for SER-252 for the treatment of advanced Parkinson's disease."
+    },
+    {
+      "slug": "ser",
+      "ticker": "SER",
+      "issuer": "Serina Therapeutics, Inc.",
+      "asset": "SER-252",
+      "indication": "Advanced Parkinson's disease",
+      "phase": "Phase 1b",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-02-28",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Following dosing of the first patient in February 2026, Serina continues to advance its Phase 1b registrational clinical study of SER-252 in advanced Parkinson's disease."
+    },
+    {
+      "slug": "ser",
+      "ticker": "SER",
+      "issuer": "Serina Therapeutics, Inc.",
+      "asset": "SER-252",
+      "indication": "Advanced Parkinson's disease",
+      "phase": "Phase 1b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "TFL data from the SAD study arm of the Phase 1b registrational study of SER-252 targeted for first half of 2027."
+    },
+    {
+      "slug": "ser",
+      "ticker": "SER",
+      "issuer": "Serina Therapeutics, Inc.",
+      "asset": "SER-252",
+      "indication": "Advanced Parkinson's disease",
+      "phase": "Phase 1b",
+      "milestone_type": "trial_design",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "SER-252-1b is a randomized, double-blind, placebo-controlled Phase 1b trial with single-ascending-dose (five cohorts of eight; n=40) and multiple-ascending-dose components (up to three cohorts of sixteen; n=48)."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "One pre-funded warrant exhibit (ex41_serinapre-fundedwarra.htm) repeatedly returned HTTP 429 from SEC; not catalyst-relevant. All catalyst content captured from the two earnings press release Ex-99.1 files."
+  }
+}

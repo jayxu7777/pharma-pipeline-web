@@ -1,0 +1,20 @@
+{
+  "slug": "aurx",
+  "ticker": "AURX",
+  "issuer_name": "Nuo Therapeutics, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-017116",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (most recent corporate PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1091596/000143774926017116/ex_963234.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Only one exhibit-bearing 8-K available in the window; content is a brief corporate update without forward-dated clinical or regulatory milestones."
+  }
+}

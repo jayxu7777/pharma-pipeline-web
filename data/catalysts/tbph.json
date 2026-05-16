@@ -1,0 +1,83 @@
+{
+  "slug": "tbph",
+  "ticker": "TBPH",
+  "issuer_name": "Theravance Biopharma, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-056733",
+      "filed_date": "2026-05",
+      "exhibit": "tm2613884d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-036870",
+      "filed_date": "2026",
+      "exhibit": "(no exhibits)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-031795",
+      "filed_date": "2026-03",
+      "exhibit": "tm269321d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-022572",
+      "filed_date": "2026-02",
+      "exhibit": "tm267846d1_8k.htm + tm267846d1_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-002726",
+      "filed_date": "2026-01",
+      "exhibit": "tm262807d1_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tbph",
+      "ticker": "TBPH",
+      "issuer": "Theravance Biopharma, Inc.",
+      "asset": "ampreloxetine",
+      "indication": "symptomatic neurogenic orthostatic hypotension (nOH)",
+      "phase": "Phase 3 CYPRESS (pivotal)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-03",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline readout anticipated in Q1 2026... Phase 3 CYPRESS study did not meet the primary endpoint, the OHSA Composite"
+    },
+    {
+      "slug": "tbph",
+      "ticker": "TBPH",
+      "issuer": "Theravance Biopharma, Inc.",
+      "asset": "ampreloxetine",
+      "indication": "nOH",
+      "phase": "Phase 3 CYPRESS",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2025-09",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Completed enrollment in Q3 2025; open-label portion now complete"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Phase 3 CYPRESS missed primary endpoint (Feb 2026 topline). Company is restructuring; further regulatory engagement uncertain."
+  }
+}

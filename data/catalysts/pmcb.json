@@ -1,0 +1,41 @@
+{
+  "slug": "pmcb",
+  "ticker": "PMCB",
+  "issuer_name": "PharmaCyte Biotech, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001683168-25-006727",
+      "filed_date": "2025-09-02",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-25-006274",
+      "filed_date": "2025-08-18",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-24-003796",
+      "filed_date": "2024-05-21",
+      "exhibit": "ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001683168-23-008204",
+      "filed_date": "2023-11-15",
+      "exhibit": "ex99-1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "PharmaCyte's Board has curtailed spending on its Cell-in-a-Box clinical programs (pancreatic cancer, diabetes, malignant ascites) due to an FDA clinical hold on its IND. Recent filings focus on external strategic investments (Femasys, MyMD/TNF Pharmaceuticals, LightSolver license via TNF) and a $7M Series C preferred stock raise. No active company-sponsored clinical catalysts disclosed."
+  }
+}

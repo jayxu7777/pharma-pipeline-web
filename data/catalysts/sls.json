@@ -1,0 +1,120 @@
+{
+  "slug": "sls",
+  "ticker": "SLS",
+  "issuer_name": "SELLAS Life Sciences Group, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001390478-26-000009",
+      "filed_date": "2026-05-12",
+      "exhibit": "EX-99.1 Q1 2026",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001390478-26-000004",
+      "filed_date": "2026-03-19",
+      "exhibit": "EX-99.1 FY2025",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001390478-25-000021",
+      "filed_date": "2025-11-13",
+      "exhibit": "EX-99.1 Q3 2025",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "sls",
+      "ticker": "SLS",
+      "issuer": "SELLAS Life Sciences Group, Inc.",
+      "asset": "Galinpepimut-S (GPS)",
+      "indication": "AML (2L complete remission)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 REGAL trial of GPS in AML. As of May 11, 2026, 78 events have occurred; reaching 80 events will trigger database lock, unblinding, and topline disclosure."
+    },
+    {
+      "slug": "sls",
+      "ticker": "SLS",
+      "issuer": "SELLAS Life Sciences Group, Inc.",
+      "asset": "SLS009 (tambiciclib)",
+      "indication": "Newly diagnosed AML (first-line)",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q1",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "First Patient Dosed in Phase 2 Trial of SLS009 in Newly Diagnosed First Line AML (announced March 19, 2026)."
+    },
+    {
+      "slug": "sls",
+      "ticker": "SLS",
+      "issuer": "SELLAS Life Sciences Group, Inc.",
+      "asset": "SLS009",
+      "indication": "Newly diagnosed AML",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "SELLAS has initiated an 80-patient Phase 2 trial in newly diagnosed AML; topline data are expected in Q4 2026."
+    },
+    {
+      "slug": "sls",
+      "ticker": "SLS",
+      "issuer": "SELLAS Life Sciences Group, Inc.",
+      "asset": "SLS009",
+      "indication": "AML (Europe expansion)",
+      "phase": "Phase 2",
+      "milestone_type": "enrollment",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "SELLAS strategic collaboration with IMPACT-AML to expand SLS009 program in Europe; enrollment of approximately 40 patients in Europe anticipated in Q2 2026."
+    },
+    {
+      "slug": "sls",
+      "ticker": "SLS",
+      "issuer": "SELLAS Life Sciences Group, Inc.",
+      "asset": "SLS009",
+      "indication": "R/R AML",
+      "phase": "Phase 2",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2025-12",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Reported Positive Phase 2 Data of SLS009 in Relapsed/Refractory (r/r) AML at ASH 2025."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

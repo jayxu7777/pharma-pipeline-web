@@ -1,0 +1,27 @@
+{
+  "slug": "fonr",
+  "ticker": "FONR",
+  "issuer_name": "FONAR CORP",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001731122-26-000710",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99 (Q3 FY2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001731122-26-000247",
+      "filed_date": "2026-02-17",
+      "exhibit": "Ex-99 (Q2 FY2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "FONAR is a medical-device MRI services company; latest PRs cover MRI operations and a pending take-private merger (special meeting May 28, 2026). No clinical/regulatory catalysts present."
+  }
+}

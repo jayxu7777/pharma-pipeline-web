@@ -1,0 +1,72 @@
+{
+  "slug": "ngne",
+  "ticker": "NGNE",
+  "issuer_name": "Neurogene Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001404644-26-000038",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ngne",
+      "ticker": "NGNE",
+      "issuer": "Neurogene Inc.",
+      "asset": "NGN-401",
+      "indication": "Rett syndrome",
+      "phase": "Phase 1/2 / registrational (Embolden)",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Complete dosing of participants in the Embolden registrational trial in the second quarter of 2026"
+    },
+    {
+      "slug": "ngne",
+      "ticker": "NGNE",
+      "issuer": "Neurogene Inc.",
+      "asset": "NGN-401",
+      "indication": "Rett syndrome",
+      "phase": "Phase 1/2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Present updated interim safety and efficacy data on the pediatric and adolescent/adult cohorts from the Phase 1/2 trial, including at least 12 months of follow-up for all 10 participants, in mid-2026"
+    },
+    {
+      "slug": "ngne",
+      "ticker": "NGNE",
+      "issuer": "Neurogene Inc.",
+      "asset": "NGN-401",
+      "indication": "Rett syndrome",
+      "phase": "CMC/PPQ",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initiate Process Performance Qualification (PPQ) campaign in mid-2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

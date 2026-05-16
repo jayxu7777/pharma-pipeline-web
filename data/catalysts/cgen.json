@@ -1,0 +1,63 @@
+{
+  "slug": "cgen",
+  "ticker": "CGEN",
+  "issuer_name": "COMPUGEN LTD",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001178913-26-000661",
+      "filed_date": "2026-03-02",
+      "exhibit": "Ex-99.1 (Q4 and full year 2025 results)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1119774/000117891326000661/exhibit_99-1.htm"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001178913-25-003707",
+      "filed_date": "2025-11-10",
+      "exhibit": "Ex-99.1 (Q3 2025 earnings)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1119774/000117891325003707/exhibit_99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cgen",
+      "ticker": "CGEN",
+      "issuer": "COMPUGEN LTD",
+      "asset": "COM701 (anti-PVRIG)",
+      "indication": "Maintenance therapy in platinum-sensitive ovarian cancer (MAIA-ovarian)",
+      "phase": "Phase 2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2027-03",
+      "date_precision": "quarter",
+      "filed_date": "2026-03-02",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1119774/000117891326000661/exhibit_99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On track to have MAIA-ovarian interim analysis in Q1 2027."
+    },
+    {
+      "slug": "cgen",
+      "ticker": "CGEN",
+      "issuer": "COMPUGEN LTD",
+      "asset": "rilvegostomig (anti-PD-1/TIGIT bispecific; AstraZeneca)",
+      "indication": "Solid tumors (lung, GI, endometrial) \u2014 partner AstraZeneca Phase 1/2",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-03-02",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1119774/000117891326000661/exhibit_99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Partner AstraZeneca reported promising Phase 2 rilvegostomig data at ESMO 2025, with 10 ongoing Phase 3 clinical trials, and anticipates further Phase 1/2 clinical trial data with rilvegostomig in 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "MAIA-ovarian initiation occurred 2025; Q1 2027 interim is a fresh forward-looking date. Rilvegostomig 2026 P1/2 data is partner-driven; tier0 10-K likely captures only the program existence, not the 2026 readout cadence."
+  }
+}

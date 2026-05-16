@@ -1,0 +1,27 @@
+{
+  "slug": "ebs",
+  "ticker": "EBS",
+  "issuer_name": "Emergent BioSolutions Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001367644-26-000059",
+      "filed_date": "2026-04-30",
+      "exhibit": "Ex-99.1 (Q1 2026 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1367644/000136764426000059/ebs20260331ex99er.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001367644-26-000012",
+      "filed_date": "2026-02",
+      "exhibit": "Ex-99.1 (Q4 2025 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1367644/000136764426000012/ebs2025-12x31exhibit99er.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Emergent BioSolutions Q1 2026 PR focuses on commercial MCM/NARCAN performance, debt refinancing, and Substipharm partnership. No forward-dated specific clinical readout milestones disclosed. Japanese Encephalitis vaccine US distribution pending FDA approval but no date guidance provided."
+  }
+}

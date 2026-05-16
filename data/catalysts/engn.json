@@ -1,0 +1,55 @@
+{
+  "slug": "engn",
+  "ticker": "ENGN",
+  "issuer_name": "enGene Therapeutics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-210316",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (LEGEND pivotal cohort interim data PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1980845/000119312526210316/d335486dex991.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "engn",
+      "ticker": "ENGN",
+      "issuer": "enGene Therapeutics Inc.",
+      "asset": "detalimogene voraplasmid",
+      "indication": "high-risk BCG-unresponsive non-muscle invasive bladder cancer (NMIBC) with CIS",
+      "phase": "Phase 2 (LEGEND pivotal cohort)",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-05-15",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1980845/000119312526210316/d335486dex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company plans to share these data with the broader medical community at a Plenary Presentation at the upcoming American Urological Association meeting on May 15, 2026."
+    },
+    {
+      "slug": "engn",
+      "ticker": "ENGN",
+      "issuer": "enGene Therapeutics Inc.",
+      "asset": "detalimogene voraplasmid",
+      "indication": "high-risk BCG-unresponsive NMIBC with CIS",
+      "phase": "Phase 2 pivotal",
+      "milestone_type": "BLA",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1980845/000119312526210316/d335486dex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company plans further engagement with the FDA as it approaches a potential Biologics License Application (BLA) filing and plans to provide an update in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

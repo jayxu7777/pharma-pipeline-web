@@ -1,0 +1,100 @@
+{
+  "slug": "xair",
+  "ticker": "XAIR",
+  "issuer_name": "Beyond Air, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-016855",
+      "filed_date": "2026-04-15",
+      "exhibit": "form8-k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-014676",
+      "filed_date": "2026-04-01",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-006708",
+      "filed_date": "2026-02-13",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-002884",
+      "filed_date": "2026-01-20",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-002292",
+      "filed_date": "2026-01-15",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "xair",
+      "ticker": "XAIR",
+      "issuer": "Beyond Air, Inc.",
+      "asset": "Beyond Cancer UNO program (ultra-high concentration nitric oxide)",
+      "indication": "solid tumors",
+      "phase": "Phase 1a",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-04-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "abstract featuring Phase 1a data from Beyond Cancer's UNO program in solid tumors was selected to be presented at the 2026 AACR Annual Meeting"
+    },
+    {
+      "slug": "xair",
+      "ticker": "XAIR",
+      "issuer": "Beyond Air, Inc.",
+      "asset": "LungFit PH (second generation)",
+      "indication": "persistent pulmonary hypertension of the newborn",
+      "phase": "marketed device",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-02-13",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "approval of the PMA supplement for the second-generation LungFit PH, which was submitted"
+    },
+    {
+      "slug": "xair",
+      "ticker": "XAIR",
+      "issuer": "Beyond Air, Inc.",
+      "asset": "nitric oxide therapy platform",
+      "indication": "Phelan-McDermid Syndrome (autism-related); Glioblastoma",
+      "phase": "preclinical",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-01-15",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "Orphan Drug designations secured for autism-related Phelan-McDermid Syndrome (PMS) and Glioblastoma"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "msle",
+  "ticker": "MSLE",
+  "issuer_name": "Satellos Bioscience Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-003453",
+      "filed_date": "2026-05-15",
+      "exhibit": "Ex-99.2 (Q1 2026 MD&A)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "msle",
+      "ticker": "MSLE",
+      "issuer": "Satellos Bioscience Inc.",
+      "asset": "SAT-3247 (BASECAMP study)",
+      "indication": "Duchenne muscular dystrophy (DMD)",
+      "phase": "Phase 2",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company currently remains on track to complete enrollment in Q3 2026. Active and planned clinical sites have identified more than 100% of the potential participants needed to support screening and enrollment activities in the coming months."
+    },
+    {
+      "slug": "msle",
+      "ticker": "MSLE",
+      "issuer": "Satellos Bioscience Inc.",
+      "asset": "SAT-3247 (BASECAMP study)",
+      "indication": "Duchenne muscular dystrophy (DMD)",
+      "phase": "Phase 2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "As progress allows and the Company believes is warranted, an interim data readout may be provided prior to the completion of enrollment on a blinded, masked basis."
+    },
+    {
+      "slug": "msle",
+      "ticker": "MSLE",
+      "issuer": "Satellos Bioscience Inc.",
+      "asset": "SAT-3247 (FSHD program)",
+      "indication": "Facioscapulohumeral muscular dystrophy (FSHD)",
+      "phase": "Phase 2 (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Company currently anticipates filing the necessary regulatory documents to initiate a Phase 2 clinical trial in the United States and Canada in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

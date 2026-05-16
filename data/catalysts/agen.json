@@ -1,0 +1,56 @@
+{
+  "slug": "agen",
+  "ticker": "AGEN",
+  "issuer_name": "AGENUS INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-215838",
+      "filed_date": "2026-05-11",
+      "exhibit": "Ex-99.1 (Q1 2026 results PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526215838/agen-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "agen",
+      "ticker": "AGEN",
+      "issuer": "AGENUS INC",
+      "asset": "BOT+BAL (botensilimab + balstilimab)",
+      "indication": "refractory MSS/pMMR metastatic colorectal cancer (BATTMAN)",
+      "phase": "Phase 3",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-04",
+      "date_precision": "month",
+      "filed_date": "2026-05-11",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526215838/agen-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 BATTMAN trial commenced patient enrollment in April 2026, advancing BOT+BAL into pivotal evaluation"
+    },
+    {
+      "slug": "agen",
+      "ticker": "AGEN",
+      "issuer": "AGENUS INC",
+      "asset": "BOT+BAL (botensilimab + balstilimab)",
+      "indication": "MSS/pMMR mCRC",
+      "phase": "Phase 3",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-11",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526215838/agen-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Continue regulatory engagement, including planned accelerated approval and conditional marketing authorization pathways, supported by clinical data and real-world experience generated through authorized access pathways where applicable"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "BATTMAN Phase 3 trial enrollment started April 2026 (FPI confirmed). AGEN pursuing accelerated approval / conditional marketing authorization in parallel using named-patient access data."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "vyco",
+  "ticker": "VYCO",
+  "issuer_name": "VYCOR MEDICAL INC",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-023666",
+      "filed_date": "2026-05-15",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-014079",
+      "filed_date": "2026-03-31",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-023207",
+      "filed_date": "2025-11-14",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001641172-25-022715",
+      "filed_date": "2025-08-08",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001641172-25-010594",
+      "filed_date": "2025-05-15",
+      "exhibit": "ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Vycor Medical is a commercial-stage medtech (neurosurgical ViewSite Brain Access System and NovaVision rehabilitation). Reviewed 5 most recent 8-K exhibits (quarterly results 2025-2026); filings cover commercial product revenue, no clinical/regulatory milestones (PDUFA/IND/topline/etc.) disclosed."
+  }
+}

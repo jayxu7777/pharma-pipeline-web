@@ -1,0 +1,73 @@
+{
+  "slug": "apls",
+  "ticker": "APLS",
+  "issuer_name": "Apellis Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-010540",
+      "filed_date": "2026-01-12",
+      "exhibit": "Ex-99.1 (Preliminary FY2025 results / JPM presentation)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1492422/000119312526010540/d19666dex991.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "apls",
+      "ticker": "APLS",
+      "issuer": "Apellis Pharmaceuticals, Inc.",
+      "asset": "SYFOVRE (pegcetacoplan)",
+      "indication": "Geographic atrophy (GA) - prefilled syringe",
+      "phase": "Approved (line extension)",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "2026-01-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1492422/000119312526010540/d19666dex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "prefilled syringe for SYFOVRE with regulatory submission planned in the first half of 2026."
+    },
+    {
+      "slug": "apls",
+      "ticker": "APLS",
+      "issuer": "Apellis Pharmaceuticals, Inc.",
+      "asset": "SYFOVRE + APL-3007",
+      "indication": "Geographic atrophy (GA)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "2026-01-12",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1492422/000119312526010540/d19666dex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "The Phase 2 study of SYFOVRE + ... is ongoing with topline data expected in 2027."
+    },
+    {
+      "slug": "apls",
+      "ticker": "APLS",
+      "issuer": "Apellis Pharmaceuticals, Inc.",
+      "asset": "APL-3007 (or related candidate)",
+      "indication": "Complement-mediated disease",
+      "phase": "Preclinical",
+      "milestone_type": "IND",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "2026-01-12",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1492422/000119312526010540/d19666dex991.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "An investigational new drug (IND) submission is planned in the second half of 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none; note Apellis underwent merger/acquisition effective May 14, 2026 per latest 8-K supplemental indenture filing - forward catalysts may be subsumed by acquirer",
+    "tier0_overlap_check": "Tier1 adds 1H 2026 prefilled syringe submission, 2H 2026 IND, and 2027 SYFOVRE combo topline"
+  }
+}

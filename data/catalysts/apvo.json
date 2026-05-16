@@ -1,0 +1,39 @@
+{
+  "slug": "apvo",
+  "ticker": "APVO",
+  "issuer_name": "Aptevo Therapeutics Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-221593",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 business update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1671584/000119312526221593/apvo-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "apvo",
+      "ticker": "APVO",
+      "issuer": "Aptevo Therapeutics Inc.",
+      "asset": "Mipletamig",
+      "indication": "Frontline Acute Myeloid Leukemia (AML)",
+      "phase": "Phase 1b/2",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "2026-05-12",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1671584/000119312526221593/apvo-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "RAINIER trial on track for completion and Phase 2 dose selection by year end."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Tier1 adds year-end 2026 RAINIER Phase 1b completion / Phase 2 dose selection target"
+  }
+}

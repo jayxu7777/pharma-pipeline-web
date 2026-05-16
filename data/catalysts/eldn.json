@@ -1,0 +1,113 @@
+{
+  "slug": "eldn",
+  "ticker": "ELDN",
+  "issuer_name": "Eledon Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-221658",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1404281/000119312526221658/eldn-ex99_1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-116154",
+      "filed_date": "2026-03",
+      "exhibit": "Ex-99.1 (Q4 2025 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1404281/000119312526116154/eldn-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "eldn",
+      "ticker": "ELDN",
+      "issuer": "Eledon Pharmaceuticals, Inc.",
+      "asset": "Tegoprubart",
+      "indication": "Kidney transplantation",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1404281/000119312526221658/eldn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Receive FDA guidance on the Phase 3 trial design assessing tegoprubart in kidney transplantation, followed by initiation of the Phase 3 trial pending regulatory alignment."
+    },
+    {
+      "slug": "eldn",
+      "ticker": "ELDN",
+      "issuer": "Eledon Pharmaceuticals, Inc.",
+      "asset": "Tegoprubart",
+      "indication": "Kidney transplantation",
+      "phase": "Phase 1b / Phase 2 BESTOW",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1404281/000119312526221658/eldn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Report long-term data from Phase 1b and Phase 2 BESTOW studies evaluating tegoprubart in kidney transplantation."
+    },
+    {
+      "slug": "eldn",
+      "ticker": "ELDN",
+      "issuer": "Eledon Pharmaceuticals, Inc.",
+      "asset": "Tegoprubart",
+      "indication": "Islet cell transplantation",
+      "phase": "investigator-led",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1404281/000119312526221658/eldn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initiate an investigator-led study evaluating tegoprubart for the prevention of organ rejection in patients with renal dysfunction receiving an islet cell transplant."
+    },
+    {
+      "slug": "eldn",
+      "ticker": "ELDN",
+      "issuer": "Eledon Pharmaceuticals, Inc.",
+      "asset": "Tegoprubart",
+      "indication": "Liver transplantation",
+      "phase": "investigator-led",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1404281/000119312526221658/eldn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initiate an investigator-led study evaluating tegoprubart for the prevention of organ rejection in patients receiving a de novo liver transplant."
+    },
+    {
+      "slug": "eldn",
+      "ticker": "ELDN",
+      "issuer": "Eledon Pharmaceuticals, Inc.",
+      "asset": "Tegoprubart",
+      "indication": "Kidney transplant tolerance",
+      "phase": "investigator-led",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1404281/000119312526221658/eldn-ex99_1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initiate an investigator-led study evaluating tegoprubart for kidney transplant tolerance induction."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

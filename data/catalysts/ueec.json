@@ -1,0 +1,83 @@
+{
+  "slug": "ueec",
+  "ticker": "UEEC",
+  "issuer_name": "United Health Products, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001477932-22-005227",
+      "filed_date": "2022",
+      "exhibit": "ueec_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001477932-22-006710",
+      "filed_date": "2022",
+      "exhibit": "ueec_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001477932-23-000656",
+      "filed_date": "2023",
+      "exhibit": "ueec_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001477932-24-006902",
+      "filed_date": "2024-11-04",
+      "exhibit": "ueec_ex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001477932-25-003453",
+      "filed_date": "2025",
+      "exhibit": "ueec_ex991.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "ueec",
+      "ticker": "UEEC",
+      "issuer": "United Health Products, Inc.",
+      "asset": "CelluSTAT Hemostatic Gauze (HemoStyp)",
+      "indication": "Surgical hemostasis (Class III medical device)",
+      "phase": "PMA",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "OTC",
+      "raw_text": "UHP continues to advance its Premarket Approval (PMA) application with the FDA for CelluSTAT Hemostatic Gauze; pivotal trial (232 patients) showed non-inferiority and superiority for time to hemostasis vs. comparator."
+    },
+    {
+      "slug": "ueec",
+      "ticker": "UEEC",
+      "issuer": "United Health Products, Inc.",
+      "asset": "CelluSTAT (follow-on confirmatory study)",
+      "indication": "Surgical hemostasis (intestinal/thoracic indications)",
+      "phase": "IDE",
+      "milestone_type": "FDA_clinical_hold",
+      "anticipated_date_iso": "2025-04-25",
+      "date_precision": "exact",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "OTC",
+      "raw_text": "On April 25, 2025 the FDA gave notice that it declined to approve the company's Investigational Device Exemption (IDE) application to conduct the previously announced follow-on clinical study."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "UEEC is a small-cap medical-device company pursuing PMA for a hemostatic gauze. Only milestone catalysts are device-regulatory events (PMA progress, IDE decision); no traditional drug clinical-trial catalysts."
+  }
+}

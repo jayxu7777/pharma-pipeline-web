@@ -1,0 +1,41 @@
+{
+  "slug": "vnrx",
+  "ticker": "VNRX",
+  "issuer_name": "VOLITIONRX LTD",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001477932-26-003126",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 results)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001477932-26-002472",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001477932-26-001830",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001477932-26-000714",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Volition is a diagnostics/epigenetics company (Nu.Q platform); the filings describe commercial milestones (peer review of feline Vet assay, reimbursement progress for Nu.Q Lung Cancer in France, licensing discussions) rather than drug-development catalysts. No PDUFA/BLA/NDA/IND/topline events with anticipated dates were disclosed."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "nnnn",
+  "ticker": "NNNN",
+  "issuer_name": "Anbio Biotechnology",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-126654",
+      "filed_date": "2025-12-30",
+      "exhibit": "Ex-99.1 (H1 2025 unaudited results)",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001185185-26-001504",
+      "filed_date": "2026",
+      "exhibit": "EGM proxy / share consolidation",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Anbio is a commercial-stage in vitro diagnostics company; 6-K disclosures cover financials, EGM proxy, share consolidation, and corporate governance with no clinical/regulatory catalyst dates."
+  }
+}

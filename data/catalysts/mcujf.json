@@ -1,0 +1,20 @@
+{
+  "slug": "mcujf",
+  "ticker": "MCUJF",
+  "issuer_name": "MEDICURE INC",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-003881",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1 (FY 2025 financial results PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Medicure is a commercial-stage Canadian specialty pharma (AGGRASTAT, ZYPITAMAG, Marley Drug pharmacy). Annual results PR mentions ongoing Phase 3 trial of MC-1 in PNPO deficiency but provides no forward-dated milestones."
+  }
+}

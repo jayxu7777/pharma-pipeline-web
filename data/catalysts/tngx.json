@@ -1,0 +1,134 @@
+{
+  "slug": "tngx",
+  "ticker": "TNGX",
+  "issuer_name": "Tango Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-221677",
+      "filed_date": "2026-05-13",
+      "exhibit": "tngx-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-156127",
+      "filed_date": "2026-04-15",
+      "exhibit": "d144586dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-092535",
+      "filed_date": "2026-03-05",
+      "exhibit": "tngx-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-007086",
+      "filed_date": "2026-01-08",
+      "exhibit": "d26323dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-263684",
+      "filed_date": "2025-11-04",
+      "exhibit": "tngx-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "tngx",
+      "ticker": "TNGX",
+      "issuer": "Tango Therapeutics, Inc.",
+      "asset": "vopimetostat + RAS(ON) inhibitors (daraxonrasib/zoldonrasib)",
+      "indication": "MTAP-del RAS-mut pancreatic and lung cancer (2L+)",
+      "phase": "Phase 1/2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Initial Phase 1/2 trial data of vopimetostat in combination with Revolution Medicines' RAS(ON) inhibitors in MTAP-deleted pancreatic cancer in 2026 with continued robust patient enrollment"
+    },
+    {
+      "slug": "tngx",
+      "ticker": "TNGX",
+      "issuer": "Tango Therapeutics, Inc.",
+      "asset": "vopimetostat monotherapy",
+      "indication": "2L MTAP-del pancreatic cancer",
+      "phase": "pivotal",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Pivotal Study in Pancreatic Cancer. The company is on track to initiate a pivotal study for vopimetostat monotherapy in 2L MTAP-del pancreatic cancer, with initiation anticipated in 2026"
+    },
+    {
+      "slug": "tngx",
+      "ticker": "TNGX",
+      "issuer": "Tango Therapeutics, Inc.",
+      "asset": "vopimetostat monotherapy",
+      "indication": "MTAP-del lung cancer",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Vopimetostat monotherapy phase 1/2 clinical data lung cancer update in 2026"
+    },
+    {
+      "slug": "tngx",
+      "ticker": "TNGX",
+      "issuer": "Tango Therapeutics, Inc.",
+      "asset": "TNG456",
+      "indication": "MTAP-del cancers (oncology)",
+      "phase": "Phase 1/2",
+      "milestone_type": "interim",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "TNG456 monotherapy phase 1/2 trial initial safety and efficacy data in 2026"
+    },
+    {
+      "slug": "tngx",
+      "ticker": "TNGX",
+      "issuer": "Tango Therapeutics, Inc.",
+      "asset": "vopimetostat + ERAS-0015",
+      "indication": "RAS-mutated solid tumors",
+      "phase": "Phase 1",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-03-05",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Clinical trial collaboration and supply agreement to evaluate vopimetostat in combination with ERAS-0015, a pan-RAS molecular glue (Erasca) in a clinical trial"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

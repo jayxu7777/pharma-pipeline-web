@@ -1,0 +1,134 @@
+{
+  "slug": "qgen",
+  "ticker": "QGEN",
+  "issuer_name": "QIAGEN N.V.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001015820-26-000031",
+      "filed_date": "2026-05-05",
+      "exhibit": "a2026q1quarterlyreport",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001015820-26-000029",
+      "filed_date": "2026-05-05",
+      "exhibit": "exhibit9912026q1pressrelea",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001015820-26-000024",
+      "filed_date": "2026-04-15",
+      "exhibit": "exhibit991q12026preliminar",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001015820-26-000003",
+      "filed_date": "2026-02-05",
+      "exhibit": "exhibit9912025q4pressrelea",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001015820-25-000077",
+      "filed_date": "2025-11-05",
+      "exhibit": "exhibit991announcementssbb",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "qgen",
+      "ticker": "QGEN",
+      "issuer": "QIAGEN N.V.",
+      "asset": "QIAsymphony Connect",
+      "indication": "automated molecular diagnostics platform",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "QIAsymphony Connect with full IVDR commercialization targeted for mid-2026."
+    },
+    {
+      "slug": "qgen",
+      "ticker": "QGEN",
+      "issuer": "QIAGEN N.V.",
+      "asset": "QIAsprint Connect",
+      "indication": "automation platform",
+      "phase": "commercial",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-02-28",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "QIAsprint Connect set for launch in February 2026."
+    },
+    {
+      "slug": "qgen",
+      "ticker": "QGEN",
+      "issuer": "QIAGEN N.V.",
+      "asset": "QIAmini",
+      "indication": "low-throughput automation",
+      "phase": "commercial",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-09-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "QIAmini launch targeted for Fall 2026."
+    },
+    {
+      "slug": "qgen",
+      "ticker": "QGEN",
+      "issuer": "QIAGEN N.V.",
+      "asset": "QIAstat-Dx blood culture identification panels",
+      "indication": "blood culture identification",
+      "phase": "regulatory",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "QIAGEN has submitted its first blood culture identification panels for U.S. clearance and CE-IVDR registration."
+    },
+    {
+      "slug": "qgen",
+      "ticker": "QGEN",
+      "issuer": "QIAGEN N.V.",
+      "asset": "LIAISON QuantiFERON-TB Gold Plus II (Diasorin partnership)",
+      "indication": "latent tuberculosis infection",
+      "phase": "commercial",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "A new generation of chemistry for Diasorin's LIAISON QuantiFERON-TB Gold Plus II assay is planned for U.S. launch in 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

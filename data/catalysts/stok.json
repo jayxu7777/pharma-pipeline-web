@@ -1,0 +1,127 @@
+{
+  "slug": "stok",
+  "ticker": "STOK",
+  "issuer_name": "Stoke Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-212020",
+      "filed_date": "",
+      "exhibit": "stok-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-145524",
+      "filed_date": "",
+      "exhibit": "d63742dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-009781",
+      "filed_date": "",
+      "exhibit": "d36198dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-264644",
+      "filed_date": "",
+      "exhibit": "stok-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "stok",
+      "ticker": "STOK",
+      "issuer": "Stoke Therapeutics, Inc.",
+      "asset": "zorevunersen",
+      "indication": "Dravet syndrome",
+      "phase": "Phase 3 (EMPEROR)",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Enrollment of approximately 150 patients into the Phase 3 EMPEROR study expected to complete in June 2026 to support a data readout in mid-2027"
+    },
+    {
+      "slug": "stok",
+      "ticker": "STOK",
+      "issuer": "Stoke Therapeutics, Inc.",
+      "asset": "zorevunersen",
+      "indication": "Dravet syndrome",
+      "phase": "Phase 3 (EMPEROR)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-06-30",
+      "date_precision": "half_year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "data readout in mid-2027; these data are anticipated to complete the rolling U.S. NDA submission planned to initiate in first quarter 2027"
+    },
+    {
+      "slug": "stok",
+      "ticker": "STOK",
+      "issuer": "Stoke Therapeutics, Inc.",
+      "asset": "zorevunersen",
+      "indication": "Dravet syndrome",
+      "phase": "Phase 3 / Pre-NDA",
+      "milestone_type": "NDA",
+      "anticipated_date_iso": "2027-03-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "rolling U.S. NDA submission planned to initiate in first quarter 2027"
+    },
+    {
+      "slug": "stok",
+      "ticker": "STOK",
+      "issuer": "Stoke Therapeutics, Inc.",
+      "asset": "STK-002",
+      "indication": "Autosomal Dominant Optic Atrophy (ADOA)",
+      "phase": "Phase 1 (OSPREY)",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2027-03-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Dose escalation of the first four cohorts will continue through 2026 and early 2027, pending safety and tolerability assessments."
+    },
+    {
+      "slug": "stok",
+      "ticker": "STOK",
+      "issuer": "Stoke Therapeutics, Inc.",
+      "asset": "zorevunersen",
+      "indication": "Dravet syndrome",
+      "phase": "Pre-NDA",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "",
+      "date_precision": "none",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company is scheduled to meet with the FDA before year-end 2025 to discuss expedited regulatory pathways under Breakthrough Therapy Designation"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

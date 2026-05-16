@@ -1,0 +1,86 @@
+{
+  "slug": "hind",
+  "ticker": "HIND",
+  "issuer_name": "Vyome Holdings, Inc",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-020387",
+      "filed_date": "2026-02-25",
+      "exhibit": "Ex-99.1 Livechain/Humanyze acquisition PR",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-015795",
+      "filed_date": "2026-02-13",
+      "exhibit": "Ex-99.1 VT-1953 Phase 2 data presentation",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-008575",
+      "filed_date": "2026-01-28",
+      "exhibit": "Ex-99.1 VT-1953 Destum valuation report",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "hind",
+      "ticker": "HIND",
+      "issuer": "Vyome Holdings, Inc",
+      "asset": "VT-1953",
+      "indication": "Malignant Fungating Wounds (MFW)",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 trial start: Q3 2026"
+    },
+    {
+      "slug": "hind",
+      "ticker": "HIND",
+      "issuer": "Vyome Holdings, Inc",
+      "asset": "VT-1953",
+      "indication": "Malignant Fungating Wounds (MFW)",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 3 trial completion: Q4 2027"
+    },
+    {
+      "slug": "hind",
+      "ticker": "HIND",
+      "issuer": "Vyome Holdings, Inc",
+      "asset": "VT-1953",
+      "indication": "Malignant Fungating Wounds (MFW)",
+      "phase": "Phase 3",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2028-Q4",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "NDA approval: Q4 2028"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

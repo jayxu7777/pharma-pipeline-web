@@ -1,0 +1,34 @@
+{
+  "slug": "sxtc",
+  "ticker": "SXTC",
+  "issuer_name": "China SXT Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001213900-25-127097",
+      "filed_date": "",
+      "exhibit": "ea027099001ex99-1_chinasxt.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-003910",
+      "filed_date": "",
+      "exhibit": "ea027250601ex10-2_chinasxt.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001213900-26-051679",
+      "filed_date": "",
+      "exhibit": "ea028894201ex4-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "China SXT is a Traditional Chinese Medicine Pieces (TCMP) producer; per its filings, 'TCMP products do not have to go through rigorous clinical trials before commercialization.' Reviewed filings are capital-raise/warrant agreements with no clinical or FDA regulatory catalysts."
+  }
+}

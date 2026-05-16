@@ -1,0 +1,21 @@
+{
+  "slug": "cphi",
+  "ticker": "CPHI",
+  "issuer_name": "China Pharma Holdings, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-25-029000",
+      "filed_date": "2025-04-04",
+      "exhibit": "Ex-99.1 (most recent 8-K, stale)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1106644/000121390025029000/ea023720801ex99-1_china.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "China generics/holding entity; latest 8-K with exhibit is from April 2025 (>12 months stale at 2026-05-15). No US-facing clinical-stage program with forward-looking catalyst dates.",
+    "tier0_overlap_check": "Out of scope for clinical catalyst board; not a US clinical-stage pipeline issuer."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "phio",
+  "ticker": "PHIO",
+  "issuer_name": "Phio Pharmaceuticals Corp.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-001500",
+      "filed_date": "2026-01-20",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-003575",
+      "filed_date": "2026-02-10",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-007071",
+      "filed_date": "2026-03-05",
+      "exhibit": "ex_899185.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-010164",
+      "filed_date": "2026-03-30",
+      "exhibit": "",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-26-015590",
+      "filed_date": "2026-05-07",
+      "exhibit": "ex_940071.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "phio",
+      "ticker": "PHIO",
+      "issuer": "Phio Pharmaceuticals Corp.",
+      "asset": "PH-762",
+      "indication": "Cutaneous squamous cell carcinoma, melanoma, Merkel cell carcinoma",
+      "phase": "Phase 1b",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2025-11",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1b dose-escalating intratumoral PH-762 trial (NCT06014086) was fully enrolled in November 2025 with 22 patients (20 cSCC, 1 melanoma, 1 Merkel cell)."
+    },
+    {
+      "slug": "phio",
+      "ticker": "PHIO",
+      "issuer": "Phio Pharmaceuticals Corp.",
+      "asset": "PH-762",
+      "indication": "Cutaneous squamous cell carcinoma, melanoma, Merkel cell carcinoma",
+      "phase": "Phase 1b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Clinical phase of Phase 1b trial is complete with favorable safety, tolerability and pathology data; final data being analyzed."
+    },
+    {
+      "slug": "phio",
+      "ticker": "PHIO",
+      "issuer": "Phio Pharmaceuticals Corp.",
+      "asset": "PH-762",
+      "indication": "Skin cancers",
+      "phase": "Phase 1b/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA submission intended to propose and seek guidance for next steps in clinical study design for PH-762 targeted for Q2 2026."
+    },
+    {
+      "slug": "phio",
+      "ticker": "PHIO",
+      "issuer": "Phio Pharmaceuticals Corp.",
+      "asset": "PH-762",
+      "indication": "Skin cancers",
+      "phase": "Phase 1b",
+      "milestone_type": "presentation",
+      "anticipated_date_iso": "2026-03",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 1b clinical trial data for PH-762 presented at American Academy of Dermatology (AAD) Late-Breaking Research Session in March 2026."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "elox",
+  "ticker": "ELOX",
+  "issuer_name": "Eloxx Pharmaceuticals, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-23-117308",
+      "filed_date": "2023-11-13",
+      "exhibit": "Ex-99.1 (Q3 2023 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035354/000110465923117308/tm2330576d1_ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Latest available filings are from 2023; company is OTC-listed and has not filed any 2025-2026 PRs with clinical catalysts. No forward-dated (>=2026-05-15) catalysts identified."
+  }
+}

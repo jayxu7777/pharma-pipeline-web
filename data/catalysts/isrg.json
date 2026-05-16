@@ -1,0 +1,20 @@
+{
+  "slug": "isrg",
+  "ticker": "ISRG",
+  "issuer_name": "INTUITIVE SURGICAL INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001035267-26-000029",
+      "filed_date": "2026-04-21",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Commercial-stage robotic surgery medical device company (da Vinci/Ion); PR contained financial guidance/procedure volume metrics only with no clinical/regulatory catalyst dates."
+  }
+}

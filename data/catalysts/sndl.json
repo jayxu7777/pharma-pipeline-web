@@ -1,0 +1,34 @@
+{
+  "slug": "sndl",
+  "ticker": "SNDL",
+  "issuer_name": "SNDL Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-002797",
+      "filed_date": "2026-04-29",
+      "exhibit": "EX-99.1 Q1 2026 results",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001193125-26-188175",
+      "filed_date": "",
+      "exhibit": "EX-99.1-4 multiple exhibits",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001171843-26-001503",
+      "filed_date": "",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "SNDL Inc. is a Canadian liquor and cannabis retail / operations company - not a clinical-stage drug developer. No clinical/regulatory catalysts (PDUFA/IND/Phase trials) in filings; only commercial cannabis brand launches (Jeeter) and financial updates."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "gcan",
+  "ticker": "GCAN",
+  "issuer_name": "Greater Cannabis Company, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-019751",
+      "filed_date": "2025-10-27",
+      "exhibit": "Form 8-K (Series B Preferred designation)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Greater Cannabis Company's recent 8-Ks are corporate/financing actions (preferred stock designations, governance). No clinical/regulatory pipeline disclosed in available PRs."
+  }
+}

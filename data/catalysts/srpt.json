@@ -1,0 +1,134 @@
+{
+  "slug": "srpt",
+  "ticker": "SRPT",
+  "issuer_name": "Sarepta Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-262591",
+      "filed_date": "2025-11-03",
+      "exhibit": "srpt-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-315032",
+      "filed_date": "2025-12-11",
+      "exhibit": "d55628dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-010116",
+      "filed_date": "2026-01-12",
+      "exhibit": "srpt-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-071566",
+      "filed_date": "2026-02-25",
+      "exhibit": "srpt-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-208966",
+      "filed_date": "2026-05-06",
+      "exhibit": "srpt-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "srpt",
+      "ticker": "SRPT",
+      "issuer": "Sarepta Therapeutics, Inc.",
+      "asset": "SRP-1001",
+      "indication": "Facioscapulohumeral muscular dystrophy type 1 (FSHD1)",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Sarepta shared early Phase 1/2 ascending dose data: dose-dependent drug exposure, early biomarker effects, favorable tolerability without dose-limiting safety signals."
+    },
+    {
+      "slug": "srpt",
+      "ticker": "SRPT",
+      "issuer": "Sarepta Therapeutics, Inc.",
+      "asset": "SRP-1003",
+      "indication": "Myotonic dystrophy type 1 (DM1)",
+      "phase": "Phase 1/2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "First clinical Phase 1/2 ascending-dose data: dose-dependent drug exposure, early biomarker effects, favorable tolerability."
+    },
+    {
+      "slug": "srpt",
+      "ticker": "SRPT",
+      "issuer": "Sarepta Therapeutics, Inc.",
+      "asset": "ELEVIDYS (delandistrogene moxeparvovec)",
+      "indication": "Duchenne muscular dystrophy (DMD), non-ambulatory",
+      "phase": "ENDEAVOR (post-marketing study, Cohort 8)",
+      "milestone_type": "enrollment/initiation",
+      "anticipated_date_iso": "2026-04-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "ENDEAVOR Cohort 8 (Study 9001-103) screening and enrollment underway for ~25 non-ambulatory participants; dosing has begun as of April 2026."
+    },
+    {
+      "slug": "srpt",
+      "ticker": "SRPT",
+      "issuer": "Sarepta Therapeutics, Inc.",
+      "asset": "AMONDYS 45 (casimersen) and VYONDYS 53 (golodirsen)",
+      "indication": "DMD (exon 45 / 53)",
+      "phase": "sNDA",
+      "milestone_type": "submission",
+      "anticipated_date_iso": "2026-04-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In April 2026, Sarepta submitted sNDAs seeking to convert AMONDYS 45 and VYONDYS 53 from accelerated to traditional approvals, supported by ESSENCE confirmatory study data."
+    },
+    {
+      "slug": "srpt",
+      "ticker": "SRPT",
+      "issuer": "Sarepta Therapeutics, Inc.",
+      "asset": "ELEVIDYS",
+      "indication": "DMD (Japan)",
+      "phase": "commercial",
+      "milestone_type": "launch",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "In March 2026, following commercial launch of ELEVIDYS in Japan by Chugai Pharmaceuticals, Sarepta earned a $40.0 million milestone payment under the Roche collaboration agreement."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

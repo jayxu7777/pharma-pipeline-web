@@ -1,0 +1,20 @@
+{
+  "slug": "evotf",
+  "ticker": "EVOTF",
+  "issuer_name": "Evotec SE",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001104659-26-055957",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (3M 2026 interim statement)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Same issuer as EVO (OTC quotation of Evotec SE shares). Drug-discovery services business; no proprietary clinical readout dates disclosed."
+  }
+}

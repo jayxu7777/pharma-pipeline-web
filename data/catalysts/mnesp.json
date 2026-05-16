@@ -1,0 +1,27 @@
+{
+  "slug": "mnesp",
+  "ticker": "MNESP",
+  "issuer_name": "MSA Safety Inc",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-019007",
+      "filed_date": "2026-05-05",
+      "exhibit": "Ex-99.1 (M&A announcement)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000066570-26-000010",
+      "filed_date": "2026-05-01",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Safety equipment manufacturer (industrial fire/gas detection, breathing apparatus); not a clinical-stage company. No PDUFA, trial, or biopharma catalysts in any 8-K exhibit."
+  }
+}

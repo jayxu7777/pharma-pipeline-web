@@ -1,0 +1,79 @@
+{
+  "slug": "dwtx",
+  "ticker": "DWTX",
+  "issuer_name": "Dogwood Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-060747",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (Q1 2026 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818844/000110465926060747/dwtx-20260514xex99d1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-034928",
+      "filed_date": "2026-03-26",
+      "exhibit": "Ex-99.1 (Corporate Update PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818844/000110465926034928/dwtx-20260326xex99d1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "dwtx",
+      "ticker": "DWTX",
+      "issuer": "Dogwood Therapeutics, Inc.",
+      "asset": "Halneuron",
+      "indication": "Chemotherapy-induced neuropathic pain (CINP)",
+      "phase": "Phase 2b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818844/000110465926060747/dwtx-20260514xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Top line results from the ongoing Phase 2b trial are expected in the fall of 2026."
+    },
+    {
+      "slug": "dwtx",
+      "ticker": "DWTX",
+      "issuer": "Dogwood Therapeutics, Inc.",
+      "asset": "SP16",
+      "indication": "Chemotherapy-induced pain and peripheral neuropathy (CIPPN)",
+      "phase": "Phase 1b",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818844/000110465926060747/dwtx-20260514xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "SP16 granted IND approval from the FDA. Study to begin enrolling in mid-2026 for the treatment of chemotherapy-induced pain and peripheral neuropathy."
+    },
+    {
+      "slug": "dwtx",
+      "ticker": "DWTX",
+      "issuer": "Dogwood Therapeutics, Inc.",
+      "asset": "Halneuron",
+      "indication": "Chemotherapy-induced neuropathic pain (CINP)",
+      "phase": "Phase 2b",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818844/000110465926060747/dwtx-20260514xex99d1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Submitting our end of Phase 2 summary, manufacturing plans and Phase 3 clinical development plans to FDA towards the end of 2026, assuming favorable outcomes in our ongoing Halneuron Phase 2b program."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

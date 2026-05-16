@@ -1,0 +1,66 @@
+{
+  "slug": "siga",
+  "ticker": "SIGA",
+  "issuer_name": "SIGA Technologies Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-019538",
+      "filed_date": "2026-05-07",
+      "exhibit": "ef20072552_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-008782",
+      "filed_date": "2026-03-10",
+      "exhibit": "ef20067458_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-008782",
+      "filed_date": "2026-03-10",
+      "exhibit": "ef20067458_8k.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-25-040775",
+      "filed_date": "2025",
+      "exhibit": "ef20058429_ex99-1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001140361-25-028821",
+      "filed_date": "2025",
+      "exhibit": "ef20053161_ex99-1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "siga",
+      "ticker": "SIGA",
+      "issuer": "SIGA Technologies Inc.",
+      "asset": "Tecovirimat (TPOXX) - oral and IV",
+      "indication": "Smallpox; mpox (monkeypox)",
+      "phase": "Regulatory / Commercial",
+      "milestone_type": "EMA_referral",
+      "anticipated_date_iso": null,
+      "date_precision": "unknown",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Following recently completed mpox clinical trials, the European Medicine Agency's Committee for Medicinal Products for Human Use (CHMP) initiated a referral procedure for tecovirimat to determine whether the benefit-risk balance of the product remains favorable."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "SIGA is commercial-stage on tecovirimat (TPOXX) and reported earnings in 8-K Ex-99.1 filings. Filings primarily disclose financial results and the ongoing CHMP referral for tecovirimat; no new pivotal-trial topline or PDUFA/NDA submission is disclosed in this window."
+  }
+}

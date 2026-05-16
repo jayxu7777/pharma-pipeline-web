@@ -1,0 +1,76 @@
+{
+  "slug": "qucy",
+  "ticker": "QUCY",
+  "issuer_name": "MAINZ BIOMED N.V.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-028672",
+      "filed_date": "2026-04-08",
+      "exhibit": "ea028198501ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-025940",
+      "filed_date": "2026-03-30",
+      "exhibit": "ea028098101ex99-1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-016890",
+      "filed_date": "2026-02-26",
+      "exhibit": "ea027724601ex99-1_mainz",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001213900-26-014378",
+      "filed_date": "2026-02-19",
+      "exhibit": "ea027509801ex5-1_mainz",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "qucy",
+      "ticker": "QUCY",
+      "issuer": "MAINZ BIOMED N.V.",
+      "asset": "ColoAlert / eAArly DETECT 2",
+      "indication": "colorectal cancer screening",
+      "phase": "regulatory (pivotal preparation)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company is currently running its eAArly DETECT 2 clinical study in preparation for its pivotal FDA study for US regulatory approval."
+    },
+    {
+      "slug": "qucy",
+      "ticker": "QUCY",
+      "issuer": "MAINZ BIOMED N.V.",
+      "asset": "PancAlert",
+      "indication": "pancreatic cancer detection",
+      "phase": "early-stage",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Company transitions its focus on developing its pancreatic cancer screening business in the U.S.; product candidate portfolio includes PancAlert, an early-stage pancreatic cancer assay."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

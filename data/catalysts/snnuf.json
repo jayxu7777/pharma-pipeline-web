@@ -1,0 +1,41 @@
+{
+  "slug": "snnuf",
+  "ticker": "SNNUF",
+  "issuer_name": "SMITH & NEPHEW PLC",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004381",
+      "filed_date": "2026-05-06",
+      "exhibit": "a1324d.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004395",
+      "filed_date": "2026-05-06",
+      "exhibit": "a2839d.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004565",
+      "filed_date": "2026-05-06",
+      "exhibit": "a4820d.htm",
+      "url": ""
+    },
+    {
+      "form": "6-K",
+      "accession": "0001654954-26-004838",
+      "filed_date": "2026-05-07",
+      "exhibit": "a3455e.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Smith+Nephew is a large medtech; recent 6-K filings cover quarterly trading updates, product launches (CATALYSTEM, ALLEVYN, REGENETEN, LANDMARK), share buybacks, and TR-1 holding notifications. No PDUFA/BLA/NDA/IND/Phase clinical-trial catalysts."
+  }
+}

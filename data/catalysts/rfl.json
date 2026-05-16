@@ -1,0 +1,69 @@
+{
+  "slug": "rfl",
+  "ticker": "RFL",
+  "issuer_name": "Rafael Holdings, Inc.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "10-Q",
+      "accession": "various",
+      "filed_date": "2026-03-16",
+      "exhibit": "10-Q body (Q2 FY2026)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "various",
+      "filed_date": "2026-04",
+      "exhibit": "Ex-99.1 (MIT license)",
+      "url": ""
+    },
+    {
+      "form": "10-K",
+      "accession": "various",
+      "filed_date": "2025-10-29",
+      "exhibit": "Annual report",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "rfl",
+      "ticker": "RFL",
+      "issuer": "Rafael Holdings, Inc.",
+      "asset": "Trappsol Cyclo (hydroxypropyl beta cyclodextrin)",
+      "indication": "Niemann-Pick disease Type C1 (NPC1)",
+      "phase": "Phase 3 (TransportNPC)",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Topline data from pivotal Phase 3 TransportNPC trial of Trappsol Cyclo in Niemann-Pick Type C1 anticipated in Q3 2026. Trappsol Cyclo has FDA Fast Track, Orphan Drug and Rare Pediatric Disease designations."
+    },
+    {
+      "slug": "rfl",
+      "ticker": "RFL",
+      "issuer": "Rafael Holdings, Inc.",
+      "asset": "MIT ApoE4-related programs (licensed)",
+      "indication": "Alzheimer's disease",
+      "phase": "Preclinical/Discovery",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-04",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Rafael Holdings licensed ApoE4-related patent portfolio from MIT, expanding neurology pipeline beyond Trappsol Cyclo."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none; holding company with primary clinical asset Trappsol Cyclo in pivotal Phase 3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "avcrf",
+  "ticker": "AVCRF",
+  "issuer_name": "Avricore Health Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001493152-25-013298",
+      "filed_date": "2025-08-29",
+      "exhibit": "Ex-1 / Ex-2 (Q2 2025 interim financials and MD&A)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1355736/000149315225013298/"
+    },
+    {
+      "form": "6-K",
+      "accession": "0001493152-25-027070",
+      "filed_date": "2025-11-26",
+      "exhibit": "Ex-1 (corporate update)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1355736/000149315225027070/ex1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Foreign private issuer; recent 6-K filings cover MD&A and pharmacy device commercial deployment; no forward-dated clinical or regulatory catalysts disclosed."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "elan",
+  "ticker": "ELAN",
+  "issuer_name": "Elanco Animal Health Inc",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001739104-26-000027",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 Earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000027/elanco-20260331exhibit991.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-002723",
+      "filed_date": "2026-01",
+      "exhibit": "Ex-99.1 (J.P. Morgan Investor Presentation)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739104/000110465926002723/tm262899d1_ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "elan",
+      "ticker": "ELAN",
+      "issuer": "Elanco Animal Health Inc",
+      "asset": "Befrena (monoclonal antibody for canine dermatitis)",
+      "indication": "Canine atopic dermatitis",
+      "phase": "commercial launch",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q2",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000027/elanco-20260331exhibit991.htm",
+      "kind": "core_biopharma",
+      "exchange": "NYSE",
+      "raw_text": "Befrena phased launch approach on track, with product already shipped to early experience influencers and in use, and commercialization in the U.S. expected in Q2."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Elanco animal-health PR focuses on commercial revenue and product launches; only Befrena U.S. commercialization in Q2 2026 has clear date precision. Other Big 6 / Next Wave assets referenced with multi-year ranges (2026-2031) too broad to extract specific catalysts."
+  }
+}

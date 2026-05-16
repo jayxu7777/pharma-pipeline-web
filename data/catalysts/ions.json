@@ -1,0 +1,17 @@
+{
+  "slug": "ions",
+  "ticker": "IONS",
+  "issuer_name": "IONIS PHARMACEUTICALS INC",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001140361-26-017637",
+      "filed_date": "2026-05-01",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {}
+}

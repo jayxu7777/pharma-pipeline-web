@@ -1,0 +1,21 @@
+{
+  "slug": "btmd",
+  "ticker": "BTMD",
+  "issuer_name": "biote Corp.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-208965",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819253/000119312526208965/btmd-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Not a clinical-stage biotech: biote Corp. is a commercial hormone-optimization / wellness procedure company (procedure revenue, dietary supplements, sales force). No drug pipeline or clinical trials disclosed in recent earnings PRs.",
+    "tier0_overlap_check": "Excluded from catalyst board \u2014 commercial/medical procedure company, not drug development."
+  }
+}

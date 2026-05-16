@@ -1,0 +1,89 @@
+{
+  "slug": "cytk",
+  "ticker": "CYTK",
+  "issuer_name": "Cytokinetics, Incorporated",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "",
+      "accession": "",
+      "filed_date": "",
+      "exhibit": "cytk-ex99_1.txt",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cytk",
+      "ticker": "CYTK",
+      "issuer": "Cytokinetics, Incorporated",
+      "asset": "Aficamten",
+      "indication": "Obstructive hypertrophic cardiomyopathy (oHCM)",
+      "phase": "regulatory",
+      "milestone_type": "PDUFA",
+      "anticipated_date_iso": "2026-11-14",
+      "date_precision": "day",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA assigned PDUFA target action date of November 14, 2026 for aficamten sNDA based on MAPLE-HCM"
+    },
+    {
+      "slug": "cytk",
+      "ticker": "CYTK",
+      "issuer": "Cytokinetics, Incorporated",
+      "asset": "Aficamten",
+      "indication": "Obstructive hypertrophic cardiomyopathy (oHCM)",
+      "phase": "commercial",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-06-30",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Germany commercial launch expected in Q2 2026"
+    },
+    {
+      "slug": "cytk",
+      "ticker": "CYTK",
+      "issuer": "Cytokinetics, Incorporated",
+      "asset": "Aficamten",
+      "indication": "Non-obstructive hypertrophic cardiomyopathy (nHCM)",
+      "phase": "P3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "CEDAR-HCM enrollment expected to complete in Q4 2026"
+    },
+    {
+      "slug": "cytk",
+      "ticker": "CYTK",
+      "issuer": "Cytokinetics, Incorporated",
+      "asset": "Aficamten",
+      "indication": "Heart failure with preserved ejection fraction (HFpEF)",
+      "phase": "P3",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "AMBER-HFpEF enrollment expected in 2H 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

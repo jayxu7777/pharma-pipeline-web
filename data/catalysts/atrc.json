@@ -1,0 +1,27 @@
+{
+  "slug": "atrc",
+  "ticker": "ATRC",
+  "issuer_name": "AtriCure, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-009814",
+      "filed_date": "2026-01-12",
+      "exhibit": "Ex-99.1 (preliminary FY2025 results and FY2026 guidance PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1323885/000119312526009814/d43112dex991.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001323885-26-000005",
+      "filed_date": "2026-02-17",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1323885/000132388526000005/atrc-20260217xexx991.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Commercial-stage Afib/LAA device issuer; LeAAPS trial enrollment was completed in 2025 (historical) and PRs disclose no forward-dated readout, presentation, or regulatory dates."
+  }
+}

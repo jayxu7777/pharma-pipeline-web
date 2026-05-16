@@ -1,0 +1,21 @@
+{
+  "slug": "amrx",
+  "ticker": "AMRX",
+  "issuer_name": "Amneal Pharmaceuticals, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001723128-26-000019",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1723128/000172312826000019/amrx-q12026ex991.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Q1 2026 earnings PR (May 7) is commercial/financial-only and reaffirms 2026 full-year guidance (net revenue $3.05-3.15B; adj EBITDA $740-770M; adj diluted EPS $0.95-1.05). Mentions ongoing Kashiv BioSciences acquisition (M&A) and recent commercial launches of CREXONT and BREKIYA autoinjector, but no clinical-stage Phase 1/2/3 trials, no PDUFA dates, no specific BLA/NDA submission timing, no topline data readouts disclosed with concrete forward dates. Generics/biosimilars-focused issuer in commercial harvest mode; no tier-1 catalyst rows extractable from this filing.",
+    "tier0_overlap_check": "Generics/Specialty commercial pharma; pipeline catalyst-style milestones not in Q1 2026 PR."
+  }
+}

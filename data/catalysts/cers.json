@@ -1,0 +1,72 @@
+{
+  "slug": "cers",
+  "ticker": "CERS",
+  "issuer_name": "Cerus Corporation",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "",
+      "accession": "",
+      "filed_date": "",
+      "exhibit": "Q1 2026 earnings release (8-K Ex-99.1, April 30, 2026)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cers",
+      "ticker": "CERS",
+      "issuer": "Cerus Corporation",
+      "asset": "INTERCEPT Red Blood Cell System",
+      "indication": "Pathogen reduction for red blood cells",
+      "phase": "Phase 3",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "meaningful catalyst path in 2026, spanning anticipated regulatory, clinical, and pipeline milestones, including ... the Phase 3 RedeS readout in the U.S."
+    },
+    {
+      "slug": "cers",
+      "ticker": "CERS",
+      "issuer": "Cerus Corporation",
+      "asset": "INT200 illumination device",
+      "indication": "Pathogen reduction device",
+      "phase": "Regulatory",
+      "milestone_type": "other",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "the planned U.S. PMA submission for our new INT200 illumination device."
+    },
+    {
+      "slug": "cers",
+      "ticker": "CERS",
+      "issuer": "Cerus Corporation",
+      "asset": "INTERCEPT Red Blood Cell System",
+      "indication": "Pathogen reduction for red blood cells (EU)",
+      "phase": "Regulatory",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "ongoing INTERCEPT RBC regulatory review in Europe"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

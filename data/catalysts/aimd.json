@@ -1,0 +1,39 @@
+{
+  "slug": "aimd",
+  "ticker": "AIMD",
+  "issuer_name": "Ainos, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-022751",
+      "filed_date": "2026-05-13",
+      "exhibit": "Ex-99.1 (Q1 2026 results PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1014763/000149315226022751/ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "aimd",
+      "ticker": "AIMD",
+      "issuer": "Ainos, Inc.",
+      "asset": "AI Nose (Smell AI platform)",
+      "indication": "semiconductor and healthcare infrastructure - commercial",
+      "phase": "commercial",
+      "milestone_type": "launch",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "2026-05-13",
+      "confidence": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1014763/000149315226022751/ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "We believe our current execution priorities will help support broader revenue generation opportunities in the second half of 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Ainos has pivoted away from clinical-stage biotech to AI Nose / Smell AI for semiconductors and healthcare infrastructure. Only forward-looking commercial revenue catalyst is 2H 2026 scaling."
+  }
+}

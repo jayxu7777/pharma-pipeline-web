@@ -1,0 +1,20 @@
+{
+  "slug": "mlss",
+  "ticker": "MLSS",
+  "issuer_name": "MILESTONE SCIENTIFIC INC.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001437749-24-038111",
+      "filed_date": "2024-12-20",
+      "exhibit": "Item 8.01",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Adjacent medtech (dental anesthesia injection devices). Latest 5 8-Ks are governance / executive changes; no forward-looking clinical or regulatory catalyst dates."
+  }
+}

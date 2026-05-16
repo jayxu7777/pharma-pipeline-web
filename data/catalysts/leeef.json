@@ -1,0 +1,27 @@
+{
+  "slug": "leeef",
+  "ticker": "LEEEF",
+  "issuer_name": "LEEF Brands, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-021267",
+      "filed_date": "2026-05-04",
+      "exhibit": "Ex-99.1 (HIMALAYA acquisition completion PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-018032",
+      "filed_date": "2026-04-16",
+      "exhibit": "Ex-99.1 (HIMALAYA acquisition announcement PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "LEEF Brands is a California cannabis cultivation/extraction/concentrates company, not a pharmaceutical or clinical-stage biotech. No clinical/regulatory pipeline catalysts. Latest filings cover HIMALAYA brand acquisition."
+  }
+}

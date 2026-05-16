@@ -1,0 +1,100 @@
+{
+  "slug": "zbh",
+  "ticker": "ZBH",
+  "issuer_name": "ZIMMER BIOMET HOLDINGS, INC.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-218098",
+      "filed_date": "2026-05-12",
+      "exhibit": "zbh-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-183430",
+      "filed_date": "2026-04-28",
+      "exhibit": "d151739dex991.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-183411",
+      "filed_date": "2026-04-28",
+      "exhibit": "zbh-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-043620",
+      "filed_date": "2026-02-10",
+      "exhibit": "zbh-ex99_1.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-25-265649",
+      "filed_date": "2025-11-05",
+      "exhibit": "zbh-ex99_1.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "zbh",
+      "ticker": "ZBH",
+      "issuer": "ZIMMER BIOMET HOLDINGS, INC.",
+      "asset": "mBos (autonomous robotic total knee arthroplasty system)",
+      "indication": "total knee arthroplasty",
+      "phase": "Pivotal/Registrational",
+      "milestone_type": "enrollment_complete",
+      "anticipated_date_iso": "2026-03-31",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "NYSE",
+      "raw_text": "Completed enrollment in the multi-center clinical study in India of mBos, a first-of-its-kind, surgeon-guided, autonomous robotic total knee arthroplasty system acquired from Monogram Technologies"
+    },
+    {
+      "slug": "zbh",
+      "ticker": "ZBH",
+      "issuer": "ZIMMER BIOMET HOLDINGS, INC.",
+      "asset": "G7 TM Acetabular System",
+      "indication": "primary and revision hip replacement",
+      "phase": "Marketed",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-02-28",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "NYSE",
+      "raw_text": "First case completed using the G7 TM Acetabular System, a next-generation implant engineered to address challenging primary and revision hip replacement surgeries, following U.S. FDA 510(k) clearance in February 2026"
+    },
+    {
+      "slug": "zbh",
+      "ticker": "ZBH",
+      "issuer": "ZIMMER BIOMET HOLDINGS, INC.",
+      "asset": "ROSA Knee with OptimiZe",
+      "indication": "knee arthroplasty robotics",
+      "phase": "Marketed",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-02-10",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "NYSE",
+      "raw_text": "Received U.S. FDA clearance for ROSA (full commercial launch of ROSA Knee with OptimiZe at AAOS 2026)"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Zimmer Biomet is large orthopedic medtech; catalysts focus on FDA 510(k) clearances and clinical study enrollment completion for surgical robotics and implants."
+  }
+}

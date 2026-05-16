@@ -1,0 +1,20 @@
+{
+  "slug": "bbnx",
+  "ticker": "BBNX",
+  "issuer_name": "Beta Bionics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001171843-26-002614",
+      "filed_date": "2026-04-21",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674632/000117184326002614/exh_991.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Beta Bionics is a commercial diabetes-device company (iLet bionic pancreas). The Q1 2026 PR notes a Phase 2a feasibility trial of bihormonal/glucagon system was initiated in Q1 2026 (historical event) and provides only financial guidance, no forward-dated clinical readouts/PDUFA/submissions."
+  }
+}

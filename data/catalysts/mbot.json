@@ -1,0 +1,27 @@
+{
+  "slug": "mbot",
+  "ticker": "MBOT",
+  "issuer_name": "Microbot Medical Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-022886",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (LIBERTY Full Market Release commercial update PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-023493",
+      "filed_date": "2026-05-14",
+      "exhibit": "Ex-99.1 (conference call announcement PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Commercial-stage medtech company (LIBERTY Endovascular Robotic System); recent 8-Ks cover Full Market Release commercial progress and conference-call announcement, no forward-dated clinical or regulatory milestones."
+  }
+}

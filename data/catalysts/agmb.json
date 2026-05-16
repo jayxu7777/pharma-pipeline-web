@@ -1,0 +1,90 @@
+{
+  "slug": "agmb",
+  "ticker": "AGMB",
+  "issuer_name": "Agomab Therapeutics NV",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001104659-26-048615",
+      "filed_date": "2026-04-24",
+      "exhibit": "Ex-99.1 (FY2025 results PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2020932/000110465926048615/tm2612596d1_ex99-1.htm"
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "agmb",
+      "ticker": "AGMB",
+      "issuer": "Agomab Therapeutics NV",
+      "asset": "ontunisertib (AGMB-129)",
+      "indication": "fibrostenosing Crohn's disease (FSCD)",
+      "phase": "Phase 2b (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "2026-04-24",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2020932/000110465926048615/tm2612596d1_ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On Track to Initiate Phase 2b Study in FSCD with Ontunisertib and Phase 2 Study in Idiopathic Pulmonary Fibrosis (IPF) with AGMB-447 in Second Half of 2026"
+    },
+    {
+      "slug": "agmb",
+      "ticker": "AGMB",
+      "issuer": "Agomab Therapeutics NV",
+      "asset": "AGMB-447",
+      "indication": "idiopathic pulmonary fibrosis (IPF)",
+      "phase": "Phase 2 (planned)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "2026-04-24",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2020932/000110465926048615/tm2612596d1_ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "On Track to Initiate ... Phase 2 Study in Idiopathic Pulmonary Fibrosis (IPF) with AGMB-447 in Second Half of 2026"
+    },
+    {
+      "slug": "agmb",
+      "ticker": "AGMB",
+      "issuer": "Agomab Therapeutics NV",
+      "asset": "ontunisertib (AGMB-129)",
+      "indication": "FSCD (STENOVA OLE)",
+      "phase": "Phase 2a OLE",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "2026-04-24",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2020932/000110465926048615/tm2612596d1_ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline Data from Open-Label Long-term Extension Study (OLE) Part of STENOVA Study with Ontunisertib in FSCD ... Expected in Second Half of 2026"
+    },
+    {
+      "slug": "agmb",
+      "ticker": "AGMB",
+      "issuer": "Agomab Therapeutics NV",
+      "asset": "AGMB-447",
+      "indication": "IPF (Phase 1b cohort)",
+      "phase": "Phase 1b",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "2026-04-24",
+      "confidence": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2020932/000110465926048615/tm2612596d1_ex99-1.htm",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline Data ... from Phase 1b IPF Study Cohort with AGMB-447 Expected in Second Half of 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "none",
+    "tier0_overlap_check": "Agomab is recently IPO'd (Feb 2026). Multiple 2H 2026 inflection points: ontunisertib Phase 2b FSCD initiation, AGMB-447 Phase 2 IPF initiation, STENOVA OLE topline, AGMB-447 Phase 1b IPF cohort topline."
+  }
+}

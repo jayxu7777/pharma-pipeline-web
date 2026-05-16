@@ -1,0 +1,83 @@
+{
+  "slug": "xers",
+  "ticker": "XERS",
+  "issuer_name": "Xeris Biopharma Holdings, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001867096-26-000027",
+      "filed_date": "2026-05-07",
+      "exhibit": "exh991q12026earningsrelease.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001867096-26-000012",
+      "filed_date": "2026-03-02",
+      "exhibit": "exh991q42025earningsrelease.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001867096-26-000010",
+      "filed_date": "2026-02-27",
+      "exhibit": "xers-20260226.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001867096-26-000004",
+      "filed_date": "2026-01-08",
+      "exhibit": "pressreleaseissuedbyxerisb.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001867096-25-000161",
+      "filed_date": "2025-12-01",
+      "exhibit": "exh991pressreleasedateddec.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "xers",
+      "ticker": "XERS",
+      "issuer": "Xeris Biopharma Holdings, Inc.",
+      "asset": "XP-8121 (once-weekly levothyroxine sodium)",
+      "indication": "hypothyroidism",
+      "phase": "preclinical/Phase 2 -> Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "R&D expense to increase by approximately $25 million compared to 2025 as the Company initiates its Phase 3 study for XP-8121."
+    },
+    {
+      "slug": "xers",
+      "ticker": "XERS",
+      "issuer": "Xeris Biopharma Holdings, Inc.",
+      "asset": "XP-8121",
+      "indication": "hypothyroidism",
+      "phase": "Phase 3",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "2026 represents a pivotal year for our pipeline, with the anticipated Phase 3 initiation of XP-8121 later in the year"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

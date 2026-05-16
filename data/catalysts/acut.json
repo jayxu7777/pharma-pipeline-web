@@ -1,0 +1,20 @@
+{
+  "slug": "acut",
+  "ticker": "ACUT",
+  "issuer_name": "Accustem Sciences Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-24-052550",
+      "filed_date": "2024-12-30",
+      "exhibit": "form8-k.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Latest 8-Ks (2021-2024) are governance items (auditor change, etc.); no clinical PRs in the recent filing window."
+  }
+}

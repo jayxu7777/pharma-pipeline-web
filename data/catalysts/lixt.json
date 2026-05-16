@@ -1,0 +1,27 @@
+{
+  "slug": "lixt",
+  "ticker": "LIXT",
+  "issuer_name": "LIXTE BIOTECHNOLOGY HOLDINGS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-007268",
+      "filed_date": "2026-02-18",
+      "exhibit": "Ex-99.1 (Liora subsidiary CEO appointment PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-024996",
+      "filed_date": "2025-11-25",
+      "exhibit": "Ex-99.1 (Liora Technologies acquisition PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Recent LIXTE 8-Ks cover Liora Technologies (proton therapy) acquisition close, CEO appointment, and a bitcoin/ETH treasury purchase. The PRs reference ongoing LB-100 proof-of-concept trials in ovarian clear cell carcinoma, metastatic colon cancer and advanced soft tissue sarcoma without disclosing any specific forward-dated readouts, enrollment milestones, or regulatory submission dates."
+  }
+}

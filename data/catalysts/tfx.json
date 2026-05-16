@@ -1,0 +1,48 @@
+{
+  "slug": "tfx",
+  "ticker": "TFX",
+  "issuer_name": "TELEFLEX INC",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0000096943-26-000048",
+      "filed_date": "2026-05-07",
+      "exhibit": "ex991to5-6x2026req12026ear.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000096943-26-000036",
+      "filed_date": "2026-03-27",
+      "exhibit": "ex991to3-27x2026reirenicpr.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000096943-26-000031",
+      "filed_date": "2026-03-17",
+      "exhibit": "tfx-20260311.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000096943-26-000011",
+      "filed_date": "2026-02-26",
+      "exhibit": "ex991to2-26x2026re2025yeea.htm",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000096943-26-000003",
+      "filed_date": "2026-01-08",
+      "exhibit": "ex991to1-8x20268xkrepressr.htm",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Reviewed all five 8-K filings (Q1-Q4 2025 earnings, CEO transition, Irenic response). Disclosures focus on financial results, share repurchase, leadership transitions, and strategic divestitures. No PDUFA/BLA/NDA/MAA/IND/topline/enrollment/clinical trial milestones disclosed in scoped period."
+  }
+}

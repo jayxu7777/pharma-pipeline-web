@@ -1,0 +1,55 @@
+{
+  "slug": "cycn",
+  "ticker": "CYCN",
+  "issuer_name": "Cyclerion Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "",
+      "accession": "",
+      "filed_date": "",
+      "exhibit": "d104475dex991.txt",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "cycn",
+      "ticker": "CYCN",
+      "issuer": "Cyclerion Therapeutics, Inc.",
+      "asset": "CYC-126",
+      "indication": "Treatment-resistant depression (TRD)",
+      "phase": "P2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 proof-of-concept study of CYC-126 in TRD expected to initiate in 2H 2026"
+    },
+    {
+      "slug": "cycn",
+      "ticker": "CYCN",
+      "issuer": "Cyclerion Therapeutics, Inc.",
+      "asset": "CYC-126",
+      "indication": "Treatment-resistant depression (TRD)",
+      "phase": "P2",
+      "milestone_type": "FPI",
+      "anticipated_date_iso": "2027-06-30",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "US enrollment in Phase 2 POC anticipated to begin in 1H 2027"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

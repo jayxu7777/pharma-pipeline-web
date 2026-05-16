@@ -1,0 +1,86 @@
+{
+  "slug": "rntx",
+  "ticker": "RNTX",
+  "issuer_name": "Rein Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001658566-25-000xxx",
+      "filed_date": "2025-08",
+      "exhibit": "EX-99.x",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001658566-25-000xxx",
+      "filed_date": "2025-11",
+      "exhibit": "EX-99.x",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001658566-25-000xxx",
+      "filed_date": "2025",
+      "exhibit": "EX-99.x",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "rntx",
+      "ticker": "RNTX",
+      "issuer": "Rein Therapeutics, Inc.",
+      "asset": "LTI-03",
+      "indication": "idiopathic pulmonary fibrosis (IPF)",
+      "phase": "Phase 2",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2025-08-31",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "UK MHRA approval received for the Phase 2 RENEW trial of LTI-03 in IPF"
+    },
+    {
+      "slug": "rntx",
+      "ticker": "RNTX",
+      "issuer": "Rein Therapeutics, Inc.",
+      "asset": "LTI-03",
+      "indication": "idiopathic pulmonary fibrosis (IPF)",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2025-11-30",
+      "date_precision": "month",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA clinical hold on the Phase 2 RENEW trial of LTI-03 was lifted in November 2025; trial initiation planned thereafter"
+    },
+    {
+      "slug": "rntx",
+      "ticker": "RNTX",
+      "issuer": "Rein Therapeutics, Inc.",
+      "asset": "LTI-03",
+      "indication": "idiopathic pulmonary fibrosis (IPF)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2026-12-31",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Phase 2 RENEW trial of LTI-03 in IPF expected to deliver topline readouts following FDA hold lift and UK MHRA approval"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "nspr",
+  "ticker": "NSPR",
+  "issuer_name": "InspireMD, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-021105",
+      "filed_date": "2026-05-04",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR / business update)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "nspr",
+      "ticker": "NSPR",
+      "issuer": "InspireMD, Inc.",
+      "asset": "CGuard Prime carotid stent (original delivery system)",
+      "indication": "carotid artery disease",
+      "phase": "regulatory",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-Q3",
+      "date_precision": "quarter",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "FDA approval of the original CGuard delivery system anticipated in Q3 2026"
+    },
+    {
+      "slug": "nspr",
+      "ticker": "NSPR",
+      "issuer": "InspireMD, Inc.",
+      "asset": "CGuard Prime 80 cm",
+      "indication": "TCAR (transcarotid artery revascularization)",
+      "phase": "regulatory",
+      "milestone_type": "approval",
+      "anticipated_date_iso": "2026-H2",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "adjacent",
+      "exchange": "Nasdaq",
+      "raw_text": "On track for expected FDA approval of the CGuard Prime 80 cm for TCAR procedures in H2 2026"
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

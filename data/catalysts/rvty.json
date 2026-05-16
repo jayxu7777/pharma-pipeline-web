@@ -1,0 +1,34 @@
+{
+  "slug": "rvty",
+  "ticker": "RVTY",
+  "issuer_name": "REVVITY, INC.",
+  "exchange": "NYSE",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0000031791-26-000016",
+      "filed_date": "2026-05-05",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000031791-26-000007",
+      "filed_date": "2026-02-12",
+      "exhibit": "Ex-99.1 (Q4 2025 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0000031791-25-000032",
+      "filed_date": "2025-10-27",
+      "exhibit": "Ex-99.1 (Q3 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Life sciences/diagnostics tools company; earnings releases discuss revenue, EPS guidance and China Immunodiagnostics divestiture only. No clinical trial or regulatory product catalysts."
+  }
+}

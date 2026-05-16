@@ -1,0 +1,20 @@
+{
+  "slug": "nage",
+  "ticker": "NAGE",
+  "issuer_name": "Niagen Bioscience, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001386570-26-000031",
+      "filed_date": "2026-05-06",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Consumer NAD+ ingredient/supplement company; latest PR is operational/financial guidance with no forward-dated clinical catalysts."
+  }
+}

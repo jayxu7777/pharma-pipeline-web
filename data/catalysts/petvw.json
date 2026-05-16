@@ -1,0 +1,48 @@
+{
+  "slug": "petvw",
+  "ticker": "PETVW",
+  "issuer_name": "PetVivo Holdings, Inc.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-007118",
+      "filed_date": "2025-02-14",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-008632",
+      "filed_date": "2025",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-25-020574",
+      "filed_date": "2025",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-003220",
+      "filed_date": "2026-03-03",
+      "exhibit": "EX-99.1",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001493152-26-008745",
+      "filed_date": "2026",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Warrant ticker for PETV; same underlying SEC filings. PetVivo is a veterinary medical device company (Spryng with OsteoCushion, PrecisePRP). No human clinical or regulatory catalysts (PDUFA/BLA/NDA/IND/Phase trials)."
+  }
+}

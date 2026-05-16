@@ -1,0 +1,113 @@
+{
+  "slug": "maze",
+  "ticker": "MAZE",
+  "issuer_name": "Maze Therapeutics, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-219398",
+      "filed_date": "2026-05-12",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    },
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-122774",
+      "filed_date": "2026-03-25",
+      "exhibit": "Ex-99.1 (4Q/FY 2025 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [
+    {
+      "slug": "maze",
+      "ticker": "MAZE",
+      "issuer": "Maze Therapeutics, Inc.",
+      "asset": "MZE782",
+      "indication": "phenylketonuria (PKU)",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Maze plans to initiate two Phase 2 proof-of-concept trials of MZE782 evaluating plasma phenylalanine (Phe) reduction in PKU and proteinuria reduction in CKD by mid-2026 and in the second half of 2026, respectively."
+    },
+    {
+      "slug": "maze",
+      "ticker": "MAZE",
+      "issuer": "Maze Therapeutics, Inc.",
+      "asset": "MZE782",
+      "indication": "chronic kidney disease (CKD)",
+      "phase": "Phase 2",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Maze plans to initiate two Phase 2 proof-of-concept trials of MZE782 evaluating plasma phenylalanine (Phe) reduction in PKU and proteinuria reduction in CKD by mid-2026 and in the second half of 2026, respectively."
+    },
+    {
+      "slug": "maze",
+      "ticker": "MAZE",
+      "issuer": "Maze Therapeutics, Inc.",
+      "asset": "MZE829",
+      "indication": "broad APOL1-mediated kidney disease (AMKD)",
+      "phase": "Phase 2",
+      "milestone_type": "data_update",
+      "anticipated_date_iso": "2026-12",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "We also look forward to reporting additional results from the HORIZON study in late 2026 or early 2027"
+    },
+    {
+      "slug": "maze",
+      "ticker": "MAZE",
+      "issuer": "Maze Therapeutics, Inc.",
+      "asset": "MZE829",
+      "indication": "moderate AMKD without diabetes (including FSGS)",
+      "phase": "Phase 3 (pivotal)",
+      "milestone_type": "initiation",
+      "anticipated_date_iso": "2027-06",
+      "date_precision": "half",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Maze plans to initiate a pivotal trial in patients with moderate AMKD without diabetes, including those with FSGS, in the first half of 2027, subject to regulatory feedback."
+    },
+    {
+      "slug": "maze",
+      "ticker": "MAZE",
+      "issuer": "Maze Therapeutics, Inc.",
+      "asset": "MZE782",
+      "indication": "phenylketonuria (PKU)",
+      "phase": "Phase 2",
+      "milestone_type": "topline",
+      "anticipated_date_iso": "2027",
+      "date_precision": "year",
+      "filed_date": "",
+      "confidence": "",
+      "source_url": "",
+      "kind": "core_biopharma",
+      "exchange": "Nasdaq",
+      "raw_text": "Topline data from the PKU Phase 2 trial is expected in 2027."
+    }
+  ],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": ""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "flna",
+  "ticker": "FLNA",
+  "issuer_name": "FILANA THERAPEUTICS, INC.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001171843-26-003119",
+      "filed_date": "2026-05-07",
+      "exhibit": "Ex-99.1 (Q1 2026 earnings PR)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Simufilam IND for TSC-related epilepsy is on full FDA Clinical Hold; company is working to address the hold and has not provided a forward-dated initiation, topline, or other clinical milestone. Recent 8-K coverage limited to corporate name change and Q1 2026 financials."
+  }
+}

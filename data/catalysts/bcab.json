@@ -1,0 +1,21 @@
+{
+  "slug": "bcab",
+  "ticker": "BCAB",
+  "issuer_name": "BioAtla, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-134501",
+      "filed_date": "2026-03-31",
+      "exhibit": "Ex-99.1 (FY 2025 earnings PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1826892/000119312526134501/bcab-ex99_1.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Company is in formal strategic process (Tungsten Advisors), implemented March 2026 workforce reduction, re-evaluating timing and scope of clinical development including BA3182 Phase 1 enrollment pacing and Oz-V Phase 3 OPSCC initiation timeline. No specific forward-looking trial dates disclosed; latest 8-K Q4/FY 2025 PR explicitly defers clinical timelines.",
+    "tier0_overlap_check": "Tier0 pipeline (Oz-V Phase 3 OPSCC, Mec-V Phase 2, evalstotug Phase 2, BA3182 Phase 1) all stand without sharper Tier1 dates pending strategic review."
+  }
+}

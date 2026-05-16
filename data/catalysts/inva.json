@@ -1,0 +1,17 @@
+{
+  "slug": "inva",
+  "ticker": "INVA",
+  "issuer_name": "Innoviva, Inc.",
+  "exchange": "Nasdaq",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001193125-26-209044",
+      "filed_date": "2026-05-09",
+      "exhibit": "EX-99.1",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {}
+}

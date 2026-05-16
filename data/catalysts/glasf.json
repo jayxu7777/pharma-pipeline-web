@@ -1,0 +1,20 @@
+{
+  "slug": "glasf",
+  "ticker": "GLASF",
+  "issuer_name": "Glass House Brands Inc.",
+  "exchange": "OTC (Cboe Canada NEO primary; OTCQX in US)",
+  "sources_used": [
+    {
+      "form": "6-K",
+      "accession": "0001848731-26-000025",
+      "filed_date": "2026",
+      "exhibit": "Ex-99.1 (Q1 2026 financials)",
+      "url": ""
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": true,
+    "blockers": "Glass House Brands is a California cannabis cultivation/retail operator, not a clinical-stage pharma; 6-K filings cover quarterly financial statements with no clinical or regulatory catalysts."
+  }
+}

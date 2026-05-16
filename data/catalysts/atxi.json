@@ -1,0 +1,27 @@
+{
+  "slug": "atxi",
+  "ticker": "ATXI",
+  "issuer_name": "AVENUE THERAPEUTICS, INC.",
+  "exchange": "OTC",
+  "sources_used": [
+    {
+      "form": "8-K",
+      "accession": "0001104659-26-018582",
+      "filed_date": "2026-02-23",
+      "exhibit": "Ex-99.1 (Duke University ATX-04 licensing PR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1644963/000110465926018582/tm267053d1_ex99-1.htm"
+    },
+    {
+      "form": "8-K",
+      "accession": "0001437749-25-034243",
+      "filed_date": "2025-08-04",
+      "exhibit": "8-K (corporate update)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1644963/000143774925034243/atxi20250430_8k.htm"
+    }
+  ],
+  "catalyst_rows": [],
+  "extractor_notes": {
+    "coverage_pass": false,
+    "blockers": "Most recent PR announces in-license of ATX-04 (clenbuterol) from Duke for Pompe disease; states Avenue will assume control of existing IND and orphan-drug designation but does not provide forward-dated trial-initiation, readout, or NDA milestones."
+  }
+}
