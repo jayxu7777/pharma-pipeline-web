@@ -23,7 +23,7 @@
     <div class="stat-card"><div class="label">Companies</div><div class="value" id="stat-companies">—</div></div>
     <div class="stat-card"><div class="label">Catalysts shown</div><div class="value" id="stat-shown">—</div></div>
     <div class="stat-card p3"><div class="label">Months covered</div><div class="value" id="stat-months">—</div></div>
-    <div class="stat-card p2"><div class="label">Result events</div><div class="value" id="stat-results">—</div></div>
+    <div class="stat-card p2"><div class="label">Trial readouts</div><div class="value" id="stat-results">—</div></div>
     <div class="stat-card p1"><div class="label">Regulatory events</div><div class="value" id="stat-reg">—</div></div>
   </section>
 
@@ -42,8 +42,8 @@
     <div class="ctrl-group">
       <label for="f-preset">Milestones</label>
       <select id="f-preset">
-        <option value="results" selected>Result-producing (default)</option>
-        <option value="regulatory">Regulatory only</option>
+        <option value="readouts" selected>Trial readouts only (default)</option>
+        <option value="regulatory">Regulatory (PDUFA / approval / submission)</option>
         <option value="all">All milestone types</option>
       </select>
     </div>
@@ -67,9 +67,9 @@
   </main>
 
   <footer>
-    Snapshot <span id="snapshot-date">—</span> · Default view shows result-producing catalysts (topline, interim, data update, presentation, PDUFA, approval). · No investment advice.
+    Snapshot <span id="snapshot-date">—</span> · Default view shows trial readouts only (topline, interim, data update, presentation). · No investment advice.
   </footer>
 
-  <script src="js/catalysts.js?v=3"></script>
+  <script src="js/catalysts.js?v=4"></script>
 </body>
 </html>

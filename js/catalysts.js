@@ -107,17 +107,23 @@ function inWindow(iso, win) {
 let allRows = [];
 let state = {
   window: 'future',
-  preset: 'results',   // results | regulatory | all
+  preset: 'readouts',  // readouts | regulatory | all
   kind: '',
   q: '',
   expanded: new Set(), // months whose extra rows are revealed
 };
 
+function isTrialReadout(mt) {
+  if (!mt) return false;
+  if (MS_RESULT.has(mt)) return true;
+  const s = mt.toLowerCase();
+  return /topline|top-?line|read.?out|interim|data\s*update|data_update|presentation|poster/.test(s);
+}
+
 function presetAllows(mt) {
-  const b = msBucket(mt);
   if (state.preset === 'all') return true;
-  if (state.preset === 'results') return b === 'result' || mt === 'PDUFA' || mt === 'approval';
-  if (state.preset === 'regulatory') return b === 'regulatory';
+  if (state.preset === 'readouts') return isTrialReadout(mt);
+  if (state.preset === 'regulatory') return msBucket(mt) === 'regulatory';
   return true;
 }
 
@@ -233,9 +239,8 @@ function render() {
   // Stats
   let nResult = 0, nReg = 0;
   for (const r of filtered) {
-    const b = msBucket(r.milestone_type);
-    if (b === 'result') nResult++;
-    else if (b === 'regulatory') nReg++;
+    if (isTrialReadout(r.milestone_type)) nResult++;
+    else if (msBucket(r.milestone_type) === 'regulatory') nReg++;
   }
   const companies = new Set(filtered.map(r => r.slug)).size;
   document.getElementById('stat-companies').textContent = fmt(companies);
@@ -296,9 +301,9 @@ async function init() {
     render();
   });
   document.getElementById('reset-btn').addEventListener('click', () => {
-    state = { window: 'future', preset: 'results', kind: '', q: '', expanded: new Set() };
+    state = { window: 'future', preset: 'readouts', kind: '', q: '', expanded: new Set() };
     document.getElementById('f-window').value = 'future';
-    document.getElementById('f-preset').value = 'results';
+    document.getElementById('f-preset').value = 'readouts';
     document.getElementById('f-kind').value = '';
     document.getElementById('q').value = '';
     render();
